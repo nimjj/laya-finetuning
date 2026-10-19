@@ -12,7 +12,7 @@ One repository now holds everything: **`https://github.com/nimjj/QA-system`, bra
 | Laya library | GitHub `NandhaKishorM/laya`, pinned commit `3cf26cb` (v0.4.0) | Installed automatically by `pip install -r requirements.txt` |
 | Stock Laya weights (1.5 GB) | Hugging Face `convaiinnovations/laya`, revision `7b928d82...` | Only for stock-Laya runs and the training-data tools. Optional (section 2, step 5) |
 | `.env` | git-ignored | Recreate from `.env.example` |
-| Old Ollama copy of the app (`qa-analysis-ollama`) | not a repo | Only to re-run Ollama; its results are in the repo. Skip |
+| Old Ollama copy of the app (`qa-analysis-ollama`) | a git worktree of commit `3035269` (on GitHub) | Only to re-run Ollama; its results are in the repo. Recreate with `git worktree add ..\qa-analysis-ollama 3035269`, run it with `SERVER_PORT=8007` and `ollama pull llama3.1` + `nomic-embed-text` |
 | Claude Code chat and notes | `C:\Users\<you>\.claude\projects\...` | Section 4 |
 
 ## 2. Setup (PowerShell; needs Git and Python 3.14, about 4 GB of disk)
@@ -83,3 +83,7 @@ Older notes in this folder say `qa-analysis/` (meaning the repo root) and `laya-
 - Frozen inputs: tag `laya-inputs-frozen-v3`, `inputs_sha256` `49e61755fdb692f5...`. It covers `laya_inputs.py`, `rule_engine.py` and `laya_windows.py`. If it stops matching, training data built earlier must be regenerated. (The older tag `laya-inputs-frozen-v2` was made at a commit that lacked the flow-v2 switch; ignore it.)
 - Latest results: `Docs/FLOW_V2.md`. Next steps: sealed test set and new training data from Antigravity, retrain, human review, shadow mode.
 - Never push to the `bitbucket` remote; the weights never go to GitHub.
+
+## 7. Do not keep the repo inside a Google Drive synced folder
+On the old PC the project folder was mirrored by Google Drive for desktop, and edits to tracked files were silently reverted twice (flow-v2 code was lost before a commit and had to be redone). A synced folder can also corrupt the `.git` folder. On the new PC keep the repo in a plain local folder (for example `C:\dev\QA-system`), and use `git push` as the backup. If you must keep Drive, exclude the repo folder from sync. Always check `git status` and `git diff` before committing.
+
