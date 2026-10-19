@@ -19,6 +19,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
+import paths  # noqa: E402
 from build_rows import Builder, parse_file, to_transcript  # noqa: E402
 
 # (name, description, violation_based) -- the kind of custom line items tenants configure
@@ -52,7 +53,7 @@ def main():
     args = ap.parse_args()
 
     b = Builder(source="replay")
-    qa = os.path.abspath(os.path.join(REPO, "..", "qa-analysis"))
+    qa = paths.QA_ROOT
     from src.services.dynamic_evaluator import _batch_check
     from src.services.laya_adapter import predict_yes
     if os.getenv("LAYA_CHECKPOINT"):

@@ -21,6 +21,8 @@ import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
+sys.path.insert(0, HERE)
+import paths  # noqa: E402
 BASE_WEIGHTS_SHA256 = "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c"   # snapshot 7b928d82...
 BASE_SNAPSHOT = os.path.join("hub", "models--convaiinnovations--laya", "snapshots",
                              "7b928d828b7b0e022f929d9bd2e44165aa270148", "model.safetensors")
@@ -38,7 +40,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--checkpoint", required=True, help="folder with model.safetensors + rl_agent_config.json")
     ap.add_argument("--preds", required=True, help="smoke_preds_ft.json saved by the Colab notebook (cell 11)")
-    ap.add_argument("--qa-root", default=os.path.join(REPO, "..", "qa-analysis"))
+    ap.add_argument("--qa-root", default=paths.QA_ROOT)
     ap.add_argument("--frozen", default=os.path.join(REPO, "data", "frozen", "checks_frozen.json"))
     ap.add_argument("--tol", type=float, default=0.03)
     args = ap.parse_args()
@@ -91,7 +93,7 @@ def main():
         problems.append(f"largest difference {worst:.4f} is over {args.tol}")
 
     # the original must be untouched
-    hf_home = os.environ.get("HF_HOME") or os.path.join(os.path.abspath(os.path.join(qa_root, "..", "laya-test")), "hf_home")
+    hf_home = paths.hf_home() or os.path.join(os.path.expanduser("~"), ".cache", "huggingface")
     base_path = os.path.join(hf_home, BASE_SNAPSHOT)
     if os.path.isfile(base_path):
         ok = sha256_file(base_path) == BASE_WEIGHTS_SHA256

@@ -33,6 +33,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
+import paths  # noqa: E402
 from roughen import roughen_text  # noqa: E402
 
 ROUGH_PERCENT = 30
@@ -181,9 +182,11 @@ def select(check, inp, transcript, focus_idx, qa_rule_engine):
 
 # ------------------------------------------------------------------ tokenizer / window
 def load_tokenizer():
-    sys.path.insert(0, os.path.join(REPO, "..", "qa-analysis"))
-    snap = os.path.join(REPO, "..", "laya-test", "hf_home", "hub", "models--convaiinnovations--laya", "snapshots",
-                        "7b928d828b7b0e022f929d9bd2e44165aa270148")
+    sys.path.insert(0, paths.QA_ROOT)
+    snap = paths.base_snapshot()
+    if snap is None or not os.path.isdir(snap):
+        sys.exit("STOP: base Laya weights not found. Set LAYA_HF_HOME to the Hugging Face cache that holds "
+                 "convaiinnovations/laya revision " + paths.BASE_REVISION + " (see docs/NEW_PC_SETUP.md).")
     cfg = json.load(open(os.path.join(snap, "rl_agent_config.json"), encoding="utf-8"))
     from laya.agent import _load_tokenizer
     return _load_tokenizer(os.path.join(snap, "tokenizer"), cfg), cfg
@@ -195,8 +198,7 @@ class Builder:
 
     def __init__(self, source="claude"):
         self.source = source
-        qa = os.path.abspath(os.path.join(REPO, "..", "qa-analysis"))
-        sys.path.insert(0, qa)
+        sys.path.insert(0, paths.QA_ROOT)
         chk = subprocess.run([sys.executable, os.path.join(HERE, "export_checks.py"), "--check"], capture_output=True, text=True)
         print(chk.stdout.strip())
         if chk.returncode != 0:

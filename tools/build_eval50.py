@@ -30,7 +30,9 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
-QA = os.path.abspath(os.path.join(REPO, "..", "qa-analysis"))
+sys.path.insert(0, HERE)
+import paths  # noqa: E402
+QA = paths.QA_ROOT
 OUT = os.path.join(QA, "inputs", "Eval50")
 sys.path.insert(0, QA)
 

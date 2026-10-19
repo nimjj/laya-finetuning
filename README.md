@@ -1,5 +1,7 @@
 # Fine-tuning Laya to replace Ollama in the QA grading pipeline
 
+> **Where this lives now (2026-10-20):** this folder is part of the QA repository (`nimjj/QA-system`, branch `laya-finetuning`); it used to be the separate `nimjj/laya-finetuning` repo, whose history is kept. The app is the repo root, so older notes below that say `qa-analysis/` mean the repo root and `laya-training/` means this folder. Setup on a new PC: `docs/NEW_PC_SETUP.md`. Latest results: `runs/ag50/RESULT.md` and `Docs/FLOW_V2.md` at the repo root.
+
 > Moving to another PC? See `docs/NEW_PC_SETUP.md` (what to copy, setup steps, checks, and how to carry the Claude Code notes).
 
 **Document status:** review copy for the AI/ML engineer, written 2026-10-16. Everything below is marked **Done**, **In progress** or **Planned**. Section 9 lists the specific points we want challenged. `docs/DATA_PLAN.md` is the working copy of the phase table and data volumes; if the two ever differ, this README is the one reviewed.

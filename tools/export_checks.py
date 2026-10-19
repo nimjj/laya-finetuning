@@ -11,7 +11,7 @@ The Colab notebooks embed this file, so training and serving use exactly the pro
 
 Usage (qa-analysis .venv, from anywhere):
     python tools/export_checks.py
-    python tools/export_checks.py --qa-root "../qa-analysis" --out data/frozen/checks_frozen.json
+    python tools/export_checks.py --out data/frozen/checks_frozen.json
     python tools/export_checks.py --check          # exit 1 if the file no longer matches qa-analysis
 """
 import argparse
@@ -23,6 +23,8 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
+sys.path.insert(0, HERE)
+import paths  # noqa: E402
 
 CAP_NAMES = [
     "EMPATHY_MAX_SNIPPETS", "PROBING_PROBLEM_MAX_WORDS", "PROBING_QUESTIONS_MAX_WORDS",
@@ -76,7 +78,7 @@ def build(qa_root: str) -> dict:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--qa-root", default=os.path.join(REPO, "..", "qa-analysis"))
+    ap.add_argument("--qa-root", default=paths.QA_ROOT, help="the repo root (default: one level above laya-finetuning)")
     ap.add_argument("--out", default=os.path.join(REPO, "data", "frozen", "checks_frozen.json"))
     ap.add_argument("--check", action="store_true", help="compare with the existing file instead of writing")
     args = ap.parse_args()

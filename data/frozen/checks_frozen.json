@@ -136,14 +136,14 @@
     }
   },
   "sha256": "f31b14a509629d6554551702f4d6c50fd6fa41a694186b7b87d2843a78456f61",
-  "inputs_sha256": "c1fd935411242e06da42607b6538df4d960ebdedd582b55fb3f5876bc2db1370",
+  "inputs_sha256": "49e61755fdb692f508bcefab9a2eae4ade74ec4a5a8c93bf4eae02d7132083c5",
   "extractor_sources_sha256": {
-    "laya_inputs.py": "611d73145101249872eadd0a6fbe9491d26fb6b90eca3832e84fa877e60c969c",
+    "laya_inputs.py": "bb5a0bc1606a92ba39538984feebf19ee344363cfd6c674fd4fe0fd065758a21",
     "rule_engine.py": "5b755cea212a2dd409db3e01f64ec29ef50ab94c5e3378cdb2ea5041bc13bce9",
     "laya_windows.py": "70e3b86edaf582afd1be39045781e65b419fd4da54acf4ea5d064d6becd91f1f"
   },
   "n_questions": 9,
-  "qa_analysis_commit": "33a0f9be62fa0bd3ff5ed8059eb51f0a28bd6687",
-  "qa_analysis_branch": "version-10.2-laya-finetune",
+  "qa_analysis_commit": "91aea83c83661eb211144618c9ddf86f1c3341ce",
+  "qa_analysis_branch": "laya-finetuning",
   "qa_analysis_dirty": false
 }

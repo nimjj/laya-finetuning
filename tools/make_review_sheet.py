@@ -12,7 +12,7 @@ Sheets:
 
 Usage (any Python with openpyxl):
     python tools/make_review_sheet.py
-    python tools/make_review_sheet.py --qa-root ../qa-analysis --out data/review/main_scorecard_review.xlsx
+    python tools/make_review_sheet.py --out data/review/main_scorecard_review.xlsx
 """
 import argparse
 import difflib
@@ -506,7 +506,7 @@ def write_readme(ws, rows, last_rev, blind):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--qa-root", default=os.path.join(REPO, "..", "qa-analysis"))
+    ap.add_argument("--qa-root", default=os.path.dirname(REPO), help="the repo root")
     ap.add_argument("--out", default=None)
     ap.add_argument("--subset", default=None,
                     help="subset_main.json from pick_review_subset.py: build the BLIND subset workbook (no answers)")
