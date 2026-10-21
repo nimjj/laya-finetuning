@@ -1,7 +1,7 @@
 {
   "rows": {
-    "train_all2": 2131,
-    "dev_all2": 492,
+    "train_all2": 2174,
+    "dev_all2": 493,
     "test": 396,
     "test_long": 180,
     "test_calls": 40
@@ -10,20 +10,20 @@
     "active_listening": {
       "PASS": 83,
       "FAIL": 84,
-      "FAIL (AG)": 67,
-      "PASS (AG)": 94
+      "FAIL (AG)": 70,
+      "PASS (AG)": 111
     },
     "empathy": {
       "PASS": 78,
       "FAIL": 75,
-      "PASS (AG)": 14,
-      "FAIL (AG)": 7
+      "PASS (AG)": 33,
+      "FAIL (AG)": 41
     },
     "paraphrasing": {
       "PASS": 208,
       "FAIL": 194,
-      "PASS (AG)": 27,
-      "FAIL (AG)": 27
+      "PASS (AG)": 16,
+      "FAIL (AG)": 8
     },
     "rapport": {
       "PASS": 144,
@@ -65,8 +65,8 @@
     "active_listening": {
       "PASS": 20,
       "FAIL": 21,
-      "PASS (AG)": 20,
-      "FAIL (AG)": 6
+      "PASS (AG)": 21,
+      "FAIL (AG)": 5
     },
     "resolved": {
       "PASS": 43,
@@ -75,13 +75,13 @@
     "empathy": {
       "PASS": 21,
       "FAIL": 21,
-      "FAIL (AG)": 1,
-      "PASS (AG)": 9
+      "FAIL (AG)": 2,
+      "PASS (AG)": 10
     },
     "rapport": {
       "PASS": 46,
       "FAIL": 41,
-      "PASS (AG)": 27,
+      "PASS (AG)": 26,
       "FAIL (AG)": 5
     },
     "ownership": {
@@ -109,8 +109,8 @@
     "66deff95a20c"
   ],
   "sha256": {
-    "train_all2.jsonl": "980bf7c0baeab3970757fc0ff6ea10b2ccff2186e73d43d561bc4515749c341e",
-    "dev_all2.jsonl": "1d00cd96aef5cf7f5af05b84bf5878374800d5c42001a3ccb7b5ad89b9f1f988"
+    "train_all2.jsonl": "438c15af6af36360ada92829334d3fe9b8700c2e12b22f398b7f82d693d1d9a9",
+    "dev_all2.jsonl": "c4081670c54689c5a8bb780d41c5b0629e20e216dfa9b49b0d6fe057f4ecdd61"
   },
   "problems": [],
   "authorship": "Stage-3 rows: written and labelled by Claude. AG rows: written and labelled by Antigravity. Nothing is human-labelled."

@@ -218,24 +218,10 @@
    "kind": "unmarked_al_candidate"
   },
   {
-   "call": "agt_023",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_023",
-   "check": "paraphrasing",
-   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
-   "turn": null,
-   "kind": null
-  },
-  {
    "call": "agt_025",
    "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
+   "reason": "window at turn 23 matches no marker",
+   "turn": 23,
    "kind": "unmarked_outburst"
   },
   {
@@ -246,466 +232,298 @@
    "kind": null
   },
   {
-   "call": "agt_026",
+   "call": "agt_027",
    "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
+   "reason": "window at turn 32 matches no marker",
+   "turn": 32,
    "kind": "unmarked_outburst"
   },
   {
    "call": "agt_027",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
   },
   {
    "call": "agt_027",
+   "check": "active_listening",
+   "reason": "block at turn 23 in a faulty call matches no marker",
+   "turn": 23,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_028",
+   "check": "empathy",
+   "reason": "window at turn 37 matches no marker",
+   "turn": 37,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_028",
+   "check": "active_listening",
+   "reason": "block at turn 6 in a faulty call matches no marker",
+   "turn": 6,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_029",
+   "check": "empathy",
+   "reason": "window at turn 16 matches no marker",
+   "turn": 16,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_030",
+   "check": "empathy",
+   "reason": "window at turn 45 matches no marker",
+   "turn": 45,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_031",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_031",
+   "check": "active_listening",
+   "reason": "block at turn 43 in a faulty call matches no marker",
+   "turn": 43,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_031",
+   "check": "active_listening",
+   "reason": "block at turn 6 in a faulty call matches no marker",
+   "turn": 6,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_033",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_034",
+   "check": "empathy",
+   "reason": "window at turn 40 matches no marker",
+   "turn": 40,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_034",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_034",
+   "check": "active_listening",
+   "reason": "block at turn 8 in a faulty call matches no marker",
+   "turn": 8,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_034",
+   "check": "active_listening",
+   "reason": "block at turn 37 in a faulty call matches no marker",
+   "turn": 37,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_037",
+   "check": "active_listening",
+   "reason": "block at turn 6 in a faulty call matches no marker",
+   "turn": 6,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_037",
+   "check": "active_listening",
+   "reason": "block at turn 49 in a faulty call matches no marker",
+   "turn": 49,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_038",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_038",
+   "check": "active_listening",
+   "reason": "block at turn 8 in a faulty call matches no marker",
+   "turn": 8,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_039",
+   "check": "active_listening",
+   "reason": "block at turn 8 in a faulty call matches no marker",
+   "turn": 8,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_042",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_042",
+   "check": "active_listening",
+   "reason": "block at turn 8 in a faulty call matches no marker",
+   "turn": 8,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_044",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_044",
+   "check": "active_listening",
+   "reason": "block at turn 6 in a faulty call matches no marker",
+   "turn": 6,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_045",
+   "check": "empathy",
+   "reason": "window at turn 37 matches no marker",
+   "turn": 37,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_045",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_045",
+   "check": "active_listening",
+   "reason": "block at turn 40 in a faulty call matches no marker",
+   "turn": 40,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_047",
+   "check": "empathy",
+   "reason": "window at turn 47 matches no marker",
+   "turn": 47,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_048",
+   "check": "empathy",
+   "reason": "window at turn 33 matches no marker",
+   "turn": 33,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_048",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_048",
+   "check": "active_listening",
+   "reason": "block at turn 36 in a faulty call matches no marker",
+   "turn": 36,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_048",
+   "check": "active_listening",
+   "reason": "block at turn 8 in a faulty call matches no marker",
+   "turn": 8,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_050",
+   "check": "active_listening",
+   "reason": "block at turn 6 in a faulty call matches no marker",
+   "turn": 6,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_050",
+   "check": "active_listening",
+   "reason": "block at turn 8 in a faulty call matches no marker",
+   "turn": 8,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_051",
    "check": "empathy",
    "reason": "window at turn 34 matches no marker",
    "turn": 34,
    "kind": "unmarked_outburst"
   },
   {
-   "call": "agt_027",
+   "call": "agt_051",
    "check": "paraphrasing",
    "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
-  },
-  {
-   "call": "agt_027",
-   "check": "active_listening",
-   "reason": "block at turn 51 in a faulty call matches no marker",
-   "turn": 51,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_028",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_028",
-   "check": "paraphrasing",
-   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
-   "turn": null,
-   "kind": null
-  },
-  {
-   "call": "agt_028",
-   "check": "active_listening",
-   "reason": "block at turn 4 in a faulty call matches no marker",
-   "turn": 4,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_028",
-   "check": "active_listening",
-   "reason": "block at turn 38 in a faulty call matches no marker",
-   "turn": 38,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_029",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_030",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_030",
-   "check": "paraphrasing",
-   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
-   "turn": null,
-   "kind": null
-  },
-  {
-   "call": "agt_031",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_031",
-   "check": "paraphrasing",
-   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
-   "turn": null,
-   "kind": null
-  },
-  {
-   "call": "agt_031",
-   "check": "active_listening",
-   "reason": "block at turn 43 in a faulty call matches no marker",
-   "turn": 43,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_032",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_033",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_033",
-   "check": "active_listening",
-   "reason": "block at turn 39 in a faulty call matches no marker",
-   "turn": 39,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_034",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_034",
-   "check": "paraphrasing",
-   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
-   "turn": null,
-   "kind": null
-  },
-  {
-   "call": "agt_034",
-   "check": "active_listening",
-   "reason": "block at turn 4 in a faulty call matches no marker",
-   "turn": 4,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_035",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_036",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_037",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_037",
-   "check": "empathy",
-   "reason": "window at turn 42 matches no marker",
-   "turn": 42,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_037",
-   "check": "active_listening",
-   "reason": "block at turn 45 in a faulty call matches no marker",
-   "turn": 45,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_038",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_038",
-   "check": "empathy",
-   "reason": "window at turn 41 matches no marker",
-   "turn": 41,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_038",
-   "check": "active_listening",
-   "reason": "block at turn 40 in a faulty call matches no marker",
-   "turn": 40,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_038",
-   "check": "active_listening",
-   "reason": "block at turn 40 in a faulty call matches no marker",
-   "turn": 40,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_038",
-   "check": "active_listening",
-   "reason": "block at turn 44 in a faulty call matches no marker",
-   "turn": 44,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_039",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_039",
-   "check": "empathy",
-   "reason": "window at turn 40 matches no marker",
-   "turn": 40,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_039",
-   "check": "active_listening",
-   "reason": "block at turn 43 in a faulty call matches no marker",
-   "turn": 43,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_040",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_041",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_041",
-   "check": "empathy",
-   "reason": "window at turn 31 matches no marker",
-   "turn": 31,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_042",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_042",
-   "check": "empathy",
-   "reason": "window at turn 41 matches no marker",
-   "turn": 41,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_042",
-   "check": "paraphrasing",
-   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
-   "turn": null,
-   "kind": null
-  },
-  {
-   "call": "agt_042",
-   "check": "active_listening",
-   "reason": "block at turn 40 in a faulty call matches no marker",
-   "turn": 40,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_042",
-   "check": "active_listening",
-   "reason": "block at turn 40 in a faulty call matches no marker",
-   "turn": 40,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_042",
-   "check": "active_listening",
-   "reason": "block at turn 44 in a faulty call matches no marker",
-   "turn": 44,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_043",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_043",
-   "check": "empathy",
-   "reason": "window at turn 22 matches no marker",
-   "turn": 22,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_044",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_044",
-   "check": "empathy",
-   "reason": "window at turn 38 matches no marker",
-   "turn": 38,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_044",
-   "check": "active_listening",
-   "reason": "block at turn 4 in a faulty call matches no marker",
-   "turn": 4,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_045",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_045",
-   "check": "empathy",
-   "reason": "window at turn 40 matches no marker",
-   "turn": 40,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_045",
-   "check": "active_listening",
-   "reason": "block at turn 4 in a faulty call matches no marker",
-   "turn": 4,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_046",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_047",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_048",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_048",
-   "check": "empathy",
-   "reason": "window at turn 36 matches no marker",
-   "turn": 36,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_048",
-   "check": "active_listening",
-   "reason": "block at turn 43 in a faulty call matches no marker",
-   "turn": 43,
-   "kind": "unmarked_al_candidate"
-  },
-  {
-   "call": "agt_049",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_050",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_050",
-   "check": "empathy",
-   "reason": "window at turn 55 matches no marker",
-   "turn": 55,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_050",
-   "check": "active_listening",
-   "reason": "block at turn 38 in a faulty call matches no marker",
-   "turn": 38,
-   "kind": "unmarked_al_candidate"
   },
   {
    "call": "agt_051",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
+   "check": "active_listening",
+   "reason": "block at turn 6 in a faulty call matches no marker",
+   "turn": 6,
+   "kind": "unmarked_al_candidate"
   },
   {
    "call": "agt_052",
    "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_053",
-   "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
+   "reason": "window at turn 50 matches no marker",
+   "turn": 50,
    "kind": "unmarked_outburst"
   },
   {
    "call": "agt_054",
    "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
-   "kind": "unmarked_outburst"
-  },
-  {
-   "call": "agt_054",
-   "check": "active_listening",
-   "reason": "block at turn 33 in a faulty call matches no marker",
+   "reason": "window at turn 33 matches no marker",
    "turn": 33,
-   "kind": "unmarked_al_candidate"
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_054",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
   },
   {
    "call": "agt_055",
    "check": "empathy",
-   "reason": "window at turn 1 matches no marker",
-   "turn": 1,
+   "reason": "window at turn 49 matches no marker",
+   "turn": 49,
    "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_055",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
   },
   {
    "call": "agt_056",
@@ -713,6 +531,13 @@
    "reason": "window at turn 1 matches no marker",
    "turn": 1,
    "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_056",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
   },
   {
    "call": "agt_056",
@@ -727,6 +552,13 @@
    "reason": "window at turn 1 matches no marker",
    "turn": 1,
    "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_057",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
   },
   {
    "call": "agt_057",
@@ -745,7 +577,7 @@
   {
    "call": "agt_058",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -759,7 +591,7 @@
   {
    "call": "agt_059",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -769,6 +601,13 @@
    "reason": "window at turn 1 matches no marker",
    "turn": 1,
    "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_060",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
   },
   {
    "call": "agt_060",
@@ -783,6 +622,13 @@
    "reason": "window at turn 1 matches no marker",
    "turn": 1,
    "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_061",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
   },
   {
    "call": "agt_061",
@@ -797,6 +643,13 @@
    "reason": "window at turn 1 matches no marker",
    "turn": 1,
    "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_062",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
   },
   {
    "call": "agt_062",
@@ -814,6 +667,13 @@
   },
   {
    "call": "agt_063",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_063",
    "check": "active_listening",
    "reason": "block at turn 4 in a faulty call matches no marker",
    "turn": 4,
@@ -829,7 +689,7 @@
   {
    "call": "agt_064",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -842,9 +702,16 @@
   },
   {
    "call": "agt_065",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_065",
    "check": "active_listening",
-   "reason": "block at turn 50 in a faulty call matches no marker",
-   "turn": 50,
+   "reason": "block at turn 6 in a faulty call matches no marker",
+   "turn": 6,
    "kind": "unmarked_al_candidate"
   },
   {
@@ -853,6 +720,13 @@
    "reason": "window at turn 1 matches no marker",
    "turn": 1,
    "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_066",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
   },
   {
    "call": "agt_066",
@@ -870,9 +744,16 @@
   },
   {
    "call": "agt_067",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_067",
    "check": "active_listening",
-   "reason": "block at turn 50 in a faulty call matches no marker",
-   "turn": 50,
+   "reason": "block at turn 6 in a faulty call matches no marker",
+   "turn": 6,
    "kind": "unmarked_al_candidate"
   },
   {
@@ -885,7 +766,7 @@
   {
    "call": "agt_068",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -906,7 +787,7 @@
   {
    "call": "agt_069",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -920,7 +801,7 @@
   {
    "call": "agt_070",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -934,7 +815,7 @@
   {
    "call": "agt_071",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -955,7 +836,7 @@
   {
    "call": "agt_072",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -974,6 +855,20 @@
    "kind": "unmarked_outburst"
   },
   {
+   "call": "agt_073",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_073",
+   "check": "active_listening",
+   "reason": "block at turn 6 in a faulty call matches no marker",
+   "turn": 6,
+   "kind": "unmarked_al_candidate"
+  },
+  {
    "call": "agt_074",
    "check": "empathy",
    "reason": "window at turn 1 matches no marker",
@@ -990,7 +885,7 @@
   {
    "call": "agt_074",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1000,6 +895,13 @@
    "reason": "window at turn 1 matches no marker",
    "turn": 1,
    "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_075",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
   },
   {
    "call": "agt_075",
@@ -1018,7 +920,7 @@
   {
    "call": "agt_076",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1032,7 +934,7 @@
   {
    "call": "agt_077",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1052,6 +954,13 @@
   },
   {
    "call": "agt_078",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_078",
    "check": "active_listening",
    "reason": "block at turn 2 in a faulty call matches no marker",
    "turn": 2,
@@ -1067,7 +976,7 @@
   {
    "call": "agt_079",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1095,7 +1004,7 @@
   {
    "call": "agt_080",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1109,9 +1018,16 @@
   {
    "call": "agt_081",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
+  },
+  {
+   "call": "agt_081",
+   "check": "active_listening",
+   "reason": "block at turn 6 in a faulty call matches no marker",
+   "turn": 6,
+   "kind": "unmarked_al_candidate"
   },
   {
    "call": "agt_082",
@@ -1123,7 +1039,7 @@
   {
    "call": "agt_082",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1137,8 +1053,8 @@
   {
    "call": "agt_082",
    "check": "active_listening",
-   "reason": "block at turn 4 in a faulty call matches no marker",
-   "turn": 4,
+   "reason": "block at turn 6 in a faulty call matches no marker",
+   "turn": 6,
    "kind": "unmarked_al_candidate"
   },
   {
@@ -1158,7 +1074,7 @@
   {
    "call": "agt_083",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1179,7 +1095,7 @@
   {
    "call": "agt_084",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1193,7 +1109,7 @@
   {
    "call": "agt_085",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1242,16 +1158,9 @@
   {
    "call": "agt_087",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
-  },
-  {
-   "call": "agt_087",
-   "check": "active_listening",
-   "reason": "block at turn 49 in a faulty call matches no marker",
-   "turn": 49,
-   "kind": "unmarked_al_candidate"
   },
   {
    "call": "agt_088",
@@ -1282,6 +1191,13 @@
    "kind": null
   },
   {
+   "call": "agt_088",
+   "check": "active_listening",
+   "reason": "block at turn 6 in a faulty call matches no marker",
+   "turn": 6,
+   "kind": "unmarked_al_candidate"
+  },
+  {
    "call": "agt_089",
    "check": "empathy",
    "reason": "window at turn 1 matches no marker",
@@ -1291,7 +1207,7 @@
   {
    "call": "agt_089",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1305,7 +1221,7 @@
   {
    "call": "agt_090",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1322,6 +1238,13 @@
    "reason": "window at turn 1 matches no marker",
    "turn": 1,
    "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_091",
+   "check": "active_listening",
+   "reason": "block at turn 6 in a faulty call matches no marker",
+   "turn": 6,
+   "kind": "unmarked_al_candidate"
   },
   {
    "call": "agt_092",
@@ -1347,7 +1270,7 @@
   {
    "call": "agt_092",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1361,7 +1284,7 @@
   {
    "call": "agt_093",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1375,7 +1298,7 @@
   {
    "call": "agt_094",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1389,7 +1312,7 @@
   {
    "call": "agt_095",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1401,6 +1324,13 @@
    "kind": "unmarked_outburst"
   },
   {
+   "call": "agt_096",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
    "call": "agt_097",
    "check": "empathy",
    "reason": "window at turn 1 matches no marker",
@@ -1410,7 +1340,7 @@
   {
    "call": "agt_097",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1438,7 +1368,7 @@
   {
    "call": "agt_098",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1452,7 +1382,7 @@
   {
    "call": "agt_099",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   },
@@ -1466,7 +1396,7 @@
   {
    "call": "agt_100",
    "check": "paraphrasing",
-   "reason": "the restatement is outside the window production shows",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
    "turn": null,
    "kind": null
   }
