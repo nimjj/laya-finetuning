@@ -27,8 +27,10 @@ for name, b64 in DATA_B64.items():
     open(f"{DATA_DIR}/{name}.jsonl", "wb").write(raw)
     SPLIT[name] = [json.loads(l) for l in raw.decode("utf-8").splitlines() if l.strip()]
     print(f"data sha OK: {name:<10} {len(SPLIT[name])} rows")
+ACCEPTED = set({{ACCEPTED_HASHES}}) | {FROZEN["inputs_sha256"]}     # rows record the extractor hash that built them
 for s in SPLIT.values():
-    assert all(r["meta"]["inputs_sha256"] == FROZEN["inputs_sha256"] for r in s), "rows were built from different inputs"
+    assert all(r["meta"]["inputs_sha256"] in ACCEPTED for r in s), "rows were built from inputs that are not in the accepted list"
+print("row input hashes (accepted):", sorted({r["meta"]["inputs_sha256"][:12] for s in SPLIT.values() for r in s}))
 
 import collections
 tbl = collections.defaultdict(lambda: collections.Counter())

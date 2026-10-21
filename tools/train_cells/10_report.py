@@ -6,7 +6,7 @@
 VARIANTS = [n for n, _ in RUNS if n in RES]
 WINNER = max(VARIANTS, key=lambda n: RES[n]["mean_auc_dev_trained"])
 print("WINNER (best mean dev AUC over the 5 trained checks):", WINNER, {n: round(RES[n]["mean_auc_dev_trained"], 3) for n in VARIANTS})
-print("NOTE: all rows are Claude-written and Claude-labelled; the test set is unseen industries/personas but NOT independent.\n")
+print("NOTE: train and dev rows are written and labelled by AI: Claude (stage 3) and, if present (source antigravity-agt), Antigravity. The test sets are Claude-written (unseen industries/personas), NOT independent. Nothing is human-labelled.\n")
 
 for n in VARIANTS:
     R, B = RES[n], RES["base"]

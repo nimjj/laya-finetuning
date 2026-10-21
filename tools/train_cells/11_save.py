@@ -48,7 +48,7 @@ assert dmax < 1e-4, "Drive copy predicts differently: stop and tell Claude"
 
 # compact summary
 lines = [f"=== PASTE THIS BACK TO CLAUDE ===", f"run {RUN_ID} | winner {WINNER} | gpu {manifest['gpu']}",
-         "rows: Claude-written and Claude-labelled (not independent). test = unseen industries/personas."]
+         "rows: AI-written and AI-labelled (Claude stage-3 rows; Antigravity AG-T rows if present), nothing human-labelled. test = Claude-written, unseen industries/personas, not independent."]
 for n in VARIANTS:
     lines.append(f"[{n}] wall {TRAIN_INFO[n]['wall_s']}s | losses: " + " ".join(l.split("mean loss")[-1].strip().split()[0] for l in TRAIN_INFO[n]["losses"]))
 for c in TRAINED + REGRESSION:

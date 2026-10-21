@@ -1,0 +1,1475 @@
+{
+ "dropped": [
+  {
+   "call": "agt_001",
+   "check": "empathy",
+   "reason": "window at turn 41 matches no marker",
+   "turn": 41,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_002",
+   "check": "empathy",
+   "reason": "window at turn 19 matches no marker",
+   "turn": 19,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_002",
+   "check": "empathy",
+   "reason": "window at turn 45 matches no marker",
+   "turn": 45,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_004",
+   "check": "empathy",
+   "reason": "window at turn 31 matches no marker",
+   "turn": 31,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_004",
+   "check": "empathy",
+   "reason": "window at turn 60 matches no marker",
+   "turn": 60,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_005",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_006",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_007",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_008",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_009",
+   "check": "empathy",
+   "reason": "window at turn 13 matches no marker",
+   "turn": 13,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_009",
+   "check": "empathy",
+   "reason": "window at turn 37 matches no marker",
+   "turn": 37,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_010",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_011",
+   "check": "empathy",
+   "reason": "window at turn 3 matches no marker",
+   "turn": 3,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_012",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_012",
+   "check": "active_listening",
+   "reason": "block at turn 30 in a faulty call matches no marker",
+   "turn": 30,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_012",
+   "check": "active_listening",
+   "reason": "block at turn 30 in a faulty call matches no marker",
+   "turn": 30,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_014",
+   "check": "empathy",
+   "reason": "window at turn 15 matches no marker",
+   "turn": 15,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_014",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_014",
+   "check": "active_listening",
+   "reason": "block at turn 36 in a faulty call matches no marker",
+   "turn": 36,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_015",
+   "check": "empathy",
+   "reason": "window at turn 5 matches no marker",
+   "turn": 5,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_016",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_017",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_018",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_019",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_020",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_020",
+   "check": "active_listening",
+   "reason": "block at turn 4 in a faulty call matches no marker",
+   "turn": 4,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_021",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_022",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_022",
+   "check": "empathy",
+   "reason": "window at turn 35 matches no marker",
+   "turn": 35,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_022",
+   "check": "active_listening",
+   "reason": "block at turn 42 in a faulty call matches no marker",
+   "turn": 42,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_022",
+   "check": "active_listening",
+   "reason": "block at turn 40 in a faulty call matches no marker",
+   "turn": 40,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_023",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_023",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_025",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_025",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_026",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_027",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_027",
+   "check": "empathy",
+   "reason": "window at turn 34 matches no marker",
+   "turn": 34,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_027",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_027",
+   "check": "active_listening",
+   "reason": "block at turn 51 in a faulty call matches no marker",
+   "turn": 51,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_028",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_028",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_028",
+   "check": "active_listening",
+   "reason": "block at turn 4 in a faulty call matches no marker",
+   "turn": 4,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_028",
+   "check": "active_listening",
+   "reason": "block at turn 38 in a faulty call matches no marker",
+   "turn": 38,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_029",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_030",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_030",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_031",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_031",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_031",
+   "check": "active_listening",
+   "reason": "block at turn 43 in a faulty call matches no marker",
+   "turn": 43,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_032",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_033",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_033",
+   "check": "active_listening",
+   "reason": "block at turn 39 in a faulty call matches no marker",
+   "turn": 39,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_034",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_034",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_034",
+   "check": "active_listening",
+   "reason": "block at turn 4 in a faulty call matches no marker",
+   "turn": 4,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_035",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_036",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_037",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_037",
+   "check": "empathy",
+   "reason": "window at turn 42 matches no marker",
+   "turn": 42,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_037",
+   "check": "active_listening",
+   "reason": "block at turn 45 in a faulty call matches no marker",
+   "turn": 45,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_038",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_038",
+   "check": "empathy",
+   "reason": "window at turn 41 matches no marker",
+   "turn": 41,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_038",
+   "check": "active_listening",
+   "reason": "block at turn 40 in a faulty call matches no marker",
+   "turn": 40,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_038",
+   "check": "active_listening",
+   "reason": "block at turn 40 in a faulty call matches no marker",
+   "turn": 40,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_038",
+   "check": "active_listening",
+   "reason": "block at turn 44 in a faulty call matches no marker",
+   "turn": 44,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_039",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_039",
+   "check": "empathy",
+   "reason": "window at turn 40 matches no marker",
+   "turn": 40,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_039",
+   "check": "active_listening",
+   "reason": "block at turn 43 in a faulty call matches no marker",
+   "turn": 43,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_040",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_041",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_041",
+   "check": "empathy",
+   "reason": "window at turn 31 matches no marker",
+   "turn": 31,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_042",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_042",
+   "check": "empathy",
+   "reason": "window at turn 41 matches no marker",
+   "turn": 41,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_042",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_042",
+   "check": "active_listening",
+   "reason": "block at turn 40 in a faulty call matches no marker",
+   "turn": 40,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_042",
+   "check": "active_listening",
+   "reason": "block at turn 40 in a faulty call matches no marker",
+   "turn": 40,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_042",
+   "check": "active_listening",
+   "reason": "block at turn 44 in a faulty call matches no marker",
+   "turn": 44,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_043",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_043",
+   "check": "empathy",
+   "reason": "window at turn 22 matches no marker",
+   "turn": 22,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_044",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_044",
+   "check": "empathy",
+   "reason": "window at turn 38 matches no marker",
+   "turn": 38,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_044",
+   "check": "active_listening",
+   "reason": "block at turn 4 in a faulty call matches no marker",
+   "turn": 4,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_045",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_045",
+   "check": "empathy",
+   "reason": "window at turn 40 matches no marker",
+   "turn": 40,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_045",
+   "check": "active_listening",
+   "reason": "block at turn 4 in a faulty call matches no marker",
+   "turn": 4,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_046",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_047",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_048",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_048",
+   "check": "empathy",
+   "reason": "window at turn 36 matches no marker",
+   "turn": 36,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_048",
+   "check": "active_listening",
+   "reason": "block at turn 43 in a faulty call matches no marker",
+   "turn": 43,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_049",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_050",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_050",
+   "check": "empathy",
+   "reason": "window at turn 55 matches no marker",
+   "turn": 55,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_050",
+   "check": "active_listening",
+   "reason": "block at turn 38 in a faulty call matches no marker",
+   "turn": 38,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_051",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_052",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_053",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_054",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_054",
+   "check": "active_listening",
+   "reason": "block at turn 33 in a faulty call matches no marker",
+   "turn": 33,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_055",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_056",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_056",
+   "check": "active_listening",
+   "reason": "block at turn 52 in a faulty call matches no marker",
+   "turn": 52,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_057",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_057",
+   "check": "active_listening",
+   "reason": "block at turn 52 in a faulty call matches no marker",
+   "turn": 52,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_058",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_058",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_059",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_059",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_060",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_060",
+   "check": "active_listening",
+   "reason": "block at turn 52 in a faulty call matches no marker",
+   "turn": 52,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_061",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_061",
+   "check": "active_listening",
+   "reason": "block at turn 50 in a faulty call matches no marker",
+   "turn": 50,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_062",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_062",
+   "check": "active_listening",
+   "reason": "block at turn 48 in a faulty call matches no marker",
+   "turn": 48,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_063",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_063",
+   "check": "active_listening",
+   "reason": "block at turn 4 in a faulty call matches no marker",
+   "turn": 4,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_064",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_064",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_065",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_065",
+   "check": "active_listening",
+   "reason": "block at turn 50 in a faulty call matches no marker",
+   "turn": 50,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_066",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_066",
+   "check": "active_listening",
+   "reason": "block at turn 46 in a faulty call matches no marker",
+   "turn": 46,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_067",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_067",
+   "check": "active_listening",
+   "reason": "block at turn 50 in a faulty call matches no marker",
+   "turn": 50,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_068",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_068",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_068",
+   "check": "active_listening",
+   "reason": "block at turn 4 in a faulty call matches no marker",
+   "turn": 4,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_069",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_069",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_070",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_070",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_071",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_071",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_072",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_072",
+   "check": "empathy",
+   "reason": "window at turn 12 matches no marker",
+   "turn": 12,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_072",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_072",
+   "check": "active_listening",
+   "reason": "block at turn 4 in a faulty call matches no marker",
+   "turn": 4,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_073",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_074",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_074",
+   "check": "empathy",
+   "reason": "window at turn 12 matches no marker",
+   "turn": 12,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_074",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_075",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_075",
+   "check": "active_listening",
+   "reason": "block at turn 48 in a faulty call matches no marker",
+   "turn": 48,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_076",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_076",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_077",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_077",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_077",
+   "check": "active_listening",
+   "reason": "block at turn 4 in a faulty call matches no marker",
+   "turn": 4,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_078",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_078",
+   "check": "active_listening",
+   "reason": "block at turn 2 in a faulty call matches no marker",
+   "turn": 2,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_079",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_079",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_080",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_080",
+   "check": "empathy",
+   "reason": "window at turn 12 matches no marker",
+   "turn": 12,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_080",
+   "check": "empathy",
+   "reason": "window at turn 33 matches no marker",
+   "turn": 33,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_080",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_081",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_081",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_082",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_082",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_082",
+   "check": "active_listening",
+   "reason": "block at turn 2 in a faulty call matches no marker",
+   "turn": 2,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_082",
+   "check": "active_listening",
+   "reason": "block at turn 4 in a faulty call matches no marker",
+   "turn": 4,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_083",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_083",
+   "check": "empathy",
+   "reason": "window at turn 34 matches no marker",
+   "turn": 34,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_083",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_083",
+   "check": "active_listening",
+   "reason": "block at turn 4 in a faulty call matches no marker",
+   "turn": 4,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_084",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_084",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_085",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_085",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_085",
+   "check": "active_listening",
+   "reason": "block at turn 44 in a faulty call matches no marker",
+   "turn": 44,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_085",
+   "check": "active_listening",
+   "reason": "block at turn 44 in a faulty call matches no marker",
+   "turn": 44,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_085",
+   "check": "active_listening",
+   "reason": "block at turn 30 in a faulty call matches no marker",
+   "turn": 30,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_086",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_086",
+   "check": "active_listening",
+   "reason": "block at turn 2 in a faulty call matches no marker",
+   "turn": 2,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_087",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_087",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_087",
+   "check": "active_listening",
+   "reason": "block at turn 49 in a faulty call matches no marker",
+   "turn": 49,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_088",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_088",
+   "check": "empathy",
+   "reason": "window at turn 13 matches no marker",
+   "turn": 13,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_088",
+   "check": "empathy",
+   "reason": "window at turn 35 matches no marker",
+   "turn": 35,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_088",
+   "check": "paraphrasing",
+   "reason": "no restatement cue in the first 300 s: production fails the item without the model",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_089",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_089",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_090",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_090",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_090",
+   "check": "active_listening",
+   "reason": "block at turn 50 in a faulty call matches no marker",
+   "turn": 50,
+   "kind": "unmarked_al_candidate"
+  },
+  {
+   "call": "agt_091",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_092",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_092",
+   "check": "empathy",
+   "reason": "window at turn 13 matches no marker",
+   "turn": 13,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_092",
+   "check": "empathy",
+   "reason": "window at turn 37 matches no marker",
+   "turn": 37,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_092",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_093",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_093",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_094",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_094",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_095",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_095",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_096",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_097",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_097",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_098",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_098",
+   "check": "empathy",
+   "reason": "window at turn 13 matches no marker",
+   "turn": 13,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_098",
+   "check": "empathy",
+   "reason": "window at turn 33 matches no marker",
+   "turn": 33,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_098",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_099",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_099",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  },
+  {
+   "call": "agt_100",
+   "check": "empathy",
+   "reason": "window at turn 1 matches no marker",
+   "turn": 1,
+   "kind": "unmarked_outburst"
+  },
+  {
+   "call": "agt_100",
+   "check": "paraphrasing",
+   "reason": "the restatement is outside the window production shows",
+   "turn": null,
+   "kind": null
+  }
+ ],
+ "skipped": []
+}

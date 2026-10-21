@@ -1,0 +1,117 @@
+{
+  "rows": {
+    "train_all2": 2131,
+    "dev_all2": 492,
+    "test": 396,
+    "test_long": 180,
+    "test_calls": 40
+  },
+  "counts_train": {
+    "active_listening": {
+      "PASS": 83,
+      "FAIL": 84,
+      "FAIL (AG)": 67,
+      "PASS (AG)": 94
+    },
+    "empathy": {
+      "PASS": 78,
+      "FAIL": 75,
+      "PASS (AG)": 14,
+      "FAIL (AG)": 7
+    },
+    "paraphrasing": {
+      "PASS": 208,
+      "FAIL": 194,
+      "PASS (AG)": 27,
+      "FAIL (AG)": 27
+    },
+    "rapport": {
+      "PASS": 144,
+      "FAIL": 132,
+      "PASS (AG)": 66,
+      "FAIL (AG)": 33
+    },
+    "ownership": {
+      "PASS": 30,
+      "FAIL": 35
+    },
+    "probing": {
+      "PASS": 44,
+      "FAIL": 37
+    },
+    "hostility": {
+      "PASS": 30,
+      "FAIL": 30
+    },
+    "escalation": {
+      "PASS": 30,
+      "FAIL": 30
+    },
+    "resolved": {
+      "PASS": 148,
+      "FAIL": 134
+    },
+    "replay": {
+      "gold": 250
+    }
+  },
+  "counts_dev": {
+    "paraphrasing": {
+      "PASS": 44,
+      "FAIL": 41,
+      "FAIL (AG)": 2,
+      "PASS (AG)": 3
+    },
+    "active_listening": {
+      "PASS": 20,
+      "FAIL": 21,
+      "PASS (AG)": 20,
+      "FAIL (AG)": 6
+    },
+    "resolved": {
+      "PASS": 43,
+      "FAIL": 42
+    },
+    "empathy": {
+      "PASS": 21,
+      "FAIL": 21,
+      "FAIL (AG)": 1,
+      "PASS (AG)": 9
+    },
+    "rapport": {
+      "PASS": 46,
+      "FAIL": 41,
+      "PASS (AG)": 27,
+      "FAIL (AG)": 5
+    },
+    "ownership": {
+      "PASS": 4,
+      "FAIL": 5
+    },
+    "probing": {
+      "PASS": 8,
+      "FAIL": 5
+    },
+    "hostility": {
+      "PASS": 4,
+      "FAIL": 4
+    },
+    "escalation": {
+      "PASS": 6,
+      "FAIL": 6
+    },
+    "replay": {
+      "gold": 37
+    }
+  },
+  "inputs_hashes": [
+    "4021ce6d6740",
+    "66deff95a20c"
+  ],
+  "sha256": {
+    "train_all2.jsonl": "980bf7c0baeab3970757fc0ff6ea10b2ccff2186e73d43d561bc4515749c341e",
+    "dev_all2.jsonl": "1d00cd96aef5cf7f5af05b84bf5878374800d5c42001a3ccb7b5ad89b9f1f988"
+  },
+  "problems": [],
+  "authorship": "Stage-3 rows: written and labelled by Claude. AG rows: written and labelled by Antigravity. Nothing is human-labelled."
+}

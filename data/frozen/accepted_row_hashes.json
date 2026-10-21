@@ -1,0 +1,7 @@
+{
+ "accepted": [
+  "4021ce6d6740f47d3134378583b09ef98bdeaf670bcd2963f6b2555156f34475",
+  "66deff95a20ce04e2b731dc0f7fea374761f7eca36337f88bed6ff0bcf582c2e"
+ ],
+ "note": "Rows carry the hash of the extractor code that built them. The stage-3 rows carry 66deff95...; the Antigravity rows carry the current freeze. Both are accepted by the mix-2 notebook. The stage-3 rows were built with the v1 extractors, which flow v2 left unchanged (README); this was not re-verified here."
+}

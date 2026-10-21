@@ -1,0 +1,33 @@
+{
+ "folder_name": "final-softce_ag3",
+ "files": {
+  "encoder/config.json": {
+   "bytes": 2084,
+   "sha256": "4d31981e52fcbf329542b1be74989bd46fcceda83e747ae003ee8dc7a1cc13c6"
+  },
+  "model.safetensors": {
+   "bytes": 842609220,
+   "sha256": "9603e5fd1734c451402796f80d81e0e086f681bb4c09f24bb42ade47448e9b56"
+  },
+  "questions.json": {
+   "bytes": 4794,
+   "sha256": "75e2e56357014e307786c4df542e35398b2ca4924ba306d334d50959c8b9e25d"
+  },
+  "rl_agent_config.json": {
+   "bytes": 4880,
+   "sha256": "60c30924f9c69e970ce247b12701c7bcf1af5f9d8da9d6fa6b0539ea60408379"
+  },
+  "tokenizer/tokenizer.json": {
+   "bytes": 3583325,
+   "sha256": "0b3214f8efe1327290428b84e5d344ff3f2442686c1b89fb7b42c13a79ce6779"
+  },
+  "tokenizer/tokenizer_config.json": {
+   "bytes": 337,
+   "sha256": "08d4cf3ac4dca381759441b85b91a6d40e688471dcd33d15d6649eb0a9a854d1"
+  },
+  "train_report.json": {
+   "bytes": 2539,
+   "sha256": "cc32275e7ac854ce56e415f12016b2c7f7ae55b0c9cef2e51ea619364f917341"
+  }
+ }
+}

@@ -30,8 +30,8 @@ os.makedirs(WORK, exist_ok=True)
 
 # one run id per session, kept on disk so re-running this cell does not change it
 _rid = f"{WORK}/run_id.txt"
-if not os.path.exists(_rid) or not open(_rid).read().startswith("ft2-"):      # never reuse an older run's id (or the smoke test's)
-    open(_rid, "w").write("ft2-" + datetime.datetime.now().strftime("%Y%m%d-%H%M"))
+if not os.path.exists(_rid) or not open(_rid).read().startswith("{{RUN_PREFIX}}"):      # never reuse an older run's id (or the smoke test's)
+    open(_rid, "w").write("{{RUN_PREFIX}}" + datetime.datetime.now().strftime("%Y%m%d-%H%M"))
 RUN_ID = open(_rid).read().strip()
 
 print(subprocess.run(["nvidia-smi", "--query-gpu=name,memory.total", "--format=csv,noheader"],
