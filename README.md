@@ -14,7 +14,7 @@ We grade telephony-support calls against 11 criteria with a service (`qa-analysi
 
 **Result so far (2026-10-17, details in `runs/ft3-stage3/RESULT.md`):** after three training rounds the fine-tuned model scores 41/44 items on the 4 Main calls with a mean score error of 8.75 (Ollama 40/44, 9.2; untrained Laya 37/44, 13.3), and 358/372 bulk items (untrained 351). The first two rounds were not good enough on the natural Main calls (errors 16.3 and 15.4); the cause was that training snippets were half the length and much less natural than real ones, fixed with padded rows (stage 2) and complete natural calls cut by the extractors (stage 3). **Limits:** all data, tests and the answer key are Claude-written; the Main/bulk calls were used to pick the Rapport cutoff and to see failure types, so they are no longer independent; the custom-criteria safeguard agrees with the untouched model on 82% of questions (target 90%); speed is 21.4 s per Main call (target 15 s).
 
-**Independent check (2026-10-18, `runs/ag50/RESULT.md`):** on 50 long calls written and graded by a different AI (Antigravity), fine-tuned Laya matched 72.0% of the 7 model-judged items against 64.6% for stock Laya and **78.6% for Ollama** (the 6.6-point gap to Ollama is statistically real, p = 0.014). It is 24 times faster and its final scores are nearly unbiased, but it is **not ready to replace Ollama**: a shadow-mode trial is the supported next step. Much of the loss happens in the app's snippet-building rather than in the model, so the next iteration fixes those inputs first (section 6, phase 12). **Update 2026-10-19:** changing only what the model is shown for Empathy, Paraphrasing and Ownership (`qa-analysis/Docs/FLOW_V2.md`, no retraining) lifted AG50 to 80.3% of the judged items (a development set; Ollama 78.6%, not distinguishable), with Main 42/44 and bulk 359/372 not regressing. Active listening, Rapport, Probing and Resolved still need training data.
+**Independent check (2026-10-18, `runs/ag50/RESULT.md`):** on 50 long calls written and graded by a different AI (Antigravity), fine-tuned Laya matched 72.0% of the 7 model-judged items against 64.6% for stock Laya and **78.6% for Ollama** (the 6.6-point gap to Ollama is statistically real, p = 0.014). It is 24 times faster and its final scores are nearly unbiased, but it is **not ready to replace Ollama**: a shadow-mode trial is the supported next step. Much of the loss happens in the app's snippet-building rather than in the model, so the next iteration fixes those inputs first (section 6, phase 12). **Update 2026-10-19:** changing only what the model is shown for Empathy, Paraphrasing and Ownership (`../Docs/FLOW_V2.md`, no retraining) lifted AG50 to 80.3% of the judged items (a development set; Ollama 78.6%, not distinguishable), with Main 42/44 and bulk 359/372 not regressing. Active listening, Rapport, Probing and Resolved still need training data.
 
 ## 2. The system and where Laya sits
 
@@ -42,7 +42,7 @@ Each category starts at 100 and loses the deduction per FAIL; final score = Soft
 
 ## 3. Evidence so far
 
-All numbers are from `qa-analysis/Docs/LAYA_TEST_LOG.md` and `laya-test/qa_eval/RESULTS.md`.
+All numbers are from `../Docs/LAYA_TEST_LOG.md` and `../laya_eval/RESULTS.md`.
 
 **Main tests (4 hand-written 16-22 minute calls, expected grades written by Claude, not human-reviewed)**
 
@@ -83,7 +83,7 @@ Proposed final criteria (all on synthetic data; cutoffs are re-tuned on dev data
 - Checks to train (priority from the test log): **Active listening, Confirmed resolved, Paraphrasing, Rapport, Empathy.** Regression-only (included so training does not damage them): **Ownership, Probing, Hostility, Escalation.** Rule-based checks are not touched.
 
 ### 5.2 Inputs: one source of truth
-`qa-analysis/src/services/laya_inputs.py::build_laya_inputs(transcript)` builds every Laya input; production and the data tools both call it, so training rows contain exactly what the model sees in production. **Done:** moving it out of the evaluator changed nothing (byte-identical inputs across 80 sample calls). The frozen questions and their inputs:
+`../src/services/laya_inputs.py::build_laya_inputs(transcript)` builds every Laya input; production and the data tools both call it, so training rows contain exactly what the model sees in production. **Done:** moving it out of the evaluator changed nothing (byte-identical inputs across 80 sample calls). The frozen questions and their inputs:
 
 | Check | Input text (cap) | Cutoff on P(pass) | yes means |
 |---|---|---|---|
@@ -142,7 +142,7 @@ This is about a third of the volume first planned (3,400 train rows). It is a **
 - After the notebook: set `LAYA_CHECKPOINT`, re-run `batch_test.py main` and `bulk` through the service, `probe_laya.py`, `compare_results.py`, and commit new cutoffs to `LAYA_CHECKS`.
 
 ### 5.6 Integration
-`qa-analysis/src/services/laya_adapter.py` serves a fine-tuned folder when the environment variable `LAYA_CHECKPOINT` is set (served under the `english` name); unset means the stock checkpoint. **Done and tested** on CPU through the real adapter. New cutoffs are committed to `LAYA_CHECKS`.
+`../src/services/laya_adapter.py` serves a fine-tuned folder when the environment variable `LAYA_CHECKPOINT` is set (served under the `english` name); unset means the stock checkpoint. **Done and tested** on CPU through the real adapter. New cutoffs are committed to `LAYA_CHECKS`.
 
 ## 6. Phases and status
 
@@ -168,7 +168,7 @@ The human's time is now about 1 hour (section 8).
 
 - **Smoke test passed**, run `smoke-20261016-0848` (details in `runs/smoke-20261016-0848/RESULT.md`): base weights downloaded and hash-matched to the local copy; 1 epoch on a Colab L4; checkpoint copied to Drive with verification; reloaded two ways with identical output; served on CPU through `laya_adapter` with a largest difference from the GPU of 0.0057 (tolerance 0.03); original weights verified unchanged.
 - **Phase 1 code** (`qa-analysis`, branch `version-10.2-laya-finetune`): `fcc6869` refactor (no behaviour change, proved by byte-identical inputs on 80 calls); `9050b41` Rapport chunk scan (mean 7.9 chunks per call, max 21), Active-listening first-question/answer/second-question snippet and 0.55 similarity (calls with an Active-listening snippet rise from 8 to 19 of 80), Probing cutoff 0.60 to 0.70; `53becd8` interim Rapport cutoff, Round 3 results and docs. Tagged `laya-inputs-frozen-v1`. Self-checks pass.
-- **Phase 1 baseline of the untrained model** (full detail in `qa-analysis/Docs/LAYA_TEST_LOG.md`, Round 3; answer key is Claude-written):
+- **Phase 1 baseline of the untrained model** (full detail in `../Docs/LAYA_TEST_LOG.md`, Round 3; answer key is Claude-written):
 
   | | Ollama | Laya v2 | Laya v3.1 (final Phase 1) |
   |---|---|---|---|
@@ -224,7 +224,7 @@ Nothing in the final claim comes from human judgement. If an independent check m
 
 Branches: this repo `plan-a-smoke-test`, `phase-0-ground-truth`; `qa-analysis` `version-10.2-laya-finetune`.
 
-Tools in `tools/`: `build_rows.py` (fragments to rows through production code), `build_replay.py`, `make_manifest.py` (combine, de-duplicate, prove no leakage), `shortcut_probe.py`, `build_train_notebook.py` (assembles `01_train_eval.ipynb` from `train_cells/`), `export_checks.py` (freeze the production questions with a sha256; `--check` detects drift), `smoke_rows.py` / `smoke_cells/` / `build_smoke_notebook.py` (the smoke test), `check_local_load.py` (CPU check through the adapter), `laya_train_cuda.py` (GPU workaround), `make_review_sheet.py` and `pick_review_subset.py` (Phase 0 sheets). In `qa-analysis/Scripts/`: `dump_laya_inputs.py` records every Laya input without a model and compares two code versions.
+Tools in `tools/`: `build_rows.py` (fragments to rows through production code), `build_replay.py`, `make_manifest.py` (combine, de-duplicate, prove no leakage), `shortcut_probe.py`, `build_train_notebook.py` (assembles `01_train_eval.ipynb` from `train_cells/`), `export_checks.py` (freeze the production questions with a sha256; `--check` detects drift), `smoke_rows.py` / `smoke_cells/` / `build_smoke_notebook.py` (the smoke test), `check_local_load.py` (CPU check through the adapter), `laya_train_cuda.py` (GPU workaround), `make_review_sheet.py` and `pick_review_subset.py` (Phase 0 sheets). In `../Scripts/`: `dump_laya_inputs.py` records every Laya input without a model and compares two code versions.
 
 Run the smoke test: open `00_smoke_test.ipynb` on Colab, run cells top to bottom (each starts with an "EXPECT" comment), download the `final/` folder and `smoke_preds_ft.json` from Drive into `checkpoints/<run id>/`, then
 
