@@ -1,0 +1,137 @@
+{
+  "note": "AI-written test calls; real model; this PC (Core Ultra 7 255U, 14 threads, 15 GB RAM)",
+  "ready_seconds": 7.2,
+  "memory_after_load_gb": 1.95,
+  "A_functional": [
+    {
+      "call": "agt_001",
+      "http": 200,
+      "score": 90.0,
+      "offline_score": 90.0,
+      "seconds": 11.5,
+      "match": true,
+      "meta": {
+        "flow": "v3",
+        "config_version": "v3.0-s1",
+        "model": "final-softce-3",
+        "al_second_source": false,
+        "sentiment_available": true,
+        "warnings": [],
+        "model_rows": 14,
+        "model_words": 1492,
+        "rows_by_check": {
+          "empathy": 2,
+          "paraphrasing": 1,
+          "active_listening": 1,
+          "rapport": 8,
+          "probing": 1,
+          "resolved": 1
+        },
+        "seconds": 11.5
+      }
+    },
+    {
+      "call": "agt_002",
+      "http": 200,
+      "score": 78.3,
+      "offline_score": 78.3,
+      "seconds": 16.0,
+      "match": true,
+      "meta": {
+        "flow": "v3",
+        "config_version": "v3.0-s1",
+        "model": "final-softce-3",
+        "al_second_source": false,
+        "sentiment_available": true,
+        "warnings": [],
+        "model_rows": 14,
+        "model_words": 1565,
+        "rows_by_check": {
+          "empathy": 2,
+          "paraphrasing": 1,
+          "active_listening": 1,
+          "rapport": 8,
+          "probing": 1,
+          "resolved": 1
+        },
+        "seconds": 16.01
+      }
+    },
+    {
+      "call": "agt_003",
+      "http": 200,
+      "score": 68.3,
+      "offline_score": 68.3,
+      "seconds": 16.2,
+      "match": true,
+      "meta": {
+        "flow": "v3",
+        "config_version": "v3.0-s1",
+        "model": "final-softce-3",
+        "al_second_source": false,
+        "sentiment_available": true,
+        "warnings": [],
+        "model_rows": 13,
+        "model_words": 1447,
+        "rows_by_check": {
+          "empathy": 1,
+          "paraphrasing": 1,
+          "rapport": 9,
+          "probing": 1,
+          "resolved": 1
+        },
+        "seconds": 16.15
+      }
+    }
+  ],
+  "B_bad_input": {
+    "empty_transcript": 422,
+    "oversize_body": 413,
+    "too_many_turns": 413,
+    "unknown_job": 404,
+    "health": 200
+  },
+  "C_load": {
+    "submitted": 56,
+    "accepted": 51,
+    "refused_503": 5,
+    "refused_with_retry_after": 5,
+    "other_codes": [],
+    "finished_ok": 51,
+    "failed": 0,
+    "total_seconds": 604.9,
+    "seconds_per_call_throughput": 11.9,
+    "mean_run_seconds": 11.8,
+    "longest_wait_seconds": 590.4,
+    "median_wait_seconds": 330.8,
+    "health_after": 200
+  },
+  "D_simultaneous_evaluate": {
+    "sent": 20,
+    "answered_200": 13,
+    "timed_out_503": 7,
+    "timed_out_later_finished": 7,
+    "other_codes": [],
+    "slowest_answer_seconds": 120.1,
+    "total_seconds": 189.5
+  },
+  "E_worst_case": {
+    "request_bytes": 377586,
+    "turns": 1500,
+    "submit_http": 202,
+    "status": "done",
+    "seconds": 55.6,
+    "model_rows": 42,
+    "model_words": 5186,
+    "error": null,
+    "alive_after": 200
+  },
+  "memory": {
+    "peak_working_set_gb": 2.72,
+    "peak_commit_gb": 4.48,
+    "working_set_now_gb": 1.98,
+    "limit_target_gb": 8.0
+  },
+  "server_still_running_at_end": true,
+  "total_test_minutes": 15.0
+}
