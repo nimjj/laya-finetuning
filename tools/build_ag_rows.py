@@ -6,7 +6,7 @@ Active-listening second source), so the model sees exactly what it sees in produ
 
 Writes <prefix>_train.jsonl, <prefix>_dev.jsonl (split BY CALL, about 1 in 5 calls to dev) and <prefix>_dropped.json, and prints a report.
 
-How a row is labelled (markers come from grader.markers in each key; see Docs/ANTIGRAVITY_V2_COMMON.md):
+How a row is labelled (markers come from grader.markers in each key; the key format is described in Docs/CODEBASE_GUIDE.md section 5; the original label rules are in git history, `git show a7ace67:Docs/ANTIGRAVITY_V2_COMMON.md`):
   rapport            one row per chunk the extractor builds. FAIL: the chunk holds a `rude` line. PASS: chunks holding a `blunt_but_ok`
                      line (the hard negatives, all kept) plus at most one other clean chunk per call.
   empathy            one row per outburst window the extractor builds. Matched to the nearest marker within 2 turns:
