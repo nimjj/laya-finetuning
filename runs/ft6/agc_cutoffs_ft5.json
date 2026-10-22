@@ -1,0 +1,21 @@
+{
+ "cutoffs": {
+  "empathy": 0.49,
+  "rapport": 0.2,
+  "paraphrasing": 0.47,
+  "active_listening": 0.92,
+  "ownership": 0.52,
+  "probing": 0.926,
+  "resolved": 0.42
+ },
+ "rule": "base unless split-half tuning gained >= 0.02 balanced accuracy on the unseen half in both directions; then tuned on the pooled development calls",
+ "base": "exam_cutoffs_softce.json",
+ "half_a": [
+  "probe_ft5-softce-agtdevclean.json",
+  "probe_ft5-softce-ag50.json"
+ ],
+ "half_b": [
+  "exam_ft5softce-agb.json",
+  "exam_ft5softce-agb2.json"
+ ]
+}
