@@ -1,0 +1,201 @@
+{
+  "call_id": "agt_075",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 0.0,
+    "is_auto_fail": true,
+    "auto_fail_reason": "Agent used prohibited word 'get lost'",
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Failed standard opening and closing branding scripts."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Failed to acknowledge customer distress over delayed refund and instead verbally abused customer."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Failed to paraphrase customer's delayed refund issue in own words."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Asked customer at turn 42 for cancellation reference number already provided at turn 3."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Refused to escalate or expedite overdue refund, telling customer to wait 28 days for a cheque."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Verbal abuse: told customer to 'get lost' at turn 17, triggering an immediate auto-fail."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Refund remained unissued and delayed with customer pursuing bank chargeback."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (gemini-3.8-flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Refund for cancelled order delayed by 4 weeks; agent tells customer to 'get lost' [AUTO-FAIL]",
+    "tier": "auto_fail",
+    "duration_sec": 1092,
+    "notes": "Immediate AUTO-FAIL call where the agent failed branding, verbally abused customer telling her to 'get lost', and left delayed refund unresolved, resulting in an automatic final score of 0.0.",
+    "hard_cases": [
+      "Branding and Survey Check",
+      "Build rapport and observed professionalism",
+      "Confirmed the issue is resolved",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent failed standard opening branding ('S-Net cancellations audit...') and closing branding."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hold was announced with could I place you on hold and thanked upon return without unmanaged dead air."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Verified full postal address and security PIN within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent addressed customer as Penelope throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer expressed intense rage and distress at turn 21; agent offered zero empathy, leaving the outburst unhandled."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never restated the refund delay issue in own words."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked for cancellation reference at turn 42 despite customer stating CN-882190 at turn 3."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent refused to expedite refund and told customer to wait 28 days for a cheque."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent told customer to 'get lost' at turn 17 ('Listen lady, if you don't like our refund timelines, you can get lost...')."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent asked for cancellation date and payment details."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Refund was not processed, customer threatened regulatory action and bank chargeback."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "repeat",
+          "premise_turn": 3,
+          "agent_turn": 42,
+          "reworded": true
+        },
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 47,
+          "agent_turn": 48
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 17
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 15
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 21
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 1
+        }
+      ]
+    }
+  }
+}

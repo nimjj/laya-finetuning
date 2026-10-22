@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Nathan",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:03]",
+   "start_time_sec": 0,
+   "text": "Mobile technical queries, my name is Simon."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:07]",
+   "end_time": "[00:24]",
+   "start_time_sec": 7,
+   "text": "Hello Simon, my name is Nathan Cross. I cannot receive any incoming text messages or two-factor authentication SMS codes on my Samsung phone: voice calls and 4G data work fine, but text messages have completely stopped delivering for three days!",
+   "sentiment_score": -32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:28]",
+   "end_time": "[00:48]",
+   "start_time_sec": 28,
+   "text": "Good afternoon Nathan. If I understand correctly, your mobile phone has stopped delivering all incoming SMS text messages and bank verification passcodes while your voice and data connections remain functional. Before we run diagnostic checks, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:52]",
+   "end_time": "[00:58]",
+   "start_time_sec": 52,
+   "text": "Yes, it is 79 Queensway, Southampton, SO14 3BL, security PIN 9914, mobile number 07700 900612.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:02]",
+   "end_time": "[01:11]",
+   "start_time_sec": 62,
+   "text": "Thank you Nathan, that confirms your account details. Have you checked whether your Samsung Messages app spam filter is intercepting shortcode numbers?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:15]",
+   "end_time": "[01:31]",
+   "start_time_sec": 75,
+   "text": "I checked the spam folder, cleared the app cache, and even tried a third-party messaging app; no SMS messages are arriving at all!",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:35]",
+   "end_time": "[01:46]",
+   "start_time_sec": 95,
+   "text": "Could I place you on hold for two minutes while I query the mobile SMS router routing gateway?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:11]",
+   "end_time": "[03:27]",
+   "start_time_sec": 191,
+   "text": "Thank you for holding, Nathan. The core mobile gateway indicates that your SIM card's SMS Center number was cleared during a recent Android system update."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:31]",
+   "end_time": "[03:42]",
+   "start_time_sec": 211,
+   "text": "Why would an Android system update wipe out my SMS Center number?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:46]",
+   "end_time": "[03:57]",
+   "start_time_sec": 226,
+   "text": "Operating system patches occasionally overwrite carrier APN and SMSC parameters stored on the SIM card."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:01]",
+   "end_time": "[04:14]",
+   "start_time_sec": 241,
+   "text": "Can you push the correct SMSC number over the air to my phone?",
+   "sentiment_score": -6.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:18]",
+   "end_time": "[04:31]",
+   "start_time_sec": 258,
+   "text": "If you keep entering the wrong verification codes into your banking app, the bank blocks your account; that isn't our network's fault."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:35]",
+   "end_time": "[04:50]",
+   "start_time_sec": 275,
+   "text": "I didn't enter the wrong codes! The codes never arrived because your network isn't delivering SMS! Why are you blaming me?!",
+   "sentiment_score": -52.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:54]",
+   "end_time": "[05:04]",
+   "start_time_sec": 294,
+   "text": "I am explaining how automated fraud prevention mechanisms lock customer profiles."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:08]",
+   "end_time": "[05:23]",
+   "start_time_sec": 308,
+   "text": "I don't care about the bank's fraud software right now! I need the SMS Center number updated on my SIM card!",
+   "sentiment_score": -44.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:27]",
+   "end_time": "[05:40]",
+   "start_time_sec": 327,
+   "text": "The national S-Net SMSC address is plus forty-four seven seven eight five zero one six zero zero zero."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:44]",
+   "end_time": "[05:56]",
+   "start_time_sec": 344,
+   "text": "Where do I input that number on a Samsung Galaxy S23?",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:00]",
+   "end_time": "[06:13]",
+   "start_time_sec": 360,
+   "text": "Open Samsung Messages, tap the three dots menu, select Settings, tap More Settings, and tap Text Messages."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:17]",
+   "end_time": "[06:27]",
+   "start_time_sec": 377,
+   "text": "Found it: 'Message Centre'. It is currently set to blank!",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:31]",
+   "end_time": "[06:44]",
+   "start_time_sec": 391,
+   "text": "Obviously mobile handsets route text messages through the international Short Message Service Center address stored on the SIM card."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:48]",
+   "end_time": "[06:58]",
+   "start_time_sec": 408,
+   "text": "Typing in +447785016000 now... Tapped Set. It is saved.",
+   "sentiment_score": 8.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:02]",
+   "end_time": "[07:26]",
+   "start_time_sec": 422,
+   "text": "Nathan speaking, I have missed three urgent SMS security passcodes from my bank, and my online banking account is now locked! I have mortgage settlement funds due today and I cannot authorize the wire transfer because S-Net cannot deliver a simple text message! I am about to lose the purchase of my home and I am beyond furious!",
+   "sentiment_score": -64.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:30]",
+   "end_time": "[07:53]",
+   "start_time_sec": 450,
+   "text": "I completely understand the intense panic and fury this is causing with your mortgage settlement at stake today, Nathan. Missing bank verification passcodes when buying a home is an emergency, and I will diagnose your mobile text delivery profile immediately."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:57]",
+   "end_time": "[08:10]",
+   "start_time_sec": 477,
+   "text": "Can you send a test SMS from your network switchboard to see if messages deliver now?",
+   "sentiment_score": -12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:14]",
+   "end_time": "[08:24]",
+   "start_time_sec": 494,
+   "text": "I have dispatched an automated gateway test message to your mobile number."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:28]",
+   "end_time": "[08:39]",
+   "start_time_sec": 508,
+   "text": "I am watching my phone screen... Nothing is coming through.",
+   "sentiment_score": -16.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:43]",
+   "end_time": "[08:50]",
+   "start_time_sec": 523,
+   "text": "SMSC routing updates require an over-the-air network re-registration cycle."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:54]",
+   "end_time": "[08:57]",
+   "start_time_sec": 534,
+   "text": "How long does that network re-registration take?",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:00]",
+   "end_time": "[09:11]",
+   "start_time_sec": 540,
+   "text": "The Home Location Register propagates SMS routing updates within two to twenty-four hours."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:14]",
+   "end_time": "[09:27]",
+   "start_time_sec": 554,
+   "text": "Two to twenty-four hours?! My mortgage wire transfer deadline is at four o'clock this afternoon!",
+   "sentiment_score": -48.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:30]",
+   "end_time": "[09:40]",
+   "start_time_sec": 570,
+   "text": "Core mobile network routing propagation cannot be accelerated for individual subscriber records."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:43]",
+   "end_time": "[09:47]",
+   "start_time_sec": 583,
+   "text": "So I cannot receive my bank passcodes before four o'clock today?!",
+   "sentiment_score": -38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:50]",
+   "end_time": "[09:56]",
+   "start_time_sec": 590,
+   "text": "You would have to contact your bank and request telephone voice verification instead of SMS passcodes."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:59]",
+   "end_time": "[10:05]",
+   "start_time_sec": 599,
+   "text": "My bank only offers SMS two-factor authentication for wire transfers over ten thousand pounds.",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:08]",
+   "end_time": "[10:11]",
+   "start_time_sec": 608,
+   "text": "Telecommunications carriers do not control banking security protocols."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:14]",
+   "end_time": "[10:18]",
+   "start_time_sec": 614,
+   "text": "This delay is putting my entire home purchase at extreme risk.",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:21]",
+   "end_time": "[10:28]",
+   "start_time_sec": 621,
+   "text": "I have verified that the SMSC configuration is now correct on both your SIM and our HLR."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:31]",
+   "end_time": "[10:37]",
+   "start_time_sec": 631,
+   "text": "So the fix is applied, but the network propagation prevents it working right now.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:40]",
+   "end_time": "[10:43]",
+   "start_time_sec": 640,
+   "text": "Correct. The messages will deliver once carrier propagation completes."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:46]",
+   "end_time": "[10:53]",
+   "start_time_sec": 646,
+   "text": "I see. I will have to telephone my solicitor and beg for an extension on the mortgage settlement.",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:56]",
+   "end_time": "[11:00]",
+   "start_time_sec": 656,
+   "text": "I have documented your SMSC update under mobile case reference SMS-88192-N."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:03]",
+   "end_time": "[11:06]",
+   "start_time_sec": 663,
+   "text": "SMS-88192-N, noted down.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:09]",
+   "end_time": "[11:14]",
+   "start_time_sec": 669,
+   "text": "Before I update the mobile profile, what was your mobile number again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:17]",
+   "end_time": "[11:20]",
+   "start_time_sec": 677,
+   "text": "Like I said earlier, it is 07700 900612.",
+   "sentiment_score": -16.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:23]",
+   "end_time": "[11:28]",
+   "start_time_sec": 683,
+   "text": "I have attached the mobile number to the formal network propagation ticket."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:31]",
+   "end_time": "[11:36]",
+   "start_time_sec": 691,
+   "text": "I hope the text messages start arriving before the close of business.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:39]",
+   "end_time": "[11:47]",
+   "start_time_sec": 699,
+   "text": "You can restart your handset every hour to prompt the phone to poll the network for pending SMS queues."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:50]",
+   "end_time": "[11:54]",
+   "start_time_sec": 710,
+   "text": "I will reboot the phone at the top of every hour.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:57]",
+   "end_time": "[12:04]",
+   "start_time_sec": 717,
+   "text": "I have also waived this month's mobile line rental charge as a goodwill gesture for the disruption."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:07]",
+   "end_time": "[12:12]",
+   "start_time_sec": 727,
+   "text": "Thank you for the credit, but the priority was getting those bank passcodes.",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:15]",
+   "end_time": "[12:20]",
+   "start_time_sec": 735,
+   "text": "Is there any other mobile issue I can assist you with today, Nathan?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:23]",
+   "end_time": "[12:26]",
+   "start_time_sec": 743,
+   "text": "No Simon, that is all.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:29]",
+   "end_time": "[12:32]",
+   "start_time_sec": 749,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:35]",
+   "end_time": "[12:38]",
+   "start_time_sec": 755,
+   "text": "Goodbye.",
+   "sentiment_score": -12.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:41]",
+   "end_time": "[12:44]",
+   "start_time_sec": 761,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:47]",
+   "end_time": "[12:50]",
+   "start_time_sec": 767,
+   "text": "Goodbye.",
+   "sentiment_score": -10.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:53]",
+   "end_time": "[12:56]",
+   "start_time_sec": 773,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:59]",
+   "end_time": "[13:04]",
+   "start_time_sec": 779,
+   "text": "Goodbye.",
+   "sentiment_score": -8.0
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+  "call_id": "ag_11",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 95.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "At [10:23], the agent ended the call after handling a late follow-up question about voicemail without repeating the mandatory 'Thank you for choosing S-Net' closing branding in the final four agent turns (it was spoken earlier at [08:44] before six additional agent turns)."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Emergency SIM swap activation and IMEI blacklist after handset was pickpocketed in London",
+    "tier": "good",
+    "duration_sec": 630,
+    "notes": "Strong emergency mobile support call where Toby handles an IMEI blacklist and replacement eSIM activation live during the call. Toby delivers the closing branding at [08:44], but Zuleika then asks a last-minute question about voicemail security at [08:54], leading to 6 more Agent turns ([09:04]-[10:23]) where Toby forgets to re-deliver 'Thank you for choosing S-Net' in the final 4 Agent turns (Branding FAIL).",
+    "hard_cases": [
+      "Branding and Survey Check",
+      "Hold time and Dead Air",
+      "Paraphrasing",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'Good evening, thank you for calling S-Net Mobile Urgent Support.' [08:44] Agent: 'Thank you for choosing S-Net...' followed by 6 more Agent turns ([09:04], [09:23], [09:43], [09:54], [10:06], [10:23]) ending at [10:23] with 'Have a safe evening, Zuleika, bye now!'"
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[04:45] Agent announces hold ('I am going to place you on a brief hold for about a minute while I commit the CEIR IMEI blacklist...') and returns after a 70s gap at [06:05] with 'Thank you for holding, Zuleika.'"
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:35] Agent asks for billing address and four-digit security PIN; Customer verifies at [00:45]."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:15], [00:35], [06:05], [10:23] Agent addresses Zuleika by name throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:15] Agent: 'I am so sorry that happened to you outside Holborn station, Zuleika. Having your phone pickpocketed in central London is deeply unsettling, and I completely understand how urgent it is to secure your number right away.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:03] Agent: 'So to summarize your situation: your iPhone 15 Pro was pickpocketed outside Holborn station around forty minutes ago, and you need us to blacklist the stolen handset IMEI, kill the physical SIM inside it, and activate a replacement eSIM on a backup phone.'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:23], [04:11] Agent retains that Zuleika has an iPhone 12 on her husband's Wi-Fi in Islington without asking her to repeat those details."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:35], [06:05], [08:11] Agent takes end-to-end ownership of the CEIR IMEI blacklist, physical SIM revocation, eSIM EID binding, spend cap lock, insurance PDF certificate, and voicemail PIN reset."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:15], [02:33], [10:23] Agent maintains a calm, reassuring, and supportive rapport with a shaken customer."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:23], [02:33], [03:36], [03:57] Agent probes for time of theft to audit logs, iCloud Lost Mode / Stolen Device Protection status, iPhone 12 iOS version and carrier lock status, and the EID digits."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[07:25]-[08:05] Customer confirms 4 bars of S-Net 5G, receives both S-Net and bank verification texts, tests 5G Safari browsing, and at [09:49]-[10:16] resets her voicemail code and confirms visual voicemail synced."
+      }
+    ]
+  }
+}

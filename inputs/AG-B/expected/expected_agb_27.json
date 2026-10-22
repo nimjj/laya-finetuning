@@ -1,0 +1,199 @@
+{
+  "call_id": "agb_27",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 81.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Agent failed to address the customer by their verified name 'Arthur' anywhere during the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked when customer's late wife passed away at [11:10], ignoring customer's explicit statement in turn 1 that she passed away three weeks ago."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Agent made a callous, insensitive remark during a bereavement call: 'Our billing database doesn't care about personal grief...'"
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Bereavement notification; account ownership sensitively transferred to surviving spouse; agent never uses customer name, makes a rude bureaucratic remark during bereavement, and repeats question about date of death",
+    "tier": "fair",
+    "duration_sec": 961,
+    "notes": "The agent processed a bereavement transfer to transition the broadband and landline account into the surviving spouse's sole name. However, the agent failed Personalized Call by never addressing the caller by their name 'Arthur', failed Build Rapport and Observed Professionalism at minute 8 by making an insensitive, callous remark ('Our billing database doesn't care about personal grief; without the legal registrar index code we cannot proceed'), and failed Active Listening at minute 11 by asking Arthur when his late wife passed away, after Arthur explicitly stated in turn 1 that she passed away three weeks ago.",
+    "hard_cases": [
+      "Build rapport and observed professionalism",
+      "Active listening",
+      "Verified customer",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:30] Agent verified billing address and security question answer within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never used the customer's name 'Arthur' across any turn in the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[11:10] Agent: 'And what was the exact date when your late wife passed away?' Customer: 'Connor, as I told you right at the start of this call, Margaret passed away three weeks ago, on the third of October!' - Agent asked for information already given."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[15:10] Agent: 'I will remain the dedicated owner for this bereavement transfer and confirm all records have been updated.' - Clear personal ownership."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[08:45] Agent: 'Our billing database doesn't care about personal grief; without the legal registrar index code we cannot proceed with account changes.' - Callous and inappropriate remark to a grieving customer."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 68
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 1,
+          "agent_turn": 46,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 34
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

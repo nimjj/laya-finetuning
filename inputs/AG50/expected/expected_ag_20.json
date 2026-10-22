@@ -1,0 +1,162 @@
+{
+  "call_id": "ag_20",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 40.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "At [00:00], the agent opened with 'Good afternoon, welcome to S-Net support, Benjamin speaking!', omitting the required exact greeting phrase 'thank you for calling S-Net' in his first four turns."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "At [01:05], the agent only asked for the customer's date of birth and mother's maiden name, failing to verify any of the mandatory security tokens (PIN, address, or security question) within the first 240 seconds."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Despite the customer introducing herself as 'Cressida' at [00:09], the agent never used her name once during the call, addressing her only as 'madam' and 'lovely'."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "At [01:37]-[02:39], the agent chatted warmly about time zones and jumped straight into checking the switch without ever paraphrasing or restating the customer's international call-barring issue in his own words."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Despite the customer stating at [00:09] and [01:47] that she was calling her daughter in Melbourne, Australia (0061), the agent asked at [06:32] whether she was calling New Zealand or Australia and at [07:18] referred to her daughter as her sister."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "At [03:37], when the customer offered to describe the voice announcement that played when her calls failed, the agent explicitly declined to ask any diagnostic probing questions ('we don't need to go through any diagnostic questions!')."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "International call barring accidentally triggered on landline blocking calls to daughter in Melbourne, Australia",
+    "tier": "poor",
+    "duration_sec": 920,
+    "notes": "Style-trap breaker (Section 9.4): Agent Benjamin is overflowing with warmth, politeness (R PASS), heartfelt empathy ([00:28], E PASS), personal ownership ([01:05], [11:14], O PASS), and live test-call resolution ([10:03]-[10:39], [14:42], RE PASS), yet fails 6 criteria: misses opening branding ([00:00], B FAIL), verifies only DOB and maiden name without PIN/address/security question ([01:05], V FAIL), calls the customer 'madam'/'lovely' instead of 'Cressida' (P FAIL), skips paraphrasing (PA FAIL), refuses diagnostic probing ([03:37], PR FAIL), and forgets whether she is calling New Zealand or Australia and whether it is her daughter or sister ([06:32], [07:18], AL FAIL).",
+    "hard_cases": [
+      "Branding and Survey Check",
+      "Verified customer",
+      "Active listening",
+      "Empathy & Acknowledgment Statement",
+      "Took ownership of the problem",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'Good afternoon, welcome to S-Net support, Benjamin speaking! How are you doing on this sunny afternoon, madam?' (Closing at [15:07] included 'Thank you for choosing S-Net', but opening branding was missed)."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[04:59] Agent announces hold ('Please bear with me for a moment while I refresh your voice port on the exchange...') and returns after 50s at [06:14] ('Thank you so much for waiting, madam!')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:05] Agent: 'First, could you just give me your date of birth and your mother's maiden name so I can open your file?'"
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:09] Customer: 'Oh hello Benjamin, my name is Cressida.' -> [00:28] Agent: 'Oh bless your heart, madam...' / [01:05] Agent: 'Oh lovely, please don't you fret...'"
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:28] Agent: 'Oh bless your heart, madam, I am so terribly sorry to hear that! Missing out on wishing your little granddaughter a happy sixth birthday is heartbreaking, and I completely understand how upsetting it is...'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[02:03] Agent: 'Oh, having family down under is so exciting...' -> [02:39] Agent jumps directly to switch settings without summarizing the customer's problem."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[06:32] Agent: 'Now, which country is it you're trying to ring again, is it New Zealand or Australia?' / [07:18] Agent: '...belongs to your sister in Melbourne' -> [07:31] Customer: 'Not my sister, Benjamin—my daughter Gemma and my granddaughter Chloe!'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:05] Agent: 'I am going to personally take charge of this for you today' / [04:01] lifts the fraud bar / [11:14] proactively applies a £10 credit (CRD-330918) and [12:46] whitelists the 0061 prefix."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:28], [04:24]-[04:42], [13:53] Agent builds warm, polite, caring rapport throughout the conversation, celebrating the granddaughter's sixth birthday and guiding the live test call."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[03:37] Agent: 'Oh, you don't need to worry about telling me what announcement or tone played on the handset, madam—I already know how these pesky switch locks behave, so we don't need to go through any diagnostic questions!'"
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[10:03]-[10:39] Customer test-dials 0061 3 9555 4182 live on speakerphone until the Melbourne phone rings, and confirms at [14:42]: 'Yes, the international calling issue is completely resolved—hearing the Melbourne phone ring live on speakerphone gave me total peace of mind!'"
+      }
+    ]
+  }
+}

@@ -1,0 +1,493 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Quinton",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer service. My name is Simon. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:26]",
+      "start_time_sec": 10,
+      "text": "Hello Simon. I am calling from my mobile about my elderly mother's landline number, 0121 496 0842. She's locked out of her 1571 voicemail service because she forgot her four-digit pass code.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:39]",
+      "start_time_sec": 29,
+      "text": "I can certainly look into that voicemail access lockout for you, Quinton. May I have the customer account reference number displayed on the paper bill?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:42]",
+      "end_time": "[00:47]",
+      "start_time_sec": 42,
+      "text": "Yes, the account reference number is SN-902-411.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:50]",
+      "end_time": "[00:58]",
+      "start_time_sec": 50,
+      "text": "Thank you, Quinton. And what is your mother's full name listed on the account registry?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:01]",
+      "end_time": "[01:18]",
+      "start_time_sec": 61,
+      "text": "Her name is Eleanor Davies. She is eighty-four years old and relies on this landline for hospital appointment voicemails, so she was in a real state of anxiety when the automated voice kept saying invalid code!",
+      "sentiment_score": -34.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:21]",
+      "end_time": "[01:36]",
+      "start_time_sec": 81,
+      "text": "I completely understand how worrying that is for both you and your mother, Quinton, especially with important hospital messages. Please don't worry, we will reset that mailbox and make sure she can access her messages today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:39]",
+      "end_time": "[01:44]",
+      "start_time_sec": 99,
+      "text": "Thank you so much Simon, that is very comforting to hear.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:47]",
+      "end_time": "[02:04]",
+      "start_time_sec": 107,
+      "text": "So if I have understood correctly, your mother entered an incorrect four-digit code multiple times on 1571, causing the exchange mailbox to enter security lockout, and she cannot retrieve messages from her healthcare providers. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:07]",
+      "end_time": "[02:10]",
+      "start_time_sec": 127,
+      "text": "Yes, that is exactly the problem.",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:13]",
+      "end_time": "[02:21]",
+      "start_time_sec": 133,
+      "text": "I am opening the telephony exchange switchboard console for the Birmingham area."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:24]",
+      "end_time": "[02:27]",
+      "start_time_sec": 144,
+      "text": "Okay, take your time.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:30]",
+      "end_time": "[02:37]",
+      "start_time_sec": 150,
+      "text": "Now, could you tell me again what the landline telephone number is?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:40]",
+      "end_time": "[02:47]",
+      "start_time_sec": 160,
+      "text": "As I told you right at the start of the call, it's 0121 496 0842.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:50]",
+      "end_time": "[02:57]",
+      "start_time_sec": 170,
+      "text": "Thank you, pulling up 0121 496 0842 on the switchboard now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:00]",
+      "end_time": "[03:04]",
+      "start_time_sec": 180,
+      "text": "Does it show that the mailbox is locked?",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:07]",
+      "end_time": "[03:15]",
+      "start_time_sec": 187,
+      "text": "Yes, the status flag indicates 'SECURITY LOCKOUT - 3 FAILED ATTEMPTS'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:18]",
+      "end_time": "[03:24]",
+      "start_time_sec": 198,
+      "text": "Can you reset the code to a temporary one that she can easily remember?",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:27]",
+      "end_time": "[03:40]",
+      "start_time_sec": 207,
+      "text": "Obviously security policy prohibits resetting mailbox credentials without generating an encrypted one-time security token from the server, Quinton."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:43]",
+      "end_time": "[03:47]",
+      "start_time_sec": 223,
+      "text": "Right, how does that one-time token work?",
+      "sentiment_score": 4.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:50]",
+      "end_time": "[04:06]",
+      "start_time_sec": 230,
+      "text": "I will generate a temporary default passcode of 1234 on the switchboard. Then, when your mother dials 1571 from her landline handset, the system will prompt her to choose her own new four-digit code."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:09]",
+      "end_time": "[04:18]",
+      "start_time_sec": 249,
+      "text": "That is very straightforward and easy for an elderly person to follow. Can we do that reset right now while I'm here visiting her house in Birmingham?",
+      "sentiment_score": 15.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:21]",
+      "end_time": "[04:33]",
+      "start_time_sec": 261,
+      "text": "Yes, absolutely. I am clearing the failed security counter on the exchange switchboard and programming the temporary default passcode 1234 on her line right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:36]",
+      "end_time": "[04:43]",
+      "start_time_sec": 276,
+      "text": "Okay, I am standing in the hallway right next to her telephone base station. Should I pick up the handset now?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:46]",
+      "end_time": "[04:52]",
+      "start_time_sec": 286,
+      "text": "Yes, please pick up the handset and dial 1571."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:55]",
+      "end_time": "[05:09]",
+      "start_time_sec": 295,
+      "text": "Picking up... dialing 1-5-7-1... the automated voice says 'Welcome to S-Net 1571. Please enter your temporary four-digit code followed by the hash key.'",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:12]",
+      "end_time": "[05:18]",
+      "start_time_sec": 312,
+      "text": "Press 1 2 3 4 followed by hash."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:21]",
+      "end_time": "[05:31]",
+      "start_time_sec": 321,
+      "text": "Pressing 1 2 3 4 hash... it says 'Temporary code accepted. Please enter your new four-digit code.'",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:34]",
+      "end_time": "[05:42]",
+      "start_time_sec": 334,
+      "text": "Help your mother enter her chosen new four-digit code twice to confirm."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:45]",
+      "end_time": "[05:56]",
+      "start_time_sec": 345,
+      "text": "She is typing her birth year... and confirming it... the voice says 'Your new code has been saved successfully'!",
+      "sentiment_score": 42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:59]",
+      "end_time": "[06:07]",
+      "start_time_sec": 359,
+      "text": "Brilliant. Now does the system announce any unread voicemails waiting in the inbox?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:10]",
+      "end_time": "[06:26]",
+      "start_time_sec": 370,
+      "text": "It says 'You have two new messages'! Message one is from Queen Elizabeth Hospital confirming her cardiology appointment for next Thursday at 10 AM! What a colossal relief, Simon!",
+      "sentiment_score": 52.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:29]",
+      "end_time": "[06:38]",
+      "start_time_sec": 389,
+      "text": "That is wonderful news, Quinton! I am so glad she was able to hear that vital hospital appointment."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:41]",
+      "end_time": "[06:52]",
+      "start_time_sec": 401,
+      "text": "She has written it down in her diary right now. Message two was from Boots pharmacy confirming her prescription will be delivered tomorrow morning.",
+      "sentiment_score": 34.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:55]",
+      "end_time": "[07:03]",
+      "start_time_sec": 415,
+      "text": "Both critical medical communications are safely received and documented."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:06]",
+      "end_time": "[07:13]",
+      "start_time_sec": 426,
+      "text": "Can we also set up a custom voicemail greeting so callers know it's her?",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:16]",
+      "end_time": "[07:27]",
+      "start_time_sec": 436,
+      "text": "Yes. In the 1571 main menu, press option 3 for Mailbox Settings, then option 2 to Record a Personal Greeting."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:30]",
+      "end_time": "[07:44]",
+      "start_time_sec": 450,
+      "text": "Pressing 3 then 2... she is speaking her greeting into the receiver right now... pressing hash to finish. It played back and sounds very clear.",
+      "sentiment_score": 38.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:47]",
+      "end_time": "[08:01]",
+      "start_time_sec": 467,
+      "text": "We can also adjust the ring duration before 1571 answers, increasing it from four rings to six rings so she has more time to reach the handset."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:04]",
+      "end_time": "[08:12]",
+      "start_time_sec": 484,
+      "text": "Oh, that would be wonderful! Sometimes she struggles to get up from her armchair in time.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:15]",
+      "end_time": "[08:26]",
+      "start_time_sec": 495,
+      "text": "I have adjusted the ring delay to thirty seconds on the exchange switchboard, giving her six full rings."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:29]",
+      "end_time": "[08:34]",
+      "start_time_sec": 509,
+      "text": "That is going to be so much easier for her.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:37]",
+      "end_time": "[08:49]",
+      "start_time_sec": 517,
+      "text": "Let us also test the 1571 stutter dial tone feature so you know when a message is waiting without dialing in."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:52]",
+      "end_time": "[08:57]",
+      "start_time_sec": 532,
+      "text": "How does the stutter dial tone work on the handset?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:00]",
+      "end_time": "[09:13]",
+      "start_time_sec": 540,
+      "text": "When an unread message is stored in 1571, the dial tone beeps rapidly when lifting the receiver to alert the subscriber."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:16]",
+      "end_time": "[09:26]",
+      "start_time_sec": 556,
+      "text": "Let me lift the receiver to listen... yes! It has a distinct broken dial tone signaling the new messages.",
+      "sentiment_score": 29.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:29]",
+      "end_time": "[09:40]",
+      "start_time_sec": 569,
+      "text": "Once she deletes or listens to all messages, the tone automatically returns to a solid continuous pitch."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:43]",
+      "end_time": "[09:48]",
+      "start_time_sec": 583,
+      "text": "That is an excellent visual and audible prompt for her.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:51]",
+      "end_time": "[10:02]",
+      "start_time_sec": 591,
+      "text": "She can also press 3 during playback to delete old messages or press 2 to save them indefinitely."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:05]",
+      "end_time": "[10:12]",
+      "start_time_sec": 605,
+      "text": "I will show her how pressing three deletes messages she has already noted down.",
+      "sentiment_score": 21.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:15]",
+      "end_time": "[10:27]",
+      "start_time_sec": 615,
+      "text": "I will remain the dedicated owner for this support ticket, Quinton, and I will keep this case on follow-up monitoring for forty-eight hours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:30]",
+      "end_time": "[10:36]",
+      "start_time_sec": 630,
+      "text": "Thank you so much Simon, your help today has been truly invaluable.",
+      "sentiment_score": 36.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:39]",
+      "end_time": "[10:49]",
+      "start_time_sec": 639,
+      "text": "Let us also check the handset volume settings on the telephone base to ensure ringtones are audible across the house."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:52]",
+      "end_time": "[11:01]",
+      "start_time_sec": 652,
+      "text": "Turning the volume slider to High on the side of the base... the test ring is nice and loud now.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:04]",
+      "end_time": "[11:12]",
+      "start_time_sec": 664,
+      "text": "That will help ensure she never misses incoming calls from family or doctors."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:15]",
+      "end_time": "[11:20]",
+      "start_time_sec": 675,
+      "text": "Yes, that will make a huge difference for her peace of mind.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:23]",
+      "end_time": "[11:32]",
+      "start_time_sec": 683,
+      "text": "Can we also check that her priority care registration is active on her customer profile?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:35]",
+      "end_time": "[11:43]",
+      "start_time_sec": 695,
+      "text": "Yes, she has a priority care marker for power cuts and line faults due to her age.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:46]",
+      "end_time": "[11:55]",
+      "start_time_sec": 706,
+      "text": "I see the Priority Fault Repair flag is active on her telephone circuit record."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:58]",
+      "end_time": "[12:02]",
+      "start_time_sec": 718,
+      "text": "That gives us such great reassurance.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:05]",
+      "end_time": "[12:14]",
+      "start_time_sec": 725,
+      "text": "Is there anything else with your mother's S-Net landline or broadband service that I can help with today, Quinton?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:17]",
+      "end_time": "[12:22]",
+      "start_time_sec": 737,
+      "text": "No, that has solved everything completely. Thank you again.",
+      "sentiment_score": 26.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:25]",
+      "end_time": "[12:36]",
+      "start_time_sec": 745,
+      "text": "You may receive a brief automated survey after this call; we would be grateful if you could rate our customer service today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:38]",
+      "end_time": "[12:43]",
+      "start_time_sec": 758,
+      "text": "I will definitely give you top marks. Thank you, goodbye.",
+      "sentiment_score": 28.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:45]",
+      "end_time": "[12:51]",
+      "start_time_sec": 765,
+      "text": "Thank you for choosing S-Net, Quinton. Take care and goodbye."
+    }
+  ]
+}

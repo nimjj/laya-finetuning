@@ -1,0 +1,162 @@
+{
+  "call_id": "ag_22",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 75.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "At [01:14]-[01:56], when the customer expressed anxiety about his newborn baby and the heating cutting out during a cold snap, the agent failed to offer any empathy or acknowledgment and jumped coldly into technical specifications."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "At [09:13], the agent asked what brand of smart thermostat the customer was trying to pair, even though the customer had already stated at [01:41] that it was a Hive Mini."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At [06:07], the agent made a condescending remark blaming the customer for not reading the manual ('Well, if you'd actually read the quick-start booklet that came in the box, you'd know IoT devices need a dedicated 2.4 gigahertz SSID')."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Wi-Fi 6 router band-steering preventing 2.4GHz smart heating thermostat and baby monitor from staying connected",
+    "tier": "okay",
+    "duration_sec": 880,
+    "notes": "Hard-case E, AL, R FAILs paired with strong technical O, PR, H, RE PASSes under STT roughness. Agent Hannah never acknowledges Oluwaseun's anxiety about his newborn baby in a cold house ([01:14]-[01:56]), makes a condescending remark about reading the quick-start booklet at [06:07], and re-asks the thermostat brand at [09:13] after he named the Hive Mini at [01:41]. However, she takes complete technical ownership ([06:51]-[11:39]), manages a 52s hold properly ([07:50]-[08:52]), and confirms live resolution ([14:07]).",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Active listening",
+      "Build rapport and observed professionalism",
+      "Hold time and Dead Air",
+      "Took ownership of the problem",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent opens with 'thank you for calling S-Net' and [14:33] closes with 'thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[07:50] Agent announces the hold ('please bear with me while i apply the split SSID settings') before the 52s gap and [08:52] thanks the customer on return ('thank you for holding oluwaseun')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:24]-[00:46] Agent verifies postcode, home address, four-digit security PIN, and security question within the first minute of the call."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:24], [08:52], and [13:56] Agent addresses the customer by his first name, Oluwaseun."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:14] Customer says 'we have a six day old newborn baby in the house and there is a freezing cold snap outside right now' and [01:41] 'it's honestly making my wife and me so anxious', and [01:30]/[01:56] Agent responds with zero empathy or acknowledgment."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:56] Agent restates the problem in her own words: 'your S-Net Wi-Fi 6 hub is using automatic band steering on a single combined network name which is knocking your 2.4 gigahertz heating receiver and baby camera offline'."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:41] Customer states 'the thermostat is a Hive Mini', but at [09:13] Agent asks 'And what brand of smart thermostat are you trying to pair to the network?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[06:51]-[09:53] Agent takes full technical ownership by remotely splitting the 2.4GHz and 5GHz radios via TR-069, disabling PMF, locking channel 6, and [11:39] setting static DHCP IP reservations."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[06:07] Agent says condescendingly: 'Well, if you'd actually read the quick-start booklet that came in the box, you'd know IoT devices need a dedicated 2.4 gigahertz SSID.'"
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:26]-[05:01] Agent probes into device distance from the hub, app error messages, WPA2/WPA3 security mode, third-party mesh extenders, hardware revision, and power supply setup."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[10:24], [11:27], and [14:07] Customer connects both the Owlet baby monitor and Hive Mini thermostat live on the call, hears the boiler fire up, and confirms both show solid green/blue status lights."
+      }
+    ]
+  }
+}

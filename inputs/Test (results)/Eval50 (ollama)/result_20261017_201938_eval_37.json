@@ -1,0 +1,80 @@
+{
+  "call_id": "call_89259a9707",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 56.7,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": "Agent successfully used required opening and closing branding scripts."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": "Agent maintained active communication without excessive dead air (>30s)."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": "Agent verified customer identity within the required time window."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Use customer information and context to tailor the conversation and show understanding of their needs."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Acknowledge the customer's concern with a genuine expression of empathy, such as 'I can see why you'd feel frustrated...' or 'That sounds really inconvenient...'."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": "Agent accurately acknowledged and mirrored the customer's reported issue."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": "Agent practiced active listening without repetitive or redundant questions."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": "Agent demonstrated clear ownership without deflecting or blaming other departments."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": "Agent maintained a professional, courteous, and respectful demeanor throughout."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Ask open-ended questions to gather more information and clarify the issue, rather than simply asking yes/no questions."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Explicitly confirm that the issue has been resolved by saying something like 'Just to make sure, [issue] is now fixed, correct?'"
+      }
+    ],
+    "is_auto_fail": false,
+    "auto_fail_reason": null
+  },
+  "engine_label": "ollama",
+  "elapsed_sec": 101.3
+}

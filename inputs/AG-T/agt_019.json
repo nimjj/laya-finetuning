@@ -1,0 +1,419 @@
+{
+  "call_id": "agt_019",
+  "tenant_id": "tenant-abc",
+  "customer_name": "Ciaran",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net gaming and broadband technical support. My name is Maya. How may I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:23]",
+      "start_time_sec": 8,
+      "text": "Hi Maya. My name is Ciaran O'Connor. I am having a major headache with my Xbox Series X console because the network settings keep showing Strict NAT and UPnP Not Successful.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:24]",
+      "end_time": "[00:41]",
+      "start_time_sec": 24,
+      "text": "Good morning Ciaran. I can certainly help you configure your router settings and Xbox network configuration to achieve an Open NAT. Before we access your residential gateway, could you please confirm your full postal address and your account telephone number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:42]",
+      "end_time": "[00:58]",
+      "start_time_sec": 42,
+      "text": "Yes, our address is 52 St John's Terrace, Inverness, IV2 4BL, and our landline telephone number is 01463 710924.",
+      "sentiment_score": 1.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:59]",
+      "end_time": "[01:10]",
+      "start_time_sec": 59,
+      "text": "Thank you Ciaran, that confirms your account details. Which model S-Net router are you using, and how is the Xbox connected?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:11]",
+      "end_time": "[01:28]",
+      "start_time_sec": 71,
+      "text": "We have the black S-Net Hub Two router downstairs. The Xbox is connected via Wi-Fi upstairs in my bedroom, and the console is currently assigned local IP address 192.168.1.150.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:29]",
+      "end_time": "[01:42]",
+      "start_time_sec": 89,
+      "text": "Has this Strict NAT issue been happening continuously, or did it start after a specific update or change?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[01:57]",
+      "start_time_sec": 103,
+      "text": "It started about three days ago when the router did a firmware reboot. Ever since then, I keep getting booted out of multiplayer lobbies and party chat disconnects.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:58]",
+      "end_time": "[02:11]",
+      "start_time_sec": 118,
+      "text": "Are any other consoles or gaming PCs connected to your home network at the same time?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:12]",
+      "end_time": "[02:22]",
+      "start_time_sec": 132,
+      "text": "No, just my Xbox Series X and our smart TV streaming in the living room.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:23]",
+      "end_time": "[02:40]",
+      "start_time_sec": 143,
+      "text": "Have you already attempted power cycling both the Hub Two router and the Xbox console, or clearing the alternate MAC address in your advanced Xbox network settings?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:41]",
+      "end_time": "[02:54]",
+      "start_time_sec": 161,
+      "text": "I tried power cycling both the router and console from the wall, but the NAT type stayed completely Strict and multiplayer matchmaking still fails.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:55]",
+      "end_time": "[03:16]",
+      "start_time_sec": 175,
+      "text": "So to make sure we are completely aligned, Ciaran, your Xbox Series X is connecting over Wi-Fi with a Strict NAT and failed UPnP after the recent firmware restart, and we need to reserve a static IP and enable UPnP or port forwarding on your Hub Two to get an Open NAT, is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:17]",
+      "end_time": "[03:26]",
+      "start_time_sec": 197,
+      "text": "Yes, that is exactly what we need to get sorted so I can play online with my friends.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:27]",
+      "end_time": "[03:45]",
+      "start_time_sec": 207,
+      "text": "Please bear with me for two minutes while I access your Hub Two management interface remotely to check the UPnP state and configure a permanent DHCP reservation for your console."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:46]",
+      "end_time": "[03:51]",
+      "start_time_sec": 226,
+      "text": "Sure, take your time Maya.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:40]",
+      "end_time": "[05:01]",
+      "start_time_sec": 280,
+      "text": "Thank you for holding patiently, Ciaran. Looking directly at your router event log, the recent automated firmware update reverted your universal plug-and-play service to disabled, which completely blocks Xbox Live inbound ports 3074 and 88 from opening automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:02]",
+      "end_time": "[05:12]",
+      "start_time_sec": 302,
+      "text": "Aha! That makes total sense! Can we switch UPnP back on from your side?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:13]",
+      "end_time": "[05:31]",
+      "start_time_sec": 313,
+      "text": "Yes, I am toggling the UPnP service to enabled right now. Before I lock in the static DHCP lease on our gateway portal, let me confirm the Xbox IP address you read out earlier was 192.168.1.150?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:32]",
+      "end_time": "[05:40]",
+      "start_time_sec": 332,
+      "text": "Yes, exactly, 192.168.1.150.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:41]",
+      "end_time": "[06:00]",
+      "start_time_sec": 341,
+      "text": "I have created the permanent DHCP static reservation binding for 192.168.1.150, and I have forwarded UDP port 3074, port 88, port 500, and port 3544 directly to your console's network adapter profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:01]",
+      "end_time": "[06:27]",
+      "start_time_sec": 361,
+      "text": "Wait a second, Maya... I just ran the Test NAT Type on the console right now, and it just flashed up 'Double NAT detected - NAT Type Unavailable'! Oh no, is it ruined?! I've been waiting all week for tonight's tournament and now the connection is completely dead! I am so frustrated!",
+      "sentiment_score": -68.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:28]",
+      "end_time": "[06:48]",
+      "start_time_sec": 388,
+      "text": "I completely understand how frustrating that feels Ciaran, especially with your big tournament coming up tonight, but please do not worry. That error message is completely temporary while the router is actively applying the new firewall rules and port mappings. We will refresh the Xbox network cache and it will clear right up."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:49]",
+      "end_time": "[06:59]",
+      "start_time_sec": 409,
+      "text": "Oh phew, okay, thank you Maya. What do I need to press on the controller?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:00]",
+      "end_time": "[07:18]",
+      "start_time_sec": 420,
+      "text": "On your Xbox, go into Settings, select Network Settings, choose Advanced Settings, then tap Alternate MAC Address and select Clear."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:19]",
+      "end_time": "[07:31]",
+      "start_time_sec": 439,
+      "text": "I tapped Clear, and a box popped up saying the console will restart now. It is restarting right now.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:32]",
+      "end_time": "[07:51]",
+      "start_time_sec": 452,
+      "text": "Perfect. While the green Xbox boot animation is running, I am committing the port forwarding and UPnP rules permanently to the Hub Two non-volatile memory."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:52]",
+      "end_time": "[08:04]",
+      "start_time_sec": 472,
+      "text": "The console has reached the home dashboard. Should I head back into the Network Settings screen?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:05]",
+      "end_time": "[08:21]",
+      "start_time_sec": 485,
+      "text": "Yes, go into Network Settings and select 'Test NAT Type'. Let me know what the status line reports once the circle finishes spinning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:22]",
+      "end_time": "[08:39]",
+      "start_time_sec": 502,
+      "text": "It says 'Checking NAT type'... spinning... and it says 'NAT Type: Open, All services are available'! It worked! It's completely Open!",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:40]",
+      "end_time": "[08:58]",
+      "start_time_sec": 520,
+      "text": "Fantastic! Let us also run 'Test Multiplayer Connection' right below it just to make sure there are no packet drops or latency spikes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:59]",
+      "end_time": "[09:12]",
+      "start_time_sec": 539,
+      "text": "Testing multiplayer... 'It's all good, your console is connected to the Internet for multiplayer gaming'.",
+      "sentiment_score": 36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:13]",
+      "end_time": "[09:27]",
+      "start_time_sec": 553,
+      "text": "Could you also quickly launch an Xbox party chat to verify your microphone and party audio connect smoothly?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:28]",
+      "end_time": "[09:42]",
+      "start_time_sec": 568,
+      "text": "Starting party... my headset icon lit up green immediately with zero delay. No errors or party disconnect messages at all!",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:43]",
+      "end_time": "[09:59]",
+      "start_time_sec": 583,
+      "text": "Could you also quickly launch Call of Duty or Halo and check your in-game latency to verify multiplayer matchmaking?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:00]",
+      "end_time": "[10:14]",
+      "start_time_sec": 600,
+      "text": "Launching Call of Duty right now... searching for a match... ping shows eighteen milliseconds and it found a game in five seconds flat!",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:15]",
+      "end_time": "[10:31]",
+      "start_time_sec": 615,
+      "text": "Eighteen milliseconds is exceptional for Inverness. That confirms your router port queues and packet priorities are optimal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:32]",
+      "end_time": "[10:41]",
+      "start_time_sec": 632,
+      "text": "That is faster matchmaking than I have had in months. The lag spikes are completely gone.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:42]",
+      "end_time": "[10:56]",
+      "start_time_sec": 642,
+      "text": "Are you seeing full signal bars on the five gigahertz Wi-Fi band on your console status screen?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:57]",
+      "end_time": "[11:06]",
+      "start_time_sec": 657,
+      "text": "Yes, full signal bars upstairs on five gigahertz with zero packet loss.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:07]",
+      "end_time": "[11:23]",
+      "start_time_sec": 667,
+      "text": "That proves your UPnP configuration, port forwarding, and network sockets are operating flawlessly across all Xbox Live services."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:24]",
+      "end_time": "[11:34]",
+      "start_time_sec": 684,
+      "text": "That has completely fixed everything. My tournament tonight is totally saved thanks to you!",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:35]",
+      "end_time": "[11:53]",
+      "start_time_sec": 695,
+      "text": "You are very welcome, Ciaran. All configuration changes have been backed up in the cloud so future firmware updates will not overwrite your gaming ports."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:54]",
+      "end_time": "[12:02]",
+      "start_time_sec": 714,
+      "text": "That is brilliant forward thinking. Thank you Maya.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:03]",
+      "end_time": "[12:19]",
+      "start_time_sec": 723,
+      "text": "Is there any other device or technical question I can assist you with on your S-Net broadband today, Ciaran?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:20]",
+      "end_time": "[12:29]",
+      "start_time_sec": 740,
+      "text": "No, that was my only issue and it is completely sorted now.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:30]",
+      "end_time": "[12:45]",
+      "start_time_sec": 750,
+      "text": "Thank you for calling S-Net gaming and broadband support, Ciaran. Best of luck in your tournament tonight! Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:46]",
+      "end_time": "[12:51]",
+      "start_time_sec": 766,
+      "text": "Thanks Maya, goodbye and have a great day!",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:52]",
+      "end_time": "[13:09]",
+      "start_time_sec": 772,
+      "text": "A brief customer satisfaction survey will follow after this call. We appreciate your feedback."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:10]",
+      "end_time": "[13:16]",
+      "start_time_sec": 790,
+      "text": "I will give you top marks. Thank you.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:17]",
+      "end_time": "[13:34]",
+      "start_time_sec": 797,
+      "text": "Thank you so much Ciaran, have a fantastic evening. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:35]",
+      "end_time": "[13:40]",
+      "start_time_sec": 815,
+      "text": "Goodbye.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:41]",
+      "end_time": "[13:57]",
+      "start_time_sec": 821,
+      "text": "Thank you for choosing S-Net broadband."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:58]",
+      "end_time": "[14:03]",
+      "start_time_sec": 838,
+      "text": "Goodbye.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:04]",
+      "end_time": "[14:20]",
+      "start_time_sec": 844,
+      "text": "Goodbye."
+    }
+  ]
+}

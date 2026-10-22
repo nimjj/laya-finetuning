@@ -1,0 +1,190 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Kwabena",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, my name is Hannah. How can I help you today?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:18]",
+      "start_time_sec": 8,
+      "text": "I'm absolutely livid. I've just found out you've been charging me for a landline I cancelled in March. That's seven months of money you've taken from me.",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:19]",
+      "end_time": "[00:32]",
+      "start_time_sec": 19,
+      "text": "I'm so sorry, Kwabena. Paying for seven months for something you cancelled is completely unacceptable, and I completely understand why you're angry. I'm going to look into it right now and put it right.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:34]",
+      "end_time": "[00:36]",
+      "start_time_sec": 34,
+      "text": "I should hope so.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:38]",
+      "end_time": "[00:45]",
+      "start_time_sec": 38,
+      "text": "Can you answer the security question on the account for me: the name of your first pet?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:47]",
+      "end_time": "[00:49]",
+      "start_time_sec": 47,
+      "text": "Biscuit.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:50]",
+      "end_time": "[00:59]",
+      "start_time_sec": 50,
+      "text": "Thank you. So you cancelled the landline in March, and you've still been billed for it every month since then. Is that right?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:02]",
+      "end_time": "[01:04]",
+      "start_time_sec": 62,
+      "text": "Yes. Twelve pounds a month.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:06]",
+      "end_time": "[01:11]",
+      "start_time_sec": 66,
+      "text": "Did you get a cancellation confirmation at the time, by email or letter?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:14]",
+      "end_time": "[01:17]",
+      "start_time_sec": 74,
+      "text": "I got an email, I've still got it.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:18]",
+      "end_time": "[01:24]",
+      "start_time_sec": 78,
+      "text": "That's really helpful. Does it have a reference number at the top, starting with CN?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:27]",
+      "end_time": "[01:30]",
+      "start_time_sec": 87,
+      "text": "Yes, CN 4 4 0 9 1.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:33]",
+      "end_time": "[01:44]",
+      "start_time_sec": 93,
+      "text": "Thank you. I can see that cancellation, and I can see where it went wrong: the request was logged but never sent through to billing. That's our error, entirely.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:45]",
+      "end_time": "[01:48]",
+      "start_time_sec": 105,
+      "text": "So what are you going to do about it?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:50]",
+      "end_time": "[02:05]",
+      "start_time_sec": 110,
+      "text": "I'm cancelling the line on the billing system right now, and I'm refunding all seven months, that's eighty-four pounds, back to your card. I'm also adding a ten-pound goodwill credit because you shouldn't have had to find this yourself.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:06]",
+      "end_time": "[02:09]",
+      "start_time_sec": 126,
+      "text": "Okay. Thank you. That's more like it.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:10]",
+      "end_time": "[02:20]",
+      "start_time_sec": 130,
+      "text": "The refund will show on your card in three to five working days. Would you like me to email you a breakdown so you can check it?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:21]",
+      "end_time": "[02:23]",
+      "start_time_sec": 141,
+      "text": "Yes please.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:24]",
+      "end_time": "[02:30]",
+      "start_time_sec": 144,
+      "text": "Sent. Could you check that it's arrived, and that it shows the line as cancelled?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:31]",
+      "end_time": "[02:35]",
+      "start_time_sec": 151,
+      "text": "Yes, it's here. Says line cancelled and refund of eighty-four pounds.",
+      "sentiment_score": -3.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:38]",
+      "end_time": "[02:49]",
+      "start_time_sec": 158,
+      "text": "Great. So the landline is properly cancelled now, the refund is on its way, and the credit is applied. Is there anything about this that you're still unhappy with?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:51]",
+      "end_time": "[02:53]",
+      "start_time_sec": 171,
+      "text": "No, you've sorted it. Thanks Hannah.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:56]",
+      "end_time": "[03:02]",
+      "start_time_sec": 176,
+      "text": "Thank you for your patience, Kwabena. Thank you for choosing S-Net, and have a good day.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

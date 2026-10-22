@@ -1,0 +1,494 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Henry",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Tom. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:14]",
+      "end_time": "[00:36]",
+      "start_time_sec": 14,
+      "text": "Hi Tom. I am having a massive headache with our S-Net Hub router. We have an Airbnb suite attached to our house and guests keep accessing our private family devices like our network storage drive and smart security cameras! I need to separate the Wi-Fi completely before guests arrive this evening!",
+      "sentiment_score": -44.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:43]",
+      "end_time": "[00:59]",
+      "start_time_sec": 43,
+      "text": "I understand how concerning that is, Henry, especially when you have personal security cameras and files shared across the same network as temporary guests. Let me look into your Hub settings and configure proper guest network isolation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:06]",
+      "end_time": "[01:15]",
+      "start_time_sec": 66,
+      "text": "Thank you Tom. I was shocked when a guest asked me why our baby monitor was showing up on his tablet.",
+      "sentiment_score": -14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:22]",
+      "end_time": "[01:31]",
+      "start_time_sec": 82,
+      "text": "Before we log into your Hub router configuration, Henry, could you please verify your installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:38]",
+      "end_time": "[01:45]",
+      "start_time_sec": 98,
+      "text": "Yes, it is 83 Crescent Road, Bath, BA1 2UQ, and the security PIN is 5914.",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:52]",
+      "end_time": "[02:00]",
+      "start_time_sec": 112,
+      "text": "Thank you for verifying those details, Henry. I have your Hub 5 gateway open on our management portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:07]",
+      "end_time": "[02:10]",
+      "start_time_sec": 127,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:17]",
+      "end_time": "[02:41]",
+      "start_time_sec": 137,
+      "text": "So just to confirm what you are needing: you are hosting Airbnb guests in an attached suite on your property, and you need to set up a completely isolated Guest Wi-Fi network with its own password so guests cannot see or communicate with your private family devices and NAS drive. Have I got that right, Henry?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:48]",
+      "end_time": "[02:55]",
+      "start_time_sec": 168,
+      "text": "Yes, spot on. I need complete separation between the guest network and our personal family network.",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:02]",
+      "end_time": "[03:10]",
+      "start_time_sec": 182,
+      "text": "The S-Net Hub 5 has a dedicated Guest Network feature that creates a virtual subnet with client isolation enabled."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:17]",
+      "end_time": "[03:20]",
+      "start_time_sec": 197,
+      "text": "What does client isolation actually do?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:27]",
+      "end_time": "[03:38]",
+      "start_time_sec": 207,
+      "text": "Client isolation prevents wireless devices on the guest SSID from broadcasting or communicating with any other device on the local network or the main private SSID."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:45]",
+      "end_time": "[03:50]",
+      "start_time_sec": 225,
+      "text": "Can guests still access the internet normally for streaming and browsing?",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:57]",
+      "end_time": "[04:05]",
+      "start_time_sec": 237,
+      "text": "Yes, guests have unrestricted high-speed internet access to external websites, but zero access to local private IP addresses."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:12]",
+      "end_time": "[04:15]",
+      "start_time_sec": 252,
+      "text": "That sounds like exactly what we need.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:22]",
+      "end_time": "[04:32]",
+      "start_time_sec": 262,
+      "text": "Let's first change your primary private Wi-Fi network password so any previous guests who still have your old password saved get disconnected immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:39]",
+      "end_time": "[04:42]",
+      "start_time_sec": 279,
+      "text": "That is a very smart security precaution.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:49]",
+      "end_time": "[04:55]",
+      "start_time_sec": 289,
+      "text": "What new Wi-Fi password would you like assigned to your private household network?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:02]",
+      "end_time": "[05:07]",
+      "start_time_sec": 302,
+      "text": "Let's set it to SomersetPine2026! with a capital S and P.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:14]",
+      "end_time": "[05:21]",
+      "start_time_sec": 314,
+      "text": "I have updated your private primary Wi-Fi password to SomersetPine2026! on both 2.4GHz and 5GHz bands."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:28]",
+      "end_time": "[05:35]",
+      "start_time_sec": 328,
+      "text": "All our family phones and the baby monitor just disconnected, which proves the old password stopped working.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:42]",
+      "end_time": "[05:45]",
+      "start_time_sec": 342,
+      "text": "Now let's configure the secondary Guest Wi-Fi SSID."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:52]",
+      "end_time": "[05:55]",
+      "start_time_sec": 352,
+      "text": "What should we name the guest network?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:02]",
+      "end_time": "[06:09]",
+      "start_time_sec": 362,
+      "text": "We can name the SSID 'Bath Suite Guest Wi-Fi' so your visitors can easily identify it."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:16]",
+      "end_time": "[06:19]",
+      "start_time_sec": 376,
+      "text": "That's very professional and clear for travelers.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:26]",
+      "end_time": "[06:30]",
+      "start_time_sec": 386,
+      "text": "And what password would you like for the guest network?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:37]",
+      "end_time": "[06:40]",
+      "start_time_sec": 397,
+      "text": "Let's make it WelcomeToBath2026.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:47]",
+      "end_time": "[06:53]",
+      "start_time_sec": 407,
+      "text": "I have enabled the guest SSID with WPA2-Personal security and client isolation checked."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:00]",
+      "end_time": "[07:05]",
+      "start_time_sec": 420,
+      "text": "Does the guest network have its own separate IP address pool?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:12]",
+      "end_time": "[07:20]",
+      "start_time_sec": 432,
+      "text": "Yes, the guest subnet issues IP addresses in the 192.168.2.x range, whereas your private household devices reside on 192.168.1.x."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:27]",
+      "end_time": "[07:37]",
+      "start_time_sec": 447,
+      "text": "Can I set custom firewall access control lists between the subnets so I can allow access to our wireless printer in the hallway?",
+      "sentiment_score": -2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:44]",
+      "end_time": "[07:54]",
+      "start_time_sec": 464,
+      "text": "No, the residential Hub firmware enforces a strict firewall boundary between the two subnets. Local routing between guest and private is completely blocked."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:01]",
+      "end_time": "[08:21]",
+      "start_time_sec": 481,
+      "text": "Wait, my Airbnb guests expect to be able to print boarding passes and train tickets on the hallway printer! If they can't print, they're going to complain and leave negative reviews on Airbnb! Can't you create a custom port forwarding route or VLAN tag for the printer?",
+      "sentiment_score": -38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:28]",
+      "end_time": "[08:45]",
+      "start_time_sec": 508,
+      "text": "Look Henry, it's a basic residential home router, not an enterprise commercial Cisco switch. If you are running a commercial hotel business out of your basement, you need to buy commercial networking gear instead of complaining to me."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:52]",
+      "end_time": "[09:07]",
+      "start_time_sec": 532,
+      "text": "I am not running a commercial hotel business, it is a single annex room! There is no need to be rude and condescending when I am asking a simple technical question about a printer!",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:14]",
+      "end_time": "[09:21]",
+      "start_time_sec": 554,
+      "text": "I am just stating technical facts. The Hub does not support custom inter-subnet routing policies."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:28]",
+      "end_time": "[09:37]",
+      "start_time_sec": 568,
+      "text": "Fine, I will buy a separate cheap Wi-Fi printer specifically for the annex so they don't touch our family printer.",
+      "sentiment_score": -11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:44]",
+      "end_time": "[09:48]",
+      "start_time_sec": 584,
+      "text": "That would be the appropriate solution for guest printing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:55]",
+      "end_time": "[10:02]",
+      "start_time_sec": 595,
+      "text": "Let me test connecting my phone to the new Guest Wi-Fi to verify the isolation.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:09]",
+      "end_time": "[10:21]",
+      "start_time_sec": 609,
+      "text": "Please bear with me while I place you on a brief hold for about one minute while I push the updated guest configuration to your Hub router."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:06]",
+      "end_time": "[11:13]",
+      "start_time_sec": 666,
+      "text": "Thank you for your patience while holding, Henry. The guest network configuration has synchronized with your Hub."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:20]",
+      "end_time": "[11:36]",
+      "start_time_sec": 680,
+      "text": "I just connected my iPad to Bath Suite Guest Wi-Fi with the password WelcomeToBath2026. The internet works fast, and when I scan for local network devices, our NAS drive and cameras don't show up at all.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:43]",
+      "end_time": "[11:48]",
+      "start_time_sec": 703,
+      "text": "That confirms client isolation is active and preventing all local broadcast traffic."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:55]",
+      "end_time": "[12:03]",
+      "start_time_sec": 715,
+      "text": "Can I also set a guest bandwidth limit so guests downloading huge files don't lag our home streaming?",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:10]",
+      "end_time": "[12:17]",
+      "start_time_sec": 730,
+      "text": "The Hub automatically prioritizes traffic using quality of service rules to ensure primary devices maintain bandwidth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:24]",
+      "end_time": "[12:27]",
+      "start_time_sec": 744,
+      "text": "That's good to know.",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:34]",
+      "end_time": "[12:44]",
+      "start_time_sec": 754,
+      "text": "You can print out a QR code for the guest network directly from the My S-Net mobile app for visitors to scan."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:51]",
+      "end_time": "[12:59]",
+      "start_time_sec": 771,
+      "text": "I'll frame the QR code on the desk in the suite so guests don't have to type the password.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:06]",
+      "end_time": "[13:10]",
+      "start_time_sec": 786,
+      "text": "Does the guest network support 5GHz frequencies for faster streaming?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:17]",
+      "end_time": "[13:24]",
+      "start_time_sec": 797,
+      "text": "Yes, the guest SSID broadcasts simultaneously across both 2.4GHz and 5GHz wireless bands with 80MHz channel width."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:31]",
+      "end_time": "[13:35]",
+      "start_time_sec": 811,
+      "text": "That ensures guests with modern smartphones receive maximum speeds.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:42]",
+      "end_time": "[13:52]",
+      "start_time_sec": 822,
+      "text": "And if you ever need to disable the guest network during private family holidays, you can toggle it off in the app."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:59]",
+      "end_time": "[14:04]",
+      "start_time_sec": 839,
+      "text": "Having a simple on-and-off switch in the mobile app is very convenient.",
+      "sentiment_score": 19.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:11]",
+      "end_time": "[14:16]",
+      "start_time_sec": 851,
+      "text": "Does the guest network automatically assign secure recursive DNS servers from S-Net?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:23]",
+      "end_time": "[14:30]",
+      "start_time_sec": 863,
+      "text": "Yes, the guest virtual interface pushes our primary secure recursive DNS resolvers to all connecting guest clients."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:37]",
+      "end_time": "[14:42]",
+      "start_time_sec": 877,
+      "text": "Can guests change their device DNS settings to bypass Web Safe filters?",
+      "sentiment_score": -2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:49]",
+      "end_time": "[14:57]",
+      "start_time_sec": 889,
+      "text": "The Hub router intercepts all port 53 UDP traffic and enforces S-Net DNS filtering regardless of client-side overrides."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:04]",
+      "end_time": "[15:07]",
+      "start_time_sec": 904,
+      "text": "That provides total filtering enforcement across the annex.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:14]",
+      "end_time": "[15:21]",
+      "start_time_sec": 914,
+      "text": "And you can also review active connected devices anytime under the Hub DHCP client table."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:28]",
+      "end_time": "[15:33]",
+      "start_time_sec": 928,
+      "text": "I will check the DHCP table periodically to monitor connected devices.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:40]",
+      "end_time": "[15:46]",
+      "start_time_sec": 940,
+      "text": "Is there anything else regarding your Wi-Fi settings that I can check today, Henry?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:53]",
+      "end_time": "[15:58]",
+      "start_time_sec": 953,
+      "text": "No, the guest network is isolated and secure now. Thank you.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:05]",
+      "end_time": "[16:10]",
+      "start_time_sec": 965,
+      "text": "Thank you for choosing S-Net today, Henry. Have a good evening."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:17]",
+      "end_time": "[16:20]",
+      "start_time_sec": 977,
+      "text": "Goodbye.",
+      "sentiment_score": 6.2
+    }
+  ]
+}

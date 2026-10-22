@@ -1,0 +1,194 @@
+{
+  "call_id": "agb_17",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 76.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Agent failed to verify customer identity within the first 240 seconds, omitting requests for PIN, full billing address, or security question."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked caller to repeat the landline telephone number at [02:30] after the customer had already provided it clearly in his opening turn."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Landline 1571 voicemail PIN lockout; temporary PIN issued and greeting reconfigured; agent fails verification and active listening",
+    "tier": "good",
+    "duration_sec": 771,
+    "notes": "The agent reset a locked 1571 voicemail PIN and guided the customer through setting a new PIN and recording a custom greeting. However, the agent failed Verified Customer by failing to request PIN, address, or security question within the first 240 seconds, and failed Active Listening by asking the caller to restate his landline telephone number 6 minutes into the call despite the customer providing it in his opening turn.",
+    "hard_cases": [
+      "Verified customer",
+      "Active listening",
+      "Build rapport and observed professionalism",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked only for account reference number and mother's name in the first 240 seconds, omitting required whole-word 'pin', 'address', or 'security question' verification."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[02:30] Agent: 'Now, could you tell me again what the landline telephone number is?' - Customer had clearly provided '0121 496 0842' in turn 1 [00:07]."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[07:45] Agent: 'I will remain the dedicated owner for this support ticket, Quinton, and I will keep this case on follow-up monitoring for forty-eight hours.' - Clear personal ownership."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:42] Agent: 'Obviously security policy prohibits resetting mailbox credentials without generating an encrypted one-time security token...' - Professional, objective explanation."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "repeat",
+          "premise_turn": 1,
+          "agent_turn": 12,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 18
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

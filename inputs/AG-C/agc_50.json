@@ -1,0 +1,463 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Hannah",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical repairs. My name is Connor. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:16]",
+      "end_time": "[00:43]",
+      "start_time_sec": 16,
+      "text": "Hello Connor. I am having a massive row with your company! Your field engineer visited my house yesterday to inspect an external line fault, and he had the sheer audacity to claim that our severed telephone wire was caused by me cutting our garden ivy with hedge trimmers! I have never touched a pair of hedge trimmers in my entire life, and your technician was rude, arrogant, and blamed innocent customers for S-Net's rotten decaying wiring!",
+      "sentiment_score": -48.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:52]",
+      "end_time": "[01:04]",
+      "start_time_sec": 52,
+      "text": "I understand how upsetting it is to feel falsely blamed for physical cabling damage, Hannah. Let me review the engineering site inspection notes and photos from yesterday's appointment."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:13]",
+      "end_time": "[01:23]",
+      "start_time_sec": 73,
+      "text": "Thank you Connor, because being accused of damaging company property when your own cables are forty years old made my blood boil!",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:32]",
+      "end_time": "[01:38]",
+      "start_time_sec": 92,
+      "text": "What was the engineer visit job reference number printed on your appointment receipt card?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:47]",
+      "end_time": "[01:56]",
+      "start_time_sec": 107,
+      "text": "The job reference number on the card is JOB-44912-H. The cable runs along our garden boundary wall from the telegraph pole.",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:05]",
+      "end_time": "[02:12]",
+      "start_time_sec": 125,
+      "text": "Thank you, Hannah. I have opened the engineering report and high-resolution photo attachments for docket JOB-44912-H."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:21]",
+      "end_time": "[02:24]",
+      "start_time_sec": 141,
+      "text": "Great, take a good look at those photos.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:33]",
+      "end_time": "[02:53]",
+      "start_time_sec": 153,
+      "text": "So just to confirm the dispute: following yesterday's technician visit, you strongly dispute the engineer's finding that the external lead-in cable was physically cut by garden tools, and you are seeking a repair without being billed an eighty-five pound customer damage charge. Is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:02]",
+      "end_time": "[03:10]",
+      "start_time_sec": 182,
+      "text": "Yes, exactly that! The cable rotted through due to thirty years of damp British weather, not hedge trimmers!",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:19]",
+      "end_time": "[03:26]",
+      "start_time_sec": 199,
+      "text": "Please hold for about forty seconds while I examine the macroscopic photograph of the cable severance point."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:06]",
+      "end_time": "[04:19]",
+      "start_time_sec": 246,
+      "text": "Thank you for holding, Hannah. The high-resolution photograph taken by the technician shows a clean, diagonal forty-five-degree mechanical shear through both the black polyethylene outer sheath and the internal copper pairs."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:28]",
+      "end_time": "[04:31]",
+      "start_time_sec": 268,
+      "text": "A diagonal shear?! What does that prove?!",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:40]",
+      "end_time": "[04:54]",
+      "start_time_sec": 280,
+      "text": "Environmental weather degradation causes jagged tensile fractures and oxidized insulation crumble over several seasons, whereas a forty-five-degree clean shear is characteristic of sharp steel blades such as shears, secateurs, or mechanical hedge trimmers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:03]",
+      "end_time": "[05:10]",
+      "start_time_sec": 303,
+      "text": "So you are taking the engineer's side and calling me a liar to my face?!",
+      "sentiment_score": -36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:19]",
+      "end_time": "[05:28]",
+      "start_time_sec": 319,
+      "text": "I am not calling anyone a liar, Hannah. I am explaining the physical forensic evidence documented in the engineering inspection record."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:37]",
+      "end_time": "[05:50]",
+      "start_time_sec": 337,
+      "text": "Your technician probably cut the wire himself with his own wire clippers just so S-Net could charge me eighty-five pounds! That is the kind of fraudulent racket your company operates!",
+      "sentiment_score": -48.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:59]",
+      "end_time": "[06:05]",
+      "start_time_sec": 359,
+      "text": "Accusing certified telecommunications engineers of intentional criminal fraud on customer property is completely baseless."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:14]",
+      "end_time": "[06:22]",
+      "start_time_sec": 374,
+      "text": "It is not baseless! S-Net is a thieving, dishonest company that exploits customers! You are all crooks and swindlers!",
+      "sentiment_score": -49.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:31]",
+      "end_time": "[06:41]",
+      "start_time_sec": 391,
+      "text": "Only an absolute idiot would cut an active telephone cable with hedge trimmers and then accuse the telephone company of committing fraud!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:50]",
+      "end_time": "[07:02]",
+      "start_time_sec": 410,
+      "text": "Did you just call me an idiot?! You called a paying customer an idiot! That is the most disgraceful thing I have ever heard from a company!",
+      "sentiment_score": -49.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:11]",
+      "end_time": "[07:20]",
+      "start_time_sec": 431,
+      "text": "I apologize for using that insult, Hannah. It was unprofessional. However, your continuous accusations against our engineering staff were inflammatory."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:29]",
+      "end_time": "[07:37]",
+      "start_time_sec": 449,
+      "text": "I am going to make sure you lose your job for this! You will be hearing from my lawyer!",
+      "sentiment_score": -38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:46]",
+      "end_time": "[08:01]",
+      "start_time_sec": 466,
+      "text": "To resolve the physical disconnection today, I can book a priority Openreach jointing technician to pull a brand-new armored external dropwire with reinforced steel messenger wires from the telegraph pole to your master socket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:10]",
+      "end_time": "[08:14]",
+      "start_time_sec": 490,
+      "text": "Will I be billed eighty-five pounds for this replacement dropwire?",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:23]",
+      "end_time": "[08:36]",
+      "start_time_sec": 503,
+      "text": "Under our disputed damage policy, I will place a permanent pre-billing hold on the callout charge pending an independent field supervisor review, so zero fees will be debited from your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:45]",
+      "end_time": "[08:51]",
+      "start_time_sec": 525,
+      "text": "So I will not have eighty-five pounds debited from my bank account tomorrow?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:00]",
+      "end_time": "[09:07]",
+      "start_time_sec": 540,
+      "text": "No, the billing hold flag prevents any equipment or damage charges from reaching your invoice ledger."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:16]",
+      "end_time": "[09:19]",
+      "start_time_sec": 556,
+      "text": "That is at least somewhat fair.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:28]",
+      "end_time": "[09:35]",
+      "start_time_sec": 568,
+      "text": "Just to confirm what you mentioned earlier, the engineer job reference number on your card is JOB-44912-H?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:44]",
+      "end_time": "[09:48]",
+      "start_time_sec": 584,
+      "text": "Yes, JOB-44912-H is the exact number printed on the card.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:57]",
+      "end_time": "[10:04]",
+      "start_time_sec": 597,
+      "text": "Where along the garden boundary wall is the cable cleavage located in relation to the telegraph pole?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:13]",
+      "end_time": "[10:21]",
+      "start_time_sec": 613,
+      "text": "It is about three meters from the wooden pole, right where the ivy grows along the red brick wall.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:30]",
+      "end_time": "[10:39]",
+      "start_time_sec": 630,
+      "text": "Is the brick wall easily accessible for an engineer with an extension ladder or are there rose bushes obstructing access?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:48]",
+      "end_time": "[10:59]",
+      "start_time_sec": 648,
+      "text": "There are no rose bushes, it is just low ivy and the lawn, so a technician can walk right up to the wall with a ladder.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:08]",
+      "end_time": "[11:18]",
+      "start_time_sec": 668,
+      "text": "Does the internal master telephone socket inside your hallway still show a dial tone if you plug in a standard corded handset?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:27]",
+      "end_time": "[11:33]",
+      "start_time_sec": 687,
+      "text": "No, there is complete dead silence on the line with zero dial tone.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:42]",
+      "end_time": "[11:50]",
+      "start_time_sec": 702,
+      "text": "Complete line silence confirms that the tip and ring copper conductors are fully severed at that boundary wall point."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:59]",
+      "end_time": "[12:05]",
+      "start_time_sec": 719,
+      "text": "Which is why we have had zero home phone or internet since yesterday morning.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:14]",
+      "end_time": "[12:20]",
+      "start_time_sec": 734,
+      "text": "What type of faceplate is installed on your internal master socket in the hallway?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:29]",
+      "end_time": "[12:40]",
+      "start_time_sec": 749,
+      "text": "It is an Openreach master socket 5C with a central horizontal split across the white plastic front, installed during the fiber upgrade three years ago.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:49]",
+      "end_time": "[12:57]",
+      "start_time_sec": 769,
+      "text": "The NTE5c master socket features a detachable customer front plate with cam-lock wire clips that makes cable replacement straightforward."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:06]",
+      "end_time": "[13:12]",
+      "start_time_sec": 786,
+      "text": "The previous engineer inspected that socket and said the internal wiring was clean.",
+      "sentiment_score": 12.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:21]",
+      "end_time": "[13:28]",
+      "start_time_sec": 801,
+      "text": "I have booked the priority Openreach jointing slot for tomorrow morning between eight AM and one PM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:37]",
+      "end_time": "[13:43]",
+      "start_time_sec": 817,
+      "text": "I will be home all morning to let the technician onto the property.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:52]",
+      "end_time": "[13:55]",
+      "start_time_sec": 832,
+      "text": "The new appointment booking reference number is ENG-99201-H."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:04]",
+      "end_time": "[14:07]",
+      "start_time_sec": 844,
+      "text": "Noted down... ENG-99201-H.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:16]",
+      "end_time": "[14:28]",
+      "start_time_sec": 856,
+      "text": "The engineer has been briefed to inspect the boundary wall span and install reinforced UV-resistant high-density conduit along the brickwork mortar joints to prevent any physical contact."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:37]",
+      "end_time": "[14:42]",
+      "start_time_sec": 877,
+      "text": "Putting it in conduit will protect it from any future accidental snags.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:51]",
+      "end_time": "[15:00]",
+      "start_time_sec": 891,
+      "text": "The technician will also install a weather-sealed external connection box featuring IP66 ingress protection to house the physical gel crimp splices."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:09]",
+      "end_time": "[15:16]",
+      "start_time_sec": 909,
+      "text": "An IP66 junction box will keep moisture completely out of the copper pairs during winter rain.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:25]",
+      "end_time": "[15:31]",
+      "start_time_sec": 925,
+      "text": "Yes, it protects the conductor terminals against oxidation and corrosion for over twenty years."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:40]",
+      "end_time": "[15:44]",
+      "start_time_sec": 940,
+      "text": "That sounds like a much more permanent and durable installation.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:53]",
+      "end_time": "[16:00]",
+      "start_time_sec": 953,
+      "text": "How is your S-Net mobile phone network coverage performing inside your property for temporary communication?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:09]",
+      "end_time": "[16:21]",
+      "start_time_sec": 969,
+      "text": "Our mobile phone network with S-Net has always had excellent 5G signal across the property, we get full bars in every room, so mobile calls work perfectly.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:30]",
+      "end_time": "[16:35]",
+      "start_time_sec": 990,
+      "text": "We are pleased that your residential 5G cellular coverage maintains dependable performance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:43]",
+      "end_time": "[16:46]",
+      "start_time_sec": 1003,
+      "text": "Yes, the mobile reception has been great.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:54]",
+      "end_time": "[17:01]",
+      "start_time_sec": 1014,
+      "text": "The replacement dropwire booking and the eighty-five pound fee hold are locked on your docket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:09]",
+      "end_time": "[17:16]",
+      "start_time_sec": 1029,
+      "text": "Wait Connor, if the independent supervisor upholds the technician's report, when will I be notified...",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:24]",
+      "end_time": "[17:28]",
+      "start_time_sec": 1044,
+      "text": "The booking is confirmed. Have a good day. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:36]",
+      "end_time": "[17:40]",
+      "start_time_sec": 1056,
+      "text": "Wait Connor, what about the supervisor review... hello?",
+      "sentiment_score": -12.4
+    }
+  ]
+}

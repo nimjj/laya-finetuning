@@ -1,0 +1,568 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Oliver",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net mobile customer support, my name is Kieran. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:13]",
+      "end_time": "[00:30]",
+      "start_time_sec": 13,
+      "text": "Hi Kieran. I'm calling because we've just ordered three new S-Net SIM-only mobile plans for my family, and I have the PAC switching codes from our old mobile network Vodafone ready so we can transfer our phone numbers across.",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:35]",
+      "end_time": "[00:44]",
+      "start_time_sec": 35,
+      "text": "I can certainly assist you with submitting those PAC codes and scheduling the port-in dates for your family lines, Oliver."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:49]",
+      "end_time": "[01:00]",
+      "start_time_sec": 49,
+      "text": "Thanks Kieran, our old contract ends in four days so I want to make sure the numbers port over before that without any gap in service.",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:05]",
+      "end_time": "[01:15]",
+      "start_time_sec": 65,
+      "text": "To begin accessing your new S-Net mobile account, Oliver, could you please confirm your full billing address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:20]",
+      "end_time": "[01:27]",
+      "start_time_sec": 80,
+      "text": "Yes, it is 12 Victoria Crescent, Bristol, BS6 5TJ, and my security PIN is 9043.",
+      "sentiment_score": -1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:32]",
+      "end_time": "[01:40]",
+      "start_time_sec": 92,
+      "text": "Thank you for confirming those security details, Oliver. I have your family mobile account open in front of me."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:45]",
+      "end_time": "[01:48]",
+      "start_time_sec": 105,
+      "text": "Great, thank you.",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:53]",
+      "end_time": "[02:00]",
+      "start_time_sec": 113,
+      "text": "Let me check the status of the three SIM cards we dispatched to your address."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:05]",
+      "end_time": "[02:10]",
+      "start_time_sec": 125,
+      "text": "All three physical SIM cards arrived in the post yesterday morning.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:15]",
+      "end_time": "[02:24]",
+      "start_time_sec": 135,
+      "text": "Have you opened the packaging and located the temporary phone numbers printed on the back of each SIM card holder?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:29]",
+      "end_time": "[02:36]",
+      "start_time_sec": 149,
+      "text": "Yes, I have all three SIM holders right in front of me on my desk.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:41]",
+      "end_time": "[02:50]",
+      "start_time_sec": 161,
+      "text": "Let's process the primary account holder line first. What is the temporary S-Net mobile number assigned to your main SIM card?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:55]",
+      "end_time": "[03:03]",
+      "start_time_sec": 175,
+      "text": "The temporary number on my card is zero seven seven zero zero, nine zero zero eight one one.",
+      "sentiment_score": 3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:16]",
+      "start_time_sec": 188,
+      "text": "And what is the existing mobile number that you want to keep and port across to that SIM?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:21]",
+      "end_time": "[03:29]",
+      "start_time_sec": 201,
+      "text": "The number I want to keep is zero seven eight one two, three four five six seven eight.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:34]",
+      "end_time": "[03:39]",
+      "start_time_sec": 214,
+      "text": "Please provide the PAC code provided by Vodafone for that number."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:44]",
+      "end_time": "[03:47]",
+      "start_time_sec": 224,
+      "text": "The PAC code is VOD 123 456.",
+      "sentiment_score": 4.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:52]",
+      "end_time": "[03:56]",
+      "start_time_sec": 232,
+      "text": "When did Vodafone generate that PAC code for you?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:01]",
+      "end_time": "[04:05]",
+      "start_time_sec": 241,
+      "text": "They texted it to me yesterday afternoon around three o'clock.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:10]",
+      "end_time": "[04:17]",
+      "start_time_sec": 250,
+      "text": "PAC codes remain valid for exactly thirty calendar days from issuance, so this code is fully active."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:22]",
+      "end_time": "[04:25]",
+      "start_time_sec": 262,
+      "text": "That's good to know.",
+      "sentiment_score": 10.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:30]",
+      "end_time": "[04:38]",
+      "start_time_sec": 270,
+      "text": "Now let's move to the second family line. What is the temporary S-Net number on the second SIM?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:43]",
+      "end_time": "[04:50]",
+      "start_time_sec": 283,
+      "text": "The second temporary number is zero seven seven zero zero, nine zero zero eight one two.",
+      "sentiment_score": 3.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:55]",
+      "end_time": "[05:02]",
+      "start_time_sec": 295,
+      "text": "And what is the mobile number you want to transfer onto that second SIM card?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:07]",
+      "end_time": "[05:14]",
+      "start_time_sec": 307,
+      "text": "That's my wife's number, zero seven eight one two, three four five six seven nine.",
+      "sentiment_score": 2.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:19]",
+      "end_time": "[05:22]",
+      "start_time_sec": 319,
+      "text": "And the PAC code issued for her number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:27]",
+      "end_time": "[05:30]",
+      "start_time_sec": 327,
+      "text": "Her PAC code is VOD 123 457.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:35]",
+      "end_time": "[05:42]",
+      "start_time_sec": 335,
+      "text": "Thank you. Now for the third SIM card, which temporary number is printed on that packaging?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:47]",
+      "end_time": "[05:54]",
+      "start_time_sec": 347,
+      "text": "The third one is zero seven seven zero zero, nine zero zero eight one three.",
+      "sentiment_score": 3.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:59]",
+      "end_time": "[06:03]",
+      "start_time_sec": 359,
+      "text": "And the mobile number to keep for the third line?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:08]",
+      "end_time": "[06:15]",
+      "start_time_sec": 368,
+      "text": "That's my son's number, zero seven eight one two, three four five six eight zero.",
+      "sentiment_score": 2.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:20]",
+      "end_time": "[06:23]",
+      "start_time_sec": 380,
+      "text": "And the third PAC code?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:27]",
+      "end_time": "[06:30]",
+      "start_time_sec": 387,
+      "text": "His PAC is VOD 123 458.",
+      "sentiment_score": 4.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:34]",
+      "end_time": "[06:39]",
+      "start_time_sec": 394,
+      "text": "All three PAC codes match the standard three-letter and six-digit industry format."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:43]",
+      "end_time": "[06:49]",
+      "start_time_sec": 403,
+      "text": "Can all three numbers be scheduled to port over on the same day?",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:53]",
+      "end_time": "[07:00]",
+      "start_time_sec": 413,
+      "text": "Yes, mobile number porting operates under standard industry BACS batch transfer schedules on normal working days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:04]",
+      "end_time": "[07:07]",
+      "start_time_sec": 424,
+      "text": "Which day will the switch happen?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:11]",
+      "end_time": "[07:20]",
+      "start_time_sec": 431,
+      "text": "Because today is Tuesday and we are submitting before five in the afternoon, the porting transfer is scheduled for Thursday."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:24]",
+      "end_time": "[07:30]",
+      "start_time_sec": 444,
+      "text": "Thursday is perfect because that is two days before our Vodafone contract ends.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:34]",
+      "end_time": "[07:46]",
+      "start_time_sec": 454,
+      "text": "Please bear with me while I place you on a brief hold for about two minutes while I submit the tripartite porting orders through the national mobile database."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:10]",
+      "end_time": "[09:19]",
+      "start_time_sec": 550,
+      "text": "Thank you for your patience while holding, Oliver. All three port-in requests have been successfully submitted to the national routing clearinghouse."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:23]",
+      "end_time": "[09:29]",
+      "start_time_sec": 563,
+      "text": "Thank you Kieran. What should we do on Thursday when the switch takes place?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:33]",
+      "end_time": "[09:41]",
+      "start_time_sec": 573,
+      "text": "Keep your existing Vodafone SIM cards inside your phones on Thursday morning until your phone displays No Service."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:45]",
+      "end_time": "[09:50]",
+      "start_time_sec": 585,
+      "text": "Does the switch happen at a specific hour of the day?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:54]",
+      "end_time": "[10:04]",
+      "start_time_sec": 594,
+      "text": "Porting transfers process between nine in the morning and five in the evening, with the majority completing by two in the afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:08]",
+      "end_time": "[10:15]",
+      "start_time_sec": 608,
+      "text": "And once the signal drops to No Service, we insert the new S-Net SIM card?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:19]",
+      "end_time": "[10:26]",
+      "start_time_sec": 619,
+      "text": "Turn the phone completely off, insert your new S-Net SIM card, and power the device back on."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:30]",
+      "end_time": "[10:36]",
+      "start_time_sec": 630,
+      "text": "Do we need to configure APN internet settings manually or does it happen automatically?",
+      "sentiment_score": 8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:40]",
+      "end_time": "[10:47]",
+      "start_time_sec": 640,
+      "text": "Once the phone restarts, our network pushes carrier profile configuration settings via an over-the-air update."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:51]",
+      "end_time": "[10:56]",
+      "start_time_sec": 651,
+      "text": "Do I need to tap install on the carrier update alert?",
+      "sentiment_score": 3.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:00]",
+      "end_time": "[11:08]",
+      "start_time_sec": 660,
+      "text": "Tap accept or install on the screen prompt, and your 5G data, VoLTE, and Wi-Fi calling will activate immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:12]",
+      "end_time": "[11:19]",
+      "start_time_sec": 672,
+      "text": "What about iMessage and FaceTime on our iPhones? Do they update automatically to our ported numbers?",
+      "sentiment_score": 9.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:23]",
+      "end_time": "[11:33]",
+      "start_time_sec": 683,
+      "text": "Go to Settings, then Messages, turn iMessage off and back on again so Apple servers register your ported number with your Apple ID."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:37]",
+      "end_time": "[11:45]",
+      "start_time_sec": 697,
+      "text": "That's a very helpful tip because my daughter had issues with iMessage staying on a temporary number last year.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:49]",
+      "end_time": "[11:55]",
+      "start_time_sec": 709,
+      "text": "Toggling iMessage forces Apple's authentication servers to re-read the SIM card IMSI number."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:59]",
+      "end_time": "[12:08]",
+      "start_time_sec": 719,
+      "text": "Can my wife and I convert these physical SIM cards to eSIMs in the future if we upgrade to newer iPhones?",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:12]",
+      "end_time": "[12:26]",
+      "start_time_sec": 732,
+      "text": "Yes, you can convert a physical SIM to an eSIM anytime using the My S-Net mobile app by selecting SIM Management, Request eSIM, and scanning the QR code on your phone screen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:30]",
+      "end_time": "[12:34]",
+      "start_time_sec": 750,
+      "text": "Does the eSIM activation take long to swap over?",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:38]",
+      "end_time": "[12:45]",
+      "start_time_sec": 758,
+      "text": "The digital eSIM profile downloads and activates within ten minutes, instantly deactivating the physical plastic card."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:49]",
+      "end_time": "[12:55]",
+      "start_time_sec": 769,
+      "text": "What are the rules regarding European data roaming on these three family lines?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:59]",
+      "end_time": "[13:07]",
+      "start_time_sec": 779,
+      "text": "Each plan includes a twelve-gigabyte monthly EU roaming data allowance at no extra charge, covering thirty-eight European countries."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:11]",
+      "end_time": "[13:17]",
+      "start_time_sec": 791,
+      "text": "And will our old Vodafone account cancel itself automatically once the numbers move across?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:21]",
+      "end_time": "[13:29]",
+      "start_time_sec": 801,
+      "text": "Yes, under national Ofcom switching regulations, porting your numbers automatically terminates the airtime contracts on the donor network."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:33]",
+      "end_time": "[13:37]",
+      "start_time_sec": 813,
+      "text": "So I don't need to phone Vodafone to cancel again?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:41]",
+      "end_time": "[13:48]",
+      "start_time_sec": 821,
+      "text": "No separate cancellation call is required. Your final bill with Vodafone will calculate automatically up to Thursday."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:52]",
+      "end_time": "[13:56]",
+      "start_time_sec": 832,
+      "text": "That makes the switching process so much less stressful.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:00]",
+      "end_time": "[14:10]",
+      "start_time_sec": 840,
+      "text": "Under your master profile in the app, you can allocate data allowances and view monthly usage for all three lines on a single dashboard."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:14]",
+      "end_time": "[14:20]",
+      "start_time_sec": 854,
+      "text": "Can I set individual spend caps for my son's line from the master app?",
+      "sentiment_score": 14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:24]",
+      "end_time": "[14:32]",
+      "start_time_sec": 864,
+      "text": "Yes, you can set his roaming and premium call cap to zero pounds directly in the parental controls tab."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:36]",
+      "end_time": "[14:40]",
+      "start_time_sec": 876,
+      "text": "That is an excellent feature to prevent accidental gaming microtransactions.",
+      "sentiment_score": 26.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:44]",
+      "end_time": "[14:52]",
+      "start_time_sec": 884,
+      "text": "Is there anything else regarding your family mobile porting or SIM setup that I can help with today, Oliver?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:56]",
+      "end_time": "[15:03]",
+      "start_time_sec": 896,
+      "text": "No, Kieran, you've explained every step of the porting timeline brilliantly. Thank you so much!",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:07]",
+      "end_time": "[15:13]",
+      "start_time_sec": 907,
+      "text": "Thank you for choosing S-Net today, Oliver. Have a wonderful rest of your week."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:17]",
+      "end_time": "[15:20]",
+      "start_time_sec": 917,
+      "text": "Thanks Kieran, take care. Goodbye.",
+      "sentiment_score": 6.4
+    }
+  ]
+}

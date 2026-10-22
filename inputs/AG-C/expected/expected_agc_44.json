@@ -1,0 +1,211 @@
+{
+  "call_id": "agc_44",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 28.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "Agent breached dead air standards twice with unannounced silent pauses of 36s and 38s while checking Royal Mail and finance queues, prompting caller chasing on both occasions."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Agent completely skipped account security verification, failing to request billing address, account PIN, or security questions during the first 240 seconds or at any point in the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Agent failed to personalize the call, never addressing the caller by name ('Aubrey') throughout the entire 17-minute interaction."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed Empathy in the second half of the call, ignoring acute customer distress regarding an unarranged bank overdraft and offering cold logistics deflections during an outburst in the final third."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent never provided a restatement of the disputed equipment charge, postal proof, or bank overdraft crisis, jumping directly into tracking lookups."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked the customer to repeat the Royal Mail tracking number at turn 39, which Aubrey had already explicitly provided at turn 5."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Agent failed to take ownership of the erroneous debit, refusing to recall the charge or escalate to an available finance manager despite undisputed delivery proof."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-22",
+    "scenario": "Disputed unreturned equipment charge of 150 pounds after customer posted router via Royal Mail",
+    "tier": "5+",
+    "duration_sec": 1050,
+    "notes": "Disputed unreturned equipment charge call handled by Tom. Customer returned router via Royal Mail with proof of delivery and weight receipt, but S-Net debited \u00a3150. Agent probed postal details well, but failed 6 criteria: Dead Air (two 30s+ gaps), Verified (skipped completely), Personalized (caller never named), Empathy (unhandled outburst in final third), Paraphrasing (no restatement), Active Listening (repeat question), and Ownership (refused debit reversal/escalation).",
+    "hard_cases": [
+      "Branding and Survey Check",
+      "Probing",
+      "Confirmed the issue is resolved",
+      "Hold time and Dead Air",
+      "Verified customer"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent included standard opening and closing branding formulas."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent breached dead air standards twice with unannounced silent pauses of 36s and 38s while checking Royal Mail and finance queues, prompting caller chasing on both occasions."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent completely skipped account security verification, failing to request billing address, account PIN, or security questions during the first 240 seconds or at any point in the call."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent failed to personalize the call, never addressing the caller by name ('Aubrey') throughout the entire 17-minute interaction."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent failed Empathy in the second half of the call, ignoring acute customer distress regarding an unarranged bank overdraft and offering cold logistics deflections during an outburst in the final third."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never provided a restatement of the disputed equipment charge, postal proof, or bank overdraft crisis, jumping directly into tracking lookups."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked the customer to repeat the Royal Mail tracking number at turn 39, which Aubrey had already explicitly provided at turn 5."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent failed to take ownership of the erroneous debit, refusing to recall the charge or escalate to an available finance manager despite undisputed delivery proof."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent effectively probed return details, including Post Office branch location, drop-off date, cashier stamp, and parcel weight."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent verified whether all caller questions regarding the trace process were answered before closing."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 5,
+          "agent_turn": 18
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 5,
+          "agent_turn": 39
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 14
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 10
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 20
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 1,
+          "agent_turn": 2,
+          "with_refusal": false
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 35
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 50
+        }
+      ]
+    }
+  }
+}

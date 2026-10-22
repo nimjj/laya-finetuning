@@ -1,0 +1,646 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Subramani",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:10]",
+      "start_time_sec": 0,
+      "text": "Good morning, thank you for calling S-Net Technical Fibre Support. My name is Declan speaking today. Who do I have the pleasure of speaking with?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:21]",
+      "start_time_sec": 11,
+      "text": "Good morning Declan. My name is Subramani, and I am calling because my home office wireless network has been acting very strangely since early this morning.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:22]",
+      "end_time": "[00:38]",
+      "start_time_sec": 22,
+      "text": "Hi Subramani, I would be glad to help get your home office wireless network sorted out for you today. Before we dive into the router diagnostics, could you confirm the first line of your billing address and your four-digit security PIN?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:39]",
+      "end_time": "[00:47]",
+      "start_time_sec": 39,
+      "text": "Yes, of course. The first line of the address is 42 Elmwood Crescent, Reading, and my four-digit security PIN is 7394.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:48]",
+      "end_time": "[00:59]",
+      "start_time_sec": 48,
+      "text": "Thank you very much, Subramani. That has verified your account right away. Tell me a bit more about what is happening in your home office this morning.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:14]",
+      "start_time_sec": 60,
+      "text": "Well, my internet connection itself works fine on all our devices, but neither my work MacBook Pro nor my wife's Lenovo ThinkPad can discover our Brother colour laser printer and scanner over Wi-Fi anymore.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:15]",
+      "end_time": "[01:26]",
+      "start_time_sec": 75,
+      "text": "Both laptops are connected to our five gigahertz network, which we named Subramani-Office-5G, and the Brother MFC-L3770CDW sits in the study on a static IP of 192.168.1.50.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:27]",
+      "end_time": "[01:40]",
+      "start_time_sec": 87,
+      "text": "I completely understand how disruptive that is when you are both working from home and cannot print or scan documents, Subramani, and I am sorry for the hassle this has caused your morning.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:41]",
+      "end_time": "[01:57]",
+      "start_time_sec": 101,
+      "text": "So just to make sure I have captured the exact setup: your S-Net Hub Pro internet access is working, but since this morning neither your MacBook Pro nor the Lenovo ThinkPad on Subramani-Office-5G can reach your Brother MFC-L3770CDW at 192.168.1.50.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:58]",
+      "end_time": "[02:10]",
+      "start_time_sec": 118,
+      "text": "That is spot on, Declan. Yesterday afternoon I scanned a ten-page contract straight to my MacBook without any trouble at all, and nothing on the printer or laptops has been changed.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:11]",
+      "end_time": "[02:27]",
+      "start_time_sec": 131,
+      "text": "Thank you for confirming that, Subramani. To help narrow down what changed overnight, is the Brother MFC-L3770CDW connected to your S-Net Hub Pro over Wi-Fi as well, or is it plugged into one of the yellow LAN ports via Ethernet?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:29]",
+      "end_time": "[02:39]",
+      "start_time_sec": 149,
+      "text": "The Brother printer is connected over Wi-Fi as well, though it connects to the 2.4 gigahertz band because its wireless card only supports 2.4 gigahertz.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:41]",
+      "end_time": "[02:51]",
+      "start_time_sec": 161,
+      "text": "Got it, so the printer is on the 2.4 gigahertz radio with static IP 192.168.1.50, while both laptops are on the 5 gigahertz radio Subramani-Office-5G.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:53]",
+      "end_time": "[03:05]",
+      "start_time_sec": 173,
+      "text": "And if you tap the touchscreen on the Brother printer right now under Network Status, does it show that it is still associated with the router and holding 192.168.1.50?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:07]",
+      "end_time": "[03:17]",
+      "start_time_sec": 187,
+      "text": "Let me check the little screen on the front of the Brother machine. Yes, it says Wireless LAN Active, Signal Strong, and IP Address 192.168.1.50.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:19]",
+      "end_time": "[03:33]",
+      "start_time_sec": 199,
+      "text": "That is a very helpful clue. Could I also ask whether you have any wired desktop PC or device plugged into the S-Net Hub Pro by Ethernet, or are all your office devices wireless?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:35]",
+      "end_time": "[03:47]",
+      "start_time_sec": 215,
+      "text": "We actually have an old Synology NAS box plugged into LAN port 1 with an Ethernet cable, and weirdly enough both laptops can still open shared folders on the NAS.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:49]",
+      "end_time": "[04:01]",
+      "start_time_sec": 229,
+      "text": "Aha, that narrows it down tremendously, Subramani. Wireless laptops can reach wired LAN port 1, which means wireless-to-wired routing works, whereas wireless-to-wireless traffic and multicast discovery are being blocked.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:03]",
+      "end_time": "[04:11]",
+      "start_time_sec": 243,
+      "text": "Really? Why would wireless-to-wireless traffic suddenly be blocked when we haven't touched the S-Net Hub Pro settings in months?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:13]",
+      "end_time": "[04:26]",
+      "start_time_sec": 253,
+      "text": "Let's test that right now from your MacBook Pro before I inspect the hub's firmware state. Could you open Terminal on your MacBook and run a quick ping to 192.168.1.50 for me?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:28]",
+      "end_time": "[04:34]",
+      "start_time_sec": 268,
+      "text": "Sure, I have Terminal open right now. I am typing ping 192.168.1.50 and pressing Enter.",
+      "sentiment_score": 3.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:36]",
+      "end_time": "[04:46]",
+      "start_time_sec": 276,
+      "text": "It says Request timeout for icmp_seq 0, Request timeout for icmp_seq 1, Request timeout for icmp_seq 2, and then Host is down. Zero packets received.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:48]",
+      "end_time": "[04:59]",
+      "start_time_sec": 288,
+      "text": "Thank you for running that ping test to 192.168.1.50, Subramani. What if you run arp -a in that same Terminal window—does 192.168.1.50 show an incomplete MAC entry?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:01]",
+      "end_time": "[05:07]",
+      "start_time_sec": 301,
+      "text": "Let me type arp -a. Yes! Right next to 192.168.1.50 it literally says incomplete in brackets.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:09]",
+      "end_time": "[05:24]",
+      "start_time_sec": 309,
+      "text": "And just to check the reverse direction as well, if you open the Brother printer's network test menu on its LCD touchscreen and run a ping from the printer to your default gateway 192.168.1.1, does the router respond?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:26]",
+      "end_time": "[05:36]",
+      "start_time_sec": 326,
+      "text": "Hold on, let me tap Network, then WLAN, then Ping Test to 192.168.1.1 on the Brother screen... Yes, the printer says Ping OK to 192.168.1.1!",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:38]",
+      "end_time": "[05:54]",
+      "start_time_sec": 338,
+      "text": "That confirms beyond a shadow of a doubt that both wireless bands can talk to the router gateway, but layer-2 ARP and traffic between the 5 gigahertz radio and the 2.4 gigahertz radio are blocked across the internal wireless bridge.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:56]",
+      "end_time": "[06:02]",
+      "start_time_sec": 356,
+      "text": "That makes complete sense, Declan, though I have no idea how that happened overnight.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:04]",
+      "end_time": "[06:16]",
+      "start_time_sec": 364,
+      "text": "I am going to take full ownership of this for you right now, Subramani, and inspect the remote TR-069 telemetry and wireless bridge configuration on your S-Net Hub Pro.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:18]",
+      "end_time": "[06:28]",
+      "start_time_sec": 378,
+      "text": "Could I place you on a brief hold for about ninety seconds while I pull your hub's overnight firmware log and query the radio isolation flags?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:30]",
+      "end_time": "[06:35]",
+      "start_time_sec": 390,
+      "text": "Yes, please go right ahead, Declan. I will stay on the line.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:15]",
+      "end_time": "[08:21]",
+      "start_time_sec": 495,
+      "text": "Thank you for holding, Subramani, I really appreciate your patience while I checked those telemetry logs.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:23]",
+      "end_time": "[08:28]",
+      "start_time_sec": 503,
+      "text": "No problem at all, Declan. What did you find in the logs?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:30]",
+      "end_time": "[08:44]",
+      "start_time_sec": 510,
+      "text": "At 03:14 this morning, your S-Net Hub Pro automatically installed firmware build v4.12.8-R2. According to our tier-2 router firmware bulletin, that maintenance patch inadvertently defaults the inter-band AP Client Isolation flag to Enabled on split-SSID setups.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:46]",
+      "end_time": "[08:59]",
+      "start_time_sec": 526,
+      "text": "In addition, our tier-2 router firmware bulletin notes that the update resets IGMP and mDNS multicast snooping to strict mode, which blocks Bonjour, AirPrint, and WSD scanner discovery packets between wireless clients.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:01]",
+      "end_time": "[09:13]",
+      "start_time_sec": 541,
+      "text": "Oh, wow! Because we split our 2.4 gigahertz and 5 gigahertz SSIDs when we set up Subramani-Office-5G last year, the 03:14 update turned AP Client Isolation on between them?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:15]",
+      "end_time": "[09:29]",
+      "start_time_sec": 555,
+      "text": "Exactly right, Subramani. When AP Client Isolation and strict multicast filtering were toggled on by v4.12.8-R2, your MacBook Pro and Lenovo ThinkPad on 5 gigahertz were isolated from your Brother MFC-L3770CDW on 2.4 gigahertz.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:31]",
+      "end_time": "[09:43]",
+      "start_time_sec": 571,
+      "text": "I am so glad I got through to someone who actually understands networking! Can we turn AP Client Isolation off and fix the multicast snooping so it doesn't happen again?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:45]",
+      "end_time": "[09:55]",
+      "start_time_sec": 585,
+      "text": "Absolutely, I will handle all of that for you right now from here so you don't have to dig through advanced menus yourself, Subramani.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:57]",
+      "end_time": "[10:10]",
+      "start_time_sec": 597,
+      "text": "Specifically, I am going to disable AP Client Isolation on both the 2.4 gigahertz and 5 gigahertz WLAN interfaces, enable inter-SSID bridge forwarding, and set IGMP and mDNS multicast snooping to permissive mode.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:12]",
+      "end_time": "[10:20]",
+      "start_time_sec": 612,
+      "text": "And if the S-Net Hub Pro reboots in the future, will those settings stick or will they revert back to isolated?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:22]",
+      "end_time": "[10:35]",
+      "start_time_sec": 622,
+      "text": "Great question. I will also apply the persistent NVRAM configuration lock documented in our tier-2 router firmware bulletin so that your custom bridge and mDNS settings survive any future reboots or minor patches.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:37]",
+      "end_time": "[10:49]",
+      "start_time_sec": 637,
+      "text": "While you are in the DHCP and bridge table, could you also check whether my static DHCP reservation for 192.168.1.50 on the Brother printer's MAC address is still intact?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:51]",
+      "end_time": "[11:04]",
+      "start_time_sec": 651,
+      "text": "Let me check your DHCP reservation table right now... Yes, I can see the Brother MAC address reserved at 192.168.1.50 and your Synology NAS reserved at 192.168.1.20, and both reservations are completely intact.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:06]",
+      "end_time": "[11:13]",
+      "start_time_sec": 666,
+      "text": "Brilliant. Will pushing that wireless bridge configuration change drop my Wi-Fi connection briefly while the radios reload?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:15]",
+      "end_time": "[11:29]",
+      "start_time_sec": 675,
+      "text": "Yes, the wireless radios on the S-Net Hub Pro will restart for roughly thirty to forty seconds while the new bridge table commits, though your fibre WAN session and wired NAS port will stay up.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:31]",
+      "end_time": "[11:43]",
+      "start_time_sec": 691,
+      "text": "Please bear with me for just under two minutes while I push the NVRAM configuration profile to your S-Net Hub Pro and verify that both wireless radios come back online cleanly.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:45]",
+      "end_time": "[11:51]",
+      "start_time_sec": 705,
+      "text": "Sounds great, Declan. I will watch the Wi-Fi icon on my MacBook while you do that.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:45]",
+      "end_time": "[13:56]",
+      "start_time_sec": 825,
+      "text": "Thank you for your patience, Subramani. I have pushed the bridge update, disabled AP Client Isolation across both bands, enabled mDNS multicast forwarding, and locked the NVRAM profile.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:58]",
+      "end_time": "[14:07]",
+      "start_time_sec": 838,
+      "text": "I saw the Wi-Fi icon on my MacBook disconnect for about thirty seconds and then reconnect to Subramani-Office-5G just a moment ago.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:09]",
+      "end_time": "[14:19]",
+      "start_time_sec": 849,
+      "text": "Fantastic, my management console shows both your 2.4 gigahertz and 5 gigahertz radios are back up and the Brother MFC-L3770CDW has re-authenticated on 2.4 gigahertz.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:21]",
+      "end_time": "[14:33]",
+      "start_time_sec": 861,
+      "text": "Now let's run the exact same verification test you did earlier, Subramani: in your MacBook Terminal window, could you ping 192.168.1.50 again and tell me what response times you get?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:35]",
+      "end_time": "[14:44]",
+      "start_time_sec": 875,
+      "text": "Running ping 192.168.1.50 right now... Yes! 64 bytes from 192.168.1.50: icmp_seq=0 ttl=64 time=3.42 ms, time=2.89 ms, time=3.11 ms! Zero percent packet loss!",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:46]",
+      "end_time": "[14:53]",
+      "start_time_sec": 886,
+      "text": "3 milliseconds with zero packet loss across the wireless bridge is exactly what we want to see, Subramani.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:55]",
+      "end_time": "[15:03]",
+      "start_time_sec": 895,
+      "text": "And if I check arp -a now, it shows the full Brother MAC address right next to 192.168.1.50 instead of incomplete.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:05]",
+      "end_time": "[15:17]",
+      "start_time_sec": 905,
+      "text": "Wonderful. That proves unicast and ARP traffic between 5 gigahertz and 2.4 gigahertz is completely restored. Next, let's verify that mDNS and Bonjour multicast discovery are working for printing and scanning.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:19]",
+      "end_time": "[15:29]",
+      "start_time_sec": 919,
+      "text": "Could you open System Settings on your MacBook Pro, go to Printers and Scanners, and check if the Brother MFC-L3770CDW shows as Idle and ready?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:31]",
+      "end_time": "[15:42]",
+      "start_time_sec": 931,
+      "text": "Opening Printers and Scanners now... Yes! Earlier it had a yellow warning triangle and said Offline, and now the green dot is back and it says Idle.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:44]",
+      "end_time": "[15:57]",
+      "start_time_sec": 944,
+      "text": "Let's also test both a real print job and the network scanner function while we are on the line, and check your wife's Lenovo ThinkPad as well so we are 100 percent certain.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:59]",
+      "end_time": "[16:09]",
+      "start_time_sec": 959,
+      "text": "Good thinking. I just clicked Print Test Page on the MacBook, and I can already hear the Brother laser printer warming up in the study!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:11]",
+      "end_time": "[16:23]",
+      "start_time_sec": 971,
+      "text": "Wait one second while it feeds the paper... Yep, the test page just came out into the tray crisp and clear. Let me try clicking Open Scanner on the MacBook too.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:25]",
+      "end_time": "[16:31]",
+      "start_time_sec": 985,
+      "text": "Take your time, Subramani. Let me know if the scanner preview window initializes properly over AirPrint.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:33]",
+      "end_time": "[16:45]",
+      "start_time_sec": 993,
+      "text": "The scanner bar just lit up and did a preview scan of the receipt I left on the glass yesterday! It appeared on my MacBook screen in about four seconds.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:47]",
+      "end_time": "[16:57]",
+      "start_time_sec": 1007,
+      "text": "That is brilliant news. And how is your wife's Lenovo ThinkPad looking on Subramani-Office-5G? Does WSD discovery see the Brother printer as Online there too?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:59]",
+      "end_time": "[17:11]",
+      "start_time_sec": 1019,
+      "text": "Let me lean over to her desk and check Windows Printers and Scanners on the ThinkPad. Yes, Brother MFC-L3770CDW Network shows Ready, and the Brother iPrint&Scan app says Connected to 192.168.1.50!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:13]",
+      "end_time": "[17:23]",
+      "start_time_sec": 1033,
+      "text": "Could you also try opening the Brother web admin page at http://192.168.1.50 from the ThinkPad browser just to confirm full TCP access from Windows?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:25]",
+      "end_time": "[17:35]",
+      "start_time_sec": 1045,
+      "text": "Typing 192.168.1.50 into Edge on the ThinkPad now... Yep, the Brother Web Based Management status page loaded instantly with all four toner levels showing.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:37]",
+      "end_time": "[17:44]",
+      "start_time_sec": 1057,
+      "text": "Everything is communicating across both wireless bands and your wired Synology NAS just as it should, Subramani.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:46]",
+      "end_time": "[17:57]",
+      "start_time_sec": 1066,
+      "text": "Honestly, Declan, you saved me hours of frustration today. If I had tried resetting the printer to factory defaults I would have lost all my saved scan-to-email profiles.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:59]",
+      "end_time": "[18:09]",
+      "start_time_sec": 1079,
+      "text": "I am really glad you called us before resetting the printer! Your static IP reservation for 192.168.1.50 and all your scan profiles are completely untouched.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:11]",
+      "end_time": "[18:19]",
+      "start_time_sec": 1091,
+      "text": "Is there any reference number for the configuration lock you applied in case I ever call back in the future?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:21]",
+      "end_time": "[18:31]",
+      "start_time_sec": 1101,
+      "text": "Yes, I have logged everything under ticket reference SN-8841209 on your account notes, detailing the v4.12.8-R2 AP Client Isolation override and the mDNS multicast snooping lock.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:33]",
+      "end_time": "[18:39]",
+      "start_time_sec": 1113,
+      "text": "Let me jot that down: SN-8841209. Perfect, I have that saved in my notes.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:41]",
+      "end_time": "[18:53]",
+      "start_time_sec": 1121,
+      "text": "Thank you for choosing S-Net for your home office fibre broadband, Subramani, and is there anything else at all I can help you test or check on your network today?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:55]",
+      "end_time": "[19:03]",
+      "start_time_sec": 1135,
+      "text": "No, that is literally everything, Declan. Both laptops and the Brother printer and scanner are working like a dream.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[19:05]",
+      "end_time": "[19:18]",
+      "start_time_sec": 1145,
+      "text": "After our call concludes, a brief two-question text survey will come through to your mobile—if you have a spare moment to share how our troubleshooting went today, I would really appreciate it.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:20]",
+      "end_time": "[19:26]",
+      "start_time_sec": 1160,
+      "text": "I will definitely give you top marks on the survey right away, Declan. You were fantastic.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[19:28]",
+      "end_time": "[19:37]",
+      "start_time_sec": 1168,
+      "text": "That is very kind of you to say, Subramani, it was an absolute pleasure helping you get the study up and running.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:39]",
+      "end_time": "[19:43]",
+      "start_time_sec": 1179,
+      "text": "Thanks again, Declan. Have a lovely rest of your week!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[19:45]",
+      "end_time": "[19:50]",
+      "start_time_sec": 1185,
+      "text": "You too, Subramani. Enjoy the rest of your day and goodbye for now!",
+      "sentiment_score": 20.0
+    }
+  ]
+}

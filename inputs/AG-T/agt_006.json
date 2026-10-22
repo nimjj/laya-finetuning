@@ -1,0 +1,478 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Amara",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Gary. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:20]",
+      "start_time_sec": 8,
+      "text": "Hello Gary. I received a new Wi-Fi mesh booster pod for our kitchen yesterday, but it won't connect to our Hub 5 router. The little light on the front is just flashing amber constantly.",
+      "sentiment_score": -18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:21]",
+      "end_time": "[00:29]",
+      "start_time_sec": 21,
+      "text": "I can certainly help you pair that mesh booster pod to your Hub 5 today, Amara. May I have your account number to begin?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:30]",
+      "end_time": "[00:36]",
+      "start_time_sec": 30,
+      "text": "Yes, it is SN 319 8840, under Amara Okafor.",
+      "sentiment_score": 1.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:37]",
+      "end_time": "[00:46]",
+      "start_time_sec": 37,
+      "text": "Thank you, Amara. For security verification, could you please confirm your full installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:47]",
+      "end_time": "[00:56]",
+      "start_time_sec": 47,
+      "text": "It is 14 Ravensworth Road, London, NW10 5TY. And the security PIN is 9042.",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:57]",
+      "end_time": "[01:05]",
+      "start_time_sec": 57,
+      "text": "That's verified your account, thank you. You have our Fibre 150 package with the Whole Home Mesh Wi-Fi guarantee."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:06]",
+      "end_time": "[01:10]",
+      "start_time_sec": 66,
+      "text": "Yes, exactly, with the black Hub 5.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:11]",
+      "end_time": "[01:23]",
+      "start_time_sec": 71,
+      "text": "So to make sure I understand the issue clearly: your main Hub 5 router in the hallway is broadcasting Wi-Fi normally, but the new booster pod in the kitchen is stuck flashing amber and failing to synchronise, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:24]",
+      "end_time": "[01:38]",
+      "start_time_sec": 84,
+      "text": "Yes, exactly. I work from the kitchen table every day, and my laptop keeps dropping off our team video conferences because the signal from the hallway barely reaches through the walls. It's really frustrating.",
+      "sentiment_score": -34.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:39]",
+      "end_time": "[01:50]",
+      "start_time_sec": 99,
+      "text": "I understand how annoying that is when you're trying to take video meetings from the kitchen table, Amara. We will get that booster pod paired up and working properly today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:51]",
+      "end_time": "[01:55]",
+      "start_time_sec": 111,
+      "text": "Thank you Gary, that would be wonderful.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:56]",
+      "end_time": "[02:06]",
+      "start_time_sec": 116,
+      "text": "Let's diagnose where the physical placement is right now. Where in the kitchen is that booster pod currently plugged in?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:07]",
+      "end_time": "[02:16]",
+      "start_time_sec": 127,
+      "text": "I plugged it into a socket down behind our large double-door American fridge freezer, right beside the microwave oven so the cables are hidden.",
+      "sentiment_score": -1.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:17]",
+      "end_time": "[02:29]",
+      "start_time_sec": 137,
+      "text": "That's basic common sense, placing a Wi-Fi unit behind an industrial steel fridge is obviously going to kill the signal. It's not rocket science."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:30]",
+      "end_time": "[02:39]",
+      "start_time_sec": 150,
+      "text": "Well, you don't need to be condescending about it. Your instruction leaflet didn't say anything about staying away from kitchen appliances.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:40]",
+      "end_time": "[02:51]",
+      "start_time_sec": 160,
+      "text": "Metal appliances and microwave shielding reflect 5 gigahertz radio waves completely. The pod cannot receive the pairing beacon through two hundred kilograms of steel."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:52]",
+      "end_time": "[02:56]",
+      "start_time_sec": 172,
+      "text": "Okay, fine. Where should I put it then?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:57]",
+      "end_time": "[03:08]",
+      "start_time_sec": 177,
+      "text": "It needs to be plugged into an open wall socket, roughly halfway between the main Hub in the hallway and your kitchen table, on a clear surface."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:09]",
+      "end_time": "[03:17]",
+      "start_time_sec": 189,
+      "text": "There is a double power socket right above the wooden breakfast bar on the kitchen counter, with clear line of sight to the hallway door.",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:18]",
+      "end_time": "[03:28]",
+      "start_time_sec": 198,
+      "text": "That breakfast bar socket is in a much better location. Please unplug the pod from behind the fridge and move it over there now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:29]",
+      "end_time": "[03:38]",
+      "start_time_sec": 209,
+      "text": "Okay, unplugged from behind the fridge... plugging into the breakfast bar socket now. Power switch on.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:39]",
+      "end_time": "[03:49]",
+      "start_time_sec": 219,
+      "text": "What is the front light doing as it powers on? It should cycle through white and then begin flashing slowly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:50]",
+      "end_time": "[03:58]",
+      "start_time_sec": 230,
+      "text": "It was solid white for ten seconds, and now it is pulsing a slow amber light.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:59]",
+      "end_time": "[04:10]",
+      "start_time_sec": 239,
+      "text": "Pulsing amber means it is ready to pair via Wi-Fi Protected Setup. Walk over to your Hub 5 in the hallway, please."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:11]",
+      "end_time": "[04:16]",
+      "start_time_sec": 251,
+      "text": "Standing in front of the Hub 5 in the hallway now.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:17]",
+      "end_time": "[04:28]",
+      "start_time_sec": 257,
+      "text": "On the side of the Hub 5, you will find a small circular button marked with two curved arrows forming a circle. That is the WPS pairing button."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:29]",
+      "end_time": "[04:33]",
+      "start_time_sec": 269,
+      "text": "Yes, I see the WPS button with the two arrows.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:34]",
+      "end_time": "[04:45]",
+      "start_time_sec": 274,
+      "text": "Press and hold that WPS button for three seconds until the front light bar on the Hub 5 starts pulsing blue, then let go."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:46]",
+      "end_time": "[04:55]",
+      "start_time_sec": 286,
+      "text": "Holding down... one, two, three... and released. The light bar on the Hub 5 is pulsing blue now.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:56]",
+      "end_time": "[05:07]",
+      "start_time_sec": 296,
+      "text": "Now walk straight back to the kitchen booster pod and press the small sync button on the back of the pod for two seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:08]",
+      "end_time": "[05:17]",
+      "start_time_sec": 308,
+      "text": "Walking back into the kitchen... pressing the sync button on the pod for two seconds... released. The pod light is pulsing blue as well now!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:18]",
+      "end_time": "[05:29]",
+      "start_time_sec": 318,
+      "text": "Both units are now exchanging encrypted cryptographic keys over the 5 gigahertz backhaul. This handshake takes about forty-five seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:30]",
+      "end_time": "[05:35]",
+      "start_time_sec": 330,
+      "text": "Still pulsing blue on both devices...",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:36]",
+      "end_time": "[05:47]",
+      "start_time_sec": 336,
+      "text": "Once paired, the pod's front LED will turn solid green, which signifies an optimal connection speed to the primary Hub."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:48]",
+      "end_time": "[05:57]",
+      "start_time_sec": 348,
+      "text": "Wait... it just turned solid green! And the Hub 5 in the hallway has returned to its normal solid white light!",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:58]",
+      "end_time": "[06:09]",
+      "start_time_sec": 358,
+      "text": "Just to verify now that the handshake has finalized, is the booster pod maintaining a steady solid green light without dipping back to amber?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:10]",
+      "end_time": "[06:16]",
+      "start_time_sec": 370,
+      "text": "Yes, rock solid green. It hasn't flickered once.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:17]",
+      "end_time": "[06:29]",
+      "start_time_sec": 377,
+      "text": "I can see the pod registered on our cloud network management system now. It is linked with a minus 52 dBm signal strength, which provides full bandwidth throughput."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:30]",
+      "end_time": "[06:35]",
+      "start_time_sec": 390,
+      "text": "That's great. Let me test my work laptop here at the kitchen table.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:36]",
+      "end_time": "[06:47]",
+      "start_time_sec": 396,
+      "text": "Yes, please connect your laptop and check your Wi-Fi signal icon. It should seamlessly roam to the booster pod's stronger BSSID."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:48]",
+      "end_time": "[06:59]",
+      "start_time_sec": 408,
+      "text": "Opening my laptop... Wi-Fi has connected instantly with all four bars full! Let me run an online speed test.",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:00]",
+      "end_time": "[07:11]",
+      "start_time_sec": 420,
+      "text": "Please run a speed test and read back the download speed, upload speed, and ping latency measurements."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:12]",
+      "end_time": "[07:24]",
+      "start_time_sec": 432,
+      "text": "It's hitting 154 megabits per second download and 28 megabits upload, with a 9 millisecond ping! Before this, I was barely getting 8 megabits at this table!",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:25]",
+      "end_time": "[07:37]",
+      "start_time_sec": 445,
+      "text": "That is delivering the full capacity of your Fibre 150 connection directly to your workspace. The breakfast bar placement provides a completely clear radio path."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:38]",
+      "end_time": "[07:44]",
+      "start_time_sec": 458,
+      "text": "And my Microsoft Teams call status has switched from 'Poor network' to 'Excellent connection'.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:45]",
+      "end_time": "[07:58]",
+      "start_time_sec": 465,
+      "text": "So to confirm, Amara: the mesh booster pod is successfully paired, the LED is steady solid green, and your kitchen laptop is receiving full 154 Mbps speeds?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:59]",
+      "end_time": "[08:07]",
+      "start_time_sec": 479,
+      "text": "Yes, 100 percent resolved. The technical solution worked like a charm, even if your earlier comment was a bit sharp.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:08]",
+      "end_time": "[08:20]",
+      "start_time_sec": 488,
+      "text": "I am pleased the technical issue is fully resolved for your work. I have logged the optimal placement details on your account records for future reference."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:21]",
+      "end_time": "[08:27]",
+      "start_time_sec": 501,
+      "text": "We will leave it plugged in right there on the counter. Thank you.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:28]",
+      "end_time": "[08:41]",
+      "start_time_sec": 508,
+      "text": "You can also use our S-Net Home app to monitor all connected devices and check their individual signal strengths whenever you like."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:42]",
+      "end_time": "[08:48]",
+      "start_time_sec": 522,
+      "text": "Good to know. I will download the app this evening.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:49]",
+      "end_time": "[09:02]",
+      "start_time_sec": 529,
+      "text": "Is there anything else with your broadband, router settings, or landline that I can assist you with today, Amara?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:03]",
+      "end_time": "[09:08]",
+      "start_time_sec": 543,
+      "text": "No, that was the only problem and it's working now. Thanks.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:09]",
+      "end_time": "[09:22]",
+      "start_time_sec": 549,
+      "text": "You are very welcome. I hope your video conferences run smoothly for the rest of your working day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:23]",
+      "end_time": "[09:29]",
+      "start_time_sec": 563,
+      "text": "Thank you Gary, have a good day.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:30]",
+      "end_time": "[09:50]",
+      "start_time_sec": 570,
+      "text": "Thank you for choosing S-Net, Amara. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:51]",
+      "end_time": "[09:58]",
+      "start_time_sec": 591,
+      "text": "Goodbye.",
+      "sentiment_score": 6.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:59]",
+      "end_time": "[10:20]",
+      "start_time_sec": 599,
+      "text": "Thank you for choosing S-Net. Take care."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:21]",
+      "end_time": "[10:28]",
+      "start_time_sec": 621,
+      "text": "Take care.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:29]",
+      "end_time": "[10:50]",
+      "start_time_sec": 629,
+      "text": "Have a great day ahead, Amara."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:51]",
+      "end_time": "[10:58]",
+      "start_time_sec": 651,
+      "text": "You too.",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:59]",
+      "end_time": "[11:20]",
+      "start_time_sec": 659,
+      "text": "Thank you for choosing S-Net. Goodbye."
+    }
+  ]
+}

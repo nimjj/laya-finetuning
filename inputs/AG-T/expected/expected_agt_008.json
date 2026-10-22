@@ -1,0 +1,178 @@
+{
+  "call_id": "agt_008",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 68.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "You only asked for date of birth and account reference number within the first 240 seconds, omitting the mandatory PIN, address, or security question verification."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "You never addressed the customer by name during the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "You echoed the mobile number at [01:20] but never paraphrased the customer's porting and split-routing problem in your own words."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (gemini-2.5-pro)",
+    "graded_on": "2026-10-21",
+    "scenario": "Mobile number port-in (PAC) split-routing between old network and S-Net",
+    "tier": "okay",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement"
+    ],
+    "duration_sec": 849,
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opening 'Thank you for calling S-Net mobile technical support' in first turn and closing 'Thank you for choosing S-Net' in last turns."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Two managed holds announced ('Bear with me for a couple of minutes', 'One moment while I route the test call') and properly thanked without unmanaged gaps."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked for date of birth and account reference number at [00:27], never asking for PIN, address, or security question."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never used the customer's name Anika anywhere in the dialogue."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: When customer expressed distress at [01:32] over business disruption and lost contracts, agent explicitly acknowledged at [01:53]: 'I completely understand how stressful and frustrating that is when your business clients cannot reach you and it impacts your work.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent only echoed the mobile phone number at [01:20] ('Okay, so the mobile number is 07700 900381') without ever paraphrasing the split-routing problem."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent did not repeat any questions and tracked all porting details provided."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent explicitly stated 'I am going to take full ownership of this' and directly executed the MNPO clearinghouse update rather than deflecting to Vodafone."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent remained courteous, supportive, and professional throughout."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent probed effectively on timing of port, caller networks, and outgoing CLI display."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent initiated an external test call which rang customer's phone; customer answered and confirmed inbound calls are fully restored."
+      }
+    ],
+    "markers": {
+      "active_listening": [],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 6
+        }
+      ],
+      "rapport": [],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 7,
+          "agent_turn": 8,
+          "with_refusal": false
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 1
+        }
+      ]
+    }
+  }
+}

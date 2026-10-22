@@ -1,0 +1,200 @@
+{
+  "call_id": "agt_025",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 0.0,
+    "is_auto_fail": true,
+    "auto_fail_reason": "Agent used prohibited word 'idiot' at [16:42].",
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "You failed to acknowledge the customer's frustration when he reported severe packet loss and connection instability across multiple outbursts."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "You did not restate or paraphrase the customer's technical issue at any point in the call."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At turn 45, you insulted the customer by calling him an 'idiot', which is an auto-fail violation."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "The latency and packet loss issue was not resolved, no escalation was raised, and the customer remained with an unresolved fault."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Severe latency jitter and packet loss on gaming PC; agent insults customer [AUTO-FAIL]",
+    "tier": "auto_fail",
+    "duration_sec": 1150,
+    "notes": "Carl completes verification and conducts technical telemetry checks, but completely loses professional composure when challenged on network congestion. At turn 45, Carl insults Dominic by calling him an 'idiot', triggering an immediate auto-fail. Empathy and paraphrasing were absent, and the fault was left completely unresolved.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:15] Customer: 'I've been experiencing terrible packet loss and latency spikes on my broadband connection for the last four days...', Agent ignores emotional state and demands verification."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent offered no restatement of the packet loss and latency problem."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[16:42] Agent: 'Only an idiot would blame our core gateway when you're probably running torrents or background updates on your PC!'"
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Call ended in mutual hostility with packet loss unaddressed and customer declaring an intention to cancel service."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 9,
+          "agent_turn": 39
+        }
+      ],
+      "paraphrasing": [],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 45
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 30
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 32
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 1
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 27
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 38
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 23
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "call_id": "agt_014",
+  "tenant_id": "tenant-abc",
+  "customer_name": "Brenda",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer services. My name is Marcus. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:21]",
+      "start_time_sec": 8,
+      "text": "Hello Marcus. My name is Brenda Holloway. I arranged a formal home move transfer for our family broadband package two weeks ago, and nothing is working at the new property.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:22]",
+      "end_time": "[00:36]",
+      "start_time_sec": 22,
+      "text": "Good morning Brenda. Before we examine your broadband home move provisioning order, could you please confirm your full new postal address and your account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:37]",
+      "end_time": "[00:50]",
+      "start_time_sec": 37,
+      "text": "Yes, the new house is 17 Meadow Lane, Harrogate, HG2 8NZ, and my four-digit security PIN is 6302.",
+      "sentiment_score": 1.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:51]",
+      "end_time": "[01:02]",
+      "start_time_sec": 51,
+      "text": "Thank you Brenda, that successfully passes security verification. I have your full customer account and home move provisioning order open on my screen now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:03]",
+      "end_time": "[01:23]",
+      "start_time_sec": 63,
+      "text": "We completed our house move on Friday and we have zero internet! My two children cannot complete their school coursework, and I am burning through expensive mobile data hotspots! It's so frustrating moving into a new home with no connectivity!",
+      "sentiment_score": -52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:24]",
+      "end_time": "[01:42]",
+      "start_time_sec": 84,
+      "text": "I completely understand how difficult and stressful it is moving into a new home and having no broadband for your family and children's coursework, Brenda. Let me look at the installation notes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[01:54]",
+      "start_time_sec": 103,
+      "text": "Thank you Marcus. The Openreach text message we received last week gave order reference OR-88194.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:55]",
+      "end_time": "[02:08]",
+      "start_time_sec": 115,
+      "text": "I see that tracking number linked here. Let me check the real-time engineering status update from the external wholesale network operations portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:09]",
+      "end_time": "[02:15]",
+      "start_time_sec": 129,
+      "text": "The engineer was scheduled to activate the line and install the optical equipment this morning between 8 AM and 1 PM, and I took unpaid time off work to wait for him.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:16]",
+      "end_time": "[02:34]",
+      "start_time_sec": 136,
+      "text": "Bear with me for a couple of minutes while I query the external Openreach provisioning system to see why the morning appointment was not fulfilled."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:35]",
+      "end_time": "[02:40]",
+      "start_time_sec": 155,
+      "text": "Sure, I will hold on.",
+      "sentiment_score": 3.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:30]",
+      "end_time": "[03:51]",
+      "start_time_sec": 210,
+      "text": "Thank you for holding, Brenda. I have retrieved the engineer's site survey report entered at 09:45 this morning in the wholesale portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:52]",
+      "end_time": "[03:59]",
+      "start_time_sec": 232,
+      "text": "What did the field engineer report from the morning roadside site survey on Meadow Lane?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:00]",
+      "end_time": "[04:22]",
+      "start_time_sec": 240,
+      "text": "The field engineer arrived at the roadside distribution joint on Meadow Lane and attempted to feed the optical drop cable through the underground duct to your property, but encountered a severe collapsed duct block fifty meters from your boundary line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:23]",
+      "end_time": "[04:30]",
+      "start_time_sec": 263,
+      "text": "A collapsed duct? Does that mean civil engineering contractors have to dig up the tarmac and pavement outside our house?",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:31]",
+      "end_time": "[04:52]",
+      "start_time_sec": 271,
+      "text": "Before I query the civil engineering works system, that Openreach tracking reference was OR-88194, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:53]",
+      "end_time": "[04:59]",
+      "start_time_sec": 293,
+      "text": "Yes, OR-88194, that is the exact reference.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:00]",
+      "end_time": "[05:22]",
+      "start_time_sec": 300,
+      "text": "Yes, Openreach civil engineering contractors require a local council street works highway permit to excavate the pavement and clear the duct blockage, which has an estimated completion window of ten working days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:23]",
+      "end_time": "[05:46]",
+      "start_time_sec": 323,
+      "text": "Another ten working days?! That is completely unacceptable! I took today off work unpaid specifically to wait for an engineer who never even knocked on my door! We have lived without Wi-Fi for two weeks already, and now you want us to wait another fortnight?!",
+      "sentiment_score": -74.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:47]",
+      "end_time": "[06:10]",
+      "start_time_sec": 347,
+      "text": "I completely understand how exasperating and unfair that is, Brenda, especially taking unpaid leave and waiting in for an engineer who failed to knock on your door. While physical duct excavation is legally reserved to the national network monopoly, I am going to take personal responsibility for keeping your family connected."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:11]",
+      "end_time": "[06:20]",
+      "start_time_sec": 371,
+      "text": "How can you keep our family connected to the internet if there is no physical fibre cable into the house yet?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:21]",
+      "end_time": "[06:43]",
+      "start_time_sec": 381,
+      "text": "I can dispatch an emergency S-Net 4G Home Backup Wi-Fi router with completely unlimited cellular data allowance by priority courier right now, arriving at your front door tomorrow morning before 10 AM, completely free of charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:44]",
+      "end_time": "[06:54]",
+      "start_time_sec": 404,
+      "text": "Will that provide Wi-Fi for our laptops and the children's tablets without any data limits?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:55]",
+      "end_time": "[07:14]",
+      "start_time_sec": 415,
+      "text": "Yes, Brenda. It plugs straight into a wall power socket and broadcasts standard high-speed Wi-Fi throughout your home with unlimited data until your fibre line is fully activated."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:15]",
+      "end_time": "[07:23]",
+      "start_time_sec": 435,
+      "text": "That would honestly save our lives for schoolwork and working from home during this difficult house move, thank goodness.",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:24]",
+      "end_time": "[07:42]",
+      "start_time_sec": 444,
+      "text": "Can you confirm the address of the new property in Harrogate again?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:43]",
+      "end_time": "[07:56]",
+      "start_time_sec": 463,
+      "text": "I already gave it to you right at the start of the call, it is 17 Meadow Lane, Harrogate, post code HG2 8NZ.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:57]",
+      "end_time": "[08:14]",
+      "start_time_sec": 477,
+      "text": "Thank you, Brenda. I have formally booked the priority courier delivery to 17 Meadow Lane for tomorrow morning with emergency delivery tracking."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:15]",
+      "end_time": "[08:24]",
+      "start_time_sec": 495,
+      "text": "And will I be charged broadband subscription fees on my monthly direct debit while the line is waiting for roadworks?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:25]",
+      "end_time": "[08:44]",
+      "start_time_sec": 505,
+      "text": "No, absolutely not. Your broadband subscription billing start date is completely frozen until the physical fibre connection is certified active. Furthermore, under Ofcom automatic compensation regulations, you will receive financial compensation for every single day of delayed activation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:45]",
+      "end_time": "[08:54]",
+      "start_time_sec": 525,
+      "text": "That is very fair and gives me peace of mind regarding the bills.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:55]",
+      "end_time": "[09:12]",
+      "start_time_sec": 535,
+      "text": "Give me a moment while our dispatch logistics system generates the express parcel tracking number for your emergency backup router package."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:13]",
+      "end_time": "[09:18]",
+      "start_time_sec": 553,
+      "text": "Certainly, I will wait.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:05]",
+      "end_time": "[10:24]",
+      "start_time_sec": 605,
+      "text": "Thank you for holding, Brenda. The DPD priority parcel tracking number is DPD-9941829. You will receive an SMS delivery window tomorrow morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:25]",
+      "end_time": "[10:34]",
+      "start_time_sec": 625,
+      "text": "DPD-9941829, got it. That will get us through until the roadworks are done.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:35]",
+      "end_time": "[10:44]",
+      "start_time_sec": 635,
+      "text": "Will someone definitely be at home to sign for the priority parcel tomorrow morning between eight and ten AM?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:45]",
+      "end_time": "[10:51]",
+      "start_time_sec": 645,
+      "text": "Yes, I will be in the house all morning except for a ten-minute primary school drop-off run at eight-thirty.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:52]",
+      "end_time": "[11:00]",
+      "start_time_sec": 652,
+      "text": "You can designate your enclosed front porch or safe neighbour location directly inside the DPD tracking app."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:01]",
+      "end_time": "[11:08]",
+      "start_time_sec": 661,
+      "text": "That is very handy, I will set that up on my phone.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:09]",
+      "end_time": "[11:18]",
+      "start_time_sec": 669,
+      "text": "The 4G SIM card is already pre-installed, fully activated, and provisioned inside the backup unit, so it is pure plug and play."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:19]",
+      "end_time": "[11:26]",
+      "start_time_sec": 679,
+      "text": "That is wonderful news, no complicated technical configuration or manual setup needed.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:27]",
+      "end_time": "[11:36]",
+      "start_time_sec": 687,
+      "text": "Will you need to connect both desktop computers and your smart television to the backup router?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:37]",
+      "end_time": "[11:44]",
+      "start_time_sec": 697,
+      "text": "Yes, mostly laptops for schoolwork and our television in the evening.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:45]",
+      "end_time": "[11:58]",
+      "start_time_sec": 705,
+      "text": "I will also set a personal reminder to check the civil works permit on Friday and call you with an update on the excavation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:59]",
+      "end_time": "[12:08]",
+      "start_time_sec": 719,
+      "text": "A proactive callback on Friday with the civil works permit update would be wonderful. I really appreciate you taking personal ownership of that.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:09]",
+      "end_time": "[12:21]",
+      "start_time_sec": 729,
+      "text": "It is my pleasure, Brenda. Is there any other query regarding your account or home move I can assist with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:22]",
+      "end_time": "[12:30]",
+      "start_time_sec": 742,
+      "text": "No, that resolves everything for now. Thank you for sorting the backup router.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:31]",
+      "end_time": "[12:43]",
+      "start_time_sec": 751,
+      "text": "Thank you for choosing S-Net customer services, Brenda. I hope your family settles well into the new home."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:44]",
+      "end_time": "[12:51]",
+      "start_time_sec": 764,
+      "text": "Thank you so much Marcus for all your kind help, take care of yourself.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:52]",
+      "end_time": "[12:59]",
+      "start_time_sec": 772,
+      "text": "You too, Brenda. Have a lovely rest of your day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:00]",
+      "end_time": "[13:05]",
+      "start_time_sec": 780,
+      "text": "Goodbye Marcus.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:06]",
+      "end_time": "[13:10]",
+      "start_time_sec": 786,
+      "text": "We will speak directly again on Friday afternoon with your full civil engineering roadworks update."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:11]",
+      "end_time": "[13:13]",
+      "start_time_sec": 791,
+      "text": "I will be looking forward to your call.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:14]",
+      "end_time": "[13:15]",
+      "start_time_sec": 794,
+      "text": "Take care and goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:15]",
+      "end_time": "[13:15]",
+      "start_time_sec": 795,
+      "text": "Goodbye.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:15]",
+      "end_time": "[13:16]",
+      "start_time_sec": 795,
+      "text": "Thank you for choosing S-Net, Brenda. Goodbye."
+    }
+  ]
+}

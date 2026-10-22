@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Miles",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net broadband network security, my name is Toby. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:18]",
+   "end_time": "[00:42]",
+   "start_time_sec": 18,
+   "text": "Hello Toby, my name is Miles Henderson. Our residential broadband connection has been completely frozen for the last four hours: the router's internet LED is flashing amber wildly, our latency has jumped to fifteen hundred milliseconds, and packet loss is at ninety-five percent; I believe our public IP address is being targeted by a distributed denial-of-service UDP flood after a dispute during an online Discord gaming tournament!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:53]",
+   "end_time": "[01:07]",
+   "start_time_sec": 53,
+   "text": "Good afternoon Miles. I can inspect your WAN interface flow statistics and packet drop rates. Before we inspect your connection telemetry, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:18]",
+   "end_time": "[01:24]",
+   "start_time_sec": 78,
+   "text": "Yes, it is 112 Richmond Road, Bath, BA1 5TU, security PIN 4430, customer account SN-882190.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:35]",
+   "end_time": "[01:46]",
+   "start_time_sec": 95,
+   "text": "Thank you Miles, that confirms your account details. Have you attempted a thirty-second power restart on your S-Net Hub to request a new dynamic IP allocation?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:57]",
+   "end_time": "[02:14]",
+   "start_time_sec": 117,
+   "text": "I power-cycled the hub twice, but the BRAS gateway assigned the exact same 82.132.x.x public IP address both times because the DHCP lease hasn't expired!",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[02:25]",
+   "end_time": "[02:38]",
+   "start_time_sec": 145,
+   "text": "Could I place you on hold for two minutes while I query the broadband edge router flow telemetry and packet drop statistics?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:03]",
+   "end_time": "[04:23]",
+   "start_time_sec": 243,
+   "text": "Thank you for holding, Miles. Our edge monitoring shows an inbound traffic spike of four hundred megabits per second consisting entirely of fragmented UDP packets directed at port 27015 on your public IP."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:34]",
+   "end_time": "[04:50]",
+   "start_time_sec": 274,
+   "text": "Four hundred megabits of junk UDP traffic! That is saturating our entire download bandwidth! Can you drop that traffic at your upstream BRAS gateway?",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:01]",
+   "end_time": "[05:12]",
+   "start_time_sec": 301,
+   "text": "Residential broadband packages do not include automated volumetric DDoS mitigation or upstream traffic scrubbing."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:23]",
+   "end_time": "[05:40]",
+   "start_time_sec": 323,
+   "text": "Well if you cannot scrub the traffic upstream, can you force-release my WAN IP address and lease me a clean IP right now?",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:51]",
+   "end_time": "[06:03]",
+   "start_time_sec": 351,
+   "text": "If you choose to run unsecured public gaming servers from a residential broadband connection, you bring DDoS attacks on yourself."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:14]",
+   "end_time": "[06:32]",
+   "start_time_sec": 374,
+   "text": "I was playing a standard multiplayer video game on my PC! I did not run an illegal server! Why are you blaming me for cyber-attacks against my home?",
+   "sentiment_score": -52.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:43]",
+   "end_time": "[06:54]",
+   "start_time_sec": 403,
+   "text": "Exposing local gaming ports to public Discord lobbies invites distributed packet flooding from adversaries."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:05]",
+   "end_time": "[07:21]",
+   "start_time_sec": 425,
+   "text": "I don't care about the attackers' motives! I have an entire household with zero internet access! Will you release my IP address or not?!",
+   "sentiment_score": -44.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:32]",
+   "end_time": "[07:45]",
+   "start_time_sec": 452,
+   "text": "WAN dynamic IP releases require a physical line sync tear-down from our central exchange port controller."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:56]",
+   "end_time": "[08:07]",
+   "start_time_sec": 476,
+   "text": "Then initiate the physical line sync tear-down right now!",
+   "sentiment_score": -36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:18]",
+   "end_time": "[08:24]",
+   "start_time_sec": 498,
+   "text": "Line sync tear-downs drop active telephony connections and can trigger automated line profile rate adaptations."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:35]",
+   "end_time": "[08:42]",
+   "start_time_sec": 515,
+   "text": "My connection is already ninety-five percent packet loss! A rate adaptation is far better than a total outage!",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:53]",
+   "end_time": "[09:00]",
+   "start_time_sec": 533,
+   "text": "Obviously residential consumer broadband tiers do not include enterprise-grade BGP scrubbing centers to filter distributed denial-of-service floods."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:11]",
+   "end_time": "[09:17]",
+   "start_time_sec": 551,
+   "text": "I am not asking for enterprise BGP scrubbing! I am asking for an IP address renewal!",
+   "sentiment_score": -32.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:28]",
+   "end_time": "[09:52]",
+   "start_time_sec": 568,
+   "text": "Miles speaking, my entire household internet has been completely paralyzed for four hours! My wife cannot conduct her telehealth medical consultations, my smart home security is offline, and every light on your router is blinking frantically! Paying seventy pounds a month for a connection that collapses because someone online attacks our IP address is totally unacceptable! We need this stopped right now!",
+   "sentiment_score": -62.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:03]",
+   "end_time": "[10:22]",
+   "start_time_sec": 603,
+   "text": "I completely understand the immense frustration and disruption this is causing to your household, Miles, especially with your wife unable to carry out essential telehealth consultations and home security knocked offline. Let us inspect the edge firewall traffic and reset your external IP address immediately."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:33]",
+   "end_time": "[10:39]",
+   "start_time_sec": 633,
+   "text": "Thank you Toby. What is the exact process to force a new IP lease?",
+   "sentiment_score": -12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:50]",
+   "end_time": "[10:58]",
+   "start_time_sec": 650,
+   "text": "I will send a remote administrative flush command to the BRAS gateway session manager, terminating your current PPPoE session."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:09]",
+   "end_time": "[11:15]",
+   "start_time_sec": 669,
+   "text": "Will that force the gateway to allocate a new IP from a different subnet block?",
+   "sentiment_score": -4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:25]",
+   "end_time": "[11:34]",
+   "start_time_sec": 685,
+   "text": "Yes, terminating the PPPoE session clears the MAC binding cache and triggers a fresh IP allocation from the Bath regional pool."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:44]",
+   "end_time": "[11:47]",
+   "start_time_sec": 704,
+   "text": "Please execute the PPPoE flush command immediately.",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:57]",
+   "end_time": "[12:01]",
+   "start_time_sec": 717,
+   "text": "Sending PPPoE session termination command to the exchange node now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:11]",
+   "end_time": "[12:17]",
+   "start_time_sec": 731,
+   "text": "The internet light on the hub turned red... now it has gone completely dark.",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:27]",
+   "end_time": "[12:33]",
+   "start_time_sec": 747,
+   "text": "The old session has been cleared from the edge routing table. The hub will now re-authenticate."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:43]",
+   "end_time": "[12:48]",
+   "start_time_sec": 763,
+   "text": "The hub light is pulsing orange... and now it turned solid white!",
+   "sentiment_score": 16.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:58]",
+   "end_time": "[13:03]",
+   "start_time_sec": 778,
+   "text": "Please open your browser, navigate to whatismyipaddress.com, and check your assigned public IP."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:13]",
+   "end_time": "[13:17]",
+   "start_time_sec": 793,
+   "text": "Checking whatismyipaddress.com... The new IP is 148.252.190.84! It was 82.132.44.12 earlier!",
+   "sentiment_score": 24.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:27]",
+   "end_time": "[13:34]",
+   "start_time_sec": 807,
+   "text": "Now run a ping test to our primary DNS server on 8.8.8.8 to verify packet loss and latency."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:44]",
+   "end_time": "[13:50]",
+   "start_time_sec": 824,
+   "text": "Opening command prompt: pinging 8.8.8.8... Zero percent packet loss! Average round-trip latency is 11 milliseconds!",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:00]",
+   "end_time": "[14:07]",
+   "start_time_sec": 840,
+   "text": "The inbound four-hundred-megabit UDP flood was directed at the old IP address, leaving your new IP completely unburdened."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:17]",
+   "end_time": "[14:23]",
+   "start_time_sec": 857,
+   "text": "The router traffic meter has dropped back down to baseline. Everything is loading instantaneously!",
+   "sentiment_score": 34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:33]",
+   "end_time": "[14:41]",
+   "start_time_sec": 873,
+   "text": "I will also enable stealth mode on your hub's SPI firewall to silently discard unexpected ICMP and UDP probes."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:51]",
+   "end_time": "[14:56]",
+   "start_time_sec": 891,
+   "text": "That will prevent prospective attackers from scanning open gaming ports in the future.",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:06]",
+   "end_time": "[15:10]",
+   "start_time_sec": 906,
+   "text": "Firewall stealth mode is now active on WAN interface 148.252.190.84."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:20]",
+   "end_time": "[15:26]",
+   "start_time_sec": 920,
+   "text": "My wife just reconnected her telehealth portal and her video consult is streaming smoothly.",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:36]",
+   "end_time": "[15:42]",
+   "start_time_sec": 936,
+   "text": "Before I request the dynamic IP lease flush, what was your customer account reference number again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:52]",
+   "end_time": "[15:58]",
+   "start_time_sec": 952,
+   "text": "As I told you right at the start of the call, it is SN-882190.",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:08]",
+   "end_time": "[16:13]",
+   "start_time_sec": 968,
+   "text": "Thank you Miles, that closes out our security session audit under reference SEC-88190-H."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:23]",
+   "end_time": "[16:26]",
+   "start_time_sec": 983,
+   "text": "SEC-88190-H, noted down in our home network notes.",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:36]",
+   "end_time": "[16:43]",
+   "start_time_sec": 996,
+   "text": "Your dynamic IP lease is valid for fourteen days and will rotate automatically on normal router restarts."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:53]",
+   "end_time": "[16:59]",
+   "start_time_sec": 1013,
+   "text": "Understood. If another attack ever happens, I know to ask for a PPPoE session flush.",
+   "sentiment_score": 20.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:09]",
+   "end_time": "[17:15]",
+   "start_time_sec": 1029,
+   "text": "Our automated network defense monitors will also flag sustained flood traffic over five hundred megabits."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:25]",
+   "end_time": "[17:30]",
+   "start_time_sec": 1045,
+   "text": "Thank you Toby for flushing that PPPoE session and restoring our family internet.",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:40]",
+   "end_time": "[17:45]",
+   "start_time_sec": 1060,
+   "text": "Is there any other security query I can assist you with today, Miles?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:55]",
+   "end_time": "[17:59]",
+   "start_time_sec": 1075,
+   "text": "No, the new IP address has completely resolved the attack.",
+   "sentiment_score": 26.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[18:09]",
+   "end_time": "[18:15]",
+   "start_time_sec": 1089,
+   "text": "Thank you for calling S-Net broadband network security, Miles. Have a safe and pleasant day. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[18:25]",
+   "end_time": "[18:28]",
+   "start_time_sec": 1105,
+   "text": "Goodbye Toby.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[18:38]",
+   "end_time": "[18:41]",
+   "start_time_sec": 1118,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[18:51]",
+   "end_time": "[18:54]",
+   "start_time_sec": 1131,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[19:04]",
+   "end_time": "[19:07]",
+   "start_time_sec": 1144,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[19:17]",
+   "end_time": "[19:22]",
+   "start_time_sec": 1157,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  }
+ ]
+}

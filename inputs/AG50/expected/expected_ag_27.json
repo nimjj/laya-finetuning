@@ -1,0 +1,160 @@
+{
+  "call_id": "ag_27",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 95.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "At [04:53]-[05:47] (44s gap) and [07:33]-[08:34] (51s gap), the agent placed the customer on hold twice using casual phrasing ('Just a second for me', 'Hold on while') without proper hold announcements or thanking the customer for holding upon return."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Desktop Outlook email client rejecting S-Net webmail IMAP password after mandatory OAuth/app-password security upgrade",
+    "tier": "good",
+    "duration_sec": 960,
+    "notes": "Hard-case H FAIL: Marcus is polite and resolves the issue completely, but both holds ([04:53]-[05:47] 44s and [07:33]-[08:34] 51s) use casual phrases ('Just a second for me', 'Hold on while') and return without thanking the customer for holding/waiting. Hard-case V PASS ([01:13]-[01:28]), AL PASS, and RE PASS ([12:12]-[15:08]).",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Verified customer",
+      "Active listening",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent opened with 'thank you for calling S-Net' and closed at [15:16]/[15:48] with 'Thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[04:53]-[05:47] 44s unmanaged gap ('Just a second for me...' -> 'Right, I've got your mailbox profile open...') and [07:33]-[08:34] 51s unmanaged gap ('Hold on while I generate...' -> 'Okay, here is the new app password...')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:13]-[01:28] Agent verified the first line of the customer's billing address (28 Beechwood Avenue) and security question (first pet's name, Barnaby) within the first two minutes."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:23] Agent personalized the call using the customer's first name ('Miroslav') throughout."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:23] Agent: 'I am really sorry for the disruption to your email this morning, Miroslav, and I completely understand how frustrating it is when your desktop mail client suddenly stops syncing.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:12]-[03:29] Agent paraphrased the exact issue: regular password works in Edge on S-Net Webmail, while Classic Outlook 2021 on Windows 11 rejects it on IMAP port 993 and SMTP port 465 with error 0x800CCC0E."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[09:26], [10:10], [10:34], [13:04] Agent retained every detail shared by the customer (Classic Outlook 2021, Windows 11, m.kowalski@s-netmail.co.uk, IMAP port 993 SSL/TLS, SMTP port 465 SSL/TLS, and his iPad) without asking him to repeat."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:52], [06:31], [08:34], [09:26]-[11:39] Agent cleared the port 993 security lock, generated the 16-character App Password, sent it via SMS, and guided the customer step-by-step through Outlook Server Settings."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:52], [06:31], [15:16] Agent maintained warm, reassuring, and professional rapport throughout the troubleshooting session."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:53]-[02:58] Agent probed systematically into browser webmail access, Windows/Outlook version, exact error code (0x800CCC0E), and IMAP/SMTP port and SSL/TLS settings."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[12:12]-[12:39], [14:58]-[15:08] Customer tested Send/Receive and a live loopback test email in Classic Outlook 2021 and confirmed the issue was 100% resolved."
+      }
+    ]
+  }
+}

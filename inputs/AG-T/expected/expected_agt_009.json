@@ -1,0 +1,184 @@
+{
+  "call_id": "agt_009",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 73.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "You deflected responsibility at [06:09] ('Look, Arthur, static IP BGP tables are managed entirely by our third-party carrier BGP operations team. There is nothing I can do from here... It\\'s not our fault that their overnight maintenance broke the subnet route.')."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "The static IP routing was not restored on the call and depends on downstream carrier NOC action, with customer confirming issue remains open."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (gemini-2.5-pro)",
+    "graded_on": "2026-10-21",
+    "scenario": "Business fibre static IP block (/29) routing failure after exchange maintenance",
+    "tier": "good",
+    "hard_cases": [
+      "Active listening",
+      "Took ownership of the problem",
+      "Confirmed the issue is resolved"
+    ],
+    "duration_sec": 1062,
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opening 'Thank you for calling S-Net business technical support' in first turn and closing 'Thank you for choosing S-Net' in last turns."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Two managed holds announced and thanked properly with no unmanaged dead air."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Verified business address and 4-digit security PIN at [01:00], well within 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent naturally used the customer's name Arthur throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent acknowledged the urgency and stress of having company servers down at [00:33]: 'I completely understand how critical this static IP subnet is for your office infrastructure, especially with staff unable to connect to your mail server and remote VPN.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Restatement at [01:54]: 'So if I understand correctly, since the midnight exchange maintenance window, your entire static slash twenty-nine subnet has lost inbound routing so external traffic cannot reach your mail server or VPN, while regular outbound internet browsing is still operational, is that right?'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: Arthur provided extensive technical details (subnet mask, IP block, gateway, hop 6 Leeds aggregation router), and Agent never asked for any of them again."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent overtly deflected responsibility at [06:09]: 'Look, Arthur, static IP BGP tables are managed entirely by our third-party carrier BGP operations team. There is nothing I can do from here; you will have to wait for them to look at their routing table. It\\'s not our fault that their overnight maintenance broke the subnet route.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent was professional, calm, and courteous aside from the ownership deflection."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent probed effectively on traceroute hops, PPPoE negotiation status, and gateway reachability."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Issue remains unresolved at call termination, awaiting external carrier NOC intervention."
+      }
+    ],
+    "markers": {
+      "active_listening": [],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        }
+      ],
+      "rapport": [],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 1,
+          "agent_turn": 2,
+          "with_refusal": false
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 13
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 37
+        }
+      ]
+    }
+  }
+}

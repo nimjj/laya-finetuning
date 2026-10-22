@@ -1,0 +1,208 @@
+{
+  "call_id": "agc_39",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 56.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Agent omitted mandatory opening branding at turn 1 ('S-Net service desk, Naomi speaking...'), completely failing to say 'Thank you for calling S-Net'."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Agent failed to personalize the call, never addressing the caller by name ('Carter') throughout the entire 12-minute interaction."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Agent made an unconscionable and rude remark at turn 24 ('expecting consumer domestic broadband to support hospital life-support equipment is completely unreasonable...'), causing intense distress to a grieving family member."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Agent failed to probe the physical telephone hardware setup, omitting checks regarding master test socket dial tone, microfilter configurations, or router LED indicator states."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent abruptly ended the call at turn 50 while the customer was asking for an emergency 4G backup router, cutting off the caller without confirming complete resolution."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-22",
+    "scenario": "Complete landline and internet failure during home hospice care setup",
+    "tier": "5+",
+    "duration_sec": 760,
+    "notes": "Home hospice emergency landline failure call handled by Naomi. Customer's terminally ill father required working landline for oxygen telemetry alarms following a severed tree-damaged dropwire. Agent paraphrased well and arranged emergency medical dispatch, but failed 5 criteria: Branding (opening omitted), Personalized (caller never named), Professionalism (rude remark about hospital equipment), Probing (omitted hardware checks), and Confirmed Resolved (cut off caller at closing).",
+    "hard_cases": [
+      "Verified customer",
+      "Empathy & Acknowledgment Statement",
+      "Took ownership of the problem",
+      "Branding and Survey Check",
+      "Personalized the call/ticket appropriately"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent omitted mandatory opening branding at turn 1 ('S-Net service desk, Naomi speaking...'), completely failing to say 'Thank you for calling S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent verified installation address and 4-digit security PIN within first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent failed to personalize the call, never addressing the caller by name ('Carter') throughout the entire 12-minute interaction."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent acknowledged severe family distress regarding a dying relative in home hospice care with prompt medical escalation."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent escalated under the Medical Priority Welfare scheme, arranging an emergency 4-hour Openreach dropwire repair at zero charge."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent made an unconscionable and rude remark at turn 24 ('expecting consumer domestic broadband to support hospital life-support equipment is completely unreasonable...'), causing intense distress to a grieving family member."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent failed to probe the physical telephone hardware setup, omitting checks regarding master test socket dial tone, microfilter configurations, or router LED indicator states."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent abruptly ended the call at turn 50 while the customer was asking for an emergency 4G backup router, cutting off the caller without confirming complete resolution."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 5,
+          "agent_turn": 45
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 10
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 27
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 16
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 1,
+          "agent_turn": 2,
+          "with_refusal": false
+        },
+        {
+          "kind": "handled",
+          "customer_turn": 28,
+          "agent_turn": 29,
+          "with_refusal": false
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 54
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,654 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Evangeline",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Good morning, thank you for contacting S-Net customer support today. My name is Sonia. How can I help you this morning?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:07]",
+      "end_time": "[00:17]",
+      "start_time_sec": 7,
+      "text": "Hi Sonia, my name is Evangeline. I'm calling because I ordered an S-Net Ultra TV multi-room mini box for our upstairs bedroom ten days ago, and it still hasn't arrived.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:18]",
+      "end_time": "[00:28]",
+      "start_time_sec": 18,
+      "text": "I am so sorry that you have been left waiting ten days for your bedroom mini box, Evangeline, and I completely understand how frustrating it is when an order is delayed.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:29]",
+      "end_time": "[00:39]",
+      "start_time_sec": 29,
+      "text": "Thank you. Every single day I log into my online portal and the order status just says Pending Warehouse Dispatch. It hasn't moved once since the eighth of October.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:40]",
+      "end_time": "[00:50]",
+      "start_time_sec": 40,
+      "text": "I really appreciate how disappointing that must be when you are waiting to set up your upstairs television, Evangeline. Let me get into your account right away and check that order.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:51]",
+      "end_time": "[00:55]",
+      "start_time_sec": 51,
+      "text": "Great, I have my order reference number here if you need it, it's ORD-774190.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:56]",
+      "end_time": "[01:05]",
+      "start_time_sec": 56,
+      "text": "Thank you for that reference number. Before I open the order screen, could you please confirm the first line of your home address and your four-digit security PIN?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:06]",
+      "end_time": "[01:11]",
+      "start_time_sec": 66,
+      "text": "Yes, of course. The first line is 14 Ravenswood Gardens, Bristol, and my four-digit security PIN is 6309.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:12]",
+      "end_time": "[01:24]",
+      "start_time_sec": 72,
+      "text": "That matches our records, thank you, Evangeline. So just to make sure I have everything straight, you placed order ORD-774190 ten days ago on the eighth of October for an additional Ultra TV multi-room mini box.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:25]",
+      "end_time": "[01:27]",
+      "start_time_sec": 85,
+      "text": "Yes, that's right.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:28]",
+      "end_time": "[01:37]",
+      "start_time_sec": 88,
+      "text": "And ever since you placed that order for your upstairs bedroom, the online portal has been stuck showing Pending Warehouse Dispatch with no courier tracking details generated.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:38]",
+      "end_time": "[01:47]",
+      "start_time_sec": 98,
+      "text": "Spot on. When I ordered it online, the checkout page promised delivery within two to three working days, so ten days without even leaving the warehouse feels ridiculous.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:48]",
+      "end_time": "[01:54]",
+      "start_time_sec": 108,
+      "text": "I completely understand why you feel that way, Evangeline, and I sincerely apologize that the two-to-three-working-day estimate was missed.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:55]",
+      "end_time": "[02:05]",
+      "start_time_sec": 115,
+      "text": "My husband is recovering from knee surgery upstairs, which is the whole reason we added the multi-room subscription this month so he could watch the football and films in bed.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:06]",
+      "end_time": "[02:16]",
+      "start_time_sec": 126,
+      "text": "Oh, I am so sorry to hear your husband is recovering from knee surgery, Evangeline. That makes the delay with the bedroom box even more inconvenient for you both.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:17]",
+      "end_time": "[02:26]",
+      "start_time_sec": 137,
+      "text": "It really does. Meanwhile, my monthly bill projection already shows the extra twelve pounds a month for the multi-room add-on starting from the day I clicked order.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:27]",
+      "end_time": "[02:38]",
+      "start_time_sec": 147,
+      "text": "I can certainly see why that would add to your frustration. Please bear with me for a moment while I open up the order management screen for ORD-774190.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:29]",
+      "end_time": "[03:35]",
+      "start_time_sec": 209,
+      "text": "Thank you for holding, Evangeline, I really appreciate your patience while I pulled up the order details on my system.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:36]",
+      "end_time": "[03:39]",
+      "start_time_sec": 216,
+      "text": "No problem, Sonia. What does your system say is holding it up?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:40]",
+      "end_time": "[03:48]",
+      "start_time_sec": 220,
+      "text": "I have order ORD-774190 open right here, and on my screen the fulfilment status is also showing as Pending Warehouse Dispatch at our Midlands distribution hub.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:49]",
+      "end_time": "[03:59]",
+      "start_time_sec": 229,
+      "text": "Okay, well why is it still sitting in Pending Warehouse Dispatch after ten days? Is there a block on the order or did it get stuck in your system?",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:00]",
+      "end_time": "[04:09]",
+      "start_time_sec": 240,
+      "text": "Once an equipment order moves into the Pending Warehouse Dispatch status, it sits in the external logistics feed managed by our courier and warehouse partner, DHL Supply Chain.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:10]",
+      "end_time": "[04:17]",
+      "start_time_sec": 250,
+      "text": "Right, so can you push it through or get the warehouse to dispatch a box out to us today on next-day delivery?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:18]",
+      "end_time": "[04:26]",
+      "start_time_sec": 258,
+      "text": "Our third-party logistics partner DHL handles the warehouse dispatch queue, there's nothing I can do from this desk—you'd have to contact their customer depot directly.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:27]",
+      "end_time": "[04:35]",
+      "start_time_sec": 267,
+      "text": "Wait, what? How can I contact DHL when I don't even have a DHL tracking number or consignment reference? I bought the box from S-Net!",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:36]",
+      "end_time": "[04:45]",
+      "start_time_sec": 276,
+      "text": "I am very sorry about the inconvenience, Evangeline, and I understand it is frustrating, but our retail support system is completely separate from the DHL warehouse floor system.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:46]",
+      "end_time": "[04:55]",
+      "start_time_sec": 286,
+      "text": "Surely S-Net has an internal fulfilment team or an order exceptions desk that talks to your own warehouse? You can't expect customers to ring up a warehouse depot!",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:56]",
+      "end_time": "[05:04]",
+      "start_time_sec": 296,
+      "text": "On our customer service desktops we only have view-only access to the dispatch status line once the order is passed across to the third-party logistics provider.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:05]",
+      "end_time": "[05:14]",
+      "start_time_sec": 305,
+      "text": "Can't you cancel this stuck order ORD-774190 and just key in a fresh dispatch so a new Ultra TV mini box gets sent out to 14 Ravenswood Gardens?",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:15]",
+      "end_time": "[05:25]",
+      "start_time_sec": 315,
+      "text": "Because the order status is locked in Pending Warehouse Dispatch, the cancel and reissue buttons are greyed out on my console until the warehouse clears or rejects the pick ticket.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:26]",
+      "end_time": "[05:36]",
+      "start_time_sec": 326,
+      "text": "Wait, why would the pick ticket be locked for ten days? Could there be an issue on my S-Net account holding it back, or is the mini box out of stock?",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:37]",
+      "end_time": "[05:45]",
+      "start_time_sec": 337,
+      "text": "My screen just displays the generic Pending Warehouse Dispatch banner, Evangeline, so any stock allocation or pick-queue delays are handled purely on the DHL depot side.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:46]",
+      "end_time": "[05:54]",
+      "start_time_sec": 346,
+      "text": "Didn't you check if there's an agreement document or credit check or anything waiting on my account? Sometimes upgrades wait for a click-to-accept email.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:55]",
+      "end_time": "[06:04]",
+      "start_time_sec": 355,
+      "text": "I wouldn't have visibility of why the warehouse hasn't scanned the parcel yet, because our department only sees the tracking number once DHL prints the shipping label.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:05]",
+      "end_time": "[06:14]",
+      "start_time_sec": 365,
+      "text": "Sonia, that makes no sense at all. If DHL hasn't even printed a shipping label, what am I supposed to say to them if I call their depot?",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:15]",
+      "end_time": "[06:24]",
+      "start_time_sec": 375,
+      "text": "You can quote your S-Net order reference ORD-774190 and your postcode at 14 Ravenswood Gardens to the DHL parcel enquiries line so they can search their manifest.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:25]",
+      "end_time": "[06:34]",
+      "start_time_sec": 385,
+      "text": "Have you ever tried calling DHL without a DHL waybill number? Their automated phone system won't even let you speak to a human without a ten-digit tracking code!",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:35]",
+      "end_time": "[06:45]",
+      "start_time_sec": 395,
+      "text": "I am really sorry that their automated phone line is difficult to navigate, Evangeline, I completely understand how annoying that is when you just want your bedroom TV box.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:46]",
+      "end_time": "[06:52]",
+      "start_time_sec": 406,
+      "text": "Being sorry doesn't get the mini box delivered, Sonia! You work for S-Net, my contract is with S-Net, not DHL.",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:53]",
+      "end_time": "[07:02]",
+      "start_time_sec": 413,
+      "text": "I do appreciate your frustration, Evangeline, and I wish my console had a button to force the warehouse release, but hardware dispatch is outsourced to our logistics partner.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:03]",
+      "end_time": "[07:10]",
+      "start_time_sec": 423,
+      "text": "What about escalating this to a team leader or raising an internal IT ticket to unstick the order from Pending Warehouse Dispatch?",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:11]",
+      "end_time": "[07:20]",
+      "start_time_sec": 431,
+      "text": "Our team leaders have the exact same order portal view that I have on my screen, so they would only see the Pending Warehouse Dispatch status as well.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:21]",
+      "end_time": "[07:31]",
+      "start_time_sec": 441,
+      "text": "So what happens if it sits in Pending Warehouse Dispatch for another two weeks? Am I just supposed to pay twelve pounds a month for a box that never arrives?",
+      "sentiment_score": -37.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:32]",
+      "end_time": "[07:43]",
+      "start_time_sec": 452,
+      "text": "Once the box eventually gets scanned and delivered by the courier, you can give our billing team a ring and we will gladly backdate a credit for the days you were waiting.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:44]",
+      "end_time": "[07:50]",
+      "start_time_sec": 464,
+      "text": "Wait, so you can't even pause the twelve-pound multi-room billing charge right now while the box isn't even dispatched?",
+      "sentiment_score": -34.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:51]",
+      "end_time": "[08:00]",
+      "start_time_sec": 471,
+      "text": "Our billing adjustments for delayed equipment can only be calculated after the delivery scan closes the open order, because that tells the system how many days were missed.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:01]",
+      "end_time": "[08:13]",
+      "start_time_sec": 481,
+      "text": "So let me get this straight. My order ORD-774190 has been stuck for ten days since the eighth of October, my husband is stuck in bed upstairs with no TV, and you're doing nothing?",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:14]",
+      "end_time": "[08:24]",
+      "start_time_sec": 494,
+      "text": "I am truly sorry that we cannot manually push the parcel out from this desk, Evangeline. I have added a note to your account history confirming that you called today.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:25]",
+      "end_time": "[08:32]",
+      "start_time_sec": 505,
+      "text": "A note on my account history doesn't tell the warehouse to put my Ultra TV mini box in a van, does it?",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:33]",
+      "end_time": "[08:44]",
+      "start_time_sec": 513,
+      "text": "No, the account note is just for our contact log so that when the box arrives and you claim your billing credit, the agent can see you reported the delay on the eighteenth.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:45]",
+      "end_time": "[08:51]",
+      "start_time_sec": 525,
+      "text": "Is there an email or a phone number for the S-Net logistics or supply chain team that manages the DHL contract?",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:52]",
+      "end_time": "[09:03]",
+      "start_time_sec": 532,
+      "text": "We don't have a direct phone number or email for the internal supply chain team, which is why customers have to reach out to the local DHL customer depot for dispatch queries.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:04]",
+      "end_time": "[09:10]",
+      "start_time_sec": 544,
+      "text": "And what is the number for this DHL depot that you claim will look up an S-Net order number?",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:11]",
+      "end_time": "[09:21]",
+      "start_time_sec": 551,
+      "text": "You can reach the DHL parcel customer service desk on 0344 248 0888, and if you select the option for missing home deliveries, an advisor can check your postcode.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:22]",
+      "end_time": "[09:32]",
+      "start_time_sec": 562,
+      "text": "I can guarantee you that when I call 0344 248 0888, they are going to tell me to go back to the retailer because S-Net is their account holder.",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:33]",
+      "end_time": "[09:43]",
+      "start_time_sec": 573,
+      "text": "I am so sorry that you are caught in the middle of this delay, Evangeline, and I completely understand why you are unhappy with how long it is taking.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:44]",
+      "end_time": "[09:52]",
+      "start_time_sec": 584,
+      "text": "Can you at least check if there are any other notes or flags on order ORD-774190? Like why would a simple mini box take ten days?",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:53]",
+      "end_time": "[10:03]",
+      "start_time_sec": 593,
+      "text": "All I can see on the summary tab is the item description for the S-Net Ultra TV multi-room mini box, the eighth of October order date, and Pending Warehouse Dispatch.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:04]",
+      "end_time": "[10:10]",
+      "start_time_sec": 604,
+      "text": "You haven't even looked into any sub-menus or order workflow logs to see why the order hasn't progressed to picking.",
+      "sentiment_score": -34.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:11]",
+      "end_time": "[10:20]",
+      "start_time_sec": 611,
+      "text": "Those workflow stages happen inside the warehouse management software, Evangeline, so from the customer support side we just wait for the courier feed to update to Dispatched.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:21]",
+      "end_time": "[10:31]",
+      "start_time_sec": 621,
+      "text": "Right, well if I had known adding a multi-room box for the bedroom was going to turn into a ten-day wild goose chase, I would have just bought a streaming stick.",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:32]",
+      "end_time": "[10:41]",
+      "start_time_sec": 632,
+      "text": "I completely understand why you feel that way, Evangeline, and I really apologize again that your husband hasn't had the Ultra TV box in the bedroom while recovering.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:42]",
+      "end_time": "[10:49]",
+      "start_time_sec": 642,
+      "text": "And if DHL tells me they have no record of order ORD-774190 at 14 Ravenswood Gardens, what am I supposed to do then?",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:50]",
+      "end_time": "[11:00]",
+      "start_time_sec": 650,
+      "text": "If the depot confirms they haven't received the manifest after fourteen full days, you can call us back on the twenty-second of October and our system may allow a manual cancellation.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:01]",
+      "end_time": "[11:07]",
+      "start_time_sec": 661,
+      "text": "Fourteen days! So I have to wait another four days before your system even lets someone cancel a stuck order?",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:08]",
+      "end_time": "[11:16]",
+      "start_time_sec": 668,
+      "text": "Yes, the automated order lock stays active for fourteen calendar days while an item is in Pending Warehouse Dispatch to prevent duplicate boxes being shipped out.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:17]",
+      "end_time": "[11:24]",
+      "start_time_sec": 677,
+      "text": "That is honestly the most unhelpful system I have ever heard of. You're basically telling me my hands are tied until the twenty-second.",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:25]",
+      "end_time": "[11:31]",
+      "start_time_sec": 685,
+      "text": "I am very sorry that I don't have a way to override that fourteen-day warehouse lock from my terminal today, Evangeline.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:32]",
+      "end_time": "[11:44]",
+      "start_time_sec": 692,
+      "text": "Fine. Make sure your note on my account clearly states that I called ten days in and was told to ring DHL myself, because I will be claiming every penny of that twelve pounds back.",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:45]",
+      "end_time": "[11:55]",
+      "start_time_sec": 705,
+      "text": "I have saved that detailed note on your profile under reference ORD-774190 right now, Evangeline, so the billing team will see the full timeline as soon as the box updates.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:56]",
+      "end_time": "[12:00]",
+      "start_time_sec": 716,
+      "text": "And what reference number did you put on the contact note for today's call?",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:01]",
+      "end_time": "[12:07]",
+      "start_time_sec": 721,
+      "text": "The interaction log reference for today's call is INT-409281, and it is attached directly to your multi-room order ORD-774190.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:08]",
+      "end_time": "[12:12]",
+      "start_time_sec": 728,
+      "text": "Okay, I've written down INT-409281 and the 0344 248 0888 number for the depot.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:13]",
+      "end_time": "[12:21]",
+      "start_time_sec": 733,
+      "text": "Is there anything else on your S-Net broadband or main living room TV package that I can check for you today, Evangeline?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:22]",
+      "end_time": "[12:28]",
+      "start_time_sec": 742,
+      "text": "No, the main box downstairs works fine, it's just this bedroom mini box order that's a complete mess.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:29]",
+      "end_time": "[12:34]",
+      "start_time_sec": 749,
+      "text": "I am very sorry again that we couldn't get it dispatched from here today, Evangeline.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:35]",
+      "end_time": "[12:37]",
+      "start_time_sec": 755,
+      "text": "Alright, I'll try ringing the courier depot now.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:38]",
+      "end_time": "[12:46]",
+      "start_time_sec": 758,
+      "text": "I do hope your husband's knee recovery goes smoothly, Evangeline. Thank you for choosing S-Net, and have a good rest of your day.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:47]",
+      "end_time": "[12:49]",
+      "start_time_sec": 767,
+      "text": "Goodbye, Sonia.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:50]",
+      "end_time": "[12:52]",
+      "start_time_sec": 770,
+      "text": "Thank you for choosing S-Net. Goodbye, Evangeline.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:53]",
+      "end_time": "[12:55]",
+      "start_time_sec": 773,
+      "text": "Bye.",
+      "sentiment_score": -18.0
+    }
+  ]
+}

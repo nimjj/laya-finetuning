@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_26",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 51.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "At [00:00], the agent opened with 'thank you for contacting S-Net' instead of the mandatory exact greeting 'thank you for calling S-Net'."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At [04:18], the agent deflected responsibility to the third-party courier instead of raising an internal fulfilment escalation, telling the customer there was nothing she could do and to contact the DHL depot directly."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "At [04:00] and [05:37], the agent failed to ask any diagnostic probing questions or check whether a credit-vetting hold, out-of-stock flag, or unsigned multi-room contract agreement was blocking dispatch."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "At [12:22]-[12:53], the call ended with the Ultra TV multi-room mini box still stuck in 'Pending Warehouse Dispatch' and the customer left to chase the third-party courier depot herself."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Order for S-Net Ultra TV multi-room mini box stuck in 'Pending Warehouse Dispatch' for 10 days",
+    "tier": "okay",
+    "duration_sec": 775,
+    "notes": "Hard-case B FAIL (near-miss 'thank you for contacting S-Net' at [00:00]), hard-case E PASS ([00:18], [02:06]) and PA PASS ([01:12]-[01:28]), paired with hard-case O FAIL ([04:18] deflecting to DHL depot) and PR FAIL ([05:37]-[05:55] no probing into pre-dispatch holds or contract acceptance).",
+    "hard_cases": [
+      "Branding and Survey Check",
+      "Took ownership of the problem",
+      "Probing",
+      "Empathy & Acknowledgment Statement",
+      "Paraphrasing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'Good morning, thank you for contacting S-Net customer support today.' (Near-miss opening branding; closing at [12:38]/[12:50] included 'Thank you for choosing S-Net'.)"
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:27]-[03:29] Single managed hold of 52s properly announced with 'bear with me for a moment while' and concluded with 'Thank you for holding'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:56]-[01:06] Agent verified the first line of the home address and four-digit security PIN within the first four minutes."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:18] Agent addressed the customer by her name ('Evangeline') throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:18] Agent: 'I am so sorry that you have been left waiting ten days for your bedroom mini box, Evangeline, and I completely understand how frustrating it is when an order is delayed.' Also [02:06]."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:12]-[01:28] Agent: 'So just to make sure I have everything straight, you placed order ORD-774190 ten days ago on the eighth of October for an additional Ultra TV multi-room mini box... and the online portal has been stuck showing Pending Warehouse Dispatch with no courier tracking details generated.'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:12], [02:06], [06:15] Agent accurately retained the order reference ORD-774190, the eighth of October order date, the bedroom setup for her recovering husband, and the address 14 Ravenswood Gardens."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[04:18] Agent: 'Our third-party logistics partner DHL handles the warehouse dispatch queue, there's nothing I can do from this desk—you'd have to contact their customer depot directly.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:18], [02:06], [12:38] Agent remained polite, calm, and wished the customer's husband a smooth recovery."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[05:26]-[05:55] When the customer asked if an account block, out-of-stock flag, or unaccepted agreement was holding the order back, the agent did not probe or check pre-dispatch flags and simply blamed the warehouse feed."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[12:22]-[12:35] Customer confirmed the bedroom mini box order remained unresolved and stuck in Pending Warehouse Dispatch."
+      }
+    ]
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Marcus",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net mobile support, my name is Maya. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:12]",
+      "end_time": "[00:26]",
+      "start_time_sec": 12,
+      "text": "Hi Maya, I'm at Heathrow terminal two right now about to board a flight to Tokyo, and I've just discovered my mobile has an international roaming bar on it.",
+      "sentiment_score": -26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:30]",
+      "end_time": "[00:50]",
+      "start_time_sec": 30,
+      "text": "I understand you need that roaming bar lifted urgently before your flight departs, Marcus. I would be glad to help sort your international roaming pass right now. For security verification, could you confirm your account security question, which is your mother's maiden name?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:54]",
+      "end_time": "[01:01]",
+      "start_time_sec": 54,
+      "text": "Yes, mother's maiden name is Thorne, T-H-O-R-N-E, and my account billing postcode is TW6 1AP.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:05]",
+      "end_time": "[01:15]",
+      "start_time_sec": 65,
+      "text": "Thank you Marcus, that has passed account verification on our Unlimited Max mobile tariff. Let me inspect your network roaming provisioning flags."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:19]",
+      "end_time": "[01:30]",
+      "start_time_sec": 79,
+      "text": "Thanks Maya. My plane boards in two and a half hours, so I really need to ensure data and calls work when I land.",
+      "sentiment_score": -10.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:34]",
+      "end_time": "[01:53]",
+      "start_time_sec": 94,
+      "text": "So what you need today is to remove the international roaming bar on your mobile number and add the Worldwide Roaming Pass so that data, calls, and texts function seamlessly upon landing in Japan. Did I capture your request correctly, Marcus?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:57]",
+      "end_time": "[02:04]",
+      "start_time_sec": 117,
+      "text": "Yes, that is exactly it. I have important business clients meeting me at Haneda airport.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:08]",
+      "end_time": "[02:14]",
+      "start_time_sec": 128,
+      "text": "Which smartphone model are you currently carrying with you at the airport?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:18]",
+      "end_time": "[02:24]",
+      "start_time_sec": 138,
+      "text": "I have an iPhone 15 Pro, with an S-Net physical SIM inside.",
+      "sentiment_score": 1.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:28]",
+      "end_time": "[02:38]",
+      "start_time_sec": 148,
+      "text": "And when you checked your cellular settings, did it show a roaming error message or did you receive an automated SMS alert?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:42]",
+      "end_time": "[02:51]",
+      "start_time_sec": 162,
+      "text": "I received an automated text message this morning saying international roaming is restricted by default on newer business accounts.",
+      "sentiment_score": -8.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:55]",
+      "end_time": "[03:06]",
+      "start_time_sec": 175,
+      "text": "Yes, on newly provisioned business lines, an administrative roaming safety lock is active by default to protect customers against unexpected roaming billing shocks."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:10]",
+      "end_time": "[03:30]",
+      "start_time_sec": 190,
+      "text": "Well, nobody warned me about that when I signed the contract! I'm traveling twelve thousand miles to lead a crucial commercial contract signing, and if I can't reach my executives or access my travel itinerary, the entire company trip is completely blown!",
+      "sentiment_score": -46.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:34]",
+      "end_time": "[03:42]",
+      "start_time_sec": 214,
+      "text": "Under your iPhone cellular data options, is your Data Roaming toggle currently switched to on or off?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:46]",
+      "end_time": "[03:51]",
+      "start_time_sec": 226,
+      "text": "It's switched to on, but the carrier banner says roaming inactive.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:53]",
+      "end_time": "[04:18]",
+      "start_time_sec": 233,
+      "text": "First and foremost Marcus, traveling halfway across the world for a crucial commercial contract only to face a blocked mobile line is immensely stressful, and I am so sorry for that worry. You have plenty of time before boarding, and I am personally taking care of lifting this bar and activating your pass right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:22]",
+      "end_time": "[04:31]",
+      "start_time_sec": 262,
+      "text": "Thank you Maya, I really needed to hear that. My heart was honestly pounding when that message popped up.",
+      "sentiment_score": 19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:35]",
+      "end_time": "[04:42]",
+      "start_time_sec": 275,
+      "text": "Looking at your cellular APN settings, is it currently displaying mobile.s-net.co.uk in the APN field?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:46]",
+      "end_time": "[04:51]",
+      "start_time_sec": 286,
+      "text": "Yes, it says mobile.s-net.co.uk in the APN field.",
+      "sentiment_score": 3.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:53]",
+      "end_time": "[05:15]",
+      "start_time_sec": 293,
+      "text": "We will have you fully connected well before you step onto the aircraft. Looking at our global roaming bolt-ons, we offer the Worldwide 30-Day Business Pass for twenty-five pounds, which provides twenty-five gigabytes of high speed 5G roaming across Japan on the NTT Docomo and SoftBank networks."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:19]",
+      "end_time": "[05:29]",
+      "start_time_sec": 319,
+      "text": "Twenty-five pounds for twenty-five gigs on Docomo? That sounds ideal. Does that include unlimited calls back to the United Kingdom?",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:33]",
+      "end_time": "[05:43]",
+      "start_time_sec": 333,
+      "text": "Yes, it includes unlimited calls and texts back to standard UK landlines and mobiles, as well as local numbers within Japan."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:47]",
+      "end_time": "[05:52]",
+      "start_time_sec": 347,
+      "text": "Perfect. Let's definitely add that 30-Day pass.",
+      "sentiment_score": 18.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:54]",
+      "end_time": "[06:16]",
+      "start_time_sec": 354,
+      "text": "Obviously we cannot override foreign partner carrier networks if the carrier roaming profile is blocked in the home database, so I need to lift the HLR roaming bar on our telecom gateway first. Bear with me for about a minute while I submit the network profile unbar request."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:09]",
+      "end_time": "[07:22]",
+      "start_time_sec": 429,
+      "text": "Thank you for waiting, Marcus. I have successfully removed the international roaming restriction on your SIM card and activated the Worldwide 30-Day Roaming Pass on your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:26]",
+      "end_time": "[07:35]",
+      "start_time_sec": 446,
+      "text": "Thank you Maya. How long does it usually take for that change to filter down to the SIM card?",
+      "sentiment_score": 8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:39]",
+      "end_time": "[07:55]",
+      "start_time_sec": 459,
+      "text": "The gateway profile pushes within sixty seconds. To force your iPhone to refresh its network registration tokens, I would like you to toggle Airplane Mode on for ten seconds, and then turn it off."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:59]",
+      "end_time": "[08:06]",
+      "start_time_sec": 479,
+      "text": "Okay, toggling Airplane Mode on now... counting to ten... and switching Airplane Mode back off.",
+      "sentiment_score": 4.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:10]",
+      "end_time": "[08:19]",
+      "start_time_sec": 490,
+      "text": "Has your phone reconnected to the cellular network, and did you receive a confirmation text message from S-Net Roaming?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:23]",
+      "end_time": "[08:31]",
+      "start_time_sec": 503,
+      "text": "Yes! A message just pinged from S-Net saying 'Worldwide Roaming Pass active: Welcome to overseas roaming.'",
+      "sentiment_score": 31.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:35]",
+      "end_time": "[08:50]",
+      "start_time_sec": 515,
+      "text": "That confirmation text confirms the network core has authorized your international profile. Now let us double check your carrier network selection settings to ensure effortless connection when your plane touches down in Tokyo."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:54]",
+      "end_time": "[08:59]",
+      "start_time_sec": 534,
+      "text": "Sure, what should I check in settings?",
+      "sentiment_score": 6.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:01]",
+      "end_time": "[09:09]",
+      "start_time_sec": 541,
+      "text": "In your iPhone Settings, tap Mobile Data, then Network Selection. Is the toggle set to Automatic?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:13]",
+      "end_time": "[09:18]",
+      "start_time_sec": 553,
+      "text": "Yes, Network Selection is set to Automatic.",
+      "sentiment_score": 5.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:20]",
+      "end_time": "[09:32]",
+      "start_time_sec": 560,
+      "text": "Leaving that on Automatic ensures that when you arrive at Haneda, your device automatically handshakes with NTT Docomo or SoftBank without requiring manual network searches."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:36]",
+      "end_time": "[09:44]",
+      "start_time_sec": 576,
+      "text": "That sounds effortless. What about 5G data? Do I need to enable anything special for 5G roaming?",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:48]",
+      "end_time": "[09:58]",
+      "start_time_sec": 588,
+      "text": "Under Mobile Data Options, tap Voice and Data, and make sure 5G Auto is selected with Data Mode set to Standard."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:02]",
+      "end_time": "[10:09]",
+      "start_time_sec": 602,
+      "text": "Checking now... Voice and Data is set to 5G Auto, and Data Mode is Standard.",
+      "sentiment_score": 9.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:13]",
+      "end_time": "[10:21]",
+      "start_time_sec": 613,
+      "text": "That is configured perfectly. What about your visual voicemail? Would you like voicemail access while in Japan?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:25]",
+      "end_time": "[10:30]",
+      "start_time_sec": 625,
+      "text": "Yes, clients might leave voicemails while I'm on the twelve-hour flight.",
+      "sentiment_score": 4.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:32]",
+      "end_time": "[10:44]",
+      "start_time_sec": 632,
+      "text": "To listen to your voicemail from an overseas network, you will need a four-digit voicemail security PIN. Have you already set one up on your line?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:48]",
+      "end_time": "[10:58]",
+      "start_time_sec": 648,
+      "text": "I don't think I've ever set a voicemail PIN, to be honest. I usually just press one on the dialler.",
+      "sentiment_score": -2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:02]",
+      "end_time": "[11:16]",
+      "start_time_sec": 662,
+      "text": "Let us configure your voicemail security PIN right now while you are in the terminal. Dial 222 on your keypad, and it will prompt you to choose a four-digit code."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:20]",
+      "end_time": "[11:28]",
+      "start_time_sec": 680,
+      "text": "Okay, calling 222 on speakerphone... typing in a four-digit PIN... and it says PIN successfully saved.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:32]",
+      "end_time": "[11:45]",
+      "start_time_sec": 692,
+      "text": "Excellent. When you are in Japan, you can simply dial +44 7953 222 222, enter your mobile number and your PIN, and you can retrieve all client messages."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:49]",
+      "end_time": "[11:54]",
+      "start_time_sec": 709,
+      "text": "That is super handy. I've saved that number in my contacts.",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:56]",
+      "end_time": "[12:04]",
+      "start_time_sec": 716,
+      "text": "Can you also open the S-Net Mobile app on your phone and tap on the Add-ons tab?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:08]",
+      "end_time": "[12:13]",
+      "start_time_sec": 728,
+      "text": "Opening the app now... logging in with Face ID... tapping Add-ons.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:15]",
+      "end_time": "[12:23]",
+      "start_time_sec": 735,
+      "text": "Does it display your Worldwide Roaming Pass with 25 GB remaining and valid for thirty days?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:27]",
+      "end_time": "[12:33]",
+      "start_time_sec": 747,
+      "text": "Yes, it shows 'Worldwide 30-Day Pass: 25.0 GB remaining, expires November 20th'.",
+      "sentiment_score": 28.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:37]",
+      "end_time": "[12:44]",
+      "start_time_sec": 757,
+      "text": "That verifies that the billing bolt-on is live and visible on your account ledger."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:48]",
+      "end_time": "[12:56]",
+      "start_time_sec": 768,
+      "text": "Such a massive relief, Maya. You have no idea how stressed I was walking into the terminal.",
+      "sentiment_score": 32.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:00]",
+      "end_time": "[13:10]",
+      "start_time_sec": 780,
+      "text": "I completely understand Marcus. Boarding an international flight with technical uncertainty is never how anyone wants to start a business trip."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:14]",
+      "end_time": "[13:19]",
+      "start_time_sec": 794,
+      "text": "You've been so thorough and calm about it.",
+      "sentiment_score": 27.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:21]",
+      "end_time": "[13:43]",
+      "start_time_sec": 801,
+      "text": "Just as a helpful travel tip: when you board the plane, keep your phone in Airplane Mode during the flight, and as soon as the aircraft lands at Haneda, turn Airplane Mode off while taxiing to the gate to allow two minutes for the initial network registration."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:47]",
+      "end_time": "[13:52]",
+      "start_time_sec": 827,
+      "text": "Got it. Airplane mode on during flight, off during taxiing.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:54]",
+      "end_time": "[14:05]",
+      "start_time_sec": 834,
+      "text": "If you ever need customer support while abroad, you can call us free of charge from your S-Net mobile on +44 7953 100 150."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:09]",
+      "end_time": "[14:14]",
+      "start_time_sec": 849,
+      "text": "Saving that support number right now as well.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:16]",
+      "end_time": "[14:22]",
+      "start_time_sec": 856,
+      "text": "Does that completely resolve your mobile roaming requirements for Tokyo today, Marcus?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:26]",
+      "end_time": "[14:38]",
+      "start_time_sec": 866,
+      "text": "Yes, that completely resolves it. The roaming bar is lifted, the pass is confirmed active, and I know exactly how to connect. Thank you so much.",
+      "sentiment_score": 35.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:42]",
+      "end_time": "[14:52]",
+      "start_time_sec": 882,
+      "text": "It was my absolute pleasure. Is there anything else I can assist you with before you head to your departure gate?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:56]",
+      "end_time": "[15:03]",
+      "start_time_sec": 896,
+      "text": "No, that's everything. I'm going to grab a coffee and head to gate thirty-six now.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:07]",
+      "end_time": "[15:12]",
+      "start_time_sec": 907,
+      "text": "Thank you for calling S-Net mobile support."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:14]",
+      "end_time": "[15:19]",
+      "start_time_sec": 914,
+      "text": "Thanks again Maya. Have a great day.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:21]",
+      "end_time": "[15:31]",
+      "start_time_sec": 921,
+      "text": "Thank you for choosing S-Net as your mobile network provider. Have a safe and very successful business trip to Tokyo, Marcus. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:35]",
+      "end_time": "[15:40]",
+      "start_time_sec": 935,
+      "text": "Goodbye Maya.",
+      "sentiment_score": 6.2
+    }
+  ]
+}

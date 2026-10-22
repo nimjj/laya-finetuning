@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_14",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 28.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Within the first four minutes of the call ([00:33]), the agent only asked for the customer's account number and date of birth, failing to verify her address or security PIN until [08:27]—more than four minutes into the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Despite the customer expressing severe distress ([00:13], [01:12], [06:54]) about being without internet for two weeks and paying to work from a coffee shop, the agent never once apologized or acknowledged her feelings."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "At [00:59], the agent jumped straight into reading raw order status codes without ever paraphrasing or restating the customer's two-week home-move activation delay in his own words."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At [09:30] and [15:33], the agent refused to take ownership of the wayleave contact error, blaming the home-move provisioning department ('that's their department not mine') and instructing the customer to call them herself tomorrow morning."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At [12:17], the agent made a dismissive, sarcastic remark to the customer: 'Well, moving into a newly converted Victorian building and expecting fibre to magically appear on day one is a bit optimistic, isn't it?'"
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "At [17:48]-[18:14], the customer's home-move fibre order remained stuck on wayleave hold WL-09 with no installation date and no temporary broadband backup provided."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Home move fibre activation delayed by two weeks leaving customer without internet in her new flat",
+    "tier": "poor",
+    "duration_sec": 1110,
+    "notes": "Poor home-move delay call failing 6 items (V, E, PA, O, R, RE) while passing B, H, P, AL, and PR. Tests five hard cases: late Verification ([08:27] past the 240s cutoff after only asking account number + DOB at [00:33]), complete lack of Empathy despite -45.0 customer distress, a sarcastic Professionalism failure at [12:17], Dead Air PASS with 1 unmanaged 45s gap ([06:08]) and 1 managed 65s hold ([11:45]) staying below the >=2 unmanaged fail threshold, and strong technical Probing ([01:56]-[03:37]) into MDU ducts and CSP hardware despite poor soft skills.",
+    "hard_cases": [
+      "Verified customer",
+      "Empathy & Acknowledgment Statement",
+      "Build rapport and observed professionalism",
+      "Hold time and Dead Air",
+      "Probing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'Good afternoon, thank you for calling S-Net Customer Support.' and [18:22] Agent: 'Thank you for choosing S-Net, and goodbye.'"
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Only one unmanaged gap >30s occurred ([05:13]-[06:08], 45s without hold announcement), while the second gap ([10:30]-[11:45], 65s) was properly announced with 'Please bear with me...' and closed with 'Thanks for waiting'; since fewer than 2 unmanaged gaps >30s occurred, Dead Air is PASS."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:33] Agent only asks for account number and date of birth; Agent does not ask for street address or security PIN until [08:27] (after the 240-second verification window)."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:33], [01:56], [06:08], [18:22] Agent addresses Theodora by name."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:12] Customer (-45.0 sentiment): '...I have been forced to sit in a noisy coffee shop down the road for two whole weeks!' -> [01:31] Agent responds coldly with an exception code definition and zero empathy across the entire call."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:13]-[01:31] Agent never summarizes or restates Theodora's issue."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:59], [04:13], [14:49] Agent accurately retains order reference HM-88412, account 44091827, Flat 2B, and the managing agent Sarah Jenkins at Oakridge Estates mentioned at [07:56]."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[09:30] Agent: 'Look, the home-move provisioning team handles wayleave delays and MDU order bridge exceptions, that's their department not mine, so you'll have to ring their desk tomorrow morning...'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[12:17] Agent: 'Well, moving into a newly converted Victorian building and expecting fibre to magically appear on day one is a bit optimistic, isn't it?'"
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:56], [02:25], [03:01], [03:37] Agent asks thorough diagnostic probing questions about the building layout, floor level, hallway ONT faceplate/draw-rope, ground-floor communal riser cupboard, and exterior/interior Openreach CSP splice node."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[17:48] Customer: 'So nothing has actually been progressed today other than a note on my file and a phone number for me to ring tomorrow morning.'"
+      }
+    ]
+  }
+}

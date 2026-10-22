@@ -1,0 +1,238 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Rosalind",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, my name is Clive. How can I help you?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:07]",
+      "end_time": "[00:20]",
+      "start_time_sec": 7,
+      "text": "Hi. My internet has been down for a week now. My daughter has her exams and she can't revise online, and every time I call I get passed around. I'm at breaking point.",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:21]",
+      "end_time": "[00:24]",
+      "start_time_sec": 21,
+      "text": "Can I take the account PIN, please?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:26]",
+      "end_time": "[00:28]",
+      "start_time_sec": 26,
+      "text": "1 0 0 9.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:32]",
+      "start_time_sec": 29,
+      "text": "Thank you, Rosalind. Which router do you have?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:34]",
+      "end_time": "[00:36]",
+      "start_time_sec": 34,
+      "text": "The black Hub 4.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:37]",
+      "end_time": "[00:39]",
+      "start_time_sec": 37,
+      "text": "And when did the problem start?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:40]",
+      "end_time": "[00:42]",
+      "start_time_sec": 40,
+      "text": "Last Tuesday. A week ago.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:43]",
+      "end_time": "[00:45]",
+      "start_time_sec": 43,
+      "text": "Are any lights on?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:46]",
+      "end_time": "[00:49]",
+      "start_time_sec": 46,
+      "text": "Power is on, and the internet light is red.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:50]",
+      "end_time": "[00:52]",
+      "start_time_sec": 50,
+      "text": "Have you tried restarting it?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:54]",
+      "end_time": "[00:56]",
+      "start_time_sec": 54,
+      "text": "Many times. Every day.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:57]",
+      "end_time": "[01:02]",
+      "start_time_sec": 57,
+      "text": "Let me place you on a brief hold while I run a line test.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:32]",
+      "end_time": "[02:37]",
+      "start_time_sec": 152,
+      "text": "Thanks for holding. The line test shows a fault outside the property.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:39]",
+      "end_time": "[02:41]",
+      "start_time_sec": 159,
+      "text": "So what happens now?",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:43]",
+      "end_time": "[02:46]",
+      "start_time_sec": 163,
+      "text": "Which router did you say you have?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:48]",
+      "end_time": "[02:50]",
+      "start_time_sec": 168,
+      "text": "The Hub 4. The black one.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:52]",
+      "end_time": "[02:54]",
+      "start_time_sec": 172,
+      "text": "And it started when?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:57]",
+      "end_time": "[03:00]",
+      "start_time_sec": 177,
+      "text": "Last Tuesday. I've told you all this.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:03]",
+      "end_time": "[03:10]",
+      "start_time_sec": 183,
+      "text": "If you'd listened the first time we wouldn't be going round in circles. I'm just checking the details.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:11]",
+      "end_time": "[03:13]",
+      "start_time_sec": 191,
+      "text": "Excuse me?",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:14]",
+      "end_time": "[03:21]",
+      "start_time_sec": 194,
+      "text": "Anyway. That'll be Openreach's cable, nothing I can do about it. I'll put a request in for an engineer.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:22]",
+      "end_time": "[03:24]",
+      "start_time_sec": 202,
+      "text": "When will they come?",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:26]",
+      "end_time": "[03:29]",
+      "start_time_sec": 206,
+      "text": "One moment while I check the schedule.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:29]",
+      "end_time": "[04:34]",
+      "start_time_sec": 269,
+      "text": "Thanks for waiting. The request is in. They usually come within five working days.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:35]",
+      "end_time": "[04:38]",
+      "start_time_sec": 275,
+      "text": "Five more days? She has exams on Monday.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:39]",
+      "end_time": "[04:41]",
+      "start_time_sec": 279,
+      "text": "That's the earliest. Anything else?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:42]",
+      "end_time": "[04:44]",
+      "start_time_sec": 282,
+      "text": "No. Nothing.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:46]",
+      "end_time": "[04:48]",
+      "start_time_sec": 286,
+      "text": "Thank you for choosing S-Net.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

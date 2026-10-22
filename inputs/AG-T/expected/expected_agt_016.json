@@ -1,0 +1,215 @@
+{
+  "call_id": "agt_016",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 41.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "When Camilla expressed acute frustration at [00:50] and [05:17] regarding being charged a late fee during an unscheduled website outage, you offered no apology or validation, responding with strict policy citations and blunt arguments."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "You asked at [06:11] what date she made the payment attempt after she clearly stated the 14th of September at [01:59]."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "You deflected ownership at [06:59] telling the customer you cannot help and instructing her to write to executive complaints."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "You made an unprovoked, rude, and insulting statement at [05:40] in the middle third ('It is not our fault you waited until 11 PM on the final due date to pay your bill. Responsible customers settle their accounts several days in advance.')."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "You asked no diagnostic probing questions regarding browser error codes, session logs, or payment receipt details."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (gemini-2.5-pro)",
+    "graded_on": "2026-10-21",
+    "scenario": "Recurring £15 late fee billed after online portal outage on payment due date",
+    "tier": "poor",
+    "hard_cases": [
+      "Active listening",
+      "Empathy & Acknowledgment Statement",
+      "Build rapport and observed professionalism",
+      "Took ownership of the problem"
+    ],
+    "duration_sec": 620,
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opening 'Thank you for calling S-Net billing customer support' and closing 'Thank you for choosing S-Net' properly stated."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Managed hold announced ('Bear with me for a couple of minutes') and thanked without unmanaged dead air."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Verified address and 4-digit security PIN within 28 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Addressed Camilla by name naturally throughout."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer had two outbursts at [00:50] and [05:17] regarding unfair fees during a website outage. Agent failed to acknowledge feelings on both occasions, quoting strict policy and arguing."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Restatement at [01:13]: 'So if I understand correctly, Camilla, you attempted to pay your broadband invoice before midnight on your due date, but our website payment portal crashed with server errors, causing your payment to clear the next morning and triggering an automated late fee, is that right?'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent re-asked for the date of payment attempt at [06:11] after customer gave it at [01:59]."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent overtly deflected responsibility at [06:59]: 'Yes, I cannot help you any further with manual fee credits or reversals from here. You must contact the customer complaints department.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent made a blatantly rude and insulting remark in the middle third at [05:40]: 'It is not our fault you waited until 11 PM on the final due date to pay your bill. Responsible customers settle their accounts several days in advance.'"
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked no diagnostic probing questions regarding browser error specifics or gateway responses."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent team leader approved a £15 credit; customer verified receipt via SMS at [10:11] and confirmed the issue is fully resolved."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 3,
+          "agent_turn": 16
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 9,
+          "agent_turn": 24
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        },
+        {
+          "kind": "restatement",
+          "agent_turn": 6
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 52
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 8
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 18
+        },
+        {
+          "kind": "rude",
+          "agent_turn": 22
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 5
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 21
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 1
+        }
+      ]
+    }
+  }
+}

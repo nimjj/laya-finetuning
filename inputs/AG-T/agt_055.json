@@ -1,0 +1,441 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Leila",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer accounts, my name is Nathan. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:19]",
+      "end_time": "[00:45]",
+      "start_time_sec": 19,
+      "text": "Hello Nathan. I am very upset about an erroneous charge on my final bill. I cancelled my broadband contract and posted our old Hub 3 router back in the pre-paid return envelope over a month ago. I have the Royal Mail tracking slip proving delivery to your warehouse, but today S-Net debited sixty-five pounds from my account for non-return of equipment!",
+      "sentiment_score": -44.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:57]",
+      "end_time": "[01:18]",
+      "start_time_sec": 57,
+      "text": "I'm sorry to hear you've been charged for non-return of equipment when you've already posted the router back, Leila. Let me look into that warehouse return record and sort out that refund for you right away. First, can you verify your full name and the previous account address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:30]",
+      "end_time": "[01:33]",
+      "start_time_sec": 90,
+      "text": "Leila Rostami, 11 Grove Park, Harrogate, HG1 4DP.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:45]",
+      "end_time": "[01:49]",
+      "start_time_sec": 105,
+      "text": "And what is the four-digit security PIN on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:01]",
+      "end_time": "[02:04]",
+      "start_time_sec": 121,
+      "text": "It's 3918.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:16]",
+      "end_time": "[02:23]",
+      "start_time_sec": 136,
+      "text": "What was the Royal Mail tracking barcode number printed on your Post Office drop-off slip?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:35]",
+      "end_time": "[02:39]",
+      "start_time_sec": 155,
+      "text": "The tracking barcode is ZT 992 481 028 GB.",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:51]",
+      "end_time": "[02:58]",
+      "start_time_sec": 171,
+      "text": "And what date did you drop the return parcel off at the post office counter?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:10]",
+      "end_time": "[03:13]",
+      "start_time_sec": 190,
+      "text": "On August twenty-second, at the Harrogate Central branch.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:25]",
+      "end_time": "[03:33]",
+      "start_time_sec": 205,
+      "text": "Bear with me for a moment while I query the logistics intake database at our central depot in Rugby."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:18]",
+      "end_time": "[04:23]",
+      "start_time_sec": 258,
+      "text": "Thank you for waiting, Leila. I have searched the asset intake register."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:35]",
+      "end_time": "[04:38]",
+      "start_time_sec": 275,
+      "text": "Did the parcel arrive at your warehouse?",
+      "sentiment_score": -8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:50]",
+      "end_time": "[05:02]",
+      "start_time_sec": 290,
+      "text": "Yes. Royal Mail tracking barcode ZT 992 481 028 GB was delivered and signed for at our Rugby logistics hub on August twenty-fourth at ten thirty AM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:14]",
+      "end_time": "[05:21]",
+      "start_time_sec": 314,
+      "text": "Then why on earth did S-Net charge my bank account sixty-five pounds two months later?",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:33]",
+      "end_time": "[05:48]",
+      "start_time_sec": 333,
+      "text": "The depot clerk scanned the outer parcel barcode upon delivery, but omitted to scan the individual hardware serial number asset tag inside the box, so the automated billing platform assumed the router was missing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:00]",
+      "end_time": "[06:11]",
+      "start_time_sec": 360,
+      "text": "Your warehouse staff failed to scan an internal barcode, and your automated system took sixty-five pounds from my bank without checking! That is completely unacceptable!",
+      "sentiment_score": -46.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:23]",
+      "end_time": "[06:38]",
+      "start_time_sec": 383,
+      "text": "You are completely right to be angry about that, Leila. It is our fault that the asset was not cross-referenced properly upon arrival, and you should never have had sixty-five pounds debited from your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:50]",
+      "end_time": "[06:56]",
+      "start_time_sec": 410,
+      "text": "Thank you for acknowledging that Nathan. How do I get my sixty-five pounds back?",
+      "sentiment_score": -10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:08]",
+      "end_time": "[07:21]",
+      "start_time_sec": 428,
+      "text": "I will take direct ownership of this right now. I have supervisor billing override authority, and I am applying an immediate sixty-five-pound credit waiver to your closed account profile."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:33]",
+      "end_time": "[07:45]",
+      "start_time_sec": 453,
+      "text": "While we have the logistics file open, the serial number of the Hub 3 router has now been recorded as safely recycled in our WEEE electronic waste register."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:57]",
+      "end_time": "[08:04]",
+      "start_time_sec": 477,
+      "text": "Good to know the old router is being responsibly recycled rather than going to landfill.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:16]",
+      "end_time": "[08:22]",
+      "start_time_sec": 496,
+      "text": "All returned plastic housings and copper transformers are processed under zero-landfill environmental standards."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:34]",
+      "end_time": "[08:37]",
+      "start_time_sec": 514,
+      "text": "That's very commendable.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:49]",
+      "end_time": "[08:58]",
+      "start_time_sec": 529,
+      "text": "And you can safely dispose of your Royal Mail post office receipt now that the credit memo has been issued."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:10]",
+      "end_time": "[09:15]",
+      "start_time_sec": 550,
+      "text": "I'll file the credit memo email and discard the paper slip.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:27]",
+      "end_time": "[09:35]",
+      "start_time_sec": 567,
+      "text": "And your direct debit mandate can be cancelled with your bank once the BACS refund clears on Friday."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:47]",
+      "end_time": "[09:54]",
+      "start_time_sec": 587,
+      "text": "I will leave the mandate open until Friday morning to ensure the refund routes through cleanly.",
+      "sentiment_score": 15.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:06]",
+      "end_time": "[10:09]",
+      "start_time_sec": 606,
+      "text": "That prevents any BACS rejection codes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:21]",
+      "end_time": "[10:24]",
+      "start_time_sec": 621,
+      "text": "Very sensible advice.",
+      "sentiment_score": 7.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:36]",
+      "end_time": "[10:44]",
+      "start_time_sec": 636,
+      "text": "And if you ever need broadband service in the future, your account remains eligible for returning customer discounts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:56]",
+      "end_time": "[10:59]",
+      "start_time_sec": 656,
+      "text": "Good to know, thank you.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:11]",
+      "end_time": "[11:16]",
+      "start_time_sec": 671,
+      "text": "And you won't receive any further automated equipment reminder SMS messages."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:28]",
+      "end_time": "[11:31]",
+      "start_time_sec": 688,
+      "text": "That will stop my phone pinging with reminders.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:43]",
+      "end_time": "[11:47]",
+      "start_time_sec": 703,
+      "text": "The automated SMS triggers are permanently suppressed on archived accounts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:59]",
+      "end_time": "[12:02]",
+      "start_time_sec": 719,
+      "text": "Perfect.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:14]",
+      "end_time": "[12:19]",
+      "start_time_sec": 734,
+      "text": "Will that sixty-five pounds be refunded directly to my bank account?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:31]",
+      "end_time": "[12:43]",
+      "start_time_sec": 751,
+      "text": "Yes. Because the direct debit collected the funds last week, I have triggered an automated BACS bank refund back to your registered bank account ending in 7102."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:55]",
+      "end_time": "[12:59]",
+      "start_time_sec": 775,
+      "text": "When will that refund reflect in my bank balance?",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:11]",
+      "end_time": "[13:20]",
+      "start_time_sec": 791,
+      "text": "BACS electronic clearing takes three business days, so the sixty-five pounds will arrive in your cleared funds by Friday morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:32]",
+      "end_time": "[13:39]",
+      "start_time_sec": 812,
+      "text": "Can you send me an official credit memo statement so I have written proof of the refund?",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:51]",
+      "end_time": "[14:01]",
+      "start_time_sec": 831,
+      "text": "Obviously accounting compliance requires an amended final statement for all equipment fee reversals, which I am dispatching to your email right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:13]",
+      "end_time": "[14:18]",
+      "start_time_sec": 853,
+      "text": "Let me check my email to make sure the amended statement arrives.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:36]",
+      "end_time": "[14:43]",
+      "start_time_sec": 876,
+      "text": "Just confirming before we finish, the Royal Mail tracking number was ZT 992 481 028 GB, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:55]",
+      "end_time": "[14:58]",
+      "start_time_sec": 895,
+      "text": "Yes, ZT 992 481 028 GB.",
+      "sentiment_score": 10.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:10]",
+      "end_time": "[15:18]",
+      "start_time_sec": 910,
+      "text": "The email from S-Net Billing just popped up! 'Amended Final Statement - Account Balance: \u00a30.00. Refund Dispatched: \u00a365.00'.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:30]",
+      "end_time": "[15:37]",
+      "start_time_sec": 930,
+      "text": "Can you see the equipment non-return charge has been reversed to zero on that document?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:49]",
+      "end_time": "[15:56]",
+      "start_time_sec": 949,
+      "text": "Yes, it shows sixty-five pounds credited and the equipment return status marked as 'Verified Delivered'.",
+      "sentiment_score": 44.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:08]",
+      "end_time": "[16:15]",
+      "start_time_sec": 968,
+      "text": "And I have locked the billing profile so no further trailing direct debits can be generated."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:27]",
+      "end_time": "[16:34]",
+      "start_time_sec": 987,
+      "text": "That is an enormous weight off my shoulders. I was worried this would drag on for weeks.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:46]",
+      "end_time": "[16:55]",
+      "start_time_sec": 1006,
+      "text": "Just to confirm your contact billing email on file, it's leila dot rostami at yorkshire dot org dot uk, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:07]",
+      "end_time": "[17:10]",
+      "start_time_sec": 1027,
+      "text": "Yes, that's my correct email.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:22]",
+      "end_time": "[17:29]",
+      "start_time_sec": 1042,
+      "text": "And just to confirm our depot records, the returned device was indeed the Hub 3 model, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:41]",
+      "end_time": "[17:44]",
+      "start_time_sec": 1061,
+      "text": "Yes, the Hub 3.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:56]",
+      "end_time": "[18:04]",
+      "start_time_sec": 1076,
+      "text": "Is there anything else regarding your closed account or equipment returns that I can help with today, Leila?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:16]",
+      "end_time": "[18:23]",
+      "start_time_sec": 1096,
+      "text": "No Nathan, you took responsibility and sorted the refund in one call. Thank you so much.",
+      "sentiment_score": 32.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:35]",
+      "end_time": "[18:43]",
+      "start_time_sec": 1115,
+      "text": "It was my absolute pleasure. Thank you for choosing S-Net in the past, Leila, and have a wonderful day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:55]",
+      "end_time": "[18:58]",
+      "start_time_sec": 1135,
+      "text": "Thank you Nathan, goodbye.",
+      "sentiment_score": 24.0
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "call_id": "agb_31",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 61.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Agent omitted mandatory closing branding 'thank you for choosing s-net' and customer satisfaction survey request."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Agent explicitly disclaimed ownership for surge damage, telling customer surge damage was 'your own home insurance problem; we only replace the plug because it's cheap.'"
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Agent insulted customer's basic intelligence and competence: 'If you don't even know what a fused thirteen-amp plug looks like, you shouldn't be messing with mains sockets in the dark.'"
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent abruptly terminated the call while customer was in mid-sentence asking follow-up questions."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Power surge fried Hub power adapter; replacement power supply unit dispatched on next-day delivery; agent omits survey & closing branding, insults customer's electrical competence, disclaims warranty ownership, and ends call abruptly",
+    "tier": "fair",
+    "duration_sec": 938,
+    "notes": "The agent diagnosed a fried 12V 2A power adapter following a thunderstorm power surge and arranged a replacement power brick. However, the agent failed Branding and Survey Check by omitting 'thank you for choosing s-net' and the survey, failed Build Rapport and Observed Professionalism at minute 8 by rudely snapping ('If you don't even know what a fused thirteen-amp plug looks like, you shouldn't be messing with mains sockets in the dark'), failed Took Ownership of the Problem by disclaiming responsibility for surge damage, and failed Confirmed Resolved by abruptly hanging up while Ethan was still speaking.",
+    "hard_cases": [
+      "Build rapport and observed professionalism",
+      "Took ownership of the problem",
+      "Empathy & Acknowledgment Statement",
+      "Paraphrasing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[15:40] Agent: 'Take it to an electrical recycling centre. Order dispatched. Goodbye.' - Closing lacks mandatory S-Net branding and survey mention."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:25] Agent: 'I completely understand the critical urgency for your veterinary practice and emergency calving calls, Ethan...' - Strong empathetic acknowledgment."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:45] Agent: 'So if I have understood correctly, a severe lightning thunderstorm caused a mains power surge that damaged your S-Net Hub power supply...' - Complete and accurate restatement."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[06:50] Agent: 'S-Net doesn't insure domestic wiring against lightning or power surges, that's your own home insurance problem; we only replace the plug because it's cheap.' - Blatant disclaimer of ownership."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[07:45] Agent: 'If you don't even know what a fused thirteen-amp plug looks like, you shouldn't be messing with mains sockets in the dark.' - Unambiguously rude and insulting remark."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[15:40] Agent abruptly hung up while customer was asking questions, cutting customer off mid-sentence."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 68
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 34
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

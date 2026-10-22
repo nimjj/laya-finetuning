@@ -4,6 +4,38 @@
 
 > Moving to another PC? See `docs/NEW_PC_SETUP.md` (what to copy, setup steps, checks, and how to carry the Claude Code notes).
 
+## This folder is the Laya segment of the repo (layout since 2026-10-22)
+
+The repository has two segments. The **QA application** is at the repo root. **Everything about the Laya model lives here**: training data, row builders, Colab notebooks, the testing and evaluation scripts, every test set and its results, the first benchmark, the experiment weights, and the logs of what was tried. The app keeps only its production weights (`../models/final-softce-3`) and two folders of sample calls.
+
+```
+laya-finetuning/
+├── README.md              this file: the training project, its plan, status and results
+├── 00_smoke_test.ipynb ... 04_train_eval_ft6.ipynb    Colab notebooks that train a checkpoint on a GPU
+├── data/                  training material: fragments, rows, the frozen questions and hashes, review sheets
+├── tools/                 row builders, notebook builders, the trainer, manifests, the freeze check; paths.py finds the app
+├── eval/                  testing and evaluation scripts (validate_calls, probe_laya, v3_compare, v3_gate_lab, golden, ...)
+├── inputs/                test sets AG50, AG-T, AG-B, AG-B2, AG-C, Eval50, Tough checks; Test (results)/ with their results and probes
+├── laya_eval/             the first synthetic benchmark of Laya vs Ollama
+├── runs/                  results, probe files and hash records per round; CHECKPOINTS.md is the catalogue and the decision
+├── checkpoints/           experiment weights ft5, ft6 (git-ignored)
+└── docs/                  LAYA_TEST_LOG.md, AG50_REPORT.md, data plan, labelling guide, generation notes, new-PC setup
+```
+
+**Run the scripts from the repo root**, for example `python laya-finetuning/eval/validate_calls.py --suite agt` or `python laya-finetuning/tools/export_checks.py --check`. They import the app code (`src/...`) through `tools/paths.py` (and `eval/_roots.py`), which treat the parent of this folder as the app. To point them at another checkout of the app, set the environment variable `QA_APP_DIR`.
+
+**Where things moved** (older notes in this folder and in git history use the old paths):
+
+| Old path | New path |
+|---|---|
+| `Scripts/` ag50_analysis, al_reach_lab, build_ag50_dashboard, choose_cutoffs, compare_eval, cutoff_eval, empathy_lab, golden, laya_cutoffs, probe_laya, v3_compare, v3_gate_lab, v3_service_test, validate_calls, window_lab | `laya-finetuning/eval/` |
+| `inputs/AG50`, `AG-T`, `AG-B`, `AG-B2`, `AG-C`, `Eval50`, `Tough checks` | `laya-finetuning/inputs/` |
+| `inputs/Test (results)/` AG50 (...), Eval50 (...), Laya probes | `laya-finetuning/inputs/Test (results)/` |
+| `laya_eval/` | `laya-finetuning/laya_eval/` |
+| `Docs/LAYA_TEST_LOG.md`, `Docs/AG50_REPORT.md` | `laya-finetuning/docs/` |
+| `laya-finetuning/checkpoints/final-softce-3` (the production weights) | `models/final-softce-3` at the repo root; set `LAYA_CHECKPOINT=models/final-softce-3` in `.env` |
+| (stayed in the app) | `Scripts/` batch_test, compare_results, check_prompt_sizes, dump_laya_inputs; `inputs/Main tests`, `inputs/Bulk tests` and their result folders; `Docs/FLOW_V2*.md` |
+
 **Document status:** review copy for the AI/ML engineer, written 2026-10-16. Everything below is marked **Done**, **In progress** or **Planned**. Section 9 lists the specific points we want challenged. `docs/DATA_PLAN.md` is the working copy of the phase table and data volumes; if the two ever differ, this README is the one reviewed.
 
 ## 1. One-paragraph summary

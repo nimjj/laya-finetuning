@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Wendy",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net landline network operations, my name is George. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:17]",
+   "end_time": "[00:37]",
+   "start_time_sec": 17,
+   "text": "Hello George, my name is Wendy Patterson. We have had an ongoing issue with our home landline telephone for the past month: whenever it rains heavily outside, the line develops severe crackling, static, and intermittent hum, causing our telephone calls to drop and making conversations completely inaudible!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:47]",
+   "end_time": "[01:10]",
+   "start_time_sec": 47,
+   "text": "Good afternoon Wendy. If I understand correctly, your home landline develops severe static, crackling, and dropped calls specifically during heavy rainfall, rendering phone conversations inaudible while the weather is wet. Before we initiate a line condition test and resistance balance query, could you please confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:20]",
+   "end_time": "[01:26]",
+   "start_time_sec": 80,
+   "text": "Yes, it is 28 Meadow Lane, Northallerton, DL6 1TR, security PIN 4912, landline number 01609 771920.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:36]",
+   "end_time": "[01:44]",
+   "start_time_sec": 96,
+   "text": "Thank you Wendy, that confirms your account details. What happens to your broadband connection when the telephone line crackles?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:54]",
+   "end_time": "[02:09]",
+   "start_time_sec": 114,
+   "text": "The broadband router speed drops slightly from 60 Mbps to 45 Mbps, but the landline handset suffers terrible buzzing and crackling.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[02:19]",
+   "end_time": "[02:34]",
+   "start_time_sec": 139,
+   "text": "Could I place you on hold for two minutes while I execute an automated Metallic Loop Test across your copper pair from the local Northallerton telephone exchange?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:59]",
+   "end_time": "[04:15]",
+   "start_time_sec": 239,
+   "text": "Thank you for holding, Wendy. The metallic loop diagnostic indicates a severe low-insulation resistance fault between the B-leg of your copper pair and earth ground."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:25]",
+   "end_time": "[04:36]",
+   "start_time_sec": 265,
+   "text": "What does low-insulation resistance between the B-leg and earth ground mean?",
+   "sentiment_score": -10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:46]",
+   "end_time": "[05:02]",
+   "start_time_sec": 286,
+   "text": "It indicates that rainwater is seeping into an external joint box or telegraph pole DP terminal block, allowing electrical moisture ingress across the copper wire insulation."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:12]",
+   "end_time": "[05:24]",
+   "start_time_sec": 312,
+   "text": "Can you fix the moisture ingress on the telegraph pole remotely?",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:34]",
+   "end_time": "[05:48]",
+   "start_time_sec": 334,
+   "text": "Moisture ingress in external copper plant requires a dedicated Openreach underground and overhead cable engineer to inspect the drop-wire and re-seal the external junction box."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:58]",
+   "end_time": "[06:09]",
+   "start_time_sec": 358,
+   "text": "How soon can an Openreach cable engineer inspect the external wiring?",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:19]",
+   "end_time": "[06:32]",
+   "start_time_sec": 379,
+   "text": "I can book an external Openreach cable repair engineer for Monday morning between eight and one o'clock."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:42]",
+   "end_time": "[06:45]",
+   "start_time_sec": 402,
+   "text": "Monday morning would be ideal.",
+   "sentiment_score": 8.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:55]",
+   "end_time": "[07:06]",
+   "start_time_sec": 415,
+   "text": "Obviously physical rainwater seeping into underground copper joints cannot be repaired by exchange software reboots."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:16]",
+   "end_time": "[07:26]",
+   "start_time_sec": 436,
+   "text": "I understand that wet wires require physical engineering.",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:36]",
+   "end_time": "[07:44]",
+   "start_time_sec": 456,
+   "text": "I am booking the Monday morning engineering slot right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:54]",
+   "end_time": "[08:05]",
+   "start_time_sec": 474,
+   "text": "Do I need to stay home from work on Monday morning?",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:15]",
+   "end_time": "[08:32]",
+   "start_time_sec": 495,
+   "text": "No, because the insulation fault is located on the external distribution pole in the street, the engineer can complete all external joint repairs without entering your home."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:42]",
+   "end_time": "[08:45]",
+   "start_time_sec": 522,
+   "text": "That is a huge convenience.",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:55]",
+   "end_time": "[09:19]",
+   "start_time_sec": 535,
+   "text": "Wendy speaking, my eighty-nine-year-old mother lives with me and she wears an emergency telecare panic pendant around her neck that connects directly to the NHS county ambulance control via our telephone landline! When the line crackles with static during rainstorms, the telecare monitoring hub beeps with error codes and fails to send emergency signals! If she falls down the stairs in the rain and the alarm fails, she could lie on the floor for hours! I am sick with terror and anxiety!",
+   "sentiment_score": -84.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:29]",
+   "end_time": "[09:41]",
+   "start_time_sec": 569,
+   "text": "I am querying the metallic loop resistance telemetry from the Northallerton exchange right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:51]",
+   "end_time": "[10:03]",
+   "start_time_sec": 591,
+   "text": "Please do George, I am terrified of my mother being left without ambulance contact.",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:13]",
+   "end_time": "[10:37]",
+   "start_time_sec": 613,
+   "text": "I completely understand the acute terror, constant anxiety, and profound worry you are experiencing, Wendy, especially with your eighty-nine-year-old mother relying on her telecare panic pendant for emergency ambulance monitoring. While our engineering policy cannot dispatch an emergency cable technician during active rainstorms this evening, I am attaching an urgent NHS Vulnerable Lifeline Customer safety escalation flag to the engineering work order and dispatching our emergency mobile cellular telecare backup adapter today."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:47]",
+   "end_time": "[10:59]",
+   "start_time_sec": 647,
+   "text": "Thank you George! An emergency mobile telecare backup adapter would protect her completely!",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:09]",
+   "end_time": "[11:29]",
+   "start_time_sec": 669,
+   "text": "The emergency telecare backup adapter uses a roaming multi-network 4G SIM that plugs directly between her pendant hub and the wall, ensuring her alarm signals route over cellular even if the landline has static."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:39]",
+   "end_time": "[11:50]",
+   "start_time_sec": 699,
+   "text": "That will keep her safe regardless of the weather.",
+   "sentiment_score": 34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:00]",
+   "end_time": "[12:06]",
+   "start_time_sec": 720,
+   "text": "I am sending the adapter via Royal Mail Tracked 24 for delivery tomorrow morning, Friday."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:16]",
+   "end_time": "[12:19]",
+   "start_time_sec": 736,
+   "text": "Tomorrow morning? That is fantastic!",
+   "sentiment_score": 36.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:29]",
+   "end_time": "[12:37]",
+   "start_time_sec": 749,
+   "text": "Your Openreach cable engineering appointment is confirmed for Monday between 8:00 AM and 1:00 PM under job reference EXT-COP-99120-N."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:47]",
+   "end_time": "[12:50]",
+   "start_time_sec": 767,
+   "text": "EXT-COP-99120-N, noted down.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:00]",
+   "end_time": "[13:06]",
+   "start_time_sec": 780,
+   "text": "I have waived all engineering visit fees and equipment delivery charges on your account."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:16]",
+   "end_time": "[13:20]",
+   "start_time_sec": 796,
+   "text": "Thank you George, you have been remarkably kind and thorough.",
+   "sentiment_score": 34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:30]",
+   "end_time": "[13:35]",
+   "start_time_sec": 810,
+   "text": "I have documented your mother's vulnerable telecare status on the permanent network profile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:45]",
+   "end_time": "[13:51]",
+   "start_time_sec": 825,
+   "text": "That will guarantee that our line is prioritized in all future adverse weather events.",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:01]",
+   "end_time": "[14:07]",
+   "start_time_sec": 841,
+   "text": "Our emergency operations team will also monitor the copper loop test following Monday's repair."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:17]",
+   "end_time": "[14:20]",
+   "start_time_sec": 857,
+   "text": "Thank you, that gives me total reassurance.",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:29]",
+   "end_time": "[14:36]",
+   "start_time_sec": 869,
+   "text": "Please give my warmest wishes to your mother, Wendy. We want her to stay safe and well."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:45]",
+   "end_time": "[14:50]",
+   "start_time_sec": 885,
+   "text": "I will tell her how wonderfully S-Net has taken care of us today.",
+   "sentiment_score": 38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:59]",
+   "end_time": "[15:05]",
+   "start_time_sec": 899,
+   "text": "Just making sure our premises records match perfectly: that was 28 Meadow Lane, Northallerton, wasn't it?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:14]",
+   "end_time": "[15:17]",
+   "start_time_sec": 914,
+   "text": "Yes, 28 Meadow Lane, Northallerton.",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:26]",
+   "end_time": "[15:30]",
+   "start_time_sec": 926,
+   "text": "Thank you Wendy, all premises and safety records are fully synchronized."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:39]",
+   "end_time": "[15:43]",
+   "start_time_sec": 939,
+   "text": "Thank you again George for your compassionate and urgent help.",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:52]",
+   "end_time": "[15:58]",
+   "start_time_sec": 952,
+   "text": "It has been an absolute pleasure assisting you, Wendy. Have a safe and peaceful weekend."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:07]",
+   "end_time": "[16:10]",
+   "start_time_sec": 967,
+   "text": "Goodbye George.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:19]",
+   "end_time": "[16:25]",
+   "start_time_sec": 979,
+   "text": "Is there any other landline or broadband issue I can assist with today, Wendy?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:34]",
+   "end_time": "[16:37]",
+   "start_time_sec": 994,
+   "text": "No George, you have resolved everything brilliantly.",
+   "sentiment_score": 28.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:46]",
+   "end_time": "[16:50]",
+   "start_time_sec": 1006,
+   "text": "Thank you for calling S-Net landline network operations, Wendy. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:59]",
+   "end_time": "[17:02]",
+   "start_time_sec": 1019,
+   "text": "Goodbye George.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:11]",
+   "end_time": "[17:14]",
+   "start_time_sec": 1031,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:23]",
+   "end_time": "[17:26]",
+   "start_time_sec": 1043,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:35]",
+   "end_time": "[17:38]",
+   "start_time_sec": 1055,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:47]",
+   "end_time": "[17:50]",
+   "start_time_sec": 1067,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:59]",
+   "end_time": "[18:02]",
+   "start_time_sec": 1079,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[18:11]",
+   "end_time": "[18:14]",
+   "start_time_sec": 1091,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[18:23]",
+   "end_time": "[18:26]",
+   "start_time_sec": 1103,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[18:35]",
+   "end_time": "[18:40]",
+   "start_time_sec": 1115,
+   "text": "Goodbye.",
+   "sentiment_score": 10.0
+  }
+ ]
+}

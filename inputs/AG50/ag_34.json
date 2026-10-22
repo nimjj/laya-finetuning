@@ -1,0 +1,606 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Amarachukwu",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Hello, thank you for calling S-Net TV and Streaming Technical Support. This is Liam speaking. Can I get your name please?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:20]",
+      "start_time_sec": 10,
+      "text": "Hi Liam, my name is Amarachukwu. I'm calling because my S-Net Stream Box voice remote has completely stopped working properly since the box updated itself overnight.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:22]",
+      "end_time": "[00:31]",
+      "start_time_sec": 22,
+      "text": "Right, Amarachukwu, before we check the Stream Box, give me the first line of your billing address and your four-digit account PIN.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:33]",
+      "end_time": "[00:40]",
+      "start_time_sec": 33,
+      "text": "The first line of the address is 14 St Jude's Walk, Bristol, and my four-digit PIN is 3920.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:42]",
+      "end_time": "[00:51]",
+      "start_time_sec": 42,
+      "text": "Okay, address and PIN are verified on the system, Amarachukwu. Go ahead and tell me what the S-Net Stream Box remote is doing.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:53]",
+      "end_time": "[01:07]",
+      "start_time_sec": 53,
+      "text": "Well, when I turned the television on this morning, a banner popped up saying the S-Net Stream Box had updated overnight to StreamOS 6.4.2, and ever since then the Bluetooth pairing keeps dropping out.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:09]",
+      "end_time": "[01:23]",
+      "start_time_sec": 69,
+      "text": "Even worse, the voice search microphone button on the remote is completely dead! It is so infuriating when you're paying sixty pounds a month for TV and you have to peck out letters one by one.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:26]",
+      "end_time": "[01:40]",
+      "start_time_sec": 86,
+      "text": "Every single time I press the microphone button on the remote, the little LED light at the top of the remote just flashes amber three times and nothing happens on the TV screen at all.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:43]",
+      "end_time": "[02:00]",
+      "start_time_sec": 103,
+      "text": "So just to recap the technical symptoms you are reporting, Amarachukwu: after your S-Net Stream Box installed the overnight StreamOS 6.4.2 update, your voice remote loses its Bluetooth pairing and pressing the microphone button fails to trigger voice input on the television.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:03]",
+      "end_time": "[02:14]",
+      "start_time_sec": 123,
+      "text": "Yes, that's right. The up, down, left, right directional buttons only work if I point the remote directly at the front of the Stream Box using infrared.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:17]",
+      "end_time": "[02:29]",
+      "start_time_sec": 137,
+      "text": "Let's check a few hardware details first. When you open Settings using the infrared directional buttons and go to System Info, what exact Bluetooth controller revision and battery percentage are listed?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:32]",
+      "end_time": "[02:43]",
+      "start_time_sec": 152,
+      "text": "Erm, let me point the remote straight at the little black box under the TV and press the gear icon... Okay, I am in System Info now.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:46]",
+      "end_time": "[02:55]",
+      "start_time_sec": 166,
+      "text": "It says OS Version StreamOS 6.4.2-UK, Bluetooth Controller BLE-v3.09, and Remote Battery shows '--' with a dashed line because it says Bluetooth Disconnected.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:58]",
+      "end_time": "[03:10]",
+      "start_time_sec": 178,
+      "text": "And how recently did you put fresh AAA alkaline batteries into that voice remote, Amarachukwu, and is there any soundbar or wireless subwoofer sitting directly in front of the Stream Box?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:13]",
+      "end_time": "[03:25]",
+      "start_time_sec": 193,
+      "text": "I put brand-new Duracell AAA batteries in on Sunday, so the batteries are three days old, and no, there is no soundbar—the Stream Box sits on an open glass shelf.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:28]",
+      "end_time": "[03:38]",
+      "start_time_sec": 208,
+      "text": "What about other Bluetooth accessories in the living room—do you have wireless headphones or a Bluetooth game controller paired to the S-Net Stream Box?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:41]",
+      "end_time": "[03:47]",
+      "start_time_sec": 221,
+      "text": "No, the S-Net voice remote is the only thing we have ever paired to the box.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:50]",
+      "end_time": "[04:00]",
+      "start_time_sec": 230,
+      "text": "Well, I can see BLE-v3.09 on your box. Our software development team pushed a buggy Bluetooth stack update last night, that's their fault not customer support's.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:03]",
+      "end_time": "[04:12]",
+      "start_time_sec": 243,
+      "text": "Excuse me? It's all S-Net to me! Whether it's your software team or support, it's your company's update that broke my remote overnight.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:15]",
+      "end_time": "[04:24]",
+      "start_time_sec": 255,
+      "text": "I didn't write the code for StreamOS 6.4.2, Amarachukwu, I only work on the support desk dealing with the aftermath this morning.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:27]",
+      "end_time": "[04:33]",
+      "start_time_sec": 267,
+      "text": "Right, well, can we actually fix my remote so Bluetooth and the microphone work again?",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:36]",
+      "end_time": "[04:48]",
+      "start_time_sec": 276,
+      "text": "When the BLE-v3.09 patch installs, the stale bonding keys in the Stream Box's Bluetooth EEPROM conflict with the remote's security token, so the box rejects the encrypted voice audio channel.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:51]",
+      "end_time": "[04:55]",
+      "start_time_sec": 291,
+      "text": "Okay, so how do we clear out those stale bonding keys?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:57]",
+      "end_time": "[05:09]",
+      "start_time_sec": 297,
+      "text": "First we have to purge the Bluetooth EEPROM table on the Stream Box itself, and then we have to factory-reset the remote's internal Bluetooth chip and create a fresh bond.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:12]",
+      "end_time": "[05:20]",
+      "start_time_sec": 312,
+      "text": "Alright, I still have the System Info menu open on the TV screen using infrared. Tell me where to go.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:23]",
+      "end_time": "[05:34]",
+      "start_time_sec": 323,
+      "text": "Press the Back arrow on the remote once to return to the main Settings sidebar, then scroll down five clicks to Remotes and Accessories and press OK.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:37]",
+      "end_time": "[05:48]",
+      "start_time_sec": 337,
+      "text": "Going back to the sidebar... scrolling down to Remotes and Accessories... okay, I pressed OK and I see S-Net Voice Remote v2 listed as Paired (Not Connected).",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:51]",
+      "end_time": "[05:59]",
+      "start_time_sec": 351,
+      "text": "Don't just click Unpair there, because the corrupted GATT profile stays cached in EEPROM if you use the normal Unpair button.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:02]",
+      "end_time": "[06:07]",
+      "start_time_sec": 362,
+      "text": "Oh, okay, I won't click Unpair then. What do I press instead?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:09]",
+      "end_time": "[06:19]",
+      "start_time_sec": 369,
+      "text": "While highlighting S-Net Voice Remote v2, press the Blue colour button on your remote three times rapidly to open the hidden Engineering BLE Menu.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:22]",
+      "end_time": "[06:32]",
+      "start_time_sec": 382,
+      "text": "Let me point it at the box and press Blue, Blue, Blue... Oh, a grey diagnostic box just popped up saying BLE Engineering Utility!",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:35]",
+      "end_time": "[06:43]",
+      "start_time_sec": 395,
+      "text": "In that BLE Engineering Utility pop-up, tell me what numbers it shows next to Bonded Slots and GATT Cache State.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:46]",
+      "end_time": "[06:52]",
+      "start_time_sec": 406,
+      "text": "It says Bonded Slots: 1 of 4, and GATT Cache State: Stale Token Error 0x0E.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:55]",
+      "end_time": "[07:08]",
+      "start_time_sec": 415,
+      "text": "Error 0x0E is the corrupted key from the overnight update. Scroll down to the third option in that grey box, which says Clear BLE Bond Table and Reset EEPROM, and press OK.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:11]",
+      "end_time": "[07:19]",
+      "start_time_sec": 431,
+      "text": "Scrolling down to Clear BLE Bond Table and Reset EEPROM... pressing OK now, and confirming Yes on the prompt.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:22]",
+      "end_time": "[07:31]",
+      "start_time_sec": 442,
+      "text": "The screen flashed black for a second and now the grey box says Bonded Slots: 0 of 4, GATT Cache State: Clean.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:34]",
+      "end_time": "[07:46]",
+      "start_time_sec": 454,
+      "text": "Now I am also sending a remote TR-069 daemon restart to your Stream Box's Bluetooth service from my console so the Bluetooth controller reloads with a clean address table.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:49]",
+      "end_time": "[07:56]",
+      "start_time_sec": 469,
+      "text": "I just saw a small notification in the top right corner of the TV saying Bluetooth Service Restarted.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:59]",
+      "end_time": "[08:11]",
+      "start_time_sec": 479,
+      "text": "Before we reset the remote handset itself, Amarachukwu, let me check the handset state—and what colour does the light on the remote flash when you press the microphone key?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:14]",
+      "end_time": "[08:26]",
+      "start_time_sec": 494,
+      "text": "Liam, I literally told you right at the start of the call that the light flashes amber three times whenever I press the microphone button! Were you not listening to me?",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:29]",
+      "end_time": "[08:37]",
+      "start_time_sec": 509,
+      "text": "Right, amber three times. That means the remote handset itself is still holding its old pairing token in its flash memory.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:40]",
+      "end_time": "[08:46]",
+      "start_time_sec": 520,
+      "text": "Okay, so how do I clear the old pairing token off the remote handset?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:49]",
+      "end_time": "[09:02]",
+      "start_time_sec": 529,
+      "text": "You need to hold down the Home button—the one with the little house icon—and the number Zero button at the bottom of the keypad at the exact same time for ten full seconds.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:05]",
+      "end_time": "[09:19]",
+      "start_time_sec": 545,
+      "text": "Holding the Home button and the Zero button together now... one, two, three, four, five... oh, wait, my thumb slipped off the Zero button because it's right at the bottom edge of the casing.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:22]",
+      "end_time": "[09:28]",
+      "start_time_sec": 562,
+      "text": "Look, pressing Home and Zero together for ten seconds really isn't that hard, Amarachukwu.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:31]",
+      "end_time": "[09:43]",
+      "start_time_sec": 571,
+      "text": "There is no need to speak to me like that, Liam! The buttons on this remote are tiny and flush with the plastic. I am holding them down again now.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:46]",
+      "end_time": "[09:55]",
+      "start_time_sec": 586,
+      "text": "Keep both buttons held down until the LED at the top of the remote blinks red twice and then turns solid green.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:58]",
+      "end_time": "[10:07]",
+      "start_time_sec": 598,
+      "text": "Holding them firmly... six, seven, eight, nine, ten... Okay, the LED just blinked red twice and now it is glowing solid green.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:10]",
+      "end_time": "[10:24]",
+      "start_time_sec": 610,
+      "text": "Solid green means the remote's internal EEPROM has been wiped clean. Now hold the remote within thirty centimetres of the S-Net Stream Box and press the OK button in the centre of the directional ring once.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:27]",
+      "end_time": "[10:34]",
+      "start_time_sec": 627,
+      "text": "I'm holding it right in front of the Stream Box and pressing the centre OK button now.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:37]",
+      "end_time": "[10:45]",
+      "start_time_sec": 637,
+      "text": "Wait—a message just appeared on the television screen saying 'Pairing S-Net Voice Remote v2, please wait' with a spinning circle!",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:48]",
+      "end_time": "[10:56]",
+      "start_time_sec": 648,
+      "text": "Keep holding the remote steady near the box until the spinning circle finishes and the BLE firmware check completes.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:59]",
+      "end_time": "[11:08]",
+      "start_time_sec": 659,
+      "text": "It just changed to a green tick on the TV screen! It says 'S-Net Voice Remote Paired Successfully — Voice Control Active'.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:11]",
+      "end_time": "[11:21]",
+      "start_time_sec": 671,
+      "text": "Now look at the Remotes and Accessories screen on your TV, Amarachukwu. What does it show next to Connection Status and Remote Battery now?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:24]",
+      "end_time": "[11:28]",
+      "start_time_sec": 684,
+      "text": "It says Connection Status: Connected (BLE Encrypted), and Remote Battery: 100%!",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:30]",
+      "end_time": "[11:40]",
+      "start_time_sec": 690,
+      "text": "And if you point the remote away from the television towards the ceiling and press the directional buttons, does the cursor move over Bluetooth?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:43]",
+      "end_time": "[11:54]",
+      "start_time_sec": 703,
+      "text": "Let me point the remote backwards towards the sofa cushions and press left and right... Yes, the menu highlight moves instantly without pointing it at the box!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:57]",
+      "end_time": "[12:09]",
+      "start_time_sec": 717,
+      "text": "Now test the voice search microphone button that was failing earlier: press and hold the microphone button, see what the LED does, and speak a command like 'Open BBC iPlayer'.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:12]",
+      "end_time": "[12:24]",
+      "start_time_sec": 732,
+      "text": "Pressing and holding the microphone button now... The LED turned solid blue instead of flashing amber, and the little voice waveform popped up at the bottom of the TV!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:27]",
+      "end_time": "[12:37]",
+      "start_time_sec": 747,
+      "text": "I just said 'Open BBC iPlayer' into the remote... and it transcribed 'Open BBC iPlayer' on screen and launched the BBC iPlayer app straight away!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:40]",
+      "end_time": "[12:51]",
+      "start_time_sec": 760,
+      "text": "Try one more voice command inside the guide—press the microphone button and say 'Switch to Channel 4 HD' just to confirm channel tuning over BLE voice works too.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:54]",
+      "end_time": "[13:04]",
+      "start_time_sec": 774,
+      "text": "Pressing the mic button: 'Switch to Channel 4 HD'... Yep, it exited BBC iPlayer and tuned straight to Channel 4 HD in about two seconds.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:07]",
+      "end_time": "[13:18]",
+      "start_time_sec": 787,
+      "text": "Let me check the BLE Engineering Utility status from my remote diagnostics panel as well... Yes, GATT Cache State shows Verified 0x00 and audio packet loss is zero.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:21]",
+      "end_time": "[13:31]",
+      "start_time_sec": 801,
+      "text": "If I put the S-Net Stream Box into standby tonight with the power button, is it going to lose the pairing again tomorrow morning?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:34]",
+      "end_time": "[13:49]",
+      "start_time_sec": 814,
+      "text": "No, the only reason it failed this morning was the transition from StreamOS 6.4.1 to 6.4.2 leaving a version-1 bond token in the EEPROM. Now that a version-2 BLE bond token is written, standby won't affect it.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:52]",
+      "end_time": "[14:02]",
+      "start_time_sec": 832,
+      "text": "Let's test putting the box into standby and waking it back up right now while you're still on the line, just to be sure.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:05]",
+      "end_time": "[14:19]",
+      "start_time_sec": 845,
+      "text": "Go ahead and press the top-right Standby button on the remote, wait five seconds for the front light on the Stream Box to turn amber, and then press the Home button to wake it.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:22]",
+      "end_time": "[14:32]",
+      "start_time_sec": 862,
+      "text": "Pressing Standby... TV screen went blank and the box light is amber. Counting to five... Now pressing the Home button without pointing at the box.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:35]",
+      "end_time": "[14:47]",
+      "start_time_sec": 875,
+      "text": "The Stream Box light turned white immediately, the home screen came right back up, and when I press the microphone button the blue voice bar pops up straight away.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:50]",
+      "end_time": "[14:54]",
+      "start_time_sec": 890,
+      "text": "That confirms the version-2 Bluetooth bond persists across standby cycles, Amarachukwu.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:56]",
+      "end_time": "[15:08]",
+      "start_time_sec": 896,
+      "text": "Okay, the remote and the voice microphone are working properly again now. Can you give me a reference number for the call in case the next update does the same thing?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:11]",
+      "end_time": "[15:15]",
+      "start_time_sec": 911,
+      "text": "The ticket reference logged on your account is TV-4410982.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:17]",
+      "end_time": "[15:21]",
+      "start_time_sec": 917,
+      "text": "Got it, TV-4410982. That's all I needed sorted today.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:23]",
+      "end_time": "[15:30]",
+      "start_time_sec": 923,
+      "text": "Right, everything is working on the Stream Box now then. Thanks for calling in today, Amarachukwu, bye now.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:33]",
+      "end_time": "[15:35]",
+      "start_time_sec": 933,
+      "text": "Bye.",
+      "sentiment_score": 4.0
+    }
+  ]
+}

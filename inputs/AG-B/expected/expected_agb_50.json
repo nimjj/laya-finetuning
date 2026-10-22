@@ -1,0 +1,202 @@
+{
+  "call_id": "agb_50",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 0.0,
+    "is_auto_fail": true,
+    "auto_fail_reason": "Agent called the customer 'stupid' during a dispute over a late payment administration fee.",
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent offered zero restatement of customer's late payment fee dispute, proceeding immediately to ledger databases."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked the customer to repeat the BACS banking transaction reference despite customer having clearly stated it in turn 3."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "CRITICAL AUTO-FAIL: Agent shouted 'Are you really too stupid to understand how bank clearing cycles work?!' at the customer."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Agent insults caller disputing billing late payment charge (Auto-fail: 'stupid')",
+    "tier": "poor",
+    "duration_sec": 1165,
+    "notes": "The customer called to dispute an unfair twelve-pound late payment fee charged after bank BACS transfer processing over a bank holiday weekend. While the agent demonstrated handled empathy, took ownership to reverse the charge, and confirmed the resolution, the agent failed Paraphrasing by offering zero restatement of the billing dispute, failed Active Listening at minute 11 by asking for the banking payment reference number after Zachary clearly provided it in turn 3, and committed an egregious Auto-Fail breach under Build Rapport and Observed Professionalism at minute 8 by shouting 'Are you really too stupid to understand how bank clearing cycles work?!' at the customer.",
+    "hard_cases": [
+      "Active listening",
+      "Paraphrasing",
+      "Confirmed the issue is resolved",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:45] Agent provided handled empathy acknowledging the frustration of seeing an unfair penalty fee despite paying on Friday and twelve years of flawless customer loyalty."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent offered no restatement of customer's disputed fee and holiday banking delays, proceeding directly to Oracle database lookups."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[09:30] Agent asked 'What was the banking payment transaction reference number from your Barclays transfer receipt, Zachary?' after customer gave reference BACS-7749102 in turn 3."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[07:20] Agent explicitly took ownership: 'I will take direct personal ownership of this dispute, Zachary, and execute an immediate twelve-pound fee reversal credit onto your account ledger.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[05:15] Agent: 'Are you really too stupid to understand how bank clearing cycles work?! If you want weekend processing, set up a Direct Debit!' - Severe verbal abuse and gross unprofessional misconduct."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:20] Agent probed into the exact timestamp of the customer's Barclays online banking transfer and checked automated SMS reminder history."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[18:40] Agent explicitly verified: 'Have I answered all of your questions and completely resolved your billing dispute today, Zachary?' and customer confirmed resolution."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 3,
+          "agent_turn": 58
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 3,
+          "agent_turn": 26,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 20
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 32
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6
+        }
+      ]
+    }
+  }
+}

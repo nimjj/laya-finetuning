@@ -1,0 +1,493 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Penelope",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer care. My name is Yasmin. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:14]",
+      "end_time": "[00:41]",
+      "start_time_sec": 14,
+      "text": "Hello Yasmin. I am having a complete nervous breakdown trying to set up this new S-Net broadband router that arrived in the post! The instruction booklet shows a solid green light, but on my box there is a flashing green light, then a flashing orange light, and every time I plug in the little grey cable, everything goes dark! I have spent four solid hours on my knees on the carpet and I am in tears of pure frustration!",
+      "sentiment_score": -48.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:48]",
+      "end_time": "[01:02]",
+      "start_time_sec": 48,
+      "text": "I understand how exhausting and frustrating router setup can be, Penelope, especially after spending four hours trying to connect the cables. Let me guide you step by step to get your broadband working."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:09]",
+      "end_time": "[01:16]",
+      "start_time_sec": 69,
+      "text": "Thank you so much Yasmin, because technology terrifies me and I feel so helpless right now.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:23]",
+      "end_time": "[01:31]",
+      "start_time_sec": 83,
+      "text": "Before we begin inspecting the cables, could you please verify your installation address and your four-digit account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:38]",
+      "end_time": "[01:51]",
+      "start_time_sec": 98,
+      "text": "The address is 9 Meadowcroft Court, Norwich, NR4 7TJ, and the security PIN is 3029. The router is an S-Net Hub 5 with four yellow ports on the back.",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:58]",
+      "end_time": "[02:06]",
+      "start_time_sec": 118,
+      "text": "Thank you for verifying those details, Penelope. I have your account and router dispatch record open on my screen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:13]",
+      "end_time": "[02:16]",
+      "start_time_sec": 133,
+      "text": "Great, thank you.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:23]",
+      "end_time": "[02:42]",
+      "start_time_sec": 143,
+      "text": "So just to confirm what you are experiencing: you received your new S-Net router today and have spent several frustrating hours trying to connect it, but the indicator lights alternate between flashing green and flashing orange rather than staying solid green. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:49]",
+      "end_time": "[02:56]",
+      "start_time_sec": 169,
+      "text": "Yes, exactly that. Flashing green, then flashing orange, and I don't know what either of them means.",
+      "sentiment_score": -14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:03]",
+      "end_time": "[03:13]",
+      "start_time_sec": 183,
+      "text": "Please bear with me on hold for about forty seconds while I test the external broadband line signal to your Norwich property."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:53]",
+      "end_time": "[04:02]",
+      "start_time_sec": 233,
+      "text": "Thank you for holding, Penelope. The external line test shows fifty-five megabits of clean signal reaching your master wall socket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:09]",
+      "end_time": "[04:18]",
+      "start_time_sec": 249,
+      "text": "So the broadband signal is outside my house, but why are the lights flashing orange and green on the box?",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:25]",
+      "end_time": "[04:41]",
+      "start_time_sec": 265,
+      "text": "When the Hub 5 powers on, flashing green means the router is booting its internal Linux operating system, and flashing orange indicates it is actively searching for the VDSL broadband carrier signal on the telephone cable."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:48]",
+      "end_time": "[04:51]",
+      "start_time_sec": 288,
+      "text": "So what does the green light mean again?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:58]",
+      "end_time": "[05:02]",
+      "start_time_sec": 298,
+      "text": "Flashing green means the internal computer is booting up, Penelope."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:09]",
+      "end_time": "[05:12]",
+      "start_time_sec": 309,
+      "text": "And what did the orange light mean?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:19]",
+      "end_time": "[05:24]",
+      "start_time_sec": 319,
+      "text": "Flashing orange means the router is searching for the broadband line signal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:31]",
+      "end_time": "[05:41]",
+      "start_time_sec": 331,
+      "text": "Wait Yasmin, I just looked at the box again. The light is flashing orange right now! Does that mean the computer is booting up?",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:48]",
+      "end_time": "[05:55]",
+      "start_time_sec": 348,
+      "text": "No Penelope, as I explained, green is booting and orange is searching for the broadband signal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:02]",
+      "end_time": "[06:09]",
+      "start_time_sec": 362,
+      "text": "Oh, okay. But now it turned green again! Does green mean it is searching for the line?",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:16]",
+      "end_time": "[06:22]",
+      "start_time_sec": 376,
+      "text": "No Penelope, green means booting up and orange means searching for the line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:29]",
+      "end_time": "[06:36]",
+      "start_time_sec": 389,
+      "text": "I am so confused. Why can't it just stay green? What does the orange light mean again?",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:43]",
+      "end_time": "[06:56]",
+      "start_time_sec": 403,
+      "text": "Asking the same question five times in three minutes is just stupid Penelope, and if you would actually listen instead of panicking, you would understand what the lights mean!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:03]",
+      "end_time": "[07:16]",
+      "start_time_sec": 423,
+      "text": "Did you just call me stupid?! How dare you call an elderly customer stupid when I told you I have anxiety with technology! You are an appalling, cruel young woman!",
+      "sentiment_score": -49.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:23]",
+      "end_time": "[07:30]",
+      "start_time_sec": 443,
+      "text": "I apologize for using that word, Penelope. It was inappropriate. Let's focus on the physical telephone cable."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:37]",
+      "end_time": "[07:40]",
+      "start_time_sec": 457,
+      "text": "I am shaking with anger at your disrespect!",
+      "sentiment_score": -34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:47]",
+      "end_time": "[07:53]",
+      "start_time_sec": 467,
+      "text": "Where is the small grey cable with purple plastic ends plugged in right now?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:00]",
+      "end_time": "[08:12]",
+      "start_time_sec": 480,
+      "text": "The grey cable is plugged into the broadband socket on the back of the router, and the other end is plugged into the wall socket in our hallway.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:19]",
+      "end_time": "[08:27]",
+      "start_time_sec": 499,
+      "text": "Does the wall socket have a single rectangular faceplate or does it have two separate sockets on the front?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:34]",
+      "end_time": "[08:41]",
+      "start_time_sec": 514,
+      "text": "It has two separate sockets, one on top for broadband and one on the bottom for telephone.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:48]",
+      "end_time": "[08:53]",
+      "start_time_sec": 528,
+      "text": "Is the grey cable plugged into the top socket marked Broadband?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:00]",
+      "end_time": "[09:13]",
+      "start_time_sec": 540,
+      "text": "No, I had it plugged into the bottom socket marked Phone! Let me move it to the top socket... wait, the light stopped flashing and turned completely solid green!",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:20]",
+      "end_time": "[09:27]",
+      "start_time_sec": 560,
+      "text": "A solid green light confirms that your VDSL broadband connection is successfully established with the exchange."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:34]",
+      "end_time": "[09:41]",
+      "start_time_sec": 574,
+      "text": "The internet is working! My tablet just connected to the Wi-Fi and my emails are downloading!",
+      "sentiment_score": 28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:48]",
+      "end_time": "[09:57]",
+      "start_time_sec": 588,
+      "text": "I am very glad to hear that moving the cable to the dedicated broadband socket immediately brought your service online."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:04]",
+      "end_time": "[10:09]",
+      "start_time_sec": 604,
+      "text": "It was just plugged into the wrong socket on the wall.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:16]",
+      "end_time": "[10:24]",
+      "start_time_sec": 616,
+      "text": "Are there any telephone extension leads or plug-in microfilter dongles connected between the master socket and your telephone?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:31]",
+      "end_time": "[10:44]",
+      "start_time_sec": 631,
+      "text": "No, the telephone plugs directly into the bottom socket and the grey broadband lead plugs into the top socket, so there are no dangling adapter boxes on the floor.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:51]",
+      "end_time": "[11:01]",
+      "start_time_sec": 651,
+      "text": "Directly plugging into a filtered NTE5c master socket ensures that internal extension bell-wire interference is completely isolated from the VDSL high-frequency carrier."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:07]",
+      "end_time": "[11:12]",
+      "start_time_sec": 667,
+      "text": "That explains why the signal is so crisp and clean now.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:18]",
+      "end_time": "[11:23]",
+      "start_time_sec": 678,
+      "text": "Can you remind me what router model and color you have?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:29]",
+      "end_time": "[11:39]",
+      "start_time_sec": 689,
+      "text": "As I told you at the very start of the call, it is an S-Net Hub 5 with yellow ports on the back.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:45]",
+      "end_time": "[11:52]",
+      "start_time_sec": 705,
+      "text": "Thank you, Penelope. I am documenting the Hub 5 model in your setup completion docket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:58]",
+      "end_time": "[12:01]",
+      "start_time_sec": 718,
+      "text": "Okay, at least you have that noted down.",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:07]",
+      "end_time": "[12:14]",
+      "start_time_sec": 727,
+      "text": "Does your desktop computer or smart television also require connection to the broadband network today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:20]",
+      "end_time": "[12:28]",
+      "start_time_sec": 740,
+      "text": "My smart television in the lounge connected automatically to the Wi-Fi network and BBC iPlayer is loading without buffering.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:34]",
+      "end_time": "[12:41]",
+      "start_time_sec": 754,
+      "text": "That confirms that both 2.4GHz and 5GHz wireless channels are broadcasting properly across your home."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:47]",
+      "end_time": "[12:52]",
+      "start_time_sec": 767,
+      "text": "It is such a relief to see the television guide working again.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:58]",
+      "end_time": "[13:10]",
+      "start_time_sec": 778,
+      "text": "To ensure you don't experience any Wi-Fi dropouts upstairs, I recommend keeping the Hub placed on a raised wooden table rather than down on the carpet floor."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:16]",
+      "end_time": "[13:24]",
+      "start_time_sec": 796,
+      "text": "I will move it onto the hallway telephone table so it gets plenty of airflow and doesn't gather dust.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:30]",
+      "end_time": "[13:33]",
+      "start_time_sec": 810,
+      "text": "The setup support ticket reference number is SUP-88190-N."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:39]",
+      "end_time": "[13:42]",
+      "start_time_sec": 819,
+      "text": "Noted down... SUP-88190-N.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:48]",
+      "end_time": "[13:57]",
+      "start_time_sec": 828,
+      "text": "I will also apply a ten-pound goodwill credit to your broadband account to compensate for the stress you experienced today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:03]",
+      "end_time": "[14:09]",
+      "start_time_sec": 843,
+      "text": "Thank you Yasmin, that is very kind of you despite our argument earlier.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:15]",
+      "end_time": "[14:21]",
+      "start_time_sec": 855,
+      "text": "How is your S-Net mobile phone network reception performing inside your Norwich home?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:27]",
+      "end_time": "[14:38]",
+      "start_time_sec": 867,
+      "text": "Our mobile phone service with S-Net has always had excellent 5G signal across Norwich, we get great reception in every room, so mobile service is lovely.",
+      "sentiment_score": 26.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:44]",
+      "end_time": "[14:50]",
+      "start_time_sec": 884,
+      "text": "We are pleased that your mobile cellular coverage maintains strong signal strength across Norfolk."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:56]",
+      "end_time": "[14:59]",
+      "start_time_sec": 896,
+      "text": "Yes, mobile reception has been totally trouble-free.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:05]",
+      "end_time": "[15:12]",
+      "start_time_sec": 905,
+      "text": "The solid green light on your Hub indicates that your broadband is fully synchronized at fifty-five megabits."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:18]",
+      "end_time": "[15:22]",
+      "start_time_sec": 918,
+      "text": "My tablet and smart television are both streaming perfectly now.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:28]",
+      "end_time": "[15:38]",
+      "start_time_sec": 928,
+      "text": "I have verified that your broadband is fully operational and the goodwill credit is applied. Does that answer all your questions today, Penelope?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:44]",
+      "end_time": "[15:49]",
+      "start_time_sec": 944,
+      "text": "Yes Yasmin, you solved the problem and got it working. Thank you.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:55]",
+      "end_time": "[16:00]",
+      "start_time_sec": 955,
+      "text": "Thank you for choosing S-Net today. Have a lovely afternoon. Goodbye Penelope."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:06]",
+      "end_time": "[16:10]",
+      "start_time_sec": 966,
+      "text": "Thank you Yasmin, goodbye.",
+      "sentiment_score": 12.0
+    }
+  ]
+}

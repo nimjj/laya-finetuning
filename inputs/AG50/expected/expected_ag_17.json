@@ -1,0 +1,160 @@
+{
+  "call_id": "ag_17",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 88.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "At [00:19], [02:18], and [03:29], although the customer stated her hands were shaking, her heart was racing, and she was terrified after a scam call, the agent jumped straight into procedural verification and technical checks without once offering an empathetic statement or acknowledging her fear."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Elderly customer anxious after a scammer phoned claiming to be S-Net technical support; wants account security checked and router password changed",
+    "tier": "good",
+    "duration_sec": 705,
+    "notes": "Near-miss Empathy FAIL ([00:19], [02:18], [03:29]): Svetlana is visibly shaken and frightened after a tech-support scammer phoned her landline, and while Agent Freya is extraordinarily patient, polite (R PASS), thorough in probing (PR PASS), paraphrases clearly ([00:42], PA PASS), manages a 50s hold ([03:29]-[04:43], H PASS), and resolves every security request (RE PASS), she never once acknowledges Svetlana's fear or offers an empathetic statement.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Hold time and Dead Air",
+      "Paraphrasing",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'Good morning, thank you for calling S-Net security and technical support.' / [11:38] Agent: 'Thank you for choosing S-Net, and enjoy the rest of your day.'"
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:29] Agent announces hold ('Please bear with me for a moment while I inspect your My S-Net portal login history...') and returns after 50s at [04:43] ('Thank you for holding, Svetlana.')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:19] Agent: 'Could you please confirm your full postal address and your four-digit account security PIN?'"
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:19] Agent: 'Thank you for letting me know, Svetlana.'"
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:05] Customer: 'My hands are literally shaking right now... I'm terrified he's gotten into my pension bank account!' -> [00:19] Agent: 'Thank you for letting me know, Svetlana. Let's get your account verified right away so I can inspect your security logs.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:42] Agent: 'To summarize what has happened, an unknown caller claiming to represent S-Net rang you about alleged router compromise, and you want us to verify your account is untouched and lock down all of your passwords today.'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:18] Agent: 'Right, I have noted the 0161 496 0821 caller ID at 10:15 AM and the fact that no 'anydesk' link was opened on your iPad and no bank or PIN digits were shared.'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[05:46] Agent: 'Absolutely, Svetlana, I will handle both of those updates with you on this call, and I will also add an extra verbal security password to your telephone account and report 0161 496 0821 to our fraud nuisance database.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[07:26] Agent: 'Take all the time you need, Svetlana. Once both boxes match, tap the green 'Save Changes' button underneath.' / [09:38] Agent: 'Take your time typing those characters, Svetlana, there is no rush at all.'"
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:08] Agent: 'Did you read out your S-Net PIN, your bank card numbers, or any one-time passcodes to that caller?' / [01:34] Agent: 'And just to be thorough, did you type that 'anydesk' address into Safari at all...?'"
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[11:13] Agent confirms all security updates and [11:30] Customer confirms: 'Yes, everything is completely sorted and working, and I know my account and my iPad are safe.'"
+      }
+    ]
+  }
+}

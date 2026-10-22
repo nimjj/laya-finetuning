@@ -1,0 +1,201 @@
+{
+  "call_id": "agb_45",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 33.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "Agent left two unmanaged silences exceeding 30 seconds (42s at [02:30] and 45s at [09:15]) without hold announcements or thanks."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Agent failed to ask for a PIN, address, or security question within the first 4 minutes of the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to provide an empathy or acknowledgment statement after customer's acute distress regarding verbal abuse and threats from neighbour."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent offered zero restatement of customer's misdelivered router and parcel confusion, moving strictly to courier manifest lookups."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked the customer to repeat the DPD parcel consignment tracking number despite customer having clearly stated it in turn 3."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Agent rudely told the customer that if she cannot get along with neighbours, she should not sign for parcels."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent abruptly ended the call while customer was in mid-sentence asking about courier collection times and chemist appointments."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Courier misdelivered neighbour's replacement router; collection arranged and correct equipment dispatched; agent leaves two silences > 30s, fails verification (no PIN/address/security question in 240s), ignores abuse distress from hostile neighbour, offers zero paraphrasing, asks repeat question about consignment tracking number, makes rude remark about signing for parcels, and hangs up mid-sentence",
+    "tier": "fair",
+    "duration_sec": 1170,
+    "notes": "The agent arranged a courier doorstep collection of a neighbour's misdelivered router and scheduled priority courier dispatch for Teresa's own replacement broadband Hub. However, the agent failed Hold Time and Dead Air by leaving two unmanaged silences > 30s (42s at [02:30] and 45s at [09:15]), failed Verified Customer by never requesting PIN, address, or security question in the first 240 seconds, failed Empathy & Acknowledgment Statement by disregarding Teresa's acute distress over an aggressive neighbour screaming and threatening violence, failed Paraphrasing by offering zero restatement of the parcel misdelivery, failed Active Listening at minute 11 by asking for the consignment tracking number after Teresa explicitly gave it in turn 3, failed Build Rapport and Observed Professionalism at minute 8 by rudely blaming her ('If you cannot get along with your neighbours, you shouldn't be signing for their parcels in the first place'), and failed Confirmed Resolved by abruptly terminating the call while Teresa was asking for courier arrival timeframes.",
+    "hard_cases": [
+      "Paraphrasing",
+      "Active listening",
+      "Probing",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent left an unmanaged silence of 42 seconds at [02:30] while checking courier reconciliation manifests, and a second unmanaged silence of 45 seconds at [09:15] while generating collection docket COL-448291."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent requested customer account number and router model in first 240 seconds, omitting PIN, billing address, and security question."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:35] Customer explained an aggressive neighbour screamed abuse, kicked her porch, and threatened violence, triggering an angina heart episode. Agent responded with cold data about GPS delivery coordinates."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent gave no restatement of customer's delivery mixup, proceeding straight to courier database queries."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[09:40] Agent asked 'What was the DPD parcel consignment tracking number for the box delivered yesterday, Teresa?' after customer gave tracking number DPD-9948201 in turn 3."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[11:50] Agent explicitly stated: 'I will take direct personal ownership of this logistics ticket, Teresa, monitor both consignments, and personally follow up until your connection is restored.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[07:20] Agent: 'If you cannot get along with your neighbours, you shouldn't be signing for their parcels in the first place, Teresa.' - Unprofessional and blame-shifting remark."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[04:20] Agent probed thoroughly on barcode serial numbers printed on the box sticker and checked courier SMS delivery notifications."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[19:20] Agent cut customer off mid-sentence while she asked about chemist timings, terminating the call abruptly."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 3,
+          "agent_turn": 58
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 3,
+          "agent_turn": 26,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 20
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 34
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 5
+        }
+      ]
+    }
+  }
+}

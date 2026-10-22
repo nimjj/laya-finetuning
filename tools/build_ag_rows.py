@@ -1,8 +1,8 @@
 """Turn Antigravity-written calls plus their markers into training rows, cut by the production extractors (flow v2, with the
 Active-listening second source), so the model sees exactly what it sees in production.
 
-    python laya-finetuning/tools/build_ag_rows.py --calls inputs/AG-T --out-prefix laya-finetuning/data/rows/agt
-    python laya-finetuning/tools/build_ag_rows.py --calls inputs/AG-T --ids agt_001,agt_002 --out-prefix <scratch>/test   # a trial
+    python laya-finetuning/tools/build_ag_rows.py --calls laya-finetuning/inputs/AG-T --out-prefix laya-finetuning/data/rows/agt
+    python laya-finetuning/tools/build_ag_rows.py --calls laya-finetuning/inputs/AG-T --ids agt_001,agt_002 --out-prefix <scratch>/test   # a trial
 
 Writes <prefix>_train.jsonl, <prefix>_dev.jsonl (split BY CALL, about 1 in 5 calls to dev) and <prefix>_dropped.json, and prints a report.
 
@@ -239,7 +239,7 @@ def main():
     ap.add_argument("--calls", required=True, help="folder with agt_NNN.json and expected/expected_agt_NNN.json")
     ap.add_argument("--out-prefix", required=True)
     ap.add_argument("--ids", default="", help="comma-separated call ids (default: every call in the folder)")
-    ap.add_argument("--checkpoint", default="laya-finetuning/checkpoints/final-softce-3", help="tokenizer fallback")
+    ap.add_argument("--checkpoint", default="models/final-softce-3", help="tokenizer fallback")
     ap.add_argument("--max-pass-ratio", type=float, default=2.0, help="train split only: at most this many PASS rows per FAIL row for each check (0 = no cap)")
     args = ap.parse_args()
     calls_dir = os.path.abspath(os.path.join(paths.QA_ROOT, args.calls)) if not os.path.isabs(args.calls) else args.calls

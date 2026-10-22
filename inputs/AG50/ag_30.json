@@ -1,0 +1,654 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Caoimhe",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Good afternoon, thank you for calling S-Net customer services, Nadia speaking. How can I help you?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:07]",
+      "end_time": "[00:21]",
+      "start_time_sec": 7,
+      "text": "Hello Nadia, my name is Caoimhe. I am in absolute tears right now because our engineer finished our Full Fibre 300 upgrade yesterday, and our family landline number of thirty years has been disconnected!",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:23]",
+      "end_time": "[00:31]",
+      "start_time_sec": 23,
+      "text": "Okay, Caoimhe, give me your S-Net account number and your postcode so I can bring up your profile on the system.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:33]",
+      "end_time": "[00:43]",
+      "start_time_sec": 33,
+      "text": "My account number is 5519084 and my postcode is CB2 1TN. Please tell me you can get our landline number 01223 558910 back immediately!",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:45]",
+      "end_time": "[00:54]",
+      "start_time_sec": 45,
+      "text": "I have account 5519084 open on my screen now, Caoimhe. Tell me what happened when the Full Fibre 300 installation finished yesterday.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:56]",
+      "end_time": "[01:08]",
+      "start_time_sec": 56,
+      "text": "When I booked the upgrade from copper broadband to Full Fibre 300 Digital Voice two weeks ago, I specifically ticked the box to retain our existing landline number 01223 558910.",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:10]",
+      "end_time": "[01:14]",
+      "start_time_sec": 70,
+      "text": "Right, I see the Digital Voice activation completed yesterday afternoon.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:15]",
+      "end_time": "[01:37]",
+      "start_time_sec": 75,
+      "text": "Yes, and when I plugged our home phone into the green phone port on the back of the new router this morning and dialled out, it came up with a completely random new number, and when I ring 01223 558910 from my mobile it says 'The number you have dialled has not been recognised'!",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:39]",
+      "end_time": "[01:57]",
+      "start_time_sec": 99,
+      "text": "So let me just recap what you're saying, Caoimhe: when your copper line was upgraded to Full Fibre 300 Digital Voice yesterday, your existing landline number 01223 558910 was ceased and replaced with a new number even though you ticked number retention on the order.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:59]",
+      "end_time": "[02:13]",
+      "start_time_sec": 119,
+      "text": "Yes! That landline number 01223 558910 belonged to my late mum and dad for thirty years in this house, and it's the only number my dad's old friends and the hospital clinic have for our family.",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:15]",
+      "end_time": "[02:25]",
+      "start_time_sec": 135,
+      "text": "Let me look at the voice order history on account 5519084. Please bear with me for a moment while I open the provisioning breakdown.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:35]",
+      "end_time": "[03:42]",
+      "start_time_sec": 215,
+      "text": "Thank you for holding, Caoimhe. I have looked at the completed Full Fibre 300 work order from yesterday.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:44]",
+      "end_time": "[03:53]",
+      "start_time_sec": 224,
+      "text": "Thank goodness you're back, Nadia. What happened to 01223 558910? Can you switch it back onto our Digital Voice port right now?",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:56]",
+      "end_time": "[04:09]",
+      "start_time_sec": 236,
+      "text": "On the work order summary, the copper WLR3 line carrying 01223 558910 was processed as a simultaneous cease when the optical network terminal went live, and the system allocated 01223 894112 instead.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:12]",
+      "end_time": "[04:22]",
+      "start_time_sec": 252,
+      "text": "Why on earth did it process a cease on 01223 558910 when my order confirmation email clearly says 'Keep existing phone number: Yes (01223 558910)'?!",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:25]",
+      "end_time": "[04:33]",
+      "start_time_sec": 265,
+      "text": "The provisioning system generated a new number allocation on the fibre voice profile and closed the old copper circuit automatically.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:36]",
+      "end_time": "[04:48]",
+      "start_time_sec": 276,
+      "text": "Well reverse it! My late parents had 01223 558910 since 1996, my aunt in Ireland doesn't use mobile phones or email and only knows that landline number to reach me!",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:51]",
+      "end_time": "[04:58]",
+      "start_time_sec": 291,
+      "text": "It's just a phone number at the end of the day, Caoimhe, people change numbers all the time.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:00]",
+      "end_time": "[05:14]",
+      "start_time_sec": 300,
+      "text": "How dare you say 'it's just a phone number'?! I just told you it was my late parents' number for thirty years and my elderly aunt and the oncology clinic use it to reach me!",
+      "sentiment_score": -48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:17]",
+      "end_time": "[05:27]",
+      "start_time_sec": 317,
+      "text": "I am simply pointing out that the Digital Voice line on your router is working and making calls on the new number 01223 894112.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:30]",
+      "end_time": "[05:44]",
+      "start_time_sec": 330,
+      "text": "I don't want 01223 894112! Under Ofcom rules, when a telecom company ceases a landline number in error during a fibre migration, that number goes into a quarantine pool so it can be reclaimed!",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:47]",
+      "end_time": "[05:55]",
+      "start_time_sec": 347,
+      "text": "Let me place you on a brief hold while I check the internal departmental directory for ceased landline numbers.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:22]",
+      "end_time": "[07:28]",
+      "start_time_sec": 442,
+      "text": "Thank you for waiting, Caoimhe. I have checked our departmental routing guidelines for ceased numbers.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:30]",
+      "end_time": "[07:38]",
+      "start_time_sec": 450,
+      "text": "Okay, and have you submitted the number reactivation request to pull 01223 558910 out of quarantine onto our Digital Voice line?",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:41]",
+      "end_time": "[07:50]",
+      "start_time_sec": 461,
+      "text": "The number porting desk deals with quarantined numbers, I don't handle voice numbering—you'll have to call back tomorrow and ask for numbering.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:53]",
+      "end_time": "[08:01]",
+      "start_time_sec": 473,
+      "text": "Wait, what?! Why can't you transfer me to the number porting desk right now or raise the number recovery form yourself?",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:04]",
+      "end_time": "[08:14]",
+      "start_time_sec": 484,
+      "text": "My queue is general broadband and billing enquiries, Caoimhe, and I don't have access to the Openreach number range reclamation portal from my desktop.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:17]",
+      "end_time": "[08:24]",
+      "start_time_sec": 497,
+      "text": "Then warm-transfer me across to the numbering or porting desk! It's quarter to three on a weekday afternoon!",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:26]",
+      "end_time": "[08:38]",
+      "start_time_sec": 506,
+      "text": "The internal transfer button for the numbering desk is closed to front-line agents this afternoon, so the only way is for you to dial back in tomorrow morning at nine o'clock.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:41]",
+      "end_time": "[08:53]",
+      "start_time_sec": 521,
+      "text": "Every hour that 01223 558910 stays ceased, callers hear 'number not recognised' and think we've moved away or died! And what if the number gets returned to another provider's range?",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:56]",
+      "end_time": "[09:06]",
+      "start_time_sec": 536,
+      "text": "I wouldn't know which range holder owns the 01223 558 block or when the quarantine timer expires, because that is all handled by the numbering specialists.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:09]",
+      "end_time": "[09:20]",
+      "start_time_sec": 549,
+      "text": "Didn't you even check what time the cease order completed yesterday or whether 01223 558910 is an S-Net native range number or an Openreach donor range number?",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:23]",
+      "end_time": "[09:34]",
+      "start_time_sec": 563,
+      "text": "Those technical numbering fields are not something I look into on my screen, Caoimhe. All I can see is that your active number is now 01223 894112.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:37]",
+      "end_time": "[09:47]",
+      "start_time_sec": 577,
+      "text": "If you just opened the voice circuit details on account 5519084, you could see the donor range ID and log a P1 urgent number retrieval ticket!",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:50]",
+      "end_time": "[10:02]",
+      "start_time_sec": 590,
+      "text": "As I said, I don't handle voice numbering tickets from this desk. When you call back tomorrow morning at nine o'clock, select option four on the main menu for Home Phone.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:05]",
+      "end_time": "[10:12]",
+      "start_time_sec": 605,
+      "text": "Option four is the exact menu option I pressed to get through to you twenty minutes ago, Nadia!",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:14]",
+      "end_time": "[10:22]",
+      "start_time_sec": 614,
+      "text": "When option four overflows during busy afternoons, calls route to the general customer service pool where I sit, Caoimhe.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:25]",
+      "end_time": "[10:37]",
+      "start_time_sec": 625,
+      "text": "So if I call back tomorrow morning and press option four, I could just end up in the general pool again with someone else who refuses to touch voice numbering!",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:40]",
+      "end_time": "[10:52]",
+      "start_time_sec": 640,
+      "text": "If you call right at nine o'clock in the morning, the queue load is lower so you have a better chance of reaching a specialist who has the numbering tool.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:55]",
+      "end_time": "[11:06]",
+      "start_time_sec": 655,
+      "text": "A 'better chance'?! This is a thirty-year family landline number that S-Net wiped out by mistake despite my written order confirmation stating 'Keep existing phone number: Yes'!",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:09]",
+      "end_time": "[11:21]",
+      "start_time_sec": 669,
+      "text": "I have seen your order confirmation line on account 5519084, Caoimhe, and I can see the retention box was ticked when the order was keyed in two weeks ago.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:24]",
+      "end_time": "[11:36]",
+      "start_time_sec": 684,
+      "text": "Right! So you admit S-Net made the mistake on account 5519084, yet you won't even email the numbering desk or ask a manager to raise an urgent retrieval today?",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:39]",
+      "end_time": "[11:49]",
+      "start_time_sec": 699,
+      "text": "We don't send emails to the numbering desk from front-line support, Caoimhe. The customer has to speak directly to an agent with numbering permissions.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:52]",
+      "end_time": "[12:04]",
+      "start_time_sec": 712,
+      "text": "Can you at least put a temporary call divert on 01223 558910 in the exchange so anyone ringing it gets forwarded to my mobile or to 01223 894112 overnight?",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:07]",
+      "end_time": "[12:16]",
+      "start_time_sec": 727,
+      "text": "A ceased number is inactive on the exchange switch, so remote call forwarding cannot be applied to 01223 558910 while it is disconnected.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:19]",
+      "end_time": "[12:27]",
+      "start_time_sec": 739,
+      "text": "And you're completely fine leaving our family line dead overnight when my aunt in Ireland always rings on weekday evenings?",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:30]",
+      "end_time": "[12:41]",
+      "start_time_sec": 750,
+      "text": "Your aunt can ring your mobile number or the new landline number 01223 894112 if you give her a quick call outward from your home phone tonight.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:44]",
+      "end_time": "[12:54]",
+      "start_time_sec": 764,
+      "text": "My eighty-four-year-old aunt is partially deaf and doesn't answer calls from unfamiliar numbers because of scam callers—she only recognizes 01223 558910 on her caller display!",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:57]",
+      "end_time": "[13:07]",
+      "start_time_sec": 777,
+      "text": "Well, until the numbering team reclaims 01223 558910 and rebuilds it onto your Digital Voice profile, outgoing calls from your router will display 01223 894112.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:10]",
+      "end_time": "[13:22]",
+      "start_time_sec": 790,
+      "text": "I honestly cannot believe how cold and unhelpful you have been, Nadia. Telling a grieving daughter 'it's just a phone number' after S-Net destroyed a thirty-year line is shameful.",
+      "sentiment_score": -47.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:25]",
+      "end_time": "[13:38]",
+      "start_time_sec": 805,
+      "text": "I have placed a note on account 5519084 recording that 01223 558910 was ceased during yesterday's Full Fibre 300 install and that you will be calling back tomorrow for the numbering desk.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:41]",
+      "end_time": "[13:51]",
+      "start_time_sec": 821,
+      "text": "Put on that note that I want an official complaint logged for the accidental loss of 01223 558910 and for your dismissive attitude on this call.",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:54]",
+      "end_time": "[14:07]",
+      "start_time_sec": 834,
+      "text": "I can only log a general contact note on the account history tab, Caoimhe. You can ask the numbering agent tomorrow to open a formal migration complaint once they check the line.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:10]",
+      "end_time": "[14:18]",
+      "start_time_sec": 850,
+      "text": "You won't even log a formal complaint reference for me today?! Is there anything you actually do on that computer, Nadia?",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:21]",
+      "end_time": "[14:29]",
+      "start_time_sec": 861,
+      "text": "Migration complaints have to be attached to the numbering reclamation case ID so the two teams don't work on separate tickets.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:32]",
+      "end_time": "[14:43]",
+      "start_time_sec": 872,
+      "text": "So after seventeen minutes on the phone, including two long holds, I have no complaint reference, no numbering ticket, and our landline 01223 558910 is still completely dead.",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:46]",
+      "end_time": "[14:56]",
+      "start_time_sec": 886,
+      "text": "The contact note is saved on account 5519084 under postcode CB2 1TN so the agent tomorrow morning won't need you to explain the background from scratch.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:59]",
+      "end_time": "[15:08]",
+      "start_time_sec": 899,
+      "text": "What is the reference ID on that contact note so I can prove I called in today within twenty-four hours of the cease?",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:11]",
+      "end_time": "[15:17]",
+      "start_time_sec": 911,
+      "text": "The contact note ID on account 5519084 is MEM-612048, dated the eighteenth of October.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:19]",
+      "end_time": "[15:30]",
+      "start_time_sec": 919,
+      "text": "MEM-612048. I've written that down, and I'll be calling back at 9:00 AM sharp tomorrow to report both the lost number and how you handled this call.",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:33]",
+      "end_time": "[15:40]",
+      "start_time_sec": 933,
+      "text": "Is there anything else regarding your Full Fibre 300 internet connection itself that you need checked today, Caoimhe?",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:42]",
+      "end_time": "[15:51]",
+      "start_time_sec": 942,
+      "text": "No! The internet is irrelevant when you've cut off our family phone line of thirty years and refused to lift a finger.",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:54]",
+      "end_time": "[15:59]",
+      "start_time_sec": 954,
+      "text": "Okay, Caoimhe, the note MEM-612048 is saved on your profile for tomorrow morning.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:01]",
+      "end_time": "[16:04]",
+      "start_time_sec": 961,
+      "text": "I have nothing else to say to you.",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:06]",
+      "end_time": "[16:14]",
+      "start_time_sec": 966,
+      "text": "Right, call back on 0800 099 1500 at nine o'clock tomorrow morning and ask straight away for the voice numbering desk.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:17]",
+      "end_time": "[16:19]",
+      "start_time_sec": 977,
+      "text": "I already know the number.",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:21]",
+      "end_time": "[16:28]",
+      "start_time_sec": 981,
+      "text": "All the details of 01223 558910 and 01223 894112 are written in the memo box on account 5519084.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:30]",
+      "end_time": "[16:32]",
+      "start_time_sec": 990,
+      "text": "Fine.",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:34]",
+      "end_time": "[16:36]",
+      "start_time_sec": 994,
+      "text": "Have a good afternoon, Caoimhe. Goodbye.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:38]",
+      "end_time": "[16:40]",
+      "start_time_sec": 998,
+      "text": "Goodbye.",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:42]",
+      "end_time": "[16:44]",
+      "start_time_sec": 1002,
+      "text": "Goodbye from S-Net support.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:46]",
+      "end_time": "[16:48]",
+      "start_time_sec": 1006,
+      "text": "Disgraceful service.",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:50]",
+      "end_time": "[16:53]",
+      "start_time_sec": 1010,
+      "text": "The call is now ending, goodbye Caoimhe.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:55]",
+      "end_time": "[16:57]",
+      "start_time_sec": 1015,
+      "text": "Bye.",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:59]",
+      "end_time": "[17:01]",
+      "start_time_sec": 1019,
+      "text": "Good afternoon.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:03]",
+      "end_time": "[17:05]",
+      "start_time_sec": 1023,
+      "text": "Leaving the line now.",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:07]",
+      "end_time": "[17:09]",
+      "start_time_sec": 1027,
+      "text": "Session closed on account 5519084.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:11]",
+      "end_time": "[17:13]",
+      "start_time_sec": 1031,
+      "text": "Bye now.",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:15]",
+      "end_time": "[17:17]",
+      "start_time_sec": 1035,
+      "text": "Goodbye.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:19]",
+      "end_time": "[17:21]",
+      "start_time_sec": 1039,
+      "text": "Click.",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:23]",
+      "end_time": "[17:25]",
+      "start_time_sec": 1043,
+      "text": "Line disconnected, closing session.",
+      "sentiment_score": 0.0
+    }
+  ]
+}

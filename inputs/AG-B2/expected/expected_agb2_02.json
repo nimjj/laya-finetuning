@@ -1,0 +1,192 @@
+{
+  "call_id": "agb2_02",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 100.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash High)",
+    "graded_on": "2026-10-21",
+    "scenario": "Home move broadband transfer to new property; Openreach optical ONT installation booking, 4G backup mini-hub provision, and Hub 5 dispatch",
+    "tier": "excellent",
+    "duration_sec": 1072,
+    "notes": "Flawless 16-minute home move booking call. Nathan promptly reassures Eleanor regarding her court hearing connectivity concerns with an S-Net Home Move Guarantee and emergency 4G backup hub. Successfully books an Openreach morning engineer slot during a managed 70s hold, sets up a 48-hour overlap on the old line, upgrades her to a Hub 5, and confirms all reference numbers.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Hold time and Dead Air",
+      "Paraphrasing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opened at [00:00] with 'Thank you for calling S-Net customer services' and closed at [17:32] with 'Thank you for choosing S-Net as your home broadband provider'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "A single 70s hold between [05:30] and [06:50] to check the Openreach exchange calendar was properly announced with 'Bear with me for about a minute' and returned with 'Thank you for waiting, Eleanor'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent requested current address and security PIN at [00:29], well within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent used the customer's name Eleanor warmly and naturally throughout the call (turns 2, 4, 6, 14, 21, 43, 65, 71)."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Customer experienced high anxiety at turn 13 ([03:25]) about potential work court hearing disruptions. Agent immediately empathized at turn 14 ([03:50]): 'Moving house while managing intense court schedules is tremendously stressful, and I completely understand why any broadband delay would cause severe anxiety.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turn 6 ([01:30]), agent restated the request: 'So what you need is to transfer your Fibre 500 broadband service from 14 Oakfield Road over to your new address at 29 St Andrews Court on your move-in date, with zero interruption to your remote legal work. Have I got that right, Eleanor?'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent did not repeat any answered questions. At turn 43 ([12:14]), confirming existing equipment before finalizing the order was a harmless verification step."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent completely owned the transfer, coordinated Openreach booking, provisioned the 4G backup device, and arranged the overlap without deflecting."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Polite and professional throughout. Turn 23 used 'As I mentioned, Openreach engineer appointment slots require adult presence' in a polite, helpful manner."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Probed for ONT box presence at the new property (turn 10), desired live date (turn 8), preferred master socket location (turn 25), and existing equipment (turn 43)."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turns 65-66 ([16:38]-[16:49]), agent asked if everything was covered, and Eleanor confirmed: 'Yes, everything is completely sorted and clearly booked. I have all the references and dates.'"
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 32,
+          "agent_turn": 43
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 6
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 23
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 13,
+          "agent_turn": 14,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

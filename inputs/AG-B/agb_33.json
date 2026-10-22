@@ -1,0 +1,569 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Gareth",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer technical support. My name is Megan. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:33]",
+      "start_time_sec": 10,
+      "text": "Hello Megan. I'm calling about our S-Net 4K TV Box. Whenever we try to launch the BBC iPlayer or Netflix apps from the main menu, the screen freezes on a black screen with a spinning white circle and completely crashes the box. I already power-cycled the TV box twice from the wall switch this morning, but it still crashes every time.",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:36]",
+      "end_time": "[00:49]",
+      "start_time_sec": 36,
+      "text": "I can certainly help you troubleshoot those application crashes, Gareth. Can you please confirm the equipment serial number printed on the white label under your TV box?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:52]",
+      "end_time": "[00:57]",
+      "start_time_sec": 52,
+      "text": "Yes, the serial number is TV-991-4402.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:00]",
+      "end_time": "[01:08]",
+      "start_time_sec": 60,
+      "text": "Thank you Gareth. And what television set brand is the box connected to via HDMI?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:11]",
+      "end_time": "[01:35]",
+      "start_time_sec": 71,
+      "text": "It is connected to a 55-inch LG OLED TV. My wife is bedridden recovering from major knee replacement surgery this week, and watching her period dramas on BBC iPlayer is literally her only entertainment and distraction from severe surgical pain! Having the TV box crash every time she tries to watch television is causing her massive frustration!",
+      "sentiment_score": -52.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:38]",
+      "end_time": "[01:58]",
+      "start_time_sec": 98,
+      "text": "I completely understand how important that television entertainment is for your wife's recovery after knee surgery, Gareth. Having the streaming applications freeze when she needs distraction from post-operative pain is extremely frustrating, so let us troubleshoot the application runtime data and get her shows playing smoothly right away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:01]",
+      "end_time": "[02:06]",
+      "start_time_sec": 121,
+      "text": "Thank you so much Megan, that means a lot to us.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:09]",
+      "end_time": "[02:30]",
+      "start_time_sec": 129,
+      "text": "So if I have understood correctly, your S-Net 4K TV box freezes on a black screen and crashes whenever launching BBC iPlayer or Netflix despite multiple power-cycles, and you need the streaming software restored so your wife can comfortably watch her programmes. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:33]",
+      "end_time": "[02:38]",
+      "start_time_sec": 153,
+      "text": "Yes, that is exactly what we need to get sorted today.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:41]",
+      "end_time": "[02:55]",
+      "start_time_sec": 161,
+      "text": "Third-party streaming applications like BBC iPlayer and Netflix are written by outside corporations; S-Net has no responsibility for software bugs or crashes in third-party code."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:58]",
+      "end_time": "[03:08]",
+      "start_time_sec": 178,
+      "text": "Wait, the apps come pre-installed on the S-Net TV box that we pay ten pounds a month for! S-Net should make sure the box runs them properly!",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:11]",
+      "end_time": "[03:24]",
+      "start_time_sec": 191,
+      "text": "Our contract guarantees hardware transport of linear broadcast channels; external streaming apps are subject to their respective developer terms."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:27]",
+      "end_time": "[03:31]",
+      "start_time_sec": 207,
+      "text": "Can we still fix the freezing issue?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:34]",
+      "end_time": "[03:47]",
+      "start_time_sec": 214,
+      "text": "Yes, this crash typically occurs when an application's cached user session tokens become corrupted following an automatic app update."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:50]",
+      "end_time": "[03:54]",
+      "start_time_sec": 230,
+      "text": "How do we clear that corrupted cached data?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:57]",
+      "end_time": "[04:09]",
+      "start_time_sec": 237,
+      "text": "Take your S-Net TV remote control, press the Home button, and navigate to the Settings gear icon in the top right corner."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:12]",
+      "end_time": "[04:20]",
+      "start_time_sec": 252,
+      "text": "Pressing Home... navigating to Settings gear icon. I am in the main System Settings menu.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:23]",
+      "end_time": "[04:30]",
+      "start_time_sec": 263,
+      "text": "Scroll down to 'Applications and Storage', and press OK."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:33]",
+      "end_time": "[04:43]",
+      "start_time_sec": 273,
+      "text": "Applications and Storage... pressing OK. I see a list of installed apps: BBC iPlayer, Netflix, ITVX, Channel 4, and YouTube.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:46]",
+      "end_time": "[04:58]",
+      "start_time_sec": 286,
+      "text": "Highlight BBC iPlayer, press OK, select 'Force Stop', and then select 'Clear Cache and Data'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:01]",
+      "end_time": "[05:12]",
+      "start_time_sec": 301,
+      "text": "Highlighting BBC iPlayer... Force Stop... Clear Cache and Data. A prompt asked to confirm deleting temporary application files... pressing Yes.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:15]",
+      "end_time": "[05:28]",
+      "start_time_sec": 315,
+      "text": "The box has purged the stale flash storage cache. Now do the exact same procedure for Netflix: Force Stop, and Clear Cache."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:31]",
+      "end_time": "[05:40]",
+      "start_time_sec": 331,
+      "text": "Selecting Netflix... Force Stop... Clear Cache. Both applications have had their cached storage wiped clean.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:43]",
+      "end_time": "[05:56]",
+      "start_time_sec": 343,
+      "text": "Now press the Back button to return to Settings, scroll down to 'System Software Update', and select 'Check for Updates'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:59]",
+      "end_time": "[06:07]",
+      "start_time_sec": 359,
+      "text": "Checking for Updates... it says 'Application Runtime Update v4.18 available - 42 megabytes'.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:10]",
+      "end_time": "[06:23]",
+      "start_time_sec": 370,
+      "text": "Select 'Update Now'. This patch updates the underlying WebKit HTML5 container engine that hosts the streaming applications."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:26]",
+      "end_time": "[06:36]",
+      "start_time_sec": 386,
+      "text": "Clicking Update Now... download progress bar is moving... 60%... 100%. Screen says 'Update applied successfully, restart required'.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:39]",
+      "end_time": "[06:47]",
+      "start_time_sec": 399,
+      "text": "Select 'Restart Box Now'. The box will perform a clean software reload."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:50]",
+      "end_time": "[06:59]",
+      "start_time_sec": 410,
+      "text": "Restarting now... the S-Net logo has appeared on the LG TV screen... home screen has loaded cleanly.",
+      "sentiment_score": 32.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:02]",
+      "end_time": "[07:09]",
+      "start_time_sec": 422,
+      "text": "Now navigate to BBC iPlayer and launch the application."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:12]",
+      "end_time": "[07:23]",
+      "start_time_sec": 432,
+      "text": "Selecting BBC iPlayer... pressing OK. The BBC iPlayer logo loaded in three seconds and the main programme carousel appeared without freezing!",
+      "sentiment_score": 56.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:26]",
+      "end_time": "[07:34]",
+      "start_time_sec": 446,
+      "text": "Select one of your wife's drama series to confirm video playback throughput."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:37]",
+      "end_time": "[07:48]",
+      "start_time_sec": 457,
+      "text": "Selecting Call the Midwife... clicking Play. High definition video and crystal clear sound started instantly! No spinning circle at all!",
+      "sentiment_score": 62.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:51]",
+      "end_time": "[08:03]",
+      "start_time_sec": 471,
+      "text": "Obviously that confirms the WebKit rendering container was successfully re-initialized by clearing corrupt session cache, Gareth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:06]",
+      "end_time": "[08:11]",
+      "start_time_sec": 486,
+      "text": "Now let me press Home and test Netflix as well.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:14]",
+      "end_time": "[08:19]",
+      "start_time_sec": 494,
+      "text": "Go ahead, verify Netflix launch."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:22]",
+      "end_time": "[08:32]",
+      "start_time_sec": 502,
+      "text": "Launching Netflix... profile selection screen appeared instantly! Selected my profile and the top menu loaded flawlessly!",
+      "sentiment_score": 58.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:35]",
+      "end_time": "[08:41]",
+      "start_time_sec": 515,
+      "text": "Both streaming applications are fully restored."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:44]",
+      "end_time": "[08:48]",
+      "start_time_sec": 524,
+      "text": "My wife will be thrilled to bits.",
+      "sentiment_score": 38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:51]",
+      "end_time": "[09:00]",
+      "start_time_sec": 531,
+      "text": "Have you tried power-cycling the TV box from the mains wall switch to see if that helps?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:03]",
+      "end_time": "[09:16]",
+      "start_time_sec": 543,
+      "text": "Megan, as I told you in my very first sentence, I already power-cycled the box twice this morning before calling you! And besides, we just fixed the issue by updating the software!",
+      "sentiment_score": -32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:19]",
+      "end_time": "[09:29]",
+      "start_time_sec": 559,
+      "text": "I apologize, Gareth, that was a standard procedural script question on my troubleshooting flow."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:32]",
+      "end_time": "[09:38]",
+      "start_time_sec": 572,
+      "text": "Well, please listen to what customers say so you don't repeat unnecessary questions.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:41]",
+      "end_time": "[09:54]",
+      "start_time_sec": 581,
+      "text": "Understood. Let us check the HDMI CEC control setting on your TV box so your remote turns on both devices together."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:57]",
+      "end_time": "[10:01]",
+      "start_time_sec": 597,
+      "text": "Where is that HDMI setting?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:04]",
+      "end_time": "[10:14]",
+      "start_time_sec": 604,
+      "text": "Under Settings, Display and Audio, toggle 'One-Touch Play HDMI-CEC' to ON."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:17]",
+      "end_time": "[10:22]",
+      "start_time_sec": 617,
+      "text": "Toggling One-Touch Play to ON. Done.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:25]",
+      "end_time": "[10:35]",
+      "start_time_sec": 625,
+      "text": "That enables the S-Net remote to control the volume on your LG television directly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:38]",
+      "end_time": "[10:45]",
+      "start_time_sec": 638,
+      "text": "That is very handy for my wife from bed so she only needs one remote control.",
+      "sentiment_score": 26.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:48]",
+      "end_time": "[11:01]",
+      "start_time_sec": 648,
+      "text": "Let us also check the display resolution format under Display and Audio to verify it is matched to your 4K OLED screen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:04]",
+      "end_time": "[11:12]",
+      "start_time_sec": 664,
+      "text": "Display Resolution is currently set to 1080p Automatic. Should we switch it to 4K UHD 60Hz?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:15]",
+      "end_time": "[11:28]",
+      "start_time_sec": 675,
+      "text": "Select 4K UHD 60Hz with HDR10 enabled; your LG OLED will automatically decode high dynamic range colour spaces."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:31]",
+      "end_time": "[11:43]",
+      "start_time_sec": 691,
+      "text": "Selecting 4K 60Hz HDR10... the TV screen flickered once and the 'HDR' badge popped up in the corner! The picture is breathtakingly sharp!",
+      "sentiment_score": 42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:46]",
+      "end_time": "[11:55]",
+      "start_time_sec": 706,
+      "text": "The HDMI handshake has synchronized at eighteen gigabits per second bandwidth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:58]",
+      "end_time": "[12:04]",
+      "start_time_sec": 718,
+      "text": "What about the accessibility subtitle settings for my wife?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:07]",
+      "end_time": "[12:20]",
+      "start_time_sec": 727,
+      "text": "Under Accessibility, toggle 'Subtitles Always On' so dialogue text displays automatically across all streaming apps."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:23]",
+      "end_time": "[12:30]",
+      "start_time_sec": 743,
+      "text": "Toggling Subtitles to ON. That will make it so much easier for her while resting.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:33]",
+      "end_time": "[12:47]",
+      "start_time_sec": 753,
+      "text": "Let us also check the standby timer options so the TV box does not shut down automatically in the middle of long television films."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:50]",
+      "end_time": "[12:58]",
+      "start_time_sec": 770,
+      "text": "Under Power Management, Auto-Standby is currently set to four hours. Should we increase that?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:01]",
+      "end_time": "[13:13]",
+      "start_time_sec": 781,
+      "text": "Setting Auto-Standby to eight hours ensures her programmes will not cut out if she rests without pressing buttons."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:16]",
+      "end_time": "[13:22]",
+      "start_time_sec": 796,
+      "text": "Selected eight hours. That is much better for someone resting in bed.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:25]",
+      "end_time": "[13:37]",
+      "start_time_sec": 805,
+      "text": "Let us also check your internet connection speed test from the TV box's built-in network diagnostic menu."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:40]",
+      "end_time": "[13:49]",
+      "start_time_sec": 820,
+      "text": "Under Network Diagnostics, clicking Run Speed Test... it shows ninety-four megabits per second download over Ethernet.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:52]",
+      "end_time": "[14:04]",
+      "start_time_sec": 832,
+      "text": "Ninety-four megabits provides ample bandwidth for multiple concurrent 4K Ultra HD streams without buffering."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:07]",
+      "end_time": "[14:11]",
+      "start_time_sec": 847,
+      "text": "That is plenty fast enough for her programmes.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:14]",
+      "end_time": "[14:25]",
+      "start_time_sec": 854,
+      "text": "Check the Remote Control menu to ensure the Bluetooth remote battery is above fifty percent."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:28]",
+      "end_time": "[14:34]",
+      "start_time_sec": 868,
+      "text": "Remote battery level displays eighty-eight percent, so that is in great shape.",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:37]",
+      "end_time": "[14:51]",
+      "start_time_sec": 877,
+      "text": "If these applications crash again in future, do not call S-Net support as we do not provide software maintenance for third-party streaming apps."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:54]",
+      "end_time": "[15:03]",
+      "start_time_sec": 894,
+      "text": "Wait, who am I supposed to call if the apps on your box fail? BBC doesn't have a phone line for TV box app support!",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:06]",
+      "end_time": "[15:17]",
+      "start_time_sec": 906,
+      "text": "You can visit the BBC iPlayer online help website. S-Net's obligation is strictly hardware connectivity."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:20]",
+      "end_time": "[15:27]",
+      "start_time_sec": 920,
+      "text": "That feels like passing the buck, Megan. But at least you helped us clear the cache today.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:29]",
+      "end_time": "[15:36]",
+      "start_time_sec": 929,
+      "text": "Could you also check our broadband speed to make sure 4K streaming won't buffer when...",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:38]",
+      "end_time": "[15:46]",
+      "start_time_sec": 938,
+      "text": "Your speed is fine and the apps are working. Thank you for choosing S-Net. Have a good day. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:48]",
+      "end_time": "[15:54]",
+      "start_time_sec": 948,
+      "text": "Wait, Megan, don't hang up... hello? She hung up on me!",
+      "sentiment_score": -28.4
+    }
+  ]
+}

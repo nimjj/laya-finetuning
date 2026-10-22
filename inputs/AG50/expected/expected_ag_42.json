@@ -1,0 +1,162 @@
+{
+  "call_id": "ag_42",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 73.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "At [00:00], include the mandatory S-Net greeting phrase 'thank you for calling S-Net' within the first four agent turns."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "At [00:27] and [00:58], offer a sincere apology and acknowledge the customer's anxiety about his VPN dropping during a live quarterly bank compliance audit before jumping into account verification and ping diagnostics."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "At [15:36]-[15:52], the issue cannot be marked resolved because the locked-down corporate laptop still requires the employer's IT helpdesk to lower the local AnyConnect virtual adapter MTU tomorrow morning and the 15-minute drop remains unverified."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Corporate Cisco AnyConnect VPN dropping every 15 minutes over S-Net Fibre due to IPv6 dual-stack MTU packet fragmentation",
+    "tier": "okay",
+    "duration_sec": 1140,
+    "notes": "Yasmin performs strong technical probing ([01:56]-[06:53]), paraphrasing ([00:58]), active listening ([03:28], [16:42]), and a managed hold ([07:43]-[09:11]), but fails Branding at [00:00] (missing 'thank you for calling S-Net'), fails Empathy ([00:27]-[00:58]) by ignoring Siddharth's audit stress, and fails Resolution ([11:46]-[15:52]) because the locked-down corporate laptop still requires bank IT intervention tomorrow morning.",
+    "hard_cases": [
+      "Branding and Survey Check",
+      "Empathy & Acknowledgment Statement",
+      "Confirmed the issue is resolved",
+      "Hold time and Dead Air",
+      "Paraphrasing",
+      "Active listening"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:00] Yasmin opens with 'Good morning, welcome to S-Net technical support, Yasmin speaking, how can I help you today?' (missing 'thank you for calling S-Net'), though she includes 'Thank you for choosing S-Net' at [18:49]."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[07:43]-[09:11] Single 78-second managed hold properly announced with 'Please bear with me for a minute while...' and returned with 'Thank you for holding, Siddharth, and thank you for your patience'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:27]-[00:41] Yasmin verifies Siddharth's installation address and four-digit account PIN within the first minute."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:27] Yasmin addresses Siddharth by name consistently throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:08]-[00:58] Siddharth expresses panic (-31.0 sentiment) about his corporate VPN dropping every 15 minutes during a live quarterly compliance audit, but Yasmin never apologizes or acknowledges his stress, moving straight into verification and technical diagnostics."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:58] Yasmin clearly paraphrases the technical issue in her own words: general S-Net Fibre 500 stays online, but the corporate Cisco AnyConnect VPN tunnel drops every 15 minutes under heavy audit traffic."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:28], [13:42], [16:42] Yasmin accurately retains every detail Siddharth shares—Ethernet LAN port 2, locked-down Dell Latitude 5540 without admin rights, and 'IKEv2 Dead Peer Detection timeout - fragmented frame lost'—and incorporates them into the diagnosis and engineering ticket."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:34], [07:43]-[09:11], [16:25]-[17:35] Yasmin takes ownership of diagnosing the MAP-T MTU fragmentation, pushing a 1420 WAN MTU / 1380 TCP MSS clamp to the S-Net Hub, emailing technical specs (SN-VPN-90412) for the bank's IT team, and raising tier-3 escalation NET-33819."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:56]-[18:49] Yasmin remains calm, methodical, and professional throughout the troubleshooting session."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:56]-[02:57], [05:50]-[06:53], [10:20]-[11:11] Yasmin asks targeted diagnostic probing questions (Ethernet vs Wi-Fi, exact AnyConnect message history error, laptop admin rights, DF-bit ping tests at 1472/1452/1392 bytes, and `netsh` subinterface MTU check)."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[11:46]-[15:52] Although the router WAN MTU change stabilizes raw ping tests and TCP MSS, UDP/DTLS probes inside AnyConnect at 1420 bytes still drop ([11:46]) because the locked-down Dell laptop's virtual adapter is hardcoded to 1460 MTU and requires the bank's IT helpdesk to update the XML profile tomorrow morning ([13:07], [15:36]-[15:52])."
+      }
+    ]
+  }
+}

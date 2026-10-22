@@ -1,0 +1,433 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Wilma",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net mobile technical support, my name is Liam. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:10]",
+   "end_time": "[00:33]",
+   "start_time_sec": 10,
+   "text": "Hello Liam, my name is Wilma Price. On my iPhone 15, the S-Net Visual Voicemail tab has stopped synchronizing audio messages: whenever a caller leaves a voicemail, I get an SMS notification saying I have a new message, but the Visual Voicemail screen stays completely empty and says 'Visual Voicemail is currently unavailable'!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:36]",
+   "end_time": "[00:59]",
+   "start_time_sec": 36,
+   "text": "Good afternoon Wilma. If I understand correctly, your iPhone 15 Visual Voicemail interface has stopped downloading incoming audio messages, presenting an 'unavailable' error message while standard SMS alerts continue to arrive. Before we inspect your mobile subscriber voicemail profile and carrier telemetry, could you please confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:02]",
+   "end_time": "[01:08]",
+   "start_time_sec": 62,
+   "text": "Yes, it is 42 High Street, Shrewsbury, SY1 1ST, security PIN 5192, mobile number 07700 900512.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:11]",
+   "end_time": "[01:21]",
+   "start_time_sec": 71,
+   "text": "Thank you Wilma, that confirms your account details. Have you attempted dialing 1571 directly from your phone keypad to listen to the voicemails manually?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:24]",
+   "end_time": "[01:42]",
+   "start_time_sec": 84,
+   "text": "Yes, when I dial 1571 I can hear three unplayed messages over the phone line, but Visual Voicemail will not load them as audio files in iOS.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:45]",
+   "end_time": "[01:58]",
+   "start_time_sec": 105,
+   "text": "Could I place you on hold for two minutes while I query your carrier voicemail IMAP synchronization gateway and cellular data provisioning profile?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:23]",
+   "end_time": "[03:39]",
+   "start_time_sec": 203,
+   "text": "Thank you for holding, Wilma. Looking at the voicemail server telemetry, your line has an orphaned session token on the carrier Visual Voicemail IMAP sync daemon."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:42]",
+   "end_time": "[03:54]",
+   "start_time_sec": 222,
+   "text": "Why would an orphaned session token cause Visual Voicemail to show as unavailable?",
+   "sentiment_score": -10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:57]",
+   "end_time": "[04:11]",
+   "start_time_sec": 237,
+   "text": "When iOS installs a carrier bundle update, the local cryptographic authentication handshake occasionally falls out of sync with our voicemail IMAP cluster."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:14]",
+   "end_time": "[04:26]",
+   "start_time_sec": 254,
+   "text": "Can you clear the orphaned session token and reset the carrier handshake?",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:29]",
+   "end_time": "[04:42]",
+   "start_time_sec": 269,
+   "text": "Yes, we can perform a remote carrier voicemail profile reprovisioning and push a fresh secure sync token directly to your iPhone."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:45]",
+   "end_time": "[04:55]",
+   "start_time_sec": 285,
+   "text": "Will that erase my saved voice messages or greeting?",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:58]",
+   "end_time": "[05:11]",
+   "start_time_sec": 298,
+   "text": "Not at all: your recorded messages and personalized voicemail greeting remain completely intact on our central server."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:14]",
+   "end_time": "[05:17]",
+   "start_time_sec": 314,
+   "text": "That is a huge relief.",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:20]",
+   "end_time": "[05:29]",
+   "start_time_sec": 320,
+   "text": "I am sending the carrier bundle profile reprovisioning command now."
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:32]",
+   "end_time": "[05:44]",
+   "start_time_sec": 332,
+   "text": "Obviously Visual Voicemail relies on cellular packet data tunnels rather than standard voice signaling."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:47]",
+   "end_time": "[05:58]",
+   "start_time_sec": 347,
+   "text": "I understand cellular data is required for the visual interface.",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:01]",
+   "end_time": "[06:11]",
+   "start_time_sec": 361,
+   "text": "I am pushing the carrier token reset signal directly to your device."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:14]",
+   "end_time": "[06:24]",
+   "start_time_sec": 374,
+   "text": "My iPhone screen briefly flashed 'Carrier Settings Updated'.",
+   "sentiment_score": 24.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:27]",
+   "end_time": "[06:51]",
+   "start_time_sec": 387,
+   "text": "Wilma speaking, I am an executor for my late sister's estate and today is the absolute final deadline to file the probate estate documentation with the High Court probate registry! The estate solicitor left an urgent voicemail three hours ago regarding a disputed inheritance bequest, but because the audio file was trapped on my phone, I could not transcribe the exact case reference numbers! If this probate filing is missed, the High Court will freeze the family estate in litigation for years! I am sick with grief and terror!",
+   "sentiment_score": -84.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:54]",
+   "end_time": "[07:04]",
+   "start_time_sec": 414,
+   "text": "I am querying the carrier voicemail IMAP synchronization daemon right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:07]",
+   "end_time": "[07:19]",
+   "start_time_sec": 427,
+   "text": "Please do Liam, I am desperate to reach the solicitor before the registry closes.",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:22]",
+   "end_time": "[07:46]",
+   "start_time_sec": 442,
+   "text": "I completely understand the acute grief, terror, and intense pressure you are experiencing regarding your late sister's estate and the High Court probate deadline today, Wilma. While our carrier policy cannot dispatch a field technician to your home for mobile application issues, I will stay on the line with you right now and personally verify that every single audio message downloads onto your screen immediately."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:49]",
+   "end_time": "[08:02]",
+   "start_time_sec": 469,
+   "text": "Thank you Liam! Let us open the phone app and check the messages right now.",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:05]",
+   "end_time": "[08:19]",
+   "start_time_sec": 485,
+   "text": "Open the Phone app on your iPhone, tap the Voicemail tab in the bottom right corner, and pull down to refresh."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:22]",
+   "end_time": "[08:33]",
+   "start_time_sec": 502,
+   "text": "Opening Phone app... Tapping Voicemail tab... Pulling down to refresh... Liam! Three voicemail cards just popped onto the screen with caller names and exact timestamps! It loaded!",
+   "sentiment_score": 36.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:36]",
+   "end_time": "[08:42]",
+   "start_time_sec": 516,
+   "text": "Tap on the top message from your estate solicitor and press the Play button."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:45]",
+   "end_time": "[08:58]",
+   "start_time_sec": 525,
+   "text": "Tapping solicitor message... Pressing play... The audio is playing loud and clear through the phone speaker! The automated text transcription is scrolling underneath! I can see the exact probate reference number: PRB-4491-X!",
+   "sentiment_score": 39.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:01]",
+   "end_time": "[09:06]",
+   "start_time_sec": 541,
+   "text": "Fantastic! That confirms full Visual Voicemail audio downloading and real-time transcription completely restored."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:08]",
+   "end_time": "[09:11]",
+   "start_time_sec": 548,
+   "text": "You have completely saved my sister's estate today, Liam.",
+   "sentiment_score": 38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:13]",
+   "end_time": "[09:20]",
+   "start_time_sec": 553,
+   "text": "I have locked the carrier IMAP configuration in your subscriber profile to prevent any future sync drops."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:22]",
+   "end_time": "[09:26]",
+   "start_time_sec": 562,
+   "text": "That will keep it running smoothly for all future legal calls.",
+   "sentiment_score": 34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:28]",
+   "end_time": "[09:32]",
+   "start_time_sec": 568,
+   "text": "I have documented the carrier token refresh under ticket reference VVM-IOS-88192-S."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:34]",
+   "end_time": "[09:37]",
+   "start_time_sec": 574,
+   "text": "VVM-IOS-88192-S, noted down.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:39]",
+   "end_time": "[09:47]",
+   "start_time_sec": 579,
+   "text": "Please accept my deepest condolences on the loss of your sister, Wilma. Best of luck with the probate filing today."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:49]",
+   "end_time": "[09:54]",
+   "start_time_sec": 589,
+   "text": "Thank you Liam, your kindness and urgency have made all the difference.",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:56]",
+   "end_time": "[10:01]",
+   "start_time_sec": 596,
+   "text": "Our team is honored to support you during such an important time."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:03]",
+   "end_time": "[10:08]",
+   "start_time_sec": 603,
+   "text": "I can now email the solicitor and file the High Court paperwork immediately.",
+   "sentiment_score": 34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:10]",
+   "end_time": "[10:16]",
+   "start_time_sec": 610,
+   "text": "Just making sure our premises records match perfectly: that was 42 High Street, Shrewsbury, wasn't it?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:18]",
+   "end_time": "[10:21]",
+   "start_time_sec": 618,
+   "text": "Yes, 42 High Street, Shrewsbury.",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:23]",
+   "end_time": "[10:27]",
+   "start_time_sec": 623,
+   "text": "Thank you Wilma, all account and device parameters are fully synchronized."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:29]",
+   "end_time": "[10:33]",
+   "start_time_sec": 629,
+   "text": "Thank you again Liam for your brilliant, rapid, and reassuring support.",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:35]",
+   "end_time": "[10:40]",
+   "start_time_sec": 635,
+   "text": "It has been an absolute pleasure assisting you, Wilma. Have a peaceful afternoon."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:42]",
+   "end_time": "[10:45]",
+   "start_time_sec": 642,
+   "text": "Have a wonderful afternoon, Liam. Goodbye.",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:47]",
+   "end_time": "[10:52]",
+   "start_time_sec": 647,
+   "text": "Is there any other mobile issue I can assist you with today, Wilma?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:54]",
+   "end_time": "[10:57]",
+   "start_time_sec": 654,
+   "text": "No Liam, everything is working flawlessly.",
+   "sentiment_score": 30.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:59]",
+   "end_time": "[11:03]",
+   "start_time_sec": 659,
+   "text": "Thank you for calling S-Net mobile technical support, Wilma. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:05]",
+   "end_time": "[11:08]",
+   "start_time_sec": 665,
+   "text": "Goodbye Liam.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:10]",
+   "end_time": "[11:13]",
+   "start_time_sec": 670,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:15]",
+   "end_time": "[11:18]",
+   "start_time_sec": 675,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:20]",
+   "end_time": "[11:23]",
+   "start_time_sec": 680,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:25]",
+   "end_time": "[11:28]",
+   "start_time_sec": 685,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:30]",
+   "end_time": "[11:33]",
+   "start_time_sec": 690,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:35]",
+   "end_time": "[11:38]",
+   "start_time_sec": 695,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:40]",
+   "end_time": "[11:43]",
+   "start_time_sec": 700,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:45]",
+   "end_time": "[11:50]",
+   "start_time_sec": 705,
+   "text": "Goodbye.",
+   "sentiment_score": 12.0
+  }
+ ]
+}

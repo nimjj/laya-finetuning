@@ -1,0 +1,434 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Tariq",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:05]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net mobile roaming support, my name is Jason. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:07]",
+   "end_time": "[00:23]",
+   "start_time_sec": 7,
+   "text": "Hello, my name is Tariq Mansoor. I landed at Frankfurt Airport in Germany two hours ago for an urgent European trade exhibition, but my mobile data roaming is completely blocked and shows 'PDP authentication failure', leaving me stranded with no maps, no email, and no connection!",
+   "sentiment_score": -45.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:25]",
+   "end_time": "[00:30]",
+   "start_time_sec": 25,
+   "text": "I can query the European roaming subscriber registers. What is the mobile phone number and account number?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:32]",
+   "end_time": "[00:38]",
+   "start_time_sec": 32,
+   "text": "My mobile number is 07700 900381, account number SN-881920, registered to 14 Wellington Street, Slough, SL1 1YP, security PIN 5521.",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:40]",
+   "end_time": "[00:44]",
+   "start_time_sec": 40,
+   "text": "Let me open mobile subscriber record 07700 900381 on the international gateway."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:46]",
+   "end_time": "[00:49]",
+   "start_time_sec": 46,
+   "text": "Please check why mobile data is barred.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:51]",
+   "end_time": "[01:02]",
+   "start_time_sec": 51,
+   "text": "Could I place you on hold for two minutes while I query the Deutsche Telekom roaming partner HLR database?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[02:27]",
+   "end_time": "[02:36]",
+   "start_time_sec": 147,
+   "text": "Thank you for holding. The international roaming database indicates that an automated roaming cap bar was applied."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[02:38]",
+   "end_time": "[02:58]",
+   "start_time_sec": 158,
+   "text": "An automated roaming cap bar?! I specifically paid forty pounds last week for the unlimited European Roaming Pass before leaving the UK! Why did S-Net take my forty pounds and then bar my data the moment my plane touched down?! This is sheer incompetence!",
+   "sentiment_score": -72.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:00]",
+   "end_time": "[03:19]",
+   "start_time_sec": 180,
+   "text": "I completely understand your frustration and anger, especially having paid forty pounds for the European Roaming Pass in advance and arriving in Frankfurt only to find your data barred. Let us get this restriction lifted so your mobile data connects immediately."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:21]",
+   "end_time": "[03:24]",
+   "start_time_sec": 201,
+   "text": "Thank you Jason, please lift it immediately.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:26]",
+   "end_time": "[03:33]",
+   "start_time_sec": 206,
+   "text": "International cellular handovers require clearance from foreign host network servers."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:35]",
+   "end_time": "[03:45]",
+   "start_time_sec": 215,
+   "text": "Deutsche Telekom is Germany's largest network; it should take seconds to clear.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:47]",
+   "end_time": "[03:53]",
+   "start_time_sec": 227,
+   "text": "I am stating that international data tariffs require proper device provisioning."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:54]",
+   "end_time": "[04:04]",
+   "start_time_sec": 234,
+   "text": "Jason? Are you still on the phone? The line went completely dead for forty seconds!",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:44]",
+   "end_time": "[04:52]",
+   "start_time_sec": 284,
+   "text": "I was waiting for the roaming gateway interface to respond."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:53]",
+   "end_time": "[05:02]",
+   "start_time_sec": 293,
+   "text": "Can you remove the cap bar from my SIM card right now?",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:03]",
+   "end_time": "[05:11]",
+   "start_time_sec": 303,
+   "text": "Obviously international cellular handovers require clearance from foreign host network servers."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:12]",
+   "end_time": "[05:22]",
+   "start_time_sec": 312,
+   "text": "Deutsche Telekom is Germany's largest network; it should take seconds to clear.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:23]",
+   "end_time": "[05:31]",
+   "start_time_sec": 323,
+   "text": "I am sending a roaming bar removal command to the Frankfurt gateway."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:32]",
+   "end_time": "[05:40]",
+   "start_time_sec": 332,
+   "text": "How long will that command take to execute?",
+   "sentiment_score": -18.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:41]",
+   "end_time": "[06:01]",
+   "start_time_sec": 341,
+   "text": "I am the managing director of a renewable energy manufacturing firm, and in thirty minutes I have a live pitch presentation to German infrastructure investors at the Frankfurt Messe convention center! The presentation deck, my client contact files, and the venue entry QR codes are all stored in our cloud drive! If I cannot access my data, our multi-million-euro investment deal will collapse and thirty jobs in our factory will be lost! I am having a severe panic attack!",
+   "sentiment_score": -88.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:02]",
+   "end_time": "[06:12]",
+   "start_time_sec": 362,
+   "text": "You should check your Access Point Name settings in your smartphone mobile data menu."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:13]",
+   "end_time": "[06:26]",
+   "start_time_sec": 373,
+   "text": "Did you even hear what I just said about thirty factory jobs and an investment deal?! You don't give a damn about my crisis!",
+   "sentiment_score": -78.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:27]",
+   "end_time": "[06:38]",
+   "start_time_sec": 387,
+   "text": "If you travel across Europe on multi-million-euro business without verifying international roaming in advance, that is your own reckless carelessness."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:39]",
+   "end_time": "[06:47]",
+   "start_time_sec": 399,
+   "text": "Fine! What should the APN be set to?",
+   "sentiment_score": -44.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:48]",
+   "end_time": "[06:56]",
+   "start_time_sec": 408,
+   "text": "The APN field should be set to 'mobile.snet.co.uk' with username blank."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:57]",
+   "end_time": "[07:00]",
+   "start_time_sec": 417,
+   "text": "Entering 'mobile.snet.co.uk' into APN... Saving profile...",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:01]",
+   "end_time": "[07:09]",
+   "start_time_sec": 421,
+   "text": "Now restart your smartphone to initiate re-authentication with Deutsche Telekom."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:10]",
+   "end_time": "[07:13]",
+   "start_time_sec": 430,
+   "text": "Restarting phone now... Screen is rebooting...",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:14]",
+   "end_time": "[07:19]",
+   "start_time_sec": 434,
+   "text": "The gateway will attempt to re-provision the data session."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:20]",
+   "end_time": "[07:33]",
+   "start_time_sec": 440,
+   "text": "Phone has rebooted... Signal bars show 'Telekom.de 4G' but there is an exclamation mark next to data and web pages still won't load!",
+   "sentiment_score": -34.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:34]",
+   "end_time": "[07:45]",
+   "start_time_sec": 454,
+   "text": "Jason?! Hello?! Did you put me on mute again?! Why do you keep vanishing for forty seconds?!",
+   "sentiment_score": -44.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:46]",
+   "end_time": "[07:54]",
+   "start_time_sec": 466,
+   "text": "I was polling the Frankfurt roaming switch for an authentication handshake."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:34]",
+   "end_time": "[08:37]",
+   "start_time_sec": 514,
+   "text": "Why is data still blocked?",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:38]",
+   "end_time": "[08:48]",
+   "start_time_sec": 518,
+   "text": "The international partner switch requires up to four hours to propagate bar removals across European cellular towers."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:49]",
+   "end_time": "[08:58]",
+   "start_time_sec": 529,
+   "text": "Four hours?! My investor meeting starts in fifteen minutes!",
+   "sentiment_score": -48.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:59]",
+   "end_time": "[09:07]",
+   "start_time_sec": 539,
+   "text": "There is no way to bypass foreign carrier propagation cycles."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:08]",
+   "end_time": "[09:16]",
+   "start_time_sec": 548,
+   "text": "Can I connect to Frankfurt Airport Wi-Fi in the meantime?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:17]",
+   "end_time": "[09:23]",
+   "start_time_sec": 557,
+   "text": "Airport Wi-Fi is managed by the airport operator."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:24]",
+   "end_time": "[09:27]",
+   "start_time_sec": 564,
+   "text": "This has been an absolute disaster.",
+   "sentiment_score": -38.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:28]",
+   "end_time": "[09:36]",
+   "start_time_sec": 568,
+   "text": "Before we conclude, what was that mobile phone number again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:37]",
+   "end_time": "[09:47]",
+   "start_time_sec": 577,
+   "text": "As I told you right at the start of our call, it is 07700 900381.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:48]",
+   "end_time": "[09:51]",
+   "start_time_sec": 588,
+   "text": "Thank you, mobile number confirmed."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:52]",
+   "end_time": "[09:55]",
+   "start_time_sec": 592,
+   "text": "Can you provide a ticket number for the complaint?",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:56]",
+   "end_time": "[09:59]",
+   "start_time_sec": 596,
+   "text": "Your roaming ticket reference is ROAM-ERR-88192-F."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:00]",
+   "end_time": "[10:03]",
+   "start_time_sec": 600,
+   "text": "ROAM-ERR-88192-F.",
+   "sentiment_score": -4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:04]",
+   "end_time": "[10:07]",
+   "start_time_sec": 604,
+   "text": "Is there any other query today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:08]",
+   "end_time": "[10:11]",
+   "start_time_sec": 608,
+   "text": "No, your service has been utterly unacceptable.",
+   "sentiment_score": -32.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:12]",
+   "end_time": "[10:15]",
+   "start_time_sec": 612,
+   "text": "Thank you for calling S-Net mobile roaming support. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:16]",
+   "end_time": "[10:19]",
+   "start_time_sec": 616,
+   "text": "Goodbye.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:20]",
+   "end_time": "[10:23]",
+   "start_time_sec": 620,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:24]",
+   "end_time": "[10:27]",
+   "start_time_sec": 624,
+   "text": "Goodbye.",
+   "sentiment_score": -10.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:28]",
+   "end_time": "[10:31]",
+   "start_time_sec": 628,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:32]",
+   "end_time": "[10:35]",
+   "start_time_sec": 632,
+   "text": "Goodbye.",
+   "sentiment_score": -6.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:36]",
+   "end_time": "[10:39]",
+   "start_time_sec": 636,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:40]",
+   "end_time": "[10:45]",
+   "start_time_sec": 640,
+   "text": "Goodbye.",
+   "sentiment_score": -2.0
+  }
+ ]
+}

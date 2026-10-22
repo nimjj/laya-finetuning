@@ -1,0 +1,471 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Zachary",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net TV technical support, my name is Benjamin. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:17]",
+   "end_time": "[00:41]",
+   "start_time_sec": 17,
+   "text": "Hello Benjamin, my name is Zachary King. We have an S-Net Multi-Room TV setup with a master 4K box in the living room and two mini multi-room boxes in the bedrooms, but for the past two days the whole-home recording sharing feature has stopped working: neither mini box can see or play any recordings stored on the master box, showing error code MR-SYNC-404!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:51]",
+   "end_time": "[01:15]",
+   "start_time_sec": 51,
+   "text": "Good afternoon Zachary. If I understand correctly, your S-Net Multi-Room TV system is failing to share recordings from your master 4K set-top box to your two bedroom mini boxes, presenting error code MR-SYNC-404 across both remote units. Before we inspect your home network MoCA mesh and cluster synchronization tables, could you please confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:25]",
+   "end_time": "[01:31]",
+   "start_time_sec": 85,
+   "text": "Yes, it is 25 Kingsway, Bath, BA2 2ET, security PIN 4821, master box serial SN-TV-991204.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:41]",
+   "end_time": "[01:52]",
+   "start_time_sec": 101,
+   "text": "Thank you Zachary, that confirms your account details. Are the mini TV boxes connected to your home network via Wi-Fi or via coaxial MoCA cable adapters?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[02:02]",
+   "end_time": "[02:14]",
+   "start_time_sec": 122,
+   "text": "They are connected via coaxial cable using the official S-Net MoCA 2.5 network adapters.",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[02:24]",
+   "end_time": "[02:38]",
+   "start_time_sec": 144,
+   "text": "Could I place you on hold for two minutes while I query your master set-top box MoCA cluster security certificates and DVR discovery broadcast daemon?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:03]",
+   "end_time": "[04:19]",
+   "start_time_sec": 243,
+   "text": "Thank you for holding, Zachary. Looking at the MoCA mesh telemetry, your master box cryptographic cluster key desynchronized after an automated overnight security certificate rotation."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:29]",
+   "end_time": "[04:39]",
+   "start_time_sec": 269,
+   "text": "Why would a security certificate rotation desynchronize the mini boxes?",
+   "sentiment_score": -10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:49]",
+   "end_time": "[05:05]",
+   "start_time_sec": 289,
+   "text": "When the master box updates its internal security encryption key, the peripheral mini boxes require an authenticated handshake to renew their distributed media streaming credentials."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:15]",
+   "end_time": "[05:27]",
+   "start_time_sec": 315,
+   "text": "Can you re-key the MoCA mesh and re-authenticate the mini boxes remotely?",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:37]",
+   "end_time": "[05:47]",
+   "start_time_sec": 337,
+   "text": "Yes, we can broadcast an immediate MoCA cluster re-keying payload across your home coaxial network."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:57]",
+   "end_time": "[06:01]",
+   "start_time_sec": 357,
+   "text": "Will that erase any saved recordings on the master hard drive?",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:11]",
+   "end_time": "[06:20]",
+   "start_time_sec": 371,
+   "text": "Not at all: hard drive recordings, scheduled timers, and series links remain completely untouched; only the local streaming authorization tokens are re-keyed."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:30]",
+   "end_time": "[06:33]",
+   "start_time_sec": 390,
+   "text": "That is fantastic news.",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:43]",
+   "end_time": "[07:07]",
+   "start_time_sec": 403,
+   "text": "Zachary speaking, my twelve-year-old son is bedridden in his bedroom recovering from a fractured femur in traction, and watching his recorded science fiction series from the master box is the only distraction keeping his spirits up while he is trapped in bed! When the mini box threw that error code and locked him out of his favorite shows, he burst into tears of frustration! Seeing my injured boy crying in pain and boredom breaks my heart! I am so distressed!",
+   "sentiment_score": -76.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:17]",
+   "end_time": "[07:22]",
+   "start_time_sec": 437,
+   "text": "I am querying the master set-top box MoCA cluster security certificates right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:32]",
+   "end_time": "[07:37]",
+   "start_time_sec": 452,
+   "text": "Please do Benjamin, I am desperate to comfort my injured son in traction.",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:47]",
+   "end_time": "[08:11]",
+   "start_time_sec": 467,
+   "text": "I completely understand how deeply heartbreaking and distressing this is, Zachary, especially with your twelve-year-old son in traction recovering from a fractured femur and relying on his favorite sci-fi shows for comfort and distraction. While our engineering policy cannot dispatch an emergency field technician within two hours to rewire coaxial cables, I will walk you through re-keying the MoCA network right now so his shows play flawlessly in his bedroom."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:21]",
+   "end_time": "[08:24]",
+   "start_time_sec": 501,
+   "text": "Thank you Benjamin, that brings me so much relief.",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:34]",
+   "end_time": "[08:39]",
+   "start_time_sec": 514,
+   "text": "I am sending the MoCA cluster re-keying signal across your coaxial network now."
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:49]",
+   "end_time": "[08:55]",
+   "start_time_sec": 529,
+   "text": "Obviously encrypted multi-room streams demand synchronized cryptographic keys to protect copyright licensing between DVR nodes."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:05]",
+   "end_time": "[09:10]",
+   "start_time_sec": 545,
+   "text": "The LED light on the coaxial adapter blinked green and turned solid amber.",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:20]",
+   "end_time": "[09:41]",
+   "start_time_sec": 560,
+   "text": "Zachary speaking, his orthopedic pediatric surgeon warned us that severe emotional distress and crying spikes his blood pressure and impairs bone healing! If he stays agitated all weekend without his entertainment, his orthopedic recovery could be set back by weeks! I am in sheer panic over his health and recovery!",
+   "sentiment_score": -84.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:51]",
+   "end_time": "[10:15]",
+   "start_time_sec": 591,
+   "text": "I completely understand the acute medical anxiety and intense emotional stakes regarding your son's orthopedic bone healing and blood pressure, Zachary. Protecting his physical recovery and restoring his entertainment immediately is an absolute top priority. Let us walk into your son's bedroom right now, power on his mini TV box together, and verify that his sci-fi recordings load and play perfectly."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:25]",
+   "end_time": "[10:31]",
+   "start_time_sec": 625,
+   "text": "I am walking into his bedroom right now... Picking up the mini box remote...",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:41]",
+   "end_time": "[10:47]",
+   "start_time_sec": 641,
+   "text": "Turn on the television, press the Home button on the remote, and select 'Recordings'."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:57]",
+   "end_time": "[11:11]",
+   "start_time_sec": 657,
+   "text": "Pressing Home... Selecting Recordings... Benjamin! The screen says 'Connecting to Master DVR'... Boom! All fifty-two recorded episodes of 'Doctor Who' and 'Star Trek' appeared on his screen immediately! The full library is back!",
+   "sentiment_score": 38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:21]",
+   "end_time": "[11:27]",
+   "start_time_sec": 681,
+   "text": "Select an episode of Doctor Who and press Play to verify smooth coaxial streaming."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:37]",
+   "end_time": "[11:47]",
+   "start_time_sec": 697,
+   "text": "Selecting Doctor Who... Pressing play... Benjamin, the video started instantaneously in crisp high definition with surround sound! My son just laughed and clapped his hands!",
+   "sentiment_score": 39.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:57]",
+   "end_time": "[12:07]",
+   "start_time_sec": 717,
+   "text": "Look at our telemetry console: your MoCA mesh is streaming at a rock-solid 850 Mbps with 0% packet jitter and zero buffer delay."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:17]",
+   "end_time": "[12:25]",
+   "start_time_sec": 737,
+   "text": "My son has a giant smile on his face. You have brought joy back into his recovery room today, Benjamin.",
+   "sentiment_score": 39.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:35]",
+   "end_time": "[12:42]",
+   "start_time_sec": 755,
+   "text": "Now let us check the second mini box in your guest room just to ensure complete whole-home synchronization."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:52]",
+   "end_time": "[13:00]",
+   "start_time_sec": 772,
+   "text": "Walking to the guest room... Turning on guest mini box... Opening Recordings... The entire DVR library loaded instantly here too!",
+   "sentiment_score": 38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:10]",
+   "end_time": "[13:16]",
+   "start_time_sec": 790,
+   "text": "That confirms full whole-home MoCA 2.5 cluster synchronization completely restored across all three television nodes."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:26]",
+   "end_time": "[13:29]",
+   "start_time_sec": 806,
+   "text": "Every room in our home has seamless access again.",
+   "sentiment_score": 36.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:39]",
+   "end_time": "[13:47]",
+   "start_time_sec": 819,
+   "text": "I have locked these cryptographic cluster keys in your master hub profile to ensure automated updates preserve synchronization permanently."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:57]",
+   "end_time": "[14:00]",
+   "start_time_sec": 837,
+   "text": "That will protect us from any future overnight glitches.",
+   "sentiment_score": 34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:10]",
+   "end_time": "[14:14]",
+   "start_time_sec": 850,
+   "text": "I have documented the MoCA re-keying under master reference MR-COAX-100-FINALE."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:24]",
+   "end_time": "[14:27]",
+   "start_time_sec": 864,
+   "text": "MR-COAX-100-FINALE, recorded in our household manual.",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:37]",
+   "end_time": "[14:44]",
+   "start_time_sec": 877,
+   "text": "Please give my warmest wishes and heartfelt encouragement to your brave son for a speedy recovery, Zachary."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:54]",
+   "end_time": "[14:58]",
+   "start_time_sec": 894,
+   "text": "I will tell him that Benjamin from S-Net saved his weekend.",
+   "sentiment_score": 38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:08]",
+   "end_time": "[15:14]",
+   "start_time_sec": 908,
+   "text": "It has been our absolute privilege and honor to assist you and your family today."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:24]",
+   "end_time": "[15:29]",
+   "start_time_sec": 924,
+   "text": "You have delivered the most outstanding customer service I have ever experienced.",
+   "sentiment_score": 39.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:39]",
+   "end_time": "[15:45]",
+   "start_time_sec": 939,
+   "text": "Just making sure our premises records match perfectly: that was 25 Kingsway, Bath, wasn't it?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:55]",
+   "end_time": "[15:58]",
+   "start_time_sec": 955,
+   "text": "Yes, 25 Kingsway, Bath.",
+   "sentiment_score": 34.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:08]",
+   "end_time": "[16:13]",
+   "start_time_sec": 968,
+   "text": "Thank you Zachary, all premises and multi-room equipment records are fully verified."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:23]",
+   "end_time": "[16:27]",
+   "start_time_sec": 983,
+   "text": "Thank you again Benjamin for your brilliant, compassionate, and life-changing support.",
+   "sentiment_score": 38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:37]",
+   "end_time": "[16:43]",
+   "start_time_sec": 997,
+   "text": "It has been an absolute pleasure assisting you, Zachary. Have a wonderful weekend with your son."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:53]",
+   "end_time": "[16:56]",
+   "start_time_sec": 1013,
+   "text": "Have a wonderful afternoon, Benjamin. Goodbye.",
+   "sentiment_score": 34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:06]",
+   "end_time": "[17:12]",
+   "start_time_sec": 1026,
+   "text": "Is there any other TV or broadband issue I can assist you with today, Zachary?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:22]",
+   "end_time": "[17:25]",
+   "start_time_sec": 1042,
+   "text": "No Benjamin, everything is working flawlessly.",
+   "sentiment_score": 32.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:35]",
+   "end_time": "[17:39]",
+   "start_time_sec": 1055,
+   "text": "Thank you for calling S-Net TV technical support, Zachary. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:49]",
+   "end_time": "[17:52]",
+   "start_time_sec": 1069,
+   "text": "Goodbye Benjamin.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[18:02]",
+   "end_time": "[18:05]",
+   "start_time_sec": 1082,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[18:15]",
+   "end_time": "[18:18]",
+   "start_time_sec": 1095,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[18:28]",
+   "end_time": "[18:31]",
+   "start_time_sec": 1108,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[18:41]",
+   "end_time": "[18:44]",
+   "start_time_sec": 1121,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[18:54]",
+   "end_time": "[18:57]",
+   "start_time_sec": 1134,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[19:06]",
+   "end_time": "[19:09]",
+   "start_time_sec": 1146,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[19:18]",
+   "end_time": "[19:21]",
+   "start_time_sec": 1158,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[19:30]",
+   "end_time": "[19:35]",
+   "start_time_sec": 1170,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  }
+ ]
+}

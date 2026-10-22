@@ -1,0 +1,208 @@
+{
+  "call_id": "agt_018",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 65.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "While you validated Chloe's deadline distress at [01:30], when she suffered an acute panic outburst at [05:16] over the £90 engineer callout fee, you gave zero empathy or reassurance, rigidly citing contract clauses."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Chloe explicitly stated at [00:40] that she had a white Nokia ONT box mounted on the hallway wall. At [07:06], you asked her what make and model the optical box was, forcing her to repeat information she already provided."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "You failed to probe whether the optical fiber drop cable was completely severed through or merely stripped of its outer sheath, and failed to check whether the indoor optical cable or wall unit was displaced when the fence wire was pulled."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (gemini-2.5-pro)",
+    "graded_on": "2026-10-21",
+    "scenario": "Customer whose external fiber drop cable was severed by garden shears, needing Openreach emergency splice",
+    "tier": "okay",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Active listening",
+      "Probing"
+    ],
+    "duration_sec": 848,
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opening 'Thank you for calling S-Net broadband technical support' and survey mentioned at [12:42]."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Single hold announced ('Please hold for two or three minutes') and thanked without unmanaged dead air."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Verified address and date of birth within 55 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Addressed Chloe by name multiple times throughout."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Hard-case FAIL: Chloe had two outbursts. The first at [01:06] was handled well at [01:30], but when Chloe had an acute outburst at [05:16] over the £90 callout fee, Liam offered no empathy, validation, or soft explanation, bluntly reciting contract clauses."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Restatement at [03:14]: 'So to make sure I have captured everything accurately, Chloe, garden shears severed the external black fiber drop cable along your boundary fence, the indoor box shows a red LOS light, and we need an emergency fiber engineer dispatch to replace the external drop cable, is that right?'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Hard-case FAIL: Customer stated at [00:40] (turn 3) 'We have a white Nokia ONT box mounted on the hallway wall.' At [07:06] (turn 26), Agent asked 'Could you tell me the make and model of the white optical box mounted on your hallway wall?', forcing customer to repeat it."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Booked Openreach repair visit and provided 30GB complimentary backup tethering data."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Professional, polite tone throughout."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent failed to probe whether the fiber cable was completely severed or just the jacket cut, and failed to check if the indoor optical lead was disturbed."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Customer tested mobile hotspot tethering successfully and confirmed booking reference."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 7,
+          "agent_turn": 24
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 3,
+          "agent_turn": 26
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        },
+        {
+          "kind": "restatement",
+          "agent_turn": 14
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 20
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 30
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6,
+          "with_refusal": false
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 19
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 1
+        }
+      ]
+    }
+  }
+}

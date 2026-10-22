@@ -1,0 +1,203 @@
+{
+  "call_id": "agb_43",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 56.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "Agent left two unmanaged silences exceeding 30 seconds (42s at [02:30] and 45s at [09:15]) without hold announcements or thanks."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Agent never addressed the customer by her verified name 'Rhiannon' anywhere during the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent offered zero restatement of customer's battery degradation problem statement, responding only with diagnostic queries."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked how long the battery lasted on a full charge at [11:20], ignoring customer's explicit statement in turn 1 that it died within forty minutes."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Agent rudely blamed customer for battery degradation, stating she only had herself to blame for using cheap corner-shop chargers."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent abruptly terminated the call while customer was in mid-sentence asking how to reschedule if delayed in traffic."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Mobile phone battery degradation query; diagnostic battery test run and authorised repair booking; agent never uses customer name, leaves two silences > 30s, offers zero paraphrasing, asks repeat question about battery life, insults charging habits, and hangs up mid-sentence",
+    "tier": "fair",
+    "duration_sec": 1135,
+    "notes": "The agent ran an over-the-air battery health diagnostic telemetry scan and booked an authorized battery replacement service under manufacturer warranty. However, the agent failed Personalized Call by never addressing the customer by 'Rhiannon', failed Hold Time and Dead Air by leaving two unmanaged silences > 30s (42s at [02:30] and 45s at [09:15]), failed Paraphrasing by offering zero restatement of the battery failure, failed Active Listening at minute 11 by asking how long the battery lasts on a full charge after Rhiannon explicitly stated in turn 1 that it dies within forty minutes, failed Build Rapport and Observed Professionalism at minute 12 by rudely blaming her charging habits ('If you charge your phone overnight with cheap corner-shop chargers, you only have yourself to blame for ruining the lithium cells'), and failed Confirmed Resolved by abruptly hanging up while Rhiannon was asking follow-up questions.",
+    "hard_cases": [
+      "Active listening",
+      "Build rapport and observed professionalism",
+      "Empathy & Acknowledgment Statement",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent left an unmanaged silence of 42 seconds at [02:30] while querying Knox telemetry, and a second unmanaged silence of 45 seconds at [09:15] while booking repair slot."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never used the customer's name 'Rhiannon' across any turn in the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:30] Agent: 'I completely understand the absolute terror of being stranded on an unlit motorway hard shoulder in the dark and rain when your mobile phone abruptly dies...' - Compassionate acknowledgment of terrifying emergency."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent gave no restatement of customer's rapid battery discharge problem statement, moving directly to server interface."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[11:20] Agent: 'How long does your phone battery typically last on a full charge before dropping to zero?' Customer: 'Gareth, as I told you in my very first sentence, it dies within forty minutes!' - Agent asked for information already given."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[17:40] Agent: 'I will remain the dedicated owner for this repair ticket and ensure the service centre technician logs battery completion tomorrow.' - Clear personal ownership."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[07:45] Agent: 'If you charge your phone overnight with cheap corner-shop chargers, you only have yourself to blame for ruining the lithium cells.' - Unprofessional and blaming customer remark."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[18:20] Agent abruptly ended call while customer was asking about traffic delay rescheduling, cutting her off mid-sentence."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 56
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 1,
+          "agent_turn": 30,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 20
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 28
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

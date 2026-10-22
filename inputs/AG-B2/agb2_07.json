@@ -1,0 +1,447 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Graham",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Hayley. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:09]",
+      "end_time": "[00:23]",
+      "start_time_sec": 9,
+      "text": "Yeah hi Hayley, um, I got your new Hub 5 installed on Tuesday afternoon by the Openreach contractor, and ever since then, you know, our Wi-Fi upstairs is completely dead across all four bedrooms.",
+      "sentiment_score": -24.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:25]",
+      "end_time": "[00:35]",
+      "start_time_sec": 25,
+      "text": "I can look into your router hardware record today. Before I check the device details, please provide your installation address and security PIN."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:37]",
+      "end_time": "[00:45]",
+      "start_time_sec": 37,
+      "text": "Address is 53 Victoria Crescent, um, Glasgow, G12 9DE, and the security PIN is three nine zero eight.",
+      "sentiment_score": 3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:47]",
+      "end_time": "[00:57]",
+      "start_time_sec": 47,
+      "text": "Thank you, that confirms the account details for your Gigabit Full Fibre contract. What seems to be happening with the signal in the upstairs rooms?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:59]",
+      "end_time": "[01:06]",
+      "start_time_sec": 59,
+      "text": "Our Wi-Fi is dead upstairs. We can't get any connection in the study or the bedrooms.",
+      "sentiment_score": -16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:08]",
+      "end_time": "[01:16]",
+      "start_time_sec": 68,
+      "text": "Your Wi-Fi is dead upstairs, okay. That is typically related to structural attenuation and high frequency absorption in residential properties."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:18]",
+      "end_time": "[01:32]",
+      "start_time_sec": 78,
+      "text": "Our old Hub 3 worked all over the house for five years without any dead zones, um, but this new Hub 5 won't even reach the first floor landing, let alone the back study!",
+      "sentiment_score": -19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:34]",
+      "end_time": "[01:44]",
+      "start_time_sec": 94,
+      "text": "The Hub 5 broadcasts higher frequency Wi-Fi 6 spectrum on eighty megahertz wide channels, which attenuates much more rapidly through dense brickwork and masonry."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:46]",
+      "end_time": "[02:02]",
+      "start_time_sec": 106,
+      "text": "I am paying fifty-five pounds a month for Gigabit speeds, and I can't even open a work email on my laptop upstairs! I lost half a day's consulting billable hours yesterday because the connection kept dropping! It is completely infuriating!",
+      "sentiment_score": -49.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:04]",
+      "end_time": "[02:12]",
+      "start_time_sec": 124,
+      "text": "Wireless speeds and indoor radio propagation are never guaranteed within customer premises under the residential terms of service."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:14]",
+      "end_time": "[02:26]",
+      "start_time_sec": 134,
+      "text": "I am not asking for gigabit speeds in the attic, I am asking for a basic stable connection that doesn't drop dead every five minutes while I'm on work calls!",
+      "sentiment_score": -34.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:28]",
+      "end_time": "[02:37]",
+      "start_time_sec": 148,
+      "text": "Where is the router physically placed in the ground floor hallway, and are there any metal mirrors or electronic appliances nearby?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:39]",
+      "end_time": "[02:51]",
+      "start_time_sec": 159,
+      "text": "It's on a wooden side table in the hall, um, right by the front door where the Openreach engineer mounted the optical wall box next to the radiator.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:53]",
+      "end_time": "[03:03]",
+      "start_time_sec": 173,
+      "text": "A large metal radiator adjacent to the router acts as a massive reflector, deflecting electromagnetic radio waves away from the ceiling and staircase."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:05]",
+      "end_time": "[03:16]",
+      "start_time_sec": 185,
+      "text": "Our walls are solid Victorian sandstone, like eighteen inches thick with lathe and plaster ceilings. But like I said, the old hub had zero issues reaching upstairs.",
+      "sentiment_score": -15.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:18]",
+      "end_time": "[03:26]",
+      "start_time_sec": 198,
+      "text": "Older hubs utilized wider legacy 2.4GHz channels that penetrated thick masonry at the expense of overall gigabit throughput speed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:28]",
+      "end_time": "[03:37]",
+      "start_time_sec": 208,
+      "text": "Can we not just turn on that 2.4GHz mode on this new hub then, or separate the frequencies like people suggest online?",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:39]",
+      "end_time": "[03:47]",
+      "start_time_sec": 219,
+      "text": "The Hub 5 firmware manages band steering automatically across both bands using centralized cloud algorithms without manual frequency splitting."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:49]",
+      "end_time": "[04:00]",
+      "start_time_sec": 229,
+      "text": "Can you check if there is a pending firmware patch for it on your network, or if this specific unit has a defective internal antenna array?",
+      "sentiment_score": -11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:02]",
+      "end_time": "[04:07]",
+      "start_time_sec": 242,
+      "text": "Hang on a second while I pull up the equipment dispatch log."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:50]",
+      "end_time": "[04:56]",
+      "start_time_sec": 290,
+      "text": "Right, I can see the serial number of the hub dispatched on Monday morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:58]",
+      "end_time": "[05:06]",
+      "start_time_sec": 298,
+      "text": "Okay, and does your remote diagnostic test show anything physically wrong with the Wi-Fi antennas or radio chips inside it?",
+      "sentiment_score": 1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:08]",
+      "end_time": "[05:15]",
+      "start_time_sec": 308,
+      "text": "The remote diagnostic shows the hub optical interface is receiving nine hundred and forty megabits down."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:17]",
+      "end_time": "[05:23]",
+      "start_time_sec": 317,
+      "text": "Yes, but what about the wireless transmitters? Are the antennas functioning at full power?",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:25]",
+      "end_time": "[05:31]",
+      "start_time_sec": 325,
+      "text": "Our remote portal does not provide individual component RF power telemetry for internal router antennas."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:33]",
+      "end_time": "[05:40]",
+      "start_time_sec": 333,
+      "text": "Well what are we supposed to do then? We can't work from the hallway sofa all day.",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:42]",
+      "end_time": "[05:51]",
+      "start_time_sec": 342,
+      "text": "You would need to purchase third-party gigabit powerline network adapters or a dedicated tri-band mesh Wi-Fi system from an independent electronics retailer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:53]",
+      "end_time": "[06:02]",
+      "start_time_sec": 353,
+      "text": "Why should I spend eighty to a hundred pounds on third-party mesh extenders when S-Net advertises reliable whole home broadband on television?",
+      "sentiment_score": -36.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:04]",
+      "end_time": "[06:14]",
+      "start_time_sec": 364,
+      "text": "The Whole Home Wi-Fi guarantee is an optional subscription add-on priced at eight pounds extra per calendar month on top of your existing package."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:16]",
+      "end_time": "[06:25]",
+      "start_time_sec": 376,
+      "text": "You're joking! Another eight pounds a month just to get the service I'm already paying fifty-five pounds for every four weeks?",
+      "sentiment_score": -42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:27]",
+      "end_time": "[06:36]",
+      "start_time_sec": 387,
+      "text": "That add-on includes up to three S-Net Intelligent Wi-Fi mesh discs with guaranteed thirty megabit throughput coverage in every habitable room."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:38]",
+      "end_time": "[06:47]",
+      "start_time_sec": 398,
+      "text": "Can you not send me one complimentary booster disc considering this new hub downgrade was forced on us during the contract renewal?",
+      "sentiment_score": -18.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:49]",
+      "end_time": "[06:58]",
+      "start_time_sec": 409,
+      "text": "Standard technical support tier one advisors do not possess administrative authorization to dispatch complimentary booster hardware without the subscription bolt-on code."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:00]",
+      "end_time": "[07:11]",
+      "start_time_sec": 420,
+      "text": "Can I put the old Hub 3 back on the line instead? I still have it in the cupboard under the stairs in its original packaging.",
+      "sentiment_score": 5.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:13]",
+      "end_time": "[07:21]",
+      "start_time_sec": 433,
+      "text": "The Hub 3 does not support the optical GPON authentication protocol required for Gigabit Full Fibre street cabinet connections."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:23]",
+      "end_time": "[07:31]",
+      "start_time_sec": 443,
+      "text": "So I'm stuck with a shiny new hub that doesn't transmit signal to where I actually need to work.",
+      "sentiment_score": -28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:33]",
+      "end_time": "[07:45]",
+      "start_time_sec": 453,
+      "text": "You could try repositioning the hub off the low wooden table and onto a higher wall mounted shelf to establish a clearer direct line of sight to the open stairwell."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:47]",
+      "end_time": "[07:58]",
+      "start_time_sec": 467,
+      "text": "The yellow optical patch cord from the wall termination box is only one metre long, um, so it won't stretch to a high shelf without pulling tight.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:00]",
+      "end_time": "[08:09]",
+      "start_time_sec": 480,
+      "text": "Longer SC-APC optical patch cables measuring three or five metres can be purchased online from third-party telecoms accessories suppliers if required."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:11]",
+      "end_time": "[08:17]",
+      "start_time_sec": 491,
+      "text": "Always third-party suppliers, isn't it? S-Net takes the money and passes the buck.",
+      "sentiment_score": -31.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:19]",
+      "end_time": "[08:23]",
+      "start_time_sec": 499,
+      "text": "We provide standard equipment suitable for standard modern residential construction."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:24]",
+      "end_time": "[08:27]",
+      "start_time_sec": 504,
+      "text": "Hold on."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:10]",
+      "end_time": "[09:14]",
+      "start_time_sec": 550,
+      "text": "Okay, the system refreshed the customer portal record."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:15]",
+      "end_time": "[09:19]",
+      "start_time_sec": 555,
+      "text": "Has that done anything to the Wi-Fi signal?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:20]",
+      "end_time": "[09:26]",
+      "start_time_sec": 560,
+      "text": "No, that was simply an administrative record sync on our customer relationship database."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:28]",
+      "end_time": "[09:36]",
+      "start_time_sec": 568,
+      "text": "Right. So basically there is nothing you can do about our dead zone upstairs today without charging me more money.",
+      "sentiment_score": -26.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:38]",
+      "end_time": "[09:48]",
+      "start_time_sec": 578,
+      "text": "Unless you wish to add the Whole Home Wi-Fi booster package to your monthly account ledger, there are no further remote radio profiles to adjust."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:50]",
+      "end_time": "[09:59]",
+      "start_time_sec": 590,
+      "text": "No, I am certainly not paying S-Net a single penny more for a problem your new hub created on Tuesday morning.",
+      "sentiment_score": -35.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:01]",
+      "end_time": "[10:08]",
+      "start_time_sec": 601,
+      "text": "I will log ticket reference WF-70192 detailing your reported Wi-Fi attenuation due to Victorian sandstone building construction."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:10]",
+      "end_time": "[10:20]",
+      "start_time_sec": 610,
+      "text": "And the signal upstairs is still dead, so nothing is resolved. I'm going to look into cancelling under the fourteen-day cooling off period.",
+      "sentiment_score": -39.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:22]",
+      "end_time": "[10:30]",
+      "start_time_sec": 622,
+      "text": "The customer cancellations department can explain contract termination terms and cooling off clauses if you call during weekday business hours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:32]",
+      "end_time": "[10:38]",
+      "start_time_sec": 632,
+      "text": "I will be calling them first thing tomorrow morning, you can count on that.",
+      "sentiment_score": -14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:40]",
+      "end_time": "[10:46]",
+      "start_time_sec": 640,
+      "text": "Is there anything else I can assist with regarding your broadband connection today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:48]",
+      "end_time": "[10:51]",
+      "start_time_sec": 648,
+      "text": "No, nothing.",
+      "sentiment_score": -11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:52]",
+      "end_time": "[10:55]",
+      "start_time_sec": 652,
+      "text": "Thank you for calling S-Net technical support."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:56]",
+      "end_time": "[10:59]",
+      "start_time_sec": 656,
+      "text": "Goodbye.",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:00]",
+      "end_time": "[11:06]",
+      "start_time_sec": 660,
+      "text": "Thank you for choosing S-Net as your broadband provider. Have a good afternoon, goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:08]",
+      "end_time": "[11:11]",
+      "start_time_sec": 668,
+      "text": "Bye.",
+      "sentiment_score": -2.1
+    }
+  ]
+}

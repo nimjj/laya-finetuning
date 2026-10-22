@@ -1,0 +1,142 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Oskar",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, this is Ellie. How can I help you today?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:07]",
+      "end_time": "[00:14]",
+      "start_time_sec": 7,
+      "text": "Hi Ellie. My TV remote has stopped working properly, half the buttons don't do anything and it's quite annoying.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:17]",
+      "end_time": "[00:22]",
+      "start_time_sec": 17,
+      "text": "That's annoying, I'm sorry, Oskar. Let's get it sorted. Can I take your PIN?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:24]",
+      "end_time": "[00:26]",
+      "start_time_sec": 24,
+      "text": "1 1 7 7.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:36]",
+      "start_time_sec": 29,
+      "text": "Thank you. So your TV remote has partly stopped working and half the buttons do nothing. Is that right?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:37]",
+      "end_time": "[00:39]",
+      "start_time_sec": 37,
+      "text": "Yes, that's right.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:41]",
+      "end_time": "[00:48]",
+      "start_time_sec": 41,
+      "text": "I'll send you a replacement remote today. Can I confirm the delivery address is still 3 Station Road?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:51]",
+      "end_time": "[00:53]",
+      "start_time_sec": 51,
+      "text": "Yes it is.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:56]",
+      "end_time": "[01:01]",
+      "start_time_sec": 56,
+      "text": "Would you like it sent first class, or is standard post okay?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:02]",
+      "end_time": "[01:04]",
+      "start_time_sec": 62,
+      "text": "Standard is fine.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:06]",
+      "end_time": "[01:16]",
+      "start_time_sec": 66,
+      "text": "That's ordered. It should arrive in two to three days, and it pairs automatically when you press the two blue buttons together for three seconds.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:18]",
+      "end_time": "[01:20]",
+      "start_time_sec": 78,
+      "text": "Okay.",
+      "sentiment_score": -3.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:22]",
+      "end_time": "[01:25]",
+      "start_time_sec": 82,
+      "text": "Has the order email come through to you?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:26]",
+      "end_time": "[01:28]",
+      "start_time_sec": 86,
+      "text": "Yes, I've got it.",
+      "sentiment_score": -3.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:29]",
+      "end_time": "[01:36]",
+      "start_time_sec": 89,
+      "text": "Great. When the new remote arrives and you've paired it, does that cover everything you needed today?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:37]",
+      "end_time": "[01:39]",
+      "start_time_sec": 97,
+      "text": "Yes, that's fine. Thanks.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:42]",
+      "end_time": "[01:46]",
+      "start_time_sec": 102,
+      "text": "Thank you for choosing S-Net, Oskar. Have a good day.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

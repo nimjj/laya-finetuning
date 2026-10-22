@@ -1,0 +1,418 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Deena",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer support, my name is Maya. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:14]",
+      "end_time": "[00:27]",
+      "start_time_sec": 14,
+      "text": "Hello Maya. I'm in a real panic because my mobile voicemail has locked me out, and I'm expecting an urgent call from my hospital consultant this morning with test results.",
+      "sentiment_score": -44.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:34]",
+      "end_time": "[00:47]",
+      "start_time_sec": 34,
+      "text": "I can certainly help you get that voicemail mailbox unlocked, Deena. Before we do, let me quickly verify your account details. Could you confirm your full name and billing address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:54]",
+      "end_time": "[00:57]",
+      "start_time_sec": 54,
+      "text": "Deena Patel, 19 Hawthorn Grove, Bristol, BS4 3QN.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:04]",
+      "end_time": "[01:19]",
+      "start_time_sec": 64,
+      "text": "Thank you Deena. I completely understand how stressful that must be with important medical news pending, so let's get that mailbox unlocked immediately. And what is the security question answer for your mother's maiden name?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:26]",
+      "end_time": "[01:29]",
+      "start_time_sec": 86,
+      "text": "It's Desai.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:36]",
+      "end_time": "[01:41]",
+      "start_time_sec": 96,
+      "text": "And what is the mobile phone number associated with this SIM card?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:48]",
+      "end_time": "[01:51]",
+      "start_time_sec": 108,
+      "text": "It's 07700 900612.",
+      "sentiment_score": 0.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:58]",
+      "end_time": "[02:16]",
+      "start_time_sec": 118,
+      "text": "So what I understand is you've been locked out of your mobile voicemail after three incorrect PIN attempts, and we need to reset that security restriction so you can listen to incoming messages today without interruption. Have I got that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:23]",
+      "end_time": "[02:32]",
+      "start_time_sec": 143,
+      "text": "Yes, exactly. I usually remember my PIN but I was rushing between appointments and must have hit the wrong digits.",
+      "sentiment_score": -8.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:39]",
+      "end_time": "[02:48]",
+      "start_time_sec": 159,
+      "text": "That happens all the time. When you dial 123 from your handset right now, what exact recording do you hear?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:55]",
+      "end_time": "[03:04]",
+      "start_time_sec": 175,
+      "text": "It says 'Your mailbox has been locked due to multiple incorrect attempts. Please contact customer services to reactivate your access.'",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:11]",
+      "end_time": "[03:18]",
+      "start_time_sec": 191,
+      "text": "Are you able to receive normal phone calls and SMS text messages on the handset right now?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:25]",
+      "end_time": "[03:31]",
+      "start_time_sec": 205,
+      "text": "Yes, regular incoming calls ring normally, and text messages come through without any issues.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:38]",
+      "end_time": "[03:48]",
+      "start_time_sec": 218,
+      "text": "Obviously I cannot listen to your private voicemail messages, but I can wipe the failed authentication counter and assign a temporary passcode."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:55]",
+      "end_time": "[03:59]",
+      "start_time_sec": 235,
+      "text": "That would be wonderful. Will my saved greeting be erased?",
+      "sentiment_score": -6.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:06]",
+      "end_time": "[04:13]",
+      "start_time_sec": 246,
+      "text": "No, resetting the security PIN keeps your recorded greeting and all unplayed messages completely intact."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:20]",
+      "end_time": "[04:27]",
+      "start_time_sec": 260,
+      "text": "Oh, that is such a relief. I was terrified I might lose whatever message the doctor left.",
+      "sentiment_score": 15.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:34]",
+      "end_time": "[04:46]",
+      "start_time_sec": 274,
+      "text": "I am going to take direct ownership of this right now. I'll open our network HLR switch, clear the lock flag, and generate a temporary one-time PIN."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:53]",
+      "end_time": "[04:59]",
+      "start_time_sec": 293,
+      "text": "Thank you Maya, I really appreciate you taking care of it so quickly.",
+      "sentiment_score": 19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:06]",
+      "end_time": "[05:13]",
+      "start_time_sec": 306,
+      "text": "Bear with me for about thirty seconds while the profile re-syncs on the core mobile exchange."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:45]",
+      "end_time": "[05:51]",
+      "start_time_sec": 345,
+      "text": "Thank you for waiting, Deena. The lock flag has cleared on the network register."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:58]",
+      "end_time": "[06:02]",
+      "start_time_sec": 358,
+      "text": "Brilliant, what do I need to do on my side?",
+      "sentiment_score": 8.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:09]",
+      "end_time": "[06:19]",
+      "start_time_sec": 369,
+      "text": "Just confirming before I trigger the security SMS, you want the temporary four-digit PIN sent to the handset ending in 612, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:26]",
+      "end_time": "[06:29]",
+      "start_time_sec": 386,
+      "text": "Yes, that's this handset.",
+      "sentiment_score": 6.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:36]",
+      "end_time": "[06:41]",
+      "start_time_sec": 396,
+      "text": "I've just dispatched the SMS. It will contain a four-digit temporary code."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:48]",
+      "end_time": "[06:53]",
+      "start_time_sec": 408,
+      "text": "Just got the chime. The text says temporary PIN is 5092.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:00]",
+      "end_time": "[07:08]",
+      "start_time_sec": 420,
+      "text": "Excellent. Now please dial 123 on your keypad, and let me know when the automated system prompts you."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:15]",
+      "end_time": "[07:20]",
+      "start_time_sec": 435,
+      "text": "Okay, dialing 123 now... It's ringing... It's asking for my temporary PIN.",
+      "sentiment_score": 7.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:30]",
+      "end_time": "[07:33]",
+      "start_time_sec": 450,
+      "text": "Enter 5092, then press hash."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:40]",
+      "end_time": "[07:47]",
+      "start_time_sec": 460,
+      "text": "Done. Now it's asking me to choose a new four-digit PIN that isn't consecutive numbers.",
+      "sentiment_score": 9.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:56]",
+      "end_time": "[08:03]",
+      "start_time_sec": 476,
+      "text": "Go ahead and enter a new four-digit PIN that you'll remember easily, followed by the hash key."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:10]",
+      "end_time": "[08:17]",
+      "start_time_sec": 490,
+      "text": "Okay, I've entered it twice as requested... It says 'Your new PIN has been successfully saved.'",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:24]",
+      "end_time": "[08:28]",
+      "start_time_sec": 504,
+      "text": "Fantastic. Now does the system read out your mailbox menu?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:35]",
+      "end_time": "[08:46]",
+      "start_time_sec": 515,
+      "text": "Yes, it says 'You have no new messages in your main mailbox. Press 1 to listen to saved messages, or press 2 to change personal options.'",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:53]",
+      "end_time": "[09:01]",
+      "start_time_sec": 533,
+      "text": "Can you confirm you are able to disconnect the call, dial 123 again, and enter your new PIN smoothly?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:08]",
+      "end_time": "[09:18]",
+      "start_time_sec": 548,
+      "text": "Let me just test that quickly. Disconnecting... Dialing 123... Prompting for PIN... Entered it... Yes, it went straight into my mailbox menu!",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:25]",
+      "end_time": "[09:32]",
+      "start_time_sec": 565,
+      "text": "That's wonderful news, Deena. Your mailbox is fully operational and secure for when your consultant calls."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:39]",
+      "end_time": "[09:46]",
+      "start_time_sec": 579,
+      "text": "You have taken so much weight off my shoulders this morning, Maya. Thank you ever so much.",
+      "sentiment_score": 35.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:53]",
+      "end_time": "[10:03]",
+      "start_time_sec": 593,
+      "text": "Also, would you like me to enable voicemail SMS notification alerts, so you get an immediate text whenever someone leaves a voice note?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:10]",
+      "end_time": "[10:15]",
+      "start_time_sec": 610,
+      "text": "Yes, please! Does that cost anything extra on my monthly tariff?",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:22]",
+      "end_time": "[10:29]",
+      "start_time_sec": 622,
+      "text": "No, voicemail text alerts are completely free of charge on all S-Net pay monthly plans."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:36]",
+      "end_time": "[10:45]",
+      "start_time_sec": 636,
+      "text": "That would be super handy, especially if I'm in a noisy clinic waiting area and don't hear the call ring.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:52]",
+      "end_time": "[10:59]",
+      "start_time_sec": 652,
+      "text": "I've toggled SMS notification to active on your account profile now. It takes effect immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:06]",
+      "end_time": "[11:12]",
+      "start_time_sec": 666,
+      "text": "That gives me extra peace of mind. Thank you for thinking of that.",
+      "sentiment_score": 24.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:19]",
+      "end_time": "[11:29]",
+      "start_time_sec": 679,
+      "text": "Just to confirm your billing email address while we have the account open, it's deena dot patel at outlook dot com, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:36]",
+      "end_time": "[11:39]",
+      "start_time_sec": 696,
+      "text": "Yes, that's correct.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:46]",
+      "end_time": "[11:54]",
+      "start_time_sec": 706,
+      "text": "And you can also manage your voicemail greeting through the My S-Net mobile app under Account Settings as well."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:01]",
+      "end_time": "[12:06]",
+      "start_time_sec": 721,
+      "text": "Good to know, I've got the app installed on my phone.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:13]",
+      "end_time": "[12:19]",
+      "start_time_sec": 733,
+      "text": "And your mobile handset has forty gigabytes of data remaining on this billing cycle."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:26]",
+      "end_time": "[12:29]",
+      "start_time_sec": 746,
+      "text": "That is plenty for my needs.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:36]",
+      "end_time": "[12:42]",
+      "start_time_sec": 756,
+      "text": "Can I help you with any other aspect of your S-Net service today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:49]",
+      "end_time": "[12:54]",
+      "start_time_sec": 769,
+      "text": "No, everything else is running smoothly. Thank you again for your patience.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:01]",
+      "end_time": "[13:10]",
+      "start_time_sec": 781,
+      "text": "It was my absolute pleasure. Thank you for choosing S-Net, and I hope everything goes smoothly with your results today, Deena."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:17]",
+      "end_time": "[13:20]",
+      "start_time_sec": 797,
+      "text": "Thank you Maya, have a lovely day.",
+      "sentiment_score": 25.0
+    }
+  ]
+}

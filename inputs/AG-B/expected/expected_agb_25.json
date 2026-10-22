@@ -1,0 +1,193 @@
+{
+  "call_id": "agb_25",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 68.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "Agent left two unmanaged silences exceeding 30 seconds (45s at [02:30] and 42s at [06:50]) without hold announcement or thanks."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent never restated the customer's problem statement during the call, offering only procedural replies."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Agent repeatedly disclaimed personal responsibility, blaming Openreach and stating line takeover issues were 'completely between you, the previous tenant, and Vodafone'."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "New tenancy broadband takeover blocked by outgoing tenant; bridge order processed with tenancy agreement; agent leaves two silences > 30s, fails paraphrasing, and passes blame to third parties",
+    "tier": "good",
+    "duration_sec": 834,
+    "notes": "The agent processed a working line takeover bridge order backed by a newly signed tenancy agreement. However, the agent failed Hold Time and Dead Air by leaving two unmanaged silences > 30s (45s at [02:20] and 42s at [06:40]), failed Paraphrasing by never restating Yasmin's problem statement, and failed Took Ownership of the Problem by repeatedly disclaiming responsibility and passing blame onto Openreach and the outgoing tenant.",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Paraphrasing",
+      "Took ownership of the problem",
+      "Empathy & Acknowledgment Statement"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent left an unmanaged silence of 45 seconds at [02:30] and another of 42 seconds at [06:50] without announcing hold or thanking customer upon return."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:30] Agent: 'I completely understand how critical internet connectivity is for your psychological counseling sessions, Yasmin. Having a line takeover held up by a previous resident is extremely stressful...' - Strong empathetic acknowledgment."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never offered a restatement of the customer's line takeover conflict, proceeding directly into database queries."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[02:50] Agent: 'Well, that is completely between you, the previous tenant, and Vodafone. S-Net has nothing to do with Openreach database locks...' and [12:00] Agent: '...whatever Openreach does with the timeline is entirely their department and not my responsibility.' - Explicit disclaimer of ownership."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 44
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 40
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

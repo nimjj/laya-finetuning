@@ -1,0 +1,478 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Lucas",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net business support, my name is George. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:17]",
+      "end_time": "[00:31]",
+      "start_time_sec": 17,
+      "text": "Hello George. We upgraded our design studio connection to an S-Net Business Fibre 1000 line last week, but our static routed subnet of five usable IPs isn't passing traffic to our external firewall.",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:41]",
+      "end_time": "[00:54]",
+      "start_time_sec": 41,
+      "text": "I understand how vital it is for your design studio servers to have external IP routing functioning properly, Lucas. I will investigate your WAN subnet mapping and resolve this today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:04]",
+      "end_time": "[01:13]",
+      "start_time_sec": 64,
+      "text": "Thank you George. Our client file servers and remote VPN are currently unreachable from outside, so it's halting our production workflow.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:23]",
+      "end_time": "[01:33]",
+      "start_time_sec": 83,
+      "text": "Before we inspect your business routing table, Lucas, could you please verify your company name, full studio address, and your security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[01:53]",
+      "start_time_sec": 103,
+      "text": "Yes, company is Apex Creative Ltd, address is Studio 4, The Old Tannery, St Thomas Street, Bristol, BS1 6JJ, and the PIN is 9152.",
+      "sentiment_score": -1.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:03]",
+      "end_time": "[02:11]",
+      "start_time_sec": 123,
+      "text": "Thank you for verifying those business credentials, Lucas. I have your Business Gigafast profile open on our routing gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:21]",
+      "end_time": "[02:24]",
+      "start_time_sec": 141,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:34]",
+      "end_time": "[02:55]",
+      "start_time_sec": 154,
+      "text": "So if I have understood the issue accurately: your physical fiber link is active and the gateway has its WAN link IP, but your assigned routed subnet of five usable public IP addresses is not forwarding inbound or outbound packets through to your Fortinet firewall. Is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:05]",
+      "end_time": "[03:17]",
+      "start_time_sec": 185,
+      "text": "Yes, spot on. Our Fortigate firewall WAN port is connected to port one on your business gateway, configured with the first usable IP, but gateway ping fails.",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:27]",
+      "end_time": "[03:40]",
+      "start_time_sec": 207,
+      "text": "Understood. On our S-Net business connections with a /29 subnet, there are two distinct IP blocks: the WAN point-to-point /30 link interconnect, and the customer LAN routed /29 block."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:50]",
+      "end_time": "[03:58]",
+      "start_time_sec": 230,
+      "text": "Ah, did the installation engineer configure the gateway in single IP NAT mode instead of routed subnet mode?",
+      "sentiment_score": -2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:08]",
+      "end_time": "[04:21]",
+      "start_time_sec": 248,
+      "text": "Checking the S-Net gateway configuration right now... yes, exactly as you suspected, Lucas. The gateway WAN interface was left in default single-IP NAT mode with DHCP server enabled on LAN ports."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:31]",
+      "end_time": "[04:38]",
+      "start_time_sec": 271,
+      "text": "That explains why our Fortinet was getting a 192.168.1.x private address instead of our static public IP.",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:48]",
+      "end_time": "[05:00]",
+      "start_time_sec": 288,
+      "text": "Precisely. When running your own hardware firewall, the S-Net business gateway needs to have NAT disabled and IP Passthrough / Subnet Routing enabled on LAN port one."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:10]",
+      "end_time": "[05:15]",
+      "start_time_sec": 310,
+      "text": "Can you switch the gateway profile to Subnet Routed mode remotely?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:25]",
+      "end_time": "[05:32]",
+      "start_time_sec": 325,
+      "text": "Yes, I can reconfigure the bridge routing parameters directly from our core broadband network management system."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:42]",
+      "end_time": "[05:50]",
+      "start_time_sec": 342,
+      "text": "What are the exact IP assignments for our /29 block so I can double-check our firewall WAN interface settings?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:00]",
+      "end_time": "[06:07]",
+      "start_time_sec": 360,
+      "text": "Your assigned public subnet is 212.140.78.160/29. The network address is 212.140.78.160, subnet mask is 255.255.255.248."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:17]",
+      "end_time": "[06:21]",
+      "start_time_sec": 377,
+      "text": "And what is the gateway IP address on that subnet?",
+      "sentiment_score": 3.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:31]",
+      "end_time": "[06:41]",
+      "start_time_sec": 391,
+      "text": "The router LAN gateway IP is 212.140.78.161. Your five usable static public IPs for your servers and firewall are 212.140.78.162 through 212.140.78.166."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:51]",
+      "end_time": "[06:57]",
+      "start_time_sec": 411,
+      "text": "Perfect, our Fortinet is already assigned 212.140.78.162 on its WAN port with gateway 212.140.78.161.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:07]",
+      "end_time": "[07:13]",
+      "start_time_sec": 427,
+      "text": "What about your reverse DNS PTR records for your mail server on IP 163?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:23]",
+      "end_time": "[07:30]",
+      "start_time_sec": 443,
+      "text": "We need mail.apexcreative.co.uk pointing to 212.140.78.163 so our outgoing client emails don't get rejected as spam.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:40]",
+      "end_time": "[07:47]",
+      "start_time_sec": 460,
+      "text": "I have updated the authoritative PTR record on our DNS servers for 212.140.78.163 to point to mail.apexcreative.co.uk."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:57]",
+      "end_time": "[08:01]",
+      "start_time_sec": 477,
+      "text": "That is fantastic, saves me raising a separate DNS ticket.",
+      "sentiment_score": 24.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:10]",
+      "end_time": "[08:16]",
+      "start_time_sec": 490,
+      "text": "Are you also running any inbound web services on port 443 across IP 164?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:25]",
+      "end_time": "[08:30]",
+      "start_time_sec": 505,
+      "text": "Yes, our client proofing server runs on IP 164 on HTTPS.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:39]",
+      "end_time": "[08:51]",
+      "start_time_sec": 519,
+      "text": "With true routed subnet mode, all ports from 1 to 65535 pass unfiltered straight to your firewall, so you won't need port forwarding rules on our gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:00]",
+      "end_time": "[09:03]",
+      "start_time_sec": 540,
+      "text": "That's exactly what we want, full transparent routing.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:12]",
+      "end_time": "[09:16]",
+      "start_time_sec": 552,
+      "text": "What MTU are you running across the firewall WAN link?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:25]",
+      "end_time": "[09:30]",
+      "start_time_sec": 565,
+      "text": "We have our Fortinet interface set to standard 1500 bytes MTU.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:39]",
+      "end_time": "[09:46]",
+      "start_time_sec": 579,
+      "text": "That matches our core gateway MTU exactly, so you won't experience packet fragmentation on large file transfers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:55]",
+      "end_time": "[09:59]",
+      "start_time_sec": 595,
+      "text": "Very good to know for heavy Adobe video uploads.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:08]",
+      "end_time": "[10:15]",
+      "start_time_sec": 608,
+      "text": "Now I will apply the bridged routed subnet configuration to your gateway and bounce the LAN interface."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:24]",
+      "end_time": "[10:27]",
+      "start_time_sec": 624,
+      "text": "I'm monitoring the Fortigate interface status right now.",
+      "sentiment_score": 7.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:36]",
+      "end_time": "[10:46]",
+      "start_time_sec": 636,
+      "text": "Please bear with me while I place you on a brief hold for about two minutes while the gateway applies the new routing table."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:12]",
+      "end_time": "[12:23]",
+      "start_time_sec": 732,
+      "text": "Thank you very much for your patience while holding, Lucas. The gateway routing table has updated and LAN port one is in pure subnet routed mode."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:32]",
+      "end_time": "[12:44]",
+      "start_time_sec": 752,
+      "text": "I'm looking at our firewall dashboard... the WAN interface just transitioned to Up, and the default gateway 212.140.78.161 is replying to ICMP ping with zero packet loss!",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:53]",
+      "end_time": "[13:02]",
+      "start_time_sec": 773,
+      "text": "That's excellent! Could you test an inbound connection to your web and file server on IP 162 from an external network?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:11]",
+      "end_time": "[13:19]",
+      "start_time_sec": 791,
+      "text": "Testing from my mobile phone on 5G... our client portal loaded instantly, and our SSL certificate validated cleanly!",
+      "sentiment_score": 36.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:28]",
+      "end_time": "[13:33]",
+      "start_time_sec": 808,
+      "text": "And what about the outgoing email queue on your mail server?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:42]",
+      "end_time": "[13:53]",
+      "start_time_sec": 822,
+      "text": "Checking the Postfix mail logs... three pending design proof emails just delivered successfully to clients! I was so anxious about clients thinking our system was down.",
+      "sentiment_score": 31.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:02]",
+      "end_time": "[14:08]",
+      "start_time_sec": 842,
+      "text": "That confirms two-way routing, NAT bypass, and reverse DNS validation are operating flawlessly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:17]",
+      "end_time": "[14:24]",
+      "start_time_sec": 857,
+      "text": "Let's do a quick speed test through the firewall just to ensure full gigabit throughput.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:33]",
+      "end_time": "[14:39]",
+      "start_time_sec": 873,
+      "text": "Go right ahead, Lucas. I'm watching the interface traffic meters on our core switch."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:48]",
+      "end_time": "[14:58]",
+      "start_time_sec": 888,
+      "text": "Speed test through the Fortigate shows nine hundred and thirty-eight megabits down, and one hundred and four megabits upload, ping four milliseconds.",
+      "sentiment_score": 35.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:07]",
+      "end_time": "[15:13]",
+      "start_time_sec": 907,
+      "text": "Nine hundred and thirty-eight megabits through your hardware firewall is outstanding real-world performance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:22]",
+      "end_time": "[15:30]",
+      "start_time_sec": 922,
+      "text": "Our studio workflow is completely back to normal. You have no idea what a relief this is, George.",
+      "sentiment_score": 38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:39]",
+      "end_time": "[15:46]",
+      "start_time_sec": 939,
+      "text": "What about your out-of-band management interface on the gateway? Is it secured with an admin password?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:55]",
+      "end_time": "[16:01]",
+      "start_time_sec": 955,
+      "text": "Yes, I changed the admin password as soon as the box was delivered.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:10]",
+      "end_time": "[16:18]",
+      "start_time_sec": 970,
+      "text": "Does your business also have our 4G LTE cellular backup failover SIM installed in the secondary SIM slot?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:27]",
+      "end_time": "[16:33]",
+      "start_time_sec": 987,
+      "text": "Yes, the technician installed the backup SIM dongle into the gateway USB port.",
+      "sentiment_score": 19.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:42]",
+      "end_time": "[16:53]",
+      "start_time_sec": 1002,
+      "text": "I can confirm the cellular backup status is in hot standby, ready to take over in under ten seconds if the physical fiber ever went dark."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:02]",
+      "end_time": "[17:08]",
+      "start_time_sec": 1022,
+      "text": "That gives us true business continuity, perfect for our client service level agreements.",
+      "sentiment_score": 27.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:17]",
+      "end_time": "[17:24]",
+      "start_time_sec": 1037,
+      "text": "I've also registered our secondary recursive DNS resolvers 212.140.64.1 and 212.140.64.2 in your business profile for redundancy."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:33]",
+      "end_time": "[17:37]",
+      "start_time_sec": 1053,
+      "text": "That provides great DNS resilience across our entire design network.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:46]",
+      "end_time": "[17:53]",
+      "start_time_sec": 1066,
+      "text": "I'm delighted we could get Apex Creative Ltd fully routed and operational for your team, Lucas."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:02]",
+      "end_time": "[18:07]",
+      "start_time_sec": 1082,
+      "text": "Your technical knowledge of business subnets and Fortinet firewalls was top-notch.",
+      "sentiment_score": 32.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:16]",
+      "end_time": "[18:26]",
+      "start_time_sec": 1096,
+      "text": "Thank you, Lucas. Is there anything else with your S-Net business account or static IP routing that I can assist with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:35]",
+      "end_time": "[18:40]",
+      "start_time_sec": 1115,
+      "text": "No, you've sorted out the entire configuration perfectly. Thank you George!",
+      "sentiment_score": 26.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:49]",
+      "end_time": "[18:58]",
+      "start_time_sec": 1129,
+      "text": "Thank you for choosing S-Net today, Lucas. Have a productive day at the studio and all the best with your projects."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:07]",
+      "end_time": "[19:10]",
+      "start_time_sec": 1147,
+      "text": "Thanks George, take care. Goodbye.",
+      "sentiment_score": 19.5
+    }
+  ]
+}

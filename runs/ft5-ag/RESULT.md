@@ -38,4 +38,4 @@ AG-B2 alone: old 73/84, new 77/84 (p 0.29).
 - Not measured: Ollama on AG-B (needs the Ollama copy and about 6.5 hours of CPU). No claim against Ollama can be made from this.
 - AG-B and AG-B2 are now spent for these two models: any change designed after reading this makes them development sets.
 
-Probes: `inputs/Test (results)/Laya probes/exam_*.json` (stored without snippet text). Scoring: `Scripts/cutoff_eval.py --cutoffs`.
+Probes: `laya-finetuning/inputs/Test (results)/Laya probes/exam_*.json` (stored without snippet text). Scoring: `laya-finetuning/eval/cutoff_eval.py --cutoffs`.

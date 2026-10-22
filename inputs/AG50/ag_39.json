@@ -1,0 +1,614 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Violetta",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:09]",
+      "start_time_sec": 0,
+      "text": "Good evening, thank you for calling S-Net Entertainment and TV Support. My name is Chloe speaking. Who do I have the pleasure of speaking with today?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:18]",
+      "start_time_sec": 10,
+      "text": "Hi Chloe, my name is Violetta Kowalski. My Netflix and Disney+ entertainment bundle activation token expired before I could link my account.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:19]",
+      "end_time": "[00:30]",
+      "start_time_sec": 19,
+      "text": "Oh, I am so sorry about that, Violetta! I completely understand how disappointing it is when you sit down to watch your shows and the bundle link won't work.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:31]",
+      "end_time": "[00:39]",
+      "start_time_sec": 31,
+      "text": "Thank you, yes, I promised my kids we would watch a movie together tonight and instead I'm stuck staring at an error screen.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:40]",
+      "end_time": "[00:55]",
+      "start_time_sec": 40,
+      "text": "Your Netflix and Disney+ entertainment bundle activation token expired before you could link your account. Let's get you verified first so I can fix that right away—could you confirm your postcode, first line of your address, and your four-digit security PIN?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:56]",
+      "end_time": "[01:01]",
+      "start_time_sec": 56,
+      "text": "Sure, it's 14 Sycamore Avenue, Guildford, GU1 3RX, and my four-digit security PIN is 3185.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:02]",
+      "end_time": "[01:09]",
+      "start_time_sec": 62,
+      "text": "Thank you, Violetta, I have verified 14 Sycamore Avenue, GU1 3RX and PIN 3185 on your S-Net Superfast & Entertainment profile.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:10]",
+      "end_time": "[01:15]",
+      "start_time_sec": 70,
+      "text": "Great, I added the Ultimate Entertainment Bolt-On last week when I upgraded my broadband package.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:16]",
+      "end_time": "[01:27]",
+      "start_time_sec": 76,
+      "text": "Let me ask a few diagnostic questions so we make sure the new entitlement links cleanly. First, what exact error code or message appears when you tap the activation link?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:28]",
+      "end_time": "[01:36]",
+      "start_time_sec": 88,
+      "text": "It opens a page on the S-Net partner portal that says 'Error ENT-410: Activation Token Expired – Valid for 72 Hours Only'.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:37]",
+      "end_time": "[01:44]",
+      "start_time_sec": 97,
+      "text": "Error ENT-410 confirms the initial 72-hour provisioning token timed out in our Partner Entitlement Gateway while your broadband upgrade was completing.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:45]",
+      "end_time": "[01:54]",
+      "start_time_sec": 105,
+      "text": "That makes sense because I received the welcome text while I was away in Krakow visiting my parents and didn't click it until this evening.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:55]",
+      "end_time": "[02:04]",
+      "start_time_sec": 115,
+      "text": "Ah, I hope you had a lovely trip visiting your family in Krakow! Did you get good weather while you were over in Poland?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:05]",
+      "end_time": "[02:12]",
+      "start_time_sec": 125,
+      "text": "It was crisp and sunny every day, thank you, we had a wonderful time walking around the old town square.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:13]",
+      "end_time": "[02:22]",
+      "start_time_sec": 133,
+      "text": "That sounds gorgeous! Now for my second diagnostic question: do you already have existing standalone Netflix or Disney+ accounts, or are you creating brand-new ones?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:23]",
+      "end_time": "[02:30]",
+      "start_time_sec": 143,
+      "text": "I already have both under my personal email, which is violetta.kowalski88@gmail.com—that's v-i-o-l-e-t-t-a dot k-o-w-a-l-s-k-i 88 at gmail dot com.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:31]",
+      "end_time": "[02:40]",
+      "start_time_sec": 151,
+      "text": "Got that noted, and did you already cancel the direct card billing on those existing accounts, or are they still active on your Visa or Mastercard?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:41]",
+      "end_time": "[02:50]",
+      "start_time_sec": 161,
+      "text": "They are both still active on my debit card right now because the S-Net guide said linking the token automatically pauses direct card billing.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:51]",
+      "end_time": "[03:02]",
+      "start_time_sec": 171,
+      "text": "That is completely right, Violetta—once the S-Net billing bridge links to your login, Netflix and Disney+ automatically switch payment method to 'Billed via S-Net' without losing your watch history or profiles.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:03]",
+      "end_time": "[03:07]",
+      "start_time_sec": 183,
+      "text": "Oh good, my kids would never forgive me if their Disney+ watchlists disappeared!",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:17]",
+      "start_time_sec": 188,
+      "text": "We definitely won't let their watchlists vanish! Third diagnostic question: which device and browser are you using to open the activation portal right now?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:18]",
+      "end_time": "[03:27]",
+      "start_time_sec": 198,
+      "text": "I'm on my iPad Air using Safari, and I noticed earlier that Safari had Content Blockers turned on, though I switched them off ten minutes ago.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:28]",
+      "end_time": "[03:36]",
+      "start_time_sec": 208,
+      "text": "And are you connected to your home S-Net Wi-Fi network on that iPad Air right now, or using mobile data or a VPN?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:37]",
+      "end_time": "[03:42]",
+      "start_time_sec": 217,
+      "text": "I'm connected directly to our home S-Net Wi-Fi with no VPN turned on.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:43]",
+      "end_time": "[03:54]",
+      "start_time_sec": 223,
+      "text": "Being on your home S-Net Wi-Fi with Safari Content Blockers off is ideal because strict cross-site tracking prevention can sometimes block the redirect back from Netflix to S-Net.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:55]",
+      "end_time": "[04:03]",
+      "start_time_sec": 235,
+      "text": "Why didn't the 'Resend Activation Link' button inside my MyS-Net dashboard work when I tapped it five minutes ago?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:04]",
+      "end_time": "[04:16]",
+      "start_time_sec": 244,
+      "text": "When a token hits Error ENT-410 in the Partner Entitlement Gateway, the self-service 'Resend' button just re-emails the same expired token ID unless an agent purges the stuck session first.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:17]",
+      "end_time": "[04:24]",
+      "start_time_sec": 257,
+      "text": "Oh, I see! That explains why the second link I requested gave me the exact same ENT-410 screen.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:25]",
+      "end_time": "[04:36]",
+      "start_time_sec": 265,
+      "text": "I am going to take care of purging both stuck entitlement tokens in the backend gateway and generating a fresh 72-hour activation pair for you right now, Violetta.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:37]",
+      "end_time": "[04:41]",
+      "start_time_sec": 277,
+      "text": "Thank you, Chloe, how long does that take to reset?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:42]",
+      "end_time": "[04:52]",
+      "start_time_sec": 282,
+      "text": "Just about a minute. Please bear with me while I revoke token batch ENT-88219 in the Partner Entitlement Gateway and generate fresh activation keys.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:53]",
+      "end_time": "[04:56]",
+      "start_time_sec": 293,
+      "text": "Sure, take your time, I'll wait right here.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:55]",
+      "end_time": "[06:04]",
+      "start_time_sec": 355,
+      "text": "Thank you for holding, Violetta! I have purged the expired ENT-410 session records for both your Netflix Standard and Disney+ Standard subscriptions.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:05]",
+      "end_time": "[06:10]",
+      "start_time_sec": 365,
+      "text": "Awesome! Were you able to generate the brand-new activation tokens on the system?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:11]",
+      "end_time": "[06:18]",
+      "start_time_sec": 371,
+      "text": "Yes, the Partner Entitlement Gateway has just issued fresh token reference PEG-550912 for Netflix and PEG-550913 for Disney+.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:19]",
+      "end_time": "[06:24]",
+      "start_time_sec": 379,
+      "text": "And both of those are ready to link right now on my iPad?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:25]",
+      "end_time": "[06:30]",
+      "start_time_sec": 385,
+      "text": "Yes, they are live and unlocked in the billing bridge right now.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:31]",
+      "end_time": "[06:35]",
+      "start_time_sec": 391,
+      "text": "Great, how do I open them on my iPad?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:36]",
+      "end_time": "[06:45]",
+      "start_time_sec": 396,
+      "text": "I can push both activation links straight out to you from my console by SMS and email so you can tap them immediately.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:46]",
+      "end_time": "[06:54]",
+      "start_time_sec": 406,
+      "text": "Yes please, sending them over now would be brilliant so we can test them while you're still on the phone.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:55]",
+      "end_time": "[07:05]",
+      "start_time_sec": 415,
+      "text": "Before I click send on the gateway dispatch, let me verify that your mobile number ending in 0942 is beside you for the SMS backup link.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:06]",
+      "end_time": "[07:13]",
+      "start_time_sec": 426,
+      "text": "Yes, my mobile ending in 0942 is sitting right next to my iPad on the coffee table.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:14]",
+      "end_time": "[07:19]",
+      "start_time_sec": 434,
+      "text": "Perfect, I have queued the SMS link to your 0942 mobile number.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:20]",
+      "end_time": "[07:29]",
+      "start_time_sec": 440,
+      "text": "And can you send the email version as well since it's easier to tap straight from the mail app on my iPad?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:30]",
+      "end_time": "[07:37]",
+      "start_time_sec": 450,
+      "text": "Of course, Violetta! And what email address would you like me to send the new activation token to?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:38]",
+      "end_time": "[07:45]",
+      "start_time_sec": 458,
+      "text": "Chloe, I literally spelled my email address out letter by letter for you a few minutes ago—it's violetta.kowalski88@gmail.com!",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:46]",
+      "end_time": "[07:58]",
+      "start_time_sec": 466,
+      "text": "Oh, I am so sorry about that, Violetta! You did spell out violetta.kowalski88@gmail.com earlier when we talked about your existing logins—let me dispatch the email to that address right now.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:59]",
+      "end_time": "[08:07]",
+      "start_time_sec": 479,
+      "text": "All right, let me check my Gmail inbox on my iPad... okay, the email from S-Net Entertainment Hub just arrived!",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:08]",
+      "end_time": "[08:17]",
+      "start_time_sec": 488,
+      "text": "Wonderful! Let's stay on the line together while you tap the first button—'Activate Netflix on S-Net'—so we can confirm it links properly.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:18]",
+      "end_time": "[08:27]",
+      "start_time_sec": 498,
+      "text": "Okay, I'm tapping 'Activate Netflix on S-Net' now... it opened the Netflix sign-in page with the S-Net partner banner at the top.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:28]",
+      "end_time": "[08:35]",
+      "start_time_sec": 508,
+      "text": "That partner banner means token PEG-550912 authenticated cleanly! Go ahead and sign in with your existing Netflix password.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:36]",
+      "end_time": "[08:44]",
+      "start_time_sec": 516,
+      "text": "Signing in now... and it says 'Success! Your Netflix Standard membership is now included with your S-Net Entertainment Bundle'!",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:45]",
+      "end_time": "[08:53]",
+      "start_time_sec": 525,
+      "text": "Fantastic! And if you tap 'View Account Membership Details' on that screen, what does it show under Billing & Payment?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:54]",
+      "end_time": "[09:02]",
+      "start_time_sec": 534,
+      "text": "It says 'Billed through S-Net – Next card charge paused', and all four of our family profiles are still right there!",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:03]",
+      "end_time": "[09:13]",
+      "start_time_sec": 543,
+      "text": "That is one down! Now let's pop back to the S-Net email on your iPad and tap the second button, 'Activate Disney+ on S-Net'.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:14]",
+      "end_time": "[09:22]",
+      "start_time_sec": 554,
+      "text": "Okay, going back to Gmail and tapping the Disney+ activation button now... it's redirecting to the Disney+ partner linking page.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:23]",
+      "end_time": "[09:31]",
+      "start_time_sec": 563,
+      "text": "Great, log in with the same email and password and let me know what status message comes up on your screen.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:32]",
+      "end_time": "[09:39]",
+      "start_time_sec": 572,
+      "text": "Hold on, it's loading... yes! It says 'Your Disney+ subscription is now linked and managed by S-Net'!",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:40]",
+      "end_time": "[09:50]",
+      "start_time_sec": 580,
+      "text": "Let me refresh my Partner Entitlement Gateway screen here... yes, both PEG-550912 and PEG-550913 have flipped from 'Pending Token' to 'Active & Linked to S-Net Billing'!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:51]",
+      "end_time": "[10:00]",
+      "start_time_sec": 591,
+      "text": "Let me check my MyS-Net dashboard page too... yes, both Netflix and Disney+ now have green ticks and say 'Linked to S-Net Billing'!",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:01]",
+      "end_time": "[10:10]",
+      "start_time_sec": 601,
+      "text": "And will you also receive an email from Netflix and Disney+ confirming that your direct Visa debit card billing has been paused?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:11]",
+      "end_time": "[10:19]",
+      "start_time_sec": 611,
+      "text": "Actually, two automated emails from Netflix and Disney+ just landed in my Gmail inbox confirming billing has switched to S-Net!",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:20]",
+      "end_time": "[10:34]",
+      "start_time_sec": 620,
+      "text": "And just so there are no billing surprises, Violetta, because your bundle wasn't linked during the first six days of your upgrade, I have applied a five-pound pro-rata credit to your next S-Net bill.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:35]",
+      "end_time": "[10:41]",
+      "start_time_sec": 635,
+      "text": "Oh, thank you so much, Chloe, I didn't even expect a credit for those six days!",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:42]",
+      "end_time": "[10:50]",
+      "start_time_sec": 642,
+      "text": "You shouldn't pay for days before the bundle was linked! That five-pound credit is already sitting on your next bill summary.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:51]",
+      "end_time": "[10:59]",
+      "start_time_sec": 651,
+      "text": "That's really thoughtful of you. So we are completely good to start our family movie night on the smart TV now?",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:00]",
+      "end_time": "[11:10]",
+      "start_time_sec": 660,
+      "text": "You are 100 percent ready to go, Violetta—your smart TV apps are already logged into those same accounts, and the billing is now covered by S-Net.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:11]",
+      "end_time": "[11:17]",
+      "start_time_sec": 671,
+      "text": "Brilliant, the kids are going to be thrilled we can finally put the movie on.",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:18]",
+      "end_time": "[11:23]",
+      "start_time_sec": 678,
+      "text": "What movie have the kids picked out for tonight's family movie night?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:24]",
+      "end_time": "[11:29]",
+      "start_time_sec": 684,
+      "text": "We're watching Inside Out 2 on Disney+ with a big bowl of popcorn!",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:30]",
+      "end_time": "[11:42]",
+      "start_time_sec": 690,
+      "text": "Oh, Inside Out 2 is such a fun film, you will all love it! Can I confirm everything with your Netflix and Disney+ bundle is completely resolved for you this evening?",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:43]",
+      "end_time": "[11:47]",
+      "start_time_sec": 703,
+      "text": "Yes, both accounts are linked and working properly now, thank you.",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:48]",
+      "end_time": "[11:56]",
+      "start_time_sec": 708,
+      "text": "Is there anything else at all I can help you with on your S-Net broadband or TV package tonight, Violetta?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:57]",
+      "end_time": "[11:59]",
+      "start_time_sec": 717,
+      "text": "No, that's everything, thank you Chloe.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:00]",
+      "end_time": "[12:12]",
+      "start_time_sec": 720,
+      "text": "Thank you for choosing S-Net, Violetta, and if you have a quick moment after we finish, there will be a short survey on my service tonight. Enjoy your movie!",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:13]",
+      "end_time": "[12:15]",
+      "start_time_sec": 733,
+      "text": "Thanks Chloe, goodnight!",
+      "sentiment_score": 24.0
+    }
+  ]
+}

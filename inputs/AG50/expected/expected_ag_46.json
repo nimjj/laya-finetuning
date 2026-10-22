@@ -1,0 +1,162 @@
+{
+  "call_id": "ag_46",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 66.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "At [13:38], the agent ended the call saying 'Take care, bye now' and omitted the mandatory closing brand phrase 'Thank you for choosing S-Net'."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Although the customer introduced herself as Orlaith at [00:09], the agent never used the customer's name 'Orlaith' at any point during the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At [04:44], the agent deflected responsibility to a third-party agency by stating that Blackhawk runs the promotion, that it is 'not our department', and that the customer would have to email their claims desk herself."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At [06:18], the agent made a dismissive and unprofessional remark ('I really don't know why customers expect technical and billing support to chase affiliate gift cards')."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Promotional £75 prepaid reward card never arrived 60 days after activating S-Net Fibre 300",
+    "tier": "okay",
+    "duration_sec": 820,
+    "notes": "Okay call with 4 FAILs (B, P, O, R). Agent Harriet opens with proper S-Net branding at [00:00], empathizes at [00:21], paraphrases at [00:44], verifies address and PIN at [01:09], and probes thoroughly into the Uswitch referral. However, she never uses the customer's name 'Orlaith' (P FAIL), deflects blame to third-party agency Blackhawk at [04:44] (O FAIL), makes a dismissive remark about customers at [06:18] (R FAIL), and omits the closing brand phrase at [13:38] (B FAIL). After Orlaith pushes back, Harriet voids the voucher during a managed hold ([08:06]–[09:22]) and applies a direct £75 bill credit, which Orlaith confirms live in her My S-Net app at [11:24] (RE PASS).",
+    "hard_cases": [
+      "Branding and Survey Check",
+      "Took ownership of the problem",
+      "Build rapport and observed professionalism",
+      "Empathy & Acknowledgment Statement",
+      "Paraphrasing",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'Good morning, thank you for calling S-Net Customer Support.' (greeting present); [13:38] Agent: 'Take care, bye now.' (missing 'Thank you for choosing S-Net' in last 4 turns)."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[08:06] Agent: 'May I place you on a brief hold while I void the external Blackhawk claim ID...' -> [09:22] Agent: 'Thank you for holding.'"
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:09] Agent asks for full postal address and four-digit security PIN; [01:21] Customer confirms 19 Meadowbank Crescent and PIN 4829."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:09] Customer states her name is Orlaith, but zero Agent turns contain 'Orlaith'."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:21] Agent: 'I am really sorry to hear that your seventy-five pound prepaid reward card still hasn't come through after two months, as I completely understand how frustrating it is waiting on a sign-up incentive you were promised.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:44] Agent: 'So just to make sure I have the full picture, you activated your S-Net Fibre 300 package around sixty days ago under the promotional seventy-five pound prepaid MasterCard offer, and you have not received the card or claim link yet, is that right?'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent accurately tracks the Uswitch reference USW-994182-SN, August 5 order date, and August 14 installation date without asking the customer to repeat any details."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[04:44] Agent: 'Look, the third-party voucher fulfilment agency Blackhawk runs that reward card promotion, that's not our department and you'd normally have to email their claims desk yourself.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[06:18] Agent: 'I really don't know why customers expect technical and billing support to chase affiliate gift cards.'"
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:43] Agent probes whether the order was placed via a comparison site; [02:09] Agent probes for the affiliate registration reference, installation date, and spam folder checks."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[09:22] Agent voids the stuck voucher and applies a direct £75.00 bill credit (ADJ-884920); [11:24] Customer refreshes her My S-Net page and confirms '-£75.00' credit balance is live."
+      }
+    ]
+  }
+}

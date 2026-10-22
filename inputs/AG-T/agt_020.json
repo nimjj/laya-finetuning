@@ -1,0 +1,433 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Clara",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer services, my name is Darren. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:17]",
+      "end_time": "[00:33]",
+      "start_time_sec": 17,
+      "text": "Hello Darren. My name is Clara Oswald. I have an urgent issue with my home phone. I am trying to call my family in Sydney, Australia, but every single call is instantly blocked by an automated message.",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:43]",
+      "end_time": "[00:55]",
+      "start_time_sec": 43,
+      "text": "Good morning Clara. I can check your telephone line features. Before we inspect your line provisioning, could you please confirm your full postal address and your account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:05]",
+      "end_time": "[01:17]",
+      "start_time_sec": 65,
+      "text": "Yes, my address is 42 Westbourne Gardens, Glasgow, G12 9PF, and my security PIN is 7731. The Sydney number I am trying to call is 0061 2 9385 1199.",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:27]",
+      "end_time": "[01:35]",
+      "start_time_sec": 87,
+      "text": "Thank you Clara, that verifies your account. What does the automated announcement say when you attempt to dial Australia?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:45]",
+      "end_time": "[01:55]",
+      "start_time_sec": 105,
+      "text": "It says: Calls to this international destination are barred from this telephone line. Our landline number here in Glasgow is 0141 496 0822.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:05]",
+      "end_time": "[02:24]",
+      "start_time_sec": 125,
+      "text": "So if I understand the situation correctly, Clara, you have been trying to reach your family in Sydney on the international prefix 0061, but every call is rejected with an automated barring announcement, and you need that international call restriction removed immediately, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:34]",
+      "end_time": "[02:42]",
+      "start_time_sec": 154,
+      "text": "Yes, exactly that. It was working fine last month when I called my sister, but today it refuses to connect.",
+      "sentiment_score": -12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:51]",
+      "end_time": "[03:00]",
+      "start_time_sec": 171,
+      "text": "Bear with me for a couple of minutes while I open your voice telephony routing profile on our central network switch."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:26]",
+      "end_time": "[04:38]",
+      "start_time_sec": 266,
+      "text": "Thank you for waiting, Clara. I am inspecting your switch line features. The account currently has the standard international call barring option enabled at the local exchange layer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:47]",
+      "end_time": "[04:54]",
+      "start_time_sec": 287,
+      "text": "Why on earth would that be turned on? I never asked anyone to bar my calls to Australia!",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:03]",
+      "end_time": "[05:19]",
+      "start_time_sec": 303,
+      "text": "My mother is eighty-four and had a sudden hospital scare this morning, and every time I dial it just beeps and cuts off! I am terrified something has happened to her and I cannot even reach her hospital bedside!",
+      "sentiment_score": -52.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:28]",
+      "end_time": "[05:34]",
+      "start_time_sec": 328,
+      "text": "I need to check the call feature barring profile on our central exchange switch."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:43]",
+      "end_time": "[05:48]",
+      "start_time_sec": 343,
+      "text": "Please check it as quickly as possible, I am trembling with worry.",
+      "sentiment_score": -33.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:57]",
+      "end_time": "[06:15]",
+      "start_time_sec": 357,
+      "text": "I can hear how terrifying that situation is with your mother in hospital, Clara, but unfortunately under company security policy I cannot lift an international high-rate bar on a standard call without sending a one-time passcode to the account mobile phone first."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:24]",
+      "end_time": "[06:31]",
+      "start_time_sec": 384,
+      "text": "That is fine, send the code to my mobile right now! Anything to get this sorted quickly.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:40]",
+      "end_time": "[06:48]",
+      "start_time_sec": 400,
+      "text": "I have dispatched the six-digit verification code via SMS to the mobile number registered on file ending in 502."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:57]",
+      "end_time": "[07:02]",
+      "start_time_sec": 417,
+      "text": "I have my mobile here. The code just arrived: it is 839 201.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:11]",
+      "end_time": "[07:17]",
+      "start_time_sec": 431,
+      "text": "Thank you. That security token authenticates the request to modify call barring on your telephone line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:26]",
+      "end_time": "[07:32]",
+      "start_time_sec": 446,
+      "text": "Can you tell me how this bar got put on my phone in the first place?",
+      "sentiment_score": -16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:41]",
+      "end_time": "[07:53]",
+      "start_time_sec": 461,
+      "text": "Well if you had actually checked your monthly bill insert last month, you would know all residential accounts had international premium calling barred by default for fraud prevention."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:02]",
+      "end_time": "[08:15]",
+      "start_time_sec": 482,
+      "text": "You do not have to speak to me with such condescension! I am an anxious customer trying to contact my sick mother, not an idiot who needs scolding about bill inserts.",
+      "sentiment_score": -41.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:24]",
+      "end_time": "[08:32]",
+      "start_time_sec": 504,
+      "text": "I am stating the company billing procedure. I am now unchecking the international outgoing call bar on the switch console."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:41]",
+      "end_time": "[08:46]",
+      "start_time_sec": 521,
+      "text": "How long does the switch take to update once you uncheck it?",
+      "sentiment_score": -11.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:55]",
+      "end_time": "[09:03]",
+      "start_time_sec": 535,
+      "text": "And before I update the network barring profile on our switch, that UK landline number was 0141 496 0822, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:12]",
+      "end_time": "[09:16]",
+      "start_time_sec": 552,
+      "text": "Yes, 0141 496 0822. That is our home number.",
+      "sentiment_score": 2.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:25]",
+      "end_time": "[09:32]",
+      "start_time_sec": 565,
+      "text": "Give me a moment while the exchange provisioning system commits the change across the digital local loop."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:41]",
+      "end_time": "[09:47]",
+      "start_time_sec": 581,
+      "text": "Once it is unbarred, will my calls definitely go through to Sydney without any connection drops?",
+      "sentiment_score": -9.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:56]",
+      "end_time": "[10:05]",
+      "start_time_sec": 596,
+      "text": "Once the call leaves the UK gateway, Telstra Australia handles the routing. Any connection problems down there are Telstra's responsibility, not ours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:14]",
+      "end_time": "[10:20]",
+      "start_time_sec": 614,
+      "text": "I understand that other networks are involved, but surely S-Net manages the handoff reliably.",
+      "sentiment_score": -15.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:29]",
+      "end_time": "[10:36]",
+      "start_time_sec": 629,
+      "text": "Obviously international calling features carry significant toll fraud risk, so the network switch applies strict automated limits."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:45]",
+      "end_time": "[10:52]",
+      "start_time_sec": 645,
+      "text": "I understand the need for fraud prevention, but people have families overseas they need to speak with.",
+      "sentiment_score": -8.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:01]",
+      "end_time": "[11:10]",
+      "start_time_sec": 661,
+      "text": "The system has submitted the unbarring instruction. It takes between five and ten minutes to propagate through the regional tandem exchange."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:19]",
+      "end_time": "[11:23]",
+      "start_time_sec": 679,
+      "text": "Five to ten minutes? Is there any way to expedite it?",
+      "sentiment_score": -20.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:32]",
+      "end_time": "[11:39]",
+      "start_time_sec": 692,
+      "text": "No, exchange batches run on automated five-minute cycles. We have to wait for the next cycle acknowledgment."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:48]",
+      "end_time": "[11:52]",
+      "start_time_sec": 708,
+      "text": "Okay, I will wait on the line.",
+      "sentiment_score": -1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:01]",
+      "end_time": "[12:06]",
+      "start_time_sec": 721,
+      "text": "What was the exact Australian telephone number you were trying to dial again?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:15]",
+      "end_time": "[12:21]",
+      "start_time_sec": 735,
+      "text": "I gave you that right at the start! It is 0061 2 9385 1199, Sydney, Australia.",
+      "sentiment_score": -27.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:30]",
+      "end_time": "[12:38]",
+      "start_time_sec": 750,
+      "text": "I have entered that destination number into the call routing diagnostic monitor to watch for the next outbound attempt."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:47]",
+      "end_time": "[12:54]",
+      "start_time_sec": 767,
+      "text": "Thank you. Do I need to dial any special area codes or just the standard international format?",
+      "sentiment_score": -3.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:03]",
+      "end_time": "[13:15]",
+      "start_time_sec": 783,
+      "text": "You dial 00, then 61 for Australia, then drop the leading zero. And just to confirm the local Sydney number before you dial, that was 9385 1199, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:24]",
+      "end_time": "[13:29]",
+      "start_time_sec": 804,
+      "text": "Right, 9385 1199. That is exactly what I dialled from my handset.",
+      "sentiment_score": 3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:38]",
+      "end_time": "[13:46]",
+      "start_time_sec": 818,
+      "text": "Bear with me for two minutes while I query the exchange database for the completion receipt of the unbarring batch."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:13]",
+      "end_time": "[15:21]",
+      "start_time_sec": 913,
+      "text": "Thank you for waiting, Clara. The regional tandem switch has officially acknowledged the modification. The international bar has been cleared."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:30]",
+      "end_time": "[15:35]",
+      "start_time_sec": 930,
+      "text": "Is it completely active right now or do we still need to wait?",
+      "sentiment_score": -6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:44]",
+      "end_time": "[15:51]",
+      "start_time_sec": 944,
+      "text": "The switch queue indicates processing is ninety percent complete. It should be fully active in two moments."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:00]",
+      "end_time": "[16:04]",
+      "start_time_sec": 960,
+      "text": "Can I try dialling it now while we are talking?",
+      "sentiment_score": -5.1
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:13]",
+      "end_time": "[16:30]",
+      "start_time_sec": 973,
+      "text": "I have been on this phone for over fifteen minutes while my sick mother is waiting for me to call Sydney! Why is this taking so long when it is just a switch setting?! I am getting so stressed out!",
+      "sentiment_score": -51.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:39]",
+      "end_time": "[16:45]",
+      "start_time_sec": 999,
+      "text": "The switch update takes thirty seconds. I am waiting for the confirmation flag on my terminal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:54]",
+      "end_time": "[16:58]",
+      "start_time_sec": 1014,
+      "text": "Fine. Tell me when to dial.",
+      "sentiment_score": -19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:07]",
+      "end_time": "[17:15]",
+      "start_time_sec": 1027,
+      "text": "The green status indicator has appeared. Please pick up your cordless handset and dial the full Australian number now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:24]",
+      "end_time": "[17:32]",
+      "start_time_sec": 1044,
+      "text": "Okay, dialling 00 61 2 9385 1199 now... Hearing tones... It is ringing! The Australian double ring tone is ringing!",
+      "sentiment_score": 29.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:41]",
+      "end_time": "[17:47]",
+      "start_time_sec": 1061,
+      "text": "That confirms the international bar is completely lifted and outgoing international calls are routing successfully."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:56]",
+      "end_time": "[18:06]",
+      "start_time_sec": 1076,
+      "text": "Someone picked up in Sydney! Hello, yes, it connected! I can hear my sister clearly! Thank you, I need to speak to them right away.",
+      "sentiment_score": 38.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:15]",
+      "end_time": "[18:19]",
+      "start_time_sec": 1095,
+      "text": "I will let you proceed with your family call immediately, Clara."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:28]",
+      "end_time": "[18:32]",
+      "start_time_sec": 1108,
+      "text": "Thank you, goodbye.",
+      "sentiment_score": 7.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:41]",
+      "end_time": "[18:47]",
+      "start_time_sec": 1121,
+      "text": "Thank you for choosing S-Net today, Clara. Goodbye."
+    }
+  ]
+}

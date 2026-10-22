@@ -2,8 +2,8 @@
 
 Use it when weights move between machines (checkpoints are not in git):
 
-    python tools/checkpoint_manifest.py write  checkpoints/final-softce-3 --out runs/ft3-stage3/final-softce-3.manifest.json
-    python tools/checkpoint_manifest.py verify checkpoints/final-softce-3 --manifest runs/ft3-stage3/final-softce-3.manifest.json
+    python tools/checkpoint_manifest.py write  ../models/final-softce-3 --out runs/ft3-stage3/final-softce-3.manifest.json
+    python tools/checkpoint_manifest.py verify ../models/final-softce-3 --manifest runs/ft3-stage3/final-softce-3.manifest.json
 
     # only the main weights file of the downloaded base snapshot:
     python tools/checkpoint_manifest.py write <hf_home>/hub/models--convaiinnovations--laya/snapshots/<rev> --glob model.safetensors --out data/frozen/base_laya.manifest.json

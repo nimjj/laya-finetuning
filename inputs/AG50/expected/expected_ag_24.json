@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_24",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 73.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "The agent failed to verify the customer's identity within the first 240 seconds of the call, only asking for the customer's home address, PIN, and security question at [04:21]-[04:46] after the four-minute threshold had passed."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "At [00:52], instead of restating the customer's issue in her own words, the agent echoed the customer's exact sentence from [00:12] almost verbatim."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Mobile voicemail box locked after too many wrong passcode attempts while waiting for an urgent hospital clinic message",
+    "tier": "good",
+    "duration_sec": 1150,
+    "notes": "Near-miss V FAIL and echo-trap PA FAIL on an otherwise warm, thorough call. In the first 4 minutes ([00:00]-[04:13]), Agent Megan refers only to the 'voicemail passcode' and only asks for Anusha's home address, account PIN, and security question at [04:21]-[04:46] (just past the 240s threshold). At [00:52], Megan parrots Anusha's exact phrasing from [00:12] word-for-word instead of paraphrasing. All other 9 criteria PASS, including a managed 75s hold ([07:03]-[08:28]) and live verification of voicemail access on speakerphone ([09:47]-[11:14], [18:14]).",
+    "hard_cases": [
+      "Verified customer",
+      "Paraphrasing",
+      "Hold time and Dead Air",
+      "Empathy & Acknowledgment Statement",
+      "Active listening"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent opens with 'thank you for calling S-Net' and [18:55] closes with 'Thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[07:03] Agent announces the hold ('Please bear with me for just over a minute while I execute the security token reset') before the 75s gap and [08:28] thanks Anusha on return ('Thank you so much for holding, Anusha')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:00]-[04:13] No verification of PIN, address, or security question occurs within the first 240 seconds; verification is only requested late at [04:21] ('Before I reset the mailbox on the switch, can you confirm your home address and account PIN for security?')."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:29], [01:19], and throughout the call, Agent addresses the customer warmly as Anusha."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:29] Agent says 'Oh Anusha, I'm so sorry! I understand how stressful being locked out is' and [11:31] shares Anusha's relief when she hears the cardiology appointment slot."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:12] Customer says 'My voicemail box locked itself after I typed the wrong four-digit passcode three times, and I'm waiting for an urgent hospital cardiology clinic message' and [00:52] Agent repeats those exact words verbatim."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:45] and [08:58] Agent accurately recalls the Samsung Galaxy S23 handset, the 8:45 AM hospital call, and all details without asking Anusha to repeat herself."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[06:04]-[16:46] Agent clears the IMS voicemail lockout, stays on the line while Anusha retrieves the hospital message via three-way call, and enables Voicemail-to-Text SMS alerts, Home Network Auto-Login, and Visual Voicemail."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:19], [11:31], and [18:32] Agent builds warm, reassuring rapport and wishes Anusha well for her echocardiogram at Glenfield Hospital."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:16]-[03:45] Agent probes into the handset model (Samsung Galaxy S23), mobile/Wi-Fi Calling state, exact suspension prompt behavior, recent SIM/eSIM changes, when the passcode was updated, and the MWI voicemail notification icon."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[10:21]-[11:14], [17:07], and [18:14] Anusha dials 121 live during the call, sets her new code, listens to and archives the cardiology clinic voicemail, sees it in Visual Voicemail, and confirms the issue is completely resolved."
+      }
+    ]
+  }
+}

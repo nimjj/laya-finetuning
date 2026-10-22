@@ -1,0 +1,202 @@
+{
+  "call_id": "agb2_09",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 81.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to acknowledge customer's intense distress at turn 71 ([15:46]) regarding being left completely stranded overnight without mobile or banking access, responding with rigid policy recitation."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "At turn 51 ([11:53]), Agent re-asked for the customer's alternate email address after Callum had already clearly provided it at turn 9 ([02:14])."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash High)",
+    "graded_on": "2026-10-21",
+    "scenario": "Urgent fraudulent SIM swap containment and account freeze; handled first outburst followed by unhandled second outburst in final third and repeated email question",
+    "tier": "good",
+    "duration_sec": 1102,
+    "notes": "Compelling high-stakes fraud containment call. Jason acts swiftly to terminate a fraudulent eSIM and void an active PAC code during a managed 65s hold. He warmly validates Callum's panic at turn 11. However, Jason commits an Active Listening repeat at turn 51 by asking for Callum's alternate email which was already given at turn 9, and fails Empathy at turn 72 when Callum experiences a second intense outburst regarding being left stranded with no banking access overnight.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Active listening",
+      "Hold time and Dead Air"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opened at [00:00] with 'Thank you for calling S-Net fraud prevention and customer security' and closed at [18:09] with 'Thank you for choosing S-Net as your mobile provider'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "A single 65s hold between [06:05] and [07:20] to lock web credentials and apply vault verbal password was properly announced with 'Bear with me for about a minute' and returned with 'Thank you for waiting, Callum'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent requested residential address and security PIN at [00:32], within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent addressed customer Callum by name naturally throughout the call (turns 2, 4, 6, 13, 26, 51, 78, 84)."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "While agent warmly acknowledged outburst 1 at turn 13 ([03:23]), customer suffered an intense second outburst at turn 71 ([15:46]) about being left stranded with no banking access overnight. Agent at turn 72 ([16:13]) completely ignored his feeling, reciting security protocol 8.2 and store voucher references."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turn 6 ([01:27]), agent paraphrased the situation: 'So what has occurred is that your active mobile service has dropped to SOS only without your consent, and you are seeing unauthorized authentication attempts, indicating an unauthorized SIM swap has taken place. Have I understood the emergency accurately, Callum?'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At turn 9 ([02:14]), Callum explicitly stated: 'my backup secure email is callum dot fletcher at protonmail dot com'. At turn 51 ([11:53]), Agent re-asked: 'what alternate email address should I dispatch the security incident report to, Callum?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent took direct ownership of the security response, blacklisted the rogue IMSI, revoked the PAC code, and applied high-security verbal password protection."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Professional throughout; remained calm and objective under pressure without using rude, condescending, or sarcastic language."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Diagnostic probing into physical SIM possession (turn 10), PAC code presence (turn 12), phishing links (turn 21), and device IMEI match (turn 38)."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turns 78-79 ([17:14]-[17:27]), agent confirmed that the fraudulent SIM was terminated and PAC revoked, and Callum confirmed: 'Yes, the emergency security freeze is done'."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "repeat",
+          "premise_turn": 9,
+          "agent_turn": 51,
+          "reworded": true
+        },
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 28
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 6
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 55
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 11,
+          "agent_turn": 13,
+          "with_refusal": false
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 71
+        }
+      ]
+    }
+  }
+}

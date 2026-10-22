@@ -1,0 +1,174 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Wanjiru",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:02]",
+      "start_time_sec": 0,
+      "text": "S-Net, Kim speaking.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:03]",
+      "end_time": "[00:16]",
+      "start_time_sec": 3,
+      "text": "Hi. My broadband and TV have both been cut off. I paid the bill last week and I've got the receipt. I've got no TV, no internet, and two kids at home. I'm so stressed.",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:18]",
+      "end_time": "[00:21]",
+      "start_time_sec": 18,
+      "text": "Can you give me the address on the account?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:23]",
+      "end_time": "[00:25]",
+      "start_time_sec": 23,
+      "text": "14 Hill Street, Leicester, LE2 7PQ.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:26]",
+      "end_time": "[00:28]",
+      "start_time_sec": 26,
+      "text": "Who's the account holder?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:29]",
+      "end_time": "[00:31]",
+      "start_time_sec": 29,
+      "text": "I am. Wanjiru Kamau.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:33]",
+      "end_time": "[00:35]",
+      "start_time_sec": 33,
+      "text": "When did the service stop?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:36]",
+      "end_time": "[00:38]",
+      "start_time_sec": 36,
+      "text": "Yesterday afternoon.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:39]",
+      "end_time": "[00:44]",
+      "start_time_sec": 39,
+      "text": "Let me place you on a brief hold while I look at the account.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:34]",
+      "end_time": "[02:38]",
+      "start_time_sec": 154,
+      "text": "Thanks for holding. There's a block on the account for non-payment.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:39]",
+      "end_time": "[02:42]",
+      "start_time_sec": 159,
+      "text": "But I paid it, I've got the receipt.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:43]",
+      "end_time": "[02:46]",
+      "start_time_sec": 163,
+      "text": "Who did you say the account holder is?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:48]",
+      "end_time": "[02:50]",
+      "start_time_sec": 168,
+      "text": "Me. Wanjiru Kamau.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:52]",
+      "end_time": "[02:54]",
+      "start_time_sec": 172,
+      "text": "And it stopped when?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:55]",
+      "end_time": "[02:57]",
+      "start_time_sec": 175,
+      "text": "Yesterday afternoon. I just told you.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:59]",
+      "end_time": "[03:05]",
+      "start_time_sec": 179,
+      "text": "I'm not a miracle worker. That's the billing team's mess, not mine, ring them back tomorrow.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:07]",
+      "end_time": "[03:10]",
+      "start_time_sec": 187,
+      "text": "Tomorrow? I've got two kids with nothing here.",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:11]",
+      "end_time": "[03:14]",
+      "start_time_sec": 191,
+      "text": "Bear with me while I check something.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:44]",
+      "end_time": "[04:49]",
+      "start_time_sec": 284,
+      "text": "Thanks for waiting. No, it'll have to be tomorrow. Billing opens at nine.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:50]",
+      "end_time": "[04:52]",
+      "start_time_sec": 290,
+      "text": "This is awful.",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:54]",
+      "end_time": "[04:56]",
+      "start_time_sec": 294,
+      "text": "Okay. Bye.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

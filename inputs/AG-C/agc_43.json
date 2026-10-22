@@ -1,0 +1,478 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Wyatt",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "S-Net technical service desk, Sarah speaking. How can I help you?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:13]",
+      "end_time": "[00:38]",
+      "start_time_sec": 13,
+      "text": "Hello Sarah. Ever since your automated firmware update pushed version 4.22.18 to our Hub 5 router at three in the morning, the router crashes and power-cycles itself every ten minutes like clockwork! I am conducting an urgent remote financial audit for my company and this constant rebooting is corrupting SQL database transfers and remote ODBC server connections!",
+      "sentiment_score": -48.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:46]",
+      "end_time": "[00:56]",
+      "start_time_sec": 46,
+      "text": "I understand how disruptive recurring hardware reboots are during a critical financial audit, Wyatt. Let me look into the firmware logs on your gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:04]",
+      "end_time": "[01:12]",
+      "start_time_sec": 64,
+      "text": "Thank you Sarah, because if I lose another batch of spreadsheet uploads, our firm faces severe compliance penalties.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:20]",
+      "end_time": "[01:29]",
+      "start_time_sec": 80,
+      "text": "Before we access the diagnostic interface on your Hub, could you please verify your installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:37]",
+      "end_time": "[01:49]",
+      "start_time_sec": 97,
+      "text": "The installation address is 14 Millfield Close, Harrogate, HG2 9BX, and the security PIN is 7193. The router is an S-Net Hub 5 running firmware version 4.22.18.",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:56]",
+      "end_time": "[02:03]",
+      "start_time_sec": 116,
+      "text": "Thank you for verifying those details, Wyatt. I have opened the telemetry console for your Harrogate connection."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:10]",
+      "end_time": "[02:13]",
+      "start_time_sec": 130,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:20]",
+      "end_time": "[02:37]",
+      "start_time_sec": 140,
+      "text": "So just to confirm what has occurred: following the automated overnight firmware update to version 4.22, your Hub 5 router has been spontaneously rebooting every ten minutes, severing active connections and interrupting your remote financial audit work. Is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:44]",
+      "end_time": "[02:55]",
+      "start_time_sec": 164,
+      "text": "Yes, exactly that. It boots up, runs fine for nine or ten minutes, then all the LEDs flash white, the power relay clicks, and it reboots.",
+      "sentiment_score": -14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:02]",
+      "end_time": "[03:12]",
+      "start_time_sec": 182,
+      "text": "Please bear with me on hold for about forty seconds while I pull the kernel panic logs from the Hub's flash memory."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:52]",
+      "end_time": "[04:02]",
+      "start_time_sec": 232,
+      "text": "Thank you for holding, Wyatt. The crash dump logs show repeated memory segmentation faults within the Wi-Fi 6 beamforming driver following the firmware flash."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:09]",
+      "end_time": "[04:16]",
+      "start_time_sec": 249,
+      "text": "So the firmware update has a direct software bug that crashes the Wi-Fi controller chip?",
+      "sentiment_score": -16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:23]",
+      "end_time": "[04:34]",
+      "start_time_sec": 263,
+      "text": "Yes, firmware release 4.22.18 contains an unstable Wi-Fi driver binary that creates kernel panics on certain hardware revisions when beamforming matrices calculate multiple spatial streams."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:41]",
+      "end_time": "[04:51]",
+      "start_time_sec": 281,
+      "text": "Why on earth would S-Net push an unstable firmware build to paying residential customers without thoroughly testing it in a lab first?!",
+      "sentiment_score": -36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:58]",
+      "end_time": "[05:05]",
+      "start_time_sec": 298,
+      "text": "Automated patch rollouts are managed by national engineering staged deployment batches across regional hub clusters."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:12]",
+      "end_time": "[05:19]",
+      "start_time_sec": 312,
+      "text": "Can you immediately roll back the firmware to version 4.21 so the Hub stops crashing?",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:26]",
+      "end_time": "[05:34]",
+      "start_time_sec": 326,
+      "text": "Our automated central provisioning server does not permit manual remote downgrades once an MD5 checksum manifest is committed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:41]",
+      "end_time": "[05:49]",
+      "start_time_sec": 341,
+      "text": "So the Hub will just keep rebooting every ten minutes forever until your software engineers release another patch?!",
+      "sentiment_score": -32.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:56]",
+      "end_time": "[06:03]",
+      "start_time_sec": 356,
+      "text": "The next firmware patch v4.22.19 is scheduled for national validation over the next two weeks."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:10]",
+      "end_time": "[06:18]",
+      "start_time_sec": 370,
+      "text": "Two weeks?! I cannot have our router rebooting during financial audits for two solid weeks! That is completely absurd!",
+      "sentiment_score": -46.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:25]",
+      "end_time": "[06:36]",
+      "start_time_sec": 385,
+      "text": "Well Wyatt, if you constantly monitor system error logs instead of just letting the automated kernel crash dumps submit, you are only causing yourself unnecessary anxiety."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:43]",
+      "end_time": "[06:58]",
+      "start_time_sec": 403,
+      "text": "Unnecessary anxiety?! I am losing thousands of pounds in billable client audit work and you tell me I am causing myself anxiety?! How dare you speak to a customer in such a patronizing manner!",
+      "sentiment_score": -49.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:05]",
+      "end_time": "[07:09]",
+      "start_time_sec": 425,
+      "text": "The system architecture requires following established warranty replacement protocols."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:16]",
+      "end_time": "[07:20]",
+      "start_time_sec": 436,
+      "text": "What established protocol will stop this router rebooting today?",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:27]",
+      "end_time": "[07:41]",
+      "start_time_sec": 447,
+      "text": "To permanently resolve this hardware incompatibility, I will arrange an immediate priority dispatch of our newest Hub 5x gateway, which runs on an entirely different hardware architecture immune to this driver crash."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:48]",
+      "end_time": "[07:55]",
+      "start_time_sec": 468,
+      "text": "What hardware architecture does the new Hub 5x use that makes it immune to these crashes?",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:02]",
+      "end_time": "[08:14]",
+      "start_time_sec": 482,
+      "text": "The Hub 5x utilizes a Mediatek quad-core network processing unit with discrete Wi-Fi 6E radios and separate firmware heaps, completely bypassing the legacy Broadcom driver segmentation bug."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:21]",
+      "end_time": "[08:26]",
+      "start_time_sec": 501,
+      "text": "When will the new Hub 5x arrive at my house in Harrogate?",
+      "sentiment_score": 12.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:33]",
+      "end_time": "[08:44]",
+      "start_time_sec": 513,
+      "text": "I have booked an expedited DPD priority courier dispatch for tomorrow morning before noon, complete with a one-hour SMS delivery tracking window and doorstep swap service."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:51]",
+      "end_time": "[08:56]",
+      "start_time_sec": 531,
+      "text": "Will I be charged for the courier or the replacement router?",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:03]",
+      "end_time": "[09:11]",
+      "start_time_sec": 543,
+      "text": "No, the replacement Hub 5x and priority express delivery are completely free of charge under our equipment warranty."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:18]",
+      "end_time": "[09:21]",
+      "start_time_sec": 558,
+      "text": "That is a huge relief.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:28]",
+      "end_time": "[09:39]",
+      "start_time_sec": 568,
+      "text": "The courier parcel includes a pre-paid returns box and pre-printed postage label so you can return the faulty Hub 5 via any local drop-off shop."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:46]",
+      "end_time": "[09:53]",
+      "start_time_sec": 586,
+      "text": "I will pack up the old router as soon as the new one is plugged in.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:00]",
+      "end_time": "[10:12]",
+      "start_time_sec": 600,
+      "text": "Until the new Hub arrives tomorrow, you can temporarily disable the 5GHz Wi-Fi radio in the 192.168.1.1 settings menu, which prevents the driver segmentation fault from triggering."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:19]",
+      "end_time": "[10:26]",
+      "start_time_sec": 619,
+      "text": "How exactly do I access the router admin menu to turn off the 5GHz radio?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:33]",
+      "end_time": "[10:51]",
+      "start_time_sec": 633,
+      "text": "Open an internet browser window on a computer connected via Ethernet cable, type 192.168.1.1 into the address bar, enter the admin password printed on the router base sticker, navigate to Advanced Wireless Settings, and toggle the 5GHz radio switch to Disabled."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:58]",
+      "end_time": "[11:04]",
+      "start_time_sec": 658,
+      "text": "Disabling 5GHz will keep the wired connection and 2.4GHz alive without reboots tonight?",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:11]",
+      "end_time": "[11:18]",
+      "start_time_sec": 671,
+      "text": "Yes, ethernet LAN ports and 2.4GHz Wi-Fi will remain fully operational without triggering the kernel panic."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:25]",
+      "end_time": "[11:34]",
+      "start_time_sec": 685,
+      "text": "Can I verify that the router is stable once 5GHz is turned off by running a continuous ping in command prompt?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:41]",
+      "end_time": "[11:49]",
+      "start_time_sec": 701,
+      "text": "Yes, typing ping 192.168.1.1 dash t into command prompt will confirm zero packet loss and uninterrupted gateway response times."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:56]",
+      "end_time": "[12:04]",
+      "start_time_sec": 716,
+      "text": "I will log into the admin interface right now and disable 5GHz so I can finish today's audit work.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:11]",
+      "end_time": "[12:19]",
+      "start_time_sec": 731,
+      "text": "I will also apply a fifteen-pound goodwill service credit to your broadband account to compensate for today's connection disruption."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:26]",
+      "end_time": "[12:30]",
+      "start_time_sec": 746,
+      "text": "Thank you Sarah, that is very generous and fair.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:37]",
+      "end_time": "[12:43]",
+      "start_time_sec": 757,
+      "text": "Can you remind me what Hub model and firmware version you are running?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:50]",
+      "end_time": "[12:59]",
+      "start_time_sec": 770,
+      "text": "As I told you at the start of the call, it is an S-Net Hub 5 running firmware version 4.22.18.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:06]",
+      "end_time": "[13:13]",
+      "start_time_sec": 786,
+      "text": "Thank you, Wyatt. I am logging Hub 5 and firmware 4.22.18 in the courier dispatch warranty manifest."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:20]",
+      "end_time": "[13:23]",
+      "start_time_sec": 800,
+      "text": "Okay, got it.",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:30]",
+      "end_time": "[13:42]",
+      "start_time_sec": 810,
+      "text": "The DPD courier tracking consignment number will be dispatched to your mobile via text message within two hours, along with a four-digit security PIN for delivery verification."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:49]",
+      "end_time": "[13:59]",
+      "start_time_sec": 829,
+      "text": "My mobile number is already on file so that will come through fine. Do I give that four-digit PIN to the driver?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:06]",
+      "end_time": "[14:13]",
+      "start_time_sec": 846,
+      "text": "Yes, providing the four-digit PIN code to the DPD driver authorizes handover of the replacement equipment consignment."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:20]",
+      "end_time": "[14:26]",
+      "start_time_sec": 860,
+      "text": "I will make sure I have my phone nearby when the driver knocks.",
+      "sentiment_score": 16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:33]",
+      "end_time": "[14:38]",
+      "start_time_sec": 873,
+      "text": "The consignment reference number generated on our internal dispatch portal is DPD-99401-H."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:45]",
+      "end_time": "[14:48]",
+      "start_time_sec": 885,
+      "text": "Noted down on my desk notepad... DPD-99401-H.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:55]",
+      "end_time": "[15:00]",
+      "start_time_sec": 895,
+      "text": "How is your overall landline telephone service performing on this connection?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:07]",
+      "end_time": "[15:17]",
+      "start_time_sec": 907,
+      "text": "Our landline telephone has always been clear and reliable, we never have any static or crackling on voice calls, so phone service is great.",
+      "sentiment_score": 26.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:24]",
+      "end_time": "[15:30]",
+      "start_time_sec": 924,
+      "text": "We are pleased that your voice line quality maintains high standards across your premises."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:37]",
+      "end_time": "[15:40]",
+      "start_time_sec": 937,
+      "text": "Yes, the phone line has been completely solid.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:47]",
+      "end_time": "[15:54]",
+      "start_time_sec": 947,
+      "text": "The priority courier booking for the Hub 5x is locked in the national dispatch queue."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:01]",
+      "end_time": "[16:08]",
+      "start_time_sec": 961,
+      "text": "Wait Sarah, what time tomorrow should I expect the DPD courier to arrive at our door...",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:15]",
+      "end_time": "[16:20]",
+      "start_time_sec": 975,
+      "text": "The replacement Hub 5x is booked. Have a good day. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:27]",
+      "end_time": "[16:30]",
+      "start_time_sec": 987,
+      "text": "Wait Sarah, what delivery window... hello?",
+      "sentiment_score": -12.4
+    }
+  ]
+}

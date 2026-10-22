@@ -1,0 +1,160 @@
+{
+  "call_id": "ag_06",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 93.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At [06:05], the agent made a condescending remark ('Well, it's really not rocket science, Balthazar—if you plug a mesh pod into a surge extension lead behind a cast-iron radiator, what did you expect to happen?') instead of explaining radio interference respectfully."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Wi-Fi mesh pods flashing amber and not linking to the main router in a three-storey townhouse",
+    "tier": "good",
+    "duration_sec": 945,
+    "notes": "Strong technical troubleshooting call where Chloe verifies security early, shows warm empathy ([01:20]), paraphrases accurately ([01:33]), probes thoroughly into physical placement and router band-splitting, and achieves full live resolution (310 Mbps in the attic at [14:09]). However, she fails Professionalism (R) due to a buried condescending jab at [06:05] ('Well, it's really not rocket science, Balthazar...').",
+    "hard_cases": [
+      "Build rapport and observed professionalism",
+      "Empathy & Acknowledgment Statement",
+      "Active listening",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [01:20], Chloe warmly validates Balthazar's frustration: 'I am so sorry you've spent your entire afternoon running up and down three flights of stairs, Balthazar—I completely understand how stressful that is with a big client presentation first thing tomorrow morning.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Chloe retains every detail Balthazar shares—including pod serial endings 49B and 82C ([02:45]), the three-storey Victorian layout, and his 9:00 AM 3D CAD presentation ([14:20], [15:35])—without asking him to repeat information."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [06:05], Chloe says: 'Well, it's really not rocket science, Balthazar—if you plug a mesh pod into a surge extension lead behind a cast-iron radiator, what did you expect to happen?'"
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [13:22]–[15:22], Balthazar confirms both mesh pods (49B and 82C) are solid white, runs a live speed test in the attic study reaching 310 Mbps download and 52 Mbps upload ([14:09]), and confirms the issue is completely resolved ([15:22])."
+      }
+    ]
+  }
+}

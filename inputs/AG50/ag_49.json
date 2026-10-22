@@ -1,0 +1,622 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Barnaby",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Good evening, thank you for calling S-Net TV and Broadband Support, my name is Lewis, how can I help you tonight?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:09]",
+      "end_time": "[00:21]",
+      "start_time_sec": 9,
+      "text": "hi lewis my name is barnaby and my s-net ultra pvr television box has completely stopped letting me record anything it keeps popping up hard drive storage error two zero two",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:22]",
+      "end_time": "[00:37]",
+      "start_time_sec": 22,
+      "text": "Oh Barnaby, I am so sorry you are getting hit with Hard Drive Storage Error 202 on your Ultra PVR box—I completely understand how frustrating it is when your recorder fails and you risk missing your shows!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:38]",
+      "end_time": "[00:48]",
+      "start_time_sec": 38,
+      "text": "yeah tell me about it it failed right in the middle of the champions league quarter final last night and missed my wifes drama series too",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:49]",
+      "end_time": "[01:03]",
+      "start_time_sec": 49,
+      "text": "Missing the Champions League quarter-final and your wife's drama series is the absolute worst timing, Barnaby, I am really sorry about that. Let me get your account open so I can fix this right now.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:04]",
+      "end_time": "[01:09]",
+      "start_time_sec": 64,
+      "text": "thanks lewis what do you need from me to find the account",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:10]",
+      "end_time": "[01:19]",
+      "start_time_sec": 70,
+      "text": "Could you just give me your eight-digit S-Net account number from the top of your bill and your date of birth, Barnaby?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:20]",
+      "end_time": "[01:27]",
+      "start_time_sec": 80,
+      "text": "sure the account number is 88412095 and my date of birth is the nineteenth of may nineteen seventy-eight",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:28]",
+      "end_time": "[01:37]",
+      "start_time_sec": 88,
+      "text": "Brilliant, thank you Barnaby, I have your profile open right here and I can see your S-Net Ultra 2TB v3 PVR box online.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:38]",
+      "end_time": "[01:50]",
+      "start_time_sec": 98,
+      "text": "great and look i have about forty films and old rugby matches saved on that box that i really do not want to wipe if we can help it",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:51]",
+      "end_time": "[02:05]",
+      "start_time_sec": 111,
+      "text": "Do not worry at all, Barnaby, I am not going to run a full factory format that wipes your forty films and rugby matches—we are going to use the non-destructive partition table rebuild instead.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:06]",
+      "end_time": "[02:14]",
+      "start_time_sec": 126,
+      "text": "oh thank goodness for that because the error message on the telly screen kept telling me to format the disk",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:15]",
+      "end_time": "[02:27]",
+      "start_time_sec": 135,
+      "text": "Yes, the on-screen banner always suggests a full wipe, Barnaby, but Error 202 is actually just a corrupted EXT4 recording journal index that we can repair from the hidden engineer menu.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:28]",
+      "end_time": "[02:35]",
+      "start_time_sec": 148,
+      "text": "okay i have the s-net voice remote in my hand right in front of the television now",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:36]",
+      "end_time": "[02:45]",
+      "start_time_sec": 156,
+      "text": "Fantastic. First, press the Home button on your S-Net remote so the main main-menu ribbon appears along the bottom of your screen, Barnaby.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:46]",
+      "end_time": "[02:50]",
+      "start_time_sec": 166,
+      "text": "yep pressed home and the bottom menu bar is up",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:51]",
+      "end_time": "[03:02]",
+      "start_time_sec": 171,
+      "text": "Now arrow all the way down to Settings at the bottom left, highlight it, but do not press Select yet—just leave the highlight bar sitting on Settings.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:03]",
+      "end_time": "[03:06]",
+      "start_time_sec": 183,
+      "text": "okay i have highlighted settings without pressing select",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:19]",
+      "start_time_sec": 188,
+      "text": "Now, while Settings is highlighted, press Zero, Zero, One on the number pad of your remote control, and then press the centre Select button right after, Barnaby.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:21]",
+      "end_time": "[03:29]",
+      "start_time_sec": 201,
+      "text": "zero zero one select... oh wow a secret dark blue installer setup menu just opened up on the screen",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:31]",
+      "end_time": "[03:41]",
+      "start_time_sec": 211,
+      "text": "Spot on, Barnaby! That is the hidden S-Net engineer menu. You should see five tabs down the left-hand column starting with Network, Transponders, and Hard Disk.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:43]",
+      "end_time": "[03:47]",
+      "start_time_sec": 223,
+      "text": "yes i see network transponders hard disk apps and reset",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:49]",
+      "end_time": "[03:58]",
+      "start_time_sec": 229,
+      "text": "Arrow down to the third tab labeled Hard Disk, and then press the right arrow once to move into the disk management options.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:00]",
+      "end_time": "[04:06]",
+      "start_time_sec": 240,
+      "text": "okay i am inside the hard disk column now and there are three options",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:08]",
+      "end_time": "[04:20]",
+      "start_time_sec": 248,
+      "text": "Make sure you highlight the first option, which says 'Rebuild Partition Table & Journal Index (Keep Recordings)', and definitely stay away from the third option that says 'Full Disk Wipe'.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:22]",
+      "end_time": "[04:29]",
+      "start_time_sec": 262,
+      "text": "yes i am triple checking that it definitely says rebuild partition table and journal index keep recordings",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:31]",
+      "end_time": "[04:43]",
+      "start_time_sec": 271,
+      "text": "Perfect, Barnaby. Press the centre Select button once on 'Rebuild Partition Table & Journal Index', and then press the green button on your remote when the confirmation box pops up.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:45]",
+      "end_time": "[04:56]",
+      "start_time_sec": 285,
+      "text": "pressed select and pressed the green button... now the screen has gone black with a white progress bar saying checking ext4 storage blocks stage one of three",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:58]",
+      "end_time": "[05:10]",
+      "start_time_sec": 298,
+      "text": "That is exactly what we want to see. The Ultra PVR box is now scanning the two-terabyte drive, isolating any bad sector blocks, and unlocking the read-only recording journal.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:12]",
+      "end_time": "[05:16]",
+      "start_time_sec": 312,
+      "text": "how long does this three stage disk rebuild take to finish",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:18]",
+      "end_time": "[05:33]",
+      "start_time_sec": 318,
+      "text": "It usually takes around fifty to sixty seconds to complete all three stages and reboot the PVR daemon, Barnaby. While the box is running that check, I also need to refresh your cloud series-link token from my terminal.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:35]",
+      "end_time": "[05:37]",
+      "start_time_sec": 335,
+      "text": "okay sounds good",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:39]",
+      "end_time": "[05:52]",
+      "start_time_sec": 339,
+      "text": "May I place you on a brief hold for about a minute while your Ultra PVR box finishes the three-stage partition rebuild and I push the TR-069 series-link sync from the headend, Barnaby?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:54]",
+      "end_time": "[05:57]",
+      "start_time_sec": 354,
+      "text": "yeah of course lewis take your time",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:02]",
+      "end_time": "[07:16]",
+      "start_time_sec": 422,
+      "text": "Thank you for holding, Barnaby! From my diagnostic console here, I can see your S-Net Ultra PVR box just re-established its TR-069 management heartbeat after the reboot, and I have pushed the cloud series-link sync.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:18]",
+      "end_time": "[07:24]",
+      "start_time_sec": 438,
+      "text": "yes the television screen just came back onto live bbc one hd a few seconds ago",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:26]",
+      "end_time": "[07:38]",
+      "start_time_sec": 446,
+      "text": "Awesome! Look at the telemetry report that just uploaded from your box—it found and remapped two corrupted journal inodes from last night's power spike without touching a single video file.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:40]",
+      "end_time": "[07:48]",
+      "start_time_sec": 460,
+      "text": "let me check my saved recordings first to make sure my forty films and rugby matches are still there",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:50]",
+      "end_time": "[07:58]",
+      "start_time_sec": 470,
+      "text": "Press the Recordings button right above the directional pad on your remote, Barnaby, and check your 'Saved & Manage' tab.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:00]",
+      "end_time": "[08:12]",
+      "start_time_sec": 480,
+      "text": "pressing recordings now... yes every single one of my forty films and the six nations rugby matches are still sitting there and it says forty-two percent disk space used",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:14]",
+      "end_time": "[08:26]",
+      "start_time_sec": 494,
+      "text": "That is a massive relief, Barnaby! Now check the 'Scheduled' tab right next to it so we can be sure my TR-069 push restored your wife's drama series links.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:28]",
+      "end_time": "[08:37]",
+      "start_time_sec": 508,
+      "text": "moving across to scheduled... yes all eleven series links with the little double-arrow icon are back in the planner for tonight and tomorrow",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:39]",
+      "end_time": "[08:49]",
+      "start_time_sec": 519,
+      "text": "Brilliant. Now let's do the real test together while we are on the line, Barnaby, to prove that Hard Drive Storage Error 202 is completely gone.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:51]",
+      "end_time": "[08:53]",
+      "start_time_sec": 531,
+      "text": "good idea what should i do",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:55]",
+      "end_time": "[09:05]",
+      "start_time_sec": 535,
+      "text": "Press Exit to go back to live BBC One HD, and then press the round red Record button at the top of your remote control.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:07]",
+      "end_time": "[09:13]",
+      "start_time_sec": 547,
+      "text": "okay i am back on bbc one hd and pressing the red record button now...",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:15]",
+      "end_time": "[09:24]",
+      "start_time_sec": 555,
+      "text": "Tell me what happens on the front panel of the Ultra PVR box and on the top right of your television screen, Barnaby.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:26]",
+      "end_time": "[09:39]",
+      "start_time_sec": 566,
+      "text": "no error 202 popup at all the little red r circle just lit up on the front of the box and the banner says recording the one show on bbc one hd",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:41]",
+      "end_time": "[09:50]",
+      "start_time_sec": 581,
+      "text": "Yes! Let it record for about ten seconds so it writes a full video segment onto the newly rebuilt EXT4 partition, Barnaby.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:52]",
+      "end_time": "[09:57]",
+      "start_time_sec": 592,
+      "text": "okay counting to ten... right that has been about twelve seconds now",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:59]",
+      "end_time": "[10:10]",
+      "start_time_sec": 599,
+      "text": "Now press the Recordings button, click onto 'The One Show (Recording Now)', and press Play from Start to make sure the drive reads the new recording back smoothly.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:12]",
+      "end_time": "[10:22]",
+      "start_time_sec": 612,
+      "text": "clicking play from start... yep it is playing back the clip we just recorded with crystal clear sound and picture and no stuttering at all",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:24]",
+      "end_time": "[10:35]",
+      "start_time_sec": 624,
+      "text": "And try pressing the Pause button on that live recording for two seconds and then Play again, Barnaby, just to verify the time-shift buffer partition is healthy too.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:37]",
+      "end_time": "[10:41]",
+      "start_time_sec": 637,
+      "text": "paused it... and pressed play again works like a charm lewis",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:43]",
+      "end_time": "[10:54]",
+      "start_time_sec": 643,
+      "text": "Awesome! And while you have that test recording playing, Barnaby, try pressing the Fast Forward button twice to test two-times and six-times trick-play indexing on the hard drive.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:56]",
+      "end_time": "[11:05]",
+      "start_time_sec": 656,
+      "text": "pressing fast forward... yep it scrubs smoothly forward through the clip and drops straight back into normal play when i press play",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:07]",
+      "end_time": "[11:15]",
+      "start_time_sec": 667,
+      "text": "That proves the EXT4 seek table on your two-terabyte drive is completely healthy and has zero physical read-head latency.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:17]",
+      "end_time": "[11:23]",
+      "start_time_sec": 677,
+      "text": "what actually caused the journal index to corrupt last night in the first place lewis",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:25]",
+      "end_time": "[11:36]",
+      "start_time_sec": 685,
+      "text": "Looking at your box diagnostic log, there was a brief mains voltage dip at 21:42 last night while two HD tuners were writing simultaneously during the football match.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:38]",
+      "end_time": "[11:44]",
+      "start_time_sec": 698,
+      "text": "ah yes our kitchen lights did flicker for a split second during the thunderstorm last night",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:46]",
+      "end_time": "[11:57]",
+      "start_time_sec": 706,
+      "text": "That split-second brownout interrupted an active inode commit, so the Ultra PVR locked the partition into read-only safety mode and threw Error 202 to protect your existing recordings.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:59]",
+      "end_time": "[12:07]",
+      "start_time_sec": 719,
+      "text": "that actually makes a lot of sense at least it protected my saved films rather than corrupting the whole drive",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:09]",
+      "end_time": "[12:20]",
+      "start_time_sec": 729,
+      "text": "Also, while we are testing, press the Channel Up button once to switch to BBC Two HD while BBC One HD is still recording in the background, Barnaby.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:22]",
+      "end_time": "[12:31]",
+      "start_time_sec": 742,
+      "text": "switched to bbc two hd and both channels are working fine with the red r light still steady on the front panel",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:33]",
+      "end_time": "[12:41]",
+      "start_time_sec": 753,
+      "text": "That confirms both satellite and cable DVB tuners are writing concurrently to the rebuilt partition without any buffer conflict.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:43]",
+      "end_time": "[12:47]",
+      "start_time_sec": 763,
+      "text": "brilliant that is a huge weight off my mind",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:49]",
+      "end_time": "[13:03]",
+      "start_time_sec": 769,
+      "text": "I have also enabled the 'Auto-Heal File System on Standby' flag on your box firmware profile from my console so if a minor index glitch ever happens overnight at 3 AM, the box repairs it silently.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:05]",
+      "end_time": "[13:11]",
+      "start_time_sec": 785,
+      "text": "oh that is clever so it wont interrupt an evening recording with error 202 again",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:13]",
+      "end_time": "[13:23]",
+      "start_time_sec": 793,
+      "text": "Exactly, Barnaby. You can delete that short test clip of The One Show whenever you like by pressing the yellow button in your Recordings list.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:25]",
+      "end_time": "[13:31]",
+      "start_time_sec": 805,
+      "text": "just pressed yellow and deleted the test clip so my planner is nice and tidy",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:33]",
+      "end_time": "[13:43]",
+      "start_time_sec": 813,
+      "text": "I am so glad we got your S-Net Ultra PVR recording smoothly again and kept all forty of your saved films and rugby matches safe, Barnaby.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:45]",
+      "end_time": "[13:53]",
+      "start_time_sec": 825,
+      "text": "honestly you have saved my evening lewis my wife would have killed me if her drama series tonight didn't record",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:55]",
+      "end_time": "[14:07]",
+      "start_time_sec": 835,
+      "text": "Haha, I am very happy to have kept you out of trouble tonight, Barnaby! Is there anything else I can help you with on your TV or broadband package?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:09]",
+      "end_time": "[14:15]",
+      "start_time_sec": 849,
+      "text": "no everything else is spot on thanks so much for walking me through that secret menu",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:17]",
+      "end_time": "[14:25]",
+      "start_time_sec": 857,
+      "text": "It was an absolute pleasure helping you tonight, Barnaby. Thank you for choosing S-Net, and enjoy your shows this evening!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:27]",
+      "end_time": "[14:30]",
+      "start_time_sec": 867,
+      "text": "cheers lewis have a good night bye",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:32]",
+      "end_time": "[14:35]",
+      "start_time_sec": 872,
+      "text": "Thank you for choosing S-Net, Barnaby, goodbye!",
+      "sentiment_score": 18.0
+    }
+  ]
+}

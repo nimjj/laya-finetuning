@@ -1,0 +1,501 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Patrick",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:09]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer accessibility and billing services. My name is Rachel. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:16]",
+      "end_time": "[00:41]",
+      "start_time_sec": 16,
+      "text": "Hello Rachel. I am calling to get an urgent, long-overdue accessibility change made to my billing account. I am severely visually impaired and registered blind, and every month S-Net sends me paper bills printed in microscopic eight-point font that is completely impossible for me to read, even with my electronic optical magnifying glass! I need my billing profile updated to Large Print permanently!",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:48]",
+      "end_time": "[01:02]",
+      "start_time_sec": 48,
+      "text": "I can certainly look into updating your billing delivery profile, Patrick. Can you please confirm the customer account reference number from your welcome correspondence?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:09]",
+      "end_time": "[01:15]",
+      "start_time_sec": 69,
+      "text": "Yes, the account reference is ACC-772901.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:22]",
+      "end_time": "[01:30]",
+      "start_time_sec": 82,
+      "text": "Thank you Patrick. And what model is your broadband router Hub?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:37]",
+      "end_time": "[02:06]",
+      "start_time_sec": 97,
+      "text": "It is the Hub 5. Rachel, last month I accidentally missed a payment deadline because I could not read the tiny payment due date on the page, and S-Net slapped me with a late payment charge and threatened debt collection! I live alone with my guide dog and I have zero family nearby to read mail for me! Being treated like a delinquent debtor simply because S-Net refuses to provide accessible bills for blind pensioners is humiliating, terrifying, and deeply discriminatory! I was in tears of frustration all weekend!",
+      "sentiment_score": -76.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:13]",
+      "end_time": "[02:26]",
+      "start_time_sec": 133,
+      "text": "Automated billing print runs default to standard twelve-pitch typeface across commercial printing presses."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:33]",
+      "end_time": "[02:42]",
+      "start_time_sec": 153,
+      "text": "Please Rachel, under the Equality Act, disabled customers are entitled to reasonable adjustments and accessible bills.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:49]",
+      "end_time": "[03:14]",
+      "start_time_sec": 169,
+      "text": "So if I have understood correctly, your visual impairment makes standard paper billing print unreadable, which caused an inadvertent missed payment fee, and you require your account permanently converted to Large Print accessible billing format with fee waivers. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:21]",
+      "end_time": "[03:28]",
+      "start_time_sec": 201,
+      "text": "Yes, that is exactly what happened and what I desperately need sorted.",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:35]",
+      "end_time": "[03:52]",
+      "start_time_sec": 215,
+      "text": "Third-party commercial printing contractors handle paper mailing; S-Net does not print billing statements in-house and holds zero liability for contractor typeface defaults."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:59]",
+      "end_time": "[04:09]",
+      "start_time_sec": 239,
+      "text": "S-Net hires the contractor! You cannot disclaim responsibility for the bills your company sends out to customers!",
+      "sentiment_score": -32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:16]",
+      "end_time": "[04:26]",
+      "start_time_sec": 256,
+      "text": "I am opening the Priority Services accessibility register on our billing subscriber database."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:33]",
+      "end_time": "[04:38]",
+      "start_time_sec": 273,
+      "text": "What accessibility options are available on your system?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:45]",
+      "end_time": "[04:58]",
+      "start_time_sec": 285,
+      "text": "Our subscriber database supports Large Print twenty-four-point font, Grade 2 Braille, Audio CD, and accessible PDF formats."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:05]",
+      "end_time": "[05:13]",
+      "start_time_sec": 305,
+      "text": "Twenty-four-point Large Print with bold black text on white paper is exactly what my low-vision optometrist recommends.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:20]",
+      "end_time": "[05:31]",
+      "start_time_sec": 320,
+      "text": "I am toggling your primary invoice delivery format flag to 'Accessibility Large Print 24pt'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:38]",
+      "end_time": "[05:43]",
+      "start_time_sec": 338,
+      "text": "Will that setting remain permanent for every future monthly bill?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:50]",
+      "end_time": "[06:05]",
+      "start_time_sec": 350,
+      "text": "The accessibility flag locks the customer billing profile so all future monthly invoices automatically route to our specialist accessible print house."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:12]",
+      "end_time": "[06:20]",
+      "start_time_sec": 372,
+      "text": "What about the ten-pound late payment fee that was charged because I couldn't read the small print last month?",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:27]",
+      "end_time": "[06:38]",
+      "start_time_sec": 387,
+      "text": "I can process a full ten-pound fee reversal credit under our Vulnerable Customer Care policy."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:45]",
+      "end_time": "[06:49]",
+      "start_time_sec": 405,
+      "text": "Thank you, that removes the unfair penalty.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:56]",
+      "end_time": "[07:04]",
+      "start_time_sec": 416,
+      "text": "I have posted the ten-pound credit reversal to your active ledger balance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:11]",
+      "end_time": "[07:18]",
+      "start_time_sec": 431,
+      "text": "Can you also ensure any debt collection warning flags are completely removed from my account?",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:25]",
+      "end_time": "[07:39]",
+      "start_time_sec": 445,
+      "text": "The collection routing hold has been dismissed and your credit bureau payment status is marked as fully up-to-date in good standing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:46]",
+      "end_time": "[07:51]",
+      "start_time_sec": 466,
+      "text": "That is an immense relief for my peace of mind.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:58]",
+      "end_time": "[08:07]",
+      "start_time_sec": 478,
+      "text": "Do you require your monthly bills in Grade 2 Braille or in Large Print format?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:14]",
+      "end_time": "[08:28]",
+      "start_time_sec": 494,
+      "text": "Rachel, as I explained at the very start of this call, I need Large Print twenty-four-point! I cannot read Braille because I lost my sight late in life from macular degeneration! We just agreed on twenty-four-point Large Print!",
+      "sentiment_score": -34.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:35]",
+      "end_time": "[08:46]",
+      "start_time_sec": 515,
+      "text": "I apologize, Patrick, that was a standard mandatory script question on our accessibility enrollment form."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:53]",
+      "end_time": "[08:59]",
+      "start_time_sec": 533,
+      "text": "Please listen carefully to what I tell you so we do not repeat basic information.",
+      "sentiment_score": -11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:06]",
+      "end_time": "[09:15]",
+      "start_time_sec": 546,
+      "text": "Understood. The format is locked to twenty-four-point high-contrast Large Print."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:22]",
+      "end_time": "[09:30]",
+      "start_time_sec": 562,
+      "text": "Can you also send a sample Large Print bill by post this week so I can confirm the font size works with my optical magnifier?",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:37]",
+      "end_time": "[09:49]",
+      "start_time_sec": 577,
+      "text": "I have triggered an on-demand reprint of your October billing statement in twenty-four-point Large Print."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:56]",
+      "end_time": "[10:01]",
+      "start_time_sec": 596,
+      "text": "When will Royal Mail deliver the Large Print sample statement?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:08]",
+      "end_time": "[10:19]",
+      "start_time_sec": 608,
+      "text": "The sample statement will arrive in a dedicated yellow accessibility envelope within three working days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:26]",
+      "end_time": "[10:34]",
+      "start_time_sec": 626,
+      "text": "The yellow envelope is wonderful because my guide dog trainer taught me to recognize yellow mail on the doormat immediately.",
+      "sentiment_score": 34.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:41]",
+      "end_time": "[10:54]",
+      "start_time_sec": 641,
+      "text": "Obviously that confirms your visual accessibility accommodation is fully established under statutory disability standards, Patrick."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:01]",
+      "end_time": "[11:06]",
+      "start_time_sec": 661,
+      "text": "That gives me confidence that I will never miss a bill again.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:13]",
+      "end_time": "[11:27]",
+      "start_time_sec": 673,
+      "text": "Let us also enroll your account on our Priority Services Register for network faults so you receive prioritized engineering support."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:34]",
+      "end_time": "[11:44]",
+      "start_time_sec": 694,
+      "text": "Yes, please add me to the Priority Services Register. If my landline or broadband ever goes down, I cannot navigate to the local shops without assistance.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:51]",
+      "end_time": "[12:06]",
+      "start_time_sec": 711,
+      "text": "I have recorded visual impairment priority tier A on your profile, which provides four-hour fault response times and dedicated direct telephone routing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:13]",
+      "end_time": "[12:19]",
+      "start_time_sec": 733,
+      "text": "That dedicated routing number will be a lifesaver if I ever have internet trouble.",
+      "sentiment_score": 28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:26]",
+      "end_time": "[12:40]",
+      "start_time_sec": 746,
+      "text": "Let us check your landline telephone handset options to ensure you have a large-button amplifier phone with tactile dial markings."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:47]",
+      "end_time": "[12:56]",
+      "start_time_sec": 767,
+      "text": "I currently use a BT Big Button 200 phone with raised braille dots on the number five key, which works very well for me.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:03]",
+      "end_time": "[13:12]",
+      "start_time_sec": 783,
+      "text": "The raised bump on digit five allows tactile telephone navigation without optical sight."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:19]",
+      "end_time": "[13:23]",
+      "start_time_sec": 799,
+      "text": "It is an essential feature for everyday independence.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:30]",
+      "end_time": "[13:40]",
+      "start_time_sec": 810,
+      "text": "Let us also check your broadband line status while your account file is open on our system."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:47]",
+      "end_time": "[13:55]",
+      "start_time_sec": 827,
+      "text": "Our broadband connection has been working fine; my talking smart speaker plays audiobooks all day without buffering.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:02]",
+      "end_time": "[14:14]",
+      "start_time_sec": 842,
+      "text": "Line telemetry confirms clean downstream sync at sixty-six megabits per second with zero copper bridge taps."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:21]",
+      "end_time": "[14:28]",
+      "start_time_sec": 861,
+      "text": "The smart speaker is my main source of news and radio, so steady broadband is crucial.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:35]",
+      "end_time": "[14:45]",
+      "start_time_sec": 875,
+      "text": "The signal-to-noise ratio is six point four decibels, indicating stable high-frequency margins."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:52]",
+      "end_time": "[14:55]",
+      "start_time_sec": 892,
+      "text": "That is reassuring to hear.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:02]",
+      "end_time": "[15:16]",
+      "start_time_sec": 902,
+      "text": "Let us also check whether you would like to appoint a nominated third-party bill manager, such as a trusted friend or charity advocate."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:23]",
+      "end_time": "[15:33]",
+      "start_time_sec": 923,
+      "text": "I have a volunteer advocate from the Royal National Institute of Blind People who visits once a month. Can she be listed as an authorized contact?",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:40]",
+      "end_time": "[15:53]",
+      "start_time_sec": 940,
+      "text": "Yes, please provide the advocate's full legal name and telephone number for the third-party proxy authorization record."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:00]",
+      "end_time": "[16:05]",
+      "start_time_sec": 960,
+      "text": "Her name is Sarah Jenkins, telephone 07700 900884.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:12]",
+      "end_time": "[16:24]",
+      "start_time_sec": 972,
+      "text": "Sarah Jenkins has been added as a registered third-party billing contact with full verbal enquiry permissions."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:31]",
+      "end_time": "[16:37]",
+      "start_time_sec": 991,
+      "text": "That means if I ever have a question when she visits, she can speak to S-Net on my behalf.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:44]",
+      "end_time": "[16:55]",
+      "start_time_sec": 1004,
+      "text": "Just to reconfirm, the sample Large Print statement is dispatched to Patrick, under ticket ACC-772901."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:02]",
+      "end_time": "[17:07]",
+      "start_time_sec": 1022,
+      "text": "Yes, ticket ACC-772901. That is completely correct.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:14]",
+      "end_time": "[17:30]",
+      "start_time_sec": 1034,
+      "text": "If commercial contractors print small font again in future, do not blame S-Net customer service as industrial mail printing is an external supplier matter."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:37]",
+      "end_time": "[17:43]",
+      "start_time_sec": 1057,
+      "text": "I hope your supplier follows the system flag properly. Thank you for setting it up today.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:50]",
+      "end_time": "[18:03]",
+      "start_time_sec": 1070,
+      "text": "Is there anything else regarding your accessibility preferences or broadband account that I can assist you with today, Patrick?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:10]",
+      "end_time": "[18:15]",
+      "start_time_sec": 1090,
+      "text": "No, that has sorted all my accessibility requirements. Thank you.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:22]",
+      "end_time": "[18:29]",
+      "start_time_sec": 1102,
+      "text": "All accessibility preferences updated. Good afternoon and take care. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:36]",
+      "end_time": "[18:38]",
+      "start_time_sec": 1116,
+      "text": "Goodbye Rachel.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

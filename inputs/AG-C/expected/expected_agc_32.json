@@ -1,0 +1,205 @@
+{
+  "call_id": "agc_32",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 48.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent initially acknowledged opening distress, but when Scarlett suffered a major emotional outburst at turn 46 in the final third after being called foolish, George responded with a cold citation of legal terms and conditions."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Agent refused to own the customer's data loss, declining to initiate engineering escalation or investigate cloud backup rollbacks, deflecting all blame onto the customer for failing to read advisory emails."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Agent made a highly unprofessional, insulting remark at turn 25 ('using a cable set-top box as a permanent family archive... is pretty foolish, Scarlett'), antagonizing the distressed caller."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Agent completely failed to probe the hardware setup, omitting essential inquiries regarding set-top box model, external USB drive configurations, firmware build numbers, or profile settings."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-22",
+    "scenario": "TV Box recorded programs disappearing after automated cloud firmware migration",
+    "tier": "3-4",
+    "duration_sec": 715,
+    "notes": "Lost TV box recordings escalation call handled by George. Customer lost irreplaceable personal recordings following a cloud DVR firmware migration. Agent paraphrased well and verified security, but failed Professionalism with a rude remark, failed Ownership by refusing data recovery support, failed Probing on hardware specs, and failed Empathy on an outburst in the final third.",
+    "hard_cases": [
+      "Verified customer",
+      "Paraphrasing",
+      "Empathy & Acknowledgment Statement",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent verified installation address and 4-digit security PIN within first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent initially acknowledged opening distress, but when Scarlett suffered a major emotional outburst at turn 46 in the final third after being called foolish, George responded with a cold citation of legal terms and conditions."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent accurately synthesized customer's lost television recordings and firmware migration context at turn 8."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent refused to own the customer's data loss, declining to initiate engineering escalation or investigate cloud backup rollbacks, deflecting all blame onto the customer for failing to read advisory emails."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent made a highly unprofessional, insulting remark at turn 25 ('using a cable set-top box as a permanent family archive... is pretty foolish, Scarlett'), antagonizing the distressed caller."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent completely failed to probe the hardware setup, omitting essential inquiries regarding set-top box model, external USB drive configurations, firmware build numbers, or profile settings."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 5,
+          "agent_turn": 41
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 25
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 14
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 1,
+          "agent_turn": 2,
+          "with_refusal": false
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 45
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 55
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Owen",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer technical support. My name is Connor. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:13]",
+      "end_time": "[00:37]",
+      "start_time_sec": 13,
+      "text": "Hello Connor. I work remotely from home as a senior financial risk auditor, and I am having a severe, debilitating problem with my S-Net broadband. Every time I connect my corporate laptop to my company's Cisco AnyConnect enterprise VPN, the tunnel establishes for about two minutes and then abruptly freezes and disconnects whenever I try to upload large database spreadsheets or open video conference links!",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:43]",
+      "end_time": "[00:58]",
+      "start_time_sec": 43,
+      "text": "I can certainly investigate those VPN tunnel disconnects for you. Before we inspect your router gateway configuration, may I please verify your billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:04]",
+      "end_time": "[01:13]",
+      "start_time_sec": 64,
+      "text": "Yes, it is 58 St Andrews Crescent, Cardiff, CF10 3DD. And my security question answer is my mother's maiden name, Jenkins.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:19]",
+      "end_time": "[01:26]",
+      "start_time_sec": 79,
+      "text": "Thank you, that verifies the account file. What model is the S-Net Hub?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:32]",
+      "end_time": "[02:01]",
+      "start_time_sec": 92,
+      "text": "It is the S-Net Hub 5. Connor, I am leading an emergency international audit committee meeting with bank executives in Zurich in thirty minutes! While presenting my quarterly risk balance sheet twenty minutes ago, the VPN dropped out completely, severed my audio, and kicked me out of the boardroom conference! My managing director phoned me in sheer fury demanding to know why my connection keeps collapsing! If I cannot maintain a stable VPN tunnel for this audit, my professional credibility and employment could be terminated! I am in absolute panic!",
+      "sentiment_score": -72.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:07]",
+      "end_time": "[02:28]",
+      "start_time_sec": 127,
+      "text": "I completely understand the acute urgency of leading an international banking audit with Swiss executives in thirty minutes, and having your corporate VPN tunnel freeze and drop during board presentations is an enormous crisis, so let us diagnose the packet transmission parameters on your router immediately to get you stabilized."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:34]",
+      "end_time": "[02:40]",
+      "start_time_sec": 154,
+      "text": "Thank you so much Connor, I really appreciate your understanding of the pressure I am under.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:46]",
+      "end_time": "[02:59]",
+      "start_time_sec": 166,
+      "text": "I am opening the TR-069 remote management console for your Hub 5 to query the PPPoE gateway encapsulation metrics."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:04]",
+      "end_time": "[03:09]",
+      "start_time_sec": 184,
+      "text": "What do the router encapsulation records show?",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:51]",
+      "end_time": "[04:06]",
+      "start_time_sec": 231,
+      "text": "The router WAN interface telemetry shows continuous TCP reset packets and packet fragmentation drops on UDP port 443 and IPsec ESP protocol fifty."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:11]",
+      "end_time": "[04:16]",
+      "start_time_sec": 251,
+      "text": "What does packet fragmentation mean in layman's terms?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:21]",
+      "end_time": "[04:37]",
+      "start_time_sec": 261,
+      "text": "Your S-Net Hub defaults to standard Ethernet Maximum Transmission Unit of fifteen hundred bytes, but Cisco AnyConnect tunnels add fifty-six bytes of IPsec and SSL encryption overhead."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:42]",
+      "end_time": "[04:48]",
+      "start_time_sec": 282,
+      "text": "So when an encrypted packet exceeds fifteen hundred bytes, the network drops it?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:53]",
+      "end_time": "[05:09]",
+      "start_time_sec": 293,
+      "text": "When corporate packets exceed fifteen hundred bytes with the 'Do Not Fragment' bit enabled by enterprise security policy, intermediate routers silently discard the packets."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:14]",
+      "end_time": "[05:22]",
+      "start_time_sec": 314,
+      "text": "That explains why standard web browsing works fine, but the corporate VPN dies whenever heavy data is sent!",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:27]",
+      "end_time": "[05:38]",
+      "start_time_sec": 327,
+      "text": "We will lower the Maximum Transmission Unit size directly inside the Hub 5 web interface."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:43]",
+      "end_time": "[05:47]",
+      "start_time_sec": 343,
+      "text": "How do we adjust that MTU setting on the Hub?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:52]",
+      "end_time": "[06:06]",
+      "start_time_sec": 352,
+      "text": "Open a web browser on your computer, enter 192.168.1.254 in the address bar, and enter the admin password printed on the plastic pull-out card."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:11]",
+      "end_time": "[06:20]",
+      "start_time_sec": 371,
+      "text": "Navigating to 192.168.1.254... entering admin password from the card... I am logged into the S-Net Hub Manager home dashboard.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:25]",
+      "end_time": "[06:39]",
+      "start_time_sec": 385,
+      "text": "If your corporate IT department doesn't even know how IP packet fragmentation works, they have no business configuring enterprise VPN tunnels."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:44]",
+      "end_time": "[06:58]",
+      "start_time_sec": 404,
+      "text": "There was absolutely no call for that arrogant and insulting remark! Our IT department manages thousands of corporate users! Please keep your comments professional and help me configure the router!",
+      "sentiment_score": -48.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:03]",
+      "end_time": "[07:12]",
+      "start_time_sec": 423,
+      "text": "Click on Advanced Settings, Broadband, and navigate to the Internet Connection tab."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:17]",
+      "end_time": "[07:25]",
+      "start_time_sec": 437,
+      "text": "Clicking Advanced Settings... Broadband... Internet Connection. I see the MTU field currently populated with 1500.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:10]",
+      "end_time": "[08:22]",
+      "start_time_sec": 490,
+      "text": "Change the MTU numerical value from fifteen hundred down to fourteen hundred and twenty bytes, and click Apply."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:27]",
+      "end_time": "[08:35]",
+      "start_time_sec": 507,
+      "text": "Typing 1420... clicking Apply. Screen says 'Settings updated successfully, re-establishing WAN session'.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:40]",
+      "end_time": "[08:54]",
+      "start_time_sec": 520,
+      "text": "Fourteen hundred and twenty bytes leaves eighty bytes of headroom for IPsec encapsulation headers, eliminating packet fragmentation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:59]",
+      "end_time": "[09:05]",
+      "start_time_sec": 539,
+      "text": "Let me launch Cisco AnyConnect on my corporate laptop right now and test the connection.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:10]",
+      "end_time": "[09:16]",
+      "start_time_sec": 550,
+      "text": "Go ahead, initiate the secure corporate gateway connection."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:21]",
+      "end_time": "[09:33]",
+      "start_time_sec": 561,
+      "text": "Clicking Connect on Cisco AnyConnect... entering two-factor PIN code... VPN connection established cleanly! Now let me open the large risk spreadsheet from the Zurich server.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:38]",
+      "end_time": "[09:46]",
+      "start_time_sec": 578,
+      "text": "Monitor the AnyConnect statistics window to check byte count transmission."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:51]",
+      "end_time": "[10:03]",
+      "start_time_sec": 591,
+      "text": "The fifty-megabyte Excel spreadsheet downloaded in three seconds without freezing! I just opened a test video link and it is crystal clear! The tunnel didn't drop at all!",
+      "sentiment_score": 68.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:08]",
+      "end_time": "[10:21]",
+      "start_time_sec": 608,
+      "text": "Obviously that confirms clamping the Maximum Transmission Unit to fourteen twenty resolved upstream Path MTU Discovery black-holing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:26]",
+      "end_time": "[10:34]",
+      "start_time_sec": 626,
+      "text": "What an incredible relief! I can join the executive committee meeting in fifteen minutes with total confidence!",
+      "sentiment_score": 58.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:39]",
+      "end_time": "[10:53]",
+      "start_time_sec": 639,
+      "text": "Let us also check the MSS clamping setting under the router firewall to ensure TCP SYN packets negotiate fourteen hundred bytes automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:58]",
+      "end_time": "[11:05]",
+      "start_time_sec": 658,
+      "text": "Under Firewall, TCP MSS Clamping is currently set to 'Automatic'. Should we keep that enabled?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:10]",
+      "end_time": "[11:22]",
+      "start_time_sec": 670,
+      "text": "Keeping TCP MSS Clamping on Automatic ensures mobile devices and work laptops inherit optimal segment sizing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:27]",
+      "end_time": "[11:31]",
+      "start_time_sec": 687,
+      "text": "I will leave MSS Clamping on Automatic.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:36]",
+      "end_time": "[11:49]",
+      "start_time_sec": 696,
+      "text": "Let us check your DNS server configuration to ensure corporate domain name resolution does not experience DNS leak delays."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:54]",
+      "end_time": "[12:03]",
+      "start_time_sec": 714,
+      "text": "Under DNS Settings, primary DNS is pointing to S-Net default servers and secondary is backup. Does that work well with VPN split-tunneling?",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:08]",
+      "end_time": "[12:21]",
+      "start_time_sec": 728,
+      "text": "S-Net Anycast recursive DNS servers maintain sub-ten-millisecond lookup times, preventing corporate hostname timeouts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:26]",
+      "end_time": "[12:31]",
+      "start_time_sec": 746,
+      "text": "Internal company intranet sites are loading instantly now.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:36]",
+      "end_time": "[12:48]",
+      "start_time_sec": 756,
+      "text": "Let us also check your physical Ethernet cable connection between the laptop dock and the router LAN port."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:53]",
+      "end_time": "[13:01]",
+      "start_time_sec": 773,
+      "text": "I am plugged directly into LAN port 1 with a Cat6 patch cable. Link speed shows 1000 megabits full duplex.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:06]",
+      "end_time": "[13:16]",
+      "start_time_sec": 786,
+      "text": "Gigabit Ethernet provides zero jitter and zero packet loss compared to wireless interference."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:21]",
+      "end_time": "[13:27]",
+      "start_time_sec": 801,
+      "text": "Direct wired connection is definitely best for important financial presentations.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:32]",
+      "end_time": "[13:44]",
+      "start_time_sec": 812,
+      "text": "Let us check the VDSL copper sync line rate on the street cabinet to confirm broadband throughput stability."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:49]",
+      "end_time": "[13:54]",
+      "start_time_sec": 829,
+      "text": "How is the broadband speed looking on your diagnostic meter?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:59]",
+      "end_time": "[14:13]",
+      "start_time_sec": 839,
+      "text": "The copper VDSL line is synchronized at seventy-four megabits downstream and nineteen megabits upstream with clean six-decibel noise margins."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:18]",
+      "end_time": "[14:24]",
+      "start_time_sec": 858,
+      "text": "Seventy-four megabits provides plenty of headroom for high-definition video calls.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:29]",
+      "end_time": "[14:39]",
+      "start_time_sec": 869,
+      "text": "Zero uncorrectable Reed-Solomon line errors have been logged over the past twenty-four hours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:44]",
+      "end_time": "[14:49]",
+      "start_time_sec": 884,
+      "text": "That confirms the physical line from the exchange is in great shape.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:54]",
+      "end_time": "[15:07]",
+      "start_time_sec": 894,
+      "text": "Let us check the router backup configuration file so you can restore these MTU settings if the Hub ever resets."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:12]",
+      "end_time": "[15:21]",
+      "start_time_sec": 912,
+      "text": "Under System Management, I see 'Export Configuration'. Clicking that... it saved a config backup file to my desktop.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:26]",
+      "end_time": "[15:37]",
+      "start_time_sec": 926,
+      "text": "That configuration backup preserves your 1420 MTU value and LAN IP static reservations permanently."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:42]",
+      "end_time": "[15:47]",
+      "start_time_sec": 942,
+      "text": "That is very handy in case a firmware update ever resets default settings.",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:52]",
+      "end_time": "[16:06]",
+      "start_time_sec": 952,
+      "text": "Let us also check your Quality of Service upstream priority settings to ensure VPN traffic takes precedence over smart home devices."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:11]",
+      "end_time": "[16:18]",
+      "start_time_sec": 971,
+      "text": "Under QoS Traffic Prioritization, I set my work laptop's MAC address to 'Highest Priority'.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:23]",
+      "end_time": "[16:34]",
+      "start_time_sec": 983,
+      "text": "Upstream bandwidth queueing will prioritize work packets ahead of domestic streaming traffic."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:39]",
+      "end_time": "[16:44]",
+      "start_time_sec": 999,
+      "text": "That guarantees smooth audio during peak household internet usage.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:49]",
+      "end_time": "[17:02]",
+      "start_time_sec": 1009,
+      "text": "Just to reconfirm, the broadband MTU parameter is clamped to fourteen hundred and twenty bytes under ticket TEC-88190."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:07]",
+      "end_time": "[17:13]",
+      "start_time_sec": 1027,
+      "text": "Yes, fourteen hundred and twenty bytes, ticket TEC-88190. That is completely correct.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:18]",
+      "end_time": "[17:32]",
+      "start_time_sec": 1038,
+      "text": "I will remain the dedicated owner for this support case and monitor your connection profile until the end of the business day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:37]",
+      "end_time": "[17:42]",
+      "start_time_sec": 1057,
+      "text": "Thank you for getting the MTU adjusted so quickly before my audit meeting.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:46]",
+      "end_time": "[17:54]",
+      "start_time_sec": 1066,
+      "text": "Wait, Connor, before we finish, what if my colleague in our Bristol branch has the exact same VPN issue on S-Net? Can he...",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:58]",
+      "end_time": "[18:06]",
+      "start_time_sec": 1078,
+      "text": "Tell him to lower his MTU. Thank you for choosing S-Net. Have a good day. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:10]",
+      "end_time": "[18:15]",
+      "start_time_sec": 1090,
+      "text": "Wait, Connor, don't hang up... hello? He hung up on me!",
+      "sentiment_score": -28.4
+    }
+  ]
+}

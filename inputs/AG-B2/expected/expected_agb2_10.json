@@ -1,0 +1,186 @@
+{
+  "call_id": "agb2_10",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 61.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to acknowledge customer's severe distress at turn 67 ([13:01]) regarding potential health-related relocation to assisted living, deflecting responsibility instead."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent failed to restate the customer's problem or pricing dispute in his own words, only discussing inflation calculations and plan terms."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At turn 68 ([13:27]), Agent deflected responsibility by telling the customer to contact head office retentions and cancellations if she was unhappy with contractual terms."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash High)",
+    "graded_on": "2026-10-21",
+    "scenario": "Mid-contract CPI price rise dispute and contract renewal negotiation; handled first outburst followed by unhandled second outburst and ownership deflection in final third",
+    "tier": "okay",
+    "duration_sec": 984,
+    "notes": "Complex 13-minute contract renewal negotiation. Ryan handles Beatrice's initial price rise anger at turn 11 with warmth and empathy at turn 13. However, Ryan fails Paraphrasing by never restating the problem in his own words. When Beatrice has a second intense outburst at turn 67 about being trapped in a 24-month contract while facing possible medical assisted living relocation, Ryan completely fails Empathy and deflects ownership at turn 68 by telling her to take it up with head office retentions and cancellations.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Took ownership of the problem",
+      "Paraphrasing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opened at [00:00] with 'Thank you for calling S-Net customer care' and closed at [16:11] with 'Thank you for choosing S-Net as your service provider'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "A single 60s hold between [06:01] and [07:11] to check loyalty tariffs was properly announced with 'Bear with me for about a minute' and returned with 'Thank you for waiting, Beatrice'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent requested residential address and security question (mother's maiden name) at [00:28], within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent used the customer's name Beatrice naturally throughout the call (turns 2, 4, 13, 30, 78, 84)."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "While agent warmly handled outburst 1 at turn 13 ([02:54]), customer suffered an intense second outburst at turn 67 ([13:01]) regarding fear of being trapped in a 2-year contract when facing assisted living relocation. Agent at turn 68 ([13:27]) offered zero empathy, telling her to contact head office retentions."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never restated the customer's dispute in his own words and checked it; only confirmed account tariff details at turn 4."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent did not repeat any answered questions."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At turn 68 ([13:27]), Agent deflected responsibility: 'If you don't like the contractual commitment terms, you will have to speak directly with our head office retentions and cancellations department, because customer care advisors cannot alter legal contract durations.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent remained polite and professional, without rude, sarcastic, or condescending language."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Thorough probing into broadband usage (turn 8), connected devices (turn 10), landline call habits (turn 23), and billing format preferences (turn 36)."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turns 78-79 ([15:25]-[15:35]), agent asked if the inquiry was resolved, and Beatrice confirmed: 'Yes, that completely resolves it and gives me an affordable bill with peace of mind. Thank you.'"
+      }
+    ],
+    "markers": {
+      "active_listening": [],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 66
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 11,
+          "agent_turn": 13,
+          "with_refusal": false
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 67
+        }
+      ]
+    }
+  }
+}

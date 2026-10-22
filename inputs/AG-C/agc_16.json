@@ -1,0 +1,531 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Harper",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Paige. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:16]",
+      "end_time": "[00:29]",
+      "start_time_sec": 16,
+      "text": "Hi Paige. Our S-Net Web Safe parental control filter has suddenly started blocking my daughter's university medical research portal, and she has an assignment deadline tonight that she can't access.",
+      "sentiment_score": -29.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:38]",
+      "end_time": "[00:50]",
+      "start_time_sec": 38,
+      "text": "I understand how urgent this is when your daughter has a university assignment deadline tonight. I will check your Web Safe settings and unblock that portal right away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:59]",
+      "end_time": "[01:07]",
+      "start_time_sec": 59,
+      "text": "Thank you Paige. She was in tears because the page keeps throwing up an S-Net Content Blocked warning.",
+      "sentiment_score": -16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:16]",
+      "end_time": "[01:25]",
+      "start_time_sec": 76,
+      "text": "Before we access your broadband security settings, could you please confirm your full installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:34]",
+      "end_time": "[01:41]",
+      "start_time_sec": 94,
+      "text": "Yes, it is 31 St Catherine's Way, Gloucester, GL1 2DD, and the security PIN is 6381.",
+      "sentiment_score": -2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:50]",
+      "end_time": "[01:58]",
+      "start_time_sec": 110,
+      "text": "Thank you for confirming your address and PIN. I have your broadband safety account open on our security gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:06]",
+      "end_time": "[02:09]",
+      "start_time_sec": 126,
+      "text": "Great, thanks for getting that open.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:17]",
+      "end_time": "[02:32]",
+      "start_time_sec": 137,
+      "text": "So just to confirm what is happening: your broadband Web Safe filter is incorrectly flagging an educational university medical portal as restricted content, blocking access ahead of an urgent academic deadline. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:40]",
+      "end_time": "[02:47]",
+      "start_time_sec": 160,
+      "text": "Yes, exactly that. The website address is biomed-portal.ox.ac.uk, and it contains academic journals on pharmacology.",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:55]",
+      "end_time": "[03:07]",
+      "start_time_sec": 175,
+      "text": "Our Web Safe system operates two distinct filtering categories: Child Safe, which restricts adult content, and Virus Safe, which blocks suspicious IP addresses and unverified domain certificates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:15]",
+      "end_time": "[03:20]",
+      "start_time_sec": 195,
+      "text": "Why would an Oxford University medical portal get blocked by Virus Safe?",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:28]",
+      "end_time": "[03:40]",
+      "start_time_sec": 208,
+      "text": "Checking our threat intelligence database... the university portal recently updated its SSL security certificate to a new intermediate authority that our automated scanner had not yet white-listed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:48]",
+      "end_time": "[03:52]",
+      "start_time_sec": 228,
+      "text": "Oh, so the new certificate triggered a false positive flag.",
+      "sentiment_score": 4.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:00]",
+      "end_time": "[04:06]",
+      "start_time_sec": 240,
+      "text": "Precisely. Our automated heuristic scanner flagged the domain as containing unverified SSL authority certificates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:14]",
+      "end_time": "[04:21]",
+      "start_time_sec": 254,
+      "text": "Can you add that domain to our personal whitelist so our home network bypasses the block?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:29]",
+      "end_time": "[04:35]",
+      "start_time_sec": 269,
+      "text": "Yes, I can add biomed-portal.ox.ac.uk directly to your account's Trusted Domains whitelist right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:43]",
+      "end_time": "[04:49]",
+      "start_time_sec": 283,
+      "text": "Does the whitelist take effect immediately or does it take hours to replicate?",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:57]",
+      "end_time": "[05:07]",
+      "start_time_sec": 297,
+      "text": "When we add a domain to your individual household whitelist, the DNS policy pushes down to your Hub router within about two minutes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:15]",
+      "end_time": "[05:20]",
+      "start_time_sec": 315,
+      "text": "That is fantastic, she can get straight back to her research.",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:28]",
+      "end_time": "[05:36]",
+      "start_time_sec": 328,
+      "text": "Are there any subdomains on that university portal that she also accesses, such as library or student portal subdomains?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:44]",
+      "end_time": "[05:49]",
+      "start_time_sec": 344,
+      "text": "Yes, library.ox.ac.uk and canvas.ox.ac.uk are also used heavily for her course.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:57]",
+      "end_time": "[06:06]",
+      "start_time_sec": 357,
+      "text": "I will add a wildcard entry for *.ox.ac.uk so that all educational subdomains under the university domain remain permanently accessible."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:14]",
+      "end_time": "[06:20]",
+      "start_time_sec": 374,
+      "text": "Adding the wildcard is a brilliant idea, that will stop any other pages breaking.",
+      "sentiment_score": 24.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:28]",
+      "end_time": "[06:35]",
+      "start_time_sec": 388,
+      "text": "Let me also verify your Virus Safe settings so malware protection remains active on all other browsing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:43]",
+      "end_time": "[06:48]",
+      "start_time_sec": 403,
+      "text": "Yes, we definitely still want protection against phishing and malicious links.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:56]",
+      "end_time": "[07:02]",
+      "start_time_sec": 416,
+      "text": "Virus Safe will continue scanning all external web traffic for known malicious signatures."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:10]",
+      "end_time": "[07:18]",
+      "start_time_sec": 430,
+      "text": "Does the Web Safe filter apply to Wi-Fi guest networks if we have guests over at the house?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:26]",
+      "end_time": "[07:36]",
+      "start_time_sec": 446,
+      "text": "Yes, any device connecting to your primary Wi-Fi SSID or your separate Guest Wi-Fi network inherits the household Web Safe DNS filtering rules."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:44]",
+      "end_time": "[07:49]",
+      "start_time_sec": 464,
+      "text": "Can we set different filtering rules for different devices in the home?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:57]",
+      "end_time": "[08:08]",
+      "start_time_sec": 477,
+      "text": "Currently, Web Safe operates at the gateway router level across all local IP addresses, but individual device scheduling is available under our Advanced Security add-on."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:16]",
+      "end_time": "[08:24]",
+      "start_time_sec": 496,
+      "text": "Good to know, but for now having the university domains open for my daughter is all we needed.",
+      "sentiment_score": 8.6
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:32]",
+      "end_time": "[08:41]",
+      "start_time_sec": 512,
+      "text": "Can my daughter access the university portal when she connects from her mobile phone over 4G mobile data as well?",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:49]",
+      "end_time": "[09:01]",
+      "start_time_sec": 529,
+      "text": "Mobile data uses the mobile carrier's DNS servers rather than your home broadband Hub, so her university portal will work on 4G without any S-Net Web Safe restrictions."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:09]",
+      "end_time": "[09:15]",
+      "start_time_sec": 549,
+      "text": "That's great, so she can continue reading research papers on her commute into campus.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:23]",
+      "end_time": "[09:31]",
+      "start_time_sec": 563,
+      "text": "Does she also use remote desktop software to access university lab computers, such as TeamViewer or Microsoft Remote Desktop?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:39]",
+      "end_time": "[09:46]",
+      "start_time_sec": 579,
+      "text": "Yes, she uses remote desktop to access the chemistry simulation software running on campus workstations.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:54]",
+      "end_time": "[10:01]",
+      "start_time_sec": 594,
+      "text": "Remote desktop protocols utilize specific outbound ports like 3389, which are unrestricted under standard Web Safe settings."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:09]",
+      "end_time": "[10:15]",
+      "start_time_sec": 609,
+      "text": "Does the Web Safe filter scan incoming downloaded PDF research files for embedded malware?",
+      "sentiment_score": 7.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:23]",
+      "end_time": "[10:31]",
+      "start_time_sec": 623,
+      "text": "Yes, Virus Safe uses real-time packet inspection to scan downloaded files and attachments against known virus signature databases."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:39]",
+      "end_time": "[10:44]",
+      "start_time_sec": 639,
+      "text": "That's great because medical research archives often host compressed archive files.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:52]",
+      "end_time": "[10:58]",
+      "start_time_sec": 652,
+      "text": "It provides continuous network-level security without requiring third-party antivirus software on her laptop."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:06]",
+      "end_time": "[11:11]",
+      "start_time_sec": 666,
+      "text": "I'm relieved that won't be blocked either when she runs lab simulations.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:19]",
+      "end_time": "[11:30]",
+      "start_time_sec": 679,
+      "text": "Please bear with me while I place you on a brief hold for about two minutes while I push the wildcard domain whitelist to your Hub."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:54]",
+      "end_time": "[13:02]",
+      "start_time_sec": 774,
+      "text": "Thank you for your patience while waiting. The wildcard whitelist has been applied to your router's DNS profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:10]",
+      "end_time": "[13:17]",
+      "start_time_sec": 790,
+      "text": "Thank you Paige. Let me ask my daughter to refresh the page on her laptop upstairs.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:25]",
+      "end_time": "[13:35]",
+      "start_time_sec": 805,
+      "text": "Have her flush her browser cache or open the page in an incognito window to ensure it doesn't load a cached error page."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:43]",
+      "end_time": "[13:53]",
+      "start_time_sec": 823,
+      "text": "She's opening an incognito window now... typing biomed-portal.ox.ac.uk... and it loaded! The full medical journal dashboard popped up with no blocking screen!",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:01]",
+      "end_time": "[14:09]",
+      "start_time_sec": 841,
+      "text": "That's wonderful! Is she able to log in with her student credentials and download the necessary research papers?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:17]",
+      "end_time": "[14:25]",
+      "start_time_sec": 857,
+      "text": "She just logged in and downloaded her PDF assignment brief. She says to give you a massive thank you!",
+      "sentiment_score": 39.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:33]",
+      "end_time": "[14:39]",
+      "start_time_sec": 873,
+      "text": "I'm so delighted she can complete her assignment on time without any further stress."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:47]",
+      "end_time": "[14:51]",
+      "start_time_sec": 887,
+      "text": "And are the other university subdomains working cleanly too?",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:59]",
+      "end_time": "[15:05]",
+      "start_time_sec": 899,
+      "text": "Could she click through to the library catalog to verify the wildcard policy?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:13]",
+      "end_time": "[15:18]",
+      "start_time_sec": 913,
+      "text": "Checking the library link... yes, library.ox.ac.uk opened instantly with full access.",
+      "sentiment_score": 32.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:26]",
+      "end_time": "[15:31]",
+      "start_time_sec": 926,
+      "text": "The wildcard rule is propagating perfectly across your local DNS cache."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:39]",
+      "end_time": "[15:45]",
+      "start_time_sec": 939,
+      "text": "You have no idea what a lifesaver this was tonight. Her deadline was midnight.",
+      "sentiment_score": 36.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:53]",
+      "end_time": "[16:02]",
+      "start_time_sec": 953,
+      "text": "I have locked that trusted domain whitelist onto your account profile so it will never revert during future automated security updates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:10]",
+      "end_time": "[16:14]",
+      "start_time_sec": 970,
+      "text": "That proactive locking gives us total peace of mind.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:22]",
+      "end_time": "[16:30]",
+      "start_time_sec": 982,
+      "text": "Are there any other educational websites or study tools that she needs whitelisted while we are in your profile?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:38]",
+      "end_time": "[16:43]",
+      "start_time_sec": 998,
+      "text": "What about NCBI PubMed and ScienceDirect? Are they whitelisted by default?",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:51]",
+      "end_time": "[16:59]",
+      "start_time_sec": 1011,
+      "text": "Yes, major scientific and medical publishing domains like PubMed and ScienceDirect are verified global whitelist entries on S-Net."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:07]",
+      "end_time": "[17:12]",
+      "start_time_sec": 1027,
+      "text": "That's good, so she won't run into another wall when citing references.",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:20]",
+      "end_time": "[17:26]",
+      "start_time_sec": 1040,
+      "text": "Can you also check if her university VPN connects properly through the router firewall?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:34]",
+      "end_time": "[17:39]",
+      "start_time_sec": 1054,
+      "text": "She's launching the university Cisco AnyConnect VPN now... yes, green checkmark, connected!",
+      "sentiment_score": 31.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:47]",
+      "end_time": "[17:52]",
+      "start_time_sec": 1067,
+      "text": "IPsec and SSL VPN pass-through are enabled by default on Hub firmware."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:00]",
+      "end_time": "[18:03]",
+      "start_time_sec": 1080,
+      "text": "Everything is working like clockwork now.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:11]",
+      "end_time": "[18:18]",
+      "start_time_sec": 1091,
+      "text": "Is there anything else regarding your broadband security or parental controls that I can assist with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:26]",
+      "end_time": "[18:32]",
+      "start_time_sec": 1106,
+      "text": "No Paige, you sorted out the emergency in minutes. Thank you so much!",
+      "sentiment_score": 29.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:40]",
+      "end_time": "[18:49]",
+      "start_time_sec": 1120,
+      "text": "Thank you for choosing S-Net today. Wish your daughter the best of luck with her assignment and have a wonderful evening."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:57]",
+      "end_time": "[19:00]",
+      "start_time_sec": 1137,
+      "text": "Thanks Paige, take care. Goodbye!",
+      "sentiment_score": 11.4
+    }
+  ]
+}

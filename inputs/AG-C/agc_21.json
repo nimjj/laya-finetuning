@@ -1,0 +1,465 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Alexander",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Hi there, S-Net customer support, Vicky speaking. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:28]",
+      "start_time_sec": 11,
+      "text": "Hi Vicky. I'm currently traveling in Italy on a business trip and my mobile data suddenly completely cut off with an alert saying I've reached my roaming data limit. I need urgent data access for navigation and business emails.",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:33]",
+      "end_time": "[00:46]",
+      "start_time_sec": 33,
+      "text": "I understand how urgent it is to restore your mobile data while traveling abroad in Italy, Alexander. Let me check your roaming allowance and get you reconnected right away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:51]",
+      "end_time": "[00:58]",
+      "start_time_sec": 51,
+      "text": "Thank you Vicky, I'm literally standing outside Milan central station trying to find my hotel.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:03]",
+      "end_time": "[01:13]",
+      "start_time_sec": 63,
+      "text": "To locate your mobile account on my screen, Alexander, could you tell me your mobile phone number and your date of birth?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:18]",
+      "end_time": "[01:30]",
+      "start_time_sec": 78,
+      "text": "Yes, my mobile number is zero seven seven zero zero, nine zero zero five eight three, and my date of birth is the fourteenth of June, 1985.",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:35]",
+      "end_time": "[01:41]",
+      "start_time_sec": 95,
+      "text": "Thank you, Alexander. I have your mobile roaming profile open in front of me."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:46]",
+      "end_time": "[01:49]",
+      "start_time_sec": 106,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:54]",
+      "end_time": "[02:13]",
+      "start_time_sec": 114,
+      "text": "So just to confirm what has occurred: you are traveling abroad in Italy on business, and your mobile data has stopped working because you have reached your monthly European roaming data allowance, leaving you stranded without maps or email. Have I got that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:18]",
+      "end_time": "[02:30]",
+      "start_time_sec": 138,
+      "text": "Yes, exactly that. My plan comes with twelve gigabytes of EU roaming, and I must have used the last megabyte downloading presentation slides on the train this morning.",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:35]",
+      "end_time": "[02:45]",
+      "start_time_sec": 155,
+      "text": "Checking your live roaming usage meter... yes, your billing cycle EU roaming consumption reached twelve thousand megabytes at eleven o'clock this morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:50]",
+      "end_time": "[02:55]",
+      "start_time_sec": 170,
+      "text": "Does the system automatically block data once twelve gigabytes is reached?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:00]",
+      "end_time": "[03:12]",
+      "start_time_sec": 180,
+      "text": "Yes, to protect customers from unexpected international data fees, our network automatically suspends roaming data until the next billing cycle or until a roaming booster is added."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:17]",
+      "end_time": "[03:24]",
+      "start_time_sec": 197,
+      "text": "Can I buy an immediate data add-on so I can get back online right now?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:29]",
+      "end_time": "[03:41]",
+      "start_time_sec": 209,
+      "text": "Yes, we offer two EU Data Roamer bolt-ons: a five-gigabyte booster for ten pounds, or an unlimited EU roaming pass for twenty pounds valid for fourteen days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:46]",
+      "end_time": "[03:56]",
+      "start_time_sec": 226,
+      "text": "How long will I be in Italy? I'm here for another six days, so the five-gigabyte booster for ten pounds is plenty.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:01]",
+      "end_time": "[04:07]",
+      "start_time_sec": 241,
+      "text": "The five-gigabyte booster activates immediately and remains valid until your return to the UK."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:12]",
+      "end_time": "[04:18]",
+      "start_time_sec": 252,
+      "text": "Can you charge the ten pounds to my next monthly direct debit bill?",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:23]",
+      "end_time": "[04:31]",
+      "start_time_sec": 263,
+      "text": "Yes, the ten-pound one-off bolt-on fee will simply be added as a line item on your next standard invoice."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:36]",
+      "end_time": "[04:45]",
+      "start_time_sec": 276,
+      "text": "That's very convenient, I don't have to read out credit card details in the middle of a busy train station.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:50]",
+      "end_time": "[05:03]",
+      "start_time_sec": 290,
+      "text": "Please bear with me while I place you on a brief hold for about one minute while I provision the five-gigabyte EU roaming bundle and unblock your roaming data bar."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:53]",
+      "end_time": "[06:03]",
+      "start_time_sec": 353,
+      "text": "Thank you for your patience while holding, Alexander. The five-gigabyte EU Roamer booster has been added and the network roaming block has been released."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:08]",
+      "end_time": "[06:15]",
+      "start_time_sec": 368,
+      "text": "Thank you Vicky. Do I need to restart my phone or will the data reconnect automatically?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:20]",
+      "end_time": "[06:29]",
+      "start_time_sec": 380,
+      "text": "Toggle Airplane Mode on for ten seconds and then turn it off so your device re-authenticates with the Italian partner network."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:34]",
+      "end_time": "[06:45]",
+      "start_time_sec": 394,
+      "text": "Toggling Airplane Mode on... waiting ten seconds... toggling Airplane Mode back off... okay, the 5G icon just popped up next to the carrier name TIM Italy!",
+      "sentiment_score": 36.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:50]",
+      "end_time": "[06:56]",
+      "start_time_sec": 410,
+      "text": "Are you able to open your Google Maps application and load your hotel directions?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:01]",
+      "end_time": "[07:10]",
+      "start_time_sec": 421,
+      "text": "Opening Maps... yes! The full street map loaded instantly, and my email inbox is updating right now. What a massive relief!",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:15]",
+      "end_time": "[07:21]",
+      "start_time_sec": 435,
+      "text": "That confirms your mobile data session is fully active on the local partner network."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:26]",
+      "end_time": "[07:33]",
+      "start_time_sec": 446,
+      "text": "Does this booster also allow me to use personal hotspot to connect my work laptop?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:38]",
+      "end_time": "[07:43]",
+      "start_time_sec": 458,
+      "text": "Yes, personal hotspot tethering is fully permitted within your five-gigabyte booster allowance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:48]",
+      "end_time": "[07:54]",
+      "start_time_sec": 468,
+      "text": "That will be essential for sending client reports from the hotel room tonight.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:59]",
+      "end_time": "[08:07]",
+      "start_time_sec": 479,
+      "text": "What about voice calls and SMS? Are calls back to the UK included in your plan while in Italy?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:12]",
+      "end_time": "[08:23]",
+      "start_time_sec": 492,
+      "text": "Yes, all calls and text messages from Italy back to standard UK landlines and mobiles are included in your domestic monthly allowance with zero roaming surcharge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:28]",
+      "end_time": "[08:35]",
+      "start_time_sec": 508,
+      "text": "That's great so I can call my office in London without worrying about international rates.",
+      "sentiment_score": 21.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:40]",
+      "end_time": "[08:48]",
+      "start_time_sec": 520,
+      "text": "If I travel across the border into Switzerland for a day trip, does the EU booster cover Swiss networks?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:53]",
+      "end_time": "[09:04]",
+      "start_time_sec": 533,
+      "text": "Switzerland is not part of the standard EU roaming zone, so data roaming in Switzerland incurs separate roaming charges or requires our Global Roam pass."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:09]",
+      "end_time": "[09:16]",
+      "start_time_sec": 549,
+      "text": "I am very glad I asked, because I was considering visiting a client in Zurich on Friday.",
+      "sentiment_score": 12.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:21]",
+      "end_time": "[09:29]",
+      "start_time_sec": 561,
+      "text": "If you do visit Switzerland, our Global Roam pass is five pounds per day and covers all Swiss networks."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:34]",
+      "end_time": "[09:41]",
+      "start_time_sec": 574,
+      "text": "I will purchase the Global Roam pass if my Friday client meeting in Zurich is confirmed.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:46]",
+      "end_time": "[09:55]",
+      "start_time_sec": 586,
+      "text": "And to prevent accidental background data usage in non-EU territories, your global spend cap remains safely set at zero pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:00]",
+      "end_time": "[10:09]",
+      "start_time_sec": 600,
+      "text": "That ensures my phone won't accidentally rack up huge charges if it connects to a Swiss cell tower near the border.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:14]",
+      "end_time": "[10:21]",
+      "start_time_sec": 614,
+      "text": "What should I do if my phone loses signal while traveling through railway tunnels in the Alps?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:26]",
+      "end_time": "[10:36]",
+      "start_time_sec": 626,
+      "text": "If signal drops, leaving network selection set to Automatic allows your device to seamlessly roam between TIM and Vodafone Italia depending on mast strength."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:41]",
+      "end_time": "[10:45]",
+      "start_time_sec": 641,
+      "text": "I have network selection set to Automatic on my iPhone.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:50]",
+      "end_time": "[10:56]",
+      "start_time_sec": 650,
+      "text": "That will guarantee optimal mobile coverage throughout your train journeys across northern Italy."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:01]",
+      "end_time": "[11:08]",
+      "start_time_sec": 661,
+      "text": "Can I monitor remaining booster data via the My S-Net mobile app while connected to cellular data?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:13]",
+      "end_time": "[11:19]",
+      "start_time_sec": 673,
+      "text": "Yes, the My S-Net mobile app widget functions internationally with zero roaming data consumption."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:24]",
+      "end_time": "[11:27]",
+      "start_time_sec": 684,
+      "text": "That makes tracking usage effortless.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:32]",
+      "end_time": "[11:39]",
+      "start_time_sec": 692,
+      "text": "Does the five-gigabyte booster expire at the end of the month or after thirty days?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:44]",
+      "end_time": "[11:51]",
+      "start_time_sec": 704,
+      "text": "The booster remains active for thirty full calendar days from the moment of activation today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:56]",
+      "end_time": "[12:01]",
+      "start_time_sec": 716,
+      "text": "That covers the rest of my trip with plenty of remaining time.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:06]",
+      "end_time": "[12:14]",
+      "start_time_sec": 726,
+      "text": "And you will receive a summary text message upon returning to the UK confirming your return to domestic allowances."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:19]",
+      "end_time": "[12:22]",
+      "start_time_sec": 739,
+      "text": "That makes transitioning back home seamless.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:27]",
+      "end_time": "[12:35]",
+      "start_time_sec": 747,
+      "text": "Would you like me to set up an SMS alert when your new five-gigabyte booster reaches eighty percent usage?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:40]",
+      "end_time": "[12:49]",
+      "start_time_sec": 760,
+      "text": "Yes please, an eighty percent warning text will let me know if I need to top up again before the weekend.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:54]",
+      "end_time": "[12:58]",
+      "start_time_sec": 774,
+      "text": "I have enabled automatic threshold notifications for your mobile line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:03]",
+      "end_time": "[13:07]",
+      "start_time_sec": 783,
+      "text": "That will keep me completely in control of data spending.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:11]",
+      "end_time": "[13:19]",
+      "start_time_sec": 791,
+      "text": "Is there anything else regarding your roaming settings or mobile service that I can help with today, Alexander?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:23]",
+      "end_time": "[13:31]",
+      "start_time_sec": 803,
+      "text": "No Vicky, you sorted out the data block in minutes and saved my business trip. Thank you so much!",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:35]",
+      "end_time": "[13:42]",
+      "start_time_sec": 815,
+      "text": "Thank you for choosing S-Net today, Alexander. Enjoy your stay in Italy and have a wonderful week."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:46]",
+      "end_time": "[13:50]",
+      "start_time_sec": 826,
+      "text": "Thanks Vicky, take care. Goodbye!",
+      "sentiment_score": 6.4
+    }
+  ]
+}

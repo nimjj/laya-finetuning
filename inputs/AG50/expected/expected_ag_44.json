@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_44",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 23.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "At [00:28], verify the customer using her postal address, account PIN, or memorable security question within the first 240 seconds rather than only asking for mobile number, date of birth, and last bill amount."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Use the customer's name ('Rukhsana') during the conversation to personalize the interaction."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "At [00:28] and [01:01], offer a sincere apology and express empathy for the customer's distress at being stuck at her Dubai hotel reception unable to receive bank OTP codes."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "At [00:28]-[01:01], paraphrase the customer's roaming SMS verification issue back to her in your own words to confirm understanding before moving on."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At [01:01]-[01:34], take ownership of checking the customer's S-Net HLR roaming profile immediately rather than blaming her UK bank's international SMS aggregator and telling her to take it up with her bank."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "At [01:01]-[02:03], ask diagnostic probing questions about which UAE carrier she is connected to (`du` vs `Etisalat`), whether standard texts arrive, and recent account changes instead of waiting for the customer to volunteer all clues."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Overseas roaming spend cap accidentally blocking incoming SMS verification codes from UK bank while travelling in Dubai",
+    "tier": "poor",
+    "duration_sec": 910,
+    "notes": "6-FAIL call (`V`, `P`, `E`, `PA`, `O`, `PR`) where `RE` and `R` still PASS. Imogen fails verification at [00:28] (only asks mobile number, DOB, and last bill amount), never says Rukhsana's name, shows zero empathy for her hotel check-in crisis ([00:09]-[01:01]), deflects ownership to her UK bank at [01:01], and asks no diagnostic questions, yet remains civil (`R` PASS) and clears the stuck HLR `Roaming MT-SMS Bar` so Rukhsana receives her live HSBC OTP on the call ([08:52]-[09:14], `RE` PASS).",
+    "hard_cases": [
+      "Verified customer",
+      "Empathy & Acknowledgment Statement",
+      "Took ownership of the problem",
+      "Build rapport and observed professionalism",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Imogen opens with 'thank you for calling S-Net' and closes at [15:02] with 'Thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[05:37]-[06:39] Single 52-second managed hold announced with 'Please bear with me for a moment while...' and returned with 'Thank you for holding, and thank you for your patience'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:28]-[00:40] Imogen only asks for Rukhsana's mobile number, date of birth, and last monthly bill amount (£42.80), never verifying her address, PIN, or security question."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:00]-[15:02] Although Rukhsana introduces herself at [00:09], Imogen never uses her name in any turn."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:09]-[01:01] Rukhsana is highly distressed (-41.0 sentiment) about being unable to approve her hotel deposit in Dubai without her bank SMS OTP, but Imogen never apologizes or acknowledges her distress."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:28]-[01:34] Imogen never paraphrases Rukhsana's issue, moving straight into partial verification and then deflecting blame to the bank."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:03], [02:36] Imogen accurately retains the details Rukhsana volunteers (testing both `du` and `Etisalat`, husband's UK texts failing, and setting the £0 Roaming Spend Cap at Heathrow)."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:01] Imogen deflects ownership: 'If your UK bank's two-factor text isn't arriving in the UAE, that's your bank's international SMS aggregator problem, not ours—you'd have to take that up with your bank.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00]-[15:02] Despite her initial deflection and lack of empathy, Imogen keeps her tone civil, calm, and non-hostile throughout the call."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:01]-[02:47] Imogen asks zero diagnostic probing questions; Rukhsana has to volunteer on her own that she tried both `du` and `Etisalat`, that regular texts from her husband fail, and that she set a £0 Roaming Spend Cap."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[07:37], [08:52]-[09:14], [14:37] After Imogen clears the stuck `Roaming MT-SMS Bar` on the HLR, Rukhsana receives her husband's buffered texts, triggers a live HSBC 3D Secure OTP ([08:52]: 'Six-digit code 849201 from HSBC UK!'), approves her hotel payment ([09:14]), and confirms the app shows Incoming Roaming SMS Enabled ([14:37])."
+      }
+    ]
+  }
+}

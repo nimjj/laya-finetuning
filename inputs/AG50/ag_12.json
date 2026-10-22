@@ -1,0 +1,574 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Raghav",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Good morning, um, thank you for calling S-Net Broadband Technical Support, you are speaking with Nadia. How can I help you today?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:07]",
+      "end_time": "[00:15]",
+      "start_time_sec": 7,
+      "text": "Morning Nadia, it is Raghav calling. Look, my home broadband upload speed has completely collapsed since yesterday morning and I am really struggling to work from home.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:16]",
+      "end_time": "[00:28]",
+      "start_time_sec": 16,
+      "text": "Oh no, I am really sorry to hear your upload speed has dropped like that, Raghav, especially when you are relying on it for work. Let us get into your account and see what is going on.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:29]",
+      "end_time": "[00:35]",
+      "start_time_sec": 29,
+      "text": "Thanks, because every time I turn my camera on or try to share my screen with a client, the whole call freezes up.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:36]",
+      "end_time": "[00:47]",
+      "start_time_sec": 36,
+      "text": "I completely understand how stressful that is in the middle of client meetings, Raghav. Um, before I pull up the line diagnostics, could you confirm your home address and the answer to your memorable security question?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:48]",
+      "end_time": "[00:53]",
+      "start_time_sec": 48,
+      "text": "Yeah, sure. My address is 14 Beechwood Avenue, Solihull, B91 2PL, and the answer to my security question—first concert attended—is Oasis.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:54]",
+      "end_time": "[01:02]",
+      "start_time_sec": 54,
+      "text": "Lovely, thank you Raghav, that is all verified on your Fibre 65 FTTC account. Tell me a bit more about what speeds you are seeing right now.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:03]",
+      "end_time": "[01:25]",
+      "start_time_sec": 63,
+      "text": "Well, my download speed is still fine at about fifty-two megabits, er, fifty-two point four, but my upload speed is stuck at zero point four megabits per second. And just so you know, my Dell work laptop is plugged directly into yellow port one on the S-Net Hub with a brand-new Cat6 Ethernet cable, and Wi-Fi is switched off on the laptop.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:26]",
+      "end_time": "[01:42]",
+      "start_time_sec": 86,
+      "text": "Right, so let me make sure I have got that straight, Raghav: your download speed is holding steady around fifty-two megabits per second, but since yesterday morning your upload speed has cratered to zero point four megabits per second, which is freezing your video calls and screen shares.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[01:50]",
+      "start_time_sec": 103,
+      "text": "Spot on. I am a structural architect and I cannot even push a twelve megabyte AutoCAD drawing up to our project cloud without it timing out.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:51]",
+      "end_time": "[02:07]",
+      "start_time_sec": 111,
+      "text": "Zero point four megabits upstream is barely a trickle, no wonder AutoCAD uploads are timing out. Um, can I ask what type of Openreach master socket your S-Net Hub is plugged into—is it the newer NTE5C faceplate with two ports, or an older socket with a microfilter?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:08]",
+      "end_time": "[02:14]",
+      "start_time_sec": 128,
+      "text": "It is the newer split faceplate without a microfilter, the one with the clip-off bottom half that says Openreach MK4 on it.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:15]",
+      "end_time": "[02:25]",
+      "start_time_sec": 135,
+      "text": "Okay, the MK4 pre-filtered faceplate is good. And do you have any old telephone extension sockets wired around the house, or did anything happen outside yesterday like heavy rain or street works?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:26]",
+      "end_time": "[02:36]",
+      "start_time_sec": 146,
+      "text": "We have no landline extensions at all, we don't even own a home phone. Though actually, we did have that torrential thunderstorm in Solihull on Tuesday night right before this started yesterday morning.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:37]",
+      "end_time": "[02:48]",
+      "start_time_sec": 157,
+      "text": "Ah, heavy rain getting into a street joint or cabinet block can definitely cause an upstream resistance fault on copper pairs, Raghav. Let me check the sync stats on your S-Net Hub right now.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:49]",
+      "end_time": "[02:51]",
+      "start_time_sec": 169,
+      "text": "What do the numbers look like on your end?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:52]",
+      "end_time": "[03:05]",
+      "start_time_sec": 172,
+      "text": "Um, looking at the live router telemetry, your downstream sync is fifty-five point eight megabits with a six point two decibel noise margin, which is healthy, er, but your upstream sync is capped at four hundred and forty-eight kilobits per second!",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:06]",
+      "end_time": "[03:10]",
+      "start_time_sec": 186,
+      "text": "Four hundred and forty-eight kilobits? Isn't my Fibre 65 package supposed to sync at twenty megabits upstream?",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:11]",
+      "end_time": "[03:22]",
+      "start_time_sec": 191,
+      "text": "Yes, normally your line syncs at nineteen point nine megabits upstream. Right now your upstream noise margin is struggling at three point one decibels with over fourteen thousand CRC errors in the last hour.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:23]",
+      "end_time": "[03:26]",
+      "start_time_sec": 203,
+      "text": "Fourteen thousand errors in an hour! Why has the downstream stayed fast while the upload died?",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:27]",
+      "end_time": "[03:36]",
+      "start_time_sec": 207,
+      "text": "On VDSL2 lines, the upstream frequency bands sit in a specific range that gets hit really hard when moisture creates a high-resistance unbalanced leg on one wire of the copper pair.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:37]",
+      "end_time": "[03:40]",
+      "start_time_sec": 217,
+      "text": "Can we test the copper line from the exchange to see where that fault actually is?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:41]",
+      "end_time": "[03:56]",
+      "start_time_sec": 221,
+      "text": "Yes, I am going to run a full copper metallic path test and DLM line check right now. Um, give me a moment while I run a copper metallic path test on your line from the exchange.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:56]",
+      "end_time": "[04:59]",
+      "start_time_sec": 296,
+      "text": "Hello? Are you still there, Nadia? It went completely quiet for over a minute.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:00]",
+      "end_time": "[05:08]",
+      "start_time_sec": 300,
+      "text": "Oh, er, sorry about that Raghav, I am still here! The Openreach TAM diagnostic tool took a little while to finish measuring the capacitance on the copper pair.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:09]",
+      "end_time": "[05:13]",
+      "start_time_sec": 309,
+      "text": "No worries, I just thought the line had cut out. What did the metallic path test find?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:14]",
+      "end_time": "[05:23]",
+      "start_time_sec": 314,
+      "text": "Well, the copper test flagged a 'High Resistance Battery Contact / Shunt Fault' approximately three hundred and eighty meters from the street cabinet, right in the underground distribution side.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:24]",
+      "end_time": "[05:30]",
+      "start_time_sec": 324,
+      "text": "Three hundred and eighty meters from the cabinet—that is roughly down by the corner of Beechwood Avenue where the pavement inspection chamber is!",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:31]",
+      "end_time": "[05:39]",
+      "start_time_sec": 331,
+      "text": "That matches the distance measurement to a tee, Raghav. When Tuesday night's storm flooded the duct, water likely got into an unsealed jelly crimp inside that footway box.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:40]",
+      "end_time": "[05:48]",
+      "start_time_sec": 340,
+      "text": "Is there any chance resetting the line profile from your system can push the upload speed back up today so I can get through my afternoon meetings?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:49]",
+      "end_time": "[05:58]",
+      "start_time_sec": 349,
+      "text": "I can try triggering a Dynamic Line Management profile reset and port bounce at the street cabinet DSLAM right now to see if the modem can negotiate a higher upstream rate.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:59]",
+      "end_time": "[06:03]",
+      "start_time_sec": 359,
+      "text": "Yes please, let us try that first in case it gives me even four or five megabits.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:04]",
+      "end_time": "[06:13]",
+      "start_time_sec": 364,
+      "text": "Okay, I have just sent the port bounce and DLM reset command to the Solihull cabinet. Your S-Net Hub broadband light will flash amber for about thirty seconds while it retrains.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:14]",
+      "end_time": "[06:19]",
+      "start_time_sec": 374,
+      "text": "Yeah, I can see the hub in the hallway from my study door—the light just went amber and started blinking.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:20]",
+      "end_time": "[06:23]",
+      "start_time_sec": 380,
+      "text": "Let us watch the DSLAM port state together while it goes through handshake training.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:24]",
+      "end_time": "[06:27]",
+      "start_time_sec": 384,
+      "text": "It is blinking fast green now... and now the light has gone solid green again.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:28]",
+      "end_time": "[06:39]",
+      "start_time_sec": 388,
+      "text": "Right, the carrier is back up, Raghav. Let me refresh the line rate from the cabinet DSLAM... oh dear, I am afraid the physical resistance on the copper pair is still dragging the upstream down.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:40]",
+      "end_time": "[06:42]",
+      "start_time_sec": 400,
+      "text": "What did it sync at after the reset?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:43]",
+      "end_time": "[06:52]",
+      "start_time_sec": 403,
+      "text": "It only managed five hundred and twelve kilobits per second upstream, and the upstream attenuation jumped to forty-one decibels. That confirms it is a hard physical copper fault outside your property.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:53]",
+      "end_time": "[06:57]",
+      "start_time_sec": 413,
+      "text": "Ugh, five hundred and twelve kilobits is still half a megabit, so video calls are still impossible.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:58]",
+      "end_time": "[07:11]",
+      "start_time_sec": 418,
+      "text": "Before I log the external engineer packet, could you run one quick speed check on your laptop for the Openreach docket? And, er, are you testing over Wi-Fi right now or have you got an Ethernet cable plugged in?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:12]",
+      "end_time": "[07:24]",
+      "start_time_sec": 432,
+      "text": "Nadia, I told you right at the start of the call that my Dell work laptop is plugged directly into yellow port one on the S-Net Hub with a Cat6 Ethernet cable and Wi-Fi is switched off.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:25]",
+      "end_time": "[07:33]",
+      "start_time_sec": 445,
+      "text": "Oh, I am so sorry Raghav, you did tell me that earlier—my apologies, I was reading the Openreach fault checklist form on my screen and asked on autopilot.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:34]",
+      "end_time": "[07:43]",
+      "start_time_sec": 454,
+      "text": "It is fine. I just ran the speed test over the Cat6 cable and the result ID shows fifty-one point eight megabits down and zero point four two megabits up.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:44]",
+      "end_time": "[07:51]",
+      "start_time_sec": 464,
+      "text": "Thank you for running that, Raghav, I have attached that wired test result straight onto the Openreach SFI2 external network fault report.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:52]",
+      "end_time": "[07:59]",
+      "start_time_sec": 472,
+      "text": "Does the Openreach engineer need to come inside my house, or are they just working at the street cabinet and the underground chamber?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:00]",
+      "end_time": "[08:14]",
+      "start_time_sec": 480,
+      "text": "They will start at the street cabinet and the footway chamber down Beechwood Avenue, though we always book an access slot just in case they need to plug their JDSU tester into your MK4 socket to verify pair balance.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:15]",
+      "end_time": "[08:18]",
+      "start_time_sec": 495,
+      "text": "When is the earliest slot you can get an engineer out here?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:19]",
+      "end_time": "[08:31]",
+      "start_time_sec": 499,
+      "text": "Let me open the Openreach live appointment calendar and reserve the first priority slot for Solihull. Please bear with me while I book the street cabinet slot on the Openreach portal.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:44]",
+      "end_time": "[10:56]",
+      "start_time_sec": 644,
+      "text": "Um, thank you for holding, Raghav, sorry that Openreach calendar portal took over two minutes to commit the booking! I have secured the earliest available slot, which is Thursday morning between eight o'clock and one o'clock.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:57]",
+      "end_time": "[11:04]",
+      "start_time_sec": 657,
+      "text": "Thursday morning between eight and one... okay, I will be working from home all day Thursday anyway so I will be right here.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:05]",
+      "end_time": "[11:12]",
+      "start_time_sec": 665,
+      "text": "Great, I have confirmed Thursday morning on reference OR-774920-SOL and added full technician notes pointing straight to the 380-meter high-resistance shunt fault.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:13]",
+      "end_time": "[11:24]",
+      "start_time_sec": 673,
+      "text": "What am I supposed to do between now and Thursday morning for my client Teams calls and uploading my CAD drawings? I only have ten gigabytes of data on my mobile plan.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:25]",
+      "end_time": "[11:39]",
+      "start_time_sec": 685,
+      "text": "I noticed you have your S-Net Mobile SIM linked to your household account, Raghav, so I am not going to leave you stuck. I am adding a complimentary unlimited 5G data Keep-You-Connected pass onto your S-Net Mobile number right now.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:40]",
+      "end_time": "[11:46]",
+      "start_time_sec": 700,
+      "text": "Oh, really? You can put unlimited 5G data on my mobile SIM for free until the engineer fixes the copper line?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:47]",
+      "end_time": "[11:55]",
+      "start_time_sec": 707,
+      "text": "Yes, I have just activated the unlimited 30-day data bolt-on at zero cost, and it works with USB or Wi-Fi personal hotspot tethering on your laptop.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:56]",
+      "end_time": "[12:06]",
+      "start_time_sec": 716,
+      "text": "Let me look at my phone—I just got a text from S-Net saying 'Your Unlimited Data Keep-You-Connected Pass is now active'! And I get forty megabits upload on 5G here.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:07]",
+      "end_time": "[12:17]",
+      "start_time_sec": 727,
+      "text": "Forty megabits upload on 5G will handle your Microsoft Teams video calls and AutoCAD file uploads without breaking a sweat until the Openreach engineer swaps your copper pair on Thursday.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:18]",
+      "end_time": "[12:24]",
+      "start_time_sec": 738,
+      "text": "That actually saves my week, Nadia. What happens if Openreach still hasn't fixed the underground cable by Thursday afternoon?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:25]",
+      "end_time": "[12:39]",
+      "start_time_sec": 745,
+      "text": "I have put a personal callback reminder in my queue for Thursday at two o'clock in the afternoon, Raghav, so I will check the line sync and call you personally to confirm the upload speed is back to twenty megabits.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:40]",
+      "end_time": "[12:45]",
+      "start_time_sec": 760,
+      "text": "And will I get automatic compensation or a bill credit for the days my upload speed was broken?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:46]",
+      "end_time": "[12:57]",
+      "start_time_sec": 766,
+      "text": "Yes, I have logged a pro-rata service degradation credit note on your billing ledger so as soon as OR-774920-SOL closes on Thursday, we will credit the affected days on your next bill.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:58]",
+      "end_time": "[13:04]",
+      "start_time_sec": 778,
+      "text": "Can you repeat the Openreach reference number and the Thursday arrival window just so I have it written on my whiteboard?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:05]",
+      "end_time": "[13:16]",
+      "start_time_sec": 785,
+      "text": "Of course, Raghav: the reference is OR-774920-SOL, and the engineer window is Thursday morning between eight o'clock and one o'clock in the afternoon. You will also get SMS updates on your mobile.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:17]",
+      "end_time": "[13:24]",
+      "start_time_sec": 797,
+      "text": "Got it written down. Can I leave my S-Net Hub switched on and plugged into the MK4 socket between now and Thursday?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:25]",
+      "end_time": "[13:33]",
+      "start_time_sec": 805,
+      "text": "Yes, please leave the S-Net Hub powered on day and night—Openreach's automated line monitor runs overnight tests prior to the engineer arriving at the cabinet.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:34]",
+      "end_time": "[13:40]",
+      "start_time_sec": 814,
+      "text": "Okay, I will leave the router untouched and tether my laptop to my phone's 5G hotspot for my afternoon client presentation.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:41]",
+      "end_time": "[13:47]",
+      "start_time_sec": 821,
+      "text": "Is there anything else I can check for you today while we wait for Thursday's Openreach engineer visit, Raghav?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:48]",
+      "end_time": "[13:54]",
+      "start_time_sec": 828,
+      "text": "No, that covers everything for now—hopefully the engineer can swap the corroded pair in the street on Thursday morning.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:55]",
+      "end_time": "[14:05]",
+      "start_time_sec": 835,
+      "text": "We will make sure they get your upstream sync back to full speed on Thursday, Raghav. Thank you for choosing S-Net, and good luck with your client presentation this afternoon!",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:06]",
+      "end_time": "[14:10]",
+      "start_time_sec": 846,
+      "text": "Thanks Nadia, speak to you on Thursday afternoon. Bye!",
+      "sentiment_score": 10.0
+    }
+  ]
+}

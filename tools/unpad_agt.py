@@ -1,19 +1,19 @@
 """Undo the AG-T author's filler padding, exactly, and write clean copies of the calls.
 
-The author's generator (inputs/AG-T/batch_engine.py, enrich_turns) lengthened 77 of the 100 calls by stripping a turn's final
+The author's generator (laya-finetuning/inputs/AG-T/batch_engine.py, enrich_turns) lengthened 77 of the 100 calls by stripping a turn's final
 punctuation and appending one of 10 stock phrases plus ".". That turned questions into statements (the app finds questions by "?")
 and put the same phrases into many calls, correlated with the labels. The generator scripts keep each call's original turns as a
 literal list (`raw = [...]` inside get_call_NNN()). This tool reads those lists by parsing the scripts (it never runs them),
 checks that every turn of the published call is either identical to the original or exactly "original minus final punctuation +
 stock phrase + '.'", and only then writes the original text back. Anything that does not line up is reported, never guessed.
 
-    python laya-finetuning/tools/unpad_agt.py            # writes inputs/AG-T-clean/ (calls + copied keys) and a report
+    python laya-finetuning/tools/unpad_agt.py            # writes laya-finetuning/inputs/AG-T-clean/ (calls + copied keys) and a report
 
 Keys, markers, timestamps and sentiment are kept as they are: the author graded the original dialogue, and turn indices are unchanged.
 
-Run once on 2026-10-21: 45 calls restored exactly and copied back into inputs/AG-T; 23 were never padded; 33 (agt_023..agt_055,
+Run once on 2026-10-21: 45 calls restored exactly and copied back into laya-finetuning/inputs/AG-T; 23 were never padded; 33 (agt_023..agt_055,
 padded with repeated turns as well) could not be restored and are being rewritten. The generator scripts were then removed from
-the working tree; they are in commit e81c8f1 (`git checkout e81c8f1 -- inputs/AG-T` to re-run this on the original files).
+the working tree; they are in commit e81c8f1 (`git checkout e81c8f1 -- laya-finetuning/inputs/AG-T` to re-run this on the original files).
 """
 import ast
 import glob
@@ -25,8 +25,9 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 QA_ROOT = os.path.dirname(os.path.dirname(HERE))
-SRC = os.path.join(QA_ROOT, "inputs", "AG-T")
-DST = os.path.join(QA_ROOT, "inputs", "AG-T-clean")
+INPUTS = os.path.join(os.path.dirname(HERE), "inputs")      # laya-finetuning/inputs
+SRC = os.path.join(INPUTS, "AG-T")
+DST = os.path.join(INPUTS, "AG-T-clean")
 
 
 def padding_phrases():

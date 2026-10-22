@@ -1,0 +1,192 @@
+{
+  "call_id": "agb2_03",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 100.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash High)",
+    "graded_on": "2026-10-21",
+    "scenario": "Urgent mobile international roaming bar removal and Worldwide 30-Day Pass activation for business travel to Japan",
+    "tier": "excellent",
+    "duration_sec": 940,
+    "notes": "Outstanding 15-minute customer support call. Maya resolves an urgent roaming bar on Marcus's corporate mobile line at Heathrow airport before his flight to Tokyo. Effectively acknowledges Marcus's high anxiety at turn 18 (4 turns after his turn 13 outburst, a late handled case). Lifts the roaming bar during a managed 65s hold, verifies APN and network selection parameters, configures international voicemail PIN, and confirms active pass in the S-Net app.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Hold time and Dead Air",
+      "Paraphrasing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opened at [00:00] with 'Thank you for calling S-Net mobile support' and closed at [15:21] with 'Thank you for choosing S-Net as your mobile network provider'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "A single 65s hold between [05:54] and [07:09] to lift the HLR roaming bar on the network gateway was properly announced with 'Bear with me for about a minute' and returned with 'Thank you for waiting, Marcus'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent asked for security question verification (mother's maiden name) at [00:30], within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent addressed customer Marcus by name naturally throughout the call (turns 2, 4, 6, 18, 25, 53, 59, 65)."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: Customer experienced an acute outburst at turn 13 ([03:10]) about potential ruin of an international business trip. Agent acknowledged and validated his stress at turn 16 ([03:53]), exactly 3 turns later (late handled outburst)."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turn 6 ([01:34]), agent paraphrased Marcus's request: 'So what you need today is to remove the international roaming bar on your mobile number and add the Worldwide Roaming Pass so that data, calls, and texts function seamlessly upon landing in Japan. Did I capture your request correctly, Marcus?'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent never repeated answered questions. At turn 29 ([08:10]), checking whether the device reconnected following airplane mode toggle was a legitimate harmless recheck."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent assumed complete ownership, directly modified the network core provisioning, verified configuration, and provided emergency overseas support numbers without deflection."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Polite and professional throughout. Turn 24 used 'Obviously we cannot override foreign partner carrier networks if the carrier roaming profile is blocked' in an informative, courteous manner."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Diagnostic probing into handset model (turn 8), error text (turn 10), data roaming toggle status (turn 14), and APN settings (turn 16)."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turns 59-60 ([14:16]-[14:26]), agent asked if roaming requirements were resolved, and Marcus confirmed: 'Yes, that completely resolves it. The roaming bar is lifted, the pass is confirmed active, and I know exactly how to connect. Thank you so much.'"
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 9,
+          "agent_turn": 29
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 6
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 24
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 13,
+          "agent_turn": 16,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Evelyn",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net mobile technical support, my name is Sarah. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:13]",
+      "end_time": "[00:29]",
+      "start_time_sec": 13,
+      "text": "Hi Sarah. I recently upgraded to a new Samsung Galaxy smartphone, but I can't access my voicemail because I've forgotten my voicemail PIN, and my visual voicemail app keeps giving me an error saying connection unavailable.",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:34]",
+      "end_time": "[00:41]",
+      "start_time_sec": 34,
+      "text": "I can certainly help you reset your voicemail PIN and look into your visual voicemail connection, Evelyn."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:46]",
+      "end_time": "[00:56]",
+      "start_time_sec": 46,
+      "text": "Thank you Sarah, I've got several important messages from my doctor's surgery waiting in my inbox that I urgently need to listen to.",
+      "sentiment_score": -11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:01]",
+      "end_time": "[01:10]",
+      "start_time_sec": 61,
+      "text": "Before we access your mobile subscriber account, Evelyn, could you verify your home postcode and your four-digit account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:15]",
+      "end_time": "[01:22]",
+      "start_time_sec": 75,
+      "text": "Yes, it is 29 Park Road, Harrogate, HG1 5LR, and my account security PIN is 8319.",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:27]",
+      "end_time": "[01:35]",
+      "start_time_sec": 87,
+      "text": "Thank you for verifying those details, Evelyn. I have your mobile profile open on our cellular network management portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:40]",
+      "end_time": "[01:43]",
+      "start_time_sec": 100,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:48]",
+      "end_time": "[01:53]",
+      "start_time_sec": 108,
+      "text": "Let me trigger a temporary voicemail PIN reset from the mobile switch."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:58]",
+      "end_time": "[02:03]",
+      "start_time_sec": 118,
+      "text": "How does the temporary PIN work when I dial into voicemail?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:08]",
+      "end_time": "[02:16]",
+      "start_time_sec": 128,
+      "text": "Our automated system will dispatch a temporary four-digit PIN via text message to your handset within two minutes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:21]",
+      "end_time": "[02:26]",
+      "start_time_sec": 141,
+      "text": "Does the text message arrive while we are talking on the phone?",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:30]",
+      "end_time": "[02:36]",
+      "start_time_sec": 150,
+      "text": "Yes, SMS messages deliver simultaneously over cellular signaling channels while voice calls remain active."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:40]",
+      "end_time": "[02:48]",
+      "start_time_sec": 160,
+      "text": "I just felt the phone vibrate. Yes, I received a text saying my temporary voicemail PIN is 4820.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:52]",
+      "end_time": "[03:03]",
+      "start_time_sec": 172,
+      "text": "When you finish this call, dial 121 from your phone keypad, enter 4820 when prompted, and you will be guided to choose a new permanent PIN."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:07]",
+      "end_time": "[03:12]",
+      "start_time_sec": 187,
+      "text": "Can the new PIN be any four digits, or are there restrictions?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:16]",
+      "end_time": "[03:25]",
+      "start_time_sec": 196,
+      "text": "The PIN must be four to six digits and cannot be repeated numbers like 1111 or sequential numbers like 1234."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:29]",
+      "end_time": "[03:33]",
+      "start_time_sec": 209,
+      "text": "Understood. I will pick a unique memorable six-digit number.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:37]",
+      "end_time": "[03:42]",
+      "start_time_sec": 217,
+      "text": "Now let's look at your visual voicemail app error on the screen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:46]",
+      "end_time": "[03:56]",
+      "start_time_sec": 226,
+      "text": "It's the app with the little blue envelope and microphone icon. When I tap it, it just spins and says Synchronization Failed.",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:00]",
+      "end_time": "[04:07]",
+      "start_time_sec": 240,
+      "text": "Let's try clearing the cache and storage data for that application in your device settings menu."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:11]",
+      "end_time": "[04:15]",
+      "start_time_sec": 251,
+      "text": "Okay, how do I find the application settings on Samsung?",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:19]",
+      "end_time": "[04:29]",
+      "start_time_sec": 259,
+      "text": "Swipe down from the top of your screen, tap the gear icon for Settings, scroll down to Apps, and tap on Visual Voicemail."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:33]",
+      "end_time": "[04:40]",
+      "start_time_sec": 273,
+      "text": "Scrolling down to Apps... tapping Visual Voicemail... okay, I am on the App Info page.",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:44]",
+      "end_time": "[04:51]",
+      "start_time_sec": 284,
+      "text": "Tap on Storage, then tap Clear Cache at the bottom right, and then tap Clear Data."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:55]",
+      "end_time": "[05:02]",
+      "start_time_sec": 295,
+      "text": "Toggling Clear Cache... now tapping Clear Data... it asks to confirm delete app data, tapping OK.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:06]",
+      "end_time": "[05:10]",
+      "start_time_sec": 306,
+      "text": "Now restart the Visual Voicemail application from your app drawer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:14]",
+      "end_time": "[05:24]",
+      "start_time_sec": 314,
+      "text": "Opening Visual Voicemail again... it says Setting up your mailbox, but now it popped up an error saying Network Connection Error 04.",
+      "sentiment_score": -14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:28]",
+      "end_time": "[05:35]",
+      "start_time_sec": 328,
+      "text": "Let me check the network provisioning feature flag on your SIM card profile from our server console."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:39]",
+      "end_time": "[05:45]",
+      "start_time_sec": 339,
+      "text": "Is visual voicemail an add-on that has to be activated on the network?",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:49]",
+      "end_time": "[05:56]",
+      "start_time_sec": 349,
+      "text": "Yes, visual voicemail requires a specialized OMTP provisioning token to be attached to your cellular subscriber line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:00]",
+      "end_time": "[06:05]",
+      "start_time_sec": 360,
+      "text": "Was that token missing on my account after the phone upgrade?",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:09]",
+      "end_time": "[06:16]",
+      "start_time_sec": 369,
+      "text": "Checking your cellular features... yes, the Visual Voicemail Android token was inactive following your recent SIM swap."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:20]",
+      "end_time": "[06:25]",
+      "start_time_sec": 380,
+      "text": "Ah, that explains why it couldn't synchronize with the S-Net server.",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:29]",
+      "end_time": "[06:40]",
+      "start_time_sec": 389,
+      "text": "Please bear with me while I place you on a brief hold for about one minute while I provision the OMTP visual voicemail service token."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:25]",
+      "end_time": "[07:34]",
+      "start_time_sec": 445,
+      "text": "Thank you for your patience while holding, Evelyn. The OMTP visual voicemail feature has been successfully provisioned to your subscriber line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:38]",
+      "end_time": "[07:43]",
+      "start_time_sec": 458,
+      "text": "Thank you Sarah. What should I do on the phone now?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:47]",
+      "end_time": "[07:56]",
+      "start_time_sec": 467,
+      "text": "Turn your phone off completely for thirty seconds, then power it back on so it re-registers with the cellular tower."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:00]",
+      "end_time": "[08:08]",
+      "start_time_sec": 480,
+      "text": "I am on the phone with you right now, so if I turn it off the call will drop.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:12]",
+      "end_time": "[08:23]",
+      "start_time_sec": 492,
+      "text": "Instead of a full power-cycle, swipe down from the top of your screen and toggle Airplane Mode on for ten seconds, then toggle it back off."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:27]",
+      "end_time": "[08:35]",
+      "start_time_sec": 507,
+      "text": "Toggling Airplane Mode on... waiting ten seconds... toggling Airplane Mode back off... okay, full 5G signal bars restored.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:39]",
+      "end_time": "[08:44]",
+      "start_time_sec": 519,
+      "text": "Now tap the Visual Voicemail application to initiate the automatic network handshake."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:48]",
+      "end_time": "[08:59]",
+      "start_time_sec": 528,
+      "text": "Opening Visual Voicemail... it says Activating... and wow, my entire inbox just populated! I see four voicemails listed with names, dates, and audio play buttons!",
+      "sentiment_score": 36.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:03]",
+      "end_time": "[09:10]",
+      "start_time_sec": 543,
+      "text": "Are you able to tap on the top message and play the audio through your speaker?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:14]",
+      "end_time": "[09:23]",
+      "start_time_sec": 554,
+      "text": "Tapping the top message... the audio is playing loud and clear. It is the follow-up appointment confirmation from my doctor's surgery!",
+      "sentiment_score": 38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:27]",
+      "end_time": "[09:33]",
+      "start_time_sec": 567,
+      "text": "Does the app also display the automated text transcription underneath the audio waveform?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:37]",
+      "end_time": "[09:45]",
+      "start_time_sec": 577,
+      "text": "Yes! It has transcribed the doctor's message into readable text right beneath the play button. That is incredibly useful.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:49]",
+      "end_time": "[09:55]",
+      "start_time_sec": 589,
+      "text": "That confirms the Google speech-to-text integration is operating seamlessly alongside your cellular OMTP stream."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:59]",
+      "end_time": "[10:05]",
+      "start_time_sec": 599,
+      "text": "Does visual voicemail use my monthly mobile data allowance when I download voicemails?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:09]",
+      "end_time": "[10:18]",
+      "start_time_sec": 609,
+      "text": "Visual voicemail audio packets are zero-rated on the S-Net cellular network, meaning they consume zero megabytes from your monthly data plan."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:22]",
+      "end_time": "[10:26]",
+      "start_time_sec": 622,
+      "text": "That's wonderful so it won't eat into my monthly allowance.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:30]",
+      "end_time": "[10:37]",
+      "start_time_sec": 630,
+      "text": "What happens if I receive a voicemail while my phone is turned off or on flight mode?",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:41]",
+      "end_time": "[10:52]",
+      "start_time_sec": 641,
+      "text": "The cellular network queues an OMTP push SMS notification that delivers the instant your phone re-attaches to the network, downloading the audio payload in the background."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:56]",
+      "end_time": "[11:01]",
+      "start_time_sec": 656,
+      "text": "Can I save or export important voicemails to my Google Drive storage?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:05]",
+      "end_time": "[11:16]",
+      "start_time_sec": 665,
+      "text": "Yes, tapping the three dots menu on any voicemail entry allows you to export the audio as an MP3 file directly to cloud storage or email."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:20]",
+      "end_time": "[11:24]",
+      "start_time_sec": 680,
+      "text": "That is fantastic so I can archive doctor instructions permanently.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:28]",
+      "end_time": "[11:35]",
+      "start_time_sec": 688,
+      "text": "And you can also customize your voicemail greeting directly from the app settings without dialing 121."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:39]",
+      "end_time": "[11:42]",
+      "start_time_sec": 699,
+      "text": "I'll record a professional greeting later this afternoon.",
+      "sentiment_score": 14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:46]",
+      "end_time": "[11:54]",
+      "start_time_sec": 706,
+      "text": "Remember to dial 121 after our call finishes to change that temporary 4820 PIN to your private code."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:58]",
+      "end_time": "[12:05]",
+      "start_time_sec": 718,
+      "text": "Does visual voicemail work if I am connected to a Wi-Fi network without cellular reception?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:09]",
+      "end_time": "[12:19]",
+      "start_time_sec": 729,
+      "text": "Visual voicemail requires mobile cellular data for OMTP synchronization, so it will queue updates until you have at least one bar of mobile signal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:23]",
+      "end_time": "[12:31]",
+      "start_time_sec": 743,
+      "text": "That is an important technical distinction to know when I am traveling in rural areas with weak mobile reception.",
+      "sentiment_score": 14.6
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:35]",
+      "end_time": "[12:40]",
+      "start_time_sec": 755,
+      "text": "I will dial 121 immediately to set my permanent six-digit security PIN.",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:44]",
+      "end_time": "[12:52]",
+      "start_time_sec": 764,
+      "text": "Is there anything else regarding your mobile service or voicemail settings that I can check for you today, Evelyn?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:56]",
+      "end_time": "[13:03]",
+      "start_time_sec": 776,
+      "text": "No, Sarah, you've sorted both my PIN and the visual voicemail app perfectly. Thank you so much!",
+      "sentiment_score": 28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:07]",
+      "end_time": "[13:13]",
+      "start_time_sec": 787,
+      "text": "Thank you for choosing S-Net today, Evelyn. Have a wonderful rest of your day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:17]",
+      "end_time": "[13:20]",
+      "start_time_sec": 797,
+      "text": "Thanks Sarah, goodbye.",
+      "sentiment_score": 6.4
+    }
+  ]
+}

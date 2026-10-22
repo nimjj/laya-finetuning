@@ -1,0 +1,508 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Fiona",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:09]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net TV and broadband support, my name is Oliver. How can I assist you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:13]",
+      "end_time": "[00:28]",
+      "start_time_sec": 13,
+      "text": "Hello Oliver, our S-Net 4K TV box remote control has stopped controlling the volume and the power on our television, and we can't change any channels without walking right up to the box.",
+      "sentiment_score": -22.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:32]",
+      "end_time": "[00:48]",
+      "start_time_sec": 32,
+      "text": "I would be glad to help re-pair your TV remote and restore complete control over your television, Fiona. Before we begin, could you please confirm your first line of address and your account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:52]",
+      "end_time": "[00:59]",
+      "start_time_sec": 52,
+      "text": "Yes, it is 78 Willowbank Road, Aberdeen, AB11 6YG, and my security PIN is 9152.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:03]",
+      "end_time": "[01:13]",
+      "start_time_sec": 63,
+      "text": "Thank you Fiona, that has verified your account on our Entertainment 4K TV bundle. Let me look at your set-top box configuration."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:17]",
+      "end_time": "[01:25]",
+      "start_time_sec": 77,
+      "text": "Thank you. It was working fine yesterday, but this morning the remote suddenly lost its connection.",
+      "sentiment_score": -11.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:29]",
+      "end_time": "[01:47]",
+      "start_time_sec": 89,
+      "text": "So what you are experiencing is that your S-Net 4K remote control has lost both its Bluetooth pairing for channel navigation and its infrared link for your TV power and volume controls. Have I understood the fault correctly, Fiona?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:51]",
+      "end_time": "[02:01]",
+      "start_time_sec": 111,
+      "text": "Yes, that's exactly what's happening. The little light on the remote flashes blue three times whenever I press a button.",
+      "sentiment_score": -14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:05]",
+      "end_time": "[02:11]",
+      "start_time_sec": 125,
+      "text": "What make and model of television is your S-Net 4K box connected to?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:15]",
+      "end_time": "[02:21]",
+      "start_time_sec": 135,
+      "text": "It's connected to a 55-inch Samsung QLED smart TV via HDMI port one.",
+      "sentiment_score": 1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:25]",
+      "end_time": "[02:35]",
+      "start_time_sec": 145,
+      "text": "And did the television undergo a software update or a power cut overnight, or did the remote happen to get dropped?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:39]",
+      "end_time": "[02:58]",
+      "start_time_sec": 159,
+      "text": "The Samsung TV did an automatic software update early this morning! And now my elderly mother is visiting for her birthday, and she can't watch her afternoon quiz shows or turn the volume up, and she's getting terribly frustrated and upset!",
+      "sentiment_score": -43.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:02]",
+      "end_time": "[03:24]",
+      "start_time_sec": 182,
+      "text": "Having your mother visiting for her birthday only for the TV controls to fail after an unannounced firmware update is so frustrating, Fiona, and I completely understand the stress. We are going to get this remote fully re-paired and calibrated right now so she can enjoy her shows."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:28]",
+      "end_time": "[03:37]",
+      "start_time_sec": 208,
+      "text": "Oh bless you Oliver, thank you so much. She is sitting on the sofa right now waiting patiently.",
+      "sentiment_score": 21.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:41]",
+      "end_time": "[03:51]",
+      "start_time_sec": 221,
+      "text": "Let us first test the physical batteries inside the remote control. Have you tried putting in fresh alkaline AAA batteries?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:55]",
+      "end_time": "[04:02]",
+      "start_time_sec": 235,
+      "text": "Yes, I put two brand new Duracell AAA batteries in ten minutes before calling you.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:06]",
+      "end_time": "[04:17]",
+      "start_time_sec": 246,
+      "text": "That rules out battery depletion. Let us perform a complete factory reset on the remote control itself to clear any corrupted Bluetooth cache."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:21]",
+      "end_time": "[04:26]",
+      "start_time_sec": 261,
+      "text": "Okay, how do we do that?",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:28]",
+      "end_time": "[04:41]",
+      "start_time_sec": 268,
+      "text": "Hold down the 7 and 9 buttons simultaneously for about five seconds until the small LED light at the top of the remote blinks red four times."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:45]",
+      "end_time": "[04:54]",
+      "start_time_sec": 285,
+      "text": "Holding down 7 and 9 together... one, two, three, four, five... yes, the red light just flashed four times.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:58]",
+      "end_time": "[05:08]",
+      "start_time_sec": 298,
+      "text": "That has completely cleared the remote's memory. Now let us pair it back to your S-Net 4K set-top box using Bluetooth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:12]",
+      "end_time": "[05:17]",
+      "start_time_sec": 312,
+      "text": "What should I press to initiate the Bluetooth pairing?",
+      "sentiment_score": 6.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:19]",
+      "end_time": "[05:29]",
+      "start_time_sec": 319,
+      "text": "Hold down the 1 and 3 buttons together while pointing the remote directly at the set-top box until the LED flashes green."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:33]",
+      "end_time": "[05:44]",
+      "start_time_sec": 333,
+      "text": "Pressing 1 and 3 together... it's blinking green now, and a message just popped up on the TV screen saying 'S-Net Voice Remote connected.'",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:48]",
+      "end_time": "[05:59]",
+      "start_time_sec": 348,
+      "text": "Excellent! That has restored the high-speed Bluetooth link. Try pressing the Guide button and the channel up and down arrows on the remote."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:03]",
+      "end_time": "[06:10]",
+      "start_time_sec": 363,
+      "text": "The TV guide popped right up and channels are flipping instantly from across the room!",
+      "sentiment_score": 34.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:14]",
+      "end_time": "[06:29]",
+      "start_time_sec": 374,
+      "text": "Now let us resolve the TV volume and power control. As I explained, HDMI-CEC standards vary between TV manufacturers, so we must pair both the infrared code and the CEC control protocol."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:33]",
+      "end_time": "[06:41]",
+      "start_time_sec": 393,
+      "text": "Right, because right now pressing the volume buttons still doesn't do anything on the Samsung TV.",
+      "sentiment_score": -5.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:45]",
+      "end_time": "[06:58]",
+      "start_time_sec": 405,
+      "text": "Let us enter the Samsung TV manufacturer code into the remote. Hold down the TV Power button and the Home button together until the LED turns solid blue."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:02]",
+      "end_time": "[07:07]",
+      "start_time_sec": 422,
+      "text": "Holding TV Power and Home... LED is now solid blue.",
+      "sentiment_score": 7.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:09]",
+      "end_time": "[07:22]",
+      "start_time_sec": 429,
+      "text": "Now type in the four-digit Samsung manufacturer code, which is 0 0 6 0, and then press the Select button in the center of the directional pad."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:26]",
+      "end_time": "[07:33]",
+      "start_time_sec": 446,
+      "text": "Typing zero, zero, six, zero... pressing Select... the blue light flashed twice and went off.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:37]",
+      "end_time": "[07:45]",
+      "start_time_sec": 457,
+      "text": "Now point the remote at your Samsung TV and press the Volume Up and Volume Down buttons."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:49]",
+      "end_time": "[07:56]",
+      "start_time_sec": 469,
+      "text": "The Samsung volume bar is moving up and down on the screen! It's working!",
+      "sentiment_score": 36.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:00]",
+      "end_time": "[08:06]",
+      "start_time_sec": 480,
+      "text": "Now press the Mute button to make sure audio muting responds properly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:10]",
+      "end_time": "[08:15]",
+      "start_time_sec": 490,
+      "text": "Yes, the mute icon appears and mutes the sound immediately.",
+      "sentiment_score": 27.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:17]",
+      "end_time": "[08:28]",
+      "start_time_sec": 497,
+      "text": "Now let us check HDMI-CEC One-Touch Play so that turning on the S-Net box automatically switches the TV on and changes to HDMI 1."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:32]",
+      "end_time": "[08:37]",
+      "start_time_sec": 512,
+      "text": "How do we test that?",
+      "sentiment_score": 8.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:39]",
+      "end_time": "[08:49]",
+      "start_time_sec": 519,
+      "text": "On your S-Net remote, press the Home button, navigate to Settings, then System, then Audio and Video, and select HDMI-CEC Control."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:53]",
+      "end_time": "[08:58]",
+      "start_time_sec": 533,
+      "text": "Going to Settings... System... Audio and Video... HDMI-CEC Control. Found it.",
+      "sentiment_score": 9.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:00]",
+      "end_time": "[09:06]",
+      "start_time_sec": 540,
+      "text": "Make sure both One-Touch Play and System Standby toggles are switched to On."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:10]",
+      "end_time": "[09:17]",
+      "start_time_sec": 550,
+      "text": "One-Touch Play was On, but System Standby was Off. I've switched both to On now.",
+      "sentiment_score": 15.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:21]",
+      "end_time": "[09:36]",
+      "start_time_sec": 561,
+      "text": "I can also push an HDMI-CEC sync refresh to your box from our TV management platform. Bear with me for about a minute while I send the CEC handshake signal to your box."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:36]",
+      "end_time": "[10:43]",
+      "start_time_sec": 636,
+      "text": "Thank you for waiting, Fiona. I have synchronized the HDMI handshake profile on our end."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:47]",
+      "end_time": "[10:56]",
+      "start_time_sec": 647,
+      "text": "Thank you Oliver. The screen flickered black for half a second and came straight back to the channel.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:00]",
+      "end_time": "[11:10]",
+      "start_time_sec": 660,
+      "text": "Is the TV display still showing crisp 4K resolution on channel 101, and is the volume level comfortable for your mother?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:14]",
+      "end_time": "[11:22]",
+      "start_time_sec": 674,
+      "text": "Yes, BBC One in 4K looks absolutely stunning, and the volume is clear as a bell.",
+      "sentiment_score": 32.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:26]",
+      "end_time": "[11:37]",
+      "start_time_sec": 686,
+      "text": "Let us also test the voice search feature on the remote. Press and hold the microphone button, say 'BBC Two', and release it."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:41]",
+      "end_time": "[11:48]",
+      "start_time_sec": 701,
+      "text": "Holding the mic... 'BBC Two'... it recognized my voice instantly and switched to BBC Two!",
+      "sentiment_score": 38.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:52]",
+      "end_time": "[12:08]",
+      "start_time_sec": 712,
+      "text": "Voice search is responding at full speed. Let us do one final test: turn off the S-Net box with the remote power button to confirm both the box and TV go into standby together."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:12]",
+      "end_time": "[12:21]",
+      "start_time_sec": 732,
+      "text": "Pressing the power button... both the S-Net box and the Samsung TV screen turned off together into standby.",
+      "sentiment_score": 29.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:25]",
+      "end_time": "[12:30]",
+      "start_time_sec": 745,
+      "text": "Now press the power button once more to wake them up."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:32]",
+      "end_time": "[12:42]",
+      "start_time_sec": 752,
+      "text": "Both the TV and the set-top box woke up together within two seconds right back on BBC Two! That is completely magic.",
+      "sentiment_score": 39.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:46]",
+      "end_time": "[12:53]",
+      "start_time_sec": 766,
+      "text": "That confirms the infrared volume codes, Bluetooth navigation, and HDMI-CEC standby protocols are all synchronized."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:57]",
+      "end_time": "[13:06]",
+      "start_time_sec": 777,
+      "text": "My mother is smiling from ear to ear now, Oliver. You have no idea what a relief this is.",
+      "sentiment_score": 36.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:10]",
+      "end_time": "[13:16]",
+      "start_time_sec": 790,
+      "text": "Please wish her a very happy birthday from all of us at S-Net!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:20]",
+      "end_time": "[13:25]",
+      "start_time_sec": 800,
+      "text": "I certainly will, she says thank you too!",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:27]",
+      "end_time": "[13:42]",
+      "start_time_sec": 807,
+      "text": "If your Samsung TV ever does another automated firmware update in the future, these remote codes are now stored in non-volatile flash memory, so you will not have to repeat this setup."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:46]",
+      "end_time": "[13:52]",
+      "start_time_sec": 826,
+      "text": "That is so good to know, so it won't reset on us again.",
+      "sentiment_score": 22.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:56]",
+      "end_time": "[14:03]",
+      "start_time_sec": 836,
+      "text": "Does that completely resolve the TV remote control and volume issue for you today, Fiona?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:07]",
+      "end_time": "[14:14]",
+      "start_time_sec": 847,
+      "text": "Yes, completely and totally resolved. Everything works just like it did out of the box.",
+      "sentiment_score": 35.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:18]",
+      "end_time": "[14:28]",
+      "start_time_sec": 858,
+      "text": "It has been an absolute delight assisting you. Is there anything else on your S-Net account I can help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:32]",
+      "end_time": "[14:40]",
+      "start_time_sec": 872,
+      "text": "No, everything is sorted. Thank you so much Oliver, have a wonderful rest of your day.",
+      "sentiment_score": 26.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:44]",
+      "end_time": "[14:49]",
+      "start_time_sec": 884,
+      "text": "Thank you for calling S-Net TV and broadband support."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:51]",
+      "end_time": "[14:56]",
+      "start_time_sec": 891,
+      "text": "Goodbye Oliver.",
+      "sentiment_score": 5.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:58]",
+      "end_time": "[15:07]",
+      "start_time_sec": 898,
+      "text": "Thank you for choosing S-Net as your entertainment provider. Enjoy the birthday celebration with your mother Fiona, goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:11]",
+      "end_time": "[15:16]",
+      "start_time_sec": 911,
+      "text": "Goodbye.",
+      "sentiment_score": 5.2
+    }
+  ]
+}

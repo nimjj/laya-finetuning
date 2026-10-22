@@ -1,0 +1,159 @@
+{
+  "call_id": "ag_25",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 100.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Severe packet loss and 180ms jitter spikes on gaming console connected through old powerline homeplug adapters",
+    "tier": "excellent",
+    "duration_sec": 695,
+    "notes": "100.0 excellent call with STT roughness and hard-case PASSes on Hold ([03:29]-[05:01] 82s managed hold for 1000-packet WAN ping test), Probing ([01:56]-[03:14] uncovering TP-Link AV600 HomePlugs on a kitchen extension strip with a tumble dryer), and Rapport ([06:32]-[09:50] friendly peer-to-peer gaming support). Padraig confirms live at [09:24] and [10:52] that latency dropped from 180ms to 11ms with 0% packet loss.",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Build rapport and observed professionalism",
+      "Probing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent opens with 'thank you for calling S-Net' and [11:13]/[11:30] closes with 'thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:29] Agent announces the hold ('please bear with me for just over a minute while i run a 1000-packet high-frequency ping test') before the 82s gap and [05:01] thanks Padraig on return ('thanks so much for waiting padraig')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:58]-[01:17] Agent verifies Padraig's home address, four-digit security PIN, and security question within the first two minutes."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:16], [00:58], and throughout the call, Agent uses the customer's name ('padraig') naturally."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:16] Agent says 'i'm really sorry you're getting hit with 180 millisecond lag spikes and packet loss like that i know how frustrating rubber-banding is when you're trying to play online'."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:36] Agent paraphrases: 'so just to paraphrase what you're seeing even though your broadband line is up your gaming console is suffering severe intermittent packet loss and jitter spikes up to 180 milliseconds during online play'."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:14]-[06:49] Agent connects Padraig's mention of the TP-Link AV600 powerline adapters on a four-way kitchen extension strip with the condenser tumble dryer running at 7:30 PM."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:29]-[09:50] Agent runs a 1000-packet WAN ping test, moves the Hub 4 5GHz radio to clean channel 149, enables WMM QoS and UPnP, guides Padraig to lock his PS5 to 5GHz Only, and sets a static DHCP lease."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[06:32]-[09:50] Agent builds warm, peer-to-peer gaming rapport while explaining electrical noise on powerline adapters and optimizing the PS5 wireless setup."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:56]-[03:14] Agent probes systematically into how the PS5 is wired, uncovering the 5-year-old TP-Link AV600 HomePlug adapters plugged into a kitchen extension strip shared with a running tumble dryer."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[09:24] and [10:52] Padraig runs the live in-game network test and confirms latency dropped from 180ms to 11ms with 1.2ms jitter and 0.0% packet loss."
+      }
+    ]
+  }
+}

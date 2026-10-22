@@ -1,0 +1,199 @@
+{
+  "call_id": "agb2_12",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 88.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Agent failed to recite the mandatory closing phrase 'thank you for choosing S-Net', instead closing with 'Thank you for contacting S-Net technical help'."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "At turn 47 ([08:42]), Agent re-asked for the customer's email address after Yasmin had already clearly provided it at turn 9 ([02:06])."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash High)",
+    "graded_on": "2026-10-21",
+    "scenario": "Legacy email SSL port deprecation, IMAP port 993 reconfiguration, and app-specific password generation; both outbursts handled warmly, active listening repeat and missed branding closing",
+    "tier": "good",
+    "duration_sec": 985,
+    "notes": "Excellent technical guidance on email SSL/TLS modernization and app-specific password configuration. Hannah provides exemplary empathy, warmly acknowledging both of Yasmin's high-stress outbursts (turn 11 regarding looming VAT deadlines handled at turn 13, and turn 71 regarding iPad password rejection handled at turn 73). However, Hannah drops Active Listening at turn 47 by re-asking for Yasmin's email address, and fails Branding by using an informal closing phrase ('Thank you for contacting S-Net technical help') instead of 'thank you for choosing S-Net'.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Active listening",
+      "Branding and Survey Check"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent opened with 'Thank you for calling S-Net technical support' at [00:00], but closed with 'Thank you for contacting S-Net technical help' at [16:15], missing verbatim 'thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "No unmanaged holds or dead air gaps over 30 seconds."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent verified first line of address and security PIN at [00:29], within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent addressed customer Yasmin by name naturally throughout the call (turns 2, 4, 6, 13, 47, 73, 83, 87)."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent handled both distinct outbursts warmly: Outburst 1 at turn 11 ([02:25]) was validated at turn 13 ([03:02]), and Outburst 2 at turn 71 ([12:40]) was validated at turn 73 ([13:18])."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turn 6 ([01:24]), agent paraphrased the issue: 'So what is happening is that both your desktop Outlook client and your iPad mail application are unable to authenticate against our inbound and outbound mail servers, reporting connection dropped or credential errors. Have I got that right, Yasmin?'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At turn 9 ([02:06]), Yasmin clearly provided: 'The email address is yasmin dot mirza at s-net mail dot co dot uk'. At turn 47 ([08:42]), Agent re-asked: 'what was that primary S-Net mail address again, Yasmin?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent took full ownership of the technical setup, stepped through both Outlook and iPad mail configurations, and resolved all issues directly."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Warm, supportive, and professional throughout; guided customer with exemplary patience."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Diagnostic probing into current server port numbers (turn 10), incoming server hostnames (turn 21), outgoing encryption settings (turn 33), and mobile device mail settings (turn 57)."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turns 83-84 ([15:39]-[15:48]), agent confirmed resolution and Yasmin confirmed: 'Yes, completely and totally resolved. You've been so patient and wonderful, Hannah.'"
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "repeat",
+          "premise_turn": 9,
+          "agent_turn": 47,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 6
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 75
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 11,
+          "agent_turn": 13,
+          "with_refusal": false
+        },
+        {
+          "kind": "handled",
+          "customer_turn": 71,
+          "agent_turn": 73,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

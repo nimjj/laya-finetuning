@@ -1,0 +1,673 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Yasmin",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Hannah. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:26]",
+      "start_time_sec": 11,
+      "text": "Hello Hannah, my email has completely stopped working on both my laptop Outlook and my iPad mail app since yesterday evening. It keeps popping up a box saying server disconnected or invalid credentials.",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:45]",
+      "start_time_sec": 29,
+      "text": "I would be glad to help resolve those email authentication errors and restore your email synchronization today, Yasmin. To begin, could you please confirm your first line of address and your four digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:48]",
+      "end_time": "[00:56]",
+      "start_time_sec": 48,
+      "text": "Yes, it is 18 Cambridge Gardens, London, W10 5UE, and my security PIN is three two seven zero.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:59]",
+      "end_time": "[01:10]",
+      "start_time_sec": 59,
+      "text": "Thank you Yasmin, that has verified your account on our Superfast Broadband and Mail hosting package. Let me open your mail server authentication logs."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:13]",
+      "end_time": "[01:21]",
+      "start_time_sec": 73,
+      "text": "Thank you. I have been using this email address for over eight years without any issues until yesterday.",
+      "sentiment_score": -11.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:24]",
+      "end_time": "[01:41]",
+      "start_time_sec": 84,
+      "text": "So what is happening is that both your desktop Outlook client and your iPad mail application are unable to authenticate against our inbound and outbound mail servers, reporting connection dropped or credential errors. Have I got that right, Yasmin?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:44]",
+      "end_time": "[01:54]",
+      "start_time_sec": 104,
+      "text": "Yes, exactly! It prompts me for my password over and over again, and when I type it in, it just shakes and fails.",
+      "sentiment_score": -16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:57]",
+      "end_time": "[02:03]",
+      "start_time_sec": 117,
+      "text": "What is the exact email address you are trying to connect to?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:06]",
+      "end_time": "[02:13]",
+      "start_time_sec": 126,
+      "text": "The email address is yasmin dot mirza at s-net mail dot co dot uk.",
+      "sentiment_score": 1.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:16]",
+      "end_time": "[02:22]",
+      "start_time_sec": 136,
+      "text": "And what port numbers are currently configured in your email client server settings?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:25]",
+      "end_time": "[02:47]",
+      "start_time_sec": 145,
+      "text": "I have no idea about port numbers! I run a busy freelance accounting practice, and my small business clients are waiting on urgent quarterly VAT submissions that are due today! I cannot access their receipts or send the HMRC filing receipts, and I am completely overwhelmed with stress right now!",
+      "sentiment_score": -54.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:50]",
+      "end_time": "[02:59]",
+      "start_time_sec": 170,
+      "text": "Can you open Outlook on your computer, click on File in the top left corner, and then select Account Settings?"
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:02]",
+      "end_time": "[03:25]",
+      "start_time_sec": 182,
+      "text": "First and foremost Yasmin, being locked out of your business email when client VAT deadlines and HMRC submissions are hanging in the balance is immensely stressful, and I am so sorry for that worry. We are going to step through this together calmly, and I will stay right with you until every email is sending and receiving smoothly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:28]",
+      "end_time": "[03:35]",
+      "start_time_sec": 208,
+      "text": "Thank you Hannah, that really helps. I was on the verge of tears ten minutes ago.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:38]",
+      "end_time": "[03:48]",
+      "start_time_sec": 218,
+      "text": "You are in safe hands. As of yesterday evening, S-Net retired legacy unencrypted mail protocols to comply with modern telecommunications cybersecurity standards."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:51]",
+      "end_time": "[03:55]",
+      "start_time_sec": 231,
+      "text": "What does retiring unencrypted protocols mean in plain English?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:57]",
+      "end_time": "[04:12]",
+      "start_time_sec": 237,
+      "text": "Older email settings used port 110 for POP3 and port 25 for SMTP without SSL encryption. We now require secure IMAP over port 993 with SSL/TLS, and secure SMTP over port 587 with STARTTLS."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:15]",
+      "end_time": "[04:24]",
+      "start_time_sec": 255,
+      "text": "Ah, so my Outlook was still trying to talk to the old unencrypted door, and your servers locked it.",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:27]",
+      "end_time": "[04:37]",
+      "start_time_sec": 267,
+      "text": "That is an excellent analogy. In your Outlook Account Settings window, double-click on your S-Net mail profile to open the server settings."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:40]",
+      "end_time": "[04:47]",
+      "start_time_sec": 280,
+      "text": "Double clicking now... it has opened a window showing Incoming Mail Server and Outgoing Mail Server.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:50]",
+      "end_time": "[04:55]",
+      "start_time_sec": 290,
+      "text": "What does it say for the Incoming Mail Server hostname?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:57]",
+      "end_time": "[05:02]",
+      "start_time_sec": 297,
+      "text": "It says mail dot s-net mail dot co dot uk.",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:04]",
+      "end_time": "[05:08]",
+      "start_time_sec": 304,
+      "text": "Change that to imap dot s-net dot net."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:10]",
+      "end_time": "[05:14]",
+      "start_time_sec": 310,
+      "text": "Typing imap dot s-net dot net... done.",
+      "sentiment_score": 7.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:16]",
+      "end_time": "[05:22]",
+      "start_time_sec": 316,
+      "text": "And for the Outgoing Mail Server SMTP hostname, what does it show?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:25]",
+      "end_time": "[05:30]",
+      "start_time_sec": 325,
+      "text": "It says smtp dot s-net mail dot co dot uk.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:32]",
+      "end_time": "[05:36]",
+      "start_time_sec": 332,
+      "text": "Change that to smtp dot s-net dot net."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:38]",
+      "end_time": "[05:42]",
+      "start_time_sec": 338,
+      "text": "Changed to smtp dot s-net dot net.",
+      "sentiment_score": 8.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:44]",
+      "end_time": "[05:51]",
+      "start_time_sec": 344,
+      "text": "Now click on More Settings in the bottom right corner, and select the Advanced tab."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:54]",
+      "end_time": "[06:01]",
+      "start_time_sec": 354,
+      "text": "Clicking More Settings... Advanced tab... okay, I can see port numbers and encryption drop-down menus.",
+      "sentiment_score": 9.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:04]",
+      "end_time": "[06:12]",
+      "start_time_sec": 364,
+      "text": "For Incoming Server IMAP, enter port 993, and in the drop-down box for encrypted connection, select SSL/TLS."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:15]",
+      "end_time": "[06:19]",
+      "start_time_sec": 375,
+      "text": "Port 993 entered, drop-down set to SSL/TLS.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:21]",
+      "end_time": "[06:28]",
+      "start_time_sec": 381,
+      "text": "For Outgoing Server SMTP, enter port 587, and in the encryption drop-down, select STARTTLS."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:31]",
+      "end_time": "[06:35]",
+      "start_time_sec": 391,
+      "text": "Port 587 entered, encryption set to STARTTLS.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:37]",
+      "end_time": "[06:47]",
+      "start_time_sec": 397,
+      "text": "Now switch to the Outgoing Server tab right next to Advanced. Is the checkbox for 'My outgoing server requires authentication' ticked?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:50]",
+      "end_time": "[06:59]",
+      "start_time_sec": 410,
+      "text": "No, it was unticked! I have ticked it now, and selected 'Use same settings as my incoming mail server'.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:02]",
+      "end_time": "[07:10]",
+      "start_time_sec": 422,
+      "text": "That is vital, because modern SMTP servers reject outbound mail from unauthenticated clients to prevent spam relays."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:13]",
+      "end_time": "[07:17]",
+      "start_time_sec": 433,
+      "text": "Understood. That makes complete sense.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:19]",
+      "end_time": "[07:32]",
+      "start_time_sec": 439,
+      "text": "Now let us address the password security requirement. To protect accounts against credential stuffing, S-Net now requires an App-Specific Password for desktop clients rather than your main portal password."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:35]",
+      "end_time": "[07:39]",
+      "start_time_sec": 455,
+      "text": "How do I generate an App-Specific Password?",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:41]",
+      "end_time": "[07:48]",
+      "start_time_sec": 461,
+      "text": "Open a web browser on your computer and navigate to webmail dot s-net dot net."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:51]",
+      "end_time": "[07:57]",
+      "start_time_sec": 471,
+      "text": "Navigating to webmail dot s-net dot net... logging in with my main password.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:00]",
+      "end_time": "[08:09]",
+      "start_time_sec": 480,
+      "text": "Click on the gear icon in the top right for Settings, then select Security, and click Generate App Password."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:12]",
+      "end_time": "[08:18]",
+      "start_time_sec": 492,
+      "text": "Clicking Settings... Security... Generate App Password. It's asking for a device name.",
+      "sentiment_score": 10.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:21]",
+      "end_time": "[08:26]",
+      "start_time_sec": 501,
+      "text": "Type 'Work Outlook' as the device label and click Generate."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:28]",
+      "end_time": "[08:39]",
+      "start_time_sec": 508,
+      "text": "It generated a sixteen-character code: w x k p - m r t q - z b c d - v n l s.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:42]",
+      "end_time": "[08:47]",
+      "start_time_sec": 522,
+      "text": "And what was that primary S-Net mail address again, Yasmin?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:49]",
+      "end_time": "[08:59]",
+      "start_time_sec": 529,
+      "text": "It's yasmin dot mirza at s-net mail dot co dot uk, like I told you at the start of the call.",
+      "sentiment_score": -16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:02]",
+      "end_time": "[09:11]",
+      "start_time_sec": 542,
+      "text": "Copy that sixteen-character app password and paste it into the Outlook password box, then click Next to run the test."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:14]",
+      "end_time": "[09:24]",
+      "start_time_sec": 554,
+      "text": "Pasting into the Outlook box... clicking Next... it's running the test... 'Log on to incoming mail server: Completed'! 'Send test email message: Completed'!",
+      "sentiment_score": 34.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:27]",
+      "end_time": "[09:34]",
+      "start_time_sec": 567,
+      "text": "Both green ticks on incoming and outgoing! That confirms Outlook is communicating over TLS 1.3."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:37]",
+      "end_time": "[09:43]",
+      "start_time_sec": 577,
+      "text": "My inbox just populated with forty unread client emails! That is fantastic!",
+      "sentiment_score": 38.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:46]",
+      "end_time": "[09:52]",
+      "start_time_sec": 586,
+      "text": "Now let us configure your iPad so your mobile access is equally synchronized."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:55]",
+      "end_time": "[09:59]",
+      "start_time_sec": 595,
+      "text": "Yes, let's fix the iPad now.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:01]",
+      "end_time": "[10:09]",
+      "start_time_sec": 601,
+      "text": "On your iPad, open Settings, scroll down to Mail, tap Accounts, and tap on your S-Net account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:12]",
+      "end_time": "[10:16]",
+      "start_time_sec": 612,
+      "text": "Settings... Mail... Accounts... S-Net. Found it.",
+      "sentiment_score": 9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:18]",
+      "end_time": "[10:24]",
+      "start_time_sec": 618,
+      "text": "Tap on Account Settings at the top to view the server fields."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:27]",
+      "end_time": "[10:32]",
+      "start_time_sec": 627,
+      "text": "Opening Account Settings... yes, incoming and outgoing hostnames are displayed.",
+      "sentiment_score": 8.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:34]",
+      "end_time": "[10:44]",
+      "start_time_sec": 634,
+      "text": "Update the Incoming Host Name to imap dot s-net dot net, and the Outgoing Host Name to smtp dot s-net dot net."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:47]",
+      "end_time": "[10:54]",
+      "start_time_sec": 647,
+      "text": "Updating hostnames to imap dot s-net dot net and smtp dot s-net dot net. Done.",
+      "sentiment_score": 12.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:57]",
+      "end_time": "[11:07]",
+      "start_time_sec": 657,
+      "text": "Tap on Outgoing Mail Server SMTP, then tap Primary Server. Is Use SSL enabled, and is Server Port set to 587?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:10]",
+      "end_time": "[11:18]",
+      "start_time_sec": 670,
+      "text": "Use SSL was on, but port was set to 25. I have changed Server Port to 587.",
+      "sentiment_score": 15.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:21]",
+      "end_time": "[11:31]",
+      "start_time_sec": 681,
+      "text": "Now tap Done, go back to Advanced, ensure Use SSL is enabled under Incoming Settings, and set Server Port to 993."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:34]",
+      "end_time": "[11:40]",
+      "start_time_sec": 694,
+      "text": "Under Advanced... Use SSL is on, server port changed from 143 to 993.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:43]",
+      "end_time": "[11:53]",
+      "start_time_sec": 703,
+      "text": "Now we need a second unique App-Specific Password for the iPad. In your webmail browser window, click Generate Another App Password."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:56]",
+      "end_time": "[12:01]",
+      "start_time_sec": 716,
+      "text": "Generating another app password... naming it 'iPad Accounting'... clicking Generate.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:03]",
+      "end_time": "[12:07]",
+      "start_time_sec": 723,
+      "text": "What code did the system generate?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:09]",
+      "end_time": "[12:19]",
+      "start_time_sec": 729,
+      "text": "It generated: f j q r - b t v w - x z y k - m p h c.",
+      "sentiment_score": 9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:22]",
+      "end_time": "[12:27]",
+      "start_time_sec": 742,
+      "text": "Type that code into the Password field on your iPad."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:29]",
+      "end_time": "[12:37]",
+      "start_time_sec": 749,
+      "text": "Typing it into the iPad password box now... tapping Done... it says 'Verifying' with a spinning wheel.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:40]",
+      "end_time": "[13:03]",
+      "start_time_sec": 760,
+      "text": "It popped up an error saying 'Cannot Get Mail - The user name or password for imap dot s-net dot net is incorrect'! I have typed this ridiculous code in twice now, and it keeps rejecting it! I am so exhausted and stressed, Hannah! I have three client VAT submissions due before midnight, and now my iPad is throwing errors! Why does everything have to be so difficult?",
+      "sentiment_score": -56.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:06]",
+      "end_time": "[13:15]",
+      "start_time_sec": 786,
+      "text": "Tap on the Password field on your iPad, delete all characters, and check if the very first letter capitalized itself."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:18]",
+      "end_time": "[13:41]",
+      "start_time_sec": 798,
+      "text": "Typing long complex security codes on a glass tablet screen when you are rushing against a midnight VAT deadline is completely exhausting and stressful, Yasmin, and I completely understand why you are feeling so frustrated. Take a deep breath, we are almost at the finish line, and I will make sure this iPad connects."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:44]",
+      "end_time": "[13:57]",
+      "start_time_sec": 824,
+      "text": "Thank you Hannah. You're right, I just looked, and the iPad automatically capitalized the 'F' into a capital F because it thought it was the start of a sentence!",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:00]",
+      "end_time": "[14:16]",
+      "start_time_sec": 840,
+      "text": "Apple iOS keyboards default to auto-capitalization. Make sure the 'f' is entered in lowercase: f j q r - b t v w - x z y k - m p h c without spaces."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:19]",
+      "end_time": "[14:26]",
+      "start_time_sec": 859,
+      "text": "Typing it carefully in all lowercase... tapping Done... spinning wheel... all blue checkmarks appeared!",
+      "sentiment_score": 36.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:29]",
+      "end_time": "[14:35]",
+      "start_time_sec": 869,
+      "text": "Blue checkmarks on iOS confirm complete TLS authentication with the IMAP server."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:38]",
+      "end_time": "[14:48]",
+      "start_time_sec": 878,
+      "text": "Opening the Mail app on my iPad... all my folders and forty emails just synchronized right in front of my eyes!",
+      "sentiment_score": 39.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:51]",
+      "end_time": "[14:59]",
+      "start_time_sec": 891,
+      "text": "Now let us send a test email from your iPad to yourself to verify outbound SMTP relay."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:02]",
+      "end_time": "[15:11]",
+      "start_time_sec": 902,
+      "text": "Composing test message to myself... tapping send... whoosh sound effect... and it immediately pinged into Outlook on my laptop!",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:14]",
+      "end_time": "[15:23]",
+      "start_time_sec": 914,
+      "text": "Both your desktop Outlook and your mobile iPad are fully synchronized with modern TLS 1.3 encryption and dedicated app passwords."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:26]",
+      "end_time": "[15:36]",
+      "start_time_sec": 926,
+      "text": "You have no idea what a relief this is. I can submit all three client VAT returns before eight o'clock tonight now.",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:39]",
+      "end_time": "[15:45]",
+      "start_time_sec": 939,
+      "text": "Does that completely resolve your email connection and authentication issues today, Yasmin?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:48]",
+      "end_time": "[15:54]",
+      "start_time_sec": 948,
+      "text": "Yes, completely and totally resolved. You've been so patient and wonderful, Hannah.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:57]",
+      "end_time": "[16:06]",
+      "start_time_sec": 957,
+      "text": "It was my absolute pleasure assisting you. Is there anything else on your S-Net account I can help with?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:09]",
+      "end_time": "[16:13]",
+      "start_time_sec": 969,
+      "text": "No, that's everything. Thank you so much again.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:15]",
+      "end_time": "[16:20]",
+      "start_time_sec": 975,
+      "text": "Thank you for contacting S-Net technical help, take care Yasmin. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:22]",
+      "end_time": "[16:25]",
+      "start_time_sec": 982,
+      "text": "Goodbye.",
+      "sentiment_score": 4.2
+    }
+  ]
+}

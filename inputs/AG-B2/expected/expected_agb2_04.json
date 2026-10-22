@@ -1,0 +1,192 @@
+{
+  "call_id": "agb2_04",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 100.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash High)",
+    "graded_on": "2026-10-21",
+    "scenario": "S-Net 4K set-top box remote control Bluetooth unpairing and TV volume/HDMI-CEC sync failure after TV firmware update",
+    "tier": "excellent",
+    "duration_sec": 916,
+    "notes": "Excellent 15-minute technical troubleshooting call. Oliver methodically diagnoses remote control desynchronization following a Samsung TV update. Immediately validates Fiona's frustration regarding her visiting mother at turn 12. Guides a remote factory reset, Bluetooth re-pairing, infrared Samsung TV volume programming (code 0060), and HDMI-CEC power sync, confirming full resolution.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Hold time and Dead Air",
+      "Paraphrasing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opened at [00:00] with 'Thank you for calling S-Net TV and broadband support' and closed at [14:58] with 'Thank you for choosing S-Net as your entertainment provider'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "A single 65s hold between [09:21] and [10:36] to send an HDMI-CEC sync refresh was announced with 'Bear with me for about a minute' and returned with 'Thank you for waiting, Fiona'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent requested first line of address and security PIN at [00:32], within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent used the customer's name Fiona warmly throughout the call (turns 2, 4, 6, 12, 43, 59, 65)."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Customer expressed distress at turn 11 ([02:39]) about her visiting mother being unable to watch TV on her birthday. Agent handled it warmly at turn 12 ([03:02]): 'Having your mother visiting for her birthday only for the TV controls to fail after an unannounced firmware update is so frustrating, Fiona, and I completely understand the stress.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turn 6 ([01:29]), agent paraphrased the issue: 'So what you are experiencing is that your S-Net 4K remote control has lost both its Bluetooth pairing for channel navigation and its infrared link for your TV power and volume controls. Have I understood the fault correctly, Fiona?'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent did not repeat any answered questions. At turn 45 ([11:00]), checking whether 4K video and volume were comfortable following the HDMI refresh was a harmless status recheck."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent took complete ownership of the problem, stepped through the calibration systematically, and confirmed full resolution without deflecting."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Polite and professional throughout. Turn 26 used 'As I explained, HDMI-CEC standards vary between TV manufacturers' in a courteous, informative way."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Probing questions into TV make and model (turn 8), LED blink behaviour (turn 10), and battery freshness (turn 14)."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turns 59-60 ([13:56]-[14:07]), agent asked if the TV remote and volume were resolved, and Fiona confirmed: 'Yes, completely and totally resolved. Everything works just like it did out of the box.'"
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 7,
+          "agent_turn": 45
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 6
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 26
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 11,
+          "agent_turn": 12,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

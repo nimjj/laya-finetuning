@@ -1,0 +1,186 @@
+{
+  "call_id": "agb2_05",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 45.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to acknowledge the customer's severe distress at turn 9 ([02:07]) regarding wrongful billing charges, proceeding immediately to demand payment."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent failed to restate or paraphrase the customer's billing dispute in his own words, only reading back invoice totals."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "At turn 43 ([09:00]), Agent re-asked for the bank sort code and account number after Declan had already clearly provided them at turn 11 ([02:47])."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Agent failed to probe the transaction details or investigate the mandate submission date, merely defending automated billing output."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent failed to resolve the billing dispute on the call; the charges remained active on the ledger and the customer explicitly rejected the outcome."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash High)",
+    "graded_on": "2026-10-21",
+    "scenario": "Billing dispute over duplicate charge, unallocated card payment, and direct debit bounce fee",
+    "tier": "poor",
+    "duration_sec": 708,
+    "notes": "Poor 11-minute billing interaction. Darren fails Empathy by ignoring Declan's furious outburst at turn 9 regarding wrongful penalties and demanding immediate payment instead. Fails Paraphrasing by never restating the dispute. Fails Active Listening by re-asking for bank account details at turn 43 that Declan clearly stated at turn 11. Fails Probing by refusing to investigate mandate submission logs, and leaves the dispute completely unresolved with the customer threatening regulatory escalation.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Active listening"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opened at [00:00] with 'Thank you for calling S-Net customer billing' and closed at [11:38] with 'Thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "No unmanaged holds or dead air gaps over 30 seconds."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent verified billing address and security PIN at [00:28], within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent used the customer's name Declan throughout the call (turns 2, 4, 32, 43, 59)."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At turn 9 ([02:07]), customer had an intense outburst: 'I am absolutely livid about this, it is scandalous!' Agent at turn 10 ([02:32]) completely ignored his emotional state and demanded immediate debit card payment."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never restated or checked the customer's billing dispute in his own words, only confirming balance figures and account status."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At turn 11 ([02:47]), Declan clearly stated: 'My new bank details are sort code zero four zero zero zero four and account number eight eight one two three four five six'. At turn 43 ([09:00]), Agent re-asked: 'what were those new bank account and sort code digits again Declan?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent retained the dispute ticket, applied a suspension hold code, and routed it to the internal audit queue without deflecting to the bank."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent was rigid and bureaucratic, but remained polite and did not use rude, condescending, or sarcastic language."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent did not probe into the customer's claim of submitting the mandate online or check transaction reference numbers."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Issue was not resolved on the call. At turn 50 ([10:16]), customer explicitly stated: 'No, it's not sorted at all! The wrongful charges are still sitting there, you haven't refunded my forty-eight pounds'."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "repeat",
+          "premise_turn": 11,
+          "agent_turn": 43,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 10
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 9
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Liam",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Amber. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:24]",
+      "start_time_sec": 11,
+      "text": "Hi Amber, um, our broadband has gone completely dead about an hour ago. The little white box on the wall has a bright flashing red light next to LOS.",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:27]",
+      "end_time": "[00:41]",
+      "start_time_sec": 27,
+      "text": "I can investigate that loss of optical signal for you today, Liam. Before we diagnose the optical terminal, could you please verify your installation address and your four digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:44]",
+      "end_time": "[00:52]",
+      "start_time_sec": 44,
+      "text": "Yeah, address is 31 Greenfield Lane, um, Bristol, BS4 5TL, and the PIN is eight zero two four.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:55]",
+      "end_time": "[01:04]",
+      "start_time_sec": 55,
+      "text": "Thank you Liam, that has verified your account on our Full Fibre 900 package. Let me open your line telemetry."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:07]",
+      "end_time": "[01:12]",
+      "start_time_sec": 67,
+      "text": "Thanks. It was working fine all morning until about twelve thirty.",
+      "sentiment_score": -9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:14]",
+      "end_time": "[01:32]",
+      "start_time_sec": 74,
+      "text": "So what has happened is that your Optical Network Terminal has suddenly lost its laser link to the exchange, indicated by a flashing red LOS light, causing complete loss of internet across the house. Have I understood the fault accurately, Liam?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:35]",
+      "end_time": "[01:40]",
+      "start_time_sec": 95,
+      "text": "Yes, exactly, that's it completely. Red flashing light and nothing works.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:42]",
+      "end_time": "[01:52]",
+      "start_time_sec": 102,
+      "text": "Looking at the small white Openreach optical box on your wall, what are the names of the four LED lights on the front?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:55]",
+      "end_time": "[02:06]",
+      "start_time_sec": 115,
+      "text": "There is Power, PON, LOS, and LAN. Power is solid green, PON is completely off, LOS is flashing bright red, and LAN is green.",
+      "sentiment_score": -6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:09]",
+      "end_time": "[02:21]",
+      "start_time_sec": 129,
+      "text": "A flashing red LOS light with PON unlit means the optical receiver is detecting zero laser light coming down the glass fibre from the street cabinet."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:24]",
+      "end_time": "[02:28]",
+      "start_time_sec": 144,
+      "text": "Does that mean the cable outside is damaged?",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:30]",
+      "end_time": "[02:38]",
+      "start_time_sec": 150,
+      "text": "Were there any roadworks, garden digging, or tree trimming taking place near your property boundary around twelve thirty?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:41]",
+      "end_time": "[03:05]",
+      "start_time_sec": 161,
+      "text": "Oh no! We had fencing contractors driving metal fence post spikes into the front lawn right along the pavement edge at lunchtime! If they've smashed through the fibre optic cable, my wife will be stranded without her remote NHS triage job, and we have zero mobile reception in this valley! It is a complete disaster!",
+      "sentiment_score": -54.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:20]",
+      "start_time_sec": 188,
+      "text": "Can you inspect the thin yellow or white optical lead that connects the wall box to the black S-Net hub and confirm if it is firmly seated?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:23]",
+      "end_time": "[03:31]",
+      "start_time_sec": 203,
+      "text": "Yes, the yellow optical lead is clicked firmly into the green socket at the bottom of the box.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:34]",
+      "end_time": "[03:43]",
+      "start_time_sec": 214,
+      "text": "Does the yellow cable have any sharp kinks, bends, or crushing marks where it runs along the skirting board?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:46]",
+      "end_time": "[03:52]",
+      "start_time_sec": 226,
+      "text": "No, the indoor wire is totally untouched. It's inside a plastic conduit.",
+      "sentiment_score": 1.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:55]",
+      "end_time": "[04:02]",
+      "start_time_sec": 235,
+      "text": "Can you walk outside to the front boundary where the contractors were installing the fence posts?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:05]",
+      "end_time": "[04:11]",
+      "start_time_sec": 245,
+      "text": "Walking outside to the front garden now, um, with my phone on speaker.",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:14]",
+      "end_time": "[04:24]",
+      "start_time_sec": 254,
+      "text": "Do you see a small grey plastic underground Toby box or Openreach footway box in the pavement near the fence line?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:27]",
+      "end_time": "[04:37]",
+      "start_time_sec": 267,
+      "text": "Yes, there is a small Openreach pavement chamber about two feet from where the corner post was driven into the soil.",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:40]",
+      "end_time": "[04:48]",
+      "start_time_sec": 280,
+      "text": "Is there any black plastic conduit or blown fibre microduct visible near the disturbed soil around the post?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:51]",
+      "end_time": "[05:01]",
+      "start_time_sec": 291,
+      "text": "Looking down into the hole... oh god, there is a severed black rubber tube with thin glass strands sticking out of it!",
+      "sentiment_score": -38.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:04]",
+      "end_time": "[05:13]",
+      "start_time_sec": 304,
+      "text": "That confirms physical cable strike damage. The post spike has cleanly severed the underground microduct containing your drop fibre."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:16]",
+      "end_time": "[05:21]",
+      "start_time_sec": 316,
+      "text": "I knew it! Those idiot contractors drove right through the ducting!",
+      "sentiment_score": -44.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:23]",
+      "end_time": "[05:30]",
+      "start_time_sec": 323,
+      "text": "Because the glass optical core is physically severed beneath ground level, light cannot traverse the link."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:33]",
+      "end_time": "[05:41]",
+      "start_time_sec": 333,
+      "text": "Can an engineer come out this afternoon with a fusion splicer and join the glass back together?",
+      "sentiment_score": -12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:44]",
+      "end_time": "[05:58]",
+      "start_time_sec": 344,
+      "text": "A severed underground microduct requires a civils repair team to excavate the damaged ducting, install a junction splice enclosure, and blow a fresh optical fibre bundle from the footway chamber."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:01]",
+      "end_time": "[06:06]",
+      "start_time_sec": 361,
+      "text": "How long does an underground civil excavation take to get scheduled?",
+      "sentiment_score": -22.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:08]",
+      "end_time": "[06:21]",
+      "start_time_sec": 368,
+      "text": "Let me check the Openreach infrastructure engineering schedule for the Bristol South distribution area. Bear with me for about a minute while I query the external plant dispatch queue."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:18]",
+      "end_time": "[07:24]",
+      "start_time_sec": 438,
+      "text": "Thank you for waiting, Liam. I have accessed the Openreach plant management calendar."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:27]",
+      "end_time": "[07:32]",
+      "start_time_sec": 447,
+      "text": "What did they say, Amber? Can they get someone here quickly?",
+      "sentiment_score": -8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:34]",
+      "end_time": "[07:44]",
+      "start_time_sec": 454,
+      "text": "Just to confirm the physical status of the hardware inside, is the Power light on your ONT box still showing solid green?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:47]",
+      "end_time": "[07:54]",
+      "start_time_sec": 467,
+      "text": "Yes, power on the white box is still green, and LOS is still flashing red.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:57]",
+      "end_time": "[08:06]",
+      "start_time_sec": 477,
+      "text": "That confirms the indoor hardware is completely healthy, and the fault is entirely restricted to the severed exterior cable."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:09]",
+      "end_time": "[08:16]",
+      "start_time_sec": 489,
+      "text": "Okay, that's good at least. But what is the earliest slot for the repair crew?",
+      "sentiment_score": -6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:19]",
+      "end_time": "[08:29]",
+      "start_time_sec": 499,
+      "text": "Because this repair involves pavement and soft verge excavation, statutory road opening notifications must be lodged with the local highways authority."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:32]",
+      "end_time": "[08:38]",
+      "start_time_sec": 512,
+      "text": "Wait, road opening notifications? Are you saying it's going to take days?",
+      "sentiment_score": -18.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:41]",
+      "end_time": "[08:51]",
+      "start_time_sec": 521,
+      "text": "The earliest confirmed civil engineer booking window for underground duct repair is next Tuesday morning between 8:00 AM and 1:00 PM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:54]",
+      "end_time": "[08:59]",
+      "start_time_sec": 534,
+      "text": "Next Tuesday? Today is Thursday! That is five days away!",
+      "sentiment_score": -36.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:01]",
+      "end_time": "[09:08]",
+      "start_time_sec": 541,
+      "text": "Underground duct replacement is categorized as a major physical cable rebuild requiring specialized civils machinery."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:11]",
+      "end_time": "[09:20]",
+      "start_time_sec": 551,
+      "text": "Can you not mark this as a priority emergency? My wife works in clinical medical triage for the NHS!",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:23]",
+      "end_time": "[09:37]",
+      "start_time_sec": 563,
+      "text": "I have tagged the work order with a Critical Health and Essential Worker priority marker, which moves it to the top of the reserve dispatch list if an earlier cancellation occurs."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:40]",
+      "end_time": "[09:44]",
+      "start_time_sec": 580,
+      "text": "Okay, but what happens if no cancellation comes up?",
+      "sentiment_score": -19.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:46]",
+      "end_time": "[09:52]",
+      "start_time_sec": 586,
+      "text": "If no earlier slot opens, Tuesday morning remains the guaranteed civil commitment."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:55]",
+      "end_time": "[10:02]",
+      "start_time_sec": 595,
+      "text": "Will they need access to our house, or do they just work in the garden hole?",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:05]",
+      "end_time": "[10:19]",
+      "start_time_sec": 605,
+      "text": "The civils team will excavate and re-tube the microduct outside, and then an optical technician will need ten minutes inside the hallway to verify optical light levels with an optical power meter."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:22]",
+      "end_time": "[10:29]",
+      "start_time_sec": 622,
+      "text": "My wife will be home all day on Tuesday, so access won't be an issue.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:32]",
+      "end_time": "[10:39]",
+      "start_time_sec": 632,
+      "text": "I have noted that adult access will be available at 31 Greenfield Lane from 8:00 AM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:42]",
+      "end_time": "[10:51]",
+      "start_time_sec": 642,
+      "text": "What about the cost of the repair? Are S-Net or Openreach going to try to bill me for this?",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:54]",
+      "end_time": "[11:11]",
+      "start_time_sec": 654,
+      "text": "Because the damage occurred on the soft verge of your private boundary due to third-party contractor works, Openreach will invoice S-Net, and S-Net provides a damage report that you can pass directly to your contractor's public liability insurance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:14]",
+      "end_time": "[11:21]",
+      "start_time_sec": 674,
+      "text": "Good. The fencing company has full commercial liability insurance, so their insurer will cover it.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:24]",
+      "end_time": "[11:33]",
+      "start_time_sec": 684,
+      "text": "I will generate an official Engineering Incident Assessment PDF that includes photos and engineer notes for their insurance claim."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:36]",
+      "end_time": "[11:40]",
+      "start_time_sec": 696,
+      "text": "That will be very useful.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:42]",
+      "end_time": "[11:47]",
+      "start_time_sec": 702,
+      "text": "Now let us address your household connectivity between now and Tuesday."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:49]",
+      "end_time": "[11:53]",
+      "start_time_sec": 709,
+      "text": "Yes, because right now we have absolutely nothing.",
+      "sentiment_score": -11.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:55]",
+      "end_time": "[12:01]",
+      "start_time_sec": 715,
+      "text": "Do you or your wife have mobile phones on the S-Net Mobile network?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:04]",
+      "end_time": "[12:10]",
+      "start_time_sec": 724,
+      "text": "Yes, my wife and I both have S-Net mobile SIMs on our iPhones.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:13]",
+      "end_time": "[12:17]",
+      "start_time_sec": 733,
+      "text": "What are the mobile numbers for those two lines?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:19]",
+      "end_time": "[12:31]",
+      "start_time_sec": 739,
+      "text": "Mine is zero seven seven zero zero, nine zero\u96f6 two one one, and my wife's is zero seven seven zero zero, nine zero\u96f6 eight four five.",
+      "sentiment_score": 4.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:34]",
+      "end_time": "[12:44]",
+      "start_time_sec": 754,
+      "text": "I can apply an emergency Unlimited Mobile Data Boost to both handset SIMs right now, active for thirty days at zero charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:47]",
+      "end_time": "[12:54]",
+      "start_time_sec": 767,
+      "text": "Can my wife use her phone as a personal hotspot for her NHS laptop then?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:57]",
+      "end_time": "[13:06]",
+      "start_time_sec": 777,
+      "text": "Yes, she can enable personal hotspot on her iPhone and connect her laptop via Wi-Fi with zero data caps."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:09]",
+      "end_time": "[13:14]",
+      "start_time_sec": 789,
+      "text": "That will get her through tomorrow's clinical shift! That is brilliant.",
+      "sentiment_score": 28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:16]",
+      "end_time": "[13:25]",
+      "start_time_sec": 796,
+      "text": "I have applied the unlimited data boost to both numbers right now. You should receive confirmation texts within two minutes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:28]",
+      "end_time": "[13:32]",
+      "start_time_sec": 808,
+      "text": "My phone just buzzed with the data boost text!",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:34]",
+      "end_time": "[13:41]",
+      "start_time_sec": 814,
+      "text": "In addition, we provide an S-Net Emergency 4G Home Hub for major cable severance events."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:44]",
+      "end_time": "[13:48]",
+      "start_time_sec": 824,
+      "text": "How does the emergency home hub get here?",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:50]",
+      "end_time": "[14:14]",
+      "start_time_sec": 830,
+      "text": "Wait, if that hub comes by standard post, it won't arrive until Monday! Five days with only mobile hotspots while my kids have GCSE online coursework due tomorrow night is going to cause utter chaos in this house! They can't do coursework on an iPhone screen, and my wife's video triage needs stable latency! It's going to be a complete nightmare!",
+      "sentiment_score": -58.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:17]",
+      "end_time": "[14:41]",
+      "start_time_sec": 857,
+      "text": "Five days of disruption when your wife is managing vital clinical triage and your children have critical GCSE deadlines is an immense strain, Liam, and I completely understand how overwhelming that feels. We are not using standard post. I am booking a priority same-day courier dispatch from our Bristol logistics hub right now, so the 4G high-power router will be delivered directly to your doorstep by seven o'clock this evening."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:44]",
+      "end_time": "[14:54]",
+      "start_time_sec": 884,
+      "text": "Same-day courier this evening? By seven o'clock? Oh Amber, you are an absolute angel. Thank you so much, I can breathe again.",
+      "sentiment_score": 34.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:57]",
+      "end_time": "[15:08]",
+      "start_time_sec": 897,
+      "text": "The courier tracking reference is CR-90184-BR. As soon as the driver leaves the warehouse, you will receive an SMS with a live GPS delivery map."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:11]",
+      "end_time": "[15:18]",
+      "start_time_sec": 911,
+      "text": "That completely solves the weekend for the kids' coursework and my wife's triage. Thank you.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:21]",
+      "end_time": "[15:31]",
+      "start_time_sec": 921,
+      "text": "When the 4G router arrives, simply plug it into the mains, and it will broadcast high-speed Wi-Fi across your entire home."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:34]",
+      "end_time": "[15:38]",
+      "start_time_sec": 934,
+      "text": "Understood. That is very simple.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:40]",
+      "end_time": "[15:50]",
+      "start_time_sec": 940,
+      "text": "And on Tuesday morning between 8am and 1pm, the Openreach civils crew will arrive under reference OR-55219 to splice the underground optical line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:53]",
+      "end_time": "[15:58]",
+      "start_time_sec": 953,
+      "text": "I've written both references down: courier CR-90184-BR and Openreach OR-55219.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:00]",
+      "end_time": "[16:10]",
+      "start_time_sec": 960,
+      "text": "I will personally monitor the Openreach portal on Tuesday morning and ring you once optical light telemetry confirms the line is restored."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:13]",
+      "end_time": "[16:18]",
+      "start_time_sec": 973,
+      "text": "You've been so incredibly helpful and kind throughout all this.",
+      "sentiment_score": 26.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:20]",
+      "end_time": "[16:36]",
+      "start_time_sec": 980,
+      "text": "Because the physical optical line is severed underground, the broadband itself cannot be restored until Tuesday's civil engineering visit, but do the courier hub and mobile data boosts cover your emergency family requirements today, Liam?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:39]",
+      "end_time": "[16:47]",
+      "start_time_sec": 999,
+      "text": "Yes, the emergency backup covers us completely, even though the main fibre won't be fixed until Tuesday.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:50]",
+      "end_time": "[16:57]",
+      "start_time_sec": 1010,
+      "text": "Is there anything else on your S-Net account I can assist you with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:00]",
+      "end_time": "[17:04]",
+      "start_time_sec": 1020,
+      "text": "No, that's everything. Thank you again Amber.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:06]",
+      "end_time": "[17:10]",
+      "start_time_sec": 1026,
+      "text": "Thank you for calling S-Net technical support."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:12]",
+      "end_time": "[17:16]",
+      "start_time_sec": 1032,
+      "text": "Goodbye Amber.",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:18]",
+      "end_time": "[17:26]",
+      "start_time_sec": 1038,
+      "text": "Thank you for choosing S-Net as your broadband provider. Take care Liam, and have a good evening. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:29]",
+      "end_time": "[17:32]",
+      "start_time_sec": 1049,
+      "text": "Goodbye.",
+      "sentiment_score": 2.4
+    }
+  ]
+}

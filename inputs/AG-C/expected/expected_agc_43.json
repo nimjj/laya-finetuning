@@ -1,0 +1,208 @@
+{
+  "call_id": "agc_43",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 43.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Agent omitted both opening branding ('S-Net technical service desk, Sarah speaking...') and closing branding ('Have a good day. Goodbye.'), completely failing to say 'Thank you for calling S-Net' or 'Thank you for choosing S-Net'."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed Empathy in the second half of the call, giving a cold system architecture deflection during a severe emotional outburst at turn 23 in the final third."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked the customer to repeat the Hub model and firmware version at turn 44, which Wyatt had already explicitly specified at turn 5."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Agent made a highly unprofessional, offensive remark at turn 22 ('if you constantly monitor system error logs... you are only causing yourself unnecessary anxiety'), provoking severe customer outrage."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Agent completely failed to probe the hardware environment, omitting checks regarding master power socket connections, surge protector extension leads, thermal ventilation, or pinhole factory reset attempts."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent abruptly ended the call at turn 57 while the customer was asking about the DPD courier delivery window, hanging up without confirming complete resolution."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-22",
+    "scenario": "Repeated router reboots every 10 minutes following automated firmware push v4.22",
+    "tier": "5+",
+    "duration_sec": 990,
+    "notes": "Router reboot loop after automated firmware update call handled by Sarah. Customer was conducting a remote financial audit when Hub 5 entered a 10-minute reboot loop. Agent paraphrased well and dispatched replacement Hub 5x, but failed 6 criteria: Branding (both opening and closing omitted), Empathy (unhandled outburst in final third), Active Listening (repeat question), Professionalism (rude remark about anxiety), Probing (omitted hardware setup checks), and Confirmed Resolved (cut off caller at closing).",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Verified customer",
+      "Personalized the call/ticket appropriately",
+      "Paraphrasing",
+      "Took ownership of the problem",
+      "Branding and Survey Check",
+      "Empathy & Acknowledgment Statement"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent omitted both opening branding ('S-Net technical service desk, Sarah speaking...') and closing branding ('Have a good day. Goodbye.'), completely failing to say 'Thank you for calling S-Net' or 'Thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent executed a professional managed hold of 40s with permission and gratitude."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent verified installation address and 4-digit security PIN within first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent addressed customer naturally by name ('Wyatt') multiple times."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent failed Empathy in the second half of the call, giving a cold system architecture deflection during a severe emotional outburst at turn 23 in the final third."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent accurately restated the firmware reboot crisis and financial audit impact at turn 8."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked the customer to repeat the Hub model and firmware version at turn 44, which Wyatt had already explicitly specified at turn 5."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent arranged an express DPD replacement Hub 5x gateway, provided a 5GHz workaround, and credited \u00a315 goodwill."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent made a highly unprofessional, offensive remark at turn 22 ('if you constantly monitor system error logs... you are only causing yourself unnecessary anxiety'), provoking severe customer outrage."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent completely failed to probe the hardware environment, omitting checks regarding master power socket connections, surge protector extension leads, thermal ventilation, or pinhole factory reset attempts."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent abruptly ended the call at turn 57 while the customer was asking about the DPD courier delivery window, hanging up without confirming complete resolution."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "repeat",
+          "premise_turn": 5,
+          "agent_turn": 45
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 19
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 21
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 13
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 1,
+          "agent_turn": 2,
+          "with_refusal": false
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 22
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 56
+        }
+      ]
+    }
+  }
+}

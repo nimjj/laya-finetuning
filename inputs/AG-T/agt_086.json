@@ -1,0 +1,434 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Sonia",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:06]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net accounts and billing department, my name is Marcus. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:08]",
+   "end_time": "[00:27]",
+   "start_time_sec": 8,
+   "text": "Hello, my name is Sonia Richardson. I received an urgent text message and email warning me that our broadband service will be disconnected in twenty-four hours because our monthly direct debit bounced, but my bank says they cancelled the mandate by clerical error during a branch merger and I need you to restore the account and stop any disconnection!",
+   "sentiment_score": -45.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:29]",
+   "end_time": "[00:34]",
+   "start_time_sec": 29,
+   "text": "I can inspect the billing status. What is the billing account number listed on your warning notice?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:36]",
+   "end_time": "[00:41]",
+   "start_time_sec": 36,
+   "text": "The account number is SN-991204, postal address 14 Highfield Lane, St Albans, AL1 4XX, security PIN 4491.",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:43]",
+   "end_time": "[00:46]",
+   "start_time_sec": 43,
+   "text": "Let me pull up account SN-991204 on the collections ledger."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:48]",
+   "end_time": "[00:56]",
+   "start_time_sec": 48,
+   "text": "Please check why the system flagged immediate disconnection.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:58]",
+   "end_time": "[01:07]",
+   "start_time_sec": 58,
+   "text": "Could I place you on hold for two minutes while I query the Automated Clearing House direct debit return code?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[02:32]",
+   "end_time": "[02:41]",
+   "start_time_sec": 152,
+   "text": "Thank you for holding. The direct debit returned code 'Instruction Cancelled by Payer' on Monday morning."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[02:43]",
+   "end_time": "[03:02]",
+   "start_time_sec": 163,
+   "text": "Instruction cancelled by payer?! That is an absolute lie by Barclays Bank! I never told them to cancel anything! I have been a loyal S-Net customer for twelve years and I am furious that your automated system threatens to cut off my service like I am a criminal debtor!",
+   "sentiment_score": -72.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:04]",
+   "end_time": "[03:21]",
+   "start_time_sec": 184,
+   "text": "I completely understand your frustration and anger at receiving a disconnection threat when your bank made a clerical mistake, especially given your twelve years of loyalty with S-Net. Let us get this sorted so your broadband remains fully active."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:23]",
+   "end_time": "[03:26]",
+   "start_time_sec": 203,
+   "text": "Thank you Marcus, I appreciate that.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:28]",
+   "end_time": "[03:36]",
+   "start_time_sec": 208,
+   "text": "Delinquent billing accounts are subject to automatic clearing house rejection routines."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:38]",
+   "end_time": "[03:48]",
+   "start_time_sec": 218,
+   "text": "Barclays said they would reimburse any penalty fee, but I need you to reinstate the direct debit.",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:50]",
+   "end_time": "[03:58]",
+   "start_time_sec": 230,
+   "text": "I am explaining alternative payment methods available for billing accounts."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:00]",
+   "end_time": "[04:10]",
+   "start_time_sec": 240,
+   "text": "Marcus? Are you still on the phone? The line went completely dead for forty seconds!",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:50]",
+   "end_time": "[04:57]",
+   "start_time_sec": 290,
+   "text": "I was waiting for the billing ledger database to populate."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:59]",
+   "end_time": "[05:07]",
+   "start_time_sec": 299,
+   "text": "Can you waive the twenty-pound direct debit rejection penalty fee?",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:08]",
+   "end_time": "[05:15]",
+   "start_time_sec": 308,
+   "text": "Obviously banking rejection fees are generated automatically by our financial clearing software."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:16]",
+   "end_time": "[05:26]",
+   "start_time_sec": 316,
+   "text": "Barclays said they would reimburse any penalty fee, but I need you to reinstate the direct debit.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:27]",
+   "end_time": "[05:35]",
+   "start_time_sec": 327,
+   "text": "Direct debit reinstatement requires seven working days to verify banking credentials."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:36]",
+   "end_time": "[05:45]",
+   "start_time_sec": 336,
+   "text": "Seven working days? What happens to my broadband connection in the meantime?",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:46]",
+   "end_time": "[06:05]",
+   "start_time_sec": 346,
+   "text": "I am a single mother working as an emergency 999 dispatcher from my kitchen table! If my broadband is disconnected tomorrow because of this bureaucratic mess, I will be unable to log into the emergency dispatch console, callers in life-or-death situations will get no answer, and I will be suspended from my job! I am having a complete panic attack right now!",
+   "sentiment_score": -88.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:06]",
+   "end_time": "[06:14]",
+   "start_time_sec": 366,
+   "text": "You can make an immediate debit card payment of sixty-four pounds and fifty pence over our telephone keypad."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:15]",
+   "end_time": "[06:26]",
+   "start_time_sec": 375,
+   "text": "Did you even hear what I just said about dispatching 999 emergency calls?! You have zero empathy!",
+   "sentiment_score": -76.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:27]",
+   "end_time": "[06:37]",
+   "start_time_sec": 387,
+   "text": "If you cannot manage your personal bank account standing orders responsibly, you have only yourself to blame."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:38]",
+   "end_time": "[06:47]",
+   "start_time_sec": 398,
+   "text": "Fine, take the debit card payment right now so my service doesn't drop!",
+   "sentiment_score": -44.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:48]",
+   "end_time": "[06:56]",
+   "start_time_sec": 408,
+   "text": "Please enter your sixteen-digit card number followed by the hash key."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:57]",
+   "end_time": "[07:00]",
+   "start_time_sec": 417,
+   "text": "Entering card number now...",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:01]",
+   "end_time": "[07:06]",
+   "start_time_sec": 421,
+   "text": "Payment authorization received for sixty-four pounds and fifty pence."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:07]",
+   "end_time": "[07:15]",
+   "start_time_sec": 427,
+   "text": "Has the disconnection notice been removed from my file?",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:16]",
+   "end_time": "[07:23]",
+   "start_time_sec": 436,
+   "text": "The card payment settles the outstanding invoice balance."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:24]",
+   "end_time": "[07:32]",
+   "start_time_sec": 444,
+   "text": "Can you guarantee that the automated disconnection scheduled for tomorrow is cancelled?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:33]",
+   "end_time": "[07:43]",
+   "start_time_sec": 453,
+   "text": "Marcus?! Hello?! Did you put me on mute again?! Why do you keep vanishing for forty seconds?!",
+   "sentiment_score": -42.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:44]",
+   "end_time": "[07:50]",
+   "start_time_sec": 464,
+   "text": "I was refreshing the service profile on the billing database."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:30]",
+   "end_time": "[08:33]",
+   "start_time_sec": 510,
+   "text": "Is the service safe from disconnection tomorrow?",
+   "sentiment_score": -18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:34]",
+   "end_time": "[08:41]",
+   "start_time_sec": 514,
+   "text": "The payment has cleared on the transaction record."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:42]",
+   "end_time": "[08:52]",
+   "start_time_sec": 522,
+   "text": "What about setting up the new direct debit mandate so this doesn't happen next month?",
+   "sentiment_score": -12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:53]",
+   "end_time": "[09:02]",
+   "start_time_sec": 533,
+   "text": "You will need to re-enter your bank sort code and account number via the online web portal."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:03]",
+   "end_time": "[09:11]",
+   "start_time_sec": 543,
+   "text": "Can you not set it up over the phone right now?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:12]",
+   "end_time": "[09:19]",
+   "start_time_sec": 552,
+   "text": "Our telephone team does not take bank account numbers for new mandates."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:20]",
+   "end_time": "[09:28]",
+   "start_time_sec": 560,
+   "text": "Okay, I will log into the website this evening.",
+   "sentiment_score": -4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:29]",
+   "end_time": "[09:32]",
+   "start_time_sec": 569,
+   "text": "Before we wrap up, what was that postal address again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:33]",
+   "end_time": "[09:37]",
+   "start_time_sec": 573,
+   "text": "As I told you right at the start, it is 14 Highfield Lane, St Albans.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:38]",
+   "end_time": "[09:41]",
+   "start_time_sec": 578,
+   "text": "Thank you, postal address verified."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:42]",
+   "end_time": "[09:45]",
+   "start_time_sec": 582,
+   "text": "Can you give me a reference number for the payment?",
+   "sentiment_score": -6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:46]",
+   "end_time": "[09:49]",
+   "start_time_sec": 586,
+   "text": "Your payment reference is PAY-88192-S."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:50]",
+   "end_time": "[09:53]",
+   "start_time_sec": 590,
+   "text": "PAY-88192-S.",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:54]",
+   "end_time": "[09:57]",
+   "start_time_sec": 594,
+   "text": "Is there any other billing query today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:58]",
+   "end_time": "[10:01]",
+   "start_time_sec": 598,
+   "text": "No, but your customer service was appalling.",
+   "sentiment_score": -28.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:02]",
+   "end_time": "[10:05]",
+   "start_time_sec": 602,
+   "text": "Thank you for calling S-Net accounts and billing. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:06]",
+   "end_time": "[10:09]",
+   "start_time_sec": 606,
+   "text": "Goodbye.",
+   "sentiment_score": -12.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:10]",
+   "end_time": "[10:13]",
+   "start_time_sec": 610,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:14]",
+   "end_time": "[10:17]",
+   "start_time_sec": 614,
+   "text": "Goodbye.",
+   "sentiment_score": -8.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:18]",
+   "end_time": "[10:21]",
+   "start_time_sec": 618,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:22]",
+   "end_time": "[10:25]",
+   "start_time_sec": 622,
+   "text": "Goodbye.",
+   "sentiment_score": -4.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:26]",
+   "end_time": "[10:29]",
+   "start_time_sec": 626,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:30]",
+   "end_time": "[10:35]",
+   "start_time_sec": 630,
+   "text": "Goodbye.",
+   "sentiment_score": 0.0
+  }
+ ]
+}

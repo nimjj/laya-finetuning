@@ -1,0 +1,199 @@
+{
+  "call_id": "agb_33",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 50.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Agent failed to verify customer identity within the first 240 seconds, omitting requests for PIN, full billing address, or security question."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked whether customer had tried power-cycling the TV box at [10:30], ignoring customer's explicit statement in turn 1 that he had already rebooted it twice."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Agent repeatedly disclaimed responsibility for pre-installed TV box streaming applications, stating S-Net had zero obligation for third-party software."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent abruptly terminated the call while customer was in mid-sentence asking follow-up questions about 4K broadband throughput."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "TV box streaming application freezing on launch; cleared application storage data and updated app; agent fails verification (never asks PIN/address/security question in 240s), asks repeat question about power cycling, disclaims third-party software ownership, and abruptly closes call",
+    "tier": "fair",
+    "duration_sec": 954,
+    "notes": "The agent resolved a TV box streaming application freeze by guiding the customer through clearing application cache and updating firmware. However, the agent failed Verified Customer by never requesting PIN, address, or security question in the first 240 seconds, failed Active Listening at minute 10 by asking whether Gareth had power-cycled the TV box after Gareth explicitly stated in turn 1 that he had already power-cycled it twice, failed Took Ownership of the Problem by repeatedly disclaiming responsibility for third-party software ('Third-party apps like BBC iPlayer and Netflix are written by outside companies; S-Net has no responsibility for software bugs'), and failed Confirmed Resolved by abruptly terminating the call while Gareth was still speaking.",
+    "hard_cases": [
+      "Active listening",
+      "Confirmed the issue is resolved",
+      "Build rapport and observed professionalism",
+      "Empathy & Acknowledgment Statement"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent requested only box serial number and TV brand in the first 240 seconds, omitting required whole-word 'pin', 'address', or 'security question' verification."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:30] Agent: 'I completely understand how important that television entertainment is for your wife\\'s recovery after knee surgery, Gareth. Having the streaming applications freeze when she needs distraction from post-operative pain is extremely frustrating, so let us troubleshoot the application runtime data and get her shows playing smoothly right away.' - Compassionate acknowledgment of bedridden spouse in pain."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:40] Agent: 'So if I have understood correctly, your S-Net 4K TV box freezes on a black screen and crashes whenever launching BBC iPlayer or Netflix...' - Complete and accurate restatement."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[10:30] Agent: 'Have you tried power-cycling the TV box from the mains wall switch to see if that helps?' Customer: 'Megan, as I told you in my very first sentence, I already power-cycled the box twice this morning before calling you!' - Agent asked for information already given."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[02:10] Agent: 'Third-party streaming applications like BBC iPlayer and Netflix are written by outside corporations; S-Net has no responsibility for software bugs...' and [14:45] Agent: 'If these applications crash again in future, do not call S-Net support...' - Refusal to take ownership of TV box features."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[09:10] Agent: 'Obviously that confirms the WebKit rendering container was successfully re-initialized by clearing corrupt session cache, Gareth.' - Clear technical reassurance."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[15:35] Agent abruptly ended call while customer was in mid-sentence asking about 4K broadband throughput, terminating before resolution was confirmed."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 66
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 1,
+          "agent_turn": 40,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 34
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

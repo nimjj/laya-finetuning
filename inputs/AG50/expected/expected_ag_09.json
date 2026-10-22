@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_09",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 73.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At [05:36], [06:24], and [06:50], the agent blamed the internal core network team ('that's the core network team's problem—they broke the BGP routing table... you'll have to wait for them to sort their mess out') and refused to proactively escalate."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "At [07:37] and [12:06]–[12:49], the call concluded with the customer's `81.144.210.48/29` static IP block still unreachable and awaiting a Tier 3 BGP fix later in the afternoon."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Static IP block (/29) routing failure on S-Net Business Fibre after an overnight exchange maintenance window",
+    "tier": "good",
+    "duration_sec": 790,
+    "notes": "Strong technical diagnostic call where Marcus verifies PIN/address early ([00:24]–[00:32]), shows warm empathy ([00:13], [01:04]), paraphrases accurately ([01:14]), listens closely to complex routing details (AL hard PASS), and remains polite to the customer (R hard PASS). However, at [05:36]–[06:50] he fails Ownership (O hard FAIL) by blaming the internal core network team ('sort their mess out'), and fails Resolution (RE hard FAIL) as the `/29` subnet remains unreachable at call end.",
+    "hard_cases": [
+      "Took ownership of the problem",
+      "Confirmed the issue is resolved",
+      "Empathy & Acknowledgment Statement",
+      "Build rapport and observed professionalism",
+      "Active listening"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [00:13] and [01:04], Marcus expresses clear empathy for the outage impact on Adebayo's freight logistics operation, Dover/Felixstowe depots, and warehouse scanners."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Marcus accurately tracks every technical detail Adebayo shares—including `81.144.210.48/29`, the Meraki MX68, `.49` VPN, `.50` WMS server, `.51` HMRC gateway, `172.16.250.114` anchor IP, and hop 3 at `bng-croydon-02` ([07:14], [11:06])."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [05:36], Marcus says: 'Honestly, Adebayo, that's the core network team's problem—they broke the BGP routing table during last night's maintenance and there's nothing I can do from here, you'll have to wait for them to sort their mess out.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Although Marcus blames the internal network team at [05:36] and [06:50], he remains consistently polite, respectful, and courteous toward Adebayo personally throughout the call ([00:13], [06:01], [07:14], [12:49])."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [07:37], Marcus states that `81.144.210.48/29` is still unreachable and will remain offline until Tier 3 applies the BGP fix around 14:00, and at [12:06] Adebayo notes the `/29` block is still offline at call close."
+      }
+    ]
+  }
+}

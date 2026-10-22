@@ -1,0 +1,494 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Abigail",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Umar. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:17]",
+      "end_time": "[00:43]",
+      "start_time_sec": 17,
+      "text": "Hi Umar. I run a commercial wedding photography business from home on your Gigafast 900 package, but our upload speed has collapsed to less than ten megabits today. I have four hundred gigabytes of raw 4K wedding footage to upload to our cloud archive before our client deadline tonight, and at this rate it's going to take four days!",
+      "sentiment_score": -38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:53]",
+      "end_time": "[01:08]",
+      "start_time_sec": 53,
+      "text": "I understand how critical fast upload speeds are when you have 400 gigabytes of client wedding footage to deliver ahead of tonight's deadline, Abigail. Let me investigate your optical uplink and bandwidth profiles immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:18]",
+      "end_time": "[01:23]",
+      "start_time_sec": 78,
+      "text": "Thank you Umar, because my clients are expecting their preview gallery tonight.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:33]",
+      "end_time": "[01:43]",
+      "start_time_sec": 93,
+      "text": "Before we run diagnostics on your optical link, Abigail, could you please verify your installation address and your four-digit account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:53]",
+      "end_time": "[02:12]",
+      "start_time_sec": 113,
+      "text": "Yes, it is 52 St Martin's Lane, York, YO1 6LN, the PIN is 3925, and my Synology NAS backup drive is hardwired into LAN port two of the Hub using a Cat6 Ethernet cable with a fifty-megabit bandwidth limit set in the backup software.",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:22]",
+      "end_time": "[02:33]",
+      "start_time_sec": 142,
+      "text": "Thank you for verifying those details and providing that setup context, Abigail. I have your full fibre optical circuit open on our central telemetry console."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:43]",
+      "end_time": "[02:47]",
+      "start_time_sec": 163,
+      "text": "Great, thanks for getting into the account so quickly.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:57]",
+      "end_time": "[03:17]",
+      "start_time_sec": 177,
+      "text": "So just to confirm what you are experiencing: you subscribe to our Gigafast 900 symmetrical package with expected nine hundred megabit upload speeds, but your upstream throughput has dropped to under ten megabits today, severely delaying an urgent four-hundred-gigabyte client video delivery. Is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:27]",
+      "end_time": "[03:36]",
+      "start_time_sec": 207,
+      "text": "Yes, exactly. Downstream speed is flying at nine hundred and twenty megabits, but upstream is crawling at seven to nine megabits.",
+      "sentiment_score": -11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:46]",
+      "end_time": "[03:58]",
+      "start_time_sec": 226,
+      "text": "When download throughput is at nine hundred megabits while upload throttles below ten, it indicates either an upstream optical framing buffer misconfiguration or local interface port negotiation errors."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:08]",
+      "end_time": "[04:13]",
+      "start_time_sec": 248,
+      "text": "Could it be a problem with the optical fiber cable outside?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:23]",
+      "end_time": "[04:39]",
+      "start_time_sec": 263,
+      "text": "Checking our optical power levels at the York central optical line terminal... your received optical power is minus eighteen dBm and your transmit optical power is plus two dBm, which are well within optimal optical margins."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:49]",
+      "end_time": "[04:52]",
+      "start_time_sec": 289,
+      "text": "So the physical fiber light signal is healthy?",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:02]",
+      "end_time": "[05:08]",
+      "start_time_sec": 302,
+      "text": "Yes, the physical optical line is completely clean with zero bit error rate."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:18]",
+      "end_time": "[05:21]",
+      "start_time_sec": 318,
+      "text": "What else could be throttling the upload speed?",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:31]",
+      "end_time": "[05:37]",
+      "start_time_sec": 331,
+      "text": "Let me examine the upstream traffic policing profile applied to your optical network terminal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:47]",
+      "end_time": "[05:50]",
+      "start_time_sec": 347,
+      "text": "What does the traffic policing profile do?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:00]",
+      "end_time": "[06:07]",
+      "start_time_sec": 360,
+      "text": "Our dynamic provisioning system assigns Quality of Service upstream rate shapers based on current tariff subscriptions."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:17]",
+      "end_time": "[06:21]",
+      "start_time_sec": 377,
+      "text": "Did the rate shaper get set to the wrong tier?",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:31]",
+      "end_time": "[06:44]",
+      "start_time_sec": 391,
+      "text": "Looking at your ONT configuration logs... during an automated firmware update last night, the upstream traffic shaper defaulted to our legacy broadband profile of ten megabits instead of symmetrical gigabit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:54]",
+      "end_time": "[06:59]",
+      "start_time_sec": 414,
+      "text": "So your system update accidentally capped our upload speed to ten megabits!",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:09]",
+      "end_time": "[07:16]",
+      "start_time_sec": 429,
+      "text": "Yes, the automated firmware provisioning script failed to restore the symmetrical profile tag after the reboot."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:26]",
+      "end_time": "[07:32]",
+      "start_time_sec": 446,
+      "text": "Can you push the symmetrical gigabit profile back down to the ONT remotely?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:42]",
+      "end_time": "[07:49]",
+      "start_time_sec": 462,
+      "text": "Yes, I can re-provision the symmetrical optical service profile directly from our engineering management terminal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:59]",
+      "end_time": "[08:02]",
+      "start_time_sec": 479,
+      "text": "How long does that re-provisioning take to apply?",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:12]",
+      "end_time": "[08:20]",
+      "start_time_sec": 492,
+      "text": "The new bandwidth profile pushes down to your ONT and flashes into the hardware memory within about two minutes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:30]",
+      "end_time": "[08:35]",
+      "start_time_sec": 510,
+      "text": "That is fantastic news if that restores our nine hundred megabits upload.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:45]",
+      "end_time": "[08:56]",
+      "start_time_sec": 525,
+      "text": "Please bear with me while I place you on a brief hold for about two minutes while I push the symmetrical gigabit profile to your ONT."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:11]",
+      "end_time": "[10:19]",
+      "start_time_sec": 611,
+      "text": "Thank you for your patience while holding, Abigail. The symmetrical 900Mbps profile has been re-applied to your ONT."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:29]",
+      "end_time": "[10:35]",
+      "start_time_sec": 629,
+      "text": "Thank you Umar. Should I run a speed test now from my computer?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:45]",
+      "end_time": "[10:51]",
+      "start_time_sec": 645,
+      "text": "Let's first verify the local Ethernet link speed between your computer and the Hub."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:01]",
+      "end_time": "[11:08]",
+      "start_time_sec": 661,
+      "text": "Checking network adapter status in Windows... it says link speed is one thousand megabits full duplex.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:18]",
+      "end_time": "[11:25]",
+      "start_time_sec": 678,
+      "text": "Now open the Ookla Speedtest app and initiate a test against the S-Net Manchester server."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:35]",
+      "end_time": "[11:44]",
+      "start_time_sec": 695,
+      "text": "Starting speed test... download is nine hundred and thirty megabits... and upload shot straight up to eight hundred and eighty-five megabits!",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:54]",
+      "end_time": "[12:01]",
+      "start_time_sec": 714,
+      "text": "Eight hundred and eighty-five megabits confirms full symmetrical bandwidth has been restored across your optical circuit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:11]",
+      "end_time": "[12:21]",
+      "start_time_sec": 731,
+      "text": "That is incredible! At eight hundred and eighty-five megabits, my four hundred gigabytes of wedding footage will finish uploading in about an hour!",
+      "sentiment_score": 39.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:31]",
+      "end_time": "[12:37]",
+      "start_time_sec": 751,
+      "text": "That will give you plenty of time ahead of tonight's client delivery deadline."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:47]",
+      "end_time": "[12:52]",
+      "start_time_sec": 767,
+      "text": "You have saved my business from a massive client complaint today.",
+      "sentiment_score": 32.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:02]",
+      "end_time": "[13:17]",
+      "start_time_sec": 782,
+      "text": "Now, just so I can document the hardware setup on the support ticket, which LAN port on the Hub is your backup drive connected to again, and what category of Ethernet cable are you using?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:27]",
+      "end_time": "[13:36]",
+      "start_time_sec": 807,
+      "text": "It's plugged into LAN port two with a Cat6 cable, exactly like I told you when we started the call.",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:46]",
+      "end_time": "[13:50]",
+      "start_time_sec": 826,
+      "text": "Thank you, Abigail. I have updated the hardware ticket notes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:00]",
+      "end_time": "[14:06]",
+      "start_time_sec": 840,
+      "text": "And what about the fifty-megabit limit in the software? Should I turn that off?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:16]",
+      "end_time": "[14:25]",
+      "start_time_sec": 856,
+      "text": "Yes, in your Synology backup manager, set upload bandwidth to unlimited so it utilizes your full eight hundred and eighty-five megabits."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:35]",
+      "end_time": "[14:45]",
+      "start_time_sec": 875,
+      "text": "Changing bandwidth limit to unlimited now... the live upload graph in Synology just jumped to one hundred and ten megabytes per second!",
+      "sentiment_score": 36.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:55]",
+      "end_time": "[15:00]",
+      "start_time_sec": 895,
+      "text": "One hundred and ten megabytes per second represents maximum gigabit network saturation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:10]",
+      "end_time": "[15:14]",
+      "start_time_sec": 910,
+      "text": "The progress bar says estimated time remaining is forty-eight minutes.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:24]",
+      "end_time": "[15:31]",
+      "start_time_sec": 924,
+      "text": "I have locked that symmetrical profile tag on your account so future firmware updates cannot overwrite it."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:40]",
+      "end_time": "[15:43]",
+      "start_time_sec": 940,
+      "text": "That proactive locking is very reassuring.",
+      "sentiment_score": 24.6
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:52]",
+      "end_time": "[15:57]",
+      "start_time_sec": 952,
+      "text": "Does the Hub router prioritize NAS backup traffic over general household Wi-Fi?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:06]",
+      "end_time": "[16:13]",
+      "start_time_sec": 966,
+      "text": "The Hub 5 uses dynamic flow queuing to balance high-throughput wired traffic with latency-sensitive wireless streaming."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:22]",
+      "end_time": "[16:28]",
+      "start_time_sec": 982,
+      "text": "So my partner can still watch 4K television downstairs while the backup uploads?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:37]",
+      "end_time": "[16:44]",
+      "start_time_sec": 997,
+      "text": "Yes, television streaming packets are tagged with high DSCP priority so they experience zero stuttering."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:53]",
+      "end_time": "[16:57]",
+      "start_time_sec": 1013,
+      "text": "That prevents any household friction while my huge upload completes.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:06]",
+      "end_time": "[17:13]",
+      "start_time_sec": 1026,
+      "text": "What happens to the cloud upload if our household electricity cuts out briefly during the transfer?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:22]",
+      "end_time": "[17:30]",
+      "start_time_sec": 1042,
+      "text": "Synology Hyper Backup features block-level resumable uploads, so it resumes transferring the exact chunk where it left off."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:39]",
+      "end_time": "[17:44]",
+      "start_time_sec": 1059,
+      "text": "That saves having to re-upload the entire four hundred gigabytes from scratch.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:53]",
+      "end_time": "[17:58]",
+      "start_time_sec": 1073,
+      "text": "The checksum manifest verifies data integrity block by block upon resumption."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:07]",
+      "end_time": "[18:12]",
+      "start_time_sec": 1087,
+      "text": "That gives me total technical confidence in our studio backup pipeline.",
+      "sentiment_score": 24.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:21]",
+      "end_time": "[18:28]",
+      "start_time_sec": 1101,
+      "text": "We also recommend enabling email digest alerts on your Synology NAS upon successful task completion."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:37]",
+      "end_time": "[18:44]",
+      "start_time_sec": 1117,
+      "text": "I'll enable email digests so I get a notification once all four hundred gigabytes finish.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:53]",
+      "end_time": "[18:57]",
+      "start_time_sec": 1133,
+      "text": "Alright, I've got another technical call waiting in queue. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:06]",
+      "end_time": "[19:11]",
+      "start_time_sec": 1146,
+      "text": "Wait, Umar, don't you need to give me a reference number?",
+      "sentiment_score": -6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[19:20]",
+      "end_time": "[19:27]",
+      "start_time_sec": 1160,
+      "text": "The ticket is saved. Thank you for choosing S-Net today, Abigail. Have a good afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:36]",
+      "end_time": "[19:40]",
+      "start_time_sec": 1176,
+      "text": "Thanks Umar, goodbye.",
+      "sentiment_score": 6.2
+    }
+  ]
+}

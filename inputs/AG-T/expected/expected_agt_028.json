@@ -1,0 +1,216 @@
+{
+  "call_id": "agt_028",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 48.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "At turn 1 and turn 12, the customer expressed frustration over prolonged sub-guarantee speeds, but you offered no acknowledgment of her situation."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "You did not paraphrase or restate the customer's speed guarantee claim at any point in the call."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "The customer stated at turn 7 that she tested on her Lenovo laptop wired to port 1, but at turn 29 you asked her again which computer model she was using."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At turn 13, you deflected responsibility by telling the customer to take up her speed guarantee credit dispute with Openreach directly."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At turn 15, you spoke condescendingly to the customer by stating 'If you actually bothered to read the minimum guaranteed speed clause'."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Broadband speed guarantee credit claim after sync speed remained below 45 Mbps minimum",
+    "tier": "poor",
+    "duration_sec": 850,
+    "notes": "Nathan performs technical troubleshooting and successfully reprofiles the line to 53 Mbps while applying a £30 guarantee credit. However, his customer service shows multiple severe faults: he fails Empathy by ignoring Elena's frustration, defers responsibility to Openreach ('take it up with Openreach directly'), insults her reading comprehension, fails to paraphrase, and repeats a hardware question already answered.",
+    "hard_cases": [
+      "Active listening",
+      "Empathy & Acknowledgment Statement",
+      "Took ownership of the problem",
+      "Build rapport and observed professionalism",
+      "Hold time and Dead Air"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:15] Managed holds announced and resumed within 45 seconds without unmanaged dead air."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:15] Customer: 'I'm calling to claim the broadband speed guarantee credit. My sync speed has stayed down at thirty-eight megabits for over three weeks...', Agent responds with immediate verification questions without sympathy."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never restated the core issue in his own words; only confirmed contact number at turn 50."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:15] Customer: 'I ran the official tests on my Lenovo laptop wired directly to port 1 of the router.' followed by Agent at [07:40]: 'Which computer model were you using to run the speed test?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[02:10] Agent: 'Speed guarantees are handled by Openreach line engineering, so you'll have to take up any credit dispute with Openreach directly.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[02:30] Agent: 'If you actually bothered to read the minimum guaranteed speed clause in your terms, you'd know it allows a thirty-day cure window before compensation applies.'"
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "repeat",
+          "premise_turn": 7,
+          "agent_turn": 19,
+          "reworded": true
+        },
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 3,
+          "agent_turn": 52
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 1,
+          "agent_turn": 6,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 50
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 15
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 17
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 1
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 12
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 22
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 37
+        }
+      ]
+    }
+  }
+}

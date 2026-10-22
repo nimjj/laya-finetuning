@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Patrick",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:08]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net full fibre infrastructure support, my name is Rachel. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:11]",
+   "end_time": "[00:30]",
+   "start_time_sec": 11,
+   "text": "Hello Rachel, my name is Patrick O'Connor. A delivery van backed into our front driveway brick pillar this morning and sheared the plastic external Customer Splice Point box off our exterior wall, leaving the optical fiber cable dangling in mid-air with the glass core severed!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:33]",
+   "end_time": "[00:56]",
+   "start_time_sec": 33,
+   "text": "Good afternoon Patrick. If I understand correctly, an external vehicle impact has ripped the Customer Splice Point box off your exterior wall and severed the incoming optical fiber cable, knocking your full fibre broadband offline. Before we inspect your infrastructure line record, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:59]",
+   "end_time": "[01:05]",
+   "start_time_sec": 59,
+   "text": "Yes, it is 12 Mill Lane, Harrogate, HG1 5AA, security PIN 3314, customer reference BB-884192.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:08]",
+   "end_time": "[01:18]",
+   "start_time_sec": 68,
+   "text": "Thank you Patrick, that confirms your account details. Are there any live exposed electrical cables or hazards near the broken fiber wall box?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:21]",
+   "end_time": "[01:34]",
+   "start_time_sec": 81,
+   "text": "No electrical lines, only the yellow plastic optical fiber cable hanging loose by the driveway pillar.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:37]",
+   "end_time": "[01:50]",
+   "start_time_sec": 97,
+   "text": "Could I place you on hold for two minutes while I query the Openreach emergency civil engineering gateway for North Yorkshire?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:15]",
+   "end_time": "[03:31]",
+   "start_time_sec": 195,
+   "text": "Thank you for holding, Patrick. The optical line telemetry confirms a complete optical loss of signal with light levels dropping to minus infinity decibels."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:34]",
+   "end_time": "[03:46]",
+   "start_time_sec": 214,
+   "text": "Can an engineer replace the external wall box and re-splice the fiber today?",
+   "sentiment_score": -10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:49]",
+   "end_time": "[04:01]",
+   "start_time_sec": 229,
+   "text": "Yes, physical severance of external customer premises optical wiring is categorized as an emergency external infrastructure repair."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:04]",
+   "end_time": "[04:17]",
+   "start_time_sec": 244,
+   "text": "Will there be any callout or repair charges for fixing the wall box?",
+   "sentiment_score": -4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:20]",
+   "end_time": "[04:34]",
+   "start_time_sec": 260,
+   "text": "No, because the damage occurred on the external property boundary prior to the internal demarcation point, external infrastructure repairs are carried out free of charge."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:37]",
+   "end_time": "[04:50]",
+   "start_time_sec": 277,
+   "text": "That is fantastic news; I was worried S-Net would charge us for a third-party van driver's mistake.",
+   "sentiment_score": 8.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:53]",
+   "end_time": "[05:09]",
+   "start_time_sec": 293,
+   "text": "We can also log the third-party delivery vehicle registration number if our legal recovery team needs to reclaim costs from their commercial motor insurer."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:12]",
+   "end_time": "[05:22]",
+   "start_time_sec": 312,
+   "text": "I photographed the van license plate and delivery company logo.",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:25]",
+   "end_time": "[05:36]",
+   "start_time_sec": 325,
+   "text": "I have uploaded the delivery vehicle details to our corporate insurance recovery queue."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:39]",
+   "end_time": "[05:50]",
+   "start_time_sec": 339,
+   "text": "When is the earliest Openreach fiber engineer available to attend?",
+   "sentiment_score": 14.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:53]",
+   "end_time": "[06:09]",
+   "start_time_sec": 353,
+   "text": "Because this involves severed external cabling across a residential driveway, I am scheduling an emergency priority dispatch for this afternoon between one and five o'clock."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:12]",
+   "end_time": "[06:22]",
+   "start_time_sec": 372,
+   "text": "This afternoon?! That is phenomenal speed of response!",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:25]",
+   "end_time": "[06:37]",
+   "start_time_sec": 385,
+   "text": "Obviously optical fiber strands require fusion splicing in a clean enclosure to achieve low decibel insertion loss."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:40]",
+   "end_time": "[06:51]",
+   "start_time_sec": 400,
+   "text": "Right, I know fiber glass strands cannot just be twisted back together.",
+   "sentiment_score": 18.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:54]",
+   "end_time": "[07:18]",
+   "start_time_sec": 414,
+   "text": "Patrick speaking, I run a bespoke architectural practice from my home studio, and I have fifty gigabytes of CAD blueprint models that must be submitted to the planning commission by six o'clock tonight! If our internet is down and I miss the planning deadline, my clients will cancel a seventy-thousand-pound renovation and my practice will face financial ruin! I am sweating and in sheer panic!",
+   "sentiment_score": -64.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:21]",
+   "end_time": "[07:45]",
+   "start_time_sec": 441,
+   "text": "I completely understand the sheer panic and intense pressure this has put on your architectural practice, Patrick, especially with a critical planning commission deadline at six o'clock tonight. Facing the loss of a major client over an accidental cable cut is terrifying, and I will ensure the emergency technician is dispatched and provide immediate mobile backup data right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:48]",
+   "end_time": "[07:51]",
+   "start_time_sec": 468,
+   "text": "What mobile backup data can you provide?",
+   "sentiment_score": -6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:54]",
+   "end_time": "[08:07]",
+   "start_time_sec": 474,
+   "text": "I have added an unlimited emergency mobile data tethering bolt-on to your S-Net mobile plan with immediate activation."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:10]",
+   "end_time": "[08:15]",
+   "start_time_sec": 490,
+   "text": "Checking my mobile phone... SMS received: 'Unlimited Emergency Broadband Backup Data activated'!",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:18]",
+   "end_time": "[08:28]",
+   "start_time_sec": 498,
+   "text": "You can turn on Personal Hotspot on your mobile phone right now to upload your CAD blueprint files while the fiber is repaired."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:31]",
+   "end_time": "[08:40]",
+   "start_time_sec": 511,
+   "text": "Connecting my studio workstation to my phone hotspot... The fifty gigabytes of blueprints are uploading right now at sixty megabits per second!",
+   "sentiment_score": 34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:43]",
+   "end_time": "[08:49]",
+   "start_time_sec": 523,
+   "text": "That guarantees your planning commission submission will be delivered well before the six o'clock deadline."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:52]",
+   "end_time": "[08:56]",
+   "start_time_sec": 532,
+   "text": "You have completely saved my architectural firm from disaster today, Rachel.",
+   "sentiment_score": 36.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:59]",
+   "end_time": "[09:04]",
+   "start_time_sec": 539,
+   "text": "The Openreach optical engineering crew has been dispatched under priority job reference OPT-EMERG-44910."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:07]",
+   "end_time": "[09:10]",
+   "start_time_sec": 547,
+   "text": "OPT-EMERG-44910, noted in my work logbook.",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:13]",
+   "end_time": "[09:21]",
+   "start_time_sec": 553,
+   "text": "The technician will arrive with a new weather-sealed Customer Splice Point enclosure and a precision core alignment fusion splicer."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:24]",
+   "end_time": "[09:29]",
+   "start_time_sec": 564,
+   "text": "Will they need access inside our house, or only the outside driveway pillar?",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:32]",
+   "end_time": "[09:42]",
+   "start_time_sec": 572,
+   "text": "They will mount the new box outside, perform the fusion splice, and only enter briefly to verify optical light levels on your internal ONT."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:45]",
+   "end_time": "[09:51]",
+   "start_time_sec": 585,
+   "text": "I will be working in the studio all afternoon, so I will let them straight in.",
+   "sentiment_score": 26.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:54]",
+   "end_time": "[10:00]",
+   "start_time_sec": 594,
+   "text": "I have sent an SMS tracking link that displays the engineer's live van transit coordinates."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:03]",
+   "end_time": "[10:08]",
+   "start_time_sec": 603,
+   "text": "Opening tracking link... The van is fifteen minutes away in central Harrogate!",
+   "sentiment_score": 34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:11]",
+   "end_time": "[10:14]",
+   "start_time_sec": 611,
+   "text": "Everything is proceeding with maximum urgency."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:17]",
+   "end_time": "[10:21]",
+   "start_time_sec": 617,
+   "text": "Your emergency response has been world-class from start to finish.",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:24]",
+   "end_time": "[10:30]",
+   "start_time_sec": 624,
+   "text": "Thank you Patrick, our priority is always protecting our customers' connectivity during unexpected incidents."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:32]",
+   "end_time": "[10:35]",
+   "start_time_sec": 632,
+   "text": "I can breathe a huge sigh of relief now.",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:37]",
+   "end_time": "[10:43]",
+   "start_time_sec": 637,
+   "text": "Just making sure the engineer attends the exact premises: that was 12 Mill Lane, wasn't it?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:45]",
+   "end_time": "[10:48]",
+   "start_time_sec": 645,
+   "text": "Yes, 12 Mill Lane, Harrogate.",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:50]",
+   "end_time": "[10:55]",
+   "start_time_sec": 650,
+   "text": "Thank you Patrick, all technician coordinates and mobile backup records are fully synchronized."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:57]",
+   "end_time": "[11:01]",
+   "start_time_sec": 657,
+   "text": "Thank you Rachel for your swift, compassionate, and brilliant assistance.",
+   "sentiment_score": 34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:03]",
+   "end_time": "[11:09]",
+   "start_time_sec": 663,
+   "text": "It has been an absolute pleasure helping you, Patrick. Best of luck with your planning submission."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:11]",
+   "end_time": "[11:14]",
+   "start_time_sec": 671,
+   "text": "Have a wonderful afternoon, Rachel.",
+   "sentiment_score": 30.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:16]",
+   "end_time": "[11:23]",
+   "start_time_sec": 676,
+   "text": "Is there any other aspect of your full fibre service I can assist you with today, Patrick?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:25]",
+   "end_time": "[11:28]",
+   "start_time_sec": 685,
+   "text": "No Rachel, everything is completely taken care of.",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:30]",
+   "end_time": "[11:34]",
+   "start_time_sec": 690,
+   "text": "Thank you for calling S-Net full fibre infrastructure support, Patrick. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:36]",
+   "end_time": "[11:39]",
+   "start_time_sec": 696,
+   "text": "Goodbye Rachel.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:41]",
+   "end_time": "[11:44]",
+   "start_time_sec": 701,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:46]",
+   "end_time": "[11:49]",
+   "start_time_sec": 706,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:51]",
+   "end_time": "[11:54]",
+   "start_time_sec": 711,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:56]",
+   "end_time": "[11:59]",
+   "start_time_sec": 716,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:01]",
+   "end_time": "[12:04]",
+   "start_time_sec": 721,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:06]",
+   "end_time": "[12:11]",
+   "start_time_sec": 726,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  }
+ ]
+}

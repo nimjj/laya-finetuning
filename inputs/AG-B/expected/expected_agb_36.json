@@ -1,0 +1,191 @@
+{
+  "call_id": "agb_36",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 40.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Agent failed to verify customer identity within the first 240 seconds, omitting requests for PIN, full billing address, or security question."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Agent never addressed the customer by her verified name 'Jenna' anywhere during the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to acknowledge customer's severe distress regarding acrimonious flatmate disputes and threatened £800 tenancy deposit withholdings."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Agent repeatedly disclaimed ownership, stating S-Net had zero obligation for student roommate disputes or mandate compliance."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent abruptly terminated the call while customer was in mid-sentence asking follow-up questions about package upgrades."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Student shared house contract ending; transferring primary billing responsibility to remaining tenant; agent fails verification (never asks PIN/address/security question in 240s), never uses customer name, ignores distress over tenancy deposit dispute, disclaims tenancy transfer ownership, and hangs up abruptly",
+    "tier": "fair",
+    "duration_sec": 902,
+    "notes": "The agent processed a change of tenancy transfer form to migrate broadband billing from a departing student to a continuing housemate. However, the agent failed Verified Customer by never requesting PIN, address, or security question in the first 240 seconds, failed Personalized Call by never addressing the customer by 'Jenna', failed Empathy & Acknowledgment Statement by disregarding Jenna's acute distress over acrimonious flatmate disputes and threatened tenancy deposit withholdings, failed Took Ownership of the Problem by repeatedly disclaiming responsibility ('S-Net is not an estate agent; dividing bills among flatmates is strictly your private house dispute'), and failed Confirmed Resolved by abruptly hanging up while Jenna was asking how the new tenant signs the electronic mandate.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Took ownership of the problem",
+      "Active listening",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent requested only landline number and student ID in the first 240 seconds, omitting required whole-word 'pin', 'address', or 'security question' verification."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never used the customer's name 'Jenna' across any turn in the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:30] Customer: 'Toby, this whole situation has become an absolute nightmare! Two of my flatmates have had a vicious falling-out, packed their bags... The landlord is threatening to confiscate our entire eight-hundred-pound housing deposit... I am completely stressed out and have been crying all morning...' Agent: 'Account novation transfers all contractual billing rights and obligations...' - Complete disregard of severe student distress."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:45] Agent: 'So if I have understood correctly, your student tenancy is ending this Friday with four housemates departing...' - Accurate restatement."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[12:45] Agent: 'Just to reconfirm, the incoming tenant\\'s electronic mail contact is priya.patel@leeds.ac.uk, under mobile 07700 900642.' - Agent accurately retained and verified all contact details without redundant re-asking."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[02:20] Agent: 'S-Net is not an estate agent or arbitrator; dividing bills among flatmates is strictly your private house dispute and S-Net holds zero responsibility...' and [15:10] Agent: 'If Priya fails to sign the mandate, do not contact S-Net as ensuring roommate compliance is strictly your own private problem.' - Direct disclaimers of ownership."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[10:20] Agent: 'Obviously that confirms your tenancy deposit compliance obligation is formally documented on official corporate records.' - Clear professional reassurance."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[15:45] Agent abruptly ended call while customer was asking about speed upgrades, cutting her off mid-sentence."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 60
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 46
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 5
+        }
+      ]
+    }
+  }
+}

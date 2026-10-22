@@ -1,0 +1,419 @@
+{
+  "call_id": "agt_016",
+  "tenant_id": "tenant-abc",
+  "customer_name": "Camilla",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net billing customer support. My name is Greg. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:16]",
+      "start_time_sec": 8,
+      "text": "Hello Greg. My name is Camilla Ross. I am calling to dispute an unfair and completely unwarranted administrative fee that has appeared on my monthly broadband bill.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:17]",
+      "end_time": "[00:27]",
+      "start_time_sec": 17,
+      "text": "Before we access your billing account ledger and review payment transactions, Camilla, could you please verify your billing address and your account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:28]",
+      "end_time": "[00:39]",
+      "start_time_sec": 28,
+      "text": "My registered address is 19 Victoria Road, Chester, CH2 2AX, and my security PIN is 3091. My account reference is SN-481904.",
+      "sentiment_score": 1.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:40]",
+      "end_time": "[00:49]",
+      "start_time_sec": 40,
+      "text": "Thank you Camilla, that successfully passes security verification. What specific administrative charge or fee are you disputing on your invoice today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:50]",
+      "end_time": "[01:12]",
+      "start_time_sec": 50,
+      "text": "I logged into my online account on my payment due date to pay my thirty-five pound broadband invoice, but your payment portal was throwing 500 server errors! Now I open this month's bill and you have slapped a fifteen-pound late payment fee on top! It is utterly outrageous being charged because your website crashed!",
+      "sentiment_score": -68.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:13]",
+      "end_time": "[01:34]",
+      "start_time_sec": 73,
+      "text": "So if I understand correctly, Camilla, you attempted to pay your broadband invoice before midnight on your due date, but our website payment portal crashed with server errors, causing your payment to clear the next morning and triggering an automated late fee, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:35]",
+      "end_time": "[01:42]",
+      "start_time_sec": 95,
+      "text": "Yes, exactly! That is word for word what happened.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:43]",
+      "end_time": "[01:58]",
+      "start_time_sec": 103,
+      "text": "Under our standard subscriber billing terms and conditions, accounts that do not settle their outstanding balance by the monthly due date automatically incur a mandatory fifteen-pound administrative late collection fee."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:59]",
+      "end_time": "[02:11]",
+      "start_time_sec": 119,
+      "text": "I tried paying on the 14th of September at 10:45 PM, and your payment server was completely down! Why should I pay fifteen pounds for your technical failure?",
+      "sentiment_score": -54.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:12]",
+      "end_time": "[02:26]",
+      "start_time_sec": 132,
+      "text": "The payment system ledger indicates the payment transaction was officially cleared on the 15th of September at 8:15 AM, which is past the midnight automated cutoff threshold."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:27]",
+      "end_time": "[02:35]",
+      "start_time_sec": 147,
+      "text": "Because your website was broken until the next morning! I paid the very minute it came back online!",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:36]",
+      "end_time": "[02:51]",
+      "start_time_sec": 156,
+      "text": "Bear with me for a couple of minutes while I check the server outage incident logs from the 14th of September on the billing gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:52]",
+      "end_time": "[02:57]",
+      "start_time_sec": 172,
+      "text": "Please do, you will see it crashed.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:45]",
+      "end_time": "[04:04]",
+      "start_time_sec": 225,
+      "text": "Thank you for waiting, Camilla. The web infrastructure engineering incident log confirms there was indeed an unscheduled payment gateway maintenance database outage between 10:15 PM and 1:30 AM on that evening."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:05]",
+      "end_time": "[04:12]",
+      "start_time_sec": 245,
+      "text": "Exactly as I told you! So you can remove the fifteen-pound fee right now.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:13]",
+      "end_time": "[04:28]",
+      "start_time_sec": 253,
+      "text": "Just verifying that account reference ending in 904 before checking the fee waiver parameters, that was SN-481904, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:29]",
+      "end_time": "[04:36]",
+      "start_time_sec": 269,
+      "text": "Yes, account reference SN-481904. Please take that unfair late fee off my customer account ledger right now.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:37]",
+      "end_time": "[04:52]",
+      "start_time_sec": 277,
+      "text": "Our frontline customer service billing software does not permit manual discretionary waiver of automated late fees. The automated billing engine has hard-locked the ledger balance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:53]",
+      "end_time": "[05:00]",
+      "start_time_sec": 293,
+      "text": "Then transfer me to a senior duty manager or floor supervisor who has the necessary administrative authority to click refund on their terminal!",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:01]",
+      "end_time": "[05:16]",
+      "start_time_sec": 301,
+      "text": "Team managers and supervisors do not take escalated calls for standard fee disputes. You should have set up an automated direct debit to avoid dependency on the website portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:17]",
+      "end_time": "[05:39]",
+      "start_time_sec": 317,
+      "text": "Why should I be penalized fifteen pounds because your server crashed?! That is sheer corporate robbery and greed! I tried my absolute best to pay on time, and your company is stealing fifteen pounds from my bank!",
+      "sentiment_score": -78.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:40]",
+      "end_time": "[05:58]",
+      "start_time_sec": 340,
+      "text": "It is not our fault you waited until 11 PM on the final due date to pay your bill. Responsible customers settle their accounts several days in advance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:59]",
+      "end_time": "[06:10]",
+      "start_time_sec": 359,
+      "text": "How dare you speak to a paying customer like that! It was on the official due date, which is legally valid and binding under consumer contract law!",
+      "sentiment_score": -72.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:11]",
+      "end_time": "[06:23]",
+      "start_time_sec": 371,
+      "text": "What date did you say you made that online payment attempt, Camilla?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:24]",
+      "end_time": "[06:36]",
+      "start_time_sec": 384,
+      "text": "I already told you three times! The 14th of September at 10:45 PM! Are you even listening to a single word I say?!",
+      "sentiment_score": -64.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:37]",
+      "end_time": "[06:50]",
+      "start_time_sec": 397,
+      "text": "I am looking at the account ledger right now. If you refuse to accept or pay the fee, you must write an official email to the central executive complaints and appeals team."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:51]",
+      "end_time": "[06:58]",
+      "start_time_sec": 411,
+      "text": "So you are explicitly refusing to remove or credit this erroneous charge yourself from your frontline terminal?",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:59]",
+      "end_time": "[07:13]",
+      "start_time_sec": 419,
+      "text": "Yes, I cannot help you any further with manual fee credits or reversals from here. You must contact the customer complaints department."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:14]",
+      "end_time": "[07:22]",
+      "start_time_sec": 434,
+      "text": "What is the official email address for the executive complaints and appeals team at head office?",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:23]",
+      "end_time": "[07:35]",
+      "start_time_sec": 443,
+      "text": "The email address is complaints-appeals@snet-telecom.co.uk. You must include your account reference SN-481904."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:36]",
+      "end_time": "[07:44]",
+      "start_time_sec": 456,
+      "text": "And how long does that executive complaints department take to investigate and respond to written billing disputes?",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:45]",
+      "end_time": "[07:54]",
+      "start_time_sec": 465,
+      "text": "The statutory response timeframe is up to ten working days from receipt of the electronic submission."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:55]",
+      "end_time": "[08:03]",
+      "start_time_sec": 475,
+      "text": "Ten working days while fifteen pounds of my hard-earned money is sitting in your corporate bank account completely unjustly?!",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:04]",
+      "end_time": "[08:14]",
+      "start_time_sec": 484,
+      "text": "The fee remains on the ledger balance until a complaints adjudicator issues a formal ruling."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:15]",
+      "end_time": "[08:23]",
+      "start_time_sec": 495,
+      "text": "What is your full representative staff ID number so I can name you in the formal complaint?",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:24]",
+      "end_time": "[08:33]",
+      "start_time_sec": 504,
+      "text": "My representative staff identifier is GR-4402 based at the Chester regional contact center."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:34]",
+      "end_time": "[08:41]",
+      "start_time_sec": 514,
+      "text": "GR-4402 based at the Chester regional contact center, noted down in full. Will the appeals team actually listen to the full call audio recording?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:42]",
+      "end_time": "[08:51]",
+      "start_time_sec": 522,
+      "text": "All inbound customer support telephony calls are fully recorded and archived for quality auditing, staff training, and formal dispute resolution purposes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:52]",
+      "end_time": "[08:58]",
+      "start_time_sec": 532,
+      "text": "Good, because they will hear your condescending tone and refusal to help.",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:59]",
+      "end_time": "[09:08]",
+      "start_time_sec": 539,
+      "text": "The automated billing system does not charge compounding interest or additional incremental penalties on overdue late collection fees."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:09]",
+      "end_time": "[09:16]",
+      "start_time_sec": 549,
+      "text": "Will my household broadband connection be speed-restricted or disconnected while this dispute is formally open and being investigated?",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:17]",
+      "end_time": "[09:26]",
+      "start_time_sec": 557,
+      "text": "Broadband service restrictions only apply if an invoice remains overdue for more than thirty days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:27]",
+      "end_time": "[09:34]",
+      "start_time_sec": 567,
+      "text": "So I have thirty days to get the complaints team to waive it?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:35]",
+      "end_time": "[09:43]",
+      "start_time_sec": 575,
+      "text": "Yes, you have thirty days from the invoice date before service suspension triggers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:44]",
+      "end_time": "[09:51]",
+      "start_time_sec": 584,
+      "text": "That gives me enough time to have this formally investigated by the communications ombudsman and Ofcom without losing my internet connection.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:52]",
+      "end_time": "[09:58]",
+      "start_time_sec": 592,
+      "text": "Yes, the executive complaints resolution team will formally investigate and address your grievance within that designated regulatory window."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:59]",
+      "end_time": "[10:04]",
+      "start_time_sec": 599,
+      "text": "Can I choose my preferred direct debit withdrawal date to match my monthly salary calendar if I decide to set it up later?",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:05]",
+      "end_time": "[10:10]",
+      "start_time_sec": 605,
+      "text": "Yes, you can select any recurring collection calendar date between the 1st and 28th of each calendar month to suit your personal schedule."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:11]",
+      "end_time": "[10:14]",
+      "start_time_sec": 611,
+      "text": "Wait, did you just apply something to my account? I just received an SMS notification of a fifteen-pound credit.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:15]",
+      "end_time": "[10:16]",
+      "start_time_sec": 615,
+      "text": "My team leader reviewed the web portal outage log and authorized a one-off fifteen-pound goodwill courtesy credit on your balance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:16]",
+      "end_time": "[10:17]",
+      "start_time_sec": 616,
+      "text": "Well, thank you. At least common sense prevailed in the end, that completely resolves the issue.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:17]",
+      "end_time": "[10:18]",
+      "start_time_sec": 617,
+      "text": "Your account balance is back to normal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:18]",
+      "end_time": "[10:19]",
+      "start_time_sec": 618,
+      "text": "Goodbye Greg.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:19]",
+      "end_time": "[10:20]",
+      "start_time_sec": 619,
+      "text": "Thank you for choosing S-Net, Camilla. Goodbye."
+    }
+  ]
+}

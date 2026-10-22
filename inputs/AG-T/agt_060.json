@@ -1,0 +1,440 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Lydia",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:06]",
+   "start_time_sec": 0,
+   "text": "Good afternoon, you have reached S-Net credit collections and cancellations, my name is Jason."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:16]",
+   "end_time": "[00:39]",
+   "start_time_sec": 16,
+   "text": "Hello Jason, my name is Lydia Sterling. I received a formal disconnection warning letter in the post this morning stating my broadband will be terminated in forty-eight hours for non-payment, but my monthly direct debit of forty-eight pounds has been debited from my Santander account on the first of every single month without fail!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:49]",
+   "end_time": "[01:00]",
+   "start_time_sec": 49,
+   "text": "I can check your billing ledger and collection status. Before we inspect your records, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:10]",
+   "end_time": "[01:19]",
+   "start_time_sec": 70,
+   "text": "Yes, it is 88 Victoria Road, Swindon, SN1 3BD, and my security PIN is 7731. My customer account reference number is SN-991204.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:29]",
+   "end_time": "[01:36]",
+   "start_time_sec": 89,
+   "text": "Thank you Lydia, that confirms your account details. What specific invoice reference is quoted on the disconnection notice?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:46]",
+   "end_time": "[01:59]",
+   "start_time_sec": 106,
+   "text": "It quotes notice reference DIS-440192, claiming October's invoice of forty-eight pounds is thirty days overdue!",
+   "sentiment_score": -22.1
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[02:09]",
+   "end_time": "[02:20]",
+   "start_time_sec": 129,
+   "text": "Could I place you on hold for two minutes while I query our central banking reconciliation portal?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:45]",
+   "end_time": "[04:04]",
+   "start_time_sec": 225,
+   "text": "Thank you for holding, Lydia. The finance gateway indicates that October's payment was routed into an unallocated bank suspense ledger due to a truncated sort code on the Bacs payment file."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:14]",
+   "end_time": "[04:38]",
+   "start_time_sec": 254,
+   "text": "My direct debit has been set up with the exact same bank details for four years! S-Net took forty-eight pounds from my Santander account on October 1st, and your system lost it in an internal suspense ledger! Now you threaten to cut off my broadband, which I need for my NHS nursing shift coordination! I am furious and panicking!",
+   "sentiment_score": -64.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:48]",
+   "end_time": "[04:58]",
+   "start_time_sec": 288,
+   "text": "Electronic payment reconciliation is governed by national banking clearinghouse settlement files."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:08]",
+   "end_time": "[05:22]",
+   "start_time_sec": 308,
+   "text": "Can you remove the disconnection flag and allocate my forty-eight pounds from your suspense ledger right now?!",
+   "sentiment_score": -48.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:32]",
+   "end_time": "[05:42]",
+   "start_time_sec": 332,
+   "text": "Frontline telephony representatives do not have access to transfer funds between corporate suspense accounts."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:52]",
+   "end_time": "[06:04]",
+   "start_time_sec": 352,
+   "text": "Then transfer me immediately to your finance ledger manager who can reallocate my payment!",
+   "sentiment_score": -38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:14]",
+   "end_time": "[06:28]",
+   "start_time_sec": 374,
+   "text": "Finance managers do not take customer phone calls. You must wait for the monthly audit cycle to reconcile suspense funds."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:38]",
+   "end_time": "[06:59]",
+   "start_time_sec": 398,
+   "text": "Wait for the monthly audit?! The letter says my broadband will be cut off on Friday! Are you telling me S-Net will disconnect an NHS nurse because your internal computer truncated my sort code?!",
+   "sentiment_score": -62.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:09]",
+   "end_time": "[07:22]",
+   "start_time_sec": 429,
+   "text": "Obviously automated collections workflows execute disconnection commands unless an account balance shows zero in the billing ledger."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:32]",
+   "end_time": "[07:44]",
+   "start_time_sec": 452,
+   "text": "Stop quoting automated workflows and turn off the disconnection command right now!",
+   "sentiment_score": -46.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:54]",
+   "end_time": "[08:04]",
+   "start_time_sec": 474,
+   "text": "I am stating the operational reality of our automated collection architecture."
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:14]",
+   "end_time": "[08:29]",
+   "start_time_sec": 494,
+   "text": "You are acting like a stupid customer if you think customer services can override automated collections without an approved bank statement audit."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:39]",
+   "end_time": "[08:52]",
+   "start_time_sec": 519,
+   "text": "What did you say to me?! Are you completely out of your mind?!",
+   "sentiment_score": -68.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:02]",
+   "end_time": "[09:13]",
+   "start_time_sec": 542,
+   "text": "I stated that collections procedures cannot be manually overridden without verified bank statements."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:23]",
+   "end_time": "[09:45]",
+   "start_time_sec": 563,
+   "text": "Did you just call me stupid?! I am recording this phone call! I am an NHS sister and I will not be verbally abused by S-Net customer service! Give me your employee ID number right now!",
+   "sentiment_score": -68.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:55]",
+   "end_time": "[10:11]",
+   "start_time_sec": 595,
+   "text": "My employee identification code is JS-4401. As I said, our automated billing software issues disconnection warnings whenever payments are not in the primary clearing account."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:21]",
+   "end_time": "[10:36]",
+   "start_time_sec": 621,
+   "text": "JS-4401, written down. I will be submitting this entire recording to your executive directors and the nursing union legal team today!",
+   "sentiment_score": -54.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:46]",
+   "end_time": "[10:56]",
+   "start_time_sec": 646,
+   "text": "You are entitled to submit formal written feedback through our online complaints portal."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:06]",
+   "end_time": "[11:17]",
+   "start_time_sec": 666,
+   "text": "What is the dispute ticket reference for this disconnection notice?",
+   "sentiment_score": -28.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:27]",
+   "end_time": "[11:30]",
+   "start_time_sec": 687,
+   "text": "The formal billing dispute reference is CMP-88192-S."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:40]",
+   "end_time": "[11:43]",
+   "start_time_sec": 700,
+   "text": "CMP-88192-S, noted down.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:53]",
+   "end_time": "[12:05]",
+   "start_time_sec": 713,
+   "text": "A suspension stay can only be granted if you email a PDF copy of your bank statement to billing audit."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:15]",
+   "end_time": "[12:22]",
+   "start_time_sec": 735,
+   "text": "I should not have to send bank statements to prove a direct debit that S-Net already collected!",
+   "sentiment_score": -24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:32]",
+   "end_time": "[12:36]",
+   "start_time_sec": 752,
+   "text": "That is the mandatory procedure enforced by our finance department."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:46]",
+   "end_time": "[12:51]",
+   "start_time_sec": 766,
+   "text": "I want this flagged for emergency review before close of business today.",
+   "sentiment_score": -20.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:01]",
+   "end_time": "[13:05]",
+   "start_time_sec": 781,
+   "text": "Emergency reviews are only scheduled for corporate business leased line accounts."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:15]",
+   "end_time": "[13:21]",
+   "start_time_sec": 795,
+   "text": "This is an absolute scandal. I have never missed a payment in my life.",
+   "sentiment_score": -24.1
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:31]",
+   "end_time": "[13:35]",
+   "start_time_sec": 811,
+   "text": "The automated notification letter was triggered purely on automated ledger metrics."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:45]",
+   "end_time": "[13:50]",
+   "start_time_sec": 825,
+   "text": "You have made an unbearable situation ten times worse with your insulting attitude.",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:00]",
+   "end_time": "[14:05]",
+   "start_time_sec": 840,
+   "text": "Our corporate customer relations team handles formal complaints within ten working days."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:15]",
+   "end_time": "[14:21]",
+   "start_time_sec": 855,
+   "text": "Ten working days?! My broadband is scheduled to be cut off in forty-eight hours!",
+   "sentiment_score": -34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:31]",
+   "end_time": "[14:35]",
+   "start_time_sec": 871,
+   "text": "You have been advised of the documentation requirement to prevent suspension."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:45]",
+   "end_time": "[14:51]",
+   "start_time_sec": 885,
+   "text": "I will be sending my Santander proof of payment directly to your chief executive's office.",
+   "sentiment_score": -22.1
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:01]",
+   "end_time": "[15:05]",
+   "start_time_sec": 901,
+   "text": "Executive correspondence is redirected to the complaints resolution unit in Sunderland."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:15]",
+   "end_time": "[15:20]",
+   "start_time_sec": 915,
+   "text": "Make sure all your abusive remarks are retained in the audio recording.",
+   "sentiment_score": -18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:30]",
+   "end_time": "[15:33]",
+   "start_time_sec": 930,
+   "text": "What was that customer account reference number again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:43]",
+   "end_time": "[15:49]",
+   "start_time_sec": 943,
+   "text": "As I told you right at the start of the call, it is SN-991204.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:59]",
+   "end_time": "[16:03]",
+   "start_time_sec": 959,
+   "text": "I have documented your account reference on the complaints file."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:13]",
+   "end_time": "[16:18]",
+   "start_time_sec": 973,
+   "text": "If my broadband is disconnected on Friday, S-Net will face formal legal proceedings.",
+   "sentiment_score": -22.1
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:28]",
+   "end_time": "[16:34]",
+   "start_time_sec": 988,
+   "text": "Our legal affairs team responds to formal court proceedings through our registered legal office."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:44]",
+   "end_time": "[16:48]",
+   "start_time_sec": 1004,
+   "text": "I will be taking this matter directly to the Communications Ombudsman.",
+   "sentiment_score": -12.1
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:58]",
+   "end_time": "[17:03]",
+   "start_time_sec": 1018,
+   "text": "Ombudsman dispute reference packs are supplied upon issuance of a formal deadlock letter."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:13]",
+   "end_time": "[17:16]",
+   "start_time_sec": 1033,
+   "text": "Issue me a deadlock letter immediately then.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:26]",
+   "end_time": "[17:32]",
+   "start_time_sec": 1046,
+   "text": "Deadlock letters can only be issued after eight weeks of unresolved formal complaint review."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:42]",
+   "end_time": "[17:45]",
+   "start_time_sec": 1062,
+   "text": "Unbelievable bureaucracy.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:55]",
+   "end_time": "[18:01]",
+   "start_time_sec": 1075,
+   "text": "Is there any other aspect of your billing account I can assist you with today, Lydia?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[18:11]",
+   "end_time": "[18:14]",
+   "start_time_sec": 1091,
+   "text": "No, you have been utterly abusive and useless.",
+   "sentiment_score": -24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[18:24]",
+   "end_time": "[18:27]",
+   "start_time_sec": 1104,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[18:37]",
+   "end_time": "[18:40]",
+   "start_time_sec": 1117,
+   "text": "Goodbye.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[18:50]",
+   "end_time": "[18:53]",
+   "start_time_sec": 1130,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[19:02]",
+   "end_time": "[19:07]",
+   "start_time_sec": 1142,
+   "text": "Goodbye.",
+   "sentiment_score": -12.0
+  }
+ ]
+}

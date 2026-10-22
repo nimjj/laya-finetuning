@@ -1,0 +1,418 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Gemma",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer technical support, my name is Oliver. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:13]",
+      "end_time": "[00:34]",
+      "start_time_sec": 13,
+      "text": "Hello Oliver. We have had a terrible disaster here. During the severe gale last night, a large tree branch snapped on our rural lane and has completely severed our overhead telephone drop wire! The wire is hanging down across the hedge and we have zero broadband or landline!",
+      "sentiment_score": -46.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:39]",
+      "end_time": "[00:50]",
+      "start_time_sec": 39,
+      "text": "I can report that physical cable damage to Openreach engineering, Gemma. Let me start with account verification. Can you confirm your full name and property address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:55]",
+      "end_time": "[00:59]",
+      "start_time_sec": 55,
+      "text": "Gemma Sinclair, The Old Forge, Mill Lane, Bakewell, DE45 1WT.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:04]",
+      "end_time": "[01:08]",
+      "start_time_sec": 64,
+      "text": "And what is the four-digit security PIN on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:13]",
+      "end_time": "[01:16]",
+      "start_time_sec": 73,
+      "text": "It's 5192.",
+      "sentiment_score": -5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:21]",
+      "end_time": "[01:38]",
+      "start_time_sec": 81,
+      "text": "So what I understand is that a fallen tree branch during last night's storm has physically severed the overhead drop cable supplying your property on Mill Lane, causing total loss of both broadband and landline services, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[01:55]",
+      "start_time_sec": 103,
+      "text": "Yes, that is exactly it. The black wire is completely cut in two pieces, one end dangling from the wooden telegraph pole and the other in our driveway.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:00]",
+      "end_time": "[02:07]",
+      "start_time_sec": 120,
+      "text": "Is the severed cable causing any immediate danger, such as sparking or obstructing highway traffic?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:12]",
+      "end_time": "[02:19]",
+      "start_time_sec": 132,
+      "text": "No, it's a low-voltage telecom wire resting in the private driveway hedge, not across the main road.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:24]",
+      "end_time": "[02:34]",
+      "start_time_sec": 144,
+      "text": "I will take direct ownership of raising an emergency priority hazard ticket with the Openreach rural engineering dispatch team. Bear with me."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:19]",
+      "end_time": "[03:29]",
+      "start_time_sec": 199,
+      "text": "Thank you for your patience, Gemma. Openreach incident reference HR-88410 has been lodged with high priority for an external overhead line crew."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:34]",
+      "end_time": "[03:41]",
+      "start_time_sec": 214,
+      "text": "When can they actually come out to re-string the cable? We are completely isolated here without internet!",
+      "sentiment_score": -38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:46]",
+      "end_time": "[03:55]",
+      "start_time_sec": 226,
+      "text": "The earliest available emergency cherry-picker hoist team slot is booked for tomorrow, Thursday afternoon, between one PM and six PM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:00]",
+      "end_time": "[04:08]",
+      "start_time_sec": 240,
+      "text": "Tomorrow afternoon? What are we supposed to do until then? I have remote medical telemetry monitors that need data!",
+      "sentiment_score": -42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:13]",
+      "end_time": "[04:21]",
+      "start_time_sec": 253,
+      "text": "As I said, overhead drop cables that span rural lanes require specialized two-man hoist teams for road safety compliance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:26]",
+      "end_time": "[04:33]",
+      "start_time_sec": 266,
+      "text": "Is there any way we can get emergency connectivity while we wait for the cherry picker?",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:38]",
+      "end_time": "[04:43]",
+      "start_time_sec": 278,
+      "text": "Yes. Do you have an active S-Net mobile phone in your household?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:48]",
+      "end_time": "[04:53]",
+      "start_time_sec": 288,
+      "text": "Yes, my personal smartphone is on an S-Net pay monthly SIM.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:58]",
+      "end_time": "[05:09]",
+      "start_time_sec": 298,
+      "text": "I can provision an immediate Emergency Data Backup bundle of unlimited 4G and 5G data onto your S-Net SIM card right now, completely free of charge."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:14]",
+      "end_time": "[05:22]",
+      "start_time_sec": 314,
+      "text": "Also, does the severed wire have any tree branches resting on top of it currently in the driveway?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:27]",
+      "end_time": "[05:34]",
+      "start_time_sec": 327,
+      "text": "The main branch rolled into the ditch, but some smaller twigs are lying on the cable.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:39]",
+      "end_time": "[05:47]",
+      "start_time_sec": 339,
+      "text": "Please do not attempt to move or touch the cable directly, even though telecom lines are low voltage."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:52]",
+      "end_time": "[05:58]",
+      "start_time_sec": 352,
+      "text": "Understood, I've put a garden cone near the hedge so nobody walks over it.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:03]",
+      "end_time": "[06:06]",
+      "start_time_sec": 363,
+      "text": "That is an excellent precaution."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:11]",
+      "end_time": "[06:16]",
+      "start_time_sec": 371,
+      "text": "Yes, best to keep the delivery vans away from the driveway edge.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:21]",
+      "end_time": "[06:25]",
+      "start_time_sec": 381,
+      "text": "And has the weather calmed down in Bakewell today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:30]",
+      "end_time": "[06:34]",
+      "start_time_sec": 390,
+      "text": "Yes, the wind dropped this morning, just light rain now.",
+      "sentiment_score": 10.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:39]",
+      "end_time": "[06:45]",
+      "start_time_sec": 399,
+      "text": "Good, clear weather will allow the hoist crew to operate safely tomorrow afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:50]",
+      "end_time": "[06:53]",
+      "start_time_sec": 410,
+      "text": "Fingers crossed the forecast holds up.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:58]",
+      "end_time": "[07:06]",
+      "start_time_sec": 418,
+      "text": "We also automatically credit your bill for the days your fixed broadband is offline under our auto-compensation scheme."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:11]",
+      "end_time": "[07:14]",
+      "start_time_sec": 431,
+      "text": "That's very fair, thank you for mentioning that.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:19]",
+      "end_time": "[07:26]",
+      "start_time_sec": 439,
+      "text": "Can I turn on personal hotspot so my laptop and the medical monitor can connect?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:31]",
+      "end_time": "[07:37]",
+      "start_time_sec": 451,
+      "text": "Yes, absolutely. The unlimited bundle supports full Wi-Fi hotspot tethering with zero data caps."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:42]",
+      "end_time": "[07:48]",
+      "start_time_sec": 462,
+      "text": "That would be a lifesaver! What is my mobile number on the account?",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:53]",
+      "end_time": "[08:00]",
+      "start_time_sec": 473,
+      "text": "Just confirming before I trigger the unlimited bundle, your mobile number is 07700 900384, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:05]",
+      "end_time": "[08:08]",
+      "start_time_sec": 485,
+      "text": "Yes, 07700 900384.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:13]",
+      "end_time": "[08:23]",
+      "start_time_sec": 493,
+      "text": "The unlimited emergency data pass has just been activated on the network switch. You will receive an SMS confirmation in about twenty seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:28]",
+      "end_time": "[08:35]",
+      "start_time_sec": 508,
+      "text": "Just got the text message: 'S-Net Emergency Data Pass active: Unlimited high-speed mobile data applied.'",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:40]",
+      "end_time": "[08:48]",
+      "start_time_sec": 520,
+      "text": "Now turn on Personal Hotspot in your phone's settings, and connect your home devices to your phone's Wi-Fi network."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:53]",
+      "end_time": "[08:59]",
+      "start_time_sec": 533,
+      "text": "Enabling Personal Hotspot now... Connecting laptop... Connected! Loading BBC News... It loaded instantly!",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:04]",
+      "end_time": "[09:12]",
+      "start_time_sec": 544,
+      "text": "Can you also connect the medical telemetry monitor to the hotspot to verify it establishes its secure data link?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:17]",
+      "end_time": "[09:24]",
+      "start_time_sec": 557,
+      "text": "Connecting the monitor... Green transmission light is solid! The vital telemetry data is syncing up!",
+      "sentiment_score": 42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:29]",
+      "end_time": "[09:36]",
+      "start_time_sec": 569,
+      "text": "That confirms your household has stable, high-speed emergency internet while Openreach repairs the physical wire tomorrow."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:41]",
+      "end_time": "[09:48]",
+      "start_time_sec": 581,
+      "text": "That gives me enormous peace of mind. Thank you so much for setting that up Oliver.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:53]",
+      "end_time": "[10:02]",
+      "start_time_sec": 593,
+      "text": "You are very welcome. Openreach will send you SMS tracking updates tomorrow morning when the line team is en route."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:07]",
+      "end_time": "[10:11]",
+      "start_time_sec": 607,
+      "text": "Do I need to be home for the engineer visit?",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:16]",
+      "end_time": "[10:24]",
+      "start_time_sec": 616,
+      "text": "Yes, because they will need to test the connection at your internal master socket once the wire is spliced."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:29]",
+      "end_time": "[10:32]",
+      "start_time_sec": 629,
+      "text": "I will make sure I'm home all afternoon.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:37]",
+      "end_time": "[10:46]",
+      "start_time_sec": 637,
+      "text": "Just to confirm your email address for the incident log, it's gemma dot sinclair at derbyshire dot org dot uk, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:51]",
+      "end_time": "[10:54]",
+      "start_time_sec": 651,
+      "text": "Yes, that's my email.",
+      "sentiment_score": 10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:59]",
+      "end_time": "[11:06]",
+      "start_time_sec": 659,
+      "text": "Is there anything else with your emergency booking that I can assist you with today, Gemma?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:11]",
+      "end_time": "[11:16]",
+      "start_time_sec": 671,
+      "text": "No Oliver, the emergency hotspot has completely saved the day. Thank you.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:21]",
+      "end_time": "[11:25]",
+      "start_time_sec": 681,
+      "text": "Thank you for choosing S-Net, Gemma, and take care."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:30]",
+      "end_time": "[11:33]",
+      "start_time_sec": 690,
+      "text": "Thank you Oliver, goodbye.",
+      "sentiment_score": 22.0
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "call_id": "agt_017",
+  "tenant_id": "tenant-abc",
+  "customer_name": "Cedric",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer care and security support. My name is Hannah. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:23]",
+      "start_time_sec": 8,
+      "text": "Hello Hannah. My name is Cedric Amberley. I am an eighty-one-year-old pensioner living alone in Salisbury, and I received a very frightening telephone call about half an hour ago.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:24]",
+      "end_time": "[00:41]",
+      "start_time_sec": 24,
+      "text": "Good morning Cedric. I can certainly help you check your account security and verify whether any genuine calls were made. Before we look at your records, could you please confirm your full postal address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:42]",
+      "end_time": "[00:58]",
+      "start_time_sec": 42,
+      "text": "Yes, my address is 34 Cathedral View, Salisbury, SP1 2EU, and the security question answer for my mother's maiden name is Thornton.",
+      "sentiment_score": 1.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:59]",
+      "end_time": "[01:10]",
+      "start_time_sec": 59,
+      "text": "Thank you very much Cedric, that successfully verifies your account. Could you tell me what happened during that phone call earlier today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:11]",
+      "end_time": "[01:34]",
+      "start_time_sec": 71,
+      "text": "A man rang on my landline claiming to be from S-Net Technical Security. He said our router had been hacked by criminals in Eastern Europe and that my broadband would be cut off immediately unless I gave him access to my computer! I was so frightened and shaken up!",
+      "sentiment_score": -62.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:35]",
+      "end_time": "[01:54]",
+      "start_time_sec": 95,
+      "text": "I am so sorry to hear that happened, Cedric. That sounds extremely frightening and unsettling, especially when someone claims your line is hacked, but you did the right thing by ringing us and we will make sure your account is completely protected."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:55]",
+      "end_time": "[02:07]",
+      "start_time_sec": 115,
+      "text": "Thank you Hannah, that is very comforting to hear. Our landline telephone number here is 01632 960114.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:08]",
+      "end_time": "[02:22]",
+      "start_time_sec": 128,
+      "text": "Did the caller ask you to download any software like TeamViewer or AnyDesk onto your computer, Cedric?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:23]",
+      "end_time": "[02:37]",
+      "start_time_sec": 143,
+      "text": "He told me to go to a web address, but I don't own a desktop computer, only an old iPad that my daughter bought me, and I couldn't find what he was asking for.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:38]",
+      "end_time": "[02:51]",
+      "start_time_sec": 158,
+      "text": "That is very fortunate. Did you disclose any account passwords or Wi-Fi security keys to the caller?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:52]",
+      "end_time": "[03:04]",
+      "start_time_sec": 172,
+      "text": "I read out the four numbers on the back of the router before my neighbour knocked on the front door and warned me to hang up.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:05]",
+      "end_time": "[03:22]",
+      "start_time_sec": 185,
+      "text": "Your neighbour gave you excellent advice. S-Net technicians will never ring you out of the blue demanding router passwords or threatening immediate disconnection."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:23]",
+      "end_time": "[03:30]",
+      "start_time_sec": 203,
+      "text": "That is what my neighbour said. He told me it was a scam.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:31]",
+      "end_time": "[03:52]",
+      "start_time_sec": 211,
+      "text": "So to make sure we cover every security angle, Cedric, an impersonation scammer called your landline claiming your connection was compromised, and we need to reset your account credentials, update your router Wi-Fi password, and verify that no unauthorized orders were placed, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:53]",
+      "end_time": "[04:02]",
+      "start_time_sec": 233,
+      "text": "Yes, that is exactly what we need to do to make sure everything is safe and secure.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:03]",
+      "end_time": "[04:22]",
+      "start_time_sec": 243,
+      "text": "Bear with me for a couple of minutes while I check our outbound call logs to confirm no genuine S-Net agent contacted you, and inspect your account profile for any suspicious modifications."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:23]",
+      "end_time": "[04:28]",
+      "start_time_sec": 263,
+      "text": "Certainly, I will stay on the phone.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:15]",
+      "end_time": "[05:37]",
+      "start_time_sec": 315,
+      "text": "Thank you for holding, Cedric. I can confirm categorically that no one from S-Net has placed an outbound call to your landline today. That was entirely an external fraudulent phishing attempt."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:38]",
+      "end_time": "[05:46]",
+      "start_time_sec": 338,
+      "text": "I am so glad my neighbour knocked when he did before things went any further.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:47]",
+      "end_time": "[06:06]",
+      "start_time_sec": 347,
+      "text": "Before I run the scam caller number trace on our exchange database, was that landline number 01632 960114, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:07]",
+      "end_time": "[06:14]",
+      "start_time_sec": 367,
+      "text": "Yes, 01632 960114, that is our Salisbury home number.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:15]",
+      "end_time": "[06:33]",
+      "start_time_sec": 375,
+      "text": "I have enabled our automated Call Guardian spam and nuisance call blocker on your landline service, which intercepts unknown numbers and requests caller identification."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:34]",
+      "end_time": "[06:42]",
+      "start_time_sec": 394,
+      "text": "Does that cost anything extra on my monthly bill?",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:43]",
+      "end_time": "[06:58]",
+      "start_time_sec": 403,
+      "text": "No, Cedric, Call Guardian is completely free of charge for all S-Net home landline customers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:59]",
+      "end_time": "[07:06]",
+      "start_time_sec": 419,
+      "text": "That is wonderful, thank you very much.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:07]",
+      "end_time": "[07:27]",
+      "start_time_sec": 427,
+      "text": "I am also updating your online account security password and rotating your broadband router management credentials remotely from here so that the numbers you read out cannot be used."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:28]",
+      "end_time": "[07:53]",
+      "start_time_sec": 448,
+      "text": "Oh dear lord, Hannah... I'm just remembering now... before my neighbour knocked, the caller told me there was a fifteen-pound server fee and I gave him my debit card sixteen-digit number and the three digits on the back! What if they drain my bank account right now?! I am shaking all over with anxiety!",
+      "sentiment_score": -82.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:54]",
+      "end_time": "[08:14]",
+      "start_time_sec": 474,
+      "text": "You need to telephone your issuing bank's card fraud department. S-Net has no visibility over third-party banking cards."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:15]",
+      "end_time": "[08:26]",
+      "start_time_sec": 495,
+      "text": "Can you block the card from your computer? I don't know my bank's telephone number without looking through drawers!",
+      "sentiment_score": -58.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:27]",
+      "end_time": "[08:44]",
+      "start_time_sec": 507,
+      "text": "Telecommunications providers cannot cancel or interact with external banking cards. You must dial 159 on your phone to connect directly to your bank's fraud service."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:45]",
+      "end_time": "[08:54]",
+      "start_time_sec": 525,
+      "text": "Dial 159? Does that work from my home landline right now?",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:55]",
+      "end_time": "[09:12]",
+      "start_time_sec": 535,
+      "text": "Yes, 159 is the national retail banking fraud hotline. When you dial it, an automated menu connects you securely to your high street bank."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:13]",
+      "end_time": "[09:21]",
+      "start_time_sec": 553,
+      "text": "I have written 159 in big bold numbers at the top of my notepad.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:22]",
+      "end_time": "[09:41]",
+      "start_time_sec": 562,
+      "text": "Give me a moment while I place a high-security fraud alert flag on your S-Net subscriber profile so that no changes can be made without enhanced verification."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:42]",
+      "end_time": "[09:47]",
+      "start_time_sec": 582,
+      "text": "Thank you, I will hold.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:35]",
+      "end_time": "[10:55]",
+      "start_time_sec": 635,
+      "text": "Thank you for holding, Cedric. The high-risk fraud flag is active on your profile. Any caller attempting to modify your broadband or phone package will be rejected unless they visit an S-Net retail store with photo ID."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:56]",
+      "end_time": "[11:06]",
+      "start_time_sec": 656,
+      "text": "That gives me tremendous peace of mind regarding my phone line and broadband account.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:07]",
+      "end_time": "[11:24]",
+      "start_time_sec": 667,
+      "text": "Your broadband service is completely secure, your router password has been reset, Call Guardian is activated, and your S-Net account is locked against unauthorized changes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:25]",
+      "end_time": "[11:34]",
+      "start_time_sec": 685,
+      "text": "And my broadband connection will continue working normally on my iPad?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:35]",
+      "end_time": "[11:51]",
+      "start_time_sec": 695,
+      "text": "Because we updated your router security key, your iPad will prompt you to enter the new Wi-Fi password. Let us make sure that connects properly right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:52]",
+      "end_time": "[12:02]",
+      "start_time_sec": 712,
+      "text": "I have the iPad right here on the table beside me. What should I tap?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:03]",
+      "end_time": "[12:19]",
+      "start_time_sec": 723,
+      "text": "Tap on the Settings icon, select Wi-Fi, tap your network name SNet-Cathedral, and type in the new secure password I sent to your mobile phone."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:20]",
+      "end_time": "[12:34]",
+      "start_time_sec": 740,
+      "text": "I am typing it in now... Cathedral-Safe-2026... and it shows a little blue tick next to the network name!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:35]",
+      "end_time": "[12:48]",
+      "start_time_sec": 755,
+      "text": "Splendid! Try opening your Safari browser and check if the BBC News page opens up normally."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:49]",
+      "end_time": "[13:01]",
+      "start_time_sec": 769,
+      "text": "Yes, BBC News has popped right up with today's headlines. The internet is working on the iPad again.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:02]",
+      "end_time": "[13:16]",
+      "start_time_sec": 782,
+      "text": "Let us also open your email app on the iPad to verify incoming messages synchronize without any password prompt."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:17]",
+      "end_time": "[13:28]",
+      "start_time_sec": 797,
+      "text": "I have tapped the Mail envelope icon... yes, my morning emails are refreshing and loading normally.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:29]",
+      "end_time": "[13:42]",
+      "start_time_sec": 809,
+      "text": "Excellent, both web browsing and email services are running securely through your protected router."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:43]",
+      "end_time": "[13:52]",
+      "start_time_sec": 823,
+      "text": "That is such a great relief. Everything is back to normal on my side.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:53]",
+      "end_time": "[14:06]",
+      "start_time_sec": 833,
+      "text": "That confirms your home internet connection and Wi-Fi security are both fully restored and protected."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:07]",
+      "end_time": "[14:18]",
+      "start_time_sec": 847,
+      "text": "Thank you Hannah. As soon as we hang up, I will pick up this receiver and dial 159 to cancel that debit card with my bank.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:19]",
+      "end_time": "[14:35]",
+      "start_time_sec": 859,
+      "text": "That is the best and most urgent step to take. Is there any other matter on your S-Net account I can assist you with today, Cedric?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:36]",
+      "end_time": "[14:44]",
+      "start_time_sec": 876,
+      "text": "No, you have resolved all my broadband security concerns. Thank you Hannah.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:45]",
+      "end_time": "[14:55]",
+      "start_time_sec": 885,
+      "text": "Thank you for choosing S-Net customer care, Cedric. Please take care and call 159 immediately. Goodbye."
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Victor",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net broadband customer services, my name is Natalie. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:09]",
+   "end_time": "[00:29]",
+   "start_time_sec": 9,
+   "text": "Hello Natalie, my name is Victor Vance. I am a postgraduate medical researcher at Imperial College London working from home, and your automated S-Net SafeSearch web safety filter is aggressively blocking our university's official cancer genetics epidemiology database, displaying an 'Adult Content Blocked' screen and halting my research!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:31]",
+   "end_time": "[00:55]",
+   "start_time_sec": 31,
+   "text": "Good afternoon Victor. If I understand correctly, our S-Net SafeSearch web filter is miscategorizing your Imperial College cancer genetics research database as adult content, presenting a block screen and preventing you from accessing essential academic resources. Before we inspect your broadband account safety filter configuration, could you please confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:57]",
+   "end_time": "[01:02]",
+   "start_time_sec": 57,
+   "text": "Yes, it is 14 Kensington Park Gardens, London, W11 3HD, security PIN 6619.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:04]",
+   "end_time": "[01:12]",
+   "start_time_sec": 64,
+   "text": "Thank you Victor, that confirms your account details. What is the exact domain URL of the university database being blocked?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:14]",
+   "end_time": "[01:17]",
+   "start_time_sec": 74,
+   "text": "The domain is genetics.imperial.ac.uk/oncology-epidemiology.",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:19]",
+   "end_time": "[01:33]",
+   "start_time_sec": 79,
+   "text": "Could I place you on hold for two minutes while I query your broadband profile web protection classification tables?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[02:58]",
+   "end_time": "[03:15]",
+   "start_time_sec": 178,
+   "text": "Thank you for holding, Victor. Looking at the content filter classification engine, the keyword 'reproductive oncology' in the database metadata triggered a false positive match under our strict adult filter heuristic."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:17]",
+   "end_time": "[03:30]",
+   "start_time_sec": 197,
+   "text": "Why would reproductive oncology be flagged as adult content by an automated filter?",
+   "sentiment_score": -10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:32]",
+   "end_time": "[03:45]",
+   "start_time_sec": 212,
+   "text": "Heuristic content filters use automated pattern recognition that occasionally conflates medical and reproductive terminology with restricted content categories."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:47]",
+   "end_time": "[03:58]",
+   "start_time_sec": 227,
+   "text": "Can you whitelist the entire imperial.ac.uk academic domain on our broadband line?",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:00]",
+   "end_time": "[04:12]",
+   "start_time_sec": 240,
+   "text": "Yes, we can add a custom domain exception directly to your S-Net SafeSearch cloud profile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:14]",
+   "end_time": "[04:25]",
+   "start_time_sec": 254,
+   "text": "Will that whitelist apply to all devices connected to our home router?",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:27]",
+   "end_time": "[04:39]",
+   "start_time_sec": 267,
+   "text": "Yes, network-level domain exceptions apply instantaneously across all wired and Wi-Fi devices in your household."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:41]",
+   "end_time": "[04:44]",
+   "start_time_sec": 281,
+   "text": "That is exactly what I need.",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:46]",
+   "end_time": "[04:56]",
+   "start_time_sec": 286,
+   "text": "I am adding '*.imperial.ac.uk' and 'genetics.imperial.ac.uk' to your permanent trusted exception list."
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:58]",
+   "end_time": "[05:08]",
+   "start_time_sec": 298,
+   "text": "Obviously automated heuristic filters require human fine-tuning when specialized scientific research is involved."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:10]",
+   "end_time": "[05:20]",
+   "start_time_sec": 310,
+   "text": "I completely understand that heuristics need manual exception tuning.",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:22]",
+   "end_time": "[05:32]",
+   "start_time_sec": 322,
+   "text": "I am pushing the whitelist policy update directly to your Hub 5 cloud policy cache."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:34]",
+   "end_time": "[05:37]",
+   "start_time_sec": 334,
+   "text": "The router center LED blinked green twice.",
+   "sentiment_score": 26.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:39]",
+   "end_time": "[06:03]",
+   "start_time_sec": 339,
+   "text": "Victor speaking, I have our doctoral dissertation submission deadline at midnight tonight, and if I cannot extract the patient cohort genetics tables from this database before three o'clock, my four years of clinical doctoral research will be rejected and my university medical fellowship will be terminated! I am in sheer panic and terror over this blockage!",
+   "sentiment_score": -82.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:05]",
+   "end_time": "[06:15]",
+   "start_time_sec": 365,
+   "text": "I am querying the cloud policy filter exception engine right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:17]",
+   "end_time": "[06:30]",
+   "start_time_sec": 377,
+   "text": "Please do Natalie, I am desperate to download the genetics dataset before three o'clock.",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:32]",
+   "end_time": "[06:56]",
+   "start_time_sec": 392,
+   "text": "I completely understand the acute terror, panic, and immense career stakes of your midnight dissertation deadline, Victor. While our cybersecurity policy does not permit disabling the master network firewall completely for residential accounts, I will stay on the line with you right now and personally verify that you can log in and download your patient cohort genetics tables immediately."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:58]",
+   "end_time": "[07:09]",
+   "start_time_sec": 418,
+   "text": "Thank you Natalie! Let us test accessing the database right now.",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:11]",
+   "end_time": "[07:14]",
+   "start_time_sec": 431,
+   "text": "Please refresh your web browser on genetics.imperial.ac.uk/oncology-epidemiology."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:16]",
+   "end_time": "[07:33]",
+   "start_time_sec": 436,
+   "text": "Refreshing browser now... Natalie! The Imperial College Single Sign-On portal loaded instantly with zero block screen! Logging in with my university smart card...",
+   "sentiment_score": 36.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:35]",
+   "end_time": "[07:45]",
+   "start_time_sec": 455,
+   "text": "Verify that you can query the database and download your data tables."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:47]",
+   "end_time": "[08:01]",
+   "start_time_sec": 467,
+   "text": "Entering query: 'Oncology patient cohort 2024'... Query executed! Downloading the 250-megabyte genetics dataset... Download completed! All tables intact!",
+   "sentiment_score": 39.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:03]",
+   "end_time": "[08:14]",
+   "start_time_sec": 483,
+   "text": "Fantastic! That confirms full unrestricted access restored across all Imperial College research gateways."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:16]",
+   "end_time": "[08:26]",
+   "start_time_sec": 496,
+   "text": "You have completely saved my doctoral degree today, Natalie.",
+   "sentiment_score": 38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:28]",
+   "end_time": "[08:43]",
+   "start_time_sec": 508,
+   "text": "I have also submitted a classification override to our central cybersecurity threat intelligence team to prevent imperial.ac.uk from ever being flagged globally."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:45]",
+   "end_time": "[08:56]",
+   "start_time_sec": 525,
+   "text": "That will protect all other medical researchers across the country.",
+   "sentiment_score": 34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:58]",
+   "end_time": "[09:07]",
+   "start_time_sec": 538,
+   "text": "I have documented the exception whitelist under reference FLT-MED-88192-K."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:09]",
+   "end_time": "[09:12]",
+   "start_time_sec": 549,
+   "text": "FLT-MED-88192-K, noted down.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:14]",
+   "end_time": "[09:25]",
+   "start_time_sec": 554,
+   "text": "Best of luck with your midnight dissertation submission and your fellowship, Victor."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:27]",
+   "end_time": "[09:39]",
+   "start_time_sec": 567,
+   "text": "Thank you so much Natalie, you have been an absolute lifesaver.",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:40]",
+   "end_time": "[09:50]",
+   "start_time_sec": 580,
+   "text": "Our team is proud to support essential clinical medical research."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:51]",
+   "end_time": "[09:55]",
+   "start_time_sec": 591,
+   "text": "I can now finish writing my doctoral conclusion with complete confidence.",
+   "sentiment_score": 34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:56]",
+   "end_time": "[10:02]",
+   "start_time_sec": 596,
+   "text": "Just making sure our premises records match perfectly: that was 14 Kensington Park Gardens, wasn't it?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:03]",
+   "end_time": "[10:06]",
+   "start_time_sec": 603,
+   "text": "Yes, 14 Kensington Park Gardens, London.",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:07]",
+   "end_time": "[10:11]",
+   "start_time_sec": 607,
+   "text": "Thank you Victor, all account and security records are fully synchronized."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:12]",
+   "end_time": "[10:16]",
+   "start_time_sec": 612,
+   "text": "Thank you again Natalie for your brilliant, rapid, and reassuring support.",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:17]",
+   "end_time": "[10:22]",
+   "start_time_sec": 617,
+   "text": "It has been an absolute pleasure assisting you, Victor. Go get that doctorate!"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:23]",
+   "end_time": "[10:26]",
+   "start_time_sec": 623,
+   "text": "Have a wonderful afternoon, Natalie. Goodbye.",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:27]",
+   "end_time": "[10:33]",
+   "start_time_sec": 627,
+   "text": "Is there any other broadband or security issue I can assist you with today, Victor?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:34]",
+   "end_time": "[10:37]",
+   "start_time_sec": 634,
+   "text": "No Natalie, everything is working flawlessly.",
+   "sentiment_score": 30.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:38]",
+   "end_time": "[10:42]",
+   "start_time_sec": 638,
+   "text": "Thank you for calling S-Net broadband customer services, Victor. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:43]",
+   "end_time": "[10:46]",
+   "start_time_sec": 643,
+   "text": "Goodbye Natalie.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:47]",
+   "end_time": "[10:50]",
+   "start_time_sec": 647,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:51]",
+   "end_time": "[10:54]",
+   "start_time_sec": 651,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:55]",
+   "end_time": "[10:58]",
+   "start_time_sec": 655,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:59]",
+   "end_time": "[11:02]",
+   "start_time_sec": 659,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:03]",
+   "end_time": "[11:06]",
+   "start_time_sec": 663,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:07]",
+   "end_time": "[11:10]",
+   "start_time_sec": 667,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:11]",
+   "end_time": "[11:14]",
+   "start_time_sec": 671,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:15]",
+   "end_time": "[11:20]",
+   "start_time_sec": 675,
+   "text": "Goodbye.",
+   "sentiment_score": 12.0
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+  "call_id": "ag_19",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 100.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Port forwarding and CGNAT issue preventing home Synology NAS server and CCTV from being accessed remotely",
+    "tier": "excellent",
+    "duration_sec": 815,
+    "notes": "Clean 100.0 PASS call demonstrating a brisk, concise, deeply technical agent style (R PASS hard case), a 90s managed hold ([03:34]-[05:28]) plus a 28s router-reboot transition strictly <=30s ([06:11]-[07:01], H PASS hard case), and sharp active listening comparing WAN IP prefixes 100.64.x.x vs 82.14.x.x (AL PASS hard case).",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Active listening",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'Good afternoon, thank you for calling S-Net technical support.' / [13:29] Agent: 'Thank you for choosing S-Net, Youssef. Have a great afternoon. Goodbye.'"
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:34] Agent announces a 90s hold ('Please bear with me while I move your subscriber profile off the CGNAT pool onto a public dynamic IPv4') and returns at [05:28] ('Thank you for holding, Youssef.'), plus a 28s router-reboot transition at [06:11]-[07:01] (<=30s threshold)."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:22] Agent: 'Let's verify your account first: please confirm your postal address and four-digit security PIN.'"
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:22] Agent: 'I am sorry for the disruption to your remote access since Tuesday's maintenance, Youssef...'"
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:22] Agent: 'I am sorry for the disruption to your remote access since Tuesday's maintenance, Youssef—I understand how frustrating it is when working port forwards suddenly stop responding.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:43] Agent: 'To summarize the issue in my own words: since Tuesday's maintenance, external connections to your Synology NAS and Hikvision CCTV over your Hub 4 port forwarding rules are failing, even though your home fibre is online.'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:47]-[02:24] Agent compares the Hub 4 WAN IP (100.64.118.42) against external IP (185.94.212.19), and at [07:19]-[07:57] verifies the new 82.14.209.73 public IP and exact ports (TCP 5001 to 192.168.1.50 and TCP 8000 to 192.168.1.60)."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:18] Agent: 'I will move your subscriber profile onto our dynamic public IPv4 pool free of charge.' / [09:57] Agent permanently sets 'CGNAT-Exempt=TRUE' on the circuit."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:24], [07:39], [11:55] Agent maintains a brisk, concise, deeply technical, and highly professional style without unnecessary small talk, which the customer praises at [11:55]."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:12]-[02:07] Agent systematically probes the forwarded TCP/UDP ports, manual vs UPnP rules, Hub 4 WAN IPv4 prefix, and external ifconfig.me IP."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[09:19] & [09:47] Customer tests both TCP 5001 (Synology DSM) and TCP 8000 (Hikvision CCTV) over 5G and confirms at [13:23]: 'No, both remote services are 100% resolved and working properly'."
+      }
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Lorcan",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:04]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, I'm Tess. How can I help?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:05]",
+      "end_time": "[00:15]",
+      "start_time_sec": 5,
+      "text": "Hi Tess. The TV box in my bedroom keeps losing the signal every evening, which is when I actually want to watch it. I'm getting fed up.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:16]",
+      "end_time": "[00:25]",
+      "start_time_sec": 16,
+      "text": "Losing the TV right when you want to watch it is really annoying, I'm sorry, Lorcan. Let's fix it. Can I take your PIN?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:26]",
+      "end_time": "[00:28]",
+      "start_time_sec": 26,
+      "text": "6 2 6 2.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:34]",
+      "start_time_sec": 29,
+      "text": "Thanks. So the bedroom TV box loses its signal every evening. Is that right?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:35]",
+      "end_time": "[00:37]",
+      "start_time_sec": 35,
+      "text": "Yes.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:38]",
+      "end_time": "[00:42]",
+      "start_time_sec": 38,
+      "text": "Is it the box in the bedroom or the living room?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:44]",
+      "end_time": "[00:46]",
+      "start_time_sec": 44,
+      "text": "The bedroom, upstairs.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:48]",
+      "end_time": "[00:51]",
+      "start_time_sec": 48,
+      "text": "Is it on wifi or plugged in?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:53]",
+      "end_time": "[00:55]",
+      "start_time_sec": 53,
+      "text": "Wifi.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:40]",
+      "end_time": "[01:42]",
+      "start_time_sec": 100,
+      "text": "Hello?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:43]",
+      "end_time": "[01:46]",
+      "start_time_sec": 103,
+      "text": "Sorry, yes. Which room is the box in again?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:48]",
+      "end_time": "[01:50]",
+      "start_time_sec": 108,
+      "text": "The bedroom. Upstairs.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:53]",
+      "end_time": "[01:56]",
+      "start_time_sec": 113,
+      "text": "And it's on wifi, not a cable?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:58]",
+      "end_time": "[02:00]",
+      "start_time_sec": 118,
+      "text": "Yes, wifi, I just said.",
+      "sentiment_score": -11.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:55]",
+      "end_time": "[02:57]",
+      "start_time_sec": 175,
+      "text": "Are you still there?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:59]",
+      "end_time": "[03:12]",
+      "start_time_sec": 179,
+      "text": "Yes. In the evening the wifi is busiest. I've switched your router to a less crowded channel. Can you put the TV on now and leave it on a channel for a couple of minutes?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:14]",
+      "end_time": "[03:18]",
+      "start_time_sec": 194,
+      "text": "Okay. It's on. It's playing fine, no dropping so far.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:38]",
+      "end_time": "[03:40]",
+      "start_time_sec": 218,
+      "text": "Still fine.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:42]",
+      "end_time": "[03:47]",
+      "start_time_sec": 222,
+      "text": "Great, so the box is holding the signal now. Is that working for you?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:49]",
+      "end_time": "[03:51]",
+      "start_time_sec": 229,
+      "text": "Yes, it's working.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:52]",
+      "end_time": "[03:54]",
+      "start_time_sec": 232,
+      "text": "Cheers, bye.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

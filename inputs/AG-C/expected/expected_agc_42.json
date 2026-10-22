@@ -1,0 +1,205 @@
+{
+  "call_id": "agc_42",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 35.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "Agent breached dead air standards twice with unannounced silent pauses of 35s and 38s while checking Openreach portals, prompting caller chasing on both occasions."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Agent completely skipped account security verification, failing to request installation postcode, customer PIN, or security questions during the first 240 seconds or at any point in the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Agent failed to personalize the call, never addressing the customer by name ('Lily') throughout the entire 15-minute conversation."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent completely failed Empathy throughout the call, ignoring opening customer distress regarding lost wages and failed move-in installation, and offering cold corporate guideline deflections during an outburst in the final third."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent never provided a restatement of the failed installation, severed dropwire, or work disruption, jumping straight into portal lookups."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Agent refused to take ownership of the installation failure, refusing to escalate to civils management or dispatch an emergency 4G backup dongle, unhelpfully instructing the customer to re-book online next month."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-22",
+    "scenario": "Failed new property installation where external fiber drop cable was severed by tree branch",
+    "tier": "5+",
+    "duration_sec": 930,
+    "notes": "Failed new fiber installation call handled by Ryan. Contractor abandoned job due to severed overhead dropwire near tree. Agent probed physical setup well, but failed 6 criteria: Dead Air (two 30s+ gaps), Verified (skipped completely), Personalized (caller never named), Empathy (unhandled outbursts including final third), Paraphrasing (no restatement), and Ownership (refused escalation/backup dongle).",
+    "hard_cases": [
+      "Branding and Survey Check",
+      "Active listening",
+      "Probing",
+      "Confirmed the issue is resolved",
+      "Hold time and Dead Air",
+      "Verified customer"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent included standard opening and closing branding formulas."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent breached dead air standards twice with unannounced silent pauses of 35s and 38s while checking Openreach portals, prompting caller chasing on both occasions."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent completely skipped account security verification, failing to request installation postcode, customer PIN, or security questions during the first 240 seconds or at any point in the call."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent failed to personalize the call, never addressing the customer by name ('Lily') throughout the entire 15-minute conversation."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent completely failed Empathy throughout the call, ignoring opening customer distress regarding lost wages and failed move-in installation, and offering cold corporate guideline deflections during an outburst in the final third."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never provided a restatement of the failed installation, severed dropwire, or work disruption, jumping straight into portal lookups."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent executed an accurate harmless recheck of contact telephone number 12 turns after premise."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent refused to take ownership of the installation failure, refusing to escalate to civils management or dispatch an emergency 4G backup dongle, unhelpfully instructing the customer to re-book online next month."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent thoroughly probed ONT indicator lights, line of sight, and cable damage."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent systematically verified whether caller's questions regarding docket status were answered before closing."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 3,
+          "agent_turn": 16
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 8
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 10
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 12
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 1
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 33
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 55
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "call_id": "ag_31",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 100.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Home office Wi-Fi client isolation and mDNS multicast issue preventing wireless laptops from discovering network scanner/printer on S-Net Hub Pro",
+    "tier": "excellent",
+    "duration_sec": 1190,
+    "notes": "Clean 100% call with boundary closing branding on the 4th-from-last Agent turn ([18:41]), two long managed holds ([08:15], [13:45]), before/after ping verification to 192.168.1.50 ([04:13], [14:21]), and transparent reference to the tier-2 router firmware bulletin ([08:30]) while resolving the issue live.",
+    "hard_cases": [
+      "Branding and Survey Check",
+      "Hold time and Dead Air",
+      "Active listening",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] \"thank you for calling S-Net Technical Fibre Support\" (1st Agent turn) and [18:41] \"Thank you for choosing S-Net for your home office fibre broadband\" (4th-from-last Agent turn, on the exact boundary of the final 4 Agent turns)."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Two properly announced and thanked managed holds: [06:18]–[08:15] (95s gap; announced \"place you on a brief hold\" at [06:18], thanked \"Thank you for holding\" at [08:15]) and [11:31]–[13:45] (110s gap; announced \"bear with me\" at [11:31], thanked \"Thank you for your patience\" at [13:45])."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:22] Declan verified the customer's billing address and four-digit security PIN before accessing router diagnostics."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:22] \"Hi Subramani, I would be glad to help get your home office wireless network sorted out for you today.\""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:27] \"I completely understand how disruptive that is when you are both working from home and cannot print or scan documents, Subramani, and I am sorry for the hassle this has caused your morning.\""
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:41] \"So just to make sure I have captured the exact setup: your S-Net Hub Pro internet access is working, but since this morning neither your MacBook Pro nor the Lenovo ThinkPad on Subramani-Office-5G can reach your Brother MFC-L3770CDW at 192.168.1.50.\""
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Declan retained all network details (`Subramani-Office-5G`, Brother `MFC-L3770CDW`, static IP `192.168.1.50`) and guided before-and-after ping and ARP tests at [04:13] and [14:21] to verify inter-band routing."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[08:30]–[10:22] Declan cited \"our tier-2 router firmware bulletin\" purely as technical context for why `v4.12.8-R2` enabled AP Client Isolation and strict mDNS snooping, while taking full personal ownership to push the bridge fix and NVRAM lock live."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[09:45]–[17:59] Declan maintained a warm, collaborative, and reassuring tone throughout the technical troubleshooting session."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:11]–[05:09] Declan asked targeted diagnostic questions about the printer's connection type (2.4GHz Wi-Fi vs Ethernet), LCD network status, wired NAS reachability, and ICMP/ARP behaviour."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[14:35]–[17:25] Subramani confirmed live 3ms ping replies to `192.168.1.50`, printed a physical test page, executed a preview scan to his MacBook, and confirmed Ready status on the Lenovo ThinkPad."
+      }
+    ]
+  }
+}

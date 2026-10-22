@@ -1,0 +1,425 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Hannah",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Julian. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:20]",
+      "end_time": "[00:38]",
+      "start_time_sec": 20,
+      "text": "Hello Julian. I am paying sixty-five pounds a month for your top-tier Fibre 900 package, but every evening between seven PM and ten PM, our download speed collapses down to fifteen megabits! We can't even stream a television show without endless buffering!",
+      "sentiment_score": -45.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:51]",
+      "end_time": "[01:01]",
+      "start_time_sec": 51,
+      "text": "I can examine your optical line metrics, Hannah. First I need to complete account verification. What is your full name and the installation address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:14]",
+      "end_time": "[01:17]",
+      "start_time_sec": 74,
+      "text": "Hannah Abbott, 19 Woodlands Road, Darlington, DL3 7BF.",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:30]",
+      "end_time": "[01:34]",
+      "start_time_sec": 90,
+      "text": "And what is the four-digit security PIN on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:47]",
+      "end_time": "[01:50]",
+      "start_time_sec": 107,
+      "text": "It's 2814.",
+      "sentiment_score": -5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:03]",
+      "end_time": "[02:18]",
+      "start_time_sec": 123,
+      "text": "So what I understand is you are subscribed to our Fibre 900 tier, but experience severe speed degradation down to fifteen megabits during peak evening hours, impacting streaming and general household browsing, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:31]",
+      "end_time": "[02:43]",
+      "start_time_sec": 151,
+      "text": "Yes, exactly. During the daytime at eleven AM I get nine hundred and twenty megabits, but as soon as peak hours hit, it falls off a cliff.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:56]",
+      "end_time": "[03:00]",
+      "start_time_sec": 176,
+      "text": "What devices are connected when you measure fifteen megabits?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:13]",
+      "end_time": "[03:22]",
+      "start_time_sec": 193,
+      "text": "I tested on my desktop computer wired directly via Cat 6 cable to LAN port 1 of the Hub 5 router.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:35]",
+      "end_time": "[03:43]",
+      "start_time_sec": 215,
+      "text": "And is the optical ONT box on the wall showing a solid green PON light during these peak hours?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:56]",
+      "end_time": "[04:03]",
+      "start_time_sec": 236,
+      "text": "Yes, the PON light stays solid green, and the LAN light flashes amber with network activity.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:16]",
+      "end_time": "[04:26]",
+      "start_time_sec": 256,
+      "text": "That rules out local optical loss of signal. Bear with me for a moment while I query the Darlington exchange aggregation switch telemetry."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:16]",
+      "end_time": "[05:32]",
+      "start_time_sec": 316,
+      "text": "Thank you for your patience, Hannah. Looking at the GPON optical line terminal statistics for your local splitter, the downstream PON tree is running into severe contention with twenty-eight heavy subscribers on the same optical port."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:45]",
+      "end_time": "[05:53]",
+      "start_time_sec": 345,
+      "text": "So you've overloaded the local fibre splitter with too many customers! That is completely unacceptable for a premium package!",
+      "sentiment_score": -42.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:06]",
+      "end_time": "[06:16]",
+      "start_time_sec": 366,
+      "text": "Our wholesale provisioning standards allow up to thirty-two endpoints per GPON port, but three commercial accounts on that tree are saturating peak bandwidth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:29]",
+      "end_time": "[06:35]",
+      "start_time_sec": 389,
+      "text": "Well, I shouldn't be penalized with dial-up speeds because of someone else's commercial usage!",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:48]",
+      "end_time": "[06:54]",
+      "start_time_sec": 408,
+      "text": "Obviously S-Net manages quality of service to ensure residential traffic receives balanced prioritization."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:07]",
+      "end_time": "[07:14]",
+      "start_time_sec": 427,
+      "text": "What can be done right now to get my speed back to what I pay for?",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:27]",
+      "end_time": "[07:42]",
+      "start_time_sec": 447,
+      "text": "I will take direct ownership of this. I have administrative access to the OLT provisioning console, and I can migrate your ONT virtual circuit over to an uncrowded XGS-PON splitter port on card two."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:55]",
+      "end_time": "[08:03]",
+      "start_time_sec": 475,
+      "text": "While we have the diagnostic tool open, what is the optical receive power level showing on the wall unit?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:16]",
+      "end_time": "[08:21]",
+      "start_time_sec": 496,
+      "text": "In the web dashboard, it shows negative eighteen point two dBm.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:34]",
+      "end_time": "[08:42]",
+      "start_time_sec": 514,
+      "text": "Negative eighteen dBm is an optimal light level, well within the negative eight to negative twenty-seven tolerance band."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:55]",
+      "end_time": "[09:00]",
+      "start_time_sec": 535,
+      "text": "Good to know the physical laser signal from the street is healthy.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:13]",
+      "end_time": "[09:18]",
+      "start_time_sec": 553,
+      "text": "And does your computer have a two-point-five gigabit network interface card installed?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:31]",
+      "end_time": "[09:36]",
+      "start_time_sec": 571,
+      "text": "Yes, my motherboard has an integrated two-point-five gigabit Intel Ethernet port.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:49]",
+      "end_time": "[09:57]",
+      "start_time_sec": 589,
+      "text": "Port 1 on the Hub 5 router supports full two-point-five gigabit auto-negotiation, so there are no local bottleneck points."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:10]",
+      "end_time": "[10:14]",
+      "start_time_sec": 610,
+      "text": "That explains why the throughput is so consistently high now.",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:27]",
+      "end_time": "[10:34]",
+      "start_time_sec": 627,
+      "text": "And we also recommend keeping the router firmware on auto-update to receive optical scheduling patches."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:47]",
+      "end_time": "[10:50]",
+      "start_time_sec": 647,
+      "text": "Auto-update is switched on.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:03]",
+      "end_time": "[11:09]",
+      "start_time_sec": 663,
+      "text": "And you don't have any third-party VPN software active on that desktop during testing?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:22]",
+      "end_time": "[11:25]",
+      "start_time_sec": 682,
+      "text": "No VPNs running, clean native connection.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:38]",
+      "end_time": "[11:42]",
+      "start_time_sec": 698,
+      "text": "Can you do that migration remotely without an engineer visit?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:55]",
+      "end_time": "[12:04]",
+      "start_time_sec": 715,
+      "text": "Yes. We can trigger an instantaneous optical port remap from the exchange headend. The ONT will reboot once during the transfer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:17]",
+      "end_time": "[12:27]",
+      "start_time_sec": 737,
+      "text": "Go ahead and run the transfer then. I am tired of paying sixty-five pounds for a premium service that collapses every evening!",
+      "sentiment_score": -42.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:40]",
+      "end_time": "[12:47]",
+      "start_time_sec": 760,
+      "text": "Remapping virtual circuit now. Bear with me for sixty seconds while the optical profile re-authenticates."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:42]",
+      "end_time": "[13:49]",
+      "start_time_sec": 822,
+      "text": "Thank you for holding, Hannah. The ONT has resynchronized onto the dedicated uncrowded XGS-PON port."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:02]",
+      "end_time": "[14:07]",
+      "start_time_sec": 842,
+      "text": "The PON light on the wall unit is solid green again.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:20]",
+      "end_time": "[14:32]",
+      "start_time_sec": 860,
+      "text": "Just to confirm the test setup before you run a speed test, you are testing on your desktop wired to LAN port 1 with Cat 6, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:45]",
+      "end_time": "[14:48]",
+      "start_time_sec": 885,
+      "text": "Yes, wired Cat 6 into port 1.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:01]",
+      "end_time": "[15:06]",
+      "start_time_sec": 901,
+      "text": "Please open the S-Net desktop speed test and start a test run."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:19]",
+      "end_time": "[15:27]",
+      "start_time_sec": 919,
+      "text": "Starting speed test now... Speed dial is shooting up... Three hundred... Six hundred... Eight hundred and eighty-five megabits download!",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:40]",
+      "end_time": "[15:43]",
+      "start_time_sec": 940,
+      "text": "And what is the upload speed measuring?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:56]",
+      "end_time": "[16:02]",
+      "start_time_sec": 956,
+      "text": "Upload is one hundred and ten megabits with an idle ping of six milliseconds!",
+      "sentiment_score": 42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:15]",
+      "end_time": "[16:22]",
+      "start_time_sec": 975,
+      "text": "That confirms your connection is now running at full gigabit line capacity with zero contention."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:35]",
+      "end_time": "[16:43]",
+      "start_time_sec": 995,
+      "text": "That is an astonishing difference. It went from fifteen megabits to nearly nine hundred megabits in ten minutes!",
+      "sentiment_score": 36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:56]",
+      "end_time": "[17:05]",
+      "start_time_sec": 1016,
+      "text": "And because that port migration is hardcoded into the OLT routing table, peak evening congestion will no longer affect your line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:18]",
+      "end_time": "[17:21]",
+      "start_time_sec": 1038,
+      "text": "That gives me so much peace of mind.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:34]",
+      "end_time": "[17:43]",
+      "start_time_sec": 1054,
+      "text": "Just to verify your contact billing email on file, it's hannah dot abbott at darlington dot org dot uk, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:56]",
+      "end_time": "[17:59]",
+      "start_time_sec": 1076,
+      "text": "Yes, that's my email.",
+      "sentiment_score": 10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:12]",
+      "end_time": "[18:19]",
+      "start_time_sec": 1092,
+      "text": "I will log the OLT port change in your service history notes for future reference."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:32]",
+      "end_time": "[18:38]",
+      "start_time_sec": 1112,
+      "text": "Thank you Julian, you knew exactly what buttons to push to fix it.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:51]",
+      "end_time": "[18:58]",
+      "start_time_sec": 1131,
+      "text": "Is there anything else with your Fibre 900 service that I can help with today, Hannah?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:11]",
+      "end_time": "[19:14]",
+      "start_time_sec": 1151,
+      "text": "No, that's everything sorted out completely. Thank you.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[19:27]",
+      "end_time": "[19:32]",
+      "start_time_sec": 1167,
+      "text": "Thank you for choosing S-Net, Hannah, and have a wonderful evening."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:45]",
+      "end_time": "[19:48]",
+      "start_time_sec": 1185,
+      "text": "Thank you Julian, goodbye.",
+      "sentiment_score": 20.0
+    }
+  ]
+}

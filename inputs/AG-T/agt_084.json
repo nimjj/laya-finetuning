@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Selena",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:08]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net broadband advanced technical support, my name is David. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:11]",
+   "end_time": "[00:33]",
+   "start_time_sec": 11,
+   "text": "Hello David, my name is Selena Gomez. Our home broadband connects to standard websites like YouTube and BBC without issue, but whenever we attempt to open UK online banking portals such as Barclays, NatWest, or HSBC, the browser times out with a 'DNS_PROBE_FINISHED_NXDOMAIN' error across all computers and smartphones in our house!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:36]",
+   "end_time": "[00:58]",
+   "start_time_sec": 36,
+   "text": "Good afternoon Selena. If I understand correctly, your home broadband is experiencing DNS resolution failures specifically when accessing UK banking websites with NXDOMAIN errors, while general internet traffic functions normally. Before we inspect your router's domain name resolver telemetry, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:01]",
+   "end_time": "[01:09]",
+   "start_time_sec": 61,
+   "text": "Yes, it is 58 St John's Wood Road, London, NW8 7HX, security PIN 8812, router model S-Net Hub 5.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:12]",
+   "end_time": "[01:21]",
+   "start_time_sec": 72,
+   "text": "Thank you Selena, that confirms your account details. What happens if you attempt to ping the banking domains from a command prompt?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:24]",
+   "end_time": "[01:38]",
+   "start_time_sec": 84,
+   "text": "Pinging barclays.co.uk returns 'Ping request could not find host', but pinging bbc.co.uk returns reply packets in 8 milliseconds.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:41]",
+   "end_time": "[01:55]",
+   "start_time_sec": 101,
+   "text": "Could I place you on hold for two minutes while I query your S-Net Hub 5 local DNS cache and upstream recursive resolver tables?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:20]",
+   "end_time": "[03:39]",
+   "start_time_sec": 200,
+   "text": "Thank you for holding, Selena. The resolver diagnostics indicate that your Hub 5 local DNS proxy cache has a desynchronized authoritative root zone record for the UK financial secure TLD namespace."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:42]",
+   "end_time": "[03:53]",
+   "start_time_sec": 222,
+   "text": "Why would the local DNS proxy cache desynchronize for financial domains?",
+   "sentiment_score": -10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:56]",
+   "end_time": "[04:09]",
+   "start_time_sec": 236,
+   "text": "When regional DNSSEC security keys rotate overnight, the local resolver cache occasionally fails to purge expired cryptographic RRSIG validation records."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:12]",
+   "end_time": "[04:26]",
+   "start_time_sec": 252,
+   "text": "Can you flush the DNS proxy cache and assign fresh upstream resolvers to our Hub 5?",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:29]",
+   "end_time": "[04:40]",
+   "start_time_sec": 269,
+   "text": "Yes, I will remotely flush your hub's DNSSEC cache and configure our ultra-fast primary and secondary recursive resolvers."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:43]",
+   "end_time": "[04:46]",
+   "start_time_sec": 283,
+   "text": "Which resolver IP addresses will you assign?",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:49]",
+   "end_time": "[05:02]",
+   "start_time_sec": 289,
+   "text": "We will assign our core S-Net recursive DNS at 212.158.248.1 and our ultra-secure backup resolver at 1.1.1.1."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:05]",
+   "end_time": "[05:08]",
+   "start_time_sec": 305,
+   "text": "1.1.1.1 is known for lightning-fast secure resolution.",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:11]",
+   "end_time": "[05:23]",
+   "start_time_sec": 311,
+   "text": "I am pushing the updated DNS resolver payload directly to your Hub 5 cloud profile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:26]",
+   "end_time": "[05:39]",
+   "start_time_sec": 326,
+   "text": "The center light on the Hub 5 blinked white for five seconds and returned to solid green.",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:42]",
+   "end_time": "[05:55]",
+   "start_time_sec": 342,
+   "text": "The local DNS proxy daemon has flushed its cache and reloaded the fresh authoritative root zone."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:58]",
+   "end_time": "[06:10]",
+   "start_time_sec": 358,
+   "text": "Should I flush the DNS cache on our home computers as well?",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:13]",
+   "end_time": "[06:24]",
+   "start_time_sec": 373,
+   "text": "Obviously operating systems cache host records locally, so running 'ipconfig /flushdns' ensures immediate synchronization."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:27]",
+   "end_time": "[06:39]",
+   "start_time_sec": 387,
+   "text": "Running 'ipconfig /flushdns' in command prompt right now... 'Successfully flushed the DNS Resolver Cache'.",
+   "sentiment_score": 26.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:42]",
+   "end_time": "[07:06]",
+   "start_time_sec": 402,
+   "text": "Selena speaking, I run an import-export logistics business from home, and I have fifty thousand pounds in international customs VAT duty payments that must be cleared through our NatWest business portal by three o'clock today! If our VAT duty payments bounce because our internet can't resolve banking websites, HM Revenue and Customs will impound three shipping containers at Felixstowe docks and my business will face sixty thousand pounds in demurrage penalties! I am terrified and in sheer panic!",
+   "sentiment_score": -68.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:09]",
+   "end_time": "[07:33]",
+   "start_time_sec": 429,
+   "text": "I completely understand the intense terror, financial panic, and high stakes of your shipping container deadlines today, Selena. Facing sixty thousand pounds in HMRC port penalties over a DNS resolution failure is a critical emergency, and I will personally verify that your NatWest portal and all banking domains load flawlessly right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:36]",
+   "end_time": "[07:46]",
+   "start_time_sec": 456,
+   "text": "Thank you David, please test the connection right away.",
+   "sentiment_score": -2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:49]",
+   "end_time": "[08:01]",
+   "start_time_sec": 469,
+   "text": "Please open your browser, navigate to natwest.com, and attempt to access your business banking login."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:04]",
+   "end_time": "[08:18]",
+   "start_time_sec": 484,
+   "text": "Navigating to natwest.com... David! The NatWest Business Banking portal loaded instantaneously with full SSL green lock! Zero delay!",
+   "sentiment_score": 34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:21]",
+   "end_time": "[08:34]",
+   "start_time_sec": 501,
+   "text": "Fantastic! Now let us test Barclays and HSBC as well to verify comprehensive resolution across all financial domains."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:37]",
+   "end_time": "[08:43]",
+   "start_time_sec": 517,
+   "text": "Opening barclays.co.uk in a new tab... Loaded immediately! Opening hsbc.co.uk... Loaded in half a second!",
+   "sentiment_score": 38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:46]",
+   "end_time": "[08:51]",
+   "start_time_sec": 526,
+   "text": "Now attempt a live test ping to natwest.com from your command prompt terminal."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:54]",
+   "end_time": "[09:00]",
+   "start_time_sec": 534,
+   "text": "Pinging natwest.com... Four replies received! Round trip latency is 9 milliseconds with 0% packet loss!",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:03]",
+   "end_time": "[09:08]",
+   "start_time_sec": 543,
+   "text": "That confirms full end-to-end DNSSEC cryptographic resolution restored across all secure financial gateways."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:11]",
+   "end_time": "[09:19]",
+   "start_time_sec": 551,
+   "text": "I am logging into our NatWest portal right now and authorizing the VAT duty wire transfer as we speak.",
+   "sentiment_score": 34.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:22]",
+   "end_time": "[09:27]",
+   "start_time_sec": 562,
+   "text": "Your customs containers at Felixstowe docks will be cleared with hours to spare."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:30]",
+   "end_time": "[09:34]",
+   "start_time_sec": 570,
+   "text": "You have completely saved my business from disaster today, David.",
+   "sentiment_score": 36.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:37]",
+   "end_time": "[09:44]",
+   "start_time_sec": 577,
+   "text": "I have locked these recursive DNS resolvers as the permanent default on your Hub 5 cloud record."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:47]",
+   "end_time": "[09:52]",
+   "start_time_sec": 587,
+   "text": "That will prevent the router from ever reverting to stale DNS tables.",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:55]",
+   "end_time": "[09:59]",
+   "start_time_sec": 595,
+   "text": "I have documented all network changes under case reference DNS-SEC-88192-S."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:02]",
+   "end_time": "[10:05]",
+   "start_time_sec": 602,
+   "text": "DNS-SEC-88192-S, recorded in our office IT log.",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:08]",
+   "end_time": "[10:13]",
+   "start_time_sec": 608,
+   "text": "Our automated network monitoring will also poll your DNS latency every sixty minutes."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:16]",
+   "end_time": "[10:19]",
+   "start_time_sec": 616,
+   "text": "That is fantastic proactive engineering.",
+   "sentiment_score": 30.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:22]",
+   "end_time": "[10:27]",
+   "start_time_sec": 622,
+   "text": "Thank you Selena, our priority is always safeguarding our business customers' critical connectivity."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:30]",
+   "end_time": "[10:34]",
+   "start_time_sec": 630,
+   "text": "I can breathe easily now. The transfer has been authorized.",
+   "sentiment_score": 34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:37]",
+   "end_time": "[10:44]",
+   "start_time_sec": 637,
+   "text": "Just ensuring my technical audit matches your exact premises: that was 58 St John's Wood Road, wasn't it?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:47]",
+   "end_time": "[10:50]",
+   "start_time_sec": 647,
+   "text": "Yes, 58 St John's Wood Road, London.",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:53]",
+   "end_time": "[10:58]",
+   "start_time_sec": 653,
+   "text": "Thank you Selena, all network parameters and premises records are fully synchronized."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:01]",
+   "end_time": "[11:05]",
+   "start_time_sec": 661,
+   "text": "Thank you David for your brilliant, rapid, and reassuring support.",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:08]",
+   "end_time": "[11:14]",
+   "start_time_sec": 668,
+   "text": "It has been an absolute pleasure assisting you, Selena. Best of luck with your logistics shipments."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:17]",
+   "end_time": "[11:20]",
+   "start_time_sec": 677,
+   "text": "Have a wonderful afternoon, David.",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:23]",
+   "end_time": "[11:29]",
+   "start_time_sec": 683,
+   "text": "Is there any other advanced technical query I can assist you with today, Selena?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:32]",
+   "end_time": "[11:35]",
+   "start_time_sec": 692,
+   "text": "No David, everything is working flawlessly.",
+   "sentiment_score": 30.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:38]",
+   "end_time": "[11:42]",
+   "start_time_sec": 698,
+   "text": "Thank you for calling S-Net broadband advanced technical support, Selena. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:45]",
+   "end_time": "[11:48]",
+   "start_time_sec": 705,
+   "text": "Goodbye David.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:51]",
+   "end_time": "[11:54]",
+   "start_time_sec": 711,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:57]",
+   "end_time": "[12:00]",
+   "start_time_sec": 717,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:03]",
+   "end_time": "[12:06]",
+   "start_time_sec": 723,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:09]",
+   "end_time": "[12:12]",
+   "start_time_sec": 729,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:15]",
+   "end_time": "[12:18]",
+   "start_time_sec": 735,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:21]",
+   "end_time": "[12:26]",
+   "start_time_sec": 741,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  }
+ ]
+}

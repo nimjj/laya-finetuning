@@ -1,0 +1,197 @@
+{
+  "call_id": "agb_23",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 81.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to acknowledge customer's severe distress regarding urgent NHS hospital pathology reports and impending deadlines."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked whether customer had replaced the ADSL microfilter at [09:40], ignoring customer's explicit opening statement that she replaced it yesterday."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Broadband DSL sync dropouts coinciding with kitchen microwave use; frequency channel shifted to 11; agent fails empathy on urgent medical deadline and asks repeat question about microfilter",
+    "tier": "good",
+    "duration_sec": 796,
+    "notes": "The agent diagnosed severe 2.4GHz radio frequency interference from an unshielded kitchen microwave oven dropping local WiFi connectivity, reconfiguring the S-Net Hub to channel 11 and separating the 5GHz frequency band. However, the agent failed Empathy & Acknowledgment Statement at minute 1 when Wendy expressed panic over urgent hospital pathology transcription deadlines, offering only cold procedural instructions, and failed Active Listening at minute 10 by asking whether Wendy had replaced the ADSL microfilter, despite Wendy clearly explaining in turn 3 that she had replaced it yesterday.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Active listening",
+      "Build rapport and observed professionalism",
+      "Probing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:30] Customer: 'I am an NHS medical transcriptionist working on emergency cancer pathology reports with strict hospital deadlines!... I am under extreme stress!' Agent: 'Let us check your router's wireless transmission logs and line sync history...' - Agent completely ignored severe emotional distress and deadline."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[09:40] Agent: 'Have you tried swapping the ADSL microfilter on your telephone wall socket to see if that helps with the signal?' Customer: 'Dominic, I explained at the very start of our phone call that I replaced the microfilter yesterday...' - Agent asked for information already explicitly given."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[09:10] Agent: 'Obviously that confirms the microwave leakage was strictly confined to the 2.4 gigahertz spectrum band, Wendy.' - Calm, objective technical explanation."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:10] Agent: 'How often does this disconnect occur during the day?' - Effective root-cause inquiry."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 48
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 1,
+          "agent_turn": 44,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 42
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 5
+        }
+      ]
+    }
+  }
+}

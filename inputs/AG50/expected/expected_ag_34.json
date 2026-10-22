@@ -1,0 +1,162 @@
+{
+  "call_id": "ag_34",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 53.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "While you used the required opening greeting at [00:00], you ended the call at [15:23] ('Thanks for calling in today, Amarachukwu, bye now') without saying 'Thank you for choosing S-Net' in your final four Agent turns."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "When the customer expressed clear frustration at [00:53]–[01:26] about the overnight update breaking her voice remote, you jumped straight into a technical recap at [01:43] without offering any apology or empathetic acknowledgment."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "The customer explicitly stated at [01:26] that the remote LED flashes amber three times when she presses the microphone button, yet at [07:59] you asked 'And what colour does the light on the remote flash when you press the microphone key?'"
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At [03:50] and [04:15], you blamed an internal S-Net team and disclaimed responsibility by saying 'Our software development team pushed a buggy Bluetooth stack update last night, that's their fault not customer support's.'"
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At [09:22], when the customer's thumb slipped off the button combination, you made a condescending remark: 'Look, pressing Home and Zero together for ten seconds really isn't that hard, Amarachukwu.'"
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "S-Net Stream Box voice remote losing Bluetooth pairing and microphone unresponsive after overnight OS update",
+    "tier": "poor",
+    "duration_sec": 935,
+    "notes": "5 FAILs (B, E, AL, O, R) with strong technical resolution (PA, PR, RE PASS): Liam omits closing branding ([15:23]), shows zero empathy for customer frustration ([01:43]), forgets the amber 3x LED flash stated at [01:26] and re-asks at [07:59], blames the software dev team ([03:50]), and speaks condescendly when her finger slips ([09:22]), yet resolves the Bluetooth pairing live ([12:12]–[14:35]).",
+    "hard_cases": [
+      "Branding and Survey Check",
+      "Empathy & Acknowledgment Statement",
+      "Active listening",
+      "Build rapport and observed professionalism",
+      "Paraphrasing",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Opening at [00:00] included \"thank you for calling S-Net\", but closing at [15:23] said only \"Thanks for calling in today, Amarachukwu, bye now\" and omitted \"Thank you for choosing S-Net\"."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "No holds or dead-air gaps over 30 seconds occurred during the call."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:22] Liam verified the first line of the customer's billing address and four-digit account PIN before accessing the account."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:22] \"Right, Amarachukwu, before we check the Stream Box, give me the first line of your billing address and your four-digit account PIN.\""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer expressed strong frustration at [00:53]–[01:26] (`-28.0` sentiment), and Liam responded at [01:43] with a dry technical recap without any apology or empathy statement anywhere in the call."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:43] \"So just to recap the technical symptoms you are reporting, Amarachukwu: after your S-Net Stream Box installed the overnight StreamOS 6.4.2 update, your voice remote loses its Bluetooth pairing and pressing the microphone button fails to trigger voice input on the television.\""
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [01:26] Amarachukwu stated \"the little LED light at the top of the remote just flashes amber three times\", but at [07:59] Liam asked \"and what colour does the light on the remote flash when you press the microphone key?\""
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[03:50] \"Our software development team pushed a buggy Bluetooth stack update last night, that's their fault not customer support's.\""
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[09:22] \"Look, pressing Home and Zero together for ten seconds really isn't that hard, Amarachukwu.\""
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:17]–[03:28] Liam asked appropriate diagnostic questions regarding the System Info Bluetooth controller revision, battery age, line-of-sight soundbar interference, and other paired Bluetooth devices."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[10:59]–[14:35] After clearing the BLE Bond Table EEPROM and resetting the remote, Amarachukwu confirmed live Bluetooth pairing, tested voice commands ('Open BBC iPlayer' and 'Switch to Channel 4 HD'), and verified persistence across a standby cycle."
+      }
+    ]
+  }
+}

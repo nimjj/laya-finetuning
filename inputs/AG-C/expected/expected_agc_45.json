@@ -1,0 +1,204 @@
+{
+  "call_id": "agc_45",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 55.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Agent omitted both opening branding ('S-Net enterprise and residential broadband support, Umar speaking...') and closing branding ('Have a good day. Goodbye.'), completely failing to say 'Thank you for calling S-Net' or 'Thank you for choosing S-Net'."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked the customer to repeat packet loss and jitter measurements at turn 40, which John had already explicitly stated at turn 5."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Agent made a highly unprofessional, rude remark at turn 17 ('running a commercial telephone brokerage over a cheap residential broadband line... is bound to sound terrible'), insulting the customer's business."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Agent completely failed to probe the softphone setup, omitting checks regarding SIP ALG toggles on the Hub, software codec selection (G.711 vs G.729), or local operating system firewall settings."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent abruptly ended the call at turn 54 while the customer was asking about adding a second softphone, hanging up without confirming complete resolution."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-22",
+    "scenario": "VoIP call echo and severe jitter on home office softphone setup",
+    "tier": "5+",
+    "duration_sec": 1100,
+    "notes": "Home office VoIP call echo and jitter call handled by Umar. Customer's recruitment consultancy experienced robotic distortion and dropped calls. Agent paraphrased well and pushed ACS QoS profile, but failed 5 criteria: Branding (both opening and closing omitted), Active Listening (repeat question), Professionalism (rude remark about cheap line), Probing (omitted SIP ALG/codec checks), and Confirmed Resolved (cut off caller at closing).",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Verified customer",
+      "Personalized the call/ticket appropriately",
+      "Paraphrasing",
+      "Took ownership of the problem",
+      "Branding and Survey Check",
+      "Active listening"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent omitted both opening branding ('S-Net enterprise and residential broadband support, Umar speaking...') and closing branding ('Have a good day. Goodbye.'), completely failing to say 'Thank you for calling S-Net' or 'Thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent executed a professional managed hold of 45s with permission and gratitude."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent verified installation address and 4-digit security PIN within first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent addressed customer naturally by name ('John') multiple times."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent accurately synthesized VoIP packet loss, jitter metrics, and recruitment business impact at turn 8."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked the customer to repeat packet loss and jitter measurements at turn 40, which John had already explicitly stated at turn 5."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent pushed ACS firmware QoS prioritization script, dispatched a 10m Cat6 shielded cable, and applied \u00a320 credit."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent made a highly unprofessional, rude remark at turn 17 ('running a commercial telephone brokerage over a cheap residential broadband line... is bound to sound terrible'), insulting the customer's business."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent completely failed to probe the softphone setup, omitting checks regarding SIP ALG toggles on the Hub, software codec selection (G.711 vs G.729), or local operating system firewall settings."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent abruptly ended the call at turn 54 while the customer was asking about adding a second softphone, hanging up without confirming complete resolution."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "repeat",
+          "premise_turn": 5,
+          "agent_turn": 41
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 15
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 17
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 13
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 1,
+          "agent_turn": 2,
+          "with_refusal": false
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 50
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,434 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Wesley",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net fiber technical faults, my name is Craig. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:14]",
+   "end_time": "[00:35]",
+   "start_time_sec": 14,
+   "text": "Hello, my name is Wesley Cox. Following an electrical lightning storm and power surge in our street last night, our fiber broadband has died completely and the wall-mounted optical network terminal has a solid red 'LOS' alarm light shining on the front, leaving our entire family with zero internet!",
+   "sentiment_score": -45.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:42]",
+   "end_time": "[00:48]",
+   "start_time_sec": 42,
+   "text": "I can check the optical status. What is your fiber ONT serial number and account number?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:55]",
+   "end_time": "[01:02]",
+   "start_time_sec": 55,
+   "text": "The ONT serial is SN-ONT-449102, account SN-771920, registered to 15 Orchard Close, Taunton, TA1 4NE, security PIN 8812.",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:09]",
+   "end_time": "[01:13]",
+   "start_time_sec": 69,
+   "text": "Let me open the Taunton fiber headend optical distribution console."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:20]",
+   "end_time": "[01:30]",
+   "start_time_sec": 80,
+   "text": "Please check why the red LOS light is on.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:37]",
+   "end_time": "[01:48]",
+   "start_time_sec": 97,
+   "text": "Could I place you on hold for two minutes while I query the passive optical splitter port registers?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:13]",
+   "end_time": "[03:27]",
+   "start_time_sec": 193,
+   "text": "Thank you for holding. The optical line terminal at the telephone exchange shows an unrecoverable signal fault on your fiber port."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:34]",
+   "end_time": "[03:58]",
+   "start_time_sec": 214,
+   "text": "An unrecoverable signal fault?! S-Net charged us two hundred pounds for this fiber installation and guaranteed uninterrupted gigabit reliability! Now a single rainstorm knocks out our internet and leaves a red light on my wall! This equipment is flimsy rubbish and I am furious!",
+   "sentiment_score": -72.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:04]",
+   "end_time": "[04:27]",
+   "start_time_sec": 244,
+   "text": "I completely understand your frustration and anger, especially having invested two hundred pounds in fiber installation and expecting resilient gigabit service only to have a power surge disrupt your connection. Let us investigate what happened so we can get your line restored."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:33]",
+   "end_time": "[04:44]",
+   "start_time_sec": 273,
+   "text": "Thank you Craig, please fix it as soon as possible.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:50]",
+   "end_time": "[04:58]",
+   "start_time_sec": 290,
+   "text": "Power surges can damage internal optoelectronic diodes on the ONT board."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:04]",
+   "end_time": "[05:15]",
+   "start_time_sec": 304,
+   "text": "Can you replace the damaged optical hardware as soon as possible?",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:21]",
+   "end_time": "[05:31]",
+   "start_time_sec": 321,
+   "text": "I am stating the standard causes of optical receiver burnout."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:37]",
+   "end_time": "[05:48]",
+   "start_time_sec": 337,
+   "text": "Craig? Are you still there? The line was dead for forty seconds!",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:28]",
+   "end_time": "[06:39]",
+   "start_time_sec": 388,
+   "text": "I was waiting for the Taunton OLT line card diagnostics to refresh."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:45]",
+   "end_time": "[06:56]",
+   "start_time_sec": 405,
+   "text": "Can you reset the fiber port from your end?",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:02]",
+   "end_time": "[07:15]",
+   "start_time_sec": 422,
+   "text": "Obviously optical LOS indicates complete loss of incoming laser light that cannot be fixed by software reboots."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:21]",
+   "end_time": "[07:31]",
+   "start_time_sec": 441,
+   "text": "So the laser fiber cable itself is severed or dead?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:37]",
+   "end_time": "[07:49]",
+   "start_time_sec": 457,
+   "text": "The optical receiver diode inside your ONT has failed or the external fiber pigtail is broken."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:55]",
+   "end_time": "[08:05]",
+   "start_time_sec": 475,
+   "text": "Can you dispatch an engineer to replace the ONT today?",
+   "sentiment_score": -18.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:11]",
+   "end_time": "[08:35]",
+   "start_time_sec": 491,
+   "text": "Wesley speaking, I am a freelance digital animator and 3D visual effects director, and at five o'clock today I have a non-negotiable delivery deadline for a thirty-second Super Bowl television commercial render! If I fail to upload these visual effects files to the Hollywood studio servers by five o'clock, the advertising agency will cancel our six-figure contract, our production studio will go bankrupt, and all seven of my staff will be laid off! I am having severe chest pains and a complete panic breakdown!",
+   "sentiment_score": -88.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:41]",
+   "end_time": "[08:53]",
+   "start_time_sec": 521,
+   "text": "The earliest Openreach specialized optical repair appointment is Monday afternoon between one and six o'clock."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:59]",
+   "end_time": "[09:18]",
+   "start_time_sec": 539,
+   "text": "Monday afternoon?! Did you not hear a single word I just said about Hollywood studio servers and bankruptcy?! Are you completely deaf or do you just enjoy watching customers suffer?!",
+   "sentiment_score": -82.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:24]",
+   "end_time": "[09:38]",
+   "start_time_sec": 564,
+   "text": "If you run a commercial digital animation studio from a residential broadband line, that is your own reckless negligence and poor planning."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:44]",
+   "end_time": "[09:57]",
+   "start_time_sec": 584,
+   "text": "Can you not offer an emergency mobile broadband backup or 4G router right now?",
+   "sentiment_score": -44.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:03]",
+   "end_time": "[10:12]",
+   "start_time_sec": 603,
+   "text": "Emergency 4G backup dongles can be collected from an S-Net retail store."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:18]",
+   "end_time": "[10:28]",
+   "start_time_sec": 618,
+   "text": "Where is the nearest retail store with stock?",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:34]",
+   "end_time": "[10:44]",
+   "start_time_sec": 634,
+   "text": "The nearest store is at the Taunton Orchard Shopping Centre."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:50]",
+   "end_time": "[11:02]",
+   "start_time_sec": 650,
+   "text": "Will they hand me a 4G router if I show my account number?",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:08]",
+   "end_time": "[11:11]",
+   "start_time_sec": 668,
+   "text": "They require photo identification and account confirmation."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:17]",
+   "end_time": "[11:27]",
+   "start_time_sec": 677,
+   "text": "I will drive to the shopping centre immediately.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:33]",
+   "end_time": "[11:47]",
+   "start_time_sec": 693,
+   "text": "Craig?! Hello?! Did you vanish again?! Why does your phone line keep going silent for forty seconds?!",
+   "sentiment_score": -44.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:53]",
+   "end_time": "[12:02]",
+   "start_time_sec": 713,
+   "text": "I was booking the Monday afternoon optical engineering appointment."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:42]",
+   "end_time": "[12:45]",
+   "start_time_sec": 762,
+   "text": "Is the appointment confirmed?",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:51]",
+   "end_time": "[13:02]",
+   "start_time_sec": 771,
+   "text": "The engineering visit is booked for Monday between 1:00 PM and 6:00 PM."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:08]",
+   "end_time": "[13:11]",
+   "start_time_sec": 788,
+   "text": "Give me the booking reference number.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:17]",
+   "end_time": "[13:20]",
+   "start_time_sec": 797,
+   "text": "Your engineering appointment reference is FBR-REP-88192-T."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:26]",
+   "end_time": "[13:29]",
+   "start_time_sec": 806,
+   "text": "FBR-REP-88192-T, noted down.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:35]",
+   "end_time": "[13:43]",
+   "start_time_sec": 815,
+   "text": "The engineer will replace the wall-mounted optical terminal."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:49]",
+   "end_time": "[14:01]",
+   "start_time_sec": 829,
+   "text": "I will collect the 4G backup unit from the retail store right now.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:07]",
+   "end_time": "[14:15]",
+   "start_time_sec": 847,
+   "text": "Before we conclude, what was that fiber ONT serial number again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:21]",
+   "end_time": "[14:27]",
+   "start_time_sec": 861,
+   "text": "As I told you right at the start of our call, it is SN-ONT-449102.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:33]",
+   "end_time": "[14:36]",
+   "start_time_sec": 873,
+   "text": "Thank you, serial number confirmed on the ticket."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:42]",
+   "end_time": "[14:45]",
+   "start_time_sec": 882,
+   "text": "Your customer service was cold and appalling.",
+   "sentiment_score": -32.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:51]",
+   "end_time": "[14:54]",
+   "start_time_sec": 891,
+   "text": "Is there any other query today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:00]",
+   "end_time": "[15:03]",
+   "start_time_sec": 900,
+   "text": "No, goodbye.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:09]",
+   "end_time": "[15:12]",
+   "start_time_sec": 909,
+   "text": "Thank you for calling S-Net fiber technical faults. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:18]",
+   "end_time": "[15:21]",
+   "start_time_sec": 918,
+   "text": "Goodbye.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:27]",
+   "end_time": "[15:30]",
+   "start_time_sec": 927,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:36]",
+   "end_time": "[15:39]",
+   "start_time_sec": 936,
+   "text": "Goodbye.",
+   "sentiment_score": -10.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:45]",
+   "end_time": "[15:48]",
+   "start_time_sec": 945,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:54]",
+   "end_time": "[15:57]",
+   "start_time_sec": 954,
+   "text": "Goodbye.",
+   "sentiment_score": -6.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:03]",
+   "end_time": "[16:06]",
+   "start_time_sec": 963,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:12]",
+   "end_time": "[16:15]",
+   "start_time_sec": 972,
+   "text": "Goodbye.",
+   "sentiment_score": -2.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:21]",
+   "end_time": "[16:24]",
+   "start_time_sec": 981,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:30]",
+   "end_time": "[16:35]",
+   "start_time_sec": 990,
+   "text": "Goodbye.",
+   "sentiment_score": 0.0
+  }
+ ]
+}

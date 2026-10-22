@@ -1,0 +1,628 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Angus",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer service, my name is Morag. How may I assist you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:20]",
+      "start_time_sec": 8,
+      "text": "Hello Morag. I've received a parcel in the post with a green adapter plug for our landline phone, but I am terrified to touch it because of my wife's emergency medical care alarm.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:21]",
+      "end_time": "[00:30]",
+      "start_time_sec": 21,
+      "text": "I can certainly guide you through setting up that Digital Voice adapter and make sure your wife's care alarm is completely safe, Angus. May I take your account number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:31]",
+      "end_time": "[00:37]",
+      "start_time_sec": 31,
+      "text": "Yes, it is SN 820 5519, under Angus MacIntyre.",
+      "sentiment_score": 1.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:38]",
+      "end_time": "[00:48]",
+      "start_time_sec": 38,
+      "text": "Thank you, Angus. For security, could you please confirm your full installation address and your four-digit account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:49]",
+      "end_time": "[00:58]",
+      "start_time_sec": 49,
+      "text": "We are at 45 Deeside Gardens, Aberdeen, AB15 7PT. And the security PIN is 3814.",
+      "sentiment_score": 3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:59]",
+      "end_time": "[01:08]",
+      "start_time_sec": 59,
+      "text": "That has verified your account, thank you. You have our Fibre 50 broadband and Digital Voice home landline transition plan."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:09]",
+      "end_time": "[01:14]",
+      "start_time_sec": 69,
+      "text": "Yes, following the letter about the old copper network closing down.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:15]",
+      "end_time": "[01:27]",
+      "start_time_sec": 75,
+      "text": "So to make sure I understand your concerns completely: you have received the Digital Voice telephone adapter for the national copper retirement, but you need certainty that your wife's telecare pendant will work properly before switching cables, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:28]",
+      "end_time": "[01:42]",
+      "start_time_sec": 88,
+      "text": "Yes, exactly that. My wife had a stroke last year, and her red SOS button connects through a Tunstall Lifeline box into the wall phone socket. If that fails to dial the monitoring warden, it could literally be a matter of life and death.",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:43]",
+      "end_time": "[01:55]",
+      "start_time_sec": 103,
+      "text": "I completely understand how critical and frightening that is for you both, Angus. Please do not worry. We will check the telecare certification and do a live alarm test together before we finish today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:56]",
+      "end_time": "[02:01]",
+      "start_time_sec": 116,
+      "text": "Thank you Morag, you have no idea what a relief it is to hear you say that.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:02]",
+      "end_time": "[02:13]",
+      "start_time_sec": 122,
+      "text": "What is the exact model number printed on the base of your wife's Tunstall telecare unit? Is it a Lifeline Vi or Vi Plus?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:14]",
+      "end_time": "[02:22]",
+      "start_time_sec": 134,
+      "text": "Let me look underneath the white unit... it says 'Tunstall Lifeline Vi Plus' on the silver label.",
+      "sentiment_score": 2.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:23]",
+      "end_time": "[02:35]",
+      "start_time_sec": 143,
+      "text": "Bear with me for a couple of minutes while I check the telecare compatibility register for Tunstall devices and verify our VoIP exchange codec settings."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:36]",
+      "end_time": "[02:39]",
+      "start_time_sec": 156,
+      "text": "Thank you, I will hold on.",
+      "sentiment_score": 3.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:30]",
+      "end_time": "[03:41]",
+      "start_time_sec": 210,
+      "text": "Thank you for holding, Angus. I have reviewed the national telecare interoperability matrix for the Tunstall Lifeline Vi Plus."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:42]",
+      "end_time": "[03:46]",
+      "start_time_sec": 222,
+      "text": "What does the official register say, Morag?",
+      "sentiment_score": 1.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:47]",
+      "end_time": "[04:00]",
+      "start_time_sec": 227,
+      "text": "The Lifeline Vi Plus is fully certified for S-Net Digital Voice using standard dual-tone multi-frequency signaling over our G.711 uncompressed audio codec."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:01]",
+      "end_time": "[04:07]",
+      "start_time_sec": 241,
+      "text": "So it is designed to communicate properly over the internet line?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:08]",
+      "end_time": "[04:20]",
+      "start_time_sec": 248,
+      "text": "Yes, completely. It communicates with the Aberdeen City Council monitoring center using the exact same tone frequencies as old copper wires."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:21]",
+      "end_time": "[04:26]",
+      "start_time_sec": 261,
+      "text": "What happens if there is a power cut on our street? That was my other big worry.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:27]",
+      "end_time": "[04:39]",
+      "start_time_sec": 267,
+      "text": "Because you have an emergency telecare alarm on the premises, you are entitled to our free Battery Backup Unit, which keeps the router and adapter powered for over one hour during a blackout."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:40]",
+      "end_time": "[04:46]",
+      "start_time_sec": 280,
+      "text": "Was that the black rectangular power bank included in the postal box?",
+      "sentiment_score": 6.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:47]",
+      "end_time": "[04:58]",
+      "start_time_sec": 287,
+      "text": "Yes, precisely! That is an uninterruptible power supply. It plugs between the wall socket and your Hub to ensure continuous operation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:59]",
+      "end_time": "[05:05]",
+      "start_time_sec": 299,
+      "text": "That is so sensible. I didn't realise what that black box was for.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:06]",
+      "end_time": "[05:18]",
+      "start_time_sec": 306,
+      "text": "Let's connect everything together step by step. Have you got the small green telephone adapter that came in the parcel?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:19]",
+      "end_time": "[05:25]",
+      "start_time_sec": 319,
+      "text": "Yes, I have it right here in my hand. It has a green phone plug on one end.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:26]",
+      "end_time": "[05:38]",
+      "start_time_sec": 326,
+      "text": "Look at the back of your S-Net broadband Hub. You will see a green telephone socket labeled 'TEL 1'. Plug that green plug firmly into TEL 1."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:39]",
+      "end_time": "[05:48]",
+      "start_time_sec": 339,
+      "text": "Okay... pushing the green plug into the green socket labeled TEL 1... clicked in firmly with a little click.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:49]",
+      "end_time": "[06:01]",
+      "start_time_sec": 349,
+      "text": "Now look at the white Tunstall Lifeline unit on the hallway table. Its telephone lead is currently plugged into the old BT wall master socket, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:02]",
+      "end_time": "[06:08]",
+      "start_time_sec": 362,
+      "text": "Yes, it is plugged into the master telephone socket on the skirting board.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:09]",
+      "end_time": "[06:21]",
+      "start_time_sec": 369,
+      "text": "Unplug that standard telephone plug from the wall socket, and plug it directly into the receiving end of the green adapter cable from the Hub."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:22]",
+      "end_time": "[06:33]",
+      "start_time_sec": 382,
+      "text": "Squeezing the little clip... unplugged from the wall socket... and pushing it firmly into the green adapter socket... clicked in!",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:34]",
+      "end_time": "[06:46]",
+      "start_time_sec": 394,
+      "text": "And is your standard cordless home telephone handset plugged into the secondary extension socket on the back of the Tunstall unit?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:47]",
+      "end_time": "[06:54]",
+      "start_time_sec": 407,
+      "text": "Yes, the cordless phone has always been daisy-chained through the back of the alarm box.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:55]",
+      "end_time": "[07:07]",
+      "start_time_sec": 415,
+      "text": "Now, pick up your cordless telephone handset and listen to the earpiece. You should hear a clear, uninterrupted digital dial tone."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:08]",
+      "end_time": "[07:18]",
+      "start_time_sec": 428,
+      "text": "Lifting the receiver to my ear... oh, yes! A crystal clear dial tone! It sounds much clearer than our old crackly line!",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:19]",
+      "end_time": "[07:31]",
+      "start_time_sec": 439,
+      "text": "Just to verify after that switchover, Angus: is the green status LED on the Tunstall Lifeline unit showing solid green without any red fault light?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:32]",
+      "end_time": "[07:38]",
+      "start_time_sec": 452,
+      "text": "Yes, a steady solid green light on the front of the Lifeline box.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:39]",
+      "end_time": "[07:51]",
+      "start_time_sec": 459,
+      "text": "Now comes the most important part of our test. Please press the red emergency SOS button on your wife's wearable pendant or on the main unit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:52]",
+      "end_time": "[08:00]",
+      "start_time_sec": 472,
+      "text": "Okay, pressing the big red circular button on the Lifeline unit now... it has started beeping and dialling.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:01]",
+      "end_time": "[08:12]",
+      "start_time_sec": 481,
+      "text": "Stay on the line with me. The speaker on the unit will announce the call connection and the operator will answer via the hands-free speaker."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:13]",
+      "end_time": "[08:26]",
+      "start_time_sec": 493,
+      "text": "It's ringing through... a voice over the speaker is saying 'Aberdeen Community Alarm, operator 12 speaking, Mrs MacIntyre are you okay?'",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:27]",
+      "end_time": "[08:38]",
+      "start_time_sec": 507,
+      "text": "Speak to the operator and let them know you are doing an authorized Digital Voice installation test with your telecoms provider."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:39]",
+      "end_time": "[08:52]",
+      "start_time_sec": 519,
+      "text": "Speaking to the operator now... 'Hello, this is Angus MacIntyre, we are just testing our new digital adapter with S-Net'... She says the signal received is 100 percent clear with full two-way audio!",
+      "sentiment_score": 46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:53]",
+      "end_time": "[09:05]",
+      "start_time_sec": 533,
+      "text": "That is absolutely fantastic! The emergency telecare protocol has transmitted, handshaked, and verified two-way speech flawlessly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:06]",
+      "end_time": "[09:14]",
+      "start_time_sec": 546,
+      "text": "The operator has logged the successful test and disconnected. A huge weight has just lifted off my chest, Morag.",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:15]",
+      "end_time": "[09:28]",
+      "start_time_sec": 555,
+      "text": "So to confirm, Angus: your Digital Voice adapter is installed, the landline dial tone is clear, and your wife's emergency telecare pendant has been live-tested and verified with the warden?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:29]",
+      "end_time": "[09:37]",
+      "start_time_sec": 569,
+      "text": "Yes, 100 percent resolved. You have been so patient, kind, and knowledgeable. I was dreading this call all morning.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:38]",
+      "end_time": "[09:51]",
+      "start_time_sec": 578,
+      "text": "I am so glad we could give you complete peace of mind, Angus. I have recorded the successful telecare integration on your account profile so our engineering team has full visibility."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:52]",
+      "end_time": "[09:58]",
+      "start_time_sec": 592,
+      "text": "That's wonderful. And the old copper wall socket is just left alone now?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:59]",
+      "end_time": "[10:12]",
+      "start_time_sec": 599,
+      "text": "Yes, the old wall socket is completely decommissioned. Everything now routes reliably through your optical fibre broadband connection."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:13]",
+      "end_time": "[10:19]",
+      "start_time_sec": 613,
+      "text": "Understood. The white box on the skirting board can just stay empty.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:20]",
+      "end_time": "[10:33]",
+      "start_time_sec": 620,
+      "text": "And remember, your battery backup unit is fully charged and will automatically kick in if there is any power interruption in Deeside Gardens."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:34]",
+      "end_time": "[10:41]",
+      "start_time_sec": 634,
+      "text": "Knowing that battery is sitting there gives me such confidence during winter storms.",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:42]",
+      "end_time": "[10:55]",
+      "start_time_sec": 642,
+      "text": "Is there anything else regarding your broadband, home phone service, or billing that I can assist you with today, Angus?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:56]",
+      "end_time": "[11:02]",
+      "start_time_sec": 656,
+      "text": "No, that was everything. You have been an absolute angel today, Morag.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:03]",
+      "end_time": "[11:16]",
+      "start_time_sec": 663,
+      "text": "It was my sincere pleasure to help you and your wife, Angus. Please pass on my warmest regards to Mrs MacIntyre."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:17]",
+      "end_time": "[11:23]",
+      "start_time_sec": 677,
+      "text": "I certainly will. Have a wonderful day!",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:24]",
+      "end_time": "[11:42]",
+      "start_time_sec": 684,
+      "text": "Thank you for choosing S-Net, Angus. Take care and goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:43]",
+      "end_time": "[11:50]",
+      "start_time_sec": 703,
+      "text": "Thank you, goodbye!",
+      "sentiment_score": 11.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:51]",
+      "end_time": "[12:15]",
+      "start_time_sec": 711,
+      "text": "Thank you for choosing S-Net, Angus. Have a wonderful day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:16]",
+      "end_time": "[12:22]",
+      "start_time_sec": 736,
+      "text": "Goodbye Morag.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:23]",
+      "end_time": "[12:45]",
+      "start_time_sec": 743,
+      "text": "Goodbye, take care."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:46]",
+      "end_time": "[12:52]",
+      "start_time_sec": 766,
+      "text": "Take care.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:53]",
+      "end_time": "[13:15]",
+      "start_time_sec": 773,
+      "text": "Thank you for choosing S-Net."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:16]",
+      "end_time": "[13:22]",
+      "start_time_sec": 796,
+      "text": "Thank you.",
+      "sentiment_score": 7.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:23]",
+      "end_time": "[13:45]",
+      "start_time_sec": 803,
+      "text": "Have a lovely rest of your day, Angus."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:46]",
+      "end_time": "[13:52]",
+      "start_time_sec": 826,
+      "text": "You too, Morag.",
+      "sentiment_score": 9.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:53]",
+      "end_time": "[14:15]",
+      "start_time_sec": 833,
+      "text": "All the best to your family in Aberdeen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:16]",
+      "end_time": "[14:22]",
+      "start_time_sec": 856,
+      "text": "All the best.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:23]",
+      "end_time": "[14:45]",
+      "start_time_sec": 863,
+      "text": "We are always here if you ever have any questions about your digital phone line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:46]",
+      "end_time": "[14:52]",
+      "start_time_sec": 886,
+      "text": "That is so good to know.",
+      "sentiment_score": 11.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:53]",
+      "end_time": "[15:15]",
+      "start_time_sec": 893,
+      "text": "Take care of yourself and Mrs MacIntyre, Angus."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:16]",
+      "end_time": "[15:22]",
+      "start_time_sec": 916,
+      "text": "I will do, thank you.",
+      "sentiment_score": 9.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:23]",
+      "end_time": "[15:45]",
+      "start_time_sec": 923,
+      "text": "Thank you for choosing S-Net."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:46]",
+      "end_time": "[15:52]",
+      "start_time_sec": 946,
+      "text": "Thank you.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:53]",
+      "end_time": "[16:15]",
+      "start_time_sec": 953,
+      "text": "Have a lovely evening."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:16]",
+      "end_time": "[16:22]",
+      "start_time_sec": 976,
+      "text": "You too.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:23]",
+      "end_time": "[16:45]",
+      "start_time_sec": 983,
+      "text": "Goodbye, Angus."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:46]",
+      "end_time": "[16:52]",
+      "start_time_sec": 1006,
+      "text": "Goodbye Morag.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:53]",
+      "end_time": "[17:04]",
+      "start_time_sec": 1013,
+      "text": "Thank you for choosing S-Net, Angus. Goodbye."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "call_id": "ag_32",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 78.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "At [00:06] the customer introduced herself as Genevieve Whitaker, but you only addressed her as 'Mrs Whitaker' throughout the call and never used her first name 'Genevieve'."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "After the customer explained her accessibility request at [00:40]–[01:13], you proceeded directly to applying the exemption at [02:08]–[03:12] without asking a single probing or clarifying question (such as whether she also needed Braille, audio CD bills, or a nominated third-party contact)."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Paper bill fee (£3.50/month) exemption and registration for large-print accessible statements",
+    "tier": "good",
+    "duration_sec": 640,
+    "notes": "Hard-case FAIL on Personalization (Gavin addresses the customer politely as 'Mrs Whitaker' throughout but never says 'Genevieve', failing the deterministic customer_name check) and hard-case FAIL on Probing (Genevieve volunteers all details upfront at [00:40]–[01:13] and Gavin resolves everything warmly without asking a single probing question). Live resolution confirmed via VoiceOver at [07:10]–[07:32].",
+    "hard_cases": [
+      "Personalized the call/ticket appropriately",
+      "Probing",
+      "Paraphrasing",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] \"thank you for calling S-Net Billing and Account Support\" and [10:15] \"Thank you for choosing S-Net, Mrs Whitaker\" plus survey check."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "No holds or dead-air gaps over 30 seconds occurred during the call."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:15] Gavin verified the customer's postal address and four-digit security PIN within the first 4 minutes."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer stated \"My name is Genevieve, Genevieve Whitaker\" at [00:06], but Gavin only used \"Mrs Whitaker\" ([00:15], [00:33], [01:27], [02:26], etc.) and never said \"Genevieve\" in any Agent turn."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:27] \"I am so sorry to hear about your wet macular degeneration diagnosis, Mrs Whitaker, and I completely understand how stressful and tiring it must be trying to manage your household bills when standard print is impossible to read.\""
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:40] \"Let me make sure I have captured everything accurately for you: following your macular degeneration diagnosis, you need your account registered for eighteen-point high-contrast large-print postal statements, the ongoing £3.50 monthly paper bill fee waived permanently, and a £10.50 refund for the August, September, and October paper bill charges.\""
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:08]–[04:55] Gavin accurately retained every detail Genevieve shared upfront (August, September, and October £3.50 charges totalling £10.50, 18-point large print, and Harrogate address) without asking her to repeat anything."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:12]–[06:05] Gavin personally enabled the Priority Accessibility Flag, credited £10.50 live, queued a free First Class large-print reprint of the October bill, and enabled 195 Directory Enquiries and Priority Fault Repair."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:26]–[09:48] Gavin was warm, respectful, patient with the customer's VoiceOver check, and reassuring throughout."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Following verification at [00:15] and the customer's upfront explanation at [00:40]–[01:13], Gavin asked zero diagnostic or clarifying probing questions across the entire remainder of the call ([01:27]–[10:36])."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[07:10]–[07:39] Genevieve checked the S-Net app using Apple VoiceOver live on the call and confirmed the £10.50 credit (balance reduced from £34.99 to £24.49) and `Large Print 18pt High Contrast, Monthly Paper Fee Exempt` status."
+      }
+    ]
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Faisal",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net advanced technical support, my name is Darren. How can I assist you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:12]",
+      "end_time": "[00:30]",
+      "start_time_sec": 12,
+      "text": "Hi Darren. I am having a massive headache with your Hub Pro router. My wireless HP LaserJet printer is connected to the two-point-four gigahertz band, but none of my laptops on the five gigahertz band can discover it via mDNS or AirPrint!",
+      "sentiment_score": -38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:34]",
+      "end_time": "[00:43]",
+      "start_time_sec": 34,
+      "text": "I can help with local network configuration. Let's start with security verification. What is your full name and billing address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:47]",
+      "end_time": "[00:50]",
+      "start_time_sec": 47,
+      "text": "Faisal Qureshi, 102 Highfield Lane, Southampton, SO17 1RN.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:54]",
+      "end_time": "[00:59]",
+      "start_time_sec": 54,
+      "text": "And what is the four-digit security PIN on the account, Faisal?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:03]",
+      "end_time": "[01:06]",
+      "start_time_sec": 63,
+      "text": "It's 3820.",
+      "sentiment_score": -5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:10]",
+      "end_time": "[01:16]",
+      "start_time_sec": 70,
+      "text": "What IP address has the Hub Pro DHCP server assigned to that HP printer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:20]",
+      "end_time": "[01:23]",
+      "start_time_sec": 80,
+      "text": "It has a static DHCP reservation at 192.168.1.140.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:27]",
+      "end_time": "[01:32]",
+      "start_time_sec": 87,
+      "text": "Can you ping 192.168.1.140 from a laptop on the five gigahertz network?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:36]",
+      "end_time": "[01:48]",
+      "start_time_sec": 96,
+      "text": "Yes, standard ICMP ping replies in two milliseconds, so Layer 3 IP routing works, but UDP port 5353 multicast packets are being blocked completely by the router!",
+      "sentiment_score": -16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:52]",
+      "end_time": "[01:59]",
+      "start_time_sec": 112,
+      "text": "The Hub Pro firmware enabled Wireless Client Isolation by default in the recent security patch."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:03]",
+      "end_time": "[02:18]",
+      "start_time_sec": 123,
+      "text": "Why on earth would you turn on client isolation by default on a home router? It breaks every wireless printer and Chromecast in the house! I've wasted my entire evening trying to print tax documents!",
+      "sentiment_score": -42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:22]",
+      "end_time": "[02:28]",
+      "start_time_sec": 142,
+      "text": "Client isolation prevents untrusted IoT devices from probing other computers on the local subnet."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:32]",
+      "end_time": "[02:41]",
+      "start_time_sec": 152,
+      "text": "I know what it does, but there should have been a clear toggle or warning in the firmware release notes.",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:45]",
+      "end_time": "[02:52]",
+      "start_time_sec": 165,
+      "text": "Obviously users who want cross-band multicast discovery can disable the isolation toggle in the web admin GUI."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:56]",
+      "end_time": "[03:02]",
+      "start_time_sec": 176,
+      "text": "Where is the toggle? I looked under Advanced Wireless and couldn't see it.",
+      "sentiment_score": -10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:06]",
+      "end_time": "[03:09]",
+      "start_time_sec": 186,
+      "text": "Open your web browser and navigate to 192.168.1.1."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:13]",
+      "end_time": "[03:16]",
+      "start_time_sec": 193,
+      "text": "Logged into the Hub Pro admin console now.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:20]",
+      "end_time": "[03:24]",
+      "start_time_sec": 200,
+      "text": "Click on the 'Advanced' tab on the left navigation bar."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:28]",
+      "end_time": "[03:31]",
+      "start_time_sec": 208,
+      "text": "Clicked Advanced.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:35]",
+      "end_time": "[03:42]",
+      "start_time_sec": 215,
+      "text": "Now click on 'LAN IP & Subnets', then scroll down to 'Multicast & mDNS Filtering'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:46]",
+      "end_time": "[03:52]",
+      "start_time_sec": 226,
+      "text": "Okay, I see 'IGMP Snooping' and 'Wireless Client Isolation'. Both have green checkmarks.",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:56]",
+      "end_time": "[04:03]",
+      "start_time_sec": 236,
+      "text": "Are you using band steering where both frequencies share the same SSID name, or separate network names?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:07]",
+      "end_time": "[04:10]",
+      "start_time_sec": 247,
+      "text": "Both frequencies share the single SSID name 'HomeNetwork'.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:14]",
+      "end_time": "[04:21]",
+      "start_time_sec": 254,
+      "text": "And does the printer have a strong Wi-Fi signal rating in the web GUI device table?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:25]",
+      "end_time": "[04:31]",
+      "start_time_sec": 265,
+      "text": "It shows negative sixty-two dBm, which is about four out of five bars.",
+      "sentiment_score": 6.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:35]",
+      "end_time": "[04:39]",
+      "start_time_sec": 275,
+      "text": "That is an ideal signal level for a stationary printer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:43]",
+      "end_time": "[04:50]",
+      "start_time_sec": 283,
+      "text": "Yes, it has a direct line of sight through the open doorway to the router.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:54]",
+      "end_time": "[05:01]",
+      "start_time_sec": 294,
+      "text": "And you don't have any third-party Wi-Fi mesh extenders in between the router and printer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:05]",
+      "end_time": "[05:09]",
+      "start_time_sec": 305,
+      "text": "No, just the standalone Hub Pro router in the study.",
+      "sentiment_score": 10.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:13]",
+      "end_time": "[05:16]",
+      "start_time_sec": 313,
+      "text": "Uncheck the box that says 'Wireless Client Isolation'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:20]",
+      "end_time": "[05:23]",
+      "start_time_sec": 320,
+      "text": "Unchecked.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:27]",
+      "end_time": "[05:35]",
+      "start_time_sec": 327,
+      "text": "And make sure the box for 'IGMP Snooping' remains checked, because that enables efficient multicast packet forwarding between bands."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:39]",
+      "end_time": "[05:46]",
+      "start_time_sec": 339,
+      "text": "IGMP Snooping is checked. Clicking Apply Changes now. This whole setup has been an utter nightmare!",
+      "sentiment_score": -38.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:50]",
+      "end_time": "[05:57]",
+      "start_time_sec": 350,
+      "text": "The wireless chipsets will take about thirty seconds to reload the bridging tables. Bear with me."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:32]",
+      "end_time": "[06:40]",
+      "start_time_sec": 392,
+      "text": "Thank you for waiting, Faisal. Now what is the IP address of that HP printer on your network again?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:44]",
+      "end_time": "[06:47]",
+      "start_time_sec": 404,
+      "text": "Like I said earlier, it's 192.168.1.140.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:51]",
+      "end_time": "[06:57]",
+      "start_time_sec": 411,
+      "text": "Right, open the print dialogue on your laptop on the five gigahertz Wi-Fi now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:01]",
+      "end_time": "[07:06]",
+      "start_time_sec": 421,
+      "text": "Opening System Settings on my MacBook... Printers & Scanners... Clicking Add Printer...",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:13]",
+      "end_time": "[07:18]",
+      "start_time_sec": 433,
+      "text": "Does the HP LaserJet show up under the Bonjour discovery list?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:22]",
+      "end_time": "[07:27]",
+      "start_time_sec": 442,
+      "text": "Yes! 'HP LaserJet Pro M404dw [Bonjour]' appeared instantly! Selecting it now.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:31]",
+      "end_time": "[07:34]",
+      "start_time_sec": 451,
+      "text": "Send a test page to confirm bidirectional communication."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:38]",
+      "end_time": "[07:46]",
+      "start_time_sec": 458,
+      "text": "Printing test page... The printer in the other room just whirred into life and printed the test sheet!",
+      "sentiment_score": 34.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:50]",
+      "end_time": "[07:56]",
+      "start_time_sec": 470,
+      "text": "Can you also check if your phone can see it via AirPrint over Wi-Fi?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:00]",
+      "end_time": "[08:08]",
+      "start_time_sec": 480,
+      "text": "Opened a PDF on my iPhone, tapped share, tapped Print... Yes, the printer shows up with ink levels displayed!",
+      "sentiment_score": 38.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:12]",
+      "end_time": "[08:19]",
+      "start_time_sec": 492,
+      "text": "That confirms mDNS discovery is operating cleanly across both the two-point-four and five gigahertz bands."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:23]",
+      "end_time": "[08:27]",
+      "start_time_sec": 503,
+      "text": "That was the exact setting I needed. Thank you Darren.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:31]",
+      "end_time": "[08:37]",
+      "start_time_sec": 511,
+      "text": "Just to confirm your account contact telephone number, it is 07700 900481, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:41]",
+      "end_time": "[08:44]",
+      "start_time_sec": 521,
+      "text": "Yes, that's my mobile.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:48]",
+      "end_time": "[08:54]",
+      "start_time_sec": 528,
+      "text": "Just to confirm for the record, the installation address is 102 Highfield Lane, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:58]",
+      "end_time": "[09:01]",
+      "start_time_sec": 538,
+      "text": "Yes, 102 Highfield Lane.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:05]",
+      "end_time": "[09:14]",
+      "start_time_sec": 545,
+      "text": "I will leave the notes on this ticket so any future firmware updates do not re-enable client isolation on your profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:18]",
+      "end_time": "[09:25]",
+      "start_time_sec": 558,
+      "text": "I really appreciate that, I don't want to go through this again after the next update.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:29]",
+      "end_time": "[09:36]",
+      "start_time_sec": 569,
+      "text": "Is there anything else with your Hub Pro settings I can assist you with today, Faisal?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:40]",
+      "end_time": "[09:47]",
+      "start_time_sec": 580,
+      "text": "No, everything else is configured exactly how I want it. Thanks for the quick fix.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:51]",
+      "end_time": "[09:57]",
+      "start_time_sec": 591,
+      "text": "Thank you for choosing S-Net, Faisal, and have a great rest of your day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:01]",
+      "end_time": "[10:04]",
+      "start_time_sec": 601,
+      "text": "Thanks Darren, you too. Goodbye.",
+      "sentiment_score": 19.0
+    }
+  ]
+}

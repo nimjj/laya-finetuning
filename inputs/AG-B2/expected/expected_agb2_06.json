@@ -1,0 +1,180 @@
+{
+  "call_id": "agb2_06",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 33.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Agent failed to recite the mandatory closing phrase 'thank you for choosing S-Net', instead closing with 'Thanks for ringing S-Net today'."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Agent failed to ask for a PIN, address, or security question within the first 4 minutes of the call, only asking for phone number and date of birth."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to acknowledge the customer's severe distress at turn 9 ([02:03]) regarding her vulnerable mother's disabled care alarm, proceeding immediately to procedural socket instructions."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At turn 42 ([08:55]), Agent deflected responsibility by telling the customer to contact Openreach directly herself to fix the line static."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At turn 34 ([07:12]), Agent made an aggressive and condescending statement: 'If you'd pay attention to what I'm asking we wouldn't be wasting time here.'"
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Issue was left completely unresolved; loud line static and care alarm failure persisted on the line."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash High)",
+    "graded_on": "2026-10-21",
+    "scenario": "Severe landline static and care alarm lifeline failure; agent fails verification, empathy, professionalism, ownership, branding closing, and resolution",
+    "tier": "very_poor",
+    "duration_sec": 702,
+    "notes": "Extremely poor 11-minute support call with 6 distinct failed criteria. Kieran fails customer verification by never asking for PIN, address, or security question. Fails Empathy by ignoring Soraya's panic about her vulnerable elderly mother at turn 9. Demonstrates severe unprofessionalism at turn 34 by snapping 'If you'd pay attention to what I'm asking we wouldn't be wasting time here'. Deflects ownership at turn 42 by telling Soraya to contact Openreach directly herself, misses the required branding closing, and leaves the life-critical emergency alarm disconnected.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Build rapport and observed professionalism",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent opened with 'Thank you for calling S-Net fault management' at [00:00], but closed with 'Thanks for ringing S-Net today, have a good one' at [11:31], missing verbatim 'thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "No unmanaged holds or dead air gaps over 30 seconds."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent only asked for telephone number and date of birth at [00:27]; failed to request PIN, address, or security question within the first 240s."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent used the customer's name Soraya naturally during the call (turns 2, 6, 58)."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At turn 9 ([02:03]), Soraya had an intense outburst regarding her elderly mother's safety. Agent at turn 10 ([02:26]) offered zero empathy, stating: 'We have mandatory diagnostic procedures that must be executed at the master socket before an engineer can be scheduled.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turn 6 ([01:23]), Agent restated the fault: 'So what is happening is that severe static and line noise on the landline is preventing your mother's emergency care alarm from communicating, while also causing intermittent broadband drops. Have I understood the problem accurately, Soraya?'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent did not repeat any answered questions."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At turn 42 ([08:55]), Agent explicitly deflected responsibility: 'Look, the physical copper line from the telegraph pole belongs to Openreach, not S-Net, so you'll have to get in touch with Openreach yourself to fix the line static.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At turn 34 ([07:12]), Agent snapped condescendingly: 'If you'd pay attention to what I'm asking we wouldn't be wasting time here. I explicitly stated the corded telephone handset.'"
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent probed socket type (turn 16), microfilter setup (turn 18), and conducted test socket isolation and quiet line test (turns 30, 38)."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Issue was unresolved. At turn 51 ([10:35]), customer confirmed line static and alarm failure persisted."
+      }
+    ],
+    "markers": {
+      "active_listening": [],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 6
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 34
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 9
+        }
+      ]
+    }
+  }
+}

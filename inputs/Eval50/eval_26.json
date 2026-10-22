@@ -1,0 +1,158 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Chiara",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, my name's Ravi. How can I help?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:18]",
+      "start_time_sec": 8,
+      "text": "Hi Ravi. The S-Net TV app on my laptop keeps showing error 4 0 7 and won't play anything. I've tried twice today already, it's really annoying.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:19]",
+      "end_time": "[00:26]",
+      "start_time_sec": 19,
+      "text": "Sorry you've had a frustrating time with it, Chiara. Let's sort it. Can I take your date of birth?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:28]",
+      "end_time": "[00:30]",
+      "start_time_sec": 28,
+      "text": "Eighteenth of May, ninety.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:33]",
+      "end_time": "[00:35]",
+      "start_time_sec": 33,
+      "text": "Thanks. What device are you using?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:36]",
+      "end_time": "[00:38]",
+      "start_time_sec": 36,
+      "text": "My laptop. A MacBook.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:40]",
+      "end_time": "[00:42]",
+      "start_time_sec": 40,
+      "text": "Which browser?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:44]",
+      "end_time": "[00:46]",
+      "start_time_sec": 44,
+      "text": "Safari.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:47]",
+      "end_time": "[00:50]",
+      "start_time_sec": 47,
+      "text": "And what error code do you see?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:52]",
+      "end_time": "[00:55]",
+      "start_time_sec": 52,
+      "text": "4 0 7. I said that at the start.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:56]",
+      "end_time": "[01:01]",
+      "start_time_sec": 56,
+      "text": "Thanks. Does the app work on your phone, if you try it there?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:02]",
+      "end_time": "[01:04]",
+      "start_time_sec": 62,
+      "text": "Yes, it works on my phone.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:07]",
+      "end_time": "[01:10]",
+      "start_time_sec": 67,
+      "text": "Okay. And what device was it that isn't working?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:11]",
+      "end_time": "[01:13]",
+      "start_time_sec": 71,
+      "text": "The laptop. The MacBook.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:16]",
+      "end_time": "[01:24]",
+      "start_time_sec": 76,
+      "text": "Right. Error 407 on Safari is a known problem with the latest update. Could you try it in Chrome instead?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:27]",
+      "end_time": "[01:30]",
+      "start_time_sec": 87,
+      "text": "Let me open Chrome. Logging in. It's playing!",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:31]",
+      "end_time": "[01:37]",
+      "start_time_sec": 91,
+      "text": "Great. We'll have a Safari fix out next week. Is it working well enough for now?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:38]",
+      "end_time": "[01:40]",
+      "start_time_sec": 98,
+      "text": "Yes, it's working in Chrome. Thanks.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:42]",
+      "end_time": "[01:45]",
+      "start_time_sec": 102,
+      "text": "Thank you for choosing S-Net, Chiara. Enjoy your evening.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

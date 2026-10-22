@@ -1,0 +1,159 @@
+{
+  "call_id": "ag_13",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 100.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Parental control Content Shield stuck on 'Strict' blocking university medical research journals despite being toggled off in My S-Net",
+    "tier": "excellent",
+    "duration_sec": 995,
+    "notes": "Exemplary 100% score call where Declan diagnoses a stuck RADIUS Content Shield policy attribute on the Belfast BNG. Tests three hard PASS cases: Empathy ([06:14] responding immediately when Aoife's sentiment drops from calm to -21.0 mid-call after a standard router DNS flush fails), Active Listening ([10:15] recalling exact URLs and error code CS-403-STRICT before and after flushing the BNG DNS table), and Ownership ([07:14]-[09:50] explaining the backend sync bug transparently while fixing the RADIUS profile himself).",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Active listening",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'Good afternoon, thank you for calling S-Net Fibre Technical Support.' and [16:19] Agent: 'Thank you for choosing S-Net, and have a great rest of your day!'"
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[08:45] Agent announces hold ('Please bear with me for a moment while I rewrite your RADIUS profile...') and returns after 55s at [09:50] with 'Thank you for holding, Aoife.'"
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:29] Agent asks for billing address and four-digit security PIN; Customer verifies at [00:46]."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:29], [01:57], [06:14], [16:19] Agent addresses Aoife by name throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[05:54] Customer expresses sharp frustration (-21.0 sentiment) when the initial router DNS flush fails ahead of her midnight thesis deadline; at [06:14] Agent immediately responds: 'I completely understand how frustrating that is when you have got a thesis deadline tonight, Aoife, and I am really sorry that first router DNS flush did not clear the block.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:57] Agent: 'Let me make sure I have captured all the details accurately, Aoife: even though you toggled S-Net Content Shield to Off in your My S-Net dashboard yesterday evening and the portal still displays Off, your broadband line is still enforcing the Strict filter and blocking medical research journals like PubMed and The Lancet.'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[10:15] Agent recalls the exact domains (pubmed.ncbi.nlm.nih.gov and thelancet.com), redirect host (block.s-net.co.uk), and policy code (CS-403-STRICT) mentioned at [01:11] and [02:21] to compare before-and-after BNG DNS table flushing without asking Aoife to repeat them."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[07:14], [08:16], [09:50] Agent transparently explains the backend portal-to-RADIUS identity-sync bug to answer Aoife's question, while explicitly refusing to hand her off to a back-office queue and fixing the RADIUS attribute and BNG CoA session himself."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[06:50], [14:04], [16:19] Agent builds warm, encouraging rapport around Aoife's oncology dissertation and offers helpful device-level DNS advice."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:28], [02:34], [03:08] Agent probes for when the toggle was changed, whether the block affects multiple devices/browsers vs mobile data, and whether the devices use default DHCP DNS and IPv6."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[11:18]-[12:01] and [16:09] Customer confirms PubMed, The Lancet Oncology PDFs, and BMJ load immediately on both her MacBook Pro and iPad with the CS-403-STRICT block completely gone."
+      }
+    ]
+  }
+}

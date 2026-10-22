@@ -1,0 +1,650 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Callum",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:09]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net fraud prevention and customer security, my name is Jason. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:12]",
+      "end_time": "[00:29]",
+      "start_time_sec": 12,
+      "text": "Hello Jason, I think I am the victim of a fraudulent SIM swap! My mobile suddenly went to SOS only twenty minutes ago, and my laptop email just alerted me to password reset requests on my bank account!",
+      "sentiment_score": -32.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:32]",
+      "end_time": "[00:49]",
+      "start_time_sec": 32,
+      "text": "I understand the absolute urgency of securing your mobile line against unauthorized takeover, Callum. Let us immediately verify your identity and freeze the cellular profile. Could you please confirm your full residential address and your account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:52]",
+      "end_time": "[01:00]",
+      "start_time_sec": 52,
+      "text": "Yes, it is 19 Montgomery Street, Edinburgh, EH7 5EY, and the security PIN is five eight two zero.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:03]",
+      "end_time": "[01:15]",
+      "start_time_sec": 63,
+      "text": "Thank you Callum, that has verified your identity on our Unlimited 5G SIM plan. Let me immediately inspect the active IMSI and provisioning status on your line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:18]",
+      "end_time": "[01:24]",
+      "start_time_sec": 78,
+      "text": "Please hurry, I am terrified they are going to drain my savings.",
+      "sentiment_score": -18.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:27]",
+      "end_time": "[01:45]",
+      "start_time_sec": 87,
+      "text": "So what has occurred is that your active mobile service has dropped to SOS only without your consent, and you are seeing unauthorized authentication attempts, indicating an unauthorized SIM swap has taken place. Have I understood the emergency accurately, Callum?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:48]",
+      "end_time": "[01:57]",
+      "start_time_sec": 108,
+      "text": "Yes, exactly! I received an email from my bank asking for a one-time passcode that was texted to my number!",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:00]",
+      "end_time": "[02:11]",
+      "start_time_sec": 120,
+      "text": "I can see on our core network ledger that an electronic SIM replacement request was processed forty-two minutes ago via our web self-service portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:14]",
+      "end_time": "[02:28]",
+      "start_time_sec": 134,
+      "text": "I never submitted that! If you need to send me fraud alerts, my backup secure email is callum dot fletcher at protonmail dot com, because my work email might be compromised too.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:31]",
+      "end_time": "[02:43]",
+      "start_time_sec": 151,
+      "text": "What make and model of handset do you have in your hand right now, and what was the physical SIM card number if you have it?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:46]",
+      "end_time": "[03:09]",
+      "start_time_sec": 166,
+      "text": "I have an iPhone 14, and the original physical SIM is still sitting in the tray right here! I am shaking with anxiety, Jason! My entire life savings and business accounts are tied to two-factor SMS authentication on this phone! If whoever stole my number steals my money, I am completely ruined!",
+      "sentiment_score": -58.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:12]",
+      "end_time": "[03:20]",
+      "start_time_sec": 192,
+      "text": "Can you check if there is an active PAC porting authorization code listed on your account dashboard?"
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:23]",
+      "end_time": "[03:47]",
+      "start_time_sec": 203,
+      "text": "First of all Callum, experiencing an unauthorized SIM takeover and fearing for your life savings is terrifying, and I am so deeply sorry for the distress this is causing you. I am placing an emergency network bar on that fraudulent eSIM right now, so whoever has it is cut off completely this very second."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:50]",
+      "end_time": "[03:58]",
+      "start_time_sec": 230,
+      "text": "Thank you Jason, God, thank you. Please make sure they can't receive any more banking text messages.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:01]",
+      "end_time": "[04:16]",
+      "start_time_sec": 241,
+      "text": "I have executed an immediate HLR network block on IMSI 23430-8819204. That fraudulent eSIM is now blacklisted across all UK masts, meaning zero incoming or outgoing SMS, calls, or data can pass through it."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:19]",
+      "end_time": "[04:29]",
+      "start_time_sec": 259,
+      "text": "That gives me a little breathing room. What about the PAC code? Did they request to port my number away to another network?",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:32]",
+      "end_time": "[04:44]",
+      "start_time_sec": 272,
+      "text": "Looking at the wholesale porting gateway, an automated PAC code was generated at twelve minutes past the hour. I am executing an emergency PAC revocation right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:47]",
+      "end_time": "[04:51]",
+      "start_time_sec": 287,
+      "text": "Has the PAC code been voided?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:53]",
+      "end_time": "[05:03]",
+      "start_time_sec": 293,
+      "text": "The wholesale porting system has confirmed the PAC code is marked as VOID - FRAUD SUSPECTED. No external network can import your number."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:06]",
+      "end_time": "[05:11]",
+      "start_time_sec": 306,
+      "text": "Brilliant. That stops them moving it to Vodafone or O2.",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:13]",
+      "end_time": "[05:24]",
+      "start_time_sec": 313,
+      "text": "Now let us check how the fraudsters gained entry to your self-service account. Did you receive any suspicious phishing emails or SMS links recently?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:27]",
+      "end_time": "[05:41]",
+      "start_time_sec": 327,
+      "text": "Now that I think about it, I received a text message yesterday purporting to be from Royal Mail about an unpaid parcel fee, and I clicked a link on my laptop.",
+      "sentiment_score": -14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:44]",
+      "end_time": "[05:55]",
+      "start_time_sec": 344,
+      "text": "Phishing links often capture shared passwords across multiple accounts. Have you used the same password on your S-Net portal as your email or banking?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:58]",
+      "end_time": "[06:03]",
+      "start_time_sec": 358,
+      "text": "Unfortunately yes, I used a similar password across a few accounts.",
+      "sentiment_score": -9.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:05]",
+      "end_time": "[06:19]",
+      "start_time_sec": 365,
+      "text": "We will implement an enhanced security lockdown on your profile. Bear with me for about a minute while I reset your web portal credentials and apply a mandatory high-security verification flag."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:20]",
+      "end_time": "[07:32]",
+      "start_time_sec": 440,
+      "text": "Thank you for waiting, Callum. I have locked your web self-service portal, severed all existing login sessions, and applied a Verbal Password requirement to your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:35]",
+      "end_time": "[07:40]",
+      "start_time_sec": 455,
+      "text": "Thank you Jason. What does the verbal password requirement mean?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:42]",
+      "end_time": "[07:52]",
+      "start_time_sec": 462,
+      "text": "Does your iPhone currently show SOS only in the top status bar, confirming the old physical SIM remains inactive while we reconfigure?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:55]",
+      "end_time": "[08:00]",
+      "start_time_sec": 475,
+      "text": "Yes, it still says SOS only with no signal bars.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:02]",
+      "end_time": "[08:14]",
+      "start_time_sec": 482,
+      "text": "The verbal password requirement means that no advisor, web portal, or retail agent can make any alterations or issue replacement SIMs without you speaking a secret passphrase."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:17]",
+      "end_time": "[08:24]",
+      "start_time_sec": 497,
+      "text": "That is exactly the level of protection I need on this line from now on.",
+      "sentiment_score": 21.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:27]",
+      "end_time": "[08:38]",
+      "start_time_sec": 507,
+      "text": "What secret alphanumeric word would you like to register as your verbal passphrase? It should not be a family name or date of birth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:41]",
+      "end_time": "[08:45]",
+      "start_time_sec": 521,
+      "text": "Let us use 'Kestrel-942-Obsidian'.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:47]",
+      "end_time": "[08:56]",
+      "start_time_sec": 527,
+      "text": "I have registered 'Kestrel-942-Obsidian' in our high-security vault. From this point forward, anyone calling must recite that exact phrase."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:59]",
+      "end_time": "[09:08]",
+      "start_time_sec": 539,
+      "text": "Excellent. Now how do I get my actual telephone number back so I can verify my legitimate banking transactions?",
+      "sentiment_score": 14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:11]",
+      "end_time": "[09:19]",
+      "start_time_sec": 551,
+      "text": "We can generate a brand new cryptographically signed eSIM profile directly linked to your verified handset IMEI."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:22]",
+      "end_time": "[09:31]",
+      "start_time_sec": 562,
+      "text": "Can you read me the handset IMEI you have on file so I can confirm it matches my physical phone?",
+      "sentiment_score": 9.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:34]",
+      "end_time": "[09:41]",
+      "start_time_sec": 574,
+      "text": "The handset IMEI registered to your line ends in 4 9 0 2 8 8 1."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:44]",
+      "end_time": "[09:51]",
+      "start_time_sec": 584,
+      "text": "Checking Settings... General... About... yes, IMEI ends in 4902881. That is my physical phone.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:54]",
+      "end_time": "[10:03]",
+      "start_time_sec": 594,
+      "text": "I will pair the new eSIM specifically to that IMEI number so it cannot be activated on any foreign device."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:06]",
+      "end_time": "[10:15]",
+      "start_time_sec": 606,
+      "text": "That is very clever, so even if someone intercepted the QR code, they couldn't install it on a different handset.",
+      "sentiment_score": 24.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:18]",
+      "end_time": "[10:25]",
+      "start_time_sec": 618,
+      "text": "Precisely. The carrier activation profile will reject any device whose hardware identifier does not match."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:28]",
+      "end_time": "[10:35]",
+      "start_time_sec": 628,
+      "text": "How do I scan the QR code to install the eSIM onto my iPhone?",
+      "sentiment_score": 7.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:38]",
+      "end_time": "[10:45]",
+      "start_time_sec": 638,
+      "text": "Normally, the system sends an encrypted activation QR code via an administrative PDF attachment."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:48]",
+      "end_time": "[10:52]",
+      "start_time_sec": 648,
+      "text": "Okay, and when can that be sent?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:54]",
+      "end_time": "[11:01]",
+      "start_time_sec": 654,
+      "text": "Let me review the high-tier fraud containment policy for accounts subjected to active credential theft."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:04]",
+      "end_time": "[11:08]",
+      "start_time_sec": 664,
+      "text": "Is there an issue with dispatching the QR code?",
+      "sentiment_score": -4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:10]",
+      "end_time": "[11:25]",
+      "start_time_sec": 670,
+      "text": "Under S-Net fraud prevention protocol section 8.2, whenever an account experiences an unauthorized SIM swap attempt accompanied by external banking alerts, electronic dispatch of replacement eSIM QR codes is barred for twenty-four hours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:28]",
+      "end_time": "[11:35]",
+      "start_time_sec": 688,
+      "text": "Wait, what does that mean? How am I supposed to get my service back then?",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:38]",
+      "end_time": "[11:50]",
+      "start_time_sec": 698,
+      "text": "The policy mandates that the customer must present two forms of government photographic identification in an official S-Net retail branch to collect the activation voucher in person."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:53]",
+      "end_time": "[12:00]",
+      "start_time_sec": 713,
+      "text": "And what alternate email address should I dispatch the security incident report to, Callum?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:03]",
+      "end_time": "[12:20]",
+      "start_time_sec": 723,
+      "text": "I already gave you that email twenty minutes ago, it is callum dot fletcher at protonmail dot com! But wait, forget the email for a second, what did you just say about going to a physical store?",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:23]",
+      "end_time": "[12:37]",
+      "start_time_sec": 743,
+      "text": "I have noted the incident email as callum dot fletcher at protonmail dot com. Regarding the store requirement, you must visit an S-Net retail store with your passport or driving licence."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:40]",
+      "end_time": "[12:49]",
+      "start_time_sec": 760,
+      "text": "It is seven o'clock in the evening! All your retail stores in Edinburgh closed thirty minutes ago at six-thirty!",
+      "sentiment_score": -32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:52]",
+      "end_time": "[12:59]",
+      "start_time_sec": 772,
+      "text": "The high-security lock prevents electronic issuance to ensure the fraudster has not compromised your email inbox."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:02]",
+      "end_time": "[13:13]",
+      "start_time_sec": 782,
+      "text": "Can you not do a video call verification with me right now on Teams or WhatsApp? I have my passport right here on my desk!",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:16]",
+      "end_time": "[13:24]",
+      "start_time_sec": 796,
+      "text": "Our compliance department does not recognize third-party video call software for identity re-verification following a fraud alert."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:27]",
+      "end_time": "[13:34]",
+      "start_time_sec": 807,
+      "text": "So you are telling me I will have zero phone service all night long?",
+      "sentiment_score": -24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:37]",
+      "end_time": "[13:48]",
+      "start_time_sec": 817,
+      "text": "The line will remain safely frozen until you present your credentials at the Princes Street branch when they open at nine o'clock tomorrow morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:51]",
+      "end_time": "[14:00]",
+      "start_time_sec": 831,
+      "text": "How am I supposed to call my bank's twenty-four hour fraud team to report this without a working telephone?",
+      "sentiment_score": -36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:03]",
+      "end_time": "[14:12]",
+      "start_time_sec": 843,
+      "text": "You can use a landline or third-party web calling service like Skype over home Wi-Fi to contact your financial institutions."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:15]",
+      "end_time": "[14:22]",
+      "start_time_sec": 855,
+      "text": "I don't have a landline! I live in a modern flat with mobile only!",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:25]",
+      "end_time": "[14:32]",
+      "start_time_sec": 865,
+      "text": "Most high street banks provide secure chat functionality through their online web banking portals."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:35]",
+      "end_time": "[14:42]",
+      "start_time_sec": 875,
+      "text": "Their web chat tells you to call the fraud telephone number for suspected SIM swaps!",
+      "sentiment_score": -34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:45]",
+      "end_time": "[14:52]",
+      "start_time_sec": 885,
+      "text": "I understand that is inconvenient, but the security protocol cannot be circumvented by telephone advisors."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:55]",
+      "end_time": "[15:00]",
+      "start_time_sec": 895,
+      "text": "Inconvenient? My bank account is under active attack by cyber criminals!",
+      "sentiment_score": -41.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:02]",
+      "end_time": "[15:11]",
+      "start_time_sec": 902,
+      "text": "The criminals no longer have access to your mobile telephone number because the SIM is completely terminated on the network."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:14]",
+      "end_time": "[15:23]",
+      "start_time_sec": 914,
+      "text": "Yes, but neither do I! What if my bank tries to call me back to verify a transaction block?",
+      "sentiment_score": -38.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:26]",
+      "end_time": "[15:34]",
+      "start_time_sec": 926,
+      "text": "The incoming call will route to an automated network intercept message stating the number is temporarily unavailable."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:37]",
+      "end_time": "[15:43]",
+      "start_time_sec": 937,
+      "text": "And the bank will assume I'm unreachable and freeze my mortgage payment!",
+      "sentiment_score": -29.4
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:46]",
+      "end_time": "[16:10]",
+      "start_time_sec": 946,
+      "text": "This is utterly infuriating! You're penalizing the victim! I caught this within twenty minutes, I proved my identity with my PIN, my address, and my phone IMEI, and you are leaving me completely stranded in the dark with no phone, no banking access, and no way to protect my family's money tonight! It is totally callous and unacceptable!",
+      "sentiment_score": -58.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:13]",
+      "end_time": "[16:26]",
+      "start_time_sec": 973,
+      "text": "Security protocol 8.2 is mandated by the telecommunications regulatory framework to eliminate unauthorized digital SIM interception. I have generated store collection voucher reference SC-88210 for the Princes Street branch."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:29]",
+      "end_time": "[16:39]",
+      "start_time_sec": 989,
+      "text": "I don't care about your reference code! I am lodging a formal complaint against your refusal to verify my passport digitally!",
+      "sentiment_score": -44.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:42]",
+      "end_time": "[16:49]",
+      "start_time_sec": 1002,
+      "text": "The formal complaint has been registered under ticket reference SEC-90144 with your objections recorded in full."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:52]",
+      "end_time": "[16:57]",
+      "start_time_sec": 1012,
+      "text": "Fine! Just make sure that fraudulent SIM stays dead all night.",
+      "sentiment_score": -18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:59]",
+      "end_time": "[17:05]",
+      "start_time_sec": 1019,
+      "text": "The fraudulent IMSI is permanently terminated and cannot be reactivated under any circumstances."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:08]",
+      "end_time": "[17:12]",
+      "start_time_sec": 1028,
+      "text": "Okay. At least that part is done.",
+      "sentiment_score": -6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:14]",
+      "end_time": "[17:24]",
+      "start_time_sec": 1034,
+      "text": "Does the immediate termination of the fraudulent SIM and revocation of the PAC code address the security emergency on your account today, Callum?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:27]",
+      "end_time": "[17:34]",
+      "start_time_sec": 1047,
+      "text": "Yes, the emergency security freeze is done, even though your store collection policy is a nightmare.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:37]",
+      "end_time": "[17:44]",
+      "start_time_sec": 1057,
+      "text": "Is there anything else on your S-Net account I can assist you with this evening?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:47]",
+      "end_time": "[17:53]",
+      "start_time_sec": 1067,
+      "text": "No, I'm going to find a neighbour who has a working phone.",
+      "sentiment_score": -16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:56]",
+      "end_time": "[18:01]",
+      "start_time_sec": 1076,
+      "text": "Thank you for calling S-Net fraud prevention and customer security."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:03]",
+      "end_time": "[18:07]",
+      "start_time_sec": 1083,
+      "text": "Goodbye Jason.",
+      "sentiment_score": 1.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:09]",
+      "end_time": "[18:16]",
+      "start_time_sec": 1089,
+      "text": "Thank you for choosing S-Net as your mobile provider. Please stay safe, Callum. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:19]",
+      "end_time": "[18:22]",
+      "start_time_sec": 1099,
+      "text": "Goodbye.",
+      "sentiment_score": -2.4
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "call_id": "ag_49",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 56.6,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "At [01:10], the agent only requested the customer's account number and date of birth, failing to verify the customer's address, security PIN, or security question within the first 240 seconds."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "After the customer explained the Error 202 recording failure and his concern about keeping his saved films, the agent jumped straight into remote button instructions at [02:36] without paraphrasing or summarizing the issue."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "From the start of troubleshooting at [02:36] through the repair, the agent asked zero diagnostic probing questions (such as how full the drive was, whether live pause worked, or when the error started) and only issued directive step-by-step instructions."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "S-Net Ultra PVR TV box failing to record programs with 'Hard Drive Storage Error 202'; rebuilding disk partition and restoring series links",
+    "tier": "okay",
+    "duration_sec": 875,
+    "notes": "Okay call with 3 FAILs (V, PA, PR) and 8 PASSes, featuring STT roughness on Customer turns. Agent Lewis opens and closes with proper S-Net branding ([00:00], [14:32]), uses Barnaby's name warmly, shows strong empathy ([00:22], [00:49]), manages a 58s hold properly ([05:39]–[07:02]), and walks Barnaby through a non-destructive EXT4 partition rebuild and live recording playback test ([09:26]–[10:12], RE PASS). However, Lewis only verifies account number and DOB at [01:10] without checking PIN, address, or security question (V FAIL), jumps directly into button-press instructions at [02:36] without paraphrasing the issue (PA FAIL), and asks zero diagnostic probing questions before prescribing the fix (PR FAIL).",
+    "hard_cases": [
+      "Verified customer",
+      "Paraphrasing",
+      "Probing",
+      "Hold time and Dead Air",
+      "Empathy & Acknowledgment Statement",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'Good evening, thank you for calling S-Net TV and Broadband Support...' and [14:32] Agent: 'Thank you for choosing S-Net, Barnaby, goodbye!'"
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[05:39] Agent: 'May I place you on a brief hold for about a minute while your Ultra PVR box finishes the three-stage partition rebuild...' -> [07:02] Agent: 'Thank you for holding, Barnaby!' (58s managed hold)."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:10] Agent: 'Could you just give me your eight-digit S-Net account number from the top of your bill and your date of birth, Barnaby?' (no PIN, address, or security question verified)."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:22] Agent addresses Barnaby warmly by name throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:22] Agent: 'Oh Barnaby, I am so sorry you are getting hit with Hard Drive Storage Error 202—I completely understand how frustrating it is when your recorder fails...' and [00:49]."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:22]–[02:36] Agent never restates or summarizes the customer's reported symptom in his own words to confirm understanding before starting the installer menu walkthrough."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent remembers Barnaby's concern about preserving his 40 saved films and rugby matches and specifically guides him to the non-destructive partition rebuild rather than a full format."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent guides Barnaby step-by-step through the hidden 0-0-1 engineer menu, pushes a TR-069 cloud series-link sync during the hold, enables Auto-Heal on Standby, and stays on the line to test live recording and playback."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent is warm, patient, encouraging, and personable throughout the troubleshooting session."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[02:36]–[05:39] Agent gives button-press commands and confirmation checks ('press the Home button', 'arrow down to Hard Disk') without asking a single diagnostic question to isolate the cause."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[09:26] Customer presses Record on BBC One HD and confirms the red R light activates without Error 202; [10:12] Customer plays back the test recording smoothly and confirms all 40 saved programs and 11 series links are intact."
+      }
+    ]
+  }
+}

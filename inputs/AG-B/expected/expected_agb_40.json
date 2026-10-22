@@ -1,0 +1,197 @@
+{
+  "call_id": "agb_40",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 33.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Agent omitted mandatory closing branding 'thank you for choosing s-net' and customer satisfaction survey request."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Agent failed to verify customer identity within the first 240 seconds, omitting requests for PIN, full billing address, or security question."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to acknowledge customer's severe distress regarding living disabled on PIP and turning off heating to afford food while being overcharged."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked how many months the discount had been missing at [10:30], ignoring customer's explicit statement in turn 1 that it had been missing for six months."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Agent repeatedly disclaimed ownership, stating database migration errors and automated coding bugs were not the responsibility of customer service."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent abruptly terminated the call while customer was in mid-sentence asking how the credit would appear on her next invoice."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Paperless billing discount not applied over past six months; retrospective credit calculated and applied; agent omits survey and closing branding, fails verification (never asks PIN/address/security question in 240s), ignores financial distress, asks repeat question about missing duration, disclaims database billing ownership, and hangs up mid-sentence",
+    "tier": "fair",
+    "duration_sec": 904,
+    "notes": "The agent calculated and credited a £60 retrospective balance adjustment after an automated billing flag failed to apply a £10 monthly paperless discount over six months. However, the agent failed Branding and Survey Check by omitting 'thank you for choosing s-net' and the survey, failed Verified Customer by never requesting PIN, address, or security question in the first 240 seconds, failed Empathy & Acknowledgment Statement by disregarding Natalie's acute distress over being disabled on PIP and having to choose between heating and electricity due to billing overcharges, failed Active Listening at minute 11 by asking how many months the discount had been missing after Natalie explicitly stated in turn 1 that it had been missing for six months, failed Took Ownership of the Problem by repeatedly disclaiming responsibility ('Our billing software had a database migration glitch in May; S-Net customer service is not responsible for automated database coding bugs'), and failed Confirmed Resolved by abruptly hanging up while Natalie was asking how to view the credit on her digital invoice.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Active listening",
+      "Paraphrasing",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[15:40] Agent: 'It will show on the invoice. Goodbye.' - Closing lacks mandatory S-Net branding and survey mention."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent requested only account number and router MAC in the first 240 seconds, omitting required whole-word 'pin', 'address', or 'security question' verification."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:30] Customer: 'Raymond, I am registered disabled living on Personal Independence Payment... Over the winter I had to turn off my hallway storage heaters and sit in a winter coat indoors just to afford my groceries, all while S-Net was secretly taking ten pounds extra... I am in tears of anger and distress...' Agent: 'Ledger billing automation processes paperless credits via automated batch cycles...' - Total disregard of acute financial and physical vulnerability."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:45] Agent: 'So if I have understood correctly, your paperless digital billing discount of ten pounds per month has not been credited to your invoices over the past six billing cycles...' - Complete and accurate restatement."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[10:30] Agent: 'How many months has the paperless discount been missing from your invoices?' Customer: 'Raymond, as I stated in my very first sentence, it has been missing for the past six months!' - Agent asked for information already given."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[02:20] Agent: 'Our billing software had an automated database migration glitch in May; S-Net customer service is not responsible for automated database coding bugs.' and [14:40] Agent: 'If automated database glitches alter your discount again in future, do not contact S-Net customer service...' - Refusal to take ownership of billing systems."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[10:15] Agent: 'Obviously that confirms your account ledger is fully reconciled with corporate accounting standards, Natalie.' - Clear technical reassurance."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[15:35] Agent abruptly ended call while customer was asking how the credit would appear on her invoice, terminating before resolution was confirmed."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 64
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 1,
+          "agent_turn": 28,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 38
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 5
+        }
+      ]
+    }
+  }
+}

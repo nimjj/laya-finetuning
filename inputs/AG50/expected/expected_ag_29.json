@@ -1,0 +1,162 @@
+{
+  "call_id": "ag_29",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 78.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Despite the customer introducing himself as Thaddeus at [00:08], the agent never once addressed him by his name ('Thaddeus') during the entire call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "At [01:28], the agent only restated administrative account details (account number 8841209, tariff name, and billing cycle reset date) and never paraphrased the customer's actual issue of why 50GB of mobile data vanished in four days."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "At [06:56], the agent asked 'Are you using an Android phone or an iPhone there?' even though the customer had explicitly stated at [01:43] that he bought a new iPhone 15 Pro last week."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Mobile 50GB data cap alert triggered at 100% only four days into billing cycle due to 4K cloud photo backup running over cellular",
+    "tier": "okay",
+    "duration_sec": 840,
+    "notes": "Hard-case P FAIL (Thaddeus gives his name at [00:08] but Toby never says 'Thaddeus'), hard-case PA FAIL (near-miss at [01:28] restating only account number/tariff/reset date), and hard-case AL FAIL ([06:56] asking Android vs iPhone after 'iPhone 15 Pro' stated at [01:43]), paired with hard-case E PASS ([00:21]), O PASS ([09:25]), and RE PASS ([11:10]-[12:54]).",
+    "hard_cases": [
+      "Personalized the call/ticket appropriately",
+      "Paraphrasing",
+      "Active listening",
+      "Empathy & Acknowledgment Statement",
+      "Took ownership of the problem",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent opened with 'thank you for calling S-Net' and closed at [13:18]/[13:38]/[13:54] with 'Thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:25]-[04:25] Single managed hold of 50s announced with 'Please bear with me for a moment while' and concluded with 'Thank you for holding'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:08]-[01:20] Agent verified the first line of the billing address (41 Caledonia Terrace, Edinburgh) and four-digit security PIN (9074) within the first two minutes."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:08] Customer stated 'my name is Thaddeus', but across all Agent turns ([00:00]-[13:54]) the agent never used the customer's name."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:21] Agent: 'I am so sorry for the shock of having your mobile data cut off like that, and I completely understand how stressful it is to see your entire allowance gone.' Also [00:46], [05:57]."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:28] Agent: 'So just to confirm, your account number is 8841209, you are on the S-Net Unlimited Calls 50GB SIM plan, and your cycle resets on the fourteenth, is that right?' (Near-miss: restating account metadata instead of the customer's problem)."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:43] Customer stated 'I bought my new iPhone 15 Pro last week', yet at [06:56] Agent asked: 'Are you using an Android phone or an iPhone there?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[04:54], [07:27]-[08:38], [09:25]-[10:37] Agent investigated the radius packet-data logs, guided the customer through disabling cellular iCloud Photos and Wi-Fi Assist, applied a free 15GB goodwill bolt-on, and sent a remote PDP refresh."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:21], [09:25], [13:18] Agent was warm, helpful, proactive, and courteous throughout."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:56]-[03:12] Agent probed into recent handset setup, camera roll restoration, 4K video recording, Wi-Fi coverage, and Personal Hotspot usage."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[11:10]-[11:30], [12:45]-[12:54] Customer turned off Mobile Data under iCloud Photos and Wi-Fi Assist, confirmed Safari and Apple Maps loaded live over 5G, and verified 15.0 GB available in the S-Net app."
+      }
+    ]
+  }
+}

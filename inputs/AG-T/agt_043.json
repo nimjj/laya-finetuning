@@ -1,0 +1,425 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Ian",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net mobile customer care, my name is Lewis. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:17]",
+      "end_time": "[00:38]",
+      "start_time_sec": 17,
+      "text": "Hello Lewis. I am very frustrated with our Family Share multi-SIM plan. I pay for a shared one-hundred-gigabyte data pool for four family lines, but my teenage daughter's SIM card is suddenly showing zero data allowance, leaving her stranded without maps or messaging when coming home from school!",
+      "sentiment_score": -44.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:47]",
+      "end_time": "[00:57]",
+      "start_time_sec": 47,
+      "text": "I can investigate the shared data pool allocation, Ian. Let's start with security verification. What is your full name and billing address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:06]",
+      "end_time": "[01:09]",
+      "start_time_sec": 66,
+      "text": "Ian Blackwood, 14 Balmoral Road, Aberdeen, AB15 4JU.",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:18]",
+      "end_time": "[01:22]",
+      "start_time_sec": 78,
+      "text": "And what is the four-digit security PIN on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:31]",
+      "end_time": "[01:34]",
+      "start_time_sec": 91,
+      "text": "It's 5821.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:43]",
+      "end_time": "[01:57]",
+      "start_time_sec": 103,
+      "text": "So what I understand is you have an active Family Share plan with a one-hundred-gigabyte pooled allowance, but your daughter's secondary SIM line is not receiving its allocated data share, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:06]",
+      "end_time": "[02:15]",
+      "start_time_sec": 126,
+      "text": "Yes, exactly. My phone and my wife's phone are using data normally, but my daughter's handset says 'Data plan exhausted'.",
+      "sentiment_score": -10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:24]",
+      "end_time": "[02:30]",
+      "start_time_sec": 144,
+      "text": "What is the mobile phone number assigned to your daughter's secondary SIM card?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:39]",
+      "end_time": "[02:42]",
+      "start_time_sec": 159,
+      "text": "Her number is 07700 900452.",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:51]",
+      "end_time": "[02:54]",
+      "start_time_sec": 171,
+      "text": "And what handset model is she using?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:03]",
+      "end_time": "[03:06]",
+      "start_time_sec": 183,
+      "text": "She has a Google Pixel 7a.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:15]",
+      "end_time": "[03:23]",
+      "start_time_sec": 195,
+      "text": "Bear with me for a moment while I query the family group provisioning parameters on our mobile gateway."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:08]",
+      "end_time": "[04:14]",
+      "start_time_sec": 248,
+      "text": "Thank you for waiting, Ian. I have inspected the Family Share configuration ledger."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:23]",
+      "end_time": "[04:26]",
+      "start_time_sec": 263,
+      "text": "What is causing the lock-out on her line?",
+      "sentiment_score": -8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:35]",
+      "end_time": "[04:48]",
+      "start_time_sec": 275,
+      "text": "During our monthly tariff billing rollover on Sunday, an automated billing flag unlinked line three from the shared pool parent group and placed it on an isolated fallback profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:57]",
+      "end_time": "[05:09]",
+      "start_time_sec": 297,
+      "text": "That is ridiculous! Why would your computer system randomly detach my daughter's phone from the plan we pay for? She couldn't message us when her bus was delayed!",
+      "sentiment_score": -45.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:18]",
+      "end_time": "[05:23]",
+      "start_time_sec": 318,
+      "text": "System billing scripts re-verify group membership during every billing cycle cutoff."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:32]",
+      "end_time": "[05:37]",
+      "start_time_sec": 332,
+      "text": "Well, your script caused a massive safety headache for our family.",
+      "sentiment_score": -24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:46]",
+      "end_time": "[05:53]",
+      "start_time_sec": 346,
+      "text": "Obviously automated database reconciliations occasionally flag lines if usage thresholds align with tariff renewal dates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:02]",
+      "end_time": "[06:07]",
+      "start_time_sec": 362,
+      "text": "Can you re-attach her line to the one-hundred-gigabyte pool right now?",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:16]",
+      "end_time": "[06:25]",
+      "start_time_sec": 376,
+      "text": "Yes, I will take direct ownership of this. I am re-associating line ending in 452 with master family group pool FG-88210."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:34]",
+      "end_time": "[06:40]",
+      "start_time_sec": 394,
+      "text": "How much shared data remains in our pool for the rest of the month?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:49]",
+      "end_time": "[06:56]",
+      "start_time_sec": 409,
+      "text": "Your household has eighty-four gigabytes of unused high-speed data remaining out of the one hundred gigabytes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:05]",
+      "end_time": "[07:08]",
+      "start_time_sec": 425,
+      "text": "Plenty of data to go around then.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:17]",
+      "end_time": "[07:27]",
+      "start_time_sec": 437,
+      "text": "While we have the account open, would you like to set an individual monthly usage cap on her line, such as twenty gigabytes?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:36]",
+      "end_time": "[07:40]",
+      "start_time_sec": 456,
+      "text": "Can you set individual limits within the shared pool?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:49]",
+      "end_time": "[07:58]",
+      "start_time_sec": 469,
+      "text": "Yes, you can specify individual allowance caps so no single family member accidentally consumes the entire pool with heavy downloads."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:07]",
+      "end_time": "[08:13]",
+      "start_time_sec": 487,
+      "text": "That would be very sensible. Let's cap her line at twenty-five gigabytes per month.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:22]",
+      "end_time": "[08:32]",
+      "start_time_sec": 502,
+      "text": "I have applied a twenty-five gigabyte soft cap to line three. She will receive a text warning at eighty percent of that limit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:41]",
+      "end_time": "[08:46]",
+      "start_time_sec": 521,
+      "text": "That is a brilliant feature. Keeps her mindful of her data usage.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:55]",
+      "end_time": "[09:02]",
+      "start_time_sec": 535,
+      "text": "And you can adjust or remove that limit anytime inside the My S-Net app under Family Controls."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:11]",
+      "end_time": "[09:16]",
+      "start_time_sec": 551,
+      "text": "Good to know I have control over that directly from my phone.",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:25]",
+      "end_time": "[09:32]",
+      "start_time_sec": 565,
+      "text": "And roaming within Europe is also included from that shared pool at no extra charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:41]",
+      "end_time": "[09:45]",
+      "start_time_sec": 581,
+      "text": "Very useful for our family holiday in Spain next summer.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:54]",
+      "end_time": "[10:03]",
+      "start_time_sec": 594,
+      "text": "I have just pushed the Family Share parent link down to the network HLR switch. Bear with me for thirty seconds."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:38]",
+      "end_time": "[10:42]",
+      "start_time_sec": 638,
+      "text": "Thank you for holding, Ian. The network profile has synchronized."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:51]",
+      "end_time": "[10:55]",
+      "start_time_sec": 651,
+      "text": "Does my daughter need to restart her Google Pixel 7a?",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:04]",
+      "end_time": "[11:10]",
+      "start_time_sec": 664,
+      "text": "Just confirming before we test, the line we updated is 07700 900452, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:19]",
+      "end_time": "[11:22]",
+      "start_time_sec": 679,
+      "text": "Yes, 07700 900452.",
+      "sentiment_score": 5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:31]",
+      "end_time": "[11:42]",
+      "start_time_sec": 691,
+      "text": "Please have her toggle Airplane Mode on for ten seconds on her Google Pixel, then toggle it off to register on the refreshed cellular profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:51]",
+      "end_time": "[11:59]",
+      "start_time_sec": 711,
+      "text": "She is sitting next to me in the kitchen. She just turned Airplane Mode on... Waiting... Turned it off.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:10]",
+      "end_time": "[12:13]",
+      "start_time_sec": 730,
+      "text": "What does her status bar display now?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:22]",
+      "end_time": "[12:25]",
+      "start_time_sec": 742,
+      "text": "It shows 'S-Net 5G' with full signal bars!",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:34]",
+      "end_time": "[12:39]",
+      "start_time_sec": 754,
+      "text": "Have her open a browser or YouTube to test data throughput."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:48]",
+      "end_time": "[12:54]",
+      "start_time_sec": 768,
+      "text": "She opened BBC News and played a video... It loaded instantly without buffering!",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:03]",
+      "end_time": "[13:13]",
+      "start_time_sec": 783,
+      "text": "Can you also check the My S-Net family portal app on your phone to confirm her line displays under the shared allowance?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:22]",
+      "end_time": "[13:28]",
+      "start_time_sec": 802,
+      "text": "Checking the app now... Yes, 'Line 3 - Daughter: Active, accessing 84GB shared pool'.",
+      "sentiment_score": 42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:37]",
+      "end_time": "[13:43]",
+      "start_time_sec": 817,
+      "text": "That confirms full data sharing privileges are restored and hardcoded against future billing rollovers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:52]",
+      "end_time": "[13:59]",
+      "start_time_sec": 832,
+      "text": "That is such a relief. We need her phone to have data when she travels into town.",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:08]",
+      "end_time": "[14:17]",
+      "start_time_sec": 848,
+      "text": "Just to confirm your billing contact email on file, it's ian dot blackwood at caledonia dot co dot uk, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:26]",
+      "end_time": "[14:29]",
+      "start_time_sec": 866,
+      "text": "Yes, that's my email.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:38]",
+      "end_time": "[14:45]",
+      "start_time_sec": 878,
+      "text": "Is there anything else with your Family Share plan that I can assist you with today, Ian?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:54]",
+      "end_time": "[15:00]",
+      "start_time_sec": 894,
+      "text": "No Lewis, as long as her data stays linked, that's everything solved. Thank you.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:09]",
+      "end_time": "[15:14]",
+      "start_time_sec": 909,
+      "text": "Thank you for choosing S-Net, Ian, and have a pleasant afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:23]",
+      "end_time": "[15:26]",
+      "start_time_sec": 923,
+      "text": "Thank you Lewis, goodbye.",
+      "sentiment_score": 20.0
+    }
+  ]
+}

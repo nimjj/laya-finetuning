@@ -1,0 +1,471 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Rachel",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net wireless technical support, my name is Craig. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:14]",
+   "end_time": "[00:34]",
+   "start_time_sec": 14,
+   "text": "Hello Craig, my name is Rachel Morgan. Our Ring smart video doorbell disconnected from our S-Net Hub 5 router two nights ago and will not reconnect: the doorbell app says 'Cannot Find Wi-Fi Network', even though all our smartphones and laptops connect to the router without any trouble!",
+   "sentiment_score": -32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:41]",
+   "end_time": "[01:04]",
+   "start_time_sec": 41,
+   "text": "Good afternoon Rachel. If I understand correctly, your smart video doorbell has dropped off your S-Net Hub 5 wireless network and fails to discover the Wi-Fi SSID, despite your other household devices connecting normally. Before we inspect your router's wireless telemetry, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:11]",
+   "end_time": "[01:18]",
+   "start_time_sec": 71,
+   "text": "Yes, it is 14 Richmond Crescent, Cardiff, CF24 3RN, security PIN 7701, router model S-Net Hub 5.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:25]",
+   "end_time": "[01:36]",
+   "start_time_sec": 85,
+   "text": "Thank you Rachel, that confirms your account details. Have you tried taking the doorbell off the front door bracket and holding it right next to the router?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:43]",
+   "end_time": "[01:59]",
+   "start_time_sec": 103,
+   "text": "I brought the doorbell into the living room three feet from the hub, entered setup mode, and it still fails to see our network!",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[02:06]",
+   "end_time": "[02:19]",
+   "start_time_sec": 126,
+   "text": "Could I place you on hold for two minutes while I query your router's 2.4 GHz channel assignment and beacon logs?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:44]",
+   "end_time": "[04:03]",
+   "start_time_sec": 224,
+   "text": "Thank you for holding, Rachel. The router diagnostics indicate that our automated dynamic channel optimization feature shifted your 2.4 GHz radio from channel 6 to channel 13 during Wednesday's overnight interference scan."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:09]",
+   "end_time": "[04:21]",
+   "start_time_sec": 249,
+   "text": "Why would shifting to channel 13 prevent our smart doorbell from seeing the Wi-Fi?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:27]",
+   "end_time": "[04:44]",
+   "start_time_sec": 267,
+   "text": "Many smart home IoT devices manufactured for global markets only support North American standard Wi-Fi channels 1 through 11, lacking hardware firmware support for European channels 12 and 13."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:50]",
+   "end_time": "[05:06]",
+   "start_time_sec": 290,
+   "text": "Can you lock our S-Net Hub 5 to channel 1 or 6 so the doorbell can see the network again?",
+   "sentiment_score": -6.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:12]",
+   "end_time": "[05:26]",
+   "start_time_sec": 312,
+   "text": "If you choose to purchase cheap imported smart home gadgets online that don't adhere to European telecommunications standards, you create compatibility headaches for yourself."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:32]",
+   "end_time": "[05:50]",
+   "start_time_sec": 332,
+   "text": "It is an official Ring Video Doorbell bought from Currys in Cardiff! It is not a cheap grey import! Why are you insulting my home security equipment?!",
+   "sentiment_score": -52.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:56]",
+   "end_time": "[06:06]",
+   "start_time_sec": 356,
+   "text": "I am stating the regulatory frequency differences between regional IEEE 802.11 specifications."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:12]",
+   "end_time": "[06:25]",
+   "start_time_sec": 372,
+   "text": "Please disable the automatic channel shift and lock our 2.4 GHz radio to channel 1 right now.",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:31]",
+   "end_time": "[06:44]",
+   "start_time_sec": 391,
+   "text": "I can disable dynamic channel hopping and fix your 2.4 GHz broadcast permanently on channel 1."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:50]",
+   "end_time": "[06:53]",
+   "start_time_sec": 410,
+   "text": "Please push that configuration update to our hub.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:59]",
+   "end_time": "[07:05]",
+   "start_time_sec": 419,
+   "text": "I am transmitting the static channel 1 assignment command to your Hub 5 cloud profile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:11]",
+   "end_time": "[07:19]",
+   "start_time_sec": 431,
+   "text": "The light on the front of the router pulsed white for a moment and has returned to solid green.",
+   "sentiment_score": 8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:25]",
+   "end_time": "[07:31]",
+   "start_time_sec": 445,
+   "text": "Obviously legacy 2.4 GHz wireless devices require compatible broadcast beacon channels to negotiate WPA2 pre-shared keys."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:37]",
+   "end_time": "[07:41]",
+   "start_time_sec": 457,
+   "text": "Right, I understand it cannot see channels outside 1 to 11.",
+   "sentiment_score": 10.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:47]",
+   "end_time": "[08:11]",
+   "start_time_sec": 467,
+   "text": "Rachel speaking, I live alone on a ground floor flat in central Cardiff and I was the victim of a stalking incident two months ago! That smart video doorbell is my only early warning system when someone approaches my front door at night! Sitting here for two days without working front door security has left me terrified, unable to sleep, and jumping at every shadow! I need my security camera working tonight!",
+   "sentiment_score": -68.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:17]",
+   "end_time": "[08:41]",
+   "start_time_sec": 497,
+   "text": "I completely understand the acute fear, vulnerability, and lack of sleep this has caused you, Rachel, especially following that terrifying stalking incident. Having your front door security camera knocked offline when you rely on it for your personal safety is completely unacceptable, and I will ensure your router is permanently configured to keep that doorbell connected."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:47]",
+   "end_time": "[08:54]",
+   "start_time_sec": 527,
+   "text": "Thank you Craig, you have no idea how much of a relief it is to hear you understand.",
+   "sentiment_score": -4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:00]",
+   "end_time": "[09:08]",
+   "start_time_sec": 540,
+   "text": "Channel 1 is now locked as the permanent frequency on your 2.4 GHz radio with dynamic hopping permanently disabled."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:14]",
+   "end_time": "[09:22]",
+   "start_time_sec": 554,
+   "text": "Let me press the orange setup button on the back of the Ring doorbell... It says 'Entering Setup Mode'.",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:28]",
+   "end_time": "[09:32]",
+   "start_time_sec": 568,
+   "text": "Open the Ring application on your phone and tap 'Join Network'."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:38]",
+   "end_time": "[09:46]",
+   "start_time_sec": 578,
+   "text": "Looking at the network list in the app... Craig! Our home Wi-Fi network 'S-Net-Morgan' appeared in the list instantly!",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:52]",
+   "end_time": "[09:55]",
+   "start_time_sec": 592,
+   "text": "Please select 'S-Net-Morgan' and enter your Wi-Fi password."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:01]",
+   "end_time": "[10:11]",
+   "start_time_sec": 601,
+   "text": "Entering password... The doorbell spun white... but now it flashed red three times and gave a voice prompt saying: 'Battery critically low, shutting down'!",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:17]",
+   "end_time": "[10:23]",
+   "start_time_sec": 617,
+   "text": "The internal rechargeable lithium-ion battery has fully depleted after forty-eight hours of continuous network searching."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:29]",
+   "end_time": "[10:35]",
+   "start_time_sec": 629,
+   "text": "Oh no! So the doorbell died because it spent two days searching for channel 13?!",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:41]",
+   "end_time": "[10:47]",
+   "start_time_sec": 641,
+   "text": "Yes, when IoT devices lose network synchronization, the continuous RF beacon searching drains the battery rapidly."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:53]",
+   "end_time": "[11:00]",
+   "start_time_sec": 653,
+   "text": "How long does the battery take to charge before I can mount it back on the door?",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:06]",
+   "end_time": "[11:13]",
+   "start_time_sec": 666,
+   "text": "A standard micro-USB charge on that model requires approximately six to eight hours to reach full operating capacity."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:19]",
+   "end_time": "[11:25]",
+   "start_time_sec": 679,
+   "text": "So we cannot complete the final live video streaming verification while we are on this call?",
+   "sentiment_score": -16.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:31]",
+   "end_time": "[11:36]",
+   "start_time_sec": 691,
+   "text": "Correct, the battery must charge before the camera can power its Wi-Fi transmitter."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:42]",
+   "end_time": "[11:49]",
+   "start_time_sec": 702,
+   "text": "I have plugged the battery into the wall charger right now; the amber charging LED is illuminated.",
+   "sentiment_score": 8.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:55]",
+   "end_time": "[12:05]",
+   "start_time_sec": 715,
+   "text": "Once the battery shows a solid green light in six hours, sliding it back into the doorbell will connect automatically to channel 1."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:11]",
+   "end_time": "[12:17]",
+   "start_time_sec": 731,
+   "text": "And because channel 1 is permanently locked, it won't drop off the network again?",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:23]",
+   "end_time": "[12:27]",
+   "start_time_sec": 743,
+   "text": "Yes, dynamic auto-channel hopping is permanently disabled on your profile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:33]",
+   "end_time": "[12:36]",
+   "start_time_sec": 753,
+   "text": "I have documented the channel lock in my notes.",
+   "sentiment_score": 16.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:42]",
+   "end_time": "[12:46]",
+   "start_time_sec": 762,
+   "text": "Before we conclude, what model smart doorbell was that again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:52]",
+   "end_time": "[12:59]",
+   "start_time_sec": 772,
+   "text": "As I told you right at the start of our call, it is a Ring smart video doorbell.",
+   "sentiment_score": -10.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:05]",
+   "end_time": "[13:10]",
+   "start_time_sec": 785,
+   "text": "Thank you Rachel, that completes the technical documentation under case reference SEC-RING-88192-M."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:16]",
+   "end_time": "[13:19]",
+   "start_time_sec": 796,
+   "text": "SEC-RING-88192-M, noted down.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:25]",
+   "end_time": "[13:33]",
+   "start_time_sec": 805,
+   "text": "If the doorbell does not connect automatically after charging tonight, our technical support line is available twenty-four hours a day."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:39]",
+   "end_time": "[13:44]",
+   "start_time_sec": 819,
+   "text": "Thank you Craig, I will leave it to charge fully this afternoon.",
+   "sentiment_score": 18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:50]",
+   "end_time": "[13:55]",
+   "start_time_sec": 830,
+   "text": "Please stay safe, Rachel, and sleep well tonight once the camera is mounted."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:01]",
+   "end_time": "[14:04]",
+   "start_time_sec": 841,
+   "text": "Thank you for your empathy and help, Craig.",
+   "sentiment_score": 20.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:10]",
+   "end_time": "[14:15]",
+   "start_time_sec": 850,
+   "text": "Is there any other wireless query I can assist you with today, Rachel?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:21]",
+   "end_time": "[14:24]",
+   "start_time_sec": 861,
+   "text": "No Craig, that covers everything.",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:30]",
+   "end_time": "[14:36]",
+   "start_time_sec": 870,
+   "text": "Thank you for calling S-Net wireless technical support, Rachel. Have a safe and peaceful evening. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:42]",
+   "end_time": "[14:45]",
+   "start_time_sec": 882,
+   "text": "Goodbye Craig.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:51]",
+   "end_time": "[14:54]",
+   "start_time_sec": 891,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:00]",
+   "end_time": "[15:03]",
+   "start_time_sec": 900,
+   "text": "Goodbye.",
+   "sentiment_score": 12.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:09]",
+   "end_time": "[15:12]",
+   "start_time_sec": 909,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:18]",
+   "end_time": "[15:21]",
+   "start_time_sec": 918,
+   "text": "Goodbye.",
+   "sentiment_score": 8.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:27]",
+   "end_time": "[15:30]",
+   "start_time_sec": 927,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:36]",
+   "end_time": "[15:39]",
+   "start_time_sec": 936,
+   "text": "Goodbye.",
+   "sentiment_score": 4.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:45]",
+   "end_time": "[15:48]",
+   "start_time_sec": 945,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:54]",
+   "end_time": "[15:59]",
+   "start_time_sec": 954,
+   "text": "Goodbye.",
+   "sentiment_score": 0.0
+  }
+ ]
+}

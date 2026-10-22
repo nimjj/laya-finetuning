@@ -1,0 +1,516 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Isaac",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer technical support. My name is Dominic. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:34]",
+      "start_time_sec": 10,
+      "text": "Hello Dominic. I need emergency engineering help right away. We had a landscaping contractor in our front garden this morning using a mini-digger to excavate a trench for a retaining wall, and the digger bucket tore right through our underground broadband cable conduit! The black armoured cable has been completely sheared in two and all our broadband and landline services died instantly!",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:37]",
+      "end_time": "[00:52]",
+      "start_time_sec": 37,
+      "text": "I can certainly help you book an emergency civil engineering repair crew for that severed cable, Isaac. Before we access your Openreach plant records, may I please verify your billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:55]",
+      "end_time": "[01:04]",
+      "start_time_sec": 55,
+      "text": "Yes, it is 82 Cedar Grove, Harrogate, HG1 5DR. And my security question answer is my father's middle name, Edward.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:07]",
+      "end_time": "[01:15]",
+      "start_time_sec": 67,
+      "text": "Thank you Isaac, that verifies the account profile. What is the landline telephone number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:18]",
+      "end_time": "[01:42]",
+      "start_time_sec": 78,
+      "text": "The landline number is 01423 881904. Dominic, my wife and I both work remotely in regulatory pharmaceutical compliance and we have a mandatory audit with the European Medicines Agency starting at nine tomorrow morning! If our connection is completely severed, we cannot access the regulatory document vault and our company could face massive regulatory sanctions! This is a total emergency!",
+      "sentiment_score": -58.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:45]",
+      "end_time": "[02:06]",
+      "start_time_sec": 105,
+      "text": "I completely understand the critical emergency for your pharmaceutical compliance audit tomorrow morning, Isaac. Having your main communications cable physically severed by construction work right before an international regulatory inspection is deeply alarming, so let us prioritize an emergency Openreach engineering dispatch right away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:09]",
+      "end_time": "[02:15]",
+      "start_time_sec": 129,
+      "text": "Thank you so much Dominic, we are in absolute panic so your help is deeply appreciated.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:18]",
+      "end_time": "[02:41]",
+      "start_time_sec": 138,
+      "text": "So if I have understood correctly, an excavation mini-digger in your front garden physically severed your underground broadband cable conduit, cutting off both broadband and landline service, and you urgently require physical repair to restore connectivity ahead of a mandatory compliance audit tomorrow. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:44]",
+      "end_time": "[02:49]",
+      "start_time_sec": 164,
+      "text": "Yes, that is exactly what happened and what we desperately need.",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:52]",
+      "end_time": "[03:04]",
+      "start_time_sec": 172,
+      "text": "First, for physical safety, ensure that no electrical mains supply cables were exposed or disturbed in the excavated trench."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:07]",
+      "end_time": "[03:15]",
+      "start_time_sec": 187,
+      "text": "The contractor verified with a CAT cable scanner that only the black telecommunications conduit was caught by the bucket.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:57]",
+      "end_time": "[04:11]",
+      "start_time_sec": 237,
+      "text": "The Openreach copper loop diagnostic system registers a hard metallic open-circuit loop fault at a distance of twenty-two metres from your home master socket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:14]",
+      "end_time": "[04:21]",
+      "start_time_sec": 254,
+      "text": "Twenty-two metres aligns exactly with the front lawn boundary where the digger was excavating.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:24]",
+      "end_time": "[04:35]",
+      "start_time_sec": 264,
+      "text": "We will book an Openreach external infrastructure repair squad to splice a new lead-in segment."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:38]",
+      "end_time": "[04:43]",
+      "start_time_sec": 278,
+      "text": "When is the earliest an Openreach crew can attend our property?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:46]",
+      "end_time": "[04:59]",
+      "start_time_sec": 286,
+      "text": "Under our Priority Fault repair SLA, an emergency civil engineering slot has been reserved for eight o'clock tomorrow morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:02]",
+      "end_time": "[05:09]",
+      "start_time_sec": 302,
+      "text": "Eight o'clock tomorrow morning would be brilliant if they can get the wire spliced before nine.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:12]",
+      "end_time": "[05:25]",
+      "start_time_sec": 312,
+      "text": "The engineer will carry a submersible mechanical joint closure and replacement armoured drop-wire to pull through the duct."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:28]",
+      "end_time": "[05:36]",
+      "start_time_sec": 328,
+      "text": "How does the submersible joint closure protect against rainwater leaking into the copper splice underground?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:39]",
+      "end_time": "[05:56]",
+      "start_time_sec": 339,
+      "text": "Openreach external squads use gel-filled IDC mechanical Scotchlok crimps housed inside an IP68 polyurethane two-part resin enclosure that is rated for permanent underwater submersion."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:59]",
+      "end_time": "[06:06]",
+      "start_time_sec": 359,
+      "text": "That gives me confidence that winter frosts or garden watering won't corrode the copper pair.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:09]",
+      "end_time": "[06:24]",
+      "start_time_sec": 369,
+      "text": "The polyurethane resin cures into a solid impenetrable rubber boot around the conductors within twenty minutes of injection."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:27]",
+      "end_time": "[06:36]",
+      "start_time_sec": 387,
+      "text": "What about tonight and tomorrow morning before the physical cable is repaired? Is there any interim mobile broadband backup S-Net can provide?",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:39]",
+      "end_time": "[06:55]",
+      "start_time_sec": 399,
+      "text": "Because you have an S-Net Unlimited mobile SIM plan on your mobile phone, I can activate forty-eight hours of unlimited high-speed tethering hotspot data free of charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:58]",
+      "end_time": "[07:05]",
+      "start_time_sec": 418,
+      "text": "That is fantastic! Can my wife and I both connect our work laptops to my phone's hotspot?",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:08]",
+      "end_time": "[07:20]",
+      "start_time_sec": 428,
+      "text": "Yes, your handset will support up to ten concurrent high-speed WiFi connections with zero bandwidth capping."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:23]",
+      "end_time": "[07:28]",
+      "start_time_sec": 443,
+      "text": "Let me turn on personal hotspot right now and test our laptops.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:31]",
+      "end_time": "[07:37]",
+      "start_time_sec": 451,
+      "text": "Go ahead, test connectivity through the cellular gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:40]",
+      "end_time": "[07:53]",
+      "start_time_sec": 460,
+      "text": "Turning on hotspot... my laptop connected... running a speed test... seventy-five megabits per second download! We can log into the EMA compliance server immediately!",
+      "sentiment_score": 62.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:56]",
+      "end_time": "[08:09]",
+      "start_time_sec": 476,
+      "text": "Obviously that confirms your regulatory compliance deadline is fully protected while awaiting physical ground repairs, Isaac."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:12]",
+      "end_time": "[08:18]",
+      "start_time_sec": 492,
+      "text": "You have saved our professional lives today, Dominic. What a relief!",
+      "sentiment_score": 54.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:21]",
+      "end_time": "[08:32]",
+      "start_time_sec": 501,
+      "text": "Is the damaged telephone drop-wire an overhead cable spanning from a wooden telegraph pole, or an underground line?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:35]",
+      "end_time": "[08:47]",
+      "start_time_sec": 515,
+      "text": "Dominic, as I told you in my very first sentence, a landscaping mini-digger dug through the underground conduit in our lawn! It is completely underground!",
+      "sentiment_score": -32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:50]",
+      "end_time": "[09:01]",
+      "start_time_sec": 530,
+      "text": "I apologize, Isaac, I wanted to double-check whether the lead-in surfaced to an exterior wall junction box."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:04]",
+      "end_time": "[09:10]",
+      "start_time_sec": 544,
+      "text": "No, it enters the house through a conduit beneath the foundation floor.",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:55]",
+      "end_time": "[10:08]",
+      "start_time_sec": 595,
+      "text": "I will update the Openreach engineering job notes to specify underground duct rodding and continuous blown cable pulling."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:11]",
+      "end_time": "[10:16]",
+      "start_time_sec": 611,
+      "text": "Will there be any call-out charge for the Openreach engineer?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:19]",
+      "end_time": "[10:36]",
+      "start_time_sec": 619,
+      "text": "Third-party accidental damage to underground infrastructure on private property carries a standard Openreach repair tariff, which can be claimed against your landscaping contractor's public liability insurance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:39]",
+      "end_time": "[10:47]",
+      "start_time_sec": 639,
+      "text": "The landscaping contractor has already agreed in writing to forward the repair bill to their business insurer.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:50]",
+      "end_time": "[11:00]",
+      "start_time_sec": 650,
+      "text": "We will provide an itemized Openreach civil works invoice upon completion of the splice."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:03]",
+      "end_time": "[11:07]",
+      "start_time_sec": 663,
+      "text": "That is perfect for their claims adjuster.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:10]",
+      "end_time": "[11:24]",
+      "start_time_sec": 670,
+      "text": "Please ensure the front garden driveway is kept clear of parked vehicles so the Openreach civil utilities van can position their cable drum trailer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:27]",
+      "end_time": "[11:33]",
+      "start_time_sec": 687,
+      "text": "I will move our cars onto the roadside so the contractors have full access to the lawn.",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:36]",
+      "end_time": "[11:46]",
+      "start_time_sec": 696,
+      "text": "Also ensure any family pets or dogs are kept safely inside during the excavation work."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:49]",
+      "end_time": "[11:54]",
+      "start_time_sec": 709,
+      "text": "Our golden retriever will stay inside the house all morning.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:57]",
+      "end_time": "[12:11]",
+      "start_time_sec": 717,
+      "text": "Let us check the master socket inside your hallway to make sure no internal copper wires were pulled loose when the cable snapped."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:14]",
+      "end_time": "[12:21]",
+      "start_time_sec": 734,
+      "text": "Inspecting the master socket... the faceplate is firmly attached to the wall and no wires appear strained.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:24]",
+      "end_time": "[12:37]",
+      "start_time_sec": 744,
+      "text": "The mechanical strain relief clamp on the backbox prevented tension from transferring to the internal wiring terminals."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:40]",
+      "end_time": "[12:45]",
+      "start_time_sec": 760,
+      "text": "That is good to know that the internal house wiring is intact.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:48]",
+      "end_time": "[13:00]",
+      "start_time_sec": 768,
+      "text": "Let us also check your landline call forwarding settings so phone calls redirect to your mobile handset."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:03]",
+      "end_time": "[13:09]",
+      "start_time_sec": 783,
+      "text": "Yes, please divert our landline to my mobile number 07700 900381.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:12]",
+      "end_time": "[13:25]",
+      "start_time_sec": 792,
+      "text": "I have activated Call Divert on the Harrogate exchange switch to route all incoming voice calls to your mobile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:28]",
+      "end_time": "[13:34]",
+      "start_time_sec": 808,
+      "text": "That ensures clients can still phone our landline without getting an unobtainable tone.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:37]",
+      "end_time": "[13:46]",
+      "start_time_sec": 817,
+      "text": "The call divert feature is provisioned free of charge during the network fault."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:49]",
+      "end_time": "[13:53]",
+      "start_time_sec": 829,
+      "text": "That is very considerate of S-Net.",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:56]",
+      "end_time": "[14:11]",
+      "start_time_sec": 836,
+      "text": "Does the property require any local council street works permits or is the excavation located entirely within your private freehold curtilage?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:14]",
+      "end_time": "[14:25]",
+      "start_time_sec": 854,
+      "text": "The entire trench is within our private front garden lawn, at least four metres away from the public pavement, so no council roadworks permits are needed.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:28]",
+      "end_time": "[14:40]",
+      "start_time_sec": 868,
+      "text": "That allows the engineer to proceed immediately without waiting for municipal section fifty notices."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:43]",
+      "end_time": "[14:47]",
+      "start_time_sec": 883,
+      "text": "That removes any bureaucratic delays.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:50]",
+      "end_time": "[15:03]",
+      "start_time_sec": 890,
+      "text": "Just to reconfirm, the Openreach engineer is booked for tomorrow morning between eight and one, ticket reference EXT-44910."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:06]",
+      "end_time": "[15:12]",
+      "start_time_sec": 906,
+      "text": "Eight to one tomorrow, EXT-44910. I have written that in my calendar.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:15]",
+      "end_time": "[15:29]",
+      "start_time_sec": 915,
+      "text": "I will remain the dedicated owner for this infrastructure fault and monitor the engineer's on-site arrival tomorrow morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:32]",
+      "end_time": "[15:38]",
+      "start_time_sec": 932,
+      "text": "Thank you Dominic, you have been tremendous help under stressful circumstances.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:41]",
+      "end_time": "[15:53]",
+      "start_time_sec": 941,
+      "text": "Is there anything else regarding your broadband emergency or engineering booking that I can assist you with today, Isaac?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:56]",
+      "end_time": "[16:00]",
+      "start_time_sec": 956,
+      "text": "No, that has sorted everything we need. Thank you.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:02]",
+      "end_time": "[16:08]",
+      "start_time_sec": 962,
+      "text": "All set. Have a good afternoon and take care. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:10]",
+      "end_time": "[16:12]",
+      "start_time_sec": 970,
+      "text": "Goodbye Dominic.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "call_id": "agc_46",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 25.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "Agent breached dead air standards twice with unannounced silent pauses of 35s and 37s while querying line databases, prompting caller chasing on both occasions."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Agent completely skipped account security verification, failing to request installation postcode, customer PIN, or security questions during the first 240 seconds or at any point in the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Agent failed to personalize the call, never addressing the caller by name ('Zoey') throughout the entire 19-minute interaction."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent completely failed Empathy throughout the call, ignoring four months of speed throttling and exam stress, and offering cold corporate guideline deflections during an outburst in the final third."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent never provided a restatement of the speed throttling, coursework crisis, or overbilling, jumping straight into database lookups."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Agent refused to take ownership of the provisioning error, refusing to escalate to tier-3 engineering or process an overcharge refund, unhelpfully telling the student to wait three weeks until the next billing cycle."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent abruptly terminated the call at turn 50 while the customer was asking whether hardware power-cycling would be required, hanging up without confirming complete resolution."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-22",
+    "scenario": "Capped broadband speed restricted to 10Mbps due to legacy billing profile mismatch",
+    "tier": "5+",
+    "duration_sec": 1170,
+    "notes": "Capped broadband speed profile mismatch call handled by Vicky. Student customer was restricted to 10Mbps on a 500Mbps plan for 4 months due to an automated XML provisioning error. Agent probed hardware LEDs well, but failed 7 criteria: Dead Air (two 30s+ gaps), Verified (skipped completely), Personalized (caller never named), Empathy (unhandled outbursts including final third), Paraphrasing (no restatement), Ownership (refused escalation/refund), and Confirmed Resolved (cut off caller at closing).",
+    "hard_cases": [
+      "Branding and Survey Check",
+      "Active listening",
+      "Probing",
+      "Hold time and Dead Air",
+      "Verified customer"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent included standard opening and closing branding formulas."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent breached dead air standards twice with unannounced silent pauses of 35s and 37s while querying line databases, prompting caller chasing on both occasions."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent completely skipped account security verification, failing to request installation postcode, customer PIN, or security questions during the first 240 seconds or at any point in the call."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent failed to personalize the call, never addressing the caller by name ('Zoey') throughout the entire 19-minute interaction."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent completely failed Empathy throughout the call, ignoring four months of speed throttling and exam stress, and offering cold corporate guideline deflections during an outburst in the final third."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never provided a restatement of the speed throttling, coursework crisis, or overbilling, jumping straight into database lookups."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent executed an accurate harmless recheck of ONT serial number 11 turns after premise."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent refused to take ownership of the provisioning error, refusing to escalate to tier-3 engineering or process an overcharge refund, unhelpfully telling the student to wait three weeks until the next billing cycle."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent thoroughly probed Ethernet cabling, speed test methodology, optical dBm power, and ONT physical port LED indicators."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent abruptly terminated the call at turn 50 while the customer was asking whether hardware power-cycling would be required, hanging up without confirming complete resolution."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 3,
+          "agent_turn": 14
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 12
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 8
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 36
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 1
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 35
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 51
+        }
+      ]
+    }
+  }
+}

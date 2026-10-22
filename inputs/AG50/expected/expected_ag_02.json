@@ -1,0 +1,159 @@
+{
+  "call_id": "ag_02",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 100.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Mobile roaming data not connecting in Valencia, Spain despite Roam-Further bolt-on being active",
+    "tier": "excellent",
+    "duration_sec": 655,
+    "notes": "All-PASS excellent mobile roaming support call with natural STT disfluencies. Includes three hard-case PASS items: late-but-valid security verification at [03:37] (just under 240s), legitimate post-reprovisioning status re-check at [06:46] vs [01:30], and benign use of 'obviously' at [03:55].",
+    "hard_cases": [
+      "Verified customer",
+      "Active listening",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opened with 'thank you for calling S-Net' at [00:00] and closed with 'Thank you for choosing S-Net' at [10:47]."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Maintained continuous interactive troubleshooting with zero dead-air gaps over 30s."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: After initial triage of the airport roaming failure, Agent verified the customer's four-digit security PIN and home address at [03:37], just inside the 240-second verification window."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Used customer name 'Kwame' naturally throughout the call (e.g., [00:16], [03:55], [10:47])."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Expressed warm empathy for Kwame being stranded at Valencia airport without mobile data at [00:16]."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Paraphrased the roaming data issue despite the active Roam-Further pass and confirmed understanding at [00:36]."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: Agent asked for carrier name and signal bars at [01:30] and re-asked at [06:46] only after removing the HLR GPRS bar, updating the APN to mob.s-net.co.uk, and switching networks to Orange ES—a legitimate post-fix status verification."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Took complete ownership of removing the stale HLR GPRS bar on both Kwame's line ([05:10]) and his partner's family-plan line ([08:57])."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: Agent used a brisk, matter-of-fact pace and used the word 'obviously' in a polite, helpful sense at [03:55] ('Obviously I'll check that roaming carrier profile on our switch right now for you, Kwame')."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Probed systematically into handset model ([01:19]), carrier/signal indicator ([01:30]), Data Roaming toggle ([01:51]), dual-SIM/eSIM status ([02:13]), welcome SMS ([02:33]), and APN string ([05:42])."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Confirmed live 5G connectivity on Orange ES, tested hotel voucher download and Google Maps ([07:25]), and confirmed full resolution at [10:43]."
+      }
+    ]
+  }
+}

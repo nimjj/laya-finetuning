@@ -1,0 +1,440 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Judith",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer orders, my name is Terry. What's the problem?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:18]",
+      "end_time": "[00:41]",
+      "start_time_sec": 18,
+      "text": "Hello Terry. I am in complete shock. I moved into my new flat yesterday, took the day off work for the broadband installation engineer who was booked between one and six PM, and nobody showed up! When I checked the online tracker, it says 'Order Cancelled by System' with no notification or explanation whatsoever!",
+      "sentiment_score": -48.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:53]",
+      "end_time": "[01:02]",
+      "start_time_sec": 53,
+      "text": "Before I look into order status, I have to complete security verification. What is your full name and the move address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:14]",
+      "end_time": "[01:18]",
+      "start_time_sec": 74,
+      "text": "Judith Vance, Flat 4B, St George's Court, Gloucester, GL1 1QZ.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:30]",
+      "end_time": "[01:34]",
+      "start_time_sec": 90,
+      "text": "And what is the security PIN on the account, Judith?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:46]",
+      "end_time": "[01:49]",
+      "start_time_sec": 106,
+      "text": "It's 7914.",
+      "sentiment_score": -5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:01]",
+      "end_time": "[02:06]",
+      "start_time_sec": 121,
+      "text": "What was your former property address where the broadband was moved from?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:18]",
+      "end_time": "[02:22]",
+      "start_time_sec": 138,
+      "text": "We moved from 19 Lansdown Road, Cheltenham, GL51 6PT.",
+      "sentiment_score": -8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:34]",
+      "end_time": "[02:40]",
+      "start_time_sec": 154,
+      "text": "And did you submit the home move order online or over the telephone?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:52]",
+      "end_time": "[02:56]",
+      "start_time_sec": 172,
+      "text": "Over the telephone two weeks ago with your moves desk.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:14]",
+      "start_time_sec": 188,
+      "text": "Bear with me while I access the national address database and Openreach provisioning logs."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:04]",
+      "end_time": "[04:18]",
+      "start_time_sec": 244,
+      "text": "Thank you for waiting, Judith. Looking at the address record for Flat 4B, St George's Court, the property is classified as a commercial mixed-use unit in the Royal Mail Postcode Address File."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:30]",
+      "end_time": "[04:37]",
+      "start_time_sec": 270,
+      "text": "It's not a commercial unit! It's a completely residential residential apartment in a converted Georgian townhouse!",
+      "sentiment_score": -24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:49]",
+      "end_time": "[05:01]",
+      "start_time_sec": 289,
+      "text": "The Openreach automated address bridge rejects residential FTTP orders if the property classification code contains a commercial flag, so that's the conveyancer's and estate agent's fault, not S-Net's."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:13]",
+      "end_time": "[05:36]",
+      "start_time_sec": 313,
+      "text": "How is it my conveyancer's fault? The previous tenant had residential S-Net broadband in this exact flat! Why did your system cancel my order without sending me a text message or phone call? I lost a full day of annual leave sitting in an empty flat waiting for an engineer who was never coming!",
+      "sentiment_score": -48.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:48]",
+      "end_time": "[05:51]",
+      "start_time_sec": 348,
+      "text": "System cancellations dispatch email notifications automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:03]",
+      "end_time": "[06:07]",
+      "start_time_sec": 363,
+      "text": "I never received an email! Check your mail logs!",
+      "sentiment_score": -32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:19]",
+      "end_time": "[06:24]",
+      "start_time_sec": 379,
+      "text": "As I said, automated order rejections trigger when wholesale address codes conflict."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:36]",
+      "end_time": "[06:43]",
+      "start_time_sec": 396,
+      "text": "Can you just re-book the engineer for tomorrow so I can get internet for my work?",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:55]",
+      "end_time": "[07:02]",
+      "start_time_sec": 415,
+      "text": "Let me check where you moved from again. What was that previous address in Cheltenham?"
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:14]",
+      "end_time": "[07:24]",
+      "start_time_sec": 434,
+      "text": "While we have the wholesale portal open, what type of master socket is installed on the skirting board in the hallway of Flat 4B?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:36]",
+      "end_time": "[07:43]",
+      "start_time_sec": 456,
+      "text": "There is a standard Openreach master socket with an existing optical ONT box on the wall.",
+      "sentiment_score": -8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:55]",
+      "end_time": "[08:00]",
+      "start_time_sec": 475,
+      "text": "What are the LED lights displaying on that optical wall unit?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:12]",
+      "end_time": "[08:17]",
+      "start_time_sec": 492,
+      "text": "Power is green, PON is solid green, and LAN is unlit.",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:29]",
+      "end_time": "[08:39]",
+      "start_time_sec": 509,
+      "text": "A solid green PON light indicates the physical fibre cable from the street is already spliced and illuminated with live laser light."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:51]",
+      "end_time": "[08:58]",
+      "start_time_sec": 531,
+      "text": "Right! The physical fibre is already working! So there was zero technical reason to cancel my appointment!",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:10]",
+      "end_time": "[09:14]",
+      "start_time_sec": 550,
+      "text": "Physical light presence does not override database property classification protocols."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:26]",
+      "end_time": "[09:29]",
+      "start_time_sec": 566,
+      "text": "It's just mindless bureaucracy.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:41]",
+      "end_time": "[09:46]",
+      "start_time_sec": 581,
+      "text": "Wholesale telecom providers are legally bound by Ofcom infrastructure separation guidelines."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:58]",
+      "end_time": "[10:05]",
+      "start_time_sec": 598,
+      "text": "I don't care about guidelines, I care about moving into my home and having working broadband.",
+      "sentiment_score": -22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:17]",
+      "end_time": "[10:23]",
+      "start_time_sec": 617,
+      "text": "And standard residential billing profiles cannot attach to commercial sub-premises without tariff exception codes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:35]",
+      "end_time": "[10:39]",
+      "start_time_sec": 635,
+      "text": "Other tenants in the building have S-Net broadband right now.",
+      "sentiment_score": -14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:51]",
+      "end_time": "[10:57]",
+      "start_time_sec": 651,
+      "text": "Their units are likely classified as private domestic dwellings on the council tax register."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:09]",
+      "end_time": "[11:14]",
+      "start_time_sec": 669,
+      "text": "My flat is on the council tax register as Band B domestic!",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:26]",
+      "end_time": "[11:31]",
+      "start_time_sec": 686,
+      "text": "The royal mail database update will require that council tax proof."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:43]",
+      "end_time": "[11:48]",
+      "start_time_sec": 703,
+      "text": "I have the council tax bill right here in my moving folder.",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:00]",
+      "end_time": "[12:05]",
+      "start_time_sec": 720,
+      "text": "You can upload it to our web portal under move verification."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:17]",
+      "end_time": "[12:24]",
+      "start_time_sec": 737,
+      "text": "I shouldn't have to upload council tax documents just to move my broadband across town.",
+      "sentiment_score": -16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:36]",
+      "end_time": "[12:43]",
+      "start_time_sec": 756,
+      "text": "Just to confirm for the ombudsman complaint file, your previous address was 19 Lansdown Road, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:55]",
+      "end_time": "[12:58]",
+      "start_time_sec": 775,
+      "text": "Yes, 19 Lansdown Road.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:10]",
+      "end_time": "[13:20]",
+      "start_time_sec": 790,
+      "text": "I told you, 19 Lansdown Road, Cheltenham! Why are you asking about my old house when my new flat has no internet?",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:32]",
+      "end_time": "[13:39]",
+      "start_time_sec": 812,
+      "text": "I cannot re-book an installation until a manual royal mail property classification dispute is submitted to Openreach."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:51]",
+      "end_time": "[13:54]",
+      "start_time_sec": 831,
+      "text": "How long does that dispute take?",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:06]",
+      "end_time": "[14:12]",
+      "start_time_sec": 846,
+      "text": "Address classification appeals take seven to ten business days for council planning review."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:24]",
+      "end_time": "[14:35]",
+      "start_time_sec": 864,
+      "text": "Ten business days? That's two weeks without internet! Why can't you just provision a standard residential broadband order like every other flat in the building?",
+      "sentiment_score": -44.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:47]",
+      "end_time": "[14:54]",
+      "start_time_sec": 887,
+      "text": "It's a stupid question to ask why a commercial unit can't have residential broadband without surveyor approval!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:06]",
+      "end_time": "[15:13]",
+      "start_time_sec": 906,
+      "text": "Did you just call my question stupid? How dare you speak to a customer like that!",
+      "sentiment_score": -58.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:25]",
+      "end_time": "[15:32]",
+      "start_time_sec": 925,
+      "text": "I am stating the regulatory reality. Shouting at me will not rewrite the Postcode Address File."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:44]",
+      "end_time": "[15:51]",
+      "start_time_sec": 944,
+      "text": "I want to speak to your manager right now! What is your name and employee ID?",
+      "sentiment_score": -52.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:03]",
+      "end_time": "[16:10]",
+      "start_time_sec": 963,
+      "text": "My name is Terry, operator ID 3810. There is no supervisor available to take escalations."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:22]",
+      "end_time": "[16:28]",
+      "start_time_sec": 982,
+      "text": "I am lodging an immediate complaint with the telecommunications ombudsman and cancelling my account!",
+      "sentiment_score": -48.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:40]",
+      "end_time": "[16:46]",
+      "start_time_sec": 1000,
+      "text": "You are free to cancel your pending move order if you wish, Judith."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:58]",
+      "end_time": "[17:04]",
+      "start_time_sec": 1018,
+      "text": "Cancel it! I am switching to an ISP that treats customers with basic respect!",
+      "sentiment_score": -46.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:16]",
+      "end_time": "[17:20]",
+      "start_time_sec": 1036,
+      "text": "The pending move order has been ceased on the system."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:32]",
+      "end_time": "[17:38]",
+      "start_time_sec": 1052,
+      "text": "And am I leaving this call with any working internet at my flat?",
+      "sentiment_score": -36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:50]",
+      "end_time": "[17:54]",
+      "start_time_sec": 1070,
+      "text": "No, as no installation order is active on the property."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:06]",
+      "end_time": "[18:09]",
+      "start_time_sec": 1086,
+      "text": "Disgraceful company. Goodbye Terry.",
+      "sentiment_score": -42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:21]",
+      "end_time": "[18:24]",
+      "start_time_sec": 1101,
+      "text": "Thank you for choosing S-Net, goodbye."
+    }
+  ]
+}

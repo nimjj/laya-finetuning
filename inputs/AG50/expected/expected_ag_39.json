@@ -1,0 +1,160 @@
+{
+  "call_id": "ag_39",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 83.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Restate the customer's issue in your own words rather than repeating her exact sentence verbatim at [00:40] ('Your Netflix and Disney+ entertainment bundle activation token expired before you could link your account')."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Note down the customer's email address when she spells out 'violetta.kowalski88@gmail.com' at [02:23] so you do not ask her what email address to send the token to at [07:30]."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Netflix and Disney+ entertainment bundle activation token expired before customer could link her S-Net account",
+    "tier": "good",
+    "duration_sec": 735,
+    "notes": "Good call (83.3) with two clear technical deduction failures: at [00:40] Chloe echoes Violetta's exact words from [00:10] verbatim (PA FAIL), and at [07:30] she asks what email address to send the new activation link to after Violetta spelled out violetta.kowalski88@gmail.com letter-by-letter at [02:23] (AL FAIL). All other 9 criteria pass clearly, including live resolution confirmation of both Netflix and Disney+ linking on the call ([08:18]-[09:51]).",
+    "hard_cases": [
+      "Paraphrasing",
+      "Active listening",
+      "Empathy & Acknowledgment Statement",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Greeting at [00:00] ('thank you for calling S-Net') and closing with survey check at [12:00] ('Thank you for choosing S-Net')."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Single managed 52s hold between [04:42] ('Please bear with me while I revoke token batch ENT-88219...') and [05:55] ('Thank you for holding, Violetta!')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [00:40]-[01:02] (within 2 minutes) Agent verified postcode (GU1 3RX), address (14 Sycamore Avenue), and 4-digit security PIN (3185)."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent used 'Violetta' naturally throughout ([00:19], [01:02], [02:51], [04:25], [05:55], [07:30], [12:00])."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [00:19] and [07:46] Agent apologized warmly and acknowledged how disappointing it was to have family movie night delayed."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [00:40] Agent parroted the customer's exact words from [00:10] verbatim ('Your Netflix and Disney+ entertainment bundle activation token expired before you could link your account') instead of paraphrasing."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [02:23] Customer clearly stated and spelled out 'violetta.kowalski88@gmail.com', and Agent claimed 'Got that noted' at [02:31], but at [07:30] Agent asked 'And what email address would you like me to send the new activation token to?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [04:25]-[06:11] and [10:20], Agent purged the stuck ENT-410 session tokens in the Partner Entitlement Gateway, issued new tokens PEG-550912 and PEG-550913, guided live linking, and applied a £5 pro-rata credit."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Warm, friendly rapport throughout, including chatting about the customer's family trip to Krakow ([01:55]) and watching Inside Out 2 ([11:18]-[11:30])."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent probed the exact error code ENT-410 ([01:16]), whether existing Netflix/Disney+ accounts and card billing were active ([02:13], [02:31]), device/browser/content blockers ([03:08]), and Wi-Fi vs VPN connection ([03:28])."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [08:18]-[09:51] and [11:43], Violetta clicked the new links live on her iPad and confirmed both Netflix and Disney+ show 'Linked to S-Net Billing'."
+      }
+    ]
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "call_id": "agt_012",
+  "tenant_id": "tenant-abc",
+  "customer_name": "Benjamin",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net broadband technical support. My name is Connor. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:19]",
+      "start_time_sec": 8,
+      "text": "Hi Connor. My name is Benjamin Vance. I have an urgent and critical problem with my broadband connection at home that is severely affecting my remote software engineering work.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:20]",
+      "end_time": "[00:32]",
+      "start_time_sec": 20,
+      "text": "Good morning Benjamin. Before we examine your broadband connection and line statistics, could you confirm your full postal address and your account security PIN, please?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:33]",
+      "end_time": "[00:46]",
+      "start_time_sec": 33,
+      "text": "Yes, it is 82 Parkside Avenue, Bristol, BS6 5TN, and my security PIN is 4481.",
+      "sentiment_score": 1.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:47]",
+      "end_time": "[00:57]",
+      "start_time_sec": 47,
+      "text": "Thank you, Benjamin, that successfully verifies your account. What seems to be happening with your broadband service today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:58]",
+      "end_time": "[01:19]",
+      "start_time_sec": 58,
+      "text": "My upload speed has completely cratered to half a megabit! I manage a software development team remotely, and all morning my Zoom calls keep freezing and disconnecting in front of executive directors! It's utterly humiliating and causing massive disruption!",
+      "sentiment_score": -58.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:20]",
+      "end_time": "[01:36]",
+      "start_time_sec": 80,
+      "text": "I understand how disruptive and stressful it is when your video conferences freeze during critical executive meetings, Benjamin. Let me pull up your line diagnostics and optical sync parameters."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:37]",
+      "end_time": "[01:46]",
+      "start_time_sec": 97,
+      "text": "Thank you Connor. We have the S-Net Hub 5 full-fibre router installed in the main hallway right next to the optical termination wall box.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:47]",
+      "end_time": "[01:58]",
+      "start_time_sec": 107,
+      "text": "How is your desktop work computer physically connected to the Hub 5 router right now across your home office?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:59]",
+      "end_time": "[02:11]",
+      "start_time_sec": 119,
+      "text": "I am plugged directly into gigabit Ethernet port 1 with a brand new Cat 6 shielded cable. No Wi-Fi involved whatsoever on this primary workstation.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:12]",
+      "end_time": "[02:25]",
+      "start_time_sec": 132,
+      "text": "Let me test the physical optical link power levels and upstream sync rate from our network management diagnostic platform."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:26]",
+      "end_time": "[02:32]",
+      "start_time_sec": 146,
+      "text": "Go ahead, I am looking at the live Ookla speed test telemetry graph right now on my desktop monitor.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:33]",
+      "end_time": "[02:49]",
+      "start_time_sec": 153,
+      "text": "Bear with me for a couple of minutes while I run the full spectrum time-domain reflectometry and upstream packet loss test on your fibre drop."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:50]",
+      "end_time": "[02:55]",
+      "start_time_sec": 170,
+      "text": "Sure, I will wait.",
+      "sentiment_score": 3.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:45]",
+      "end_time": "[04:04]",
+      "start_time_sec": 225,
+      "text": "Thank you for holding, Benjamin. The optical power reading on the downstream is minus eighteen dBm, which is completely within normal operating thresholds for full fibre."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:05]",
+      "end_time": "[04:14]",
+      "start_time_sec": 245,
+      "text": "Yes, downloading data is completely fine, I reliably get 300 megabits down. It is strictly the upload direction that is choked down to 0.5 megabits per second.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:15]",
+      "end_time": "[04:26]",
+      "start_time_sec": 255,
+      "text": "Before I run the upstream attenuation test, that is the Hub 5 router, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:27]",
+      "end_time": "[04:33]",
+      "start_time_sec": 267,
+      "text": "Yes, as I mentioned, it is the Hub 5 wireless router unit in the hallway.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:34]",
+      "end_time": "[04:48]",
+      "start_time_sec": 274,
+      "text": "Our upstream sync profile is showing severe burst noise and signal attenuation on the return path frequency band across the local distribution loop."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:49]",
+      "end_time": "[04:55]",
+      "start_time_sec": 289,
+      "text": "What does that mean in practical terms for my daily upload traffic and video conferencing bandwidth?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:56]",
+      "end_time": "[05:14]",
+      "start_time_sec": 296,
+      "text": "It means high packet retransmissions on your upstream queue, which throttles your upload throughput down to half a megabit while downstream browsing remains completely unaffected."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:15]",
+      "end_time": "[05:22]",
+      "start_time_sec": 315,
+      "text": "Can you reset the line profile, clear the session buffers, or re-profile the port from your network operations terminal?",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:23]",
+      "end_time": "[05:41]",
+      "start_time_sec": 323,
+      "text": "That is an issue on the local street node multiplexer in your area. S-Net frontline support cannot dispatch or fix street node infrastructure; that is handled by Openreach civil engineering contractors."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:42]",
+      "end_time": "[06:04]",
+      "start_time_sec": 342,
+      "text": "Wait, I just ran another test while we are speaking and the upload dropped to 0.3 Mbps! I have our quarterly board presentation in forty-five minutes! If my connection drops during the CEO's review I could genuinely lose my job! You have to do something now!",
+      "sentiment_score": -70.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:05]",
+      "end_time": "[06:24]",
+      "start_time_sec": 365,
+      "text": "I understand how alarming and stressful that is with your board presentation forty-five minutes away, Benjamin. I know how critical that meeting is for your career."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:25]",
+      "end_time": "[06:33]",
+      "start_time_sec": 385,
+      "text": "Then what can you do to fix this street node immediately before my executive presentation starts in thirty minutes?",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:34]",
+      "end_time": "[06:56]",
+      "start_time_sec": 394,
+      "text": "Well if you actually paid attention to our fair usage and residential service terms, you would know home residential broadband isn't an enterprise leased line with dedicated engineer callouts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:57]",
+      "end_time": "[07:09]",
+      "start_time_sec": 417,
+      "text": "There is no need to be rude, sarcastic, and condescending! I am paying premium rates for your top-tier full fibre package and expect professional support!",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:10]",
+      "end_time": "[07:28]",
+      "start_time_sec": 430,
+      "text": "All I can do is raise a standard fault ticket with the network operations queue. The standard response window is two to three business days for external roadside cabinet investigations."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:29]",
+      "end_time": "[07:38]",
+      "start_time_sec": 449,
+      "text": "Two to three business days? That does not help me for today's critical executive meeting in forty minutes at all!",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:39]",
+      "end_time": "[07:53]",
+      "start_time_sec": 459,
+      "text": "Are you testing your computer over Wi-Fi or do you have an Ethernet cable plugged directly into the router right now?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:54]",
+      "end_time": "[08:08]",
+      "start_time_sec": 474,
+      "text": "I already told you at the very beginning of the call that I am plugged directly into port 1 with a Cat 6 shielded Ethernet cable, not running on Wi-Fi!",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:09]",
+      "end_time": "[08:23]",
+      "start_time_sec": 489,
+      "text": "Fine. I will formally document and log the fault ticket for the regional street cabinet engineering team."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:24]",
+      "end_time": "[08:31]",
+      "start_time_sec": 504,
+      "text": "What is the official incident reference number for this roadside engineering fault ticket?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:32]",
+      "end_time": "[08:48]",
+      "start_time_sec": 512,
+      "text": "Give me a moment while our internal network engineering ticketing application registers the fault report and assigns a tracking priority code."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:49]",
+      "end_time": "[08:54]",
+      "start_time_sec": 529,
+      "text": "Okay.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:40]",
+      "end_time": "[09:59]",
+      "start_time_sec": 580,
+      "text": "Thank you for waiting, Benjamin. Your network fault reference number has been created as FLT-782190-UP in our operations engineering portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:00]",
+      "end_time": "[10:09]",
+      "start_time_sec": 600,
+      "text": "FLT-782190-UP, noted down. And what should I do right now for my impending executive board presentation?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:10]",
+      "end_time": "[10:25]",
+      "start_time_sec": 610,
+      "text": "You will need to use your 4G or 5G mobile hotspot from your mobile handset provider as a backup data connection for your video conference."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:26]",
+      "end_time": "[10:35]",
+      "start_time_sec": 626,
+      "text": "I suppose that's my only option. So the broadband itself is not fixed on this call.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:36]",
+      "end_time": "[10:45]",
+      "start_time_sec": 636,
+      "text": "No, it cannot be fixed until the cabinet engineers investigate the physical line card and the upstream noise floor at the exchange cabinet."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:46]",
+      "end_time": "[10:52]",
+      "start_time_sec": 646,
+      "text": "Can you email me an official summary transcript of this support call so I have documentation to show my senior management team?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:53]",
+      "end_time": "[11:00]",
+      "start_time_sec": 653,
+      "text": "Call audio transcripts cannot be emailed, but all ticket diagnostic logs are saved to your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:01]",
+      "end_time": "[11:07]",
+      "start_time_sec": 661,
+      "text": "Understood. I will prepare my mobile hotspot then.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:08]",
+      "end_time": "[11:15]",
+      "start_time_sec": 668,
+      "text": "Is there anything else on your account I can assist with today, Benjamin?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:16]",
+      "end_time": "[11:22]",
+      "start_time_sec": 676,
+      "text": "Am I entitled to compensation under the automatic compensation scheme for this upload drop?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:23]",
+      "end_time": "[11:38]",
+      "start_time_sec": 683,
+      "text": "The Ofcom automatic compensation scheme applies only to total loss of broadband service or missed engineer appointments, not degraded upload speeds on an active line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:39]",
+      "end_time": "[11:44]",
+      "start_time_sec": 699,
+      "text": "That seems very one-sided given how much I pay each month.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:45]",
+      "end_time": "[11:58]",
+      "start_time_sec": 705,
+      "text": "Those are the standard regulatory guidelines established by the telecom ombudsman across all UK internet service providers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:59]",
+      "end_time": "[12:04]",
+      "start_time_sec": 719,
+      "text": "Wait, my router just restarted its optical session! Did you trigger something?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:05]",
+      "end_time": "[12:14]",
+      "start_time_sec": 725,
+      "text": "I sent an automated port bounce and profile reset to the street multiplexer line card before logging the fault."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:15]",
+      "end_time": "[12:22]",
+      "start_time_sec": 735,
+      "text": "Let me test it... it just hit 65 Mbps upload! The video conference preview is completely smooth and crystal clear now! That actually fixed it!",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:23]",
+      "end_time": "[12:29]",
+      "start_time_sec": 743,
+      "text": "The port reset cleared the buffer noise. That confirms your upload throughput is fully restored to standard speed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:30]",
+      "end_time": "[12:34]",
+      "start_time_sec": 750,
+      "text": "That is such a relief for my meeting, thank you.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:35]",
+      "end_time": "[12:38]",
+      "start_time_sec": 755,
+      "text": "Thank you for choosing S-Net broadband technical support, Benjamin."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:39]",
+      "end_time": "[12:40]",
+      "start_time_sec": 759,
+      "text": "Goodbye Connor.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:41]",
+      "end_time": "[12:42]",
+      "start_time_sec": 761,
+      "text": "Thank you for choosing S-Net. Goodbye."
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "call_id": "agt_008",
+  "tenant_id": "tenant-abc",
+  "customer_name": "Anika",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net mobile technical support. My name is David. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:26]",
+      "start_time_sec": 8,
+      "text": "Hello David. I really need help with my phone number. I transferred my mobile number from Vodafone to S-Net yesterday with a PAC code. Outgoing calls work fine, but whenever anyone tries to call me from another network like EE or Vodafone, they get a recorded message saying my number is not recognized!",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:27]",
+      "end_time": "[00:43]",
+      "start_time_sec": 27,
+      "text": "I can certainly look into that for you. That sounds like a split-routing issue where the central porting tables haven't updated across all UK networks. Before we access your account records and run routing tests, can I take your date of birth and your account reference number, please?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:44]",
+      "end_time": "[00:54]",
+      "start_time_sec": 44,
+      "text": "Yes, my date of birth is the 14th of August 1988, and my account reference is SN-884219.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:55]",
+      "end_time": "[01:08]",
+      "start_time_sec": 55,
+      "text": "Thank you very much. I have your account pulled up on my system here. Can you confirm the mobile number you ported across?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:09]",
+      "end_time": "[01:19]",
+      "start_time_sec": 69,
+      "text": "It is 07700 900381. I run a freelance design consultancy from home, so this is causing massive issues.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:20]",
+      "end_time": "[01:31]",
+      "start_time_sec": 80,
+      "text": "Okay, so the mobile number is 07700 900381."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:32]",
+      "end_time": "[01:52]",
+      "start_time_sec": 92,
+      "text": "Yes, exactly. I have clients trying to reach me all morning for urgent project approvals, and they think my business has closed down because the line says invalid number! I'm losing potential contracts as we speak, it's so frustrating and stressful!",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:53]",
+      "end_time": "[02:11]",
+      "start_time_sec": 113,
+      "text": "I completely understand how stressful and frustrating that is when your business clients cannot reach you and it impacts your work. Please rest assured, I am going to take full personal ownership of this issue right now and get your incoming routing properly resolved."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:12]",
+      "end_time": "[02:19]",
+      "start_time_sec": 132,
+      "text": "Thank you, I appreciate that.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:20]",
+      "end_time": "[02:35]",
+      "start_time_sec": 140,
+      "text": "To help diagnose the exact routing breakdown across the national networks, could you tell me roughly what time yesterday your Vodafone SIM lost service?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:36]",
+      "end_time": "[02:49]",
+      "start_time_sec": 156,
+      "text": "It lost service around 11:30 in the morning yesterday. Then I put the S-Net SIM in, and by 2 PM I got a text saying port completed.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:50]",
+      "end_time": "[03:07]",
+      "start_time_sec": 170,
+      "text": "Understood. When you make an outgoing call from your handset right now, what number displays on the recipient's phone?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:08]",
+      "end_time": "[03:22]",
+      "start_time_sec": 188,
+      "text": "When I call my partner, it shows my correct ported number, 07700 900381. And we both hear each other perfectly.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:23]",
+      "end_time": "[03:39]",
+      "start_time_sec": 203,
+      "text": "And when people try to call you and get the invalid number message, do you know what mobile networks those callers are on?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:40]",
+      "end_time": "[03:57]",
+      "start_time_sec": 220,
+      "text": "Yes, one client is on Vodafone and another is on EE. Both of them got the recorded message saying the number is not recognized or not in service.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:58]",
+      "end_time": "[04:08]",
+      "start_time_sec": 238,
+      "text": "That confirms it. That is a textbook split-port or incomplete routing broadcast in the national Mobile Number Portability clearinghouse."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:09]",
+      "end_time": "[04:16]",
+      "start_time_sec": 249,
+      "text": "Could it be a physical issue with the SIM card itself?",
+      "sentiment_score": -3.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:17]",
+      "end_time": "[04:26]",
+      "start_time_sec": 257,
+      "text": "No, because outgoing calls work and display your correct number, the SIM card hardware is functioning perfectly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:27]",
+      "end_time": "[04:34]",
+      "start_time_sec": 267,
+      "text": "What does that actually mean in practice?",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:35]",
+      "end_time": "[04:52]",
+      "start_time_sec": 275,
+      "text": "When a telephone number ports, the donor network, Vodafone in this case, must update the central database to tell all other UK networks to direct inbound traffic to S-Net. If their routing sync file failed to populate across all transit gateways, calls originating from other networks still look for Vodafone's switches."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:53]",
+      "end_time": "[05:03]",
+      "start_time_sec": 293,
+      "text": "Right, I see. Can you fix that from your side or do I have to ring Vodafone?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:04]",
+      "end_time": "[05:22]",
+      "start_time_sec": 304,
+      "text": "You do not need to call Vodafone at all. I can submit an expedited manual MNPO routing broadcast directly from our network operations console right now, which forces all carrier gateway tables to refresh."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:23]",
+      "end_time": "[05:29]",
+      "start_time_sec": 323,
+      "text": "Oh, that is such a relief. Thank you.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:30]",
+      "end_time": "[05:48]",
+      "start_time_sec": 330,
+      "text": "Bear with me for a couple of minutes while I open the clearinghouse gateway tool and push the manual broadcast update for your number."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:49]",
+      "end_time": "[05:54]",
+      "start_time_sec": 349,
+      "text": "Sure, I will hold on.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:45]",
+      "end_time": "[07:05]",
+      "start_time_sec": 405,
+      "text": "Thank you for holding. I have accessed the central MNPO portal and re-sent the routing announcement broadcast for 07700 900381."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:06]",
+      "end_time": "[07:13]",
+      "start_time_sec": 426,
+      "text": "Has it gone through already?",
+      "sentiment_score": 7.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:14]",
+      "end_time": "[07:33]",
+      "start_time_sec": 434,
+      "text": "Yes, the status flag has just updated to active on the national routing ledger across all major transit points."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:34]",
+      "end_time": "[07:41]",
+      "start_time_sec": 454,
+      "text": "That was very quick.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:42]",
+      "end_time": "[08:05]",
+      "start_time_sec": 462,
+      "text": "Now what we need to do is refresh your phone's connection to our local mast so that the SIM re-registers with the updated HLR profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:06]",
+      "end_time": "[08:14]",
+      "start_time_sec": 486,
+      "text": "Do I need to turn the phone completely off, or just airplane mode?",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:15]",
+      "end_time": "[08:35]",
+      "start_time_sec": 495,
+      "text": "Since we are speaking on this line right now, are you calling me on the mobile handset with the ported SIM?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:36]",
+      "end_time": "[08:48]",
+      "start_time_sec": 516,
+      "text": "No, I am actually calling you from my home landline specifically so that we could troubleshoot the mobile without disconnecting.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:49]",
+      "end_time": "[09:07]",
+      "start_time_sec": 529,
+      "text": "That is ideal! That makes testing very straightforward. Please go into your mobile phone's settings and toggle Airplane Mode on for ten seconds, then toggle it back off."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:08]",
+      "end_time": "[09:22]",
+      "start_time_sec": 548,
+      "text": "Okay, toggling Airplane Mode on now... waiting ten seconds... and toggling it back off. The S-Net 5G icon is back on.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:23]",
+      "end_time": "[09:41]",
+      "start_time_sec": 563,
+      "text": "Great. Now I am going to initiate a test incoming call to your mobile number from our external PSTN test simulator to verify external routing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:42]",
+      "end_time": "[09:48]",
+      "start_time_sec": 582,
+      "text": "Okay, the phone is right beside me on the desk.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:49]",
+      "end_time": "[10:07]",
+      "start_time_sec": 589,
+      "text": "One moment while I route the test call through an external carrier loop."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:08]",
+      "end_time": "[10:14]",
+      "start_time_sec": 608,
+      "text": "Sure.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:48]",
+      "end_time": "[11:06]",
+      "start_time_sec": 648,
+      "text": "Thank you for your patience. I have just triggered the external inbound call. Is your mobile handset ringing?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:07]",
+      "end_time": "[11:21]",
+      "start_time_sec": 667,
+      "text": "Yes! It is ringing right now! The screen shows Incoming Call from an 020 London number!",
+      "sentiment_score": 34.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:22]",
+      "end_time": "[11:36]",
+      "start_time_sec": 682,
+      "text": "Please go ahead and answer it, and say hello into the handset."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:37]",
+      "end_time": "[11:49]",
+      "start_time_sec": 697,
+      "text": "Hello? Yes, I hear the automated test tone crystal clear through the earpiece!",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:50]",
+      "end_time": "[12:05]",
+      "start_time_sec": 710,
+      "text": "Excellent. You can end that test call now. That proves the inbound routing through external networks is completely restored."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:06]",
+      "end_time": "[12:19]",
+      "start_time_sec": 726,
+      "text": "Oh, that is fantastic! That has saved me so much hassle. I can already see two voicemail notifications popping up from missed calls earlier.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:20]",
+      "end_time": "[12:31]",
+      "start_time_sec": 740,
+      "text": "That is great news. Are all your services, text messages and mobile data working properly as well?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:32]",
+      "end_time": "[12:44]",
+      "start_time_sec": 752,
+      "text": "Yes, mobile data has been great, and texts have just come through without any problem. Everything is working normally now.",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:45]",
+      "end_time": "[12:53]",
+      "start_time_sec": 765,
+      "text": "Do you travel often for your freelance consulting work?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:54]",
+      "end_time": "[13:03]",
+      "start_time_sec": 774,
+      "text": "Yes, I travel to Dublin quite often. Will this number still work smoothly when I am roaming?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:04]",
+      "end_time": "[13:16]",
+      "start_time_sec": 784,
+      "text": "Yes, EU roaming uses the same refreshed clearinghouse record, so your handset will connect seamlessly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:17]",
+      "end_time": "[13:24]",
+      "start_time_sec": 797,
+      "text": "That is brilliant news, thank you.",
+      "sentiment_score": 11.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:25]",
+      "end_time": "[13:37]",
+      "start_time_sec": 805,
+      "text": "I am so glad we could get that sorted out for you today. Is there anything else on your account or mobile service I can assist you with?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:38]",
+      "end_time": "[13:46]",
+      "start_time_sec": 818,
+      "text": "No, that was the only problem and it is completely resolved now. Thank you so much for your help.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:47]",
+      "end_time": "[13:54]",
+      "start_time_sec": 827,
+      "text": "It was my absolute pleasure. Thank you for choosing S-Net. Have a wonderful rest of your day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:55]",
+      "end_time": "[14:00]",
+      "start_time_sec": 835,
+      "text": "Thank you, David. You too.",
+      "sentiment_score": 11.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:01]",
+      "end_time": "[14:04]",
+      "start_time_sec": 841,
+      "text": "Take care and goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:05]",
+      "end_time": "[14:07]",
+      "start_time_sec": 845,
+      "text": "Goodbye.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:08]",
+      "end_time": "[14:09]",
+      "start_time_sec": 848,
+      "text": "Thank you for choosing S-Net. Goodbye."
+    }
+  ]
+}

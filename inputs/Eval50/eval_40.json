@@ -1,0 +1,110 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Quentin",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:04]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, I'm Dan. How can I help?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:05]",
+      "end_time": "[00:13]",
+      "start_time_sec": 5,
+      "text": "Hi. I want to know how much notice I need to give to cancel my broadband, and whether I'll pay a fee.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:14]",
+      "end_time": "[00:22]",
+      "start_time_sec": 14,
+      "text": "Okay, so you'd like to know the notice period for cancelling your broadband and whether there's a fee. Is that right?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:23]",
+      "end_time": "[00:25]",
+      "start_time_sec": 23,
+      "text": "Yes.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:26]",
+      "end_time": "[00:29]",
+      "start_time_sec": 26,
+      "text": "Can I take your date of birth?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:30]",
+      "end_time": "[00:32]",
+      "start_time_sec": 30,
+      "text": "Ninth of September, seventy-eight.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:33]",
+      "end_time": "[00:41]",
+      "start_time_sec": 33,
+      "text": "Look, I don't have all day. Your contract ended in January, so there's no fee, and the notice period is thirty days.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:43]",
+      "end_time": "[00:46]",
+      "start_time_sec": 43,
+      "text": "Okay. Can you cancel it for me?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:49]",
+      "end_time": "[00:54]",
+      "start_time_sec": 49,
+      "text": "Contract cancellations aren't my job, ring the cancellations line on 0800 900 100.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:56]",
+      "end_time": "[01:00]",
+      "start_time_sec": 56,
+      "text": "Right. But to be clear: thirty days' notice, and no fee?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:02]",
+      "end_time": "[01:06]",
+      "start_time_sec": 62,
+      "text": "Correct, thirty days and no fee. Is that clear now?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:08]",
+      "end_time": "[01:10]",
+      "start_time_sec": 68,
+      "text": "Yes, that's clear.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:11]",
+      "end_time": "[01:13]",
+      "start_time_sec": 71,
+      "text": "Thank you for choosing S-Net.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

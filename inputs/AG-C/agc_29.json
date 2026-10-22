@@ -1,0 +1,478 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Sebastian",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net credit services, my name is Diana. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:32]",
+      "start_time_sec": 11,
+      "text": "Hi Diana. I received an automated letter this morning threatening to register a formal default notice on my credit file over an unpaid twelve-pound late fee! I have paid my broadband bill by direct debit on the first of every month for four years without missing a penny!",
+      "sentiment_score": -42.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:36]",
+      "end_time": "[00:49]",
+      "start_time_sec": 36,
+      "text": "I recognize that receiving a default warning notice is extremely alarming and distressing, Sebastian, especially with your flawless four-year payment history. Let's look into what triggered this fee immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:53]",
+      "end_time": "[01:13]",
+      "start_time_sec": 53,
+      "text": "Thank you Diana, because I am in the middle of applying for a remortgage on our family house with Santander for a five-year fixed rate, and their mortgage underwriters run automated hard credit searches that instantly reject any applicant with an active default notice on their file.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:17]",
+      "end_time": "[01:25]",
+      "start_time_sec": 77,
+      "text": "Before we access your credit account history, could you please verify your installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:29]",
+      "end_time": "[01:36]",
+      "start_time_sec": 89,
+      "text": "Yes, the address is 31 Church Road, Bristol, BS5 9JA, and the security PIN is 1904.",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:40]",
+      "end_time": "[01:48]",
+      "start_time_sec": 100,
+      "text": "Thank you for verifying those details, Sebastian. I have your customer billing and credit ledger open on our screen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:52]",
+      "end_time": "[01:55]",
+      "start_time_sec": 112,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:59]",
+      "end_time": "[02:06]",
+      "start_time_sec": 119,
+      "text": "Let me examine the monthly transaction log for your account over the last ninety days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:10]",
+      "end_time": "[02:15]",
+      "start_time_sec": 130,
+      "text": "The disputed invoice was for forty-four pounds for the August billing cycle.",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:19]",
+      "end_time": "[02:27]",
+      "start_time_sec": 139,
+      "text": "I can see the invoice for forty-four pounds was posted to your account on the twenty-fifth of July."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:31]",
+      "end_time": "[02:41]",
+      "start_time_sec": 151,
+      "text": "My scheduled direct debit collection date is always the first calendar day of every month from my Barclays current account ending in 8812.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:45]",
+      "end_time": "[02:53]",
+      "start_time_sec": 165,
+      "text": "Our automated collection file shows the August first direct debit transaction was returned by the clearing house as unpaid."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:57]",
+      "end_time": "[03:07]",
+      "start_time_sec": 177,
+      "text": "The first of August was a Monday bank holiday! My bank account had plenty of funds, over two thousand pounds sitting in it!",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:11]",
+      "end_time": "[03:19]",
+      "start_time_sec": 191,
+      "text": "When direct debit instructions fail on standard collection cycles, the billing software automatically imposes a twelve-pound late administration charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:23]",
+      "end_time": "[03:33]",
+      "start_time_sec": 203,
+      "text": "Why would S-Net submit a payment collection run on a bank holiday when BACS processing centers are physically shut down across the UK?",
+      "sentiment_score": -18.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:37]",
+      "end_time": "[03:53]",
+      "start_time_sec": 217,
+      "text": "Automated billing systems transmit scheduled BACS tape files regardless of public holidays or weekend bank closures. When collection files are transmitted before a bank holiday weekend, the automated settlement cycle rolls over to the second working day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:57]",
+      "end_time": "[04:08]",
+      "start_time_sec": 237,
+      "text": "And then when Barclays cleared the payment on Wednesday the third of August once branches opened, your system had already automatically appended the late fee!",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:12]",
+      "end_time": "[04:20]",
+      "start_time_sec": 252,
+      "text": "The late administration charge of twelve pounds was automatically appended to your ledger on Tuesday the second of August."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:24]",
+      "end_time": "[04:33]",
+      "start_time_sec": 264,
+      "text": "So you fined me twelve pounds for an unavoidable delay caused exclusively by the official national UK bank holiday calendar!",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:37]",
+      "end_time": "[04:45]",
+      "start_time_sec": 277,
+      "text": "The notification letter was triggered automatically when the balance remained outstanding for twenty-eight calendar days under automated collections policy."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:49]",
+      "end_time": "[04:55]",
+      "start_time_sec": 289,
+      "text": "Why would an unpaid twelve-pound fee trigger an aggressive legal threat letter so quickly?",
+      "sentiment_score": -16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:59]",
+      "end_time": "[05:07]",
+      "start_time_sec": 299,
+      "text": "Any unpaid balance exceeding fourteen calendar days automatically queues a formal debt escalation warning notice on our billing server."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:11]",
+      "end_time": "[05:17]",
+      "start_time_sec": 311,
+      "text": "The letter says: 'Notice of intended credit agency default registration within seven working days'!",
+      "sentiment_score": -32.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:21]",
+      "end_time": "[05:32]",
+      "start_time_sec": 321,
+      "text": "I understand how intimidating that automated legal wording appears, Sebastian. Let me reassure you that no default data has been transmitted to credit reference agencies yet."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:36]",
+      "end_time": "[05:46]",
+      "start_time_sec": 336,
+      "text": "Thank heavens for that, because a registered default mark ruins mortgage credit scores for six full years and would destroy our family plans.",
+      "sentiment_score": -12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:50]",
+      "end_time": "[05:59]",
+      "start_time_sec": 350,
+      "text": "The forty-four pound monthly broadband subscription was successfully settled on August third, leaving only the twelve-pound late administration fee balance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:03]",
+      "end_time": "[06:11]",
+      "start_time_sec": 363,
+      "text": "I fully expected the twelve-pound fee to be cancelled automatically once the August subscription cleared on Wednesday morning!",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:15]",
+      "end_time": "[06:23]",
+      "start_time_sec": 375,
+      "text": "Well Mr. Sebastian, payments don't miraculously transmit themselves through thin air on bank holidays, which any adult should know."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:27]",
+      "end_time": "[06:40]",
+      "start_time_sec": 387,
+      "text": "There is absolutely no call for that sarcastic attitude, Diana! I am a chartered surveyor and I understand banking clearing times perfectly well! It was S-Net's software that triggered the error!",
+      "sentiment_score": -38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:44]",
+      "end_time": "[06:51]",
+      "start_time_sec": 404,
+      "text": "I apologize if my comment came across as blunt, Sebastian. Let's focus on clearing the account balance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:55]",
+      "end_time": "[07:00]",
+      "start_time_sec": 415,
+      "text": "I want that twelve-pound penalty fee completely removed from my account today.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:04]",
+      "end_time": "[07:14]",
+      "start_time_sec": 424,
+      "text": "Please bear with me on hold for about thirty-five seconds while I liaise with our senior credit exceptions supervisor to waive the fee."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:49]",
+      "end_time": "[07:57]",
+      "start_time_sec": 469,
+      "text": "Thank you for holding, Sebastian. I have obtained supervisory sign-off to waive the twelve-pound late administration fee entirely."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:01]",
+      "end_time": "[08:04]",
+      "start_time_sec": 481,
+      "text": "Thank you, that is the only fair outcome.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:08]",
+      "end_time": "[08:16]",
+      "start_time_sec": 488,
+      "text": "I have applied a manual adjustment credit of twelve pounds, reducing your outstanding ledger balance to exactly zero pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:20]",
+      "end_time": "[08:24]",
+      "start_time_sec": 500,
+      "text": "Does that completely cancel the automated default notice warning?",
+      "sentiment_score": 12.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:28]",
+      "end_time": "[08:35]",
+      "start_time_sec": 508,
+      "text": "Yes, zeroing the balance automatically terminates the automated debt escalation workflow on our collections gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:39]",
+      "end_time": "[08:45]",
+      "start_time_sec": 519,
+      "text": "Will any negative note or non-payment mark appear on Experian, Equifax, or TransUnion?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:49]",
+      "end_time": "[09:00]",
+      "start_time_sec": 529,
+      "text": "Our monthly credit bureau data upload tape will report account status code zero, which signifies an account paid fully up to date with zero delinquency."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:04]",
+      "end_time": "[09:09]",
+      "start_time_sec": 544,
+      "text": "That will protect my mortgage application from being rejected by the underwriters.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:13]",
+      "end_time": "[09:35]",
+      "start_time_sec": 553,
+      "text": "I have also generated an official Letter of Clean Credit Standing on company letterhead confirming that the account was never in arrears. It is signed by our head of credit operations and explicitly states that account 8812 was subject to an automated administrative system error and maintained an impeccable settlement history."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:39]",
+      "end_time": "[09:45]",
+      "start_time_sec": 579,
+      "text": "Can you email that clean standing letter to my registered email address right now?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:49]",
+      "end_time": "[09:54]",
+      "start_time_sec": 589,
+      "text": "The formal clearance letter has been dispatched in PDF format to s.wright@example.co.uk."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:58]",
+      "end_time": "[10:03]",
+      "start_time_sec": 598,
+      "text": "That gives me written verifiable evidence for our Santander mortgage broker.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:07]",
+      "end_time": "[10:16]",
+      "start_time_sec": 607,
+      "text": "Just to confirm what you mentioned earlier, Sebastian, your active direct debit mandate is linked to account ending in 8812?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:20]",
+      "end_time": "[10:24]",
+      "start_time_sec": 620,
+      "text": "Yes, exactly, my Barclays current account ending in 8812.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:28]",
+      "end_time": "[10:38]",
+      "start_time_sec": 628,
+      "text": "I have updated our billing gateway parameters so future holiday collection runs allow a forty-eight hour settlement grace period before fees apply."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:42]",
+      "end_time": "[10:46]",
+      "start_time_sec": 642,
+      "text": "That will protect against bank holidays in December and Easter.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:50]",
+      "end_time": "[10:56]",
+      "start_time_sec": 650,
+      "text": "Your upcoming September and October invoices will debit seamlessly on your normal schedule."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:00]",
+      "end_time": "[11:03]",
+      "start_time_sec": 660,
+      "text": "I am very glad this won't recur.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:07]",
+      "end_time": "[11:11]",
+      "start_time_sec": 667,
+      "text": "How is your broadband connection performing otherwise at your residence?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:15]",
+      "end_time": "[11:25]",
+      "start_time_sec": 675,
+      "text": "The broadband speed and stability have been excellent for the four years we've lived here, no complaints at all on the technical side.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:29]",
+      "end_time": "[11:35]",
+      "start_time_sec": 689,
+      "text": "We are always delighted when long-standing customers experience fast and reliable optical connectivity."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:39]",
+      "end_time": "[11:46]",
+      "start_time_sec": 699,
+      "text": "It was purely that threatening automated letter that gave my wife and me a terrible scare.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:50]",
+      "end_time": "[11:55]",
+      "start_time_sec": 710,
+      "text": "I completely understand how alarming automated credit letters can be, Sebastian."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:59]",
+      "end_time": "[12:03]",
+      "start_time_sec": 719,
+      "text": "What is the cancellation reference for the fee waiver?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:07]",
+      "end_time": "[12:10]",
+      "start_time_sec": 727,
+      "text": "The fee waiver adjustment transaction reference is CR-44910-W."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:13]",
+      "end_time": "[12:16]",
+      "start_time_sec": 733,
+      "text": "Noted down... CR-44910-W.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:19]",
+      "end_time": "[12:40]",
+      "start_time_sec": 739,
+      "text": "I have verified that the twelve-pound late administration fee is permanently cleared, your account balance is exactly zero pounds, the default notice escalation is completely nullified, and your clean credit status letter has been emailed to your inbox. Does that completely resolve the matter for you today, Sebastian?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:43]",
+      "end_time": "[12:50]",
+      "start_time_sec": 763,
+      "text": "Yes Diana, you have sorted out everything and the letter will protect our remortgage. Thank you.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:53]",
+      "end_time": "[13:03]",
+      "start_time_sec": 773,
+      "text": "Thank you for choosing S-Net today, Sebastian. Have a wonderful rest of your day and best of luck with the mortgage. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:06]",
+      "end_time": "[13:10]",
+      "start_time_sec": 786,
+      "text": "Thank you Diana, goodbye.",
+      "sentiment_score": 16.2
+    }
+  ]
+}

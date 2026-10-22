@@ -1,0 +1,160 @@
+{
+  "call_id": "ag_21",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 90.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "At [09:38]-[09:47], although the customer expressed satisfaction with the next-day DPD courier swap-out and temporary 4G fallback, the core 5G Hub overheating hardware fault depends on tomorrow's physical courier delivery (`SWP-884120`) and is not resolved during the call."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "5G home broadband hub overheating with red thermal warning light and shutting down every two hours",
+    "tier": "good",
+    "duration_sec": 615,
+    "notes": "Near-miss RE FAIL: Agent Daniel performs exemplary diagnostics (identifying a seized fan bearing at 0 RPM and 89C via telemetry), sets a temporary 4G low-thermal workaround, adds backup hotspot data, and books a next-day DPD courier replacement ([04:49], [08:27]). Even though Hiroshi says 'that sorts everything out for me!' at [09:47], RE is FAIL per Section 7.2 because fixing the seized 5G Hub hardware depends on tomorrow's courier delivery.",
+    "hard_cases": [
+      "Confirmed the issue is resolved",
+      "Verified customer",
+      "Paraphrasing",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent opens with 'thank you for calling S-Net' and [10:06] closes with 'Thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "No hold or dead air gaps exceeding 30 seconds occurred during the call."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:11] Agent asks Hiroshi for the first line of his home address and four-digit security PIN, and [01:28] verifies his security question well within the first four minutes."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:15] Agent addresses the customer by name ('Hiroshi') throughout the conversation."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:15] Agent says 'I'm really sorry to hear your 5G Hub is overheating and dropping your connection like that' and [00:35] validates the disruption to his work."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:51] Agent paraphrases: 'So to make sure I have captured the whole picture, your S-Net 5G Hub is running excessively hot, showing a solid red thermal light, and powering off roughly every two hours.'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[05:07] Agent recalls Flat 4, 18 Crescent Mansions and [05:26] remembers that Hiroshi already confirmed the power brick was cool."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:40] Agent takes full ownership, [03:43]-[03:56] runs remote thermal telemetry, [04:49]-[06:21] books a next-day DPD swap-out with pre-paired eSIM and cloud config backup, and [06:59]-[08:00] sets a 4G low-thermal workaround, mobile hotspot pass, and £10 credit."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[04:11]-[08:00] Agent maintains a warm, proactive, and reassuring tone throughout the troubleshooting and dispatch setup."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:12]-[03:12] Agent probes systematically into hub placement, sunlight/radiators, vent dust, power brick temperature, and mechanical fan noises."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[04:29]-[04:49] Agent books a next-day DPD replacement hub (`1550-4928-3310`) for the seized internal cooling fan and [09:47] Hiroshi says 'That's brilliant, Daniel, thank you so much, that sorts everything out for me!', but the fix depends on a future hardware delivery."
+      }
+    ]
+  }
+}

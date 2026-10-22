@@ -1,0 +1,591 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Zain",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support. My name is Toby. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:28]",
+      "start_time_sec": 10,
+      "text": "Hello Toby. I'm calling because my internet ping spikes from twelve milliseconds up to three hundred milliseconds every few minutes while I'm playing online games. I am connected via a direct Cat 6 Ethernet cable directly into port 1 of the router.",
+      "sentiment_score": -18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:31]",
+      "end_time": "[00:43]",
+      "start_time_sec": 31,
+      "text": "I can certainly look into those latency fluctuations for you. Can you please confirm the S-Net broadband account number printed on your welcome letter?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:46]",
+      "end_time": "[00:51]",
+      "start_time_sec": 46,
+      "text": "Yes, the account number is ACC-884-9102.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:54]",
+      "end_time": "[01:03]",
+      "start_time_sec": 54,
+      "text": "Thank you Zain. And what is the hardware serial number from the sticker on your S-Net Hub 5?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:06]",
+      "end_time": "[01:30]",
+      "start_time_sec": 66,
+      "text": "The serial number is SN-HUB5-88319. Toby, I am competing in the European regional esports qualifiers this Friday with a fifteen thousand pound prize pool! If my ping spikes during the match, my character freezes, I get eliminated instantly, and my entire team gets disqualified! I've spent six months training ten hours a day for this, and I am literally on the verge of a panic attack!",
+      "sentiment_score": -56.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:33]",
+      "end_time": "[01:42]",
+      "start_time_sec": 93,
+      "text": "Let us check the line transmission sync and latency buffers on our network monitoring console."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:45]",
+      "end_time": "[01:49]",
+      "start_time_sec": 105,
+      "text": "Okay, please tell me what you see.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:52]",
+      "end_time": "[02:13]",
+      "start_time_sec": 112,
+      "text": "So if I have understood correctly, you are experiencing severe packet latency spikes up to three hundred milliseconds during competitive gaming sessions despite using a direct Cat 6 Ethernet connection, and you need the ping stabilized to prevent game dropouts during your upcoming tournament matches. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:16]",
+      "end_time": "[02:26]",
+      "start_time_sec": 136,
+      "text": "Yes, exactly. When nobody else is home, the ping is 12ms, but when anyone else does anything online, it shoots up to 300ms instantly.",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:29]",
+      "end_time": "[02:43]",
+      "start_time_sec": 149,
+      "text": "Looking at your optical ONT connection at the exchange, your physical fiber line has zero packet loss and a steady nine hundred megabit downstream sync."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:46]",
+      "end_time": "[02:51]",
+      "start_time_sec": 166,
+      "text": "So the fiber line itself is not physically dropping?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:54]",
+      "end_time": "[03:09]",
+      "start_time_sec": 174,
+      "text": "The physical fiber link is entirely healthy. The symptom you are describing is bufferbloat, which occurs when router packet buffers fill up during concurrent traffic bursts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:12]",
+      "end_time": "[03:16]",
+      "start_time_sec": 192,
+      "text": "Bufferbloat? What exactly is that?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:19]",
+      "end_time": "[03:35]",
+      "start_time_sec": 199,
+      "text": "When an upload or download saturates your connection, standard router queues hold packets in a large FIFO buffer, introducing queuing delay that inflates gaming round-trip latency."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:38]",
+      "end_time": "[03:47]",
+      "start_time_sec": 218,
+      "text": "That explains why it happens whenever my brother uploads a video to YouTube or my sister streams Netflix in 4K!",
+      "sentiment_score": -6.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:50]",
+      "end_time": "[04:06]",
+      "start_time_sec": 230,
+      "text": "We will configure Smart Queue Management and Quality of Service priority rules inside your S-Net Hub 5 to prioritize gaming traffic packets above bulk data."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:09]",
+      "end_time": "[04:14]",
+      "start_time_sec": 249,
+      "text": "How do we access those QoS settings in the hub?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:17]",
+      "end_time": "[04:27]",
+      "start_time_sec": 257,
+      "text": "Open your web browser and navigate to 192.168.1.254, then log in using your admin credentials."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:30]",
+      "end_time": "[04:39]",
+      "start_time_sec": 270,
+      "text": "Navigating to 192.168.1.254... typing the admin password... I'm on the main Hub Manager overview page.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:42]",
+      "end_time": "[04:50]",
+      "start_time_sec": 282,
+      "text": "Click on Advanced Settings in the left sidebar, then select Traffic Management."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:53]",
+      "end_time": "[05:01]",
+      "start_time_sec": 293,
+      "text": "Advanced Settings... Traffic Management. I see Quality of Service, Bandwidth Limiter, and DSCP Tagging.",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:04]",
+      "end_time": "[05:12]",
+      "start_time_sec": 304,
+      "text": "Click on Quality of Service, and toggle 'Enable Smart Queue Management' to ON."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:15]",
+      "end_time": "[05:24]",
+      "start_time_sec": 315,
+      "text": "Toggling Smart Queue Management to ON. Several input fields have unlocked for Upstream and Downstream bandwidth limits.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:27]",
+      "end_time": "[05:42]",
+      "start_time_sec": 327,
+      "text": "Under Upstream Bandwidth, enter 105000 kilobits per second, which represents roughly ninety percent of your provisioned one hundred and fifteen megabit upload rate."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:45]",
+      "end_time": "[05:52]",
+      "start_time_sec": 345,
+      "text": "Typing 105000 in Upstream. Why do we set it to ninety percent instead of one hundred percent?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:55]",
+      "end_time": "[06:12]",
+      "start_time_sec": 355,
+      "text": "Capping traffic at ninety percent ensures the bottleneck queue remains inside the router where fq_codel scheduling can discard buffer backlog, rather than letting the modem queue saturate."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:15]",
+      "end_time": "[06:21]",
+      "start_time_sec": 375,
+      "text": "That makes complete mathematical sense. What about Downstream Bandwidth?",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:24]",
+      "end_time": "[06:37]",
+      "start_time_sec": 384,
+      "text": "Under Downstream Bandwidth, enter 820000 kilobits per second to keep downstream buffers completely clear under heavy family loads."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:40]",
+      "end_time": "[06:44]",
+      "start_time_sec": 400,
+      "text": "Entered 820000 in Downstream.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:47]",
+      "end_time": "[06:54]",
+      "start_time_sec": 407,
+      "text": "Now click on 'Priority Devices' tab within the QoS menu."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:57]",
+      "end_time": "[07:03]",
+      "start_time_sec": 417,
+      "text": "Clicking Priority Devices... I see a list of connected devices with MAC addresses.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:06]",
+      "end_time": "[07:16]",
+      "start_time_sec": 426,
+      "text": "Locate your gaming PC's MAC address and set its Traffic Priority class to 'Real-Time Highest'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:19]",
+      "end_time": "[07:26]",
+      "start_time_sec": 439,
+      "text": "Selected my desktop workstation... set to Real-Time Highest. Clicking Apply Settings.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:29]",
+      "end_time": "[07:39]",
+      "start_time_sec": 449,
+      "text": "The hub is recompiling the packet scheduling trees; the status bar will reload in twenty seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:42]",
+      "end_time": "[07:51]",
+      "start_time_sec": 462,
+      "text": "The page refreshed and displays 'Smart Queue Management Active - fq_codel algorithmic scheduler running'.",
+      "sentiment_score": 38.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:54]",
+      "end_time": "[08:05]",
+      "start_time_sec": 474,
+      "text": "Now let us run an online bufferbloat test at waveform.com/tools/bufferbloat from your gaming desktop."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:08]",
+      "end_time": "[08:20]",
+      "start_time_sec": 488,
+      "text": "Opening the Waveform bufferbloat test page... clicking Start Test now. It is testing unloaded ping, download active ping, and upload active ping.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:23]",
+      "end_time": "[08:32]",
+      "start_time_sec": 503,
+      "text": "Observe the 'Active Ping' numbers while download and upload saturate the bandwidth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:35]",
+      "end_time": "[08:48]",
+      "start_time_sec": 515,
+      "text": "The results are in! Unloaded ping is 11ms. Download active ping is +2ms, and upload active ping is +1ms! Total score is an A+ grade!",
+      "sentiment_score": 58.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:51]",
+      "end_time": "[09:03]",
+      "start_time_sec": 531,
+      "text": "An A+ bufferbloat rating confirms latency variance under maximum saturated load will not exceed two milliseconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:06]",
+      "end_time": "[09:12]",
+      "start_time_sec": 546,
+      "text": "From +300ms down to +2ms! That is an astounding improvement, Toby!",
+      "sentiment_score": 52.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:15]",
+      "end_time": "[09:27]",
+      "start_time_sec": 555,
+      "text": "Obviously that confirms packet queue prioritization is operating within optimal millisecond parameters, Zain."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:30]",
+      "end_time": "[09:38]",
+      "start_time_sec": 570,
+      "text": "Now let me launch Counter-Strike 2 and join a European competitive warmup server to test in-game telemetry.",
+      "sentiment_score": 36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:41]",
+      "end_time": "[09:47]",
+      "start_time_sec": 581,
+      "text": "Go ahead, let us inspect live in-game network telemetry."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:50]",
+      "end_time": "[10:02]",
+      "start_time_sec": 590,
+      "text": "Connecting to Frankfurt server... net_graph shows 14ms ping, 0% packet loss, and zero jitter! It feels completely butter smooth!",
+      "sentiment_score": 56.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:05]",
+      "end_time": "[10:16]",
+      "start_time_sec": 605,
+      "text": "Let us also check your DNS server configuration on your computer to ensure query lookups are expedited."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:19]",
+      "end_time": "[10:23]",
+      "start_time_sec": 619,
+      "text": "Where should I verify the DNS resolver?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:26]",
+      "end_time": "[10:39]",
+      "start_time_sec": 626,
+      "text": "Under your Windows Ethernet adapter properties, verify IPv4 DNS is set to 1.1.1.1 and 1.0.0.1 for Cloudflare Ultra-Low Latency."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:42]",
+      "end_time": "[10:50]",
+      "start_time_sec": 642,
+      "text": "Checking Ethernet properties... set primary to 1.1.1.1 and secondary to 1.0.0.1. Clicking OK.",
+      "sentiment_score": 21.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:53]",
+      "end_time": "[11:03]",
+      "start_time_sec": 653,
+      "text": "Cloudflare provides sub-two millisecond DNS query resolution for European gaming master servers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:06]",
+      "end_time": "[11:12]",
+      "start_time_sec": 666,
+      "text": "That shaves another couple milliseconds off every server connection handshake.",
+      "sentiment_score": 26.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:15]",
+      "end_time": "[11:27]",
+      "start_time_sec": 675,
+      "text": "Let us also check your network card's Energy Efficient Ethernet toggle to prevent micro-sleep packet pauses."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:30]",
+      "end_time": "[11:39]",
+      "start_time_sec": 690,
+      "text": "Under Configure Network Adapter, Advanced tab... Energy Efficient Ethernet is listed. Should I disable it?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:42]",
+      "end_time": "[11:55]",
+      "start_time_sec": 702,
+      "text": "Yes, disable Energy Efficient Ethernet and Green Ethernet so the PHY controller remains powered at maximum clock speed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:58]",
+      "end_time": "[12:04]",
+      "start_time_sec": 718,
+      "text": "Disabled both Green Ethernet and Energy Efficient Ethernet. Done.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:07]",
+      "end_time": "[12:21]",
+      "start_time_sec": 727,
+      "text": "Now let us verify DSCP packet marking for your voice communication client so team Discord calls don't interfere with gameplay."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:24]",
+      "end_time": "[12:34]",
+      "start_time_sec": 744,
+      "text": "Yes, our team uses Discord voice channels constantly during tournaments. How do we ensure voice packets get priority?",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:37]",
+      "end_time": "[12:52]",
+      "start_time_sec": 757,
+      "text": "In Discord settings under Voice and Video, enable 'Quality of Service High Packet Priority', which attaches DSCP 46 expedited forwarding tags."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:55]",
+      "end_time": "[13:03]",
+      "start_time_sec": 775,
+      "text": "Toggling Quality of Service High Packet Priority to ON in Discord settings. Done.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:06]",
+      "end_time": "[13:18]",
+      "start_time_sec": 786,
+      "text": "The S-Net Hub's fq_codel engine recognizes DSCP 46 and schedules voice packets ahead of bulk TCP streams."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:21]",
+      "end_time": "[13:28]",
+      "start_time_sec": 801,
+      "text": "That prevents our team voice communications from crackling or dropping during intense skirmishes.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:31]",
+      "end_time": "[13:45]",
+      "start_time_sec": 811,
+      "text": "Let us also check the MTU packet size under WAN settings on your hub to confirm optimal frame transmission without fragmentation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:48]",
+      "end_time": "[13:56]",
+      "start_time_sec": 828,
+      "text": "Under WAN Settings, MTU is set to 1500 bytes. Is 1500 bytes ideal for S-Net Full Fibre?",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:59]",
+      "end_time": "[14:14]",
+      "start_time_sec": 839,
+      "text": "Yes, on our IPoE DHCP full fibre architecture, an MTU of 1500 bytes allows maximum frame payload without packet fragmentation overhead."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:17]",
+      "end_time": "[14:22]",
+      "start_time_sec": 857,
+      "text": "I will leave MTU locked at 1500 bytes then.",
+      "sentiment_score": 19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:25]",
+      "end_time": "[14:35]",
+      "start_time_sec": 865,
+      "text": "Just to check, Zain, is your landline telephone and general household WiFi functioning properly as well?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:38]",
+      "end_time": "[14:45]",
+      "start_time_sec": 878,
+      "text": "Yes, my family's tablets, smart TVs, and phones are browsing perfectly without any interruption.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:48]",
+      "end_time": "[15:00]",
+      "start_time_sec": 888,
+      "text": "I will remain the dedicated owner for this support case and record the SQM fq_codel profile on your customer record."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:03]",
+      "end_time": "[15:10]",
+      "start_time_sec": 903,
+      "text": "Thank you so much Toby. You have literally saved our team's tournament prospects this weekend.",
+      "sentiment_score": 46.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:13]",
+      "end_time": "[15:22]",
+      "start_time_sec": 913,
+      "text": "Ensure you restart your router once every six months to refresh internal memory tables."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:25]",
+      "end_time": "[15:30]",
+      "start_time_sec": 925,
+      "text": "I will set a calendar reminder to do that regularly.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:33]",
+      "end_time": "[15:44]",
+      "start_time_sec": 933,
+      "text": "Is there anything else regarding your S-Net broadband or gaming latency that I can assist you with today, Zain?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:47]",
+      "end_time": "[15:52]",
+      "start_time_sec": 947,
+      "text": "No, that has resolved my latency completely. Thank you Toby.",
+      "sentiment_score": 32.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:55]",
+      "end_time": "[16:07]",
+      "start_time_sec": 955,
+      "text": "You may receive a short customer satisfaction survey by SMS after this call; we would appreciate any feedback on your experience today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:09]",
+      "end_time": "[16:14]",
+      "start_time_sec": 969,
+      "text": "I'll give you five stars on the survey. Good afternoon.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:16]",
+      "end_time": "[16:24]",
+      "start_time_sec": 976,
+      "text": "Thank you for choosing S-Net, Zain. Best of luck in your tournament qualifiers, and take care."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:26]",
+      "end_time": "[16:28]",
+      "start_time_sec": 986,
+      "text": "Thank you, goodbye.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Reuben",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:03]",
+   "start_time_sec": 0,
+   "text": "Voicemail support desk, agent 202."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:06]",
+   "end_time": "[00:30]",
+   "start_time_sec": 6,
+   "text": "Hello, my name is Reuben Gallagher. I run a commercial plumbing and heating consultancy, and ever since S-Net upgraded its mobile voicemail system over the weekend, my professional business greeting has disappeared: callers now get a tinny synthesized robotic voice saying 'You have reached 07700 900882', which sounds completely unprofessional and makes clients think my business has closed down!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:33]",
+   "end_time": "[00:40]",
+   "start_time_sec": 33,
+   "text": "I can inspect your cellular voicemail profile. What mobile telephone number is registered to this voicemail box?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:43]",
+   "end_time": "[00:49]",
+   "start_time_sec": 43,
+   "text": "It is 07700 900882, registered to 12 Station Road, Carlisle, CA1 1RD, security PIN 3310.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:52]",
+   "end_time": "[01:01]",
+   "start_time_sec": 52,
+   "text": "Thank you, that brings up the voicemail account record. What happens when you dial 1571 to record a new custom greeting?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:04]",
+   "end_time": "[01:24]",
+   "start_time_sec": 64,
+   "text": "I dial 1571, record my professional greeting, press hash to save, and the automated voice confirms 'Greeting saved successfully', but when anyone calls my mobile, it continues playing the robotic number greeting!",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:27]",
+   "end_time": "[01:38]",
+   "start_time_sec": 87,
+   "text": "Could I place you on hold for two minutes while I query the central voicemail media server database?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:03]",
+   "end_time": "[03:19]",
+   "start_time_sec": 183,
+   "text": "Thank you for holding. The media gateway indicates that your subscriber mailbox has a corrupted pointer record linking the subscriber profile to the audio storage partition."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:22]",
+   "end_time": "[03:35]",
+   "start_time_sec": 202,
+   "text": "Can you repair that pointer record so the system plays the custom greeting I recorded?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:38]",
+   "end_time": "[03:51]",
+   "start_time_sec": 218,
+   "text": "Frontline representatives do not have access to edit raw database pointer records on the central media storage architecture."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:54]",
+   "end_time": "[04:07]",
+   "start_time_sec": 234,
+   "text": "Then how do I get my professional business greeting to play for my customers?",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:10]",
+   "end_time": "[04:25]",
+   "start_time_sec": 250,
+   "text": "If you run an independent commercial trade business, you should be subscribing to our business mobile plan rather than using a standard consumer retail SIM card."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:28]",
+   "end_time": "[04:47]",
+   "start_time_sec": 268,
+   "text": "I have had this exact same number for seven years and paid you every month! Don't tell me what tariff I should buy when your system corrupted my greeting!",
+   "sentiment_score": -52.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:50]",
+   "end_time": "[05:01]",
+   "start_time_sec": 290,
+   "text": "I am stating our service level agreement distinctions between consumer retail and business accounts."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:04]",
+   "end_time": "[05:16]",
+   "start_time_sec": 304,
+   "text": "Can you escalate this to a database engineer who can fix the media pointer?",
+   "sentiment_score": -34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:56]",
+   "end_time": "[06:06]",
+   "start_time_sec": 356,
+   "text": "Database support escalations can be submitted through our server maintenance portal."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:08]",
+   "end_time": "[06:21]",
+   "start_time_sec": 368,
+   "text": "Hello? Are you still there? The phone went completely dead for forty seconds!",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:23]",
+   "end_time": "[06:32]",
+   "start_time_sec": 383,
+   "text": "I was accessing the regional telecommunications server maintenance queue."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:34]",
+   "end_time": "[06:44]",
+   "start_time_sec": 394,
+   "text": "Can the server maintenance team fix the pointer today?",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:46]",
+   "end_time": "[06:58]",
+   "start_time_sec": 406,
+   "text": "Obviously voicemail audio partitions operate on centralized distributed file systems that sync during scheduled maintenance windows."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:00]",
+   "end_time": "[07:13]",
+   "start_time_sec": 420,
+   "text": "I need my business greeting working during trading hours, not in the middle of the night!",
+   "sentiment_score": -32.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:15]",
+   "end_time": "[07:39]",
+   "start_time_sec": 435,
+   "text": "I have lost two boiler installation contracts worth eight thousand pounds this morning because prospective clients called my number, heard that synthesized robot voice, and hung up thinking my company was a fraudulent shell operation! Eight thousand pounds of work lost because S-Net corrupted my voicemail! I am shaking with fury and facing financial disaster!",
+   "sentiment_score": -68.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:41]",
+   "end_time": "[08:05]",
+   "start_time_sec": 461,
+   "text": "I understand how intensely furious and devastating it is to lose eight thousand pounds in client contracts this morning over a synthesized robot greeting, and the immense financial stress this has caused your trade business. Having prospective clients turn away because of a corrupted voicemail pointer is completely unacceptable, and I will submit an emergency server re-sync ticket immediately."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:07]",
+   "end_time": "[08:18]",
+   "start_time_sec": 487,
+   "text": "Can they fix the pointer before the end of business today?",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:20]",
+   "end_time": "[08:32]",
+   "start_time_sec": 500,
+   "text": "Server maintenance teams review database sync queues during our overnight batch cycle at two in the morning."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:34]",
+   "end_time": "[08:47]",
+   "start_time_sec": 514,
+   "text": "So the robot voice will continue turning away clients for the rest of today?!",
+   "sentiment_score": -44.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:49]",
+   "end_time": "[08:59]",
+   "start_time_sec": 529,
+   "text": "Yes, active database partition pointer corrections cannot be executed on live daytime server nodes."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:01]",
+   "end_time": "[09:13]",
+   "start_time_sec": 541,
+   "text": "Is there any temporary workaround I can use so callers don't hear the robot?",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:15]",
+   "end_time": "[09:22]",
+   "start_time_sec": 555,
+   "text": "You can disable voicemail call forwarding on your mobile handset by dialing hash hash zero zero two hash."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:24]",
+   "end_time": "[09:28]",
+   "start_time_sec": 564,
+   "text": "What happens if I dial hash hash zero zero two hash?",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:30]",
+   "end_time": "[09:40]",
+   "start_time_sec": 570,
+   "text": "Unanswered calls will ring out rather than diverting to the corrupted voicemail robot, allowing you to return missed calls from your call log."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:42]",
+   "end_time": "[09:48]",
+   "start_time_sec": 582,
+   "text": "Dialing hash hash zero zero two hash now... Phone displays: 'All conditional call forwarding disabled'.",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:50]",
+   "end_time": "[09:56]",
+   "start_time_sec": 590,
+   "text": "Callers will now hear standard ringing tones and will not be greeted by the robotic prompt."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:58]",
+   "end_time": "[10:05]",
+   "start_time_sec": 598,
+   "text": "That is better than a robot telling them my number doesn't exist, but it doesn't solve my voicemail.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:45]",
+   "end_time": "[10:50]",
+   "start_time_sec": 645,
+   "text": "Hello? Did you disconnect? Why is there zero background sound on this call?",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:52]",
+   "end_time": "[10:56]",
+   "start_time_sec": 652,
+   "text": "I was logging your server escalation under technical ticket VM-DB-88192-K."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:58]",
+   "end_time": "[11:01]",
+   "start_time_sec": 658,
+   "text": "VM-DB-88192-K, noted down.",
+   "sentiment_score": -4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:03]",
+   "end_time": "[11:11]",
+   "start_time_sec": 663,
+   "text": "The overnight batch script will purge the corrupted pointer and rebuild your mailbox index at two in the morning."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:13]",
+   "end_time": "[11:17]",
+   "start_time_sec": 673,
+   "text": "So tomorrow morning at eight o'clock, will my custom greeting play?",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:19]",
+   "end_time": "[11:28]",
+   "start_time_sec": 679,
+   "text": "You will need to dial 1571 tomorrow morning and record your business greeting one more time to populate the fresh partition."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:30]",
+   "end_time": "[11:33]",
+   "start_time_sec": 690,
+   "text": "I will re-record it at eight o'clock tomorrow.",
+   "sentiment_score": 8.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:35]",
+   "end_time": "[11:39]",
+   "start_time_sec": 695,
+   "text": "I have documented your account notes with a priority audit flag."
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:41]",
+   "end_time": "[11:46]",
+   "start_time_sec": 701,
+   "text": "Before I close this file, what was that mobile telephone number again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:48]",
+   "end_time": "[11:51]",
+   "start_time_sec": 708,
+   "text": "Like I told you earlier, it is 07700 900882.",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:53]",
+   "end_time": "[11:57]",
+   "start_time_sec": 713,
+   "text": "Thank you, the mobile number is attached to the ticket."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:59]",
+   "end_time": "[12:02]",
+   "start_time_sec": 719,
+   "text": "I will test the voicemail tomorrow morning.",
+   "sentiment_score": -6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:04]",
+   "end_time": "[12:09]",
+   "start_time_sec": 724,
+   "text": "I have also applied a ten-pound goodwill credit to your mobile account."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:11]",
+   "end_time": "[12:16]",
+   "start_time_sec": 731,
+   "text": "Thank you for the credit, but the priority is having a professional voicemail.",
+   "sentiment_score": -8.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:18]",
+   "end_time": "[12:22]",
+   "start_time_sec": 738,
+   "text": "Is there any other cellular issue I can assist with today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:24]",
+   "end_time": "[12:27]",
+   "start_time_sec": 744,
+   "text": "No, that is all.",
+   "sentiment_score": -10.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:29]",
+   "end_time": "[12:32]",
+   "start_time_sec": 749,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:34]",
+   "end_time": "[12:37]",
+   "start_time_sec": 754,
+   "text": "Goodbye.",
+   "sentiment_score": -8.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:39]",
+   "end_time": "[12:42]",
+   "start_time_sec": 759,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:44]",
+   "end_time": "[12:47]",
+   "start_time_sec": 764,
+   "text": "Goodbye.",
+   "sentiment_score": -6.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:49]",
+   "end_time": "[12:52]",
+   "start_time_sec": 769,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:54]",
+   "end_time": "[12:57]",
+   "start_time_sec": 774,
+   "text": "Goodbye.",
+   "sentiment_score": -4.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:59]",
+   "end_time": "[13:02]",
+   "start_time_sec": 779,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:04]",
+   "end_time": "[13:07]",
+   "start_time_sec": 784,
+   "text": "Goodbye.",
+   "sentiment_score": -2.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:09]",
+   "end_time": "[13:12]",
+   "start_time_sec": 789,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:14]",
+   "end_time": "[13:19]",
+   "start_time_sec": 794,
+   "text": "Goodbye.",
+   "sentiment_score": 0.0
+  }
+ ]
+}

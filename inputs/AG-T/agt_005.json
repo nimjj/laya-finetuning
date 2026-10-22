@@ -1,0 +1,763 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Alistair",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer service, my name is Kevin. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:07]",
+      "end_time": "[00:19]",
+      "start_time_sec": 7,
+      "text": "Hello Kevin. I have taken an entire day off work unpaid today waiting for your full fibre engineer to install our broadband, and nobody has turned up. Not a single phone call or text.",
+      "sentiment_score": -38.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:20]",
+      "end_time": "[00:28]",
+      "start_time_sec": 20,
+      "text": "I can check the engineer booking log on the wholesale portal for you today, Alistair. May I have your account number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:29]",
+      "end_time": "[00:35]",
+      "start_time_sec": 29,
+      "text": "Yes, it is SN 604 1189, under Alistair Campbell.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:36]",
+      "end_time": "[00:46]",
+      "start_time_sec": 36,
+      "text": "Thank you, Alistair. For account security verification, could you please confirm your full installation address and your memorable security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:47]",
+      "end_time": "[00:56]",
+      "start_time_sec": 47,
+      "text": "It is 18 Craigmillar Road, Glasgow, G42 9HB. And the PIN number is 7421.",
+      "sentiment_score": -8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:57]",
+      "end_time": "[01:06]",
+      "start_time_sec": 57,
+      "text": "That has verified the account records, thank you. You have an order for our Full Fibre 500 broadband package."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:07]",
+      "end_time": "[01:11]",
+      "start_time_sec": 67,
+      "text": "Yes, booked for today between 8:00 AM and 1:00 PM.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:12]",
+      "end_time": "[01:24]",
+      "start_time_sec": 72,
+      "text": "So just to make sure I understand the situation clearly: your appointment window was scheduled for this morning between eight and one, but the engineer failed to attend and you received no prior notification, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:25]",
+      "end_time": "[01:39]",
+      "start_time_sec": 85,
+      "text": "Yes! I sat in my front living room from 7:45 AM watching the driveway. I lost a full day of billable contractor earnings, which is nearly three hundred pounds, and your tracking app still says 'Engineer on the way'. It's infuriating.",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:40]",
+      "end_time": "[01:50]",
+      "start_time_sec": 100,
+      "text": "Well, our terms and conditions clearly state that installation appointment windows are estimated arrival times and engineers can get held up on earlier complex jobs."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:51]",
+      "end_time": "[01:58]",
+      "start_time_sec": 111,
+      "text": "Are you serious? It is almost 2:00 PM now! The window closed an hour ago! You didn't even apologise!",
+      "sentiment_score": -52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:59]",
+      "end_time": "[02:08]",
+      "start_time_sec": 119,
+      "text": "I am looking at the Openreach bridge system right now to see what status code the field technician entered."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:09]",
+      "end_time": "[02:13]",
+      "start_time_sec": 129,
+      "text": "What code did they enter? Did they even attempt to come?",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:14]",
+      "end_time": "[02:25]",
+      "start_time_sec": 134,
+      "text": "What type of property is 18 Craigmillar Road? Is it a ground floor flat, a terraced villa, or part of a shared tenement close?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:26]",
+      "end_time": "[02:34]",
+      "start_time_sec": 146,
+      "text": "It is a standard sandstone tenement flat on the first floor. The main door entry buzzer is clearly labeled with my name.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:35]",
+      "end_time": "[02:46]",
+      "start_time_sec": 155,
+      "text": "And did you receive any text messages from Openreach this morning requesting buzzer access or gate codes?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:47]",
+      "end_time": "[02:54]",
+      "start_time_sec": 167,
+      "text": "Not a single text, not a single missed call, nothing on my mobile phone whatsoever.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:55]",
+      "end_time": "[03:06]",
+      "start_time_sec": 175,
+      "text": "Bear with me while I access the national Openreach wholesale dispatch ledger to read the dispatch engineer notes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:07]",
+      "end_time": "[03:10]",
+      "start_time_sec": 187,
+      "text": "Fine, I will wait.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:00]",
+      "end_time": "[04:10]",
+      "start_time_sec": 240,
+      "text": "Thank you for waiting, Alistair. I have retrieved the field dispatch report logged at 12:48 PM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:11]",
+      "end_time": "[04:15]",
+      "start_time_sec": 251,
+      "text": "And what excuse did the technician give?",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:16]",
+      "end_time": "[04:28]",
+      "start_time_sec": 256,
+      "text": "The technician has logged code 'BC-04: Blocked duct on external curtilage'. It says the underground ducting under the pavement outside number 14 is collapsed with heavy silt."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:29]",
+      "end_time": "[04:40]",
+      "start_time_sec": 269,
+      "text": "A blocked duct? If the duct was blocked at twelve o'clock, why on earth didn't the engineer walk twenty yards up the pavement and ring my buzzer to explain that to me in person?",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:41]",
+      "end_time": "[04:52]",
+      "start_time_sec": 281,
+      "text": "Because that's an external civil engineering issue, not an in-home installation task. That's not S-Net's fault, Openreach is an external contractor and we have no control over their engineers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:53]",
+      "end_time": "[05:04]",
+      "start_time_sec": 293,
+      "text": "I didn't buy broadband from Openreach! I pay S-Net! You are my provider! It is your contract and your responsibility to manage your suppliers!",
+      "sentiment_score": -48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:05]",
+      "end_time": "[05:16]",
+      "start_time_sec": 305,
+      "text": "Look, shouting at me won't unblock a duct under the street. Telecom regulations mandate that Openreach owns the physical ducts, so you'll just have to wait until they clear it."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:17]",
+      "end_time": "[05:25]",
+      "start_time_sec": 317,
+      "text": "I am not shouting, I am furious that nobody communicated with me while I sat here losing three hundred pounds in lost wages!",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:26]",
+      "end_time": "[05:37]",
+      "start_time_sec": 326,
+      "text": "Our contract terms state we do not reimburse third-party consequential losses or lost wages under any circumstances. If you want compensation, take it up with Openreach directly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:38]",
+      "end_time": "[05:46]",
+      "start_time_sec": 338,
+      "text": "Telling a customer to go complain to a wholesale contractor is disgraceful service. What about the automatic compensation scheme?",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:47]",
+      "end_time": "[05:58]",
+      "start_time_sec": 347,
+      "text": "Under the Ofcom Automatic Compensation scheme, a missed appointment generates a fixed statutory credit of thirty pounds and forty-nine pence applied to your next bill."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:59]",
+      "end_time": "[06:06]",
+      "start_time_sec": 359,
+      "text": "Thirty pounds doesn't replace a day's work, but at least ensure that credit is logged on my account.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:07]",
+      "end_time": "[06:18]",
+      "start_time_sec": 367,
+      "text": "The credit is automatically applied by our billing system within thirty days of the missed appointment date. It does not require manual intervention."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:19]",
+      "end_time": "[06:24]",
+      "start_time_sec": 379,
+      "text": "When is this blocked duct actually going to be cleared?",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:25]",
+      "end_time": "[06:36]",
+      "start_time_sec": 385,
+      "text": "The civil works team has raised a Civils Task Ticket numbered CIV-40918. Their standard turnaround for high-pressure water jetting is three to five working days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:37]",
+      "end_time": "[06:44]",
+      "start_time_sec": 397,
+      "text": "Three to five working days? So my installation won't happen this week at all?",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:45]",
+      "end_time": "[06:56]",
+      "start_time_sec": 405,
+      "text": "Obviously not. You can't pull an optical fiber cable through a collapsed pipe packed with solid mud. It's physically impossible."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:57]",
+      "end_time": "[07:05]",
+      "start_time_sec": 417,
+      "text": "You don't need to be sarcastic with me, Kevin. I'm asking for a realistic schedule so I can plan my work.",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:06]",
+      "end_time": "[07:18]",
+      "start_time_sec": 426,
+      "text": "I am giving you the facts. The civil crew is scheduled for Thursday. Once the duct proves clear, the installation can be rebooked for the earliest available slot."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:19]",
+      "end_time": "[07:24]",
+      "start_time_sec": 439,
+      "text": "And when is the earliest available slot for the engineer to return?",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:25]",
+      "end_time": "[07:36]",
+      "start_time_sec": 445,
+      "text": "The next open morning slot on the Glasgow south dispatch grid is next Tuesday, the twenty-seventh, between 8:00 AM and 1:00 PM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:37]",
+      "end_time": "[07:49]",
+      "start_time_sec": 457,
+      "text": "Next Tuesday? That is another week away! And that means taking yet another half-day off work! Can't you get a Saturday appointment?",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:50]",
+      "end_time": "[08:00]",
+      "start_time_sec": 470,
+      "text": "Saturday appointments carry an extra thirty-pound weekend premium charge, and the earliest available Saturday slot is three weeks away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:01]",
+      "end_time": "[08:12]",
+      "start_time_sec": 481,
+      "text": "You want to charge me thirty pounds extra after your engineer didn't show up today? That is unbelievable cheek!",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:13]",
+      "end_time": "[08:24]",
+      "start_time_sec": 493,
+      "text": "I don't make the company pricing rules, Alistair. That's the system rate for weekend bookings. Tuesday morning is free."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:25]",
+      "end_time": "[08:33]",
+      "start_time_sec": 505,
+      "text": "Fine, book Tuesday morning. But what happens if the civil crew doesn't finish the duct by Thursday?",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:34]",
+      "end_time": "[08:45]",
+      "start_time_sec": 514,
+      "text": "If the duct isn't clear, the appointment gets pushed back again automatically. That's just how civil infrastructure works."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:46]",
+      "end_time": "[08:55]",
+      "start_time_sec": 526,
+      "text": "I work from home doing financial data modeling. My current copper line contract with my previous provider ends this Thursday!",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:56]",
+      "end_time": "[09:07]",
+      "start_time_sec": 536,
+      "text": "Well, you shouldn't have served notice on your old supplier before the new fibre was tested and working. We always advise overlapping services."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:08]",
+      "end_time": "[09:18]",
+      "start_time_sec": 548,
+      "text": "Your sales representative specifically promised me that the fibre install on Tuesday would have zero downtime! Don't blame me for your sales team's promises!",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:19]",
+      "end_time": "[09:30]",
+      "start_time_sec": 559,
+      "text": "Sales representatives don't know what's underneath the pavements. I am dealing with the reality of what the engineer found in the ground."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:31]",
+      "end_time": "[09:37]",
+      "start_time_sec": 571,
+      "text": "Can you provide a 4G emergency backup router while we wait for Tuesday?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:38]",
+      "end_time": "[09:49]",
+      "start_time_sec": 578,
+      "text": "4G backup dongles are only included with our Business Pro tiers, not residential packages. You would have to purchase one separately from a mobile shop."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:50]",
+      "end_time": "[09:58]",
+      "start_time_sec": 590,
+      "text": "You won't even dispatch a temporary dongle after your engineer failed to attend? Your customer service is utterly atrocious.",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:59]",
+      "end_time": "[10:10]",
+      "start_time_sec": 599,
+      "text": "I am following the operational guidelines of the tier you purchased. I cannot invent free hardware out of thin air."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:11]",
+      "end_time": "[10:17]",
+      "start_time_sec": 611,
+      "text": "I want to lodge a formal complaint against this entire handling.",
+      "sentiment_score": -34.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:18]",
+      "end_time": "[10:29]",
+      "start_time_sec": 618,
+      "text": "I can log a formal complaint ticket. The reference number will be CMP-18823. A complaints manager will contact you within five working days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:30]",
+      "end_time": "[10:37]",
+      "start_time_sec": 630,
+      "text": "CMP-18823. And is the Tuesday appointment actually confirmed in the system right now?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:38]",
+      "end_time": "[10:49]",
+      "start_time_sec": 638,
+      "text": "Just to verify the contact mobile on the wholesale booking sheet, is your number still 07700 900812 so the dispatch coordinator has the right contact?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:50]",
+      "end_time": "[10:56]",
+      "start_time_sec": 650,
+      "text": "Yes, 07700 900812. Put that number on the ticket in bold if you can.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:57]",
+      "end_time": "[11:08]",
+      "start_time_sec": 657,
+      "text": "The Tuesday morning booking between 8:00 AM and 1:00 PM is locked in. The new appointment reference is OR-77219-GL."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:09]",
+      "end_time": "[11:15]",
+      "start_time_sec": 669,
+      "text": "And how do I know the civil engineering work on Thursday won't just be ignored?",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:16]",
+      "end_time": "[11:27]",
+      "start_time_sec": 676,
+      "text": "The civil works order has statutory local council road-opening permits attached. It is registered on the Scottish Road Works register."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:28]",
+      "end_time": "[11:34]",
+      "start_time_sec": 688,
+      "text": "Is there a direct tracking link where I can monitor the duct progress online?",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:35]",
+      "end_time": "[11:46]",
+      "start_time_sec": 695,
+      "text": "No, wholesale civil tickets are internal engineering workflows. The customer portal will only update once the line is signed off as ready for install."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:47]",
+      "end_time": "[11:58]",
+      "start_time_sec": 707,
+      "text": "So I am left completely in the dark until Tuesday morning. If that engineer fails to show up on Tuesday, I will cancel this entire contract and go to Virgin Media.",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:59]",
+      "end_time": "[12:10]",
+      "start_time_sec": 719,
+      "text": "Virgin Media uses their own coaxial network, but if their duct is blocked you will have the exact same problem there."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:11]",
+      "end_time": "[12:20]",
+      "start_time_sec": 731,
+      "text": "At least Virgin customer support might speak to their paying customers with a basic shred of common decency and respect!",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:21]",
+      "end_time": "[12:32]",
+      "start_time_sec": 741,
+      "text": "I have been perfectly professional with you. I have explained the civil problem, rebooked your appointment, and logged your complaint."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:33]",
+      "end_time": "[12:44]",
+      "start_time_sec": 753,
+      "text": "You haven't apologised once! Not a single word of sympathy or recognition that you've ruined my entire day's earnings!",
+      "sentiment_score": -50.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:45]",
+      "end_time": "[12:56]",
+      "start_time_sec": 765,
+      "text": "I did not personally block the duct outside your tenement, so I am not taking personal blame for Scottish rainwater and mud in a pipe."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:57]",
+      "end_time": "[13:08]",
+      "start_time_sec": 777,
+      "text": "You represent S-Net! When you pick up that headset, you speak for the company! Do you not understand how customer service works?",
+      "sentiment_score": -48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:09]",
+      "end_time": "[13:20]",
+      "start_time_sec": 789,
+      "text": "I know exactly how my job works, sir. I have rebooked your order. What else do you expect me to do on this call?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:21]",
+      "end_time": "[13:33]",
+      "start_time_sec": 801,
+      "text": "I expect someone in your position to acknowledge the appalling failure of your booking system, not treat me like an annoying nuisance for complaining!",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:34]",
+      "end_time": "[13:45]",
+      "start_time_sec": 814,
+      "text": "I have already booked the earliest available slot. If you keep repeating the same complaints, we are just going around in circles."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:46]",
+      "end_time": "[13:58]",
+      "start_time_sec": 826,
+      "text": "Because you haven't given me any guarantee that the same circus won't happen again next Tuesday! What happens if nobody turns up next Tuesday?",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:59]",
+      "end_time": "[14:10]",
+      "start_time_sec": 839,
+      "text": "If the duct is clear, the engineer will complete the install. If it isn't, they won't. I cannot predict the future."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:11]",
+      "end_time": "[14:24]",
+      "start_time_sec": 851,
+      "text": "You are breathtakingly unhelpful. I want your manager's name and direct contact details right now.",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:25]",
+      "end_time": "[14:36]",
+      "start_time_sec": 865,
+      "text": "My team leader is on the escalation floor and does not take direct incoming customer telephone calls. The complaint reference I gave you is the official escalation route."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:37]",
+      "end_time": "[14:48]",
+      "start_time_sec": 877,
+      "text": "Of course they don't take calls. You hide behind complaint references and automated systems while customers lose money.",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:49]",
+      "end_time": "[15:00]",
+      "start_time_sec": 889,
+      "text": "I have spent twenty minutes on this call doing everything within my technical system capabilities to secure your Tuesday rebooking."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:01]",
+      "end_time": "[15:14]",
+      "start_time_sec": 901,
+      "text": "With the worst attitude I have encountered in my forty years of dealing with telecoms companies. You shouldn't be allowed anywhere near a customer phone line.",
+      "sentiment_score": -52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:15]",
+      "end_time": "[15:26]",
+      "start_time_sec": 915,
+      "text": "That is your personal opinion, Alistair. I have completed the rebooking transaction for Tuesday the twenty-seventh."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:27]",
+      "end_time": "[15:38]",
+      "start_time_sec": 927,
+      "text": "Have you sent the confirmation SMS to my mobile? Because I haven't received that either.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:39]",
+      "end_time": "[15:50]",
+      "start_time_sec": 939,
+      "text": "I am sending the SMS confirmation right now through the automated messaging gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:51]",
+      "end_time": "[15:58]",
+      "start_time_sec": 951,
+      "text": "I will check my phone now... yes, it has just arrived. OR-77219-GL for Tuesday 8 AM.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:59]",
+      "end_time": "[16:10]",
+      "start_time_sec": 959,
+      "text": "So the appointment confirmation has been received on your handset, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:11]",
+      "end_time": "[16:19]",
+      "start_time_sec": 971,
+      "text": "Yes, I have the message. But that doesn't excuse the complete lack of basic courtesy today.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:20]",
+      "end_time": "[16:32]",
+      "start_time_sec": 980,
+      "text": "I have answered every query you had, rebooked the appointment, and sent confirmation. I am ready to close this call."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:33]",
+      "end_time": "[16:48]",
+      "start_time_sec": 993,
+      "text": "No, you don't get to dismiss me and close the call just because you're uncomfortable being held accountable! I want to know who is overseeing the Glasgow civils team on Thursday!",
+      "sentiment_score": -54.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:49]",
+      "end_time": "[17:02]",
+      "start_time_sec": 1009,
+      "text": "I have told you four times already, Openreach is an external infrastructure organization! I cannot give you names of external road workers!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:03]",
+      "end_time": "[17:16]",
+      "start_time_sec": 1023,
+      "text": "You are raising your voice at me now! I am paying customer who has been stranded with no internet, and you are shouting down the line!",
+      "sentiment_score": -58.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:17]",
+      "end_time": "[17:32]",
+      "start_time_sec": 1037,
+      "text": "Just shut up and listen to what I am telling you! I have done everything possible on this computer, and I am not going to sit here taking your abuse all afternoon!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:33]",
+      "end_time": "[17:48]",
+      "start_time_sec": 1053,
+      "text": "Did you just tell me to shut up? Did you actually just say that to me? You are going to be fired for that! I am reporting this call to the telecoms ombudsman!",
+      "sentiment_score": -65.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:49]",
+      "end_time": "[18:03]",
+      "start_time_sec": 1069,
+      "text": "You can report whatever you want to whoever you want. Your booking is on Tuesday the twenty-seventh. I have nothing more to add."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:04]",
+      "end_time": "[18:16]",
+      "start_time_sec": 1084,
+      "text": "Give me your full name and employee identification number right now. Right this second.",
+      "sentiment_score": -55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:17]",
+      "end_time": "[18:30]",
+      "start_time_sec": 1097,
+      "text": "My name is Kevin, advisor ID 4810, Glasgow support center. Everything is logged on your ticket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:31]",
+      "end_time": "[18:42]",
+      "start_time_sec": 1111,
+      "text": "Advisor 4810. You will be hearing from S-Net executive complaints and my solicitor. This is completely unacceptable.",
+      "sentiment_score": -50.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:43]",
+      "end_time": "[18:58]",
+      "start_time_sec": 1123,
+      "text": "Your Tuesday booking is confirmed and your complaint CMP-18823 is submitted. That concludes our call."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:59]",
+      "end_time": "[19:14]",
+      "start_time_sec": 1139,
+      "text": "I will see you in the ombudsman report, Kevin. Goodbye.",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[19:15]",
+      "end_time": "[19:42]",
+      "start_time_sec": 1155,
+      "text": "Thank you for choosing S-Net, Alistair. Goodbye."
+    }
+  ]
+}

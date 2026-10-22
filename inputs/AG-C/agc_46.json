@@ -1,0 +1,441 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Zoey",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net broadband services. My name is Vicky. How may I assist you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:18]",
+      "end_time": "[00:45]",
+      "start_time_sec": 18,
+      "text": "Hello Vicky. I have been paying forty-five pounds every month for S-Net's five hundred megabit full fiber broadband for the past four months, but whenever I run speed tests on my laptop, the download speed is strictly hard-capped at exactly ten megabits per second! I have spent four months paying premium prices for dial-up speeds while trying to stream video lectures and download MRI files for my university medical degree, and I am sick and tired of being ripped off!",
+      "sentiment_score": -48.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:56]",
+      "end_time": "[01:01]",
+      "start_time_sec": 56,
+      "text": "Let me open your broadband account ledger and physical provisioning docket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:12]",
+      "end_time": "[01:20]",
+      "start_time_sec": 72,
+      "text": "The optical terminal serial number on our hallway wall box is ALCL-B nine two zero one nine eight four.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:31]",
+      "end_time": "[01:36]",
+      "start_time_sec": 91,
+      "text": "Please hold while I query the Openreach optical line profile database."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:18]",
+      "end_time": "[02:22]",
+      "start_time_sec": 138,
+      "text": "Vicky, are you still there? The line went totally silent.",
+      "sentiment_score": -16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:33]",
+      "end_time": "[02:44]",
+      "start_time_sec": 153,
+      "text": "Yes, apologies for the pause. The optical profile database indicates that your optical ONT is locked to an emergency provisioning profile of ten megabits symmetrical."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:55]",
+      "end_time": "[03:06]",
+      "start_time_sec": 175,
+      "text": "An emergency ten megabit profile?! Why on earth is our optical box locked to an emergency ten megabit profile when we pay for five hundred megabits?!",
+      "sentiment_score": -36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:17]",
+      "end_time": "[03:32]",
+      "start_time_sec": 197,
+      "text": "When your broadband contract was migrated from your previous student rental flat four months ago, the automated order completion script encountered an XML synchronization error between our legacy billing database and the wholesale radius server."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:43]",
+      "end_time": "[03:56]",
+      "start_time_sec": 223,
+      "text": "So your automated computer system had an XML bug four months ago, and S-Net just left us capped at ten megabits while happily charging our bank forty-five pounds every month?!",
+      "sentiment_score": -44.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:07]",
+      "end_time": "[04:15]",
+      "start_time_sec": 247,
+      "text": "The wholesale provisioning platform does not flag bandwidth profile mismatches automatically unless a manual service audit is initiated."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:26]",
+      "end_time": "[04:34]",
+      "start_time_sec": 266,
+      "text": "Can you immediately reprovision the line to five hundred megabits right now so I can download my coursework?",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:45]",
+      "end_time": "[04:51]",
+      "start_time_sec": 285,
+      "text": "Let me examine the central RADIUS subscriber management portal on our network core."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:02]",
+      "end_time": "[05:09]",
+      "start_time_sec": 302,
+      "text": "I have a two-gigabyte medical imaging lecture file that has been failing to download all morning.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:20]",
+      "end_time": "[05:31]",
+      "start_time_sec": 320,
+      "text": "Just to confirm what you mentioned earlier, the optical terminal serial number on your wall box is ALCL-B nine two zero one nine eight four?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:42]",
+      "end_time": "[05:51]",
+      "start_time_sec": 342,
+      "text": "Yes, ALCL-B nine two zero one nine eight four is printed directly on the barcode label beneath the power switch.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:02]",
+      "end_time": "[06:13]",
+      "start_time_sec": 362,
+      "text": "When you connect your laptop to the optical terminal, are you plugging directly into LAN port 1 with an Ethernet cable or connecting over Wi-Fi?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:24]",
+      "end_time": "[06:35]",
+      "start_time_sec": 384,
+      "text": "I tested with a brand-new Cat6 Ethernet cable plugged directly into LAN port 1, and the speed test tops out at exactly nine point eight megabits.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:46]",
+      "end_time": "[06:54]",
+      "start_time_sec": 406,
+      "text": "Does the Ethernet port LED on the optical terminal illuminate green or amber when the laptop is connected?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:05]",
+      "end_time": "[07:13]",
+      "start_time_sec": 425,
+      "text": "The LED is amber, showing that the physical port is negotiating at ten megabits rather than gigabit ethernet.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:24]",
+      "end_time": "[07:33]",
+      "start_time_sec": 444,
+      "text": "An amber port link confirms that the optical terminal's internal policer chip is rate-limiting the hardware interface to ten megabits."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:44]",
+      "end_time": "[07:49]",
+      "start_time_sec": 464,
+      "text": "Which proves that your wholesale system is actively throttling our hardware port!",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:00]",
+      "end_time": "[08:06]",
+      "start_time_sec": 480,
+      "text": "What optical light power level reading is registered on the internal photodiode receiver?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:17]",
+      "end_time": "[08:24]",
+      "start_time_sec": 497,
+      "text": "The telemetry status page displays minus eighteen point four dBm, which is well within normal limits.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:35]",
+      "end_time": "[08:43]",
+      "start_time_sec": 515,
+      "text": "Minus eighteen point four dBm confirms that optical signal attenuation across the physical fiber path is completely nominal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:54]",
+      "end_time": "[09:01]",
+      "start_time_sec": 534,
+      "text": "So the physical fiber cable on the street is completely perfect and has zero optical loss!",
+      "sentiment_score": 24.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:12]",
+      "end_time": "[09:18]",
+      "start_time_sec": 552,
+      "text": "What specific download file transfers are failing or timing out during your medical coursework?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:29]",
+      "end_time": "[09:51]",
+      "start_time_sec": 569,
+      "text": "I am downloading 3D volumetric DICOM MRI patient scan datasets from the university hospital server, where each dataset contains twelve hundred high-resolution axial slices totaling one point eight gigabytes, and the hospital web proxy aborts the connection after thirty minutes because the ten-megabit cap takes over forty minutes to complete!",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:02]",
+      "end_time": "[10:10]",
+      "start_time_sec": 602,
+      "text": "When single-stream TCP file transfers exceed web proxy timeout thresholds, the host server automatically resets the connection socket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:21]",
+      "end_time": "[10:30]",
+      "start_time_sec": 621,
+      "text": "Exactly! Which is why being capped at ten megabits when I pay for five hundred megabits is ruining my university studies!",
+      "sentiment_score": -34.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:41]",
+      "end_time": "[10:48]",
+      "start_time_sec": 641,
+      "text": "Please hold while I check whether the wholesale provisioning queue can accept a manual profile push."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:30]",
+      "end_time": "[11:33]",
+      "start_time_sec": 690,
+      "text": "Vicky, hello? Did the call drop out again?",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:44]",
+      "end_time": "[11:54]",
+      "start_time_sec": 704,
+      "text": "Yes, thank you for waiting. The central RADIUS provisioning server is currently locked in an automated database reconciliation freeze for end-of-month billing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:05]",
+      "end_time": "[12:10]",
+      "start_time_sec": 725,
+      "text": "So can you push the five hundred megabit profile or not?",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:20]",
+      "end_time": "[12:32]",
+      "start_time_sec": 740,
+      "text": "Because the database reconciliation freeze is active, any manual speed profile update must wait until your next monthly billing cycle resets on the twelfth of next month."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:42]",
+      "end_time": "[12:59]",
+      "start_time_sec": 762,
+      "text": "Wait until the twelfth of next month?! That is three whole weeks away! You expect me to study for final university exams on a throttled ten megabit connection for three more weeks after already suffering four months of this?!",
+      "sentiment_score": -48.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:09]",
+      "end_time": "[13:17]",
+      "start_time_sec": 789,
+      "text": "Company provisioning procedures strictly forbid manual database overrides while central reconciliation batch jobs are executing across subscriber ledgers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:27]",
+      "end_time": "[13:35]",
+      "start_time_sec": 807,
+      "text": "Can you not escalate this to a network operations supervisor or tier-three engineering desk who has root database clearance?!",
+      "sentiment_score": -34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:45]",
+      "end_time": "[13:52]",
+      "start_time_sec": 825,
+      "text": "Tier-three engineering does not accept provisioning ticket escalations for residential accounts during automated billing freezes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:02]",
+      "end_time": "[14:15]",
+      "start_time_sec": 842,
+      "text": "This is an absolute disgrace! S-Net has stolen forty-five pounds a month from me, throttled my broadband to dial-up speeds, and now refuses to press a button to fix it!",
+      "sentiment_score": -48.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:25]",
+      "end_time": "[14:32]",
+      "start_time_sec": 865,
+      "text": "The ten megabit profile provides basic connectivity for standard web text browsing and light messaging."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:42]",
+      "end_time": "[14:53]",
+      "start_time_sec": 882,
+      "text": "I am studying digital radiology and downloading 3D MRI scans, not reading text messages! Can S-Net at least refund the four months of overcharged subscription fees?!",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:03]",
+      "end_time": "[15:12]",
+      "start_time_sec": 903,
+      "text": "Billing refund requests can only be evaluated after the technical speed fault is officially closed and verified by wholesale reconciliation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:22]",
+      "end_time": "[15:31]",
+      "start_time_sec": 922,
+      "text": "So you won't fix the speed today, you won't escalate to an engineer, and you won't even refund the overcharges!",
+      "sentiment_score": -38.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:41]",
+      "end_time": "[15:45]",
+      "start_time_sec": 941,
+      "text": "I have logged the provisioning mismatch ticket under reference PRV-66102-S."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:55]",
+      "end_time": "[16:02]",
+      "start_time_sec": 955,
+      "text": "PRV-66102-S. I am lodging an immediate dispute with the communications ombudsman and the credit card company.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:12]",
+      "end_time": "[16:19]",
+      "start_time_sec": 972,
+      "text": "The ticket notes will be processed by wholesale provisioning once the monthly billing reconciliation window terminates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:29]",
+      "end_time": "[16:36]",
+      "start_time_sec": 989,
+      "text": "When the profile finally resets on the twelfth, how will I know the gigabit speed is active?",
+      "sentiment_score": 12.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:46]",
+      "end_time": "[16:56]",
+      "start_time_sec": 1006,
+      "text": "The amber Ethernet LED on the optical terminal will switch to solid green, confirming that the physical port is negotiating at full gigabit speeds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:06]",
+      "end_time": "[17:14]",
+      "start_time_sec": 1026,
+      "text": "I will inspect that Ethernet port LED on the twelfth to make sure it switches from amber to green.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:24]",
+      "end_time": "[17:29]",
+      "start_time_sec": 1044,
+      "text": "A solid green link indicator confirms full five hundred megabit hardware throughput."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:39]",
+      "end_time": "[17:52]",
+      "start_time_sec": 1059,
+      "text": "Our mobile phone network with EE in this apartment gets four bars of 5G, so fortunately I can tether my phone in emergencies even though mobile data is expensive.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:02]",
+      "end_time": "[18:07]",
+      "start_time_sec": 1082,
+      "text": "Third-party cellular networks operate independently of fixed-line fiber optical distribution networks."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:17]",
+      "end_time": "[18:23]",
+      "start_time_sec": 1097,
+      "text": "Yes, thank goodness they do, otherwise I would have failed my university term completely.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:33]",
+      "end_time": "[18:39]",
+      "start_time_sec": 1113,
+      "text": "High-capacity 5G cellular masts provide robust emergency fallback data during fixed-line provisioning delays."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:49]",
+      "end_time": "[18:59]",
+      "start_time_sec": 1129,
+      "text": "Wait Vicky, if the profile resets on the twelfth, will the router automatically reboot itself or do I need to power cycle...",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[19:09]",
+      "end_time": "[19:14]",
+      "start_time_sec": 1149,
+      "text": "Thank you for choosing S-Net today. Have a good afternoon. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:24]",
+      "end_time": "[19:30]",
+      "start_time_sec": 1164,
+      "text": "Wait Vicky, do I need to power cycle... hello?",
+      "sentiment_score": -12.4
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Xavier",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:04]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, I'm Lee. How can I help?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:05]",
+      "end_time": "[00:15]",
+      "start_time_sec": 5,
+      "text": "I bought a phone in your shop yesterday and the new SIM doesn't work in it. I've wasted my whole morning trying, and I'm really angry.",
+      "sentiment_score": -27.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:18]",
+      "end_time": "[00:20]",
+      "start_time_sec": 18,
+      "text": "What's your full name?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:22]",
+      "end_time": "[00:24]",
+      "start_time_sec": 22,
+      "text": "Xavier Dupont.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:26]",
+      "end_time": "[00:35]",
+      "start_time_sec": 26,
+      "text": "If you can't work a SIM tray, that's not really my problem, Xavier. Go back to the shop that sold it to you.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:38]",
+      "end_time": "[00:41]",
+      "start_time_sec": 38,
+      "text": "You're joking. The shop is twenty miles away.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:42]",
+      "end_time": "[00:44]",
+      "start_time_sec": 42,
+      "text": "That's where they can help you.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:47]",
+      "end_time": "[00:49]",
+      "start_time_sec": 47,
+      "text": "So you won't do anything?",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:51]",
+      "end_time": "[00:53]",
+      "start_time_sec": 51,
+      "text": "No. Thank you for choosing S-Net.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_03",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 68.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "When Malgorzata explained at [00:10] and [00:38] that the double direct debit pushed her into an unauthorized overdraft, you moved straight into ledger checks without once apologizing or acknowledging her distress."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "At [00:23], you repeated the customer's exact words verbatim ('You were charged twice on your direct debit after upgrading from Fibre 150 to Fibre 500') instead of paraphrasing the issue in your own words and checking understanding."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "At [09:23] and [15:18], the £68.40 refund could only be queued for a 3–5 working day BACS transfer rather than resolved on the call, leaving the customer's immediate overdraft issue unresolved."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Billing dispute over double direct debit collection after upgrading from Fibre 150 to Fibre 500",
+    "tier": "okay",
+    "duration_sec": 985,
+    "notes": "Okay-tier billing dispute call (score 68.3) with three hard-case FAILs: Callum is polite and thorough with pro-rata math and takes strong personal ownership ([12:25]), but never once apologizes or acknowledges Malgorzata's overdraft distress (E FAIL), only parrots her words verbatim at [00:23] (PA FAIL), and cannot complete the £68.40 refund immediately on the call due to the £50 BACS threshold (RE FAIL).",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Paraphrasing",
+      "Confirmed the issue is resolved",
+      "Took ownership of the problem",
+      "Probing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opened with 'thank you for calling S-Net' at [00:00] and closed with 'Thank you for choosing S-Net' at [16:15]."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "No hold or dead air exceeding 30 seconds occurred during the call."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Verified home address and four-digit security PIN at [00:23] within the first 240s."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Addressed the customer by her name 'Malgorzata' throughout the call (e.g., [00:53], [02:08], [16:15])."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Hard-case FAIL: Customer expressed severe distress at [00:10], [00:38], and [09:35] over being pushed into an unauthorized overdraft, but Agent remained purely transactional and never offered an apology or empathy statement."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Hard-case FAIL: At [00:23], Agent echoed Customer's phrasing word-for-word from [00:10] without restating in his own words or confirming understanding."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Tracked all dates, mandate suffixes (DD-01 vs DD-02), and amounts accurately without asking the customer to repeat information."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: Even though the £68.40 refund required back-office BACS clearing due to the £50 system limit, Agent took personal ownership by cancelling duplicate mandate DD-02 ([08:07]), submitting the priority voucher under his own queue ([12:25]), applying a £25 goodwill credit ([13:10]), and setting a 2:15 PM follow-up reminder ([14:42])."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Remained calm, polite, and structured while explaining complex pro-rata billing calculations under pressure."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: Conducted thorough financial probing into exact debit amounts and dates ([01:17]), mandate suffix references ([01:42]), upgrade channel and dates ([02:08]), and overdraft cut-off timing ([03:06])."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Hard-case FAIL: Because £68.40 exceeded the £50 instant refund limit ([08:59]), Agent had to submit a 3–5 working day BACS request ([09:23]), and Customer explicitly noted at [15:18] that the issue is not resolved until the money reaches her bank."
+      }
+    ]
+  }
+}

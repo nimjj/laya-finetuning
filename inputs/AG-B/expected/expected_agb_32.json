@@ -1,0 +1,193 @@
+{
+  "call_id": "agb_32",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 56.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "Agent left two unmanaged silences exceeding 30 seconds (45s at [02:30] and 46s at [07:15]) without hold announcement or thanks."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to acknowledge customer's severe distress regarding her 87-year-old mother with dementia being terrorized by scam calls at 2 AM."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent never restated the customer's problem statement regarding harassing scam calls, offering only procedural replies."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Agent asked zero diagnostic questions regarding call frequency, caller IDs, or timings before prescribing call barring features."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Harassing marketing phone calls on landline; Anonymous Call Rejection and Call Guardian enabled; agent leaves two silences > 30s, ignores elderly mother's dementia terror, fails paraphrasing, and asks zero probing questions",
+    "tier": "fair",
+    "duration_sec": 933,
+    "notes": "The agent activated Anonymous Call Rejection and S-Net Call Guardian network features to stop nuisance telephone calls. However, the agent failed Hold Time and Dead Air by leaving two unmanaged silences > 30s (45s at [02:30] and 46s at [07:15]), failed Empathy & Acknowledgment Statement by disregarding Fatima's acute distress over her vulnerable elderly mother being terrorized by scam calls at night, failed Paraphrasing by never restating the customer's problem statement, and failed Probing by asking zero diagnostic questions regarding call frequency, caller IDs, or timings.",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Empathy & Acknowledgment Statement",
+      "Paraphrasing",
+      "Probing",
+      "Active listening",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent left an unmanaged silence of 45 seconds at [02:30] and another of 46 seconds at [07:15] without announcing hold or thanking customer upon return."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:30] Customer: 'Oliver, my mother is eighty-seven years old and lives with moderate vascular dementia. These scammers have been ringing her at two and three o'clock in the morning claiming to be police officers... It is literally destroying her health!' Agent: 'Let us check the telephone exchange feature flags provisioned on this landline number...' - Complete disregard of severe emotional distress."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent offered zero restatement of customer's nuisance call issues, moving directly to switch configuration."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[13:30] Agent correctly recalled all four whitelist telephone numbers and confirmed the medical pendant was operational without asking redundant questions."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[09:40] Agent: 'Obviously that confirms the network trunk filter rejected the withheld CLI packet before line ringing occurred, Fatima.' - Clear, objective technical explanation."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked zero questions regarding whether nuisance calls were international, withheld, or specific repeated numbers."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 54
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 38
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 5
+        }
+      ]
+    }
+  }
+}

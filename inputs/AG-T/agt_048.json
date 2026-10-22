@@ -1,0 +1,463 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Joanne",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer technical support, my name is Martin. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:13]",
+      "end_time": "[00:31]",
+      "start_time_sec": 13,
+      "text": "Hello Martin. Our landline telephone has developed an unbearable crackling and hissing noise on the line. When anyone calls, there is so much static that you can barely hear a word, and our broadband speed has dropped by half as well!",
+      "sentiment_score": -44.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:36]",
+      "end_time": "[00:46]",
+      "start_time_sec": 36,
+      "text": "I can help you diagnose that line noise, Joanne. First let's complete security verification. What is your full name and the installation address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:51]",
+      "end_time": "[00:54]",
+      "start_time_sec": 51,
+      "text": "Joanne Briggs, 22 Willow Brook, Preston, PR2 1TY.",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:59]",
+      "end_time": "[01:03]",
+      "start_time_sec": 59,
+      "text": "And what is the security PIN on the account, Joanne?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:08]",
+      "end_time": "[01:11]",
+      "start_time_sec": 68,
+      "text": "It's 5190.",
+      "sentiment_score": -5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:16]",
+      "end_time": "[01:21]",
+      "start_time_sec": 76,
+      "text": "What type of telephone handset is currently plugged into the phone socket?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:26]",
+      "end_time": "[01:30]",
+      "start_time_sec": 86,
+      "text": "We have a Panasonic cordless base station with two handsets.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:35]",
+      "end_time": "[01:43]",
+      "start_time_sec": 95,
+      "text": "Does the loud crackling sound persist when you unplug the cordless base station and try a standard corded phone?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:48]",
+      "end_time": "[01:55]",
+      "start_time_sec": 108,
+      "text": "I tried an old corded telephone from the attic, and the crackling was just as loud.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:00]",
+      "end_time": "[02:09]",
+      "start_time_sec": 120,
+      "text": "I will run an automated line test across the copper pair from our Preston exchange. Bear with me for forty seconds."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:49]",
+      "end_time": "[03:02]",
+      "start_time_sec": 169,
+      "text": "Thank you for your patience, Joanne. The line test has completed. It shows a severe resistive loop fault of eighty thousand ohms, indicating either dampness or a faulty extension socket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:07]",
+      "end_time": "[03:14]",
+      "start_time_sec": 187,
+      "text": "We haven't had any building work or leaks inside the house. Could it be the street wiring?",
+      "sentiment_score": -8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:19]",
+      "end_time": "[03:28]",
+      "start_time_sec": 199,
+      "text": "To isolate internal house wiring from the external Openreach street cable, we need to test from your master socket test socket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:33]",
+      "end_time": "[03:36]",
+      "start_time_sec": 213,
+      "text": "Where is the master socket located?",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:41]",
+      "end_time": "[03:47]",
+      "start_time_sec": 221,
+      "text": "It's usually in the main hallway where the telephone line enters the property."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:52]",
+      "end_time": "[03:59]",
+      "start_time_sec": 232,
+      "text": "Yes, I am looking at the white box in the hall with the S-Net logo on it.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:04]",
+      "end_time": "[04:11]",
+      "start_time_sec": 244,
+      "text": "Does the faceplate have a horizontal line split across the middle with two small screws?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:16]",
+      "end_time": "[04:19]",
+      "start_time_sec": 256,
+      "text": "Yes, two little screws on the bottom half.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:24]",
+      "end_time": "[04:32]",
+      "start_time_sec": 264,
+      "text": "Use a small coin or flat screwdriver to unscrew those two screws and pull the bottom faceplate gently forward."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:37]",
+      "end_time": "[04:48]",
+      "start_time_sec": 277,
+      "text": "We have had this terrible line noise for three days and it was driving my husband crazy! We couldn't hear our doctor on the phone!",
+      "sentiment_score": -42.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:53]",
+      "end_time": "[04:57]",
+      "start_time_sec": 293,
+      "text": "Internal copper wiring issues can indeed create substantial audio interference."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:02]",
+      "end_time": "[05:08]",
+      "start_time_sec": 302,
+      "text": "I'm just glad we didn't have to wait a week for an engineer.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:13]",
+      "end_time": "[05:19]",
+      "start_time_sec": 313,
+      "text": "Testing at the master socket resolves roughly seventy percent of residential noise reports immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:24]",
+      "end_time": "[05:29]",
+      "start_time_sec": 324,
+      "text": "It's such a clever design having a test socket behind the faceplate.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:34]",
+      "end_time": "[05:39]",
+      "start_time_sec": 334,
+      "text": "And modern routers have built-in microfilters that reject residual radio frequency interference."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:44]",
+      "end_time": "[05:47]",
+      "start_time_sec": 344,
+      "text": "Good to know the hardware is protected.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:52]",
+      "end_time": "[06:00]",
+      "start_time_sec": 352,
+      "text": "And you can always check your line performance using our automated line checker tool on the My S-Net portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:05]",
+      "end_time": "[06:08]",
+      "start_time_sec": 365,
+      "text": "I'll bookmark that tool on my iPad.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:13]",
+      "end_time": "[06:20]",
+      "start_time_sec": 373,
+      "text": "Unscrewing them now... Pulling the faceplate off. Behind it, there is another hidden telephone socket inside!",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:25]",
+      "end_time": "[06:35]",
+      "start_time_sec": 385,
+      "text": "That hidden socket is the master test socket. It connects directly to the incoming street wire, completely disconnecting all internal extension cables."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:40]",
+      "end_time": "[06:43]",
+      "start_time_sec": 400,
+      "text": "What should I plug into it?",
+      "sentiment_score": 6.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:48]",
+      "end_time": "[06:56]",
+      "start_time_sec": 408,
+      "text": "Let me check the equipment setup again. What type of telephone handset do you have there to plug in?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:01]",
+      "end_time": "[07:07]",
+      "start_time_sec": 421,
+      "text": "As I told you at the start, I have the Panasonic cordless telephone.",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:12]",
+      "end_time": "[07:17]",
+      "start_time_sec": 432,
+      "text": "Plug the Panasonic cordless phone directly into that internal test socket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:22]",
+      "end_time": "[07:28]",
+      "start_time_sec": 442,
+      "text": "Plugging the phone cable into the test socket... Putting handset to my ear.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:36]",
+      "end_time": "[07:42]",
+      "start_time_sec": 456,
+      "text": "Do you hear a dial tone, and is there any static or crackling?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:47]",
+      "end_time": "[07:53]",
+      "start_time_sec": 467,
+      "text": "The dial tone is completely silent and crystal clear! Absolutely zero crackling or hissing!",
+      "sentiment_score": 34.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:58]",
+      "end_time": "[08:09]",
+      "start_time_sec": 478,
+      "text": "That is fantastic news. That proves the external Openreach street cable is one hundred percent healthy, and the fault was caused by internal extension wiring."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:14]",
+      "end_time": "[08:22]",
+      "start_time_sec": 494,
+      "text": "Looking at the back of the faceplate I removed, there is an old rusty bell-wire terminal that looks corroded!",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:27]",
+      "end_time": "[08:35]",
+      "start_time_sec": 507,
+      "text": "Old bell-wire ring capacitors in extension faceplates often corrode with age, injecting high resistance onto the VDSL circuit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:40]",
+      "end_time": "[08:43]",
+      "start_time_sec": 520,
+      "text": "Can I just leave the extension bell-wire disconnected?",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:48]",
+      "end_time": "[08:58]",
+      "start_time_sec": 528,
+      "text": "Yes, modern cordless phones do not use old bell-wires. Gently unclip the orange and white extension wires from terminals 2 and 5."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:03]",
+      "end_time": "[09:07]",
+      "start_time_sec": 543,
+      "text": "Unclipped both wires and wrapped them with insulating tape.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:12]",
+      "end_time": "[09:20]",
+      "start_time_sec": 552,
+      "text": "Now screw the master faceplate back on, and plug your broadband microfilter and phone back into the front."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:25]",
+      "end_time": "[09:30]",
+      "start_time_sec": 565,
+      "text": "Screwed faceplate back on... Plugged filter, phone, and router back in.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:41]",
+      "end_time": "[09:45]",
+      "start_time_sec": 581,
+      "text": "Pick up the phone and check the dial tone now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:50]",
+      "end_time": "[09:58]",
+      "start_time_sec": 590,
+      "text": "Holding phone to ear... Perfect, clean, silent dial tone! And my router broadband light just turned solid green!",
+      "sentiment_score": 42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:03]",
+      "end_time": "[10:10]",
+      "start_time_sec": 603,
+      "text": "Let me re-run the exchange copper line test from my screen. Bear with me for thirty seconds."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:45]",
+      "end_time": "[10:56]",
+      "start_time_sec": 645,
+      "text": "Thanks for holding, Joanne. The resistive fault has cleared completely to infinite resistance, and your VDSL sync speed has jumped back up to sixty-eight megabits."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:01]",
+      "end_time": "[11:07]",
+      "start_time_sec": 661,
+      "text": "That is an astonishing fix Martin. You saved us an eighty-pound Openreach callout fee!",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:12]",
+      "end_time": "[11:19]",
+      "start_time_sec": 672,
+      "text": "I will take direct ownership of this ticket and note that the internal bell-wire was safely isolated."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:24]",
+      "end_time": "[11:30]",
+      "start_time_sec": 684,
+      "text": "Thank you Martin, I really appreciate your patience in guiding me through that.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:35]",
+      "end_time": "[11:44]",
+      "start_time_sec": 695,
+      "text": "Just to confirm your billing contact email on file, it's joanne dot briggs at preston dot co dot uk, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:49]",
+      "end_time": "[11:52]",
+      "start_time_sec": 709,
+      "text": "Yes, that's my email.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:57]",
+      "end_time": "[12:04]",
+      "start_time_sec": 717,
+      "text": "Just to confirm for the ticket record, the installation address is 22 Willow Brook, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:09]",
+      "end_time": "[12:12]",
+      "start_time_sec": 729,
+      "text": "Yes, 22 Willow Brook.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:17]",
+      "end_time": "[12:24]",
+      "start_time_sec": 737,
+      "text": "Is there anything else with your telephone or broadband that I can assist you with today, Joanne?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:29]",
+      "end_time": "[12:36]",
+      "start_time_sec": 749,
+      "text": "No Martin, the crackle is completely gone and internet speed is doubled. Thank you so much.",
+      "sentiment_score": 32.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:41]",
+      "end_time": "[12:46]",
+      "start_time_sec": 761,
+      "text": "Thank you for choosing S-Net, Joanne, and have a lovely afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:51]",
+      "end_time": "[12:54]",
+      "start_time_sec": 771,
+      "text": "Thank you Martin, goodbye.",
+      "sentiment_score": 20.0
+    }
+  ]
+}

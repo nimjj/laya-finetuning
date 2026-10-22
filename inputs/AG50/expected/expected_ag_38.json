@@ -1,0 +1,162 @@
+{
+  "call_id": "ag_38",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 46.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "Always announce holds before placing the caller on mute or waiting on system screens, rather than leaving unannounced dead-air gaps of 38 seconds before [04:41] and 49 seconds before [10:15]."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Address the customer by his name, Tadhg, after he introduces himself at [00:10] rather than calling him 'sir' throughout the entire conversation."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Paraphrase and summarize the customer's indoor 4G VoLTE call-drop issue in your own words after [00:10]-[00:40] before jumping into coverage checks."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Take note of key hardware details when the customer provides them at [00:40] and [02:05] so you do not have to ask what make and model of phone he is using nine minutes later at [11:24]."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Ask diagnostic handset and SIM probing questions—such as whether Wi-Fi Calling is enabled over home broadband, whether the VoLTE toggle was reset, or whether the SIM was tested in another device—instead of dismissing handset checks at [12:26]-[13:08]."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "The customer's indoor call drops remain unresolved at the close of the call ([17:50]), as he still has to stand in his front garden to take calls pending a 5-day RF engineering review."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Mobile handset dropping from 4G VoLTE to no-service during indoor calls despite outdoor mast showing normal status",
+    "tier": "poor",
+    "duration_sec": 1120,
+    "notes": "Style-trap call: Benjamin is polite ([00:24], [06:25]), empathetic ([03:14], [15:13]), follows branding ([00:00], [18:20]), verifies PIN/address early ([00:54]-[01:20]), and takes ownership of logging RF ticket RAN-662019-BA with a £15 credit and personal callback ([13:36]-[16:07]). However, he fails 6 items: two unannounced silences of 38s ([04:41]) and 49s ([10:15]), never uses Tadhg's name, skips paraphrasing, re-asks for the handset model at [11:24] after Tadhg stated 'Samsung Galaxy S23 Ultra' at [00:40] and [02:05], performs zero handset/Wi-Fi Calling probing ([12:26]-[13:08]), and leaves the indoor call drops unresolved ([17:50]).",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Active listening",
+      "Probing",
+      "Empathy & Acknowledgment Statement",
+      "Took ownership of the problem",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Greeting at [00:00] ('thank you for calling S-Net') and closing with survey check at [18:20] ('Thank you for choosing S-Net')."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Two unmanaged dead-air gaps >30s where the customer had to chase the agent: 38s before [04:41] ('Hello? Are you still there, Benjamin?') and 49s before [10:15] ('Hello? Anyone there?')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [00:54]-[01:20] (within 2 minutes) Agent verified billing address (28 Crescent Gardens, BA1 2NA) and 4-digit security PIN (6042)."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer introduced himself as Tadhg O'Sullivan at [00:10], but Agent only called him 'sir' and never used 'Tadhg' in any turn."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent consistently expressed warm empathy and apologies at [00:24], [03:14], [06:25], [15:13], and [17:03] regarding the disruption to the customer's client consultations."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [00:54]-[01:51] Agent went straight from verification into reading cell site dashboard metrics without ever paraphrasing or restating the customer's problem."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer explicitly stated 'Samsung Galaxy S23 Ultra' at [00:40] and [02:05], but at [11:24] Agent asked 'By the way, what make and model of phone are you using?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [13:36]-[16:07], Agent took personal ownership of raising priority RF propagation ticket RAN-662019-BA with IMS traces, applying a £15 goodwill credit, sending SMS confirmation, and booking a personal Friday callback."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent remained polite, courteous, and supportive throughout ([00:24], [06:25], [10:45], [15:13], [17:03])."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Throughout the call and explicitly at [06:51] and [12:26]-[13:08], Agent asked zero diagnostic probing questions about Wi-Fi Calling, VoLTE handset settings, SIM condition, or cross-device testing."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [16:47] and [17:40]-[17:50], the indoor 4G voice drops remain unresolved pending a 5-working-day RF mast investigation."
+      }
+    ]
+  }
+}

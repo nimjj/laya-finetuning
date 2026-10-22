@@ -1,0 +1,486 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Viktor",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer technical support. My name is Hannah. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:26]",
+      "start_time_sec": 10,
+      "text": "Hello Hannah. I'm calling about our S-Net 4K TV box. When we tried to record our favorite documentary series last night, an error message popped up saying 'Error 7002: Hard disk write error - recording failed'.",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:38]",
+      "start_time_sec": 29,
+      "text": "I can certainly help you troubleshoot that DVR hard disk error. May I have the account serial number listed on your customer bill?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:41]",
+      "end_time": "[00:46]",
+      "start_time_sec": 41,
+      "text": "Yes, the account serial number is TV-884-219-01.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:49]",
+      "end_time": "[00:57]",
+      "start_time_sec": 49,
+      "text": "Thank you. And what is the model number printed on the white label under the TV box?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:18]",
+      "start_time_sec": 60,
+      "text": "It is model S-Net 4K Pro DVR 1TB. We have over forty hours of irreplaceable family holiday videos and historic sports matches stored on this disk, and my wife was practically in tears this morning thinking the entire hard drive has died!",
+      "sentiment_score": -45.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:21]",
+      "end_time": "[01:38]",
+      "start_time_sec": 81,
+      "text": "I completely understand how devastating it would be to lose cherished family memories and sports recordings. Please do not worry, we have a specialized maintenance scan designed specifically to repair sector corruption without deleting your saved videos."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:41]",
+      "end_time": "[01:47]",
+      "start_time_sec": 101,
+      "text": "Oh, thank heaven for that! I was terrified we would have to factory format the whole drive.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:50]",
+      "end_time": "[02:09]",
+      "start_time_sec": 110,
+      "text": "So if I have understood correctly, your S-Net 4K box is reporting Error 7002 disk write failure during scheduled recordings, and you require a non-destructive file system repair to recover storage operations while preserving your existing media library. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:12]",
+      "end_time": "[02:16]",
+      "start_time_sec": 132,
+      "text": "Yes, that is exactly what we need to accomplish today.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:19]",
+      "end_time": "[02:33]",
+      "start_time_sec": 139,
+      "text": "Error 7002 occurs when the Linux ext4 file allocation table encounters an unwritten journal block, typically after an unexpected mains power cut."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:36]",
+      "end_time": "[02:43]",
+      "start_time_sec": 156,
+      "text": "We did have a brief electrical power flick on Sunday afternoon while the tumble dryer was running!",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:46]",
+      "end_time": "[03:01]",
+      "start_time_sec": 166,
+      "text": "That explains the uncommitted journal transaction. We will boot the TV box into the S-Net Hardware Recovery Console to run an automated fsck integrity scan."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:04]",
+      "end_time": "[03:08]",
+      "start_time_sec": 184,
+      "text": "How do we boot into that recovery console?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:11]",
+      "end_time": "[03:20]",
+      "start_time_sec": 191,
+      "text": "Please stand by the television box. On the front right panel, there is a small circular Standby button."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:23]",
+      "end_time": "[03:28]",
+      "start_time_sec": 203,
+      "text": "Yes, I have my finger on the circular Standby button right now.",
+      "sentiment_score": 5.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:31]",
+      "end_time": "[03:46]",
+      "start_time_sec": 211,
+      "text": "Switch the rocker power switch on the back of the box to OFF, wait five seconds, then hold down the front Standby button while switching the power back ON."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:49]",
+      "end_time": "[03:55]",
+      "start_time_sec": 229,
+      "text": "Switching off... holding front button... switching on. Keep holding?",
+      "sentiment_score": 7.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:58]",
+      "end_time": "[04:06]",
+      "start_time_sec": 238,
+      "text": "Keep holding the front button until the LED light pulses purple, then release it."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:09]",
+      "end_time": "[04:19]",
+      "start_time_sec": 249,
+      "text": "Pulsing purple now... releasing the button. The TV screen has switched to a black screen with an S-Net Recovery Diagnostics menu!",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:22]",
+      "end_time": "[04:33]",
+      "start_time_sec": 262,
+      "text": "You will see four menu options: System Reboot, Non-Destructive Disk Repair, Factory Reset, and Firmware Flash."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:36]",
+      "end_time": "[04:40]",
+      "start_time_sec": 276,
+      "text": "Yes, I see those four options on the television screen.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:43]",
+      "end_time": "[04:55]",
+      "start_time_sec": 283,
+      "text": "Use the directional arrow buttons on your remote to highlight Option 2: Non-Destructive Disk Repair, and press OK."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:58]",
+      "end_time": "[05:09]",
+      "start_time_sec": 298,
+      "text": "Highlighting Option 2: Non-Destructive Disk Repair... pressing OK. A progress bar appeared saying 'Checking file system journals and sector allocation'.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:12]",
+      "end_time": "[05:25]",
+      "start_time_sec": 312,
+      "text": "The utility is scanning the one-terabyte hard drive clusters, repairing orphan nodes, and remounting the write partition safely."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:28]",
+      "end_time": "[05:39]",
+      "start_time_sec": 328,
+      "text": "The progress bar is at 45%... 70%... now it says 'File system integrity restored - 0 lost clusters, 2 journal errors repaired'!",
+      "sentiment_score": 46.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:42]",
+      "end_time": "[05:52]",
+      "start_time_sec": 342,
+      "text": "That is an ideal result! The file system journal has been cleanly resynchronized with zero data loss."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:55]",
+      "end_time": "[06:03]",
+      "start_time_sec": 355,
+      "text": "The TV box is rebooting automatically now. The home screen has loaded with our regular channel guide.",
+      "sentiment_score": 38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:06]",
+      "end_time": "[06:14]",
+      "start_time_sec": 366,
+      "text": "Press the My Recordings button on your remote control to verify your media library."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:17]",
+      "end_time": "[06:28]",
+      "start_time_sec": 377,
+      "text": "Pressing My Recordings... oh wonderful! All forty hours of our family holiday footage and documentary series are listed right there!",
+      "sentiment_score": 56.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:31]",
+      "end_time": "[06:39]",
+      "start_time_sec": 391,
+      "text": "Try playing back one of the saved recordings to verify video playback throughput."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:42]",
+      "end_time": "[06:51]",
+      "start_time_sec": 402,
+      "text": "Selecting the holiday video... playing now. Sound and high-definition video are playing perfectly, no stuttering at all.",
+      "sentiment_score": 48.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:54]",
+      "end_time": "[07:06]",
+      "start_time_sec": 414,
+      "text": "Obviously that confirms the disk head read mechanism and SATA controller are operating within factory tolerances."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:09]",
+      "end_time": "[07:14]",
+      "start_time_sec": 429,
+      "text": "Now let us test recording a live broadcast to confirm write operations.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:17]",
+      "end_time": "[07:30]",
+      "start_time_sec": 437,
+      "text": "Tune to channel 101 BBC One HD, press the red Record button on your remote control, and record five minutes of live TV."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:33]",
+      "end_time": "[07:44]",
+      "start_time_sec": 453,
+      "text": "Pressing Record on BBC One HD... a red recording circle appeared in the top corner of the screen without any error message!",
+      "sentiment_score": 44.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:47]",
+      "end_time": "[07:57]",
+      "start_time_sec": 467,
+      "text": "Let it record for sixty seconds, then stop the recording and play it back from the Recordings menu."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:00]",
+      "end_time": "[08:12]",
+      "start_time_sec": 480,
+      "text": "Stopping recording... going to Recordings... playing the new clip. It recorded the news segment cleanly with flawless picture and sound!",
+      "sentiment_score": 52.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:15]",
+      "end_time": "[08:27]",
+      "start_time_sec": 495,
+      "text": "Just to check, is your home broadband connection and internet browsing working properly across your computers and mobile devices?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:30]",
+      "end_time": "[08:37]",
+      "start_time_sec": 510,
+      "text": "Yes, our broadband has been fast and reliable, the issue was exclusively the TV box disk error.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:40]",
+      "end_time": "[08:51]",
+      "start_time_sec": 520,
+      "text": "Let us also check the remaining disk capacity percentage under Settings to ensure storage health."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:54]",
+      "end_time": "[09:05]",
+      "start_time_sec": 534,
+      "text": "Navigating to Settings, then Storage Management... it shows 418 gigabytes free out of 1000 gigabytes, so 58% used.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:08]",
+      "end_time": "[09:17]",
+      "start_time_sec": 548,
+      "text": "That leaves ample recording headroom for dozens more hours of high-definition broadcasts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:20]",
+      "end_time": "[09:28]",
+      "start_time_sec": 560,
+      "text": "Should we turn on automatic disk cleanup so older recordings don't accidentally fill up the remaining space?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:31]",
+      "end_time": "[09:44]",
+      "start_time_sec": 571,
+      "text": "I would advise keeping Auto-Delete set to 'Never' so your archived family holiday videos can never be overwritten automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:47]",
+      "end_time": "[09:53]",
+      "start_time_sec": 587,
+      "text": "That is very sensible advice, I will definitely keep Auto-Delete turned off.",
+      "sentiment_score": 21.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:56]",
+      "end_time": "[10:08]",
+      "start_time_sec": 596,
+      "text": "Let us also check the standby power mode setting to help protect the hard drive from abrupt power transitions."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:11]",
+      "end_time": "[10:19]",
+      "start_time_sec": 611,
+      "text": "Under Standby Mode, we have options for Eco Mode and Active Standby. Which one is preferable?",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:22]",
+      "end_time": "[10:37]",
+      "start_time_sec": 622,
+      "text": "Active Standby keeps the disk parked properly in a low-power quiescent state while still allowing scheduled midnight recordings to trigger smoothly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:40]",
+      "end_time": "[10:46]",
+      "start_time_sec": 640,
+      "text": "I have selected Active Standby. The menu saved the preference.",
+      "sentiment_score": 19.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:49]",
+      "end_time": "[11:02]",
+      "start_time_sec": 649,
+      "text": "Let us also test the Series Link recording functionality from the TV guide to make sure future episodes queue up without error."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:05]",
+      "end_time": "[11:17]",
+      "start_time_sec": 665,
+      "text": "Going into TV Guide... selecting tonight's nature documentary... pressing Record Series. A green twin-ring icon appeared next to the programme title!",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:20]",
+      "end_time": "[11:30]",
+      "start_time_sec": 680,
+      "text": "The twin-ring icon confirms the Series Link metadata has been registered in the local database."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:33]",
+      "end_time": "[11:38]",
+      "start_time_sec": 693,
+      "text": "Everything is functioning as smoothly as when the box was brand new.",
+      "sentiment_score": 29.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:41]",
+      "end_time": "[11:53]",
+      "start_time_sec": 701,
+      "text": "I will remain the dedicated owner for this support case and log the non-destructive disk recovery on your equipment records."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:56]",
+      "end_time": "[12:02]",
+      "start_time_sec": 716,
+      "text": "Thank you Hannah, you have saved our irreplaceable family videos today.",
+      "sentiment_score": 42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:05]",
+      "end_time": "[12:19]",
+      "start_time_sec": 725,
+      "text": "If you ever experience a severe mains power cut in the future, remember that the Recovery Console Option 2 safely repairs the drive every time."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:22]",
+      "end_time": "[12:28]",
+      "start_time_sec": 742,
+      "text": "I have written down the button holding procedure on the front of our user manual.",
+      "sentiment_score": 26.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:31]",
+      "end_time": "[12:40]",
+      "start_time_sec": 751,
+      "text": "Is there anything else with your S-Net TV box or broadband services that I can assist you with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:43]",
+      "end_time": "[12:48]",
+      "start_time_sec": 763,
+      "text": "No, that has resolved everything completely. Thank you again Hannah.",
+      "sentiment_score": 28.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:51]",
+      "end_time": "[13:03]",
+      "start_time_sec": 771,
+      "text": "You may receive a brief customer satisfaction survey by SMS after this call; we would be very grateful if you could rate our service today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:05]",
+      "end_time": "[13:09]",
+      "start_time_sec": 785,
+      "text": "I'll make sure to give you top ratings. Good afternoon.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:11]",
+      "end_time": "[13:18]",
+      "start_time_sec": 791,
+      "text": "Thank you for choosing S-Net. Have a wonderful rest of your day, and take care."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:20]",
+      "end_time": "[13:22]",
+      "start_time_sec": 800,
+      "text": "Thank you, goodbye.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

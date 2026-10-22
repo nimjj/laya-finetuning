@@ -1,0 +1,486 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Ella",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer installations, my name is Edward. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:13]",
+      "end_time": "[00:36]",
+      "start_time_sec": 13,
+      "text": "Hi Edward. I am absolutely furious! An Openreach fiber engineer was booked to install our full fibre broadband today between one and six, and nobody showed up for the second time in two weeks! I took two full days of unpaid annual leave from my nursing job to sit in an empty hallway waiting!",
+      "sentiment_score": -46.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:42]",
+      "end_time": "[00:54]",
+      "start_time_sec": 42,
+      "text": "I completely understand how infuriating that is, Ella, especially taking unpaid time off work twice for missed engineer appointments. Let me access the regional engineering dispatch system immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:08]",
+      "start_time_sec": 60,
+      "text": "Thank you Edward, because losing two days of nursing pay is over two hundred pounds out of my pocket.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:14]",
+      "end_time": "[01:22]",
+      "start_time_sec": 74,
+      "text": "Before we pull up the dispatch logs, could you please verify your installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:28]",
+      "end_time": "[01:42]",
+      "start_time_sec": 88,
+      "text": "Yes, the address is 17 Oakfield Terrace, Chester, CH1 4NP, my mobile contact number is zero seven seven zero zero, nine zero zero six eight two, and the security PIN is 4490.",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:48]",
+      "end_time": "[01:57]",
+      "start_time_sec": 108,
+      "text": "Thank you for verifying those details, Ella. I have your fiber order and Openreach order reference open on our screen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:03]",
+      "end_time": "[02:06]",
+      "start_time_sec": 123,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:12]",
+      "end_time": "[02:28]",
+      "start_time_sec": 132,
+      "text": "So just to confirm the timeline: you had an initial installation slot booked on Tuesday the seventh that was missed, and today's rescheduled slot for this afternoon was also missed without any notification call. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:34]",
+      "end_time": "[02:45]",
+      "start_time_sec": 154,
+      "text": "Yes, exactly that. Both times I received a text message at eight in the morning confirming the engineer was on schedule, and then nobody turned up.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:51]",
+      "end_time": "[02:59]",
+      "start_time_sec": 171,
+      "text": "Did the regional contractor send an automated text message or card through your letterbox claiming customer not home?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:05]",
+      "end_time": "[03:15]",
+      "start_time_sec": 185,
+      "text": "No, absolutely nothing. No card, no text, no phone call. I was sitting right by the front door with the window open all afternoon.",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:21]",
+      "end_time": "[03:28]",
+      "start_time_sec": 201,
+      "text": "Are the external telegraph poles and street distribution cabinets easily accessible from your front driveway?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:34]",
+      "end_time": "[03:43]",
+      "start_time_sec": 214,
+      "text": "The telegraph pole is literally situated on the pavement right outside our front garden boundary hedge with clear line of sight.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:49]",
+      "end_time": "[03:55]",
+      "start_time_sec": 229,
+      "text": "Let me query the Openreach contractor portal for the field technician's status notes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:30]",
+      "end_time": "[04:34]",
+      "start_time_sec": 270,
+      "text": "Are you still with me on the line, Edward?",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:40]",
+      "end_time": "[04:50]",
+      "start_time_sec": 280,
+      "text": "Yes Ella, apologies. The technician's dispatch terminal updated thirty minutes ago with the note: 'Job rolled over due to prior site civil blockage'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:56]",
+      "end_time": "[05:07]",
+      "start_time_sec": 296,
+      "text": "So the engineer knew he wasn't coming thirty minutes ago and didn't even bother to ring me?! That shows complete contempt for customers waiting at home!",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:13]",
+      "end_time": "[05:31]",
+      "start_time_sec": 313,
+      "text": "Field engineering technicians are instructed to update their mobile dispatch app, which feeds into our automated communication queue. If the technician encounters severe duct blockages on an earlier job, safety rules require them to remain on site until civil contractors arrive."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:37]",
+      "end_time": "[05:47]",
+      "start_time_sec": 337,
+      "text": "Well your automated communication queue failed completely because I was left waiting like an idiot for five hours in an unheated front hallway!",
+      "sentiment_score": -32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:53]",
+      "end_time": "[06:04]",
+      "start_time_sec": 353,
+      "text": "Under the Ofcom Automatic Compensation Scheme, you are legally entitled to twenty-nine pounds and fifteen pence for each missed appointment without needing to file a claim."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:10]",
+      "end_time": "[06:17]",
+      "start_time_sec": 370,
+      "text": "Twenty-nine pounds doesn't cover my lost nursing salary, but at least it acknowledges the service failure.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:23]",
+      "end_time": "[06:34]",
+      "start_time_sec": 383,
+      "text": "I have already credited fifty-eight pounds and thirty pence to your billing account covering both missed appointment slots, which will appear on your next statement."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:40]",
+      "end_time": "[06:48]",
+      "start_time_sec": 400,
+      "text": "When can an engineer actually come out and connect our optical fiber line so we can get online?",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:54]",
+      "end_time": "[07:00]",
+      "start_time_sec": 414,
+      "text": "Let me check the priority expedited escalation calendar with the Openreach regional operations desk."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:38]",
+      "end_time": "[07:41]",
+      "start_time_sec": 458,
+      "text": "Hello, Edward, did the line freeze?",
+      "sentiment_score": -12.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:47]",
+      "end_time": "[07:58]",
+      "start_time_sec": 467,
+      "text": "Yes Ella, apologies for the pause. The earliest priority escalation slot available is this coming Thursday between eight in the morning and one in the afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:04]",
+      "end_time": "[08:12]",
+      "start_time_sec": 484,
+      "text": "Thursday morning? That means taking a third morning off work, which puts my hospital shift rotation in jeopardy!",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:18]",
+      "end_time": "[08:31]",
+      "start_time_sec": 498,
+      "text": "I can designate this appointment as a 'Senior Technical Specialist Guaranteed First Call', meaning the technician arrives at your property between eight and eight-thirty before attending any other customer jobs."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:37]",
+      "end_time": "[08:45]",
+      "start_time_sec": 517,
+      "text": "If they arrive at eight, my husband can let them into the house before he leaves for his shift.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:51]",
+      "end_time": "[09:02]",
+      "start_time_sec": 531,
+      "text": "I have tagged the work order with 'Customer Vulnerable Escalation' so the regional field manager must personally track the engineer's arrival on their GPS monitor."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:08]",
+      "end_time": "[09:11]",
+      "start_time_sec": 548,
+      "text": "That will hopefully prevent a third no-show.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:17]",
+      "end_time": "[09:27]",
+      "start_time_sec": 557,
+      "text": "In the interim, I will arrange an emergency 5G mobile Wi-Fi dongle to be couriered to your address tomorrow morning free of charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:33]",
+      "end_time": "[09:40]",
+      "start_time_sec": 573,
+      "text": "Having an emergency 5G dongle will allow my teenage children to complete their secondary school homework.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:46]",
+      "end_time": "[09:52]",
+      "start_time_sec": 586,
+      "text": "The 5G dongle includes unlimited high-speed data and does not require any line installation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:58]",
+      "end_time": "[10:02]",
+      "start_time_sec": 598,
+      "text": "Will it arrive by Royal Mail or DPD courier?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:08]",
+      "end_time": "[10:16]",
+      "start_time_sec": 608,
+      "text": "It will be delivered by DPD tracked courier before eleven tomorrow morning with a one-hour SMS delivery window."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:22]",
+      "end_time": "[10:25]",
+      "start_time_sec": 622,
+      "text": "That is very fast delivery, thank you.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:31]",
+      "end_time": "[10:41]",
+      "start_time_sec": 631,
+      "text": "Just to confirm what you mentioned earlier, Ella, your contact telephone number is zero seven seven zero zero, nine zero zero six eight two?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:47]",
+      "end_time": "[10:52]",
+      "start_time_sec": 647,
+      "text": "Yes, zero seven seven zero zero, nine zero zero six eight two.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:58]",
+      "end_time": "[11:03]",
+      "start_time_sec": 658,
+      "text": "I have linked that mobile number for direct DPD driver updates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:09]",
+      "end_time": "[11:16]",
+      "start_time_sec": 669,
+      "text": "That way my husband can monitor the parcel delivery while I am on the ward.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:22]",
+      "end_time": "[11:30]",
+      "start_time_sec": 682,
+      "text": "Will the engineer require access to your attic or only the ground floor hallway for the optical ONT installation?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:36]",
+      "end_time": "[11:44]",
+      "start_time_sec": 696,
+      "text": "Only the ground floor hallway right next to the front door where our existing master socket is situated.",
+      "sentiment_score": 12.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:50]",
+      "end_time": "[11:55]",
+      "start_time_sec": 710,
+      "text": "That will keep the internal cabling work straightforward for the technician."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:01]",
+      "end_time": "[12:07]",
+      "start_time_sec": 721,
+      "text": "What happens if Openreach fails to attend for a third consecutive time on Thursday?",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:13]",
+      "end_time": "[12:20]",
+      "start_time_sec": 733,
+      "text": "If a third appointment is missed, our executive relations team handles the case and compensation increases automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:26]",
+      "end_time": "[12:45]",
+      "start_time_sec": 746,
+      "text": "I don't care about compensation! I need working internet for my family! If an engineer doesn't show up on Thursday morning to connect that cable, I will literally throw your equipment onto the street, cancel the direct debit, and cancel the entire broadband contract!",
+      "sentiment_score": -48.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:51]",
+      "end_time": "[13:01]",
+      "start_time_sec": 771,
+      "text": "Contract cancellations within the minimum term incur early termination charges calculated at thirty pounds per remaining month on the twenty-four month contract term."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:07]",
+      "end_time": "[13:20]",
+      "start_time_sec": 787,
+      "text": "Are you seriously threatening me with six hundred pounds of cancellation penalties after your third-party contractors failed twice to even show their faces?! That is utterly outrageous and abusive customer treatment!",
+      "sentiment_score": -46.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:26]",
+      "end_time": "[13:30]",
+      "start_time_sec": 806,
+      "text": "I am stating our contractual terms regarding premature termination, Ella."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:36]",
+      "end_time": "[13:40]",
+      "start_time_sec": 816,
+      "text": "You have completely ruined what was otherwise helpful troubleshooting.",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:46]",
+      "end_time": "[13:53]",
+      "start_time_sec": 826,
+      "text": "The appointment is confirmed for Thursday at eight in the morning under work order OR-99210-C."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:58]",
+      "end_time": "[14:01]",
+      "start_time_sec": 838,
+      "text": "Let me note that work order... OR-99210-C.",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:06]",
+      "end_time": "[14:12]",
+      "start_time_sec": 846,
+      "text": "The 5G backup dongle tracking number will be texted to your mobile this evening."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:17]",
+      "end_time": "[14:20]",
+      "start_time_sec": 857,
+      "text": "Okay, I will look out for that text.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:25]",
+      "end_time": "[14:31]",
+      "start_time_sec": 865,
+      "text": "The broadband package itself is Gigafast 500, delivering five hundred megabits down once connected."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:36]",
+      "end_time": "[14:44]",
+      "start_time_sec": 876,
+      "text": "Our neighbors on Gigafast 500 say the optical line speed is very good when it is actually running.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:49]",
+      "end_time": "[14:53]",
+      "start_time_sec": 889,
+      "text": "Yes, the fiber infrastructure delivers full symmetrical gigabit speeds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:58]",
+      "end_time": "[15:03]",
+      "start_time_sec": 898,
+      "text": "I just hope the physical cable finally gets connected on Thursday.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:08]",
+      "end_time": "[15:11]",
+      "start_time_sec": 908,
+      "text": "The booking is locked in our database."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:16]",
+      "end_time": "[15:21]",
+      "start_time_sec": 916,
+      "text": "Wait, Edward, does the engineer need our original master socket reference number?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:26]",
+      "end_time": "[15:30]",
+      "start_time_sec": 926,
+      "text": "He has all property records on his handheld terminal. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:35]",
+      "end_time": "[15:40]",
+      "start_time_sec": 935,
+      "text": "Goodbye.",
+      "sentiment_score": -4.2
+    }
+  ]
+}

@@ -1,0 +1,630 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Babatunde",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:09]",
+      "start_time_sec": 0,
+      "text": "Good evening, thank you for calling S-Net Full Fibre Technical Support. My name is Gareth speaking. How can I assist with your connection?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:23]",
+      "start_time_sec": 11,
+      "text": "Good evening Gareth, my name is Babatunde Adebayo. I am calling because my Fibre 900 full-fibre line is throttling down to twelve megabits every single evening between seven and eleven o'clock!",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:25]",
+      "end_time": "[00:35]",
+      "start_time_sec": 25,
+      "text": "Before I look into the throughput on your Fibre 900 circuit, confirm the first line of your property address, your postcode, and your four-digit security PIN.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:38]",
+      "end_time": "[00:44]",
+      "start_time_sec": 38,
+      "text": "My address is 42 Highfield Road, Coventry, CV2 4NZ, and my four-digit security PIN is 9410.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:47]",
+      "end_time": "[00:53]",
+      "start_time_sec": 47,
+      "text": "Address 42 Highfield Road, CV2 4NZ and PIN 9410 are verified on account 7710394821.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:56]",
+      "end_time": "[01:08]",
+      "start_time_sec": 56,
+      "text": "I pay sixty-eight pounds a month for S-Net's 'Truly Unlimited' Fibre 900 service with a four hundred and fifty megabit minimum speed guarantee, yet every night it crawls at twelve megabits!",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:11]",
+      "end_time": "[01:24]",
+      "start_time_sec": 71,
+      "text": "So to summarize your report, although you subscribe to the Fibre 900 package, your download throughput drops severely to around twelve megabits per second during peak evening hours between seven and eleven PM.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:27]",
+      "end_time": "[01:37]",
+      "start_time_sec": 87,
+      "text": "Yes! Twelve point four megabits down at eight thirty tonight, whereas at eight o'clock this morning the exact same computer got nine hundred and ten megabits!",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:40]",
+      "end_time": "[01:54]",
+      "start_time_sec": 100,
+      "text": "Let's go through the technical diagnostics to isolate the bottleneck. First, how is the computer you ran the 910 Mbps morning test and 12.4 Mbps evening test on connected to your S-Net Hub 5?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:57]",
+      "end_time": "[02:07]",
+      "start_time_sec": 117,
+      "text": "It is a desktop workstation wired directly into the 2.5-gigabit Ethernet port on the back of the S-Net Hub 5 using a shielded Cat6 patch cable.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:10]",
+      "end_time": "[02:21]",
+      "start_time_sec": 130,
+      "text": "Second question: when you ran that wired Cat6 test at 12.4 Mbps this evening, were any Wi-Fi devices, cloud backups, or television streams active on your local network?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:24]",
+      "end_time": "[02:35]",
+      "start_time_sec": 144,
+      "text": "No, I deliberately switched Wi-Fi off completely in the Hub 5 admin page and unplugged every other Ethernet cable so my workstation was the sole device connected.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:38]",
+      "end_time": "[02:48]",
+      "start_time_sec": 158,
+      "text": "And what upload speed and ping latency did that wired Cat6 speed test record at eight thirty tonight alongside the 12.4 Mbps download result?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:51]",
+      "end_time": "[03:04]",
+      "start_time_sec": 171,
+      "text": "That is the bizarre part—upload speed stayed high at one hundred and five megabits per second, but download was stuck at 12.4 megabits and ping spiked from six milliseconds to eighty-four milliseconds!",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:07]",
+      "end_time": "[03:17]",
+      "start_time_sec": 187,
+      "text": "What are the optical power levels and status LEDs showing on your wall-mounted Openreach ONT box, and do you have the ONT serial number handy?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:20]",
+      "end_time": "[03:28]",
+      "start_time_sec": 200,
+      "text": "All three LEDs—Power, PON, and LAN—are solid green, and the ONT serial number printed on the barcode label is ALCLB4409182.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:31]",
+      "end_time": "[03:40]",
+      "start_time_sec": 211,
+      "text": "Have you enabled any custom Quality of Service traffic rules, VPN tunnels, or third-party DNS settings inside the S-Net Hub 5 interface?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:43]",
+      "end_time": "[03:53]",
+      "start_time_sec": 223,
+      "text": "None at all, the Hub 5 is on factory default settings running firmware version SG4K100174, and I tested both the Ofcom speed checker and SamKnows.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:56]",
+      "end_time": "[04:08]",
+      "start_time_sec": 236,
+      "text": "Did you also test connecting your desktop workstation's Cat6 cable directly into the LAN1 port of the Openreach ONT box using a PPPoE dialer to rule out the Hub 5 router?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:11]",
+      "end_time": "[04:23]",
+      "start_time_sec": 251,
+      "text": "Yes, I actually tested direct PPPoE into the ONT box last night at nine PM and got 12.1 megabits down and 105 megabits up, identical to the Hub 5.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:26]",
+      "end_time": "[04:38]",
+      "start_time_sec": 266,
+      "text": "Let me check the optical signal telemetry on ONT serial ALCLB4409182 right now. The downstream light level is minus 17.8 dBm, which is well inside the optimal GPON optical budget.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:41]",
+      "end_time": "[04:51]",
+      "start_time_sec": 281,
+      "text": "Right, if the fibre light level were bad, I wouldn't be getting 910 megabits at eight o'clock in the morning on my wired Cat6 desktop!",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:54]",
+      "end_time": "[05:06]",
+      "start_time_sec": 294,
+      "text": "That is true. A physical fibre bend or dirty optical splice at 42 Highfield Road would degrade speeds all twenty-four hours of the day, not just between 19:00 and 23:00.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:09]",
+      "end_time": "[05:20]",
+      "start_time_sec": 309,
+      "text": "Exactly! Every single evening at seven o'clock on the dot, latency jumps from 6 ms to over 80 ms and download collapses to twelve megabits until eleven PM.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:23]",
+      "end_time": "[05:35]",
+      "start_time_sec": 323,
+      "text": "Have you rebooted both the Openreach ONT ALCLB4409182 and the S-Net Hub 5 during the 19:00 to 23:00 slowdown window to see if assigning a new gateway session changes throughput?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:38]",
+      "end_time": "[05:49]",
+      "start_time_sec": 338,
+      "text": "Yes, I power-cycled both boxes for ten minutes at eight PM yesterday and again tonight, and the moment PPPoE reconnected it was still capped at twelve megabits.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:52]",
+      "end_time": "[06:00]",
+      "start_time_sec": 352,
+      "text": "Which Broadband Network Gateway aggregator does your PPPoE session terminate on when you look at the Hub 5 system event log?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:03]",
+      "end_time": "[06:09]",
+      "start_time_sec": 363,
+      "text": "The system log shows PPPoE session established on BNG-COV-EAST-04 with an MTU of 1492.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:12]",
+      "end_time": "[06:18]",
+      "start_time_sec": 372,
+      "text": "And how many consecutive evenings have you observed this drop to twelve megabits on BNG-COV-EAST-04?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:21]",
+      "end_time": "[06:25]",
+      "start_time_sec": 381,
+      "text": "Nine nights in a row now, ever since last Wednesday evening.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:27]",
+      "end_time": "[06:36]",
+      "start_time_sec": 387,
+      "text": "All right, BNG-COV-EAST-04 serves the Coventry East headend exchange. I need to inspect the twenty-four-hour backhaul utilization graph for that headend link.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:39]",
+      "end_time": "[06:45]",
+      "start_time_sec": 399,
+      "text": "Yes, please check that utilization graph because this looks like textbook peak-time exchange congestion.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:48]",
+      "end_time": "[06:55]",
+      "start_time_sec": 408,
+      "text": "Please bear with me while I query the Coventry East OLT and wholesale backhaul utilization telemetry for BNG-COV-EAST-04.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:58]",
+      "end_time": "[07:00]",
+      "start_time_sec": 418,
+      "text": "Fine, I will hold.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:12]",
+      "end_time": "[08:21]",
+      "start_time_sec": 492,
+      "text": "Thank you for holding. I have pulled the fourteen-day throughput and utilization graphs for your GPON splitter and the Coventry East headend link.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:24]",
+      "end_time": "[08:29]",
+      "start_time_sec": 504,
+      "text": "And what do the utilization graphs show between seven PM and eleven PM?",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:32]",
+      "end_time": "[08:42]",
+      "start_time_sec": 512,
+      "text": "Your local street GPON splitter for ONT ALCLB4409182 is only at thirty-two percent capacity, so the street fibre cabinet in CV2 4NZ is not congested.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:45]",
+      "end_time": "[08:53]",
+      "start_time_sec": 525,
+      "text": "Okay, if the street splitter is only at thirty-two percent, what about the backhaul link at the Coventry East exchange?",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:56]",
+      "end_time": "[09:07]",
+      "start_time_sec": 536,
+      "text": "The ten-gigabit wholesale Virtual Layer 2 backhaul pipe connecting the Coventry East OLT headend to gateway BNG-COV-EAST-04 is hitting 99.4 percent saturation between 19:15 and 22:50 every night.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:10]",
+      "end_time": "[09:20]",
+      "start_time_sec": 550,
+      "text": "99.4 percent saturation! So the exchange backhaul pipe is completely maxed out every evening, and that is why my 900 Mbps line drops to 12.4 Mbps!",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:23]",
+      "end_time": "[09:35]",
+      "start_time_sec": 563,
+      "text": "Yes, packet buffer queuing on that wholesale backhaul pipe is what pushes your ping from 6 ms up to 84 ms and restricts single-stream TCP downloads to around twelve megabits.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:38]",
+      "end_time": "[09:45]",
+      "start_time_sec": 578,
+      "text": "Meanwhile upload stays at 105 Mbps because residential traffic in the evening is almost all download streaming!",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:48]",
+      "end_time": "[09:54]",
+      "start_time_sec": 588,
+      "text": "Correct, upstream utilization on that pipe only reaches eighteen percent during the evening peak.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:57]",
+      "end_time": "[10:09]",
+      "start_time_sec": 597,
+      "text": "Well, this is a huge relief to finally have proof of what's happening! Can you reroute my circuit onto a less congested BNG or raise an urgent capacity upgrade right now?",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:12]",
+      "end_time": "[10:23]",
+      "start_time_sec": 612,
+      "text": "No, I cannot reroute your circuit or order backhaul hardware from this desk. Exchange backhaul capacity is managed by our wholesale partner, that's their problem not mine.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:26]",
+      "end_time": "[10:34]",
+      "start_time_sec": 626,
+      "text": "Wait a second—what do you mean that's their problem not yours?! My contract is with S-Net, not your wholesale backhaul partner!",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:37]",
+      "end_time": "[10:48]",
+      "start_time_sec": 637,
+      "text": "S-Net leases the Virtual Layer 2 transit pipe at Coventry East from the wholesale network operator, and they decide when to upgrade their ten-gigabit port to forty gigabits.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:51]",
+      "end_time": "[11:02]",
+      "start_time_sec": 651,
+      "text": "Surely as my ISP, S-Net has to log a wholesale capacity breach ticket and get them to provision extra bandwidth or balance the load across another pipe!",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:05]",
+      "end_time": "[11:14]",
+      "start_time_sec": 665,
+      "text": "Their automated capacity planning team reviews exchange utilization reports once a quarter, so there is nothing for me to raise from frontline support.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:17]",
+      "end_time": "[11:29]",
+      "start_time_sec": 677,
+      "text": "Once a quarter?! Gareth, my contract has an S-Net Minimum Guaranteed Download Speed of 450 Mbps, and you just confirmed on your own screen that I'm getting 12.4 Mbps every night!",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:32]",
+      "end_time": "[11:44]",
+      "start_time_sec": 692,
+      "text": "Your line achieves 910 Mbps at eight o'clock in the morning on your Cat6 desktop, which proves the physical Fibre 900 profile on ONT ALCLB4409182 is provisioned at full speed.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:47]",
+      "end_time": "[11:59]",
+      "start_time_sec": 707,
+      "text": "The Ofcom Voluntary Code of Practice on Broadband Speeds measures minimum guaranteed speed during peak hours between 8 PM and 10 PM, not at 8 AM when everyone is at work!",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:02]",
+      "end_time": "[12:16]",
+      "start_time_sec": 722,
+      "text": "Even so, when the bottleneck sits inside the third-party wholesale backhaul core rather than on your S-Net Hub 5, our technical desk just closes the line test as 'No Fault Found on Access Line'.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:19]",
+      "end_time": "[12:29]",
+      "start_time_sec": 739,
+      "text": "You cannot seriously mark a 99.4 percent saturated backhaul pipe that throttles a 900 Mbps line down to 12.4 Mbps as 'No Fault Found'!",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:32]",
+      "end_time": "[12:43]",
+      "start_time_sec": 752,
+      "text": "The diagnostic workflow on my screen literally says 'Access Line Pass – Downstream 910 Mbps Capable', so the automated wizard does not let me book an engineer.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:46]",
+      "end_time": "[12:58]",
+      "start_time_sec": 766,
+      "text": "I don't need a van engineer at my house in CV2 4NZ—I need S-Net's network capacity team to fix the congested pipe on BNG-COV-EAST-04 or rebate my sixty-eight-pound subscription!",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:01]",
+      "end_time": "[13:09]",
+      "start_time_sec": 781,
+      "text": "I don't issue monthly subscription rebates for wholesale exchange contention from technical support, and I'm not raising a network core ticket.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:12]",
+      "end_time": "[13:27]",
+      "start_time_sec": 792,
+      "text": "This is outrageous! Under Ofcom rules, if S-Net fails to deliver the 450 Mbps minimum guaranteed speed for thirty days, I have the right to exit penalty-free or escalate a formal deadlock dispute to CISAS and Ofcom!",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:30]",
+      "end_time": "[13:39]",
+      "start_time_sec": 810,
+      "text": "You still have fourteen months left on your eighteen-month minimum term at 42 Highfield Road, so cancelling would trigger early termination fees.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:42]",
+      "end_time": "[13:55]",
+      "start_time_sec": 822,
+      "text": "Not when you are in material breach of the speed guarantee every single night! Give me a deadlock complaint reference so I can take these BNG-COV-EAST-04 saturation figures straight to the CISAS ombudsman!",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:58]",
+      "end_time": "[14:04]",
+      "start_time_sec": 838,
+      "text": "Go ahead, get lost and take it to the ombudsman then, see if I care!",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:07]",
+      "end_time": "[14:13]",
+      "start_time_sec": 847,
+      "text": "Did you seriously just tell a paying customer to 'get lost' on a recorded support line?!",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:16]",
+      "end_time": "[14:24]",
+      "start_time_sec": 856,
+      "text": "You kept lecturing me about Ofcom and ombudsman rules for something controlled by the wholesale carrier at Coventry East.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:27]",
+      "end_time": "[14:36]",
+      "start_time_sec": 867,
+      "text": "I am appalled by your attitude, Gareth. I want the call reference number for today's diagnostic log on my account right now.",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:39]",
+      "end_time": "[14:48]",
+      "start_time_sec": 879,
+      "text": "The diagnostic log ID generated on account 7710394821 is FLT-309481-CV, which records the optical reading on ALCLB4409182 and the gateway session on BNG-COV-EAST-04.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:51]",
+      "end_time": "[14:59]",
+      "start_time_sec": 891,
+      "text": "Does log FLT-309481-CV also record that the Coventry East wholesale backhaul pipe is at 99.4 percent utilization between 19:15 and 22:50?",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:02]",
+      "end_time": "[15:10]",
+      "start_time_sec": 902,
+      "text": "Yes, the telemetry snapshot from BNG-COV-EAST-04 showing 99.4 percent peak utilization and 84 ms latency is attached to FLT-309481-CV.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:13]",
+      "end_time": "[15:21]",
+      "start_time_sec": 913,
+      "text": "And you are still refusing to escalate that to your wholesale network management team or log a speed-guarantee breach?",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:24]",
+      "end_time": "[15:32]",
+      "start_time_sec": 924,
+      "text": "As I stated earlier, the access line diagnostic passed at 910 Mbps off-peak, so ticket FLT-309481-CV is logged for information only.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:35]",
+      "end_time": "[15:45]",
+      "start_time_sec": 935,
+      "text": "So my Fibre 900 connection is going to stay throttled at 12.4 Mbps every single evening from seven to eleven PM with nothing done about it.",
+      "sentiment_score": -34.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:48]",
+      "end_time": "[15:58]",
+      "start_time_sec": 948,
+      "text": "Until the wholesale operator upgrades the transit link at Coventry East in a future quarterly cycle, evening throughput will remain subject to peak contention.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:01]",
+      "end_time": "[16:11]",
+      "start_time_sec": 961,
+      "text": "I have noted your name, the time of this call, and reference FLT-309481-CV, and I will be filing a formal executive complaint this evening.",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:14]",
+      "end_time": "[16:17]",
+      "start_time_sec": 974,
+      "text": "Reference FLT-309481-CV is saved on your account notes.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:19]",
+      "end_time": "[16:22]",
+      "start_time_sec": 979,
+      "text": "I have nothing further to say to you.",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:24]",
+      "end_time": "[16:28]",
+      "start_time_sec": 984,
+      "text": "Is there any other technical query on account 7710394821 today?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:30]",
+      "end_time": "[16:32]",
+      "start_time_sec": 990,
+      "text": "No.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:34]",
+      "end_time": "[16:40]",
+      "start_time_sec": 994,
+      "text": "Thank you for choosing S-Net. There is a short automated survey after this call. Goodbye.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:43]",
+      "end_time": "[16:45]",
+      "start_time_sec": 1003,
+      "text": "Goodbye.",
+      "sentiment_score": -25.0
+    }
+  ]
+}

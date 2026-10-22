@@ -1,0 +1,221 @@
+{
+  "call_id": "agt_020",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 41.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Ignored customer distress and anxiety at [16:13] during delay in unbarring international calls."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Asked customer for the Australian destination phone number again at [12:01] after customer gave it clearly at [01:05]."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Deflected responsibility at [09:56] by stating routing problems in Australia were Telstra's responsibility rather than owning customer inquiry."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Spoke condescendingly to customer at [07:41] by telling her she should have checked her monthly bill insert."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Failed to ask diagnostic probing questions regarding previous international calling patterns or handset call settings."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (gemini-3.8-flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "International call barring accidentally enabled, blocking calls to family in Australia",
+    "tier": "poor",
+    "duration_sec": 1127,
+    "notes": "Agent successfully unbarred international calling after verifying identity, but exhibited multiple customer service faults including a condescending remark regarding bill inserts, deflecting routing responsibility to Telstra, re-asking the destination number, and failing to acknowledge customer distress during an anxious delay.",
+    "hard_cases": [
+      "Active listening",
+      "Empathy & Acknowledgment Statement",
+      "Build rapport and observed professionalism",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent opened with 'Thank you for calling S-Net customer services' at [00:00] and closed with 'Thank you for choosing S-Net today' at [18:41]."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Holds were properly announced with bear with me and thanked upon return without unmanaged dead air."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Verified full address and security PIN at [00:43] within first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent addressed customer by first name Clara naturally throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[16:13] Customer: 'I have been on this phone for over fifteen minutes while my sick mother is waiting for me to call Sydney...' ... [16:39] Agent: 'The switch update takes thirty seconds.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent restated international call barring issue in own words at [02:05]: 'So if I understand the situation correctly, Clara...'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:05] Customer: 'The Sydney number I am trying to call is 0061 2 9385 1199.' ... [12:01] Agent: 'What was the exact Australian telephone number you were trying to dial again?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[09:56] Agent: 'Once the call leaves the UK gateway, Telstra Australia handles the routing. Any connection problems down there are Telstra's responsibility, not ours.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[07:41] Agent: 'Well if you had actually checked your monthly bill insert last month, you would know all residential accounts had international premium calling barred by default for fraud prevention.'"
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent did not probe into line history or international calling features."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Customer successfully dialled Sydney and confirmed ringing tone and connection to family at [17:24]."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "repeat",
+          "premise_turn": 3,
+          "agent_turn": 36,
+          "reworded": true
+        },
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 5,
+          "agent_turn": 24
+        },
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 3,
+          "agent_turn": 40
+        },
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 4
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 6
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 20
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 30
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 11,
+          "agent_turn": 14,
+          "with_refusal": true
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 47
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 1
+        }
+      ]
+    }
+  }
+}

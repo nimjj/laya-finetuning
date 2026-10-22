@@ -1,0 +1,456 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Latoya",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer billing. My name is Nathan. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:26]",
+      "start_time_sec": 10,
+      "text": "Hi Nathan. I checked my bank account this morning and S-Net has taken an extra sixty-five pounds out of my account for an unreturned equipment fee, even though I posted the old TV box back three weeks ago!",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:41]",
+      "start_time_sec": 29,
+      "text": "I can certainly look into that equipment charge for you, Latoya. To ensure account security, may I confirm your full billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:44]",
+      "end_time": "[00:54]",
+      "start_time_sec": 44,
+      "text": "Yes, it's 114 Cranford Lane, Hounslow, TW5 9EG. And the security question answer is my mother's birthplace, Kingston.",
+      "sentiment_score": 1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:57]",
+      "end_time": "[01:07]",
+      "start_time_sec": 57,
+      "text": "Thank you Latoya, that's verified your account. Please tell me a bit more about the equipment return and when you dropped it off."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:10]",
+      "end_time": "[01:34]",
+      "start_time_sec": 70,
+      "text": "I returned the old black 4K TV box on the fourth of this month at the Hounslow Post Office. I've got the Royal Mail barcode receipt right in front of me! Taking sixty-five pounds without checking your warehouse when I have three kids to feed before payday has left me in tears with worry!",
+      "sentiment_score": -42.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:37]",
+      "end_time": "[01:55]",
+      "start_time_sec": 97,
+      "text": "I am so sorry to hear about that financial stress, Latoya. Having sixty-five pounds taken unexpectedly right before payday when you've already posted the box back is completely unacceptable and distressing. Let's look into the return tracking right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:58]",
+      "end_time": "[02:05]",
+      "start_time_sec": 118,
+      "text": "Thank you Nathan, I really appreciate you understanding how tight things are.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:08]",
+      "end_time": "[02:25]",
+      "start_time_sec": 128,
+      "text": "So if I have understood correctly, you returned your previous 4K TV box via the Post Office three weeks ago and hold a valid proof of postage receipt, but an automated unreturned fee of sixty-five pounds was deducted on your latest bill. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:28]",
+      "end_time": "[02:34]",
+      "start_time_sec": 148,
+      "text": "Yes, that is exactly what happened.",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:37]",
+      "end_time": "[02:45]",
+      "start_time_sec": 157,
+      "text": "Could you read me the thirteen-character Royal Mail tracking number printed on that Post Office receipt?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:48]",
+      "end_time": "[02:55]",
+      "start_time_sec": 168,
+      "text": "Yes, it's NZ 482 910 384 GB.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:58]",
+      "end_time": "[03:05]",
+      "start_time_sec": 178,
+      "text": "And what was the exact date and time stamped on the receipt?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:08]",
+      "end_time": "[03:16]",
+      "start_time_sec": 188,
+      "text": "It says the 4th of October at 14:22 at the Hounslow Central Post Office branch.",
+      "sentiment_score": 3.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:19]",
+      "end_time": "[03:30]",
+      "start_time_sec": 199,
+      "text": "Thank you. Let me query the Royal Mail Track and Trace corporate portal. Bear with me for one moment while the courier tracking record loads."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:33]",
+      "end_time": "[03:38]",
+      "start_time_sec": 213,
+      "text": "Sure, take your time.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:41]",
+      "end_time": "[03:59]",
+      "start_time_sec": 221,
+      "text": "Thank you for waiting, Latoya. The Royal Mail system confirms that parcel NZ 482 910 384 GB was delivered and signed for at our national returns center in Rugby on the 6th of October at 09:15."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:02]",
+      "end_time": "[04:11]",
+      "start_time_sec": 242,
+      "text": "So you have had it for over two weeks! Why was I charged sixty-five pounds yesterday then?",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:14]",
+      "end_time": "[04:31]",
+      "start_time_sec": 254,
+      "text": "Obviously the automated returns intake at the Rugby warehouse experienced a scanning backlog, Latoya, so the barcode pallet was not checked into the billing inventory system before the automated billing cycle generated."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:34]",
+      "end_time": "[04:41]",
+      "start_time_sec": 274,
+      "text": "Can you refund that sixty-five pounds back into my bank account right now?",
+      "sentiment_score": -12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:44]",
+      "end_time": "[04:57]",
+      "start_time_sec": 284,
+      "text": "Because the monthly billing run has already closed and processed via Direct Debit, our front-line system cannot execute an immediate card refund over the phone today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:00]",
+      "end_time": "[05:07]",
+      "start_time_sec": 300,
+      "text": "What? But that is my money that your computer took by mistake!",
+      "sentiment_score": -31.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:10]",
+      "end_time": "[05:23]",
+      "start_time_sec": 310,
+      "text": "I completely understand why that is frustrating, Latoya. What I am doing right now is raising an urgent Priority Escalation ticket to our Tier-2 Billing Finance team."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:26]",
+      "end_time": "[05:32]",
+      "start_time_sec": 326,
+      "text": "How long will that take to get the money back?",
+      "sentiment_score": -8.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:35]",
+      "end_time": "[05:48]",
+      "start_time_sec": 335,
+      "text": "The Tier-2 Finance team reviews the warehouse delivery signature and processes a direct BACS transfer back to your bank account within three to five working days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:51]",
+      "end_time": "[05:58]",
+      "start_time_sec": 351,
+      "text": "Three to five working days? So I won't have the money back today?",
+      "sentiment_score": -16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:01]",
+      "end_time": "[06:16]",
+      "start_time_sec": 361,
+      "text": "Unfortunately I cannot force an immediate same-day bank transfer, Latoya, but I am attaching the Royal Mail delivery receipt proof directly to the ticket so there is zero ambiguity."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:19]",
+      "end_time": "[06:26]",
+      "start_time_sec": 379,
+      "text": "Can you give me the reference number for this finance escalation ticket?",
+      "sentiment_score": 1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:29]",
+      "end_time": "[06:41]",
+      "start_time_sec": 389,
+      "text": "Yes, of course. The ticket reference is FIN-8942-RT. You will also receive an automated SMS confirmation with this reference within thirty minutes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:44]",
+      "end_time": "[06:50]",
+      "start_time_sec": 404,
+      "text": "Okay, I've written down FIN-8942-RT.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:53]",
+      "end_time": "[07:03]",
+      "start_time_sec": 413,
+      "text": "And just to check, on your Post Office receipt, does the sender name match Latoya Cranford exactly as shown on our billing records?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:06]",
+      "end_time": "[07:12]",
+      "start_time_sec": 426,
+      "text": "Yes, Latoya Cranford, 114 Cranford Lane.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:15]",
+      "end_time": "[07:24]",
+      "start_time_sec": 435,
+      "text": "Excellent. That ensures the warehouse reconciliation audit will match your account immediately upon review."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:27]",
+      "end_time": "[07:35]",
+      "start_time_sec": 447,
+      "text": "Will I get a confirmation email once the money has been sent back to my bank account?",
+      "sentiment_score": 5.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:38]",
+      "end_time": "[07:50]",
+      "start_time_sec": 458,
+      "text": "Yes, our finance team will email you as soon as the BACS payment is initiated, and the funds will clear directly into your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:53]",
+      "end_time": "[07:59]",
+      "start_time_sec": 473,
+      "text": "And will this happen again on next month's bill?",
+      "sentiment_score": -6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:02]",
+      "end_time": "[08:14]",
+      "start_time_sec": 482,
+      "text": "No, I have permanently removed the unreturned hardware flag from your customer profile, so no further equipment penalty can ever trigger."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:17]",
+      "end_time": "[08:25]",
+      "start_time_sec": 497,
+      "text": "That is good to know, because I was terrified I'd see another charge next month.",
+      "sentiment_score": 11.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:28]",
+      "end_time": "[08:40]",
+      "start_time_sec": 508,
+      "text": "While we are on the line, let's also verify that your paperless billing discount of five pounds per month is properly applied to your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:43]",
+      "end_time": "[08:50]",
+      "start_time_sec": 523,
+      "text": "Yes, I receive my bills by email, so that discount should be active.",
+      "sentiment_score": 6.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:53]",
+      "end_time": "[09:05]",
+      "start_time_sec": 533,
+      "text": "I can see the paperless discount is active on your profile, so your standard monthly package remains at thirty-two pounds per month."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:08]",
+      "end_time": "[09:13]",
+      "start_time_sec": 548,
+      "text": "Good, thank you for checking that.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:16]",
+      "end_time": "[09:26]",
+      "start_time_sec": 556,
+      "text": "Is the bank account details ending in 4108 still the correct destination for the sixty-five pound refund payment?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:29]",
+      "end_time": "[09:35]",
+      "start_time_sec": 569,
+      "text": "Yes, that is my primary current account with Lloyds.",
+      "sentiment_score": 5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:38]",
+      "end_time": "[09:46]",
+      "start_time_sec": 578,
+      "text": "Splendid. That is the exact account the finance department will credit via BACS."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:49]",
+      "end_time": "[09:59]",
+      "start_time_sec": 589,
+      "text": "And what is the serial number of the new TV box currently working in my living room, just so I know it's documented?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:02]",
+      "end_time": "[10:12]",
+      "start_time_sec": 602,
+      "text": "The serial number registered to your active TV viewing card is SN-4K-88319, which is verified active with no flags."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:15]",
+      "end_time": "[10:22]",
+      "start_time_sec": 615,
+      "text": "Great, that matches the sticker under the box in the lounge.",
+      "sentiment_score": 7.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:25]",
+      "end_time": "[10:32]",
+      "start_time_sec": 625,
+      "text": "Perfect. Everything on the technical inventory side is aligned accurately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:35]",
+      "end_time": "[10:44]",
+      "start_time_sec": 635,
+      "text": "Would it be helpful if I took a photo of the Royal Mail receipt on my phone and uploaded it somewhere?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:47]",
+      "end_time": "[11:00]",
+      "start_time_sec": 647,
+      "text": "You can reply directly to the SMS confirmation you receive with an image attachment of the receipt, and it will attach straight into ticket FIN-8942-RT."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:03]",
+      "end_time": "[11:10]",
+      "start_time_sec": 663,
+      "text": "I will snap a photo and reply to that text as soon as we hang up.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:13]",
+      "end_time": "[11:21]",
+      "start_time_sec": 673,
+      "text": "That will give the finance adjudicator the physical visual proof right away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:24]",
+      "end_time": "[11:34]",
+      "start_time_sec": 684,
+      "text": "Alright Nathan. I know it's not your personal fault that the warehouse was slow, but I really need that money back as quickly as possible.",
+      "sentiment_score": 8.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:37]",
+      "end_time": "[11:48]",
+      "start_time_sec": 697,
+      "text": "I completely agree with you, Latoya, and I've flagged this case as high financial priority to expedite the processing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:51]",
+      "end_time": "[11:58]",
+      "start_time_sec": 711,
+      "text": "Thank you for doing that and for taking the time to track down the Royal Mail delivery.",
+      "sentiment_score": 11.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:01]",
+      "end_time": "[12:09]",
+      "start_time_sec": 721,
+      "text": "You are very welcome. Is there anything else on your account I can assist with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:12]",
+      "end_time": "[12:17]",
+      "start_time_sec": 732,
+      "text": "No, that was everything. Thank you Nathan.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:20]",
+      "end_time": "[12:29]",
+      "start_time_sec": 740,
+      "text": "Thank you for choosing S-Net, Latoya. Have a good rest of your week and take care."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:32]",
+      "end_time": "[12:36]",
+      "start_time_sec": 752,
+      "text": "Thank you, goodbye.",
+      "sentiment_score": 9.4
+    }
+  ]
+}

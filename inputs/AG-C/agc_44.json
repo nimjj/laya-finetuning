@@ -1,0 +1,448 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Aubrey",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer billing. My name is Tom. How may I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:16]",
+      "end_time": "[00:43]",
+      "start_time_sec": 16,
+      "text": "Hello Tom. I opened my bank mobile app this morning and discovered that S-Net has debited one hundred and fifty pounds from my current account for an unreturned equipment fee! I returned our old broadband router three weeks ago using your pre-paid Royal Mail return bag, and I have the postal drop-off receipt right here in my hand! This unauthorized charge has pushed my account into an unarranged overdraft!",
+      "sentiment_score": -48.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:52]",
+      "end_time": "[01:09]",
+      "start_time_sec": 52,
+      "text": "I can certainly understand how upsetting an unexpected one hundred and fifty pound equipment charge is, especially when you have already posted the equipment back with a postal receipt. Let's look into the warehouse equipment returns database immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:18]",
+      "end_time": "[01:25]",
+      "start_time_sec": 78,
+      "text": "Thank you, because my bank has already levied a thirty-pound overdraft fee on top of your charge.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:34]",
+      "end_time": "[01:41]",
+      "start_time_sec": 94,
+      "text": "What was the Royal Mail tracked return barcode number printed on your Post Office drop-off receipt?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:50]",
+      "end_time": "[01:58]",
+      "start_time_sec": 110,
+      "text": "The tracking barcode number on the receipt is GB four four nine one zero two eight three nine.",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:07]",
+      "end_time": "[02:14]",
+      "start_time_sec": 127,
+      "text": "Please hold while I access the national Royal Mail logistics integration server to track that consignment."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:50]",
+      "end_time": "[02:54]",
+      "start_time_sec": 170,
+      "text": "Tom, are you still there? The line went completely dead.",
+      "sentiment_score": -16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:03]",
+      "end_time": "[03:20]",
+      "start_time_sec": 183,
+      "text": "Yes, apologies for the silence. The Royal Mail tracking ledger shows parcel GB four four nine one zero two eight three nine was scanned as delivered to the S-Net central returns depot in Corby on Tuesday the sixth of October."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:29]",
+      "end_time": "[03:43]",
+      "start_time_sec": 209,
+      "text": "So your Corby depot has had physical possession of my router for two full weeks! Why on earth did your automated billing system debit one hundred and fifty pounds from my bank today?!",
+      "sentiment_score": -38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:52]",
+      "end_time": "[04:07]",
+      "start_time_sec": 232,
+      "text": "When equipment returns arrive at the central logistics warehouse, parcels must be unboxed, scanned by warehouse operatives, and matched to subscriber hardware serial numbers before the pending equipment charge flag clears on billing accounts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:16]",
+      "end_time": "[04:32]",
+      "start_time_sec": 256,
+      "text": "If your warehouse staff have a two-week backlog opening cardboard boxes, that is an internal operational failure at S-Net! It should not result in innocent customers having one hundred and fifty pounds ripped from their bank accounts!",
+      "sentiment_score": -42.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:41]",
+      "end_time": "[04:50]",
+      "start_time_sec": 281,
+      "text": "Our terms and conditions specify that equipment return processing can take up to twenty-eight working days during peak autumn seasonal cycles."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:59]",
+      "end_time": "[05:11]",
+      "start_time_sec": 299,
+      "text": "Twenty-eight working days?! You took my money in seconds, but you expect me to wait twenty-eight working days while I incur daily overdraft interest fees at my bank?!",
+      "sentiment_score": -46.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:20]",
+      "end_time": "[05:29]",
+      "start_time_sec": 320,
+      "text": "The automated billing system triggers equipment penalty debits whenever the thirty-day post-cancellation grace timer expires without a warehouse barcode reconciliation scan."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:38]",
+      "end_time": "[05:45]",
+      "start_time_sec": 338,
+      "text": "Can you reverse this one hundred and fifty pound charge right now on your billing system?",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:54]",
+      "end_time": "[06:05]",
+      "start_time_sec": 354,
+      "text": "I do not have the billing permission to issue a manual refund or debit reversal while the equipment status remains marked as Pending Physical Warehouse Inspection."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:14]",
+      "end_time": "[06:21]",
+      "start_time_sec": 374,
+      "text": "Even though Royal Mail's official signature proof proves your depot received the parcel on October sixth?!",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:29]",
+      "end_time": "[06:41]",
+      "start_time_sec": 389,
+      "text": "Just to confirm what you mentioned earlier, the Royal Mail tracking barcode number on your receipt is GB four four nine one zero two eight three nine?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:49]",
+      "end_time": "[06:54]",
+      "start_time_sec": 409,
+      "text": "Yes, exactly, GB four four nine one zero two eight three nine.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:02]",
+      "end_time": "[07:13]",
+      "start_time_sec": 422,
+      "text": "Royal Mail signature proof only confirms delivery of an outer cardboard container, not verification that the specific serialized gateway and power adapter were inside the carton."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:21]",
+      "end_time": "[07:27]",
+      "start_time_sec": 441,
+      "text": "Are you accusing me of posting an empty cardboard box to your warehouse?!",
+      "sentiment_score": -36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:35]",
+      "end_time": "[07:42]",
+      "start_time_sec": 455,
+      "text": "No, I am explaining standard logistics audit protocols required before debit reversals are authorized by finance managers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:50]",
+      "end_time": "[07:54]",
+      "start_time_sec": 470,
+      "text": "This is an outrageous abuse of direct debit authority!",
+      "sentiment_score": -32.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:02]",
+      "end_time": "[08:08]",
+      "start_time_sec": 482,
+      "text": "At which Post Office branch did you hand over the pre-paid return parcel?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:16]",
+      "end_time": "[08:28]",
+      "start_time_sec": 496,
+      "text": "I handed it across the counter at the Clifton Post Office branch on Regent Street in Bristol on Monday the fifth of October at ten in the morning.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:36]",
+      "end_time": "[08:42]",
+      "start_time_sec": 516,
+      "text": "What was the recorded parcel weight stamped on your Post Office counter receipt?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:50]",
+      "end_time": "[09:01]",
+      "start_time_sec": 530,
+      "text": "The receipt clearly prints one point two four kilograms, which is the exact weight of the Hub router, the power cable, and the Ethernet lead.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:09]",
+      "end_time": "[09:17]",
+      "start_time_sec": 549,
+      "text": "One point two four kilograms aligns with the official shipping weight of a packaged Hub 5 broadband gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:25]",
+      "end_time": "[09:30]",
+      "start_time_sec": 565,
+      "text": "Which proves beyond doubt that the equipment was inside the parcel!",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:38]",
+      "end_time": "[09:44]",
+      "start_time_sec": 578,
+      "text": "Did you retain the printed paper counter slip with the teller cashier initials?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:52]",
+      "end_time": "[09:59]",
+      "start_time_sec": 592,
+      "text": "Yes, the receipt has cashier stamp number 14 and the printed timestamp of ten fourteen AM.",
+      "sentiment_score": 12.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:07]",
+      "end_time": "[10:14]",
+      "start_time_sec": 607,
+      "text": "Please hold while I check whether a finance supervisor can approve an emergency debit recall."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:52]",
+      "end_time": "[10:55]",
+      "start_time_sec": 652,
+      "text": "Tom, hello? Has the call disconnected again?",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:03]",
+      "end_time": "[11:15]",
+      "start_time_sec": 663,
+      "text": "Yes, thank you for waiting. The finance duty supervisor is unavailable on the escalation queue, so the one hundred and fifty pound debit cannot be reversed today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:23]",
+      "end_time": "[11:33]",
+      "start_time_sec": 683,
+      "text": "So you are refusing to refund my money today despite having Royal Mail proof, receipt weight proof, cashier timestamps, and depot delivery confirmation?!",
+      "sentiment_score": -48.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:41]",
+      "end_time": "[11:49]",
+      "start_time_sec": 701,
+      "text": "The warehouse depot team must complete physical barcode verification before finance will release the funds back to your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:57]",
+      "end_time": "[12:08]",
+      "start_time_sec": 717,
+      "text": "You don't care at all that my bank account is overdrawn and that I have thirty pounds of bank overdraft fees accumulating because of your delay!",
+      "sentiment_score": -42.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:16]",
+      "end_time": "[12:22]",
+      "start_time_sec": 736,
+      "text": "Bank overdraft fees incurred with third-party commercial lenders are outside S-Net's liability framework."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:30]",
+      "end_time": "[12:35]",
+      "start_time_sec": 750,
+      "text": "Could you remind me what the Royal Mail tracking number was again?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:43]",
+      "end_time": "[12:52]",
+      "start_time_sec": 763,
+      "text": "I gave it to you ten minutes ago! It is GB four four nine one zero two eight three nine!",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:00]",
+      "end_time": "[13:10]",
+      "start_time_sec": 780,
+      "text": "Thank you. I am attaching tracking number GB four four nine one zero two eight three nine to the warehouse priority trace request."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:18]",
+      "end_time": "[13:26]",
+      "start_time_sec": 798,
+      "text": "Make sure that trace request gets sent to the Corby warehouse immediately so they open the pallet today.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:34]",
+      "end_time": "[13:38]",
+      "start_time_sec": 814,
+      "text": "The internal warehouse trace inquiry docket number is WH-88192-T."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:46]",
+      "end_time": "[13:49]",
+      "start_time_sec": 826,
+      "text": "Noted down... WH-88192-T.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:57]",
+      "end_time": "[14:06]",
+      "start_time_sec": 837,
+      "text": "The warehouse trace SLA requires up to five working days to locate and scan the parcel in the Corby receiving bay."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:14]",
+      "end_time": "[14:18]",
+      "start_time_sec": 854,
+      "text": "And what happens once they locate and scan the parcel?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:26]",
+      "end_time": "[14:41]",
+      "start_time_sec": 866,
+      "text": "Once the barcode scan registers on the inventory server, the one hundred and fifty pound equipment charge will be credited back to your bank account within three to five business days via BACS transfer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:49]",
+      "end_time": "[14:56]",
+      "start_time_sec": 889,
+      "text": "So I still have to wait up to ten days to get my own money back.",
+      "sentiment_score": -14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:04]",
+      "end_time": "[15:09]",
+      "start_time_sec": 904,
+      "text": "BACS banking transfer cycles operate under standard clearing house settlement timelines."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:17]",
+      "end_time": "[15:29]",
+      "start_time_sec": 917,
+      "text": "Our mobile phone service with S-Net has always worked fine across Bristol, we get great 5G reception, so we never had billing issues until we cancelled broadband.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:37]",
+      "end_time": "[15:44]",
+      "start_time_sec": 937,
+      "text": "Mobile services operate on a distinct billing platform that does not interact with fixed-line equipment logistics."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:52]",
+      "end_time": "[15:59]",
+      "start_time_sec": 952,
+      "text": "That's good to know, otherwise I'd be worried about random charges on my mobile bill too.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:07]",
+      "end_time": "[16:12]",
+      "start_time_sec": 967,
+      "text": "Your mobile direct debit mandate remains unaffected by fixed-line hardware balances."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:20]",
+      "end_time": "[16:26]",
+      "start_time_sec": 980,
+      "text": "I will keep a close eye on both statements until this refund clears.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:34]",
+      "end_time": "[16:47]",
+      "start_time_sec": 994,
+      "text": "I have verified that the warehouse trace ticket WH-88192-T is submitted with the Royal Mail tracking data attached. Does that address all of your questions regarding the equipment charge today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:55]",
+      "end_time": "[17:05]",
+      "start_time_sec": 1015,
+      "text": "You haven't refunded my money today, but you've explained the trace process. I will be checking my account next week. Thank you Tom.",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:13]",
+      "end_time": "[17:18]",
+      "start_time_sec": 1033,
+      "text": "Thank you for choosing S-Net today. Have a good afternoon. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:26]",
+      "end_time": "[17:30]",
+      "start_time_sec": 1046,
+      "text": "Goodbye Tom.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "David",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer retentions, my name is Jessica. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:18]",
+      "end_time": "[00:38]",
+      "start_time_sec": 18,
+      "text": "Hi Jessica. I am calling because my latest broadband bill jumped from forty-two pounds a month to seventy-nine pounds without warning! I have been a loyal customer for five years, and it feels like long-standing customers are penalized while new customers get massive promotional discounts!",
+      "sentiment_score": -36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:49]",
+      "end_time": "[01:02]",
+      "start_time_sec": 49,
+      "text": "I understand how frustrating it is when an eighteen-month promotional discount expires and your monthly bill increases unexpectedly, David. Let me look into our available retention tariff options for you immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:13]",
+      "end_time": "[01:26]",
+      "start_time_sec": 73,
+      "text": "Thank you Jessica. Paying seventy-nine pounds for broadband is completely out of the question on my fixed state pension when heating and council tax bills are rising every April.",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:37]",
+      "end_time": "[01:43]",
+      "start_time_sec": 97,
+      "text": "Let me open your subscription profile and current package bundle on our retentions portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:54]",
+      "end_time": "[02:04]",
+      "start_time_sec": 114,
+      "text": "Our current package is the Superfast 150 fiber broadband with the weekend landline calls add-on, and my account reference number is 7701 4419.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:15]",
+      "end_time": "[02:33]",
+      "start_time_sec": 135,
+      "text": "So just to confirm what you are looking for today: your initial eighteen-month contract expired, increasing your monthly charge from forty-two pounds to seventy-nine pounds, and you want to renegotiate a competitive renewal rate comparable to alternative fiber providers. Is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:44]",
+      "end_time": "[02:57]",
+      "start_time_sec": 164,
+      "text": "Yes, exactly that. If S-Net cannot offer a competitive rate around forty pounds, I will have no choice but to switch our home services to another broadband provider on our street.",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:16]",
+      "start_time_sec": 188,
+      "text": "Looking at your account, your previous eighteen-month contract included a thirty-seven pound monthly promotional credit that concluded in September."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:27]",
+      "end_time": "[03:35]",
+      "start_time_sec": 207,
+      "text": "Why doesn't S-Net automatically notify customers before promotional discounts expire so we don't get hit with massive bill shock?",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:46]",
+      "end_time": "[03:54]",
+      "start_time_sec": 226,
+      "text": "Our automated billing platform prints a reminder notification across the final two monthly invoices prior to discount expiration."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:05]",
+      "end_time": "[04:15]",
+      "start_time_sec": 245,
+      "text": "I receive paperless e-billing, and the email notification just says 'Your monthly bill is ready to view' without highlighting that the price is doubling!",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:26]",
+      "end_time": "[04:32]",
+      "start_time_sec": 266,
+      "text": "The full PDF statement available on the customer portal details the promotional expiration schedule."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:43]",
+      "end_time": "[04:56]",
+      "start_time_sec": 283,
+      "text": "Other competitor providers in our street like Community Fibre and Vodafone are offering nine hundred megabits for thirty-five pounds a month on a two-year contract, and they throw in free installation!",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:07]",
+      "end_time": "[05:18]",
+      "start_time_sec": 307,
+      "text": "Alternative alt-net fiber providers often advertise introductory loss-leader rates that increase significantly upon mid-contract annual price rises, and their customer service centers are often based overseas."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:29]",
+      "end_time": "[05:39]",
+      "start_time_sec": 329,
+      "text": "Even so, thirty-five pounds is less than half of what S-Net is currently trying to charge me for a much slower speed tier!",
+      "sentiment_score": -16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:50]",
+      "end_time": "[05:59]",
+      "start_time_sec": 350,
+      "text": "Please bear with me on hold for about thirty-five seconds while I query our retentions discount matrix for eligible loyalty tariffs."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:34]",
+      "end_time": "[06:40]",
+      "start_time_sec": 394,
+      "text": "Thank you for holding, David. I have accessed our specialized customer retention offers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:51]",
+      "end_time": "[06:56]",
+      "start_time_sec": 411,
+      "text": "What is the best price you can offer to keep my custom?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:07]",
+      "end_time": "[07:16]",
+      "start_time_sec": 427,
+      "text": "I can offer you our standard renewal tariff on Superfast 150 at sixty-two pounds per month on an eighteen-month contract."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:27]",
+      "end_time": "[07:37]",
+      "start_time_sec": 447,
+      "text": "Sixty-two pounds?! That is still twenty pounds a month more than I was paying last month, and nearly double what competitors charge!",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:48]",
+      "end_time": "[07:58]",
+      "start_time_sec": 468,
+      "text": "Sixty-two pounds represents a substantial seventeen-pound monthly discount off standard out-of-contract book pricing, which is the maximum available on standard retail systems."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:09]",
+      "end_time": "[08:19]",
+      "start_time_sec": 489,
+      "text": "I am telling you that Vodafone is offering three times that speed for thirty-five pounds! Why should I pay sixty-two pounds for old technology?!",
+      "sentiment_score": -34.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:30]",
+      "end_time": "[08:43]",
+      "start_time_sec": 510,
+      "text": "Well Mr. David, if you want cheap budget broadband from a budget provider with zero customer service, you're welcome to leave, nobody is forcing you to stay with S-Net."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:54]",
+      "end_time": "[09:07]",
+      "start_time_sec": 534,
+      "text": "There is absolutely no need to be rude and insulting! I have paid S-Net thousands of pounds over five years, and telling a customer to leave is shockingly unprofessional!",
+      "sentiment_score": -44.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:18]",
+      "end_time": "[09:29]",
+      "start_time_sec": 558,
+      "text": "I apologize if my remark was perceived as impolite, David. I am merely stating that premium optical networks command higher market value than discount providers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:40]",
+      "end_time": "[09:45]",
+      "start_time_sec": 580,
+      "text": "I want to speak to a retentions supervisor who values customer loyalty.",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:56]",
+      "end_time": "[10:04]",
+      "start_time_sec": 596,
+      "text": "As a senior retentions executive, I have full discretionary authority to access our tier three legacy preservation credits."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:15]",
+      "end_time": "[10:21]",
+      "start_time_sec": 615,
+      "text": "Then why didn't you offer that in the first place instead of insulting me?",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:32]",
+      "end_time": "[10:39]",
+      "start_time_sec": 632,
+      "text": "Tier three discretionary credits require senior manager validation based on account tenure and payment history."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:50]",
+      "end_time": "[10:54]",
+      "start_time_sec": 650,
+      "text": "What does the tier three preservation offer look like?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:05]",
+      "end_time": "[11:15]",
+      "start_time_sec": 665,
+      "text": "I can upgrade your broadband to Gigafast 500 at forty-four pounds per month fixed for twenty-four months with zero mid-contract CPI price hikes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:26]",
+      "end_time": "[11:31]",
+      "start_time_sec": 686,
+      "text": "Forty-four pounds for five hundred megabits with complete price protection against inflation?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:42]",
+      "end_time": "[11:55]",
+      "start_time_sec": 702,
+      "text": "Yes, that includes a speed upgrade from one hundred and fifty megabits to five hundred megabits, an upgraded Hub 5 router, and guaranteed price protection against April retail price index increases."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:06]",
+      "end_time": "[12:12]",
+      "start_time_sec": 726,
+      "text": "Does that forty-four pounds include line rental and our weekend evening calls package?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:23]",
+      "end_time": "[12:33]",
+      "start_time_sec": 743,
+      "text": "Yes, the digital voice line rental and unlimited weekend calls to UK landlines and mobiles are fully included within the forty-four pound monthly fee."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:44]",
+      "end_time": "[12:54]",
+      "start_time_sec": 764,
+      "text": "That is significantly closer to what I was hoping for, and the extra speed will be useful when our grandchildren visit to stream movies.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:05]",
+      "end_time": "[13:12]",
+      "start_time_sec": 785,
+      "text": "I will also waive the standard thirty-five pound router delivery fee and contract renewal administration charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:23]",
+      "end_time": "[13:28]",
+      "start_time_sec": 803,
+      "text": "Waiving the administration fee is very fair and appreciated, thank you.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:39]",
+      "end_time": "[13:49]",
+      "start_time_sec": 819,
+      "text": "In addition, I will apply a one-off thirty-five pound billing credit to offset the higher charge you experienced on this month's seventy-nine pound bill."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:59]",
+      "end_time": "[14:06]",
+      "start_time_sec": 839,
+      "text": "Refunding the seventy-nine pound overcharge makes me feel much more respected as a loyal five-year customer.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:16]",
+      "end_time": "[14:23]",
+      "start_time_sec": 856,
+      "text": "Just to confirm what you mentioned earlier, David, your account reference number is 7701 4419?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:33]",
+      "end_time": "[14:36]",
+      "start_time_sec": 873,
+      "text": "Yes, 7701 4419.",
+      "sentiment_score": 9.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:46]",
+      "end_time": "[14:51]",
+      "start_time_sec": 886,
+      "text": "I have locked that twenty-four month promotional price plan under reference RET-44819-D."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:01]",
+      "end_time": "[15:04]",
+      "start_time_sec": 901,
+      "text": "Let me note down that reference... RET-44819-D.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:14]",
+      "end_time": "[15:21]",
+      "start_time_sec": 914,
+      "text": "The new contract terms and pre-contract summary information sheet have been dispatched to your registered email address."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:31]",
+      "end_time": "[15:36]",
+      "start_time_sec": 931,
+      "text": "I will check that email summary on my tablet this evening.",
+      "sentiment_score": 12.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:46]",
+      "end_time": "[15:56]",
+      "start_time_sec": 946,
+      "text": "The contract includes a fourteen-day statutory cooling-off period during which you can cancel without any exit penalties if you change your mind."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:06]",
+      "end_time": "[16:10]",
+      "start_time_sec": 966,
+      "text": "Having a fourteen-day cooling-off buffer gives good peace of mind.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:20]",
+      "end_time": "[16:25]",
+      "start_time_sec": 980,
+      "text": "How is your current router Wi-Fi signal performing across your property?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:35]",
+      "end_time": "[16:47]",
+      "start_time_sec": 995,
+      "text": "The Wi-Fi signal has always been very reliable across our bungalow, we get full coverage in the garden too, so physical stability has never been an issue.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:57]",
+      "end_time": "[17:03]",
+      "start_time_sec": 1017,
+      "text": "The new Hub 5 will deliver even stronger Wi-Fi 6 beamforming across your bungalow."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:13]",
+      "end_time": "[17:16]",
+      "start_time_sec": 1033,
+      "text": "That will be an added bonus.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:26]",
+      "end_time": "[17:34]",
+      "start_time_sec": 1046,
+      "text": "Wait, Jessica, does this new contract require a technician to visit or does the router arrive by courier?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:44]",
+      "end_time": "[17:53]",
+      "start_time_sec": 1064,
+      "text": "The new Hub 5 arrives by Royal Mail Special Delivery tracked post within forty-eight hours and is simple plug-and-play self-installation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:03]",
+      "end_time": "[18:11]",
+      "start_time_sec": 1083,
+      "text": "And does my existing cordless landline telephone plug directly into the new Hub 5 green phone adapter socket?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:21]",
+      "end_time": "[18:28]",
+      "start_time_sec": 1101,
+      "text": "Yes, the router packaging includes the green RJ11 digital voice adapter and step-by-step setup instructions."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:38]",
+      "end_time": "[18:48]",
+      "start_time_sec": 1118,
+      "text": "Wait, Jessica, my daughter lives in Toronto, Canada, so does that forty-four pound price include our international calling bolt-on or is that separate...",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:58]",
+      "end_time": "[19:06]",
+      "start_time_sec": 1138,
+      "text": "The package is confirmed at forty-four pounds. Have a good day. Thank you for choosing S-Net, David. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:16]",
+      "end_time": "[19:20]",
+      "start_time_sec": 1156,
+      "text": "Wait, Jessica, what about international calls... hello?",
+      "sentiment_score": -12.4
+    }
+  ]
+}

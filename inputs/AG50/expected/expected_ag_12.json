@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_12",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 78.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "The agent had two unmanaged hold violations: at [04:56] the customer had to chase after a 65-second silence ('Hello? Are you still there, Nadia?'), and at [10:44] the second hold lasted 135 seconds, exceeding the 120-second maximum exempt hold limit."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "At [06:58], the agent asked whether the customer was testing over Wi-Fi or with an Ethernet cable, despite the customer explicitly stating at [01:03] that his laptop was plugged directly into yellow port one with a Cat6 Ethernet cable and Wi-Fi was switched off."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "At [06:43] and [10:44], the broadband upstream fault remained unresolved at 512 kbps due to an external copper shunt fault requiring an Openreach street cabinet engineer visit on Thursday morning."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Broadband upload speed collapsed to 0.4 Mbps causing video calls to freeze while working from home",
+    "tier": "okay",
+    "duration_sec": 850,
+    "notes": "STT-rough broadband upload fault call where Nadia passes 8 criteria including proactive ownership (booking Openreach and adding a free unlimited 5G tethering pass), but fails Dead Air (two subtle hold violations: customer chasing after a 65s hold at [04:56], and a second hold of 135s > 120s max at [10:44]), Active Listening (asking Wi-Fi vs Ethernet at [06:58] after Raghav stated Cat6 Ethernet at [01:03]), and Resolution (requires Thursday Openreach cabinet visit).",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Active listening",
+      "Confirmed the issue is resolved",
+      "Verified customer",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'Good morning, um, thank you for calling S-Net Broadband Technical Support...' and [13:55] Agent: 'Thank you for choosing S-Net...'"
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[03:41]-[04:56]: 65s gap where Customer breaks silence with 'Hello? Are you still there, Nadia?'; [08:19]-[10:44]: 135s gap (>120s limit) before Agent returns at [10:44]."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:36] Agent asks for home address and memorable security question within the first 4 minutes; Customer confirms both at [00:48]."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:16], [00:36], [01:26], [11:25] Agent addresses Raghav by name throughout."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:16] Agent: 'Oh no, I am really sorry to hear your upload speed has dropped like that, Raghav...' and [00:36]: 'I completely understand how stressful that is in the middle of client meetings, Raghav.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:26] Agent: 'Right, so let me make sure I have got that straight, Raghav: your download speed is holding steady around fifty-two megabits per second, but since yesterday morning your upload speed has cratered to zero point four megabits per second...'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:03] Customer: '...my Dell work laptop is plugged directly into yellow port one on the S-Net Hub with a brand-new Cat6 Ethernet cable, and Wi-Fi is switched off on the laptop.' -> [06:58] Agent: 'And, er, are you testing over Wi-Fi right now or have you got an Ethernet cable plugged in?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:41], [05:49], [10:44], [11:25], [12:25] Agent runs metallic path diagnostics, attempts a DLM port bounce, books the Openreach SFI2 engineer for Thursday morning, activates a free unlimited 5G mobile hotspot pass, and schedules a Thursday follow-up call."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:16], [11:25], [13:55] Agent is polite, apologetic for her slip, and proactive in supporting Raghav's work-from-home needs."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:51], [02:15] Agent probes for master socket model (NTE5C MK4 vs microfilter), internal extension wiring, and recent thunderstorm correlation."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[06:43] Agent: 'It only managed five hundred and twelve kilobits per second upstream... That confirms it is a hard physical copper fault outside your property.' [10:44]: booked Openreach visit for Thursday morning."
+      }
+    ]
+  }
+}

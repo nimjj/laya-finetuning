@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Linnea",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net landline customer services, my name is Hannah. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:11]",
+   "end_time": "[00:31]",
+   "start_time_sec": 11,
+   "text": "Hello Hannah, my name is Linnea Lindqvist. I manage the household bills for my elderly mother, and she discovered this morning that she cannot place international calls to her brother in Toronto, Canada; the line plays an automated tone saying calls to that destination are barred!",
+   "sentiment_score": -28.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:35]",
+   "end_time": "[00:55]",
+   "start_time_sec": 35,
+   "text": "Good afternoon Linnea. If I understand correctly, your mother's landline is unable to connect international calls to family in Canada due to an automated call barring message. Before we inspect her exchange routing profile, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:59]",
+   "end_time": "[01:09]",
+   "start_time_sec": 59,
+   "text": "Yes, exactly! It is 29 Elm Tree Close, York, YO31 8ZZ, and my mother's landline number is 01904 624810. My security PIN is 3381.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:13]",
+   "end_time": "[01:23]",
+   "start_time_sec": 73,
+   "text": "Thank you Linnea, that confirms your account details and third-party authority status. Let me check the telephony features active on her exchange line."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:27]",
+   "end_time": "[01:40]",
+   "start_time_sec": 87,
+   "text": "Thank you. She normally speaks with him every Wednesday afternoon, so she is quite worried.",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:44]",
+   "end_time": "[01:56]",
+   "start_time_sec": 104,
+   "text": "Could I place you on hold for two minutes while I query the local exchange switch database for Yorkshire?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:21]",
+   "end_time": "[03:35]",
+   "start_time_sec": 201,
+   "text": "Thank you for holding, Linnea. The exchange routing profile shows that outbound International Call Barring is currently applied to the line."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:39]",
+   "end_time": "[03:52]",
+   "start_time_sec": 219,
+   "text": "Why was an international call bar applied in the first place? She never requested it.",
+   "sentiment_score": -16.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:56]",
+   "end_time": "[04:11]",
+   "start_time_sec": 236,
+   "text": "Our corporate billing platform applies a default international toll protection bar on new residential copper migrations to safeguard against unexpected premium rate charges."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:15]",
+   "end_time": "[04:28]",
+   "start_time_sec": 255,
+   "text": "I understand protecting customers from fraud, but she needs to speak with her brother.",
+   "sentiment_score": -10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:32]",
+   "end_time": "[04:42]",
+   "start_time_sec": 272,
+   "text": "I can submit an immediate unbarring order to the Openreach exchange network management gateway."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:46]",
+   "end_time": "[04:56]",
+   "start_time_sec": 286,
+   "text": "Is there any charge for removing the international bar?",
+   "sentiment_score": -6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:00]",
+   "end_time": "[05:10]",
+   "start_time_sec": 300,
+   "text": "No, removing the international restriction is completely free of charge."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:14]",
+   "end_time": "[05:26]",
+   "start_time_sec": 314,
+   "text": "What are the standard call rates for calls to landlines and mobiles in Canada?",
+   "sentiment_score": -4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:30]",
+   "end_time": "[05:48]",
+   "start_time_sec": 330,
+   "text": "Standard rate to North America is twenty-four pence per minute, or you can add our International Freedom bolt-on for three pounds a month which gives one thousand inclusive minutes."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:52]",
+   "end_time": "[06:07]",
+   "start_time_sec": 352,
+   "text": "Let us add the International Freedom bolt-on right now so she does not have to worry about per-minute charges.",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:10]",
+   "end_time": "[06:22]",
+   "start_time_sec": 370,
+   "text": "I have added the International Freedom bolt-on to her account billing profile, active from today."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:25]",
+   "end_time": "[06:35]",
+   "start_time_sec": 385,
+   "text": "That will give her wonderful peace of mind.",
+   "sentiment_score": 8.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:38]",
+   "end_time": "[06:50]",
+   "start_time_sec": 398,
+   "text": "Obviously international calling features are barred by default on basic landline tariffs to prevent toll fraud."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:53]",
+   "end_time": "[06:56]",
+   "start_time_sec": 413,
+   "text": "Yes, that makes total sense for security.",
+   "sentiment_score": 10.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:59]",
+   "end_time": "[07:23]",
+   "start_time_sec": 419,
+   "text": "I was in tears this morning because my eighty-two-year-old mother was frantic thinking my brother had had an accident in Canada! She couldn't dial out to him and thought S-Net cut off her phone line! It is so distressing when elderly relatives get terrified by sudden call blocks!",
+   "sentiment_score": -58.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:26]",
+   "end_time": "[07:46]",
+   "start_time_sec": 446,
+   "text": "I completely understand how alarming and frightening that was for your mother, Linnea. It is incredibly distressing when an elderly family member cannot reach loved ones abroad, and I will personally ensure this international bar is lifted right away."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:49]",
+   "end_time": "[08:01]",
+   "start_time_sec": 469,
+   "text": "Thank you so much Hannah, that is very comforting to hear.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:04]",
+   "end_time": "[08:16]",
+   "start_time_sec": 484,
+   "text": "The Openreach system shows the unbarring instruction has been transmitted to the exchange line card."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:19]",
+   "end_time": "[08:31]",
+   "start_time_sec": 499,
+   "text": "How long does it take for the exchange switch to update the routing tables?",
+   "sentiment_score": -2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:34]",
+   "end_time": "[08:44]",
+   "start_time_sec": 514,
+   "text": "Exchange line modifications typically propagate within twenty minutes to two hours."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:47]",
+   "end_time": "[08:53]",
+   "start_time_sec": 527,
+   "text": "Can we test an outbound call right now from her landline to confirm it works?",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:56]",
+   "end_time": "[09:09]",
+   "start_time_sec": 536,
+   "text": "Because the digital switch order takes up to two hours to fully propagate through the national routing nodes, a live test cannot be completed while we are on this call."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:12]",
+   "end_time": "[09:17]",
+   "start_time_sec": 552,
+   "text": "So we cannot verify right now whether she can definitely dial Canada?",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:20]",
+   "end_time": "[09:25]",
+   "start_time_sec": 560,
+   "text": "Unfortunately we must allow the carrier propagation window to complete before dialing."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:28]",
+   "end_time": "[09:35]",
+   "start_time_sec": 568,
+   "text": "I see. I will have to telephone her later this evening to see if her call goes through.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:38]",
+   "end_time": "[09:43]",
+   "start_time_sec": 578,
+   "text": "I will document the unbarring reference number on the account notes for you."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:46]",
+   "end_time": "[09:49]",
+   "start_time_sec": 586,
+   "text": "What is that reference number?",
+   "sentiment_score": -2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:52]",
+   "end_time": "[09:55]",
+   "start_time_sec": 592,
+   "text": "The Openreach network service order reference is OR-INT-44910."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:58]",
+   "end_time": "[10:01]",
+   "start_time_sec": 598,
+   "text": "OR-INT-44910, noted down.",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:04]",
+   "end_time": "[10:10]",
+   "start_time_sec": 604,
+   "text": "Her international rates will automatically reflect the inclusive one thousand Canadian minutes from today."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:13]",
+   "end_time": "[10:18]",
+   "start_time_sec": 613,
+   "text": "And incoming calls from Canada were never affected by this bar, were they?",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:21]",
+   "end_time": "[10:26]",
+   "start_time_sec": 621,
+   "text": "No, incoming calls from any international country are always delivered without restriction."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:29]",
+   "end_time": "[10:32]",
+   "start_time_sec": 629,
+   "text": "Good to know incoming calls are never blocked.",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:35]",
+   "end_time": "[10:42]",
+   "start_time_sec": 635,
+   "text": "I will also set a flag on the account preventing any automated re-barring during future system upgrades."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:45]",
+   "end_time": "[10:49]",
+   "start_time_sec": 645,
+   "text": "Thank you Hannah, that will prevent this from happening again.",
+   "sentiment_score": 12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:52]",
+   "end_time": "[10:57]",
+   "start_time_sec": 652,
+   "text": "Before we finalize the security notes, that York landline was 01904 624810, correct?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:00]",
+   "end_time": "[11:03]",
+   "start_time_sec": 660,
+   "text": "Yes, 01904 624810 is her home landline.",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:06]",
+   "end_time": "[11:12]",
+   "start_time_sec": 666,
+   "text": "We have settled the interim balance, lifted the bar, and added the International Freedom bolt-on."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:15]",
+   "end_time": "[11:18]",
+   "start_time_sec": 675,
+   "text": "That covers everything she needs for her international calling.",
+   "sentiment_score": 16.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:21]",
+   "end_time": "[11:25]",
+   "start_time_sec": 681,
+   "text": "The order status displays 'Pending Switch Completion' in the Openreach portal."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:28]",
+   "end_time": "[11:34]",
+   "start_time_sec": 688,
+   "text": "Understood. I will tell my mother to try calling her brother at four o'clock this afternoon.",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:37]",
+   "end_time": "[11:45]",
+   "start_time_sec": 697,
+   "text": "If she experiences any difficulty dialing at four o'clock, she can dial 151 from her landline for immediate routing assistance."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:48]",
+   "end_time": "[11:52]",
+   "start_time_sec": 708,
+   "text": "151, got it. Thank you for your thorough help, Hannah.",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:55]",
+   "end_time": "[12:00]",
+   "start_time_sec": 715,
+   "text": "You are very welcome, Linnea. It has been a pleasure helping you today."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:03]",
+   "end_time": "[12:06]",
+   "start_time_sec": 723,
+   "text": "Have a wonderful afternoon.",
+   "sentiment_score": 16.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:09]",
+   "end_time": "[12:15]",
+   "start_time_sec": 729,
+   "text": "Is there any other aspect of your mother's account I can assist you with today, Linnea?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:18]",
+   "end_time": "[12:21]",
+   "start_time_sec": 738,
+   "text": "No thank you, everything is taken care of.",
+   "sentiment_score": 14.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:24]",
+   "end_time": "[12:29]",
+   "start_time_sec": 744,
+   "text": "Thank you for calling S-Net customer services, Linnea. Have a great day. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:32]",
+   "end_time": "[12:35]",
+   "start_time_sec": 752,
+   "text": "Goodbye Hannah.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:38]",
+   "end_time": "[12:41]",
+   "start_time_sec": 758,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:44]",
+   "end_time": "[12:49]",
+   "start_time_sec": 764,
+   "text": "Goodbye.",
+   "sentiment_score": 10.0
+  }
+ ]
+}

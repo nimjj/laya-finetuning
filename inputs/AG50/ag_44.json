@@ -1,0 +1,574 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Rukhsana",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Good afternoon, thank you for calling S-Net International Roaming Support. My name is Imogen, how can I help you today?",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:09]",
+      "end_time": "[00:27]",
+      "start_time_sec": 9,
+      "text": "Hi Imogen, my name is Rukhsana. I'm calling from the reception desk of my hotel in Dubai Marina in a total state because my UK bank's six-digit SMS verification codes aren't arriving on my S-Net mobile and I can't approve my hotel security deposit payment!",
+      "sentiment_score": -41.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:28]",
+      "end_time": "[00:39]",
+      "start_time_sec": 28,
+      "text": "Let's pull up your mobile account first. Please give me your S-Net mobile number, your date of birth, and the exact total amount of your last monthly bill.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:40]",
+      "end_time": "[01:00]",
+      "start_time_sec": 40,
+      "text": "My mobile number is 07700 908312, my date of birth is the fourteenth of August 1983, and my last monthly bill was forty-two pounds and eighty pence. Honestly my hands are shaking because the hotel reception won't release my room key until the bank 3D Secure OTP text comes through!",
+      "sentiment_score": -41.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:01]",
+      "end_time": "[01:15]",
+      "start_time_sec": 61,
+      "text": "I have your account open now. If your UK bank's two-factor text isn't arriving in the UAE, that's your bank's international SMS aggregator problem, not ours—you'd have to take that up with your bank.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:16]",
+      "end_time": "[01:33]",
+      "start_time_sec": 76,
+      "text": "Wait a second, I literally just spent twenty minutes on Skype with HSBC's fraud and technical desk before calling you! They showed me their delivery receipt log proving three OTP texts left their UK gateway and were rejected by S-Net's roaming switch!",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:34]",
+      "end_time": "[01:44]",
+      "start_time_sec": 94,
+      "text": "Bank gateways often say a message left their server even when the local Middle East carrier drops the short-code routing along the international hub.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:45]",
+      "end_time": "[02:02]",
+      "start_time_sec": 105,
+      "text": "No, listen to me—I'm connected to the `du` network here in Dubai with full five-bar signal, I tried manually switching over to `Etisalat` ten minutes ago too, and even regular text messages from my husband's UK mobile aren't coming through to my phone!",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:03]",
+      "end_time": "[02:14]",
+      "start_time_sec": 123,
+      "text": "Right, you mentioned you tested both `du` and `Etisalat` in Dubai and standard person-to-person texts from your husband's UK mobile are also failing to arrive on 07700 908312.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:15]",
+      "end_time": "[02:35]",
+      "start_time_sec": 135,
+      "text": "Yes! My husband sent me two normal texts from his phone in London twenty minutes ago to test it, and neither of them arrived! And before I boarded my flight at Heathrow last night I set my Overseas Roaming Spend Cap to zero pounds in the My S-Net app.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:36]",
+      "end_time": "[02:46]",
+      "start_time_sec": 156,
+      "text": "You set the Overseas Roaming Spend Cap to zero pounds in the My S-Net app at Heathrow last night before flying out to the UAE.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:47]",
+      "end_time": "[03:03]",
+      "start_time_sec": 167,
+      "text": "Yes, because the app said setting a zero-pound spend cap only stops paid roaming data and out-of-bundle charges! Receiving incoming SMS texts abroad is completely free, isn't it? Please check the network bars on my line instead of blaming HSBC!",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:04]",
+      "end_time": "[03:18]",
+      "start_time_sec": 184,
+      "text": "Receiving incoming SMS messages while roaming in the UAE is free of charge on S-Net tariffs. Let me open the HLR network provisioning profile for line 07700 908312 and inspect the active roaming restriction flags.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:19]",
+      "end_time": "[03:28]",
+      "start_time_sec": 199,
+      "text": "Thank you, please look closely at whatever got triggered when I turned on that zero-pound roaming spend cap at Heathrow last night.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:29]",
+      "end_time": "[03:39]",
+      "start_time_sec": 209,
+      "text": "I am looking at the HLR service bar matrix applied at 21:14 last night when the zero-pound Roaming Spend Cap order processed on your SIM.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:40]",
+      "end_time": "[03:45]",
+      "start_time_sec": 220,
+      "text": "And what does the HLR service bar matrix show for my line?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:46]",
+      "end_time": "[04:00]",
+      "start_time_sec": 226,
+      "text": "When the zero-pound Roaming Spend Cap script executed at 21:14, besides setting the Zone B Roaming Data Bar (`GPRSB`), it also tripped a stuck `BAIC / Roaming MT-SMS Bar` flag on your HLR profile.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:01]",
+      "end_time": "[04:09]",
+      "start_time_sec": 241,
+      "text": "I knew it! What is a `Roaming MT-SMS Bar`? Does MT-SMS mean mobile-terminated text messages—as in all incoming texts while abroad?",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:10]",
+      "end_time": "[04:27]",
+      "start_time_sec": 250,
+      "text": "Yes, `MT-SMS` stands for Mobile-Terminated Short Message Service. With that flag stuck on Active in the HLR, our home routing gateway blocks every incoming SMS—both HSBC short-code verification texts and standard texts from your husband—while your SIM is registered on `du` or `Etisalat`.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:28]",
+      "end_time": "[04:36]",
+      "start_time_sec": 268,
+      "text": "Why on earth would the zero-pound spend cap block free incoming texts?! That's a massive bug in your spend cap script!",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:37]",
+      "end_time": "[04:49]",
+      "start_time_sec": 277,
+      "text": "There is a known provisioning defect on older SIM profile templates where setting the cap to exactly £0.00 invokes the legacy full-roaming-bar macro instead of the data-only roaming bar macro.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:50]",
+      "end_time": "[05:06]",
+      "start_time_sec": 290,
+      "text": "Right, so when HSBC told me S-Net's home network switch was rejecting the OTP texts, they were telling the complete truth! Can you remove that `Roaming MT-SMS Bar` right now while still keeping my roaming mobile data capped at zero?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:07]",
+      "end_time": "[05:20]",
+      "start_time_sec": 307,
+      "text": "Yes, I can manually decouple the two flags on your HLR profile so `Roaming MT-SMS` is set to Allowed while `Roaming Data (GPRSB)` and `Premium Outbound Roaming` remain capped at zero pounds.",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:21]",
+      "end_time": "[05:36]",
+      "start_time_sec": 321,
+      "text": "Yes please, do that right now! I don't want any accidental roaming data charges in Dubai since I'm using hotel Wi-Fi, I just need all my incoming SMS texts and bank OTP codes to come through immediately.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:37]",
+      "end_time": "[05:49]",
+      "start_time_sec": 337,
+      "text": "Please bear with me for a moment while I strip the stuck `Roaming MT-SMS Bar` from your HLR profile and send a location-update cancellation to the `du` network switch in Dubai.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:39]",
+      "end_time": "[06:53]",
+      "start_time_sec": 399,
+      "text": "Thank you for holding, and thank you for your patience while that HLR command executed. I have removed the `Roaming MT-SMS Bar` from line 07700 908312 while keeping your zero-pound roaming data cap locked in place.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:54]",
+      "end_time": "[07:06]",
+      "start_time_sec": 414,
+      "text": "Okay, my phone is sitting right here on the reception counter connected to `du`. What do I need to do on my handset for the new HLR setting to take effect?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:07]",
+      "end_time": "[07:21]",
+      "start_time_sec": 427,
+      "text": "Because I sent a location-update reset to the `du` visitor location register, please switch Airplane Mode on for ten seconds and then switch it back off so your SIM completes a fresh SS7 handshake.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:22]",
+      "end_time": "[07:28]",
+      "start_time_sec": 442,
+      "text": "Switching Airplane Mode on right now... waiting ten seconds... and turning Airplane Mode back off now.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:29]",
+      "end_time": "[07:36]",
+      "start_time_sec": 449,
+      "text": "Let me know as soon as the `du` network name reappears at the top of your screen.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:37]",
+      "end_time": "[07:51]",
+      "start_time_sec": 457,
+      "text": "Wait—`du 5G` just popped back up at the top of my screen, and my phone just buzzed twice in a row! Both of the texts my husband sent me earlier from London just arrived!",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:52]",
+      "end_time": "[08:04]",
+      "start_time_sec": 472,
+      "text": "The buffered person-to-person texts from your husband's UK mobile have now delivered through the SMS centre. Now let's test a fresh six-digit OTP verification code from your HSBC banking app.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:05]",
+      "end_time": "[08:11]",
+      "start_time_sec": 485,
+      "text": "Why didn't the earlier HSBC codes come through at the same time as my husband's texts?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:12]",
+      "end_time": "[08:27]",
+      "start_time_sec": 492,
+      "text": "Bank 3D Secure OTP messages have a short validity TTL—usually three to five minutes—so the SMS gateway discards expired banking codes rather than storing and forwarding old ones. Triggering a new code now will send a fresh message.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:28]",
+      "end_time": "[08:42]",
+      "start_time_sec": 508,
+      "text": "That makes sense. Okay, the hotel receptionist just tapped my HSBC card on the terminal again and my banking screen is asking for the six-digit SMS security code... I'm tapping 'Send SMS Code' right now.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:43]",
+      "end_time": "[08:51]",
+      "start_time_sec": 523,
+      "text": "I am watching the live signaling trace on your MSISDN from our international SMS gateway while it routes to `du`.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:52]",
+      "end_time": "[09:04]",
+      "start_time_sec": 532,
+      "text": "Oh thank goodness, it literally just popped up at the top of my screen! Six-digit code 849201 from HSBC UK! Let me type it into the checkout screen right now...",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:05]",
+      "end_time": "[09:13]",
+      "start_time_sec": 545,
+      "text": "I can see the `MT-SMS DELIVERED_ACK` receipt from the `du` switch in Dubai on my trace monitor as well.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:14]",
+      "end_time": "[09:27]",
+      "start_time_sec": 554,
+      "text": "Payment Approved! The hotel receptionist just handed me my room key card! You have no idea what a relief that is after standing in this lobby with my suitcases for an hour.",
+      "sentiment_score": 58.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:28]",
+      "end_time": "[09:36]",
+      "start_time_sec": 568,
+      "text": "So both your standard UK texts and your HSBC six-digit verification codes are now arriving immediately on the `du` network.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:37]",
+      "end_time": "[09:54]",
+      "start_time_sec": 577,
+      "text": "Yes, they are working properly now. Let me just double-check one thing—while I'm in Dubai for the next six days, is there any chance that zero-pound roaming spend cap script will re-run tonight and put the `Roaming MT-SMS Bar` back on my line?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:55]",
+      "end_time": "[10:11]",
+      "start_time_sec": 595,
+      "text": "That is an important point. If you leave the spend cap slider untouched in the My S-Net app, the macro will not re-run. However, I have also migrated your SIM profile from the legacy bar template to our current `v4-DataOnly-Cap` template.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:12]",
+      "end_time": "[10:16]",
+      "start_time_sec": 612,
+      "text": "What does migrating my SIM profile to the `v4-DataOnly-Cap` template do?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:18]",
+      "end_time": "[10:34]",
+      "start_time_sec": 618,
+      "text": "On the `v4-DataOnly-Cap` template, the `Roaming MT-SMS` flag is permanently excluded from the spend cap rules, so even if your cap refreshes at midnight or you change the cap amount in the app, incoming texts will never be barred again.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:35]",
+      "end_time": "[10:43]",
+      "start_time_sec": 635,
+      "text": "And what if my phone switches automatically from `du` over to `Etisalat` while I'm travelling around different parts of Dubai?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:44]",
+      "end_time": "[10:57]",
+      "start_time_sec": 644,
+      "text": "Because the HLR profile sits on our core S-Net home network in the UK, the `MT-SMS Allowed` permission applies across every UAE roaming partner, whether your handset registers on `du` or `Etisalat`.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:58]",
+      "end_time": "[11:08]",
+      "start_time_sec": 658,
+      "text": "And my roaming mobile data is definitely still blocked at £0.00 so my background apps won't rack up £6 per megabyte charges outside the hotel Wi-Fi?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:09]",
+      "end_time": "[11:23]",
+      "start_time_sec": 669,
+      "text": "Yes, I have verified on the HLR that `GPRSB (Roaming Packet Data)` remains barred and your Overseas Roaming Spend Cap is set at £0.00, so zero chargeable data traffic can pass over `du` or `Etisalat`.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:24]",
+      "end_time": "[11:36]",
+      "start_time_sec": 684,
+      "text": "What about incoming voice calls if someone rings my mobile number from the UK while I'm in Dubai—will my phone ring, and would that charge me if I don't answer it?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:37]",
+      "end_time": "[11:52]",
+      "start_time_sec": 697,
+      "text": "In Zone B destinations like the UAE, receiving and answering an incoming voice call costs £1.40 per minute, so with a £0.00 spend cap active, incoming voice calls will go straight to voicemail without charging you a penny.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:53]",
+      "end_time": "[12:03]",
+      "start_time_sec": 713,
+      "text": "Wait—and if someone leaves a voicemail, will I get the free SMS notification telling me I have a voicemail, or will that cost money?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:04]",
+      "end_time": "[12:15]",
+      "start_time_sec": 724,
+      "text": "The SMS voicemail notification alert is a standard incoming text message, so it will arrive on your screen completely free of charge now that `Roaming MT-SMS` is enabled.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:16]",
+      "end_time": "[12:26]",
+      "start_time_sec": 736,
+      "text": "Okay, and as long as I don't dial 121 to listen to the voicemail over the mobile network while in Dubai, I won't get charged?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:27]",
+      "end_time": "[12:35]",
+      "start_time_sec": 747,
+      "text": "Correct, and with your £0.00 Overseas Roaming Spend Cap active, the network would block a chargeable call to 121 anyway.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:36]",
+      "end_time": "[12:46]",
+      "start_time_sec": 756,
+      "text": "What if I want to buy an S-Net UAE Roaming Data Pass later in the week if I have a day trip outside the city?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:47]",
+      "end_time": "[13:01]",
+      "start_time_sec": 767,
+      "text": "If you purchase a prepaid UAE Roaming Data Pass in the My S-Net app, the pass allowance works independently of your £0.00 out-of-bundle spend cap, and our `v4-DataOnly-Cap` profile will keep your incoming SMS active throughout.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:02]",
+      "end_time": "[13:12]",
+      "start_time_sec": 782,
+      "text": "Can I still receive free incoming service texts from S-Net as well as my bank codes from other UK cards like my Amex while I'm here?",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:13]",
+      "end_time": "[13:24]",
+      "start_time_sec": 793,
+      "text": "Yes, all incoming SMS messages—including HSBC and Amex 3D Secure codes, airline boarding updates, and standard texts from UK or UAE numbers—will come through free of charge.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:25]",
+      "end_time": "[13:34]",
+      "start_time_sec": 805,
+      "text": "Could you put a detailed reference note on my account in case I ever need to refer back to this HLR fix?",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:35]",
+      "end_time": "[13:45]",
+      "start_time_sec": 815,
+      "text": "I have logged case reference ROAM-71049 on your account notes detailing the removal of the `Roaming MT-SMS Bar` and the migration to the `v4-DataOnly-Cap` profile.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:46]",
+      "end_time": "[13:52]",
+      "start_time_sec": 826,
+      "text": "And did you send a text confirmation with that reference number to my mobile?",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:53]",
+      "end_time": "[13:59]",
+      "start_time_sec": 833,
+      "text": "I have just dispatched the confirmation SMS for case ROAM-71049 to 07700 908312 right now.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:00]",
+      "end_time": "[14:09]",
+      "start_time_sec": 840,
+      "text": "It just arrived on my phone immediately! That's four texts in three minutes, so the incoming SMS path is definitely solid now.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:10]",
+      "end_time": "[14:19]",
+      "start_time_sec": 850,
+      "text": "Everything on the HLR and SMS routing side is confirmed active. Is there anything else you need checked on line 07700 908312 today?",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:20]",
+      "end_time": "[14:30]",
+      "start_time_sec": 860,
+      "text": "Let me just check my My S-Net app over the lobby Wi-Fi to make sure the £0.00 spend cap still shows active on my dashboard.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:31]",
+      "end_time": "[14:35]",
+      "start_time_sec": 871,
+      "text": "Go ahead and check the Roaming Controls tab in the app.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:37]",
+      "end_time": "[14:44]",
+      "start_time_sec": 877,
+      "text": "Yes, it shows 'Overseas Spend Cap: £0.00 Active' and right underneath it now says 'Incoming Roaming SMS: Enabled'.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:45]",
+      "end_time": "[14:49]",
+      "start_time_sec": 885,
+      "text": "That matches the `v4-DataOnly-Cap` profile settings on our switch.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:51]",
+      "end_time": "[15:01]",
+      "start_time_sec": 891,
+      "text": "No other questions from me, I'm finally heading up to my hotel room now. Thanks for clearing the bar once you looked at the HLR.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:02]",
+      "end_time": "[15:07]",
+      "start_time_sec": 902,
+      "text": "Thank you for choosing S-Net, and have a safe trip in Dubai. Goodbye.",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:08]",
+      "end_time": "[15:10]",
+      "start_time_sec": 908,
+      "text": "Goodbye.",
+      "sentiment_score": 35.0
+    }
+  ]
+}

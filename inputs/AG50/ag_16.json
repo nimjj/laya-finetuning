@@ -1,0 +1,662 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Chinedu",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Hello, S-Net billing department, Liam speaking. How can I help you today?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:20]",
+      "start_time_sec": 8,
+      "text": "Hi Liam, my name is Chinedu. I'm ringing because I've just opened my October statement and there's another fifteen pound late payment fee on here that shouldn't be there at all.",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:22]",
+      "end_time": "[00:34]",
+      "start_time_sec": 22,
+      "text": "Right, Chinedu, before I look at any statement charges I need to verify your account. Can you confirm the first line of your billing address and your four-digit security PIN?",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:36]",
+      "end_time": "[00:43]",
+      "start_time_sec": 36,
+      "text": "Yes, it's 44 Kingsway Terrace, Manchester, M19 2QP, and the four-digit PIN on the account is 7391.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:45]",
+      "end_time": "[00:53]",
+      "start_time_sec": 45,
+      "text": "Okay, Chinedu, that matches the file for 44 Kingsway Terrace. Now tell me which invoice number you're looking at.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:55]",
+      "end_time": "[01:11]",
+      "start_time_sec": 55,
+      "text": "It's invoice SN-8841209, dated the eighteenth of October, and there was also one on the September invoice SN-8710442. On the fourteenth of September, which was my due date, your S-Net online payment portal crashed with an HTTP 502 Bad Gateway error.",
+      "sentiment_score": -48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:13]",
+      "end_time": "[01:24]",
+      "start_time_sec": 73,
+      "text": "I see invoice SN-8841209 and invoice SN-8710442 on the screen here, both showing a fifteen pound late payment administration fee applied on the fifteenth of the month.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:26]",
+      "end_time": "[01:42]",
+      "start_time_sec": 86,
+      "text": "Exactly! On the fourteenth of September I tried paying my forty-two pound ninety-nine Fibre 150 bill three times between 7 PM and 9:30 PM on my laptop, and every single time your website threw an HTTP 502 Bad Gateway screen.",
+      "sentiment_score": -52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:44]",
+      "end_time": "[01:57]",
+      "start_time_sec": 104,
+      "text": "The ledger simply records that the forty-two pound ninety-nine payment cleared on the sixteenth of September via debit card ending 4408, which is forty-eight hours after the due date of the fourteenth.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:59]",
+      "end_time": "[02:19]",
+      "start_time_sec": 119,
+      "text": "Yes, because your payment gateway was completely down on the fourteenth! And then this month, even though I paid the core forty-two pounds ninety-nine on time on the twelfth of October, your system rolled over the unpaid fifteen pound fee and hit me with a second fifteen pound late fee!",
+      "sentiment_score": -58.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:21]",
+      "end_time": "[02:36]",
+      "start_time_sec": 141,
+      "text": "Well, Chinedu, our billing engine runs an automated midnight sweep on the fourteenth. If the full balance including any prior fifteen pound fee isn't zeroed out by 23:59, the system automatically appends a further fifteen pound late fee.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:38]",
+      "end_time": "[02:54]",
+      "start_time_sec": 158,
+      "text": "Liam, are you listening to why the balance wasn't paid on the fourteenth of September? Your own S-Net status banner said 'Planned and unplanned portal maintenance affecting My S-Net card checkout.' I even took a screenshot with the timestamp at 20:14!",
+      "sentiment_score": -60.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:56]",
+      "end_time": "[03:14]",
+      "start_time_sec": 176,
+      "text": "You don't need to repeat the dates or the invoice numbers, Chinedu—I heard you say it was the fourteenth of September at 20:14 with an HTTP 502 Bad Gateway on invoice SN-8710442, and that you paid the forty-two ninety-nine on card 4408 on the sixteenth.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:16]",
+      "end_time": "[03:29]",
+      "start_time_sec": 196,
+      "text": "Okay, so if you've got all those facts straight, why on earth am I being penalised thirty pounds in total for two fifteen pound fees when S-Net's own checkout server was broken?",
+      "sentiment_score": -62.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:31]",
+      "end_time": "[03:41]",
+      "start_time_sec": 211,
+      "text": "Because a screenshot on your laptop doesn't stop the billing ledger from flagging an overdue balance when the clearing house doesn't receive funds by the fourteenth.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:43]",
+      "end_time": "[03:55]",
+      "start_time_sec": 223,
+      "text": "Don't you want to ask me what browser I was using, or check the merchant gateway failure logs for my account, or ask for the error reference code on my screenshot?",
+      "sentiment_score": -55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:56]",
+      "end_time": "[04:04]",
+      "start_time_sec": 236,
+      "text": "I don't need to ask you any questions about your browser or error codes because billing agents don't investigate website screenshots.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:05]",
+      "end_time": "[04:21]",
+      "start_time_sec": 245,
+      "text": "That's unbelievable. When I tried setting up a Direct Debit earlier in August, the portal also rejected my Nationwide sort code, which is the only reason I was paying manually by debit card ending 4408 in the first place!",
+      "sentiment_score": -60.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:22]",
+      "end_time": "[04:32]",
+      "start_time_sec": 262,
+      "text": "I can see the rejected Direct Debit mandate attempt from the nineteenth of August on your notes, Chinedu, followed by manual payments on card 4408.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:33]",
+      "end_time": "[04:47]",
+      "start_time_sec": 273,
+      "text": "Right, so you can see the pattern! Everything I've tried to do through My S-Net has glitched on your end, and now my account balance says seventy-two pounds ninety-nine instead of forty-two pounds ninety-nine.",
+      "sentiment_score": -63.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:48]",
+      "end_time": "[04:57]",
+      "start_time_sec": 288,
+      "text": "Please bear with me for a moment while I check the merchant gateway audit log and the ledger adjustment rules for your account.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:58]",
+      "end_time": "[05:01]",
+      "start_time_sec": 298,
+      "text": "Fine, I'll hold, please check it properly.",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:28]",
+      "end_time": "[06:35]",
+      "start_time_sec": 388,
+      "text": "Thanks for waiting, Chinedu. I've reviewed the merchant ledger for both September the fourteenth and October the fourteenth.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:36]",
+      "end_time": "[06:45]",
+      "start_time_sec": 396,
+      "text": "Okay, and what does the merchant log show for the evening of the fourteenth of September between 7 PM and 9:30 PM?",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:46]",
+      "end_time": "[06:58]",
+      "start_time_sec": 406,
+      "text": "It shows no completed settlement tokens reaching the billing ledger on the fourteenth of September, and then the manual settlement of forty-two pounds ninety-nine on the sixteenth of September.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:59]",
+      "end_time": "[07:08]",
+      "start_time_sec": 419,
+      "text": "Of course no completed token reached the ledger—the front-end web server crashed with HTTP 502 before the 3D Secure screen could even load!",
+      "sentiment_score": -58.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:09]",
+      "end_time": "[07:17]",
+      "start_time_sec": 429,
+      "text": "Whether the front-end server returned an HTTP 502 or not, the billing ledger only reads settled bank transactions, Chinedu.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:18]",
+      "end_time": "[07:30]",
+      "start_time_sec": 438,
+      "text": "Surely S-Net has an internal log of when the My S-Net portal was down on the fourteenth of September? Can't you cross-reference that outage and waive the two fifteen pound fees?",
+      "sentiment_score": -56.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:31]",
+      "end_time": "[07:39]",
+      "start_time_sec": 451,
+      "text": "No, I'm not going to dig around for web outage logs. The charge stands as valid on both SN-8710442 and SN-8841209.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:40]",
+      "end_time": "[07:54]",
+      "start_time_sec": 460,
+      "text": "How can a late fee be valid when the company prevented me from paying on time? Under Ofcom rules and basic contract fairness, you can't charge a default fee caused by your own system failure!",
+      "sentiment_score": -65.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:55]",
+      "end_time": "[08:05]",
+      "start_time_sec": 475,
+      "text": "Our terms and conditions state that the account holder is responsible for ensuring cleared funds reach S-Net by the due date shown on the statement.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:06]",
+      "end_time": "[08:15]",
+      "start_time_sec": 486,
+      "text": "And how is an account holder supposed to do that when your online checkout is broken at 8 PM on the due date?",
+      "sentiment_score": -64.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:16]",
+      "end_time": "[08:30]",
+      "start_time_sec": 496,
+      "text": "If our web server went down that's the IT web team's problem, not billing's, so you'll need to take that up with them rather than asking me to wipe thirty pounds off your ledger.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:31]",
+      "end_time": "[08:39]",
+      "start_time_sec": 511,
+      "text": "Excuse me? The IT web team's problem? You all work for S-Net! I'm a customer of S-Net, not two separate companies!",
+      "sentiment_score": -70.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:40]",
+      "end_time": "[08:50]",
+      "start_time_sec": 520,
+      "text": "Digital channels and the web portal are run by a completely separate department in Reading, Chinedu. Billing only manages the ledger balances that come through.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:51]",
+      "end_time": "[09:03]",
+      "start_time_sec": 531,
+      "text": "Can't you raise an internal ticket to the digital channels team in Reading to confirm the HTTP 502 outage on the fourteenth of September and then credit my thirty pounds?",
+      "sentiment_score": -66.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:04]",
+      "end_time": "[09:17]",
+      "start_time_sec": 544,
+      "text": "That's not my job to chase the web team for you. There's a 'Report a Website Fault' link at the bottom of the S-Net homepage if you want to message them yourself.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:18]",
+      "end_time": "[09:30]",
+      "start_time_sec": 558,
+      "text": "And what happens if I fill in a website fault form? Does the web team have access to my billing ledger to refund the thirty pounds on invoices SN-8710442 and SN-8841209?",
+      "sentiment_score": -68.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:31]",
+      "end_time": "[09:37]",
+      "start_time_sec": 571,
+      "text": "No, they don't touch billing ledgers, they just log bug reports for the developers.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:39]",
+      "end_time": "[09:52]",
+      "start_time_sec": 579,
+      "text": "Then what would be the point of me messaging them if only billing can credit my account and billing refuses to speak to them?! You're sending me around in a complete circle!",
+      "sentiment_score": -74.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:53]",
+      "end_time": "[10:00]",
+      "start_time_sec": 593,
+      "text": "I'm telling you how our departments are structured, Chinedu. Billing doesn't issue goodwill credits for website errors.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:01]",
+      "end_time": "[10:11]",
+      "start_time_sec": 601,
+      "text": "It isn't a goodwill credit! It's an erroneous charge! Look at the second fifteen pound fee on invoice SN-8841209 from the eighteenth of October.",
+      "sentiment_score": -70.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:12]",
+      "end_time": "[10:21]",
+      "start_time_sec": 612,
+      "text": "I am looking at SN-8841209. You paid forty-two pounds ninety-nine on the twelfth of October, leaving the fifteen pound fee from September unpaid.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:22]",
+      "end_time": "[10:39]",
+      "start_time_sec": 622,
+      "text": "Yes! I paid my full monthly broadband rental of forty-two pounds ninety-nine two days early on the twelfth of October! Charging a fifteen pound late fee on top of an existing disputed fifteen pound late fee is a 100% penalty on a fee!",
+      "sentiment_score": -75.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:40]",
+      "end_time": "[10:52]",
+      "start_time_sec": 640,
+      "text": "Any unpaid balance carried past the fourteenth of October triggers the automated fifteen pound administration charge, regardless of whether that unpaid balance is broadband rental or a prior fee.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:53]",
+      "end_time": "[11:05]",
+      "start_time_sec": 653,
+      "text": "So if I don't pay this thirty pounds by the fourteenth of November, your system is going to slap a third fifteen pound fee on my November statement too?",
+      "sentiment_score": -72.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:06]",
+      "end_time": "[11:15]",
+      "start_time_sec": 666,
+      "text": "Yes, Chinedu, if the thirty pound arrears balance remains unpaid on the fourteenth of November, another fifteen pound fee will be added automatically.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:16]",
+      "end_time": "[11:24]",
+      "start_time_sec": 676,
+      "text": "And you won't put a dispute hold or a suppression marker on those thirty pounds while this is investigated?",
+      "sentiment_score": -68.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:25]",
+      "end_time": "[11:34]",
+      "start_time_sec": 685,
+      "text": "No, I'm not placing a suppression marker on the account because as far as billing is concerned the balance is legitimately overdue.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:35]",
+      "end_time": "[11:49]",
+      "start_time_sec": 695,
+      "text": "Liam, listen to yourself. I tried to set up Direct Debit on the nineteenth of August—your portal rejected my Nationwide sort code. I tried to pay on the fourteenth of September—your portal crashed with HTTP 502.",
+      "sentiment_score": -74.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:50]",
+      "end_time": "[12:00]",
+      "start_time_sec": 710,
+      "text": "Yes, Chinedu, you've mentioned the nineteenth of August Nationwide mandate and the fourteenth of September HTTP 502 error several times now, and my answer hasn't changed.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:01]",
+      "end_time": "[12:13]",
+      "start_time_sec": 721,
+      "text": "Because you haven't actually done anything to help me! Have you even checked whether my Nationwide sort code can be added over the phone right now so this stops happening?",
+      "sentiment_score": -70.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:14]",
+      "end_time": "[12:26]",
+      "start_time_sec": 734,
+      "text": "If you want a Direct Debit set up over the phone, we can only do that once the overdue thirty pound late fee balance on the account is cleared in full.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:27]",
+      "end_time": "[12:39]",
+      "start_time_sec": 747,
+      "text": "Wait—you won't even let me set up a Direct Debit for future bills unless I first pay thirty pounds in late fees that were caused by your website crashing?",
+      "sentiment_score": -76.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:40]",
+      "end_time": "[12:50]",
+      "start_time_sec": 760,
+      "text": "Our system blocks new Direct Debit mandates while an account is in arrears, Chinedu. You have to clear the thirty pounds by card first.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:51]",
+      "end_time": "[13:04]",
+      "start_time_sec": 771,
+      "text": "That is utterly ridiculous. Every single barrier here is created by S-Net's systems, and you're treating me like someone who's dodging their broadband bill when I've paid forty-two ninety-nine every single month!",
+      "sentiment_score": -78.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:05]",
+      "end_time": "[13:14]",
+      "start_time_sec": 785,
+      "text": "The system doesn't distinguish why a payment was two days late on the sixteenth of September, only that it arrived after the fourteenth.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:15]",
+      "end_time": "[13:25]",
+      "start_time_sec": 795,
+      "text": "The system doesn't, which is why S-Net employs human beings in customer support to look at the evidence and override the computer when the website breaks!",
+      "sentiment_score": -77.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:26]",
+      "end_time": "[13:36]",
+      "start_time_sec": 806,
+      "text": "My override limit isn't there to cover people who waited until 8 PM on their bill due date to log into a web browser, Chinedu.",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:37]",
+      "end_time": "[13:51]",
+      "start_time_sec": 817,
+      "text": "Waited until 8 PM?! I work twelve-hour shifts at the hospital! 8 PM on the fourteenth of the month is still ON the fourteenth of the month! The due date doesn't end at lunchtime!",
+      "sentiment_score": -82.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:52]",
+      "end_time": "[14:05]",
+      "start_time_sec": 832,
+      "text": "The due date runs until midnight, sure, but if you leave a manual card payment until the last four hours of the due date, you take the risk that maintenance is running.",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:06]",
+      "end_time": "[14:18]",
+      "start_time_sec": 846,
+      "text": "Unplanned HTTP 502 crashes at 8 PM in the evening are not my risk to absorb! Why didn't the website warn customers earlier in the week if maintenance was planned?",
+      "sentiment_score": -80.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:19]",
+      "end_time": "[14:25]",
+      "start_time_sec": 859,
+      "text": "Again, Chinedu, I don't run the website schedule, that's the digital team in Reading.",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:27]",
+      "end_time": "[14:39]",
+      "start_time_sec": 867,
+      "text": "And I asked you how I'm supposed to pay when the website is down at 8 PM on the fourteenth, and you still haven't given me a reasonable answer!",
+      "sentiment_score": -82.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:40]",
+      "end_time": "[14:48]",
+      "start_time_sec": 880,
+      "text": "There are plenty of ways to pay a forty-two pound ninety-nine bill without using a laptop web browser, Chinedu.",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:49]",
+      "end_time": "[15:02]",
+      "start_time_sec": 889,
+      "text": "When I'm sitting at home at 8:15 PM looking at an HTTP 502 error screen on My S-Net, expecting it to come back up any minute, what else was I supposed to do?",
+      "sentiment_score": -83.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:03]",
+      "end_time": "[15:12]",
+      "start_time_sec": 903,
+      "text": "Look, don't be an idiot, Chinedu—if the website maintenance page was up you could have dialled the automated payment line from your handset!",
+      "sentiment_score": -65.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:13]",
+      "end_time": "[15:19]",
+      "start_time_sec": 913,
+      "text": "Did you just call me an idiot?! Are you actually serious right now, Liam?!",
+      "sentiment_score": -95.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:21]",
+      "end_time": "[15:30]",
+      "start_time_sec": 921,
+      "text": "I'm just pointing out the obvious, Chinedu. Our 24-hour automated telephone payment line is printed on the back of every statement including SN-8710442.",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:31]",
+      "end_time": "[15:40]",
+      "start_time_sec": 931,
+      "text": "You just called a paying customer an idiot on a recorded line! I want your team manager on the phone right this second!",
+      "sentiment_score": -94.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:41]",
+      "end_time": "[15:49]",
+      "start_time_sec": 941,
+      "text": "There isn't a team manager available to take billing calls right now, they're all in an afternoon performance meeting.",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:50]",
+      "end_time": "[16:02]",
+      "start_time_sec": 950,
+      "text": "An afternoon performance meeting?! Tell them one of their billing agents is insulting customers who ring up about S-Net's own website crashing! Give me the formal complaints reference number immediately!",
+      "sentiment_score": -92.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:03]",
+      "end_time": "[16:13]",
+      "start_time_sec": 963,
+      "text": "If you want to log a formal complaint, I can open a standard stage-one reference on the account, but the thirty pound balance still remains payable.",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:14]",
+      "end_time": "[16:28]",
+      "start_time_sec": 974,
+      "text": "Open the stage-one complaint and make sure you type in the notes that you refused to check the HTTP 502 outage, told me it was the IT web team's problem, and called me an idiot!",
+      "sentiment_score": -93.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:29]",
+      "end_time": "[16:34]",
+      "start_time_sec": 989,
+      "text": "I've generated complaint reference CMP-409281 on your profile for 44 Kingsway Terrace, Chinedu.",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:36]",
+      "end_time": "[16:45]",
+      "start_time_sec": 996,
+      "text": "CMP-409281. And who picks up that complaint, and when are they going to call me back to remove these two fifteen pound fees?",
+      "sentiment_score": -88.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:46]",
+      "end_time": "[16:56]",
+      "start_time_sec": 1006,
+      "text": "Customer relations reviews stage-one complaints within five working days. Until they say otherwise, the thirty pounds on invoices SN-8710442 and SN-8841209 stays on the ledger.",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:57]",
+      "end_time": "[17:09]",
+      "start_time_sec": 1017,
+      "text": "So you're still refusing to remove either of the fifteen pound late fees or even place a hold on them while customer relations listens to the recording of you insulting me?",
+      "sentiment_score": -90.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:10]",
+      "end_time": "[17:18]",
+      "start_time_sec": 1030,
+      "text": "That's right, Chinedu. The thirty pound charge remains active on the account and I am not issuing any credit today.",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:19]",
+      "end_time": "[17:29]",
+      "start_time_sec": 1039,
+      "text": "I'm going straight to the Communications Ombudsman if customer relations doesn't wipe that thirty pounds and deal with your behaviour. I've got the complaint number CMP-409281.",
+      "sentiment_score": -89.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:30]",
+      "end_time": "[17:36]",
+      "start_time_sec": 1050,
+      "text": "That's entirely your choice, Chinedu. Your complaint reference is logged on the system. Goodbye.",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:38]",
+      "end_time": "[17:40]",
+      "start_time_sec": 1058,
+      "text": "Unbelievable service. Goodbye.",
+      "sentiment_score": -88.0
+    }
+  ]
+}

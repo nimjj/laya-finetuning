@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_48",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 78.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Despite the customer stating she was shaking and terrified at [00:11] after a fraudulent £1,200 order was placed on her account, the agent remained purely clinical and never once offered empathy, reassurance, or an apology for her distress."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "As stated at [14:47] and [17:02], cancelling the credit agreement, removing the £30 pending bill charge, and expunging the Equifax/Experian hard search require 48 hours from the back-office Fraud Operations team, and the customer could not test her new My S-Net login before the call ended."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Suspected account takeover after clicking a fake parcel-delivery text; locking fraudulent handset upgrade order and resetting credentials",
+    "tier": "good",
+    "duration_sec": 1170,
+    "notes": "Good technical security call with 2 FAILs (E, RE) and 9 PASSes. Customer Devika is terrified ([00:11], -48.0 sentiment) after clicking a phishing parcel SMS that led to an unauthorized iPhone 16 Pro Max upgrade order and a queued eSIM swap. Agent Natasha verifies address, PIN, and security question immediately ([00:34]), paraphrases ([01:50]), conducts thorough forensic probing ([03:03]–[05:06]), and uses a properly managed 62s hold ([08:29]–[10:00]) to intercept the DPD warehouse shipment, abort the eSIM swap, and purge the attacker's session (O, H, PR PASS). However, Natasha is strictly clinical and never offers a single word of empathy, apology, or emotional reassurance for Devika's distress (E FAIL), and full resolution awaits the 48-hour Fraud Operations credit-agreement discharge and a 15-minute login cooldown ([14:47]–[17:02], RE FAIL).",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Confirmed the issue is resolved",
+      "Hold time and Dead Air",
+      "Took ownership of the problem",
+      "Probing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'Good morning, thank you for calling S-Net Account Security and Support.' and [19:08] Agent: 'Thank you for choosing S-Net, Devika.'"
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[08:29] Agent: 'May I place you on a brief hold for about one minute while I call the warehouse dispatch controller...' -> [10:00] Agent: 'Thank you for holding, Devika.' (62s managed hold)."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:34] Agent immediately requests address, four-digit security PIN, and security question; [00:52] Customer verifies 14 Vicarage Lane Guildford, PIN 5508, and 'Bluebell'."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:34] Agent uses the customer's name 'Devika' consistently throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:11] Customer: '...I am shaking right now! Twenty minutes ago I got an email saying an order for a twelve-hundred-pound iPhone 16 Pro Max was placed on my S-Net account...' -> [00:34] Agent responds strictly procedurally and never expresses empathy or reassurance across the entire call."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:50] Agent clearly restates the phishing link click, the unauthorized address change to Ilford, and the fraudulent iPhone 16 Pro Max upgrade order, and confirms accuracy."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent tracks every detail Devika provides (08:14 SMS timestamp, Ilford address, Monzo card freeze, mortgage application) without asking her to repeat anything."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[10:00] Agent personally intercepts warehouse order ORD-9920418, aborts pending eSIM swap ESIM-88310, revokes East London OAuth tokens, deletes the rogue ProtonMail email, updates the PIN, and raises Fraud Operations dossier FRD-2026-88412."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent is calm, composed, polite, and methodical throughout the high-urgency security call."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:03]–[05:06] Agent conducts structured forensic probing into the phishing link timestamp, OTP entry, email password reuse, live cellular signal (SIM swap check), and bank card exposure."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[14:47] Agent explains Fraud Operations takes up to 48 hours to void credit agreement CCA-771039 and remove the £30 charge; [17:02] Customer cannot log in to verify her new password for another 15 minutes."
+      }
+    ]
+  }
+}

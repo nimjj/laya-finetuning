@@ -1,0 +1,508 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Danielle",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer services, my name is Kieran. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:20]",
+      "start_time_sec": 8,
+      "text": "Hi Kieran. I'm moving house this Friday, and I received a text message saying our broadband activation at the new property has been delayed due to an external network problem.",
+      "sentiment_score": -20.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:21]",
+      "end_time": "[00:30]",
+      "start_time_sec": 21,
+      "text": "I can certainly look into that home move order delay and get the activation sorted for you, Danielle. Could I take your account number, please?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:31]",
+      "end_time": "[00:37]",
+      "start_time_sec": 31,
+      "text": "Yes, it is SN 930 4412, under Danielle Cooper.",
+      "sentiment_score": 1.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:38]",
+      "end_time": "[00:48]",
+      "start_time_sec": 38,
+      "text": "Thank you, Danielle. For security, could you please confirm your current billing address and your memorable security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:49]",
+      "end_time": "[00:58]",
+      "start_time_sec": 49,
+      "text": "My current address is 15 Primrose Close, Solihull, B91 3QR. And the security question answer is Amber.",
+      "sentiment_score": 3.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:59]",
+      "end_time": "[01:08]",
+      "start_time_sec": 59,
+      "text": "Thank you, Danielle, that verifies your account. Could you also confirm the new property address you are moving to on Friday?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:09]",
+      "end_time": "[01:17]",
+      "start_time_sec": 69,
+      "text": "The new house is 42 Highfield Road, Leamington Spa, CV32 5AB.",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:18]",
+      "end_time": "[01:29]",
+      "start_time_sec": 78,
+      "text": "So just to confirm everything you've explained: you are scheduled to move into Highfield Road this coming Friday, but received an automated SMS warning of an external delay, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:30]",
+      "end_time": "[01:43]",
+      "start_time_sec": 90,
+      "text": "Yes! And I work as an online NHS triage nurse. If I don't have working broadband from Monday morning, I literally cannot do my job or take emergency patient calls. I'm beside myself with worry.",
+      "sentiment_score": -38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:44]",
+      "end_time": "[01:55]",
+      "start_time_sec": 104,
+      "text": "I completely understand how critical this is, Danielle, especially with your NHS triage role. Please don't worry, I am taking personal ownership of this move to ensure you have connectivity."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:56]",
+      "end_time": "[02:00]",
+      "start_time_sec": 116,
+      "text": "Thank you so much Kieran, that's such a relief to hear.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:01]",
+      "end_time": "[02:11]",
+      "start_time_sec": 121,
+      "text": "Let me investigate the exact wholesale bridge note on the Openreach portal. Bear with me for a couple of minutes while I access the engineering notes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:12]",
+      "end_time": "[02:15]",
+      "start_time_sec": 132,
+      "text": "Of course, thank you.",
+      "sentiment_score": 2.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:05]",
+      "end_time": "[03:15]",
+      "start_time_sec": 185,
+      "text": "Thank you for your patience while holding, Danielle. I have retrieved the detailed Openreach surveyor notes for 42 Highfield Road."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:16]",
+      "end_time": "[03:20]",
+      "start_time_sec": 196,
+      "text": "What does it say? Why was it delayed?",
+      "sentiment_score": -1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:21]",
+      "end_time": "[03:32]",
+      "start_time_sec": 201,
+      "text": "The fiber cable has already been blown from the local node to the boundary of the new property, but the internal optical network terminal requires an engineer splice at the exterior wall box."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:33]",
+      "end_time": "[03:39]",
+      "start_time_sec": 213,
+      "text": "Does that mean someone has to come out to the house physically?",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:40]",
+      "end_time": "[03:51]",
+      "start_time_sec": 220,
+      "text": "Yes, it requires a standard ninety-minute engineer visit to complete the physical fusion splice and plug in the optical wall terminal inside."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:52]",
+      "end_time": "[03:57]",
+      "start_time_sec": 232,
+      "text": "Can we get that appointment booked for Friday when I get the keys?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:58]",
+      "end_time": "[04:09]",
+      "start_time_sec": 238,
+      "text": "The system initially placed the order in a review queue because it needed manual wholesale routing approval. I am contacting the Openreach priority dispatch desk directly right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:10]",
+      "end_time": "[04:14]",
+      "start_time_sec": 250,
+      "text": "Brilliant, thank you for pushing it through.",
+      "sentiment_score": 10.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:15]",
+      "end_time": "[04:26]",
+      "start_time_sec": 255,
+      "text": "Because you are a critical NHS key worker providing emergency remote healthcare, I am able to apply our Priority Key Worker escalation flag to the dispatch request."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:27]",
+      "end_time": "[04:33]",
+      "start_time_sec": 267,
+      "text": "Oh, that is wonderful! I didn't know you had a priority flag for NHS workers.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:34]",
+      "end_time": "[04:44]",
+      "start_time_sec": 274,
+      "text": "We certainly do. I have applied the escalation code, and the priority calendar has opened up an appointment slot for this Friday morning, between 8:00 AM and 1:00 PM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:45]",
+      "end_time": "[04:51]",
+      "start_time_sec": 285,
+      "text": "Friday 8:00 AM to 1:00 PM is absolutely perfect. The removal van arrives at 10:00 AM.",
+      "sentiment_score": 30.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:52]",
+      "end_time": "[05:03]",
+      "start_time_sec": 292,
+      "text": "I am booking that exact slot right now on the wholesale system. The appointment reference number is OR-88194-CV."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:04]",
+      "end_time": "[05:08]",
+      "start_time_sec": 304,
+      "text": "Got it noted down, OR-88194-CV.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:09]",
+      "end_time": "[05:20]",
+      "start_time_sec": 309,
+      "text": "I am also sending a mobile 4G backup data dongle by next-day courier to your current address, just in case you need immediate emergency internet before the engineer arrives."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:21]",
+      "end_time": "[05:28]",
+      "start_time_sec": 321,
+      "text": "Kieran, that is above and beyond. That takes all the stress away.",
+      "sentiment_score": 38.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:29]",
+      "end_time": "[05:39]",
+      "start_time_sec": 329,
+      "text": "Just to verify the contact number for the engineer, is your mobile still 07700 900582 so the technician can call you half an hour before arrival?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:40]",
+      "end_time": "[05:46]",
+      "start_time_sec": 340,
+      "text": "Yes, 07700 900582 is my direct mobile number.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:47]",
+      "end_time": "[05:58]",
+      "start_time_sec": 347,
+      "text": "I have added that mobile number to the engineer job sheet with special instructions: 'Customer is moving in today, call mobile upon approach'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:59]",
+      "end_time": "[06:05]",
+      "start_time_sec": 359,
+      "text": "That's fantastic. And what about our current router? Do I bring that with me?",
+      "sentiment_score": 12.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:06]",
+      "end_time": "[06:17]",
+      "start_time_sec": 366,
+      "text": "Yes, please pack your S-Net Hub and power lead in your personal essentials box and plug it in once the engineer completes the fiber wall box."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:18]",
+      "end_time": "[06:23]",
+      "start_time_sec": 378,
+      "text": "Understood. The router goes in the car with me.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:24]",
+      "end_time": "[06:34]",
+      "start_time_sec": 384,
+      "text": "I've just generated the official appointment confirmation SMS and sent it over to your mobile phone right now, Danielle."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:35]",
+      "end_time": "[06:42]",
+      "start_time_sec": 395,
+      "text": "Checking my phone... yes, just buzzed! 'S-Net Move Confirmed: Engineer Friday 8am-1pm at 42 Highfield Road'.",
+      "sentiment_score": 35.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:43]",
+      "end_time": "[06:54]",
+      "start_time_sec": 403,
+      "text": "So to confirm, Danielle, the move order hold is completely released, your Friday morning engineer slot is locked in, and your backup dongle is dispatched?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:55]",
+      "end_time": "[07:03]",
+      "start_time_sec": 415,
+      "text": "Yes, everything is completely resolved. You've solved what I thought was going to be a total disaster.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:04]",
+      "end_time": "[07:15]",
+      "start_time_sec": 424,
+      "text": "I am so pleased we could get this sorted for you, Danielle. Thank you for the vital work you do with the NHS."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:16]",
+      "end_time": "[07:22]",
+      "start_time_sec": 436,
+      "text": "Thank you Kieran, that means a lot.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:23]",
+      "end_time": "[07:34]",
+      "start_time_sec": 443,
+      "text": "I will also place a personal follow-up task on my desk calendar for Friday at 2:00 PM to review the engineer completion report."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:35]",
+      "end_time": "[07:41]",
+      "start_time_sec": 455,
+      "text": "That is incredible customer service. Really reassuring.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:42]",
+      "end_time": "[07:52]",
+      "start_time_sec": 462,
+      "text": "You will receive an automated text when the engineer finishes on Friday confirming your line is live and transmitting data."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:53]",
+      "end_time": "[07:58]",
+      "start_time_sec": 473,
+      "text": "Perfect, I'll keep my eye out for that text.",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:59]",
+      "end_time": "[08:10]",
+      "start_time_sec": 479,
+      "text": "And the billing for your existing property will smoothly transition over to the new address without any double charging or overlap penalties."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:11]",
+      "end_time": "[08:16]",
+      "start_time_sec": 491,
+      "text": "Great, good to know the billing is seamless.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:17]",
+      "end_time": "[08:28]",
+      "start_time_sec": 497,
+      "text": "Is there anything else with your home move, telephone service or broadband package that I can help you with today, Danielle?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:29]",
+      "end_time": "[08:35]",
+      "start_time_sec": 509,
+      "text": "No, that was everything. You have been an absolute lifesaver today, Kieran.",
+      "sentiment_score": 33.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:36]",
+      "end_time": "[08:48]",
+      "start_time_sec": 516,
+      "text": "You are very welcome, Danielle. I am also checking the local fiber speeds for your new street, and you are predicted 500 megabits with an 8 millisecond latency."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:49]",
+      "end_time": "[08:56]",
+      "start_time_sec": 529,
+      "text": "That will be amazing for my telehealth consultations. Much faster than our current line.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:57]",
+      "end_time": "[09:10]",
+      "start_time_sec": 537,
+      "text": "Yes, the Leamington Spa exchange has the newest generation optical line terminals, so your connection will be rock solid for video calls."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:11]",
+      "end_time": "[09:17]",
+      "start_time_sec": 551,
+      "text": "That gives me so much confidence starting work on Monday.",
+      "sentiment_score": 26.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:18]",
+      "end_time": "[09:30]",
+      "start_time_sec": 558,
+      "text": "And remember, if the removal team accidentally misplaces any cables during the packing, our S-Net engineer on Friday carries full replacement cabling kits."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:31]",
+      "end_time": "[09:37]",
+      "start_time_sec": 571,
+      "text": "Oh, that's such a relief. You really think of everything.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:38]",
+      "end_time": "[09:50]",
+      "start_time_sec": 578,
+      "text": "We want your home move experience to be as smooth and painless as possible. I've sent the tracking details for your backup dongle to your email as well."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:51]",
+      "end_time": "[09:57]",
+      "start_time_sec": 591,
+      "text": "Just received that email notification on my phone. Delivery by tomorrow 1:00 PM.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:58]",
+      "end_time": "[10:10]",
+      "start_time_sec": 598,
+      "text": "Spot on. Everything is lined up with both a primary appointment and contingency mobile data."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:11]",
+      "end_time": "[10:17]",
+      "start_time_sec": 611,
+      "text": "I can't thank you enough, Kieran. Best customer support I've ever had.",
+      "sentiment_score": 39.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:18]",
+      "end_time": "[10:30]",
+      "start_time_sec": 618,
+      "text": "It was my genuine pleasure to help you today, Danielle. Is there anything else at all before I let you get back to your packing?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:31]",
+      "end_time": "[10:37]",
+      "start_time_sec": 631,
+      "text": "No, that covers everything brilliantly. Thank you so much again.",
+      "sentiment_score": 30.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:38]",
+      "end_time": "[10:50]",
+      "start_time_sec": 638,
+      "text": "Have a wonderful rest of your day, Danielle, and all the best with the moving vans on Friday."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:51]",
+      "end_time": "[10:58]",
+      "start_time_sec": 651,
+      "text": "Thank you, take care!",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:59]",
+      "end_time": "[11:15]",
+      "start_time_sec": 659,
+      "text": "Thank you for choosing S-Net, Danielle. We look forward to powering your broadband in Leamington Spa. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:16]",
+      "end_time": "[11:24]",
+      "start_time_sec": 676,
+      "text": "Goodbye Kieran, thanks again!",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:25]",
+      "end_time": "[11:45]",
+      "start_time_sec": 685,
+      "text": "Thank you for choosing S-Net, Danielle. Have a fantastic day."
+    }
+  ]
+}

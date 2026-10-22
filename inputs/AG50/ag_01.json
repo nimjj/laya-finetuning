@@ -1,0 +1,630 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Priyanka",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Good evening, thank you for calling S-Net broadband technical support. My name is Daniel speaking today. How can I help you this evening?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:16]",
+      "start_time_sec": 8,
+      "text": "Hi Daniel, it's Priyanka calling. I'm ringing because my fibre broadband keeps dropping out every single evening and it's driving me up the wall.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:17]",
+      "end_time": "[00:27]",
+      "start_time_sec": 17,
+      "text": "I completely understand how frustrating it is when your connection drops right in the middle of your evening, Priyanka, and I'll get straight onto sorting this out for you.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:28]",
+      "end_time": "[00:37]",
+      "start_time_sec": 28,
+      "text": "Thank you, I appreciate that. It literally happens like clockwork between half seven and ten o'clock at night while I'm trying to stream or finish work calls.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:38]",
+      "end_time": "[00:48]",
+      "start_time_sec": 38,
+      "text": "So if I've got that right, your daytime service is stable, but every night between roughly seven thirty and ten your fibre connection keeps cutting out completely—is that accurate?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:49]",
+      "end_time": "[00:58]",
+      "start_time_sec": 49,
+      "text": "Yes, spot on. During the day while I'm working from home on spreadsheets it's mostly fine, maybe a tiny dip, but in the evening it completely dies.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:59]",
+      "end_time": "[01:09]",
+      "start_time_sec": 59,
+      "text": "Got it, thank you for confirming that. Before I pull up your live line telemetry, could you confirm the first line of your address and your four-digit security PIN?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:10]",
+      "end_time": "[01:14]",
+      "start_time_sec": 70,
+      "text": "Sure, the first line is 14 Meadowcroft Lane, Guildford, and my four-digit PIN is 7392.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:15]",
+      "end_time": "[01:25]",
+      "start_time_sec": 75,
+      "text": "Lovely, thank you Priyanka, I've verified your account now. I can see you're on our Full Fibre 300 package. Which router setup are you running at home right now?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:26]",
+      "end_time": "[01:33]",
+      "start_time_sec": 86,
+      "text": "I've got the black S-Net Hub 4X sitting on the hallway table next to the main Openreach optical box on the wall.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:34]",
+      "end_time": "[01:44]",
+      "start_time_sec": 94,
+      "text": "Right, and when the connection drops in the evening, what happens to the status light on the front of your router? Does it flash amber, turn red, or stay white?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:45]",
+      "end_time": "[01:55]",
+      "start_time_sec": 105,
+      "text": "Actually, now that you ask, the main light on the front stays solid white most of the time, or occasionally flashes green for twenty seconds, while my laptop says no internet.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:56]",
+      "end_time": "[02:05]",
+      "start_time_sec": 116,
+      "text": "That's a very useful clue, Priyanka. And on the white Openreach optical box on the wall—the ONT—do the PON and LOS lights change colour when this happens?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:06]",
+      "end_time": "[02:14]",
+      "start_time_sec": 126,
+      "text": "No, I checked the little wall box last night when the television froze. The PON light stayed solid green and the LOS light was completely off.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:15]",
+      "end_time": "[02:24]",
+      "start_time_sec": 135,
+      "text": "Okay, that tells me the physical fibre optic laser coming from the street cabinet into your hallway is staying locked, or at least not losing optical sync entirely.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:25]",
+      "end_time": "[02:35]",
+      "start_time_sec": 145,
+      "text": "Wait, so if the fibre line coming into the house is green, why are my laptop, my partner's tablet, and the living room smart TV all losing connection at once?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:36]",
+      "end_time": "[02:46]",
+      "start_time_sec": 156,
+      "text": "Let's dig into both possibilities. First, are any of your devices plugged directly into the yellow gigabit Ethernet ports on the back with a cable, or is everything on Wi-Fi?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:47]",
+      "end_time": "[02:55]",
+      "start_time_sec": 167,
+      "text": "Everything is on Wi-Fi because the hallway socket is in an awkward spot and we didn't want trailing cables across the floorboards into the lounge.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:56]",
+      "end_time": "[03:06]",
+      "start_time_sec": 176,
+      "text": "That makes complete sense. And when your devices drop out at eight o'clock, do they lose the Wi-Fi signal icon altogether, or do they stay connected with an exclamation mark?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:07]",
+      "end_time": "[03:16]",
+      "start_time_sec": 187,
+      "text": "Sometimes the Wi-Fi network disappears from the list for about forty seconds and then pops back up, and other times it stays connected but pages just spin forever.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:17]",
+      "end_time": "[03:27]",
+      "start_time_sec": 197,
+      "text": "If the Wi-Fi network name actually vanishes for forty seconds and comes back, that usually means either the wireless radio is crashing or the router itself is doing a soft reboot.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:28]",
+      "end_time": "[03:32]",
+      "start_time_sec": 208,
+      "text": "A soft reboot? Why would it be rebooting itself every evening without anyone touching it?",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:33]",
+      "end_time": "[03:44]",
+      "start_time_sec": 213,
+      "text": "Let me inspect your router's internal event log from my console right now to see what happened over the last seventy-two hours. Give me just a second to load the diagnostic tree.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:45]",
+      "end_time": "[03:51]",
+      "start_time_sec": 225,
+      "text": "Take your time, I just want to get to the bottom of it so tomorrow night isn't another repeat.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:52]",
+      "end_time": "[04:02]",
+      "start_time_sec": 232,
+      "text": "Aha, looking at your event table from last night at 20:14 and 21:08, and the night before at 19:52, your router logged a kernel radio reset triggered by Smart Channel Switching.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:03]",
+      "end_time": "[04:05]",
+      "start_time_sec": 243,
+      "text": "Smart Channel Switching? What does that mean in plain English?",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:06]",
+      "end_time": "[04:14]",
+      "start_time_sec": 246,
+      "text": "Basically, in the evening when all your neighbours come home and start streaming on their routers, the wireless airwaves around Meadowcroft Lane get heavily congested.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:15]",
+      "end_time": "[04:24]",
+      "start_time_sec": 255,
+      "text": "Right, there are quite a few terraced houses and flats right next to us, you can see about fifteen different Wi-Fi names when you open your phone settings.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:25]",
+      "end_time": "[04:31]",
+      "start_time_sec": 265,
+      "text": "Exactly. When Smart Channel Switching detects heavy interference on your current channel, it tries to hop to a cleaner frequency automatically.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:32]",
+      "end_time": "[04:36]",
+      "start_time_sec": 272,
+      "text": "Okay, shouldn't that be a good thing though? Why is it knocking us offline?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:37]",
+      "end_time": "[04:48]",
+      "start_time_sec": 277,
+      "text": "It should be seamless, Priyanka, but I can see your router is currently running firmware version 4.14.0, which has a known bug when DFS radar channels are scanned during peak evening traffic.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:49]",
+      "end_time": "[04:54]",
+      "start_time_sec": 289,
+      "text": "Oh! So instead of switching channels smoothly, the bug makes the whole wireless chip crash and restart?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:55]",
+      "end_time": "[05:05]",
+      "start_time_sec": 295,
+      "text": "Precisely. Whenever it tries to jump onto channel 52 or 100 in the evening, the radio driver hangs, drops all connected devices for forty seconds, and resets the DHCP lease table.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:06]",
+      "end_time": "[05:15]",
+      "start_time_sec": 306,
+      "text": "That explains why both my work laptop and the TV drop at the exact same second even though the green light on the wall box stays solid!",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:16]",
+      "end_time": "[05:25]",
+      "start_time_sec": 316,
+      "text": "Spot on. Now, I also checked the exchange PPP session logs maintained by our core network diagnostics team just to verify whether there were any external line drops.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:26]",
+      "end_time": "[05:32]",
+      "start_time_sec": 326,
+      "text": "Do you need to transfer me over to that core network diagnostics team, or can we sort it here?",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:33]",
+      "end_time": "[05:43]",
+      "start_time_sec": 333,
+      "text": "No transfer needed at all, Priyanka—I have full access to the provisioning tools right here, so I'll log the line monitor myself and handle everything from here from start to finish.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:44]",
+      "end_time": "[05:48]",
+      "start_time_sec": 344,
+      "text": "Oh brilliant, thank you Daniel, I really didn't fancy being passed around three different departments tonight.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:49]",
+      "end_time": "[06:00]",
+      "start_time_sec": 349,
+      "text": "You won't be, I promise. Here is what I am going to do for you right now: first, I'll disable the buggy auto-DFS hopping and lock your 5 gigahertz band to channel 44.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:01]",
+      "end_time": "[06:06]",
+      "start_time_sec": 361,
+      "text": "Okay, will channel 44 still give us the full three hundred megabits speed in the living room?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:07]",
+      "end_time": "[06:15]",
+      "start_time_sec": 367,
+      "text": "Yes, channel 44 is a high-power non-DFS channel, and scanning your router's neighbourhood survey right now, zero neighbouring routers within range are using channel 44.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:16]",
+      "end_time": "[06:21]",
+      "start_time_sec": 376,
+      "text": "That sounds promising. And what about the older devices like our smart plugs and the kitchen radio?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:22]",
+      "end_time": "[06:34]",
+      "start_time_sec": 382,
+      "text": "Those connect on the 2.4 gigahertz band. Right now yours is stuck on channel 6, which has seven overlapping neighbours, so I'm moving that over to channel 1 at a clean 20 megahertz width.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:35]",
+      "end_time": "[06:42]",
+      "start_time_sec": 395,
+      "text": "Great, and what about that firmware bug you mentioned? Can you update the software on the router so it doesn't crash again?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:43]",
+      "end_time": "[06:49]",
+      "start_time_sec": 403,
+      "text": "Yes, I am going to push firmware version 4.18.2 directly to your router now, which patches that wireless driver hang permanently.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:50]",
+      "end_time": "[06:54]",
+      "start_time_sec": 410,
+      "text": "How long does the firmware update take? Will it cut this phone call off?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:55]",
+      "end_time": "[07:01]",
+      "start_time_sec": 415,
+      "text": "Since you're calling me on your mobile over 4G rather than Wi-Fi calling, we won't get disconnected while the router restarts.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:02]",
+      "end_time": "[07:07]",
+      "start_time_sec": 422,
+      "text": "Yes, I turned Wi-Fi off on my mobile before ringing you just in case the broadband died mid-sentence.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:08]",
+      "end_time": "[07:19]",
+      "start_time_sec": 428,
+      "text": "Very smart move. Please bear with me and allow me to place you on a brief hold for about ninety seconds while I push the firmware patch and channel lock to your router.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:20]",
+      "end_time": "[07:23]",
+      "start_time_sec": 440,
+      "text": "Sure thing Daniel, I'll stay on the line.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:05]",
+      "end_time": "[09:09]",
+      "start_time_sec": 545,
+      "text": "Thank you for holding, Priyanka, I really appreciate your patience while that firmware image flashed across.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:10]",
+      "end_time": "[09:18]",
+      "start_time_sec": 550,
+      "text": "No problem at all! I was watching the hallway table—the light went pulsing blue for a minute and it's just turned solid white again.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:19]",
+      "end_time": "[09:28]",
+      "start_time_sec": 559,
+      "text": "Solid white means the boot sequence completed cleanly and the new radio parameters are active. Let me refresh my telemetry screen to verify the software build number.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:29]",
+      "end_time": "[09:32]",
+      "start_time_sec": 569,
+      "text": "Okay, my phone and laptop are just reconnecting to the Wi-Fi network now.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:33]",
+      "end_time": "[09:41]",
+      "start_time_sec": 573,
+      "text": "While my management screen refreshes the device inventory, which router model have you got sitting there, is it the Hub 3 or the Hub 4?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:42]",
+      "end_time": "[09:47]",
+      "start_time_sec": 582,
+      "text": "Er, like I mentioned earlier at the start of the call, it's the black S-Net Hub 4X.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:48]",
+      "end_time": "[09:55]",
+      "start_time_sec": 588,
+      "text": "Ah, yes, the Hub 4X, apologies—it's just refreshed on my diagnostic pane now and shows hardware revision 4X running firmware version 4.18.2.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:56]",
+      "end_time": "[10:00]",
+      "start_time_sec": 596,
+      "text": "Right, okay. Does it show the new Wi-Fi channels locked in properly on your screen?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:01]",
+      "end_time": "[10:11]",
+      "start_time_sec": 601,
+      "text": "Yes, it does! Your 2.4 gigahertz band is locked on channel 1, and your 5 gigahertz band is locked on channel 44 with Smart Channel Switching disabled.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:12]",
+      "end_time": "[10:17]",
+      "start_time_sec": 612,
+      "text": "Let me open my work laptop right now and see how fast pages are loading.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:18]",
+      "end_time": "[10:27]",
+      "start_time_sec": 618,
+      "text": "Please do, and if you can open a browser and run a quick speed check on speed.s-net.co.uk, let's see what throughput you're getting in the lounge.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:28]",
+      "end_time": "[10:36]",
+      "start_time_sec": 628,
+      "text": "Hang on, I'm clicking start test on the laptop now... wow, the needle went straight up to 312 megabits per second download!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:37]",
+      "end_time": "[10:47]",
+      "start_time_sec": 637,
+      "text": "312 megabits over Wi-Fi in the lounge is right at the top of your Full Fibre 300 profile, Priyanka. What is the upload reading and the latency ping?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:48]",
+      "end_time": "[10:53]",
+      "start_time_sec": 648,
+      "text": "Upload is 51 megabits per second, and the ping is 6 milliseconds with zero jitter.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:54]",
+      "end_time": "[11:01]",
+      "start_time_sec": 654,
+      "text": "Six milliseconds with zero jitter is rock solid. And how is the living room smart TV behaving now—has it reconnected cleanly?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:02]",
+      "end_time": "[11:10]",
+      "start_time_sec": 662,
+      "text": "Yes, my partner just put a 4K stream on in the living room and it started playing instantaneously without any buffering wheel.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:11]",
+      "end_time": "[11:22]",
+      "start_time_sec": 671,
+      "text": "Fantastic news. I have also enabled a 7-day automated stability monitor on your line from my desk, so if the router logs any unexpected radio resets, I'll get an alert directly.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:23]",
+      "end_time": "[11:28]",
+      "start_time_sec": 683,
+      "text": "Do I need to do anything if it stays fine over the next week?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:29]",
+      "end_time": "[11:37]",
+      "start_time_sec": 689,
+      "text": "Nothing at all. If the line stays completely clean for seven days, the monitor closes automatically and sends you a confirmation text.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:38]",
+      "end_time": "[11:42]",
+      "start_time_sec": 698,
+      "text": "And what if by some bad luck it drops out again tomorrow night?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:43]",
+      "end_time": "[11:54]",
+      "start_time_sec": 703,
+      "text": "I've put my direct case reference SN-884192 in an SMS to your mobile right now; if anything flickers, reply to that text and it routes straight back to my queue.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:55]",
+      "end_time": "[12:01]",
+      "start_time_sec": 715,
+      "text": "I've just received the text message with reference SN-884192. That gives me a lot of peace of mind.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:02]",
+      "end_time": "[12:09]",
+      "start_time_sec": 722,
+      "text": "I'm really glad we could get that firmware updated and those congested channels cleared out for you tonight, Priyanka.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:10]",
+      "end_time": "[12:16]",
+      "start_time_sec": 730,
+      "text": "Yes, everything is working super fast now and we know exactly why it was crashing every evening.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:17]",
+      "end_time": "[12:27]",
+      "start_time_sec": 737,
+      "text": "Before we wrap up, are you happy that your connection issue is resolved tonight, and is there anything else I can help you with on your account?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:28]",
+      "end_time": "[12:33]",
+      "start_time_sec": 748,
+      "text": "No, that's everything sorted, thank you so much for explaining it all clearly, Daniel.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:34]",
+      "end_time": "[12:41]",
+      "start_time_sec": 754,
+      "text": "It has been an absolute pleasure helping you tonight, Priyanka. Thank you for choosing S-Net, and have a wonderful, uninterrupted evening!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:42]",
+      "end_time": "[12:45]",
+      "start_time_sec": 762,
+      "text": "Thanks Daniel, have a lovely evening too. Bye!",
+      "sentiment_score": 22.0
+    }
+  ]
+}

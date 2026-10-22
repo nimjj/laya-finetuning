@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_28",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 0.0,
+    "is_auto_fail": true,
+    "auto_fail_reason": "Agent used banned language ('stupid') at [14:42]: 'That is a completely stupid argument, Farzana—the speed guarantee only covers sync speed to the router, not wireless speed to your old laptop in the conservatory!'",
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "At [04:44]-[05:33] (39s gap) and [07:55]-[08:57] (52s gap), the agent left the customer in dead air twice without announcing a hold or thanking the customer for waiting upon return."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Throughout the call (including [00:24], [05:51], and [11:53]), the agent never once apologized or acknowledged the customer's frustration over a month of poor Wi-Fi speeds."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "At [10:38], the agent asked 'And what download speed were you actually getting on the test?' despite the customer having already stated '18 megabits' twice at [01:43] and [02:28]."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At [14:42], the agent lost her temper and used banned, insulting language toward the customer ('That is a completely stupid argument, Farzana')."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "At [17:01]-[18:01], the call ended with the customer's £100 speed guarantee claim rejected, conservatory speeds still well below 85 Mbps, and the customer escalating to the Ombudsman."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Broadband Wi-Fi speed guarantee claim (£100 bill credit) after sync speed stayed below guaranteed minimum threshold for 30 days",
+    "tier": "auto_fail",
+    "duration_sec": 1095,
+    "notes": "Auto-fail call (STT roughness=True): Agent snaps at [14:42] using banned word 'stupid'. Also features hard-case H FAIL ([04:44]-[05:33] 39s and [07:55]-[08:57] 52s unmanaged gaps), AL FAIL ([10:38] asking for download speed already stated at [01:43]/[02:28]), PA PASS ([02:08]), and O PASS ([02:41], [11:24], [15:35]).",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Active listening",
+      "Build rapport and observed professionalism",
+      "Paraphrasing",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent opened with 'thank you for calling S-Net' and closed at [18:09] with 'Thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[04:44]-[05:33] 39s unmanaged gap ('Wait there while I pull...' -> 'Okay, the exchange sync table has loaded...') and [07:55]-[08:57] 52s unmanaged gap ('I'm triggering the live hub telemetry poll now.' -> 'Right, the live hub poll has finished...')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:49]-[01:00] Agent verified the customer's four-digit security PIN (4482) and first line of address (923 Vicarage Road, Watford) within the first two minutes."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:24] Agent used the customer's name ('Farzana') throughout the interaction."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:09]-[00:24], [06:06]-[06:17] Customer expressed strong frustration over 30 days of 18 Mbps speeds in her workspace, and the agent responded coldly with zero empathy or acknowledgment."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:08] Agent: 'So to recap, you're on our Fibre 150 tariff which carries an 85 megabit minimum download threshold, you logged a speed fault thirty days ago on the eighteenth of September, and you're calling to claim the one hundred pound Speed Guarantee bill credit.'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:43] Customer stated 'my speed tests were only getting 18 megabits per second' (and repeated '18 megabits' at [02:28]), yet at [10:38] Agent asked: 'And what download speed were you actually getting on the test?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:41], [06:17], [07:37], [11:24], [15:35] Agent took full technical ownership of auditing the 30-day DLM sync table, running a live GEA/hub radio telemetry poll, and splitting the 2.4GHz/5GHz wireless channels."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[14:42] Agent: 'That is a completely stupid argument, Farzana—the speed guarantee only covers sync speed to the router, not wireless speed to your old laptop in the conservatory!'"
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:06]-[04:15] Agent probed thoroughly into Wi-Fi vs Ethernet connection, router and laptop locations, mesh discs/boosters, and S-Net app vs browser test methods."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[17:01]-[18:01] Agent rejected ticket SPD-90812 and the customer ended the call unresolved and furious."
+      }
+    ]
+  }
+}

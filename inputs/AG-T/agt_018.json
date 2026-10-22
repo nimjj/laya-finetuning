@@ -1,0 +1,434 @@
+{
+  "call_id": "agt_018",
+  "tenant_id": "tenant-abc",
+  "customer_name": "Chloe",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net broadband technical support. My name is Liam. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:07]",
+      "end_time": "[00:22]",
+      "start_time_sec": 7,
+      "text": "Hello Liam. My name is Chloe Davenport. Our broadband has completely stopped working because our garden shears sliced right through the black fiber cable running along the fence!",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:23]",
+      "end_time": "[00:39]",
+      "start_time_sec": 23,
+      "text": "Good morning Chloe. I can certainly help you arrange an engineer repair for that severed fiber cable. Before we proceed, could you please confirm your full address and the account holder's date of birth?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:40]",
+      "end_time": "[00:54]",
+      "start_time_sec": 40,
+      "text": "Yes, our address is 19 Primrose Way, Harrogate, HG2 9PB, and my date of birth is the fourteenth of July 1989. We have a white Nokia ONT box mounted on the hallway wall.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:55]",
+      "end_time": "[01:05]",
+      "start_time_sec": 55,
+      "text": "Thank you Chloe, that successfully verifies your account. Could you describe what happened to the cable outside?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:06]",
+      "end_time": "[01:29]",
+      "start_time_sec": 66,
+      "text": "My husband was trimming the ivy along the back fence with heavy shears, and he accidentally cut straight through the black wire clipped along the timber! The two ends are completely severed and hanging down! I run my graphic design business from home and I am in total panic because I have a major deadline tomorrow!",
+      "sentiment_score": -65.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:30]",
+      "end_time": "[01:48]",
+      "start_time_sec": 90,
+      "text": "I completely understand how stressful that is, Chloe, especially when you have client deadlines depending on your home internet. Don't worry, we deal with accidental cable cuts regularly and we will get an Openreach engineer booked to splice a new lead-in for you."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:49]",
+      "end_time": "[01:59]",
+      "start_time_sec": 109,
+      "text": "Thank you Liam, that is very reassuring. My best contact mobile number is 07700 900341.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:00]",
+      "end_time": "[02:11]",
+      "start_time_sec": 120,
+      "text": "What lights are currently showing on your indoor optical fiber box on the hallway wall?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:12]",
+      "end_time": "[02:22]",
+      "start_time_sec": 132,
+      "text": "The power light is steady green, but the LOS light is flashing bright red, and the PON light is completely off.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:23]",
+      "end_time": "[02:35]",
+      "start_time_sec": 143,
+      "text": "The flashing red LOS light confirms Loss of Signal, meaning the optical light beam cannot reach your unit from the exchange."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:36]",
+      "end_time": "[02:44]",
+      "start_time_sec": 156,
+      "text": "Can we twist the optical fibers back together or tape them with insulating tape as a temporary fix?",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:45]",
+      "end_time": "[03:04]",
+      "start_time_sec": 165,
+      "text": "Please do not touch the severed ends. Fiber optic cables transmit invisible laser light that can cause permanent eye injury, and the glass core requires professional fusion splicing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:05]",
+      "end_time": "[03:13]",
+      "start_time_sec": 185,
+      "text": "Good goodness, I will tell my husband not to touch it at all.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:14]",
+      "end_time": "[03:35]",
+      "start_time_sec": 194,
+      "text": "So to make sure I have captured everything accurately, Chloe, garden shears severed the external black fiber drop cable along your boundary fence, the indoor box shows a red LOS light, and we need an emergency fiber engineer dispatch to replace the external drop cable, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:36]",
+      "end_time": "[03:45]",
+      "start_time_sec": 216,
+      "text": "Yes, that is exactly right Liam. We need someone out here as soon as humanly possible.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:46]",
+      "end_time": "[04:02]",
+      "start_time_sec": 226,
+      "text": "Please hold for two or three minutes while I check the Openreach engineer scheduling portal for available emergency repair appointments in Harrogate."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:03]",
+      "end_time": "[04:09]",
+      "start_time_sec": 243,
+      "text": "Thank you, I will hold.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:55]",
+      "end_time": "[05:15]",
+      "start_time_sec": 295,
+      "text": "Thank you for waiting, Chloe. I have opened an emergency external damage ticket. Before booking, please note that because the physical cut occurred inside your property boundary, Openreach may classify this as accidental customer damage carrying a ninety-pound standard callout fee."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:16]",
+      "end_time": "[05:41]",
+      "start_time_sec": 316,
+      "text": "Ninety pounds?! Are you serious?! We've been paying sixty pounds a month for top-tier gigabit broadband for three years without a single late payment! That fee is completely outrageous and unfair when an honest garden accident happens! I cannot afford ninety pounds right now!",
+      "sentiment_score": -74.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:42]",
+      "end_time": "[05:58]",
+      "start_time_sec": 342,
+      "text": "Those are standard industry terms. Physical damage caused by occupants or tools is always chargeable under section four of our broadband service agreement."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:59]",
+      "end_time": "[06:11]",
+      "start_time_sec": 359,
+      "text": "Well, fine, but I still need the internet fixed immediately for my work, so go ahead and book it.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:12]",
+      "end_time": "[06:29]",
+      "start_time_sec": 372,
+      "text": "The earliest appointment Openreach offers is tomorrow morning between eight o'clock and one in the afternoon. Will an adult over eighteen be present at the address during that slot?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:30]",
+      "end_time": "[06:38]",
+      "start_time_sec": 390,
+      "text": "Yes, I will be home all day working offline on design sketches.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:39]",
+      "end_time": "[06:56]",
+      "start_time_sec": 399,
+      "text": "Before I confirm the appointment slot on our dispatch portal, let me verify that mobile telephone number for engineer SMS arrival alerts was 07700 900341, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:57]",
+      "end_time": "[07:05]",
+      "start_time_sec": 417,
+      "text": "Yes, 07700 900341 is my mobile number.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:06]",
+      "end_time": "[07:22]",
+      "start_time_sec": 426,
+      "text": "Could you tell me the make and model of the white optical box mounted on your hallway wall?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:23]",
+      "end_time": "[07:34]",
+      "start_time_sec": 443,
+      "text": "I mentioned right at the start of the call when I gave my address, it is a white Nokia ONT box.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:35]",
+      "end_time": "[07:49]",
+      "start_time_sec": 455,
+      "text": "Understood. The engineer notes have been populated with the Nokia unit details and the fence cable location."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:50]",
+      "end_time": "[07:59]",
+      "start_time_sec": 470,
+      "text": "Does the engineer need access inside the house, or just outside in the garden?",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:00]",
+      "end_time": "[08:18]",
+      "start_time_sec": 480,
+      "text": "The engineer will need access to both. They must pull a new outdoor drop cable along the boundary and test the optical signal levels at the indoor wall unit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:19]",
+      "end_time": "[08:29]",
+      "start_time_sec": 499,
+      "text": "Understood. We will make sure the side wooden gate is unlocked and the hallway is clear.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:30]",
+      "end_time": "[08:44]",
+      "start_time_sec": 510,
+      "text": "Will someone be able to direct the engineer to where the cable enters the brickwork?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:45]",
+      "end_time": "[08:54]",
+      "start_time_sec": 525,
+      "text": "Yes, my husband will show him where the conduit runs under the eaves.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:55]",
+      "end_time": "[09:12]",
+      "start_time_sec": 535,
+      "text": "In the meantime, while your fixed broadband is offline, would you like me to add a complimentary thirty-gigabyte emergency mobile data boost to your S-Net mobile SIM?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:13]",
+      "end_time": "[09:25]",
+      "start_time_sec": 553,
+      "text": "Oh, wow, yes please! That will allow me to tether my laptop to my phone and send client files this evening!",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:26]",
+      "end_time": "[09:42]",
+      "start_time_sec": 566,
+      "text": "I have activated the complimentary thirty-gigabyte data boost right now. You should receive a text confirmation on your mobile phone within five minutes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:43]",
+      "end_time": "[09:52]",
+      "start_time_sec": 583,
+      "text": "That is tremendously helpful Liam, thank you so much for arranging that.",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:53]",
+      "end_time": "[10:07]",
+      "start_time_sec": 593,
+      "text": "Can you check your smartphone right now to confirm whether the data allowance shows up on your screen?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:08]",
+      "end_time": "[10:19]",
+      "start_time_sec": 608,
+      "text": "Yes! The notification just popped in saying thirty gigabytes bonus data added successfully.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:20]",
+      "end_time": "[10:37]",
+      "start_time_sec": 620,
+      "text": "Now turn on your personal hotspot on your phone and try connecting your work laptop to make sure you can browse."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:38]",
+      "end_time": "[10:52]",
+      "start_time_sec": 638,
+      "text": "I have turned hotspot on, my laptop has joined Chloe-iPhone, and Google loaded immediately!",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:53]",
+      "end_time": "[11:10]",
+      "start_time_sec": 653,
+      "text": "Excellent! That ensures your graphic design work and file uploads will remain completely uninterrupted until tomorrow's repair."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:11]",
+      "end_time": "[11:21]",
+      "start_time_sec": 671,
+      "text": "That takes an immense amount of pressure off my shoulders. Thank you.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:22]",
+      "end_time": "[11:41]",
+      "start_time_sec": 682,
+      "text": "You are very welcome. Your Openreach repair booking reference is OR-884109. The engineer is scheduled for tomorrow between 8:00 AM and 1:00 PM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:42]",
+      "end_time": "[11:51]",
+      "start_time_sec": 702,
+      "text": "I have written that reference down: OR-884109 for tomorrow morning.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:52]",
+      "end_time": "[12:08]",
+      "start_time_sec": 712,
+      "text": "The engineer will call you thirty minutes before arrival. Is there anything else I can assist you with regarding your broadband setup today, Chloe?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:09]",
+      "end_time": "[12:19]",
+      "start_time_sec": 729,
+      "text": "No, that covers everything. You have booked the visit and sorted out the backup data, which saves my work day.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:20]",
+      "end_time": "[12:35]",
+      "start_time_sec": 740,
+      "text": "Thank you for calling S-Net broadband technical support, Chloe. We hope you enjoy the rest of your day. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:36]",
+      "end_time": "[12:41]",
+      "start_time_sec": 756,
+      "text": "Goodbye Liam.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:42]",
+      "end_time": "[12:59]",
+      "start_time_sec": 762,
+      "text": "A brief two-question service survey will follow on your mobile phone. Have a wonderful afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:00]",
+      "end_time": "[13:06]",
+      "start_time_sec": 780,
+      "text": "Thank you, I will take the survey.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:07]",
+      "end_time": "[13:23]",
+      "start_time_sec": 787,
+      "text": "Thank you again Chloe, goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:24]",
+      "end_time": "[13:29]",
+      "start_time_sec": 804,
+      "text": "Goodbye.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:30]",
+      "end_time": "[13:46]",
+      "start_time_sec": 810,
+      "text": "Thank you for choosing S-Net broadband services."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:47]",
+      "end_time": "[13:52]",
+      "start_time_sec": 827,
+      "text": "Thank you, bye.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:53]",
+      "end_time": "[14:08]",
+      "start_time_sec": 833,
+      "text": "Goodbye."
+    }
+  ]
+}

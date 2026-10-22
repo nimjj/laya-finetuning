@@ -1,0 +1,472 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Ursula",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net landline technical operations, my name is Simon. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:12]",
+   "end_time": "[00:32]",
+   "start_time_sec": 12,
+   "text": "Hello Simon, my name is Ursula Bennett. On our home landline telephone, whenever our local NHS medical clinic or pharmacy calls us, the telephone caller display screen says 'International' instead of showing their local 01423 phone number, causing us to ignore the calls thinking they are foreign telemarketers!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:37]",
+   "end_time": "[00:53]",
+   "start_time_sec": 37,
+   "text": "Good afternoon. If I understand correctly, your landline caller display is incorrectly identifying incoming calls from your local NHS clinic and pharmacy as 'International' rather than displaying their local 01423 telephone number. Let me query your line routing profile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:58]",
+   "end_time": "[01:06]",
+   "start_time_sec": 58,
+   "text": "Our landline number is 01423 881902, account reference SN-551029, registered at 33 Duchy Road, Harrogate, HG1 2ER, security PIN 7180.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:11]",
+   "end_time": "[01:14]",
+   "start_time_sec": 71,
+   "text": "Thank you, that brings up the Yorkshire exchange record."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:19]",
+   "end_time": "[01:29]",
+   "start_time_sec": 79,
+   "text": "Why would a Harrogate NHS clinic appear as international?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:34]",
+   "end_time": "[01:47]",
+   "start_time_sec": 94,
+   "text": "Could I place you on hold for two minutes while I query the SS7 signaling translation tables at the Leeds regional tandem switch?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:12]",
+   "end_time": "[03:27]",
+   "start_time_sec": 192,
+   "text": "Thank you for holding. The tandem switchboard indicates that the incoming Presentation Number translation rule has an incorrect carrier prefix parsing flag."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:32]",
+   "end_time": "[03:44]",
+   "start_time_sec": 212,
+   "text": "How does a carrier prefix parsing flag cause local calls to show as international?",
+   "sentiment_score": -10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:49]",
+   "end_time": "[04:04]",
+   "start_time_sec": 229,
+   "text": "When NHS hospital trusts route calls through multi-site VoIP SIP trunks, the tandem switch misinterprets the 01423 prefix as an international E.164 country code."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:09]",
+   "end_time": "[04:20]",
+   "start_time_sec": 249,
+   "text": "Can you correct the translation rule on the tandem switch?",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:25]",
+   "end_time": "[04:35]",
+   "start_time_sec": 265,
+   "text": "Yes, I am submitting a translation profile correction order to the regional exchange engineering team."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:40]",
+   "end_time": "[04:51]",
+   "start_time_sec": 280,
+   "text": "How long does it take for exchange engineering to apply the correction?",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:56]",
+   "end_time": "[05:08]",
+   "start_time_sec": 296,
+   "text": "Simon? Are you there? The line was completely silent for forty seconds!",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:13]",
+   "end_time": "[05:24]",
+   "start_time_sec": 313,
+   "text": "I was waiting for the exchange work order system to assign a technician reference."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:04]",
+   "end_time": "[06:14]",
+   "start_time_sec": 364,
+   "text": "Will the translation rule fix all NHS incoming calls?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:19]",
+   "end_time": "[06:29]",
+   "start_time_sec": 379,
+   "text": "Obviously telephone signaling protocols require synchronized SS7 translation tables to unmask SIP trunk presentation numbers."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:34]",
+   "end_time": "[06:44]",
+   "start_time_sec": 394,
+   "text": "Right, I understand the switch tables need synchronizing.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:49]",
+   "end_time": "[06:59]",
+   "start_time_sec": 409,
+   "text": "The engineering work order has been assigned under reference EX-SS7-99120-Y."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:04]",
+   "end_time": "[07:07]",
+   "start_time_sec": 424,
+   "text": "EX-SS7-99120-Y, noted down.",
+   "sentiment_score": 8.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:12]",
+   "end_time": "[07:36]",
+   "start_time_sec": 432,
+   "text": "I am seventy-eight years old and my husband is recovering at home after open-heart surgery! The cardiac rehabilitation team from Harrogate District Hospital tried to call us three times yesterday with critical medication dosage changes, but because the caller ID said 'International', we didn't pick up the phone! Having his hospital calls disguised as foreign scam calls is endangering my husband's life! I am in complete tears and agony over this!",
+   "sentiment_score": -78.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:41]",
+   "end_time": "[07:53]",
+   "start_time_sec": 461,
+   "text": "I am querying the SS7 translation tables on the Leeds tandem switch right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:58]",
+   "end_time": "[08:09]",
+   "start_time_sec": 478,
+   "text": "Please do Simon, my husband's life depends on these hospital calls.",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:14]",
+   "end_time": "[08:38]",
+   "start_time_sec": 494,
+   "text": "I completely understand the profound anguish, tears, and severe worry you are experiencing, especially with your husband recovering from open-heart surgery and needing critical medication changes from Harrogate Hospital. While our exchange network SLA cannot propagate tandem switch changes instantaneously, I will place an urgent medical priority expedite flag on this exchange order and personally monitor it with network control."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:43]",
+   "end_time": "[08:53]",
+   "start_time_sec": 523,
+   "text": "Thank you Simon, that reassurance brings me so much comfort.",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:58]",
+   "end_time": "[09:09]",
+   "start_time_sec": 538,
+   "text": "I am adding an emergency medical priority flag to the tandem switch job ticket."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:14]",
+   "end_time": "[09:25]",
+   "start_time_sec": 554,
+   "text": "How long will the medical priority expedite take to propagate?",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:30]",
+   "end_time": "[09:40]",
+   "start_time_sec": 570,
+   "text": "Regional tandem switch translation updates propagate across the local loop in approximately two hours."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:45]",
+   "end_time": "[09:57]",
+   "start_time_sec": 585,
+   "text": "So we cannot verify the caller ID display on this phone call right now?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:02]",
+   "end_time": "[10:15]",
+   "start_time_sec": 602,
+   "text": "Correct, the tandem switch requires the two-hour propagation window before incoming clinic calls display the 01423 number."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:20]",
+   "end_time": "[10:31]",
+   "start_time_sec": 620,
+   "text": "What should we do if the clinic calls during the two hours?",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:36]",
+   "end_time": "[10:43]",
+   "start_time_sec": 636,
+   "text": "In the interim, I recommend answering any call showing 'International' or 'Withheld' until two o'clock this afternoon."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:48]",
+   "end_time": "[10:54]",
+   "start_time_sec": 648,
+   "text": "I will keep a pen and notepad next to the handset and answer all calls today.",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:58]",
+   "end_time": "[11:02]",
+   "start_time_sec": 658,
+   "text": "Can I assist with any other feature on your landline handset?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:42]",
+   "end_time": "[11:46]",
+   "start_time_sec": 702,
+   "text": "Is our voicemail working properly if we miss a call?",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:50]",
+   "end_time": "[11:56]",
+   "start_time_sec": 710,
+   "text": "Yes, standard 1571 voicemail is active and will record messages if the line is engaged."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:00]",
+   "end_time": "[12:04]",
+   "start_time_sec": 720,
+   "text": "That provides an additional safety net for the hospital team.",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:08]",
+   "end_time": "[12:14]",
+   "start_time_sec": 728,
+   "text": "Hello? Simon? Did the line drop again? Why does your headset keep going dead?",
+   "sentiment_score": -28.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:18]",
+   "end_time": "[12:22]",
+   "start_time_sec": 738,
+   "text": "I was applying a ten-pound goodwill credit to your landline account."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:26]",
+   "end_time": "[12:29]",
+   "start_time_sec": 746,
+   "text": "Thank you for the credit, Simon.",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:33]",
+   "end_time": "[12:38]",
+   "start_time_sec": 753,
+   "text": "I have documented your husband's cardiac recovery status on your account records."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:42]",
+   "end_time": "[12:46]",
+   "start_time_sec": 762,
+   "text": "That will ensure all future agents understand our medical situation.",
+   "sentiment_score": 24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:50]",
+   "end_time": "[12:55]",
+   "start_time_sec": 770,
+   "text": "Our exchange engineering supervisor will monitor the SS7 table update at two o'clock."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:59]",
+   "end_time": "[13:02]",
+   "start_time_sec": 779,
+   "text": "Thank you, that is very thorough.",
+   "sentiment_score": 26.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:06]",
+   "end_time": "[13:11]",
+   "start_time_sec": 786,
+   "text": "We want to ensure your husband receives all clinical communications without disruption."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:15]",
+   "end_time": "[13:18]",
+   "start_time_sec": 795,
+   "text": "You have been very kind and helpful today.",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:22]",
+   "end_time": "[13:26]",
+   "start_time_sec": 802,
+   "text": "Before we conclude, what was that Harrogate landline number again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:30]",
+   "end_time": "[13:36]",
+   "start_time_sec": 810,
+   "text": "As I told you right at the start of our call, it is 01423 881902.",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:40]",
+   "end_time": "[13:43]",
+   "start_time_sec": 820,
+   "text": "Thank you, landline number verified on the engineering ticket."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:47]",
+   "end_time": "[13:50]",
+   "start_time_sec": 827,
+   "text": "Thank you Simon for your urgent help today.",
+   "sentiment_score": 24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:54]",
+   "end_time": "[14:01]",
+   "start_time_sec": 834,
+   "text": "It has been my pleasure assisting. Please give my warmest wishes to your husband for his recovery."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:05]",
+   "end_time": "[14:08]",
+   "start_time_sec": 845,
+   "text": "Goodbye Simon.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:12]",
+   "end_time": "[14:15]",
+   "start_time_sec": 852,
+   "text": "Is there any other landline issue today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:19]",
+   "end_time": "[14:22]",
+   "start_time_sec": 859,
+   "text": "No, goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:26]",
+   "end_time": "[14:29]",
+   "start_time_sec": 866,
+   "text": "Thank you for calling S-Net landline technical operations. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:33]",
+   "end_time": "[14:36]",
+   "start_time_sec": 873,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:40]",
+   "end_time": "[14:43]",
+   "start_time_sec": 880,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:47]",
+   "end_time": "[14:50]",
+   "start_time_sec": 887,
+   "text": "Goodbye.",
+   "sentiment_score": 12.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:54]",
+   "end_time": "[14:57]",
+   "start_time_sec": 894,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:01]",
+   "end_time": "[15:04]",
+   "start_time_sec": 901,
+   "text": "Goodbye.",
+   "sentiment_score": 8.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:08]",
+   "end_time": "[15:11]",
+   "start_time_sec": 908,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:15]",
+   "end_time": "[15:20]",
+   "start_time_sec": 915,
+   "text": "Goodbye.",
+   "sentiment_score": 4.0
+  }
+ ]
+}

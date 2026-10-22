@@ -1,0 +1,686 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Tadhg",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Good afternoon, thank you for calling S-Net Mobile Technical Support. My name is Benjamin speaking today. How can I help you?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:21]",
+      "start_time_sec": 10,
+      "text": "Hello Benjamin, my name is Tadhg O'Sullivan. I'm calling because my mobile keeps dropping from 4G directly to 'No Service' halfway through calls whenever I'm inside my house.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:24]",
+      "end_time": "[00:37]",
+      "start_time_sec": 24,
+      "text": "Oh, I am really sorry to hear you are dealing with dropped calls indoors, sir. I completely understand how frustrating and disruptive that is when you rely on your phone at home.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:40]",
+      "end_time": "[00:51]",
+      "start_time_sec": 40,
+      "text": "It really is, especially because I use my Samsung Galaxy S23 Ultra for client consultations from my home study, and three calls have cut out today alone.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:54]",
+      "end_time": "[01:08]",
+      "start_time_sec": 54,
+      "text": "I appreciate how stressful that must be during client consultations, and I will do everything I can to help get this investigated for you. First, could you confirm your billing address and your four-digit security PIN?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:11]",
+      "end_time": "[01:18]",
+      "start_time_sec": 71,
+      "text": "Sure, my billing address is 28 Crescent Gardens, Bath, BA1 2NA, and my four-digit security PIN is 6042.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:20]",
+      "end_time": "[01:34]",
+      "start_time_sec": 80,
+      "text": "Thank you very much, I have verified your billing address at 28 Crescent Gardens and your PIN 6042 on the system now. Let me pull up the S-Net radio mast map for BA1 2NA.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:37]",
+      "end_time": "[01:47]",
+      "start_time_sec": 97,
+      "text": "When I check the coverage status page on your website, it claims the outdoor mast near Royal Victoria Park is working normally, which makes no sense.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:51]",
+      "end_time": "[02:01]",
+      "start_time_sec": 111,
+      "text": "Looking at the cell site dashboard for BA1 2NA, the primary macro mast is site SN-BATH-09, which is approximately six hundred metres west of Crescent Gardens.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:05]",
+      "end_time": "[02:17]",
+      "start_time_sec": 125,
+      "text": "Right, and if I walk out into my front garden on the street, my Samsung Galaxy S23 Ultra gets three or four bars of 4G and holds a call fine.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:21]",
+      "end_time": "[02:29]",
+      "start_time_sec": 141,
+      "text": "Yes, site SN-BATH-09 shows green operational status across both its 1800 megahertz and 800 megahertz 4G LTE carriers right now.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:32]",
+      "end_time": "[02:44]",
+      "start_time_sec": 152,
+      "text": "Then why does the signal collapse completely to 'No Service' with an exclamation mark the moment I answer or place a voice call inside my living room or study?",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:48]",
+      "end_time": "[02:57]",
+      "start_time_sec": 168,
+      "text": "Bath has a lot of thick Georgian Bath stone walls, which can attenuate higher-frequency radio waves quite heavily as they travel indoors.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:00]",
+      "end_time": "[03:10]",
+      "start_time_sec": 180,
+      "text": "I've lived in this same Georgian terrace for four years on S-Net Mobile, Benjamin, and my indoor calls never cut out like this until last Tuesday!",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:14]",
+      "end_time": "[03:22]",
+      "start_time_sec": 194,
+      "text": "I hear you, sir, and I am genuinely sorry that this sudden change since last Tuesday has been interrupting your workday.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:25]",
+      "end_time": "[03:35]",
+      "start_time_sec": 205,
+      "text": "Did S-Net change something on the mast last week, or is my phone failing to hand over between frequencies when a voice call starts?",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:39]",
+      "end_time": "[03:49]",
+      "start_time_sec": 219,
+      "text": "Let me look at the recent engineering change log for the Bath cluster of cell sites to see if any maintenance took place last Tuesday.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:53]",
+      "end_time": "[03:55]",
+      "start_time_sec": 233,
+      "text": "Okay, thank you.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:41]",
+      "end_time": "[04:45]",
+      "start_time_sec": 281,
+      "text": "Hello? Are you still there, Benjamin? The line went completely silent.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:48]",
+      "end_time": "[04:58]",
+      "start_time_sec": 288,
+      "text": "Oh, yes, I am still here, sir, my screen was just taking a while to load the regional cell site maintenance log for Somerset and Bath.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:02]",
+      "end_time": "[05:10]",
+      "start_time_sec": 302,
+      "text": "Right, well I thought the call had dropped on your end too for a second! What did the maintenance log show?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:13]",
+      "end_time": "[05:24]",
+      "start_time_sec": 313,
+      "text": "It shows that on Monday the ninth of October, the radio optimization team adjusted the antenna tilt angle on sector two of mast SN-BATH-09 by two degrees.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:28]",
+      "end_time": "[05:34]",
+      "start_time_sec": 328,
+      "text": "Wait—they tilted the antenna on the mast right before my indoor calls started failing on Tuesday?!",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:37]",
+      "end_time": "[05:44]",
+      "start_time_sec": 337,
+      "text": "They performed a routine traffic-balancing tilt adjustment because of high daytime congestion near the city centre shopping district.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:47]",
+      "end_time": "[05:54]",
+      "start_time_sec": 347,
+      "text": "So by tilting the antenna toward the shopping centre, have they weakened the indoor signal reaching Crescent Gardens?",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:57]",
+      "end_time": "[06:07]",
+      "start_time_sec": 357,
+      "text": "It is possible that the indoor RSRP signal strength on the 1800 megahertz band dipped just below the handover threshold inside your ground-floor rooms.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:11]",
+      "end_time": "[06:21]",
+      "start_time_sec": 371,
+      "text": "And when a 4G VoLTE voice call starts, instead of staying connected, the phone just drops straight to zero bars and says 'Call Failed'!",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:25]",
+      "end_time": "[06:35]",
+      "start_time_sec": 385,
+      "text": "I completely understand how exasperating it is when a business call drops mid-sentence, sir, and you have been very patient while we look into this.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:39]",
+      "end_time": "[06:48]",
+      "start_time_sec": 399,
+      "text": "Isn't there anything we can check or configure on my end right now so I can actually take my afternoon client calls indoors?",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:51]",
+      "end_time": "[07:02]",
+      "start_time_sec": 411,
+      "text": "Honestly, the radio parameters are controlled from the network side at the base station controller, so I mainly need to log the signal drop timestamps from your account.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:06]",
+      "end_time": "[07:12]",
+      "start_time_sec": 426,
+      "text": "Can you see the dropped call records on my network call trace from this morning?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:15]",
+      "end_time": "[07:24]",
+      "start_time_sec": 435,
+      "text": "Let me open the core network IMS call signalling trace for your mobile number ending in 4491 to view today's call release causes.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:27]",
+      "end_time": "[07:33]",
+      "start_time_sec": 447,
+      "text": "There should be three dropped calls between nine thirty and eleven fifteen this morning.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:36]",
+      "end_time": "[07:45]",
+      "start_time_sec": 456,
+      "text": "Yes, I see one call at 09:34 that lasted two minutes and twelve seconds before terminating with radio link failure code RLF-408.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:48]",
+      "end_time": "[07:54]",
+      "start_time_sec": 468,
+      "text": "That was my first client of the morning! Right in the middle of reviewing a contract.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:57]",
+      "end_time": "[08:09]",
+      "start_time_sec": 477,
+      "text": "And I see a second call at 10:18 lasting forty-seven seconds, and a third at 11:09 lasting one minute and fifty seconds, both ending with RLF-408 on sector two.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:13]",
+      "end_time": "[08:22]",
+      "start_time_sec": 493,
+      "text": "Every single one of those showed two bars of 4G before I dialled, and then ten seconds into speaking the bars vanished completely.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:25]",
+      "end_time": "[08:35]",
+      "start_time_sec": 505,
+      "text": "That happens when the dedicated voice bearer stays locked onto a weak high-band carrier rather than stepping down cleanly to the 800 megahertz indoor layer.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:39]",
+      "end_time": "[08:47]",
+      "start_time_sec": 519,
+      "text": "Why wouldn't it step down cleanly to the 800 megahertz indoor layer like it used to do before last Tuesday?",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:50]",
+      "end_time": "[09:00]",
+      "start_time_sec": 530,
+      "text": "When they adjusted the antenna tilt on SN-BATH-09, the neighbour-cell handover offset table may not have been recalibrated for indoor edge users on Crescent Gardens.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:04]",
+      "end_time": "[09:13]",
+      "start_time_sec": 544,
+      "text": "Let me check if there are any other settings or anything else on my account profile while you're looking at the signalling trace.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:16]",
+      "end_time": "[09:21]",
+      "start_time_sec": 556,
+      "text": "Sure, let me open the provisioning tab on your mobile profile now.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:15]",
+      "end_time": "[10:19]",
+      "start_time_sec": 615,
+      "text": "Hello? Anyone there? Benjamin, have you gone quiet again?",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:22]",
+      "end_time": "[10:30]",
+      "start_time_sec": 622,
+      "text": "Oh, I am still on the line, sir, I was just reading through the provisioning parameters on the second monitor here.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:33]",
+      "end_time": "[10:42]",
+      "start_time_sec": 633,
+      "text": "You really ought to tell me before going silent for nearly a minute, I kept thinking my phone had cut out again!",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:45]",
+      "end_time": "[10:53]",
+      "start_time_sec": 645,
+      "text": "I am very sorry about that silence, sir, I didn't mean to leave you wondering if the line had dropped.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:56]",
+      "end_time": "[11:00]",
+      "start_time_sec": 656,
+      "text": "All right, well what did you see on the provisioning tab?",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:03]",
+      "end_time": "[11:12]",
+      "start_time_sec": 663,
+      "text": "Your voice provisioning profile shows standard 4G VoLTE active on the core IMS switch with no bars or restrictions on the line.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:15]",
+      "end_time": "[11:21]",
+      "start_time_sec": 675,
+      "text": "Okay, so what do you need to put into the engineering ticket for the radio team?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:24]",
+      "end_time": "[11:34]",
+      "start_time_sec": 684,
+      "text": "I am filling out the radio access network propagation form right now. By the way, what make and model of phone are you using?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:38]",
+      "end_time": "[11:47]",
+      "start_time_sec": 698,
+      "text": "I told you right at the beginning of the call—it's a Samsung Galaxy S23 Ultra! I mentioned it twice when we started speaking.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:50]",
+      "end_time": "[12:00]",
+      "start_time_sec": 710,
+      "text": "Oh, my apologies, sir, I completely missed writing that down earlier—a Samsung Galaxy S23 Ultra, let me enter that in the device field now.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:04]",
+      "end_time": "[12:09]",
+      "start_time_sec": 724,
+      "text": "Right, a Samsung Galaxy S23 Ultra bought directly from S-Net last year.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:12]",
+      "end_time": "[12:22]",
+      "start_time_sec": 732,
+      "text": "Thank you, I have entered Samsung Galaxy S23 Ultra onto the radio investigation form along with the three RLF-408 failure timestamps from this morning.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:26]",
+      "end_time": "[12:37]",
+      "start_time_sec": 746,
+      "text": "Is there anything we should test on the phone itself right now—like toggling a setting or checking an alternative connection method—so I can survive the next few days?",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:41]",
+      "end_time": "[12:53]",
+      "start_time_sec": 761,
+      "text": "To be completely honest with you, sir, since the RLF-408 code comes from the sector two antenna tilt on SN-BATH-09, changing things on the phone won't alter the mast beam.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:57]",
+      "end_time": "[13:05]",
+      "start_time_sec": 777,
+      "text": "So you don't want me to check any network mode menus or anything in my Samsung settings at all?",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:08]",
+      "end_time": "[13:18]",
+      "start_time_sec": 788,
+      "text": "No, there's no need to go digging through your phone menus today, because our radio engineers have to review the tilt angle on the mast side.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:22]",
+      "end_time": "[13:32]",
+      "start_time_sec": 802,
+      "text": "Well, how does the mast investigation actually get handled from here? I don't want this ticket just sitting at the bottom of a queue.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:36]",
+      "end_time": "[13:47]",
+      "start_time_sec": 816,
+      "text": "I am taking personal ownership of this case for you, sir. I have raised priority radio propagation ticket RAN-662019-BA directly with our South West RF engineering team.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:51]",
+      "end_time": "[13:56]",
+      "start_time_sec": 831,
+      "text": "What will the South West RF engineering team actually do with ticket RAN-662019-BA?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:59]",
+      "end_time": "[14:10]",
+      "start_time_sec": 839,
+      "text": "I have attached your three IMS call drop traces from 09:34, 10:18, and 11:09 and requested a remote electrical downtilt rollback and inter-band handover audit on SN-BATH-09.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:14]",
+      "end_time": "[14:24]",
+      "start_time_sec": 854,
+      "text": "Can they adjust that electrical tilt remotely from their operations centre, or do they have to send a rigger up the mast in Royal Victoria Park?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:28]",
+      "end_time": "[14:36]",
+      "start_time_sec": 868,
+      "text": "The remote electrical tilt and the 1800-to-800 megahertz handover threshold can both be adjusted remotely from the Bristol network operations centre.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:39]",
+      "end_time": "[14:45]",
+      "start_time_sec": 879,
+      "text": "And how long will it take them to run that audit and adjust the mast?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:48]",
+      "end_time": "[14:59]",
+      "start_time_sec": 888,
+      "text": "The service-level turnaround for a Tier 3 RF propagation and tilt recalibration is up to five working days, though I have marked your ticket urgent for home-working impact.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:03]",
+      "end_time": "[15:10]",
+      "start_time_sec": 903,
+      "text": "Five working days is a long time to have my indoor calls dropping every couple of minutes.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:13]",
+      "end_time": "[15:25]",
+      "start_time_sec": 913,
+      "text": "I completely understand how inconvenient that five-day window is when you have clients ringing you, sir, which is why I am also applying a fifteen-pound goodwill credit to your next bill.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:29]",
+      "end_time": "[15:37]",
+      "start_time_sec": 929,
+      "text": "Thank you for the fifteen-pound credit, Benjamin, I appreciate the gesture even if it doesn't keep my calls connected today.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:40]",
+      "end_time": "[15:51]",
+      "start_time_sec": 940,
+      "text": "I have already posted that fifteen-pound credit onto your mobile account, and I have scheduled a personal callback from me to you on Friday afternoon at four o'clock.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:55]",
+      "end_time": "[16:04]",
+      "start_time_sec": 955,
+      "text": "Will you text me the ticket number and the Friday callback details in case the voice call cuts out when you ring me?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:07]",
+      "end_time": "[16:16]",
+      "start_time_sec": 967,
+      "text": "Absolutely, I have just sent an SMS to your mobile with reference RAN-662019-BA, the fifteen-pound credit confirmation, and my Friday 16:00 follow-up slot.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:19]",
+      "end_time": "[16:29]",
+      "start_time_sec": 979,
+      "text": "My phone just buzzed on the desk with the text message, so SMS messages are still coming through indoors even when voice calls fail.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:33]",
+      "end_time": "[16:43]",
+      "start_time_sec": 993,
+      "text": "Yes, SMS uses the lightweight control channel rather than a continuous VoLTE voice bearer, so text updates will reach you reliably inside your study.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:47]",
+      "end_time": "[16:59]",
+      "start_time_sec": 1007,
+      "text": "All right, well I suppose for the rest of this week I will have to stand out in the front garden with my coat on whenever a client rings me.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:03]",
+      "end_time": "[17:15]",
+      "start_time_sec": 1023,
+      "text": "I really am sorry you have to step outside into the garden for your calls in the meantime, sir, and I will push the Bristol RF engineers for an early review.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:19]",
+      "end_time": "[17:23]",
+      "start_time_sec": 1039,
+      "text": "Okay, let's hope they roll back that antenna change before Friday.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:26]",
+      "end_time": "[17:36]",
+      "start_time_sec": 1046,
+      "text": "I will monitor ticket RAN-662019-BA daily in my own worklist and text you the moment the Bristol RF team updates the handover parameters on SN-BATH-09.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:40]",
+      "end_time": "[17:47]",
+      "start_time_sec": 1060,
+      "text": "Right, so for now the indoor call drops are still happening until the mast team makes that change.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:50]",
+      "end_time": "[17:58]",
+      "start_time_sec": 1070,
+      "text": "That is correct, sir, the indoor signal drops remain open pending the RF engineering adjustments over the next few days.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:01]",
+      "end_time": "[18:07]",
+      "start_time_sec": 1081,
+      "text": "Okay, I'll look out for your text or call on Friday afternoon at four o'clock.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:10]",
+      "end_time": "[18:17]",
+      "start_time_sec": 1090,
+      "text": "Is there anything else I can check for you today while we are on the line, sir?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:20]",
+      "end_time": "[18:23]",
+      "start_time_sec": 1100,
+      "text": "No, that's all for now, thank you Benjamin.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:26]",
+      "end_time": "[18:35]",
+      "start_time_sec": 1106,
+      "text": "Thank you for choosing S-Net, sir, and please complete the brief survey after this call. Have a good rest of your afternoon.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:38]",
+      "end_time": "[18:40]",
+      "start_time_sec": 1118,
+      "text": "Goodbye.",
+      "sentiment_score": 0.0
+    }
+  ]
+}

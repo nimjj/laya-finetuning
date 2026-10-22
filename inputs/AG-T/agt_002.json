@@ -1,0 +1,532 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Abigail",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer support. My name is Daniel. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:09]",
+      "end_time": "[00:21]",
+      "start_time_sec": 9,
+      "text": "Hi Daniel. I've just landed in Valencia in Spain for a design conference, and my mobile data isn't working at all, even though I bought the Euro Roam Pass.",
+      "sentiment_score": -26.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:23]",
+      "end_time": "[00:35]",
+      "start_time_sec": 23,
+      "text": "I completely understand how stressful it is to arrive in Spain and find yourself without data for maps or hotel bookings, Abigail. Let's get that sorted out for you right away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:37]",
+      "end_time": "[00:46]",
+      "start_time_sec": 37,
+      "text": "Thank you, Daniel. I'm standing outside the terminal right now trying to find my hotel transfer and nothing is loading on my phone.",
+      "sentiment_score": -34.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:48]",
+      "end_time": "[01:00]",
+      "start_time_sec": 48,
+      "text": "Don't worry, we will get your internet connection up and running. Before we dive into the handset settings, may I take your UK billing address and postcode to access your account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:02]",
+      "end_time": "[01:05]",
+      "start_time_sec": 62,
+      "text": "Yes, it's 28 Westbourne Terrace, London, W2 3UL.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:07]",
+      "end_time": "[01:12]",
+      "start_time_sec": 67,
+      "text": "Thank you. And could you please confirm your four-digit security PIN for verification?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:14]",
+      "end_time": "[01:16]",
+      "start_time_sec": 74,
+      "text": "It's 4 9 1 6.",
+      "sentiment_score": 3.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:18]",
+      "end_time": "[01:28]",
+      "start_time_sec": 78,
+      "text": "That's verified your account, thank you Abigail. Just to confirm your plan details, you are on our Unlimited 5G SIM plan, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:30]",
+      "end_time": "[01:32]",
+      "start_time_sec": 90,
+      "text": "Yes, that's the one.",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:34]",
+      "end_time": "[01:48]",
+      "start_time_sec": 94,
+      "text": "So what I am hearing is that you have landed in Valencia with your active Euro Roam Pass, but although you have signal, your mobile data and applications aren't connecting. Have I understood the problem accurately?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:50]",
+      "end_time": "[02:01]",
+      "start_time_sec": 110,
+      "text": "Yes, exactly. I have four bars of reception and it says Movistar at the top, but there's no 4G or 5G icon and no web pages load.",
+      "sentiment_score": -12.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:03]",
+      "end_time": "[02:11]",
+      "start_time_sec": 123,
+      "text": "Understood. Let's check a few quick settings on your phone first. Are you using an iPhone or an Android handset?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:13]",
+      "end_time": "[02:15]",
+      "start_time_sec": 133,
+      "text": "I'm using an iPhone 15 Pro.",
+      "sentiment_score": 1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:17]",
+      "end_time": "[02:26]",
+      "start_time_sec": 137,
+      "text": "Great. Could you open the Settings app on your iPhone, tap on Mobile Data, and check whether Mobile Data is toggled on?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:28]",
+      "end_time": "[02:31]",
+      "start_time_sec": 148,
+      "text": "Yes, Mobile Data is definitely turned on.",
+      "sentiment_score": 2.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:33]",
+      "end_time": "[02:40]",
+      "start_time_sec": 153,
+      "text": "And just beneath that, tap on Mobile Data Options. Is the Data Roaming switch turned on as well?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:42]",
+      "end_time": "[02:48]",
+      "start_time_sec": 162,
+      "text": "Oh, wait! Data Roaming is toggled off. Let me switch that green right now.",
+      "sentiment_score": 14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:50]",
+      "end_time": "[02:56]",
+      "start_time_sec": 170,
+      "text": "Brilliant. Let's see if a cellular data icon appears next to the Movistar signal bars now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:58]",
+      "end_time": "[03:06]",
+      "start_time_sec": 178,
+      "text": "It says 3G for a second, but then it disappears and Safari still says you are not connected to the internet.",
+      "sentiment_score": -15.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:21]",
+      "start_time_sec": 188,
+      "text": "Obviously we cannot browse without a valid overseas data bearer session, so let's inspect your APN profile next. Bear with me while I check your international roaming profile on our mobile network database."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:23]",
+      "end_time": "[03:25]",
+      "start_time_sec": 203,
+      "text": "Sure thing, I'll hold.",
+      "sentiment_score": 1.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:45]",
+      "end_time": "[04:56]",
+      "start_time_sec": 285,
+      "text": "Thank you for holding, Abigail. Looking at our roaming registry, your Euro Roam Pass is completely active and valid until next week, so the network allows your connection."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:58]",
+      "end_time": "[05:02]",
+      "start_time_sec": 298,
+      "text": "Okay, that's good to know. Why won't it connect then?",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:04]",
+      "end_time": "[05:14]",
+      "start_time_sec": 304,
+      "text": "When switching from UK masts to Spanish partner networks, iPhones sometimes retain an outdated Access Point Name or fail to pull the carrier APN payload automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:16]",
+      "end_time": "[05:19]",
+      "start_time_sec": 316,
+      "text": "How do I check that on my phone?",
+      "sentiment_score": 2.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:21]",
+      "end_time": "[05:29]",
+      "start_time_sec": 321,
+      "text": "In Settings, go back to Mobile Data, and look for Mobile Data Network. Do you see an APN field there?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:31]",
+      "end_time": "[05:39]",
+      "start_time_sec": 331,
+      "text": "Yes, I see Mobile Data APN. Right now it says idata dot o2 dot co dot uk in the box.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:41]",
+      "end_time": "[05:47]",
+      "start_time_sec": 341,
+      "text": "It has my old network provider's APN in there from before I switched to S-Net!",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:49]",
+      "end_time": "[05:57]",
+      "start_time_sec": 349,
+      "text": "That explains it completely! Movistar is trying to route data packets to your old provider's gateway, which rejects them."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:59]",
+      "end_time": "[06:02]",
+      "start_time_sec": 359,
+      "text": "Aha! What should I type in there instead?",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:04]",
+      "end_time": "[06:13]",
+      "start_time_sec": 364,
+      "text": "In that APN field, please delete the old text and type mobile dot snet dot co dot uk, all lowercase with no spaces."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:15]",
+      "end_time": "[06:20]",
+      "start_time_sec": 375,
+      "text": "Done. Do I need to put anything in the Username or Password fields?",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:22]",
+      "end_time": "[06:26]",
+      "start_time_sec": 382,
+      "text": "Do Username and Password need to be filled in as well?",
+      "sentiment_score": 1.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:28]",
+      "end_time": "[06:36]",
+      "start_time_sec": 388,
+      "text": "No, leave Username and Password completely blank. Then tap the back arrow in the top left corner to save it."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:38]",
+      "end_time": "[06:42]",
+      "start_time_sec": 398,
+      "text": "Okay, I've tapped back. Now what should I do?",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:44]",
+      "end_time": "[06:57]",
+      "start_time_sec": 404,
+      "text": "Now let's cycle your connection. Swipe down from the top right of your screen to open Control Centre, turn on Airplane Mode for about ten seconds, and then turn it back off."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:59]",
+      "end_time": "[07:05]",
+      "start_time_sec": 419,
+      "text": "Okay, Airplane Mode is on. Waiting ten seconds... and turning it back off now.",
+      "sentiment_score": 6.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:07]",
+      "end_time": "[07:12]",
+      "start_time_sec": 427,
+      "text": "Give it about fifteen seconds to authenticate with the local cell tower."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:14]",
+      "end_time": "[07:20]",
+      "start_time_sec": 434,
+      "text": "The signal bars came back... and now there is a solid 5G icon next to Movistar!",
+      "sentiment_score": 32.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:22]",
+      "end_time": "[07:28]",
+      "start_time_sec": 442,
+      "text": "Is Safari loading your conference webpage or navigation maps now with the 5G connection active?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:30]",
+      "end_time": "[07:37]",
+      "start_time_sec": 450,
+      "text": "Yes! Google Maps just loaded my route to the hotel, and my WhatsApp messages are pinging through.",
+      "sentiment_score": 38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:39]",
+      "end_time": "[07:51]",
+      "start_time_sec": 459,
+      "text": "That is fantastic news, Abigail. Could you do me a quick favor and open any news site or run a quick search just to make sure the browsing speed is responsive?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:53]",
+      "end_time": "[07:59]",
+      "start_time_sec": 473,
+      "text": "Just loaded the BBC news homepage and it loaded instantly with images and video.",
+      "sentiment_score": 29.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:01]",
+      "end_time": "[08:07]",
+      "start_time_sec": 481,
+      "text": "Excellent. That confirms your European data roaming is fully authenticated and streaming through our partner gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:09]",
+      "end_time": "[08:18]",
+      "start_time_sec": 489,
+      "text": "I am so relieved! I was worried I'd be stranded at the airport without any way to contact the conference organizer or hotel.",
+      "sentiment_score": 27.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:20]",
+      "end_time": "[08:31]",
+      "start_time_sec": 500,
+      "text": "Let's also do a quick check on your network operator selection setting, just to make sure your phone stays on the best signal while you travel around Valencia."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:33]",
+      "end_time": "[08:35]",
+      "start_time_sec": 513,
+      "text": "Sure, where do I find that?",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:37]",
+      "end_time": "[08:43]",
+      "start_time_sec": 517,
+      "text": "In Settings under Mobile Data, tap on Network Selection. Is the Automatic toggle turned on?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:45]",
+      "end_time": "[08:47]",
+      "start_time_sec": 525,
+      "text": "Yes, Automatic is switched on.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:49]",
+      "end_time": "[09:02]",
+      "start_time_sec": 529,
+      "text": "Perfect, keep that on Automatic. That way, if Movistar's signal drops in certain stone buildings in the old city, your iPhone will seamlessly roam onto Orange Spain or Vodafone Spain without losing data."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:04]",
+      "end_time": "[09:12]",
+      "start_time_sec": 544,
+      "text": "That is really good to know. The conference centre is in an older exhibition hall, so that might happen.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:14]",
+      "end_time": "[09:21]",
+      "start_time_sec": 554,
+      "text": "Will you be travelling anywhere outside of Spain during this trip, or staying within the EU, Abigail?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:23]",
+      "end_time": "[09:28]",
+      "start_time_sec": 563,
+      "text": "Just staying in Valencia until Sunday, then flying straight back to London Heathrow.",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:30]",
+      "end_time": "[09:42]",
+      "start_time_sec": 570,
+      "text": "Your Euro Roam Pass covers all twenty-seven EU countries, so you won't incur any unexpected extra charges while you are in Spain. You have twenty-five gigabytes of high-speed roaming data included."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:44]",
+      "end_time": "[09:48]",
+      "start_time_sec": 584,
+      "text": "That is plenty for four days of maps, presentations, and emails.",
+      "sentiment_score": 15.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:50]",
+      "end_time": "[10:00]",
+      "start_time_sec": 590,
+      "text": "And if you ever need to monitor your roaming data usage while abroad, you can open the My S-Net app and it updates in real time."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:02]",
+      "end_time": "[10:08]",
+      "start_time_sec": 602,
+      "text": "I already have the My S-Net app installed on my phone, so that's super convenient.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:10]",
+      "end_time": "[10:23]",
+      "start_time_sec": 610,
+      "text": "One more quick tip for your trip: when you connect to your hotel Wi-Fi in the evenings, you can use Wi-Fi Calling to call UK landlines and mobiles without using any roaming minutes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:25]",
+      "end_time": "[10:31]",
+      "start_time_sec": 625,
+      "text": "Oh, does Wi-Fi Calling work internationally as well? I thought it only worked inside the UK.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:33]",
+      "end_time": "[10:45]",
+      "start_time_sec": 633,
+      "text": "With S-Net, Wi-Fi Calling works over any secure broadband Wi-Fi connection worldwide. Your phone routes the call through our UK network core, treating it exactly like a domestic call."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:47]",
+      "end_time": "[10:55]",
+      "start_time_sec": 647,
+      "text": "That is brilliant, I can phone my parents back home in London without worrying about international call rates at all.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:57]",
+      "end_time": "[11:05]",
+      "start_time_sec": 657,
+      "text": "Exactly. Just ensure Wi-Fi Calling is toggled on under Mobile Data in your Settings before you connect to the hotel network."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:07]",
+      "end_time": "[11:11]",
+      "start_time_sec": 667,
+      "text": "I just checked, and Wi-Fi Calling is already toggled on. Perfect!",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:13]",
+      "end_time": "[11:24]",
+      "start_time_sec": 673,
+      "text": "When you land back in the UK on Sunday, your phone will automatically switch back to our domestic S-Net UK masts without needing any further settings adjustments."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:26]",
+      "end_time": "[11:33]",
+      "start_time_sec": 686,
+      "text": "That makes things very easy. Daniel, thank you so much for walking me through that so patiently.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:35]",
+      "end_time": "[11:40]",
+      "start_time_sec": 695,
+      "text": "You've completely saved my afternoon, I can catch my taxi with confidence now.",
+      "sentiment_score": 24.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:42]",
+      "end_time": "[11:51]",
+      "start_time_sec": 702,
+      "text": "It was my absolute pleasure, Abigail. Is there anything else regarding your mobile service or home account that I can help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:53]",
+      "end_time": "[11:57]",
+      "start_time_sec": 713,
+      "text": "No, that's everything. Have a wonderful rest of your day!",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:59]",
+      "end_time": "[12:07]",
+      "start_time_sec": 719,
+      "text": "Thank you for calling S-Net customer support. Thank you for choosing S-Net, Abigail, and enjoy your design conference in Valencia!"
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "George",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:02]",
+      "end_time": "[00:09]",
+      "start_time_sec": 2,
+      "text": "Thank you for calling S-Net customer support. My name is Chloe. How may I assist you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:22]",
+      "start_time_sec": 11,
+      "text": "Hello Chloe. I'm calling about our home telephone. We've got a terrible crackling and buzzing on the landline that's making it almost impossible to hear anything.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:24]",
+      "end_time": "[00:37]",
+      "start_time_sec": 24,
+      "text": "I can certainly help you get that crackling telephone line sorted out today, George. May I start by confirming your full billing address and your security question for account verification?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:39]",
+      "end_time": "[00:51]",
+      "start_time_sec": 39,
+      "text": "Yes, of course dear. The address is 27 Willow Crescent, Cheltenham, GL51 8PX. And my security question is my first school, which was St Mark's Church of England.",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:53]",
+      "end_time": "[01:05]",
+      "start_time_sec": 53,
+      "text": "Thank you very much, George. That matches our records perfectly. Now, please tell me a bit more about when you first noticed this buzzing noise on the line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:07]",
+      "end_time": "[01:29]",
+      "start_time_sec": 67,
+      "text": "Well, it started about four days ago, but yesterday it got noticeably louder. My wife Margaret has a red medical alarm pendant linked to the phone line, so whenever there's a loud buzz I get terribly anxious that if she has a fall, the alarm won't dial through to the warden.",
+      "sentiment_score": -35.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:31]",
+      "end_time": "[01:47]",
+      "start_time_sec": 91,
+      "text": "I completely understand how worrying that must be with Margaret's emergency pendant on the line, George. We treat medical care alarms as top priority, so let's get this thoroughly checked and secured for you right away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:49]",
+      "end_time": "[01:54]",
+      "start_time_sec": 109,
+      "text": "Thank you so much Chloe, that's such a comforting relief to hear.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:56]",
+      "end_time": "[02:15]",
+      "start_time_sec": 116,
+      "text": "Just to make sure I have the full picture: you have a loud static crackle and buzzing on the landline that worsened over the last few days, and you need to ensure the medical alarm line remains clear and operational. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:17]",
+      "end_time": "[02:21]",
+      "start_time_sec": 137,
+      "text": "Yes, that is exactly the problem.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:23]",
+      "end_time": "[02:35]",
+      "start_time_sec": 143,
+      "text": "Understood. First, I am going to register both of you on our Priority Services Register right now so your account is permanently flagged for priority network support."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:37]",
+      "end_time": "[02:44]",
+      "start_time_sec": 157,
+      "text": "Oh, that is wonderful. Does that mean engineers come out quicker if the line ever goes down?",
+      "sentiment_score": 14.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:46]",
+      "end_time": "[02:58]",
+      "start_time_sec": 166,
+      "text": "Yes, exactly. It gives you free priority fault repair within four hours and an emergency backup dialer if needed. That is all saved on your account profile now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:00]",
+      "end_time": "[03:05]",
+      "start_time_sec": 180,
+      "text": "God bless you dear, that gives me huge peace of mind.",
+      "sentiment_score": 28.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:07]",
+      "end_time": "[03:17]",
+      "start_time_sec": 187,
+      "text": "Now, let's look at the telephone equipment inside the house. What type of telephone handset are you speaking to me on right now?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:19]",
+      "end_time": "[03:26]",
+      "start_time_sec": 199,
+      "text": "It's an ordinary corded British Telecom handset with large push buttons, plugged into the main hallway socket.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:28]",
+      "end_time": "[03:38]",
+      "start_time_sec": 208,
+      "text": "And are there any other telephone extension sockets or other equipment plugged in around the house, like in the bedroom or living room?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:40]",
+      "end_time": "[03:53]",
+      "start_time_sec": 220,
+      "text": "We have an old extension socket in the dining room with an external bell ringer chime, and an extension upstairs in the spare bedroom, though nothing is plugged in upstairs.",
+      "sentiment_score": -1.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:55]",
+      "end_time": "[04:08]",
+      "start_time_sec": 235,
+      "text": "Obviously internal extension bell-wiring can degrade over time and pick up electrical interference that causes this exact type of crackle, George. So I'd like us to test the master socket directly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:10]",
+      "end_time": "[04:16]",
+      "start_time_sec": 250,
+      "text": "Right, I understand. What do I need to do with the hallway socket?",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:18]",
+      "end_time": "[04:30]",
+      "start_time_sec": 258,
+      "text": "Take a look at that main socket in the hallway. Does it have a horizontal seam across the middle with two small screws on the bottom half?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:32]",
+      "end_time": "[04:39]",
+      "start_time_sec": 272,
+      "text": "Yes it does, two small cross-head screws on the lower half of the plastic box.",
+      "sentiment_score": 2.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:41]",
+      "end_time": "[04:51]",
+      "start_time_sec": 281,
+      "text": "That is an NTE5 master socket. If you gently unscrew those two screws, the front faceplate pulls off, revealing a hidden test socket inside."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:53]",
+      "end_time": "[05:00]",
+      "start_time_sec": 293,
+      "text": "Hold on just a moment, I've got my little spectacles and a screwdriver in the hall drawer.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:02]",
+      "end_time": "[05:09]",
+      "start_time_sec": 302,
+      "text": "Take all the time you need, George. I'm right here with you on the line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:11]",
+      "end_time": "[05:18]",
+      "start_time_sec": 311,
+      "text": "Right, I'm unscrewing the left screw now... and the right screw. Both screws are out.",
+      "sentiment_score": 5.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:20]",
+      "end_time": "[05:29]",
+      "start_time_sec": 320,
+      "text": "Now slide the bottom faceplate gently outwards. You will see a small socket on the right-hand side of the backplate."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:31]",
+      "end_time": "[05:37]",
+      "start_time_sec": 331,
+      "text": "Yes! The front plate came forward and I can see another socket behind it.",
+      "sentiment_score": 9.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:39]",
+      "end_time": "[05:47]",
+      "start_time_sec": 339,
+      "text": "Brilliant. Now unplug your corded telephone from the front faceplate, and plug it directly into that hidden test socket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:49]",
+      "end_time": "[05:57]",
+      "start_time_sec": 349,
+      "text": "Unplugging from the front plate... and pushing the plug into the test socket. There, it clicked in firmly.",
+      "sentiment_score": 8.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:59]",
+      "end_time": "[06:08]",
+      "start_time_sec": 359,
+      "text": "Now pick up the receiver, put it to your ear, and listen to the dial tone. How does it sound?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:10]",
+      "end_time": "[06:21]",
+      "start_time_sec": 370,
+      "text": "Lifting the receiver to my ear... heavens above! The loud buzzing hiss is completely gone. The dial tone is completely smooth and silent behind the tone.",
+      "sentiment_score": 33.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:24]",
+      "end_time": "[06:36]",
+      "start_time_sec": 384,
+      "text": "That is fantastic news. While you have the receiver up, is the dial tone still completely clear of any crackle or static when you tap the cable?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:38]",
+      "end_time": "[06:46]",
+      "start_time_sec": 398,
+      "text": "I'm jiggling the curly wire and tapping the lead... no, absolutely silent, just a clean steady dial tone.",
+      "sentiment_score": 31.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:48]",
+      "end_time": "[07:02]",
+      "start_time_sec": 408,
+      "text": "That confirms that the copper cable coming from the exchange down your street is in perfect condition, George. The crackle was coming from the old dining room extension bell-wire attached to the faceplate."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:04]",
+      "end_time": "[07:09]",
+      "start_time_sec": 424,
+      "text": "Good gracious, all this worry because of an old dining room wire!",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:11]",
+      "end_time": "[07:26]",
+      "start_time_sec": 431,
+      "text": "It happens very frequently with older wiring, George. What I am going to do is order a brand new pre-filtered master faceplate for you. It replaces the old front plate and isolates extension wiring permanently."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:28]",
+      "end_time": "[07:34]",
+      "start_time_sec": 448,
+      "text": "And will Margaret's medical alarm unit plug straight into that without any bother?",
+      "sentiment_score": -2.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:36]",
+      "end_time": "[07:46]",
+      "start_time_sec": 456,
+      "text": "Yes, absolutely. The new faceplate has two separate filtered sockets: one specifically for your corded phone and one for the medical alarm box."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:48]",
+      "end_time": "[07:52]",
+      "start_time_sec": 468,
+      "text": "And how much will that replacement faceplate cost us, dear?",
+      "sentiment_score": -5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:54]",
+      "end_time": "[08:04]",
+      "start_time_sec": 474,
+      "text": "It is completely free of charge under your Priority Services package, George. We never charge our priority customers for line protection equipment."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:06]",
+      "end_time": "[08:13]",
+      "start_time_sec": 486,
+      "text": "You really are an angel Chloe. That takes such a huge load of worry off my shoulders.",
+      "sentiment_score": 36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:15]",
+      "end_time": "[08:26]",
+      "start_time_sec": 495,
+      "text": "I'm delighted to help. Now, before we wrap up, I'd like to do a live ringback test to verify that inbound call audio is completely clear."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:28]",
+      "end_time": "[08:32]",
+      "start_time_sec": 508,
+      "text": "Right, how do we do that test?",
+      "sentiment_score": 3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:34]",
+      "end_time": "[08:46]",
+      "start_time_sec": 514,
+      "text": "Please place your handset down on the cradle for five seconds. My automated test line will ring your number, and when you pick up, we will speak again."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:48]",
+      "end_time": "[08:52]",
+      "start_time_sec": 528,
+      "text": "Placing the receiver on the cradle now.",
+      "sentiment_score": 1.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:55]",
+      "end_time": "[08:59]",
+      "start_time_sec": 535,
+      "text": "Triggering the ringback test now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:04]",
+      "end_time": "[09:08]",
+      "start_time_sec": 544,
+      "text": "It's ringing! Picking up now... hello, Chloe?",
+      "sentiment_score": 19.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:10]",
+      "end_time": "[09:20]",
+      "start_time_sec": 550,
+      "text": "Hello George! I can hear your voice loud and clear, with zero static or buzzing. How is the clarity on your end?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:22]",
+      "end_time": "[09:32]",
+      "start_time_sec": 562,
+      "text": "It sounds as clear as a bell. Not a single pop or hiss. I haven't heard the telephone sound this clear in years.",
+      "sentiment_score": 34.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:34]",
+      "end_time": "[09:49]",
+      "start_time_sec": 574,
+      "text": "Wonderful! So to recap: your telephone audio is confirmed crystal clear via the master test socket, your new filtered faceplate will arrive by Royal Mail on Thursday, and your Priority Services registration is active."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:51]",
+      "end_time": "[10:00]",
+      "start_time_sec": 591,
+      "text": "That is everything sorted beyond my expectations. Margaret and I can sleep easy tonight knowing the emergency line is safe.",
+      "sentiment_score": 38.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:02]",
+      "end_time": "[10:10]",
+      "start_time_sec": 602,
+      "text": "That is wonderful to hear, George. Is there anything else at all I can help you with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:12]",
+      "end_time": "[10:16]",
+      "start_time_sec": 612,
+      "text": "No thank you dear, you've done everything brilliantly.",
+      "sentiment_score": 24.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:18]",
+      "end_time": "[10:25]",
+      "start_time_sec": 618,
+      "text": "Thank you for choosing S-Net, George. Please give my warmest regards to Margaret, and take good care."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:27]",
+      "end_time": "[10:31]",
+      "start_time_sec": 627,
+      "text": "Thank you Chloe. Goodbye now.",
+      "sentiment_score": 14.5
+    }
+  ]
+}

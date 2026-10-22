@@ -1,0 +1,2058 @@
+{
+  "thresholds": {
+    "empathy": {
+      "yes_means": "PASS",
+      "pass_threshold": 0.49
+    },
+    "active_listening": {
+      "yes_means": "FAIL",
+      "pass_threshold": 0.5
+    },
+    "ownership": {
+      "yes_means": "FAIL",
+      "pass_threshold": 0.52
+    },
+    "rapport": {
+      "yes_means": "FAIL",
+      "pass_threshold": 0.2
+    },
+    "probing": {
+      "yes_means": "PASS",
+      "pass_threshold": 0.7
+    },
+    "resolved": {
+      "yes_means": "PASS",
+      "pass_threshold": 0.42
+    },
+    "escalation": {
+      "yes_means": "FAIL",
+      "pass_threshold": 0.47
+    },
+    "hostility": {
+      "yes_means": "FAIL",
+      "pass_threshold": 0.79
+    },
+    "paraphrasing": {
+      "yes_means": "PASS",
+      "pass_threshold": 0.47
+    }
+  },
+  "calls": [
+    {
+      "call": "agb2_01.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 111,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9453
+          },
+          "sec": 5.36
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 108,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9058
+          },
+          "sec": 0.68
+        },
+        {
+          "label": "verify_al",
+          "words": 58,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0521
+          },
+          "sec": 0.51
+        },
+        {
+          "label": "verify_rapport",
+          "words": 115,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1126
+          },
+          "sec": 0.69
+        },
+        {
+          "label": "verify_rapport",
+          "words": 97,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0611
+          },
+          "sec": 0.58
+        },
+        {
+          "label": "verify_rapport",
+          "words": 98,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0578
+          },
+          "sec": 0.57
+        },
+        {
+          "label": "verify_rapport",
+          "words": 113,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.7589
+          },
+          "sec": 0.61
+        },
+        {
+          "label": "verify_rapport",
+          "words": 123,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0662
+          },
+          "sec": 0.73
+        },
+        {
+          "label": "verify_rapport",
+          "words": 112,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0641
+          },
+          "sec": 0.71
+        },
+        {
+          "label": "verify_rapport",
+          "words": 114,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0992
+          },
+          "sec": 0.7
+        },
+        {
+          "label": "verify_rapport",
+          "words": 107,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0599
+          },
+          "sec": 0.61
+        },
+        {
+          "label": "verify_rapport",
+          "words": 85,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0544
+          },
+          "sec": 0.57
+        },
+        {
+          "label": "verify_probing",
+          "words": 158,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9561
+          },
+          "sec": 0.92
+        },
+        {
+          "label": "batch_end",
+          "words": 149,
+          "text": null,
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.7197
+          },
+          "sec": 0.95
+        }
+      ],
+      "final_score": 100.0,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "PASS",
+        "Paraphrasing": "PASS",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "PASS"
+      }
+    },
+    {
+      "call": "agb2_02.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 176,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.917
+          },
+          "sec": 0.98
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 119,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0467
+          },
+          "sec": 0.61
+        },
+        {
+          "label": "verify_rapport",
+          "words": 82,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0612
+          },
+          "sec": 0.53
+        },
+        {
+          "label": "verify_rapport",
+          "words": 94,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0705
+          },
+          "sec": 0.62
+        },
+        {
+          "label": "verify_rapport",
+          "words": 120,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0539
+          },
+          "sec": 0.71
+        },
+        {
+          "label": "verify_rapport",
+          "words": 117,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0923
+          },
+          "sec": 0.71
+        },
+        {
+          "label": "verify_rapport",
+          "words": 97,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0581
+          },
+          "sec": 0.62
+        },
+        {
+          "label": "verify_rapport",
+          "words": 116,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0551
+          },
+          "sec": 0.72
+        },
+        {
+          "label": "verify_rapport",
+          "words": 117,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0658
+          },
+          "sec": 0.82
+        },
+        {
+          "label": "verify_rapport",
+          "words": 126,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1637
+          },
+          "sec": 0.8
+        },
+        {
+          "label": "verify_rapport",
+          "words": 118,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0522
+          },
+          "sec": 0.74
+        },
+        {
+          "label": "verify_probing",
+          "words": 162,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9246
+          },
+          "sec": 0.98
+        },
+        {
+          "label": "batch_end",
+          "words": 130,
+          "text": null,
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.8285
+          },
+          "sec": 0.84
+        }
+      ],
+      "final_score": 90.0,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "PASS",
+        "Paraphrasing": "FAIL",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "PASS"
+      }
+    },
+    {
+      "call": "agb2_03.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 138,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9077
+          },
+          "sec": 0.74
+        },
+        {
+          "label": "verify_empathy",
+          "words": 149,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9412
+          },
+          "sec": 0.75
+        },
+        {
+          "label": "verify_empathy",
+          "words": 108,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9178
+          },
+          "sec": 0.58
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 72,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0597
+          },
+          "sec": 0.45
+        },
+        {
+          "label": "verify_rapport",
+          "words": 85,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0566
+          },
+          "sec": 0.6
+        },
+        {
+          "label": "verify_rapport",
+          "words": 120,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0683
+          },
+          "sec": 0.75
+        },
+        {
+          "label": "verify_rapport",
+          "words": 120,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0548
+          },
+          "sec": 0.91
+        },
+        {
+          "label": "verify_rapport",
+          "words": 99,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1005
+          },
+          "sec": 0.62
+        },
+        {
+          "label": "verify_rapport",
+          "words": 106,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0544
+          },
+          "sec": 0.67
+        },
+        {
+          "label": "verify_rapport",
+          "words": 124,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0755
+          },
+          "sec": 0.82
+        },
+        {
+          "label": "verify_rapport",
+          "words": 101,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.3802
+          },
+          "sec": 0.68
+        },
+        {
+          "label": "verify_rapport",
+          "words": 116,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0527
+          },
+          "sec": 0.74
+        },
+        {
+          "label": "verify_rapport",
+          "words": 23,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0559
+          },
+          "sec": 0.38
+        },
+        {
+          "label": "verify_probing",
+          "words": 165,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.953
+          },
+          "sec": 1.12
+        },
+        {
+          "label": "batch_end",
+          "words": 154,
+          "text": null,
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.8536
+          },
+          "sec": 0.92
+        }
+      ],
+      "final_score": 90.0,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "PASS",
+        "Paraphrasing": "FAIL",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "PASS"
+      }
+    },
+    {
+      "call": "agb2_04.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 126,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.8567
+          },
+          "sec": 0.65
+        },
+        {
+          "label": "verify_empathy",
+          "words": 147,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9429
+          },
+          "sec": 0.78
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 74,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1025
+          },
+          "sec": 0.47
+        },
+        {
+          "label": "verify_rapport",
+          "words": 119,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0938
+          },
+          "sec": 0.74
+        },
+        {
+          "label": "verify_rapport",
+          "words": 106,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0522
+          },
+          "sec": 0.66
+        },
+        {
+          "label": "verify_rapport",
+          "words": 121,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0693
+          },
+          "sec": 0.71
+        },
+        {
+          "label": "verify_rapport",
+          "words": 121,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0827
+          },
+          "sec": 0.68
+        },
+        {
+          "label": "verify_rapport",
+          "words": 111,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0592
+          },
+          "sec": 0.76
+        },
+        {
+          "label": "verify_rapport",
+          "words": 123,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0488
+          },
+          "sec": 0.75
+        },
+        {
+          "label": "verify_rapport",
+          "words": 100,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0478
+          },
+          "sec": 0.64
+        },
+        {
+          "label": "verify_probing",
+          "words": 152,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9573
+          },
+          "sec": 0.96
+        },
+        {
+          "label": "batch_end",
+          "words": 152,
+          "text": null,
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.9282
+          },
+          "sec": 0.93
+        }
+      ],
+      "final_score": 90.0,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "PASS",
+        "Paraphrasing": "FAIL",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "PASS"
+      }
+    },
+    {
+      "call": "agb2_05.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 120,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0744
+          },
+          "sec": 0.65
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 64,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0504
+          },
+          "sec": 0.41
+        },
+        {
+          "label": "verify_rapport",
+          "words": 100,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1099
+          },
+          "sec": 0.66
+        },
+        {
+          "label": "verify_rapport",
+          "words": 109,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1525
+          },
+          "sec": 0.68
+        },
+        {
+          "label": "verify_rapport",
+          "words": 109,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1045
+          },
+          "sec": 0.62
+        },
+        {
+          "label": "verify_rapport",
+          "words": 117,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1027
+          },
+          "sec": 0.73
+        },
+        {
+          "label": "verify_rapport",
+          "words": 107,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0894
+          },
+          "sec": 0.71
+        },
+        {
+          "label": "verify_rapport",
+          "words": 85,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0511
+          },
+          "sec": 0.56
+        },
+        {
+          "label": "verify_probing",
+          "words": 83,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.2001
+          },
+          "sec": 0.6
+        },
+        {
+          "label": "batch_end",
+          "words": 102,
+          "text": null,
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.0341
+          },
+          "sec": 0.66
+        }
+      ],
+      "final_score": 51.7,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "FAIL",
+        "Paraphrasing": "FAIL",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "FAIL",
+        "Confirmed the issue is resolved": "FAIL"
+      }
+    },
+    {
+      "call": "agb2_06.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 129,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.2303
+          },
+          "sec": 0.68
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 66,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.95
+          },
+          "sec": 0.54
+        },
+        {
+          "label": "verify_ownership",
+          "words": 30,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9389
+          },
+          "sec": 0.34
+        },
+        {
+          "label": "verify_rapport",
+          "words": 123,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1068
+          },
+          "sec": 0.76
+        },
+        {
+          "label": "verify_rapport",
+          "words": 118,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1065
+          },
+          "sec": 0.7
+        },
+        {
+          "label": "verify_rapport",
+          "words": 106,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0765
+          },
+          "sec": 0.65
+        },
+        {
+          "label": "verify_rapport",
+          "words": 102,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9057
+          },
+          "sec": 0.66
+        },
+        {
+          "label": "verify_probing",
+          "words": 144,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9564
+          },
+          "sec": 0.88
+        },
+        {
+          "label": "batch_end",
+          "words": 105,
+          "text": null,
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.0625
+          },
+          "sec": 0.71
+        }
+      ],
+      "final_score": 33.3,
+      "ratings": {
+        "Branding and Survey Check": "FAIL",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "FAIL",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "FAIL",
+        "Paraphrasing": "PASS",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "FAIL",
+        "Build rapport and observed professionalism": "FAIL",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "FAIL"
+      }
+    },
+    {
+      "call": "agb2_07.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 121,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0891
+          },
+          "sec": 0.66
+        },
+        {
+          "label": "verify_rapport",
+          "words": 114,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.6172
+          },
+          "sec": 0.74
+        },
+        {
+          "label": "verify_rapport",
+          "words": 118,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.3227
+          },
+          "sec": 0.74
+        },
+        {
+          "label": "verify_rapport",
+          "words": 118,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0809
+          },
+          "sec": 0.77
+        },
+        {
+          "label": "verify_rapport",
+          "words": 118,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1574
+          },
+          "sec": 0.75
+        },
+        {
+          "label": "verify_rapport",
+          "words": 116,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0626
+          },
+          "sec": 0.81
+        },
+        {
+          "label": "verify_probing",
+          "words": 82,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9588
+          },
+          "sec": 0.56
+        },
+        {
+          "label": "batch_end",
+          "words": 122,
+          "text": null,
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.0278
+          },
+          "sec": 0.8
+        }
+      ],
+      "final_score": 58.3,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "FAIL",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "FAIL",
+        "Empathy & Acknowledgment Statement": "FAIL",
+        "Paraphrasing": "FAIL",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "FAIL"
+      }
+    },
+    {
+      "call": "agb2_08.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 149,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.8876
+          },
+          "sec": 0.78
+        },
+        {
+          "label": "verify_empathy",
+          "words": 146,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0647
+          },
+          "sec": 0.79
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 78,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.8214
+          },
+          "sec": 0.47
+        },
+        {
+          "label": "verify_rapport",
+          "words": 84,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0801
+          },
+          "sec": 0.58
+        },
+        {
+          "label": "verify_rapport",
+          "words": 103,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0709
+          },
+          "sec": 0.66
+        },
+        {
+          "label": "verify_rapport",
+          "words": 110,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0664
+          },
+          "sec": 0.7
+        },
+        {
+          "label": "verify_rapport",
+          "words": 110,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0698
+          },
+          "sec": 0.71
+        },
+        {
+          "label": "verify_rapport",
+          "words": 111,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.062
+          },
+          "sec": 0.82
+        },
+        {
+          "label": "verify_rapport",
+          "words": 115,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0571
+          },
+          "sec": 0.85
+        },
+        {
+          "label": "verify_rapport",
+          "words": 125,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0588
+          },
+          "sec": 0.69
+        },
+        {
+          "label": "verify_rapport",
+          "words": 119,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.2487
+          },
+          "sec": 0.78
+        },
+        {
+          "label": "verify_rapport",
+          "words": 124,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0596
+          },
+          "sec": 0.82
+        },
+        {
+          "label": "verify_probing",
+          "words": 165,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9154
+          },
+          "sec": 1.03
+        },
+        {
+          "label": "batch_end",
+          "words": 130,
+          "text": null,
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.5954
+          },
+          "sec": 0.86
+        }
+      ],
+      "final_score": 88.3,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "FAIL",
+        "Paraphrasing": "PASS",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "PASS"
+      }
+    },
+    {
+      "call": "agb2_09.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 138,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9095
+          },
+          "sec": 0.66
+        },
+        {
+          "label": "verify_empathy",
+          "words": 129,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1024
+          },
+          "sec": 0.66
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 80,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9407
+          },
+          "sec": 0.52
+        },
+        {
+          "label": "verify_rapport",
+          "words": 88,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0632
+          },
+          "sec": 0.72
+        },
+        {
+          "label": "verify_rapport",
+          "words": 111,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0714
+          },
+          "sec": 0.68
+        },
+        {
+          "label": "verify_rapport",
+          "words": 118,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1064
+          },
+          "sec": 0.7
+        },
+        {
+          "label": "verify_rapport",
+          "words": 106,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0636
+          },
+          "sec": 0.66
+        },
+        {
+          "label": "verify_rapport",
+          "words": 123,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1457
+          },
+          "sec": 0.82
+        },
+        {
+          "label": "verify_rapport",
+          "words": 103,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1349
+          },
+          "sec": 0.67
+        },
+        {
+          "label": "verify_rapport",
+          "words": 109,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0956
+          },
+          "sec": 0.68
+        },
+        {
+          "label": "verify_rapport",
+          "words": 112,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.8941
+          },
+          "sec": 0.67
+        },
+        {
+          "label": "verify_probing",
+          "words": 164,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.941
+          },
+          "sec": 0.94
+        },
+        {
+          "label": "batch_end",
+          "words": 123,
+          "text": null,
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.1611
+          },
+          "sec": 0.88
+        }
+      ],
+      "final_score": 71.7,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "FAIL",
+        "Paraphrasing": "PASS",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "FAIL",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "FAIL"
+      }
+    },
+    {
+      "call": "agb2_10.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 128,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.2029
+          },
+          "sec": 0.68
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 95,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0424
+          },
+          "sec": 0.5
+        },
+        {
+          "label": "verify_ownership",
+          "words": 32,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.6284
+          },
+          "sec": 0.38
+        },
+        {
+          "label": "verify_rapport",
+          "words": 120,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0721
+          },
+          "sec": 0.72
+        },
+        {
+          "label": "verify_rapport",
+          "words": 124,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0615
+          },
+          "sec": 0.74
+        },
+        {
+          "label": "verify_rapport",
+          "words": 125,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0743
+          },
+          "sec": 0.81
+        },
+        {
+          "label": "verify_rapport",
+          "words": 120,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0656
+          },
+          "sec": 0.76
+        },
+        {
+          "label": "verify_rapport",
+          "words": 127,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1075
+          },
+          "sec": 0.73
+        },
+        {
+          "label": "verify_rapport",
+          "words": 122,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.105
+          },
+          "sec": 0.76
+        },
+        {
+          "label": "verify_rapport",
+          "words": 125,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0638
+          },
+          "sec": 0.8
+        },
+        {
+          "label": "verify_rapport",
+          "words": 35,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0467
+          },
+          "sec": 0.4
+        },
+        {
+          "label": "verify_probing",
+          "words": 155,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9363
+          },
+          "sec": 0.95
+        },
+        {
+          "label": "batch_end",
+          "words": 113,
+          "text": null,
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.8868
+          },
+          "sec": 0.8
+        }
+      ],
+      "final_score": 61.7,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "FAIL",
+        "Paraphrasing": "FAIL",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "FAIL",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "PASS"
+      }
+    },
+    {
+      "call": "agb2_11.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 114,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.8926
+          },
+          "sec": 0.61
+        },
+        {
+          "label": "verify_empathy",
+          "words": 131,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.074
+          },
+          "sec": 0.62
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 72,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9382
+          },
+          "sec": 0.43
+        },
+        {
+          "label": "verify_rapport",
+          "words": 113,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0883
+          },
+          "sec": 0.66
+        },
+        {
+          "label": "verify_rapport",
+          "words": 118,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0885
+          },
+          "sec": 0.71
+        },
+        {
+          "label": "verify_rapport",
+          "words": 126,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.2699
+          },
+          "sec": 0.75
+        },
+        {
+          "label": "verify_rapport",
+          "words": 109,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1517
+          },
+          "sec": 0.61
+        },
+        {
+          "label": "verify_rapport",
+          "words": 116,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0617
+          },
+          "sec": 0.7
+        },
+        {
+          "label": "verify_rapport",
+          "words": 112,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0529
+          },
+          "sec": 0.72
+        },
+        {
+          "label": "verify_rapport",
+          "words": 80,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0553
+          },
+          "sec": 0.53
+        },
+        {
+          "label": "verify_rapport",
+          "words": 119,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0561
+          },
+          "sec": 0.75
+        },
+        {
+          "label": "verify_rapport",
+          "words": 125,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0615
+          },
+          "sec": 0.91
+        },
+        {
+          "label": "verify_probing",
+          "words": 159,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9504
+          },
+          "sec": 1.17
+        },
+        {
+          "label": "batch_end",
+          "words": 143,
+          "text": null,
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.6491
+          },
+          "sec": 0.94
+        }
+      ],
+      "final_score": 88.3,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "FAIL",
+        "Paraphrasing": "PASS",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "PASS"
+      }
+    },
+    {
+      "call": "agb2_12.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 133,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.8619
+          },
+          "sec": 0.64
+        },
+        {
+          "label": "verify_empathy",
+          "words": 96,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0568
+          },
+          "sec": 0.54
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 74,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9407
+          },
+          "sec": 0.47
+        },
+        {
+          "label": "verify_al",
+          "words": 90,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1299
+          },
+          "sec": 0.54
+        },
+        {
+          "label": "verify_rapport",
+          "words": 119,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0781
+          },
+          "sec": 0.74
+        },
+        {
+          "label": "verify_rapport",
+          "words": 107,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0469
+          },
+          "sec": 0.63
+        },
+        {
+          "label": "verify_rapport",
+          "words": 123,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1028
+          },
+          "sec": 0.81
+        },
+        {
+          "label": "verify_rapport",
+          "words": 119,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.4685
+          },
+          "sec": 0.9
+        },
+        {
+          "label": "verify_rapport",
+          "words": 127,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0898
+          },
+          "sec": 0.79
+        },
+        {
+          "label": "verify_rapport",
+          "words": 120,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0735
+          },
+          "sec": 0.76
+        },
+        {
+          "label": "verify_rapport",
+          "words": 112,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0666
+          },
+          "sec": 0.67
+        },
+        {
+          "label": "verify_rapport",
+          "words": 97,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.054
+          },
+          "sec": 0.65
+        },
+        {
+          "label": "verify_probing",
+          "words": 161,
+          "text": null,
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9208
+          },
+          "sec": 0.95
+        },
+        {
+          "label": "batch_end",
+          "words": 151,
+          "text": null,
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.9285
+          },
+          "sec": 0.97
+        }
+      ],
+      "final_score": 83.4,
+      "ratings": {
+        "Branding and Survey Check": "FAIL",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "FAIL",
+        "Paraphrasing": "PASS",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "PASS"
+      }
+    }
+  ]
+}

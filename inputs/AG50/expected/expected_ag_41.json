@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_41",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 76.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At [06:18], avoid making patronizing remarks such as asking what the customer expected the billing system to do when funds were not in her account on the first of the month."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "At [01:08]-[03:06], ask diagnostic probing questions to verify handset state and service scope rather than moving straight to processing the unbar and billing date change without any probing."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Moving direct debit collection date to the 28th after salary date change and lifting outbound call bar after manual card payment",
+    "tier": "good",
+    "duration_sec": 660,
+    "notes": "Noah handles verification, empathy ([00:19], [00:43]), paraphrasing ([01:08]-[01:23]), a managed hold ([03:20]-[04:28]), and live resolution confirmation ([05:23], [10:03]) well, but fails Probing because Octavia supplies all specifics upfront and borderline fails Rapport/Professionalism at [06:18] with a patronizing remark about keeping funds in her account.",
+    "hard_cases": [
+      "Build rapport and observed professionalism",
+      "Probing",
+      "Empathy & Acknowledgment Statement",
+      "Paraphrasing",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Noah opens with 'thank you for calling S-Net' and closes at [10:50] with 'Thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:20]-[04:28] Single managed hold of 58s announced with 'Please bear with me for a moment while...' and returned with 'Thank you for holding, Octavia'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:49]-[02:08] Noah verifies Octavia's home address, postcode, four-digit PIN, and security question well within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:19] Noah addresses Octavia by name throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:19] 'I'm really sorry for the stress and inconvenience that's caused you this morning, Octavia. I completely understand how frustrating it is...' and [00:43] 'I can only imagine how stressful that must have been when you were trying to reach your childminder, Octavia.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:08]-[01:23] Noah clearly paraphrases both parts of Octavia's request in his own words: reconciling the £64.50 Visa payment (ref SN-884920) to lift the outbound voice bar immediately, and moving the monthly Direct Debit date from the 1st to the 28th."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:11]-[02:49] Noah retains every detail Octavia shared upfront (payment ref SN-884920, £64.50 amount, 28th billing date) without asking her to repeat anything."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:49] Noah takes full ownership of manually allocating the suspense receipt, clearing the HLR outbound bar, waiving the £12 fee at [06:56], and updating the billing cycle to the 28th at [09:27]."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "borderline",
+        "evidence": "[06:18] Noah remarks in a patronizing tone: 'Well, Octavia, if you don't keep enough funds in your current account on the first of the month when the mandate runs, what did you expect the automated billing system to do?' before apologizing at [06:38]."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:55]-[03:06] Because Octavia provided the exact card payment reference (SN-884920) and desired Direct Debit date (28th) upfront, Noah processes the unbar and billing date change without asking a single diagnostic or probing question."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[05:23] Octavia tests an outbound call live after toggling airplane mode and confirms it rings and connects to 123, and at [10:03] confirms the My S-Net app shows £0.00 balance and the 28th May Direct Debit date."
+      }
+    ]
+  }
+}

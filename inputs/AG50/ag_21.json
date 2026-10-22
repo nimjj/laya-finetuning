@@ -1,0 +1,582 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Hiroshi",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Good afternoon, thank you for calling S-Net Technical Support. My name is Daniel. Who do I have the pleasure of speaking with today?",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:14]",
+      "start_time_sec": 8,
+      "text": "Hi Daniel, my name is Hiroshi. I'm calling because my S-Net 5G Home Broadband Hub keeps overheating and cutting out completely.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:15]",
+      "end_time": "[00:23]",
+      "start_time_sec": 15,
+      "text": "Hello Hiroshi, I'm really sorry to hear your 5G Hub is overheating and dropping your connection like that, especially when you're relying on it.",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:24]",
+      "end_time": "[00:34]",
+      "start_time_sec": 24,
+      "text": "Thanks. It has happened three times already today. The top of the unit gets burning hot, a solid red warning light comes on, and then it powers itself down.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:35]",
+      "end_time": "[00:42]",
+      "start_time_sec": 35,
+      "text": "I completely understand how disruptive that must be when your broadband shuts down every couple of hours due to heat buildup, Hiroshi.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:43]",
+      "end_time": "[00:50]",
+      "start_time_sec": 43,
+      "text": "Yeah, I work from home as an architectural draughtsman and it dropped right in the middle of a cloud model sync earlier.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:51]",
+      "end_time": "[01:01]",
+      "start_time_sec": 51,
+      "text": "So to make sure I have captured the whole picture, your S-Net 5G Hub is running excessively hot, showing a solid red thermal light, and powering off roughly every two hours.",
+      "sentiment_score": 46.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:02]",
+      "end_time": "[01:10]",
+      "start_time_sec": 62,
+      "text": "Yes, that sums it up accurately. After it shuts down, I have to unplug it for twenty minutes to cool down before it will boot again.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:11]",
+      "end_time": "[01:21]",
+      "start_time_sec": 71,
+      "text": "Let's get straight into diagnosing the hardware telemetry for you, Hiroshi. Before I access your account, could you confirm the first line of your home address and your four-digit security PIN?",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:22]",
+      "end_time": "[01:27]",
+      "start_time_sec": 82,
+      "text": "Of course. The first line is Flat 4, 18 Crescent Mansions, and my security PIN is 7392.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:28]",
+      "end_time": "[01:36]",
+      "start_time_sec": 88,
+      "text": "Thank you, Hiroshi. Could you also confirm the answer to your security question, which is the name of the street you grew up on?",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:37]",
+      "end_time": "[01:39]",
+      "start_time_sec": 97,
+      "text": "That is Maplewood Avenue.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:40]",
+      "end_time": "[01:51]",
+      "start_time_sec": 100,
+      "text": "Lovely, that is all verified on my screen. I can see your S-Net 5G Pro Hub XT19 on the account now, and I will take full ownership of sorting this out for you.",
+      "sentiment_score": 50.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:52]",
+      "end_time": "[01:56]",
+      "start_time_sec": 112,
+      "text": "Appreciate that, Daniel. Is there something wrong with the internal cooling inside this model?",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:57]",
+      "end_time": "[02:08]",
+      "start_time_sec": 117,
+      "text": "That is exactly what I am going to check right now via our remote hardware diagnostics, Hiroshi. While that loads, can I ask a few quick questions about where the hub is sitting?",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:09]",
+      "end_time": "[02:11]",
+      "start_time_sec": 129,
+      "text": "Sure, go ahead.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:12]",
+      "end_time": "[02:20]",
+      "start_time_sec": 132,
+      "text": "Whereabouts in your flat is the 5G Hub positioned, and is it near a window with direct afternoon sunlight or close to a radiator?",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:21]",
+      "end_time": "[02:30]",
+      "start_time_sec": 141,
+      "text": "It's on an open oak bookshelf next to the north-facing living room window. There is no direct sunlight hitting it, and the radiator underneath is turned completely off.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:31]",
+      "end_time": "[02:41]",
+      "start_time_sec": 151,
+      "text": "That is an ideal spot with plenty of airflow. Have you noticed whether the circular intake vents on the underside or the exhaust ring on top have any dust buildup?",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:42]",
+      "end_time": "[02:48]",
+      "start_time_sec": 162,
+      "text": "I checked both earlier with a torch and a dry microfibre cloth. The vents are completely clean and unobstructed.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:49]",
+      "end_time": "[03:01]",
+      "start_time_sec": 169,
+      "text": "Good thinking checking that already. And when the unit gets hot, is the heat concentrated in the main tower body of the hub, or is the external power supply brick getting hot as well?",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:02]",
+      "end_time": "[03:11]",
+      "start_time_sec": 182,
+      "text": "The power brick on the floor is barely warm to the touch. All of the heat is coming from the upper half of the white tower itself.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:12]",
+      "end_time": "[03:19]",
+      "start_time_sec": 192,
+      "text": "Have you noticed any unusual clicking or whirring noise from inside the tower over the past few days before this started happening, Hiroshi?",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:20]",
+      "end_time": "[03:28]",
+      "start_time_sec": 200,
+      "text": "Now that you mention it, on Tuesday evening it made a faint rattling sound for about ten minutes, and since yesterday it has been dead silent.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:29]",
+      "end_time": "[03:39]",
+      "start_time_sec": 209,
+      "text": "That detail about the rattling noise followed by silence is a huge clue, Hiroshi. My remote diagnostic poll of your XT19 hub has just finished loading on my screen.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:40]",
+      "end_time": "[03:42]",
+      "start_time_sec": 220,
+      "text": "What does the diagnostic report show?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:43]",
+      "end_time": "[03:52]",
+      "start_time_sec": 223,
+      "text": "It confirms your suspicion completely. The internal 5G baseband processor temperature is currently reading 89 degrees Celsius, and the internal axial cooling fan RPM is reading zero.",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:53]",
+      "end_time": "[03:55]",
+      "start_time_sec": 233,
+      "text": "Zero RPM? So the internal cooling fan has completely died?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:56]",
+      "end_time": "[04:04]",
+      "start_time_sec": 236,
+      "text": "Exactly right. The telemetry logs show three thermal cut-out events today at 94 degrees Celsius, and a hardware fault flag `FAN_TACHO_STALL_04` on the cooling fan bearing.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:05]",
+      "end_time": "[04:10]",
+      "start_time_sec": 245,
+      "text": "Ah, that explains the rattling sound I heard on Tuesday. The bearing must have seized up.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:11]",
+      "end_time": "[04:22]",
+      "start_time_sec": 251,
+      "text": "Spot on, Hiroshi. Because the 5G millimetre-wave and sub-6 modem chips generate significant heat under heavy cloud uploads, passive airflow alone can only keep it running for about two hours.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:23]",
+      "end_time": "[04:28]",
+      "start_time_sec": 263,
+      "text": "So there is no software reset or firmware update that can fix this, then?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:29]",
+      "end_time": "[04:42]",
+      "start_time_sec": 269,
+      "text": "No, because it is a physical mechanical seizure of the internal fan assembly, the unit has to be replaced. I am going to arrange a brand-new replacement 5G Pro Hub for you right now.",
+      "sentiment_score": 50.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:43]",
+      "end_time": "[04:48]",
+      "start_time_sec": 283,
+      "text": "How long will a replacement take to arrive? I have client CAD deadlines tomorrow afternoon.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:49]",
+      "end_time": "[05:00]",
+      "start_time_sec": 289,
+      "text": "I am booking it on a priority DPD Next-Day Pre-12:00 Swap-Out service at zero cost to you, Hiroshi, so the courier will deliver the new hub before noon tomorrow.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:01]",
+      "end_time": "[05:06]",
+      "start_time_sec": 301,
+      "text": "Before noon tomorrow is a big relief. How does the swap-out process work with the courier?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:07]",
+      "end_time": "[05:18]",
+      "start_time_sec": 307,
+      "text": "It is super straightforward. When the DPD driver hands you the boxed replacement hub at your door at Flat 4, 18 Crescent Mansions, you simply hand them back your faulty tower.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:19]",
+      "end_time": "[05:25]",
+      "start_time_sec": 319,
+      "text": "Do I need to pack up the power cable and Ethernet lead as well, or just the tower?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:26]",
+      "end_time": "[05:38]",
+      "start_time_sec": 326,
+      "text": "Since you confirmed the power supply brick is cool and healthy, you can either swap the whole box or just swap the hub unit itself—the courier label covers the full retail box.",
+      "sentiment_score": 46.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:39]",
+      "end_time": "[05:46]",
+      "start_time_sec": 339,
+      "text": "Okay, I still have the original cardboard box in the cupboard, so I can pack everything neatly into that tomorrow morning.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:47]",
+      "end_time": "[05:58]",
+      "start_time_sec": 347,
+      "text": "Even better. Let me generate the dispatch order and pre-pair the new unit's IMEI and eSIM profile on our network so it works the instant you plug it in.",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:59]",
+      "end_time": "[06:04]",
+      "start_time_sec": 359,
+      "text": "Oh, I won't have to ring back up to activate the SIM inside the new hub?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:05]",
+      "end_time": "[06:14]",
+      "start_time_sec": 365,
+      "text": "Not at all, Hiroshi. I am binding the replacement unit's embedded SIM to your account provisioning profile right now so it will authenticate automatically on startup.",
+      "sentiment_score": 54.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:15]",
+      "end_time": "[06:20]",
+      "start_time_sec": 375,
+      "text": "That saves me a lot of hassle. What about my custom Wi-Fi network name and password?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:21]",
+      "end_time": "[06:32]",
+      "start_time_sec": 381,
+      "text": "Because S-Net Cloud Backup is enabled on your Flat 4 profile, I have just triggered a configuration snapshot of your SSID and port-forwarding rules to push automatically to the new hub.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:33]",
+      "end_time": "[06:38]",
+      "start_time_sec": 393,
+      "text": "Wait, so all my studio devices and printer will reconnect without me changing any passwords?",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:39]",
+      "end_time": "[06:48]",
+      "start_time_sec": 399,
+      "text": "Yes, within three minutes of booting up tomorrow, the replacement hub will pull down your exact Wi-Fi credentials and local LAN settings from the cloud.",
+      "sentiment_score": 56.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:49]",
+      "end_time": "[06:58]",
+      "start_time_sec": 409,
+      "text": "That is seriously impressive. Is there anything I can do tonight to stop the current hub shutting down while I finish one last upload?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:59]",
+      "end_time": "[07:10]",
+      "start_time_sec": 419,
+      "text": "Good question. I can temporarily switch your current hub from 5G NSA high-power mode to 4G LTE low-power fallback remotely, which reduces internal chip heat by about 40 percent.",
+      "sentiment_score": 50.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:11]",
+      "end_time": "[07:16]",
+      "start_time_sec": 431,
+      "text": "Wait, really? Will that still give me enough speed to sync my CAD drawings this evening?",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:17]",
+      "end_time": "[07:28]",
+      "start_time_sec": 437,
+      "text": "On your local mast, 4G LTE band 3 still delivers around 65 megabits down and 25 megabits up, and it runs cool enough that the thermal protection shouldn't trip.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:29]",
+      "end_time": "[07:39]",
+      "start_time_sec": 449,
+      "text": "Yes please, do that for tonight! Also, I have an S-Net mobile SIM in my phone—is there any backup data you can put on that just in case?",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:40]",
+      "end_time": "[07:53]",
+      "start_time_sec": 460,
+      "text": "I would be glad to do both, Hiroshi. I have just locked the current hub to 4G low-thermal mode, and I am adding an unlimited 48-hour mobile hotspot data pass to your S-Net mobile number.",
+      "sentiment_score": 58.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:54]",
+      "end_time": "[07:59]",
+      "start_time_sec": 474,
+      "text": "Thank you, Daniel, that gives me a solid safety net for tomorrow morning until DPD arrives.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:00]",
+      "end_time": "[08:10]",
+      "start_time_sec": 480,
+      "text": "I have also applied a £10 service disruption credit to your next monthly broadband bill to cover the inconvenience you have had with the hardware fault today.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:11]",
+      "end_time": "[08:14]",
+      "start_time_sec": 491,
+      "text": "You didn't even have to do that, thank you very much.",
+      "sentiment_score": 50.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:15]",
+      "end_time": "[08:23]",
+      "start_time_sec": 495,
+      "text": "You are very welcome, Hiroshi. Let me read out your DPD consignment number and dispatch reference so you have them on record.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:24]",
+      "end_time": "[08:26]",
+      "start_time_sec": 504,
+      "text": "Go ahead, I have a pen ready.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:27]",
+      "end_time": "[08:38]",
+      "start_time_sec": 507,
+      "text": "Your S-Net hardware swap reference is `SWP-884120`, and the DPD Pre-12:00 consignment number is `1550-4928-3310`. You will also get an SMS with a one-hour delivery window by 8:00 AM tomorrow.",
+      "sentiment_score": 50.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:39]",
+      "end_time": "[08:48]",
+      "start_time_sec": 519,
+      "text": "Got it, `SWP-884120` and DPD number `1550-4928-3310`. And the current temperature on the hub—has it started dropping since you switched it to 4G mode?",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:49]",
+      "end_time": "[09:00]",
+      "start_time_sec": 529,
+      "text": "Let me refresh the sensor reading for you now... yes, the baseband temperature has already dipped from 89 degrees down to 78 degrees Celsius over the last ninety seconds.",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:01]",
+      "end_time": "[09:06]",
+      "start_time_sec": 541,
+      "text": "And the status LED on the front has just gone from solid amber-red back to white.",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:07]",
+      "end_time": "[09:18]",
+      "start_time_sec": 547,
+      "text": "That will hold you over much more safely for the evening, though I still recommend switching it off overnight once you finish work since the fan bearing is seized.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:19]",
+      "end_time": "[09:24]",
+      "start_time_sec": 559,
+      "text": "I will definitely unplug it as soon as my evening sync finishes at six o'clock.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:25]",
+      "end_time": "[09:34]",
+      "start_time_sec": 565,
+      "text": "Perfect. So tomorrow before 12:00 PM, DPD will swap the faulty XT19 tower for your new unit, which will auto-activate and restore your Wi-Fi settings.",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:35]",
+      "end_time": "[09:37]",
+      "start_time_sec": 575,
+      "text": "Everything is clear on my side.",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:38]",
+      "end_time": "[09:46]",
+      "start_time_sec": 578,
+      "text": "Have I resolved everything for you today, Hiroshi, and are you happy that your replacement hub and temporary workarounds are all sorted?",
+      "sentiment_score": 54.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:47]",
+      "end_time": "[09:51]",
+      "start_time_sec": 587,
+      "text": "That's brilliant, Daniel, thank you so much, that sorts everything out for me!",
+      "sentiment_score": 65.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:52]",
+      "end_time": "[10:01]",
+      "start_time_sec": 592,
+      "text": "It has been a pleasure helping you today, Hiroshi. Is there anything else at all I can assist you with before we wrap up?",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:02]",
+      "end_time": "[10:05]",
+      "start_time_sec": 602,
+      "text": "Nothing else at all, thanks again for being so thorough.",
+      "sentiment_score": 60.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:06]",
+      "end_time": "[10:12]",
+      "start_time_sec": 606,
+      "text": "Thank you for choosing S-Net, Hiroshi. Have a productive rest of your afternoon and a lovely evening, goodbye!",
+      "sentiment_score": 60.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:13]",
+      "end_time": "[10:15]",
+      "start_time_sec": 613,
+      "text": "Goodbye Daniel!",
+      "sentiment_score": 55.0
+    }
+  ]
+}

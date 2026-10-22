@@ -1,0 +1,584 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Tariq",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Chloe. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:21]",
+      "start_time_sec": 11,
+      "text": "Hi Chloe, I'm calling because my fibre broadband keeps cutting out every single evening around eight o'clock, and it's becoming a major nuisance.",
+      "sentiment_score": -21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:24]",
+      "end_time": "[00:38]",
+      "start_time_sec": 24,
+      "text": "I would be glad to look into those evening disconnections for you today. Before we begin troubleshooting, may I take your full address and your four digit security PIN for account verification?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:41]",
+      "end_time": "[00:48]",
+      "start_time_sec": 41,
+      "text": "Sure, it is 42 Highbury Terrace, London, N5 1UP, and the PIN is 6814.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:50]",
+      "end_time": "[01:00]",
+      "start_time_sec": 50,
+      "text": "Thank you Tariq, that has verified your account details on our Fibre 300 package. Let me open up your connection diagnostics here."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:03]",
+      "end_time": "[01:10]",
+      "start_time_sec": 63,
+      "text": "Thank you. It has been happening for almost a week now, strictly in the evenings.",
+      "sentiment_score": -12.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:13]",
+      "end_time": "[01:31]",
+      "start_time_sec": 73,
+      "text": "So what you are experiencing is that every evening around eight o'clock, all your wireless connectivity drops out completely while the physical hub stays powered on, and it takes several minutes to restore. Have I understood the problem accurately, Tariq?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:34]",
+      "end_time": "[01:41]",
+      "start_time_sec": 94,
+      "text": "Yes, that is exactly what happens. It just drops dead on all our phones and laptops.",
+      "sentiment_score": -15.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:44]",
+      "end_time": "[01:53]",
+      "start_time_sec": 104,
+      "text": "Understood. When the connection drops, do you notice what colour the lights on the front of your router show?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:56]",
+      "end_time": "[02:08]",
+      "start_time_sec": 116,
+      "text": "The power light stays solid white, but the internet light blinks orange for a bit before going back to white after about five to ten minutes.",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:11]",
+      "end_time": "[02:22]",
+      "start_time_sec": 131,
+      "text": "That is very helpful diagnostic information. Do you have any desktop computers or gaming consoles plugged directly into the router via an ethernet cable?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:25]",
+      "end_time": "[02:32]",
+      "start_time_sec": 145,
+      "text": "Yes, my home office PC is connected directly with a yellow ethernet cable into port one.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:35]",
+      "end_time": "[02:46]",
+      "start_time_sec": 155,
+      "text": "And when the wireless drops out at eight in the evening, does that desktop PC lose connection as well, or does it stay online?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:49]",
+      "end_time": "[03:07]",
+      "start_time_sec": 169,
+      "text": "Now that you mention it, my desktop never dropped connection. It was only the laptops and mobiles on Wi-Fi that got disconnected. It's honestly driving me up the wall, I missed an important international work meeting last night because of this!",
+      "sentiment_score": -44.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:10]",
+      "end_time": "[03:22]",
+      "start_time_sec": 190,
+      "text": "Can you open a web browser on your phone or laptop right now and tell me if you can reach the hub management page at 192.168.1.1?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:25]",
+      "end_time": "[03:31]",
+      "start_time_sec": 205,
+      "text": "Yes, I have the router dashboard open on my tablet right now.",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:33]",
+      "end_time": "[03:52]",
+      "start_time_sec": 213,
+      "text": "First of all Tariq, missing an important international work meeting is awful, and I am truly sorry you had to deal with that stress. We are going to get this Wi-Fi stability sorted out properly so it does not interrupt your work again."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:55]",
+      "end_time": "[04:04]",
+      "start_time_sec": 235,
+      "text": "Thank you, Chloe. I really appreciate that. It was so stressful explaining to my team why I dropped off.",
+      "sentiment_score": 18.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:07]",
+      "end_time": "[04:21]",
+      "start_time_sec": 247,
+      "text": "Looking at your hub telemetry on my system, your fibre optic link to the street cabinet has zero line drops over the past thirty days, which confirms the optical signal is pristine."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:24]",
+      "end_time": "[04:31]",
+      "start_time_sec": 264,
+      "text": "Okay, that's good to hear, so the wire into the house is fine then.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:33]",
+      "end_time": "[04:42]",
+      "start_time_sec": 273,
+      "text": "Exactly. On your tablet screen under the wireless settings tab, what does it show for the 5GHz Wi-Fi channel number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:45]",
+      "end_time": "[04:51]",
+      "start_time_sec": 285,
+      "text": "Let me see... it says 5GHz channel is currently set to channel 108.",
+      "sentiment_score": -1.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:53]",
+      "end_time": "[05:13]",
+      "start_time_sec": 293,
+      "text": "That explains the whole issue. Channel 108 is a Dynamic Frequency Selection channel, also known as DFS. By telecommunications regulations, when a nearby weather radar or airport radar signal is detected, the router must immediately shut off transmission and monitor the frequency for ten minutes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:16]",
+      "end_time": "[05:26]",
+      "start_time_sec": 316,
+      "text": "Wait, really? There is an airfield about three miles from our house! Could aircraft radar be knocking out our Wi-Fi every night?",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:29]",
+      "end_time": "[05:43]",
+      "start_time_sec": 329,
+      "text": "That is almost certainly what is happening. The automated radar detection triggers an instant radio mute to prevent interference, which looks like a random Wi-Fi crash to your household devices."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:46]",
+      "end_time": "[05:54]",
+      "start_time_sec": 346,
+      "text": "Good grief, I had no idea routers did that. I thought the hub was broken or overheating.",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:57]",
+      "end_time": "[06:13]",
+      "start_time_sec": 357,
+      "text": "Obviously we cannot alter civilian radar frequencies, but what we can do is switch your 5GHz wireless band off the DFS range and lock it permanently to a clean non-DFS channel such as channel 40."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:16]",
+      "end_time": "[06:23]",
+      "start_time_sec": 376,
+      "text": "That sounds like a great plan. Will that reduce our speed or range at all?",
+      "sentiment_score": 6.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:26]",
+      "end_time": "[06:35]",
+      "start_time_sec": 386,
+      "text": "Not at all. Channel 40 delivers the exact same 300 megabit throughput without being subject to mandatory radar shut-off events."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:38]",
+      "end_time": "[06:46]",
+      "start_time_sec": 398,
+      "text": "Fantastic. Can you do that from your side or do I need to type it in here?",
+      "sentiment_score": 16.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:49]",
+      "end_time": "[07:02]",
+      "start_time_sec": 409,
+      "text": "I can push the radio configuration profile directly from my terminal. Bear with me for about a minute while I update the router profile and reboot the wireless card."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:14]",
+      "end_time": "[08:24]",
+      "start_time_sec": 494,
+      "text": "Thank you for waiting, Tariq. The configuration push has finished and your hub's 5GHz radio is now locked onto clean channel 40."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:27]",
+      "end_time": "[08:37]",
+      "start_time_sec": 507,
+      "text": "Welcome back Chloe. The lights on the hub flickered for a few seconds and now they are all solid white again.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:40]",
+      "end_time": "[08:50]",
+      "start_time_sec": 520,
+      "text": "Is the Wi-Fi indicator light still solid white after the radio reboot, and can you see your network name appearing on your phone?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:53]",
+      "end_time": "[08:59]",
+      "start_time_sec": 533,
+      "text": "Yes, the Wi-Fi light is solid white, and my iPhone just reconnected automatically.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:01]",
+      "end_time": "[09:12]",
+      "start_time_sec": 541,
+      "text": "Excellent. Let us also look at the 2.4GHz band while we are here, because smart home accessories like plugs and thermostats rely on that."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:15]",
+      "end_time": "[09:22]",
+      "start_time_sec": 555,
+      "text": "Yes, we have three smart plugs in the kitchen and living room for the lamps.",
+      "sentiment_score": 9.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:25]",
+      "end_time": "[09:32]",
+      "start_time_sec": 565,
+      "text": "On your tablet dashboard, what does it show for the 2.4GHz channel and channel width?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:35]",
+      "end_time": "[09:42]",
+      "start_time_sec": 575,
+      "text": "Under 2.4GHz it says channel auto, currently channel 6, channel width 20/40 MHz coexistence.",
+      "sentiment_score": 3.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:44]",
+      "end_time": "[10:01]",
+      "start_time_sec": 584,
+      "text": "Setting 20/40 MHz width on 2.4GHz can sometimes cause packet collisions if nearby neighbours have strong routers. I will lock that to a standard 20 MHz width on channel 1 to give your smart plugs rock solid stability."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:04]",
+      "end_time": "[10:13]",
+      "start_time_sec": 604,
+      "text": "Okay, that makes sense. Sometimes the kitchen lamp takes a couple of tries to switch on from the app.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:16]",
+      "end_time": "[10:26]",
+      "start_time_sec": 616,
+      "text": "I have applied that 2.4GHz adjustment now as well. Are the smart plugs still showing as connected in your smart home app?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:29]",
+      "end_time": "[10:37]",
+      "start_time_sec": 629,
+      "text": "Let me check the app on my phone... yes, all three plugs show green dots and responded immediately.",
+      "sentiment_score": 25.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:40]",
+      "end_time": "[10:48]",
+      "start_time_sec": 640,
+      "text": "Now let us verify your laptop connectivity and run a proper throughput and latency test in your study."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:51]",
+      "end_time": "[10:58]",
+      "start_time_sec": 651,
+      "text": "Okay, walking upstairs into the study now. Laptop is awake and connected to the S-Net Wi-Fi.",
+      "sentiment_score": 7.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:01]",
+      "end_time": "[11:08]",
+      "start_time_sec": 661,
+      "text": "Could you open a browser on the laptop and navigate to speedtest.net or s-net.com/speedtest?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:10]",
+      "end_time": "[11:15]",
+      "start_time_sec": 670,
+      "text": "Opening speedtest.net now. It has selected the London S-Net testing server.",
+      "sentiment_score": 4.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:17]",
+      "end_time": "[11:27]",
+      "start_time_sec": 677,
+      "text": "Go ahead and click the go button, and read me the download speed, upload speed, and ping time once it finishes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:30]",
+      "end_time": "[11:39]",
+      "start_time_sec": 690,
+      "text": "It's running the download gauge now... reaching 312 megabits down. Upload is hitting 52 megabits, and ping is eleven milliseconds.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:42]",
+      "end_time": "[11:54]",
+      "start_time_sec": 702,
+      "text": "312 megabits down and 52 up with eleven milliseconds ping is performing above your advertised 300 megabit tier. That shows the connection is in peak health."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:57]",
+      "end_time": "[12:04]",
+      "start_time_sec": 717,
+      "text": "That is actually faster than I was seeing before the disconnections started. Very impressive.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:06]",
+      "end_time": "[12:14]",
+      "start_time_sec": 726,
+      "text": "Because channel 40 avoids both DFS radar scanning and neighbour interference, your wireless packets travel without retransmissions."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:17]",
+      "end_time": "[12:24]",
+      "start_time_sec": 737,
+      "text": "That makes complete sense. Is there anything else I need to keep an eye on?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:27]",
+      "end_time": "[12:37]",
+      "start_time_sec": 747,
+      "text": "Let us also run a quick continuous ping test from your command prompt just to confirm zero packet loss over sixty seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:40]",
+      "end_time": "[12:45]",
+      "start_time_sec": 760,
+      "text": "Sure, how do I do that on Windows?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:47]",
+      "end_time": "[12:57]",
+      "start_time_sec": 767,
+      "text": "Press the Windows key and R on your keyboard, type cmd, hit enter, and in the black window type ping bbc.co.uk -n 10."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:00]",
+      "end_time": "[13:06]",
+      "start_time_sec": 780,
+      "text": "Doing that now... ping bbc.co.uk -n 10. It is sending ten packets.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:08]",
+      "end_time": "[13:14]",
+      "start_time_sec": 788,
+      "text": "Tell me what summary statistics appear at the bottom once all ten reply."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:16]",
+      "end_time": "[13:24]",
+      "start_time_sec": 796,
+      "text": "It says packets sent ten, received ten, lost zero, zero percent loss. Minimum eleven milliseconds, maximum thirteen milliseconds.",
+      "sentiment_score": 27.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:27]",
+      "end_time": "[13:35]",
+      "start_time_sec": 807,
+      "text": "Zero percent packet loss and a two millisecond jitter spread is textbook performance for video conferencing calls."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:38]",
+      "end_time": "[13:46]",
+      "start_time_sec": 818,
+      "text": "That gives me so much peace of mind for my work presentation tomorrow evening, you have no idea.",
+      "sentiment_score": 33.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:49]",
+      "end_time": "[14:05]",
+      "start_time_sec": 829,
+      "text": "I have locked these radio channel settings permanently on our network management server, so even if the hub loses power during a power cut, it will boot straight back onto channel 40 and 20 MHz."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:08]",
+      "end_time": "[14:16]",
+      "start_time_sec": 848,
+      "text": "That is brilliant, so I don't have to worry about it resetting back to the radar channel.",
+      "sentiment_score": 29.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:19]",
+      "end_time": "[14:24]",
+      "start_time_sec": 859,
+      "text": "Do you use the S-Net mobile app on your phone, Tariq?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:26]",
+      "end_time": "[14:32]",
+      "start_time_sec": 866,
+      "text": "I downloaded it when we signed up, but haven't used it much.",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:34]",
+      "end_time": "[14:46]",
+      "start_time_sec": 874,
+      "text": "In that app under the broadband tab, you can view all connected devices in real time and even pause internet access for specific gadgets if needed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:49]",
+      "end_time": "[14:55]",
+      "start_time_sec": 889,
+      "text": "Oh that's handy for when the kids are supposed to be doing homework.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:57]",
+      "end_time": "[15:06]",
+      "start_time_sec": 897,
+      "text": "It is very convenient. Are all your household devices, including your tablet, smart TV, and phones, running smoothly right now?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:09]",
+      "end_time": "[15:18]",
+      "start_time_sec": 909,
+      "text": "Yes, my wife is streaming a show downstairs right now without any buffering, and both laptops are running perfectly.",
+      "sentiment_score": 31.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:21]",
+      "end_time": "[15:27]",
+      "start_time_sec": 921,
+      "text": "Does that completely resolve the evening Wi-Fi disconnection problem for you today, Tariq?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:29]",
+      "end_time": "[15:39]",
+      "start_time_sec": 929,
+      "text": "Yes, that completely resolves it and explains why it kept dropping every night. Thank you so much for figuring that out.",
+      "sentiment_score": 36.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:42]",
+      "end_time": "[15:53]",
+      "start_time_sec": 942,
+      "text": "It has been an absolute pleasure assisting you today. Is there anything else with your S-Net broadband or TV services I can help you with?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:56]",
+      "end_time": "[16:01]",
+      "start_time_sec": 956,
+      "text": "No, that was everything I needed. You've been really wonderful, Chloe.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:03]",
+      "end_time": "[16:08]",
+      "start_time_sec": 963,
+      "text": "Thank you for calling S-Net technical support."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:10]",
+      "end_time": "[16:15]",
+      "start_time_sec": 970,
+      "text": "Thanks again. Have a lovely evening.",
+      "sentiment_score": 21.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:17]",
+      "end_time": "[16:24]",
+      "start_time_sec": 977,
+      "text": "Thank you for choosing S-Net as your broadband provider. Have a wonderful evening Tariq, goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:27]",
+      "end_time": "[16:31]",
+      "start_time_sec": 987,
+      "text": "Goodbye Chloe.",
+      "sentiment_score": 4.2,
+      "end_time_sec": 991
+    }
+  ]
+}

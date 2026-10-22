@@ -1,0 +1,566 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Zuleika",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:04]",
+      "start_time_sec": 0,
+      "text": "Good evening, thank you for calling S-Net Mobile Urgent Support. My name is Toby. How can I help you tonight?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:05]",
+      "end_time": "[00:14]",
+      "start_time_sec": 5,
+      "text": "Hi Toby, my name is Zuleika. I just got home to Islington and I am honestly shaking because my iPhone 15 Pro was pickpocketed outside Holborn tube station about forty minutes ago.",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:15]",
+      "end_time": "[00:25]",
+      "start_time_sec": 15,
+      "text": "I am so sorry that happened to you outside Holborn station, Zuleika. Having your phone pickpocketed in central London is deeply unsettling, and I completely understand how urgent it is to secure your number right away.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:26]",
+      "end_time": "[00:34]",
+      "start_time_sec": 26,
+      "text": "Thank you. I have my banking apps and work authenticator on that phone, so I am terrified someone is going to intercept my two-factor texts or run up a huge bill.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:35]",
+      "end_time": "[00:44]",
+      "start_time_sec": 35,
+      "text": "I am going to take full ownership of locking that down for you right now, Zuleika. Let us quickly verify your account first—could you confirm your billing address and your four-digit security PIN?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:45]",
+      "end_time": "[00:50]",
+      "start_time_sec": 45,
+      "text": "Yes, of course. My billing address is Flat 4, 29 Almeida Street, Islington, London, N1 1TD, and my four-digit security PIN is 8492.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:51]",
+      "end_time": "[00:59]",
+      "start_time_sec": 51,
+      "text": "Thank you, Zuleika, that matches our records and I have your S-Net Mobile account open. Before I apply the bars, let me make sure I have captured everything accurately.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:02]",
+      "start_time_sec": 60,
+      "text": "Okay, go ahead.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:03]",
+      "end_time": "[01:16]",
+      "start_time_sec": 63,
+      "text": "So to summarize your situation: your iPhone 15 Pro was pickpocketed outside Holborn station around forty minutes ago, and you need us to blacklist the stolen handset IMEI, kill the physical SIM inside it, and activate a replacement eSIM on a backup phone.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:17]",
+      "end_time": "[01:22]",
+      "start_time_sec": 77,
+      "text": "Yes, that is 100 percent right. I have my old iPhone 12 right here with me at home, connected to my husband's Wi-Fi.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:23]",
+      "end_time": "[01:33]",
+      "start_time_sec": 83,
+      "text": "Having that iPhone 12 on Wi-Fi will let us get you back online tonight, Zuleika. First, could you tell me the exact time you noticed the phone was missing so I can audit your usage logs?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:34]",
+      "end_time": "[01:44]",
+      "start_time_sec": 94,
+      "text": "I tapped out at Holborn barriers with my contactless bank card at 18:15, and when I reached into my coat pocket at the bus stop at 18:20, my pocket was unzipped and the phone was gone.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:45]",
+      "end_time": "[01:57]",
+      "start_time_sec": 105,
+      "text": "Let me inspect your real-time call and packet data sessions from 18:15 onwards. I can see the handset detached cleanly from the Holborn sector mast at 18:19, which means they switched it off or put it in a foil pouch.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:58]",
+      "end_time": "[02:01]",
+      "start_time_sec": 118,
+      "text": "Have they managed to make any international calls, roaming connections, or premium rate texts between 18:15 and 18:19?",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:02]",
+      "end_time": "[02:08]",
+      "start_time_sec": 122,
+      "text": "Not a single call, text, or chargeable session has gone through since 18:15, Zuleika. Your out-of-bundle charge counter is sitting at zero pounds and zero pence.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:09]",
+      "end_time": "[02:15]",
+      "start_time_sec": 129,
+      "text": "Oh, thank goodness for that. I have heard horror stories about thieves taking out the SIM card and racking up thousands of pounds calling overseas numbers.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:16]",
+      "end_time": "[02:25]",
+      "start_time_sec": 136,
+      "text": "That does happen when a physical SIM has no SIM PIN and isn't suspended quickly, which is why calling us as soon as you walked through the door was the best move.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:26]",
+      "end_time": "[02:32]",
+      "start_time_sec": 146,
+      "text": "I literally ran from the bus stop at Angel straight up to our flat so I could use my husband's phone to call you.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:33]",
+      "end_time": "[02:43]",
+      "start_time_sec": 153,
+      "text": "You moved fast, and it paid off. My second question, Zuleika: have you already marked the iPhone 15 Pro as Lost on Apple Find My, and did it have Face ID and Stolen Device Protection active?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:44]",
+      "end_time": "[02:51]",
+      "start_time_sec": 164,
+      "text": "Yes, I logged into iCloud on my husband's laptop ten minutes ago and enabled Lost Mode with a message, and I turned on Stolen Device Protection last month.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:52]",
+      "end_time": "[03:01]",
+      "start_time_sec": 172,
+      "text": "That is brilliant. With Apple Stolen Device Protection active and us blacklisting the hardware IMEI on the central CEIR database, that handset cannot be used on any UK or European mobile network.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:02]",
+      "end_time": "[03:09]",
+      "start_time_sec": 182,
+      "text": "Can you confirm the exact fifteen-digit IMEI number you have registered for my iPhone 15 Pro so I can enter it on the Metropolitan Police online theft form?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:10]",
+      "end_time": "[03:15]",
+      "start_time_sec": 190,
+      "text": "Of course, Zuleika. The IMEI registered to your iPhone 15 Pro 256GB Natural Titanium is 354912087643119, and the handset serial ends in L9Q4.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:16]",
+      "end_time": "[03:21]",
+      "start_time_sec": 196,
+      "text": "Let me write that down: 354912087643119. And will my home contents insurer need a document from S-Net proving that the phone was barred?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:22]",
+      "end_time": "[03:30]",
+      "start_time_sec": 202,
+      "text": "Yes, insurers always ask for an official network proof-of-loss and blacklisting certificate. I will generate that PDF on our system and email it straight to your verified address on file.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:31]",
+      "end_time": "[03:35]",
+      "start_time_sec": 211,
+      "text": "Thank you, Toby, that saves me having to ring back next week when the insurance claim adjuster asks for it.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:36]",
+      "end_time": "[03:47]",
+      "start_time_sec": 216,
+      "text": "My pleasure. Now, before I issue your replacement eSIM, could you open Settings, General, and About on your backup iPhone 12 and tell me the iOS version and whether Carrier Lock says No SIM restrictions?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:48]",
+      "end_time": "[03:56]",
+      "start_time_sec": 228,
+      "text": "Let me unlock the iPhone 12 and look in About right now. Okay, it says iOS Version 17.6.1, and down under Carrier Lock it says No SIM restrictions.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:57]",
+      "end_time": "[04:07]",
+      "start_time_sec": 237,
+      "text": "And while you are on that About screen, could you scroll down slightly and read me the last four digits of the EID number? That lets me pre-bind the eSIM to your hardware.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:08]",
+      "end_time": "[04:10]",
+      "start_time_sec": 248,
+      "text": "Sure, the long EID number ends in 7738.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:11]",
+      "end_time": "[04:21]",
+      "start_time_sec": 251,
+      "text": "Got it—EID ending in 7738. Because your iPhone 12 is unlocked on iOS 17.6.1 and connected to your home Wi-Fi in Islington, it will accept the S-Net 5G eSIM download straight away.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:22]",
+      "end_time": "[04:30]",
+      "start_time_sec": 262,
+      "text": "Just to be completely certain, once we activate the eSIM on this iPhone 12, the physical plastic SIM inside my stolen phone is completely dead forever, right?",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:31]",
+      "end_time": "[04:39]",
+      "start_time_sec": 271,
+      "text": "100 percent dead, Zuleika. Reallocating your mobile number ending in 4091 to the new eSIM ICCID permanently revokes the old SIM's authentication keys on our Home Location Register.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:40]",
+      "end_time": "[04:44]",
+      "start_time_sec": 280,
+      "text": "Okay, that gives me total peace of mind. Please go ahead with the blacklist and the eSIM swap.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:45]",
+      "end_time": "[05:00]",
+      "start_time_sec": 285,
+      "text": "I am on it right now. I am going to place you on a brief hold for about a minute while I commit the CEIR IMEI blacklist, revoke the stolen SIM, and generate your eSIM QR code.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:05]",
+      "end_time": "[06:14]",
+      "start_time_sec": 365,
+      "text": "Thank you for holding, Zuleika. I have blacklisted IMEI 354912087643119 across the national register, permanently terminated the old SIM card, and bound your replacement eSIM profile to EID ending 7738.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:15]",
+      "end_time": "[06:20]",
+      "start_time_sec": 375,
+      "text": "Thank you so much for doing that so quickly, Toby. How do I download the eSIM onto the iPhone 12?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:21]",
+      "end_time": "[06:31]",
+      "start_time_sec": 381,
+      "text": "I have pushed both a direct push-notification to the iPhone 12 and placed the backup QR code inside the 'SIM & Device Management' section of your My S-Net portal on your husband's laptop.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:32]",
+      "end_time": "[06:43]",
+      "start_time_sec": 392,
+      "text": "Let me look at both screens. Oh! On the laptop portal I can see the QR code, and on the iPhone 12 a notification just appeared saying 'S-Net Mobile Plan Ready to Be Installed'!",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:44]",
+      "end_time": "[06:54]",
+      "start_time_sec": 404,
+      "text": "Because I bound your EID ending in 7738, Apple's activation server pushed the profile directly to the handset! You can either tap that banner on the iPhone 12 or scan the QR code.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:55]",
+      "end_time": "[07:04]",
+      "start_time_sec": 415,
+      "text": "I will scan the QR code in Settings just to be sure. I tapped Mobile Service, Add eSIM, Use QR Code, and I am scanning the laptop screen now.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:05]",
+      "end_time": "[07:11]",
+      "start_time_sec": 425,
+      "text": "That works great too. Tap 'Continue' on the 'Activate eSIM' screen, and let me know when the status changes from 'Activating' to 'Complete'.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:12]",
+      "end_time": "[07:16]",
+      "start_time_sec": 432,
+      "text": "It says 'Connecting to S-Net network'... and now it says 'Mobile Plan Setup Complete'! I just tapped Done.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:17]",
+      "end_time": "[07:24]",
+      "start_time_sec": 437,
+      "text": "Look at the top right corner of your iPhone 12 screen next to the Wi-Fi icon, Zuleika—do you see the S-Net signal bars coming up?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:25]",
+      "end_time": "[07:28]",
+      "start_time_sec": 445,
+      "text": "Yes! I have four signal bars and it says 'S-Net 5G' in the status bar!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:29]",
+      "end_time": "[07:38]",
+      "start_time_sec": 449,
+      "text": "Fantastic! Let us do a live two-way check. I am sending a one-time S-Net confirmation text message to your number ending in 4091 right now—tell me when it pops up.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:39]",
+      "end_time": "[07:47]",
+      "start_time_sec": 459,
+      "text": "It just chimed! 'S-Net Security Notice: Your replacement eSIM is now active on your line.' And right behind it, my bank's security alert text just came through too!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:48]",
+      "end_time": "[07:53]",
+      "start_time_sec": 468,
+      "text": "Hearing that your bank verification text arrived means SMS shortcodes are routing to your iPhone 12 without any delay, Zuleika.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:54]",
+      "end_time": "[08:00]",
+      "start_time_sec": 474,
+      "text": "Can I also switch off Wi-Fi on the iPhone 12 for ten seconds just to verify that mobile data works on 5G?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:01]",
+      "end_time": "[08:04]",
+      "start_time_sec": 481,
+      "text": "Please do—toggle Wi-Fi off in Control Centre and try loading a webpage in Safari.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:05]",
+      "end_time": "[08:10]",
+      "start_time_sec": 485,
+      "text": "Wi-Fi is off, it shows S-Net 5G, and BBC News just loaded instantaneously. I am switching Wi-Fi back on now.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:11]",
+      "end_time": "[08:20]",
+      "start_time_sec": 491,
+      "text": "That confirms voice, SMS shortcodes, and 5G packet data are all fully active on your replacement eSIM. I have also set your out-of-plan spend cap to zero pounds for extra protection.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:21]",
+      "end_time": "[08:26]",
+      "start_time_sec": 501,
+      "text": "And I just checked my email on the laptop—the PDF certificate confirming IMEI 354912087643119 is blacklisted has arrived as well.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:27]",
+      "end_time": "[08:32]",
+      "start_time_sec": 507,
+      "text": "Everything is documented on that PDF with our fraud desk stamp for your insurance claim and the Metropolitan Police report.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:33]",
+      "end_time": "[08:36]",
+      "start_time_sec": 513,
+      "text": "You have honestly turned a horrible evening into something manageable, Toby. I cannot thank you enough.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:37]",
+      "end_time": "[08:40]",
+      "start_time_sec": 517,
+      "text": "I am really glad I could get you sorted and secure so quickly, Zuleika.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:41]",
+      "end_time": "[08:43]",
+      "start_time_sec": 521,
+      "text": "Everything with the replacement eSIM and the stolen phone block is completely resolved.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:44]",
+      "end_time": "[08:53]",
+      "start_time_sec": 524,
+      "text": "You are 100 percent protected on our network now, Zuleika. Thank you for choosing S-Net, and please let me know if there is anything else I can help with tonight.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:54]",
+      "end_time": "[09:03]",
+      "start_time_sec": 534,
+      "text": "Oh, wait, before I go, what about my voicemail access from the new phone? Could someone dial into my voicemail remotely, or do I need a new voicemail PIN?",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:04]",
+      "end_time": "[09:15]",
+      "start_time_sec": 544,
+      "text": "That is a really sensible thing to check, Zuleika. Because the stolen SIM is deactivated, nobody can auto-dial 121 from the missing phone, but resetting your voicemail security code locks down remote access too.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:16]",
+      "end_time": "[09:22]",
+      "start_time_sec": 556,
+      "text": "Yes, I honestly cannot remember what my old voicemail code was anyway, so I would feel much safer resetting it right now.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:23]",
+      "end_time": "[09:34]",
+      "start_time_sec": 563,
+      "text": "I have just sent a voicemail security reset command to your mailbox. If you dial 121 from the Phone app on your iPhone 12, the prompt will ask you to enter a new four-to-eight digit code.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:35]",
+      "end_time": "[09:42]",
+      "start_time_sec": 575,
+      "text": "Okay, I am dialing 121 on speakerphone right now. The automated voice is asking me to enter a new security code followed by the hash key.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:43]",
+      "end_time": "[09:48]",
+      "start_time_sec": 583,
+      "text": "Go ahead and key in a strong code without repeating digits, and press the hash key twice to confirm it.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:49]",
+      "end_time": "[09:53]",
+      "start_time_sec": 589,
+      "text": "Done! The voice just confirmed my new security code is active and external dial-in requires that code.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:54]",
+      "end_time": "[10:00]",
+      "start_time_sec": 594,
+      "text": "I can see the updated security timestamp on your voicemail profile now, and I have also disabled remote landline spoofing on your mailbox.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:01]",
+      "end_time": "[10:05]",
+      "start_time_sec": 601,
+      "text": "Will my saved visual voicemail messages from last week still show up in the iPhone Phone app?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:06]",
+      "end_time": "[10:15]",
+      "start_time_sec": 606,
+      "text": "Yes, visual voicemail messages are stored on our S-Net media server, so as soon as you open the Voicemail tab on the iPhone 12 they will sync right down.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:16]",
+      "end_time": "[10:22]",
+      "start_time_sec": 616,
+      "text": "Oh, they just appeared in the list right now! That is every single thing sorted, Toby. Thank you again for all your help.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:23]",
+      "end_time": "[10:30]",
+      "start_time_sec": 623,
+      "text": "You are very welcome! Look after yourself after that shock tonight. Have a safe evening, Zuleika, bye now!",
+      "sentiment_score": 18.0
+    }
+  ]
+}

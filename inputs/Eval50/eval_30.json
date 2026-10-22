@@ -1,0 +1,110 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Greta",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:02]",
+      "start_time_sec": 0,
+      "text": "S-Net support, go ahead.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:04]",
+      "end_time": "[00:14]",
+      "start_time_sec": 4,
+      "text": "Hi. My landline has a loud crackling noise on every call, I can barely hear people. It's been like this for days and it's frustrating.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:16]",
+      "end_time": "[00:22]",
+      "start_time_sec": 16,
+      "text": "That sounds frustrating, Greta, I'm sorry about the crackling. Can I have the account number?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:25]",
+      "end_time": "[00:28]",
+      "start_time_sec": 25,
+      "text": "S N 4 4 7 0 1 2.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:37]",
+      "start_time_sec": 29,
+      "text": "Thanks. So every call on your landline has a loud crackle and it's hard to hear people. Is that right?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:39]",
+      "end_time": "[00:41]",
+      "start_time_sec": 39,
+      "text": "Yes.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:44]",
+      "end_time": "[00:51]",
+      "start_time_sec": 44,
+      "text": "I'll book an engineer to check the line. The first slot is Tuesday morning, eight till one.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:54]",
+      "end_time": "[00:56]",
+      "start_time_sec": 54,
+      "text": "Tuesday is fine.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:58]",
+      "end_time": "[01:01]",
+      "start_time_sec": 58,
+      "text": "Booked. You'll get a text the evening before.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:02]",
+      "end_time": "[01:04]",
+      "start_time_sec": 62,
+      "text": "Okay.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:05]",
+      "end_time": "[01:07]",
+      "start_time_sec": 65,
+      "text": "Anything else, Greta?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:08]",
+      "end_time": "[01:10]",
+      "start_time_sec": 68,
+      "text": "No.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:12]",
+      "end_time": "[01:14]",
+      "start_time_sec": 72,
+      "text": "Thank you for choosing S-Net.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

@@ -1,0 +1,574 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Jolanta",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Good afternoon, um, thank you for calling S-Net TV and Streaming Support, my name is Amira. How can I help you today?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:28]",
+      "start_time_sec": 8,
+      "text": "Hi Amira, it is Jolanta calling. Look, I just bought a brand-new iPad Air running iPadOS 18 for my train trip up to Edinburgh tomorrow morning, and when I signed into the latest S-Net TV Go app and tapped Play on a live channel, it blocked me with 'Maximum Registered Devices Reached Error 409'.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:29]",
+      "end_time": "[00:49]",
+      "start_time_sec": 29,
+      "text": "And I already know why it happened—I replaced two old phones, a broken Lenovo laptop, and an old Fire tablet earlier this year, and when I tried to delete them in the app settings just now it said I already used my one monthly device swap ten days ago when I got my Samsung Galaxy S24!",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:50]",
+      "end_time": "[01:09]",
+      "start_time_sec": 50,
+      "text": "Oh, I am so sorry that Error 409 message popped up right before your Edinburgh train trip tomorrow, Jolanta—I completely understand how frustrating it is when you just want your new iPad ready for the journey! Oh, er, I see what's happened there, let me open your TV Go device table right now.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:10]",
+      "end_time": "[01:18]",
+      "start_time_sec": 70,
+      "text": "Before I can access your S-Net TV Go device slots and cooldown settings, could you please confirm your home billing address and your four-digit security PIN?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:19]",
+      "end_time": "[01:25]",
+      "start_time_sec": 79,
+      "text": "Yes, of course! My billing address is 62 Kimberley Road, Cardiff, CF23 5DL, and my four-digit security PIN is 5528.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:26]",
+      "end_time": "[01:34]",
+      "start_time_sec": 86,
+      "text": "Lovely, thank you Jolanta, CF23 5DL and PIN 5528 are verified, and I have your S-Net Mega TV Entertainment bundle open on my screen.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:35]",
+      "end_time": "[01:40]",
+      "start_time_sec": 95,
+      "text": "Great, can you see all the old devices clogging up my five slots on the TV Go table?",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:41]",
+      "end_time": "[02:01]",
+      "start_time_sec": 101,
+      "text": "Yes, I have your five registered device slots right here, Jolanta, and it matches everything you just mentioned: slot one is your new Samsung Galaxy S24 registered ten days ago, and slots two through five are an old iPhone 11, a Lenovo IdeaPad browser token, a Chrome desktop token, and an Amazon Fire HD 10.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:02]",
+      "end_time": "[02:12]",
+      "start_time_sec": 122,
+      "text": "That is hilarious—the iPhone 11 was traded in back in February, the Lenovo laptop motherboard died in May, and my daughter dropped the Fire tablet in the bath during the summer!",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:13]",
+      "end_time": "[02:27]",
+      "start_time_sec": 133,
+      "text": "Oh bless her, a tablet in the bath never ends well! Because S-Net TV Go links each device by its unique DRM hardware token, those old tokens stay parked in slots two through five until they are manually cleared.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:28]",
+      "end_time": "[02:38]",
+      "start_time_sec": 148,
+      "text": "And because I swapped my old phone for my Samsung Galaxy S24 ten days ago, the app locked me out of removing any of those dead devices until November.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:39]",
+      "end_time": "[02:45]",
+      "start_time_sec": 159,
+      "text": "Exactly right—the self-service portal enforces a strict thirty-day rolling cooldown after one device removal to comply with studio DRM licensing rules.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:46]",
+      "end_time": "[02:54]",
+      "start_time_sec": 166,
+      "text": "So can you clear out slots two, three, four, and five from your console and reset that thirty-day timer so my new iPad Air can register?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:55]",
+      "end_time": "[03:11]",
+      "start_time_sec": 175,
+      "text": "I certainly can, Jolanta. Just to confirm before I wipe them: you want me to keep your Samsung Galaxy S24 in slot one and permanently delete the iPhone 11, the Lenovo laptop, the Chrome browser token, and the Fire HD tablet from slots two to five?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:12]",
+      "end_time": "[03:17]",
+      "start_time_sec": 192,
+      "text": "Yes please, keep my Samsung Galaxy S24 in slot one and wipe all four of the others completely.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:18]",
+      "end_time": "[03:30]",
+      "start_time_sec": 198,
+      "text": "I am on it right now. Um, please bear with me while I apply the supervisor cooldown override on your TV Go profile and purge those four stale DRM device tokens.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:23]",
+      "end_time": "[04:34]",
+      "start_time_sec": 263,
+      "text": "Thank you so much for waiting, Jolanta. I have cleared slots two, three, four, and five from the Widevine and FairPlay DRM registry, leaving only your Samsung Galaxy S24 in slot one.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:35]",
+      "end_time": "[04:42]",
+      "start_time_sec": 275,
+      "text": "Oh, brilliant! Let me look at the Device Management screen on my iPad Air—if I pull down to refresh, will they disappear?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:43]",
+      "end_time": "[04:52]",
+      "start_time_sec": 283,
+      "text": "Yes, and I also reset your thirty-day swap counter back to two available self-service changes for the current billing month, so the Error 409 lock is completely lifted.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:53]",
+      "end_time": "[05:01]",
+      "start_time_sec": 293,
+      "text": "I just refreshed the Device Management page on the iPad Air and it now says '1 of 5 Registered Devices Used: Samsung Galaxy S24'!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:02]",
+      "end_time": "[05:15]",
+      "start_time_sec": 302,
+      "text": "That is what we want to see! Now, to make sure your new iPad Air grabs slot two cleanly with a fresh FairPlay certificate, tap 'Sign Out' in the TV Go app menu and sign straight back in.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:16]",
+      "end_time": "[05:22]",
+      "start_time_sec": 316,
+      "text": "Okay, I just tapped Sign Out, and now I am tapping Sign In with my My S-Net username and Face ID.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:23]",
+      "end_time": "[05:32]",
+      "start_time_sec": 323,
+      "text": "I am watching your live DRM session log on my console right now so I can see the exact moment the iPad Air requests its streaming license.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:33]",
+      "end_time": "[05:43]",
+      "start_time_sec": 333,
+      "text": "I am signed back in and on the Live TV guide now. Let me tap on S-Net Drama HD—that was the channel that threw Error 409 ten minutes ago.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:44]",
+      "end_time": "[05:54]",
+      "start_time_sec": 344,
+      "text": "Go for it, Jolanta—as soon as you tap Watch Live on S-Net Drama HD, it should pop up a prompt asking you to name the device for slot two.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:55]",
+      "end_time": "[06:02]",
+      "start_time_sec": 355,
+      "text": "Yes! A box just popped up saying 'Register this iPad Air as Device 2 of 5?' and I just tapped 'Confirm & Play'!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:03]",
+      "end_time": "[06:09]",
+      "start_time_sec": 363,
+      "text": "I can see the Apple FairPlay token for 'Jolanta's iPad Air' registered in slot two on the server right now!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:10]",
+      "end_time": "[06:18]",
+      "start_time_sec": 370,
+      "text": "And the live stream of S-Net Drama HD is playing on the screen right now in crystal-clear high definition with the sound coming through!",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:19]",
+      "end_time": "[06:30]",
+      "start_time_sec": 379,
+      "text": "Yay, that is fantastic news! Now, because you are taking the train up to Edinburgh tomorrow morning, Jolanta, you will probably want to download a few box sets for offline viewing too.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:31]",
+      "end_time": "[06:37]",
+      "start_time_sec": 391,
+      "text": "Oh, yes! You read my mind—the Wi-Fi on the CrossCountry train through Yorkshire and up the coast is always patchy.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:38]",
+      "end_time": "[06:51]",
+      "start_time_sec": 398,
+      "text": "It really is, especially through the tunnels north of Newcastle! Because your iPad Air now has an active FairPlay DRM license in slot two, offline downloads in the 'Download to Go' section are automatically unlocked as well.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:52]",
+      "end_time": "[06:58]",
+      "start_time_sec": 412,
+      "text": "Let me test tapping the little download arrow next to episode one of the thriller series I have been watching.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:59]",
+      "end_time": "[07:06]",
+      "start_time_sec": 419,
+      "text": "Go right ahead—testing an offline download now ensures the local storage license writes cleanly while you are on your Cardiff home Wi-Fi.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:07]",
+      "end_time": "[07:15]",
+      "start_time_sec": 427,
+      "text": "I tapped Download and the blue progress circle is already at forty percent... eighty percent... and now it has a green tick in My Downloads!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:16]",
+      "end_time": "[07:30]",
+      "start_time_sec": 436,
+      "text": "That downloaded super fast! One handy tip for the train tomorrow, Jolanta: before you board at the station, open the S-Net TV Go app once while you still have signal so the offline token stays cached for forty-eight hours.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:31]",
+      "end_time": "[07:40]",
+      "start_time_sec": 451,
+      "text": "Oh, that is really good to know—so if the iPad is in Airplane Mode on the train, the downloaded episodes will play without needing to check in online?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:41]",
+      "end_time": "[07:51]",
+      "start_time_sec": 461,
+      "text": "Yes, once the FairPlay offline lease is active, you can watch all your downloaded episodes in Airplane Mode for up to forty-eight hours before the app needs a brief signal check.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:52]",
+      "end_time": "[08:00]",
+      "start_time_sec": 472,
+      "text": "You have still left me with three empty device slots out of five, plus my two monthly swaps reset, which is way more than I need!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:01]",
+      "end_time": "[08:14]",
+      "start_time_sec": 481,
+      "text": "Yes, with only your Samsung Galaxy S24 in slot one and your new iPad Air in slot two, you have three open slots left if you ever want to sign in on a new laptop or smart tablet.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:15]",
+      "end_time": "[08:23]",
+      "start_time_sec": 495,
+      "text": "I am catching the nine-thirty train from Cardiff Central via Birmingham tomorrow morning, so I have five and a half hours of train time to fill!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:24]",
+      "end_time": "[08:35]",
+      "start_time_sec": 504,
+      "text": "Five and a half hours from Cardiff to Edinburgh is a proper trek, so having S-Net TV Go working on a brand-new iPad Air screen will make that journey fly by, Jolanta.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:36]",
+      "end_time": "[08:45]",
+      "start_time_sec": 516,
+      "text": "It really will—watching for five hours on a little phone screen gives me such a headache, which is the whole reason I treated myself to the iPad Air.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:46]",
+      "end_time": "[08:58]",
+      "start_time_sec": 526,
+      "text": "An iPad Air screen is so much nicer for films and drama series. I have also checked that 'Best Available HD' is enabled on your streaming profile so your downloads tonight are in full 1080p.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:59]",
+      "end_time": "[09:05]",
+      "start_time_sec": 539,
+      "text": "Oh, let me look in App Settings under Video Quality... yes, Wi-Fi Streaming and Downloads are both showing 'Best Available HD'.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:06]",
+      "end_time": "[09:12]",
+      "start_time_sec": 546,
+      "text": "Spot on, and I have saved reference TVG-339104 on your account notes confirming the DRM device table clean-up and cooldown reset.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:13]",
+      "end_time": "[09:19]",
+      "start_time_sec": 553,
+      "text": "Let me just flick to one more live channel—Sky Sports Main Event—just to be double sure live channels switch smoothly.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:20]",
+      "end_time": "[09:25]",
+      "start_time_sec": 560,
+      "text": "Take your time and test as many channels as you like while I am on the line, Jolanta.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:26]",
+      "end_time": "[09:34]",
+      "start_time_sec": 566,
+      "text": "Sky Sports Main Event loaded in about two seconds flat, and my downloaded episode in My Downloads plays even when I flick Airplane Mode on!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:35]",
+      "end_time": "[09:42]",
+      "start_time_sec": 575,
+      "text": "Testing it in Airplane Mode right now was a brilliant idea—that proves the FairPlay offline key is stored locally on the iPad Air.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:43]",
+      "end_time": "[09:49]",
+      "start_time_sec": 583,
+      "text": "I am honestly so impressed with how quickly you cleared all those old dead devices out of my account, Amira.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:50]",
+      "end_time": "[09:52]",
+      "start_time_sec": 590,
+      "text": "It was an absolute pleasure sorting that out for you, Jolanta.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:53]",
+      "end_time": "[10:00]",
+      "start_time_sec": 593,
+      "text": "And I still have my Samsung Galaxy S24 working on the app as well—I just checked it and both devices are happy.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:01]",
+      "end_time": "[10:06]",
+      "start_time_sec": 601,
+      "text": "Yes, S-Net Mega TV allows two simultaneous live streams at the same time across your registered devices.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:07]",
+      "end_time": "[10:13]",
+      "start_time_sec": 607,
+      "text": "So my husband can watch the football on the Samsung phone while I watch my drama series on the iPad Air!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:14]",
+      "end_time": "[10:16]",
+      "start_time_sec": 614,
+      "text": "Haha, that sounds like a very peaceful arrangement for the household!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:17]",
+      "end_time": "[10:23]",
+      "start_time_sec": 617,
+      "text": "I am going to queue up four more episodes to download over Wi-Fi while I pack my suitcase tonight.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:24]",
+      "end_time": "[10:31]",
+      "start_time_sec": 624,
+      "text": "With Full Fibre in Cardiff, four episodes will be downloaded onto your iPad Air before you have even finished folding your jumpers.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:32]",
+      "end_time": "[10:35]",
+      "start_time_sec": 632,
+      "text": "Haha, actually episode two has already finished downloading while we were chatting!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:36]",
+      "end_time": "[10:46]",
+      "start_time_sec": 636,
+      "text": "By the way, since you are travelling up to Scotland, remember that your S-Net TV Go app also includes access to the catch-up box set library as well as live channels.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:47]",
+      "end_time": "[10:56]",
+      "start_time_sec": 647,
+      "text": "Oh, does the catch-up library let you download full seasons to the iPad Air too, or only recent episodes from the last seven days?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:57]",
+      "end_time": "[11:07]",
+      "start_time_sec": 657,
+      "text": "Full box set seasons included in your Mega TV bundle can be downloaded to your iPad Air, and they stay in your My Downloads tab for thirty days.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:08]",
+      "end_time": "[11:15]",
+      "start_time_sec": 668,
+      "text": "Thirty days is plenty of time for our long weekend in Edinburgh and the train journey back to Cardiff on Monday.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:16]",
+      "end_time": "[11:27]",
+      "start_time_sec": 676,
+      "text": "And if you ever replace your phone or tablet in future, you can manage up to two device swaps per month directly inside the 'Manage Devices' menu without hitting Error 409.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:28]",
+      "end_time": "[11:35]",
+      "start_time_sec": 688,
+      "text": "Now that the four old broken devices are gone, two swaps a month is more than I will ever need!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:36]",
+      "end_time": "[11:46]",
+      "start_time_sec": 696,
+      "text": "And if you ever get stuck with a device token again, just give us a quick ring and we can refresh the DRM table for you in seconds.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:47]",
+      "end_time": "[11:51]",
+      "start_time_sec": 707,
+      "text": "Episode three just finished downloading too—this iPad Air is flying through them!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:52]",
+      "end_time": "[12:05]",
+      "start_time_sec": 712,
+      "text": "You are all set for Edinburgh tomorrow morning! Just to confirm before we finish up, Jolanta, is your S-Net TV Go app streaming and downloading smoothly on your new iPad Air with Error 409 completely resolved?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:06]",
+      "end_time": "[12:12]",
+      "start_time_sec": 726,
+      "text": "Yes, 100 percent resolved—live TV and offline downloads are both working like a dream on the iPad Air.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:13]",
+      "end_time": "[12:20]",
+      "start_time_sec": 733,
+      "text": "Wonderful! Have a lovely, relaxing train journey up to Edinburgh tomorrow, Jolanta. Thank you for choosing S-Net, and enjoy your trip!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:21]",
+      "end_time": "[12:25]",
+      "start_time_sec": 741,
+      "text": "Thank you so much, Amira! Have a great evening, bye now!",
+      "sentiment_score": 20.0
+    }
+  ]
+}

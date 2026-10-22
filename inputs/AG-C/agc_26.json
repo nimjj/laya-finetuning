@@ -1,0 +1,463 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Sofia",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Hello, S-Net customer technical support, Aaron speaking. How can I assist you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:12]",
+      "end_time": "[00:38]",
+      "start_time_sec": 12,
+      "text": "Hello Aaron. My mother is eighty-two years old and lives alone after having a hip replacement. Yesterday an engineer switched our landline over to the new Digital Voice socket on the back of the broadband router, and now her personal emergency care alarm pendant base station is continuously beeping with a flashing red warning light that says 'Line Disconnected'!",
+      "sentiment_score": -44.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:44]",
+      "end_time": "[00:59]",
+      "start_time_sec": 44,
+      "text": "I completely understand how alarming and urgent that is, especially with your mother living alone and depending on that emergency pendant for medical peace of mind. Let me investigate her digital landline configuration right away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:05]",
+      "end_time": "[01:15]",
+      "start_time_sec": 65,
+      "text": "Thank you, because if she slips or falls in the night and the pendant cannot dial the monitoring center, nobody will know.",
+      "sentiment_score": -18.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:21]",
+      "end_time": "[01:30]",
+      "start_time_sec": 81,
+      "text": "Before we access the subscriber records, could you please verify the installation address and the four-digit security PIN on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:36]",
+      "end_time": "[01:49]",
+      "start_time_sec": 96,
+      "text": "Yes, the address is 19 Highfield Road, Harrogate, HG1 2BP, my contact mobile is zero seven seven zero zero, nine zero zero three two eight, and the security PIN is 6280.",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:55]",
+      "end_time": "[02:04]",
+      "start_time_sec": 115,
+      "text": "Thank you for verifying those account details. I have her telephone and optical fiber profile loaded onto my engineering dashboard."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:10]",
+      "end_time": "[02:13]",
+      "start_time_sec": 130,
+      "text": "Great, thank you.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:19]",
+      "end_time": "[02:37]",
+      "start_time_sec": 139,
+      "text": "So just to confirm what has occurred: following yesterday's Digital Voice switchover, your mother's emergency care alarm base unit is failing to obtain a dial tone through the router's phone adapter socket and is beeping with an offline alert. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:43]",
+      "end_time": "[02:53]",
+      "start_time_sec": 163,
+      "text": "Yes, that is exactly the problem. The small speaker on the alarm box keeps chiming every sixty seconds saying 'telephone connection failure'.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:59]",
+      "end_time": "[03:11]",
+      "start_time_sec": 179,
+      "text": "When standard copper analogue telephone lines are decommissioned under the national PSTN digital upgrade, voice services are migrated to Voice over IP through the router's telephone port."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:17]",
+      "end_time": "[03:27]",
+      "start_time_sec": 197,
+      "text": "The engineer plugged a green plastic adapter into the back of our black Hub router and plugged her white phone lead into that.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:33]",
+      "end_time": "[03:41]",
+      "start_time_sec": 213,
+      "text": "Is her standard telephone handset able to make and receive outgoing calls when plugged into that green adapter socket?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:47]",
+      "end_time": "[03:58]",
+      "start_time_sec": 227,
+      "text": "Yes, when I plug her regular cordless house telephone directly into the green adapter, there is a clear dial tone and calls ring through perfectly.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:04]",
+      "end_time": "[04:11]",
+      "start_time_sec": 244,
+      "text": "That confirms that the SIP digital voice service is provisioned and authenticated on our core voice gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:17]",
+      "end_time": "[04:23]",
+      "start_time_sec": 257,
+      "text": "So why does her medical care pendant alarm fail to detect the dial tone?",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:29]",
+      "end_time": "[04:39]",
+      "start_time_sec": 269,
+      "text": "Many legacy analogue telecare devices utilize older frequency-shift keying tones or pulse signaling that cannot negotiate standard VoIP codecs without impedance matching."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:45]",
+      "end_time": "[04:51]",
+      "start_time_sec": 285,
+      "text": "Does that mean her care alarm is incompatible with modern digital fiber lines?",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:57]",
+      "end_time": "[05:05]",
+      "start_time_sec": 297,
+      "text": "Legacy telecare hardware requires an analogue telephone adapter featuring specialized auto-sensing loop current and high-voltage ring signal circuitry."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:11]",
+      "end_time": "[05:18]",
+      "start_time_sec": 311,
+      "text": "Why didn't the installation technician check her emergency alarm before packing his tools and leaving yesterday afternoon?",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:24]",
+      "end_time": "[05:32]",
+      "start_time_sec": 324,
+      "text": "Contracted field installers are only authorized to verify basic telephony dial tone using standard company handset test sets."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:38]",
+      "end_time": "[05:44]",
+      "start_time_sec": 338,
+      "text": "Well leaving an elderly vulnerable pensioner with a disabled care pendant is completely irresponsible!",
+      "sentiment_score": -32.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:50]",
+      "end_time": "[06:03]",
+      "start_time_sec": 350,
+      "text": "I understand your frustration with how the field visit was conducted. Protecting vulnerable subscribers with telecare alarms is our highest priority, and I will take full responsibility for resolving this."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:09]",
+      "end_time": "[06:16]",
+      "start_time_sec": 369,
+      "text": "Thank you, because my mother is terrified to move around the bungalow without her emergency button working.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:22]",
+      "end_time": "[06:32]",
+      "start_time_sec": 382,
+      "text": "Please bear with me on hold for about forty-five seconds while I liaise directly with our specialized emergency telecare engineering dispatch desk."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:17]",
+      "end_time": "[07:24]",
+      "start_time_sec": 437,
+      "text": "Thank you for your patience while holding. I have engaged our national telecare priority response coordinator."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:30]",
+      "end_time": "[07:35]",
+      "start_time_sec": 450,
+      "text": "What have they agreed to do to get her alarm reconnected?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:41]",
+      "end_time": "[07:49]",
+      "start_time_sec": 461,
+      "text": "We have dispatched a dedicated telecare-certified digital voice adapter box via express courier for delivery before one o'clock tomorrow."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:55]",
+      "end_time": "[08:01]",
+      "start_time_sec": 475,
+      "text": "Does this dedicated adapter plug directly between the router and the alarm base station?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:07]",
+      "end_time": "[08:17]",
+      "start_time_sec": 487,
+      "text": "Yes, it connects via an RJ11 lead into the router's LAN port and features built-in dual-tone multi-frequency conversion and an emergency battery backup module."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:23]",
+      "end_time": "[08:30]",
+      "start_time_sec": 503,
+      "text": "Having battery backup is essential in case there is a power cut on our road.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:36]",
+      "end_time": "[08:46]",
+      "start_time_sec": 516,
+      "text": "If there is a power cut on our street during winter storms, how long will the emergency battery backup keep her telecare adapter active?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:52]",
+      "end_time": "[09:02]",
+      "start_time_sec": 532,
+      "text": "The integrated lithium backup battery pack maintains continuous DC power to the SIP adapter for up to eight hours of continuous standby line operation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:08]",
+      "end_time": "[09:15]",
+      "start_time_sec": 548,
+      "text": "Eight hours is plenty of time for Northern Powergrid to restore localized domestic electrical cuts.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:21]",
+      "end_time": "[09:29]",
+      "start_time_sec": 561,
+      "text": "And the adapter unit automatically sounds an audible low-battery alert chirp if internal reserves drop below fifteen percent."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:35]",
+      "end_time": "[09:48]",
+      "start_time_sec": 575,
+      "text": "In addition to the express equipment dispatch, I have booked a priority senior telecoms engineer to visit tomorrow afternoon between one and four to install and test the unit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:54]",
+      "end_time": "[10:00]",
+      "start_time_sec": 594,
+      "text": "An engineer coming to fit it will take a massive weight off my shoulders.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:06]",
+      "end_time": "[10:15]",
+      "start_time_sec": 606,
+      "text": "Our engineer will also conduct end-to-end test calls directly to the telecare emergency monitoring center to confirm bidirectional voice communication."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:21]",
+      "end_time": "[10:28]",
+      "start_time_sec": 621,
+      "text": "Will the engineer test both the main base speaker and her wearable neck pendant button?",
+      "sentiment_score": 12.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:34]",
+      "end_time": "[10:43]",
+      "start_time_sec": 634,
+      "text": "Yes, the technician will carry out full range testing across every room in her bungalow, including the bathroom and garden patio."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:49]",
+      "end_time": "[10:54]",
+      "start_time_sec": 649,
+      "text": "That will ensure she is covered wherever she is in the house.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:00]",
+      "end_time": "[11:07]",
+      "start_time_sec": 660,
+      "text": "And there will be absolutely zero callout charges or hardware fees for this priority dispatch."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:13]",
+      "end_time": "[11:16]",
+      "start_time_sec": 673,
+      "text": "That is very fair, thank you.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:22]",
+      "end_time": "[11:32]",
+      "start_time_sec": 682,
+      "text": "Just to confirm what you mentioned earlier, her registered contact number is zero seven seven zero zero, nine zero zero three two eight?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:38]",
+      "end_time": "[11:46]",
+      "start_time_sec": 698,
+      "text": "Yes, that is my direct mobile number, zero seven seven zero zero, nine zero zero three two eight.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:52]",
+      "end_time": "[11:59]",
+      "start_time_sec": 712,
+      "text": "I have tagged that mobile number for automated SMS courier tracking and engineer arrival notifications."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:05]",
+      "end_time": "[12:15]",
+      "start_time_sec": 725,
+      "text": "That way I will know exactly when the engineer is arriving so I can be there to let him into the house.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:21]",
+      "end_time": "[12:28]",
+      "start_time_sec": 741,
+      "text": "In the interim tonight, does your mother have a working mobile phone beside her bed?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:34]",
+      "end_time": "[12:41]",
+      "start_time_sec": 754,
+      "text": "Yes, she has an emergency big-button mobile on her bedside table with my number on speed dial.",
+      "sentiment_score": 16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:47]",
+      "end_time": "[12:54]",
+      "start_time_sec": 767,
+      "text": "Please ensure that mobile handset remains plugged into its charging dock overnight as a temporary safeguard."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:00]",
+      "end_time": "[13:06]",
+      "start_time_sec": 780,
+      "text": "I am staying over at her house tonight anyway until the engineer finishes tomorrow.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:12]",
+      "end_time": "[13:15]",
+      "start_time_sec": 792,
+      "text": "That provides immediate personal reassurance for her overnight."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:20]",
+      "end_time": "[13:28]",
+      "start_time_sec": 800,
+      "text": "Her broadband internet has been working fine since the switchover, it's just the alarm that had the issue.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:33]",
+      "end_time": "[13:41]",
+      "start_time_sec": 813,
+      "text": "The optical broadband line is showing excellent sync speed at one hundred and fifty megabits with zero packet drops."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:46]",
+      "end_time": "[13:50]",
+      "start_time_sec": 826,
+      "text": "That's good to know the fiber itself is stable.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:55]",
+      "end_time": "[13:58]",
+      "start_time_sec": 835,
+      "text": "The telecare dispatch booking reference number is TC-99104-E."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:03]",
+      "end_time": "[14:11]",
+      "start_time_sec": 843,
+      "text": "Writing that down... TC-99104-E. I will leave that reference number next to her bedside phone for the visiting carers.",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:16]",
+      "end_time": "[14:38]",
+      "start_time_sec": 856,
+      "text": "I have verified that the priority courier dispatch is scheduled with Royal Mail Special Delivery, the specialist engineer slot is confirmed for tomorrow afternoon between one and four, and the telecare priority safety tag is permanently placed on her account. Does that provide complete reassurance and answer all your questions today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:43]",
+      "end_time": "[14:50]",
+      "start_time_sec": 883,
+      "text": "Yes, you have been immensely helpful and organized everything so efficiently. Thank you so much.",
+      "sentiment_score": 28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:55]",
+      "end_time": "[15:01]",
+      "start_time_sec": 895,
+      "text": "Thank you for choosing S-Net today. Have a restful evening and take care. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:06]",
+      "end_time": "[15:10]",
+      "start_time_sec": 906,
+      "text": "Thank you Aaron, goodbye.",
+      "sentiment_score": 18.2
+    }
+  ]
+}

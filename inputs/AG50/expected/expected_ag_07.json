@@ -1,0 +1,159 @@
+{
+  "call_id": "ag_07",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 100.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Landline digital voice migration broke elderly mother's telecare pendant alarm and incoming caller ID",
+    "tier": "excellent",
+    "duration_sec": 1165,
+    "notes": "Exemplary 100.0% call handling a vulnerable elderly customer's Digital Voice telecare and caller-ID failure. Includes three hard-PASS tests: (1) H is a near-miss PASS with exactly 1 unmanaged gap of 36s at [06:37] and 1 managed hold of 88s at [11:37]; (2) O is a hard PASS where Kieran mentions a specialist team ([07:46], [08:14]) while taking full personal ownership; (3) RE is verified via both a live caller-ID test ring ([13:04]) and a live telecare pendant call to the monitoring centre ([14:32]).",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Took ownership of the problem",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Near-miss PASS: Kieran has one 36s unmanaged gap at [06:37] (after [05:51] 'Let me check the SIP voice profile on the exchange switch'), which is below the >=2 threshold, and properly announces/returns from his 88s hold at [09:43]–[11:37]."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Even though Kieran mentions 'our specialist vulnerable-customer engineering desk' at [07:46] and [08:14], he takes full personal ownership of rebuilding the G.711/SIN 227 voice profile himself ([00:54], [07:46], [11:37]) and booking the battery backup unit."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Live resolution confirmed twice: at [13:04] Niamh confirms incoming caller ID displays on the Panasonic handset during Kieran's test ring, and at [14:32]–[15:02] the Tunstall Lifeline Vi+ pendant test succeeds live with the monitoring centre operator."
+      }
+    ]
+  }
+}

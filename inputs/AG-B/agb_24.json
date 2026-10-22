@@ -1,0 +1,471 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Xander",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer billing services. My name is Craig. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:32]",
+      "start_time_sec": 10,
+      "text": "Hello Craig. I opened my monthly mobile phone bill this morning and found a shocking forty-five pound extra charge listed as 'Maritime Satellite Roaming Data', even though I have an unlimited EU roaming add-on on my contract! I was taking the Irish Sea overnight ferry from Holyhead to Dublin on Thursday night, not a luxury Caribbean cruise!",
+      "sentiment_score": -34.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:35]",
+      "end_time": "[00:49]",
+      "start_time_sec": 35,
+      "text": "I can certainly review those roaming billing records with you, Xander. Before we examine your itemized invoice, may I please verify your billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:52]",
+      "end_time": "[01:01]",
+      "start_time_sec": 52,
+      "text": "Yes, it is 19 Montgomery Way, Chester, CH1 4NP. And my security question answer is my mother's birthplace, Inverness.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:04]",
+      "end_time": "[01:13]",
+      "start_time_sec": 64,
+      "text": "Thank you Xander, that verifies your account file. What mobile telephone number does this bill relate to?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:16]",
+      "end_time": "[01:32]",
+      "start_time_sec": 76,
+      "text": "It is my main mobile number, 07700 900318. I am furious because forty-five pounds for thirty megabytes of background email syncing while asleep in a ferry cabin is absolute daylight robbery!",
+      "sentiment_score": -48.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:35]",
+      "end_time": "[01:52]",
+      "start_time_sec": 95,
+      "text": "I completely understand your frustration upon seeing an unexpected forty-five pound charge on your monthly statement, Xander. Let us pull up the itemized call records and see exactly how those satellite data packets were billed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:55]",
+      "end_time": "[01:59]",
+      "start_time_sec": 115,
+      "text": "Thank you Craig, I appreciate you looking into it.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:02]",
+      "end_time": "[02:22]",
+      "start_time_sec": 122,
+      "text": "So if I have understood correctly, you incurred a forty-five pound maritime satellite data roaming fee while traveling across the Irish Sea on an overnight ferry, which conflicts with your understanding of your inclusive EU roaming package, and you are seeking clarification and a fee adjustment. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:25]",
+      "end_time": "[02:34]",
+      "start_time_sec": 145,
+      "text": "Yes, that is exactly the issue. Ireland is in the European Union, so surely crossing to Dublin is covered under EU roaming!",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:37]",
+      "end_time": "[02:51]",
+      "start_time_sec": 157,
+      "text": "Looking at the billing timestamp on Thursday at 02:14 AM, your phone connected to 'Telenor Maritime' cellular satellite base station on board the vessel."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:54]",
+      "end_time": "[03:03]",
+      "start_time_sec": 174,
+      "text": "I never selected Telenor Maritime! My phone was sitting on the cabin bedside table in airplane mode... or at least I thought it was.",
+      "sentiment_score": -16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:06]",
+      "end_time": "[03:19]",
+      "start_time_sec": 186,
+      "text": "When a ferry travels twelve nautical miles off the coast into international waters, terrestrial UK and Irish cellular masts lose line-of-sight signal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:22]",
+      "end_time": "[03:26]",
+      "start_time_sec": 202,
+      "text": "And the ferry turns on its own mobile tower?",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:29]",
+      "end_time": "[03:45]",
+      "start_time_sec": 209,
+      "text": "The ship operates an onboard satellite picocell relaying traffic over geostationary satellites, which falls under international maritime satellite bands rather than EU terrestrial roaming."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:48]",
+      "end_time": "[03:54]",
+      "start_time_sec": 228,
+      "text": "Why isn't that made crystal clear when you purchase an EU roaming add-on?",
+      "sentiment_score": -18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:57]",
+      "end_time": "[04:11]",
+      "start_time_sec": 237,
+      "text": "Our EU Roaming pass covers ground-based terrestrial mobile networks within EU Zone 1 countries, but explicitly excludes maritime, aerospace, and satellite networks."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:14]",
+      "end_time": "[04:20]",
+      "start_time_sec": 254,
+      "text": "Did S-Net send any text message warning me that maritime satellite rates applied?",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:23]",
+      "end_time": "[04:38]",
+      "start_time_sec": 263,
+      "text": "Our automated SMS gateway sent a welcome notification to your handset at 01:48 AM stating: 'Welcome to Maritime Network. Data is charged at £1.50 per megabyte'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:41]",
+      "end_time": "[04:49]",
+      "start_time_sec": 281,
+      "text": "At two in the morning I was fast asleep! How can a sleeping passenger respond to an SMS?",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:52]",
+      "end_time": "[05:01]",
+      "start_time_sec": 292,
+      "text": "I recognize that SMS alerts arriving during sleeping hours cannot be reviewed immediately, Xander."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:04]",
+      "end_time": "[05:11]",
+      "start_time_sec": 304,
+      "text": "Exactly! My iPhone automatically downloaded email headers and weather updates in the background.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:14]",
+      "end_time": "[05:28]",
+      "start_time_sec": 314,
+      "text": "Thirty megabytes of background data at one pound fifty per megabyte calculated to forty-five pounds before the automated spend cap paused the session."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:31]",
+      "end_time": "[05:42]",
+      "start_time_sec": 331,
+      "text": "Can S-Net waive this charge as a one-off goodwill gesture? I have been a loyal customer for five years and never had a satellite roaming charge in my life.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:45]",
+      "end_time": "[05:58]",
+      "start_time_sec": 345,
+      "text": "I can submit a billing adjustment request to our Roaming Operations team to review the wholesale interconnect fee with Telenor Maritime."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:01]",
+      "end_time": "[06:06]",
+      "start_time_sec": 361,
+      "text": "Will they credit the forty-five pounds back to my account?",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:09]",
+      "end_time": "[06:22]",
+      "start_time_sec": 369,
+      "text": "The operations team reviews whether first-time maritime roaming thresholds qualify for a 50% or 100% courtesy waiver within five business days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:25]",
+      "end_time": "[06:33]",
+      "start_time_sec": 385,
+      "text": "That would be very helpful. Can you also put a permanent bar on satellite roaming on my SIM card?",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:36]",
+      "end_time": "[06:51]",
+      "start_time_sec": 396,
+      "text": "Yes, I can activate our 'Terrestrial Only Roaming Bar' on your profile, which completely blocks maritime and aerospace satellite connections while preserving EU roaming."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:54]",
+      "end_time": "[07:01]",
+      "start_time_sec": 414,
+      "text": "Please turn that bar on immediately so this can never happen on my return ferry.",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:04]",
+      "end_time": "[07:16]",
+      "start_time_sec": 424,
+      "text": "The Terrestrial Only Roaming Bar has now been applied to your SIM card and updates on the network within two hours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:19]",
+      "end_time": "[07:24]",
+      "start_time_sec": 439,
+      "text": "That gives me much greater confidence for future ferry travel.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:27]",
+      "end_time": "[07:37]",
+      "start_time_sec": 447,
+      "text": "Let us also look at your device settings to prevent background data roaming leaks in transit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:40]",
+      "end_time": "[07:44]",
+      "start_time_sec": 460,
+      "text": "Where on the iPhone should I adjust those settings?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:47]",
+      "end_time": "[07:58]",
+      "start_time_sec": 467,
+      "text": "Open Settings, tap Mobile Service, tap Mobile Data Options, and toggle 'Low Data Mode' to ON."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:01]",
+      "end_time": "[08:08]",
+      "start_time_sec": 481,
+      "text": "Settings... Mobile Data Options... Low Data Mode is now toggled ON.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:11]",
+      "end_time": "[08:24]",
+      "start_time_sec": 491,
+      "text": "Low Data Mode halts automated iCloud backups, photo syncs, and background email fetches unless connected to WiFi."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:27]",
+      "end_time": "[08:32]",
+      "start_time_sec": 507,
+      "text": "That is extremely useful protection for international travel.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:35]",
+      "end_time": "[08:44]",
+      "start_time_sec": 515,
+      "text": "Let us also check your monthly roaming spend cap setting on our customer portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:47]",
+      "end_time": "[08:51]",
+      "start_time_sec": 527,
+      "text": "What is my current monthly roaming spend cap set to?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:54]",
+      "end_time": "[09:08]",
+      "start_time_sec": 534,
+      "text": "Your account defaulted to the standard forty-five pound regulatory spend cap, which is why your data stopped precisely at forty-five pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:11]",
+      "end_time": "[09:19]",
+      "start_time_sec": 551,
+      "text": "Can we reduce that cap to ten pounds so any accidental roaming is halted much sooner?",
+      "sentiment_score": 15.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:22]",
+      "end_time": "[09:32]",
+      "start_time_sec": 562,
+      "text": "I have adjusted your international roaming spend cap to ten pounds per billing cycle."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:35]",
+      "end_time": "[09:39]",
+      "start_time_sec": 575,
+      "text": "Thank you, that provides a tight safety net.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:42]",
+      "end_time": "[09:58]",
+      "start_time_sec": 582,
+      "text": "On future overnight ferry crossings, you can also purchase the ferry operator's passenger WiFi voucher directly, which provides flat-rate satellite internet without involving cellular networks."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:01]",
+      "end_time": "[10:10]",
+      "start_time_sec": 601,
+      "text": "Yes, Irish Ferries offers an eight-pound overnight cabin WiFi pass. I will definitely use that instead.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:13]",
+      "end_time": "[10:25]",
+      "start_time_sec": 613,
+      "text": "Obviously that confirms your handset will automatically refuse connection to non-terrestrial shipboard cells in future, Xander."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:28]",
+      "end_time": "[10:33]",
+      "start_time_sec": 628,
+      "text": "Excellent. Now what about this current month's Direct Debit?",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:36]",
+      "end_time": "[10:50]",
+      "start_time_sec": 636,
+      "text": "I have placed a temporary twenty-day payment hold on the disputed forty-five pound portion so your bank account is not debited pending the review."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:53]",
+      "end_time": "[10:58]",
+      "start_time_sec": 653,
+      "text": "Thank you, that prevents an overdraft on my current account.",
+      "sentiment_score": 26.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:01]",
+      "end_time": "[11:09]",
+      "start_time_sec": 661,
+      "text": "Which ferry crossing route did you take when this maritime charge occurred?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:12]",
+      "end_time": "[11:23]",
+      "start_time_sec": 672,
+      "text": "Craig, I told you in my very first sentence that I took the ferry from Holyhead to Dublin! Why are you asking me that again?",
+      "sentiment_score": -34.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:26]",
+      "end_time": "[11:35]",
+      "start_time_sec": 686,
+      "text": "I apologize, Xander, I wanted to double-check the port of departure for the operational ticket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:38]",
+      "end_time": "[11:44]",
+      "start_time_sec": 698,
+      "text": "Yes, Holyhead to Dublin. Make sure you don't forget it on the ticket.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:47]",
+      "end_time": "[11:54]",
+      "start_time_sec": 707,
+      "text": "I have recorded Holyhead to Dublin on the escalation record."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:57]",
+      "end_time": "[12:11]",
+      "start_time_sec": 717,
+      "text": "Good. But I have to say, I am still not satisfied that S-Net allows these predatory satellite operators to charge £1.50 a megabyte without requiring active opt-in consent! It feels deceptive.",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:14]",
+      "end_time": "[12:23]",
+      "start_time_sec": 734,
+      "text": "The maritime interconnect rates are determined under international maritime satellite treaties."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:26]",
+      "end_time": "[12:34]",
+      "start_time_sec": 746,
+      "text": "Regardless of treaties, customers should receive an explicit popup warning before a single kilobyte is billed.",
+      "sentiment_score": -19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:37]",
+      "end_time": "[12:46]",
+      "start_time_sec": 757,
+      "text": "I have noted your customer feedback regarding opt-in prompts on the policy feedback log."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:49]",
+      "end_time": "[13:01]",
+      "start_time_sec": 769,
+      "text": "Well, feedback or not, I still do not agree with this forty-five pound bill and I do not consider this issue resolved until that charge is credited off my statement!",
+      "sentiment_score": -38.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:04]",
+      "end_time": "[13:13]",
+      "start_time_sec": 784,
+      "text": "The investigation team will email you within five working days with their decision. Have a good day. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:15]",
+      "end_time": "[13:17]",
+      "start_time_sec": 795,
+      "text": "Goodbye.",
+      "sentiment_score": -8.5
+    }
+  ]
+}

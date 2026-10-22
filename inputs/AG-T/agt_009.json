@@ -1,0 +1,464 @@
+{
+  "call_id": "agt_009",
+  "tenant_id": "tenant-abc",
+  "customer_name": "Arthur",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net business technical support. My name is Craig. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:09]",
+      "end_time": "[00:32]",
+      "start_time_sec": 9,
+      "text": "Hi Craig. My name is Arthur Pendelton, IT manager at Apex Logistics. We have an S-Net Business Fibre 500 line with a routed /29 static IP block. Since the scheduled exchange maintenance last night at midnight, none of our static IPs are routing from the outside world. Our mail server and staff VPN gateway are completely unreachable!",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:33]",
+      "end_time": "[00:51]",
+      "start_time_sec": 33,
+      "text": "Good morning Arthur. I completely understand how critical this static IP subnet is for your office infrastructure, especially with staff unable to connect to your mail server and remote VPN. Let's look into this right away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:52]",
+      "end_time": "[00:59]",
+      "start_time_sec": 52,
+      "text": "Thank you, Arthur here. We really need this back up urgently.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:00]",
+      "end_time": "[01:17]",
+      "start_time_sec": 60,
+      "text": "Before we pull up the line diagnostics and routing configuration, Arthur, could you verify your business address and your 4-digit security PIN, please?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:18]",
+      "end_time": "[01:31]",
+      "start_time_sec": 78,
+      "text": "Yes, of course. The address is Unit 4, Wharf Road Industrial Park, Leeds, LS11 5TZ, and our security PIN is 7492.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:32]",
+      "end_time": "[01:46]",
+      "start_time_sec": 92,
+      "text": "Thank you, Arthur, that verifies your business account. I have your connection profile open on my network terminal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:47]",
+      "end_time": "[01:53]",
+      "start_time_sec": 107,
+      "text": "Great, thanks Craig.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:54]",
+      "end_time": "[02:18]",
+      "start_time_sec": 114,
+      "text": "So if I understand correctly, since the midnight exchange maintenance window, your entire static slash twenty-nine subnet has lost inbound routing so external traffic cannot reach your mail server or VPN, while regular outbound internet browsing is still operational, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:19]",
+      "end_time": "[02:32]",
+      "start_time_sec": 139,
+      "text": "Yes, that is exactly right! Outbound web browsing works fine through NAT on the dynamic WAN address, but the static subnet is dead to the world.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:33]",
+      "end_time": "[02:49]",
+      "start_time_sec": 153,
+      "text": "Could you provide the exact IP address range of your allocated static block, Arthur?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:50]",
+      "end_time": "[03:08]",
+      "start_time_sec": 170,
+      "text": "Yes, it is 198.51.100.160 with subnet mask 255.255.255.248. The gateway assigned on our firewall is .161, mail server is on .162, and the VPN endpoint is on .163.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:09]",
+      "end_time": "[03:26]",
+      "start_time_sec": 189,
+      "text": "Understood. When you run an inbound traceroute or ping to 198.51.100.161 from an external connection, what response do you get?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:27]",
+      "end_time": "[03:44]",
+      "start_time_sec": 207,
+      "text": "I tested from my phone on cellular data. The traceroute reaches the S-Net Leeds aggregation router at hop 6, and then from hop 7 onward it drops with destination net unreachable.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:45]",
+      "end_time": "[04:02]",
+      "start_time_sec": 225,
+      "text": "That is very clear diagnostic detail. Can you confirm if your on-premise firewall is seeing the PPPoE connection as established?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:03]",
+      "end_time": "[04:18]",
+      "start_time_sec": 243,
+      "text": "Yes, the PPPoE session came back up at 00:42 after the maintenance. The dynamic point-to-point IP was negotiated without error.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:19]",
+      "end_time": "[04:36]",
+      "start_time_sec": 259,
+      "text": "Thank you, Arthur. Bear with me for a couple of minutes while I check the Broadband Remote Access Server routing tables for the Leeds exchange."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:37]",
+      "end_time": "[04:42]",
+      "start_time_sec": 277,
+      "text": "Certainly, I will stay on the line.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:35]",
+      "end_time": "[05:56]",
+      "start_time_sec": 335,
+      "text": "Thank you for holding, Arthur. I have inspected our BRAS gateway logs. The static route for your /29 block was purged from the local routing information base when the line card rebooted during last night's firmware upgrade."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:57]",
+      "end_time": "[06:08]",
+      "start_time_sec": 357,
+      "text": "Right, so the route announcement isn't being injected into the BGP table?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:09]",
+      "end_time": "[06:35]",
+      "start_time_sec": 369,
+      "text": "Look, Arthur, static IP BGP tables are managed entirely by our third-party carrier BGP operations team. There is nothing I can do from here; you will have to wait for them to look at their routing table. It's not our fault that their overnight maintenance broke the subnet route."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:36]",
+      "end_time": "[06:55]",
+      "start_time_sec": 396,
+      "text": "Wait, Craig, that is not acceptable! We pay S-Net for business-grade fibre with a four-hour SLA. Our entire logistics dispatch team cannot access the on-premise database via VPN, and drivers are waiting for manifests!",
+      "sentiment_score": -48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:56]",
+      "end_time": "[07:18]",
+      "start_time_sec": 416,
+      "text": "I hear your frustration Arthur, but like I said, tier-1 technical support doesn't have write access to the upstream carrier BGP routers. All I can do is raise an escalation ticket to the carrier NOC. They have a four-hour response window on business routing tickets."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:19]",
+      "end_time": "[07:31]",
+      "start_time_sec": 439,
+      "text": "Can you at least escalate it as a priority one critical outage? Our dispatch operations are paralyzed right now.",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:32]",
+      "end_time": "[07:53]",
+      "start_time_sec": 452,
+      "text": "I can certainly mark the escalation ticket as Priority 1 business impact. Let me input the diagnostic information you gathered into the fault ticket now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:54]",
+      "end_time": "[08:02]",
+      "start_time_sec": 474,
+      "text": "Please make sure you include the Leeds BRAS router hop information from the traceroute.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:03]",
+      "end_time": "[08:24]",
+      "start_time_sec": 483,
+      "text": "Yes, I am documenting that the route to 198.51.100.160/29 was dropped from the Leeds BRAS RIB following the 00:42 firmware maintenance window."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:25]",
+      "end_time": "[08:33]",
+      "start_time_sec": 505,
+      "text": "Good. And what is the ticket reference number so I can reference it?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:34]",
+      "end_time": "[08:52]",
+      "start_time_sec": 514,
+      "text": "Give me a moment while the escalation ticketing portal generates the unique INC identifier."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:53]",
+      "end_time": "[08:58]",
+      "start_time_sec": 533,
+      "text": "Okay, waiting.",
+      "sentiment_score": 1.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:40]",
+      "end_time": "[10:01]",
+      "start_time_sec": 580,
+      "text": "Thank you for waiting, Arthur. The incident ticket reference has been created as INC-882194-BGP."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:02]",
+      "end_time": "[10:13]",
+      "start_time_sec": 602,
+      "text": "INC-882194-BGP, got it written down. And what happens next with the ticket?",
+      "sentiment_score": 3.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:14]",
+      "end_time": "[10:36]",
+      "start_time_sec": 614,
+      "text": "The ticket is routed into the high-priority queue of the Carrier Core NOC team. A network engineer will log into the Leeds edge router and re-bind the static route to your PPPoE interface."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:37]",
+      "end_time": "[10:48]",
+      "start_time_sec": 637,
+      "text": "Will I receive an automated text or email when they update the routing table?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:49]",
+      "end_time": "[11:10]",
+      "start_time_sec": 649,
+      "text": "Yes, Arthur. We have your mobile number 07700 900551 on file. Automated status SMS updates will trigger when the engineer begins work and when the route is restored."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:11]",
+      "end_time": "[11:24]",
+      "start_time_sec": 671,
+      "text": "Is there any temporary workaround we can use in the meantime so our logistics team can get manifests out?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:25]",
+      "end_time": "[11:47]",
+      "start_time_sec": 685,
+      "text": "Since outbound internet is functioning, Arthur, your staff inside the office can access external cloud services normally. However, for inbound connections to your on-premise servers, you would need to wait for the static route or temporarily port-forward on the dynamic IP if your firewall allows DDNS."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:48]",
+      "end_time": "[12:04]",
+      "start_time_sec": 708,
+      "text": "Our SSL certificates and IP whitelists are tied to the static IP block, so dynamic DNS won't work with our client portals. We will have to wait for the NOC team to re-bind the route.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:05]",
+      "end_time": "[12:24]",
+      "start_time_sec": 725,
+      "text": "Understood, Arthur. I have explicitly highlighted in the ticket notes that client SSL bindings and IP whitelisting depend strictly on the allocated subnet."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:25]",
+      "end_time": "[12:35]",
+      "start_time_sec": 745,
+      "text": "Thank you for noting that down. How long does the carrier NOC usually take to execute a route re-bind?",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:36]",
+      "end_time": "[12:56]",
+      "start_time_sec": 756,
+      "text": "For priority one route missing issues following maintenance, it typically takes between one to two hours once picked up by the core engineer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:57]",
+      "end_time": "[13:08]",
+      "start_time_sec": 777,
+      "text": "Okay, that is at least manageable if it's within that window. But as of right now, our static IPs are definitely still down, correct?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:09]",
+      "end_time": "[13:28]",
+      "start_time_sec": 789,
+      "text": "Yes, I just sent a live ICMP ping batch from our external diagnostic probe to 198.51.100.161, and all packets are dropping at hop 6."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:29]",
+      "end_time": "[13:41]",
+      "start_time_sec": 809,
+      "text": "Right, so nothing is resolved yet on this call. We will just monitor our phones for the NOC notification.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:42]",
+      "end_time": "[14:02]",
+      "start_time_sec": 822,
+      "text": "That is correct, Arthur. The issue cannot be resolved on this call because the route injection must be performed directly on the core carrier infrastructure by the NOC team."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:03]",
+      "end_time": "[14:14]",
+      "start_time_sec": 843,
+      "text": "Understood. Can I call back on this same number if we don't hear anything in ninety minutes?",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:15]",
+      "end_time": "[14:35]",
+      "start_time_sec": 855,
+      "text": "Yes, Arthur, you can call our direct business line on 0800 800 152 and quote incident reference INC-882194-BGP for an instant progress update."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:36]",
+      "end_time": "[14:48]",
+      "start_time_sec": 876,
+      "text": "Perfect, I have the direct number and reference noted down. Is there anything else you need from me for the ticket?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:49]",
+      "end_time": "[15:08]",
+      "start_time_sec": 889,
+      "text": "No, Arthur, you have provided comprehensive diagnostic information that will allow the NOC engineer to resolve the issue swiftly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:09]",
+      "end_time": "[15:18]",
+      "start_time_sec": 909,
+      "text": "Thank you for getting the ticket submitted, Craig. Let's hope they fix it quickly.",
+      "sentiment_score": 9.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:19]",
+      "end_time": "[15:37]",
+      "start_time_sec": 919,
+      "text": "You are very welcome, Arthur. Is there any other technical matter I can assist you with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:38]",
+      "end_time": "[15:47]",
+      "start_time_sec": 938,
+      "text": "No, that is everything. I will keep an eye on our server console.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:48]",
+      "end_time": "[16:04]",
+      "start_time_sec": 948,
+      "text": "Thank you for choosing S-Net business technical support, Arthur. We appreciate your patience while the NOC team works on this."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:05]",
+      "end_time": "[16:14]",
+      "start_time_sec": 965,
+      "text": "Thanks Craig. Have a good day.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:15]",
+      "end_time": "[16:29]",
+      "start_time_sec": 975,
+      "text": "Have a productive day, Arthur. Take care."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:30]",
+      "end_time": "[16:36]",
+      "start_time_sec": 990,
+      "text": "Goodbye Craig.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:37]",
+      "end_time": "[16:51]",
+      "start_time_sec": 997,
+      "text": "Thank you for choosing S-Net. Goodbye, Arthur."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:52]",
+      "end_time": "[16:58]",
+      "start_time_sec": 1012,
+      "text": "Goodbye.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:59]",
+      "end_time": "[17:15]",
+      "start_time_sec": 1019,
+      "text": "We will notify you by SMS as soon as the static IP routing is restored."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:16]",
+      "end_time": "[17:23]",
+      "start_time_sec": 1036,
+      "text": "Understood, thank you.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:24]",
+      "end_time": "[17:42]",
+      "start_time_sec": 1044,
+      "text": "Thank you for choosing S-Net. Goodbye."
+    }
+  ]
+}

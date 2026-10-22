@@ -1,0 +1,2072 @@
+{
+  "thresholds": {
+    "empathy": {
+      "yes_means": "PASS",
+      "pass_threshold": 0.49
+    },
+    "active_listening": {
+      "yes_means": "FAIL",
+      "pass_threshold": 0.5
+    },
+    "ownership": {
+      "yes_means": "FAIL",
+      "pass_threshold": 0.52
+    },
+    "rapport": {
+      "yes_means": "FAIL",
+      "pass_threshold": 0.2
+    },
+    "probing": {
+      "yes_means": "PASS",
+      "pass_threshold": 0.7
+    },
+    "resolved": {
+      "yes_means": "PASS",
+      "pass_threshold": 0.42
+    },
+    "escalation": {
+      "yes_means": "FAIL",
+      "pass_threshold": 0.47
+    },
+    "hostility": {
+      "yes_means": "FAIL",
+      "pass_threshold": 0.79
+    },
+    "paraphrasing": {
+      "yes_means": "PASS",
+      "pass_threshold": 0.47
+    }
+  },
+  "calls": [
+    {
+      "call": "agt_003.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 112,
+          "text": "Customer: Hi Sarah. I just checked my bank account this morning and you've taken two payments of forty-nine pounds on the exact same day! That's nearly a hundred pounds and my rent is due tomorrow!\nAgent: I can pull up your billing ledger on our system. Before I can discuss account transactions, I need to verify your details. Can you give me your postcode and first line of address?\nCustomer: It's 19 St Peter's Grove, York, YO30 6AQ. Please tell me you can reverse one of them immediately because my bank account will be overdrawn.\nAgent: Thank you. And what is your four-digit security PIN?\nCustomer: It is 8 2 0 4.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.2889
+          },
+          "sec": 11.39
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 61,
+          "text": "CUSTOMER: Hi Sarah. I just checked my bank account this morning and you've taken two payments of forty-nine pounds on the exact same day! That's nearly a hundred pounds and my rent is due tomorrow!\nAGENT: Just to confirm the billing profile, your account number ends in 4109 and your direct debit mandate is registered with Barclays Bank, is that correct?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0551
+          },
+          "sec": 0.73
+        },
+        {
+          "label": "verify_al",
+          "words": 46,
+          "text": "Turn 15 Customer said: Yes, I spoke to an agent who offered me the Fibre 500 upgrade for forty-nine pounds a month.\nTurn 76 Agent later asked: Is your Fibre 500 broadband speed working well across all devices at home following the upgrade earlier this month?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.047
+          },
+          "sec": 0.68
+        },
+        {
+          "label": "verify_rapport",
+          "words": 118,
+          "text": "Agent: Thank you for calling S-Net customer support. My name is Sarah. How can I help you today?\nAgent: I can pull up your billing ledger on our system. Before I can discuss account transactions, I need to verify your details. Can you give me your postcode and first line of address?\nAgent: Thank you. And what is your four-digit security PIN?\nAgent: That verifies the account, thank you Adam. Let me open your invoice schedule now.\nAgent: Just to confirm the billing profile, your account number ends in 4109 and your direct debit mandate is registered with Barclays Bank, is that correct?\nAgent: You are seeing two payments of forty-nine pounds on the fifteenth of October. Okay.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0617
+          },
+          "sec": 0.99
+        },
+        {
+          "label": "verify_rapport",
+          "words": 108,
+          "text": "Agent: Bear with me while I check the contract migration log from earlier this month.\nAgent: Thank you for holding, Adam. I can see what happened here. On the second of October, you upgraded your package from Fibre 100 to Fibre 500.\nAgent: When that change was submitted, your old contract billing cycle was scheduled to close on the fourteenth, while the new Fibre 500 contract created an initial advance bill covering the fifteenth onward.\nAgent: Obviously our automated billing gateway should have reconciled the pro-rata balance into a single invoice, but the two collection mandates ran concurrently because the upgrade completed twenty-four hours before the billing cutoff.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0579
+          },
+          "sec": 1.17
+        },
+        {
+          "label": "verify_rapport",
+          "words": 101,
+          "text": "Agent: Yes, the system collected forty-nine pounds for the final cycle of the old Fibre 100 package and forty-nine pounds in advance for the new Fibre 500 package.\nAgent: Let me check the direct debit debiting rules on your account.\nAgent: Because the payment was collected via Direct Debit rather than a debit card transaction, banking regulations mean funds take three business days to clear into our merchant account.\nAgent: Our automated refund tool cannot issue a same-day card transfer for a Direct Debit payment. What I can do is submit an immediate BACS refund escalation to our billing operations team.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0614
+          },
+          "sec": 1.67
+        },
+        {
+          "label": "verify_rapport",
+          "words": 119,
+          "text": "Agent: Once finance approves the ticket tomorrow morning, the BACS transmission takes two to three banking days, which means the funds will land in your account by Friday.\nAgent: If your bank charges you an overdraft fee as a direct result of this duplicate collection, S-Net will reimburse that fee in full upon receipt of a bank statement showing the charge.\nAgent: I will submit the BACS refund request for the full forty-nine pounds immediately and apply an urgent processing flag to the ticket.\nAgent: No. Your regular billing date for the Fibre 500 package is now anchored to the fifteenth of each month. Your next scheduled direct debit will be on the fifteenth of November for forty-nine pounds.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0566
+          },
+          "sec": 1.31
+        },
+        {
+          "label": "verify_rapport",
+          "words": 120,
+          "text": "Agent: There will definitely be no further charges between now and the fifteenth of November. I have verified that on your active billing schedule.\nAgent: Certainly. The billing operations ticket reference is RFD-88219-YK.\nAgent: I will also send an SMS confirmation containing that ticket reference directly to your registered mobile number ending in 204.\nAgent: Give me one moment while I input the ticket details and apply the credit memo to your ledger.\nAgent: Thank you for your patience, Adam. The BACS refund ticket has been logged and assigned to the duty finance manager for the morning queue.\nAgent: Yes, I will track this ticket myself on my personal dashboard and verify when the payment batch clears on Friday morning.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0503
+          },
+          "sec": 1.15
+        },
+        {
+          "label": "verify_rapport",
+          "words": 118,
+          "text": "Agent: As mentioned, if Barclays levies any overdraft or unpaid transaction charge, send us a screenshot of the fee and we will credit it straight to your account.\nAgent: Let me also guide you on how to check your direct debit mandate details in your Barclays app so you can be confident the old collection schedule is gone.\nAgent: If you log into your Barclays mobile app and tap on the Pay & Transfer tab, select Manage Direct Debits.\nAgent: Do you see S-Net Communications listed there?\nAgent: That confirms there is only one active mandate registered on your bank account now. The old mandate for the previous package has already been purged by the automated clearing house.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0584
+          },
+          "sec": 1.5
+        },
+        {
+          "label": "verify_rapport",
+          "words": 115,
+          "text": "Agent: Under the Direct Debit Guarantee, your bank is also legally bound to refund you immediately if an error is made on an active mandate.\nAgent: You could invoke the Direct Debit indemnity with Barclays, but since I have already submitted the official BACS refund request RFD-88219-YK on our end, an indemnity claim could cause a duplicate reconciliation hold.\nAgent: That is the safest route, and as promised, I am tracking the transaction personally.\nAgent: Yes, absolutely. In the My S-Net portal or app, go to Account Settings and select Notifications.\nAgent: Toggle on SMS Alert under Pre-bill Notification. Our billing system will then send you an automated text message five days before every payment.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0523
+          },
+          "sec": 1.33
+        },
+        {
+          "label": "verify_rapport",
+          "words": 113,
+          "text": "Agent: While I have your account open, let me do a quick line sync check on your Fibre 500 connection to make sure there are no packet drops on your profile.\nAgent: Bear with me for about forty seconds while the line tester measures signal attenuation and optical power.\nAgent: Thank you for holding, Adam. The optical power reading is minus nineteen decibels, which is well within the healthy margin. Your download sync rate is locked at five hundred and twenty megabits.\nAgent: Is your Fibre 500 broadband speed working well across all devices at home following the upgrade earlier this month?\nAgent: I am glad the broadband performance is meeting expectations, Adam.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0452
+          },
+          "sec": 1.17
+        },
+        {
+          "label": "verify_rapport",
+          "words": 79,
+          "text": "Agent: I have also added a ten-pound goodwill credit to your S-Net profile to cover any inconvenience this morning.\nAgent: It has already been applied, so your November bill will automatically reflect thirty-nine pounds instead of forty-nine.\nAgent: Is there anything else regarding your broadband, bills, or account settings that I can check for you today, Adam?\nAgent: Thank you for calling S-Net customer support. Thank you for choosing S-Net, Adam, and have a good rest of your week.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0448
+          },
+          "sec": 1.11
+        },
+        {
+          "label": "verify_probing",
+          "words": 100,
+          "text": "CUSTOMER PROBLEM: Hi Sarah. I just checked my bank account this morning and you've taken two payments of forty-nine pounds on the exact same day! That's nearly a hundred pounds and my rent is due tomorrow! It's 19 St Peter's Grove, York, YO30 6AQ. Please tell me you can reverse one of\n\nThe agent asked these questions during the call:\n- Can you give me your postcode and first line of address?\n- Do you see S-Net Communications listed there?\n- Is your Fibre 500 broadband speed working well across all devices at home following the upgrade earlier this month?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.5513
+          },
+          "sec": 1.42
+        },
+        {
+          "label": "batch_end",
+          "words": 150,
+          "text": "Customer: The connection itself is fast and reliable.\nAgent: I am glad the broadband performance is meeting expectations, Adam.\nCustomer: Yes, no complaints about the broadband at all.\nAgent: I have also added a ten-pound goodwill credit to your S-Net profile to cover any inconvenience this morning.\nCustomer: Oh, thank you, that is a kind gesture. It will help cover my lunch.\nAgent: It has already been applied, so your November bill will automatically reflect thirty-nine pounds instead of forty-nine.\nCustomer: Brilliant. That definitely softens the blow.\nAgent: Is there anything else regarding your broadband, bills, or account settings that I can check for you today, Adam?\nCustomer: No, as long as that forty-nine pounds lands in my account by Friday, that will resolve everything. Thank you Sarah.\nAgent: Thank you for calling S-Net customer support. Thank you for choosing S-Net, Adam, and have a good rest of your week.",
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.5501
+          },
+          "sec": 1.64
+        }
+      ],
+      "final_score": 61.7,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "FAIL",
+        "Paraphrasing": "FAIL",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "FAIL",
+        "Confirmed the issue is resolved": "PASS"
+      }
+    },
+    {
+      "call": "agt_011.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 134,
+          "text": "Customer: I was travelling from King's Cross station to my hotel in Bloomsbury and accidentally left my mobile in the back of a licensed black cab about forty minutes ago, so I need to report it lost and suspend the line right away.\nAgent: I can certainly help you secure that mobile subscription immediately, Beatrice. Before we suspend the SIM card, could you please verify your billing address and your account security PIN?\nCustomer: Yes of course, my registered billing address is 14 Claremont Terrace, York, YO31 7EH, and my four-digit security PIN is 9134.\nAgent: Thank you very much, Beatrice. That verifies your account. Could you confirm the telephone number on that missing handset?\nCustomer: Yes, the mobile number is 07700 900412. The device itself is a blue iPhone 14 Pro, 256 gigabytes.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.905
+          },
+          "sec": 1.42
+        },
+        {
+          "label": "verify_empathy",
+          "words": 161,
+          "text": "Customer: Oh God, my banking app and personal email are both logged in on that phone! What if someone breaks the four-digit screen passcode and empties my savings account?! I'm in absolute panic right now thinking about my savings!\nAgent: I completely understand how terrifying that thought is, Beatrice. Please take a deep breath. We are going to submit the IMEI blacklist command right now, which blocks the phone hardware across every UK mobile network so it cannot connect anywhere.\nCustomer: Thank you Liam, I am so sorry for getting emotional, it's just so stressful being hundreds of miles away from home in a hotel.\nAgent: It is completely understandable, Beatrice. Have you tried logging into your Apple iCloud account from your iPad to trigger Apple's Lost Mode?\nCustomer: I did log into Find My from my iPad, but the status shows device offline. It probably ran out of battery or the cab driver turned it off when cleaning the car.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.6858
+          },
+          "sec": 1.53
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 59,
+          "text": "CUSTOMER: Hello Liam. I'm calling you from my hotel room phone here in central London.\nAGENT: So what I understand is that your phone was lost in London earlier this afternoon, and we need to suspend the SIM card immediately, issue an eSIM replacement for your iPad, and blacklist the handset IMEI on the national database, is that right?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1093
+          },
+          "sec": 0.92
+        },
+        {
+          "label": "verify_al",
+          "words": 44,
+          "text": "Turn 7 Customer said: Yes, the mobile number is 07700 900412. The device itself is a blue iPhone 14 Pro, 256 gigabytes.\nTurn 32 Agent later asked: Just confirming the device model for the national blacklist database, that was an iPhone 14 Pro, correct?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0489
+          },
+          "sec": 0.86
+        },
+        {
+          "label": "verify_al",
+          "words": 53,
+          "text": "Turn 13 Customer said: Yes, fortunately I brought my work iPad Pro with me, and it has an eSIM slot and Wi-Fi access here in the room.\nTurn 40 Agent later asked: Now, would you like me to issue an immediate eSIM profile for your work iPad Pro so you have mobile connectivity?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0496
+          },
+          "sec": 0.74
+        },
+        {
+          "label": "verify_rapport",
+          "words": 117,
+          "text": "Agent: Thank you for calling S-Net mobile customer care. My name is Liam. How can I help you today?\nAgent: Good morning. What seems to have happened with your mobile handset today?\nAgent: I can certainly help you secure that mobile subscription immediately, Beatrice. Before we suspend the SIM card, could you please verify your billing address and your account security PIN?\nAgent: Thank you very much, Beatrice. That verifies your account. Could you confirm the telephone number on that missing handset?\nAgent: Thank you, Beatrice. I have your mobile subscription open on my network terminal right now. I will apply an immediate network bar on the SIM card to prevent unauthorized calls or mobile data usage.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.053
+          },
+          "sec": 1.31
+        },
+        {
+          "label": "verify_rapport",
+          "words": 103,
+          "text": "Agent: Yes, our core cellular switch terminates the live radio session within seconds across all cell sites. Whoever is holding that phone will not be able to dial out, receive incoming calls, or consume any data allowance on your account.\nAgent: Do you have another device or tablet with you in London that supports cellular connectivity or Wi-Fi calling?\nAgent: So what I understand is that your phone was lost in London earlier this afternoon, and we need to suspend the SIM card immediately, issue an eSIM replacement for your iPad, and blacklist the handset IMEI on the national database, is that right?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.4205
+          },
+          "sec": 1.02
+        },
+        {
+          "label": "verify_rapport",
+          "words": 108,
+          "text": "Agent: Bear with me for a couple of minutes while I apply the network barring order and retrieve the unique IMEI hardware registration for your iPhone.\nAgent: Thank you for holding, Beatrice. The SIM card is now completely barred across our core cellular switches. The subscription status is officially marked as lost and suspended.\nAgent: No, Beatrice. Because the radio connection is barred, all incoming SMS traffic is diverted and queued securely at our central message switching center until your replacement eSIM is activated.\nAgent: Without active cellular connectivity or the ability to receive SMS security codes, nobody can access or verify your account sessions on that hardware.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0719
+          },
+          "sec": 1.31
+        },
+        {
+          "label": "verify_rapport",
+          "words": 114,
+          "text": "Agent: I completely understand how terrifying that thought is, Beatrice. Please take a deep breath. We are going to submit the IMEI blacklist command right now, which blocks the phone hardware across every UK mobile network so it cannot connect anywhere.\nAgent: It is completely understandable, Beatrice. Have you tried logging into your Apple iCloud account from your iPad to trigger Apple's Lost Mode?\nAgent: Understood. If you mark it as lost in iCloud, the very instant that phone ever reconnects to power or Wi-Fi, Apple will remotely lock the device and wipe Apple Pay cards automatically.\nAgent: Now let us proceed directly with blacklisting the physical IMEI hardware on the national equipment register.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0573
+          },
+          "sec": 1.13
+        },
+        {
+          "label": "verify_rapport",
+          "words": 111,
+          "text": "Agent: Just confirming the device model for the national blacklist database, that was an iPhone 14 Pro, correct?\nAgent: The IMEI number recorded on our equipment register is 354891108294712. I have submitted the permanent blacklist instruction to the GSMA Central Equipment Identity Register across all UK mobile network carriers.\nAgent: Yes, absolutely. Once blacklisted on the GSMA register, any SIM from S-Net, EE, Vodafone, O2 or Three will be rejected at the base station layer.\nAgent: Certainly, Beatrice. Your official proof of barring and blacklisting reference identifier is BLK-99214-SN.\nAgent: Now, would you like me to issue an immediate eSIM profile for your work iPad Pro so you have mobile connectivity?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0641
+          },
+          "sec": 1.15
+        },
+        {
+          "label": "verify_rapport",
+          "words": 115,
+          "text": "Agent: I can generate a secure eSIM QR activation code and email it directly to your registered email address right now, Beatrice.\nAgent: The eSIM profile has been generated and dispatched to your email address. It should arrive in your inbox within twenty seconds.\nAgent: All you need to do is open your iPad Settings, tap Cellular Data, select Add eSIM, and scan the QR code displayed in that email.\nAgent: We have suspended the old SIM, blacklisted the handset hardware, and provided your replacement eSIM profile.\nAgent: Thank you for choosing S-Net mobile customer care, Beatrice.\nAgent: Have a safe and pleasant stay in London, Beatrice.\nAgent: Thank you for choosing S-Net, Beatrice. Goodbye.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0482
+          },
+          "sec": 1.33
+        },
+        {
+          "label": "verify_probing",
+          "words": 159,
+          "text": "CUSTOMER PROBLEM: Hello Liam. I'm calling you from my hotel room phone here in central London. I was travelling from King's Cross station to my hotel in Bloomsbury and accidentally left my mobile in the back of a licensed black cab about forty minutes ago, so I need to report it lost\n\nThe agent asked these questions during the call:\n- What seems to have happened with your mobile handset today?\n- Could you confirm the telephone number on that missing handset?\n- Do you have another device or tablet with you in London that supports cellular connectivity or Wi-Fi calling?\n- Have you tried logging into your Apple iCloud account from your iPad to trigger Apple's Lost Mode?\n- Just confirming the device model for the national blacklist database, that was an iPhone 14 Pro, correct?\n- Now, would you like me to issue an immediate eSIM profile for your work iPad Pro so you have mobile connectivity?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.8841
+          },
+          "sec": 2.26
+        },
+        {
+          "label": "batch_end",
+          "words": 130,
+          "text": "Customer: I see the notification popping up right now! That was remarkably fast and efficient.\nAgent: All you need to do is open your iPad Settings, tap Cellular Data, select Add eSIM, and scan the QR code displayed in that email.\nCustomer: That sounds very straightforward, I will do that as soon as we hang up.\nAgent: We have suspended the old SIM, blacklisted the handset hardware, and provided your replacement eSIM profile.\nCustomer: Yes, everything I urgently needed has been handled smoothly. I feel much calmer now.\nAgent: Thank you for choosing S-Net mobile customer care, Beatrice.\nCustomer: Thank you Liam, you have been so kind and helpful.\nAgent: Have a safe and pleasant stay in London, Beatrice.\nCustomer: Goodbye Liam.\nAgent: Thank you for choosing S-Net, Beatrice. Goodbye.",
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.4618
+          },
+          "sec": 1.36
+        }
+      ],
+      "final_score": 90.0,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "PASS",
+        "Paraphrasing": "FAIL",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "PASS"
+      }
+    },
+    {
+      "call": "agt_012.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 141,
+          "text": "Customer: My upload speed has completely cratered to half a megabit! I manage a software development team remotely, and all morning my Zoom calls keep freezing and disconnecting in front of executive directors! It's utterly humiliating and causing massive disruption!\nAgent: I understand how disruptive and stressful it is when your video conferences freeze during critical executive meetings, Benjamin. Let me pull up your line diagnostics and optical sync parameters.\nCustomer: Thank you Connor. We have the S-Net Hub 5 full-fibre router installed in the main hallway right next to the optical termination wall box.\nAgent: How is your desktop work computer physically connected to the Hub 5 router right now across your home office?\nCustomer: I am plugged directly into gigabit Ethernet port 1 with a brand new Cat 6 shielded cable. No Wi-Fi involved whatsoever on this primary workstation.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9485
+          },
+          "sec": 1.39
+        },
+        {
+          "label": "verify_empathy",
+          "words": 150,
+          "text": "Customer: Wait, I just ran another test while we are speaking and the upload dropped to 0.3 Mbps! I have our quarterly board presentation in forty-five minutes! If my connection drops during the CEO's review I could genuinely lose my job! You have to do something now!\nAgent: I understand how alarming and stressful that is with your board presentation forty-five minutes away, Benjamin. I know how critical that meeting is for your career.\nCustomer: Then what can you do to fix this street node immediately before my executive presentation starts in thirty minutes?\nAgent: Well if you actually paid attention to our fair usage and residential service terms, you would know home residential broadband isn't an enterprise leased line with dedicated engineer callouts.\nCustomer: There is no need to be rude, sarcastic, and condescending! I am paying premium rates for your top-tier full fibre package and expect professional support!",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.2612
+          },
+          "sec": 1.19
+        },
+        {
+          "label": "verify_al",
+          "words": 76,
+          "text": "Turn 8 Agent asked: How is your desktop work computer physically connected to the Hub 5 router right now across your home office?\nCustomer answered: I am plugged directly into gigabit Ethernet port 1 with a brand new Cat 6 shielded cable. No Wi-Fi involved whatsoever on this primary workstation.\nTurn 30 Agent later asked: Are you testing your computer over Wi-Fi or do you have an Ethernet cable plugged directly into the router right now?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9275
+          },
+          "sec": 1.07
+        },
+        {
+          "label": "verify_rapport",
+          "words": 114,
+          "text": "Agent: Thank you for calling S-Net broadband technical support. My name is Connor. How can I help you today?\nAgent: Good morning Benjamin. Before we examine your broadband connection and line statistics, could you confirm your full postal address and your account security PIN, please?\nAgent: Thank you, Benjamin, that successfully verifies your account. What seems to be happening with your broadband service today?\nAgent: I understand how disruptive and stressful it is when your video conferences freeze during critical executive meetings, Benjamin. Let me pull up your line diagnostics and optical sync parameters.\nAgent: How is your desktop work computer physically connected to the Hub 5 router right now across your home office?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0557
+          },
+          "sec": 1.14
+        },
+        {
+          "label": "verify_rapport",
+          "words": 112,
+          "text": "Agent: Let me test the physical optical link power levels and upstream sync rate from our network management diagnostic platform.\nAgent: Bear with me for a couple of minutes while I run the full spectrum time-domain reflectometry and upstream packet loss test on your fibre drop.\nAgent: Thank you for holding, Benjamin. The optical power reading on the downstream is minus eighteen dBm, which is completely within normal operating thresholds for full fibre.\nAgent: Before I run the upstream attenuation test, that is the Hub 5 router, correct?\nAgent: Our upstream sync profile is showing severe burst noise and signal attenuation on the return path frequency band across the local distribution loop.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0868
+          },
+          "sec": 1.06
+        },
+        {
+          "label": "verify_rapport",
+          "words": 115,
+          "text": "Agent: It means high packet retransmissions on your upstream queue, which throttles your upload throughput down to half a megabit while downstream browsing remains completely unaffected.\nAgent: That is an issue on the local street node multiplexer in your area. S-Net frontline support cannot dispatch or fix street node infrastructure; that is handled by Openreach civil engineering contractors.\nAgent: I understand how alarming and stressful that is with your board presentation forty-five minutes away, Benjamin. I know how critical that meeting is for your career.\nAgent: Well if you actually paid attention to our fair usage and residential service terms, you would know home residential broadband isn't an enterprise leased line with dedicated engineer callouts.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9525
+          },
+          "sec": 1.14
+        },
+        {
+          "label": "verify_probing",
+          "words": 117,
+          "text": "CUSTOMER PROBLEM: Hi Connor. My name is Benjamin Vance. I have an urgent and critical problem with my broadband connection at home that is severely affecting my remote software engineering work. My upload speed has completely cratered to half a megabit! I manage a software development team remotely, and all morning my\n\nThe agent asked these questions during the call:\n- How is your desktop work computer physically connected to the Hub 5 router right now across your home office?\n- Before I run the upstream attenuation test, that is the Hub 5 router, correct?\n- Are you testing your computer over Wi-Fi or do you have an Ethernet cable plugged directly into the router right now?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.8757
+          },
+          "sec": 1.42
+        },
+        {
+          "label": "batch_end",
+          "words": 139,
+          "text": "Customer: That seems very one-sided given how much I pay each month.\nAgent: Those are the standard regulatory guidelines established by the telecom ombudsman across all UK internet service providers.\nCustomer: Wait, my router just restarted its optical session! Did you trigger something?\nAgent: I sent an automated port bounce and profile reset to the street multiplexer line card before logging the fault.\nCustomer: Let me test it... it just hit 65 Mbps upload! The video conference preview is completely smooth and crystal clear now! That actually fixed it!\nAgent: The port reset cleared the buffer noise. That confirms your upload throughput is fully restored to standard speed.\nCustomer: That is such a relief for my meeting, thank you.\nAgent: Thank you for choosing S-Net broadband technical support, Benjamin.\nCustomer: Goodbye Connor.\nAgent: Thank you for choosing S-Net. Goodbye.",
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.3864
+          },
+          "sec": 1.44
+        }
+      ],
+      "final_score": 55.0,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "FAIL",
+        "Paraphrasing": "FAIL",
+        "Active listening": "FAIL",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "FAIL",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "FAIL"
+      }
+    },
+    {
+      "call": "agt_035.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 142,
+          "text": "Customer: Hello Danielle. I'm calling about an issue with my mobile account. Thirty days ago I sent in my old Samsung Galaxy S21 under your trade-in promotion for a promised one hundred and fifty pound bill credit, but my latest invoice arrived today with zero credit applied and the full monthly charge debited!\nAgent: I can completely understand how frustrating that is, Gabriel, especially when you returned your handset thirty days ago expecting that trade-in credit to appear. Let me investigate that warehouse intake and sort this out for you right away.\nCustomer: Thank you Danielle. I have the trade-in quote email and the Royal Mail tracking slip right here.\nAgent: That's very helpful. Before we access the logistics records, let's complete account verification. Could you verify your full name and billing address?\nCustomer: Gabriel Santos, 82 Victoria Road, Birmingham, B6 5HE.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.955
+          },
+          "sec": 1.12
+        },
+        {
+          "label": "verify_empathy",
+          "words": 114,
+          "text": "Customer: That's really sloppy system integration. If I hadn't checked my bank statement, I would have overpaid by a hundred and fifty quid!\nAgent: You are completely right to be annoyed about that, Gabriel. It is our responsibility to make sure trade-in credits apply automatically without customers having to chase us, and I apologize for the oversight.\nCustomer: I appreciate the apology Danielle. Can you apply the credit today?\nAgent: I will take direct ownership of this right now. I have manual supervisor authorization to override the failed sync and credit the full one hundred and fifty pounds directly to your ledger.\nCustomer: That's wonderful. Will that adjust the invoice that was just generated?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9397
+          },
+          "sec": 1.7
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 109,
+          "text": "CUSTOMER: Hello Danielle. I'm calling about an issue with my mobile account. Thirty days ago I sent in my old Samsung Galaxy S21 under your trade-in promotion for a promised one hundred and fifty pound bill credit, but my latest invoice arrived today with zero credit applied and the full monthly charge debited!\nAGENT: Thank you Gabriel, verification is complete. So what I understand is you traded in your Samsung Galaxy S21 thirty days ago for an agreed trade-in credit of one hundred and fifty pounds, but your latest invoice did not apply the promotional deduction, and you want that credit applied to your statement today, is that right?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9482
+          },
+          "sec": 1.13
+        },
+        {
+          "label": "verify_al",
+          "words": 67,
+          "text": "Turn 1 Customer said: Hello Danielle. I'm calling about an issue with my mobile account. Thirty days ago I sent in my old Samsung Galaxy S21 under your trade-in promotion for a promised one hundred and fifty pound bill credit, but my latest invoice ...\nTurn 10 Agent later asked: What was the condition of the Samsung S21 when you posted it in the pre-paid trade-in pack?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0581
+          },
+          "sec": 0.83
+        },
+        {
+          "label": "verify_al",
+          "words": 50,
+          "text": "Turn 47 Customer said: Yes, the credit memo email just arrived! It shows one hundred and fifty pounds credit and an adjusted balance of twenty-four pounds.\nTurn 48 Agent later asked: Can you confirm you see the updated balance of twenty-four pounds on your My S-Net mobile app as well?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0359
+          },
+          "sec": 0.6
+        },
+        {
+          "label": "verify_rapport",
+          "words": 91,
+          "text": "Agent: Thank you for calling S-Net customer service, my name is Danielle. How can I assist you today?\nAgent: I can completely understand how frustrating that is, Gabriel, especially when you returned your handset thirty days ago expecting that trade-in credit to appear. Let me investigate that warehouse intake and sort this out for you right away.\nAgent: That's very helpful. Before we access the logistics records, let's complete account verification. Could you verify your full name and billing address?\nAgent: And what is the security PIN on your account, Gabriel?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0521
+          },
+          "sec": 0.89
+        },
+        {
+          "label": "verify_rapport",
+          "words": 108,
+          "text": "Agent: Thank you Gabriel, verification is complete. So what I understand is you traded in your Samsung Galaxy S21 thirty days ago for an agreed trade-in credit of one hundred and fifty pounds, but your latest invoice did not apply the promotional deduction, and you want that credit applied to your statement today, is that right?\nAgent: What was the condition of the Samsung S21 when you posted it in the pre-paid trade-in pack?\nAgent: And what date did you drop the trade-in box off at the Post Office?\nAgent: Bear with me for a moment while I query the trade-in warehouse intake ledger in our logistics portal.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0609
+          },
+          "sec": 0.91
+        },
+        {
+          "label": "verify_rapport",
+          "words": 104,
+          "text": "Agent: Thank you for waiting, Gabriel. I have located the trade-in record under quote reference TRD-99410 at our recycling depot in Hinckley.\nAgent: The phone was inspected on September twenty-fourth and graded as 'Grade A Excellent Condition' with full one hundred and fifty pound valuation confirmed.\nAgent: Yes, it appears the automated billing bridge between the warehouse system and our billing platform encountered a batch sync timeout on the twenty-fifth.\nAgent: You are completely right to be annoyed about that, Gabriel. It is our responsibility to make sure trade-in credits apply automatically without customers having to chase us, and I apologize for the oversight.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0617
+          },
+          "sec": 0.92
+        },
+        {
+          "label": "verify_rapport",
+          "words": 103,
+          "text": "Agent: I will take direct ownership of this right now. I have manual supervisor authorization to override the failed sync and credit the full one hundred and fifty pounds directly to your ledger.\nAgent: Also, does your new handset have the S-Net Protect device insurance active?\nAgent: That's completely fine. Just keep in mind that our manufacturer warranty covers hardware faults for twenty-four months.\nAgent: And you can track all future device trade-ins or upgrades through the Rewards tab on the My S-Net app.\nAgent: And your trade-in pack receipt from Royal Mail can be discarded now that the credit is formally credited.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0536
+          },
+          "sec": 0.98
+        },
+        {
+          "label": "verify_rapport",
+          "words": 126,
+          "text": "Agent: Yes. Your current invoice of one hundred and seventy-four pounds will have the one hundred and fifty pound credit deducted immediately, reducing your outstanding balance to just twenty-four pounds.\nAgent: While we are on the line, how are you finding the 5G network coverage around Birmingham?\nAgent: We recently upgraded the carrier aggregation cells on the New Street exchange, so throughput has improved significantly.\nAgent: The direct debit collection instruction has been updated with BACS right now to collect only twenty-four pounds on November first.\nAgent: Obviously I cannot re-issue the PDF that was already published, but I can dispatch an official credit memo statement directly to your email.\nAgent: Just to confirm the trade-in reference for the memo audit trail, it was TRD-99410, correct?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0526
+          },
+          "sec": 1.29
+        },
+        {
+          "label": "verify_rapport",
+          "words": 92,
+          "text": "Agent: Generating the credit memo now... It has been sent to your email on file, gabriel dot santos at gmail dot com.\nAgent: Can you confirm you see the updated balance of twenty-four pounds on your My S-Net mobile app as well?\nAgent: Just to verify your mobile number on file, it's 07700 900742, correct?\nAgent: Is there anything else with your mobile plan, trade-in, or billing that I can help you with today, Gabriel?\nAgent: It was an absolute pleasure. Thank you for choosing S-Net, Gabriel, and have a wonderful day.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0501
+          },
+          "sec": 1.15
+        },
+        {
+          "label": "verify_probing",
+          "words": 142,
+          "text": "CUSTOMER PROBLEM: Hello Danielle. I'm calling about an issue with my mobile account. Thirty days ago I sent in my old Samsung Galaxy S21 under your trade-in promotion for a promised one hundred and fifty pound bill credit, but my latest invoice arrived today with zero credit applied and the full monthly\n\nThe agent asked these questions during the call:\n- What was the condition of the Samsung S21 when you posted it in the pre-paid trade-in pack?\n- And what date did you drop the trade-in box off at the Post Office?\n- Also, does your new handset have the S-Net Protect device insurance active?\n- Just to confirm the trade-in reference for the memo audit trail, it was TRD-99410, correct?\n- Can you confirm you see the updated balance of twenty-four pounds on your My S-Net mobile app as well?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9001
+          },
+          "sec": 1.35
+        },
+        {
+          "label": "batch_end",
+          "words": 150,
+          "text": "Customer: Let me check my phone to make sure it comes through.\nCustomer: Yes, the credit memo email just arrived! It shows one hundred and fifty pounds credit and an adjusted balance of twenty-four pounds.\nAgent: Can you confirm you see the updated balance of twenty-four pounds on your My S-Net mobile app as well?\nCustomer: Refreshing the app now... Yes, 'Current Amount Due: \u00a324.00 due on 1st November'.\nAgent: Just to verify your mobile number on file, it's 07700 900742, correct?\nCustomer: Yes, that's my mobile number.\nAgent: Is there anything else with your mobile plan, trade-in, or billing that I can help you with today, Gabriel?\nCustomer: No Danielle, you have sorted out the entire issue quickly and professionally. Thank you so much for your help.\nAgent: It was an absolute pleasure. Thank you for choosing S-Net, Gabriel, and have a wonderful day.\nCustomer: Thank you Danielle, goodbye.",
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.9489
+          },
+          "sec": 1.54
+        }
+      ],
+      "final_score": 100.0,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "PASS",
+        "Paraphrasing": "PASS",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "PASS"
+      }
+    },
+    {
+      "call": "agt_037.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 104,
+          "text": "Customer: Hi Craig. I am furious about my final bill. I moved house last month to a remote cottage where S-Net has no broadband network, and your agent told me I wouldn't be penalized. But today I opened my final bill and you have slapped me with an early termination fee of two hundred and twenty pounds!\nAgent: I can inspect the final account statement, George, but first let's complete security verification. What is your full name and previous account address?\nCustomer: George Henderson, formerly 14 Highfield Avenue, Newcastle, NE2 3TJ.\nAgent: And what is the security PIN on the account?\nCustomer: It's 6920.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0379
+          },
+          "sec": 0.91
+        },
+        {
+          "label": "verify_paraphrasing",
+          "words": 85,
+          "text": "CUSTOMER: Hi Craig. I am furious about my final bill. I moved house last month to a remote cottage where S-Net has no broadband network, and your agent told me I wouldn't be penalized. But today I opened my final bill and you have slapped me with an early termination fee of two hundred and twenty pounds!\nAGENT: Our automated billing engine generates early termination fees on any account that ceases before the minimum term, so that's handled by automated debt batching, not our department.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.2488
+          },
+          "sec": 0.91
+        },
+        {
+          "label": "verify_al",
+          "words": 29,
+          "text": "Turn 4 Agent asked: And what is the security PIN on the account?\nCustomer answered: It's 6920.\nTurn 16 Agent later asked: What was that new postcode in Northumberland?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0577
+          },
+          "sec": 0.54
+        },
+        {
+          "label": "verify_al",
+          "words": 42,
+          "text": "Turn 2 Agent asked: What is your full name and previous account address?\nCustomer answered: George Henderson, formerly 14 Highfield Avenue, Newcastle, NE2 3TJ.\nTurn 6 Agent later asked: What was the date of your home move and your new postal address?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0556
+          },
+          "sec": 0.77
+        },
+        {
+          "label": "verify_al",
+          "words": 38,
+          "text": "Turn 39 Customer said: How long will that BACS refund take to clear into my bank?\nTurn 49 Agent later asked: Can you confirm the direct debit instruction will remain open until the BACS refund processes on Friday?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0553
+          },
+          "sec": 0.65
+        },
+        {
+          "label": "verify_ownership",
+          "words": 28,
+          "text": "Agent: Our automated billing engine generates early termination fees on any account that ceases before the minimum term, so that's handled by automated debt batching, not our department.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9608
+          },
+          "sec": 0.53
+        },
+        {
+          "label": "verify_rapport",
+          "words": 126,
+          "text": "Agent: Thank you for calling S-Net customer billing, my name is Craig. How can I help you today?\nAgent: I can inspect the final account statement, George, but first let's complete security verification. What is your full name and previous account address?\nAgent: And what is the security PIN on the account?\nAgent: What was the date of your home move and your new postal address?\nAgent: Did you submit an official Home Move request through our website before moving?\nAgent: Our automated billing engine generates early termination fees on any account that ceases before the minimum term, so that's handled by automated debt batching, not our department.\nAgent: Well, if you choose to move to the middle of nowhere, you have to expect billing complications.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9564
+          },
+          "sec": 1.05
+        },
+        {
+          "label": "verify_probing",
+          "words": 159,
+          "text": "CUSTOMER PROBLEM: Hi Craig. I am furious about my final bill. I moved house last month to a remote cottage where S-Net has no broadband network, and your agent told me I wouldn't be penalized. But today I opened my final bill and you have slapped me with an early termination fee\n\nThe agent asked these questions during the call:\n- What is your full name and previous account address?\n- What was the date of your home move and your new postal address?\n- Did you submit an official Home Move request through our website before moving?\n- What was that new postcode in Northumberland?\n- And did you return the S-Net Hub router using the prepaid returns satchel from your previous property?\n- And you don't have any mobile SIMs or secondary TV pucks linked to that former billing profile?\n- Just to confirm for our audit ledger, your former billing address was 14 Highfield Avenue, correct?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.8866
+          },
+          "sec": 1.27
+        },
+        {
+          "label": "batch_end",
+          "words": 131,
+          "text": "Agent: Just to confirm for our audit ledger, your former billing address was 14 Highfield Avenue, correct?\nCustomer: Yes, 14 Highfield Avenue.\nAgent: Can you confirm the direct debit instruction will remain open until the BACS refund processes on Friday?\nCustomer: Yes, I won't cancel the bank mandate until the refund clears.\nAgent: Just to confirm your contact mobile number, it is 07700 900591, correct?\nCustomer: Yes, that's my mobile number.\nAgent: Is there anything else with your closed account or final billing that I can help with today, George?\nCustomer: No Craig, as long as that refund hits my account on Friday, that completely resolves it. Thank you.\nAgent: Thank you for choosing S-Net in the past, George, and all the best with your new home.\nCustomer: Thank you, goodbye.",
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.949
+          },
+          "sec": 1.09
+        }
+      ],
+      "final_score": 55.0,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "FAIL",
+        "Paraphrasing": "FAIL",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "FAIL",
+        "Build rapport and observed professionalism": "FAIL",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "PASS"
+      }
+    },
+    {
+      "call": "agt_041.json",
+      "laya": [
+        {
+          "label": "verify_paraphrasing",
+          "words": 83,
+          "text": "CUSTOMER: Hello Emma. I've just started a new job where I get paid on the twenty-sixth of the month, and I'd like to adjust my direct debit payment date from the twelfth to the twenty-eighth so my bills align cleanly with my payday.\nAGENT: Thank you Harper, verification is complete. So what I understand is you want to change your recurring direct debit collection date from the twelfth of each month to the twenty-eighth to match your new employer's payday, is that right?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9474
+          },
+          "sec": 0.7
+        },
+        {
+          "label": "verify_al",
+          "words": 47,
+          "text": "Turn 47 Customer said: Yes! The email from S-Net Billing just arrived: 'Notice of Direct Debit Schedule Change - New collection date 28th of the month'.\nTurn 48 Agent later asked: And you can see that the new collection date of twenty-eighth is confirmed on that notice?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0498
+          },
+          "sec": 0.58
+        },
+        {
+          "label": "verify_al",
+          "words": 66,
+          "text": "Turn 1 Customer said: Hello Emma. I've just started a new job where I get paid on the twenty-sixth of the month, and I'd like to adjust my direct debit payment date from the twelfth to the twenty-eighth so my bills align cleanly with ...\nTurn 22 Agent later asked: And would you like an SMS payment reminder dispatched three days before each direct debit collection?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.043
+          },
+          "sec": 0.57
+        },
+        {
+          "label": "verify_al",
+          "words": 67,
+          "text": "Turn 1 Customer said: Hello Emma. I've just started a new job where I get paid on the twenty-sixth of the month, and I'd like to adjust my direct debit payment date from the twelfth to the twenty-eighth so my bills align cleanly with ...\nTurn 10 Agent later asked: And would you like the new payment date to take effect starting with your upcoming November invoice?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0442
+          },
+          "sec": 0.8
+        },
+        {
+          "label": "verify_rapport",
+          "words": 118,
+          "text": "Agent: Thank you for calling S-Net customer billing, my name is Emma. How can I help you today?\nAgent: I would be more than happy to help you adjust your direct debit schedule, Harper. Congratulations on the new role! Let me start with security verification. What is your full name and billing address?\nAgent: And what is the security PIN on your account, Harper?\nAgent: Thank you Harper, verification is complete. So what I understand is you want to change your recurring direct debit collection date from the twelfth of each month to the twenty-eighth to match your new employer's payday, is that right?\nAgent: What bank or building society is your existing direct debit mandate registered with?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.4034
+          },
+          "sec": 1.09
+        },
+        {
+          "label": "verify_rapport",
+          "words": 121,
+          "text": "Agent: And would you like the new payment date to take effect starting with your upcoming November invoice?\nAgent: Bear with me for a moment while I access the BACS mandate scheduler in our billing portal.\nAgent: Thank you for waiting, Harper. I am in the automated payment schedule manager.\nAgent: That's a very sensible question. Because we are moving your billing cycle sixteen days later in the month, your November statement will show a small pro-rata adjustment for those extra sixteen days of broadband service.\nAgent: Your monthly plan is thirty pounds, so sixteen days works out to exactly sixteen pounds, meaning your November invoice will be forty-six pounds, and subsequent months will revert to thirty pounds on the twenty-eighth.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0657
+          },
+          "sec": 1.05
+        },
+        {
+          "label": "verify_rapport",
+          "words": 116,
+          "text": "Agent: I will take direct ownership of submitting the BACS mandate modification right now.\nAgent: While we are on your billing preferences, are you currently opted into paperless billing via PDF email?\nAgent: And would you like an SMS payment reminder dispatched three days before each direct debit collection?\nAgent: I have enabled our free SMS billing reminder service for your mobile number.\nAgent: And you can download VAT receipts directly from the billing archive on our mobile app anytime.\nAgent: And your contract renewal date remains unchanged in March twenty twenty-seven.\nAgent: And if the twenty-eighth ever falls on a bank holiday or weekend, BACS rules state the payment will process on the following Monday.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0558
+          },
+          "sec": 1.05
+        },
+        {
+          "label": "verify_rapport",
+          "words": 105,
+          "text": "Agent: And if you ever need to change your bank details in future, you can do that directly inside the My S-Net portal under Payment Methods.\nAgent: Yes, the self-service portal handles direct debit swaps securely in about sixty seconds.\nAgent: And our direct debit guarantee protects all payments against any unauthorized charges.\nAgent: Just confirming before I commit the change, the direct debit is drawn from your Barclays account ending in 4920, correct?\nAgent: Submitting BACS change request... The schedule modification has been accepted with BACS reference BAC-88219.\nAgent: Yes, your recurring collection date is now set to the twenty-eighth of every calendar month.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0527
+          },
+          "sec": 0.88
+        },
+        {
+          "label": "verify_rapport",
+          "words": 94,
+          "text": "Agent: Obviously BACS regulations require us to send a formal Direct Debit Advance Notice letter, which has just been dispatched to your email address.\nAgent: And you can see that the new collection date of twenty-eighth is confirmed on that notice?\nAgent: Just to confirm your contact telephone number on file, it's 07700 900628, correct?\nAgent: Is there anything else with your bills or broadband contract that I can assist you with today, Harper?\nAgent: It was my absolute pleasure. Thank you for choosing S-Net, Harper, and best of luck in the new job!",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0526
+          },
+          "sec": 0.97
+        },
+        {
+          "label": "verify_probing",
+          "words": 157,
+          "text": "CUSTOMER PROBLEM: Hello Emma. I've just started a new job where I get paid on the twenty-sixth of the month, and I'd like to adjust my direct debit payment date from the twelfth to the twenty-eighth so my bills align cleanly with my payday. Yes, exactly. I want to make sure I\n\nThe agent asked these questions during the call:\n- What is your full name and billing address?\n- What bank or building society is your existing direct debit mandate registered with?\n- And would you like the new payment date to take effect starting with your upcoming November invoice?\n- While we are on your billing preferences, are you currently opted into paperless billing via PDF email?\n- And would you like an SMS payment reminder dispatched three days before each direct debit collection?\n- Just confirming before I commit the change, the direct debit is drawn from your Barclays account ending in 4920, correct?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.5844
+          },
+          "sec": 1.21
+        },
+        {
+          "label": "batch_end",
+          "words": 146,
+          "text": "Customer: Let me check my email on my phone right now.\nCustomer: Yes! The email from S-Net Billing just arrived: 'Notice of Direct Debit Schedule Change - New collection date 28th of the month'.\nAgent: And you can see that the new collection date of twenty-eighth is confirmed on that notice?\nCustomer: Yes, it shows the Barclays mandate and the 28th collection date clearly.\nAgent: Just to confirm your contact telephone number on file, it's 07700 900628, correct?\nCustomer: Yes, that's my mobile number.\nAgent: Is there anything else with your bills or broadband contract that I can assist you with today, Harper?\nCustomer: No Emma, you made that so smooth and explained the pro-rata charge clearly. Thank you so much!\nAgent: It was my absolute pleasure. Thank you for choosing S-Net, Harper, and best of luck in the new job!\nCustomer: Thank you Emma, goodbye.",
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.9506
+          },
+          "sec": 1.3
+        }
+      ],
+      "final_score": 83.3,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "PASS",
+        "Paraphrasing": "PASS",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "FAIL",
+        "Confirmed the issue is resolved": "PASS"
+      }
+    },
+    {
+      "call": "agt_070.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 193,
+          "text": "Customer: Hello Gemma, my name is Nora Thorne. I moved into my new rented flat on Monday, but when I attempted to order full fibre broadband on your website, the system blocked the order with an error saying 'Active Asset In Place - Existing Customer Must Cease Line First', even though the previous tenant moved out two weeks ago and left ...\nAgent: Good afternoon Nora. If I understand correctly, you are attempting to order broadband at your new flat, but our order portal is blocking your request because an active asset from the previous tenant is still registered to the property line. Before we inspect the Openreach address database, could you confirm your full postal address and your account security PIN?\nCustomer: Yes, it is Flat 4B, St Mary's Court, Oxford, OX1 1QD, tenancy start date October 1st, customer reference BB-772910, security PIN 9931.\nAgent: Thank you Nora, that confirms your account details. Do you have a copy of your signed tenancy agreement or utility bill available in digital format?\nCustomer: Yes, I have our formal signed tenancy agreement from the Oxford letting agency as a PDF right here on my phone.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9496
+          },
+          "sec": 1.33
+        },
+        {
+          "label": "verify_empathy",
+          "words": 168,
+          "text": "Customer: Nora speaking, I moved into my new flat three days ago and your sales website blocked my broadband order stating an active service is already present! I work as a freelance graphic designer on strict deadlines, and I have had to work out of a noisy coffee shop with no secure internet! I am paying rent on an empty flat ...\nAgent: I completely understand the intense stress and financial anxiety this is causing you, Nora, especially when you are trying to settle into your new flat and meet crucial design deadlines for your clients. Being blocked by a previous tenant's dormant line is extremely frustrating, and I will initiate the forced asset cessation and expedite your new connection immediately.\nCustomer: Thank you Gemma, I cannot tell you how much of a relief it is to hear that.\nAgent: Now that the occupancy override has been committed, I can build your new Full Fibre 500 broadband order directly.\nCustomer: What engineer installation dates are available for Oxford?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9544
+          },
+          "sec": 1.07
+        },
+        {
+          "label": "verify_al",
+          "words": 52,
+          "text": "Turn 3 Customer said: Yes, it is Flat 4B, St Mary's Court, Oxford, OX1 1QD, tenancy start date October 1st, customer reference BB-772910, security PIN 9931.\nTurn 42 Agent later asked: Just ensuring my tenancy documentation order has your exact flat address: that was Flat 4B, St Mary's Court, Oxford, wasn't it?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0534
+          },
+          "sec": 0.97
+        },
+        {
+          "label": "verify_al",
+          "words": 67,
+          "text": "Turn 1 Customer said: Hello Gemma, my name is Nora Thorne. I moved into my new rented flat on Monday, but when I attempted to order full fibre broadband on your website, the system blocked the order with an error saying 'Active Asset In ...\nTurn 48 Agent later asked: Is there any other aspect of your new broadband order I can assist you with today, Nora?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0393
+          },
+          "sec": 1.0
+        },
+        {
+          "label": "verify_al",
+          "words": 71,
+          "text": "Turn 1 Customer said: Hello Gemma, my name is Nora Thorne. I moved into my new rented flat on Monday, but when I attempted to order full fibre broadband on your website, the system blocked the order with an error saying 'Active Asset In ...\nTurn 6 Agent later asked: Could I place you on hold for two minutes while I query the Openreach address matching portal and previous tenancy records?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0414
+          },
+          "sec": 0.98
+        },
+        {
+          "label": "verify_rapport",
+          "words": 106,
+          "text": "Agent: Thank you for calling S-Net customer provisions and moves, my name is Gemma. How can I help you today?\nAgent: Good afternoon Nora. If I understand correctly, you are attempting to order broadband at your new flat, but our order portal is blocking your request because an active asset from the previous tenant is still registered to the property line. Before we inspect the Openreach address database, could you confirm your full postal address and your account security PIN?\nAgent: Thank you Nora, that confirms your account details. Do you have a copy of your signed tenancy agreement or utility bill available in digital format?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.064
+          },
+          "sec": 1.09
+        },
+        {
+          "label": "verify_rapport",
+          "words": 122,
+          "text": "Agent: Could I place you on hold for two minutes while I query the Openreach address matching portal and previous tenancy records?\nAgent: Thank you for holding, Nora. The national asset database confirms that an active copper line belonging to the former occupier remains attached to Flat 4B under a legacy provider.\nAgent: Yes, we can initiate a Forced Asset Cessation workflow under the national telecommunications regulator's Right to Provide regulations.\nAgent: I will upload your verified tenancy agreement to the Openreach central clearinghouse to prove change of legal occupancy.\nAgent: I have sent a secure document upload link via SMS to your registered mobile phone.\nAgent: I have received and validated page one and the signature page of your tenancy agreement.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0464
+          },
+          "sec": 1.22
+        },
+        {
+          "label": "verify_rapport",
+          "words": 108,
+          "text": "Agent: The Openreach asset validation portal has approved the occupancy override command.\nAgent: Obviously Openreach copper pairs and optical fibers cannot be double-provisioned to two separate account holders simultaneously.\nAgent: I completely understand the intense stress and financial anxiety this is causing you, Nora, especially when you are trying to settle into your new flat and meet crucial design deadlines for your clients. Being blocked by a previous tenant's dormant line is extremely frustrating, and I will initiate the forced asset cessation and expedite your new connection immediately.\nAgent: Now that the occupancy override has been committed, I can build your new Full Fibre 500 broadband order directly.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0509
+          },
+          "sec": 1.11
+        },
+        {
+          "label": "verify_rapport",
+          "words": 116,
+          "text": "Agent: Standard installation slots are five days out, but because of the delayed asset block, I am applying priority expediting to book an appointment for this Friday morning.\nAgent: Yes, the Openreach optical installer will arrive between eight in the morning and one in the afternoon on Friday.\nAgent: Yes, the engineer will run the external fiber drop cable, mount the internal ONT box, and test full gigabit optical light levels.\nAgent: I have dispatched the S-Net Hub via DPD next-day courier, tracking number DPD-881920-X.\nAgent: I have also waived the sixty-pound expedited installation charge and the thirty-pound activation fee.\nAgent: Your monthly tariff will be thirty-four pounds per month on our special new-home promotional tier.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0486
+          },
+          "sec": 1.05
+        },
+        {
+          "label": "verify_rapport",
+          "words": 117,
+          "text": "Agent: I am emailing you the full pre-contract information packet and order confirmation right now.\nAgent: Everything is completely locked in with Openreach national provisioning.\nAgent: Just ensuring my tenancy documentation order has your exact flat address: that was Flat 4B, St Mary's Court, Oxford, wasn't it?\nAgent: Thank you Nora, all address assets and engineering dispatches are fully synchronized.\nAgent: It has been an absolute delight assisting you, Nora. Congratulations on your new flat in Oxford.\nAgent: Is there any other aspect of your new broadband order I can assist you with today, Nora?\nAgent: Thank you for calling S-Net customer provisions and moves, Nora. Welcome to S-Net. Goodbye.\nAgent: Thank you for choosing S-Net. Goodbye.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.3794
+          },
+          "sec": 1.2
+        },
+        {
+          "label": "verify_rapport",
+          "words": 4,
+          "text": "Agent: Goodbye.\nAgent: Goodbye.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.072
+          },
+          "sec": 0.45
+        },
+        {
+          "label": "verify_probing",
+          "words": 140,
+          "text": "CUSTOMER PROBLEM: Hello Gemma, my name is Nora Thorne. I moved into my new rented flat on Monday, but when I attempted to order full fibre broadband on your website, the system blocked the order with an error saying 'Active Asset In Place - Existing Customer Must Cease Line First', even though\n\nThe agent asked these questions during the call:\n- Do you have a copy of your signed tenancy agreement or utility bill available in digital format?\n- Could I place you on hold for two minutes while I query the Openreach address matching portal and previous tenancy records?\n- Just ensuring my tenancy documentation order has your exact flat address: that was Flat 4B, St Mary's Court, Oxford, wasn't it?\n- Is there any other aspect of your new broadband order I can assist you with today, Nora?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.7334
+          },
+          "sec": 1.19
+        },
+        {
+          "label": "batch_end",
+          "words": 60,
+          "text": "Agent: Is there any other aspect of your new broadband order I can assist you with today, Nora?\nCustomer: No Gemma, everything is handled perfectly.\nAgent: Thank you for calling S-Net customer provisions and moves, Nora. Welcome to S-Net. Goodbye.\nCustomer: Goodbye Gemma.\nAgent: Thank you for choosing S-Net. Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.",
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.1758
+          },
+          "sec": 0.84
+        }
+      ],
+      "final_score": 80.0,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "PASS",
+        "Paraphrasing": "FAIL",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "FAIL"
+      }
+    },
+    {
+      "call": "agt_071.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 165,
+          "text": "Customer: Hello Arthur, my name is Oliver Wright. I received my monthly landline bill this morning and there is a sixty-five-pound charge for three calls to a premium rate directory enquiry number 118 434, but nobody in our household made these calls: we only ever use Google or telephone contacts!\nAgent: Good afternoon Oliver. If I understand correctly, your landline bill shows an unexpected sixty-five-pound charge for directory enquiry calls to 118 434 that no one in your household made. Before we inspect the itemized call log, could you confirm your full postal address and your account security PIN?\nCustomer: Yes, it is 54 Church Road, Cheltenham, GL51 7SN, security PIN 2291, landline number 01242 559102.\nAgent: Thank you Oliver, that confirms your account details. What specific dates and call times are listed for those three 118 calls?\nCustomer: They are listed on September 12th at 2:15 PM, September 14th at 4:30 PM, and September 18th at 11:00 AM, each billed at over twenty pounds!",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9485
+          },
+          "sec": 1.34
+        },
+        {
+          "label": "verify_al",
+          "words": 66,
+          "text": "Turn 1 Customer said: Hello Arthur, my name is Oliver Wright. I received my monthly landline bill this morning and there is a sixty-five-pound charge for three calls to a premium rate directory enquiry number 118 434, but nobody in our household made these ...\nTurn 48 Agent later asked: Is there any other aspect of your landline account I can assist you with today, Oliver?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0389
+          },
+          "sec": 0.71
+        },
+        {
+          "label": "verify_al",
+          "words": 63,
+          "text": "Turn 1 Customer said: Hello Arthur, my name is Oliver Wright. I received my monthly landline bill this morning and there is a sixty-five-pound charge for three calls to a premium rate directory enquiry number 118 434, but nobody in our household made these ...\nTurn 4 Agent later asked: What specific dates and call times are listed for those three 118 calls?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0478
+          },
+          "sec": 0.72
+        },
+        {
+          "label": "verify_rapport",
+          "words": 121,
+          "text": "Agent: Customer billing services, my name is Arthur.\nAgent: Good afternoon Oliver. If I understand correctly, your landline bill shows an unexpected sixty-five-pound charge for directory enquiry calls to 118 434 that no one in your household made. Before we inspect the itemized call log, could you confirm your full postal address and your account security PIN?\nAgent: Thank you Oliver, that confirms your account details. What specific dates and call times are listed for those three 118 calls?\nAgent: Could I place you on hold for two minutes while I query the British Telecom wholesale interconnect billing gateway?\nAgent: Thank you for holding, Oliver. The wholesale interconnect records show physical dialing origin from the local subscriber loop on 01242 559102.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0584
+          },
+          "sec": 1.05
+        },
+        {
+          "label": "verify_rapport",
+          "words": 95,
+          "text": "Agent: Wholesale telephony billing relies on automated Calling Line Identification signaling generated by the local master socket.\nAgent: If people in your household dial premium directory enquiry numbers to find local tradesmen, you have to pay for the connection service.\nAgent: I am stating the operational reality of certified public switched telephone network billing records.\nAgent: Dispute forms can be registered on our corporate billing system.\nAgent: I was retrieving the national premium rate regulatory dispute tariff sheet.\nAgent: Obviously premium rate directory numbers operate on third-party tariff bands set by the phone-paid services regulator.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9552
+          },
+          "sec": 1.19
+        },
+        {
+          "label": "verify_probing",
+          "words": 127,
+          "text": "CUSTOMER PROBLEM: Hello Arthur, my name is Oliver Wright. I received my monthly landline bill this morning and there is a sixty-five-pound charge for three calls to a premium rate directory enquiry number 118 434, but nobody in our household made these calls: we only ever use Google or telephone contacts! They\n\nThe agent asked these questions during the call:\n- What specific dates and call times are listed for those three 118 calls?\n- Could I place you on hold for two minutes while I query the British Telecom wholesale interconnect billing gateway?\n- Just making sure our premises records match perfectly: that was 14 Montpellier Terrace, wasn't it?\n- Is there any other aspect of your landline account I can assist you with today, Oliver?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9261
+          },
+          "sec": 1.6
+        },
+        {
+          "label": "batch_end",
+          "words": 39,
+          "text": "Agent: Is there any other aspect of your landline account I can assist you with today, Oliver?\nCustomer: No Arthur, that is all.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.",
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.0426
+          },
+          "sec": 0.77
+        }
+      ],
+      "final_score": 63.3,
+      "ratings": {
+        "Branding and Survey Check": "FAIL",
+        "Hold time and Dead Air": "FAIL",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "PASS",
+        "Paraphrasing": "FAIL",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "FAIL",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "FAIL"
+      }
+    },
+    {
+      "call": "agt_074.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 158,
+          "text": "Customer: Hello Rachel, my name is Patrick O'Connor. A delivery van backed into our front driveway brick pillar this morning and sheared the plastic external Customer Splice Point box off our exterior wall, leaving the optical fiber cable dangling in mid-air with the glass core severed!\nAgent: Good afternoon Patrick. If I understand correctly, an external vehicle impact has ripped the Customer Splice Point box off your exterior wall and severed the incoming optical fiber cable, knocking your full fibre broadband offline. Before we inspect your infrastructure line record, could you confirm your full postal address and your account security PIN?\nCustomer: Yes, it is 12 Mill Lane, Harrogate, HG1 5AA, security PIN 3314, customer reference BB-884192.\nAgent: Thank you Patrick, that confirms your account details. Are there any live exposed electrical cables or hazards near the broken fiber wall box?\nCustomer: No electrical lines, only the yellow plastic optical fiber cable hanging loose by the driveway pillar.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.949
+          },
+          "sec": 1.11
+        },
+        {
+          "label": "verify_empathy",
+          "words": 79,
+          "text": "Customer: That is fantastic news; I was worried S-Net would charge us for a third-party van driver's mistake.\nAgent: We can also log the third-party delivery vehicle registration number if our legal recovery team needs to reclaim costs from their commercial motor insurer.\nCustomer: I photographed the van license plate and delivery company logo.\nAgent: I have uploaded the delivery vehicle details to our corporate insurance recovery queue.\nCustomer: When is the earliest Openreach fiber engineer available to attend?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.3076
+          },
+          "sec": 0.85
+        },
+        {
+          "label": "verify_al",
+          "words": 40,
+          "text": "Turn 3 Customer said: Yes, it is 12 Mill Lane, Harrogate, HG1 5AA, security PIN 3314, customer reference BB-884192.\nTurn 42 Agent later asked: Just making sure the engineer attends the exact premises: that was 12 Mill Lane, wasn't it?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0408
+          },
+          "sec": 0.55
+        },
+        {
+          "label": "verify_al",
+          "words": 65,
+          "text": "Turn 1 Customer said: Hello Rachel, my name is Patrick O'Connor. A delivery van backed into our front driveway brick pillar this morning and sheared the plastic external Customer Splice Point box off our exterior wall, leaving the optical fiber cable dangling in mid-air ...\nTurn 4 Agent later asked: Are there any live exposed electrical cables or hazards near the broken fiber wall box?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0493
+          },
+          "sec": 0.72
+        },
+        {
+          "label": "verify_rapport",
+          "words": 121,
+          "text": "Agent: Thank you for calling S-Net full fibre infrastructure support, my name is Rachel. How can I help you today?\nAgent: Good afternoon Patrick. If I understand correctly, an external vehicle impact has ripped the Customer Splice Point box off your exterior wall and severed the incoming optical fiber cable, knocking your full fibre broadband offline. Before we inspect your infrastructure line record, could you confirm your full postal address and your account security PIN?\nAgent: Thank you Patrick, that confirms your account details. Are there any live exposed electrical cables or hazards near the broken fiber wall box?\nAgent: Could I place you on hold for two minutes while I query the Openreach emergency civil engineering gateway for North Yorkshire?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.058
+          },
+          "sec": 1.29
+        },
+        {
+          "label": "verify_rapport",
+          "words": 108,
+          "text": "Agent: Thank you for holding, Patrick. The optical line telemetry confirms a complete optical loss of signal with light levels dropping to minus infinity decibels.\nAgent: Yes, physical severance of external customer premises optical wiring is categorized as an emergency external infrastructure repair.\nAgent: No, because the damage occurred on the external property boundary prior to the internal demarcation point, external infrastructure repairs are carried out free of charge.\nAgent: We can also log the third-party delivery vehicle registration number if our legal recovery team needs to reclaim costs from their commercial motor insurer.\nAgent: I have uploaded the delivery vehicle details to our corporate insurance recovery queue.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0634
+          },
+          "sec": 1.05
+        },
+        {
+          "label": "verify_rapport",
+          "words": 123,
+          "text": "Agent: Because this involves severed external cabling across a residential driveway, I am scheduling an emergency priority dispatch for this afternoon between one and five o'clock.\nAgent: Obviously optical fiber strands require fusion splicing in a clean enclosure to achieve low decibel insertion loss.\nAgent: I completely understand the sheer panic and intense pressure this has put on your architectural practice, Patrick, especially with a critical planning commission deadline at six o'clock tonight. Facing the loss of a major client over an accidental cable cut is terrifying, and I will ensure the emergency technician is dispatched and provide immediate mobile backup data right now.\nAgent: I have added an unlimited emergency mobile data tethering bolt-on to your S-Net mobile plan with immediate activation.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0463
+          },
+          "sec": 1.28
+        },
+        {
+          "label": "verify_rapport",
+          "words": 122,
+          "text": "Agent: You can turn on Personal Hotspot on your mobile phone right now to upload your CAD blueprint files while the fiber is repaired.\nAgent: That guarantees your planning commission submission will be delivered well before the six o'clock deadline.\nAgent: The Openreach optical engineering crew has been dispatched under priority job reference OPT-EMERG-44910.\nAgent: The technician will arrive with a new weather-sealed Customer Splice Point enclosure and a precision core alignment fusion splicer.\nAgent: They will mount the new box outside, perform the fusion splice, and only enter briefly to verify optical light levels on your internal ONT.\nAgent: I have sent an SMS tracking link that displays the engineer's live van transit coordinates.\nAgent: Everything is proceeding with maximum urgency.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.045
+          },
+          "sec": 1.38
+        },
+        {
+          "label": "verify_rapport",
+          "words": 102,
+          "text": "Agent: Thank you Patrick, our priority is always protecting our customers' connectivity during unexpected incidents.\nAgent: Just making sure the engineer attends the exact premises: that was 12 Mill Lane, wasn't it?\nAgent: Thank you Patrick, all technician coordinates and mobile backup records are fully synchronized.\nAgent: It has been an absolute pleasure helping you, Patrick. Best of luck with your planning submission.\nAgent: Is there any other aspect of your full fibre service I can assist you with today, Patrick?\nAgent: Thank you for calling S-Net full fibre infrastructure support, Patrick. Goodbye.\nAgent: Thank you for choosing S-Net. Goodbye.\nAgent: Goodbye.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1908
+          },
+          "sec": 1.38
+        },
+        {
+          "label": "verify_rapport",
+          "words": 2,
+          "text": "Agent: Goodbye.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.1063
+          },
+          "sec": 0.52
+        },
+        {
+          "label": "verify_probing",
+          "words": 133,
+          "text": "CUSTOMER PROBLEM: Hello Rachel, my name is Patrick O'Connor. A delivery van backed into our front driveway brick pillar this morning and sheared the plastic external Customer Splice Point box off our exterior wall, leaving the optical fiber cable dangling in mid-air with the glass core severed! No electrical lines, only the\n\nThe agent asked these questions during the call:\n- Are there any live exposed electrical cables or hazards near the broken fiber wall box?\n- Could I place you on hold for two minutes while I query the Openreach emergency civil engineering gateway for North Yorkshire?\n- Just making sure the engineer attends the exact premises: that was 12 Mill Lane, wasn't it?\n- Is there any other aspect of your full fibre service I can assist you with today, Patrick?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9415
+          },
+          "sec": 1.34
+        },
+        {
+          "label": "batch_end",
+          "words": 59,
+          "text": "Agent: Is there any other aspect of your full fibre service I can assist you with today, Patrick?\nCustomer: No Rachel, everything is completely taken care of.\nAgent: Thank you for calling S-Net full fibre infrastructure support, Patrick. Goodbye.\nCustomer: Goodbye Rachel.\nAgent: Thank you for choosing S-Net. Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.",
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.1851
+          },
+          "sec": 0.79
+        }
+      ],
+      "final_score": 68.3,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "FAIL",
+        "Paraphrasing": "FAIL",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "FAIL"
+      }
+    },
+    {
+      "call": "agt_077.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 174,
+          "text": "Customer: Hello Craig, my name is Rachel Morgan. Our Ring smart video doorbell disconnected from our S-Net Hub 5 router two nights ago and will not reconnect: the doorbell app says 'Cannot Find Wi-Fi Network', even though all our smartphones and laptops connect to the router without any trouble!\nAgent: Good afternoon Rachel. If I understand correctly, your smart video doorbell has dropped off your S-Net Hub 5 wireless network and fails to discover the Wi-Fi SSID, despite your other household devices connecting normally. Before we inspect your router's wireless telemetry, could you confirm your full postal address and your account security PIN?\nCustomer: Yes, it is 14 Richmond Crescent, Cardiff, CF24 3RN, security PIN 7701, router model S-Net Hub 5.\nAgent: Thank you Rachel, that confirms your account details. Have you tried taking the doorbell off the front door bracket and holding it right next to the router?\nCustomer: I brought the doorbell into the living room three feet from the hub, entered setup mode, and it still fails to see our network!",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9473
+          },
+          "sec": 1.43
+        },
+        {
+          "label": "verify_al",
+          "words": 57,
+          "text": "Turn 2 Agent asked: Before we inspect your router's wireless telemetry, could you confirm your full postal address and your account security PIN?\nCustomer answered: Yes, it is 14 Richmond Crescent, Cardiff, CF24 3RN, security PIN 7701, router model S-Net Hub 5.\nTurn 42 Agent later asked: Before we conclude, what model smart doorbell was that again?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9496
+          },
+          "sec": 0.6
+        },
+        {
+          "label": "verify_rapport",
+          "words": 123,
+          "text": "Agent: Thank you for calling S-Net wireless technical support, my name is Craig. How can I help you today?\nAgent: Good afternoon Rachel. If I understand correctly, your smart video doorbell has dropped off your S-Net Hub 5 wireless network and fails to discover the Wi-Fi SSID, despite your other household devices connecting normally. Before we inspect your router's wireless telemetry, could you confirm your full postal address and your account security PIN?\nAgent: Thank you Rachel, that confirms your account details. Have you tried taking the doorbell off the front door bracket and holding it right next to the router?\nAgent: Could I place you on hold for two minutes while I query your router's 2.4 GHz channel assignment and beacon logs?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0816
+          },
+          "sec": 1.05
+        },
+        {
+          "label": "verify_rapport",
+          "words": 118,
+          "text": "Agent: Thank you for holding, Rachel. The router diagnostics indicate that our automated dynamic channel optimization feature shifted your 2.4 GHz radio from channel 6 to channel 13 during Wednesday's overnight interference scan.\nAgent: Many smart home IoT devices manufactured for global markets only support North American standard Wi-Fi channels 1 through 11, lacking hardware firmware support for European channels 12 and 13.\nAgent: If you choose to purchase cheap imported smart home gadgets online that don't adhere to European telecommunications standards, you create compatibility headaches for yourself.\nAgent: I am stating the regulatory frequency differences between regional IEEE 802.11 specifications.\nAgent: I can disable dynamic channel hopping and fix your 2.4 GHz broadcast permanently on channel 1.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.948
+          },
+          "sec": 1.06
+        },
+        {
+          "label": "verify_probing",
+          "words": 127,
+          "text": "CUSTOMER PROBLEM: Hello Craig, my name is Rachel Morgan. Our Ring smart video doorbell disconnected from our S-Net Hub 5 router two nights ago and will not reconnect: the doorbell app says 'Cannot Find Wi-Fi Network', even though all our smartphones and laptops connect to the router without any trouble! I brought\n\nThe agent asked these questions during the call:\n- Have you tried taking the doorbell off the front door bracket and holding it right next to the router?\n- Could I place you on hold for two minutes while I query your router's 2.4 GHz channel assignment and beacon logs?\n- Before we conclude, what model smart doorbell was that again?\n- Is there any other wireless query I can assist you with today, Rachel?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9481
+          },
+          "sec": 1.21
+        },
+        {
+          "label": "batch_end",
+          "words": 41,
+          "text": "Agent: Thank you for calling S-Net wireless technical support, Rachel. Have a safe and peaceful evening. Goodbye.\nCustomer: Goodbye Craig.\nAgent: Thank you for choosing S-Net. Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.",
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.0488
+          },
+          "sec": 0.85
+        }
+      ],
+      "final_score": 66.7,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "PASS",
+        "Paraphrasing": "FAIL",
+        "Active listening": "FAIL",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "FAIL",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "FAIL"
+      }
+    },
+    {
+      "call": "agt_082.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 123,
+          "text": "Customer: Hello, my name is Samira Khan. Every single time I leave our house while on an active mobile phone call, the voice call cuts off abruptly the exact second my handset disconnects from our home Wi-Fi and attempts to hand over to 4G VoLTE, dropping critical client calls every morning!\nAgent: I can inspect your cellular network registration logs. What mobile phone number is experiencing call handover drops?\nCustomer: It is 07700 900891, registered to 42 Lansdown Road, Cheltenham, GL51 6QJ, security PIN 7712.\nAgent: Does the phone drop calls when you are sitting completely still inside your living room?\nCustomer: No, as I just explained, it happens specifically when walking out the front door as Wi-Fi disconnects and switches to cellular!",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9109
+          },
+          "sec": 1.11
+        },
+        {
+          "label": "verify_al",
+          "words": 45,
+          "text": "Turn 2 Agent asked: What mobile phone number is experiencing call handover drops?\nCustomer answered: It is 07700 900891, registered to 42 Lansdown Road, Cheltenham, GL51 6QJ, security PIN 7712.\nTurn 42 Agent later asked: Before we conclude, what was that mobile telephone number again?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9543
+          },
+          "sec": 0.77
+        },
+        {
+          "label": "verify_rapport",
+          "words": 111,
+          "text": "Agent: Thank you for calling S-Net mobile technical faults, my name is Marcus. How can I help you today?\nAgent: I can inspect your cellular network registration logs. What mobile phone number is experiencing call handover drops?\nAgent: Does the phone drop calls when you are sitting completely still inside your living room?\nAgent: Could I place you on hold for two minutes while I query the mobile IMS core routing logs?\nAgent: Thank you for holding. The network logs show an IMS Session Initiation Protocol timeout during ePDG to eNodeB voice bearer handover.\nAgent: Handover latency exceeds standard threshold timers when local cell towers operate with low radio signal-to-noise ratios.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0693
+          },
+          "sec": 1.18
+        },
+        {
+          "label": "verify_rapport",
+          "words": 79,
+          "text": "Agent: If you insist on making phone calls while walking through metal-reinforced front porches that shield radio signals, your call is obviously going to drop.\nAgent: I am stating the physics of cellular radio propagation through structural building materials.\nAgent: VoLTE provisioning updates can be submitted through our radio management gateway.\nAgent: I was accessing the regional Cheltenham eNodeB cellular mast configuration.\nAgent: Obviously Voice over LTE handover requires seamless cryptographic re-keying between Wi-Fi security gateways and cellular towers.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9021
+          },
+          "sec": 0.97
+        },
+        {
+          "label": "verify_probing",
+          "words": 128,
+          "text": "CUSTOMER PROBLEM: Hello, my name is Samira Khan. Every single time I leave our house while on an active mobile phone call, the voice call cuts off abruptly the exact second my handset disconnects from our home Wi-Fi and attempts to hand over to 4G VoLTE, dropping critical client calls every morning!\n\nThe agent asked these questions during the call:\n- What mobile phone number is experiencing call handover drops?\n- Does the phone drop calls when you are sitting completely still inside your living room?\n- Could I place you on hold for two minutes while I query the mobile IMS core routing logs?\n- Before we conclude, what was that mobile telephone number again?\n- Is there any other mobile query I can assist with today?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9345
+          },
+          "sec": 1.23
+        },
+        {
+          "label": "batch_end",
+          "words": 20,
+          "text": "Agent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.",
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.0556
+          },
+          "sec": 0.75
+        }
+      ],
+      "final_score": 35.0,
+      "ratings": {
+        "Branding and Survey Check": "FAIL",
+        "Hold time and Dead Air": "FAIL",
+        "Verified customer": "FAIL",
+        "Personalized the call/ticket appropriately": "FAIL",
+        "Empathy & Acknowledgment Statement": "PASS",
+        "Paraphrasing": "FAIL",
+        "Active listening": "FAIL",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "FAIL",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "FAIL"
+      }
+    },
+    {
+      "call": "agt_087.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 153,
+          "text": "Customer: Hello Liam, my name is Sorcha Gallagher. I work from a detached garage office in our back garden twenty meters from the house, and our home S-Net Wi-Fi signal does not reach into the garden office, constantly dropping video conferences with clients and making remote working impossible!\nAgent: Good afternoon Sorcha. If I understand correctly, your home Wi-Fi signal is failing to penetrate into your detached garden office twenty meters away, causing continuous dropped video calls with clients. Before we examine your hub's wireless coverage and mesh extension options, could you please confirm your full postal address and your account security PIN?\nCustomer: Yes, it is 22 Millfield Crescent, Harrogate, HG2 8PT, security PIN 7714.\nAgent: Thank you Sorcha, that brings up your account details. What router model are you currently using in the main house?\nCustomer: It is the tall white S-Net Hub 5 situated in our ground floor living room.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9541
+          },
+          "sec": 1.16
+        },
+        {
+          "label": "verify_empathy",
+          "words": 137,
+          "text": "Customer: Sorcha speaking, I run a freelance architectural consultancy, and I lost a twelve-thousand-pound commercial design tender yesterday because my video call froze during the client presentation! I was mortified and terrified that my business reputation is ruined! I have been crying with frustration all morning!\nAgent: I am querying our equipment logistics warehouse inventory right now.\nCustomer: Please do Liam, I am desperate to protect our architectural projects.\nAgent: I am truly sorry to hear that, Sorcha. Losing a twelve-thousand-pound client tender due to Wi-Fi drops is completely heartbreaking. While our engineering policy does not permit dispatching an onsite technician this evening to run external cabling, I will make sure we get a high-performance mesh pod dispatched immediately and set up so your client calls are rock-solid.\nCustomer: Thank you Liam, that reassurance means a lot.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9492
+          },
+          "sec": 1.15
+        },
+        {
+          "label": "verify_al",
+          "words": 58,
+          "text": "Turn 2 Agent asked: Before we examine your hub's wireless coverage and mesh extension options, could you please confirm your full postal address and your account security PIN?\nCustomer answered: Yes, it is 22 Millfield Crescent, Harrogate, HG2 8PT, security PIN 7714.\nTurn 43 Agent later asked: Before we finish up, what was that Harrogate postal address again?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9567
+          },
+          "sec": 0.61
+        },
+        {
+          "label": "verify_rapport",
+          "words": 117,
+          "text": "Agent: Thank you for calling S-Net broadband technical support, my name is Liam. How can I help you today?\nAgent: Good afternoon Sorcha. If I understand correctly, your home Wi-Fi signal is failing to penetrate into your detached garden office twenty meters away, causing continuous dropped video calls with clients. Before we examine your hub's wireless coverage and mesh extension options, could you please confirm your full postal address and your account security PIN?\nAgent: Thank you Sorcha, that brings up your account details. What router model are you currently using in the main house?\nAgent: Could I place you on hold for two minutes while I query your Hub 5 wireless telemetry and radio power output?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0654
+          },
+          "sec": 1.04
+        },
+        {
+          "label": "verify_rapport",
+          "words": 115,
+          "text": "Agent: Thank you for holding, Sorcha. Looking at the wireless diagnostics, your Hub 5 is transmitting at full legal EIRP power, but the exterior stone cavity walls and double-glazed garden doors attenuate the 5 GHz signal by over 35 decibels.\nAgent: Yes, our S-Net Intelligent Mesh Wi-Fi Pods are designed specifically to extend whole-home wireless coverage into garden studios and outbuildings.\nAgent: The mesh pod utilizes a dedicated 5 GHz backhaul channel or can be connected via an external Cat6 Ethernet cable.\nAgent: That is an ideal setup: connecting the mesh pod via Ethernet creates a full-speed zero-loss wireless access point inside your office.\nAgent: I am querying our equipment logistics warehouse inventory right now.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0619
+          },
+          "sec": 1.2
+        },
+        {
+          "label": "verify_rapport",
+          "words": 77,
+          "text": "Agent: I am truly sorry to hear that, Sorcha. Losing a twelve-thousand-pound client tender due to Wi-Fi drops is completely heartbreaking. While our engineering policy does not permit dispatching an onsite technician this evening to run external cabling, I will make sure we get a high-performance mesh pod dispatched immediately and set up so your client calls are rock-solid.\nAgent: Obviously thick masonry and foil-backed insulation block high-frequency radio waves, so physical backhaul solves the issue permanently.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0563
+          },
+          "sec": 0.95
+        },
+        {
+          "label": "verify_rapport",
+          "words": 114,
+          "text": "Agent: I completely understand the high stakes and immense pressure of your Monday planning board appeal, Sorcha. To ensure you are fully protected, I am dispatching the mesh pod via Royal Mail Special Delivery Guaranteed by 1pm tomorrow, Friday, and I will include my direct desk extension so you can reach me if you need help plugging it in.\nAgent: Once the pod arrives, simply plug one end of your garage Ethernet cable into the pod's LAN port and connect the power adapter.\nAgent: Yes, it clones your Hub 5 SSID and security key automatically, enabling seamless device roaming.\nAgent: Exactly: your laptop will roam seamlessly to the garage pod with full gigabit throughput.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0469
+          },
+          "sec": 1.1
+        },
+        {
+          "label": "verify_rapport",
+          "words": 95,
+          "text": "Agent: I have waived the standard fifty-pound equipment and express delivery fee on your account.\nAgent: Your dispatch consignment number is POD-SPEC-99120-H.\nAgent: The parcel will arrive before 1pm tomorrow, Friday.\nAgent: I have also noted your planning appeal deadline on your account record.\nAgent: Our technical support team is available twenty-four seven should you have any questions over the weekend.\nAgent: We want to ensure your architectural consultancy thrives, Sorcha.\nAgent: Before we finish up, what was that Harrogate postal address again?\nAgent: Thank you Sorcha, the delivery address is confirmed for tomorrow's dispatch.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0541
+          },
+          "sec": 1.33
+        },
+        {
+          "label": "verify_rapport",
+          "words": 58,
+          "text": "Agent: It has been an absolute pleasure assisting you, Sorcha. Best of luck with your planning board presentation on Monday.\nAgent: Is there any other broadband query I can assist you with today, Sorcha?\nAgent: Thank you for calling S-Net broadband technical support, Sorcha. Goodbye.\nAgent: Thank you for choosing S-Net. Goodbye.\nAgent: Goodbye.\nAgent: Goodbye.\nAgent: Goodbye.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.053
+          },
+          "sec": 1.04
+        },
+        {
+          "label": "verify_probing",
+          "words": 120,
+          "text": "CUSTOMER PROBLEM: Hello Liam, my name is Sorcha Gallagher. I work from a detached garage office in our back garden twenty meters from the house, and our home S-Net Wi-Fi signal does not reach into the garden office, constantly dropping video conferences with clients and making remote working impossible! It is the\n\nThe agent asked these questions during the call:\n- What router model are you currently using in the main house?\n- Could I place you on hold for two minutes while I query your Hub 5 wireless telemetry and radio power output?\n- Before we finish up, what was that Harrogate postal address again?\n- Is there any other broadband query I can assist you with today, Sorcha?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.8806
+          },
+          "sec": 1.35
+        },
+        {
+          "label": "batch_end",
+          "words": 35,
+          "text": "Agent: Thank you for calling S-Net broadband technical support, Sorcha. Goodbye.\nCustomer: Goodbye Liam.\nAgent: Thank you for choosing S-Net. Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.",
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.0495
+          },
+          "sec": 0.81
+        }
+      ],
+      "final_score": 73.3,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "PASS",
+        "Paraphrasing": "FAIL",
+        "Active listening": "FAIL",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "FAIL"
+      }
+    },
+    {
+      "call": "agt_089.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 151,
+          "text": "Customer: Hello Edward, my name is Tabitha Jenkins. We have an S-Net TV 4K box, and whenever we try to watch high-definition or UHD 4K programs on BBC iPlayer catch-up, the video constantly freezes and displays a spinning purple circle every thirty seconds while audio keeps playing out of sync!\nAgent: Good afternoon Tabitha. If I understand correctly, your TV 4K box experiences continuous video buffering and audio desynchronization every thirty seconds specifically when streaming UHD 4K content on BBC iPlayer catch-up. Before we inspect your set-top box video buffer telemetry, could you please confirm your full postal address and your account security PIN?\nCustomer: Yes, it is 12 Church Lane, Winchester, SO23 9JN, security PIN 4108.\nAgent: Thank you Tabitha, that confirms your account details. What video resolution setting is your TV box currently outputting?\nCustomer: It is set to Automatic 2160p UHD resolution connected via a high-speed HDMI cable.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9491
+          },
+          "sec": 1.28
+        },
+        {
+          "label": "verify_empathy",
+          "words": 155,
+          "text": "Customer: Tabitha speaking, my husband and I are hosting a golden wedding anniversary celebration for my parents tonight, and we have sixty family members arriving at seven o'clock to watch a special commemorative BBC documentary about my father's naval career! If the television buffers and glitches in front of sixty guests, my parents will be devastated and I will die of ...\nAgent: I completely understand how immensely important your parents' golden wedding anniversary is, Tabitha, and having sixty family members arriving tonight to celebrate your father's naval career makes this an absolute top priority. I will ensure this buffering issue is completely resolved and thoroughly tested right now so tonight's screening runs flawlessly.\nCustomer: Thank you Edward, that brings me so much comfort.\nAgent: I am sending the cache purge signal directly to your TV box now.\nAgent: Obviously 4K UHD video streams demand flawless memory management to maintain forty megabits per second throughput.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9494
+          },
+          "sec": 1.21
+        },
+        {
+          "label": "verify_al",
+          "words": 36,
+          "text": "Turn 3 Customer said: Yes, it is 12 Church Lane, Winchester, SO23 9JN, security PIN 4108.\nTurn 42 Agent later asked: Just making sure our premises records match perfectly: that was 12 Church Lane, wasn't it?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.042
+          },
+          "sec": 0.55
+        },
+        {
+          "label": "verify_al",
+          "words": 65,
+          "text": "Turn 1 Customer said: Hello Edward, my name is Tabitha Jenkins. We have an S-Net TV 4K box, and whenever we try to watch high-definition or UHD 4K programs on BBC iPlayer catch-up, the video constantly freezes and displays a spinning purple circle every ...\nTurn 48 Agent later asked: Is there any other TV or broadband issue I can assist you with today, Tabitha?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0413
+          },
+          "sec": 0.72
+        },
+        {
+          "label": "verify_al",
+          "words": 60,
+          "text": "Turn 1 Customer said: Hello Edward, my name is Tabitha Jenkins. We have an S-Net TV 4K box, and whenever we try to watch high-definition or UHD 4K programs on BBC iPlayer catch-up, the video constantly freezes and displays a spinning purple circle every ...\nTurn 4 Agent later asked: What video resolution setting is your TV box currently outputting?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0658
+          },
+          "sec": 0.69
+        },
+        {
+          "label": "verify_rapport",
+          "words": 115,
+          "text": "Agent: Thank you for calling S-Net TV technical support, my name is Edward. How can I help you today?\nAgent: Good afternoon Tabitha. If I understand correctly, your TV 4K box experiences continuous video buffering and audio desynchronization every thirty seconds specifically when streaming UHD 4K content on BBC iPlayer catch-up. Before we inspect your set-top box video buffer telemetry, could you please confirm your full postal address and your account security PIN?\nAgent: Thank you Tabitha, that confirms your account details. What video resolution setting is your TV box currently outputting?\nAgent: Could I place you on hold for two minutes while I query your set-top box hardware decoder telemetry and local cache registers?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0617
+          },
+          "sec": 1.35
+        },
+        {
+          "label": "verify_rapport",
+          "words": 92,
+          "text": "Agent: Thank you for holding, Tabitha. The decoder diagnostics show that the BBC iPlayer application cache on your TV box has accumulated 4.2 gigabytes of fragmented temporary video segment manifests.\nAgent: When the local flash memory cache fills up, the hardware video buffer struggles to allocate contiguous memory blocks for UHD 4K video frames.\nAgent: Yes, we can perform a remote application cache purge and video hardware buffer reset right now.\nAgent: Not at all: recordings and user profiles are stored in protected non-volatile partitions; only temporary streaming app cache is purged.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.125
+          },
+          "sec": 1.07
+        },
+        {
+          "label": "verify_rapport",
+          "words": 83,
+          "text": "Agent: I completely understand how immensely important your parents' golden wedding anniversary is, Tabitha, and having sixty family members arriving tonight to celebrate your father's naval career makes this an absolute top priority. I will ensure this buffering issue is completely resolved and thoroughly tested right now so tonight's screening runs flawlessly.\nAgent: I am sending the cache purge signal directly to your TV box now.\nAgent: Obviously 4K UHD video streams demand flawless memory management to maintain forty megabits per second throughput.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0463
+          },
+          "sec": 0.82
+        },
+        {
+          "label": "verify_rapport",
+          "words": 125,
+          "text": "Agent: I completely understand the profound emotional importance and once-in-a-lifetime significance of this gathering for your eighty-two-year-old father and his naval comrades, Tabitha. We will not let anything spoil this cherished celebration for your family. Let us open BBC iPlayer together right now and test the 4K stream live.\nAgent: Navigate to any UHD 4K documentary and press Play.\nAgent: Fantastic! Let it play for sixty seconds while we monitor the live hardware decoder buffer telemetry.\nAgent: Looking at our telemetry console, your TV box buffer is holding a solid thirty seconds of pre-fetched UHD video with 0% dropped frames.\nAgent: Press play on the naval documentary to be one hundred percent certain.\nAgent: That confirms full hardware video decoding and streaming performance completely restored.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0488
+          },
+          "sec": 1.33
+        },
+        {
+          "label": "verify_rapport",
+          "words": 114,
+          "text": "Agent: I have locked the iPlayer buffer allocation to high-priority mode in your box firmware.\nAgent: I have logged the diagnostic purge under ticket reference TV-4K-88192-W.\nAgent: Please give my heartfelt congratulations to your parents on their golden wedding anniversary, Tabitha.\nAgent: Our team is honored to play a small part in making their celebration special.\nAgent: Just making sure our premises records match perfectly: that was 12 Church Lane, wasn't it?\nAgent: Thank you Tabitha, premises and equipment records are fully verified.\nAgent: It has been an absolute pleasure assisting you, Tabitha. Have a magnificent celebration tonight.\nAgent: Is there any other TV or broadband issue I can assist you with today, Tabitha?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.2352
+          },
+          "sec": 1.2
+        },
+        {
+          "label": "verify_rapport",
+          "words": 22,
+          "text": "Agent: Thank you for calling S-Net TV technical support, Tabitha. Goodbye.\nAgent: Thank you for choosing S-Net. Goodbye.\nAgent: Goodbye.\nAgent: Goodbye.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0589
+          },
+          "sec": 0.63
+        },
+        {
+          "label": "verify_probing",
+          "words": 126,
+          "text": "CUSTOMER PROBLEM: Hello Edward, my name is Tabitha Jenkins. We have an S-Net TV 4K box, and whenever we try to watch high-definition or UHD 4K programs on BBC iPlayer catch-up, the video constantly freezes and displays a spinning purple circle every thirty seconds while audio keeps playing out of sync! Why\n\nThe agent asked these questions during the call:\n- What video resolution setting is your TV box currently outputting?\n- Could I place you on hold for two minutes while I query your set-top box hardware decoder telemetry and local cache registers?\n- Just making sure our premises records match perfectly: that was 12 Church Lane, wasn't it?\n- Is there any other TV or broadband issue I can assist you with today, Tabitha?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9187
+          },
+          "sec": 1.27
+        },
+        {
+          "label": "batch_end",
+          "words": 54,
+          "text": "Agent: Is there any other TV or broadband issue I can assist you with today, Tabitha?\nCustomer: No Edward, everything is working flawlessly.\nAgent: Thank you for calling S-Net TV technical support, Tabitha. Goodbye.\nCustomer: Goodbye Edward.\nAgent: Thank you for choosing S-Net. Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.",
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.0594
+          },
+          "sec": 0.98
+        }
+      ],
+      "final_score": 80.0,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "PASS",
+        "Paraphrasing": "FAIL",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "FAIL"
+      }
+    },
+    {
+      "call": "agt_097.json",
+      "laya": [
+        {
+          "label": "verify_empathy",
+          "words": 180,
+          "text": "Customer: Hello Liam, my name is Wilma Price. On my iPhone 15, the S-Net Visual Voicemail tab has stopped synchronizing audio messages: whenever a caller leaves a voicemail, I get an SMS notification saying I have a new message, but the Visual Voicemail screen stays completely empty and says 'Visual Voicemail is currently unavailable'!\nAgent: Good afternoon Wilma. If I understand correctly, your iPhone 15 Visual Voicemail interface has stopped downloading incoming audio messages, presenting an 'unavailable' error message while standard SMS alerts continue to arrive. Before we inspect your mobile subscriber voicemail profile and carrier telemetry, could you please confirm your full postal address and your account security PIN?\nCustomer: Yes, it is 42 High Street, Shrewsbury, SY1 1ST, security PIN 5192, mobile number 07700 900512.\nAgent: Thank you Wilma, that confirms your account details. Have you attempted dialing 1571 directly from your phone keypad to listen to the voicemails manually?\nCustomer: Yes, when I dial 1571 I can hear three unplayed messages over the phone line, but Visual Voicemail will not load them as audio files in iOS.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9543
+          },
+          "sec": 1.7
+        },
+        {
+          "label": "verify_empathy",
+          "words": 167,
+          "text": "Customer: Wilma speaking, I am an executor for my late sister's estate and today is the absolute final deadline to file the probate estate documentation with the High Court probate registry! The estate solicitor left an urgent voicemail three hours ago regarding a disputed inheritance bequest, but because the audio file was trapped on my phone, I could not transcribe the ...\nAgent: I am querying the carrier voicemail IMAP synchronization daemon right now.\nCustomer: Please do Liam, I am desperate to reach the solicitor before the registry closes.\nAgent: I completely understand the acute grief, terror, and intense pressure you are experiencing regarding your late sister's estate and the High Court probate deadline today, Wilma. While our carrier policy cannot dispatch a field technician to your home for mobile application issues, I will stay on the line with you right now and personally verify that every single audio message ...\nCustomer: Thank you Liam! Let us open the phone app and check the messages right now.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9542
+          },
+          "sec": 1.38
+        },
+        {
+          "label": "verify_al",
+          "words": 41,
+          "text": "Turn 3 Customer said: Yes, it is 42 High Street, Shrewsbury, SY1 1ST, security PIN 5192, mobile number 07700 900512.\nTurn 39 Agent later asked: Just making sure our premises records match perfectly: that was 42 High Street, Shrewsbury, wasn't it?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0418
+          },
+          "sec": 0.65
+        },
+        {
+          "label": "verify_al",
+          "words": 63,
+          "text": "Turn 20 Customer said: Wilma speaking, I am an executor for my late sister's estate and today is the absolute final deadline to file the probate estate documentation with the High Court probate registry! The estate solicitor left an urgent voicemail three hours ago ...\nTurn 45 Agent later asked: Is there any other mobile issue I can assist you with today, Wilma?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0426
+          },
+          "sec": 0.7
+        },
+        {
+          "label": "verify_rapport",
+          "words": 124,
+          "text": "Agent: Thank you for calling S-Net mobile technical support, my name is Liam. How can I help you today?\nAgent: Good afternoon Wilma. If I understand correctly, your iPhone 15 Visual Voicemail interface has stopped downloading incoming audio messages, presenting an 'unavailable' error message while standard SMS alerts continue to arrive. Before we inspect your mobile subscriber voicemail profile and carrier telemetry, could you please confirm your full postal address and your account security PIN?\nAgent: Thank you Wilma, that confirms your account details. Have you attempted dialing 1571 directly from your phone keypad to listen to the voicemails manually?\nAgent: Could I place you on hold for two minutes while I query your carrier voicemail IMAP synchronization gateway and cellular data provisioning profile?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0694
+          },
+          "sec": 1.73
+        },
+        {
+          "label": "verify_rapport",
+          "words": 116,
+          "text": "Agent: Thank you for holding, Wilma. Looking at the voicemail server telemetry, your line has an orphaned session token on the carrier Visual Voicemail IMAP sync daemon.\nAgent: When iOS installs a carrier bundle update, the local cryptographic authentication handshake occasionally falls out of sync with our voicemail IMAP cluster.\nAgent: Yes, we can perform a remote carrier voicemail profile reprovisioning and push a fresh secure sync token directly to your iPhone.\nAgent: Not at all: your recorded messages and personalized voicemail greeting remain completely intact on our central server.\nAgent: I am sending the carrier bundle profile reprovisioning command now.\nAgent: Obviously Visual Voicemail relies on cellular packet data tunnels rather than standard voice signaling.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0668
+          },
+          "sec": 1.64
+        },
+        {
+          "label": "verify_rapport",
+          "words": 113,
+          "text": "Agent: I am pushing the carrier token reset signal directly to your device.\nAgent: I am querying the carrier voicemail IMAP synchronization daemon right now.\nAgent: I completely understand the acute grief, terror, and intense pressure you are experiencing regarding your late sister's estate and the High Court probate deadline today, Wilma. While our carrier policy cannot dispatch a field technician to your home for mobile application issues, I will stay on the line with you right now and personally verify that every single audio message downloads onto your screen immediately.\nAgent: Open the Phone app on your iPhone, tap the Voicemail tab in the bottom right corner, and pull down to refresh.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0461
+          },
+          "sec": 1.95
+        },
+        {
+          "label": "verify_rapport",
+          "words": 122,
+          "text": "Agent: Tap on the top message from your estate solicitor and press the Play button.\nAgent: Fantastic! That confirms full Visual Voicemail audio downloading and real-time transcription completely restored.\nAgent: I have locked the carrier IMAP configuration in your subscriber profile to prevent any future sync drops.\nAgent: I have documented the carrier token refresh under ticket reference VVM-IOS-88192-S.\nAgent: Please accept my deepest condolences on the loss of your sister, Wilma. Best of luck with the probate filing today.\nAgent: Our team is honored to support you during such an important time.\nAgent: Just making sure our premises records match perfectly: that was 42 High Street, Shrewsbury, wasn't it?\nAgent: Thank you Wilma, all account and device parameters are fully synchronized.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.3516
+          },
+          "sec": 2.16
+        },
+        {
+          "label": "verify_rapport",
+          "words": 52,
+          "text": "Agent: It has been an absolute pleasure assisting you, Wilma. Have a peaceful afternoon.\nAgent: Is there any other mobile issue I can assist you with today, Wilma?\nAgent: Thank you for calling S-Net mobile technical support, Wilma. Goodbye.\nAgent: Goodbye.\nAgent: Goodbye.\nAgent: Thank you for choosing S-Net. Goodbye.\nAgent: Goodbye.",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.0525
+          },
+          "sec": 1.43
+        },
+        {
+          "label": "verify_probing",
+          "words": 132,
+          "text": "CUSTOMER PROBLEM: Hello Liam, my name is Wilma Price. On my iPhone 15, the S-Net Visual Voicemail tab has stopped synchronizing audio messages: whenever a caller leaves a voicemail, I get an SMS notification saying I have a new message, but the Visual Voicemail screen stays completely empty and says 'Visual Voicemail\n\nThe agent asked these questions during the call:\n- Have you attempted dialing 1571 directly from your phone keypad to listen to the voicemails manually?\n- Could I place you on hold for two minutes while I query your carrier voicemail IMAP synchronization gateway and cellular data provisioning profile?\n- Just making sure our premises records match perfectly: that was 42 High Street, Shrewsbury, wasn't it?\n- Is there any other mobile issue I can assist you with today, Wilma?",
+          "questions": {
+            "q": null
+          },
+          "p_yes": {
+            "q": 0.9107
+          },
+          "sec": 1.68
+        },
+        {
+          "label": "batch_end",
+          "words": 35,
+          "text": "Agent: Thank you for calling S-Net mobile technical support, Wilma. Goodbye.\nCustomer: Goodbye Liam.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.\nAgent: Thank you for choosing S-Net. Goodbye.\nCustomer: Goodbye.\nAgent: Goodbye.\nCustomer: Goodbye.",
+          "questions": {
+            "item_0": null
+          },
+          "p_yes": {
+            "item_0": 0.0504
+          },
+          "sec": 0.96
+        }
+      ],
+      "final_score": 80.0,
+      "ratings": {
+        "Branding and Survey Check": "PASS",
+        "Hold time and Dead Air": "PASS",
+        "Verified customer": "PASS",
+        "Personalized the call/ticket appropriately": "PASS",
+        "Empathy & Acknowledgment Statement": "PASS",
+        "Paraphrasing": "FAIL",
+        "Active listening": "PASS",
+        "Took ownership of the problem": "PASS",
+        "Build rapport and observed professionalism": "PASS",
+        "Probing": "PASS",
+        "Confirmed the issue is resolved": "FAIL"
+      }
+    }
+  ]
+}

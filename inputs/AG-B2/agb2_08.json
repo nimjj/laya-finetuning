@@ -1,0 +1,650 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Nadia",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net business technical support, my name is Sophie. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:27]",
+      "start_time_sec": 11,
+      "text": "Hello Sophie, I'm calling from Apex Logistics. We have an S-Net Business Fibre 500 line, but our incoming and outgoing corporate email has suddenly stopped working because our static IP lacks a reverse DNS PTR record.",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:30]",
+      "end_time": "[00:47]",
+      "start_time_sec": 30,
+      "text": "I would be glad to look into your business static IP and configure the reverse DNS pointer records for you today, Nadia. To begin, could you please confirm your company registered address and your business security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:50]",
+      "end_time": "[00:59]",
+      "start_time_sec": 50,
+      "text": "Yes, it is Unit 4, Riverside Commercial Park, Bristol, BS1 6QA, and the PIN is seven one five four.",
+      "sentiment_score": 3.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:02]",
+      "end_time": "[01:14]",
+      "start_time_sec": 62,
+      "text": "Thank you Nadia, that has verified your business account on our Business Pro Fibre 500 package. Let me open your IP routing and DNS allocation table."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:17]",
+      "end_time": "[01:29]",
+      "start_time_sec": 77,
+      "text": "Thank you Sophie. We migrated to our on-premises mail server over the weekend, but major external mail servers like Google and Microsoft are rejecting our messages.",
+      "sentiment_score": -14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:32]",
+      "end_time": "[01:50]",
+      "start_time_sec": 92,
+      "text": "So what you need is to bind your single static IPv4 address to your corporate mail hostname with an authoritative reverse DNS PTR record, so that external recipient servers can validate your domain's authenticity. Have I got that right, Nadia?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:53]",
+      "end_time": "[02:03]",
+      "start_time_sec": 113,
+      "text": "Yes, exactly! Without the matching PTR record, our outgoing invoices and delivery manifests are getting bounced back with spamhaus lookup errors.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:06]",
+      "end_time": "[02:12]",
+      "start_time_sec": 126,
+      "text": "What is the static IPv4 address assigned to your S-Net business broadband connection?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:15]",
+      "end_time": "[02:19]",
+      "start_time_sec": 135,
+      "text": "Our public static IP address is 194.72.115.42.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:21]",
+      "end_time": "[02:30]",
+      "start_time_sec": 141,
+      "text": "And what is the exact fully qualified domain name that your mail server reports in its SMTP EHLO greeting banner?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:33]",
+      "end_time": "[02:53]",
+      "start_time_sec": 153,
+      "text": "The hostname is mail dot apexlogistics dot co dot uk. Our freight dispatchers can't send customs clearance paperwork to the docks right now, and cargo trucks are literally being held up at the ferry terminal! This is costing us thousands of pounds an hour!",
+      "sentiment_score": -52.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:56]",
+      "end_time": "[03:08]",
+      "start_time_sec": 176,
+      "text": "Can you confirm if your external domain registrar has already created the matching forward A record pointing mail dot apexlogistics dot co dot uk to 194.72.115.42?"
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:11]",
+      "end_time": "[03:33]",
+      "start_time_sec": 191,
+      "text": "First of all Nadia, having freight trucks held up at the docks while commercial shipping documents are delayed is immensely stressful, and I am so sorry for the disruption to your business operations. We are going to treat this with top priority and get your reverse DNS pointer active immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:36]",
+      "end_time": "[03:43]",
+      "start_time_sec": 216,
+      "text": "Thank you Sophie. I really appreciate that. It's just chaotic here on the logistics floor today.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:46]",
+      "end_time": "[03:59]",
+      "start_time_sec": 226,
+      "text": "I completely understand. Looking at our global WHOIS and DNS zone records, I can see your domain's forward A record is already resolving to 194.72.115.42 with a five-minute TTL."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:02]",
+      "end_time": "[04:08]",
+      "start_time_sec": 242,
+      "text": "Yes, our network engineer configured the forward A record at nine this morning.",
+      "sentiment_score": 5.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:11]",
+      "end_time": "[04:24]",
+      "start_time_sec": 251,
+      "text": "Because S-Net is the regional internet registry owner for the 194.72.115.0/24 subnet, only S-Net has authoritative control to write the PTR record into the in-addr dot arpa zone."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:27]",
+      "end_time": "[04:35]",
+      "start_time_sec": 267,
+      "text": "Right, our IT contractor told us that S-Net had to update the reverse zone on your nameservers.",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:38]",
+      "end_time": "[04:53]",
+      "start_time_sec": 278,
+      "text": "I am populating the PTR update request in our Core Network DNS portal right now. The record will point 42.115.72.194 dot in-addr dot arpa directly to mail dot apexlogistics dot co dot uk."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:56]",
+      "end_time": "[05:01]",
+      "start_time_sec": 296,
+      "text": "That is exactly the syntax our exchange admin asked for.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:03]",
+      "end_time": "[05:16]",
+      "start_time_sec": 303,
+      "text": "Let us also check your S-Net business hub's firewall and port forwarding rules. Is port 25 and port 587 open and forwarded to your internal mail server IP?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:19]",
+      "end_time": "[05:26]",
+      "start_time_sec": 319,
+      "text": "Yes, port 25 for inbound SMTP and port 587 for TLS submission are forwarded to 192.168.1.10.",
+      "sentiment_score": 7.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:29]",
+      "end_time": "[05:38]",
+      "start_time_sec": 329,
+      "text": "And is your internal mail server set to a static private IP address outside the hub's DHCP pool range?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:41]",
+      "end_time": "[05:48]",
+      "start_time_sec": 341,
+      "text": "Yes, the DHCP pool is set to start at 192.168.1.50, so .10 is completely reserved.",
+      "sentiment_score": 8.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:51]",
+      "end_time": "[06:03]",
+      "start_time_sec": 351,
+      "text": "That prevents internal IP collision. Bear with me for about a minute while I push the authoritative PTR record to our primary and secondary DNS clusters."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:01]",
+      "end_time": "[07:13]",
+      "start_time_sec": 421,
+      "text": "Thank you for waiting, Nadia. I have committed the reverse DNS PTR record to both ns1 dot s-net dot net and ns2 dot s-net dot net."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:16]",
+      "end_time": "[07:20]",
+      "start_time_sec": 436,
+      "text": "Thank you Sophie. Have the S-Net nameservers updated already?",
+      "sentiment_score": 12.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:22]",
+      "end_time": "[07:32]",
+      "start_time_sec": 442,
+      "text": "Let us run a direct dig command from my terminal to verify. Does your mail server still respond on public IP 194.72.115.42?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:35]",
+      "end_time": "[07:39]",
+      "start_time_sec": 455,
+      "text": "Yes, that's our single permanent static IP.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:41]",
+      "end_time": "[07:50]",
+      "start_time_sec": 461,
+      "text": "Querying our nameserver directly: dig @ns1.s-net.net -x 194.72.115.42 returns answer: mail dot apexlogistics dot co dot uk with status NOERROR."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:53]",
+      "end_time": "[07:58]",
+      "start_time_sec": 473,
+      "text": "Brilliant! So our authoritative nameserver is already giving the correct answer.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:00]",
+      "end_time": "[08:10]",
+      "start_time_sec": 480,
+      "text": "Now let us check your Sender Policy Framework TXT record in your external domain DNS to make sure it authorizes this IP."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:13]",
+      "end_time": "[08:19]",
+      "start_time_sec": 493,
+      "text": "We have v=spf1 ip4:194.72.115.42 include:_spf.google.com ~all published on apexlogistics dot co dot uk.",
+      "sentiment_score": 8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:22]",
+      "end_time": "[08:29]",
+      "start_time_sec": 502,
+      "text": "That SPF record is formatted perfectly and will pass standard DMARC alignment once the PTR propagates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:32]",
+      "end_time": "[08:40]",
+      "start_time_sec": 512,
+      "text": "How long will it take for external servers like Outlook and Gmail to see this PTR record?",
+      "sentiment_score": -2.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:43]",
+      "end_time": "[08:53]",
+      "start_time_sec": 523,
+      "text": "Our local S-Net nameservers update within seconds, but external intermediate recursive resolvers like 8.8.8.8 and 1.1.1.1 cache DNS records according to their TTL."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:56]",
+      "end_time": "[09:05]",
+      "start_time_sec": 536,
+      "text": "Can you flush the cache on the public resolvers or send an emergency notify message to speed it up?",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:08]",
+      "end_time": "[09:17]",
+      "start_time_sec": 548,
+      "text": "We can submit an automated cache purge to Google Public DNS and Cloudflare DNS directly through their web flush APIs."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:20]",
+      "end_time": "[09:24]",
+      "start_time_sec": 560,
+      "text": "Please do that! That would make a huge difference.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:26]",
+      "end_time": "[09:33]",
+      "start_time_sec": 566,
+      "text": "I have submitted the cache invalidation for 42.115.72.194.in-addr.arpa to both Google 8.8.8.8 and Cloudflare 1.1.1.1 now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:36]",
+      "end_time": "[09:40]",
+      "start_time_sec": 576,
+      "text": "You are a lifesaver Sophie, that is wonderful.",
+      "sentiment_score": 26.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:42]",
+      "end_time": "[09:51]",
+      "start_time_sec": 582,
+      "text": "Can you try sending a test outbound email from your mail client to an external test address right now?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:54]",
+      "end_time": "[10:00]",
+      "start_time_sec": 594,
+      "text": "Yes, sending a test dispatch manifest to my personal Gmail account right now.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:03]",
+      "end_time": "[10:09]",
+      "start_time_sec": 603,
+      "text": "Let me know when the SMTP transaction log completes on your console."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:12]",
+      "end_time": "[10:23]",
+      "start_time_sec": 612,
+      "text": "The outbound queue shows 250 OK message queued for delivery... checking my phone... it just landed in my Gmail inbox with zero warning banners!",
+      "sentiment_score": 34.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:26]",
+      "end_time": "[10:35]",
+      "start_time_sec": 626,
+      "text": "That is fantastic! Gmail has successfully validated your reverse PTR and allowed the email straight into the primary inbox."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:38]",
+      "end_time": "[10:44]",
+      "start_time_sec": 638,
+      "text": "That is such a relief for our outbound billing and customs emails.",
+      "sentiment_score": 29.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:47]",
+      "end_time": "[10:53]",
+      "start_time_sec": 647,
+      "text": "What about inbound emails? Have any incoming supplier messages arrived in your queue?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:56]",
+      "end_time": "[11:05]",
+      "start_time_sec": 656,
+      "text": "Let me refresh our inbound mail log... yes, three messages from our Rotterdam freight partner just arrived through port 25.",
+      "sentiment_score": 31.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:08]",
+      "end_time": "[11:15]",
+      "start_time_sec": 668,
+      "text": "Both inbound and outbound SMTP transport channels are operating as intended over your static IP."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:18]",
+      "end_time": "[11:22]",
+      "start_time_sec": 678,
+      "text": "Everything looks healthy on our side.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:24]",
+      "end_time": "[11:35]",
+      "start_time_sec": 684,
+      "text": "Let us also check your hub backup settings. Do you have an automatic configuration backup saved in case the router ever needs a replacement?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:38]",
+      "end_time": "[11:43]",
+      "start_time_sec": 698,
+      "text": "I don't think we've ever backed up the hub settings file.",
+      "sentiment_score": -1.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:45]",
+      "end_time": "[11:58]",
+      "start_time_sec": 705,
+      "text": "In your S-Net business router portal under System Maintenance, there is a Backup Configuration button that saves an encrypted XML file with all your static IP and port rules."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:01]",
+      "end_time": "[12:07]",
+      "start_time_sec": 721,
+      "text": "Downloading that XML backup file to our secure company server right now. Done.",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:10]",
+      "end_time": "[12:22]",
+      "start_time_sec": 730,
+      "text": "That ensures that if hardware is ever swapped during an office move or equipment upgrade, you can restore your entire networking layout in under two minutes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:25]",
+      "end_time": "[12:29]",
+      "start_time_sec": 745,
+      "text": "Very sensible precaution.",
+      "sentiment_score": 9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:31]",
+      "end_time": "[12:37]",
+      "start_time_sec": 751,
+      "text": "Do you also utilize our Business Priority SLA monitoring on this connection?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:40]",
+      "end_time": "[12:44]",
+      "start_time_sec": 760,
+      "text": "What does that entail?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:46]",
+      "end_time": "[12:57]",
+      "start_time_sec": 766,
+      "text": "It enables automated round-the-clock ping monitoring of your static IP from four regional UK data centers, alerting our NOC if packet loss exceeds two percent."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:00]",
+      "end_time": "[13:05]",
+      "start_time_sec": 780,
+      "text": "Yes, that would be very reassuring for our logistics dispatch.",
+      "sentiment_score": 15.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:07]",
+      "end_time": "[13:14]",
+      "start_time_sec": 787,
+      "text": "I have enabled the 24/7 proactive ping monitor on your line at no extra charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:17]",
+      "end_time": "[13:21]",
+      "start_time_sec": 797,
+      "text": "Thank you Sophie, you've been so proactive.",
+      "sentiment_score": 23.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:23]",
+      "end_time": "[13:30]",
+      "start_time_sec": 803,
+      "text": "Now, regarding the authoritative global propagation across smaller international tier three internet service providers:"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:33]",
+      "end_time": "[13:39]",
+      "start_time_sec": 813,
+      "text": "Yes, how long before every single foreign shipping agent can resolve our PTR?",
+      "sentiment_score": 6.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:42]",
+      "end_time": "[13:52]",
+      "start_time_sec": 822,
+      "text": "While major backbones like Google and Cloudflare update almost instantly, some smaller regional overseas ISPs enforce strict twenty-four hour DNS TTL caching."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:55]",
+      "end_time": "[14:03]",
+      "start_time_sec": 835,
+      "text": "Wait, twenty-four hours? What if some of our smaller European port authorities can't see the PTR until tomorrow?",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:06]",
+      "end_time": "[14:15]",
+      "start_time_sec": 846,
+      "text": "Any smaller DNS server that cached the old negative NXDOMAIN response will hold that cache until its internal timer expires."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:18]",
+      "end_time": "[14:25]",
+      "start_time_sec": 858,
+      "text": "Is there no emergency override or priority global push you can trigger to force them?",
+      "sentiment_score": -16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:28]",
+      "end_time": "[14:36]",
+      "start_time_sec": 868,
+      "text": "RFC standards for DNS architecture do not allow upstream providers to alter independent third-party nameserver cache tables."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:39]",
+      "end_time": "[15:03]",
+      "start_time_sec": 879,
+      "text": "That is totally unacceptable! You told me this was sorted, and now you're telling me European customs offices might reject our manifests for another whole day? We have perishable food containers in transit, and if those temperature-controlled lorries sit idling at Dunkirk overnight, thousands of pounds of fresh produce will spoil! We need an immediate guarantee!",
+      "sentiment_score": -56.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:06]",
+      "end_time": "[15:19]",
+      "start_time_sec": 906,
+      "text": "The DNS standard operates autonomously worldwide, and company policy does not permit guaranteeing third-party international server update intervals. I need your formal acceptance of the change order reference DNS-55109."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:22]",
+      "end_time": "[15:33]",
+      "start_time_sec": 922,
+      "text": "Formal acceptance? I am telling you our cargo is at risk and you're asking me to sign off on a bureaucratic change order? Unbelievable.",
+      "sentiment_score": -42.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:36]",
+      "end_time": "[15:45]",
+      "start_time_sec": 936,
+      "text": "The change order reference is required by audit protocol to confirm the PTR modification on your business static subnet."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:48]",
+      "end_time": "[15:54]",
+      "start_time_sec": 948,
+      "text": "Fine! Note my strong objection that your sales team promised instantaneous business updates.",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:57]",
+      "end_time": "[16:03]",
+      "start_time_sec": 957,
+      "text": "I have logged ticket DNS-55109 with your comments appended to the record."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:06]",
+      "end_time": "[16:12]",
+      "start_time_sec": 966,
+      "text": "Whatever. At least the main Gmail and Outlook servers are working for now.",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:15]",
+      "end_time": "[16:23]",
+      "start_time_sec": 975,
+      "text": "Does the mail delivery configuration on your S-Net static IP resolve your primary technical requirements today, Nadia?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:26]",
+      "end_time": "[16:37]",
+      "start_time_sec": 986,
+      "text": "Technically the PTR is created and our emails are going through, so yes, the technical issue on the router and S-Net side is done.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:40]",
+      "end_time": "[16:47]",
+      "start_time_sec": 1000,
+      "text": "Is there anything else on your Apex Logistics business account I can assist you with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:50]",
+      "end_time": "[16:55]",
+      "start_time_sec": 1010,
+      "text": "No, I need to get back to managing these delayed drivers.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:57]",
+      "end_time": "[17:01]",
+      "start_time_sec": 1017,
+      "text": "Thank you for calling S-Net business technical support."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:03]",
+      "end_time": "[17:07]",
+      "start_time_sec": 1023,
+      "text": "Goodbye Sophie.",
+      "sentiment_score": 2.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:09]",
+      "end_time": "[17:16]",
+      "start_time_sec": 1029,
+      "text": "Thank you for choosing S-Net as your business connectivity partner. Have a productive afternoon, Nadia. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:19]",
+      "end_time": "[17:22]",
+      "start_time_sec": 1039,
+      "text": "Goodbye.",
+      "sentiment_score": -1.8
+    }
+  ]
+}

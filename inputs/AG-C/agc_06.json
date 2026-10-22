@@ -1,0 +1,493 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Olivia",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net TV technical support, my name is Fiona. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:13]",
+      "end_time": "[00:29]",
+      "start_time_sec": 13,
+      "text": "Hi Fiona. My S-Net TV 360 box in the living room has completely frozen with error code CS2004 on the screen, the remote control won't do anything, and I've missed the start of the live tennis finals!",
+      "sentiment_score": -34.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:34]",
+      "end_time": "[00:50]",
+      "start_time_sec": 34,
+      "text": "I'm so sorry to hear that, Olivia. Missing a live sports final because of a frozen TV box is immensely frustrating, and I will do everything I can to get your TV 360 working right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:55]",
+      "end_time": "[01:03]",
+      "start_time_sec": 55,
+      "text": "Thank you Fiona. I've been shouting at the television for twenty minutes trying to get the guide to respond.",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:08]",
+      "end_time": "[01:18]",
+      "start_time_sec": 68,
+      "text": "Before we run diagnostics on the TV 360 box, Olivia, could you please confirm your full installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:23]",
+      "end_time": "[01:30]",
+      "start_time_sec": 83,
+      "text": "Yes, it is 112 Richmond Terrace, Bath, BA1 5EB, and my security PIN is 6294.",
+      "sentiment_score": -2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:35]",
+      "end_time": "[01:43]",
+      "start_time_sec": 95,
+      "text": "Thank you for verifying those details, Olivia. I have your TV 360 entertainment package pulled up on my screen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:48]",
+      "end_time": "[01:51]",
+      "start_time_sec": 108,
+      "text": "Okay, great.",
+      "sentiment_score": 3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:55]",
+      "end_time": "[02:13]",
+      "start_time_sec": 115,
+      "text": "So just to confirm what you are seeing on your television: the screen displays error CS2004, the picture is completely frozen on that message, and pressing buttons on the 360 remote control produces no response on the box. Is that accurate?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:17]",
+      "end_time": "[02:24]",
+      "start_time_sec": 137,
+      "text": "Yes, exactly. It's just a black screen with a big warning triangle and CS2004 in the corner.",
+      "sentiment_score": -12.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:28]",
+      "end_time": "[02:39]",
+      "start_time_sec": 148,
+      "text": "Error code CS2004 indicates that the internal hard drive storage partition had a read-timeout during playback initialization, which caused the user interface to lock up."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:43]",
+      "end_time": "[02:48]",
+      "start_time_sec": 163,
+      "text": "Does that mean all my recorded series have been wiped out?",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:52]",
+      "end_time": "[03:04]",
+      "start_time_sec": 172,
+      "text": "Not necessarily, Olivia. Most of the time it is a cached file index corruption that can be resolved with a maintenance flush rather than a full format."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:08]",
+      "end_time": "[03:14]",
+      "start_time_sec": 188,
+      "text": "Oh good, because my husband has six months of documentary series saved on there.",
+      "sentiment_score": 4.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:18]",
+      "end_time": "[03:33]",
+      "start_time_sec": 198,
+      "text": "First, let's address the remote control. Look at the small LED at the top of the 360 remote. When you press the TV button or Home button, does that LED light up red or white?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:37]",
+      "end_time": "[03:44]",
+      "start_time_sec": 217,
+      "text": "Let me look closely... it flashes red four times very quickly whenever I press anything.",
+      "sentiment_score": -3.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:48]",
+      "end_time": "[04:00]",
+      "start_time_sec": 228,
+      "text": "Four red flashes means the remote lost its Bluetooth pairing and is trying to fall back to infrared mode, but the box is frozen so it can't handshake."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:04]",
+      "end_time": "[04:09]",
+      "start_time_sec": 244,
+      "text": "How do we unfreeze the box so they talk to each other?",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:13]",
+      "end_time": "[04:26]",
+      "start_time_sec": 253,
+      "text": "On the back of the TV 360 box, locate the small rocker power switch next to the power cord, switch it off, wait ten seconds, and switch it back on."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:30]",
+      "end_time": "[04:37]",
+      "start_time_sec": 270,
+      "text": "Okay, reaching round the back... switched off. One, two, three... switching it back on now.",
+      "sentiment_score": 5.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:41]",
+      "end_time": "[04:47]",
+      "start_time_sec": 281,
+      "text": "What does the front white LED on the box do as it starts up?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:51]",
+      "end_time": "[04:56]",
+      "start_time_sec": 291,
+      "text": "It's showing a white LED and now the television says S-Net Welcome.",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:00]",
+      "end_time": "[05:11]",
+      "start_time_sec": 300,
+      "text": "Now let's re-pair the remote. Hold down the TV button and the number zero button together for ten seconds until the remote LED flashes white twice."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:15]",
+      "end_time": "[05:21]",
+      "start_time_sec": 315,
+      "text": "Holding TV and zero together... one, two, three... okay, it flashed white twice!",
+      "sentiment_score": 19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:25]",
+      "end_time": "[05:30]",
+      "start_time_sec": 325,
+      "text": "Now point it at the box and press the Home button."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:34]",
+      "end_time": "[05:39]",
+      "start_time_sec": 334,
+      "text": "Pressing Home... the main TV 360 home screen just opened up!",
+      "sentiment_score": 27.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:43]",
+      "end_time": "[05:52]",
+      "start_time_sec": 343,
+      "text": "While it is on the home screen, let's run a non-destructive storage file system check to clear the CS2004 error."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:56]",
+      "end_time": "[06:10]",
+      "start_time_sec": 356,
+      "text": "Wait, I just clicked on My Recordings and it froze again with the same CS2004 error! I can't believe this, the tennis match is going to be over before this useless box works!",
+      "sentiment_score": -41.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:14]",
+      "end_time": "[06:28]",
+      "start_time_sec": 374,
+      "text": "I completely share your frustration Olivia, having it freeze right after we made progress is exasperating. I will run a low-level disk sector repair command directly from our network operations console right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:32]",
+      "end_time": "[06:39]",
+      "start_time_sec": 392,
+      "text": "Okay Fiona, I'm sorry for snapping, it's just very frustrating when you're looking forward to a match.",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:43]",
+      "end_time": "[06:51]",
+      "start_time_sec": 403,
+      "text": "You have every right to be frustrated Olivia, sports broadcasts don't wait. Let me run this maintenance command."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:55]",
+      "end_time": "[06:58]",
+      "start_time_sec": 415,
+      "text": "Thank you for understanding.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:02]",
+      "end_time": "[07:12]",
+      "start_time_sec": 422,
+      "text": "Please bear with me while I place you on a brief hold for about two minutes while the console runs the disk repair routine."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:30]",
+      "end_time": "[08:37]",
+      "start_time_sec": 510,
+      "text": "Thank you very much for holding, Olivia. The remote file system repair command has completed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:41]",
+      "end_time": "[08:47]",
+      "start_time_sec": 521,
+      "text": "The TV screen refreshed and rebooted automatically while you were working on it.",
+      "sentiment_score": 16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:51]",
+      "end_time": "[08:58]",
+      "start_time_sec": 531,
+      "text": "That's exactly what it should do. Now select the live sports channel from the guide."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:02]",
+      "end_time": "[09:10]",
+      "start_time_sec": 542,
+      "text": "Going to channel 501... yes! The tennis match is playing in full four K definition with clear sound!",
+      "sentiment_score": 34.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:14]",
+      "end_time": "[09:22]",
+      "start_time_sec": 554,
+      "text": "Now let's verify your saved recordings so we know they are safe. Tap the Recordings button on the remote."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:26]",
+      "end_time": "[09:33]",
+      "start_time_sec": 566,
+      "text": "Opening recordings... every single documentary and saved series is listed right here! Nothing was deleted!",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:37]",
+      "end_time": "[09:44]",
+      "start_time_sec": 577,
+      "text": "The file system repair successfully healed the corrupted index pointers without touching your saved media."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:48]",
+      "end_time": "[09:54]",
+      "start_time_sec": 588,
+      "text": "That is incredible. My husband would have been heartbroken if his shows were gone.",
+      "sentiment_score": 29.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:58]",
+      "end_time": "[10:05]",
+      "start_time_sec": 598,
+      "text": "Could you try fast-forwarding and rewinding five seconds on a recording just to confirm playback responsiveness?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:09]",
+      "end_time": "[10:16]",
+      "start_time_sec": 609,
+      "text": "Testing on a saved nature documentary... rewind works smoothly, play resumes instantly with no stuttering.",
+      "sentiment_score": 31.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:20]",
+      "end_time": "[10:30]",
+      "start_time_sec": 620,
+      "text": "Let's also check your standby power settings in the System menu so the hard drive doesn't go into a deep sleep deadlock overnight."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:34]",
+      "end_time": "[10:37]",
+      "start_time_sec": 634,
+      "text": "Where are the standby settings located?",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:41]",
+      "end_time": "[10:49]",
+      "start_time_sec": 641,
+      "text": "Press Home, go to Settings, then System, then Standby Power. Set it to Fast Start instead of Eco Mode."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:53]",
+      "end_time": "[10:57]",
+      "start_time_sec": 653,
+      "text": "Changing it to Fast Start right now... selected and saved.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:01]",
+      "end_time": "[11:08]",
+      "start_time_sec": 661,
+      "text": "Fast Start ensures the hard drive stays warm and ready for scheduled recordings without spinning down completely."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:12]",
+      "end_time": "[11:15]",
+      "start_time_sec": 672,
+      "text": "That will definitely prevent this from happening again.",
+      "sentiment_score": 21.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:19]",
+      "end_time": "[11:26]",
+      "start_time_sec": 679,
+      "text": "Does the voice search button on the remote work when you hold down the microphone key?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:30]",
+      "end_time": "[11:36]",
+      "start_time_sec": 690,
+      "text": "Holding the microphone button... saying 'Wimbledon'... and the screen immediately showed the tournament schedule!",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:40]",
+      "end_time": "[11:47]",
+      "start_time_sec": 700,
+      "text": "Voice search confirms the Bluetooth high-bandwidth audio channel between remote and box is fully calibrated."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:51]",
+      "end_time": "[11:56]",
+      "start_time_sec": 711,
+      "text": "That's so handy, I didn't even know this remote had voice control.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:00]",
+      "end_time": "[12:09]",
+      "start_time_sec": 720,
+      "text": "Let's also make sure your HDMI resolution is locked at 4K 2160p rather than automatic under Audio and Video settings."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:13]",
+      "end_time": "[12:19]",
+      "start_time_sec": 733,
+      "text": "Checking Audio and Video... resolution is set to 2160p 50Hz, picture looks incredibly sharp.",
+      "sentiment_score": 26.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:23]",
+      "end_time": "[12:29]",
+      "start_time_sec": 743,
+      "text": "And is your soundbar or television volume controlled by the 360 remote properly now?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:33]",
+      "end_time": "[12:39]",
+      "start_time_sec": 753,
+      "text": "Yes, volume up and down controls the TV volume directly with no delay.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:43]",
+      "end_time": "[12:49]",
+      "start_time_sec": 763,
+      "text": "The disk read and write speeds are completely healthy on our telemetry monitor now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:53]",
+      "end_time": "[13:02]",
+      "start_time_sec": 773,
+      "text": "Fiona, you have been an absolute lifesaver. You fixed the remote, saved all our recordings, and got the tennis back on.",
+      "sentiment_score": 36.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:06]",
+      "end_time": "[13:15]",
+      "start_time_sec": 786,
+      "text": "It was my genuine pleasure helping you, Olivia. I'm so glad you can enjoy the rest of the tennis finals."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:19]",
+      "end_time": "[13:23]",
+      "start_time_sec": 799,
+      "text": "Thank you so much for your patience with me.",
+      "sentiment_score": 26.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:27]",
+      "end_time": "[13:34]",
+      "start_time_sec": 807,
+      "text": "Is there anything else with your TV or broadband service that I can assist you with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:38]",
+      "end_time": "[13:42]",
+      "start_time_sec": 818,
+      "text": "No, everything is working perfectly now. Thank you Fiona!",
+      "sentiment_score": 22.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:46]",
+      "end_time": "[13:53]",
+      "start_time_sec": 826,
+      "text": "Thank you for choosing S-Net today, Olivia. Enjoy the tennis and have a wonderful weekend."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:57]",
+      "end_time": "[14:00]",
+      "start_time_sec": 837,
+      "text": "Thanks Fiona, goodbye!",
+      "sentiment_score": 7.1
+    }
+  ]
+}

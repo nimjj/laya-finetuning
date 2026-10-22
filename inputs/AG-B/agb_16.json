@@ -1,0 +1,508 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Priya",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer support. My name is Craig. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:25]",
+      "start_time_sec": 10,
+      "text": "Hello Craig. I'm calling about my broadband speed. I pay for the Fibre 75 package with a 70 megabit Stay-Fast Guarantee, but for the last three days I've been getting barely 12 megabits.",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:28]",
+      "end_time": "[00:40]",
+      "start_time_sec": 28,
+      "text": "I can certainly look into that speed discrepancy for you, Priya. May I verify your billing address and your security question answer for account security?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:43]",
+      "end_time": "[00:52]",
+      "start_time_sec": 43,
+      "text": "Yes, it's 45 Parkside Gardens, Coventry, CV3 2NT. And the security question answer is my first pet, Jasper.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:55]",
+      "end_time": "[01:03]",
+      "start_time_sec": 55,
+      "text": "Thank you Priya, that verifies your account file. Now let's see what is happening with the speed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:06]",
+      "end_time": "[01:18]",
+      "start_time_sec": 66,
+      "text": "It's been so frustrating trying to work from home. Video calls keep pixelating and dropping audio, and large file downloads take hours.",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:21]",
+      "end_time": "[01:35]",
+      "start_time_sec": 81,
+      "text": "Getting only twelve megabits when you're paying for seventy is very frustrating, Priya, especially when you rely on stable video calls for work. Let's look into the line test immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:38]",
+      "end_time": "[01:42]",
+      "start_time_sec": 98,
+      "text": "Thank you Craig, I appreciate that.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:45]",
+      "end_time": "[02:03]",
+      "start_time_sec": 105,
+      "text": "So if I have understood correctly, your broadband throughput has collapsed to approximately twelve megabits per second over the last three days, falling well below your seventy megabit minimum guarantee and causing video call drops. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:06]",
+      "end_time": "[02:10]",
+      "start_time_sec": 126,
+      "text": "Yes, that is exactly right.",
+      "sentiment_score": 5.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:13]",
+      "end_time": "[02:19]",
+      "start_time_sec": 133,
+      "text": "I will run the automated copper line diagnostic from our exchange console."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:22]",
+      "end_time": "[02:24]",
+      "start_time_sec": 142,
+      "text": "Okay.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:12]",
+      "end_time": "[03:25]",
+      "start_time_sec": 192,
+      "text": "The line test completed. It shows a high resistance fault on the B-leg of the copper pair approximately three hundred meters from your property."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:28]",
+      "end_time": "[03:33]",
+      "start_time_sec": 208,
+      "text": "What does a high resistance fault mean exactly?",
+      "sentiment_score": -6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:36]",
+      "end_time": "[03:51]",
+      "start_time_sec": 216,
+      "text": "Obviously high resistance faults occur when copper wire joints suffer rainwater corrosion or oxidation in an underground joint box, causing severe electrical signal attenuation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:54]",
+      "end_time": "[04:01]",
+      "start_time_sec": 234,
+      "text": "Ah, we did have very heavy rain here on Sunday evening, so that matches when it started.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:04]",
+      "end_time": "[04:18]",
+      "start_time_sec": 244,
+      "text": "Because this fault is situated on the external Openreach local loop, an Openreach engineer must be dispatched to locate and replace the corroded joint."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:21]",
+      "end_time": "[04:25]",
+      "start_time_sec": 261,
+      "text": "Can you book that engineer for me today?",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:28]",
+      "end_time": "[04:37]",
+      "start_time_sec": 268,
+      "text": "Yes, I am opening the Openreach engineering booking portal to find available appointment slots."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:40]",
+      "end_time": "[04:44]",
+      "start_time_sec": 280,
+      "text": "Okay, let me know what slots are available.",
+      "sentiment_score": 7.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:34]",
+      "end_time": "[05:42]",
+      "start_time_sec": 334,
+      "text": "I have found an engineer slot available for tomorrow between one PM and six PM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:45]",
+      "end_time": "[05:58]",
+      "start_time_sec": 345,
+      "text": "Tomorrow afternoon between one and six works perfectly for me. Do I need to be in the house, or can the Openreach technician carry out all the necessary diagnostics and splicing entirely from the street cabinet?",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:01]",
+      "end_time": "[06:16]",
+      "start_time_sec": 361,
+      "text": "Yes, an adult over eighteen must be present at the premises because the engineer will require access to test the master telephone socket inside your hallway to verify voltage and sync speeds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:19]",
+      "end_time": "[06:26]",
+      "start_time_sec": 379,
+      "text": "I work from home all day tomorrow, so I will definitely be present throughout that entire engineering window.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:29]",
+      "end_time": "[06:40]",
+      "start_time_sec": 389,
+      "text": "I have confirmed and reserved the engineer appointment for tomorrow afternoon, Priya, and added notes to prioritize testing from your hallway test socket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:43]",
+      "end_time": "[06:50]",
+      "start_time_sec": 403,
+      "text": "Will I get an SMS notification before they arrive, so I know when they are pulling up outside?",
+      "sentiment_score": 9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:53]",
+      "end_time": "[07:04]",
+      "start_time_sec": 413,
+      "text": "Yes, the Openreach engineer will send an automated text message approximately thirty minutes prior to arrival at your property."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:07]",
+      "end_time": "[07:10]",
+      "start_time_sec": 427,
+      "text": "That's very helpful.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:13]",
+      "end_time": "[07:23]",
+      "start_time_sec": 433,
+      "text": "Just to check, Priya, is your landline telephone handset operating with a clear dial tone right now?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:26]",
+      "end_time": "[07:33]",
+      "start_time_sec": 446,
+      "text": "Yes, the phone line has a dial tone, though there was a slight background hiss.",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:36]",
+      "end_time": "[07:44]",
+      "start_time_sec": 456,
+      "text": "The slight hiss is consistent with the high resistance fault on the copper pair."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:47]",
+      "end_time": "[07:50]",
+      "start_time_sec": 467,
+      "text": "That makes total sense.",
+      "sentiment_score": 10.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:53]",
+      "end_time": "[08:07]",
+      "start_time_sec": 473,
+      "text": "Because your speed dropped below the Stay-Fast Guarantee of seventy megabits, I have applied an automatic credit of fifteen pounds to your next monthly bill."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:10]",
+      "end_time": "[08:20]",
+      "start_time_sec": 490,
+      "text": "Oh, thank you Craig! That is very fair and transparent customer service from S-Net to apply that discount automatically without me having to argue for it.",
+      "sentiment_score": 32.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:23]",
+      "end_time": "[08:37]",
+      "start_time_sec": 503,
+      "text": "I have documented the high resistance fault code and Openreach appointment reference number OR-882914 on your file, and applied the compensation credit immediately to your active ledger."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:40]",
+      "end_time": "[08:48]",
+      "start_time_sec": 520,
+      "text": "Let me write that down: OR-882914. Thank you so much for ensuring all the job details and credits are in order.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:51]",
+      "end_time": "[09:02]",
+      "start_time_sec": 531,
+      "text": "Let us also check the mobile number on file so the Openreach dispatch team can contact you if they arrive earlier."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:05]",
+      "end_time": "[09:11]",
+      "start_time_sec": 545,
+      "text": "Yes, my mobile number is 07700 900341.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:14]",
+      "end_time": "[09:22]",
+      "start_time_sec": 554,
+      "text": "I have confirmed that contact number on the engineering dispatch notes, Priya."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:25]",
+      "end_time": "[09:30]",
+      "start_time_sec": 565,
+      "text": "Wonderful. And what should I expect once the engineer finishes?",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:33]",
+      "end_time": "[09:46]",
+      "start_time_sec": 573,
+      "text": "Once the copper joint is respliced, your Hub will automatically resynchronize with the cabinet DSLAM at full 75 megabit sync speed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:49]",
+      "end_time": "[09:55]",
+      "start_time_sec": 589,
+      "text": "I will run a speed test as soon as they complete the job.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:58]",
+      "end_time": "[10:11]",
+      "start_time_sec": 598,
+      "text": "Remember to keep your Hub powered on continuously tonight so the dynamic line management system can monitor signal-to-noise ratio."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:14]",
+      "end_time": "[10:20]",
+      "start_time_sec": 614,
+      "text": "I'll make sure nobody turns the power socket off overnight.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:23]",
+      "end_time": "[10:35]",
+      "start_time_sec": 623,
+      "text": "We will also send an automated SMS follow-up once Openreach marks the engineering job completed on the exchange system."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:38]",
+      "end_time": "[10:42]",
+      "start_time_sec": 638,
+      "text": "That will give me total peace of mind.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:45]",
+      "end_time": "[10:55]",
+      "start_time_sec": 645,
+      "text": "Can you also access your S-Net mobile app to track real-time engineering progress tomorrow?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:58]",
+      "end_time": "[11:06]",
+      "start_time_sec": 658,
+      "text": "Yes, I have the S-Net app installed on my iPhone, I can see the Service Health tab.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:09]",
+      "end_time": "[11:20]",
+      "start_time_sec": 669,
+      "text": "You will be able to see the engineer's estimated arrival time window update live on that screen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:23]",
+      "end_time": "[11:29]",
+      "start_time_sec": 683,
+      "text": "That is very convenient for planning my working day around my meetings.",
+      "sentiment_score": 21.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:32]",
+      "end_time": "[11:45]",
+      "start_time_sec": 692,
+      "text": "If you need emergency tethering data while the line is slow, we can also add a free ten gigabyte mobile data booster to your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:48]",
+      "end_time": "[11:55]",
+      "start_time_sec": 708,
+      "text": "Oh, that would be fantastic for my afternoon Zoom call with our international clients!",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:58]",
+      "end_time": "[12:06]",
+      "start_time_sec": 718,
+      "text": "I have provisioned that ten gigabyte emergency backup bundle right now, Priya."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:09]",
+      "end_time": "[12:15]",
+      "start_time_sec": 729,
+      "text": "Thank you Craig, that makes a world of difference for my work today.",
+      "sentiment_score": 31.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:18]",
+      "end_time": "[12:29]",
+      "start_time_sec": 738,
+      "text": "The engineering team will also have notes indicating our driveway gate entry code so they can park safely."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:32]",
+      "end_time": "[12:39]",
+      "start_time_sec": 752,
+      "text": "Yes, the gate code is 4491, I will leave the outer gate open in the afternoon.",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:42]",
+      "end_time": "[12:50]",
+      "start_time_sec": 762,
+      "text": "I have added that access instruction directly into the engineer job ticket, Priya."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:53]",
+      "end_time": "[13:01]",
+      "start_time_sec": 773,
+      "text": "What happens if the engineer needs to replace the internal master socket faceplate as well?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:04]",
+      "end_time": "[13:18]",
+      "start_time_sec": 784,
+      "text": "The Openreach technician carries NTE5C master sockets on their van and will replace the faceplate free of charge under our service guarantee."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:21]",
+      "end_time": "[13:27]",
+      "start_time_sec": 801,
+      "text": "That is reassuring to know there are no hidden call-out charges.",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:30]",
+      "end_time": "[13:40]",
+      "start_time_sec": 810,
+      "text": "All external line repairs and standard master socket replacements are fully covered by S-Net."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:43]",
+      "end_time": "[13:47]",
+      "start_time_sec": 823,
+      "text": "Thank you Craig, you have thought of everything.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:50]",
+      "end_time": "[13:58]",
+      "start_time_sec": 830,
+      "text": "Is there anything else regarding your broadband service that I can help you with today, Priya?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:01]",
+      "end_time": "[14:07]",
+      "start_time_sec": 841,
+      "text": "No, that's everything. Thank you for booking the engineer so quickly.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:10]",
+      "end_time": "[14:21]",
+      "start_time_sec": 850,
+      "text": "You may receive a brief survey via SMS after this call; we would appreciate your feedback on the service provided today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:23]",
+      "end_time": "[14:27]",
+      "start_time_sec": 863,
+      "text": "I'll give you a positive score. Thank you, goodbye.",
+      "sentiment_score": 26.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:29]",
+      "end_time": "[14:35]",
+      "start_time_sec": 869,
+      "text": "Thank you for choosing S-Net, Priya. Have a great day and goodbye."
+    }
+  ]
+}

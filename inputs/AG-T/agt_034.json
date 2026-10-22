@@ -1,0 +1,448 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Fiona",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Bradley. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:14]",
+      "end_time": "[00:34]",
+      "start_time_sec": 14,
+      "text": "Hello Bradley. I am so annoyed with this TV box. Ever since the software update ran automatically yesterday, the voice remote has completely broken. The microphone button does nothing, and the remote only works if I point it directly at the sensor from two feet away!",
+      "sentiment_score": -38.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:41]",
+      "end_time": "[00:52]",
+      "start_time_sec": 41,
+      "text": "I can help you troubleshoot the TV remote control. Before we do, let's complete account verification. What is your full name and the installation address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:59]",
+      "end_time": "[01:02]",
+      "start_time_sec": 59,
+      "text": "Fiona MacLeod, 34 Glenurquhart Road, Inverness, IV3 5PB.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:09]",
+      "end_time": "[01:13]",
+      "start_time_sec": 69,
+      "text": "And what is the security PIN on the account, Fiona?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:20]",
+      "end_time": "[01:23]",
+      "start_time_sec": 80,
+      "text": "It's 8294.",
+      "sentiment_score": -5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:30]",
+      "end_time": "[01:36]",
+      "start_time_sec": 90,
+      "text": "What make and model of television is the S-Net TV box connected to?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[01:47]",
+      "start_time_sec": 103,
+      "text": "It is connected to a fifty-five-inch LG OLED television.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:54]",
+      "end_time": "[02:04]",
+      "start_time_sec": 114,
+      "text": "When you press the microphone button on the remote, does the blue microphone icon appear in the corner of your TV screen?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:11]",
+      "end_time": "[02:18]",
+      "start_time_sec": 131,
+      "text": "No, nothing appears on screen at all, and the little light on the remote doesn't illuminate.",
+      "sentiment_score": -16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:25]",
+      "end_time": "[02:34]",
+      "start_time_sec": 145,
+      "text": "That means the remote has fallen back to infrared line-of-sight mode because the Bluetooth connection dropped during the box firmware update."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:41]",
+      "end_time": "[02:54]",
+      "start_time_sec": 161,
+      "text": "I bought this voice service specifically so my visually impaired son could search for children's shows without fiddling with tiny menus! It is infuriating that your updates keep breaking things!",
+      "sentiment_score": -44.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:01]",
+      "end_time": "[03:07]",
+      "start_time_sec": 181,
+      "text": "The overnight firmware upgrade patched the Android TV security layer across all set-top boxes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:14]",
+      "end_time": "[03:19]",
+      "start_time_sec": 194,
+      "text": "I don't care about security patches if basic functions stop working.",
+      "sentiment_score": -24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:26]",
+      "end_time": "[03:31]",
+      "start_time_sec": 206,
+      "text": "Obviously Bluetooth peripherals require re-authentication if the cryptographic handshake keys are rotated."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:38]",
+      "end_time": "[03:41]",
+      "start_time_sec": 218,
+      "text": "Well, how do we re-authenticate it?",
+      "sentiment_score": -10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:48]",
+      "end_time": "[03:54]",
+      "start_time_sec": 228,
+      "text": "Take the remote and stand about three feet in front of the TV box."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:01]",
+      "end_time": "[04:04]",
+      "start_time_sec": 241,
+      "text": "Standing right in front of the box.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:11]",
+      "end_time": "[04:21]",
+      "start_time_sec": 251,
+      "text": "First we need to wipe the old Bluetooth pairing. Hold down the Home button and the Back button together for five seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:28]",
+      "end_time": "[04:34]",
+      "start_time_sec": 268,
+      "text": "Holding Home and Back together... The red LED at the top is flashing rapidly.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:41]",
+      "end_time": "[04:51]",
+      "start_time_sec": 281,
+      "text": "Release the buttons when the red flash stops. Now pull one of the AAA batteries out of the back of the remote."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:58]",
+      "end_time": "[05:01]",
+      "start_time_sec": 298,
+      "text": "Battery removed.",
+      "sentiment_score": 5.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:08]",
+      "end_time": "[05:14]",
+      "start_time_sec": 308,
+      "text": "Wait ten seconds, put the battery back in, and look at the TV screen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:29]",
+      "end_time": "[05:32]",
+      "start_time_sec": 329,
+      "text": "Battery replaced.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:39]",
+      "end_time": "[05:49]",
+      "start_time_sec": 339,
+      "text": "While we are on the remote settings, would you like to pair the remote to control your LG TV's volume and power directly?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:56]",
+      "end_time": "[06:03]",
+      "start_time_sec": 356,
+      "text": "Can it control the TV power as well? That would mean putting away the other remote!",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:10]",
+      "end_time": "[06:18]",
+      "start_time_sec": 370,
+      "text": "Yes, go into Settings on the TV box, select 'Remotes & Accessories', and click 'Set up TV buttons'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:25]",
+      "end_time": "[06:30]",
+      "start_time_sec": 385,
+      "text": "Clicked Set up TV buttons. It's asking for the TV brand.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:37]",
+      "end_time": "[06:43]",
+      "start_time_sec": 397,
+      "text": "Select 'LG'. The box will send three test power codes to your television."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:50]",
+      "end_time": "[06:54]",
+      "start_time_sec": 410,
+      "text": "Selected LG. Code 1 was sent... The TV muted immediately!",
+      "sentiment_score": 22.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:01]",
+      "end_time": "[07:06]",
+      "start_time_sec": 421,
+      "text": "Confirm that the volume buttons now adjust the LG television internal speakers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:13]",
+      "end_time": "[07:19]",
+      "start_time_sec": 433,
+      "text": "Pressed volume down, and the LG volume bar appeared! That is so convenient!",
+      "sentiment_score": 32.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:26]",
+      "end_time": "[07:31]",
+      "start_time_sec": 446,
+      "text": "Now press and hold the Voice button and the OK button simultaneously."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:38]",
+      "end_time": "[07:41]",
+      "start_time_sec": 458,
+      "text": "Holding Voice and OK together...",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:51]",
+      "end_time": "[07:56]",
+      "start_time_sec": 471,
+      "text": "The LED should flash blue twice to indicate Bluetooth pairing mode."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:03]",
+      "end_time": "[08:10]",
+      "start_time_sec": 483,
+      "text": "Yes! It flashed blue twice, and a message on the TV screen says 'Searching for remote accessories'.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:17]",
+      "end_time": "[08:24]",
+      "start_time_sec": 497,
+      "text": "Keep pointing the remote at the box while the firmware re-pairs. Bear with me for thirty seconds."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:59]",
+      "end_time": "[09:05]",
+      "start_time_sec": 539,
+      "text": "Thank you for waiting, Fiona. Does the screen now display 'S-Net Voice Remote Connected'?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:12]",
+      "end_time": "[09:16]",
+      "start_time_sec": 552,
+      "text": "Yes! It says 'Remote Connected via Bluetooth, Battery Level 100%'.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:23]",
+      "end_time": "[09:31]",
+      "start_time_sec": 563,
+      "text": "Let me check the TV hardware again. What make and model of television is the box plugged into?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:38]",
+      "end_time": "[09:43]",
+      "start_time_sec": 578,
+      "text": "As I told you earlier, it's an LG OLED fifty-five inch.",
+      "sentiment_score": -16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:50]",
+      "end_time": "[09:55]",
+      "start_time_sec": 590,
+      "text": "Right, now test pressing the microphone button and say 'Open YouTube'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:02]",
+      "end_time": "[10:11]",
+      "start_time_sec": 602,
+      "text": "Pressed the mic button and said 'Open YouTube'... The microphone wave graphic lit up, and YouTube is opening on screen!",
+      "sentiment_score": 36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:18]",
+      "end_time": "[10:23]",
+      "start_time_sec": 618,
+      "text": "Now test voice searching for a specific programme, like 'BBC News'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:30]",
+      "end_time": "[10:35]",
+      "start_time_sec": 630,
+      "text": "Said 'BBC News'... It displayed search results for live BBC channels instantly!",
+      "sentiment_score": 39.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:42]",
+      "end_time": "[10:49]",
+      "start_time_sec": 642,
+      "text": "And can you test controlling volume from across the room without pointing directly at the box?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:56]",
+      "end_time": "[11:06]",
+      "start_time_sec": 656,
+      "text": "I'm walking back to the sofa around the corner... Pressed volume up, and the TV volume changed smoothly! Bluetooth is completely back!",
+      "sentiment_score": 42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:13]",
+      "end_time": "[11:18]",
+      "start_time_sec": 673,
+      "text": "That confirms full omnidirectional Bluetooth coverage and voice microphone operation are restored."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:25]",
+      "end_time": "[11:31]",
+      "start_time_sec": 685,
+      "text": "My son will be so happy he can use his voice commands again.",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:38]",
+      "end_time": "[11:46]",
+      "start_time_sec": 698,
+      "text": "Just to confirm your billing contact email on file, it's fiona dot macleod at highland dot scot, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:53]",
+      "end_time": "[11:56]",
+      "start_time_sec": 713,
+      "text": "Yes, that's my email.",
+      "sentiment_score": 10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:03]",
+      "end_time": "[12:11]",
+      "start_time_sec": 723,
+      "text": "I will leave notes on your account so future firmware updates do not interrupt your voice remote pairing profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:18]",
+      "end_time": "[12:21]",
+      "start_time_sec": 738,
+      "text": "Thank you Bradley, that's very reassuring.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:28]",
+      "end_time": "[12:34]",
+      "start_time_sec": 748,
+      "text": "Just to confirm for the record, the installation address is 34 Glenurquhart Road, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:41]",
+      "end_time": "[12:44]",
+      "start_time_sec": 761,
+      "text": "Yes, 34 Glenurquhart Road.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:51]",
+      "end_time": "[12:58]",
+      "start_time_sec": 771,
+      "text": "Is there anything else with your TV or broadband that I can assist you with today, Fiona?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:05]",
+      "end_time": "[13:13]",
+      "start_time_sec": 785,
+      "text": "No, the voice remote was the only issue, and it's working better than before. Thanks for your help.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:20]",
+      "end_time": "[13:25]",
+      "start_time_sec": 800,
+      "text": "Thank you for choosing S-Net, Fiona, and have a wonderful day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:32]",
+      "end_time": "[13:35]",
+      "start_time_sec": 812,
+      "text": "Thank you Bradley, goodbye.",
+      "sentiment_score": 22.0
+    }
+  ]
+}

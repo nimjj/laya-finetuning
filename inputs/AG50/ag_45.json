@@ -1,0 +1,582 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Maximilian",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:04]",
+      "start_time_sec": 0,
+      "text": "Good morning, thank you for calling S-Net Broadband Technical Support. My name is Ross, how can I help you today?",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:05]",
+      "end_time": "[00:20]",
+      "start_time_sec": 5,
+      "text": "Hi Ross, it's Maximilian here. I'm really frustrated this morning because my employer's work-from-home cyber-security audit tool flagged WPS as enabled on my S-Net Hub 4, and when I try logging into the router admin page using the factory card password on the back, it keeps rejecting it!",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:21]",
+      "end_time": "[00:31]",
+      "start_time_sec": 21,
+      "text": "I'm really sorry for the frustration and hassle that's causing you this morning, Maximilian, especially when you're trying to pass your employer's home-working security audit. I completely understand why you need into those settings quickly.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:32]",
+      "end_time": "[00:44]",
+      "start_time_sec": 32,
+      "text": "Yeah, my IT compliance team gave me until five o'clock today to submit a clean scan showing WPS push-button is disabled, uh, and now I'm locked out of the router login screen for five minutes after three failed tries.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:45]",
+      "end_time": "[00:54]",
+      "start_time_sec": 45,
+      "text": "Don't worry, Maximilian, I will take full ownership of getting your S-Net Hub 4 admin password working and making sure WPS is completely disabled on your router before we finish this call.",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:55]",
+      "end_time": "[00:57]",
+      "start_time_sec": 55,
+      "text": "Thank you, Ross, I appreciate that.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:58]",
+      "end_time": "[01:15]",
+      "start_time_sec": 58,
+      "text": "So just to paraphrase both parts of what we need to solve today: first, your S-Net Hub 4 admin interface is rejecting the twelve-character password printed on the pull-out plastic card, and second, once we get you logged in, you need to disable WPS so your network passes your workplace security audit.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:16]",
+      "end_time": "[01:25]",
+      "start_time_sec": 76,
+      "text": "Yes, that's 100 percent it. I haven't changed the admin password myself as far as I remember, so I have no clue why the sticker password on the pull-out card says 'Incorrect password'.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:26]",
+      "end_time": "[01:34]",
+      "start_time_sec": 86,
+      "text": "Let's get your account verified first so I can inspect your S-Net Hub 4 remotely, Maximilian. Could you please confirm the first line of your home address and your postcode?",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:35]",
+      "end_time": "[01:37]",
+      "start_time_sec": 95,
+      "text": "Sure, it's 14 Grosvenor Crescent, Edinburgh, EH12 5AF.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:38]",
+      "end_time": "[01:42]",
+      "start_time_sec": 98,
+      "text": "Thank you. And could you also confirm your four-digit account PIN or the answer to your memorable security question?",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[01:45]",
+      "start_time_sec": 103,
+      "text": "My four-digit PIN is 6104, and my security question answer is Cairngorms.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:46]",
+      "end_time": "[01:54]",
+      "start_time_sec": 106,
+      "text": "Spot on, that's all verified, Maximilian. Before I check the router's remote management console, let me ask a couple of diagnostic questions about how you're connecting to the Hub 4.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:55]",
+      "end_time": "[02:02]",
+      "start_time_sec": 115,
+      "text": "Go ahead—I'm sitting right next to the router browsing from Safari on my MacBook Pro over my home Wi-Fi, and I typed `192.168.1.1` into the Safari URL bar.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:03]",
+      "end_time": "[02:12]",
+      "start_time_sec": 123,
+      "text": "Good, and when the S-Net Hub 4 login prompt comes up at `192.168.1.1`, does it show just a single password box or is it asking for both a username and a password?",
+      "sentiment_score": 36.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:13]",
+      "end_time": "[02:21]",
+      "start_time_sec": 133,
+      "text": "It just shows the single 'Settings Password' field, uh, and I typed the exact twelve characters from the 'Settings Password' line on the plastic card—not the Wi-Fi password above it.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:22]",
+      "end_time": "[02:32]",
+      "start_time_sec": 142,
+      "text": "Good catch checking that it wasn't the Wi-Fi passphrase—a lot of people mix those two lines up on the pull-out card. Did you type it in all uppercase letters as printed on the card?",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:33]",
+      "end_time": "[02:39]",
+      "start_time_sec": 153,
+      "text": "Yes, every single letter was uppercase and I checked the numbers three times to make sure I wasn't mixing up a zero and an O.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:40]",
+      "end_time": "[02:45]",
+      "start_time_sec": 160,
+      "text": "Next diagnostic question, Maximilian: did we upgrade you to this S-Net Hub 4 from an older S-Net Hub 3 in the last year?",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:46]",
+      "end_time": "[02:57]",
+      "start_time_sec": 166,
+      "text": "Actually yes! About four months ago you sent me the S-Net Hub 4 to replace my old Hub 3, and the setup app said it automatically imported my custom Wi-Fi name and port-forwarding settings from the cloud backup.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:58]",
+      "end_time": "[03:15]",
+      "start_time_sec": 178,
+      "text": "Aha! That cloud backup migration from your old Hub 3 is the exact culprit, Maximilian. When the cloud profile restores your custom SSID and port-forwarding rules onto a replacement Hub 4, it also overwrites the Hub 4's local admin password hash with whatever admin password was stored on the old Hub 3!",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:16]",
+      "end_time": "[03:22]",
+      "start_time_sec": 196,
+      "text": "Oh! You're kidding me—and I recycled that old Hub 3 months ago, so I don't have the plastic card from the old Hub 3 anymore!",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:23]",
+      "end_time": "[03:35]",
+      "start_time_sec": 203,
+      "text": "And if we did a pinhole factory reset on the back of your Hub 4, that would restore the Hub 4 card password, but it would also wipe out all your custom port-forwarding rules and Wi-Fi settings.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:36]",
+      "end_time": "[03:44]",
+      "start_time_sec": 216,
+      "text": "Yeah, please don't wipe my port-forwarding rules if we can avoid it—I have six static DHCP reservations and SSH rules set up for my home Synology NAS server!",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:45]",
+      "end_time": "[04:00]",
+      "start_time_sec": 225,
+      "text": "We definitely won't do a pinhole reset then. Instead, I can use our remote TR-069 management console to overwrite just the local Web GUI administrator password hash back to the twelve-character factory key on your Hub 4's card without touching your DHCP or port-forwarding tables.",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:01]",
+      "end_time": "[04:06]",
+      "start_time_sec": 241,
+      "text": "Wait, you can reset just the admin login password remotely from your end while keeping all my NAS port-forwarding rules intact?",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:07]",
+      "end_time": "[04:17]",
+      "start_time_sec": 247,
+      "text": "Yes, I can push a single parameter update to `Device.Users.User.1.Password` on your Hub 4. Just a sec while I check the TR-069 management console.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:51]",
+      "end_time": "[05:00]",
+      "start_time_sec": 291,
+      "text": "Right, I'm looking at the CPE parameter tree for your S-Net Hub 4 serial number `SNH4-882910` now, and I can see the `CloudRestore_LegacyHash` flag is indeed active on user slot one.",
+      "sentiment_score": 34.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:01]",
+      "end_time": "[05:05]",
+      "start_time_sec": 301,
+      "text": "Okay, so that proves it was still expecting the old Hub 3 admin password from four months ago!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:06]",
+      "end_time": "[05:18]",
+      "start_time_sec": 306,
+      "text": "100 percent, Maximilian. I can also see in the TR-069 radio tree why your employer's security scanner flagged your network: both the 2.4GHz and 5GHz radios currently have `WPS.Enable` set to `True` with Push-Button and PIN modes active.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:19]",
+      "end_time": "[05:24]",
+      "start_time_sec": 319,
+      "text": "Ugh, yeah, the corporate security audit specifically flagged WPS PIN and Push-Button mode as a brute-force vulnerability on home routers.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:25]",
+      "end_time": "[05:34]",
+      "start_time_sec": 325,
+      "text": "Also, is the white status LED ring on the front of your S-Net Hub 4 solid white right now, or is the WPS pair button on the side flashing?",
+      "sentiment_score": 36.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:35]",
+      "end_time": "[05:42]",
+      "start_time_sec": 335,
+      "text": "The front ring is solid white and the side button isn't flashing, uh, it's just that the WPS feature itself is enabled in the router broadcasts.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:43]",
+      "end_time": "[05:55]",
+      "start_time_sec": 343,
+      "text": "Got it. Now can you read me the last four characters of the twelve-character 'Settings Password' printed on the pull-out plastic card of your Hub 4 so I can verify it matches the factory seed in my database?",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:56]",
+      "end_time": "[06:03]",
+      "start_time_sec": 356,
+      "text": "Let me pull the little grey card out from the bottom slot of the Hub 4... the last four characters of the Settings Password are `9K4P`.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:04]",
+      "end_time": "[06:13]",
+      "start_time_sec": 364,
+      "text": "Perfect, `9K4P` matches the factory credential record `FKEY-9920-9K4P` stored against serial `SNH4-882910`. I am now going to push that exact factory credential hash into `Device.Users.User.1.Password` and clear the five-minute lockout timer.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:14]",
+      "end_time": "[06:16]",
+      "start_time_sec": 374,
+      "text": "Will pushing that credential update drop my Wi-Fi connection or reboot the router?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:17]",
+      "end_time": "[06:28]",
+      "start_time_sec": 377,
+      "text": "No, updating the local HTTP admin credential via TR-069 only restarts the lightweight web-server daemon on the router, so your Wi-Fi stays up. Hold on while that syncs.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:06]",
+      "end_time": "[07:13]",
+      "start_time_sec": 426,
+      "text": "Okay, the remote credential hash has finished writing to the hub and the HTTP management daemon just restarted cleanly with zero packet loss on your line.",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:14]",
+      "end_time": "[07:17]",
+      "start_time_sec": 434,
+      "text": "That was quick, my Wi-Fi didn't even blink. Should I try logging into `192.168.1.1` now?",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:18]",
+      "end_time": "[07:26]",
+      "start_time_sec": 438,
+      "text": "Let me just check the HTTP session table on your Hub 4 first—okay, the old failed login attempts from ten minutes ago have been flushed from memory.",
+      "sentiment_score": 34.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:27]",
+      "end_time": "[07:29]",
+      "start_time_sec": 447,
+      "text": "Great, I still have the `192.168.1.1` tab open right in front of me.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:30]",
+      "end_time": "[07:34]",
+      "start_time_sec": 450,
+      "text": "Before you type the password in, sometimes the browser caches the lockout state locally on the client machine.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:35]",
+      "end_time": "[07:37]",
+      "start_time_sec": 455,
+      "text": "Right, so I should do a hard reload of the login page first?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:38]",
+      "end_time": "[07:42]",
+      "start_time_sec": 458,
+      "text": "Yes, a hard reload is best—and which web browser and operating system are you using to open `192.168.1.1`?",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:43]",
+      "end_time": "[07:48]",
+      "start_time_sec": 463,
+      "text": "Uh, Ross, I mentioned earlier near the start of the call that I'm using Safari on my MacBook Pro.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:49]",
+      "end_time": "[08:01]",
+      "start_time_sec": 469,
+      "text": "Ah, my apologies, Maximilian, you did tell me earlier you were on Safari on your MacBook Pro! On Safari, please press `Command + Option + R` on the `192.168.1.1` page first so Safari dumps the cached lockout token.",
+      "sentiment_score": 36.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:02]",
+      "end_time": "[08:11]",
+      "start_time_sec": 482,
+      "text": "Okay, pressing `Command + Option + R` in Safari right now... the S-Net Hub 4 login screen just reloaded fresh, and the red 'Locked out for 5 minutes' message is gone.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:12]",
+      "end_time": "[08:19]",
+      "start_time_sec": 492,
+      "text": "Great! Now type in the twelve-character Settings Password from your Hub 4 pull-out card ending in `9K4P` and click the green Sign In button.",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:20]",
+      "end_time": "[08:25]",
+      "start_time_sec": 500,
+      "text": "Typing the twelve characters ending in `9K4P`... clicking Sign In... yes! I'm in! The S-Net Hub 4 Admin Dashboard just opened!",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:26]",
+      "end_time": "[08:36]",
+      "start_time_sec": 506,
+      "text": "Brilliant! And just to give you peace of mind first, if you glance at the left-hand menu under `Advanced Settings -> Security -> Port Forwarding`, are your six NAS server rules still intact?",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:37]",
+      "end_time": "[08:45]",
+      "start_time_sec": 517,
+      "text": "Let me click `Advanced Settings`, then `Security`, then `Port Forwarding`... yes, all six of my Synology NAS rules and static DHCP leases are still sitting right there untouched!",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:46]",
+      "end_time": "[08:56]",
+      "start_time_sec": 526,
+      "text": "Exactly as promised, Maximilian. Now let's disable WPS completely so your workplace security audit passes with flying colours. In that same left-hand menu under `Advanced Settings`, click on `Wireless` and then select `WPS`.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:57]",
+      "end_time": "[09:08]",
+      "start_time_sec": 537,
+      "text": "Okay, I clicked `Wireless` and now I'm on the `WPS (Wi-Fi Protected Setup)` page. I see a master toggle switch at the top that says 'Enable WPS: ON', and underneath it lists 2.4GHz and 5GHz.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:09]",
+      "end_time": "[09:21]",
+      "start_time_sec": 549,
+      "text": "Switch that master 'Enable WPS' toggle to `OFF`, and also uncheck the two boxes underneath for 'Physical Push-Button on Hub' and 'WPS Client PIN Mode' so neither radio broadcasts the WPS information element in its Wi-Fi beacon frames.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:22]",
+      "end_time": "[09:31]",
+      "start_time_sec": 562,
+      "text": "Right, I switched 'Enable WPS' to `OFF`, unchecked both the Push-Button box and the PIN Mode box, and I'm clicking `Apply Changes` at the bottom of the screen now.",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:32]",
+      "end_time": "[09:42]",
+      "start_time_sec": 572,
+      "text": "When you click `Apply Changes` on the Wireless page, your Wi-Fi radios will briefly re-initialize for about ten seconds to strip the WPS beacon header, and then your MacBook Pro will reconnect automatically.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:43]",
+      "end_time": "[09:56]",
+      "start_time_sec": 583,
+      "text": "Yeah, the Wi-Fi icon at the top of my MacBook screen just fanned out for five seconds and reconnected! And the S-Net Hub 4 admin page in Safari now says 'WPS Status: Disabled across all bands (2.4GHz / 5GHz)'.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:57]",
+      "end_time": "[10:05]",
+      "start_time_sec": 597,
+      "text": "Let me refresh the TR-069 radio parameter tree from my console as well to double-verify from the network side... yes, both `WiFi.WPS.1.Enable` and `WiFi.WPS.2.Enable` are now reporting `False`.",
+      "sentiment_score": 46.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:06]",
+      "end_time": "[10:14]",
+      "start_time_sec": 606,
+      "text": "What if someone accidentally presses the physical WPS pair button on the side of the S-Net Hub 4 while dusting the shelf—could that turn WPS back on?",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:15]",
+      "end_time": "[10:26]",
+      "start_time_sec": 615,
+      "text": "No, because you unchecked 'Physical Push-Button on Hub' inside the admin GUI and I have locked the `WPS.HardwareButtonLock` parameter to `True`, pressing the side button on the router casing will do nothing at all.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:27]",
+      "end_time": "[10:38]",
+      "start_time_sec": 627,
+      "text": "Oh, that's really reassuring. Let me re-run my employer's endpoint Wi-Fi security audit script right now while I have you on the line—it only takes about ten seconds to scan the local BSSID beacons.",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:39]",
+      "end_time": "[10:45]",
+      "start_time_sec": 639,
+      "text": "Please go right ahead and run that audit scan now, Maximilian, so we can confirm 100 percent that the security warning is gone.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:46]",
+      "end_time": "[10:53]",
+      "start_time_sec": 646,
+      "text": "Scanning local gateway BSSID... checking WPA2/WPA3 encryption... checking WPS beacon flags... it says 'PASS — WPS Disabled on BSSID, Compliant with Corporate Home-Working Policy'!",
+      "sentiment_score": 62.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:54]",
+      "end_time": "[11:05]",
+      "start_time_sec": 654,
+      "text": "Fantastic result! Both the S-Net Hub 4 admin GUI and your employer's compliance scanner now confirm WPS is completely disabled, and your factory card admin password is active without losing any of your NAS rules.",
+      "sentiment_score": 50.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:06]",
+      "end_time": "[11:13]",
+      "start_time_sec": 666,
+      "text": "If you push a firmware update to my S-Net Hub 4 in the future, will WPS stay disabled and will my card password stay working?",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:14]",
+      "end_time": "[11:26]",
+      "start_time_sec": 674,
+      "text": "Yes, because I also cleared the `CloudRestore_LegacyHash` flag and saved your current configuration snapshot to your Hub 4 profile under reference HUB4-66310, future firmware updates will preserve both your Hub 4 card password and the WPS-off setting.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:27]",
+      "end_time": "[11:35]",
+      "start_time_sec": 687,
+      "text": "That's a huge relief, I just exported the compliance PDF to send to my IT team. Thank you for sorting both of those out so cleanly, Ross.",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:36]",
+      "end_time": "[11:40]",
+      "start_time_sec": 696,
+      "text": "You're very welcome, Maximilian! Is there anything else I can help you with on your S-Net broadband today?",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:41]",
+      "end_time": "[11:43]",
+      "start_time_sec": 701,
+      "text": "No, that's everything I needed today. Have a great rest of your day!",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:44]",
+      "end_time": "[11:47]",
+      "start_time_sec": 704,
+      "text": "You too, Maximilian! Thank you for choosing S-Net, and have a great week ahead. Goodbye!",
+      "sentiment_score": 50.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:48]",
+      "end_time": "[11:50]",
+      "start_time_sec": 708,
+      "text": "Thanks Ross, bye!",
+      "sentiment_score": 48.0
+    }
+  ]
+}

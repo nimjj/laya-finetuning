@@ -1,0 +1,614 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Giancarlo",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Hello um thank you for calling S-Net Mobile Support my name is Sonia how can I help you today",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:07]",
+      "end_time": "[00:14]",
+      "start_time_sec": 7,
+      "text": "Hi Sonia my name is Giancarlo and I'm in a complete mess with my mobile number transfer from Vodafone that started yesterday morning",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:15]",
+      "end_time": "[00:25]",
+      "start_time_sec": 15,
+      "text": "I gave S-Net my PAC code on Tuesday and yesterday at about two o'clock my outgoing calls and data started working on my new S-Net eSIM on my Pixel eight",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:26]",
+      "end_time": "[00:36]",
+      "start_time_sec": 26,
+      "text": "But anybody who rings my number or sends me a banking text message still gets routed to my old Vodafone SIM so I have a completely split service right now",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:37]",
+      "end_time": "[00:47]",
+      "start_time_sec": 37,
+      "text": "Oh gosh I am so sorry you've been stuck in limbo like that since yesterday I completely understand how stressful it is when people and bank texts can't reach you properly",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:48]",
+      "end_time": "[00:58]",
+      "start_time_sec": 48,
+      "text": "Okay um let me pull up the MNP port file right now can you give me the mobile phone number you are transferring over and your date of birth please",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:59]",
+      "end_time": "[01:09]",
+      "start_time_sec": 59,
+      "text": "Yeah sure the mobile number is zero seven seven eight nine four four two one zero six and my date of birth is the nineteenth of August nineteen eighty-four",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:10]",
+      "end_time": "[01:18]",
+      "start_time_sec": 70,
+      "text": "Let me just type that mobile number in zero seven seven eight nine four four two one zero six and nineteenth of August eighty-four",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:19]",
+      "end_time": "[01:27]",
+      "start_time_sec": 79,
+      "text": "Wait I think my microphone clipped for a second it's zero seven seven eight nine four four two one zero six yeah you got it right",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:28]",
+      "end_time": "[01:37]",
+      "start_time_sec": 88,
+      "text": "Lovely um and just to open the billing screen on my system what are the last four digits of the bank account used for your direct debit",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:38]",
+      "end_time": "[01:41]",
+      "start_time_sec": 98,
+      "text": "The last four digits of the bank account are nine zero three two",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:42]",
+      "end_time": "[01:49]",
+      "start_time_sec": 102,
+      "text": "Great I'm into your mobile account profile now and I'm opening the Mobile Number Portability console to look at yesterday's PAC transfer batch",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:50]",
+      "end_time": "[02:01]",
+      "start_time_sec": 110,
+      "text": "Because honestly I run a catering supply van and all morning my commercial kitchen clients have been ringing me and going straight to the old Vodafone voicemail unless I carry two phones around",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:02]",
+      "end_time": "[02:11]",
+      "start_time_sec": 122,
+      "text": "I really do feel for you having to juggle two phones in your van while trying to run your business I would be pulling my hair out too",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:12]",
+      "end_time": "[02:22]",
+      "start_time_sec": 132,
+      "text": "Yeah and when I rang Vodafone earlier they told me they already released the number at eleven o'clock yesterday morning so they said S-Net has to finish the last step",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:23]",
+      "end_time": "[02:33]",
+      "start_time_sec": 143,
+      "text": "Yes I can see the exact Vodafone release timestamp from eleven fifteen yesterday morning right here in the port gateway log so you definitely don't need to chase Vodafone again",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:34]",
+      "end_time": "[02:40]",
+      "start_time_sec": 154,
+      "text": "Oh thank goodness because I really didn't want to get bounced back and forth between two networks all afternoon",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:41]",
+      "end_time": "[02:49]",
+      "start_time_sec": 161,
+      "text": "No I am taking full responsibility for sorting this out right here on the call with you today you won't be passed anywhere else",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:50]",
+      "end_time": "[02:56]",
+      "start_time_sec": 170,
+      "text": "So what actually happened to my number on your system then if the outgoing calls work on my Pixel eight eSIM",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:57]",
+      "end_time": "[03:06]",
+      "start_time_sec": 177,
+      "text": "Well looking at the MNP sequence here step one and step two completed which activated your outbound calling line identity and mobile data on our S-Net core",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:07]",
+      "end_time": "[03:13]",
+      "start_time_sec": 187,
+      "text": "Right that matches what I'm seeing when I call out to my suppliers my proper number shows up on their screens",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:14]",
+      "end_time": "[03:24]",
+      "start_time_sec": 194,
+      "text": "Yeah and then step three is the central numbering database broadcast where our gateway tells every other UK network to route incoming calls and SMS messages to S-Net instead of Vodafone",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:25]",
+      "end_time": "[03:29]",
+      "start_time_sec": 205,
+      "text": "And let me guess step three got stuck somewhere in the queue yesterday afternoon",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:30]",
+      "end_time": "[03:41]",
+      "start_time_sec": 210,
+      "text": "Spot on um the step three broadcast packet threw a timeout error at sixteen forty-two yesterday when the central Syniverse routing switch was busy and it just sat in a stalled retry state",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:42]",
+      "end_time": "[03:50]",
+      "start_time_sec": 222,
+      "text": "That is wild so for the last twenty hours half the country's phone networks still think my number belongs to the old Vodafone SIM card",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:51]",
+      "end_time": "[03:59]",
+      "start_time_sec": 231,
+      "text": "Pretty much yes because until that final central routing table acknowledgement completes inbound voice and SMS traffic from external networks keeps hitting the donor network switch",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:00]",
+      "end_time": "[04:08]",
+      "start_time_sec": 240,
+      "text": "And that's also why my bank one-time passcode texts for my catering wholesaler login were landing on the old handset instead of my Pixel eight",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:09]",
+      "end_time": "[04:15]",
+      "start_time_sec": 249,
+      "text": "Exactly right short-code banking SMS aggregators read from the exact same central UK numbering routing table as incoming voice calls",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:16]",
+      "end_time": "[04:24]",
+      "start_time_sec": 256,
+      "text": "Okay so is there a way for you to manually push that stuck broadcast update through right now or does it take another twenty-four hours",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:25]",
+      "end_time": "[04:33]",
+      "start_time_sec": 265,
+      "text": "I can manually clear the stalled flag and force an immediate high-priority MNP broadcast push to the central UK numbering gateway from my console right now",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:34]",
+      "end_time": "[04:39]",
+      "start_time_sec": 274,
+      "text": "Oh brilliant if you can do that live while we're talking that would save my afternoon deliveries",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:40]",
+      "end_time": "[04:52]",
+      "start_time_sec": 280,
+      "text": "I'm going to build the manual port completion command on the switch now um can I place you on a brief hold while I push the MNP broadcast file through to the central numbering gateway",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:53]",
+      "end_time": "[04:57]",
+      "start_time_sec": 293,
+      "text": "Yeah of course go ahead I'll wait on the line",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:57]",
+      "end_time": "[06:05]",
+      "start_time_sec": 357,
+      "text": "Thank you for holding um I've pushed that port broadcast update through now and the central UK numbering database just returned a green completed status code",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:06]",
+      "end_time": "[06:08]",
+      "start_time_sec": 366,
+      "text": "Wait really it came back green already",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:09]",
+      "end_time": "[06:19]",
+      "start_time_sec": 369,
+      "text": "Yes the donor routing table on Vodafone's gateway has now officially terminated the old route and all five major UK mobile and landline switches have acknowledged S-Net as the host network",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:20]",
+      "end_time": "[06:28]",
+      "start_time_sec": 380,
+      "text": "The signal bars on the old phone sitting on my passenger seat literally just dropped to 'No Service' right in front of my eyes",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:29]",
+      "end_time": "[06:37]",
+      "start_time_sec": 389,
+      "text": "Aha when the old Vodafone SIM drops to No Service that is the clearest sign that the donor line has finally closed down completely",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:38]",
+      "end_time": "[06:43]",
+      "start_time_sec": 398,
+      "text": "Should I restart my Pixel eight so the S-Net eSIM picks up the new inbound routing cleanly",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:44]",
+      "end_time": "[06:48]",
+      "start_time_sec": 404,
+      "text": "Wait are you speaking to me right now on the Pixel eight or on another phone",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:49]",
+      "end_time": "[06:56]",
+      "start_time_sec": 409,
+      "text": "I'm calling you from my partner's phone right now so my Pixel eight is sitting right here in my hand ready to test",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:57]",
+      "end_time": "[07:07]",
+      "start_time_sec": 417,
+      "text": "Oh that's ideal then um toggle Aeroplane Mode on for five seconds and back off on your Pixel eight so the eSIM re-registers fresh on our IMS voice core",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:08]",
+      "end_time": "[07:12]",
+      "start_time_sec": 428,
+      "text": "Okay tapping Aeroplane Mode on now... waiting five seconds... and turning Aeroplane Mode off again",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:13]",
+      "end_time": "[07:21]",
+      "start_time_sec": 433,
+      "text": "I can see your Pixel eight eSIM re-attaching to the 5G cell tower on my network monitor right now and VoLTE voice registration shows active",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:22]",
+      "end_time": "[07:26]",
+      "start_time_sec": 442,
+      "text": "Yeah full 5G bars are back at the top of the screen on the Pixel eight",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:27]",
+      "end_time": "[07:39]",
+      "start_time_sec": 447,
+      "text": "Lovely let me place a live test call from my outbound support desk line to your zero seven seven eight nine number right now so we can verify incoming calls hit your Pixel eight",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:40]",
+      "end_time": "[07:42]",
+      "start_time_sec": 460,
+      "text": "Go for it I'm looking at the Pixel eight screen now",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:43]",
+      "end_time": "[07:47]",
+      "start_time_sec": 463,
+      "text": "It's dialling out from our external test trunk now... did that test call come through now",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:48]",
+      "end_time": "[07:56]",
+      "start_time_sec": 468,
+      "text": "Yes it's ringing right here on my Pixel eight on the S-Net eSIM! Let me decline it so I don't cut you off on this phone",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:57]",
+      "end_time": "[08:06]",
+      "start_time_sec": 477,
+      "text": "Awesome I saw the ring alert hit your Pixel eight eSIM directly and I also just triggered an automated network confirmation SMS to test your inbound text routing",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:07]",
+      "end_time": "[08:11]",
+      "start_time_sec": 487,
+      "text": "Ping! The text message just popped up on the Pixel eight notification bar straight away",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:12]",
+      "end_time": "[08:19]",
+      "start_time_sec": 492,
+      "text": "And let me also check your voicemail box provisioning on the S-Net side because sometimes a stalled port leaves voicemail forwarding disabled",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:20]",
+      "end_time": "[08:24]",
+      "start_time_sec": 500,
+      "text": "Oh good thinking I definitely need voicemail working when I'm driving between restaurant drop-offs",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:25]",
+      "end_time": "[08:35]",
+      "start_time_sec": 505,
+      "text": "Yeah I can see conditional call forwarding on busy and no-answer was still pointing to a blank placeholder so I've just bound it to your S-Net voicemail box now",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:36]",
+      "end_time": "[08:44]",
+      "start_time_sec": 516,
+      "text": "Let me also quickly click 'Send Code' on my catering wholesaler banking app to see if the short-code text comes through to the Pixel eight now",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:45]",
+      "end_time": "[08:53]",
+      "start_time_sec": 525,
+      "text": "Yes please test that banking one-time passcode while I stay on the line with you that way we know external SMS aggregators have updated too",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:54]",
+      "end_time": "[09:00]",
+      "start_time_sec": 534,
+      "text": "Clicked it... and boom the six-digit banking code just arrived on the Pixel eight in less than two seconds",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:01]",
+      "end_time": "[09:09]",
+      "start_time_sec": 541,
+      "text": "Less than two seconds you can't ask for better than that and your PAC port status on the account is now permanently marked as Fully Completed",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:10]",
+      "end_time": "[09:15]",
+      "start_time_sec": 550,
+      "text": "Can I take the old Vodafone SIM out of the spare phone and bin it now then",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:16]",
+      "end_time": "[09:23]",
+      "start_time_sec": 556,
+      "text": "Yes that old Vodafone SIM is completely deactivated now so you only need to carry your Pixel eight from here on out",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:24]",
+      "end_time": "[09:31]",
+      "start_time_sec": 564,
+      "text": "And will my monthly bill just show my normal unlimited business plan from today without any weird charges from the stuck port",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:32]",
+      "end_time": "[09:43]",
+      "start_time_sec": 572,
+      "text": "Your billing cycle started cleanly yesterday on the unlimited plan at twenty-two pounds a month and I've actually added a five-pound goodwill credit to your next invoice for the twenty-hour port delay",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:44]",
+      "end_time": "[09:52]",
+      "start_time_sec": 584,
+      "text": "Oh that's really decent of you Sonia I didn't even expect a credit I just wanted my clients to be able to ring me",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:53]",
+      "end_time": "[09:59]",
+      "start_time_sec": 593,
+      "text": "It's the least I can do after you had to drive around with two phones in your catering van all morning",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:00]",
+      "end_time": "[10:10]",
+      "start_time_sec": 600,
+      "text": "Wait I literally just got a call waiting notification on the Pixel eight from one of my restaurant chefs in Soho so regular incoming calls are definitely working",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:11]",
+      "end_time": "[10:22]",
+      "start_time_sec": 611,
+      "text": "Haha there is the ultimate live proof right there! Let me check if there are any open tasks left on your MNP order before I let you take your chef's call",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:23]",
+      "end_time": "[10:26]",
+      "start_time_sec": 623,
+      "text": "Take a look I can ring him back in sixty seconds",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:27]",
+      "end_time": "[10:34]",
+      "start_time_sec": 627,
+      "text": "Everything on the MNP port order and the 5G provisioning profile is green and closed off with zero errors",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:35]",
+      "end_time": "[10:42]",
+      "start_time_sec": 635,
+      "text": "Brilliant outgoing calls work incoming calls ring on the Pixel eight and my banking texts are coming through instantaneously",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:43]",
+      "end_time": "[10:48]",
+      "start_time_sec": 643,
+      "text": "So are you happy that your mobile number transfer and incoming service are completely resolved now",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:49]",
+      "end_time": "[10:52]",
+      "start_time_sec": 649,
+      "text": "Yeah completely sorted Sonia you saved my day honestly",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:53]",
+      "end_time": "[11:00]",
+      "start_time_sec": 653,
+      "text": "Wait let me also pop the five-pound credit confirmation text onto your phone so you have a record of that too",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:01]",
+      "end_time": "[11:03]",
+      "start_time_sec": 661,
+      "text": "Got that text just now as well",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:04]",
+      "end_time": "[11:09]",
+      "start_time_sec": 664,
+      "text": "Fantastic stuff I'll let you get back to your deliveries and your Soho chef",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:10]",
+      "end_time": "[11:12]",
+      "start_time_sec": 670,
+      "text": "Thanks a million Sonia have a great afternoon",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:13]",
+      "end_time": "[11:20]",
+      "start_time_sec": 673,
+      "text": "You're very welcome thank you for choosing S-Net and have a safe drive this afternoon bye now",
+      "sentiment_score": 24.0
+    }
+  ]
+}

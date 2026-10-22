@@ -1,0 +1,214 @@
+{
+  "call_id": "agt_051",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 38.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "When the customer expressed outrage at [07:17] over duplicate billing and being told S-Net would not handle it, you made an accusatory remark about mashing buttons without acknowledging his frustration or validating the financial discrepancy."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "You did not paraphrase or restate the customer's duplicate billing dispute in your own words at any point in the call."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "The customer stated at turn 7 that he ordered via the red button on the remote, but at turn 39 you asked him again how he ordered the boxing event."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At turn 13, you deflected responsibility by stating pay-per-view dispute rules were governed by external partners and not handled by your team."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At turn 15, you made an accusatory remark stating 'If you mash the red button multiple times... obviously you risk triggering duplicate purchase transactions'."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "The duplicate £24.95 charge was not refunded or credited on the call, the customer was directed to wait 5-7 days for an email determination, and the issue was left unresolved."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Double charge for pay-per-view boxing match on TV set-top box bill",
+    "tier": "poor",
+    "duration_sec": 696,
+    "notes": "Neil handles security verification and acknowledges Kasim's frustration over a duplicate £24.95 pay-per-view charge. However, he exhibits multiple severe technical and soft skill faults: he fails to paraphrase, abdicates ownership to third-party clearinghouses, accuses the customer of 'mashing the red button', repeats an order question already answered, and leaves the financial dispute unresolved with a 5-7 day waiting period.",
+    "hard_cases": [
+      "Active listening",
+      "Build rapport and observed professionalism",
+      "Took ownership of the problem",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer experienced an outburst of frustration at turn 34 ([07:17]) ('What do you mean it's not handled by your team? You are S-Net, you send me the bill, and you took fifty pounds instead of twenty-five!'), but Agent never acknowledged it, responding defensively at turn 35 ([07:33]) with an accusatory remark."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never restated the core issue in his own words; only confirmed contact email at turn 50."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:10] Customer: 'I ordered it through the red button on our main S-Net TV 4K box in the living room.' followed by Agent at [07:45]: 'How did you order the boxing event on Saturday evening?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:50] Agent: 'pay-per-view event billing is cleared through Sky Box Office and DAZN partner merchant systems, so duplicate authorization disputes are governed by external partner rules and are not handled directly by our front-line team.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[06:40] Agent: 'If you mash the red button multiple times during a live broadcast, obviously you risk triggering duplicate purchase transactions.'"
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[09:15] The £24.95 duplicate charge remained on the account; customer was told to wait 5-7 business days for an email review and ended the call dissatisfied."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "repeat",
+          "premise_turn": 7,
+          "agent_turn": 39,
+          "reworded": true
+        },
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 3,
+          "agent_turn": 51
+        },
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 6
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 49
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 35
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 37
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 1,
+          "agent_turn": 2,
+          "with_refusal": false
+        },
+        {
+          "kind": "handled",
+          "customer_turn": 12,
+          "agent_turn": 13,
+          "with_refusal": true
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 34
+        }
+      ]
+    }
+  }
+}

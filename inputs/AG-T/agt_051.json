@@ -1,0 +1,433 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Kasim",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer billing, my name is Neil. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:12]",
+      "end_time": "[00:30]",
+      "start_time_sec": 12,
+      "text": "Hello Neil. I'm calling about my latest television invoice. I ordered the pay-per-view world heavyweight boxing match on Saturday night, but when I looked at my PDF statement, S-Net has billed me twenty-four pounds ninety-five twice for the exact same event!",
+      "sentiment_score": -42.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:35]",
+      "end_time": "[00:51]",
+      "start_time_sec": 35,
+      "text": "I'm sorry to hear you've been billed twice for the same boxing event, Kasim, that's definitely frustrating. Let me look into that duplicate charge for you. First can you confirm your full name and billing address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:56]",
+      "end_time": "[00:59]",
+      "start_time_sec": 56,
+      "text": "Kasim Khan, 33 Stretford Road, Manchester, M16 9EP.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:04]",
+      "end_time": "[01:08]",
+      "start_time_sec": 64,
+      "text": "And what is the security PIN on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:13]",
+      "end_time": "[01:16]",
+      "start_time_sec": 73,
+      "text": "It's 4429.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:21]",
+      "end_time": "[01:25]",
+      "start_time_sec": 81,
+      "text": "How did you order the boxing event on Saturday evening?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:30]",
+      "end_time": "[01:38]",
+      "start_time_sec": 90,
+      "text": "I ordered it through the red button on our main S-Net TV 4K box in the living room.",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:43]",
+      "end_time": "[01:48]",
+      "start_time_sec": 103,
+      "text": "What was the date and approximate time you initiated the purchase?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:53]",
+      "end_time": "[01:59]",
+      "start_time_sec": 113,
+      "text": "Saturday October nineteenth, at approximately nine forty-five PM, right before the main ring walks.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:04]",
+      "end_time": "[02:12]",
+      "start_time_sec": 124,
+      "text": "Bear with me for a moment while I query the pay-per-view transactional event logs in our digital TV ledger."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:57]",
+      "end_time": "[03:12]",
+      "start_time_sec": 177,
+      "text": "Thank you for waiting, Kasim. I can see two purchase authorizations for the heavyweight boxing title fight: one timestamped at twenty-one forty-five and twenty seconds, and a second at twenty-one forty-five and twenty-four seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:17]",
+      "end_time": "[03:27]",
+      "start_time_sec": 197,
+      "text": "Four seconds apart! That was obviously a single purchase where the screen hitched! Nobody orders the exact same pay-per-view match twice four seconds apart!",
+      "sentiment_score": -38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:32]",
+      "end_time": "[03:51]",
+      "start_time_sec": 212,
+      "text": "I completely understand that looks like a double-tap glitch, but pay-per-view event billing is cleared through Sky Box Office and DAZN partner merchant systems, so duplicate authorization disputes are governed by external partner rules and are not handled directly by our front-line team."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:56]",
+      "end_time": "[04:04]",
+      "start_time_sec": 236,
+      "text": "While we have the set-top box record open, what is the software version displaying on your TV 4K box?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:09]",
+      "end_time": "[04:13]",
+      "start_time_sec": 249,
+      "text": "In Settings -> System Info, it shows firmware version 4.10.8.",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:18]",
+      "end_time": "[04:24]",
+      "start_time_sec": 258,
+      "text": "Firmware 4.10.8 has an integrated purchase confirmation PIN setting that prevents accidental double-tap orders."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:29]",
+      "end_time": "[04:32]",
+      "start_time_sec": 269,
+      "text": "Where is that setting located?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:37]",
+      "end_time": "[04:44]",
+      "start_time_sec": 277,
+      "text": "Under Settings, select 'Parental & Purchase Controls', and toggle 'Require PIN for Purchases' to On."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:49]",
+      "end_time": "[04:55]",
+      "start_time_sec": 289,
+      "text": "Toggled Require PIN for Purchases to On. That will stop any future accidental orders.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:00]",
+      "end_time": "[05:07]",
+      "start_time_sec": 300,
+      "text": "That ensures every pay-per-view order prompts for your four-digit PIN before dispatching the billing token."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:12]",
+      "end_time": "[05:16]",
+      "start_time_sec": 312,
+      "text": "Good to have that extra confirmation barrier in place.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:21]",
+      "end_time": "[05:27]",
+      "start_time_sec": 321,
+      "text": "And did the live broadcast stream smoothly without video freezing once the match started?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:32]",
+      "end_time": "[05:36]",
+      "start_time_sec": 332,
+      "text": "Yes, the actual fight stream in 4K was flawless.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:41]",
+      "end_time": "[05:48]",
+      "start_time_sec": 341,
+      "text": "And you don't have any secondary TV boxes in bedrooms that could have accessed the event concurrently?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:53]",
+      "end_time": "[05:58]",
+      "start_time_sec": 353,
+      "text": "No, we only have the single TV box in the lounge.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:03]",
+      "end_time": "[06:07]",
+      "start_time_sec": 363,
+      "text": "That confirms both authorizations originated from that single physical box."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:12]",
+      "end_time": "[06:15]",
+      "start_time_sec": 372,
+      "text": "Which proves it was a duplicate technical glitch.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:20]",
+      "end_time": "[06:25]",
+      "start_time_sec": 380,
+      "text": "That technical telemetry will support your dispute case with the content team."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:30]",
+      "end_time": "[06:33]",
+      "start_time_sec": 390,
+      "text": "I hope so, twenty-five pounds is twenty-five pounds.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:38]",
+      "end_time": "[06:45]",
+      "start_time_sec": 398,
+      "text": "And you will receive an automated SMS update when the dispute investigator reviews the set-top box log."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:50]",
+      "end_time": "[06:53]",
+      "start_time_sec": 410,
+      "text": "I'll keep an eye out for the text.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:58]",
+      "end_time": "[07:04]",
+      "start_time_sec": 418,
+      "text": "And if approved, the credit will deduct directly from your next monthly direct debit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:09]",
+      "end_time": "[07:12]",
+      "start_time_sec": 429,
+      "text": "Understood.",
+      "sentiment_score": 6.1
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:17]",
+      "end_time": "[07:28]",
+      "start_time_sec": 437,
+      "text": "What do you mean it's not handled by your team? You are S-Net, you send me the bill, and you took fifty pounds instead of twenty-five!",
+      "sentiment_score": -44.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:33]",
+      "end_time": "[07:41]",
+      "start_time_sec": 453,
+      "text": "If you mash the red button multiple times during a live broadcast, obviously you risk triggering duplicate purchase transactions."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:46]",
+      "end_time": "[07:54]",
+      "start_time_sec": 466,
+      "text": "I did not mash the button, Neil! That is an insulting assumption! The screen froze on 'Processing Payment'!",
+      "sentiment_score": -48.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:59]",
+      "end_time": "[08:04]",
+      "start_time_sec": 479,
+      "text": "As I said, automated content clearinghouses register every distinct cryptographic purchase request."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:09]",
+      "end_time": "[08:13]",
+      "start_time_sec": 489,
+      "text": "Can you refund the second twenty-four ninety-five right now?",
+      "sentiment_score": -24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:18]",
+      "end_time": "[08:25]",
+      "start_time_sec": 498,
+      "text": "Let me check the purchase method again. How did you order the boxing event on Saturday evening?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:30]",
+      "end_time": "[08:36]",
+      "start_time_sec": 510,
+      "text": "I told you five minutes ago! Via the red button on the remote control!",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:41]",
+      "end_time": "[08:48]",
+      "start_time_sec": 521,
+      "text": "Because pay-per-view charges are third-party content sales, I cannot issue an instant billing credit on this call."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:53]",
+      "end_time": "[08:56]",
+      "start_time_sec": 533,
+      "text": "So what happens to my twenty-five pounds?",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:01]",
+      "end_time": "[09:08]",
+      "start_time_sec": 541,
+      "text": "I must escalate a duplicate transaction investigation ticket to our specialized content billing dispute team."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:13]",
+      "end_time": "[09:17]",
+      "start_time_sec": 553,
+      "text": "And how long does that dispute take to resolve?",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:22]",
+      "end_time": "[09:32]",
+      "start_time_sec": 562,
+      "text": "The content billing team requires five to seven business days to review the set-top box telemetry and issue a determination via email."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:37]",
+      "end_time": "[09:49]",
+      "start_time_sec": 577,
+      "text": "Five to seven business days? So I am leaving this call with fifty pounds still charged to my account, with no resolution and having to wait a week?",
+      "sentiment_score": -34.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:54]",
+      "end_time": "[09:59]",
+      "start_time_sec": 594,
+      "text": "I have logged ticket reference PPV-99214 with the duplicate timestamps clearly noted."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:04]",
+      "end_time": "[10:11]",
+      "start_time_sec": 604,
+      "text": "That does not resolve my problem today, Neil. I am very dissatisfied with this process.",
+      "sentiment_score": -32.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:16]",
+      "end_time": "[10:26]",
+      "start_time_sec": 616,
+      "text": "Just to confirm your contact billing email for the determination notice, it's kasim dot khan at manchester dot org dot uk, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:31]",
+      "end_time": "[10:34]",
+      "start_time_sec": 631,
+      "text": "Yes, that's my email.",
+      "sentiment_score": -8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:39]",
+      "end_time": "[10:46]",
+      "start_time_sec": 639,
+      "text": "Just confirming before we close the ticket, the billing address is 33 Stretford Road, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:51]",
+      "end_time": "[10:54]",
+      "start_time_sec": 651,
+      "text": "Yes, 33 Stretford Road.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:59]",
+      "end_time": "[11:06]",
+      "start_time_sec": 659,
+      "text": "Is there anything else with your TV services that I can help with today, Kasim?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:11]",
+      "end_time": "[11:18]",
+      "start_time_sec": 671,
+      "text": "No, I will wait for the email, but I am very unhappy about having to chase this.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:23]",
+      "end_time": "[11:28]",
+      "start_time_sec": 683,
+      "text": "Thank you for choosing S-Net, Kasim, and have a good day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:33]",
+      "end_time": "[11:36]",
+      "start_time_sec": 693,
+      "text": "Goodbye.",
+      "sentiment_score": -12.0
+    }
+  ]
+}

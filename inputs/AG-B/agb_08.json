@@ -1,0 +1,471 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Harpreet",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:02]",
+      "end_time": "[00:09]",
+      "start_time_sec": 2,
+      "text": "Thank you for calling S-Net technical support. My name is Liam. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:24]",
+      "start_time_sec": 11,
+      "text": "Hi Liam. We had the Full Fibre 500 installed yesterday afternoon, but this morning the white box on the wall has a flashing red LOS light and we have zero internet.",
+      "sentiment_score": -24.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:26]",
+      "end_time": "[00:39]",
+      "start_time_sec": 26,
+      "text": "I can certainly help you get that Full Fibre connection restored, Harpreet. For account security, could you please verify your billing address and the answer to your security question?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:41]",
+      "end_time": "[00:50]",
+      "start_time_sec": 41,
+      "text": "Sure, it's 84 Dunholme Road, Newcastle upon Tyne, NE4 9RD. The security question answer is my mother's maiden name, Kaur.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:52]",
+      "end_time": "[01:04]",
+      "start_time_sec": 52,
+      "text": "Thank you Harpreet, that matches our records and verifies your account. Now, please tell me a bit more about what happened when the connection dropped this morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:06]",
+      "end_time": "[01:25]",
+      "start_time_sec": 66,
+      "text": "It was working when we went to bed, but around eight this morning everything cut out. I took an entire day off work yesterday for the installation engineer, and now neither my husband nor I can get online for our work meetings today.",
+      "sentiment_score": -38.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:27]",
+      "end_time": "[01:43]",
+      "start_time_sec": 87,
+      "text": "Taking time off work only to have the broadband drop the next morning is incredibly annoying, Harpreet. I'm truly sorry for that disruption, and I'll stay with you until we get this optical signal sorted out completely."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:45]",
+      "end_time": "[01:49]",
+      "start_time_sec": 105,
+      "text": "Thank you Liam, I really appreciate that reassurance.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:51]",
+      "end_time": "[02:10]",
+      "start_time_sec": 111,
+      "text": "So to make sure I understand the full issue: your brand new Full Fibre 500 was completed yesterday, but this morning your internal ONT box dropped connection and is showing a blinking red LOS indicator, leaving you with no internet. Is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:12]",
+      "end_time": "[02:16]",
+      "start_time_sec": 132,
+      "text": "Yes, that's exactly what happened.",
+      "sentiment_score": 5.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:18]",
+      "end_time": "[02:33]",
+      "start_time_sec": 138,
+      "text": "Understood. The LOS light stands for Loss of Signal, which means the optical receiver is not detecting the infrared laser beam from the street cabinet. Let's inspect the optical cabling right at the box."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:35]",
+      "end_time": "[02:41]",
+      "start_time_sec": 155,
+      "text": "Okay, I'm standing right in front of the white Openreach box under the stairs.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:43]",
+      "end_time": "[02:55]",
+      "start_time_sec": 163,
+      "text": "On that white box, you should see a thin white or yellow cable plugged into the bottom port with a green connector shroud. Do you see that?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:57]",
+      "end_time": "[03:05]",
+      "start_time_sec": 177,
+      "text": "Yes, there is a thin white lead with a small green rectangular plug going into the bottom port.",
+      "sentiment_score": 3.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:07]",
+      "end_time": "[03:18]",
+      "start_time_sec": 187,
+      "text": "Could you follow that thin cable back to where it enters the wall-mounted splice tray? Is it pinched, crushed, or bent sharply anywhere along its path?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:20]",
+      "end_time": "[03:34]",
+      "start_time_sec": 200,
+      "text": "Wait a second... my husband pushed the heavy upright vacuum cleaner into the cupboard this morning. The cable is wedged tightly under the wheel of the hoover and bent almost in half!",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:36]",
+      "end_time": "[03:49]",
+      "start_time_sec": 216,
+      "text": "Obviously optical cables contain microscopic glass fibers that cannot transmit laser light if bent beyond a ninety-degree angle, Harpreet. Please carefully free that cable and gently straighten the curve."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:51]",
+      "end_time": "[04:03]",
+      "start_time_sec": 231,
+      "text": "Moving the hoover out now... lifting the cable gently. Okay, it's freed and I've straightened the slack loop so there are no kinks or pressure on it.",
+      "sentiment_score": 9.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:05]",
+      "end_time": "[04:19]",
+      "start_time_sec": 245,
+      "text": "Now check if the green connector plug at the bottom of the ONT clicked loose when it was tugged. Could you press it gently upwards until you hear or feel a firm click?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:21]",
+      "end_time": "[04:27]",
+      "start_time_sec": 261,
+      "text": "Pressing it up gently... click! Oh yes, it snapped in about two millimetres further.",
+      "sentiment_score": 16.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:29]",
+      "end_time": "[04:39]",
+      "start_time_sec": 269,
+      "text": "Excellent. Now let's observe the LED indicators on the front of the ONT for thirty seconds while the optical transceiver renegotiates the light level."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:41]",
+      "end_time": "[04:49]",
+      "start_time_sec": 281,
+      "text": "Okay, watching the lights now. The Power light is green. The LOS light is still red right now.",
+      "sentiment_score": -2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:51]",
+      "end_time": "[05:01]",
+      "start_time_sec": 291,
+      "text": "Give it about twenty seconds. The line card at the local aggregation node polls the optical link periodically to measure the optical power margin."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:03]",
+      "end_time": "[05:10]",
+      "start_time_sec": 303,
+      "text": "Wait, the red LOS light just went completely dark! And now the PON light is flashing green.",
+      "sentiment_score": 27.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:12]",
+      "end_time": "[05:22]",
+      "start_time_sec": 312,
+      "text": "That's the optical handshake in progress. Once the PON light goes solid green, it means your fiber circuit is fully synchronized with the exchange."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:24]",
+      "end_time": "[05:28]",
+      "start_time_sec": 324,
+      "text": "It's gone solid green! PON is solid green now.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:31]",
+      "end_time": "[05:39]",
+      "start_time_sec": 331,
+      "text": "Just to check, Harpreet, is that LOS light still completely off with no red flashes showing at all?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:41]",
+      "end_time": "[05:49]",
+      "start_time_sec": 341,
+      "text": "Yes, completely off, no red at all. And the LAN light next to it is flickering green as well.",
+      "sentiment_score": 31.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:51]",
+      "end_time": "[06:01]",
+      "start_time_sec": 351,
+      "text": "While we're on the line, let's also verify that the S-Net Hub's front light has turned solid white rather than pulsing amber."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:03]",
+      "end_time": "[06:10]",
+      "start_time_sec": 363,
+      "text": "Let me step out of the cupboard and look at the main router on the hallway shelf.",
+      "sentiment_score": 3.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:12]",
+      "end_time": "[06:16]",
+      "start_time_sec": 372,
+      "text": "Sure thing, take your time."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:18]",
+      "end_time": "[06:23]",
+      "start_time_sec": 378,
+      "text": "Yes, the Hub light has settled into a continuous solid white glow.",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:25]",
+      "end_time": "[06:32]",
+      "start_time_sec": 385,
+      "text": "Solid white indicates an active Gigabit WAN handshake and active DNS resolution across all frequency bands."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:34]",
+      "end_time": "[06:42]",
+      "start_time_sec": 394,
+      "text": "My husband just called down from his study upstairs, his laptop connected automatically and his VPN is back online.",
+      "sentiment_score": 33.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:44]",
+      "end_time": "[06:52]",
+      "start_time_sec": 404,
+      "text": "That is splendid. Did you receive your automated welcome email confirming your first bill date and direct debit schedule?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:54]",
+      "end_time": "[07:02]",
+      "start_time_sec": 414,
+      "text": "Yes, I saw that email yesterday evening. It showed the promotional discount applied properly for the eighteen-month contract.",
+      "sentiment_score": 15.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:04]",
+      "end_time": "[07:12]",
+      "start_time_sec": 424,
+      "text": "Perfect, that confirms the promotional discount of forty-five pounds per month is locked in for the entire contract duration."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:14]",
+      "end_time": "[07:20]",
+      "start_time_sec": 434,
+      "text": "That's great. It's so nice when the bill actually matches what the salesperson promised.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:22]",
+      "end_time": "[07:27]",
+      "start_time_sec": 442,
+      "text": "Absolutely, we always ensure transparency with our contracts and billing details."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:29]",
+      "end_time": "[07:36]",
+      "start_time_sec": 449,
+      "text": "Are both the 2.4 gigahertz and 5 gigahertz wireless networks broadcasting under the same name?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:38]",
+      "end_time": "[07:47]",
+      "start_time_sec": 458,
+      "text": "Yes, our Smart WiFi technology synchronizes both bands under a single SSID so your devices automatically roam to the fastest channel."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:49]",
+      "end_time": "[07:54]",
+      "start_time_sec": 469,
+      "text": "That makes life so much simpler than having two separate passwords.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:56]",
+      "end_time": "[08:03]",
+      "start_time_sec": 476,
+      "text": "Definitely. Have you connected your smart television or any video streaming boxes in the living room yet?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:05]",
+      "end_time": "[08:12]",
+      "start_time_sec": 485,
+      "text": "We paired the television yesterday evening and streamed a film in 4K with no buffering whatsoever.",
+      "sentiment_score": 25.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:14]",
+      "end_time": "[08:24]",
+      "start_time_sec": 494,
+      "text": "That's great to hear. The Full Fibre 500 package has ample bandwidth for multiple simultaneous 4K streams while you both work from home."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:26]",
+      "end_time": "[08:31]",
+      "start_time_sec": 506,
+      "text": "That gives us huge peace of mind for our video conferences.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:33]",
+      "end_time": "[08:40]",
+      "start_time_sec": 513,
+      "text": "Now let's test an actual internet speed test on your phone or laptop to confirm bandwidth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:42]",
+      "end_time": "[08:51]",
+      "start_time_sec": 522,
+      "text": "I'm opening a browser on my mobile phone right now... BBC News loaded instantly. Let me run an Ookla speed test.",
+      "sentiment_score": 29.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:53]",
+      "end_time": "[09:00]",
+      "start_time_sec": 533,
+      "text": "Take your time, let's see what download and upload speeds you're receiving on the wireless."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:02]",
+      "end_time": "[09:08]",
+      "start_time_sec": 542,
+      "text": "The needle is flying... 512 megabits download and 74 megabits upload! That's incredible.",
+      "sentiment_score": 42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:10]",
+      "end_time": "[09:20]",
+      "start_time_sec": 550,
+      "text": "That's your full 500 megabit tier running perfectly to specification. I am so glad that optical kink was resolved without needing an engineer visit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:22]",
+      "end_time": "[09:32]",
+      "start_time_sec": 562,
+      "text": "Honestly Liam, you've saved our entire work day. I was so worried we'd be stuck waiting until next week for an Openreach visit.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:34]",
+      "end_time": "[09:44]",
+      "start_time_sec": 574,
+      "text": "It was truly my pleasure. I'll make a note on your file that the optical splice was tested and verified at 512 Mbps."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:46]",
+      "end_time": "[09:50]",
+      "start_time_sec": 586,
+      "text": "Thank you so much for your patience and clear guidance.",
+      "sentiment_score": 28.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:52]",
+      "end_time": "[10:01]",
+      "start_time_sec": 592,
+      "text": "Did you also want to set up our My S-Net mobile application on your smartphone to manage your router guest network?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:03]",
+      "end_time": "[10:09]",
+      "start_time_sec": 603,
+      "text": "Oh, can I set up a guest network for visitors from the phone?",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:11]",
+      "end_time": "[10:20]",
+      "start_time_sec": 611,
+      "text": "Yes, you can enable a temporary guest Wi-Fi with one tap in the app without giving out your master security password."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:22]",
+      "end_time": "[10:26]",
+      "start_time_sec": 622,
+      "text": "I will definitely install that this evening, that's really useful.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:28]",
+      "end_time": "[10:36]",
+      "start_time_sec": 628,
+      "text": "Is there anything else with your Full Fibre setup or billing that I can check for you today, Harpreet?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:38]",
+      "end_time": "[10:42]",
+      "start_time_sec": 638,
+      "text": "No, that was everything. Everything is working wonderfully now.",
+      "sentiment_score": 26.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:44]",
+      "end_time": "[10:52]",
+      "start_time_sec": 644,
+      "text": "Thank you for choosing S-Net, Harpreet. Have a fantastic day and enjoy your blazing fast full fibre connection!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:54]",
+      "end_time": "[10:58]",
+      "start_time_sec": 654,
+      "text": "You too Liam, thank you! Bye-bye.",
+      "sentiment_score": 22.1
+    }
+  ]
+}

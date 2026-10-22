@@ -1,0 +1,223 @@
+{
+  "call_id": "agt_012",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 43.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "You never paraphrased the customer's upload speed issue in your own words."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "You re-asked at [07:39] whether the customer was on Wi-Fi or Ethernet after he explicitly stated at [01:59] that he was on a Cat 6 Ethernet cable."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "You deflected responsibility at [05:23] claiming S-Net frontline support cannot dispatch or fix street node infrastructure."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "You were condescending and unprofessional at [06:34] ('Well if you actually paid attention to our terms of service, you would know home residential broadband isn\\'t an enterprise leased line')."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "You asked no diagnostic probing questions regarding background upload processes, device activity, or local network congestion."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (gemini-2.5-pro)",
+    "graded_on": "2026-10-21",
+    "scenario": "Broadband upload speed dropped to 0.5 Mbps impacting home office video conferences",
+    "tier": "poor",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Active listening",
+      "Build rapport and observed professionalism",
+      "Took ownership of the problem"
+    ],
+    "duration_sec": 762,
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opening 'Thank you for calling S-Net broadband technical support' and closing 'Thank you for choosing S-Net' properly stated."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Two managed holds announced and thanked properly with no unmanaged gaps."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Verified address and 4-digit security PIN within 33 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Addressed Benjamin by name multiple times throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: Customer had two distinct outbursts at [00:58] and [05:42]. Agent acknowledged both warmly (at [01:20]: 'I understand how disruptive and stressful it is when your video conferences freeze during critical executive meetings' and at [06:05]: 'I understand how alarming and stressful that is with your board presentation forty-five minutes away')."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never restated the customer's upload speed problem in their own words."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent re-asked whether testing over Wi-Fi or Ethernet at [07:39] after customer clearly stated Cat 6 Ethernet cable at [01:59]."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent deflected ownership at [05:23] stating frontline support cannot fix street node infrastructure."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent delivered a condescending remark at [06:34] in the middle third: 'Well if you actually paid attention to our terms of service, you would know home residential broadband isn\\'t an enterprise leased line with dedicated engineer callouts.'"
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked no diagnostic probing questions regarding local background uploads, cloud syncs, or device configuration."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent pushed a port bounce command which cleared the noise; customer ran a live test, confirmed 65 Mbps upload, and verified video conference is working smoothly."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 7,
+          "agent_turn": 16
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 9,
+          "agent_turn": 32
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 9,
+          "agent_turn": 30,
+          "reworded": true
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 9,
+          "agent_turn": 30,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 52
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 26
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 42
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 48
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6,
+          "with_refusal": false
+        },
+        {
+          "kind": "handled",
+          "customer_turn": 23,
+          "agent_turn": 24,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

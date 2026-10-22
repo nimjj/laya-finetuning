@@ -1,0 +1,456 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Carter",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "S-Net service desk, Naomi speaking. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:09]",
+      "end_time": "[00:35]",
+      "start_time_sec": 9,
+      "text": "Hello Naomi. Our home telephone and broadband have both died completely, and we are in an absolute crisis! My terminally ill father was discharged from the hospital this morning into home hospice care, and the palliative care nurses need the landline connected to his emergency oxygen telemetry alarm! We have medical staff arriving in two hours and zero communications!",
+      "sentiment_score": -48.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:39]",
+      "end_time": "[00:50]",
+      "start_time_sec": 39,
+      "text": "I understand how urgent and distressing this emergency situation is with your father in home palliative care. Let me access your street line telemetry immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:54]",
+      "end_time": "[01:04]",
+      "start_time_sec": 54,
+      "text": "Thank you, because if the oxygen monitor cannot transmit data to the hospital, they will force him back into the acute ward.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:08]",
+      "end_time": "[01:16]",
+      "start_time_sec": 68,
+      "text": "Before we access the circuit records, could you please verify your installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:20]",
+      "end_time": "[01:27]",
+      "start_time_sec": 80,
+      "text": "Yes, the address is 8 Willowbrook Lane, Gloucester, GL2 0BN, and the security PIN is 6620.",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:31]",
+      "end_time": "[01:39]",
+      "start_time_sec": 91,
+      "text": "Thank you for verifying those details. I have your copper and broadband line profile open on our exchange console."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[01:46]",
+      "start_time_sec": 103,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:50]",
+      "end_time": "[02:06]",
+      "start_time_sec": 110,
+      "text": "So just to confirm the emergency situation: your home broadband and landline telephone have suffered a total simultaneous loss of service while you are setting up urgent hospice medical care for your father. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:10]",
+      "end_time": "[02:17]",
+      "start_time_sec": 130,
+      "text": "Yes, that is exactly what has happened. Both services cut out at nine o'clock this morning.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:21]",
+      "end_time": "[02:31]",
+      "start_time_sec": 141,
+      "text": "When both voice and broadband drop simultaneously, it typically indicates a physical copper cable disruption between the distribution cabinet and the property."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:35]",
+      "end_time": "[02:45]",
+      "start_time_sec": 155,
+      "text": "The medical telemetry unit is a specialized VitalAire oxygen concentrator that transmits real-time blood oxygen saturation metrics directly to Gloucestershire Royal Hospital respiratory triage.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:49]",
+      "end_time": "[02:56]",
+      "start_time_sec": 169,
+      "text": "VitalAire telemetry units require a continuous uninterrupted analog dial tone or SIP session to broadcast medical alarms."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:00]",
+      "end_time": "[03:13]",
+      "start_time_sec": 180,
+      "text": "Exactly, and the palliative care nurses from Saint Peter's Hospice are arriving at two o'clock to administer intravenous pain relief and need direct phone access to the on-call medical team.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:17]",
+      "end_time": "[03:24]",
+      "start_time_sec": 197,
+      "text": "Let me check the physical topology drawings for the overhead telegraph pole feeding your property."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:28]",
+      "end_time": "[03:38]",
+      "start_time_sec": 208,
+      "text": "Could the disruption be caused by the municipal council pruning street trees outside our driveway this morning with heavy mechanical chain saws?",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:42]",
+      "end_time": "[03:52]",
+      "start_time_sec": 222,
+      "text": "Physical tree branches falling onto overhead dropwires frequently cause copper pair fractures, severe insulation shearing, or completely rip cables away from pole insulators."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:56]",
+      "end_time": "[04:09]",
+      "start_time_sec": 236,
+      "text": "Yes, there was an enormous oak branch that fell right across the telephone pole wires two hours ago, pulling the cable completely taut before snapping it like a piece of string!",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:13]",
+      "end_time": "[04:23]",
+      "start_time_sec": 253,
+      "text": "Please bear with me on hold for about thirty-five seconds while I query the Openreach emergency medical dispatch register to request urgent priority intervention."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:58]",
+      "end_time": "[05:11]",
+      "start_time_sec": 298,
+      "text": "Thank you for your patience while holding. The automated line test indicates a total loop disconnect at forty-five meters from the customer master socket, confirming a complete physical break."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:15]",
+      "end_time": "[05:22]",
+      "start_time_sec": 315,
+      "text": "Forty-five meters is right where the overhead wire spans from the pole across our driveway entrance!",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:26]",
+      "end_time": "[05:36]",
+      "start_time_sec": 326,
+      "text": "The copper dropwire has suffered a physical severance of both conductor wires, dropping line voltage from fifty volts down to zero volts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:40]",
+      "end_time": "[05:50]",
+      "start_time_sec": 340,
+      "text": "How quickly can an emergency engineer come and splice that cable back together so the medical oxygen monitor works for my father?",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:54]",
+      "end_time": "[06:03]",
+      "start_time_sec": 354,
+      "text": "Under standard residential repair schedules, copper dropwire repairs are completed within two working days under typical Openreach service level commitments."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:07]",
+      "end_time": "[06:21]",
+      "start_time_sec": 367,
+      "text": "Two working days?! My father is dying of terminal lung disease! The nurses cannot hook up the monitoring telemetry without a working landline! He cannot wait two days for basic emergency line repairs!",
+      "sentiment_score": -44.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:25]",
+      "end_time": "[06:33]",
+      "start_time_sec": 385,
+      "text": "Standard residential broadband terms and conditions do not include guaranteed medical telemetry uptime or dedicated emergency response SLAs."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:37]",
+      "end_time": "[06:46]",
+      "start_time_sec": 397,
+      "text": "This is an emergency medical safeguarding situation, not a casual Netflix failure! A human being's final hours are at stake here!",
+      "sentiment_score": -32.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:50]",
+      "end_time": "[07:00]",
+      "start_time_sec": 410,
+      "text": "Well, expecting consumer domestic broadband to support hospital life-support equipment is completely unreasonable, and you should have arranged dedicated NHS medical lines."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:04]",
+      "end_time": "[07:16]",
+      "start_time_sec": 424,
+      "text": "How dare you speak to me like that while my father is lying in a hospice bed in our living room! You are a disgraceful, heartless human being!",
+      "sentiment_score": -52.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:20]",
+      "end_time": "[07:29]",
+      "start_time_sec": 440,
+      "text": "I apologize if my comment came across as insensitive. Let me escalate this immediately under our Medical Priority Welfare scheme."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:33]",
+      "end_time": "[07:38]",
+      "start_time_sec": 453,
+      "text": "Please do, because the district nurses are arriving at two o'clock.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:42]",
+      "end_time": "[07:52]",
+      "start_time_sec": 462,
+      "text": "Under our Medical Priority Welfare agreement with Openreach, life-critical telephone faults trigger an emergency four-hour engineer dispatch with dedicated senior field team escalation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:56]",
+      "end_time": "[08:05]",
+      "start_time_sec": 476,
+      "text": "Four hours means an engineer will arrive early this afternoon before the hospice doctors and district nurses begin their medical procedures.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:09]",
+      "end_time": "[08:19]",
+      "start_time_sec": 489,
+      "text": "I have dispatched an emergency Openreach overhead line crew with a committed arrival window between one and three o'clock directly to your street."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:23]",
+      "end_time": "[08:28]",
+      "start_time_sec": 503,
+      "text": "That will coincide perfectly with the arrival of the hospice medical team.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:32]",
+      "end_time": "[08:43]",
+      "start_time_sec": 512,
+      "text": "The technician has been instructed to replace the damaged overhead dropwire and verify voice dial tone directly at the master socket before signing off the job."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:47]",
+      "end_time": "[08:57]",
+      "start_time_sec": 527,
+      "text": "Will the engineer test the alarm dial tone with the nurses present so we know the telemetry connects to Gloucestershire Royal Hospital?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:01]",
+      "end_time": "[09:08]",
+      "start_time_sec": 541,
+      "text": "Yes, the technician will remain on site to conduct a joint line test with the healthcare professionals."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:12]",
+      "end_time": "[09:19]",
+      "start_time_sec": 552,
+      "text": "Will the engineering crew need special road closure permits to hoist the replacement cable across Willowbrook Lane?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:23]",
+      "end_time": "[09:31]",
+      "start_time_sec": 563,
+      "text": "Openreach emergency medical welfare crews carry statutory emergency streetworks dispensation to deploy mobile safety cones without council delay."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:34]",
+      "end_time": "[09:41]",
+      "start_time_sec": 574,
+      "text": "That will ensure they can start work the moment their hydraulic platform arrives on our street.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:44]",
+      "end_time": "[09:52]",
+      "start_time_sec": 584,
+      "text": "The vehicle is equipped with a high-reach cherry picker platform, heavy-duty insulated replacement dropwire, and pneumatic line-throwing equipment."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:55]",
+      "end_time": "[10:02]",
+      "start_time_sec": 595,
+      "text": "That gives me confidence they have all necessary heavy equipment to complete the job on the spot.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:05]",
+      "end_time": "[10:12]",
+      "start_time_sec": 605,
+      "text": "There will be absolutely zero callout charges, materials costs, or repair fees for this emergency dispatch."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:15]",
+      "end_time": "[10:21]",
+      "start_time_sec": 615,
+      "text": "That is very considerate under the circumstances, thank you for removing that worry.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:24]",
+      "end_time": "[10:31]",
+      "start_time_sec": 624,
+      "text": "Just to confirm what you mentioned earlier, the installation address is 8 Willowbrook Lane, Gloucester, GL2 0BN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:34]",
+      "end_time": "[10:37]",
+      "start_time_sec": 634,
+      "text": "Yes, 8 Willowbrook Lane, Gloucester, GL2 0BN.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:40]",
+      "end_time": "[10:47]",
+      "start_time_sec": 640,
+      "text": "I have tagged the property gates for direct technician access so they know to enter immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:50]",
+      "end_time": "[10:59]",
+      "start_time_sec": 650,
+      "text": "I will leave the driveway gates wide open so the cherry picker vehicle can pull right up to the pole.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:02]",
+      "end_time": "[11:05]",
+      "start_time_sec": 662,
+      "text": "The emergency engineer ticket reference number is MED-99201-E."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:08]",
+      "end_time": "[11:11]",
+      "start_time_sec": 668,
+      "text": "Noted down on my father's medical file... MED-99201-E.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:14]",
+      "end_time": "[11:20]",
+      "start_time_sec": 674,
+      "text": "The engineer has been briefed that terminal medical telemetry is dependent on this circuit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:23]",
+      "end_time": "[11:27]",
+      "start_time_sec": 683,
+      "text": "That will ensure they treat it with maximum urgency.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:30]",
+      "end_time": "[11:37]",
+      "start_time_sec": 690,
+      "text": "How is your mobile phone signal inside the property for backup voice calls while repairs are underway?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:40]",
+      "end_time": "[11:50]",
+      "start_time_sec": 700,
+      "text": "Our mobile phone signal on O2 is decent, we get two bars of 4G by the kitchen window, so mobile calls work for emergencies.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:53]",
+      "end_time": "[11:58]",
+      "start_time_sec": 713,
+      "text": "That provides an immediate temporary voice backup while the cable is spliced."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:01]",
+      "end_time": "[12:08]",
+      "start_time_sec": 721,
+      "text": "Yes, the nurses have my mobile number as an emergency fallback if they need directions.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:11]",
+      "end_time": "[12:20]",
+      "start_time_sec": 731,
+      "text": "Wait, Naomi, can S-Net courier an emergency 4G backup router to our house as an extra contingency for the medical broadband...",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:23]",
+      "end_time": "[12:32]",
+      "start_time_sec": 743,
+      "text": "The priority medical ticket is logged and the engineer is dispatched. Have a good day. Thank you for choosing S-Net, goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:35]",
+      "end_time": "[12:40]",
+      "start_time_sec": 755,
+      "text": "Wait, Naomi, what about the 4G backup router... hello?",
+      "sentiment_score": -12.4
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Lucas",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net commercial broadband support, my name is Marcus. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:14]",
+   "end_time": "[00:33]",
+   "start_time_sec": 14,
+   "text": "Hello Marcus, my name is Lucas Vance. I run The Roasted Bean Cafe, and our commercial guest Wi-Fi network has suddenly stopped allowing new patrons to connect: their laptops and smartphones get stuck on 'Obtaining IP address' or give an 'IP Configuration Failure' warning!",
+   "sentiment_score": -34.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:40]",
+   "end_time": "[01:00]",
+   "start_time_sec": 40,
+   "text": "Good afternoon Lucas. If I understand correctly, your cafe's commercial guest Wi-Fi network is refusing new connections because patron devices cannot obtain a local IP address from the router. Before we check your hub diagnostics, could you confirm your full business address and account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:07]",
+   "end_time": "[01:17]",
+   "start_time_sec": 67,
+   "text": "Yes, that is exactly what is happening! It is The Roasted Bean Cafe, 12 High Street, Guildford, GU1 3HQ, customer account BB-884102, security PIN 4910.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:24]",
+   "end_time": "[01:34]",
+   "start_time_sec": 84,
+   "text": "Thank you Lucas, that confirms your commercial account details. Let us inspect your S-Net Business Hub router configuration and local DHCP lease table."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:41]",
+   "end_time": "[01:57]",
+   "start_time_sec": 101,
+   "text": "Thank you. Our point of sale system on the private network is working fine, but the guest network is totally frozen for customers.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[02:04]",
+   "end_time": "[02:18]",
+   "start_time_sec": 124,
+   "text": "Could I place you on hold for two minutes while I query the local network telemetry and DHCP pool allocations on your Business Hub?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:43]",
+   "end_time": "[03:59]",
+   "start_time_sec": 223,
+   "text": "Thank you for holding, Lucas. The router diagnostics indicate that your guest Wi-Fi subnet has exhausted all available IP leases in its assigned DHCP scope."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:06]",
+   "end_time": "[04:18]",
+   "start_time_sec": 246,
+   "text": "Why would the DHCP scope run out of IP addresses all of a sudden?",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:25]",
+   "end_time": "[04:38]",
+   "start_time_sec": 265,
+   "text": "The default guest configuration allocates a /28 subnet with only fourteen usable IP addresses and a seventy-two-hour lease expiration timer."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:45]",
+   "end_time": "[04:57]",
+   "start_time_sec": 285,
+   "text": "Fourteen addresses?! We have fifty customers an hour passing through our cafe!",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:03]",
+   "end_time": "[05:18]",
+   "start_time_sec": 303,
+   "text": "Because previous patrons' devices remain registered in the lease cache for three full days, new customer devices are rejected when the table hits fourteen active leases."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:24]",
+   "end_time": "[05:36]",
+   "start_time_sec": 324,
+   "text": "Can we expand the guest IP scope and shorten that lease timer right now?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:42]",
+   "end_time": "[05:59]",
+   "start_time_sec": 342,
+   "text": "Yes, we can expand your guest subnet to a /24 scope providing two hundred and fifty-four usable IP addresses and reduce the lease time to two hours."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:05]",
+   "end_time": "[06:15]",
+   "start_time_sec": 365,
+   "text": "That would be ideal for a fast-turnover coffee shop environment.",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:21]",
+   "end_time": "[06:34]",
+   "start_time_sec": 381,
+   "text": "I will push the updated DHCP scope parameters directly to your Business Hub via our cloud management console."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:40]",
+   "end_time": "[06:53]",
+   "start_time_sec": 400,
+   "text": "Will pushing that update disrupt our payment card machines on the private LAN?",
+   "sentiment_score": -8.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:59]",
+   "end_time": "[07:12]",
+   "start_time_sec": 419,
+   "text": "No, the private LAN operates on an entirely separate VLAN subnet 192.168.1.0/24 with its own dedicated DHCP pool."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:18]",
+   "end_time": "[07:23]",
+   "start_time_sec": 438,
+   "text": "That is a huge relief; we cannot afford to lose card payment processing.",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:29]",
+   "end_time": "[07:36]",
+   "start_time_sec": 449,
+   "text": "Obviously guest Wi-Fi networks will stop handing out IP addresses once the allocated DHCP lease scope fills up."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:42]",
+   "end_time": "[07:45]",
+   "start_time_sec": 462,
+   "text": "Right, I understand the technical cause now.",
+   "sentiment_score": 8.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:51]",
+   "end_time": "[08:15]",
+   "start_time_sec": 471,
+   "text": "Lucas speaking, my coffee shop is packed with morning customers waiting for coffee, and twenty patrons are yelling at my baristas because they cannot connect their laptops to the guest Wi-Fi! In our business, no Wi-Fi means customers walk out the door and leave one-star Google reviews! I am stressed out and losing revenue every single minute!",
+   "sentiment_score": -64.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:21]",
+   "end_time": "[08:41]",
+   "start_time_sec": 501,
+   "text": "I completely understand the intense stress and financial pressure this is causing during your morning peak rush, Lucas. Having paying customers unable to connect to Wi-Fi while ordering coffee is urgent for your business, and I will resolve this DHCP pool limit with you right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:47]",
+   "end_time": "[08:51]",
+   "start_time_sec": 527,
+   "text": "Thank you Marcus, I really appreciate you taking this seriously.",
+   "sentiment_score": -10.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:57]",
+   "end_time": "[09:09]",
+   "start_time_sec": 537,
+   "text": "I have expanded the guest subnet to 192.168.10.0/24 with an address pool from .10 to .250, and reduced the DHCP lease duration to one hundred and twenty minutes."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:15]",
+   "end_time": "[09:18]",
+   "start_time_sec": 555,
+   "text": "Have the new settings taken effect on the hub?",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:24]",
+   "end_time": "[09:32]",
+   "start_time_sec": 564,
+   "text": "The configuration payload has been successfully applied to your Business Hub. I have also cleared the stale lease cache."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:38]",
+   "end_time": "[09:44]",
+   "start_time_sec": 578,
+   "text": "Let me grab my iPad here on the counter and try connecting to the guest network.",
+   "sentiment_score": 8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:50]",
+   "end_time": "[09:57]",
+   "start_time_sec": 590,
+   "text": "Please select 'Cafe Guest Wi-Fi' on your iPad and check if it successfully negotiates an IP address."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:03]",
+   "end_time": "[10:08]",
+   "start_time_sec": 603,
+   "text": "Forgetting Guest Wi-Fi on my iPad... Tapping S-Net Cafe Guest Wi-Fi now...",
+   "sentiment_score": 10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:14]",
+   "end_time": "[10:17]",
+   "start_time_sec": 614,
+   "text": "What does the iPad network status display once connected?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:23]",
+   "end_time": "[10:29]",
+   "start_time_sec": 623,
+   "text": "A blue checkmark appeared instantly! It assigned IP address 192.168.10.15 with a full four-bar connection!",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:35]",
+   "end_time": "[10:41]",
+   "start_time_sec": 635,
+   "text": "Could you also verify that a guest captive portal terms splash page loads properly?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:47]",
+   "end_time": "[10:55]",
+   "start_time_sec": 647,
+   "text": "Opening Safari browser... The terms splash page loaded immediately! Tapped 'Accept & Connect', and our cafe website popped up!",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:01]",
+   "end_time": "[11:06]",
+   "start_time_sec": 661,
+   "text": "Excellent! Let us verify internet throughput and DNS resolution on that guest session."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:12]",
+   "end_time": "[11:21]",
+   "start_time_sec": 672,
+   "text": "Running a speed test on the guest network... It is delivering eighty-five megabits download and twenty megabits upload with fifteen milliseconds latency!",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:27]",
+   "end_time": "[11:33]",
+   "start_time_sec": 687,
+   "text": "That confirms fast, unrestricted guest connectivity with two hundred and forty available IP addresses remaining."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:39]",
+   "end_time": "[11:47]",
+   "start_time_sec": 699,
+   "text": "One of our regular patrons sitting in the corner just gave me a thumbs up - his laptop connected automatically!",
+   "sentiment_score": 34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:53]",
+   "end_time": "[11:59]",
+   "start_time_sec": 713,
+   "text": "The shortened two-hour lease timer will ensure stale smartphone addresses recycle continuously throughout trading hours."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:05]",
+   "end_time": "[12:12]",
+   "start_time_sec": 725,
+   "text": "That completely resolves the bottleneck. All twelve customers who were complaining are online and working happily now.",
+   "sentiment_score": 36.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:18]",
+   "end_time": "[12:25]",
+   "start_time_sec": 738,
+   "text": "I have saved the DHCP subnet profile as the permanent default on your Business Hub cloud profile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:31]",
+   "end_time": "[12:36]",
+   "start_time_sec": 751,
+   "text": "Will these settings persist if the router reboots after a power cut?",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:42]",
+   "end_time": "[12:50]",
+   "start_time_sec": 762,
+   "text": "Just making sure I have the exact commercial account reference on this router configuration ticket: that was BB-884102, wasn't it?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:56]",
+   "end_time": "[12:59]",
+   "start_time_sec": 776,
+   "text": "Yes, BB-884102 is our business account.",
+   "sentiment_score": 18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:05]",
+   "end_time": "[13:13]",
+   "start_time_sec": 785,
+   "text": "Yes, the cloud management system syncs the configuration to non-volatile flash memory, so reboots will preserve the 254-device pool."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:19]",
+   "end_time": "[13:23]",
+   "start_time_sec": 799,
+   "text": "That is fantastic engineering. You have saved our morning trade, Marcus.",
+   "sentiment_score": 24.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:29]",
+   "end_time": "[13:33]",
+   "start_time_sec": 809,
+   "text": "I have documented all configuration updates under technical reference COM-99214-B."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:39]",
+   "end_time": "[13:42]",
+   "start_time_sec": 819,
+   "text": "COM-99214-B, recorded in our store logbook.",
+   "sentiment_score": 20.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:48]",
+   "end_time": "[13:56]",
+   "start_time_sec": 828,
+   "text": "Before we conclude, would you like me to enable automated email alerts if guest pool utilization ever exceeds eighty percent?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:02]",
+   "end_time": "[14:05]",
+   "start_time_sec": 842,
+   "text": "Yes please, set alerts to manager@roastedbeancafe.co.uk.",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:11]",
+   "end_time": "[14:14]",
+   "start_time_sec": 851,
+   "text": "Threshold alerts enabled for manager@roastedbeancafe.co.uk."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:20]",
+   "end_time": "[14:24]",
+   "start_time_sec": 860,
+   "text": "Superb service. Thank you so much for your rapid help.",
+   "sentiment_score": 26.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:30]",
+   "end_time": "[14:36]",
+   "start_time_sec": 870,
+   "text": "Is there any other aspect of your commercial broadband I can assist you with today, Lucas?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:42]",
+   "end_time": "[14:46]",
+   "start_time_sec": 882,
+   "text": "No Marcus, you have fixed everything perfectly. Thank you again.",
+   "sentiment_score": 28.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:52]",
+   "end_time": "[14:58]",
+   "start_time_sec": 892,
+   "text": "Thank you for calling S-Net commercial broadband support, Lucas. Have a successful and busy day. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:04]",
+   "end_time": "[15:07]",
+   "start_time_sec": 904,
+   "text": "Goodbye Marcus.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:13]",
+   "end_time": "[15:16]",
+   "start_time_sec": 913,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:22]",
+   "end_time": "[15:27]",
+   "start_time_sec": 922,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  }
+ ]
+}

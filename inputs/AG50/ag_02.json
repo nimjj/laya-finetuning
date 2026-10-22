@@ -1,0 +1,646 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Kwame",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Hello, uh, thank you for calling S-Net mobile support, this is Hannah speaking. How can I help you today?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:07]",
+      "end_time": "[00:15]",
+      "start_time_sec": 7,
+      "text": "Hi Hannah, um, it's Kwame here. I've just landed in Valencia in Spain about an hour ago and my mobile data isn't working at all.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:16]",
+      "end_time": "[00:25]",
+      "start_time_sec": 16,
+      "text": "Oh no, Kwame, I am so sorry you're stuck at the airport in Valencia without mobile data—I completely understand how stressful that is when you've just landed.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:26]",
+      "end_time": "[00:35]",
+      "start_time_sec": 26,
+      "text": "Yeah, um, I actually bought the Roam-Further bolt-on via the S-Net app two days before my flight, and I'm trying to load my digital hotel voucher and directions.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:36]",
+      "end_time": "[00:48]",
+      "start_time_sec": 36,
+      "text": "Right, let's get you connected straight away. So just to make sure I've got the full picture, your Roam-Further pass is active, you can make voice calls, but mobile data won't connect in Valencia—is that right?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:49]",
+      "end_time": "[00:59]",
+      "start_time_sec": 49,
+      "text": "Exactly, yeah. I'm calling you right now over standard mobile voice and the call quality is fine, uh, it's just the internet data that says could not activate cellular data network.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:00]",
+      "end_time": "[01:11]",
+      "start_time_sec": 60,
+      "text": "Okay, that error banner gives us a really solid starting point, Kwame. Before I even open your billing switch, let's check a couple of live indicators on your screen while we talk.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:12]",
+      "end_time": "[01:18]",
+      "start_time_sec": 72,
+      "text": "Sure, I've got you on speakerphone through my earbuds right now so I can look at the handset screen easily.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:19]",
+      "end_time": "[01:25]",
+      "start_time_sec": 79,
+      "text": "Brilliant. First off, what handset model are you using today, um, is it an iPhone or an Android device?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:26]",
+      "end_time": "[01:29]",
+      "start_time_sec": 86,
+      "text": "It's an iPhone 15 Pro, running the latest iOS update from last week.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:30]",
+      "end_time": "[01:39]",
+      "start_time_sec": 90,
+      "text": "Great, and looking at the top right corner of your iPhone screen right now, what network carrier name is displayed and how many signal bars have you got?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:40]",
+      "end_time": "[01:50]",
+      "start_time_sec": 100,
+      "text": "Um, it says Movistar at the top left actually, and I've got three bars out of four, but there's no 4G or 5G symbol next to the bars at all.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:51]",
+      "end_time": "[02:02]",
+      "start_time_sec": 111,
+      "text": "Right, three bars on Movistar with no 4G or 5G data icon at all. And if you go into Settings and tap Mobile Service, is the Data Roaming toggle definitely switched to green?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:03]",
+      "end_time": "[02:12]",
+      "start_time_sec": 123,
+      "text": "Let me look... yes, Mobile Data is green, and under Mobile Data Options, Data Roaming is turned on green and Voice and Data is set to 5G Auto.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:13]",
+      "end_time": "[02:24]",
+      "start_time_sec": 133,
+      "text": "Okay, good, and while you're in that Mobile Service menu, do you happen to have a second travel eSIM installed on the phone, or is your S-Net SIM the only active line?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:25]",
+      "end_time": "[02:32]",
+      "start_time_sec": 145,
+      "text": "No, uh, I deleted an old holiday eSIM months ago, so the S-Net physical SIM is the only line in the phone.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:33]",
+      "end_time": "[02:40]",
+      "start_time_sec": 153,
+      "text": "Understood. And did you get our automated welcome to Spain roaming text message when you switched airplane mode off on the runway?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:41]",
+      "end_time": "[02:49]",
+      "start_time_sec": 161,
+      "text": "Funny you ask—no, I never got the usual welcome text about roaming allowances, my phone just latched onto Movistar after five minutes of searching.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:50]",
+      "end_time": "[02:58]",
+      "start_time_sec": 170,
+      "text": "Aha, that's a classic sign that the roaming data bearer on our home location register hasn't completed the packet-switched handshake with the Spanish partner network.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:59]",
+      "end_time": "[03:03]",
+      "start_time_sec": 179,
+      "text": "Oh right, um, is that something you can fix from your computer in the UK?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:04]",
+      "end_time": "[03:14]",
+      "start_time_sec": 184,
+      "text": "Yes, I can reprovision your roaming profile directly from my terminal right now, Kwame. Before I open your account, have you restarted the iPhone at all since landing in Valencia?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:15]",
+      "end_time": "[03:22]",
+      "start_time_sec": 195,
+      "text": "Yeah, I turned it completely off and back on twice while waiting at the baggage carousel, uh, and it made no difference.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:23]",
+      "end_time": "[03:31]",
+      "start_time_sec": 203,
+      "text": "Okay, good to know a handset reboot didn't clear it. Let me pull up your mobile account on my system now—what is your mobile telephone number?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:32]",
+      "end_time": "[03:36]",
+      "start_time_sec": 212,
+      "text": "Okay, my mobile number is zero seven seven zero zero, nine zero zero, four eight two.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:37]",
+      "end_time": "[03:47]",
+      "start_time_sec": 217,
+      "text": "Got the mobile number loaded. And just to pass security on the account, could you give me your four-digit account security PIN and the first line of your home address?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:48]",
+      "end_time": "[03:54]",
+      "start_time_sec": 228,
+      "text": "Yeah, my security PIN is four nine two one, that's 4921, and the first line is 28 Sterling Way, Croydon.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:55]",
+      "end_time": "[04:05]",
+      "start_time_sec": 235,
+      "text": "Thank you, Kwame, that's all verified. Obviously I'll check that roaming carrier profile on our switch right now for you, Kwame, and see why Movistar rejected the data session.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:06]",
+      "end_time": "[04:09]",
+      "start_time_sec": 246,
+      "text": "Thanks Hannah. Can you see my Roam-Further bolt-on showing on the account?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:10]",
+      "end_time": "[04:18]",
+      "start_time_sec": 250,
+      "text": "Yes, I can see you added the seven-day Roam-Further Europe Zone pass on Thursday at 18:40, and the billing side is 100 percent active.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:19]",
+      "end_time": "[04:21]",
+      "start_time_sec": 259,
+      "text": "Phew, I was worried the app order hadn't gone through properly.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:22]",
+      "end_time": "[04:33]",
+      "start_time_sec": 262,
+      "text": "The commercial bolt-on went through fine, um, but looking at your HLR network profile, there is a stale GPRS roaming bar flag left over from an old spend-cap limit six months ago.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:34]",
+      "end_time": "[04:38]",
+      "start_time_sec": 274,
+      "text": "What?! A spend-cap flag from six months ago? Why didn't removing the spend cap clear that?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:39]",
+      "end_time": "[04:49]",
+      "start_time_sec": 279,
+      "text": "When you set your domestic bill cap to zero extra spend back in April, it ticked both the international call bar and the roaming packet-data bar on the core switch.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:50]",
+      "end_time": "[04:54]",
+      "start_time_sec": 290,
+      "text": "And when the Roam-Further pass was added on Thursday, it only lifted the voice roaming bar?",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:55]",
+      "end_time": "[05:05]",
+      "start_time_sec": 295,
+      "text": "Exactly—the bolt-on provisioned voice roaming in Zone 1, which is why Movistar let you place this call to me, uh, but blocked your iPhone from opening an internet APN tunnel.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:06]",
+      "end_time": "[05:09]",
+      "start_time_sec": 306,
+      "text": "Oh, well spotted! Can you strip that stale bar off right now?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:10]",
+      "end_time": "[05:20]",
+      "start_time_sec": 310,
+      "text": "I am clearing that roaming packet-data bar on the core switch right now... there we go, command accepted, and I've pushed a fresh SIM over-the-air sync to your handset.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:21]",
+      "end_time": "[05:27]",
+      "start_time_sec": 321,
+      "text": "Awesome. Should the 5G icon pop up straight away or do I need to change anything on my iPhone?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:28]",
+      "end_time": "[05:38]",
+      "start_time_sec": 328,
+      "text": "Because Movistar cached the earlier rejection token, let's also verify your APN settings and steer your phone onto our preferred 5G roaming partner in Valencia, which is Orange ES.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:39]",
+      "end_time": "[05:41]",
+      "start_time_sec": 339,
+      "text": "Okay, walk me through where to tap on my iPhone.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:42]",
+      "end_time": "[05:49]",
+      "start_time_sec": 342,
+      "text": "In Settings, under Mobile Service, tap Mobile Data Network and tell me what is written inside the APN box at the top.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:50]",
+      "end_time": "[05:53]",
+      "start_time_sec": 350,
+      "text": "Um, I'm looking at Mobile Data Network now... the APN box says wap.s-net.co.uk.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:54]",
+      "end_time": "[06:01]",
+      "start_time_sec": 354,
+      "text": "Ah, wap.s-net.co.uk is our legacy 3G gateway! Let's update that—please tap that APN field and type mob.s-net.co.uk, all lowercase, with no spaces.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:02]",
+      "end_time": "[06:07]",
+      "start_time_sec": 362,
+      "text": "Okay, typing m-o-b dot s-hyphen-n-e-t dot c-o dot u-k. What about the username and password boxes underneath?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:08]",
+      "end_time": "[06:13]",
+      "start_time_sec": 368,
+      "text": "Leave username and password completely blank. Now go back one screen to Mobile Service and tap Network Selection.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:14]",
+      "end_time": "[06:16]",
+      "start_time_sec": 374,
+      "text": "Right, I'm in Network Selection and Automatic is currently ticked on.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:17]",
+      "end_time": "[06:23]",
+      "start_time_sec": 377,
+      "text": "Toggle Automatic off for a moment—it'll take about ten seconds to scan the local Spanish masts around Valencia airport.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:24]",
+      "end_time": "[06:30]",
+      "start_time_sec": 384,
+      "text": "Yeah, the little spinning wheel is going now... okay, I can see Movistar, Orange ES, Vodafone ES, and Yoigo.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:31]",
+      "end_time": "[06:39]",
+      "start_time_sec": 391,
+      "text": "Tap on Orange ES for me, and once it ticks Orange ES, toggle Airplane Mode on for five seconds and then switch Airplane Mode back off.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:40]",
+      "end_time": "[06:45]",
+      "start_time_sec": 400,
+      "text": "Okay, tapped Orange ES, turning Airplane Mode on for a few seconds... and turning it back off now.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:46]",
+      "end_time": "[06:56]",
+      "start_time_sec": 406,
+      "text": "Now that it has re-registered with the new APN and the cleared switch profile, what carrier name, signal bars, and data symbol are you seeing at the top of your screen?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:57]",
+      "end_time": "[07:03]",
+      "start_time_sec": 417,
+      "text": "Hold on... it says Orange ES, four full bars, and—yes! A 5G symbol just appeared right next to the bars!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:04]",
+      "end_time": "[07:06]",
+      "start_time_sec": 424,
+      "text": "Yes! And did a text message just ping through as well?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:07]",
+      "end_time": "[07:13]",
+      "start_time_sec": 427,
+      "text": "Literally just buzzed in my ear—Welcome to Spain with S-Net Roam-Further, enjoy up to 25 gigabytes of high-speed data!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:14]",
+      "end_time": "[07:24]",
+      "start_time_sec": 434,
+      "text": "That welcome SMS confirms the packet-switched handshake on Orange ES is live. Can you try opening your hotel voucher and Google Maps right now while I stay on the line?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:25]",
+      "end_time": "[07:33]",
+      "start_time_sec": 445,
+      "text": "Opening my email app now... the PDF hotel voucher downloaded in one second, and Google Maps has just loaded the metro route into central Valencia!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:34]",
+      "end_time": "[07:43]",
+      "start_time_sec": 454,
+      "text": "Fantastic! Now you can go ahead and flick Network Selection back to Automatic if you like, as our SIM update has marked Orange ES as your priority bearer.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:44]",
+      "end_time": "[07:47]",
+      "start_time_sec": 464,
+      "text": "Done, switched Automatic back on and it stayed locked on Orange ES 5G.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:48]",
+      "end_time": "[07:59]",
+      "start_time_sec": 468,
+      "text": "Actually, while I've got you, Hannah, my partner is flying out to join me in Valencia on Sunday and she's on my S-Net family plan—could her line have that same old spend-cap flag?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:00]",
+      "end_time": "[08:11]",
+      "start_time_sec": 480,
+      "text": "Ooh, that is a really sensible thing to check right now so she doesn't run into the exact same headache on Sunday, Kwame. Which mobile number on your family plan is hers?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:12]",
+      "end_time": "[08:18]",
+      "start_time_sec": 492,
+      "text": "Her number ends in six one nine—uh, zero seven seven zero zero, nine zero zero, six one nine.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:19]",
+      "end_time": "[08:30]",
+      "start_time_sec": 499,
+      "text": "Let me pull up the secondary SIM ending in six one nine under your account... okay, I can see her line is an iPhone 14 on the 50 gigabyte plan.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:31]",
+      "end_time": "[08:38]",
+      "start_time_sec": 511,
+      "text": "Yeah, that's her phone. Did I put the zero spend cap on her line back in April as well?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:39]",
+      "end_time": "[08:48]",
+      "start_time_sec": 519,
+      "text": "Let's inspect her HLR switch profile... yes, good catch, Kwame! Her line has the exact same legacy GPRS roaming bar sitting dormant on the switch.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:49]",
+      "end_time": "[08:56]",
+      "start_time_sec": 529,
+      "text": "Wow, I'm so glad I asked! If she'd landed late Sunday night by herself with no data she would have panicked.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:57]",
+      "end_time": "[09:04]",
+      "start_time_sec": 537,
+      "text": "I've just stripped that stale GPRS roaming bar off her SIM profile as well, and I'm checking her Roam-Further status now.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:05]",
+      "end_time": "[09:11]",
+      "start_time_sec": 545,
+      "text": "Did my Roam-Further purchase cover her line or do I need to add a pass for her separately?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:12]",
+      "end_time": "[09:23]",
+      "start_time_sec": 552,
+      "text": "Bolt-ons are per SIM, so her line doesn't have the pass active yet. Would you like me to schedule the seven-day Roam-Further pass to start on her line this Sunday morning?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:24]",
+      "end_time": "[09:27]",
+      "start_time_sec": 564,
+      "text": "Yes please, it's twelve pounds for the seven-day pass, isn't it?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:28]",
+      "end_time": "[09:39]",
+      "start_time_sec": 568,
+      "text": "Because you have a multi-SIM family discount on S-Net, the second Roam-Further pass is actually discounted by twenty percent to nine pounds sixty, added to your next monthly bill.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:40]",
+      "end_time": "[09:45]",
+      "start_time_sec": 580,
+      "text": "Oh, nine pounds sixty is even better! Yes, please schedule that for Sunday morning for her.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:46]",
+      "end_time": "[09:59]",
+      "start_time_sec": 586,
+      "text": "Done! I've scheduled the Roam-Further pass on the line ending six one nine for 06:00 UK time this Sunday, and her APN is already set to mob.s-net.co.uk so her data will work the moment she lands.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:00]",
+      "end_time": "[10:07]",
+      "start_time_sec": 600,
+      "text": "Just so you know, your 25 gigabyte Roam-Further allowance resets on your billing date and has no daily throttling across Spain.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:08]",
+      "end_time": "[10:16]",
+      "start_time_sec": 608,
+      "text": "That's a huge relief, Hannah, honestly I thought I was going to have to hunt for airport café Wi-Fi with all my luggage.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:17]",
+      "end_time": "[10:26]",
+      "start_time_sec": 617,
+      "text": "I'm so glad we caught both that old switch flag and the legacy APN setting so you can get straight to your hotel, Kwame.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:27]",
+      "end_time": "[10:30]",
+      "start_time_sec": 627,
+      "text": "You've been brilliant, really quick and straight to the point.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:31]",
+      "end_time": "[10:42]",
+      "start_time_sec": 631,
+      "text": "Before I let you head off into Valencia, are you completely happy that your roaming data issue is resolved, and is there anything else I can check for you today?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:43]",
+      "end_time": "[10:46]",
+      "start_time_sec": 643,
+      "text": "Everything is working 100 percent now, nothing else needed at all.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:47]",
+      "end_time": "[10:52]",
+      "start_time_sec": 647,
+      "text": "Wonderful. Thank you for choosing S-Net, Kwame, and have a fantastic trip in Valencia!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:53]",
+      "end_time": "[10:55]",
+      "start_time_sec": 653,
+      "text": "Thanks Hannah, cheers, bye!",
+      "sentiment_score": 22.0
+    }
+  ]
+}

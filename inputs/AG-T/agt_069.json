@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Neil",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net TV technical support, my name is Fiona. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:14]",
+   "end_time": "[00:33]",
+   "start_time_sec": 14,
+   "text": "Hello Fiona, my name is Neil Gallagher. Our S-Net TV box electronic program guide displays 'No Information Available' across every single broadcast channel, which means we cannot see what shows are on, set scheduled recordings, or use the accessibility features for my elderly father!",
+   "sentiment_score": -32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:40]",
+   "end_time": "[01:01]",
+   "start_time_sec": 40,
+   "text": "Good afternoon Neil. If I understand correctly, your TV set-top box electronic program guide is displaying 'No Information Available' across all channels, preventing you from viewing schedules or setting recordings. Before we inspect your TV box data stream, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:08]",
+   "end_time": "[01:15]",
+   "start_time_sec": 68,
+   "text": "Yes, it is 22 Roman Way, St Albans, AL3 5HB, security PIN 4410, TV box account SN-TV-661204.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:22]",
+   "end_time": "[01:32]",
+   "start_time_sec": 82,
+   "text": "Thank you Neil, that confirms your account details. Have you tried leaving the box on channel 100 for twenty minutes to download the broadcast carousel?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:39]",
+   "end_time": "[01:55]",
+   "start_time_sec": 99,
+   "text": "I left it on channel 100 all morning, rebooted the box twice, and the entire guide grid remains completely blank with 'No Information Available'!",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[02:02]",
+   "end_time": "[02:14]",
+   "start_time_sec": 122,
+   "text": "Could I place you on hold for two minutes while I query your set-top box electronic program guide data stream?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:39]",
+   "end_time": "[03:54]",
+   "start_time_sec": 219,
+   "text": "Thank you for holding, Neil. The telemetry shows that your box's EPG metadata database cache has desynchronized from our regional terrestrial multiplexer."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:01]",
+   "end_time": "[04:12]",
+   "start_time_sec": 241,
+   "text": "Can you force an administrative EPG cache rebuild from your console?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:19]",
+   "end_time": "[04:33]",
+   "start_time_sec": 259,
+   "text": "I can send an over-the-air command to purge the local corrupt EPG database cache and re-subscribe to the live multiplex carousel."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:40]",
+   "end_time": "[04:43]",
+   "start_time_sec": 280,
+   "text": "That sounds like the exact procedure required.",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:50]",
+   "end_time": "[05:06]",
+   "start_time_sec": 290,
+   "text": "If you leave the TV box in standby mode instead of letting it run its nightly software maintenance cycles, you starve the guide of updates."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:13]",
+   "end_time": "[05:26]",
+   "start_time_sec": 313,
+   "text": "We leave the box powered on standby every night! The software should maintain itself automatically!",
+   "sentiment_score": -48.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:33]",
+   "end_time": "[05:43]",
+   "start_time_sec": 333,
+   "text": "I am stating how automatic software synchronization cycles operate on our platform."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:50]",
+   "end_time": "[06:01]",
+   "start_time_sec": 350,
+   "text": "Please execute the EPG cache rebuild command right now.",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:08]",
+   "end_time": "[06:19]",
+   "start_time_sec": 368,
+   "text": "I am transmitting the EPG cache flush packet to your TV box IP address."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:26]",
+   "end_time": "[06:38]",
+   "start_time_sec": 386,
+   "text": "The TV screen just flashed black for a second and returned to BBC One.",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:45]",
+   "end_time": "[06:52]",
+   "start_time_sec": 405,
+   "text": "The local EPG database cache has been cleared successfully."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:59]",
+   "end_time": "[07:10]",
+   "start_time_sec": 419,
+   "text": "Should I press the Guide button on the remote control now?",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:17]",
+   "end_time": "[07:29]",
+   "start_time_sec": 437,
+   "text": "Obviously electronic program guide carousels require continuous background data broadcast reception to populate seven-day schedules."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:36]",
+   "end_time": "[07:49]",
+   "start_time_sec": 456,
+   "text": "Right, I understand it takes time to download seven days of schedule data.",
+   "sentiment_score": 14.5
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:56]",
+   "end_time": "[08:20]",
+   "start_time_sec": 476,
+   "text": "Neil speaking, my elderly father is partially sighted and relies entirely on the TV program guide speech synthesizer to navigate channels! Because your guide says 'No Information Available' on every channel, he cannot find his evening news and is sitting in the dark confused and distressed! It breaks my heart to see him struggling because of your broken software!",
+   "sentiment_score": -62.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:27]",
+   "end_time": "[08:50]",
+   "start_time_sec": 507,
+   "text": "I completely understand how distressing and heartbreaking that is for you and your father, Neil. Having an accessible program guide is essential for someone who is partially sighted to enjoy television independently, and I will resolve this EPG data stream with you right away."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:57]",
+   "end_time": "[09:08]",
+   "start_time_sec": 537,
+   "text": "Thank you Fiona, that means a lot to hear.",
+   "sentiment_score": -4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:15]",
+   "end_time": "[09:28]",
+   "start_time_sec": 555,
+   "text": "I have triggered a high-speed broadband metadata push directly over your home Wi-Fi to supplement the broadcast carousel."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:35]",
+   "end_time": "[09:49]",
+   "start_time_sec": 575,
+   "text": "Checking the Guide now... Channel 1, 2, and 3 now display 'BBC One News', 'BBC Two', and 'ITV1'!",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:56]",
+   "end_time": "[10:06]",
+   "start_time_sec": 596,
+   "text": "The immediate two-hour viewing window has loaded over the IP connection."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:13]",
+   "end_time": "[10:26]",
+   "start_time_sec": 613,
+   "text": "The speech synthesizer works again for the current channels! My father can hear the show titles!",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:33]",
+   "end_time": "[10:41]",
+   "start_time_sec": 633,
+   "text": "The full seven-day guide grid will populate progressively over the next three to four hours via the background multiplexer."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:48]",
+   "end_time": "[10:53]",
+   "start_time_sec": 648,
+   "text": "Can we confirm right now whether tomorrow and the weekend will populate properly?",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:00]",
+   "end_time": "[11:10]",
+   "start_time_sec": 660,
+   "text": "Because the full seven-day broadcast carousel broadcasts in twenty-minute cycles across sixty channels, the complete week cannot be verified while we are on this call."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:17]",
+   "end_time": "[11:23]",
+   "start_time_sec": 677,
+   "text": "So we can confirm today is working, but tomorrow and Friday must be checked later tonight?",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:30]",
+   "end_time": "[11:35]",
+   "start_time_sec": 690,
+   "text": "Correct, the full weekly guide will finish caching by eight o'clock this evening."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:42]",
+   "end_time": "[11:49]",
+   "start_time_sec": 702,
+   "text": "I understand. As long as tonight's news works for my father right now, that solves his immediate distress.",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:56]",
+   "end_time": "[12:04]",
+   "start_time_sec": 716,
+   "text": "I have added a maintenance flag on your TV profile to monitor guide ingestion over the next forty-eight hours."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:11]",
+   "end_time": "[12:14]",
+   "start_time_sec": 731,
+   "text": "Thank you Fiona, that is very diligent.",
+   "sentiment_score": 24.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:21]",
+   "end_time": "[12:24]",
+   "start_time_sec": 741,
+   "text": "I have also documented this ticket under reference TV-GUIDE-88192-G."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:31]",
+   "end_time": "[12:34]",
+   "start_time_sec": 751,
+   "text": "TV-GUIDE-88192-G, noted down.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:41]",
+   "end_time": "[12:49]",
+   "start_time_sec": 761,
+   "text": "If the weekend guide shows any missing information tomorrow morning, you can power-cycle the box once to force a refresh."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:56]",
+   "end_time": "[13:00]",
+   "start_time_sec": 776,
+   "text": "Understood. I will reboot it in the morning if needed.",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:07]",
+   "end_time": "[13:12]",
+   "start_time_sec": 787,
+   "text": "The accessibility speech synthesis settings have also been verified on your account profile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:18]",
+   "end_time": "[13:21]",
+   "start_time_sec": 798,
+   "text": "Everything is working smoothly for him right now.",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:27]",
+   "end_time": "[13:33]",
+   "start_time_sec": 807,
+   "text": "Just ensuring my technical notes match your exact customer account: that was SN-TV-661204, wasn't it?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:39]",
+   "end_time": "[13:42]",
+   "start_time_sec": 819,
+   "text": "Yes, SN-TV-661204 is our TV box account.",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:48]",
+   "end_time": "[13:53]",
+   "start_time_sec": 828,
+   "text": "Thank you Neil, all diagnostic logs and accessibility flags are permanently committed."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:59]",
+   "end_time": "[14:04]",
+   "start_time_sec": 839,
+   "text": "Thank you for getting the speech synthesizer working so quickly for my dad.",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:10]",
+   "end_time": "[14:16]",
+   "start_time_sec": 850,
+   "text": "It has been my pleasure assisting you, Neil. Please give my warmest regards to your father."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:22]",
+   "end_time": "[14:25]",
+   "start_time_sec": 862,
+   "text": "I will do. Have a lovely evening, Fiona.",
+   "sentiment_score": 26.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:31]",
+   "end_time": "[14:36]",
+   "start_time_sec": 871,
+   "text": "Is there any other TV issue I can assist you with today, Neil?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:42]",
+   "end_time": "[14:45]",
+   "start_time_sec": 882,
+   "text": "No Fiona, that covers everything.",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:51]",
+   "end_time": "[14:57]",
+   "start_time_sec": 891,
+   "text": "Thank you for calling S-Net TV technical support, Neil. Have a wonderful evening. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:03]",
+   "end_time": "[15:06]",
+   "start_time_sec": 903,
+   "text": "Goodbye Fiona.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:12]",
+   "end_time": "[15:15]",
+   "start_time_sec": 912,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:21]",
+   "end_time": "[15:24]",
+   "start_time_sec": 921,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:30]",
+   "end_time": "[15:33]",
+   "start_time_sec": 930,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:39]",
+   "end_time": "[15:42]",
+   "start_time_sec": 939,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:48]",
+   "end_time": "[15:51]",
+   "start_time_sec": 948,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:57]",
+   "end_time": "[16:02]",
+   "start_time_sec": 957,
+   "text": "Goodbye.",
+   "sentiment_score": 10.0
+  }
+ ]
+}

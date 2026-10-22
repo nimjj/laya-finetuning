@@ -1,0 +1,433 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Dorothy",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Liam. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:28]",
+      "start_time_sec": 11,
+      "text": "Hello Liam. I am having a dreadful time with my television puck. I pressed the little reset pinhole on the bottom, and now it's stuck on a screen showing a picture of the remote control, and nothing works!",
+      "sentiment_score": -36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:32]",
+      "end_time": "[00:45]",
+      "start_time_sec": 32,
+      "text": "I can certainly help you sort out that TV puck, Dorothy. Before we begin, can you confirm the first line of your address and your postcode for account security?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:49]",
+      "end_time": "[00:52]",
+      "start_time_sec": 49,
+      "text": "Dorothy Higgins, 7 Primrose Lane, Harrogate, HG2 9BL.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:56]",
+      "end_time": "[01:01]",
+      "start_time_sec": 56,
+      "text": "And can you confirm the four-digit security PIN on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:05]",
+      "end_time": "[01:08]",
+      "start_time_sec": 65,
+      "text": "Yes, it is 6219.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:12]",
+      "end_time": "[01:30]",
+      "start_time_sec": 72,
+      "text": "Thank you Dorothy, that passes verification. So what I understand is that after doing a factory reset on the Stream puck, the television is stuck on the pairing graphic and the remote isn't responding to any button presses, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:34]",
+      "end_time": "[01:45]",
+      "start_time_sec": 94,
+      "text": "Yes, that's exactly it. The screen shows two hands holding a remote control pointing at the box, but pressing any button does nothing at all.",
+      "sentiment_score": -8.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:49]",
+      "end_time": "[02:01]",
+      "start_time_sec": 109,
+      "text": "When you press the power or volume buttons on the remote right now, does the small LED light at the top of the remote flash any color?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:05]",
+      "end_time": "[02:10]",
+      "start_time_sec": 125,
+      "text": "It flashes a tiny red light twice whenever I press a button.",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:14]",
+      "end_time": "[02:18]",
+      "start_time_sec": 134,
+      "text": "Have you changed the batteries in the remote control recently?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:22]",
+      "end_time": "[02:28]",
+      "start_time_sec": 142,
+      "text": "I put brand new Duracell batteries in just twenty minutes ago before calling you.",
+      "sentiment_score": 2.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:32]",
+      "end_time": "[02:42]",
+      "start_time_sec": 152,
+      "text": "Just to check the physical setup, is the Stream puck connected to HDMI port 1 or HDMI port 2 on your television?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:46]",
+      "end_time": "[02:52]",
+      "start_time_sec": 166,
+      "text": "It is plugged into HDMI 1 on the back of the Samsung television.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:56]",
+      "end_time": "[03:04]",
+      "start_time_sec": 176,
+      "text": "And is the small white light on the front of the Stream puck solid white or flashing amber?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:08]",
+      "end_time": "[03:11]",
+      "start_time_sec": 188,
+      "text": "It is a solid white light, quite bright.",
+      "sentiment_score": 3.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:15]",
+      "end_time": "[03:22]",
+      "start_time_sec": 195,
+      "text": "And is there any object blocking the front of the puck, like books or a soundbar?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:26]",
+      "end_time": "[03:31]",
+      "start_time_sec": 206,
+      "text": "No, it sits right out on the open wooden TV cabinet table.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:35]",
+      "end_time": "[03:40]",
+      "start_time_sec": 215,
+      "text": "Perfect, clear line of sight helps during the initial Bluetooth discovery."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:44]",
+      "end_time": "[03:48]",
+      "start_time_sec": 224,
+      "text": "Good, I made sure it had plenty of breathing room.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:52]",
+      "end_time": "[03:59]",
+      "start_time_sec": 232,
+      "text": "And the television remote control for your TV is separate from our voice remote, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:03]",
+      "end_time": "[04:08]",
+      "start_time_sec": 243,
+      "text": "Yes, I have the black Samsung remote sitting on the side table.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:12]",
+      "end_time": "[04:24]",
+      "start_time_sec": 252,
+      "text": "That's great. The double red flash indicates the remote is still paired to the puck's old Bluetooth profile, but the puck's memory was wiped by the reset."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:28]",
+      "end_time": "[04:39]",
+      "start_time_sec": 268,
+      "text": "I was so worried the puck had broken completely and I'd miss my evening shows. It's so frustrating when technology just stops working like this!",
+      "sentiment_score": -28.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:43]",
+      "end_time": "[04:55]",
+      "start_time_sec": 283,
+      "text": "We just need to clear the remote's stored Bluetooth cache and re-link them. Hold on for just a moment while I pull up the exact button sequence."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:12]",
+      "end_time": "[05:19]",
+      "start_time_sec": 312,
+      "text": "Thank you for waiting, Dorothy. I will guide you through the reset process step by step."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:23]",
+      "end_time": "[05:27]",
+      "start_time_sec": 323,
+      "text": "Alright Liam, I'm ready with the remote in my hand.",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:31]",
+      "end_time": "[05:44]",
+      "start_time_sec": 331,
+      "text": "First, I need you to press and hold down the 7 and 9 buttons together at the same time until the LED light at the top flashes red four times."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:48]",
+      "end_time": "[05:55]",
+      "start_time_sec": 348,
+      "text": "Holding 7 and 9 down now... One, two, three... Yes! It just flashed red four times rapidly.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:59]",
+      "end_time": "[06:04]",
+      "start_time_sec": 359,
+      "text": "Excellent. That has completely wiped the old pairing from the remote."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:08]",
+      "end_time": "[06:12]",
+      "start_time_sec": 368,
+      "text": "The screen is still showing the remote graphic though.",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:16]",
+      "end_time": "[06:25]",
+      "start_time_sec": 376,
+      "text": "That's completely normal because they aren't linked yet. Obviously the puck cannot communicate with the remote until we re-establish Bluetooth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:29]",
+      "end_time": "[06:32]",
+      "start_time_sec": 389,
+      "text": "Understood. What is the next step?",
+      "sentiment_score": 5.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:36]",
+      "end_time": "[06:48]",
+      "start_time_sec": 396,
+      "text": "Now point the remote directly at the Stream puck, about a foot away, and press and hold the 1 and 3 buttons together until the LED pulses blue."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:52]",
+      "end_time": "[06:56]",
+      "start_time_sec": 412,
+      "text": "Holding 1 and 3 now... It's flashing blue slowly.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:00]",
+      "end_time": "[07:05]",
+      "start_time_sec": 420,
+      "text": "Keep pointing it at the puck. Does the TV screen change?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:09]",
+      "end_time": "[07:14]",
+      "start_time_sec": 429,
+      "text": "Yes! A little box popped up saying 'Remote control connected via Bluetooth'!",
+      "sentiment_score": 29.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:18]",
+      "end_time": "[07:25]",
+      "start_time_sec": 438,
+      "text": "Fantastic. Now press the Home button with the picture of the house on the remote."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:29]",
+      "end_time": "[07:36]",
+      "start_time_sec": 449,
+      "text": "Oh wonderful! The main S-Net home screen with all the apps and live channels just appeared!",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:40]",
+      "end_time": "[07:51]",
+      "start_time_sec": 460,
+      "text": "Just to confirm what the remote LED does now, is it still flashing red twice when you press volume, or has it stopped flashing red?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:55]",
+      "end_time": "[08:02]",
+      "start_time_sec": 475,
+      "text": "No red flash at all now, the volume bar goes up and down smoothly on my television!",
+      "sentiment_score": 36.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:06]",
+      "end_time": "[08:14]",
+      "start_time_sec": 486,
+      "text": "Can you use the directional arrow buttons to highlight BBC One and press the Select button in the center?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:18]",
+      "end_time": "[08:24]",
+      "start_time_sec": 498,
+      "text": "Doing that now... Yes, BBC News is playing with full sound and picture!",
+      "sentiment_score": 38.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:28]",
+      "end_time": "[08:35]",
+      "start_time_sec": 508,
+      "text": "Can you test changing channels to ITV as well to make sure navigation is responsive?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:39]",
+      "end_time": "[08:42]",
+      "start_time_sec": 519,
+      "text": "Switched to ITV, crystal clear HD picture.",
+      "sentiment_score": 35.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:46]",
+      "end_time": "[08:52]",
+      "start_time_sec": 526,
+      "text": "Is the voice search button working if you press the microphone icon, Dorothy?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:56]",
+      "end_time": "[09:04]",
+      "start_time_sec": 536,
+      "text": "Pressed it and said 'weather', and the forecast popped up on screen immediately. It's working better than before!",
+      "sentiment_score": 39.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:08]",
+      "end_time": "[09:13]",
+      "start_time_sec": 548,
+      "text": "That's fantastic. The firmware also re-calibrated the voice remote during the re-pairing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:17]",
+      "end_time": "[09:22]",
+      "start_time_sec": 557,
+      "text": "I am so relieved. You made that so simple to follow, Liam.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:26]",
+      "end_time": "[09:31]",
+      "start_time_sec": 566,
+      "text": "I'm glad we could get it sorted out so quickly for you."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:35]",
+      "end_time": "[09:41]",
+      "start_time_sec": 575,
+      "text": "If the power goes off in a storm, will it forget the remote again?",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:45]",
+      "end_time": "[09:55]",
+      "start_time_sec": 585,
+      "text": "No, normal power cuts or turning off at the wall will not erase the pairing. Only pressing that physical pinhole button does that."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:59]",
+      "end_time": "[10:04]",
+      "start_time_sec": 599,
+      "text": "I will definitely steer clear of that little pinhole in future!",
+      "sentiment_score": 16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:08]",
+      "end_time": "[10:15]",
+      "start_time_sec": 608,
+      "text": "Is there anything else with your TV or broadband that I can assist you with today, Dorothy?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:19]",
+      "end_time": "[10:25]",
+      "start_time_sec": 619,
+      "text": "No, everything else is working beautifully. Thank you so much for your help.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:29]",
+      "end_time": "[10:37]",
+      "start_time_sec": 629,
+      "text": "It was my pleasure. Thank you for choosing S-Net, Dorothy, and have a lovely evening watching your programmes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:41]",
+      "end_time": "[10:44]",
+      "start_time_sec": 641,
+      "text": "Thank you Liam, goodbye.",
+      "sentiment_score": 22.0
+    }
+  ]
+}

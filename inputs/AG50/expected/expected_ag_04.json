@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_04",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 40.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "At [00:00], you paraphrased the opening branding as 'thanks for calling S-Net' instead of 'thank you for calling S-Net', and after saying 'thank you for choosing S-Net' early at [15:44], you failed to include the closing branding in your final four turns."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "You left the customer in two unmanaged silences exceeding 30 seconds: a 48-second gap before [06:17] without proper hold phrasing and a 62-second silence before [09:37] where the customer had to ask if you were still there."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "You did not request the customer's address and security PIN until [04:46], which was after the 240-second verification deadline had already passed."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "At [10:07], you asked the customer what error code was on the screen even though he had already told you 'CS-104' twice at [00:10] and [00:37] and you had looked up the CS-104 bulletin at [05:09]."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At [15:00] and [17:21], you deflected responsibility to the TV hardware dispatch team and told the customer to ring back tomorrow morning himself instead of logging the replacement swap or arranging a follow-up."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "The call ended at [17:57]–[18:47] with the Vision 4K box still stuck in the CS-104 boot loop, the iPad app blocked, and no replacement order booked."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "TV set-top box stuck in boot loop with error code CS-104 and missing sports channels",
+    "tier": "poor",
+    "duration_sec": 1130,
+    "notes": "Poor-tier TV support call (score 40.0) with 6 FAILs and 5 PASSes. Megan shows genuine early empathy ([00:24]), paraphrases well ([00:51]), and probes physical cabling ([01:43]–[03:31]), but misses exact opening branding at [00:00] and buries closing branding early at [15:44] (B FAIL), verifies PIN late at [04:46] past 240s (V FAIL), leaves two unmanaged silences before [06:17] and [09:37] (H FAIL), forgets error code CS-104 at [10:07] (AL FAIL), deflects hardware replacement to another department at [15:00] (O FAIL), and leaves the box broken (RE FAIL).",
+    "hard_cases": [
+      "Branding and Survey Check",
+      "Verified customer",
+      "Took ownership of the problem",
+      "Empathy & Acknowledgment Statement",
+      "Paraphrasing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Hard-case FAIL: Agent used informal 'thanks for calling S-Net' at [00:00] (missing exact 'thank you for calling S-Net') and delivered 'thank you for choosing S-Net' prematurely at [15:44] with eight subsequent Agent turns before the call ended at [18:47]."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Two unmanaged gaps >30s: 48s gap before [06:17] (preceded only by 'Hold on a sec' at [05:09] and no thank-you on return) and 62s gap before [09:37] where Customer chased with 'Hello? Are you still there, Megan?'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Hard-case FAIL: Agent performed security verification (address and PIN), but only asked at [04:46] (past the 04:00 / 240s cutoff)."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Used the customer's name 'Tariq' regularly throughout the conversation (e.g., [00:24], [00:51], [04:46], [18:47])."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: Despite the poor overall outcome, Agent delivered a warm, genuine apology and empathy statement at [00:24] ('Oh no, Tariq, I am so sorry you're missing the football match tonight—I completely understand how frustrating it is')."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: Restated the boot-loop symptoms in her own words and checked accuracy with the customer at [00:51]."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer stated error code 'CS-104' at [00:10] and [00:37], yet Agent asked 'what was that error code on the screen again?' at [10:07]."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Hard-case FAIL: At [15:00], Agent said 'Look, our TV hardware dispatch team handles faulty boxes, that's not something I deal with here—you'll have to ring them tomorrow morning to book a swap.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Maintained a polite, non-hostile tone throughout the call even when the customer grew frustrated."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Asked appropriate hardware diagnostic questions covering mains power vs surge strip ([01:43]), Ethernet vs Wi-Fi ([02:04]), HDMI port ([02:26]), optical/USB peripherals ([02:49]), and LED boot colours ([03:31])."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [17:57], Customer confirmed 'the box is still stuck restarting on my floor, I can't watch the match on my TV or my iPad, and I have to call another department tomorrow morning.'"
+      }
+    ]
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Owen",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net mobile billing, my name is Paige. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:13]",
+      "end_time": "[00:36]",
+      "start_time_sec": 13,
+      "text": "Hi Paige. I opened my latest mobile direct debit invoice and nearly had a heart attack! My bill is normally thirty-five pounds a month, but S-Net has billed me four hundred and fifty-five pounds, including four hundred and twenty pounds of international data roaming charges! This must be a gigantic system error!",
+      "sentiment_score": -46.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:42]",
+      "end_time": "[00:53]",
+      "start_time_sec": 42,
+      "text": "I recognize what a terrible shock receiving a four hundred and twenty pound roaming bill is, Owen. Let's look into the data usage details immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:59]",
+      "end_time": "[01:06]",
+      "start_time_sec": 59,
+      "text": "Thank you Paige, because four hundred and twenty pounds would completely wipe out our family savings.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:12]",
+      "end_time": "[01:21]",
+      "start_time_sec": 72,
+      "text": "Before we access the international roaming billing records, could you please verify your installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:27]",
+      "end_time": "[01:47]",
+      "start_time_sec": 87,
+      "text": "Yes, the address is 22 Richmond Way, Bath, BA1 5TU, and the security PIN is 4409. We were on holiday in Antalya, Turkey, from Thursday the second to Monday the sixth of October, and the roaming data bill is four hundred and twenty pounds across seven gigabytes.",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:53]",
+      "end_time": "[02:02]",
+      "start_time_sec": 113,
+      "text": "Thank you for verifying those details, Owen. I have your mobile subscriber account and international CDR records open on our screen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:08]",
+      "end_time": "[02:11]",
+      "start_time_sec": 128,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:17]",
+      "end_time": "[02:37]",
+      "start_time_sec": 137,
+      "text": "So just to confirm what has occurred: while on holiday in Turkey, your child used your mobile phone's hotspot to download games, unaware that Turkish networks fall outside your standard EU roaming allowance, generating a four hundred and twenty pound data charge. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:43]",
+      "end_time": "[02:56]",
+      "start_time_sec": 163,
+      "text": "Yes, exactly that. My twelve-year-old son turned on the personal hotspot on my phone while we were on a coach tour to download a software update on his Nintendo Switch.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:02]",
+      "end_time": "[03:12]",
+      "start_time_sec": 182,
+      "text": "Turkey is classified as a Zone 2 non-EU international territory, where data consumption is charged at six pounds per megabyte outside pre-purchased bundle passes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:18]",
+      "end_time": "[03:26]",
+      "start_time_sec": 198,
+      "text": "Six pounds per megabyte?! In what universe does data cost six pounds for a single megabyte in 2026?!",
+      "sentiment_score": -32.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:32]",
+      "end_time": "[03:39]",
+      "start_time_sec": 212,
+      "text": "Zone 2 roaming tariffs are established by reciprocal wholesale carriage agreements negotiated with Turkish telecom operators."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:44]",
+      "end_time": "[03:51]",
+      "start_time_sec": 224,
+      "text": "Why didn't S-Net automatically block data when the charges hit fifty pounds under the legal roaming cap?",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:56]",
+      "end_time": "[04:06]",
+      "start_time_sec": 236,
+      "text": "Please bear with me on hold for about thirty-five seconds while I query the international roaming rating engine to inspect the data session timestamps."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:41]",
+      "end_time": "[04:52]",
+      "start_time_sec": 281,
+      "text": "Thank you for your patience while holding, Owen. The rating mediation log shows seven gigabytes consumed over three consecutive sessions on Turkcell on Saturday afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:57]",
+      "end_time": "[05:04]",
+      "start_time_sec": 297,
+      "text": "The boy was downloading a seven-gigabyte Fortnite update! He had no idea it was burning real money!",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:09]",
+      "end_time": "[05:16]",
+      "start_time_sec": 309,
+      "text": "Our automated network billing system generated standard out-of-bundle data charges totaling four hundred and twenty pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:21]",
+      "end_time": "[05:29]",
+      "start_time_sec": 321,
+      "text": "Is there no safety warning or spend cap in place to protect ordinary families from financial ruin like this?",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:34]",
+      "end_time": "[05:40]",
+      "start_time_sec": 334,
+      "text": "Customers receive an automated welcome SMS upon landing in Turkey explaining out-of-bundle rates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:45]",
+      "end_time": "[05:54]",
+      "start_time_sec": 345,
+      "text": "I had my phone in my rucksack on the coach and didn't see any text message while the kids were playing!",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:59]",
+      "end_time": "[06:10]",
+      "start_time_sec": 359,
+      "text": "Well Mr. Owen, letting a twelve-year-old run unchecked mobile data hotspots in a non-EU country without checking international roaming tariff sheets is pretty reckless parenting."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:15]",
+      "end_time": "[06:26]",
+      "start_time_sec": 375,
+      "text": "Excuse me?! Reckless parenting?! How dare you judge my parenting when your company charges predatory six-pound-a-megabyte rates that trap innocent families! That is outrageously rude!",
+      "sentiment_score": -48.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:31]",
+      "end_time": "[06:41]",
+      "start_time_sec": 391,
+      "text": "I apologize if my phrasing was blunt, Owen. I am simply pointing out that international roaming usage must be monitored by the primary subscriber."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:46]",
+      "end_time": "[06:54]",
+      "start_time_sec": 406,
+      "text": "I am a loyal customer of eight years and I expect S-Net to resolve this extortionate bill fairly.",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:59]",
+      "end_time": "[07:07]",
+      "start_time_sec": 419,
+      "text": "Under our bill shock mitigation policy, I have the authority to retrospectively apply our Turkey Travel Roamer bolt-on packages."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:12]",
+      "end_time": "[07:17]",
+      "start_time_sec": 432,
+      "text": "What does the Turkey Travel Roamer bolt-on do to the charge?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:22]",
+      "end_time": "[07:31]",
+      "start_time_sec": 442,
+      "text": "Instead of out-of-bundle rates of six pounds per megabyte, the Turkey Travel Roamer pass prices data at six pounds per gigabyte."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:36]",
+      "end_time": "[07:43]",
+      "start_time_sec": 456,
+      "text": "Six pounds per gigabyte would mean forty-two pounds instead of four hundred and twenty pounds!",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:48]",
+      "end_time": "[08:01]",
+      "start_time_sec": 468,
+      "text": "I can re-rate the seven gigabytes under two Turkey Roamer passes plus a small administrative fee, reducing the four hundred and twenty pound charge down to sixty pounds total."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:06]",
+      "end_time": "[08:15]",
+      "start_time_sec": 486,
+      "text": "Reducing it from four hundred and twenty pounds to sixty pounds is a massive relief! That saves our monthly budget!",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:20]",
+      "end_time": "[08:31]",
+      "start_time_sec": 500,
+      "text": "I will apply a three hundred and sixty pound retrospective credit adjustment directly to your billing invoice today, wiping the excess data charges off the ledger."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:36]",
+      "end_time": "[08:54]",
+      "start_time_sec": 516,
+      "text": "That is very fair and removes a huge cloud of financial anxiety. My wife and I were genuinely losing sleep over how we were going to afford groceries this month with that four hundred and twenty pound hole in our current account.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:59]",
+      "end_time": "[09:10]",
+      "start_time_sec": 539,
+      "text": "The sixty-pound balance will be debited alongside your standard thirty-five pound monthly tariff plan on your next scheduled direct debit date on the twenty-fourth of October."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:15]",
+      "end_time": "[09:23]",
+      "start_time_sec": 555,
+      "text": "Ninety-five pounds total on the twenty-fourth is completely manageable for us, and we can easily budget for that amount.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:28]",
+      "end_time": "[09:39]",
+      "start_time_sec": 568,
+      "text": "To ensure this never happens on future overseas holidays or school trips, I can activate a permanent Worldwide Roaming Zero-Spend Bar on your SIM card profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:44]",
+      "end_time": "[09:58]",
+      "start_time_sec": 584,
+      "text": "Please activate that zero-spend bar right now so data is completely disabled outside the UK unless I explicitly log into the portal and buy a daily travel pass with my bank card.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:03]",
+      "end_time": "[10:17]",
+      "start_time_sec": 603,
+      "text": "I have locked the international roaming spend threshold at zero pounds on our Home Location Register network core, which prevents any unauthorized background cellular data packets from transmitting across foreign cell towers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:22]",
+      "end_time": "[10:33]",
+      "start_time_sec": 622,
+      "text": "That will make it technically impossible for anyone to rack up out-of-bundle fees again, even if the children turn on hot-spotting or tethering by mistake.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:38]",
+      "end_time": "[10:54]",
+      "start_time_sec": 638,
+      "text": "Whenever you travel outside the UK in future, your handset will connect to local networks for incoming emergency calls, but data will display a captive landing portal where you must approve any pass before data connects."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:59]",
+      "end_time": "[11:09]",
+      "start_time_sec": 659,
+      "text": "That is the exact technical safeguard that should have been enabled on our account in the first place before we boarded the flight.",
+      "sentiment_score": 16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:14]",
+      "end_time": "[11:21]",
+      "start_time_sec": 674,
+      "text": "Can you remind me what country you were visiting and what the total disputed roaming charge was?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:26]",
+      "end_time": "[11:39]",
+      "start_time_sec": 686,
+      "text": "As I told you right at the start of our call, we were visiting Antalya in Turkey, and the disputed roaming data charge was four hundred and twenty pounds.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:44]",
+      "end_time": "[11:55]",
+      "start_time_sec": 704,
+      "text": "Thank you, Owen. I am typing Turkey and four hundred and twenty pounds into our regulatory bill shock audit log to substantiate the administrative fee reduction."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:00]",
+      "end_time": "[12:09]",
+      "start_time_sec": 720,
+      "text": "At least the credit saves us from an overdraft penalty from our bank, which would have added even more unfair fees.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:14]",
+      "end_time": "[12:25]",
+      "start_time_sec": 734,
+      "text": "The credit adjustment reference number logged on your profile is BS-99201-R, and your revised invoice will be visible on your online portal within twenty-four hours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:30]",
+      "end_time": "[12:33]",
+      "start_time_sec": 750,
+      "text": "Noted down on my desk calendar... BS-99201-R.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:38]",
+      "end_time": "[12:48]",
+      "start_time_sec": 758,
+      "text": "I also recommend navigating into your phone's cellular settings menu to toggle off data roaming and background app refresh at the operating system level."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:53]",
+      "end_time": "[13:01]",
+      "start_time_sec": 773,
+      "text": "I will definitely do that on both my phone and my son's tablet before we ever travel abroad again.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:06]",
+      "end_time": "[13:16]",
+      "start_time_sec": 786,
+      "text": "How is your mobile phone network coverage and 5G signal performing inside the UK when you are at home in Bath or commuting?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:21]",
+      "end_time": "[13:31]",
+      "start_time_sec": 801,
+      "text": "Domestic UK mobile coverage has always had excellent 5G coverage across Bath and Bristol, we get full 5G everywhere, so UK service is excellent.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:36]",
+      "end_time": "[13:42]",
+      "start_time_sec": 816,
+      "text": "We are pleased that your domestic 5G cellular coverage maintains high quality across Somerset."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:47]",
+      "end_time": "[13:55]",
+      "start_time_sec": 827,
+      "text": "It was purely that astronomical Turkish data rate that caused such panic and stress when the statement arrived.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:00]",
+      "end_time": "[14:06]",
+      "start_time_sec": 840,
+      "text": "The retrospective re-rating and sixty-pound balance are now locked in your account ledger."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:11]",
+      "end_time": "[14:20]",
+      "start_time_sec": 851,
+      "text": "Wait, Paige, if I travel to Switzerland or the Channel Islands next summer, does the zero-spend cap apply there as well...",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:25]",
+      "end_time": "[14:32]",
+      "start_time_sec": 865,
+      "text": "The sixty-pound waiver is applied and your spend cap is locked. Have a good day. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:37]",
+      "end_time": "[14:40]",
+      "start_time_sec": 877,
+      "text": "Wait, Paige, what about Switzerland... hello?",
+      "sentiment_score": -12.4
+    }
+  ]
+}

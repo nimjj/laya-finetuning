@@ -1,0 +1,494 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Teresa",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:09]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer logistics and hardware support. My name is Sean. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:16]",
+      "end_time": "[00:41]",
+      "start_time_sec": 16,
+      "text": "Hello Sean. I am in the middle of a horrible, distressing nightmare with an S-Net courier delivery. Yesterday morning DPD delivered a parcel to my house containing a brand-new S-Net Hub 5 router, but when I opened the outer delivery carton, the dispatch invoice inside was addressed to my next-door neighbour at number forty-four, while my own faulty broadband router is completely dead!",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:48]",
+      "end_time": "[01:02]",
+      "start_time_sec": 48,
+      "text": "I can certainly look into that courier parcel mixup for you, Teresa. Can you provide your customer account reference number and the broadband Hub model?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:09]",
+      "end_time": "[01:19]",
+      "start_time_sec": 69,
+      "text": "My account reference is ACC-663810, the Hub model is Hub 5, and the DPD parcel consignment tracking number is DPD-9948201.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:26]",
+      "end_time": "[01:36]",
+      "start_time_sec": 86,
+      "text": "Thank you Teresa, that brings up the logistics dispatch records on my system. What is your telephone contact number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[02:12]",
+      "start_time_sec": 103,
+      "text": "My phone number is 0113 496 0773. Sean, an hour ago my next-door neighbour found out that the courier left his parcel at my house. He came pounding on my front door like a lunatic, screaming filthy abuse at the top of his lungs, accusing me of stealing his mail and opening his private parcels! He kicked my front porch and threatened to smash my windows and call the police! I am a seventy-year-old pensioner recovering from heart bypass surgery and I was shaking so violently I had to take my emergency angina spray! Being terrorised on my own doorstep because S-Net's courier delivered the wrong box has left me terrified in my own home!",
+      "sentiment_score": -84.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:19]",
+      "end_time": "[02:34]",
+      "start_time_sec": 139,
+      "text": "DPD handheld delivery scanning systems record GPS geo-fence coordinates and electronic signature confirmation at ten-fourteen AM yesterday."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:41]",
+      "end_time": "[02:52]",
+      "start_time_sec": 161,
+      "text": "Sean, please, I don't care about GPS coordinates! I need this parcel collected and my own router delivered before that violent man comes back!",
+      "sentiment_score": -44.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:59]",
+      "end_time": "[03:12]",
+      "start_time_sec": 179,
+      "text": "I am opening the courier reconciliation interface to query the package barcode and carrier tracking history."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:19]",
+      "end_time": "[03:25]",
+      "start_time_sec": 199,
+      "text": "What does the courier consignment manifest show on your screen?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:07]",
+      "end_time": "[04:23]",
+      "start_time_sec": 247,
+      "text": "The courier manifest indicates two distinct S-Net Hub consignments were loaded onto the delivery van for your postcode sector yesterday morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:30]",
+      "end_time": "[04:37]",
+      "start_time_sec": 270,
+      "text": "So the driver simply handed over the wrong parcel from the back of the van?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:44]",
+      "end_time": "[04:58]",
+      "start_time_sec": 284,
+      "text": "Can you read the twelve-digit barcode serial number printed on the white sticker on the side of the Hub box you received, Teresa?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:05]",
+      "end_time": "[05:12]",
+      "start_time_sec": 305,
+      "text": "The barcode serial number is SNET-HUB5-8839102-GB.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:19]",
+      "end_time": "[05:30]",
+      "start_time_sec": 319,
+      "text": "That barcode serial number matches neighbour account ACC-663811 at number forty-four."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:37]",
+      "end_time": "[05:44]",
+      "start_time_sec": 337,
+      "text": "Where is my replacement router that was supposed to replace my dead Hub?",
+      "sentiment_score": -8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:51]",
+      "end_time": "[06:04]",
+      "start_time_sec": 351,
+      "text": "Did you receive a text message from DPD yesterday stating your parcel had been delivered or carded, Teresa?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:11]",
+      "end_time": "[06:18]",
+      "start_time_sec": 371,
+      "text": "No, I never received an SMS message or a calling card from the courier at all.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:25]",
+      "end_time": "[06:37]",
+      "start_time_sec": 385,
+      "text": "The second parcel was erroneously scanned as 'Returned to Depot - Incorrect Postcode Label'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:44]",
+      "end_time": "[06:51]",
+      "start_time_sec": 404,
+      "text": "So my router went straight back to the warehouse while I got my neighbour's box!",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:58]",
+      "end_time": "[07:11]",
+      "start_time_sec": 418,
+      "text": "If you cannot get along with your neighbours, you shouldn't be signing for their parcels in the first place, Teresa."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:18]",
+      "end_time": "[07:32]",
+      "start_time_sec": 438,
+      "text": "How dare you speak to me like that! I accepted a parcel addressed to my own door under the reasonable assumption it was my router! That was completely rude and offensive!",
+      "sentiment_score": -52.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:39]",
+      "end_time": "[07:51]",
+      "start_time_sec": 459,
+      "text": "I am booking a priority DPD courier doorstep collection to retrieve the misdelivered router from your house."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:58]",
+      "end_time": "[08:04]",
+      "start_time_sec": 478,
+      "text": "When will DPD come to collect this box so it is out of my home?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:49]",
+      "end_time": "[09:03]",
+      "start_time_sec": 529,
+      "text": "DPD special courier collection is booked for tomorrow between nine o'clock and one o'clock under collection docket COL-448291."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:10]",
+      "end_time": "[09:14]",
+      "start_time_sec": 550,
+      "text": "I have noted collection docket COL-448291.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:21]",
+      "end_time": "[09:31]",
+      "start_time_sec": 561,
+      "text": "What was the DPD parcel consignment tracking number for the box delivered yesterday, Teresa?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:38]",
+      "end_time": "[09:51]",
+      "start_time_sec": 578,
+      "text": "Sean, as I gave you right at the start, the tracking number is DPD-9948201! Why do you keep asking me to repeat tracking numbers that are already on your file?",
+      "sentiment_score": -32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:58]",
+      "end_time": "[10:07]",
+      "start_time_sec": 598,
+      "text": "I apologize, Teresa, I needed to cross-reference the docket in the collection portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:14]",
+      "end_time": "[10:18]",
+      "start_time_sec": 614,
+      "text": "Please pay attention to what I tell you.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:25]",
+      "end_time": "[10:37]",
+      "start_time_sec": 625,
+      "text": "The courier driver will bring a pre-printed returns label so you do not need to print anything."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:44]",
+      "end_time": "[10:49]",
+      "start_time_sec": 644,
+      "text": "That is good because my home printer is out of ink.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:56]",
+      "end_time": "[11:11]",
+      "start_time_sec": 656,
+      "text": "I will take direct personal ownership of this logistics ticket, Teresa, monitor both consignments, and personally follow up until your connection is restored."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:18]",
+      "end_time": "[11:25]",
+      "start_time_sec": 678,
+      "text": "Thank you Sean, having a dedicated agent handling both parcels gives me some reassurance.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:32]",
+      "end_time": "[11:45]",
+      "start_time_sec": 692,
+      "text": "Obviously scheduling an immediate courier swap is the required procedure to rectify delivery misrouting, Teresa."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:52]",
+      "end_time": "[11:57]",
+      "start_time_sec": 712,
+      "text": "Now what about my own replacement Hub 5 router?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:04]",
+      "end_time": "[12:17]",
+      "start_time_sec": 724,
+      "text": "I have authorized an emergency next-day priority courier dispatch for a brand-new S-Net Hub 5 to your property."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:24]",
+      "end_time": "[12:28]",
+      "start_time_sec": 744,
+      "text": "When will my new Hub 5 arrive?",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:35]",
+      "end_time": "[12:49]",
+      "start_time_sec": 755,
+      "text": "The replacement Hub 5 will be delivered tomorrow morning between eight AM and twelve noon with royal mail tracked express."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:56]",
+      "end_time": "[13:01]",
+      "start_time_sec": 776,
+      "text": "What is the tracking reference number for my replacement router dispatch?",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:08]",
+      "end_time": "[13:17]",
+      "start_time_sec": 788,
+      "text": "The outbound express consignment number is RM-EXP-7729104."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:24]",
+      "end_time": "[13:30]",
+      "start_time_sec": 804,
+      "text": "I have written down express tracking reference RM-EXP-7729104.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:37]",
+      "end_time": "[13:51]",
+      "start_time_sec": 817,
+      "text": "Let us check your mobile notification settings to ensure you receive hourly courier tracking updates via SMS text message, Teresa."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:58]",
+      "end_time": "[14:03]",
+      "start_time_sec": 838,
+      "text": "My mobile number is 07700 900641.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:10]",
+      "end_time": "[14:23]",
+      "start_time_sec": 850,
+      "text": "I have enabled live SMS tracking delivery alerts to 07700 900641 with a thirty-minute driver arrival window."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:30]",
+      "end_time": "[14:36]",
+      "start_time_sec": 870,
+      "text": "The thirty-minute window is very helpful so I can be waiting at the window.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:43]",
+      "end_time": "[14:57]",
+      "start_time_sec": 883,
+      "text": "Let us also credit your account with an emergency mobile data booster bundle to keep you online while the router is in transit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:04]",
+      "end_time": "[15:11]",
+      "start_time_sec": 904,
+      "text": "Yes please, my iPad can tether to my S-Net mobile if I have enough data.",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:18]",
+      "end_time": "[15:32]",
+      "start_time_sec": 918,
+      "text": "I have provisioned an unlimited fifty-gigabyte emergency mobile tethering booster to your SIM card free of charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:39]",
+      "end_time": "[15:46]",
+      "start_time_sec": 939,
+      "text": "The data booster is active on my phone already. That will allow me to check my emails tonight.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:53]",
+      "end_time": "[16:06]",
+      "start_time_sec": 953,
+      "text": "Let us also apply a goodwill broadband billing credit for the three days of lost broadband connectivity."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:13]",
+      "end_time": "[16:17]",
+      "start_time_sec": 973,
+      "text": "I really appreciate that financial credit.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:24]",
+      "end_time": "[16:33]",
+      "start_time_sec": 984,
+      "text": "I have posted a fifteen-pound courtesy credit to your active account ledger."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:40]",
+      "end_time": "[16:44]",
+      "start_time_sec": 1000,
+      "text": "That is fair compensation for the inconvenience.",
+      "sentiment_score": 26.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:51]",
+      "end_time": "[17:01]",
+      "start_time_sec": 1011,
+      "text": "The credit will automatically offset your next monthly Direct Debit bill, Teresa."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:08]",
+      "end_time": "[17:12]",
+      "start_time_sec": 1028,
+      "text": "Thank you for putting that credit through.",
+      "sentiment_score": 31.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:19]",
+      "end_time": "[17:30]",
+      "start_time_sec": 1039,
+      "text": "Let us check the return packaging requirements for your dead Hub 5 router."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:37]",
+      "end_time": "[17:43]",
+      "start_time_sec": 1057,
+      "text": "Should I place my old dead router into the box when the new one arrives?",
+      "sentiment_score": 22.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:50]",
+      "end_time": "[18:04]",
+      "start_time_sec": 1070,
+      "text": "Just to reconfirm, the equipment being replaced under warranty dispatch RM-EXP-7729104 is the S-Net Hub 5."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:11]",
+      "end_time": "[18:17]",
+      "start_time_sec": 1091,
+      "text": "Yes, the S-Net Hub 5 under RM-EXP-7729104. That is completely correct.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:24]",
+      "end_time": "[18:36]",
+      "start_time_sec": 1104,
+      "text": "A prepaid Royal Mail return mailing bag will be included inside the replacement Hub parcel."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:43]",
+      "end_time": "[18:48]",
+      "start_time_sec": 1123,
+      "text": "I will drop the old unit at the local post office.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:55]",
+      "end_time": "[19:03]",
+      "start_time_sec": 1135,
+      "text": "Wait Sean, what happens if the DPD driver shows up while I am at the chemist picking up my heart...",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[19:10]",
+      "end_time": "[19:17]",
+      "start_time_sec": 1150,
+      "text": "He will leave a calling card. Thank you for choosing S-Net. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:24]",
+      "end_time": "[19:30]",
+      "start_time_sec": 1164,
+      "text": "Wait Sean... he hung up on me while I was speaking! Honestly, what terrible customer service!",
+      "sentiment_score": -28.4
+    }
+  ]
+}

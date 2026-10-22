@@ -1,0 +1,419 @@
+{
+  "call_id": "agt_011",
+  "tenant_id": "tenant-abc",
+  "customer_name": "Beatrice",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net mobile customer care. My name is Liam. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:16]",
+      "start_time_sec": 8,
+      "text": "Hello Liam. I'm calling you from my hotel room phone here in central London.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:17]",
+      "end_time": "[00:23]",
+      "start_time_sec": 17,
+      "text": "Good morning. What seems to have happened with your mobile handset today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:24]",
+      "end_time": "[00:39]",
+      "start_time_sec": 24,
+      "text": "I was travelling from King's Cross station to my hotel in Bloomsbury and accidentally left my mobile in the back of a licensed black cab about forty minutes ago, so I need to report it lost and suspend the line right away.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:40]",
+      "end_time": "[00:54]",
+      "start_time_sec": 40,
+      "text": "I can certainly help you secure that mobile subscription immediately, Beatrice. Before we suspend the SIM card, could you please verify your billing address and your account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:55]",
+      "end_time": "[01:06]",
+      "start_time_sec": 55,
+      "text": "Yes of course, my registered billing address is 14 Claremont Terrace, York, YO31 7EH, and my four-digit security PIN is 9134.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:07]",
+      "end_time": "[01:17]",
+      "start_time_sec": 67,
+      "text": "Thank you very much, Beatrice. That verifies your account. Could you confirm the telephone number on that missing handset?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:18]",
+      "end_time": "[01:29]",
+      "start_time_sec": 78,
+      "text": "Yes, the mobile number is 07700 900412. The device itself is a blue iPhone 14 Pro, 256 gigabytes.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:30]",
+      "end_time": "[01:45]",
+      "start_time_sec": 90,
+      "text": "Thank you, Beatrice. I have your mobile subscription open on my network terminal right now. I will apply an immediate network bar on the SIM card to prevent unauthorized calls or mobile data usage."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:46]",
+      "end_time": "[01:52]",
+      "start_time_sec": 106,
+      "text": "Does that barring instruction take effect across the cellular network immediately?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:53]",
+      "end_time": "[02:08]",
+      "start_time_sec": 113,
+      "text": "Yes, our core cellular switch terminates the live radio session within seconds across all cell sites. Whoever is holding that phone will not be able to dial out, receive incoming calls, or consume any data allowance on your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:09]",
+      "end_time": "[02:15]",
+      "start_time_sec": 129,
+      "text": "That is a huge relief to hear, Liam, because I was terrified of someone running up massive international roaming or premium rate call charges on my monthly bill.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:16]",
+      "end_time": "[02:26]",
+      "start_time_sec": 136,
+      "text": "Do you have another device or tablet with you in London that supports cellular connectivity or Wi-Fi calling?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:27]",
+      "end_time": "[02:35]",
+      "start_time_sec": 147,
+      "text": "Yes, fortunately I brought my work iPad Pro with me, and it has an eSIM slot and Wi-Fi access here in the room.",
+      "sentiment_score": 9.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:36]",
+      "end_time": "[02:56]",
+      "start_time_sec": 156,
+      "text": "So what I understand is that your phone was lost in London earlier this afternoon, and we need to suspend the SIM card immediately, issue an eSIM replacement for your iPad, and blacklist the handset IMEI on the national database, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:57]",
+      "end_time": "[03:04]",
+      "start_time_sec": 177,
+      "text": "Yes, that is exactly right, Liam. That covers everything I need to get sorted right now.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:05]",
+      "end_time": "[03:22]",
+      "start_time_sec": 185,
+      "text": "Bear with me for a couple of minutes while I apply the network barring order and retrieve the unique IMEI hardware registration for your iPhone."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:23]",
+      "end_time": "[03:28]",
+      "start_time_sec": 203,
+      "text": "Certainly, I will stay on the line.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:20]",
+      "end_time": "[04:38]",
+      "start_time_sec": 260,
+      "text": "Thank you for holding, Beatrice. The SIM card is now completely barred across our core cellular switches. The subscription status is officially marked as lost and suspended."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:39]",
+      "end_time": "[04:46]",
+      "start_time_sec": 279,
+      "text": "If someone tries to send a text message to my number, can anyone holding that phone read it?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:47]",
+      "end_time": "[05:01]",
+      "start_time_sec": 287,
+      "text": "No, Beatrice. Because the radio connection is barred, all incoming SMS traffic is diverted and queued securely at our central message switching center until your replacement eSIM is activated."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:02]",
+      "end_time": "[05:08]",
+      "start_time_sec": 302,
+      "text": "And what about messaging apps like WhatsApp or Signal that were already installed on the phone?",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:09]",
+      "end_time": "[05:22]",
+      "start_time_sec": 309,
+      "text": "Without active cellular connectivity or the ability to receive SMS security codes, nobody can access or verify your account sessions on that hardware."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:23]",
+      "end_time": "[05:43]",
+      "start_time_sec": 323,
+      "text": "Oh God, my banking app and personal email are both logged in on that phone! What if someone breaks the four-digit screen passcode and empties my savings account?! I'm in absolute panic right now thinking about my savings!",
+      "sentiment_score": -66.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:44]",
+      "end_time": "[06:05]",
+      "start_time_sec": 344,
+      "text": "I completely understand how terrifying that thought is, Beatrice. Please take a deep breath. We are going to submit the IMEI blacklist command right now, which blocks the phone hardware across every UK mobile network so it cannot connect anywhere."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:06]",
+      "end_time": "[06:14]",
+      "start_time_sec": 366,
+      "text": "Thank you Liam, I am so sorry for getting emotional, it's just so stressful being hundreds of miles away from home in a hotel.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:15]",
+      "end_time": "[06:29]",
+      "start_time_sec": 375,
+      "text": "It is completely understandable, Beatrice. Have you tried logging into your Apple iCloud account from your iPad to trigger Apple's Lost Mode?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:30]",
+      "end_time": "[06:40]",
+      "start_time_sec": 390,
+      "text": "I did log into Find My from my iPad, but the status shows device offline. It probably ran out of battery or the cab driver turned it off when cleaning the car.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:41]",
+      "end_time": "[06:56]",
+      "start_time_sec": 401,
+      "text": "Understood. If you mark it as lost in iCloud, the very instant that phone ever reconnects to power or Wi-Fi, Apple will remotely lock the device and wipe Apple Pay cards automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:57]",
+      "end_time": "[07:02]",
+      "start_time_sec": 417,
+      "text": "That is very reassuring to know, thank you.",
+      "sentiment_score": 11.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:03]",
+      "end_time": "[07:11]",
+      "start_time_sec": 423,
+      "text": "Now let us proceed directly with blacklisting the physical IMEI hardware on the national equipment register."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:12]",
+      "end_time": "[07:17]",
+      "start_time_sec": 432,
+      "text": "Yes, please submit that right away.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:18]",
+      "end_time": "[07:34]",
+      "start_time_sec": 438,
+      "text": "Just confirming the device model for the national blacklist database, that was an iPhone 14 Pro, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:35]",
+      "end_time": "[07:44]",
+      "start_time_sec": 455,
+      "text": "Yes, blue iPhone 14 Pro, 256 gigabytes storage capacity.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:45]",
+      "end_time": "[08:02]",
+      "start_time_sec": 465,
+      "text": "The IMEI number recorded on our equipment register is 354891108294712. I have submitted the permanent blacklist instruction to the GSMA Central Equipment Identity Register across all UK mobile network carriers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:03]",
+      "end_time": "[08:12]",
+      "start_time_sec": 483,
+      "text": "Does that prevent anyone from simply inserting another network's SIM card into the handset?",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:13]",
+      "end_time": "[08:27]",
+      "start_time_sec": 493,
+      "text": "Yes, absolutely. Once blacklisted on the GSMA register, any SIM from S-Net, EE, Vodafone, O2 or Three will be rejected at the base station layer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:28]",
+      "end_time": "[08:37]",
+      "start_time_sec": 508,
+      "text": "Can you give me an official reference number that I can quote for my police loss report and my travel insurance claim?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:38]",
+      "end_time": "[08:52]",
+      "start_time_sec": 518,
+      "text": "Certainly, Beatrice. Your official proof of barring and blacklisting reference identifier is BLK-99214-SN."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:53]",
+      "end_time": "[09:00]",
+      "start_time_sec": 533,
+      "text": "BLK-99214-SN, got that noted down carefully in my notepad.",
+      "sentiment_score": 7.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:01]",
+      "end_time": "[09:12]",
+      "start_time_sec": 541,
+      "text": "Now, would you like me to issue an immediate eSIM profile for your work iPad Pro so you have mobile connectivity?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:13]",
+      "end_time": "[09:20]",
+      "start_time_sec": 553,
+      "text": "Yes please, that would allow me to make urgent business calls and get online without relying on hotel Wi-Fi.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:21]",
+      "end_time": "[09:37]",
+      "start_time_sec": 561,
+      "text": "I can generate a secure eSIM QR activation code and email it directly to your registered email address right now, Beatrice."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:38]",
+      "end_time": "[09:44]",
+      "start_time_sec": 578,
+      "text": "Please do, I have my iPad email inbox open in front of me right now.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:45]",
+      "end_time": "[09:59]",
+      "start_time_sec": 585,
+      "text": "The eSIM profile has been generated and dispatched to your email address. It should arrive in your inbox within twenty seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:00]",
+      "end_time": "[10:08]",
+      "start_time_sec": 600,
+      "text": "I see the notification popping up right now! That was remarkably fast and efficient.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:09]",
+      "end_time": "[10:19]",
+      "start_time_sec": 609,
+      "text": "All you need to do is open your iPad Settings, tap Cellular Data, select Add eSIM, and scan the QR code displayed in that email."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:20]",
+      "end_time": "[10:26]",
+      "start_time_sec": 620,
+      "text": "That sounds very straightforward, I will do that as soon as we hang up.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:27]",
+      "end_time": "[10:35]",
+      "start_time_sec": 627,
+      "text": "We have suspended the old SIM, blacklisted the handset hardware, and provided your replacement eSIM profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:36]",
+      "end_time": "[10:41]",
+      "start_time_sec": 636,
+      "text": "Yes, everything I urgently needed has been handled smoothly. I feel much calmer now.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:42]",
+      "end_time": "[10:45]",
+      "start_time_sec": 642,
+      "text": "Thank you for choosing S-Net mobile customer care, Beatrice."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:46]",
+      "end_time": "[10:47]",
+      "start_time_sec": 646,
+      "text": "Thank you Liam, you have been so kind and helpful.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:48]",
+      "end_time": "[10:49]",
+      "start_time_sec": 648,
+      "text": "Have a safe and pleasant stay in London, Beatrice."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:49]",
+      "end_time": "[10:50]",
+      "start_time_sec": 649,
+      "text": "Goodbye Liam.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:50]",
+      "end_time": "[10:50]",
+      "start_time_sec": 650,
+      "text": "Thank you for choosing S-Net, Beatrice. Goodbye."
+    }
+  ]
+}

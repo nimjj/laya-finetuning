@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Miriam",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net landline customer services, my name is Liam. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:10]",
+   "end_time": "[00:30]",
+   "start_time_sec": 10,
+   "text": "Hello Liam, my name is Miriam Jenkins. I subscribe to your Caller Display feature on our landline, but for the past week every single incoming telephone call displays 'Incoming Call' or 'Number Withheld' on our Panasonic cordless phones, even when family members call from their mobile numbers!",
+   "sentiment_score": -32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:32]",
+   "end_time": "[00:46]",
+   "start_time_sec": 32,
+   "text": "Good afternoon Miriam. I can inspect your calling line identity presentation profile on the local exchange. Before we test your line features, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:48]",
+   "end_time": "[00:54]",
+   "start_time_sec": 48,
+   "text": "Yes, it is 14 Woodlands Crescent, Harrogate, HG2 7PN, security PIN 3891, landline number 01423 881204.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:56]",
+   "end_time": "[01:07]",
+   "start_time_sec": 56,
+   "text": "Thank you Miriam, that confirms your account details. Have you noticed any crackling, buzzing, or static noise on the voice line when speaking on the phone?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:09]",
+   "end_time": "[01:24]",
+   "start_time_sec": 69,
+   "text": "The voice call audio is crystal clear; it is solely the caller display information that never appears on the handset screens.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:26]",
+   "end_time": "[01:38]",
+   "start_time_sec": 86,
+   "text": "Could I place you on hold for two minutes while I query the local exchange switch calling line identity profile?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:03]",
+   "end_time": "[03:21]",
+   "start_time_sec": 183,
+   "text": "Thank you for holding, Miriam. The exchange line profile indicates that the Calling Line Identification Presentation feature flag was switched to passive mode during an automated line card migration."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:23]",
+   "end_time": "[03:35]",
+   "start_time_sec": 203,
+   "text": "Why would an automated migration turn off a feature we pay for every month?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:37]",
+   "end_time": "[03:48]",
+   "start_time_sec": 217,
+   "text": "During regional digital exchange card migrations, supplementary telephony features occasionally default to inactive until re-provisioned."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:50]",
+   "end_time": "[04:03]",
+   "start_time_sec": 230,
+   "text": "Can you switch the Calling Line Identification feature back to active right now?",
+   "sentiment_score": -6.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:05]",
+   "end_time": "[04:15]",
+   "start_time_sec": 245,
+   "text": "Yes, I am submitting an immediate provisioning command to re-enable active FSK caller display signaling."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:17]",
+   "end_time": "[04:29]",
+   "start_time_sec": 257,
+   "text": "Does my Panasonic cordless telephone need any special settings configured for your network?",
+   "sentiment_score": -2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:31]",
+   "end_time": "[04:43]",
+   "start_time_sec": 271,
+   "text": "Standard UK cordless telephone equipment adheres to the British Telecom SIN 227 FSK caller identification specification."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:45]",
+   "end_time": "[04:56]",
+   "start_time_sec": 285,
+   "text": "Our Panasonic phone has always worked with S-Net until this week.",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:58]",
+   "end_time": "[05:10]",
+   "start_time_sec": 298,
+   "text": "The re-provisioning signal takes approximately three minutes to cycle through the line card registers."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:12]",
+   "end_time": "[05:25]",
+   "start_time_sec": 312,
+   "text": "Will re-enabling this feature wipe any of my stored speed-dial numbers or directory contacts?",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:27]",
+   "end_time": "[05:39]",
+   "start_time_sec": 327,
+   "text": "No, directory contacts and stored speed-dial numbers are saved in local handset memory and remain unaffected."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:41]",
+   "end_time": "[05:44]",
+   "start_time_sec": 341,
+   "text": "That is reassuring to know.",
+   "sentiment_score": 8.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:46]",
+   "end_time": "[05:59]",
+   "start_time_sec": 346,
+   "text": "Obviously Caller Display equipment cannot decode incoming telephone numbers if the exchange switch flag is provisioned as passive."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:01]",
+   "end_time": "[06:04]",
+   "start_time_sec": 361,
+   "text": "Right, I understand the technical requirement now.",
+   "sentiment_score": 10.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:06]",
+   "end_time": "[06:30]",
+   "start_time_sec": 366,
+   "text": "Miriam speaking, my seventy-nine-year-old sister is recovering from hip surgery at home, and she gets targeted by fraudulent telephone scammers five times a day! We specifically pay for Caller Display so she can screen calls before picking up the receiver! Because your service says 'Call Withheld' on every incoming call, she answered a rogue builder who frightened her to tears! This failure is putting an elderly woman in direct danger!",
+   "sentiment_score": -64.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:32]",
+   "end_time": "[06:56]",
+   "start_time_sec": 392,
+   "text": "I completely understand how deeply alarming and dangerous that is for your sister, Miriam. Having an elderly family member harassed by scammers when Caller Display should protect her is unacceptable, and I will verify and restore the Calling Line Identity feature on her exchange line right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:58]",
+   "end_time": "[07:08]",
+   "start_time_sec": 418,
+   "text": "Thank you Liam, that is very comforting to hear.",
+   "sentiment_score": -6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:10]",
+   "end_time": "[07:23]",
+   "start_time_sec": 430,
+   "text": "The exchange switchboard confirms that the active FSK signaling profile is now fully enabled on 01423 881204."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:25]",
+   "end_time": "[07:40]",
+   "start_time_sec": 445,
+   "text": "Can we test an incoming call right now to see if the caller number actually shows up on the screen?",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:42]",
+   "end_time": "[07:53]",
+   "start_time_sec": 462,
+   "text": "Yes, I will initiate an automated loopback test call from our central test gateway."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:55]",
+   "end_time": "[08:07]",
+   "start_time_sec": 475,
+   "text": "I have the Panasonic cordless handset right here in my hand.",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:09]",
+   "end_time": "[08:18]",
+   "start_time_sec": 489,
+   "text": "Sending test call now... The line should ring in approximately ten seconds."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:20]",
+   "end_time": "[08:33]",
+   "start_time_sec": 500,
+   "text": "The phone is ringing... Liam! The screen says: '0800 012 3456 - S-Net Network Test'! It worked!",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:35]",
+   "end_time": "[08:41]",
+   "start_time_sec": 515,
+   "text": "Excellent! The FSK caller identification packets are successfully synchronizing between the exchange and your handset."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:43]",
+   "end_time": "[08:50]",
+   "start_time_sec": 523,
+   "text": "Let me check with my mobile phone as well: dialing our landline from my mobile right now...",
+   "sentiment_score": 24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:52]",
+   "end_time": "[08:58]",
+   "start_time_sec": 532,
+   "text": "The secondary line ring should decode your mobile number between the first and second ring bursts."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:00]",
+   "end_time": "[09:09]",
+   "start_time_sec": 540,
+   "text": "The phone is ringing again... Screen displays: 'Miriam Mobile - 07700 900381'! It even pulled the contact name from the handset phonebook!",
+   "sentiment_score": 34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:11]",
+   "end_time": "[09:17]",
+   "start_time_sec": 551,
+   "text": "That confirms full name and number presentation functionality across both fixed and mobile networks."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:19]",
+   "end_time": "[09:26]",
+   "start_time_sec": 559,
+   "text": "My sister will be able to see exactly who is calling before picking up the receiver again.",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:28]",
+   "end_time": "[09:36]",
+   "start_time_sec": 568,
+   "text": "I have also applied a five-pound goodwill credit to your bill to cover the days Caller Display was inactive."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:38]",
+   "end_time": "[09:41]",
+   "start_time_sec": 578,
+   "text": "Thank you, that is very fair and appreciated.",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:43]",
+   "end_time": "[09:49]",
+   "start_time_sec": 583,
+   "text": "I will also lock a permanent flag on the exchange database preventing future migration overrides."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:51]",
+   "end_time": "[09:54]",
+   "start_time_sec": 591,
+   "text": "That will ensure the feature stays active permanently.",
+   "sentiment_score": 26.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:56]",
+   "end_time": "[09:59]",
+   "start_time_sec": 596,
+   "text": "All line parameters are documented under technical reference TEL-99214-M."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:01]",
+   "end_time": "[10:04]",
+   "start_time_sec": 601,
+   "text": "TEL-99214-M, noted down.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:06]",
+   "end_time": "[10:11]",
+   "start_time_sec": 606,
+   "text": "Before I complete the feature activation, what was that Harrogate landline number again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:13]",
+   "end_time": "[10:19]",
+   "start_time_sec": 613,
+   "text": "As I told you at the start of our call, it is 01423 881204.",
+   "sentiment_score": -10.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:21]",
+   "end_time": "[10:27]",
+   "start_time_sec": 621,
+   "text": "Thank you Miriam, the profile update has been permanently committed to our exchange logs."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:29]",
+   "end_time": "[10:32]",
+   "start_time_sec": 629,
+   "text": "Everything is working perfectly now.",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:34]",
+   "end_time": "[10:40]",
+   "start_time_sec": 634,
+   "text": "Is there any other aspect of your landline service I can assist you with today, Miriam?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:42]",
+   "end_time": "[10:45]",
+   "start_time_sec": 642,
+   "text": "No Liam, you have resolved our problem completely.",
+   "sentiment_score": 26.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:47]",
+   "end_time": "[10:53]",
+   "start_time_sec": 647,
+   "text": "Thank you for calling S-Net landline customer services, Miriam. Have a wonderful and peaceful day. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:55]",
+   "end_time": "[10:58]",
+   "start_time_sec": 655,
+   "text": "Goodbye Liam.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:00]",
+   "end_time": "[11:03]",
+   "start_time_sec": 660,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:05]",
+   "end_time": "[11:08]",
+   "start_time_sec": 665,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:10]",
+   "end_time": "[11:13]",
+   "start_time_sec": 670,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:15]",
+   "end_time": "[11:18]",
+   "start_time_sec": 675,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:20]",
+   "end_time": "[11:23]",
+   "start_time_sec": 680,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:25]",
+   "end_time": "[11:28]",
+   "start_time_sec": 685,
+   "text": "Goodbye.",
+   "sentiment_score": 10.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:30]",
+   "end_time": "[11:33]",
+   "start_time_sec": 690,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:35]",
+   "end_time": "[11:40]",
+   "start_time_sec": 695,
+   "text": "Goodbye.",
+   "sentiment_score": 8.0
+  }
+ ]
+}

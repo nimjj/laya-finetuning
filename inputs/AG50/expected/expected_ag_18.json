@@ -1,0 +1,162 @@
+{
+  "call_id": "ag_18",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 63.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "At [06:14]-[07:22] (42s gap) and [09:56]-[11:16] (55s gap), the agent placed the customer on two unannounced dead-air holds saying only 'hang on a sec' and 'wait there' without proper hold phrasing or thanking the customer upon return."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Although the customer introduced himself as 'Dashiell' twice at [00:11] and [00:45] (even spelling it out), the agent never once used his name, addressing him only as 'mate' and 'pal' throughout the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At [12:15] and [13:17], the agent failed to take ownership of the underground duct repair, telling the customer to google S-Net's external subcontractor Kelly Group and call their Rotherham depot himself."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "At [18:54]-[19:08], the call ended with the physical fibre drop cable still severed in the garden trench and the ONT LOS light unresolved pending a future field engineer visit."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Fibre ONT optical light flashing red (LOS) after garden landscaping work near external boundary wall",
+    "tier": "okay",
+    "duration_sec": 1185,
+    "notes": "STT-rough call where Agent Owen performs strong optical diagnostics (PR PASS, AL PASS) and shows genuine empathy ([00:30], E PASS) and friendly rapport (R PASS), but fails Hold/Dead Air with two unannounced holds ([06:14]-[07:22] 42s and [09:56]-[11:16] 55s, H FAIL), never uses Dashiell's name despite him spelling it out ([00:45], P FAIL), tells the customer to ring subcontractor Kelly Group himself for duct repairs ([12:15], O FAIL), and ends with the severed fibre still awaiting a field splice engineer ([18:54], RE FAIL).",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Personalized the call/ticket appropriately",
+      "Took ownership of the problem",
+      "Verified customer",
+      "Active listening",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'uh good afternoon thank you for calling S-Net fibre technical support owen speaking' / [19:32] Agent: 'no worries at all pal thank you for choosing S-Net'"
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[06:14] Agent: 'hang on a sec while i run an optical time-domain reflectometer test...' -> 42s unmanaged gap -> [07:22] Agent: 'right mate that optical trace...' / [09:56] Agent: 'wait there while i check the duct map...' -> 55s unmanaged gap -> [11:16]."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:00] Agent: 'can you confirm the first line of your address and your four digit account PIN for me'"
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:45] Customer: 'Yeah, it's Dashiell—D-A-S-H-I-E-L-L—on account 904-2281.' -> [01:00] Agent: 'no worries pal let's get you passed security first...'"
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:30] Agent: 'ah mate i'm really sorry you've been knocked offline right in the middle of your workday i completely understand how frustrating and stressful that is when a video call drops out'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:47] Agent: 'gotcha pal so just to put it in my own words since your landscapers were digging near the front boundary wall around 11:15 this morning your indoor Nokia ONT has had a flashing red LOS light and your Hub 4 has lost all internet connection'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[05:45] Agent: 'forty centimetres deep right by the laurel bushes near the driveway entrance...' / [15:51] Agent incorporates every detail into the engineer notes without asking the customer to repeat himself."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[12:15] Agent: 'uh if the armoured sub-duct under your driveway and laurel bed is crushed that's between you and our external civils contractor Kelly Group—you'll have to ring their regional depot yourself to sort out re-laying the cable duct'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:30], [14:47], [16:59] Agent maintains a warm, supportive, conversational, and helpful rapport throughout the call while guiding the customer through outdoor trench inspection and adding unlimited 5G backup data."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:22] Agent asks about all four ONT LEDs (Power, PON, LOS, LAN), [03:24] checks the indoor SC/APC optical patch lead bend radius, and [05:17]-[05:45] probes into the landscaping trench depth and external CSP location."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[18:54] Agent: 'so right now your fibre broadband connection itself is obviously still down with the red LOS light until the field splice engineer arrives on Friday morning' / [19:08] Customer: 'Yeah, the fibre is still dead...'"
+      }
+    ]
+  }
+}

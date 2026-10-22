@@ -13,7 +13,7 @@ Source: data/eval50/calls_*.txt, written and graded by Claude BEFORE any model w
 Timing: each turn lasts about words / 2.6 seconds (2 s minimum) and is followed by a 1-3 s pause unless @gap says
 otherwise. The app ends every turn at start + 10 s when it measures dead air, so turns are kept under ~70 words.
 
-Writes qa-analysis/inputs/Eval50/eval_NN.json, .../expected/expected_eval_NN.json and data/eval50/manifest.json (sha256 of
+Writes qa-analysis/laya-finetuning/inputs/Eval50/eval_NN.json, .../expected/expected_eval_NN.json and data/eval50/manifest.json (sha256 of
 every file, so the key can be shown to be unchanged after the models are run). Also checks the rule-based items
 (branding, dead air, verification, name) and the auto-fail words with the app's own rule code and prints any place
 where Claude's label and the rule disagree, so writing slips are caught.
@@ -33,7 +33,7 @@ REPO = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import paths  # noqa: E402
 QA = paths.QA_ROOT
-OUT = os.path.join(QA, "inputs", "Eval50")
+OUT = os.path.join(paths.INPUTS, "Eval50")
 sys.path.insert(0, QA)
 
 ITEMS = [  # code, name, category  (order of the app's scorecard)

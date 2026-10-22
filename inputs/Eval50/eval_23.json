@@ -1,0 +1,190 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Ezra",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, this is Dave. How can I help you?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:06]",
+      "end_time": "[00:18]",
+      "start_time_sec": 6,
+      "text": "Hi Dave. I'm trying to pay my bill online and the payment page keeps saying card declined, but my bank says there's no problem with the card. It's getting a bit much.",
+      "sentiment_score": -17.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:19]",
+      "end_time": "[00:26]",
+      "start_time_sec": 19,
+      "text": "That's frustrating when the bank says the card's fine. Let's take a look. Can I take your PIN, please?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:28]",
+      "end_time": "[00:30]",
+      "start_time_sec": 28,
+      "text": "2 4 6 8.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:31]",
+      "end_time": "[00:40]",
+      "start_time_sec": 31,
+      "text": "Thanks, Ezra. So the bill payment page keeps declining your card, even though your bank says the card is fine. Is that correct?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:43]",
+      "end_time": "[00:45]",
+      "start_time_sec": 43,
+      "text": "Yes.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:46]",
+      "end_time": "[00:53]",
+      "start_time_sec": 46,
+      "text": "Is the billing postcode you're typing in the same as the one your bank has for the card?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:56]",
+      "end_time": "[00:59]",
+      "start_time_sec": 56,
+      "text": "I think so. I moved last year though.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:49]",
+      "end_time": "[01:51]",
+      "start_time_sec": 109,
+      "text": "Hello? Are you there?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:52]",
+      "end_time": "[01:55]",
+      "start_time_sec": 112,
+      "text": "Yes. Which postcode are you entering on the page?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:56]",
+      "end_time": "[01:58]",
+      "start_time_sec": 116,
+      "text": "M14 5AB, my current one.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:00]",
+      "end_time": "[02:05]",
+      "start_time_sec": 120,
+      "text": "And did you update your address with the bank when you moved?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:08]",
+      "end_time": "[02:10]",
+      "start_time_sec": 128,
+      "text": "I'm not sure I did, actually.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:05]",
+      "end_time": "[03:07]",
+      "start_time_sec": 185,
+      "text": "Hello?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:10]",
+      "end_time": "[03:17]",
+      "start_time_sec": 190,
+      "text": "Okay, the bank's security check compares the postcode. Put your old postcode in the billing field and try again.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:18]",
+      "end_time": "[03:21]",
+      "start_time_sec": 198,
+      "text": "Where's the billing field? I can't see it.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:22]",
+      "end_time": "[03:30]",
+      "start_time_sec": 202,
+      "text": "Like I said, it's on the screen in front of you, it's not hard. It's the box under the card number.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:31]",
+      "end_time": "[03:36]",
+      "start_time_sec": 211,
+      "text": "Okay. Found it. Old postcode in. Paying now. It says payment successful.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:38]",
+      "end_time": "[03:42]",
+      "start_time_sec": 218,
+      "text": "Good. Can you check the account balance shows zero now?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:43]",
+      "end_time": "[03:45]",
+      "start_time_sec": 223,
+      "text": "Yes, balance is zero.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:48]",
+      "end_time": "[03:51]",
+      "start_time_sec": 228,
+      "text": "Great, so the bill is paid. Anything else, Ezra?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:52]",
+      "end_time": "[03:54]",
+      "start_time_sec": 232,
+      "text": "No.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:56]",
+      "end_time": "[03:58]",
+      "start_time_sec": 236,
+      "text": "Thank you for choosing S-Net. Bye.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

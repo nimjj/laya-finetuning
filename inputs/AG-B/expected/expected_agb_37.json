@@ -1,0 +1,197 @@
+{
+  "call_id": "agb_37",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 56.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Agent omitted mandatory closing branding 'thank you for choosing s-net' and customer satisfaction survey request."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "Agent left two unmanaged silences exceeding 30 seconds (42s at [02:30] and 44s at [07:45]) without hold announcements or thanks."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent offered zero restatement of customer's stolen handset report, moving directly to switch operations."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Agent rudely blamed customer for being mugged, stating Kyle only had his own carelessness to blame for an expensive phone theft."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Agent asked zero diagnostic questions regarding remote wiping, passcode locks, or banking app exposure before processing the equipment blacklist."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Stolen mobile handset on public transit; immediate IMEI blacklisting and SIM suspension; agent omits survey and closing branding, leaves two unmanaged silences > 30s, offers zero paraphrasing, snaps rudely blaming customer carelessness, and asks zero probing questions",
+    "tier": "fair",
+    "duration_sec": 931,
+    "notes": "The agent barred the mobile phone number and blacklisted the device IMEI across the national CEIR database following a theft on a commuter train. However, the agent failed Branding and Survey Check by omitting 'thank you for choosing s-net' and the survey, failed Hold Time and Dead Air by leaving two unmanaged silences > 30s (42s at [02:30] and 44s at [07:45]), failed Paraphrasing by offering zero restatement of the theft report, failed Build Rapport and Observed Professionalism at minute 8 by rudely blaming Kyle's carelessness ('If you left an expensive iPhone sitting in an open pocket while distracted on a crowded train, you only have your own carelessness to blame for opportunistic theft'), and failed Probing by asking zero diagnostic questions regarding remote wiping, banking app locks, or passcodes.",
+    "hard_cases": [
+      "Paraphrasing",
+      "Build rapport and observed professionalism",
+      "Verified customer",
+      "Active listening"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[15:45] Agent: 'All security actions complete. Good afternoon and take care. Goodbye.' - Closing lacks mandatory S-Net branding and survey mention."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent left an unmanaged silence of 42 seconds at [02:30] while querying HLR switch, and a second unmanaged silence of 44 seconds at [07:45] while updating CEIR blacklist."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:10] Agent verified full billing address ('19 Millmead Terrace, Guildford') and security question ('mother\\'s maiden name') within first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent gave no restatement of customer's stolen handset problem statement, moving directly to command entry."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[13:40] Agent accurately recorded police crime reference BTP-4491-08 and reconfirmed delivery address without redundant re-asking."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[06:15] Agent: 'If you left an expensive iPhone sitting in an open pocket while distracted on a crowded train, you only have your own carelessness to blame for opportunistic theft.' - Insulting and victim-blaming comment."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked zero probing questions regarding whether device was eSIM or physical SIM, whether remote wipe was active, or whether device passcode was compromised."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 60
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 20
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 28
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

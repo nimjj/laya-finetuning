@@ -1,0 +1,486 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Marcus",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer service. My name is Connor. How can I assist you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:24]",
+      "start_time_sec": 10,
+      "text": "Hi Connor. I'm having a very frustrating issue with my S-Net 4K TV box remote control. None of the buttons work, the voice button does nothing, and the TV box will not change channels at all.",
+      "sentiment_score": -24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:27]",
+      "end_time": "[00:40]",
+      "start_time_sec": 27,
+      "text": "I can certainly understand how frustrating it is when your TV remote stops responding, Marcus. Before we begin troubleshooting, may I please verify your billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:43]",
+      "end_time": "[00:53]",
+      "start_time_sec": 43,
+      "text": "Yes of course. It's 38 Glenesk Road, Eltham, London, SE9 1AG. And the security question answer is my mother's maiden name, Vance.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:56]",
+      "end_time": "[01:05]",
+      "start_time_sec": 56,
+      "text": "Thank you Marcus, that verifies your account records. Now, please tell me a bit more about when this issue first occurred."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:08]",
+      "end_time": "[01:23]",
+      "start_time_sec": 68,
+      "text": "It was working perfectly fine yesterday evening, but when I sat down to watch the news this morning, the TV box was completely unresponsive to the remote. I even put brand new Duracell batteries in, but still nothing happens.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:26]",
+      "end_time": "[01:40]",
+      "start_time_sec": 86,
+      "text": "Look, remote controls are technically classed as consumable wear-and-tear accessories under our terms, so you really should just pop down to Argos or order a universal replacement online yourself."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[01:59]",
+      "start_time_sec": 103,
+      "text": "Hold on a second! I pay sixty pounds a month for this full TV and broadband package, and I only received this brand new 4K box three months ago. Why on earth should I have to go out and buy a replacement from Argos?",
+      "sentiment_score": -38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:02]",
+      "end_time": "[02:15]",
+      "start_time_sec": 122,
+      "text": "I completely hear your frustration, Marcus, and I apologize for that suggestion. Let us keep working on it together right now and see if we can get your S-Net remote re-paired without you spending any money."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:18]",
+      "end_time": "[02:24]",
+      "start_time_sec": 138,
+      "text": "Thank you. I'd much rather try fixing it than wasting time and money on a new one.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:27]",
+      "end_time": "[02:43]",
+      "start_time_sec": 147,
+      "text": "So if I have understood correctly, your S-Net 4K remote stopped communicating with the TV box overnight, and even with fresh brand-new batteries installed, neither the standard navigation keys nor voice search respond. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:46]",
+      "end_time": "[02:55]",
+      "start_time_sec": 166,
+      "text": "Yes, exactly. The power button on the front of the TV box itself turns the screen on, but the remote control does absolutely nothing.",
+      "sentiment_score": -6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:58]",
+      "end_time": "[03:11]",
+      "start_time_sec": 178,
+      "text": "Understood. Our voice remotes use dual-mode communication: standard infrared for basic power, and Bluetooth Low Energy for all channel selections, menus, and voice searches."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:14]",
+      "end_time": "[03:20]",
+      "start_time_sec": 194,
+      "text": "Okay, that makes sense. How do we test if it is sending out any signal?",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:23]",
+      "end_time": "[03:33]",
+      "start_time_sec": 203,
+      "text": "We can perform a quick diagnostic using the digital camera on your smartphone. Phone cameras can detect invisible infrared light pulses."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:36]",
+      "end_time": "[03:41]",
+      "start_time_sec": 216,
+      "text": "Oh, that's clever! I have my mobile phone right here in my hand.",
+      "sentiment_score": 9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:44]",
+      "end_time": "[03:56]",
+      "start_time_sec": 224,
+      "text": "Open your smartphone camera app, point the front tip of the remote control directly into the camera lens, and press the Standby Power button on the remote."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:59]",
+      "end_time": "[04:11]",
+      "start_time_sec": 239,
+      "text": "Let me look at the screen while pressing Power... yes! There is a bright flashing purplish-pink light flashing on the tip of the remote through the phone screen!",
+      "sentiment_score": 26.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:14]",
+      "end_time": "[04:29]",
+      "start_time_sec": 254,
+      "text": "Obviously that confirms the physical buttons, circuit board, and batteries are in working order, Marcus. The issue is simply that the Bluetooth pairing cache on the remote has corrupted."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:32]",
+      "end_time": "[04:38]",
+      "start_time_sec": 272,
+      "text": "Ah, what a relief that the hardware is intact. How do we wipe that pairing cache?",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:41]",
+      "end_time": "[04:51]",
+      "start_time_sec": 281,
+      "text": "We perform a factory hardware reset on the remote itself. Please locate the 7 and 9 buttons on the remote number pad."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:54]",
+      "end_time": "[04:57]",
+      "start_time_sec": 294,
+      "text": "Got them. Seven and nine.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:00]",
+      "end_time": "[05:07]",
+      "start_time_sec": 300,
+      "text": "Press and hold down both the 7 and 9 buttons simultaneously, Marcus."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:10]",
+      "end_time": "[05:14]",
+      "start_time_sec": 310,
+      "text": "Holding down seven and nine together right now.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:17]",
+      "end_time": "[05:25]",
+      "start_time_sec": 317,
+      "text": "Keep holding them firmly until the small LED light at the top of the remote flashes red four times."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:28]",
+      "end_time": "[05:36]",
+      "start_time_sec": 328,
+      "text": "Still holding... one, two, three, four red flashes! It just flashed four times.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:39]",
+      "end_time": "[05:48]",
+      "start_time_sec": 339,
+      "text": "Brilliant. That has completely wiped the corrupted Bluetooth profile and restored the remote to factory infrared mode."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:51]",
+      "end_time": "[05:56]",
+      "start_time_sec": 351,
+      "text": "Okay, releasing the buttons now. What is the next step?",
+      "sentiment_score": 7.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:59]",
+      "end_time": "[06:06]",
+      "start_time_sec": 359,
+      "text": "Now point the remote directly at the S-Net TV box and press the Standby Power button."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:09]",
+      "end_time": "[06:18]",
+      "start_time_sec": 369,
+      "text": "Pointing directly at the box and pressing Power... the TV box just woke up and the main home screen appeared!",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:21]",
+      "end_time": "[06:29]",
+      "start_time_sec": 381,
+      "text": "Excellent! That proves the infrared transceiver is communicating cleanly with the sensor."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:32]",
+      "end_time": "[06:37]",
+      "start_time_sec": 392,
+      "text": "Yes, but can we re-enable the voice search and Bluetooth features?",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:40]",
+      "end_time": "[06:53]",
+      "start_time_sec": 400,
+      "text": "Yes. Now hold down the 1 and 3 buttons together for three seconds while holding the remote within twenty centimeters of the front panel of the TV box."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:56]",
+      "end_time": "[07:10]",
+      "start_time_sec": 416,
+      "text": "Holding one and three close to the front panel... a message just popped up on the television screen saying 'Your S-Net Voice Remote is now successfully connected via Bluetooth'!",
+      "sentiment_score": 42.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:13]",
+      "end_time": "[07:23]",
+      "start_time_sec": 433,
+      "text": "Just to check, Marcus, is your broadband internet and WiFi connection at home operating smoothly as well right now?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:26]",
+      "end_time": "[07:33]",
+      "start_time_sec": 446,
+      "text": "Yes, our broadband has been rock solid, all our tablets and phones are connected without any issue.",
+      "sentiment_score": 24.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:36]",
+      "end_time": "[07:48]",
+      "start_time_sec": 456,
+      "text": "That is good to hear. Now let us test the voice search button on the remote. Press and hold the microphone icon button and say 'BBC One'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:51]",
+      "end_time": "[08:03]",
+      "start_time_sec": 471,
+      "text": "Holding the mic button... 'BBC One'. The screen immediately switched to BBC One HD! And the volume buttons and guide keys are all working instantly.",
+      "sentiment_score": 46.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:06]",
+      "end_time": "[08:15]",
+      "start_time_sec": 486,
+      "text": "That is splendid news. The dual-mode Bluetooth profile has successfully re-authenticated with the TV box chipset."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:18]",
+      "end_time": "[08:25]",
+      "start_time_sec": 498,
+      "text": "I'm so glad we got that working without needing to wait for a replacement in the post.",
+      "sentiment_score": 28.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:28]",
+      "end_time": "[08:39]",
+      "start_time_sec": 508,
+      "text": "If that pairing cache ever hiccups after a power surge, remember that holding seven and nine resets the unit cleanly every time."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:42]",
+      "end_time": "[08:48]",
+      "start_time_sec": 522,
+      "text": "I'll make a note of seven and nine on the back of the TV manual.",
+      "sentiment_score": 14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:51]",
+      "end_time": "[09:01]",
+      "start_time_sec": 531,
+      "text": "Let us also check the TV box software version to ensure there are no pending firmware patches waiting to install."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:04]",
+      "end_time": "[09:08]",
+      "start_time_sec": 544,
+      "text": "Sure, how do I check that on the menu?",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:11]",
+      "end_time": "[09:20]",
+      "start_time_sec": 551,
+      "text": "Press the Home button on your remote, navigate across to the Settings gear icon, and select System Info."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:23]",
+      "end_time": "[09:31]",
+      "start_time_sec": 563,
+      "text": "Pressing Home... going to Settings... System Info. It says Software Version 4.18.2.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:34]",
+      "end_time": "[09:43]",
+      "start_time_sec": 574,
+      "text": "Version 4.18.2 is the latest stable build released last Tuesday, so your box is completely up to date."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:46]",
+      "end_time": "[09:50]",
+      "start_time_sec": 586,
+      "text": "Great, so the software is fully updated.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:53]",
+      "end_time": "[10:02]",
+      "start_time_sec": 593,
+      "text": "Also check if you have any recorded programs stored on the hard drive that you would like to test playback on."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:05]",
+      "end_time": "[10:16]",
+      "start_time_sec": 605,
+      "text": "Let me go to My Recordings... I recorded the football match last night. Playing it now... picture is crisp and fast-forward works perfectly.",
+      "sentiment_score": 29.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:19]",
+      "end_time": "[10:28]",
+      "start_time_sec": 619,
+      "text": "Does the subtitle toggle button on the lower row of the remote bring up closed captions when pressed?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:31]",
+      "end_time": "[10:39]",
+      "start_time_sec": 631,
+      "text": "Pressing the SUB button... yes, English subtitles appear immediately at the bottom of the screen.",
+      "sentiment_score": 25.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:42]",
+      "end_time": "[10:49]",
+      "start_time_sec": 642,
+      "text": "And pressing the Audio Description key toggles narrative assistance cleanly?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:52]",
+      "end_time": "[10:59]",
+      "start_time_sec": 652,
+      "text": "Pressing AD... audio track changes and the narrator voice comes through clearly.",
+      "sentiment_score": 27.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:02]",
+      "end_time": "[11:08]",
+      "start_time_sec": 662,
+      "text": "Everything is functioning exactly as it should be, Marcus."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:11]",
+      "end_time": "[11:15]",
+      "start_time_sec": 671,
+      "text": "Yes, everything is back to normal.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:18]",
+      "end_time": "[11:27]",
+      "start_time_sec": 678,
+      "text": "I have documented the Bluetooth remote re-pairing procedure on your customer account notes for future reference."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:30]",
+      "end_time": "[11:35]",
+      "start_time_sec": 690,
+      "text": "Thank you Connor, I really appreciate your patience and help.",
+      "sentiment_score": 26.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:38]",
+      "end_time": "[11:47]",
+      "start_time_sec": 698,
+      "text": "Is there anything else with your S-Net TV service or channel packages that I can assist you with today, Marcus?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:50]",
+      "end_time": "[11:55]",
+      "start_time_sec": 710,
+      "text": "No, that was everything. You fixed my main issue.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:58]",
+      "end_time": "[12:09]",
+      "start_time_sec": 718,
+      "text": "You may receive a brief automated customer satisfaction survey by SMS after this call; we would be very grateful if you could rate our service today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:12]",
+      "end_time": "[12:17]",
+      "start_time_sec": 732,
+      "text": "I'll make sure to give you top marks. Thanks again Connor.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:20]",
+      "end_time": "[12:27]",
+      "start_time_sec": 740,
+      "text": "Thank you for choosing S-Net, Marcus. Have a wonderful rest of your day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:29]",
+      "end_time": "[12:31]",
+      "start_time_sec": 749,
+      "text": "You too, bye.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

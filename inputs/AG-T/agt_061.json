@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Malcolm",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net full fibre technical support, my name is Connor. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:09]",
+   "end_time": "[00:30]",
+   "start_time_sec": 9,
+   "text": "Hello Connor, my name is Malcolm Fraser. I subscribe to your 1 Gbps full fibre package, but ever since yesterday morning the LAN1 Ethernet port on the Nokia ONT wall box will only negotiate at 100 Mbps Fast Ethernet with my Asus router, throttling our entire home network to under ninety megabits!",
+   "sentiment_score": -32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:32]",
+   "end_time": "[00:43]",
+   "start_time_sec": 32,
+   "text": "Good afternoon Malcolm. I can inspect your optical terminal port parameters. Before we check the interface telemetry, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:45]",
+   "end_time": "[00:56]",
+   "start_time_sec": 45,
+   "text": "Yes, it is 42 Meadowcroft Lane, Edinburgh, EH12 7TY, security PIN 6614. My router is an Asus ROG Rapture GT-AX6000 and the ONT is mounted in our hallway cupboard.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:58]",
+   "end_time": "[01:08]",
+   "start_time_sec": 58,
+   "text": "Thank you Malcolm, that confirms your account details. Have you tried swapping the Cat6 patch cable between the ONT port 1 and your router's 2.5G WAN port?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:10]",
+   "end_time": "[01:25]",
+   "start_time_sec": 70,
+   "text": "I replaced the cable with two brand new certified Cat6A cables, and both negotiate at exactly 100 Mbps Full Duplex instead of 1000 Mbps!",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:27]",
+   "end_time": "[01:39]",
+   "start_time_sec": 87,
+   "text": "Could I place you on hold for two minutes while I query the Nokia ONT optical port telemetry and remote interface register?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:04]",
+   "end_time": "[03:18]",
+   "start_time_sec": 184,
+   "text": "Thank you for holding, Malcolm. The remote physical management interface confirms that LAN port 1 PHY speed is currently locked at 100BASE-TX."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:20]",
+   "end_time": "[03:31]",
+   "start_time_sec": 200,
+   "text": "Why is the optical terminal locking the physical Ethernet port down to 100BASE-TX?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:33]",
+   "end_time": "[03:43]",
+   "start_time_sec": 213,
+   "text": "The port hardware registers report intermittent impedance mismatches on pin pairs 4 and 5."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:45]",
+   "end_time": "[03:56]",
+   "start_time_sec": 225,
+   "text": "Could the physical RJ45 socket on the ONT be faulty or dirty?",
+   "sentiment_score": -10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:58]",
+   "end_time": "[04:15]",
+   "start_time_sec": 238,
+   "text": "Well if you chose to hook up a bulky third-party gaming router with stiff shielded patch cables instead of our standard S-Net Hub, you probably bent the gold contact pins inside the socket."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:17]",
+   "end_time": "[04:32]",
+   "start_time_sec": 257,
+   "text": "I used a standard patch lead with zero strain on the socket! Why are you blaming me for a hardware fault on your ONT?",
+   "sentiment_score": -48.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:34]",
+   "end_time": "[04:44]",
+   "start_time_sec": 274,
+   "text": "I am explaining how physical pin deformation occurs when non-standard hardware is repeatedly inserted."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:46]",
+   "end_time": "[04:56]",
+   "start_time_sec": 286,
+   "text": "Can you dispatch a field engineer to replace the Nokia ONT box?",
+   "sentiment_score": -32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:58]",
+   "end_time": "[05:10]",
+   "start_time_sec": 298,
+   "text": "Field engineering visits incur a standard callout charge of ninety-five pounds if physical socket pin damage is identified."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:12]",
+   "end_time": "[05:24]",
+   "start_time_sec": 312,
+   "text": "I am not paying ninety-five pounds for your equipment failing after three months!",
+   "sentiment_score": -38.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:26]",
+   "end_time": "[05:35]",
+   "start_time_sec": 326,
+   "text": "Those are our corporate engineering dispatch policies for third-party router integrations."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:37]",
+   "end_time": "[05:49]",
+   "start_time_sec": 337,
+   "text": "Can we at least try forcing Gigabit full duplex from your remote optical management system?",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:51]",
+   "end_time": "[06:03]",
+   "start_time_sec": 351,
+   "text": "Obviously Gigabit Ethernet interfaces drop down to Fast Ethernet whenever any pin in an eight-core Cat6 cable fails continuity testing."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:05]",
+   "end_time": "[06:17]",
+   "start_time_sec": 365,
+   "text": "I know that Gigabit requires all four twisted pairs! What I want is a working gigabit port!",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:19]",
+   "end_time": "[06:42]",
+   "start_time_sec": 379,
+   "text": "Malcolm speaking, I am paying eighty pounds a month for your gigabit package specifically for high-speed cloud backups, and your ONT is bottlenecking my entire office to ninety megabits! It has destroyed our productivity all morning and I am furious that we are losing billable client hours!",
+   "sentiment_score": -58.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:44]",
+   "end_time": "[07:04]",
+   "start_time_sec": 404,
+   "text": "I understand how intensely frustrating it is to pay for gigabit speeds and find your connection restricted to under one hundred megabits during work hours, Malcolm. Let us diagnose the physical Ethernet negotiation on port 1 immediately."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:06]",
+   "end_time": "[07:15]",
+   "start_time_sec": 426,
+   "text": "What options do we have to restore gigabit speed today?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:17]",
+   "end_time": "[07:22]",
+   "start_time_sec": 437,
+   "text": "The Nokia ONT unit features four physical Gigabit Ethernet ports on the bottom panel."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:24]",
+   "end_time": "[07:29]",
+   "start_time_sec": 444,
+   "text": "Can we provision our internet connection over LAN port 2 instead of LAN port 1?",
+   "sentiment_score": -4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:31]",
+   "end_time": "[07:36]",
+   "start_time_sec": 451,
+   "text": "The optical network profile can be remapped to bridge WAN traffic across LAN port 2."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:38]",
+   "end_time": "[07:41]",
+   "start_time_sec": 458,
+   "text": "Please execute that bridge remapping right now.",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:43]",
+   "end_time": "[07:47]",
+   "start_time_sec": 463,
+   "text": "I am submitting the port remapping command to the optical line terminal."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:49]",
+   "end_time": "[07:54]",
+   "start_time_sec": 469,
+   "text": "How long does the OLT take to push the provisioning profile to the ONT?",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:56]",
+   "end_time": "[08:00]",
+   "start_time_sec": 476,
+   "text": "The provisioning script updates the local ONT flash configuration in approximately ninety seconds."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:02]",
+   "end_time": "[08:06]",
+   "start_time_sec": 482,
+   "text": "The PON light is blinking green... now it has turned solid green again.",
+   "sentiment_score": 8.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:08]",
+   "end_time": "[08:13]",
+   "start_time_sec": 488,
+   "text": "Please move your Cat6 patch cable from LAN port 1 into LAN port 2."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:15]",
+   "end_time": "[08:22]",
+   "start_time_sec": 495,
+   "text": "Plugging the Cat6 cable into LAN port 2 now... The port LED turned solid amber and now bright green!",
+   "sentiment_score": 18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:24]",
+   "end_time": "[08:29]",
+   "start_time_sec": 504,
+   "text": "Check the Asus router administration GUI to inspect the negotiated link speed on the WAN interface."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:31]",
+   "end_time": "[08:35]",
+   "start_time_sec": 511,
+   "text": "Opening Asus router dashboard... WAN port status displays: '1 Gbps Full Duplex'!",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:37]",
+   "end_time": "[08:42]",
+   "start_time_sec": 517,
+   "text": "Please run a live speed test to confirm bandwidth throughput across the remapped port."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:44]",
+   "end_time": "[08:50]",
+   "start_time_sec": 524,
+   "text": "Running speed test now... Download speed is 940 Mbps and upload is 910 Mbps with 4 milliseconds ping!",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:52]",
+   "end_time": "[08:56]",
+   "start_time_sec": 532,
+   "text": "That confirms full gigabit line rate performance restored across the secondary optical interface."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:58]",
+   "end_time": "[09:02]",
+   "start_time_sec": 538,
+   "text": "That completely bypasses the faulty port 1. Thank goodness we tested port 2.",
+   "sentiment_score": 28.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:04]",
+   "end_time": "[09:10]",
+   "start_time_sec": 544,
+   "text": "I have permanently locked the WAN bridge profile to LAN port 2 on your optical line record."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:11]",
+   "end_time": "[09:14]",
+   "start_time_sec": 551,
+   "text": "Will this port mapping remain active permanently?",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:15]",
+   "end_time": "[09:22]",
+   "start_time_sec": 555,
+   "text": "Before I dispatch the optical engineer, what third-party router model did you say was connected to port 1 again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:23]",
+   "end_time": "[09:28]",
+   "start_time_sec": 563,
+   "text": "As I told you right at the start, it is an Asus ROG Rapture GT-AX6000.",
+   "sentiment_score": -12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:29]",
+   "end_time": "[09:34]",
+   "start_time_sec": 569,
+   "text": "I have logged the router model and port remap under network ticket reference FIB-44918-M."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:35]",
+   "end_time": "[09:38]",
+   "start_time_sec": 575,
+   "text": "FIB-44918-M, noted down in my network diary.",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:39]",
+   "end_time": "[09:44]",
+   "start_time_sec": 579,
+   "text": "Because port 2 is delivering full gigabit throughput, we can cancel the ninety-five-pound engineer callout."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:45]",
+   "end_time": "[09:48]",
+   "start_time_sec": 585,
+   "text": "Excellent, definitely cancel any paid callout. Port 2 is working flawlessly.",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:49]",
+   "end_time": "[09:52]",
+   "start_time_sec": 589,
+   "text": "The engineer dispatch ticket has been formally cancelled."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:53]",
+   "end_time": "[09:56]",
+   "start_time_sec": 593,
+   "text": "Thank you Connor, I appreciate you remapping that port for me.",
+   "sentiment_score": 20.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:57]",
+   "end_time": "[10:03]",
+   "start_time_sec": 597,
+   "text": "Is there any other aspect of your full fibre service I can assist you with today, Malcolm?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:04]",
+   "end_time": "[10:07]",
+   "start_time_sec": 604,
+   "text": "No, everything is working at full speed now.",
+   "sentiment_score": 18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:08]",
+   "end_time": "[10:13]",
+   "start_time_sec": 608,
+   "text": "Thank you for calling S-Net full fibre technical support, Malcolm. Have a great day. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:14]",
+   "end_time": "[10:17]",
+   "start_time_sec": 614,
+   "text": "Goodbye Connor.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:18]",
+   "end_time": "[10:21]",
+   "start_time_sec": 618,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:22]",
+   "end_time": "[10:25]",
+   "start_time_sec": 622,
+   "text": "Goodbye.",
+   "sentiment_score": 10.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:26]",
+   "end_time": "[10:29]",
+   "start_time_sec": 626,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:30]",
+   "end_time": "[10:35]",
+   "start_time_sec": 630,
+   "text": "Goodbye.",
+   "sentiment_score": 8.0
+  }
+ ]
+}

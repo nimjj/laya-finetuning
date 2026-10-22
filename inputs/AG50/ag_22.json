@@ -1,0 +1,622 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Oluwaseun",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "hello thank you for calling S-Net technical support this is hannah speaking how can i help you today",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:21]",
+      "start_time_sec": 10,
+      "text": "hi hannah my name is oluwaseun i really need help with our new wi-fi 6 router because our smart heating controller and nursery camera keep dropping offline",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:24]",
+      "end_time": "[00:34]",
+      "start_time_sec": 24,
+      "text": "okay oluwaseun before i look into your router settings can you confirm your postcode home address and the four digit security PIN on the account",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:37]",
+      "end_time": "[00:43]",
+      "start_time_sec": 37,
+      "text": "yeah sure it is 29 beechwood close Manchester M14 6HT and the PIN is 5518",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:46]",
+      "end_time": "[00:55]",
+      "start_time_sec": 46,
+      "text": "and can you also confirm the answer to your security question on the profile which is the city you were born in",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:58]",
+      "end_time": "[01:00]",
+      "start_time_sec": 58,
+      "text": "lagos",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:03]",
+      "end_time": "[01:11]",
+      "start_time_sec": 63,
+      "text": "right i have your account open here for 29 beechwood close tell me what is happening with the devices",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:14]",
+      "end_time": "[01:27]",
+      "start_time_sec": 74,
+      "text": "well we have a six day old newborn baby in the house and there is a freezing cold snap outside right now and the heating keeps cutting out because the thermostat loses wi-fi",
+      "sentiment_score": -29.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:30]",
+      "end_time": "[01:38]",
+      "start_time_sec": 90,
+      "text": "the router broadcasts a unified wireless signal by default so tell me which specific smart devices are failing to stay connected",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:41]",
+      "end_time": "[01:53]",
+      "start_time_sec": 101,
+      "text": "it's honestly making my wife and me so anxious with the baby's room getting cold at night the thermostat is a Hive Mini and the camera is an Owlet Cam 2",
+      "sentiment_score": -29.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:56]",
+      "end_time": "[02:10]",
+      "start_time_sec": 116,
+      "text": "so to restate the technical problem your S-Net Wi-Fi 6 hub is using automatic band steering on a single combined network name which is knocking your 2.4 gigahertz heating receiver and baby camera offline",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:13]",
+      "end_time": "[02:23]",
+      "start_time_sec": 133,
+      "text": "yes that sounds like what is happening they connect for maybe ten minutes after i reboot the router and then both lights go flashing amber",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:26]",
+      "end_time": "[02:38]",
+      "start_time_sec": 146,
+      "text": "let me ask a few diagnostic questions about how they are set up how far away are the receiver unit and the nursery camera from the main S-Net hub",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:41]",
+      "end_time": "[02:52]",
+      "start_time_sec": 161,
+      "text": "the router is in the downstairs hall the boiler receiver is in the kitchen just four metres away and the nursery is directly above the hall upstairs",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:55]",
+      "end_time": "[03:05]",
+      "start_time_sec": 175,
+      "text": "and when you try to reconnect them on your phone app what exact error message or status code does the app display on screen",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:08]",
+      "end_time": "[03:16]",
+      "start_time_sec": 188,
+      "text": "it says cannot join network authentication timeout or unsupported frequency band and then it fails to get an IP",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:19]",
+      "end_time": "[03:29]",
+      "start_time_sec": 199,
+      "text": "what wireless security mode did you see when you selected your home network name on the phone was it showing WPA3 personal or WPA2",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:32]",
+      "end_time": "[03:38]",
+      "start_time_sec": 212,
+      "text": "uh on my phone settings next to S-Net-Home-884A it says WPA2 slash WPA3 transitional mode",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:41]",
+      "end_time": "[03:49]",
+      "start_time_sec": 221,
+      "text": "and have you plugged any third party mesh boosters or wireless extenders into the wall sockets around the house",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:52]",
+      "end_time": "[03:59]",
+      "start_time_sec": 232,
+      "text": "no nothing like that just the white S-Net Wi-Fi 6 router that the engineer installed on thursday",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:01]",
+      "end_time": "[04:07]",
+      "start_time_sec": 241,
+      "text": "what hardware revision is printed on the back label of the S-Net Smart Hub 6X",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:09]",
+      "end_time": "[04:15]",
+      "start_time_sec": 249,
+      "text": "let me look at the back sticker... it says Smart Hub 6X hardware revision B2",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:17]",
+      "end_time": "[04:26]",
+      "start_time_sec": 257,
+      "text": "and when the devices drop off do your mobile phones or laptops lose wi-fi at the same time or do they stay connected",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:28]",
+      "end_time": "[04:37]",
+      "start_time_sec": 268,
+      "text": "our phones and my laptop stay connected fine on the wi-fi it's only the heating receiver and the baby monitor that drop off",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:39]",
+      "end_time": "[04:47]",
+      "start_time_sec": 279,
+      "text": "have you tried turning off mobile data and private wi-fi MAC randomisation on your phone while running the device pairing wizard",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:49]",
+      "end_time": "[04:59]",
+      "start_time_sec": 289,
+      "text": "yeah i switched mobile data off when i tried pairing them at three in the morning but after ten minutes they still got kicked off",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:01]",
+      "end_time": "[05:06]",
+      "start_time_sec": 301,
+      "text": "are both devices running on battery power or wired into wall mains adapters",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:08]",
+      "end_time": "[05:19]",
+      "start_time_sec": 308,
+      "text": "the boiler receiver is wired directly into the spur next to the combi boiler and the nursery camera is plugged into the wall socket by the cot",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:21]",
+      "end_time": "[05:32]",
+      "start_time_sec": 321,
+      "text": "right i can see the issue on the remote diagnostic dashboard your router has Smart Band Steering and 802.11ax Protected Management Frames enabled on the single SSID",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:34]",
+      "end_time": "[05:43]",
+      "start_time_sec": 334,
+      "text": "wait what does Protected Management Frames mean why would the new router stop our heating from working when the old router worked fine",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:45]",
+      "end_time": "[05:53]",
+      "start_time_sec": 345,
+      "text": "because older 2.4 gigahertz radio chips inside household sensors cannot handle WPA3 management frame negotiation or 5 gigahertz band handoff requests",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:55]",
+      "end_time": "[06:05]",
+      "start_time_sec": 355,
+      "text": "nobody told us that when we upgraded to the Wi-Fi 6 package last week we were freezing at three in the morning trying to pair it",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:07]",
+      "end_time": "[06:16]",
+      "start_time_sec": 367,
+      "text": "Well, if you'd actually read the quick-start booklet that came in the box, you'd know IoT devices need a dedicated 2.4 gigahertz SSID.",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:18]",
+      "end_time": "[06:27]",
+      "start_time_sec": 378,
+      "text": "excuse me we just brought a newborn baby home from hospital we haven't exactly been sitting around reading router booklets cover to cover",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:29]",
+      "end_time": "[06:39]",
+      "start_time_sec": 389,
+      "text": "i am just stating that the setup instructions for smart home accessories are printed on page four of the leaflet inside the router packaging",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:41]",
+      "end_time": "[06:49]",
+      "start_time_sec": 401,
+      "text": "look can you just fix it from your end so our heating stays on and the baby monitor doesn't keep disconnecting",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:51]",
+      "end_time": "[07:01]",
+      "start_time_sec": 411,
+      "text": "yes i will configure the wireless radios remotely from my console right now so you do not have to log into the admin page yourself",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:03]",
+      "end_time": "[07:07]",
+      "start_time_sec": 423,
+      "text": "okay thank you what are you going to change on it",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:09]",
+      "end_time": "[07:21]",
+      "start_time_sec": 429,
+      "text": "i am going to disable band steering split the 2.4 gigahertz and 5 gigahertz radios into two separate network names and set the 2.4 gigahertz band to WPA2 only",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:23]",
+      "end_time": "[07:29]",
+      "start_time_sec": 443,
+      "text": "will our phones and laptops still work on the fast wi-fi if you split them",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:31]",
+      "end_time": "[07:42]",
+      "start_time_sec": 451,
+      "text": "yes your phones and laptops can stay on the main S-Net-Home-884A network which will run on 5 gigahertz while the heating and camera use a dedicated 2.4G network",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:44]",
+      "end_time": "[07:48]",
+      "start_time_sec": 464,
+      "text": "okay that makes sense how long does that take to apply",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:50]",
+      "end_time": "[08:01]",
+      "start_time_sec": 470,
+      "text": "it takes about a minute to push the TR-069 radio profile please bear with me while i apply the split SSID settings and reboot the wireless module",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:52]",
+      "end_time": "[09:00]",
+      "start_time_sec": 532,
+      "text": "thank you for holding oluwaseun the wireless radio module on your hub has restarted and the new configuration is active",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:02]",
+      "end_time": "[09:11]",
+      "start_time_sec": 542,
+      "text": "okay i saw the wi-fi light on the router blink for a few seconds and now it is back to solid white",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:13]",
+      "end_time": "[09:19]",
+      "start_time_sec": 553,
+      "text": "And what brand of smart thermostat are you trying to pair to the network?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:21]",
+      "end_time": "[09:27]",
+      "start_time_sec": 561,
+      "text": "uh i already told you earlier in the call that it's a Hive Mini thermostat",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:29]",
+      "end_time": "[09:40]",
+      "start_time_sec": 569,
+      "text": "right i have created a second wireless network called S-Net-Home-884A-2.4G with the exact same wi-fi password as your main network for the Hive Mini and the camera",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:42]",
+      "end_time": "[09:51]",
+      "start_time_sec": 582,
+      "text": "let me check the wi-fi list on my phone right now yeah i can see S-Net-Home-884A-2.4G showing up with full signal bars",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:53]",
+      "end_time": "[10:04]",
+      "start_time_sec": 593,
+      "text": "i also locked that 2.4 gigahertz radio onto fixed channel 6 at 20 megahertz bandwidth and switched off Protected Management Frames so the smart devices stay locked on",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:06]",
+      "end_time": "[10:14]",
+      "start_time_sec": 606,
+      "text": "great let me open the nursery camera app first and switch it over to that new 2.4G network name",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:16]",
+      "end_time": "[10:22]",
+      "start_time_sec": 616,
+      "text": "go ahead and connect the nursery camera first and tell me when the status light changes",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:24]",
+      "end_time": "[10:36]",
+      "start_time_sec": 624,
+      "text": "okay scanning QR code on the Owlet base station now... connecting to S-Net-Home-884A-2.4G... oh nice the light on the camera just turned solid blue and live video is up",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:38]",
+      "end_time": "[10:48]",
+      "start_time_sec": 638,
+      "text": "right i can see the camera MAC address registered on the 2.4 gigahertz DHCP lease table with a strong minus 48 dBm signal level",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:50]",
+      "end_time": "[10:56]",
+      "start_time_sec": 650,
+      "text": "that connected in like five seconds whereas earlier it timed out every single time",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:58]",
+      "end_time": "[11:05]",
+      "start_time_sec": 658,
+      "text": "now put the Hive Mini hub and receiver into pairing mode and connect it to the S-Net-Home-884A-2.4G network",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:07]",
+      "end_time": "[11:15]",
+      "start_time_sec": 667,
+      "text": "okay i'm in the kitchen pressing the button on the receiver and selecting S-Net-Home-884A-2.4G in the Hive app on my phone",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:17]",
+      "end_time": "[11:25]",
+      "start_time_sec": 677,
+      "text": "i am watching the router's client association table from here so let me know as soon as the app finishes joining",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:27]",
+      "end_time": "[11:37]",
+      "start_time_sec": 687,
+      "text": "it says joining wi-fi network... obtaining IP address... connected to cloud! and the status light on the boiler receiver has just gone solid green",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:39]",
+      "end_time": "[11:50]",
+      "start_time_sec": 699,
+      "text": "i can see the device online in the router table now and i am setting a static DHCP IP reservation for both the thermostat and the baby camera",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:52]",
+      "end_time": "[11:56]",
+      "start_time_sec": 712,
+      "text": "what does the static IP reservation do for them",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:58]",
+      "end_time": "[12:09]",
+      "start_time_sec": 718,
+      "text": "it guarantees that whenever your router reboots or renews leases the heating controller and nursery camera always receive the exact same local IP numbers without any drop",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:11]",
+      "end_time": "[12:22]",
+      "start_time_sec": 731,
+      "text": "oh brilliant i just bumped the target temperature up to 20.5 degrees on the app and i literally just heard the boiler flame fire up in the kitchen",
+      "sentiment_score": 50.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:24]",
+      "end_time": "[12:34]",
+      "start_time_sec": 744,
+      "text": "let me also run a quick stability check on both connections to make sure there are no deauthentication packets or band handoff retries occurring",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:36]",
+      "end_time": "[12:44]",
+      "start_time_sec": 756,
+      "text": "yeah please check that because before it would drop off after a few minutes when we walked into another room",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:46]",
+      "end_time": "[12:56]",
+      "start_time_sec": 766,
+      "text": "both devices have maintained zero packet retries and zero roaming requests over the past two minutes because band steering is completely disabled on the 2.4G radio",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:58]",
+      "end_time": "[13:07]",
+      "start_time_sec": 778,
+      "text": "and both my phone and my wife's phone can stay on the normal 5G network name and still control the heating app right",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:09]",
+      "end_time": "[13:20]",
+      "start_time_sec": 789,
+      "text": "yes because both wireless bands bridge into the exact same local LAN subnet so your phone on 5 gigahertz can talk directly to the devices on 2.4 gigahertz",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:22]",
+      "end_time": "[13:34]",
+      "start_time_sec": 802,
+      "text": "let me test turning my phone back onto the main S-Net-Home-884A network... yeah the live video stream from the crib camera still loads straight away and the thermostat shows online",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:36]",
+      "end_time": "[13:44]",
+      "start_time_sec": 816,
+      "text": "i have saved this configuration permanently to your S-Net cloud router profile and disabled overnight channel hopping on the 2.4G band",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:46]",
+      "end_time": "[13:54]",
+      "start_time_sec": 826,
+      "text": "that is a massive relief now that the heating is actually running again and the camera is staying solid",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:56]",
+      "end_time": "[14:05]",
+      "start_time_sec": 836,
+      "text": "can you confirm that both your smart heating thermostat and the baby monitor are staying connected and working properly for you now oluwaseun",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:07]",
+      "end_time": "[14:17]",
+      "start_time_sec": 847,
+      "text": "yes both the Hive Mini and the baby monitor are showing solid green and blue lights and the heating is warming up the house now",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:19]",
+      "end_time": "[14:25]",
+      "start_time_sec": 859,
+      "text": "is there anything else you need me to check on your broadband connection today",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:27]",
+      "end_time": "[14:31]",
+      "start_time_sec": 867,
+      "text": "no that's everything sorted now thanks for fixing the router settings",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:33]",
+      "end_time": "[14:36]",
+      "start_time_sec": 873,
+      "text": "thank you for choosing S-Net oluwaseun goodbye",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:38]",
+      "end_time": "[14:40]",
+      "start_time_sec": 878,
+      "text": "bye",
+      "sentiment_score": 30.0
+    }
+  ]
+}

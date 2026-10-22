@@ -1,0 +1,110 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Keziah",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:04]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, I'm Ruth. How can I help?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:06]",
+      "end_time": "[00:17]",
+      "start_time_sec": 6,
+      "text": "Hi Ruth. I cancelled my TV package two months ago and you're still taking money for it. It's a bit upsetting, I was very clear when I cancelled.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:18]",
+      "end_time": "[00:24]",
+      "start_time_sec": 18,
+      "text": "I'm sorry, Keziah, that's upsetting when you've been clear. Can I take your full name?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:26]",
+      "end_time": "[00:28]",
+      "start_time_sec": 26,
+      "text": "Keziah Mensah.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:30]",
+      "end_time": "[00:34]",
+      "start_time_sec": 30,
+      "text": "Thanks. I'll raise a refund request for the last two months.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:36]",
+      "end_time": "[00:38]",
+      "start_time_sec": 36,
+      "text": "And will it stop now?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:40]",
+      "end_time": "[00:44]",
+      "start_time_sec": 40,
+      "text": "The request goes to the billing department, and they'll process it.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:45]",
+      "end_time": "[00:47]",
+      "start_time_sec": 45,
+      "text": "When will I know?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:48]",
+      "end_time": "[00:50]",
+      "start_time_sec": 48,
+      "text": "Usually within fourteen days.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:53]",
+      "end_time": "[00:55]",
+      "start_time_sec": 53,
+      "text": "Okay.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:56]",
+      "end_time": "[00:58]",
+      "start_time_sec": 56,
+      "text": "Anything else today?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:02]",
+      "start_time_sec": 60,
+      "text": "No.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:05]",
+      "end_time": "[01:07]",
+      "start_time_sec": 65,
+      "text": "Thank you for choosing S-Net, Keziah.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

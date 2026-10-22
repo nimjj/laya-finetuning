@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_23",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 28.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "At [04:06]-[05:02] (46s gap) and [07:13]-[08:21] (58s gap), the agent left the customer in unannounced dead air after saying only 'Wait a minute' and 'Hold on', and failed to thank the customer for waiting upon return."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "The agent never addressed the customer by his name (Zbigniew) at any point during the call after the customer introduced himself at [00:12]."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "At [01:09] and [06:35], when the customer explained that £132 had been wrongly taken after cancellation and left him short on rent, the agent showed zero empathy or apology."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "At [01:26], after the customer explained the post-cancellation billing and router return issue, the agent failed to paraphrase or summarize the customer's problem in his own words."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "At [06:49], the agent asked how much the monthly charge was, even though the customer had already stated £44 per month twice at [00:12] and [03:24]."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At [09:10]-[10:07] and [12:50]-[14:59], the agent refused ownership of the stuck billing token, declined to log notes or raise an internal ticket, and told the customer to call or write to another department himself."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At [11:03], the agent made a sarcastic, confrontational remark ('Raising your voice at me isn't going to make the money appear in your bank account any faster, is it?')."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "By [15:51]-[16:13], the £132 refund was not processed, the stuck recurring billing token remained active, and the customer was left with an unresolved billing error."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Cancelled broadband account still being billed £44/month three months after returning router via Royal Mail Tracked",
+    "tier": "very_poor",
+    "duration_sec": 1015,
+    "notes": "8-FAIL very_poor call with hard-case PASSes on Branding ([00:00], [16:23]) and Probing ([01:53]-[03:40]) and hard-case FAILs on Hold/Dead Air ([04:06]-[05:02] 46s, [07:13]-[08:21] 58s), Ownership ([09:10]), and Rapport ([11:03]). Agent Callum never uses Zbigniew's name (P FAIL), shows zero empathy for £132 wrongly taken (E FAIL), never paraphrases (PA FAIL), re-asks the £44 monthly charge at [06:49] (AL FAIL), and leaves the refund unprocessed (RE FAIL).",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Took ownership of the problem",
+      "Build rapport and observed professionalism",
+      "Branding and Survey Check",
+      "Probing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent opens with 'thank you for calling S-Net' and [16:23]/[16:43] closes with 'Thank you for choosing S-Net' despite poor service elsewhere."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[04:06] Agent says 'Wait a minute.' followed by a 46s unmanaged gap before [05:02], and [07:13] Agent says 'Hold on.' followed by a 58s unmanaged gap before [08:21] without announcing a hold or thanking the customer on return."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:31]-[00:58] Agent verifies the customer's previous address, four-digit PIN, and security question within the first minute."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:12] Customer introduces himself as Zbigniew, but the agent never uses his name in any turn."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:09] Customer reports £132 wrongly debited after contract cancellation and [06:35] explains it left him short on rent, with zero empathy from the agent across the call."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:12]-[01:26] Agent jumps directly from verification to probing questions without ever paraphrasing the customer's issue."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:12] and [03:24] Customer states S-Net billed £44/month, yet at [06:49] Agent asks 'How much is the monthly charge amount that has been coming out of your bank account?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[09:10] Agent says: 'Once an account is marked closed on our CRM, billing adjustments sit with the former-customer collections team—you'll have to write to them or ring their number.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[11:03] Agent snaps sarcastically: 'Raising your voice at me isn't going to make the money appear in your bank account any faster, is it?'"
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:53]-[03:40] Agent asks targeted diagnostic questions covering the cease completion date, disconnection reference, Royal Mail Tracked 48 barcode, warehouse delivery date, and exact Direct Debit transaction dates."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[08:42], [10:37], and [15:51] The £132 overcharge is not refunded and the recurring Direct Debit token remains scheduled to bill again."
+      }
+    ]
+  }
+}

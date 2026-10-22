@@ -1,0 +1,486 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Mason",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer billing, my name is Ian. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:09]",
+      "end_time": "[00:23]",
+      "start_time_sec": 9,
+      "text": "Hi Ian. I'm looking closely at my monthly itemized bill and I've been charged twenty-four pounds for extra mobile data, but I was told repeatedly that my tariff had an automatic data cap.",
+      "sentiment_score": -26.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:25]",
+      "end_time": "[00:37]",
+      "start_time_sec": 25,
+      "text": "I completely understand your concern about unexpected data charges on your monthly invoice, Mason. Let me look directly into your tariff details and see why that charge applied."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:39]",
+      "end_time": "[00:46]",
+      "start_time_sec": 39,
+      "text": "Thanks, I really appreciate you checking because I always keep the safety buffer turned on.",
+      "sentiment_score": -8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:48]",
+      "end_time": "[00:56]",
+      "start_time_sec": 48,
+      "text": "Before we access your billing records, Mason, could you verify your home address and your four-digit account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:58]",
+      "end_time": "[01:13]",
+      "start_time_sec": 58,
+      "text": "Yes, it is 19 Cambridge Road, Oxford, OX4 1EP, the account security PIN is 5192, and the mobile phone line with the charge is zero seven seven zero zero, nine zero zero four five two.",
+      "sentiment_score": -1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:15]",
+      "end_time": "[01:22]",
+      "start_time_sec": 75,
+      "text": "Thank you for verifying those details, Mason. I have your account pulled up on our billing system."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:24]",
+      "end_time": "[01:27]",
+      "start_time_sec": 84,
+      "text": "Great, thanks for getting that open so fast.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:29]",
+      "end_time": "[01:48]",
+      "start_time_sec": 89,
+      "text": "So just to confirm what you're seeing on your online billing portal: your latest statement shows an additional twenty-four pounds in out-of-plan mobile data usage, but you expected your monthly spend cap to prevent any extra charges. Have I got that completely right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:50]",
+      "end_time": "[01:59]",
+      "start_time_sec": 110,
+      "text": "Yes, exactly. I have a ten-gigabyte plan and I assumed it just slowed down or stopped once I hit ten gigabytes.",
+      "sentiment_score": -11.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:01]",
+      "end_time": "[02:13]",
+      "start_time_sec": 121,
+      "text": "Let me check the detailed data usage logs for that billing cycle. The statement period ran from the third of last month to the second of this month."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:15]",
+      "end_time": "[02:18]",
+      "start_time_sec": 135,
+      "text": "Okay, what do the daily logs show?",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:20]",
+      "end_time": "[02:33]",
+      "start_time_sec": 140,
+      "text": "On the twenty-second of last month, our network traffic monitor recorded a continuous data session of six gigabytes over about four hours between seven in the evening and eleven at night."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:35]",
+      "end_time": "[02:46]",
+      "start_time_sec": 155,
+      "text": "Ah, my home broadband was being upgraded that evening so I was streaming an important football match on my laptop using my mobile phone hotspot.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:48]",
+      "end_time": "[02:58]",
+      "start_time_sec": 168,
+      "text": "Hotspot video streaming on a high-definition laptop screen consumes roughly 1.5 gigabytes per hour, which quickly pushed your total consumption to 14.8 gigabytes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:00]",
+      "end_time": "[03:06]",
+      "start_time_sec": 180,
+      "text": "Right, but shouldn't the spend cap have kicked in at zero pounds extra?",
+      "sentiment_score": -14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:22]",
+      "start_time_sec": 188,
+      "text": "Checking your profile settings on our provisioning server... when your account migrated to our new billing platform in March, the default spend cap was unfortunately reset to thirty pounds rather than zero."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:24]",
+      "end_time": "[03:38]",
+      "start_time_sec": 204,
+      "text": "Nobody told me it changed to thirty pounds when you moved platforms! I never agreed to that change, and charging me twenty-four pounds for an internal system glitch is completely unfair and frustrating!",
+      "sentiment_score": -38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:40]",
+      "end_time": "[03:53]",
+      "start_time_sec": 220,
+      "text": "I completely understand why that's frustrating, Mason, especially when you believed the cap was still locked firmly at zero. Let me see how we can rectify this for you right away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:55]",
+      "end_time": "[04:04]",
+      "start_time_sec": 235,
+      "text": "Thank you Ian, because twenty-four pounds extra is quite a lot of unexpected money for an error during a platform switch.",
+      "sentiment_score": -7.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:06]",
+      "end_time": "[04:18]",
+      "start_time_sec": 246,
+      "text": "Because that spend cap threshold reverted during our internal systems migration without your explicit consent, you should certainly not be penalized for that charge on your statement."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:20]",
+      "end_time": "[04:24]",
+      "start_time_sec": 260,
+      "text": "Can you credit the twenty-four pounds back to my account?",
+      "sentiment_score": 9.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:26]",
+      "end_time": "[04:34]",
+      "start_time_sec": 266,
+      "text": "Yes, I have full supervisory authorization to issue a direct credit of twenty-four pounds to your billing ledger."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:36]",
+      "end_time": "[04:43]",
+      "start_time_sec": 276,
+      "text": "That is fantastic news. Does that credit come off my next direct debit automatically without any paperwork?",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:45]",
+      "end_time": "[04:52]",
+      "start_time_sec": 285,
+      "text": "Yes, your next monthly direct debit will automatically be reduced by exactly twenty-four pounds on collection day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:54]",
+      "end_time": "[04:57]",
+      "start_time_sec": 294,
+      "text": "That's very fair of you, thank you.",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:59]",
+      "end_time": "[05:06]",
+      "start_time_sec": 299,
+      "text": "Now let's look at why your data didn't pause automatically when you hit your allowance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:08]",
+      "end_time": "[05:13]",
+      "start_time_sec": 308,
+      "text": "Does the system send an alert when you hit eighty percent?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:15]",
+      "end_time": "[05:22]",
+      "start_time_sec": 315,
+      "text": "Yes, our automated system normally sends an SMS notification at eighty percent and one hundred percent usage."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:24]",
+      "end_time": "[05:28]",
+      "start_time_sec": 324,
+      "text": "I didn't receive any text message on the twenty-second.",
+      "sentiment_score": -8.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:30]",
+      "end_time": "[05:38]",
+      "start_time_sec": 330,
+      "text": "Checking the notification dispatch queue... the SMS alert was queued behind an exchange gateway maintenance window that evening."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:40]",
+      "end_time": "[05:45]",
+      "start_time_sec": 340,
+      "text": "So the warning text arrived hours after the match had finished.",
+      "sentiment_score": 2.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:47]",
+      "end_time": "[05:54]",
+      "start_time_sec": 347,
+      "text": "That explains why you had no real-time indication that your data allowance had been exhausted."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:56]",
+      "end_time": "[06:00]",
+      "start_time_sec": 356,
+      "text": "I'm glad you can see that on your audit logs.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:02]",
+      "end_time": "[06:10]",
+      "start_time_sec": 362,
+      "text": "Now let's lock your spend cap permanently to zero pounds so no future out-of-plan charges can ever occur."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:12]",
+      "end_time": "[06:15]",
+      "start_time_sec": 372,
+      "text": "Yes please, that's what I want.",
+      "sentiment_score": 11.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:17]",
+      "end_time": "[06:24]",
+      "start_time_sec": 377,
+      "text": "What about your international roaming cap? Would you like that set to zero pounds as well?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:26]",
+      "end_time": "[06:32]",
+      "start_time_sec": 386,
+      "text": "Yes, keep everything capped at zero pounds extra so there are no surprises.",
+      "sentiment_score": 18.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:34]",
+      "end_time": "[06:38]",
+      "start_time_sec": 394,
+      "text": "I will adjust both domestic and international spend caps simultaneously."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:40]",
+      "end_time": "[06:43]",
+      "start_time_sec": 400,
+      "text": "Thank you, that's very reassuring.",
+      "sentiment_score": 11.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:45]",
+      "end_time": "[06:57]",
+      "start_time_sec": 405,
+      "text": "Please bear with me while I place you on a brief hold for about one minute while I process the ledger credit and apply the zero cap."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:29]",
+      "end_time": "[07:40]",
+      "start_time_sec": 449,
+      "text": "Thank you for your patience while holding, Mason. The twenty-four pound credit has been applied, and your spend cap is now firmly locked at zero pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:42]",
+      "end_time": "[07:48]",
+      "start_time_sec": 462,
+      "text": "Thanks Ian. What happens now if I run out of data in the future?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:50]",
+      "end_time": "[08:03]",
+      "start_time_sec": 470,
+      "text": "If you reach your ten gigabytes, your mobile data will simply pause immediately and you'll receive a text message inviting you to buy an optional one-off add-on if you wish."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:05]",
+      "end_time": "[08:09]",
+      "start_time_sec": 485,
+      "text": "That's much safer, that way I'm in complete control.",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:11]",
+      "end_time": "[08:21]",
+      "start_time_sec": 491,
+      "text": "And you can also track your live megabyte balance anytime using the My S-Net mobile app on your smartphone, which shows detailed daily breakdowns."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:23]",
+      "end_time": "[08:28]",
+      "start_time_sec": 503,
+      "text": "Does the app update in real time or is there a delay?",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:30]",
+      "end_time": "[08:36]",
+      "start_time_sec": 510,
+      "text": "The app data widget refreshes every fifteen minutes with accurate network packet telemetry."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:38]",
+      "end_time": "[08:42]",
+      "start_time_sec": 518,
+      "text": "I'll download the app onto my phone this afternoon.",
+      "sentiment_score": 12.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:43]",
+      "end_time": "[08:50]",
+      "start_time_sec": 523,
+      "text": "Are there any other phone lines on your family plan that need their spend caps reviewed?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:51]",
+      "end_time": "[08:56]",
+      "start_time_sec": 531,
+      "text": "No, my wife is on a separate contract with her work.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:57]",
+      "end_time": "[09:00]",
+      "start_time_sec": 537,
+      "text": "That prevents any recurring rollover costs.",
+      "sentiment_score": 9.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:01]",
+      "end_time": "[09:11]",
+      "start_time_sec": 541,
+      "text": "Now, just so I can send the confirmation text message directly to the device, which mobile number on the account was this for again?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:12]",
+      "end_time": "[09:22]",
+      "start_time_sec": 552,
+      "text": "The amended invoice total will display in your S-Net online portal within two hours, and the lowered debit will process automatically on the fifteenth.",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:23]",
+      "end_time": "[09:29]",
+      "start_time_sec": 563,
+      "text": "Thank you, Mason. The confirmation SMS has just been dispatched to that handset."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:30]",
+      "end_time": "[09:37]",
+      "start_time_sec": 570,
+      "text": "Got the text right now. It confirms the twenty-four pound credit and the zero pound spend cap.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:38]",
+      "end_time": "[09:44]",
+      "start_time_sec": 578,
+      "text": "Does the text display the updated bill total for your next direct debit?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:45]",
+      "end_time": "[09:52]",
+      "start_time_sec": 585,
+      "text": "Yes, it shows my next bill on the fifteenth will be twenty-six pounds instead of fifty pounds.",
+      "sentiment_score": 29.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:53]",
+      "end_time": "[09:58]",
+      "start_time_sec": 593,
+      "text": "That confirms the ledger credit has properly credited against next month's invoice."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:59]",
+      "end_time": "[10:03]",
+      "start_time_sec": 599,
+      "text": "I really appreciate you explaining everything so clearly today.",
+      "sentiment_score": 25.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:04]",
+      "end_time": "[10:11]",
+      "start_time_sec": 604,
+      "text": "Is there anything else regarding your tariff or data allowances that I can review today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:12]",
+      "end_time": "[10:18]",
+      "start_time_sec": 612,
+      "text": "No, Ian, you sorted out the credit and fixed the cap completely. Thank you!",
+      "sentiment_score": 24.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:19]",
+      "end_time": "[10:25]",
+      "start_time_sec": 619,
+      "text": "Thank you for choosing S-Net today, Mason. Have a wonderful rest of your day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:26]",
+      "end_time": "[10:30]",
+      "start_time_sec": 626,
+      "text": "Thanks Ian, goodbye.",
+      "sentiment_score": 6.4
+    }
+  ]
+}

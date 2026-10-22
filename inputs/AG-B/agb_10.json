@@ -1,0 +1,501 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Jordon",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:02]",
+      "end_time": "[00:09]",
+      "start_time_sec": 2,
+      "text": "Thank you for calling S-Net customer support. My name is Maya. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:27]",
+      "start_time_sec": 11,
+      "text": "Hi Maya. I just bought an Asus RT-AX88U router to replace the standard S-Net hub, but when I plug it into the Openreach ONT, the WAN light stays red and it won't connect to the internet.",
+      "sentiment_score": -18.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:42]",
+      "start_time_sec": 29,
+      "text": "Your Asus router WAN light stays red when connected to the ONT. Okay. Before we look at settings, Jordon, may I verify your account with your billing address and security question?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:44]",
+      "end_time": "[00:52]",
+      "start_time_sec": 44,
+      "text": "Sure, it's 14 Elmwood Drive, Solihull, B91 3TL. And the security question answer is my father's middle name, Edward.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:54]",
+      "end_time": "[01:04]",
+      "start_time_sec": 54,
+      "text": "Thank you, Jordon. That verifies your account. Just to confirm, you are on our Full Fibre 300 package with an Openreach optical ONT."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:06]",
+      "end_time": "[01:23]",
+      "start_time_sec": 66,
+      "text": "Yes, that's right. I'm trying to get my gaming router set up because I need custom port forwarding and VPN client support, but I've been stuck on the Asus setup wizard for two hours and I'm getting really annoyed.",
+      "sentiment_score": -32.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:25]",
+      "end_time": "[01:40]",
+      "start_time_sec": 85,
+      "text": "Spending two hours stuck on a setup wizard when you just want to get your gaming setup working is really frustrating, Jordon. I can certainly help you configure those manual WAN settings right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:42]",
+      "end_time": "[01:49]",
+      "start_time_sec": 102,
+      "text": "Thanks Maya, that's great. I was worried you'd just tell me you don't support third-party routers.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:51]",
+      "end_time": "[02:03]",
+      "start_time_sec": 111,
+      "text": "While we cannot troubleshoot the internal Asus firmware features, S-Net fully supports customer-owned routers on our network, and I'll give you the exact WAN authentication parameters you need."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:05]",
+      "end_time": "[02:11]",
+      "start_time_sec": 125,
+      "text": "Awesome. I have the Asus web admin interface open on my laptop at 192.168.50.1.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:13]",
+      "end_time": "[02:27]",
+      "start_time_sec": 133,
+      "text": "First, let's verify the physical cabling. Is the blue Ethernet cable connected between Port 1 on the Openreach ONT box and the blue WAN port on the back of your Asus router?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:29]",
+      "end_time": "[02:39]",
+      "start_time_sec": 149,
+      "text": "Yes, I plugged the Cat6 cable into Port 1 on the optical ONT and into the blue WAN socket on the Asus.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:41]",
+      "end_time": "[02:51]",
+      "start_time_sec": 161,
+      "text": "And on the Openreach optical box on the wall, is the LAN 1 indicator illuminated green, confirming an active physical link to the router?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:53]",
+      "end_time": "[03:01]",
+      "start_time_sec": 173,
+      "text": "Yes, the LAN 1 light on the ONT is solid green, so the physical wire connection is definitely good.",
+      "sentiment_score": 5.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:03]",
+      "end_time": "[03:11]",
+      "start_time_sec": 183,
+      "text": "Great. Now in the left-hand navigation menu of the Asus interface, click on Advanced Settings, and then select WAN."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:13]",
+      "end_time": "[03:18]",
+      "start_time_sec": 193,
+      "text": "Okay, clicking Advanced Settings... and WAN. I'm on the Internet Connection tab.",
+      "sentiment_score": 3.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:20]",
+      "end_time": "[03:25]",
+      "start_time_sec": 200,
+      "text": "At the top, what is the WAN Connection Type currently set to?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:27]",
+      "end_time": "[03:31]",
+      "start_time_sec": 207,
+      "text": "It says Automatic IP (DHCP).",
+      "sentiment_score": 1.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:33]",
+      "end_time": "[03:45]",
+      "start_time_sec": 213,
+      "text": "That is the first reason the WAN light is red. S-Net Full Fibre circuits require PPPoE authentication rather than Automatic IP. Please change that dropdown to PPPoE."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:47]",
+      "end_time": "[03:53]",
+      "start_time_sec": 227,
+      "text": "Changing dropdown to PPPoE... okay, now it's asking for a User Name and Password.",
+      "sentiment_score": 5.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:55]",
+      "end_time": "[04:02]",
+      "start_time_sec": 235,
+      "text": "For the User Name, enter your broadband account identifier: broadband@snet-fibre.co.uk. And for the Password, enter: speed300connect."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:04]",
+      "end_time": "[04:08]",
+      "start_time_sec": 244,
+      "text": "Entering broadband@snet-fibre.co.uk... and password speed300connect.",
+      "sentiment_score": 3.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:10]",
+      "end_time": "[04:20]",
+      "start_time_sec": 250,
+      "text": "And on that same page, make sure the MTU size is configured to 1492, which is the standard packet ceiling for PPPoE encapsulation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:22]",
+      "end_time": "[04:26]",
+      "start_time_sec": 262,
+      "text": "Checking MTU... yes, it defaults to 1492.",
+      "sentiment_score": 2.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:28]",
+      "end_time": "[04:38]",
+      "start_time_sec": 268,
+      "text": "Next, this is the most critical setting that many users miss: the VLAN tagging. On the left menu under Advanced Settings, click on LAN."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:40]",
+      "end_time": "[04:44]",
+      "start_time_sec": 280,
+      "text": "Clicking LAN now.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:46]",
+      "end_time": "[04:50]",
+      "start_time_sec": 286,
+      "text": "Now look along the top tabs and click on IPTV."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:52]",
+      "end_time": "[04:56]",
+      "start_time_sec": 292,
+      "text": "Found it, clicking the IPTV tab.",
+      "sentiment_score": 4.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:58]",
+      "end_time": "[05:08]",
+      "start_time_sec": 298,
+      "text": "Obviously third-party routers default to untagged traffic, Jordon, but Openreach optical circuits require a VLAN tag of 101 on the internet port."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:10]",
+      "end_time": "[05:14]",
+      "start_time_sec": 310,
+      "text": "Ah, okay! Where do I put that in?",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:16]",
+      "end_time": "[05:26]",
+      "start_time_sec": 316,
+      "text": "Under Select ISP Profile, choose Manual Setting. Then in the Internet VID field, enter the number 101. Leave the PRIO field at 0."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:28]",
+      "end_time": "[05:36]",
+      "start_time_sec": 328,
+      "text": "Selected Manual... VID entered as 101, PRIO is 0. Do I touch LAN port 1 or 2 VID?",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:38]",
+      "end_time": "[05:45]",
+      "start_time_sec": 338,
+      "text": "No, leave those blank. Now scroll to the bottom of the page and click the Apply button."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:47]",
+      "end_time": "[05:52]",
+      "start_time_sec": 347,
+      "text": "Clicking Apply... it says Applying Settings, please wait while router reboots services.",
+      "sentiment_score": 9.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:54]",
+      "end_time": "[06:02]",
+      "start_time_sec": 354,
+      "text": "While we're on the line, did you also want to verify whether IPv6 is enabled on your Asus router?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:04]",
+      "end_time": "[06:08]",
+      "start_time_sec": 364,
+      "text": "Oh, does S-Net support native IPv6 on full fiber?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:10]",
+      "end_time": "[06:17]",
+      "start_time_sec": 370,
+      "text": "Yes we do! We provide a native dual-stack /56 IPv6 prefix delegation across all full fiber packages."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:19]",
+      "end_time": "[06:26]",
+      "start_time_sec": 379,
+      "text": "That's great for multiplayer gaming latency. Where would I enable that in the Asus interface?",
+      "sentiment_score": 16.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:28]",
+      "end_time": "[06:37]",
+      "start_time_sec": 388,
+      "text": "In the left menu under Advanced Settings, click on IPv6, set Connection Type to Native, and set DHCP-PD to Enable."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:39]",
+      "end_time": "[06:43]",
+      "start_time_sec": 399,
+      "text": "Setting Connection Type to Native... DHCP-PD Enabled... and clicking Apply.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:45]",
+      "end_time": "[06:52]",
+      "start_time_sec": 405,
+      "text": "Once applied, the ONT will assign a public 2a02 prefix to your local network devices."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:54]",
+      "end_time": "[07:00]",
+      "start_time_sec": 414,
+      "text": "It applied! My laptop just acquired an IPv6 address ending in 41a. That's fantastic.",
+      "sentiment_score": 31.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:02]",
+      "end_time": "[07:09]",
+      "start_time_sec": 422,
+      "text": "Excellent, that will give you direct end-to-end routing with no NAT translation required on supported game servers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:11]",
+      "end_time": "[07:15]",
+      "start_time_sec": 431,
+      "text": "That is exactly what I wanted from this router upgrade.",
+      "sentiment_score": 27.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:17]",
+      "end_time": "[07:23]",
+      "start_time_sec": 437,
+      "text": "Did you also want to configure custom DNS servers, like Cloudflare or Google DNS?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:25]",
+      "end_time": "[07:29]",
+      "start_time_sec": 445,
+      "text": "Yes! I usually prefer Cloudflare 1.1.1.1 for fastest lookups.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:31]",
+      "end_time": "[07:37]",
+      "start_time_sec": 451,
+      "text": "In WAN settings under DNS Server, you can enter 1.1.1.1 and secondary 1.0.0.1 directly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:39]",
+      "end_time": "[07:43]",
+      "start_time_sec": 459,
+      "text": "Adding those DNS addresses now and hitting apply.",
+      "sentiment_score": 18.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:45]",
+      "end_time": "[07:53]",
+      "start_time_sec": 465,
+      "text": "Did you also want to check the Adaptive QoS settings for prioritizing gaming network traffic over background downloads?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:55]",
+      "end_time": "[07:59]",
+      "start_time_sec": 475,
+      "text": "Yes, where is Adaptive QoS located in the Asus menu?",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:01]",
+      "end_time": "[08:10]",
+      "start_time_sec": 481,
+      "text": "In the left menu under General, select Adaptive QoS, toggle the switch to On, and set the priority mode to Games."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:12]",
+      "end_time": "[08:19]",
+      "start_time_sec": 492,
+      "text": "Toggling Adaptive QoS on... priority set to Games. That will stop file downloads choking my ping.",
+      "sentiment_score": 24.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:21]",
+      "end_time": "[08:30]",
+      "start_time_sec": 501,
+      "text": "Take a look at the front LED on the Asus router. Has the globe icon or WAN light changed color?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:32]",
+      "end_time": "[08:37]",
+      "start_time_sec": 512,
+      "text": "Yes! The WAN light turned solid bright white, no more red!",
+      "sentiment_score": 36.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:40]",
+      "end_time": "[08:48]",
+      "start_time_sec": 520,
+      "text": "And on the Asus Network Map, does it show an external WAN IP address assigned under Internet Status?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:50]",
+      "end_time": "[08:59]",
+      "start_time_sec": 530,
+      "text": "Yes, it says Connected, and there's a public IP address starting with 82.132. The connection status says Your network is online.",
+      "sentiment_score": 39.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:01]",
+      "end_time": "[09:12]",
+      "start_time_sec": 541,
+      "text": "Brilliant. Let's open a new tab on your laptop and browse to a couple of websites to make sure DNS and data transmission are operating seamlessly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:14]",
+      "end_time": "[09:22]",
+      "start_time_sec": 554,
+      "text": "Opening YouTube... loaded immediately in 4K. Opening Steam... Steam connected and my game downloads are running at full speed!",
+      "sentiment_score": 43.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:24]",
+      "end_time": "[09:33]",
+      "start_time_sec": 564,
+      "text": "That's fantastic. You have full Gigabit throughput running through your new Asus gaming router with PPPoE and VLAN 101 fully established."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:35]",
+      "end_time": "[09:45]",
+      "start_time_sec": 575,
+      "text": "Maya, you are an absolute legend. I thought I was going to have to return this expensive router. Thank you so much!",
+      "sentiment_score": 41.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:47]",
+      "end_time": "[09:58]",
+      "start_time_sec": 587,
+      "text": "You are very welcome, Jordon. Just make sure to keep a note of those PPPoE credentials in case you ever factory reset the Asus device."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:00]",
+      "end_time": "[10:04]",
+      "start_time_sec": 600,
+      "text": "I've written them down in my router manual right now.",
+      "sentiment_score": 24.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:06]",
+      "end_time": "[10:12]",
+      "start_time_sec": 606,
+      "text": "Is there anything else with your broadband setup I can assist you with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:14]",
+      "end_time": "[10:18]",
+      "start_time_sec": 614,
+      "text": "No, that's everything solved. Have a wonderful day Maya!",
+      "sentiment_score": 28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:20]",
+      "end_time": "[10:26]",
+      "start_time_sec": 620,
+      "text": "Thank you for choosing S-Net, Jordon. Enjoy your gaming and have a great afternoon!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:28]",
+      "end_time": "[10:32]",
+      "start_time_sec": 628,
+      "text": "Thanks! Bye-bye.",
+      "sentiment_score": 11.3
+    }
+  ]
+}

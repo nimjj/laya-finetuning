@@ -1,0 +1,160 @@
+{
+  "call_id": "ag_15",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 73.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "At [00:50], after the customer explained her Error 409 device limit issue, the agent never paraphrased or restated the problem in her own words, jumping straight to 'Oh, er, I see what's happened there, let me open your TV Go device table right now.'"
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Because the customer volunteered all diagnostic details upfront at [00:08]-[00:29], the agent never asked a single diagnostic probing question during the call—only asking for security verification ([01:10]), permission to delete the old slots ([02:55]), and resolution confirmation ([11:52])."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "S-Net TV Go app showing 'Maximum Registered Devices Reached (Error 409)' when trying to stream on a new iPad",
+    "tier": "good",
+    "duration_sec": 745,
+    "notes": "Warm, effective streaming support call where Amira resolves Jolanta's S-Net TV Go Error 409 device limit live on the call, but fails Paraphrasing ([00:50] jumping straight into the device table with 'Oh, er, I see what's happened there' instead of restating the problem) and Probing (because Jolanta volunteered all diagnostic details upfront in [00:08]-[00:29], Amira never asked a single diagnostic question).",
+    "hard_cases": [
+      "Paraphrasing",
+      "Probing",
+      "Verified customer",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'Good afternoon, um, thank you for calling S-Net TV and Streaming Support...' and [12:13] Agent: 'Thank you for choosing S-Net, and enjoy your trip!'"
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:18] Agent announces hold ('Um, please bear with me while I apply the supervisor cooldown override...') and returns after 55s at [04:23] with 'Thank you so much for waiting, Jolanta.'"
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:10] Agent asks for home billing address and four-digit security PIN; Customer verifies at [01:19]."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:50], [01:26], [04:23], [12:13] Agent addresses Jolanta by name warmly throughout."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:50] Agent: 'Oh, I am so sorry that Error 409 message popped up right before your Edinburgh train trip tomorrow, Jolanta—I completely understand how frustrating it is when you just want your new iPad ready for the journey!'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:50] Agent says 'Oh, er, I see what's happened there, let me open your TV Go device table right now' without summarizing or restating Jolanta's issue in her own words."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:41], [06:19] Agent remembers all the old devices Jolanta mentioned at [00:29] (two old phones, broken Lenovo laptop, old Fire tablet, and keeping the Samsung Galaxy S24) as well as her Edinburgh train trip tomorrow without asking her to repeat anything."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:18]-[04:43] Agent overrides the 30-day device-swap cooldown, purges the 4 stale DRM tokens, resets the swap counter, and guides Jolanta through registering her iPad Air and testing both live TV and offline downloads."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:13], [06:19], [08:24], [12:13] Agent builds warm, personable rapport around Jolanta's train journey from Cardiff to Edinburgh."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Across all Agent turns ([00:00]-[12:13]), Agent asks zero diagnostic probing questions, only asking verification ([01:10]), slot deletion confirmation ([02:55]), and resolution confirmation ([11:52])."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[05:55]-[06:10], [07:07], [09:26], [12:06] Customer registers her iPad Air in slot 2, confirms S-Net Drama HD and Sky Sports Main Event stream live, tests an offline episode download in Airplane Mode, and confirms the issue is 100% resolved."
+      }
+    ]
+  }
+}

@@ -1,0 +1,463 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Luke",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer relations. My name is Zack. How can I assist you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:16]",
+      "end_time": "[00:43]",
+      "start_time_sec": 16,
+      "text": "Hello Zack. Our home broadband was completely down yesterday afternoon for exactly four hours and twenty minutes between one and five PM! Because of this outage, I was unable to submit bids on a commercial eBay antique auction, causing me to lose a five-hundred-pound profit margin on a rare Georgian mahogany sideboard! I want an immediate five-hundred-pound credit posted to my S-Net billing balance right now on this call, or I will initiate legal action against your company in small claims court!",
+      "sentiment_score": -48.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:52]",
+      "end_time": "[00:58]",
+      "start_time_sec": 52,
+      "text": "Let me open your subscriber ledger and service history records on our billing portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:07]",
+      "end_time": "[01:10]",
+      "start_time_sec": 67,
+      "text": "My S-Net account number is ACC-88910-L.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:19]",
+      "end_time": "[01:27]",
+      "start_time_sec": 79,
+      "text": "Before we inspect the service outage logs, could you please verify your installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:36]",
+      "end_time": "[01:43]",
+      "start_time_sec": 96,
+      "text": "The installation address is 52 Claremont Road, Manchester, M14 5WP, and the security PIN is 6620.",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:52]",
+      "end_time": "[01:58]",
+      "start_time_sec": 112,
+      "text": "Thank you for verifying those details, Luke. I have opened your Manchester account docket."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:07]",
+      "end_time": "[02:10]",
+      "start_time_sec": 127,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:19]",
+      "end_time": "[02:36]",
+      "start_time_sec": 139,
+      "text": "So just to confirm what you are requesting: you experienced a service outage of four hours yesterday afternoon, and you are seeking five hundred pounds in direct financial compensation for lost speculative antique auction profits. Is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:45]",
+      "end_time": "[02:55]",
+      "start_time_sec": 165,
+      "text": "Yes, exactly! Five hundred pounds of clear financial loss caused entirely by your network dropping out in the middle of a live auction!",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:04]",
+      "end_time": "[03:12]",
+      "start_time_sec": 184,
+      "text": "Please hold for about forty-five seconds while I review the regional network incident logs and our standard compensation matrix."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:57]",
+      "end_time": "[04:13]",
+      "start_time_sec": 237,
+      "text": "Thank you for holding, Luke. Network operations logs confirm that an overhead street cabinet power failure affected your neighborhood yesterday for four hours and twenty minutes before backup generators restored mains power to the line cards."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:22]",
+      "end_time": "[04:28]",
+      "start_time_sec": 262,
+      "text": "So S-Net admits full liability for the outage! Process the five-hundred-pound credit right now!",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:37]",
+      "end_time": "[04:49]",
+      "start_time_sec": 277,
+      "text": "Under the Ofcom Automatic Compensation Scheme, residential broadband subscribers are entitled to statutory compensation only when a complete loss of service persists beyond two full working days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:58]",
+      "end_time": "[05:08]",
+      "start_time_sec": 298,
+      "text": "Two full working days?! I don't care about your statutory schemes! I lost five hundred pounds in cold hard cash yesterday afternoon!",
+      "sentiment_score": -44.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:17]",
+      "end_time": "[05:27]",
+      "start_time_sec": 317,
+      "text": "Section 14.2 of our Consumer Broadband Agreement explicitly excludes indirect consequential economic damages or lost commercial profits resulting from temporary residential service disruptions."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:35]",
+      "end_time": "[05:44]",
+      "start_time_sec": 335,
+      "text": "Your terms and conditions are completely irrelevant to me! I demand to speak to a senior director who has check-signing authority!",
+      "sentiment_score": -38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:52]",
+      "end_time": "[05:57]",
+      "start_time_sec": 352,
+      "text": "Senior executive directors do not handle frontline inbound customer telephone queues."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:05]",
+      "end_time": "[06:17]",
+      "start_time_sec": 365,
+      "text": "Then you credit my account five hundred pounds right now or I will post negative reviews across every consumer trust website and drag your name through the mud!",
+      "sentiment_score": -46.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:25]",
+      "end_time": "[06:34]",
+      "start_time_sec": 385,
+      "text": "The maximum goodwill credit a frontline team member can authorize for a single-day residential outage is ten pounds under company guidelines."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:42]",
+      "end_time": "[06:53]",
+      "start_time_sec": 402,
+      "text": "Ten pounds?! Are you insulting my intelligence?! Ten pounds is a slap in the face! I want five hundred pounds, not a pathetic ten-pound voucher!",
+      "sentiment_score": -49.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:01]",
+      "end_time": "[07:14]",
+      "start_time_sec": 421,
+      "text": "Well Luke, if you think S-Net is handing out five hundred pounds of free money for a four-hour residential outage, you can get lost because that is never going to happen!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:22]",
+      "end_time": "[07:32]",
+      "start_time_sec": 442,
+      "text": "Did you just tell me to get lost?! You told a paying customer to get lost on a recorded call?! That is unbelievable!",
+      "sentiment_score": -49.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:40]",
+      "end_time": "[07:54]",
+      "start_time_sec": 460,
+      "text": "I am stating the commercial reality that five hundred pounds of compensation will not be approved under any circumstances for a residential contract, as set out in our regulatory code of practice."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:02]",
+      "end_time": "[08:10]",
+      "start_time_sec": 482,
+      "text": "I am recording this call and sending it straight to BBC Watchdog, Trading Standards, and the communications ombudsman!",
+      "sentiment_score": -38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:18]",
+      "end_time": "[08:24]",
+      "start_time_sec": 498,
+      "text": "Just to confirm what you mentioned earlier, your registered S-Net account number is ACC-88910-L?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:32]",
+      "end_time": "[08:39]",
+      "start_time_sec": 512,
+      "text": "Yes, ACC-88910-L. You will see that number on the formal legal writ my solicitor files!",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:47]",
+      "end_time": "[08:54]",
+      "start_time_sec": 527,
+      "text": "What was the specific category of antique goods you were bidding on when the connection dropped?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:02]",
+      "end_time": "[09:12]",
+      "start_time_sec": 542,
+      "text": "It was a set of Victorian mahogany dining chairs and a Georgian silver tea service being auctioned in an online timed catalog.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:20]",
+      "end_time": "[09:28]",
+      "start_time_sec": 560,
+      "text": "Did you attempt to access the online auction platform using a mobile telephone cellular connection during the outage?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:36]",
+      "end_time": "[09:46]",
+      "start_time_sec": 576,
+      "text": "My mobile phone battery was at four percent and charging in another room, so I didn't think of switching over in time.",
+      "sentiment_score": 12.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:54]",
+      "end_time": "[10:01]",
+      "start_time_sec": 594,
+      "text": "Had mobile hotspot tethering been utilized, the auction portal would have remained accessible over 4G cellular data."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:09]",
+      "end_time": "[10:16]",
+      "start_time_sec": 609,
+      "text": "I pay S-Net for fixed broadband so that I don't have to fiddle with tiny smartphone screens!",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:24]",
+      "end_time": "[10:30]",
+      "start_time_sec": 624,
+      "text": "Fixed broadband infrastructure remains subject to utility power grid interruptions beyond provider control."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:38]",
+      "end_time": "[10:45]",
+      "start_time_sec": 638,
+      "text": "Commercial leased lines with four-hour SLAs cost hundreds of pounds, but you advertise ninety-nine percent reliability!",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:53]",
+      "end_time": "[11:01]",
+      "start_time_sec": 653,
+      "text": "Ninety-nine percent annual availability still allows for several hours of unscheduled maintenance or environmental power cuts over twelve months."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:09]",
+      "end_time": "[11:15]",
+      "start_time_sec": 669,
+      "text": "So you are refusing to give me a single penny more than ten pounds?",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:23]",
+      "end_time": "[11:32]",
+      "start_time_sec": 683,
+      "text": "Under the Consumer Broadband Code of Practice, frontline authorization limits for non-extended service outages are strictly bounded at ten pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:40]",
+      "end_time": "[11:49]",
+      "start_time_sec": 700,
+      "text": "What about my legal rights under the Consumer Rights Act 2015 for services not provided with reasonable care and skill?",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:57]",
+      "end_time": "[12:08]",
+      "start_time_sec": 717,
+      "text": "Any formal statutory claim alleging breach of implied terms under the Consumer Rights Act must be submitted in writing to our legal compliance directorate in Leeds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:16]",
+      "end_time": "[12:23]",
+      "start_time_sec": 736,
+      "text": "I will have my legal counsel draft that formal claim letter by registered delivery tomorrow morning.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:31]",
+      "end_time": "[12:44]",
+      "start_time_sec": 751,
+      "text": "If our customer relations team cannot reach a mutual agreement with you within eight weeks, we will issue a formal Deadlock Notice enabling you to refer the case to CISAS."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:52]",
+      "end_time": "[13:00]",
+      "start_time_sec": 772,
+      "text": "CISAS is the Communications and Internet Services Adjudication Scheme, which costs your company hundreds of pounds per adjudication!",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:08]",
+      "end_time": "[13:14]",
+      "start_time_sec": 788,
+      "text": "Yes, CISAS is our designated independent alternative dispute resolution body approved by Ofcom."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:22]",
+      "end_time": "[13:29]",
+      "start_time_sec": 802,
+      "text": "I will take this all the way to CISAS adjudication unless an executive manager calls me back.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:37]",
+      "end_time": "[13:46]",
+      "start_time_sec": 817,
+      "text": "I have documented your compensation claim on the ticket and logged the maximum ten-pound goodwill adjustment against next month's invoice."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:54]",
+      "end_time": "[14:00]",
+      "start_time_sec": 834,
+      "text": "I am rejecting your ten-pound offer and will pursue this through legal channels.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:08]",
+      "end_time": "[14:13]",
+      "start_time_sec": 848,
+      "text": "The formal dispute reference number for your complaint docket is DIS-44019-L."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:21]",
+      "end_time": "[14:24]",
+      "start_time_sec": 861,
+      "text": "Noted down... DIS-44019-L.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:32]",
+      "end_time": "[14:39]",
+      "start_time_sec": 872,
+      "text": "The dispute notes clearly state your demand for five hundred pounds and our residential terms limitation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:47]",
+      "end_time": "[14:59]",
+      "start_time_sec": 887,
+      "text": "Our mobile phone network with S-Net has always had excellent 5G signal across Manchester, we get full bars everywhere in Rusholme and Fallowfield, so mobile service is fine.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:07]",
+      "end_time": "[15:13]",
+      "start_time_sec": 907,
+      "text": "We are pleased that your Manchester cellular coverage maintains strong performance across Greater Manchester."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:21]",
+      "end_time": "[15:24]",
+      "start_time_sec": 921,
+      "text": "Yes, the mobile coverage has been fine.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:32]",
+      "end_time": "[15:37]",
+      "start_time_sec": 932,
+      "text": "The ten-pound adjustment and formal dispute documentation are locked on your profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:45]",
+      "end_time": "[15:50]",
+      "start_time_sec": 945,
+      "text": "I will be expecting written confirmation of this dispute docket by post.",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:58]",
+      "end_time": "[16:08]",
+      "start_time_sec": 958,
+      "text": "A formal written summary detailing our final dispute response will be dispatched to your registered billing address within five working days by recorded delivery."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:16]",
+      "end_time": "[16:19]",
+      "start_time_sec": 976,
+      "text": "Very well.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:27]",
+      "end_time": "[16:40]",
+      "start_time_sec": 987,
+      "text": "I have verified that your dispute docket DIS-44019-L is submitted and your ten-pound credit is noted. Does that answer all of your questions regarding the claim process today, Luke?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:48]",
+      "end_time": "[16:55]",
+      "start_time_sec": 1008,
+      "text": "You haven't paid me what you owe me, but you've explained the claim process. Goodbye.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:03]",
+      "end_time": "[17:08]",
+      "start_time_sec": 1023,
+      "text": "Thank you for choosing S-Net today. Have a good afternoon. Goodbye Luke."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:16]",
+      "end_time": "[17:20]",
+      "start_time_sec": 1036,
+      "text": "Goodbye.",
+      "sentiment_score": 12.0
+    }
+  ]
+}

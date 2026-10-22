@@ -1,0 +1,515 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Noah",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net mobile customer service, my name is Edward. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:25]",
+      "start_time_sec": 10,
+      "text": "hi Edward um I got a new iPhone fifteen yesterday and I'm trying to transfer my eSIM from my old phone but it's just stuck on activating and now neither phone gets any signal",
+      "sentiment_score": -26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:27]",
+      "end_time": "[00:39]",
+      "start_time_sec": 27,
+      "text": "I understand how inconvenient it is to be left without cellular reception on both handsets, Noah. I will get your eSIM profile refreshed and activated right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:41]",
+      "end_time": "[00:48]",
+      "start_time_sec": 41,
+      "text": "thanks man yeah I have to travel for work tomorrow so I really need this sorted",
+      "sentiment_score": -12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:50]",
+      "end_time": "[00:59]",
+      "start_time_sec": 50,
+      "text": "Before we access your mobile account, Noah, could you verify your full billing address and your four-digit security PIN for me?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:01]",
+      "end_time": "[01:08]",
+      "start_time_sec": 61,
+      "text": "yeah sure it's 53 Westbourne Grove London W11 2RU and the pin is four eight one zero",
+      "sentiment_score": -2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:10]",
+      "end_time": "[01:18]",
+      "start_time_sec": 70,
+      "text": "Thank you for verifying those details, Noah. I have your Unlimited 5G mobile account open in front of me."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:20]",
+      "end_time": "[01:23]",
+      "start_time_sec": 80,
+      "text": "cool thanks for pulling that up so quickly",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:25]",
+      "end_time": "[01:42]",
+      "start_time_sec": 85,
+      "text": "So if I have understood correctly, you are attempting to migrate your eSIM from an older handset to a new iPhone 15, but the carrier activation stalled and left both devices showing No Service. Have I got that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:44]",
+      "end_time": "[01:53]",
+      "start_time_sec": 104,
+      "text": "yeah exactly that like the little circle just spins on setting up cellular and then says unable to complete eSIM transfer",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:55]",
+      "end_time": "[02:05]",
+      "start_time_sec": 115,
+      "text": "That typically happens when the previous device holds the cryptographic token because the old eSIM was not deleted prior to requesting the new profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:07]",
+      "end_time": "[02:14]",
+      "start_time_sec": 127,
+      "text": "oh right I didn't know I had to delete it from the old phone first",
+      "sentiment_score": -3.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:16]",
+      "end_time": "[02:26]",
+      "start_time_sec": 136,
+      "text": "No problem at all, that is very common. On your old phone, go into Settings, then Mobile Service, and tap Remove eSIM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:28]",
+      "end_time": "[02:36]",
+      "start_time_sec": 148,
+      "text": "okay doing that now... tap remove... confirm remove... okay the old phone now says no SIM card installed",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:38]",
+      "end_time": "[02:46]",
+      "start_time_sec": 158,
+      "text": "What is the EID number of your new iPhone 15? You can find it under Settings, General, About."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:48]",
+      "end_time": "[02:58]",
+      "start_time_sec": 168,
+      "text": "let me see... EID is eight nine zero four nine zero three two zero zero zero one eight four two five nine zero one",
+      "sentiment_score": 3.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:00]",
+      "end_time": "[03:04]",
+      "start_time_sec": 180,
+      "text": "Thank you. And the IMEI number on the same screen?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:06]",
+      "end_time": "[03:13]",
+      "start_time_sec": 186,
+      "text": "IMEI is three five four zero nine eight one one zero four eight two nine one five",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:15]",
+      "end_time": "[03:21]",
+      "start_time_sec": 195,
+      "text": "And is there an IMEI 2 listed below that for the digital SIM slot?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:23]",
+      "end_time": "[03:31]",
+      "start_time_sec": 203,
+      "text": "yes IMEI two is three five four zero nine eight one one zero four eight two nine two three",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:33]",
+      "end_time": "[03:40]",
+      "start_time_sec": 213,
+      "text": "Perfect. I am generating a brand new carrier direct push profile straight to Apple's activation servers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:42]",
+      "end_time": "[03:46]",
+      "start_time_sec": 222,
+      "text": "does that mean I don't need a QR code email?",
+      "sentiment_score": 6.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:48]",
+      "end_time": "[03:58]",
+      "start_time_sec": 228,
+      "text": "Yes, direct push delivers the profile straight to your iOS screen as a system prompt, which is much faster than scanning a QR code."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:00]",
+      "end_time": "[04:03]",
+      "start_time_sec": 240,
+      "text": "oh that's sweet nice and easy",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:05]",
+      "end_time": "[04:15]",
+      "start_time_sec": 245,
+      "text": "Please bear with me while I place you on a brief hold for about a minute while I commit the profile exchange."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:27]",
+      "end_time": "[05:34]",
+      "start_time_sec": 327,
+      "text": "Thank you for holding, Noah. The new eSIM profile has been pushed to your handset."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:36]",
+      "end_time": "[05:43]",
+      "start_time_sec": 336,
+      "text": "whoa yeah a notification just popped up on the screen saying S-Net Mobile Plan Ready to Install",
+      "sentiment_score": 28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:45]",
+      "end_time": "[05:53]",
+      "start_time_sec": 345,
+      "text": "Tap that notification and select Continue, then set it as your primary line for voice, SMS, and mobile data."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:55]",
+      "end_time": "[06:02]",
+      "start_time_sec": 355,
+      "text": "tapping continue... it says activating... and boom! Full five G bars at the top of the screen!",
+      "sentiment_score": 36.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:04]",
+      "end_time": "[06:13]",
+      "start_time_sec": 364,
+      "text": "Could you turn off Wi-Fi on your phone and try making a test call or opening a website over cellular?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:15]",
+      "end_time": "[06:25]",
+      "start_time_sec": 375,
+      "text": "turning Wi-Fi off... loading BBC news... loads instantly on five G. Let me call my voicemail on one two one... voicemail connected!",
+      "sentiment_score": 32.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:27]",
+      "end_time": "[06:34]",
+      "start_time_sec": 387,
+      "text": "That confirms voice, data, and IMS registration are fully working on the new device, Noah."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:36]",
+      "end_time": "[06:43]",
+      "start_time_sec": 396,
+      "text": "Now let's check your APN settings to ensure your multimedia messages and personal hotspot function without issues."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:45]",
+      "end_time": "[06:49]",
+      "start_time_sec": 405,
+      "text": "where do I check the APN settings in the menu?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:51]",
+      "end_time": "[06:58]",
+      "start_time_sec": 411,
+      "text": "Go to Settings, Mobile Service, Mobile Data Network. The Access Point Name should say idata.s-net.co.uk."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:00]",
+      "end_time": "[07:07]",
+      "start_time_sec": 420,
+      "text": "looking at Mobile Data Network... yes, APN shows idata.s-net.co.uk and username and password are blank.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:09]",
+      "end_time": "[07:15]",
+      "start_time_sec": 429,
+      "text": "That is the correct carrier profile. Now test your personal hotspot toggle under Settings."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:17]",
+      "end_time": "[07:24]",
+      "start_time_sec": 437,
+      "text": "toggling personal hotspot... it switched on immediately without any pop-up asking me to contact S-Net!",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:26]",
+      "end_time": "[07:35]",
+      "start_time_sec": 446,
+      "text": "Now check iMessage and FaceTime under Settings, Messages. Does your mobile number show with a blue checkmark next to it?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:37]",
+      "end_time": "[07:45]",
+      "start_time_sec": 457,
+      "text": "checking Messages... yes, my phone number has a spinning wheel for two seconds and then showed a blue checkmark!",
+      "sentiment_score": 26.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:47]",
+      "end_time": "[07:53]",
+      "start_time_sec": 467,
+      "text": "That confirms your telephone number has successfully bound to Apple's push notification identity server."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:55]",
+      "end_time": "[08:02]",
+      "start_time_sec": 475,
+      "text": "awesome, that means my blue text bubbles won't show as my email address to friends.",
+      "sentiment_score": 28.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:04]",
+      "end_time": "[08:12]",
+      "start_time_sec": 484,
+      "text": "You mentioned earlier you are traveling for work tomorrow, Noah. Are you traveling abroad or within the UK?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:14]",
+      "end_time": "[08:21]",
+      "start_time_sec": 494,
+      "text": "oh yeah I'm flying out to Frankfurt in Germany for three days for a tech expo",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:23]",
+      "end_time": "[08:33]",
+      "start_time_sec": 503,
+      "text": "Our European Roaming Pass covers full 5G data, calls, and texts across Germany for just two pounds a day, capped at your domestic bundle."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:35]",
+      "end_time": "[08:42]",
+      "start_time_sec": 515,
+      "text": "does that kick in automatically when I land, or do I have to activate it?",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:44]",
+      "end_time": "[08:51]",
+      "start_time_sec": 524,
+      "text": "It activates automatically the moment your phone connects to the Deutsche Telekom or Vodafone network in Germany."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:53]",
+      "end_time": "[08:58]",
+      "start_time_sec": 533,
+      "text": "and is data roaming turned on by default in my phone settings?",
+      "sentiment_score": 2.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:00]",
+      "end_time": "[09:08]",
+      "start_time_sec": 540,
+      "text": "You will just need to go to Settings, Mobile Service, Mobile Data Options, and toggle Data Roaming to On."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:10]",
+      "end_time": "[09:16]",
+      "start_time_sec": 550,
+      "text": "got it, toggled on right now so I don't forget when I land.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:18]",
+      "end_time": "[09:25]",
+      "start_time_sec": 558,
+      "text": "I've also checked your international roaming bar and confirmed your account is completely unbarred for EU roaming."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:27]",
+      "end_time": "[09:30]",
+      "start_time_sec": 567,
+      "text": "awesome, that saves me paying hotel Wi-Fi charges.",
+      "sentiment_score": 22.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:32]",
+      "end_time": "[09:39]",
+      "start_time_sec": 572,
+      "text": "Do you also use Wi-Fi Calling when you are in areas with weak indoor mobile signal?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:40]",
+      "end_time": "[09:46]",
+      "start_time_sec": 580,
+      "text": "yes in my basement flat reception is patchy so Wi-Fi calling is super useful",
+      "sentiment_score": 18.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:47]",
+      "end_time": "[09:54]",
+      "start_time_sec": 587,
+      "text": "Let's make sure Wi-Fi Calling is enabled on the new handset under Settings, Phone, Wi-Fi Calling."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:55]",
+      "end_time": "[10:01]",
+      "start_time_sec": 595,
+      "text": "checking Phone settings... Wi-Fi Calling was off, just switched it to On now.",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:02]",
+      "end_time": "[10:12]",
+      "start_time_sec": 602,
+      "text": "Under Voice and Data, make sure 5G Auto is selected rather than 5G On so you preserve battery life throughout your travel days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:13]",
+      "end_time": "[10:17]",
+      "start_time_sec": 613,
+      "text": "switched to 5G Auto, great tip for battery saving.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:18]",
+      "end_time": "[10:26]",
+      "start_time_sec": 618,
+      "text": "Perfect. When you are connected to home broadband, your calls will route over Wi-Fi with crystal clear audio."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:27]",
+      "end_time": "[10:32]",
+      "start_time_sec": 627,
+      "text": "brilliant, everything is set up better than on my old phone now.",
+      "sentiment_score": 28.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:33]",
+      "end_time": "[10:43]",
+      "start_time_sec": 633,
+      "text": "I have also set up a monthly spend cap of zero pounds on your roaming so you can never incur unexpected international charges."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:44]",
+      "end_time": "[10:48]",
+      "start_time_sec": 644,
+      "text": "that gives me great peace of mind, thank you Edward.",
+      "sentiment_score": 25.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:49]",
+      "end_time": "[10:55]",
+      "start_time_sec": 649,
+      "text": "Everything on your profile is verified and active on the S-Net mobile network."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:56]",
+      "end_time": "[11:04]",
+      "start_time_sec": 656,
+      "text": "Edward you've been top quality today mate, thanks for getting both the eSIM and the roaming sorted so fast.",
+      "sentiment_score": 34.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:05]",
+      "end_time": "[11:13]",
+      "start_time_sec": 665,
+      "text": "It was my absolute pleasure, Noah. Is there anything else I can assist with regarding your mobile plan?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:14]",
+      "end_time": "[11:17]",
+      "start_time_sec": 674,
+      "text": "no that's everything sorted out cheers!",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:18]",
+      "end_time": "[11:25]",
+      "start_time_sec": 678,
+      "text": "Thank you for choosing S-Net today, Noah. Safe travels to Frankfurt and enjoy the expo."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:26]",
+      "end_time": "[11:30]",
+      "start_time_sec": 686,
+      "text": "thanks Edward bye!",
+      "sentiment_score": 6.4
+    }
+  ]
+}

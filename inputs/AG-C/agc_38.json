@@ -1,0 +1,471 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Riley",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer billing, my name is Mark. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:35]",
+      "start_time_sec": 10,
+      "text": "Hi Mark. I just received our monthly broadband and TV bill, and there is an unexpected eighty-four pound charge for six separate pay-per-view 4K movie rentals! My young grandchildren were staying with us for the weekend and were pressing buttons on the remote control, and your TV box let them buy movies without asking for any password!",
+      "sentiment_score": -46.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:38]",
+      "end_time": "[00:46]",
+      "start_time_sec": 38,
+      "text": "Can you confirm your registered billing address and your four-digit security PIN so I can inspect the account ledger?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:49]",
+      "end_time": "[00:56]",
+      "start_time_sec": 49,
+      "text": "Yes, the address is 27 Kingswood Avenue, Newcastle, NE2 3LL, and the security PIN is 9184.",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:59]",
+      "end_time": "[01:07]",
+      "start_time_sec": 59,
+      "text": "Thank you for verifying those details, Riley. I have your TV on-demand purchase history open on our billing screen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:10]",
+      "end_time": "[01:32]",
+      "start_time_sec": 70,
+      "text": "My grandchildren were visiting over the weekend on Saturday the eleventh of October, and the total disputed charge is eighty-four pounds across six rental titles. The children were sitting on the living room rug while my wife and I were preparing dinner in the kitchen, completely unaware they were buying movies.",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:35]",
+      "end_time": "[01:41]",
+      "start_time_sec": 95,
+      "text": "Let me examine the individual transaction timestamps and title details on your account ledger."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:44]",
+      "end_time": "[01:55]",
+      "start_time_sec": 104,
+      "text": "None of us even watched those movies! The children just clicked on colorful animated superhero posters on the screen before moving on to another game!",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:58]",
+      "end_time": "[02:05]",
+      "start_time_sec": 118,
+      "text": "Was the default purchase PIN security feature enabled on your set-top box prior to the weekend?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:08]",
+      "end_time": "[02:17]",
+      "start_time_sec": 128,
+      "text": "I thought the purchase PIN was set to 1234 by default when the engineer installed the box three months ago.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:20]",
+      "end_time": "[02:31]",
+      "start_time_sec": 140,
+      "text": "Our television software ships with Purchase Protection set to 'Prompt for PIN on 18-rated content only' unless manually toggled to 'Always Prompt' within parental settings."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:34]",
+      "end_time": "[02:45]",
+      "start_time_sec": 154,
+      "text": "So children's movies, animated family releases, and superhero films can be purchased with a single click of the remote without entering any PIN at all?!",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:48]",
+      "end_time": "[02:55]",
+      "start_time_sec": 168,
+      "text": "Under default settings, universal and parental guidance rated on-demand content does not trigger an age-verification challenge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:58]",
+      "end_time": "[03:07]",
+      "start_time_sec": 178,
+      "text": "That sounds like a deliberate commercial trap designed to let young children rack up massive bills on their grandparents' accounts!",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:10]",
+      "end_time": "[03:19]",
+      "start_time_sec": 190,
+      "text": "Please bear with me on hold for about thirty-five seconds while I query the video-on-demand streaming logs to check playback duration."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:54]",
+      "end_time": "[04:07]",
+      "start_time_sec": 234,
+      "text": "Thank you for your patience while holding, Riley. The streaming telemetry indicates that each of the six rental titles was initiated and streamed for between three and twelve minutes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:10]",
+      "end_time": "[04:18]",
+      "start_time_sec": 250,
+      "text": "Twelve minutes?! The kids probably realized they clicked the wrong thing and pressed the back button to find cartoons!",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:21]",
+      "end_time": "[04:33]",
+      "start_time_sec": 261,
+      "text": "Under our digital entertainment store terms of service, once video stream playback is initiated, digital content is non-refundable because distribution royalties are automatically remitted to the film studio."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:36]",
+      "end_time": "[04:48]",
+      "start_time_sec": 276,
+      "text": "You cannot honestly expect an elderly retired couple on a state pension to pay eighty-four pounds for movies that were clicked completely by mistake by little children!",
+      "sentiment_score": -34.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:51]",
+      "end_time": "[05:01]",
+      "start_time_sec": 291,
+      "text": "Account holders are legally responsible for all purchases originating from equipment situated within their private residence, regardless of who pressed the remote control."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:04]",
+      "end_time": "[05:18]",
+      "start_time_sec": 304,
+      "text": "Eighty-four pounds is almost half of our weekly state pension income! Can you not apply a one-off goodwill refund or credit for a loyal customer who has never bought a pay-per-view movie before?",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:21]",
+      "end_time": "[05:29]",
+      "start_time_sec": 321,
+      "text": "Our billing system prevents customer service representatives from overriding digital on-demand merchant charges once content licenses are delivered."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:32]",
+      "end_time": "[05:42]",
+      "start_time_sec": 332,
+      "text": "I want to speak to a billing manager who has the common sense to see this was an honest mistake by young children!",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:45]",
+      "end_time": "[05:52]",
+      "start_time_sec": 345,
+      "text": "I can apply a maximum discretionary courtesy credit of twenty pounds towards your overall broadband bill."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:55]",
+      "end_time": "[06:02]",
+      "start_time_sec": 355,
+      "text": "Twenty pounds off eighty-four pounds still leaves me sixty-four pounds out of pocket for nothing!",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:05]",
+      "end_time": "[06:11]",
+      "start_time_sec": 365,
+      "text": "That is the absolute maximum credit authorization permitted under our digital media exceptions policy."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:14]",
+      "end_time": "[06:21]",
+      "start_time_sec": 374,
+      "text": "How do I make sure this box can never buy another movie without my explicit secret PIN?",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:24]",
+      "end_time": "[06:32]",
+      "start_time_sec": 384,
+      "text": "I can remotely reconfigure your TV box parental controls to enforce 'Strict Purchase Lock' across all content tiers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:35]",
+      "end_time": "[06:42]",
+      "start_time_sec": 395,
+      "text": "Please do that right now so no one can purchase anything without my secret PIN.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:45]",
+      "end_time": "[06:51]",
+      "start_time_sec": 405,
+      "text": "I am transmitting the Strict Purchase Lock command to your set-top box now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:54]",
+      "end_time": "[07:01]",
+      "start_time_sec": 414,
+      "text": "Will that require entering a PIN for free catch-up programs like BBC iPlayer as well?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:04]",
+      "end_time": "[07:10]",
+      "start_time_sec": 424,
+      "text": "No, free-to-air broadcast catch-up and on-demand player apps remain accessible without PIN prompts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:13]",
+      "end_time": "[07:18]",
+      "start_time_sec": 433,
+      "text": "That will keep daily viewing simple while blocking accidental store purchases.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:21]",
+      "end_time": "[07:31]",
+      "start_time_sec": 441,
+      "text": "Whenever any paid movie rental or pay-per-view sporting event is selected, the box will demand your four-digit security PIN 9184 before charging."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:34]",
+      "end_time": "[07:40]",
+      "start_time_sec": 454,
+      "text": "Can my grandchildren guess that PIN if they watch me type it in?",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:43]",
+      "end_time": "[07:48]",
+      "start_time_sec": 463,
+      "text": "The PIN input appears as masked asterisks on the television display."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:51]",
+      "end_time": "[07:54]",
+      "start_time_sec": 471,
+      "text": "That will keep the code private.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:57]",
+      "end_time": "[08:07]",
+      "start_time_sec": 477,
+      "text": "I have also set a permanent monthly on-demand spending limit cap of zero pounds on your master account profile across all registered household devices."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:10]",
+      "end_time": "[08:18]",
+      "start_time_sec": 490,
+      "text": "Having a strict zero pound spending limit provides total protection so no accidental charges can ever happen again.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:21]",
+      "end_time": "[08:31]",
+      "start_time_sec": 501,
+      "text": "Even if someone correctly enters the four-digit PIN, any on-demand purchases exceeding zero pounds will be automatically declined by our payment gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:34]",
+      "end_time": "[08:41]",
+      "start_time_sec": 514,
+      "text": "That is an excellent safeguard that gives my wife and me complete peace of mind.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:44]",
+      "end_time": "[08:52]",
+      "start_time_sec": 524,
+      "text": "And you can modify or remove that spending cap anytime by logging into your My S-Net customer web portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:55]",
+      "end_time": "[09:02]",
+      "start_time_sec": 535,
+      "text": "I will leave it permanently locked at zero pounds so there is never any risk.",
+      "sentiment_score": 14.6
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:05]",
+      "end_time": "[09:18]",
+      "start_time_sec": 545,
+      "text": "They are seven and nine years old! They were just pressing buttons on the remote control! How on earth can you charge eighty-four pounds for movies nobody even watched?!",
+      "sentiment_score": -52.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:21]",
+      "end_time": "[09:29]",
+      "start_time_sec": 561,
+      "text": "On-demand digital store purchases are licensed immediately upon stream initiation under digital content copyright regulations and studio contracts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:32]",
+      "end_time": "[09:37]",
+      "start_time_sec": 572,
+      "text": "It is outrageous that S-Net profits off accidental clicks by little children!",
+      "sentiment_score": -44.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:39]",
+      "end_time": "[09:45]",
+      "start_time_sec": 579,
+      "text": "The digital store platform operates under automated licensing agreements with major film studios."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:47]",
+      "end_time": "[09:50]",
+      "start_time_sec": 587,
+      "text": "I still feel completely cheated by this charge.",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:52]",
+      "end_time": "[10:00]",
+      "start_time_sec": 592,
+      "text": "Can you remind me how many movie rental titles were purchased and what the total disputed charge was?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:02]",
+      "end_time": "[10:10]",
+      "start_time_sec": 602,
+      "text": "As I told you at the start of our call, it was six rental titles totaling eighty-four pounds!",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:12]",
+      "end_time": "[10:20]",
+      "start_time_sec": 612,
+      "text": "Thank you, Riley. I am noting the six titles and eighty-four pound figure on the billing audit trail."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:22]",
+      "end_time": "[10:26]",
+      "start_time_sec": 622,
+      "text": "At least the twenty-pound credit softens the blow slightly.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:28]",
+      "end_time": "[10:34]",
+      "start_time_sec": 628,
+      "text": "The twenty-pound courtesy credit will appear on your upcoming direct debit statement in November."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:36]",
+      "end_time": "[10:41]",
+      "start_time_sec": 636,
+      "text": "How is your broadband internet performing otherwise across your household devices?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:43]",
+      "end_time": "[10:51]",
+      "start_time_sec": 643,
+      "text": "Our broadband internet has been fast and reliable, we never have connection drops, so technical performance is fine.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:53]",
+      "end_time": "[10:58]",
+      "start_time_sec": 653,
+      "text": "We are pleased that your optical broadband connection maintains strong reliability."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:00]",
+      "end_time": "[11:07]",
+      "start_time_sec": 660,
+      "text": "It was purely the shock of this eighty-four pound film charge that upset my wife and me.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:09]",
+      "end_time": "[11:15]",
+      "start_time_sec": 669,
+      "text": "The security change and courtesy credit reference number logged on your file is SEC-77192-P."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:17]",
+      "end_time": "[11:20]",
+      "start_time_sec": 677,
+      "text": "Noted down... SEC-77192-P.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:22]",
+      "end_time": "[11:33]",
+      "start_time_sec": 682,
+      "text": "Wait, Mark, if the children download the S-Net TV mobile app on their tablets, does the zero pound spending cap protect tablet apps as well...",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:35]",
+      "end_time": "[11:44]",
+      "start_time_sec": 695,
+      "text": "Parental PIN lock is now active across your account. Have a good day. Thank you for choosing S-Net, Riley. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:46]",
+      "end_time": "[11:50]",
+      "start_time_sec": 706,
+      "text": "Wait, Mark, what about the tablet apps... hello?",
+      "sentiment_score": -12.4
+    }
+  ]
+}

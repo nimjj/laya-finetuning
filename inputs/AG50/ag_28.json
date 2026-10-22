@@ -1,0 +1,654 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Farzana",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Afternoon, thank you for calling S-Net broadband support, you're speaking with Leah. How can I help you today?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:09]",
+      "end_time": "[00:22]",
+      "start_time_sec": 9,
+      "text": "hi Leah, yeah it's Farzana calling. I'm ringing up to claim the one hundred pound Wi-Fi and broadband speed guarantee credit because my speeds have been dreadful for a full thirty days now.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:24]",
+      "end_time": "[00:32]",
+      "start_time_sec": 24,
+      "text": "Right, okay Farzana, let's get your account pulled up first so we can check the speed history on your line.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:34]",
+      "end_time": "[00:47]",
+      "start_time_sec": 34,
+      "text": "sure, uh I've kept a log of every single test I ran since the eighteenth of September because your sales team promised me a guaranteed minimum of 85 megabits on Fibre 150.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:49]",
+      "end_time": "[00:58]",
+      "start_time_sec": 49,
+      "text": "Before we look at the test log, Farzana, please confirm your four-digit security PIN and the first line of your home address.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:07]",
+      "start_time_sec": 60,
+      "text": "yeah my security PIN is 4482, and the first line of my address is 923 Vicarage Road, Watford.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:09]",
+      "end_time": "[01:18]",
+      "start_time_sec": 69,
+      "text": "Thanks, that's verified on the screen now, Farzana. Tell me what you've been experiencing on your Fibre 150 connection over the past month.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:20]",
+      "end_time": "[01:34]",
+      "start_time_sec": 80,
+      "text": "well when I signed up in August, my contract clearly stated a Minimum Guaranteed Download Speed of 85 megabits per second, and if it stays below that for thirty days I get a hundred pounds credit.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:36]",
+      "end_time": "[01:42]",
+      "start_time_sec": 96,
+      "text": "Uh-huh, and when did you first log the fault with us on the portal?",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[01:55]",
+      "start_time_sec": 103,
+      "text": "I logged the speed fault in the S-Net app on the eighteenth of September, thirty days ago today, because my speed tests were only getting 18 megabits per second.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:57]",
+      "end_time": "[02:03]",
+      "start_time_sec": 117,
+      "text": "Right, let me just make sure I've got the summary of what you're claiming here, Farzana.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:04]",
+      "end_time": "[02:06]",
+      "start_time_sec": 124,
+      "text": "go ahead.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:08]",
+      "end_time": "[02:25]",
+      "start_time_sec": 128,
+      "text": "So to recap, you're on our Fibre 150 tariff which carries an 85 megabit minimum download threshold, you logged a speed fault thirty days ago on the eighteenth of September, and you're calling to claim the one hundred pound Speed Guarantee bill credit.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:28]",
+      "end_time": "[02:38]",
+      "start_time_sec": 148,
+      "text": "yes that's exactly right. Thirty days have passed since I reported that I was only getting 18 megabits, and the speed hasn't improved at all.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:41]",
+      "end_time": "[02:56]",
+      "start_time_sec": 161,
+      "text": "Okay, I will run the full thirty-day line sync audit and check the router telemetry myself right now, Farzana, rather than transferring you. First I need to ask a few technical questions about how you ran those tests.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:59]",
+      "end_time": "[03:04]",
+      "start_time_sec": 179,
+      "text": "okay ask away, I've got my laptop right in front of me.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:06]",
+      "end_time": "[03:16]",
+      "start_time_sec": 186,
+      "text": "Were you running those speed tests over a wireless Wi-Fi connection or with a physical Ethernet cable plugged straight into the back of the S-Net Hub?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:19]",
+      "end_time": "[03:25]",
+      "start_time_sec": 199,
+      "text": "over Wi-Fi on my laptop, because nobody carries an Ethernet cable around the house in 2026.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:27]",
+      "end_time": "[03:37]",
+      "start_time_sec": 207,
+      "text": "And which room of the house was the laptop in when you ran the tests, and where is your main S-Net Hub router located?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:40]",
+      "end_time": "[03:50]",
+      "start_time_sec": 220,
+      "text": "the main S-Net Hub is plugged into the master socket in the front hallway, and I work at my desk out in the back conservatory.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:53]",
+      "end_time": "[04:01]",
+      "start_time_sec": 233,
+      "text": "Do you have any S-Net Wi-Fi mesh discs or third-party plug-in boosters between the front hallway and the back conservatory?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:04]",
+      "end_time": "[04:12]",
+      "start_time_sec": 244,
+      "text": "no I don't have any mesh discs or boosters. When I bought Fibre 150, I wasn't sent any discs.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:15]",
+      "end_time": "[04:28]",
+      "start_time_sec": 255,
+      "text": "And last question on the setup, Farzana: did you run the tests using a browser site like Ookla on the laptop, or did you run the hub-to-exchange test inside the S-Net app?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:31]",
+      "end_time": "[04:41]",
+      "start_time_sec": 271,
+      "text": "I did both! I clicked the speed checker inside the S-Net app on my phone and I also ran Ookla on my laptop in the conservatory.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:44]",
+      "end_time": "[04:50]",
+      "start_time_sec": 284,
+      "text": "Wait there while I pull the thirty-day Openreach DLM sync table from the exchange database.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:33]",
+      "end_time": "[05:38]",
+      "start_time_sec": 333,
+      "text": "Okay, the exchange sync table has loaded up on my terminal now, Farzana.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:40]",
+      "end_time": "[05:48]",
+      "start_time_sec": 340,
+      "text": "you vanished for ages there without telling me I was going on hold, Leah, I thought the line had cut out.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:51]",
+      "end_time": "[06:03]",
+      "start_time_sec": 351,
+      "text": "The Openreach database takes forty seconds to query a thirty-day rolling log. Now I'm looking at the daily router sync readings from the eighteenth of September through to today.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:06]",
+      "end_time": "[06:14]",
+      "start_time_sec": 366,
+      "text": "and what does it show? Because trying to do video calls from the conservatory has been a complete nightmare all month.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:17]",
+      "end_time": "[06:30]",
+      "start_time_sec": 377,
+      "text": "Looking at the hub-to-cabinet sync log, Farzana, your S-Net Hub in the front hallway has been syncing at between 148 and 152 megabits per second every single day for the last thirty days.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:33]",
+      "end_time": "[06:42]",
+      "start_time_sec": 393,
+      "text": "what? 148 megabits? How can the hub be syncing at 148 megabits when my laptop and phone in the conservatory are crawling along?",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:45]",
+      "end_time": "[06:57]",
+      "start_time_sec": 405,
+      "text": "Because sync speed is the physical fibre speed arriving at the S-Net Hub in your front hallway over the Openreach line, whereas your laptop is connecting over Wi-Fi through walls.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:00]",
+      "end_time": "[07:09]",
+      "start_time_sec": 420,
+      "text": "wait so you're saying the S-Net app test I ran on the eighteenth of September logged the router speed, not my device speed?",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:12]",
+      "end_time": "[07:22]",
+      "start_time_sec": 432,
+      "text": "Let me open the diagnostic ticket from the eighteenth of September and inspect the two parts of the test log—the router-to-exchange reading and the device-to-router reading.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:25]",
+      "end_time": "[07:34]",
+      "start_time_sec": 445,
+      "text": "yes look at the device-to-router reading on that ticket, because the app itself told me my speed in the conservatory was awful!",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:37]",
+      "end_time": "[07:48]",
+      "start_time_sec": 457,
+      "text": "I am also going to run a live GEA line diagnostic test and check the 2.4 gigahertz and 5 gigahertz wireless channel congestion on your hub right now.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:51]",
+      "end_time": "[07:53]",
+      "start_time_sec": 471,
+      "text": "okay run that test then.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:55]",
+      "end_time": "[07:58]",
+      "start_time_sec": 475,
+      "text": "I'm triggering the live hub telemetry poll now.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:57]",
+      "end_time": "[09:03]",
+      "start_time_sec": 537,
+      "text": "Right, the live hub poll has finished and I have the radio channel table open here.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:05]",
+      "end_time": "[09:12]",
+      "start_time_sec": 545,
+      "text": "again, nearly a minute of dead silence! A little warning before you mute your headset would be nice.",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:15]",
+      "end_time": "[09:28]",
+      "start_time_sec": 555,
+      "text": "The radio poll locks my screen while it scans your router, Farzana. Looking at your S-Net Hub 4, both the 2.4 gigahertz and 5 gigahertz bands are currently merged under a single SSID.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:31]",
+      "end_time": "[09:38]",
+      "start_time_sec": 571,
+      "text": "yeah whatever default settings the hub came with out of the box is what it's running on.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:41]",
+      "end_time": "[09:53]",
+      "start_time_sec": 581,
+      "text": "Because both bands share the same wireless name, your laptop in the conservatory has dropped onto Channel 1 on the 2.4 gigahertz band where six neighbouring routers are overlapping.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:56]",
+      "end_time": "[10:05]",
+      "start_time_sec": 596,
+      "text": "okay well how is overlapping channels with my neighbours my fault when I'm paying S-Net forty-two pounds a month for Fibre 150?",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:08]",
+      "end_time": "[10:20]",
+      "start_time_sec": 608,
+      "text": "I can also see the signal attenuation between the front hallway master socket and your laptop in the conservatory is sitting at -79 dBm through the internal brick wall.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:23]",
+      "end_time": "[10:35]",
+      "start_time_sec": 623,
+      "text": "I don't know what -79 dBm means, Leah, all I know is the download speed I've been getting for thirty days is nowhere near the 85 megabits minimum on my contract.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:38]",
+      "end_time": "[10:42]",
+      "start_time_sec": 638,
+      "text": "And what download speed were you actually getting on the test?",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:44]",
+      "end_time": "[10:55]",
+      "start_time_sec": 644,
+      "text": "I literally told you twice at the beginning of the call that I was getting 18 megabits per second! Were you not listening to me at all?",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:58]",
+      "end_time": "[11:08]",
+      "start_time_sec": 658,
+      "text": "I was looking at the router sync column which says 149.4 megabits, Farzana, the device column is on a separate tab in the diagnostic log.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:11]",
+      "end_time": "[11:21]",
+      "start_time_sec": 671,
+      "text": "well open the separate tab then! You'll see 18 megabits on the eighteenth of September, 17.5 megabits on the twenty-fifth, and 18 megabits again this morning.",
+      "sentiment_score": -34.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:24]",
+      "end_time": "[11:37]",
+      "start_time_sec": 684,
+      "text": "Yes, I see the device-to-router readings around 18 megabits on that second tab now. And I have just pushed a channel split and wireless power reset to your S-Net Hub from here.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:40]",
+      "end_time": "[11:50]",
+      "start_time_sec": 700,
+      "text": "okay well pushing a wireless reset today doesn't change the fact that thirty days have elapsed since I logged the fault on the eighteenth of September.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:53]",
+      "end_time": "[12:04]",
+      "start_time_sec": 713,
+      "text": "No, Farzana, the thirty-day Speed Guarantee bill credit of one hundred pounds does not apply to your account because your line sync speed never dropped below 85 megabits.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:07]",
+      "end_time": "[12:21]",
+      "start_time_sec": 727,
+      "text": "excuse me? When I took out Fibre 150 online, the big banner on your website said '85 Mbps Speed Guarantee or £100 money back'! It didn't say 'only if you sit in the hallway'!",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:24]",
+      "end_time": "[12:36]",
+      "start_time_sec": 744,
+      "text": "Section 4.2 of the S-Net Fibre Speed Guarantee terms states that the 85 megabit minimum threshold is measured at the router WAN port over the physical fibre line to the exchange.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:39]",
+      "end_time": "[12:50]",
+      "start_time_sec": 759,
+      "text": "how does speed at the router WAN port help me when I'm using Wi-Fi on my laptop in the conservatory and getting 18 megabits for an entire month?",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:53]",
+      "end_time": "[13:02]",
+      "start_time_sec": 773,
+      "text": "Because standard broadband packages do not guarantee wireless throughput through brick walls and glass conservatories without the Whole Home Wi-Fi Plus add-on.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:05]",
+      "end_time": "[13:17]",
+      "start_time_sec": 785,
+      "text": "nobody told me I needed a Whole Home Wi-Fi Plus add-on! Your app let me log a speed guarantee fault on the eighteenth of September when it saw 18 megabits!",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:20]",
+      "end_time": "[13:30]",
+      "start_time_sec": 800,
+      "text": "The app lets anyone click the log fault button, Farzana, that doesn't mean the billing system qualifies a wireless drop-off for a one hundred pound payout.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:33]",
+      "end_time": "[13:44]",
+      "start_time_sec": 813,
+      "text": "Wait, when I clicked log fault in the S-Net app on the eighteenth of September, it literally started a thirty-day Speed Guarantee countdown clock on my phone screen!",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:47]",
+      "end_time": "[13:58]",
+      "start_time_sec": 827,
+      "text": "That countdown clock in the app just tracks thirty days from when a customer opens a speed ticket so an automated line check can run at day thirty.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:01]",
+      "end_time": "[14:11]",
+      "start_time_sec": 841,
+      "text": "And at day thirty the automated check should see that my laptop in the conservatory is still getting 18 megabits instead of 85 megabits!",
+      "sentiment_score": -41.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:14]",
+      "end_time": "[14:24]",
+      "start_time_sec": 854,
+      "text": "The automated check at day thirty only reads the Openreach WAN sync speed to the router in the hallway, which passed at 149.4 megabits.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:27]",
+      "end_time": "[14:39]",
+      "start_time_sec": 867,
+      "text": "if the app accepted my fault log at 18 megabits and counted down thirty days on my screen, then S-Net owes me the one hundred pound credit you advertised!",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:42]",
+      "end_time": "[14:52]",
+      "start_time_sec": 882,
+      "text": "That is a completely stupid argument, Farzana—the speed guarantee only covers sync speed to the router, not wireless speed to your old laptop in the conservatory!",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:55]",
+      "end_time": "[15:04]",
+      "start_time_sec": 895,
+      "text": "did you seriously just call my argument stupid?! And insult my laptop?! Who on earth do you think you're talking to, Leah?",
+      "sentiment_score": -48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:07]",
+      "end_time": "[15:19]",
+      "start_time_sec": 907,
+      "text": "I am stating the technical fact of how broadband works, Farzana. No telecom provider in the country pays out a line speed claim because a conservatory has weak Wi-Fi signal.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:22]",
+      "end_time": "[15:32]",
+      "start_time_sec": 922,
+      "text": "you called what I said a completely stupid argument! That is outrageous customer service, and I know for a fact this call is being recorded.",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:35]",
+      "end_time": "[15:46]",
+      "start_time_sec": 935,
+      "text": "Look, I have already reconfigured your S-Net Hub wireless channels so the 2.4 gigahertz and 5 gigahertz bands are separated and set to Channel 36 and Channel 6.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:49]",
+      "end_time": "[16:01]",
+      "start_time_sec": 949,
+      "text": "I don't care what channel you set it to when you talk to paying customers like dirt! And did changing the channel magically give me 85 megabits in the conservatory?",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:04]",
+      "end_time": "[16:14]",
+      "start_time_sec": 964,
+      "text": "With a -79 dBm attenuation reading through the external house wall into the conservatory, separating the bands will stabilize the connection around 30 to 35 megabits.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:17]",
+      "end_time": "[16:27]",
+      "start_time_sec": 977,
+      "text": "30 to 35 megabits is still less than half of the 85 megabits I was promised when I signed an eighteen-month contract with S-Net!",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:30]",
+      "end_time": "[16:43]",
+      "start_time_sec": 990,
+      "text": "If you want guaranteed wireless speeds in every room including a conservatory, you have to add Whole Home Wi-Fi Plus for seven pounds a month, which supplies up to three mesh discs.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:46]",
+      "end_time": "[16:58]",
+      "start_time_sec": 1006,
+      "text": "so instead of giving me the one hundred pound credit I'm owed after thirty days of 18 megabit speeds, you're trying to charge me another seven pounds a month?!",
+      "sentiment_score": -47.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:01]",
+      "end_time": "[17:11]",
+      "start_time_sec": 1021,
+      "text": "I am telling you what product covers room-to-room wireless speed, Farzana. The one hundred pound Speed Guarantee claim on ticket reference SPD-90812 has been formally rejected.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:14]",
+      "end_time": "[17:23]",
+      "start_time_sec": 1034,
+      "text": "well a manager can certainly review the recording of you calling me stupid on this call! Give me the complaint reference right now.",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:26]",
+      "end_time": "[17:34]",
+      "start_time_sec": 1046,
+      "text": "I have logged your dissatisfaction against ticket SPD-90812 and complaint reference CMP-331094 on your account at 923 Vicarage Road, Farzana.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:37]",
+      "end_time": "[17:45]",
+      "start_time_sec": 1057,
+      "text": "CMP-331094. I've written that down and I am going straight to the Ombudsman with my screenshots of the thirty-day app countdown.",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:48]",
+      "end_time": "[17:58]",
+      "start_time_sec": 1068,
+      "text": "The ticket reference SPD-90812 and complaint CMP-331094 are both recorded on your account. Is there anything else regarding your Fibre 150 line today, Farzana?",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:01]",
+      "end_time": "[18:07]",
+      "start_time_sec": 1081,
+      "text": "no! I wouldn't ask you for another thing after the way you spoke to me.",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:09]",
+      "end_time": "[18:15]",
+      "start_time_sec": 1089,
+      "text": "Right then, the wireless settings on your hub are updated. Thank you for choosing S-Net, goodbye.",
+      "sentiment_score": 0.0
+    }
+  ]
+}

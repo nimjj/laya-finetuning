@@ -1,0 +1,433 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "George",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer billing, my name is Craig. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:16]",
+      "end_time": "[00:40]",
+      "start_time_sec": 16,
+      "text": "Hi Craig. I am furious about my final bill. I moved house last month to a remote cottage where S-Net has no broadband network, and your agent told me I wouldn't be penalized. But today I opened my final bill and you have slapped me with an early termination fee of two hundred and twenty pounds!",
+      "sentiment_score": -45.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:49]",
+      "end_time": "[00:59]",
+      "start_time_sec": 49,
+      "text": "I can inspect the final account statement, George, but first let's complete security verification. What is your full name and previous account address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:08]",
+      "end_time": "[01:12]",
+      "start_time_sec": 68,
+      "text": "George Henderson, formerly 14 Highfield Avenue, Newcastle, NE2 3TJ.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:21]",
+      "end_time": "[01:25]",
+      "start_time_sec": 81,
+      "text": "And what is the security PIN on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:34]",
+      "end_time": "[01:37]",
+      "start_time_sec": 94,
+      "text": "It's 6920.",
+      "sentiment_score": -5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:46]",
+      "end_time": "[01:52]",
+      "start_time_sec": 106,
+      "text": "What was the date of your home move and your new postal address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:01]",
+      "end_time": "[02:06]",
+      "start_time_sec": 121,
+      "text": "We moved on September fifteenth to Croft Cottage, Kielder, Northumberland, NE48 1AX.",
+      "sentiment_score": -8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:15]",
+      "end_time": "[02:21]",
+      "start_time_sec": 135,
+      "text": "Did you submit an official Home Move request through our website before moving?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:30]",
+      "end_time": "[02:42]",
+      "start_time_sec": 150,
+      "text": "Yes, reference HM-77192, and the move agent told me that because S-Net cannot provide service in Kielder, the contract would be terminated without any early exit fees.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:51]",
+      "end_time": "[03:03]",
+      "start_time_sec": 171,
+      "text": "Our automated billing engine generates early termination fees on any account that ceases before the minimum term, so that's handled by automated debt batching, not our department."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:12]",
+      "end_time": "[03:25]",
+      "start_time_sec": 192,
+      "text": "I don't care if it's automated! You took two hundred and twenty pounds from my bank account when your own company policy states moves to non-serviceable areas are fee-free!",
+      "sentiment_score": -46.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:34]",
+      "end_time": "[03:41]",
+      "start_time_sec": 214,
+      "text": "Well, if you choose to move to the middle of nowhere, you have to expect billing complications."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:50]",
+      "end_time": "[04:00]",
+      "start_time_sec": 230,
+      "text": "Excuse me? Moving for my job is none of your business, Craig! That is an outrageous comment to make to a customer!",
+      "sentiment_score": -49.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:09]",
+      "end_time": "[04:19]",
+      "start_time_sec": 249,
+      "text": "As I said, the automated billing engine applies early termination charges if the non-serviceable exception flag is left unchecked by the move agent."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:28]",
+      "end_time": "[04:35]",
+      "start_time_sec": 268,
+      "text": "Then check the flag and refund my money! I want my two hundred and twenty pounds back!",
+      "sentiment_score": -36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:44]",
+      "end_time": "[04:51]",
+      "start_time_sec": 284,
+      "text": "Let me check where you moved to again. What was that new postcode in Northumberland?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:00]",
+      "end_time": "[05:05]",
+      "start_time_sec": 300,
+      "text": "It is NE48 1AX, as I told you at the start.",
+      "sentiment_score": -22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:14]",
+      "end_time": "[05:22]",
+      "start_time_sec": 314,
+      "text": "Bear with me while I verify the broadband network availability at NE48 1AX on our wholesale line database."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:07]",
+      "end_time": "[06:14]",
+      "start_time_sec": 367,
+      "text": "Thank you for waiting, George. I have checked the Openreach and S-Net fibre footprint for NE48 1AX."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:23]",
+      "end_time": "[06:26]",
+      "start_time_sec": 383,
+      "text": "And what does the coverage checker show?",
+      "sentiment_score": -10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:35]",
+      "end_time": "[06:43]",
+      "start_time_sec": 395,
+      "text": "It confirms there is zero S-Net or Openreach FTTP or FTTC infrastructure at that address, only satellite or 4G."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:52]",
+      "end_time": "[06:58]",
+      "start_time_sec": 412,
+      "text": "Exactly! Which qualifies me for fee-free contract cancellation under your terms of service!",
+      "sentiment_score": -16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:07]",
+      "end_time": "[07:15]",
+      "start_time_sec": 427,
+      "text": "Yes, under section 8.4 of our terms, moving to an unserviceable UK postal address waives all remaining contract liability."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:24]",
+      "end_time": "[07:31]",
+      "start_time_sec": 444,
+      "text": "And did you return the S-Net Hub router using the prepaid returns satchel from your previous property?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:40]",
+      "end_time": "[07:48]",
+      "start_time_sec": 460,
+      "text": "Yes, I dropped the prepaid box at the Jesmond post office on September tenth before we left Newcastle.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:57]",
+      "end_time": "[08:02]",
+      "start_time_sec": 477,
+      "text": "Let me check the warehouse intake barcode on the return satchel."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:22]",
+      "end_time": "[08:31]",
+      "start_time_sec": 502,
+      "text": "Yes, the Hub 4 router barcode was scanned at our logistics depot on September twelfth, so the equipment record is clear."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:40]",
+      "end_time": "[08:47]",
+      "start_time_sec": 520,
+      "text": "Good, I made sure not to pack the router into the removal van by accident.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:56]",
+      "end_time": "[09:01]",
+      "start_time_sec": 536,
+      "text": "That avoided any non-return equipment charges being added to the final account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:10]",
+      "end_time": "[09:14]",
+      "start_time_sec": 550,
+      "text": "Glad I remembered to post it before the move day.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:23]",
+      "end_time": "[09:30]",
+      "start_time_sec": 563,
+      "text": "And you don't have any mobile SIMs or secondary TV pucks linked to that former billing profile?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:39]",
+      "end_time": "[09:43]",
+      "start_time_sec": 579,
+      "text": "No, just the single standalone broadband line in Newcastle.",
+      "sentiment_score": 10.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:52]",
+      "end_time": "[09:59]",
+      "start_time_sec": 592,
+      "text": "That ensures the account ledger is fully closed and will not generate any trailing charges."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:08]",
+      "end_time": "[10:11]",
+      "start_time_sec": 608,
+      "text": "Excellent, clean break.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:20]",
+      "end_time": "[10:25]",
+      "start_time_sec": 620,
+      "text": "Can you waive that two hundred and twenty pound charge right now?",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:34]",
+      "end_time": "[10:44]",
+      "start_time_sec": 634,
+      "text": "I am applying an early termination fee waiver credit of two hundred and twenty pounds to your final statement ledger right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:53]",
+      "end_time": "[10:58]",
+      "start_time_sec": 653,
+      "text": "And how do I get that money refunded to my current account?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:07]",
+      "end_time": "[11:18]",
+      "start_time_sec": 667,
+      "text": "Because the direct debit collected the funds last Friday, I will trigger an electronic BACS refund directly back to your bank account ending in 9921."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:27]",
+      "end_time": "[11:32]",
+      "start_time_sec": 687,
+      "text": "How long will that BACS refund take to clear into my bank?",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:41]",
+      "end_time": "[11:48]",
+      "start_time_sec": 701,
+      "text": "The electronic bank credit takes two to three working days to show in your cleared balance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:57]",
+      "end_time": "[12:03]",
+      "start_time_sec": 717,
+      "text": "Can you send me a revised final statement showing the cancellation of that fee?",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:12]",
+      "end_time": "[12:20]",
+      "start_time_sec": 732,
+      "text": "Yes, I am generating an updated final invoice showing zero balance and two hundred and twenty pounds refund pending."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:29]",
+      "end_time": "[12:32]",
+      "start_time_sec": 749,
+      "text": "Emailing it to me now?",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:41]",
+      "end_time": "[12:48]",
+      "start_time_sec": 761,
+      "text": "Dispatched to your email on file, george dot henderson at fastmail dot co dot uk."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:57]",
+      "end_time": "[13:00]",
+      "start_time_sec": 777,
+      "text": "Let me refresh my email on my phone.",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:15]",
+      "end_time": "[13:20]",
+      "start_time_sec": 795,
+      "text": "Got it! 'S-Net Revised Final Statement - Balance: \u00a30.00. Refund Approved: \u00a3220.00'.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:29]",
+      "end_time": "[13:36]",
+      "start_time_sec": 809,
+      "text": "Just to confirm for our audit ledger, your former billing address was 14 Highfield Avenue, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:45]",
+      "end_time": "[13:48]",
+      "start_time_sec": 825,
+      "text": "Yes, 14 Highfield Avenue.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:57]",
+      "end_time": "[14:04]",
+      "start_time_sec": 837,
+      "text": "Can you confirm the direct debit instruction will remain open until the BACS refund processes on Friday?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:13]",
+      "end_time": "[14:18]",
+      "start_time_sec": 853,
+      "text": "Yes, I won't cancel the bank mandate until the refund clears.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:27]",
+      "end_time": "[14:32]",
+      "start_time_sec": 867,
+      "text": "Just to confirm your contact mobile number, it is 07700 900591, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:41]",
+      "end_time": "[14:44]",
+      "start_time_sec": 881,
+      "text": "Yes, that's my mobile number.",
+      "sentiment_score": 10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:53]",
+      "end_time": "[15:01]",
+      "start_time_sec": 893,
+      "text": "Is there anything else with your closed account or final billing that I can help with today, George?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:10]",
+      "end_time": "[15:18]",
+      "start_time_sec": 910,
+      "text": "No Craig, as long as that refund hits my account on Friday, that completely resolves it. Thank you.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:27]",
+      "end_time": "[15:34]",
+      "start_time_sec": 927,
+      "text": "Thank you for choosing S-Net in the past, George, and all the best with your new home."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:43]",
+      "end_time": "[15:46]",
+      "start_time_sec": 943,
+      "text": "Thank you, goodbye.",
+      "sentiment_score": 7.5
+    }
+  ]
+}

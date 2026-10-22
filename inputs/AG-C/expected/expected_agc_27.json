@@ -1,0 +1,197 @@
+{
+  "call_id": "agc_27",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 71.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "Agent breached dead air standards twice during the call with unannounced silent gaps of 35s and 38s, prompting the customer to chase whether the agent was still on the line on both occasions."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Agent completely skipped account security verification, failing to request installation address, security PIN, or security questions at any point during the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked the customer whether they were testing over Wi-Fi or Ethernet at turn 47, failing to recall that Jackson had explicitly stated using Cat7 Ethernet on Port 1 at turn 5."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-22",
+    "scenario": "High latency and packet loss affecting competitive gaming server connection",
+    "tier": "3-4",
+    "duration_sec": 1090,
+    "notes": "Gaming latency and packet loss call handled by Beth. Customer experienced peak evening ping spikes and packet loss to Frankfurt servers. Agent diagnosed BGP transit peering congestion and successfully re-routed traffic to Telehouse North, but breached Dead Air with two unmanaged 30s+ gaps, omitted security verification entirely, and asked a repeat question on connection medium.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Took ownership of the problem",
+      "Hold time and Dead Air",
+      "Verified customer"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent breached dead air standards twice during the call with unannounced silent gaps of 35s and 38s, prompting the customer to chase whether the agent was still on the line on both occasions."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent completely skipped account security verification, failing to request installation address, security PIN, or security questions at any point during the call."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent recognized high-distress customer outburst at turn 50 regarding disqualified esports tournament ranking loss with strong personal empathy in the final third of the call."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked the customer whether they were testing over Wi-Fi or Ethernet at turn 47, failing to recall that Jackson had explicitly stated using Cat7 Ethernet on Port 1 at turn 5."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent re-routed BGP transit gateway via Telehouse North, permanently locked the low-latency peering table, and credited \u00a320 goodwill."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "repeat",
+          "premise_turn": 5,
+          "agent_turn": 46
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 6
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 48
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 49,
+          "agent_turn": 50,
+          "with_refusal": false
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 55
+        }
+      ]
+    }
+  }
+}

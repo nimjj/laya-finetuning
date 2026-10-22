@@ -1,0 +1,433 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Jonas",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net digital app support, my name is Laura. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:19]",
+      "end_time": "[00:44]",
+      "start_time_sec": 19,
+      "text": "Hello Laura. I am trying to pay my monthly broadband bill of forty-five pounds through the My S-Net mobile app on my iPhone, but every time I tap 'Pay with Apple Pay', the app crashes straight back to the home screen! My bill is due today and I don't want to get hit with a late payment charge!",
+      "sentiment_score": -44.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:55]",
+      "end_time": "[01:05]",
+      "start_time_sec": 55,
+      "text": "I can help you resolve that payment application crash, Jonas. First let's complete account verification. What is your full name and billing address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:16]",
+      "end_time": "[01:20]",
+      "start_time_sec": 76,
+      "text": "Jonas Lindholm, 59 St Peter's Road, Reading, RG6 1PQ.",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:31]",
+      "end_time": "[01:36]",
+      "start_time_sec": 91,
+      "text": "And what is the four-digit security PIN on the account, Jonas?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:47]",
+      "end_time": "[01:50]",
+      "start_time_sec": 107,
+      "text": "It's 8201.",
+      "sentiment_score": -5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:01]",
+      "end_time": "[02:22]",
+      "start_time_sec": 121,
+      "text": "So what I understand is you are attempting to settle your forty-five pound bill via Apple Pay in the My S-Net mobile app on your iPhone, but the app crashes instantly upon initiating the transaction, and you need this payment processed today to avoid late fees, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:33]",
+      "end_time": "[02:37]",
+      "start_time_sec": 153,
+      "text": "Yes, exactly that. It's been crashing since yesterday evening.",
+      "sentiment_score": -10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:48]",
+      "end_time": "[02:52]",
+      "start_time_sec": 168,
+      "text": "What iOS software version is currently installed on your iPhone?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:03]",
+      "end_time": "[03:06]",
+      "start_time_sec": 183,
+      "text": "I updated to iOS 18.0.1 on Sunday night.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:17]",
+      "end_time": "[03:22]",
+      "start_time_sec": 197,
+      "text": "And what version of the My S-Net mobile app are you running?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:33]",
+      "end_time": "[03:36]",
+      "start_time_sec": 213,
+      "text": "Version 4.12.0 from the App Store.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:47]",
+      "end_time": "[04:00]",
+      "start_time_sec": 227,
+      "text": "The iOS 18 security framework introduced an updated PassKit token sandboxing protocol that causes a memory null pointer exception in app version 4.12.0 if cached wallet credentials are stale."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:11]",
+      "end_time": "[04:24]",
+      "start_time_sec": 251,
+      "text": "Why wasn't the app updated before iOS 18 launched? S-Net should test its software with Apple developer betas! It's so frustrating being locked out of paying my own bill!",
+      "sentiment_score": -42.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:35]",
+      "end_time": "[04:43]",
+      "start_time_sec": 275,
+      "text": "Our engineering team pushed app version 4.12.2 to the App Store yesterday afternoon to patch the PassKit integration."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:54]",
+      "end_time": "[05:00]",
+      "start_time_sec": 294,
+      "text": "I checked the App Store this morning and it didn't show an update button.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:11]",
+      "end_time": "[05:20]",
+      "start_time_sec": 311,
+      "text": "Obviously Apple CDN app caches take up to twenty-four hours to propagate across all regional server nodes unless manually refreshed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:31]",
+      "end_time": "[05:36]",
+      "start_time_sec": 331,
+      "text": "How do I force the update or clear the crash then?",
+      "sentiment_score": -8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:47]",
+      "end_time": "[06:04]",
+      "start_time_sec": 347,
+      "text": "I will take direct ownership of this and guide you through clearing the stale PassKit cache and completing your payment. Bear with me for sixty seconds while I waive any automated late fee flags on your billing account."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:04]",
+      "end_time": "[07:13]",
+      "start_time_sec": 424,
+      "text": "Thank you for holding, Jonas. I have placed a forty-eight-hour fee freeze on your account so no late penalty can trigger."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:24]",
+      "end_time": "[07:35]",
+      "start_time_sec": 444,
+      "text": "While we have the app open, would you like to set up a monthly Direct Debit so you don't have to manually pay each month?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:46]",
+      "end_time": "[07:50]",
+      "start_time_sec": 466,
+      "text": "Can I set up Direct Debit directly inside the app?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:01]",
+      "end_time": "[08:09]",
+      "start_time_sec": 481,
+      "text": "Yes, under Payment Methods, tap 'Add Direct Debit'. It links with your UK bank account in about sixty seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:20]",
+      "end_time": "[08:25]",
+      "start_time_sec": 500,
+      "text": "That would save me having to remember to pay every month.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:36]",
+      "end_time": "[08:42]",
+      "start_time_sec": 516,
+      "text": "And you are protected by the Direct Debit Guarantee with automatic payment receipts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:53]",
+      "end_time": "[08:57]",
+      "start_time_sec": 533,
+      "text": "I'll link my bank account this evening after work.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:08]",
+      "end_time": "[09:15]",
+      "start_time_sec": 548,
+      "text": "And you can also view your live broadband speed test and network devices from the home tab."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:26]",
+      "end_time": "[09:30]",
+      "start_time_sec": 566,
+      "text": "I saw the speed test widget, very sleek interface.",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:41]",
+      "end_time": "[09:48]",
+      "start_time_sec": 581,
+      "text": "And the app supports FaceID auto-login on iOS 18 so you don't have to retype your password."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:59]",
+      "end_time": "[10:02]",
+      "start_time_sec": 599,
+      "text": "Yes, FaceID worked instantly.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:13]",
+      "end_time": "[10:19]",
+      "start_time_sec": 613,
+      "text": "And future app updates will install automatically if background app refresh is on."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:30]",
+      "end_time": "[10:33]",
+      "start_time_sec": 630,
+      "text": "I have automatic updates enabled.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:44]",
+      "end_time": "[10:48]",
+      "start_time_sec": 644,
+      "text": "Thank you for protecting the account from fees Laura.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:59]",
+      "end_time": "[11:07]",
+      "start_time_sec": 659,
+      "text": "Now on your iPhone, open the App Store and tap your user profile icon in the top right corner."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:18]",
+      "end_time": "[11:21]",
+      "start_time_sec": 678,
+      "text": "Tapped my profile icon in the App Store.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:32]",
+      "end_time": "[11:40]",
+      "start_time_sec": 692,
+      "text": "Pull down firmly from the top of the screen to force a manual refresh of the pending updates list."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:51]",
+      "end_time": "[12:00]",
+      "start_time_sec": 711,
+      "text": "Pulling down... Spinning wheel appeared... Oh! 'My S-Net version 4.12.2' just appeared under Upcoming Automatic Updates with an 'Update' button!",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:11]",
+      "end_time": "[12:14]",
+      "start_time_sec": 731,
+      "text": "Tap 'Update' to install the patched release."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:25]",
+      "end_time": "[12:28]",
+      "start_time_sec": 745,
+      "text": "Tapping Update... Progress circle is filling up... Installed!",
+      "sentiment_score": 32.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:39]",
+      "end_time": "[12:46]",
+      "start_time_sec": 759,
+      "text": "Just confirming before you launch the payment, you are running iOS 18.0.1 on that iPhone, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:57]",
+      "end_time": "[13:00]",
+      "start_time_sec": 777,
+      "text": "Yes, iOS 18.0.1.",
+      "sentiment_score": 10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:11]",
+      "end_time": "[13:15]",
+      "start_time_sec": 791,
+      "text": "Now open the My S-Net app and log in."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:26]",
+      "end_time": "[13:29]",
+      "start_time_sec": 806,
+      "text": "Opening app... FaceID logged in smoothly.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:40]",
+      "end_time": "[13:45]",
+      "start_time_sec": 820,
+      "text": "Tap on the 'Bills & Payments' tab, and tap 'Pay \u00a345.00 Now'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:56]",
+      "end_time": "[14:04]",
+      "start_time_sec": 836,
+      "text": "Tapping Pay \u00a345.00... Apple Pay sheet popped up with my card! Double-clicking side button for FaceID... Chime! Green checkmark!",
+      "sentiment_score": 44.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:15]",
+      "end_time": "[14:21]",
+      "start_time_sec": 855,
+      "text": "Does the app screen update to show 'Payment of \u00a345.00 Received - Balance: \u00a30.00'?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:32]",
+      "end_time": "[14:37]",
+      "start_time_sec": 872,
+      "text": "Yes! 'Payment Successful. Current Balance: \u00a30.00'. It didn't crash at all!",
+      "sentiment_score": 46.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:48]",
+      "end_time": "[14:54]",
+      "start_time_sec": 888,
+      "text": "That confirms the PassKit token handshake is fully resolved with the new app build."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:05]",
+      "end_time": "[15:11]",
+      "start_time_sec": 905,
+      "text": "That was so quick and painless to fix. Thank you so much Laura.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:22]",
+      "end_time": "[15:31]",
+      "start_time_sec": 922,
+      "text": "Just to confirm your billing email address on file, it's jonas dot lindholm at reading dot org dot uk, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:42]",
+      "end_time": "[15:45]",
+      "start_time_sec": 942,
+      "text": "Yes, that's my email.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:56]",
+      "end_time": "[16:03]",
+      "start_time_sec": 956,
+      "text": "I have dispatched the official PDF receipt for your forty-five pound payment to that address."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:14]",
+      "end_time": "[16:17]",
+      "start_time_sec": 974,
+      "text": "Received the payment confirmation email already.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:28]",
+      "end_time": "[16:36]",
+      "start_time_sec": 988,
+      "text": "Is there anything else with your app or billing account that I can assist you with today, Jonas?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:47]",
+      "end_time": "[16:52]",
+      "start_time_sec": 1007,
+      "text": "No Laura, that sorted out the payment perfectly. Have a great day.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:03]",
+      "end_time": "[17:09]",
+      "start_time_sec": 1023,
+      "text": "Thank you for choosing S-Net, Jonas, and enjoy the rest of your week."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:20]",
+      "end_time": "[17:23]",
+      "start_time_sec": 1040,
+      "text": "Thank you Laura, goodbye.",
+      "sentiment_score": 20.0
+    }
+  ]
+}

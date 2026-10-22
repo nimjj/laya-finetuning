@@ -1,0 +1,198 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Desmond",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, this is Aisha speaking. How can I help?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:07]",
+      "end_time": "[00:17]",
+      "start_time_sec": 7,
+      "text": "Hello. I've just opened my bill and it's ninety-four pounds when it's normally forty-two, and I'm on a pension so this is really worrying me.",
+      "sentiment_score": -21.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:19]",
+      "end_time": "[00:36]",
+      "start_time_sec": 19,
+      "text": "I can hear how worrying that is, a jump like that would worry anyone. Let's go through it together and find out what's happened. Could you tell me the first line of your address and your postcode so I can find your account?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:38]",
+      "end_time": "[00:41]",
+      "start_time_sec": 38,
+      "text": "Yes, it's 12 Cedar Lane, LS8 4PD.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:43]",
+      "end_time": "[00:53]",
+      "start_time_sec": 43,
+      "text": "Thank you, Desmond. So your latest bill is ninety-four pounds instead of the usual forty-two, and you'd like to know why. Have I got that right?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:54]",
+      "end_time": "[00:56]",
+      "start_time_sec": 54,
+      "text": "Yes, that's it.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:58]",
+      "end_time": "[01:05]",
+      "start_time_sec": 58,
+      "text": "Did you make any calls abroad, or to any premium or 09 numbers, in the last month?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:08]",
+      "end_time": "[01:13]",
+      "start_time_sec": 68,
+      "text": "No, I don't think so. I only ring my daughter and she's in Leeds.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:15]",
+      "end_time": "[01:20]",
+      "start_time_sec": 75,
+      "text": "Okay. Have you ordered any films or sports from the TV box recently?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:22]",
+      "end_time": "[01:25]",
+      "start_time_sec": 82,
+      "text": "No, I don't even know how to do that.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:27]",
+      "end_time": "[01:34]",
+      "start_time_sec": 87,
+      "text": "That's fine. Let me place you on a brief hold while I go through the charges line by line.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:49]",
+      "end_time": "[03:00]",
+      "start_time_sec": 169,
+      "text": "Thank you for holding, Desmond. I've found it. There's a charge of fifty-two pounds for a film package that was added on the eighth, through the TV box remote.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:01]",
+      "end_time": "[03:04]",
+      "start_time_sec": 181,
+      "text": "A film package? I never did that.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:06]",
+      "end_time": "[03:20]",
+      "start_time_sec": 186,
+      "text": "I believe you. It was added from the box itself, and with no PIN set on purchases, it only takes a couple of button presses. Do you have grandchildren or anyone else who uses the TV?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:21]",
+      "end_time": "[03:26]",
+      "start_time_sec": 201,
+      "text": "Oh. My grandson stayed over that weekend. He was playing with the remote.",
+      "sentiment_score": -7.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:29]",
+      "end_time": "[03:44]",
+      "start_time_sec": 209,
+      "text": "That would explain it. I'm going to cancel the package straight away and refund the fifty-two pounds to your account, and I'll set a purchase PIN on the box so it can't happen again. Is that okay with you?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:45]",
+      "end_time": "[03:47]",
+      "start_time_sec": 225,
+      "text": "Yes please, that would be wonderful.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:48]",
+      "end_time": "[04:01]",
+      "start_time_sec": 228,
+      "text": "All done. The refund will show on your next bill, which brings it back to forty-two pounds. The purchase PIN is 1 2 0 8, and I'll send it to you by post as well.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:04]",
+      "end_time": "[04:06]",
+      "start_time_sec": 244,
+      "text": "Thank you so much.",
+      "sentiment_score": -3.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:08]",
+      "end_time": "[04:19]",
+      "start_time_sec": 248,
+      "text": "Can I just check: does that fully answer the problem with your bill today, or is there anything about the charges that still doesn't look right to you?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:21]",
+      "end_time": "[04:24]",
+      "start_time_sec": 261,
+      "text": "No, that's sorted it. Thank you, dear.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:25]",
+      "end_time": "[04:36]",
+      "start_time_sec": 265,
+      "text": "You're very welcome, Desmond. So the package is cancelled, the refund is on its way, and the box is protected. Is there anything else I can do for you?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:37]",
+      "end_time": "[04:39]",
+      "start_time_sec": 277,
+      "text": "No, that's all.",
+      "sentiment_score": -1.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:42]",
+      "end_time": "[04:47]",
+      "start_time_sec": 282,
+      "text": "Thank you for choosing S-Net. Take care and have a good afternoon.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

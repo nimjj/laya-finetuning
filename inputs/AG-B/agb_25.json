@@ -1,0 +1,456 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Yasmin",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer broadband provisioning. My name is Toby. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:29]",
+      "start_time_sec": 10,
+      "text": "Hello Toby. I moved into a newly rented flat in Bristol on Saturday and ordered S-Net Full Fibre broadband, but I received a notification saying my order is blocked because the previous tenant hasn't cancelled their service and refused to release the line!",
+      "sentiment_score": -26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:32]",
+      "end_time": "[00:47]",
+      "start_time_sec": 32,
+      "text": "I can look into that working line takeover conflict for you, Yasmin. Before we open the Openreach line asset records, may I please verify your billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:50]",
+      "end_time": "[01:01]",
+      "start_time_sec": 50,
+      "text": "Yes, it is Flat 3B, Clifton Heights, Triangle West, Bristol, BS8 1EJ. And my security question answer is my favourite childhood book, Matilda.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:04]",
+      "end_time": "[01:13]",
+      "start_time_sec": 64,
+      "text": "Thank you Yasmin, that confirms your customer account. What is your S-Net broadband order reference number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:16]",
+      "end_time": "[01:35]",
+      "start_time_sec": 76,
+      "text": "The reference number is ORD-992-4102. I work as an online child psychologist conducting urgent trauma counseling sessions every afternoon, and being without internet in my new flat is causing me severe panic and letting down vulnerable patients!",
+      "sentiment_score": -48.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:38]",
+      "end_time": "[01:54]",
+      "start_time_sec": 98,
+      "text": "I completely understand how critical internet connectivity is for your psychological counseling sessions, Yasmin. Having a line takeover held up by a previous resident is extremely stressful, so let us examine the routing record immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:57]",
+      "end_time": "[02:01]",
+      "start_time_sec": 117,
+      "text": "Thank you Toby, I really appreciate your understanding.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:04]",
+      "end_time": "[02:16]",
+      "start_time_sec": 124,
+      "text": "I am opening the Openreach national Line Asset database to check the active tag on the optical network terminal at Flat 3B."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:19]",
+      "end_time": "[02:24]",
+      "start_time_sec": 139,
+      "text": "What does the Openreach database show on our flat's line?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:09]",
+      "end_time": "[03:19]",
+      "start_time_sec": 189,
+      "text": "The optical line terminal port is flagged with an active broadband subscription from Vodafone Broadband."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:22]",
+      "end_time": "[03:29]",
+      "start_time_sec": 202,
+      "text": "Vodafone! The previous tenant told the landlord they cancelled it three weeks ago!",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:32]",
+      "end_time": "[03:49]",
+      "start_time_sec": 212,
+      "text": "Well, that is completely between you, the previous tenant, and Vodafone. S-Net has nothing to do with Openreach database locks, so there is nothing I can do personally if the other tenant refuses to cancel."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:52]",
+      "end_time": "[04:02]",
+      "start_time_sec": 232,
+      "text": "Wait, surely S-Net as my provider can initiate a working line takeover bridge order if I can prove I am the legal tenant?",
+      "sentiment_score": -22.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:05]",
+      "end_time": "[04:17]",
+      "start_time_sec": 245,
+      "text": "I can only submit an Openreach Tenancy Dispute Form if you have an official signed tenancy agreement in PDF format."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:20]",
+      "end_time": "[04:28]",
+      "start_time_sec": 260,
+      "text": "I have the signed AST tenancy agreement from Savills Lettings on my phone right now! Where do I upload it?",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:31]",
+      "end_time": "[04:40]",
+      "start_time_sec": 271,
+      "text": "I will send a secure document upload link via SMS to your registered mobile number."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:43]",
+      "end_time": "[04:54]",
+      "start_time_sec": 283,
+      "text": "The SMS just arrived from S-Net. Clicking the upload link... selecting the signed tenancy PDF... uploaded successfully!",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:57]",
+      "end_time": "[05:08]",
+      "start_time_sec": 297,
+      "text": "I see the tenancy agreement document in our portal showing your tenancy commencement date as October first."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:11]",
+      "end_time": "[05:16]",
+      "start_time_sec": 311,
+      "text": "Yes, October first, signed by both myself and the landlord.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:19]",
+      "end_time": "[05:27]",
+      "start_time_sec": 319,
+      "text": "I will submit the Tenancy Dispute Bridge request to Openreach wholesale operations."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:30]",
+      "end_time": "[05:34]",
+      "start_time_sec": 330,
+      "text": "How does the Tenancy Dispute Bridge work?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:16]",
+      "end_time": "[06:31]",
+      "start_time_sec": 376,
+      "text": "Openreach issues a mandatory ten-day objection notice to Vodafone; if the outgoing tenant does not prove lawful occupancy, the line automatically reverts to S-Net."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:34]",
+      "end_time": "[06:43]",
+      "start_time_sec": 394,
+      "text": "Ten days! I cannot wait ten days without internet when I have trauma therapy patients scheduled every afternoon!",
+      "sentiment_score": -42.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:46]",
+      "end_time": "[07:00]",
+      "start_time_sec": 406,
+      "text": "Under industry standard Ofcom regulations, the ten-day cooling notice is statutory and Openreach cannot waive it under any circumstances."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:03]",
+      "end_time": "[07:12]",
+      "start_time_sec": 423,
+      "text": "Can S-Net provide a temporary 4G or 5G home router or mobile data dongle while we wait for the ten-day notice?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:15]",
+      "end_time": "[07:27]",
+      "start_time_sec": 435,
+      "text": "Yes, our 'Keep Connected' service provides an unlimited 5G emergency WiFi mini-hub on next-day courier delivery."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:30]",
+      "end_time": "[07:38]",
+      "start_time_sec": 450,
+      "text": "Oh, thank goodness! That completely saves my clinical practice for the next ten days!",
+      "sentiment_score": 44.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:41]",
+      "end_time": "[07:54]",
+      "start_time_sec": 461,
+      "text": "The emergency mini-hub connects to S-Net's high-speed 5G mobile cellular network with an embedded pre-activated multi-network SIM card, automatically selecting the strongest cell tower to provide robust dual-band WiFi for up to twenty connected devices simultaneously."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:57]",
+      "end_time": "[08:02]",
+      "start_time_sec": 477,
+      "text": "When will the emergency mini-hub arrive at my flat?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:05]",
+      "end_time": "[08:17]",
+      "start_time_sec": 485,
+      "text": "It is dispatched via DPD priority tracked courier and will arrive tomorrow morning between eight and twelve."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:20]",
+      "end_time": "[08:24]",
+      "start_time_sec": 500,
+      "text": "Does it require any setup or engineer visit?",
+      "sentiment_score": 8.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:27]",
+      "end_time": "[08:40]",
+      "start_time_sec": 507,
+      "text": "No technical setup is needed at all; you simply plug the small unit into any standard mains wall socket near a window, allow sixty seconds for the cellular link light to illuminate solid green, and connect your work laptop using the unique network name and WPA2 security password printed on the base label."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:43]",
+      "end_time": "[08:50]",
+      "start_time_sec": 523,
+      "text": "That is so straightforward. And there is no extra charge for the loan of this mini-hub?",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:53]",
+      "end_time": "[09:03]",
+      "start_time_sec": 533,
+      "text": "The Keep Connected mini-hub is provided completely free of charge during delayed line takeovers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:06]",
+      "end_time": "[09:10]",
+      "start_time_sec": 546,
+      "text": "That is wonderful customer care.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:13]",
+      "end_time": "[09:27]",
+      "start_time_sec": 553,
+      "text": "Let us also check your mobile data allowance on your phone plan to see if you need an emergency mobile hotspot data boost for this evening."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:30]",
+      "end_time": "[09:37]",
+      "start_time_sec": 570,
+      "text": "I do have an S-Net mobile plan with fifteen gigabytes remaining on this billing cycle.",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:40]",
+      "end_time": "[09:51]",
+      "start_time_sec": 580,
+      "text": "I have added a complimentary thirty-gigabyte emergency data boost to your mobile handset account immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:54]",
+      "end_time": "[10:05]",
+      "start_time_sec": 594,
+      "text": "Thank you, that ensures I can run tonight's seven o'clock therapy session off my phone hotspot before the mini-hub arrives tomorrow.",
+      "sentiment_score": 38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:08]",
+      "end_time": "[10:15]",
+      "start_time_sec": 608,
+      "text": "The mobile data boost is already active on your handset line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:18]",
+      "end_time": "[10:27]",
+      "start_time_sec": 618,
+      "text": "Checked my S-Net mobile app, and the extra thirty gigabytes is visible right at the top of the summary screen.",
+      "sentiment_score": 26.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:30]",
+      "end_time": "[10:44]",
+      "start_time_sec": 630,
+      "text": "Obviously that confirms the wireless backup bridge will maintain full teletherapy bandwidth until Openreach completes the fiber switch, Yasmin."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:47]",
+      "end_time": "[10:53]",
+      "start_time_sec": 647,
+      "text": "Now what happens on the tenth day when the Openreach notice expires?",
+      "sentiment_score": 12.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:56]",
+      "end_time": "[11:10]",
+      "start_time_sec": 656,
+      "text": "At midnight on day ten, Openreach administratively detaches the Vodafone routing tag and provisions your S-Net Full Fibre 500 profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:13]",
+      "end_time": "[11:19]",
+      "start_time_sec": 673,
+      "text": "Will I need to restart my main S-Net Hub when that happens?",
+      "sentiment_score": 9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:22]",
+      "end_time": "[11:34]",
+      "start_time_sec": 682,
+      "text": "Yes, simply unplug the power lead from the rear of the main S-Net Hub for fifteen seconds and plug it back in; the optical network terminal on the hallway wall will detect the unblocked port routing and establish a permanent gigabit fiber session immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:37]",
+      "end_time": "[11:42]",
+      "start_time_sec": 697,
+      "text": "Then I return the 5G mini-hub in the prepaid returns envelope?",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:45]",
+      "end_time": "[11:56]",
+      "start_time_sec": 705,
+      "text": "Yes, drop it at any Royal Mail post office within thirty days of your permanent broadband activation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:59]",
+      "end_time": "[12:03]",
+      "start_time_sec": 719,
+      "text": "I have marked that in my calendar.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:06]",
+      "end_time": "[12:21]",
+      "start_time_sec": 726,
+      "text": "I have submitted the dispute form because you insisted, but whatever Openreach does with the timeline is entirely their department and not my responsibility."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:24]",
+      "end_time": "[12:33]",
+      "start_time_sec": 744,
+      "text": "I understand it's Openreach doing the engineering, but as long as the mini-hub is arriving tomorrow, my counseling sessions are safe.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:36]",
+      "end_time": "[12:45]",
+      "start_time_sec": 756,
+      "text": "The DPD tracking reference number has been sent to your mobile phone via SMS."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:48]",
+      "end_time": "[12:56]",
+      "start_time_sec": 768,
+      "text": "Just received the DPD text message showing delivery between 09:15 and 10:15 tomorrow morning.",
+      "sentiment_score": 32.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:59]",
+      "end_time": "[13:10]",
+      "start_time_sec": 779,
+      "text": "Is there anything else regarding your broadband takeover or delivery that I can assist you with today, Yasmin?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:13]",
+      "end_time": "[13:20]",
+      "start_time_sec": 793,
+      "text": "No, having the 5G backup hub coming tomorrow completely solves my problem. Thank you Toby.",
+      "sentiment_score": 36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:23]",
+      "end_time": "[13:35]",
+      "start_time_sec": 803,
+      "text": "You may receive a short customer satisfaction survey by SMS after this call; we would appreciate any feedback on our call today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:37]",
+      "end_time": "[13:41]",
+      "start_time_sec": 817,
+      "text": "I will complete the survey. Have a good afternoon.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:43]",
+      "end_time": "[13:50]",
+      "start_time_sec": 823,
+      "text": "Thank you for choosing S-Net, Yasmin. Have a wonderful day and take care."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:52]",
+      "end_time": "[13:54]",
+      "start_time_sec": 832,
+      "text": "Thank you, goodbye.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Balthazar",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:11]",
+      "start_time_sec": 0,
+      "text": "Good evening and thank you for calling S-Net Technical Support. My name is Chloe. May I start by taking your name and seeing how I can help you today?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:12]",
+      "end_time": "[00:22]",
+      "start_time_sec": 12,
+      "text": "Hi Chloe, my name is Balthazar. I'm having a massive headache with the two S-Net Wi-Fi Max mesh pods that arrived yesterday for my three-storey Victorian townhouse.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:23]",
+      "end_time": "[00:35]",
+      "start_time_sec": 23,
+      "text": "I would be glad to help you get those sorted out, Balthazar. Before we dive into the setup, could you please confirm the first line of your address and your four-digit security PIN?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:36]",
+      "end_time": "[00:43]",
+      "start_time_sec": 36,
+      "text": "Yes, of course. The address is 14 Lansdowne Crescent, Bath, BA1 5EX, and my four-digit security PIN is 7392.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:44]",
+      "end_time": "[00:52]",
+      "start_time_sec": 44,
+      "text": "Thank you very much, Balthazar, that's all verified on your account. Tell me what has been happening with the mesh pods so far.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:53]",
+      "end_time": "[01:06]",
+      "start_time_sec": 53,
+      "text": "Well, my Hub 4 is downstairs in the ground-floor entrance hall and works fine there, but the pods on the first-floor landing and up in my second-floor attic study just sit there flashing amber.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:07]",
+      "end_time": "[01:19]",
+      "start_time_sec": 67,
+      "text": "I've been climbing up and down three flights of stairs all afternoon trying to pair them, and I have a major architectural client presentation from my attic study at nine tomorrow morning.",
+      "sentiment_score": -31.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:20]",
+      "end_time": "[01:32]",
+      "start_time_sec": 80,
+      "text": "I am so sorry you've spent your entire afternoon running up and down three flights of stairs, Balthazar—I completely understand how stressful that is with a big client presentation first thing tomorrow morning.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:33]",
+      "end_time": "[01:49]",
+      "start_time_sec": 93,
+      "text": "Just to make sure I have the full picture: your ground-floor Hub 4 has a working broadband connection, but both the first-floor landing pod and the second-floor attic pod are flashing amber and failing to link to the router. Is that right?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:50]",
+      "end_time": "[02:01]",
+      "start_time_sec": 110,
+      "text": "That is spot on. My laptop in the attic barely gets four megabits from the ground floor, which is useless when I need to screen-share live 3D CAD models.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:02]",
+      "end_time": "[02:15]",
+      "start_time_sec": 122,
+      "text": "Don't worry, Balthazar, I am going to take complete ownership of this right now and stay on the line with you until both pods are solid white and your attic study has fast coverage.",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:16]",
+      "end_time": "[02:19]",
+      "start_time_sec": 136,
+      "text": "Thank you, Chloe, that's a huge relief to hear.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:20]",
+      "end_time": "[02:32]",
+      "start_time_sec": 140,
+      "text": "To help me narrow down why they aren't completing the wireless handshake, could you read me the last three characters of the serial numbers on the two pods if you have them handy?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:33]",
+      "end_time": "[02:44]",
+      "start_time_sec": 153,
+      "text": "Sure, I wrote them down on a notepad earlier. The one on the first-floor landing ends in 49B, and the one up here in the attic study ends in 82C.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:45]",
+      "end_time": "[03:01]",
+      "start_time_sec": 165,
+      "text": "Brilliant, having 49B on the first floor and 82C in the attic noted down saves us a trip already. When you first plugged them in today, did you initially plug them in near the Hub 4 or straight into their final rooms?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:02]",
+      "end_time": "[03:12]",
+      "start_time_sec": 182,
+      "text": "I plugged them straight into the sockets on the first floor and in the attic. The quick-start leaflet said they were pre-paired to my account before dispatch.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:13]",
+      "end_time": "[03:26]",
+      "start_time_sec": 193,
+      "text": "They are pre-registered to your account inventory, Balthazar, which I can see here, but let's check a couple of physical details first. How is the Hub 4 positioned down in the ground-floor entrance hall?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:27]",
+      "end_time": "[03:36]",
+      "start_time_sec": 207,
+      "text": "It's sitting on the oak telephone table in the hallway, out in the open, plugged directly into the master optical ONT on the wall.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:37]",
+      "end_time": "[03:47]",
+      "start_time_sec": 217,
+      "text": "That placement for the Hub 4 sounds ideal. And what about the colour of the status light on the front of the Hub 4 itself right now?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:48]",
+      "end_time": "[03:57]",
+      "start_time_sec": 228,
+      "text": "The Hub 4 light is solid white, and if I stand at the bottom of the stairs my phone gets over five hundred megabits.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:58]",
+      "end_time": "[04:10]",
+      "start_time_sec": 238,
+      "text": "Okay, great. Now let's look at how the two mesh pods are plugged in and what sits between the floors. Does your Victorian townhouse have solid masonry internal walls or timber stud floors?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:11]",
+      "end_time": "[04:20]",
+      "start_time_sec": 251,
+      "text": "The party walls are thick Bath stone, and between the ground floor and first floor there's heavy Victorian lath-and-plaster ceiling with quite a bit of pipework.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:21]",
+      "end_time": "[04:31]",
+      "start_time_sec": 261,
+      "text": "Got it, those dense Victorian ceilings can definitely attenuate the 5 gigahertz backhaul signal. Where exactly on the first-floor landing is pod 49B plugged in right now?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:32]",
+      "end_time": "[04:46]",
+      "start_time_sec": 272,
+      "text": "Well, there's only one single wall socket on the landing, and we have a hall lamp plugged into it, so I plugged a four-gang surge extension lead into the wall and tucked the pod down behind the radiator.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:47]",
+      "end_time": "[04:57]",
+      "start_time_sec": 287,
+      "text": "Wait—let me make sure I heard that properly. Are you saying pod 49B is plugged into a surge extension strip on the floor right behind a radiator?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:58]",
+      "end_time": "[05:08]",
+      "start_time_sec": 298,
+      "text": "Yes, it's an old cast-iron radiator on the landing. I tucked the extension block behind the radiator feet so nobody would trip over the adapter in the corridor.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:09]",
+      "end_time": "[05:18]",
+      "start_time_sec": 309,
+      "text": "And what about pod 82C up in your second-floor attic study? Is that plugged directly into a wall socket or into an extension strip as well?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:19]",
+      "end_time": "[05:28]",
+      "start_time_sec": 319,
+      "text": "Up here in the attic study, 82C is plugged straight into the double wall socket next to my drafting desk, completely out in the open.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:29]",
+      "end_time": "[05:37]",
+      "start_time_sec": 329,
+      "text": "Right, and when pod 49B on the first floor flashes amber, is it a slow pulsing amber or a rapid double-flash every second?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:38]",
+      "end_time": "[05:45]",
+      "start_time_sec": 338,
+      "text": "When I checked it ten minutes ago, it was doing a slow pulsing amber, just fading in and out continuously.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:46]",
+      "end_time": "[05:57]",
+      "start_time_sec": 346,
+      "text": "Okay, slow pulsing amber means the pod is powered up and searching for the hidden 5 gigahertz mesh backhaul radio, but the signal is completely blocked from reaching it.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:58]",
+      "end_time": "[06:04]",
+      "start_time_sec": 358,
+      "text": "Oh really? Even though the first-floor landing is only one flight of stairs above the entrance hall?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:05]",
+      "end_time": "[06:15]",
+      "start_time_sec": 365,
+      "text": "Well, it's really not rocket science, Balthazar—if you plug a mesh pod into a surge extension lead behind a cast-iron radiator, what did you expect to happen?",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:16]",
+      "end_time": "[06:26]",
+      "start_time_sec": 376,
+      "text": "Whoa, okay, fair enough—I'm an architect, not a radio engineer, I genuinely didn't realise a radiator and an extension strip would kill a Wi-Fi link like that.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:27]",
+      "end_time": "[06:40]",
+      "start_time_sec": 387,
+      "text": "Let me explain why that happens technically: cast iron acts like a solid Faraday shield around the internal antennas, and surge protection circuitry introduces electrical noise and voltage regulation drops that destabilise the pod's high-gain radio.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:41]",
+      "end_time": "[06:53]",
+      "start_time_sec": 401,
+      "text": "Right, I see. When you put it in terms of a Faraday shield, that makes total sense. And because the first-floor pod couldn't connect, the attic pod had nothing to daisy-chain from either?",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:54]",
+      "end_time": "[07:08]",
+      "start_time_sec": 414,
+      "text": "Exactly right, Balthazar. Your second-floor attic pod 82C is too far from the ground-floor Hub 4 to connect directly through two Victorian ceilings, so it relies on pod 49B on the first floor as its middle relay hop.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:09]",
+      "end_time": "[07:17]",
+      "start_time_sec": 429,
+      "text": "Okay, I'm walking down to the first-floor landing right now. What should I do with the lamp and the wall socket here?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:18]",
+      "end_time": "[07:32]",
+      "start_time_sec": 438,
+      "text": "Every S-Net Wi-Fi Max pod actually has a built-in pass-through mains socket on the front face, or if yours is the compact model, you can plug the pod straight into the wall and avoid the surge strip.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:33]",
+      "end_time": "[07:45]",
+      "start_time_sec": 453,
+      "text": "Hang on, let me unplug it from behind the cast-iron radiator. Oh, look at that, the wall socket is actually about eighteen inches clear of the radiator on the open skirting board!",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:46]",
+      "end_time": "[07:59]",
+      "start_time_sec": 466,
+      "text": "That is much better. If you unplug the surge extension lead from the wall socket and plug pod 49B directly into that open wall socket, it will have a clear line of sight down the stairwell.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:00]",
+      "end_time": "[08:13]",
+      "start_time_sec": 480,
+      "text": "Okay, I've unplugged the extension lead and plugged pod 49B straight into the wall socket on the open landing. The light on the front has turned solid green for a moment and now it's pulsing white.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:14]",
+      "end_time": "[08:23]",
+      "start_time_sec": 494,
+      "text": "Pulsing white is a much healthier sign—that means it can see the Hub 4 down in the entrance hall and is negotiating the mesh link.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:24]",
+      "end_time": "[08:35]",
+      "start_time_sec": 504,
+      "text": "While I'm standing here on the first-floor landing, is there anything else stopping it from locking on? When I looked in my S-Net app earlier, it said 'Mesh Backhaul Disabled'.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:36]",
+      "end_time": "[08:45]",
+      "start_time_sec": 516,
+      "text": "Ah, thank you for mentioning that app message, Balthazar! Let me inspect the wireless radio configuration on your Hub 4 from my diagnostics console right now.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:46]",
+      "end_time": "[08:53]",
+      "start_time_sec": 526,
+      "text": "Take your time, I'll wait right here on the landing so I can watch the light on pod 49B.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:54]",
+      "end_time": "[09:09]",
+      "start_time_sec": 534,
+      "text": "I can see what's happening on the router side. Your Hub 4 currently has its 2.4 and 5 gigahertz bands split into separate network names, and the dedicated hidden mesh backhaul SSID is stuck in a pending provisioning state.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:10]",
+      "end_time": "[09:20]",
+      "start_time_sec": 550,
+      "text": "Oh! I split the bands a few months ago because an old smart printer in my office only liked 2.4 gigahertz. Does that break the mesh pods?",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:21]",
+      "end_time": "[09:30]",
+      "start_time_sec": 561,
+      "text": "Splitting the main bands disables Whole Home Mesh steering on the Hub 4, which prevents pods 49B and 82C from completing their encrypted backhaul tunnel.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:31]",
+      "end_time": "[09:42]",
+      "start_time_sec": 571,
+      "text": "I got rid of that old printer last month anyway, so I'm totally happy for you to merge the bands back together if that gets my attic study working.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:43]",
+      "end_time": "[09:56]",
+      "start_time_sec": 583,
+      "text": "Perfect, I can re-enable Smart Band Steering and provision the hidden mesh backhaul channel for you right here. Please bear with me for a moment while I push a backhaul channel resync to your Hub 4.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:57]",
+      "end_time": "[09:59]",
+      "start_time_sec": 597,
+      "text": "Sure thing, Chloe, I'll hold.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:09]",
+      "end_time": "[11:21]",
+      "start_time_sec": 669,
+      "text": "Thank you for holding, Balthazar, the backhaul resync has completed on my side and I have also locked the 5 gigahertz backhaul radio onto channel 108 so it cuts cleanly through your floors.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:22]",
+      "end_time": "[11:31]",
+      "start_time_sec": 682,
+      "text": "Oh, look at pod 49B here on the first-floor landing! It stopped pulsing about ten seconds ago and the LED is now completely solid white!",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:32]",
+      "end_time": "[11:44]",
+      "start_time_sec": 692,
+      "text": "Fantastic news! Let me check the signal telemetry on pod 49B from my console. Yes, it is linked to the Hub 4 at minus 56 dBm, which is a rock-solid backhaul connection.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:45]",
+      "end_time": "[11:52]",
+      "start_time_sec": 705,
+      "text": "Minus 56 dBm—moving it out from behind that cast-iron radiator and straight into the wall really made a world of difference.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:53]",
+      "end_time": "[12:02]",
+      "start_time_sec": 713,
+      "text": "It really does make a night-and-day difference in a stone townhouse. Now let's check what pod 82C up in your second-floor attic study is doing.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:03]",
+      "end_time": "[12:12]",
+      "start_time_sec": 723,
+      "text": "Let me walk up the second flight of stairs to the attic study now... Okay, I'm at my drafting desk looking at pod 82C.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:13]",
+      "end_time": "[12:17]",
+      "start_time_sec": 733,
+      "text": "What is the LED on pod 82C showing at the moment, Balthazar?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:18]",
+      "end_time": "[12:28]",
+      "start_time_sec": 738,
+      "text": "It's still pulsing amber right now. Should I switch it off and on at the wall socket so it searches again now that the first-floor pod is live?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:29]",
+      "end_time": "[12:44]",
+      "start_time_sec": 749,
+      "text": "Yes, please switch the attic wall socket off for five seconds and switch it back on. That will force pod 82C to scan fresh and latch onto pod 49B on the first floor instead of hunting for the ground-floor router.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:45]",
+      "end_time": "[12:51]",
+      "start_time_sec": 765,
+      "text": "Right, switched off... counting to five... and switched back on now. It's showing a solid green boot light.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:52]",
+      "end_time": "[13:03]",
+      "start_time_sec": 772,
+      "text": "Great, it takes about thirty to forty seconds to boot its firmware and discover the nearest mesh node. I'm watching your mesh topology tree refresh live on my screen.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:04]",
+      "end_time": "[13:11]",
+      "start_time_sec": 784,
+      "text": "It's changed from green to a slow white pulse now. That's what the downstairs one did just before it locked on!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:12]",
+      "end_time": "[13:21]",
+      "start_time_sec": 792,
+      "text": "I can see pod 82C sending its association request to pod 49B right now... and it has just authenticated and joined the mesh daisy-chain!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:22]",
+      "end_time": "[13:33]",
+      "start_time_sec": 802,
+      "text": "Yes! The light on pod 82C right here next to my drafting desk has just gone solid white! All three units—the Hub 4 and both pods—are solid white now.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:34]",
+      "end_time": "[13:46]",
+      "start_time_sec": 814,
+      "text": "That is exactly what we want to see, Balthazar. On my diagnostics map, pod 82C in the attic is linked via pod 49B with a backhaul rate of 866 megabits per second.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:47]",
+      "end_time": "[13:58]",
+      "start_time_sec": 827,
+      "text": "Hold on, let me open my MacBook here in the attic study and reconnect to the Wi-Fi so I can test the actual speed before tomorrow morning's CAD presentation.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:59]",
+      "end_time": "[14:08]",
+      "start_time_sec": 839,
+      "text": "Please go ahead and run a live speed test whenever your MacBook is connected, and let me know both the download and upload figures you get.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:09]",
+      "end_time": "[14:19]",
+      "start_time_sec": 849,
+      "text": "Okay, it's connected to the S-Net network, opening the speed test now... Wow, the needle shot straight up! It's showing 310 megabits download and 52 megabits upload!",
+      "sentiment_score": 34.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:20]",
+      "end_time": "[14:31]",
+      "start_time_sec": 860,
+      "text": "From four megabits up to 310 megabits download and 52 megabits upload in the second-floor attic—that will handle your live 3D CAD screen-share tomorrow morning without a hitch.",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:32]",
+      "end_time": "[14:42]",
+      "start_time_sec": 872,
+      "text": "I just opened our cloud BIM model viewer to test panning around the 3D building render, and it's loading textures instantaneously. What a massive relief!",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:43]",
+      "end_time": "[14:55]",
+      "start_time_sec": 883,
+      "text": "I'm really pleased that's performing so smoothly for you now, Balthazar. If you open your My S-Net app as well, does it show both the Landing and Attic Study pods online?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:56]",
+      "end_time": "[15:07]",
+      "start_time_sec": 896,
+      "text": "Let me refresh the app... Yes! Both pods show 'Excellent Connection' with green ticks, and I've just labelled 49B as 'First Floor Landing' and 82C as 'Attic Study'.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:08]",
+      "end_time": "[15:21]",
+      "start_time_sec": 908,
+      "text": "Labelling them in the app is a great touch so you can always see which devices are connected to which floor. Have we completely resolved the mesh pod issue for you today, Balthazar?",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:22]",
+      "end_time": "[15:34]",
+      "start_time_sec": 922,
+      "text": "Yes, completely resolved. Everything is solid white and running at over three hundred megabits in the attic. Thank you for sorting the router settings and walking me through it.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:35]",
+      "end_time": "[15:45]",
+      "start_time_sec": 935,
+      "text": "You are very welcome, Balthazar. Best of luck with your architecture presentation at nine tomorrow morning! Thank you for choosing S-Net, and have a wonderful evening.",
+      "sentiment_score": 26.0
+    }
+  ]
+}

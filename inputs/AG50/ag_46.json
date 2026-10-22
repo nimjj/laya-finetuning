@@ -1,0 +1,606 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Orlaith",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Good morning, thank you for calling S-Net Customer Support. My name is Harriet. How can I help you with your account today?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:09]",
+      "end_time": "[00:20]",
+      "start_time_sec": 9,
+      "text": "Hi Harriet, my name is Orlaith. I am ringing because I switched to S-Net Fibre 300 two months ago for the seventy-five pound prepaid MasterCard reward, and it still hasn't arrived.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:21]",
+      "end_time": "[00:34]",
+      "start_time_sec": 21,
+      "text": "I am really sorry to hear that your seventy-five pound prepaid reward card still hasn't come through after two months, as I completely understand how frustrating it is waiting on a sign-up incentive you were promised.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:35]",
+      "end_time": "[00:43]",
+      "start_time_sec": 35,
+      "text": "Honestly it is really annoying. That seventy-five pound reward card was the main reason I chose the Fibre 300 deal over another provider.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:44]",
+      "end_time": "[01:00]",
+      "start_time_sec": 44,
+      "text": "So just to make sure I have the full picture, you activated your S-Net Fibre 300 package around sixty days ago under the promotional seventy-five pound prepaid MasterCard offer, and you have not received the card or claim link yet, is that right?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:01]",
+      "end_time": "[01:08]",
+      "start_time_sec": 61,
+      "text": "Yes, that is spot on. Sixty-two days since the engineer installed the box on the wall, to be exact.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:09]",
+      "end_time": "[01:20]",
+      "start_time_sec": 69,
+      "text": "I will check what has happened with that promotion right away. Before I open your billing profile, could you please confirm your full postal address and your four-digit security PIN?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:21]",
+      "end_time": "[01:26]",
+      "start_time_sec": 81,
+      "text": "Sure, my address is 19 Meadowbank Crescent, Sheffield, S8 7RL, and my four-digit PIN is 4829.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:27]",
+      "end_time": "[01:35]",
+      "start_time_sec": 87,
+      "text": "Thank you for verifying those security details. I have your S-Net Fibre 300 account open on my screen now.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:36]",
+      "end_time": "[01:42]",
+      "start_time_sec": 96,
+      "text": "Great. Can you see why the reward card hasn't been sent out to me yet?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:43]",
+      "end_time": "[01:57]",
+      "start_time_sec": 103,
+      "text": "Let me ask a few questions so I can trace the promotional tracking properly. Did you place your Fibre 300 order directly on the S-Net website, or did you click through from a broadband comparison site?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:58]",
+      "end_time": "[02:08]",
+      "start_time_sec": 118,
+      "text": "I clicked through from Uswitch on the fifth of August because they had the exclusive seventy-five pound prepaid MasterCard banner on the Fibre 300 listing.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:09]",
+      "end_time": "[02:20]",
+      "start_time_sec": 129,
+      "text": "Got it, thank you. When you redirected from Uswitch to the S-Net checkout page, did you receive an automated affiliate registration email with a voucher tracking reference number?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:21]",
+      "end_time": "[02:33]",
+      "start_time_sec": 141,
+      "text": "Yes, I did! I actually kept the email right here. The Uswitch reward reference is USW-994182-SN, and it said the claim link would arrive within forty-five days of service activation.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:34]",
+      "end_time": "[02:44]",
+      "start_time_sec": 154,
+      "text": "That reference number is very helpful. And could you confirm the exact date the Openreach engineer completed the Fibre 300 installation at your property?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:45]",
+      "end_time": "[02:53]",
+      "start_time_sec": 165,
+      "text": "The engineer finished installing the optical network terminal on the fourteenth of August, and my broadband went live that same afternoon.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:54]",
+      "end_time": "[03:04]",
+      "start_time_sec": 174,
+      "text": "Thank you. Have you checked your email spam, junk, and promotions folders over the past three weeks for any messages from S-Net Rewards or Blackhawk Network?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:05]",
+      "end_time": "[03:14]",
+      "start_time_sec": 185,
+      "text": "Yes, I have searched my inbox and spam folder every single day for 'S-Net', 'Blackhawk', and 'MasterCard', and nothing at all has landed.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:15]",
+      "end_time": "[03:29]",
+      "start_time_sec": 195,
+      "text": "Did you happen to have an ad-blocker or strict privacy extension enabled in your browser when you clicked from Uswitch to S-Net on the fifth of August, or did you amend the order by phone afterwards?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:30]",
+      "end_time": "[03:41]",
+      "start_time_sec": 210,
+      "text": "No, I completed the whole order online in one go without touching anything by phone, and Uswitch even sent me their confirmation saying my order was tracked.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:42]",
+      "end_time": "[03:52]",
+      "start_time_sec": 222,
+      "text": "Let me inspect the affiliate referral ledger linked to your order ID SN-7730419. Give me just a second while I open the promotional log.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:53]",
+      "end_time": "[03:55]",
+      "start_time_sec": 233,
+      "text": "Okay, go ahead.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:57]",
+      "end_time": "[04:10]",
+      "start_time_sec": 237,
+      "text": "I can see the affiliate tag USW-994182-SN was captured when you ordered on the fifth of August, and your Fibre 300 service passed the thirty-day minimum cooling-off period on the thirteenth of September.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:11]",
+      "end_time": "[04:20]",
+      "start_time_sec": 251,
+      "text": "Right, so if it was captured and passed the cooling-off window over a month ago, why haven't I been sent the seventy-five pounds?",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:21]",
+      "end_time": "[04:33]",
+      "start_time_sec": 261,
+      "text": "According to the affiliate portal status note here, the batch file export to our external prepaid card partner failed with an 'Unmatched Email Handshake' error on the twentieth of September.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:34]",
+      "end_time": "[04:43]",
+      "start_time_sec": 274,
+      "text": "An unmatched email handshake? My email hasn't changed in ten years! Can you just push it through or send me the card now?",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:44]",
+      "end_time": "[04:54]",
+      "start_time_sec": 284,
+      "text": "Look, the third-party voucher fulfilment agency Blackhawk runs that reward card promotion, that's not our department and you'd normally have to email their claims desk yourself.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:55]",
+      "end_time": "[05:06]",
+      "start_time_sec": 295,
+      "text": "Excuse me? I didn't sign a contract with Blackhawk, I signed a twenty-four month broadband contract with S-Net! Why are you telling me it's not your department?",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:07]",
+      "end_time": "[05:18]",
+      "start_time_sec": 307,
+      "text": "Because S-Net only supplies the broadband line and passes the order file over. Once the referral batch is generated, Blackhawk Network manages the virtual and physical MasterCard dispatch.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:19]",
+      "end_time": "[05:32]",
+      "start_time_sec": 319,
+      "text": "You just told me the batch file export from S-Net failed with an handshake error! If S-Net's export failed, Blackhawk won't even have my claim, so emailing them myself will get me nowhere.",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:33]",
+      "end_time": "[05:43]",
+      "start_time_sec": 333,
+      "text": "They have a manual exception form where customers upload their Uswitch confirmation PDF and their first S-Net bill so Blackhawk can verify the order.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:44]",
+      "end_time": "[05:56]",
+      "start_time_sec": 344,
+      "text": "That is ridiculous. I have already waited sixty-two days and now you want me to chase a third-party agency with PDFs because your system failed to export my email?",
+      "sentiment_score": -48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:57]",
+      "end_time": "[06:05]",
+      "start_time_sec": 357,
+      "text": "That is the standard process set out in the promotional terms and conditions when an affiliate voucher batch doesn't sync automatically.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:06]",
+      "end_time": "[06:17]",
+      "start_time_sec": 366,
+      "text": "No, I am not accepting being fobbed off to an external claims desk. Can you not reissue the voucher or sort this out from your side at S-Net?",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:18]",
+      "end_time": "[06:24]",
+      "start_time_sec": 378,
+      "text": "I really don't know why customers expect technical and billing support to chase affiliate gift cards.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:25]",
+      "end_time": "[06:37]",
+      "start_time_sec": 385,
+      "text": "Wow, did you seriously just say that to me? That is incredibly rude! I am calling S-Net Customer Support about an S-Net sign-up promotion that S-Net failed to process!",
+      "sentiment_score": -58.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:38]",
+      "end_time": "[06:48]",
+      "start_time_sec": 398,
+      "text": "I didn't mean for that to sound rude, I am just explaining that the gift card portal is managed outside our regular billing system.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:49]",
+      "end_time": "[07:03]",
+      "start_time_sec": 409,
+      "text": "Well it sounded very dismissive. Look, seventy-five pounds is two and a half months of my Fibre 300 bill. If you can't send the MasterCard, just credit seventy-five pounds onto my S-Net broadband bill instead!",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:04]",
+      "end_time": "[07:15]",
+      "start_time_sec": 424,
+      "text": "Wait—actually, applying an equivalent promotional bill credit directly onto your S-Net broadband account is something I can do if we cancel the unclaimed Blackhawk voucher code first.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:16]",
+      "end_time": "[07:25]",
+      "start_time_sec": 436,
+      "text": "Really? Honestly, I would much rather have seventy-five pounds knocked straight off my broadband bill than faff around with a prepaid card anyway!",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:26]",
+      "end_time": "[07:40]",
+      "start_time_sec": 446,
+      "text": "If we do that, I will need to void voucher reference USW-994182-SN in the affiliate portal so it cannot be claimed twice, and then apply a tax-free seventy-five pound promotional adjustment directly to your S-Net ledger.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:41]",
+      "end_time": "[07:46]",
+      "start_time_sec": 461,
+      "text": "Yes, please do that right now! That solves the whole headache for me.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:47]",
+      "end_time": "[08:00]",
+      "start_time_sec": 467,
+      "text": "I can certainly process that for you now. Because seventy-five pounds is above the standard fifty-pound front-line credit threshold, I just need to run the promotional buyout code through our billing override tool.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:01]",
+      "end_time": "[08:05]",
+      "start_time_sec": 481,
+      "text": "No problem at all, how long will that take?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:06]",
+      "end_time": "[08:19]",
+      "start_time_sec": 486,
+      "text": "It will only take about a minute. May I place you on a brief hold while I void the external Blackhawk claim ID and post the seventy-five pound credit onto your S-Net account?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:20]",
+      "end_time": "[08:22]",
+      "start_time_sec": 500,
+      "text": "Yes, of course, take your time.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:22]",
+      "end_time": "[09:36]",
+      "start_time_sec": 562,
+      "text": "Thank you for holding. I have voided the stuck Blackhawk voucher reference USW-994182-SN so you won't have to contact any third party, and I have applied the full seventy-five pound credit directly to your S-Net account.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:37]",
+      "end_time": "[09:43]",
+      "start_time_sec": 577,
+      "text": "Oh, brilliant! So that seventy-five pounds is sitting on my broadband account right now?",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:44]",
+      "end_time": "[09:54]",
+      "start_time_sec": 584,
+      "text": "Yes, it is live on your ledger under adjustment reference ADJ-884920. Previously your account balance was zero because your October direct debit had already cleared.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:55]",
+      "end_time": "[09:59]",
+      "start_time_sec": 595,
+      "text": "And what does my balance show on your screen now?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:00]",
+      "end_time": "[10:06]",
+      "start_time_sec": 600,
+      "text": "Your S-Net account balance now shows minus seventy-five pounds and zero pence in credit.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:07]",
+      "end_time": "[10:15]",
+      "start_time_sec": 607,
+      "text": "How will that work with my upcoming monthly bills? My Fibre 300 package is twenty-nine pounds and ninety-nine pence a month.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:16]",
+      "end_time": "[10:28]",
+      "start_time_sec": 616,
+      "text": "Your next bill on the fourteenth of November for twenty-nine pounds and ninety-nine pence will be paid automatically from the credit, leaving forty-five pounds and one penny in credit.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:29]",
+      "end_time": "[10:35]",
+      "start_time_sec": 629,
+      "text": "Okay, and then December's bill will come out of the rest of the credit too?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:36]",
+      "end_time": "[10:52]",
+      "start_time_sec": 636,
+      "text": "Exactly. Your December bill of twenty-nine pounds and ninety-nine pence will also be covered in full, leaving fifteen pounds and two pence to come off your January bill, so your bank direct debit won't take a penny in November or December.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:53]",
+      "end_time": "[11:03]",
+      "start_time_sec": 653,
+      "text": "Let me just refresh my My S-Net billing page on my phone while I have you on the line so I can see it for myself.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:04]",
+      "end_time": "[11:12]",
+      "start_time_sec": 664,
+      "text": "Please go ahead and refresh the billing tab—it updates in real time as soon as an adjustment ID is committed.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:13]",
+      "end_time": "[11:18]",
+      "start_time_sec": 673,
+      "text": "Hang on, it is just loading the payments and credits summary now...",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:19]",
+      "end_time": "[11:23]",
+      "start_time_sec": 679,
+      "text": "Take all the time you need to check it.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:24]",
+      "end_time": "[11:35]",
+      "start_time_sec": 684,
+      "text": "Yes! Right at the top under Current Balance it says minus seventy-five pounds, Credit Balance, and under recent transactions it says Promotional Reward Buyout Credit seventy-five pounds!",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:36]",
+      "end_time": "[11:43]",
+      "start_time_sec": 696,
+      "text": "That is great news, I am glad it is showing clearly on your My S-Net app straight away.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:44]",
+      "end_time": "[11:54]",
+      "start_time_sec": 704,
+      "text": "And just to be one hundred percent sure, Blackhawk won't suddenly contact me or try to charge anything back since you cancelled the voucher code?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:55]",
+      "end_time": "[12:05]",
+      "start_time_sec": 715,
+      "text": "No, the affiliate claim USW-994182-SN is permanently marked as 'Redeemed via Direct Bill Credit' on the reconciliation table, so the matter is completely closed.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:06]",
+      "end_time": "[12:15]",
+      "start_time_sec": 726,
+      "text": "Could you also send me an email confirmation of the seventy-five pound credit and the adjustment reference number just for my records?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:16]",
+      "end_time": "[12:26]",
+      "start_time_sec": 736,
+      "text": "I have just triggered an automated credit note receipt for adjustment ADJ-884920 to your registered email address, which will arrive within the next two minutes.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:27]",
+      "end_time": "[12:33]",
+      "start_time_sec": 747,
+      "text": "In fact, my phone just buzzed—the S-Net credit confirmation email has already landed in my inbox.",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:34]",
+      "end_time": "[12:42]",
+      "start_time_sec": 754,
+      "text": "Even better. Everything on your Fibre 300 speed and connection has been running smoothly since the August installation otherwise?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:43]",
+      "end_time": "[12:53]",
+      "start_time_sec": 763,
+      "text": "Yes, the broadband itself has been rock solid at three hundred megabits, it was literally just the missing reward card that had me annoyed.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:54]",
+      "end_time": "[13:04]",
+      "start_time_sec": 774,
+      "text": "I am glad the connection itself has been working well for you, and that your seventy-five pound credit is now safely on your bill.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:05]",
+      "end_time": "[13:13]",
+      "start_time_sec": 785,
+      "text": "Yes, having it come straight off my November, December, and January bills is actually much more convenient than a prepaid card.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:14]",
+      "end_time": "[13:20]",
+      "start_time_sec": 794,
+      "text": "Is there anything else at all I can help you with on your S-Net account today?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:21]",
+      "end_time": "[13:27]",
+      "start_time_sec": 801,
+      "text": "No, that is everything sorted now. Thanks for applying the credit in the end.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:28]",
+      "end_time": "[13:33]",
+      "start_time_sec": 808,
+      "text": "You are very welcome. Have a lovely rest of your week, goodbye!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:34]",
+      "end_time": "[13:36]",
+      "start_time_sec": 814,
+      "text": "Goodbye!",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:38]",
+      "end_time": "[13:40]",
+      "start_time_sec": 818,
+      "text": "Take care, bye now.",
+      "sentiment_score": 15.0
+    }
+  ]
+}

@@ -1,0 +1,630 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Adebayo",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:04]",
+      "start_time_sec": 0,
+      "text": "Good morning and thank you for calling S-Net Business Fibre Support. My name is Marcus. Who am I speaking with today?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:05]",
+      "end_time": "[00:12]",
+      "start_time_sec": 5,
+      "text": "Morning Marcus, this is Adebayo calling from Okafor Freight Logistics. We have a critical routing outage on our static IP block after your overnight maintenance in Croydon.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:13]",
+      "end_time": "[00:23]",
+      "start_time_sec": 13,
+      "text": "Good morning, Adebayo. I am really sorry to hear that your static IP block has gone down after the overnight work—I completely understand how disruptive that is when you are running a freight logistics operation.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:24]",
+      "end_time": "[00:31]",
+      "start_time_sec": 24,
+      "text": "Before I pull up the exchange routing tables for your line, could you please confirm your registered business address and the four-digit security PIN on the account?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:32]",
+      "end_time": "[00:36]",
+      "start_time_sec": 32,
+      "text": "Yes, the business address is Unit 6, Beddington Cross Industrial Estate, Croydon, CR0 4XH, and our account security PIN is 6104.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:37]",
+      "end_time": "[00:44]",
+      "start_time_sec": 37,
+      "text": "Thank you, Adebayo, both your address and PIN are verified. Could you tell me exactly what you are seeing on your network since the maintenance window finished?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:45]",
+      "end_time": "[00:54]",
+      "start_time_sec": 45,
+      "text": "Our main PPPoE fibre session came back up at 03:50 AM and standard office browsing works on the dynamic gateway IP, but our entire assigned /29 static subnet—81.144.210.48/29—is completely unreachable from outside.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:55]",
+      "end_time": "[01:03]",
+      "start_time_sec": 55,
+      "text": "That means our Cisco Meraki site-to-site VPN tunnels to our Dover and Felixstowe depots are dead, and none of our warehouse barcode scanners can sync with our inventory server on .50.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:04]",
+      "end_time": "[01:13]",
+      "start_time_sec": 64,
+      "text": "I can hear how urgent this is with Dover and Felixstowe cut off and your warehouse barcode scanners unable to sync, Adebayo. I am genuinely sorry your morning has started with this outage.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:14]",
+      "end_time": "[01:29]",
+      "start_time_sec": 74,
+      "text": "Just to paraphrase and make sure I have every technical detail straight: your primary PPPoE WAN link recovered at 03:50 AM after the Croydon maintenance, but inbound and outbound routing for your 81.144.210.48/29 static IP block is failing, knocking out your Meraki VPNs and warehouse server on .50.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:30]",
+      "end_time": "[01:32]",
+      "start_time_sec": 90,
+      "text": "Yes, Marcus, that is the exact situation.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:33]",
+      "end_time": "[01:37]",
+      "start_time_sec": 93,
+      "text": "Let's run through a few targeted diagnostic checks together so we can pinpoint exactly where the /29 packets are dropping.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:38]",
+      "end_time": "[01:41]",
+      "start_time_sec": 98,
+      "text": "Sure, I have my terminal and the Cisco Meraki dashboard open right in front of me.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:42]",
+      "end_time": "[01:52]",
+      "start_time_sec": 102,
+      "text": "First, how is your Cisco Meraki firewall configured to handle the 81.144.210.48/29 block—are you using framing over PPPoE with IP unnumbered on the LAN interface, or 1-to-1 NAT rules on the WAN uplink?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:53]",
+      "end_time": "[02:04]",
+      "start_time_sec": 113,
+      "text": "It's a Cisco Meraki MX68. The PPPoE session terminates directly on WAN1, and we bind .49 as the MX68 VPN endpoint and route .50 through .54 via 1-to-1 NAT to our internal DMZ servers.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:05]",
+      "end_time": "[02:13]",
+      "start_time_sec": 125,
+      "text": "That is a very clean configuration, Adebayo. Have you changed any NAT rules or rebooted either the Nokia ONT or the Meraki MX68 since 04:00 AM this morning?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:14]",
+      "end_time": "[02:24]",
+      "start_time_sec": 134,
+      "text": "No configuration changes at all—this setup has run untouched for fourteen months. I did power-cycle both the Nokia ONT and the Meraki MX68 at 07:15 AM to force a fresh PPPoE RADIUS authentication.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:25]",
+      "end_time": "[02:34]",
+      "start_time_sec": 145,
+      "text": "Good call testing a fresh RADIUS handshake at 07:15 AM. When the Meraki MX68 re-authenticated on PPPoE, did it receive the usual dynamic /32 anchor IP or a different pool address?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:35]",
+      "end_time": "[02:42]",
+      "start_time_sec": 155,
+      "text": "Actually, now that you ask, previously our PPPoE anchor IP was always in the 81.144.192.x range, and this morning after the maintenance it pulled 172.16.250.114.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:43]",
+      "end_time": "[02:54]",
+      "start_time_sec": 163,
+      "text": "Aha, that is a very telling detail! And when you run a traceroute from an external connection—say from your Dover depot or a mobile hotspot—toward 81.144.210.49 or .50, which hop is the last one to respond?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:55]",
+      "end_time": "[03:07]",
+      "start_time_sec": 175,
+      "text": "I ran a traceroute from my 5G hotspot ten minutes ago. It reaches hop 1 and hop 2 inside S-Net's London core, hits `bng-croydon-02.core.s-net.net` at hop 3, and then gives 'Destination Host Unreachable' right from that BNG router.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:17]",
+      "start_time_sec": 188,
+      "text": "And what if you ping an external address like `8.8.8.8` from your Meraki MX68 diagnostic tool while sourcing the ping specifically from `81.144.210.49` instead of the default PPPoE interface?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:18]",
+      "end_time": "[03:26]",
+      "start_time_sec": 198,
+      "text": "When I source the ping from `81.144.210.49`, it fails at 100% packet loss. If I source it from the `172.16.250.114` PPPoE interface, it replies in four milliseconds.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:27]",
+      "end_time": "[03:34]",
+      "start_time_sec": 207,
+      "text": "Thank you, Adebayo—between the `172.16.250.114` anchor IP change and the ICMP unreachable message coming back from `bng-croydon-02` at hop 3, we have narrowed this down completely.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:35]",
+      "end_time": "[03:41]",
+      "start_time_sec": 215,
+      "text": "So our Meraki MX68 and the fibre circuit at Unit 6 are fine, and the problem is inside `bng-croydon-02` at the exchange?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:42]",
+      "end_time": "[03:54]",
+      "start_time_sec": 222,
+      "text": "Yes, let me log into the diagnostic mirror for `bng-croydon-02` and check the RADIUS framed-route attribute and BGP redistribution table for `81.144.210.48/29`. Please bear with me while I inspect the core edge router routing table for your exchange.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:55]",
+      "end_time": "[03:57]",
+      "start_time_sec": 235,
+      "text": "No problem, Marcus, I'll hold.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:03]",
+      "end_time": "[05:11]",
+      "start_time_sec": 303,
+      "text": "Thank you for holding, Adebayo. I have examined the routing state on `bng-croydon-02` and I can see why your `81.144.210.48/29` block stopped routing after the 03:50 AM cutover.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:12]",
+      "end_time": "[05:14]",
+      "start_time_sec": 312,
+      "text": "What did you find on the router?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:15]",
+      "end_time": "[05:26]",
+      "start_time_sec": 315,
+      "text": "During last night's maintenance in Croydon, our sessions were migrated from `bng-croydon-01` to the new `bng-croydon-02` chassis, and the new chassis is ignoring the RADIUS `Framed-Route` attribute because its static-to-BGP redistribution policy map wasn't loaded.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:27]",
+      "end_time": "[05:35]",
+      "start_time_sec": 327,
+      "text": "Okay, at least we know the exact root cause! Can you load that redistribution policy or add the static route for `81.144.210.48/29` pointed to our PPPoE interface now?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:36]",
+      "end_time": "[05:47]",
+      "start_time_sec": 336,
+      "text": "Honestly, Adebayo, that's the core network team's problem—they broke the BGP routing table during last night's maintenance and there's nothing I can do from here, you'll have to wait for them to sort their mess out.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:48]",
+      "end_time": "[06:00]",
+      "start_time_sec": 348,
+      "text": "Wait a second, Marcus—what do you mean we just have to wait for them to sort their mess out? We have freight lorries sitting at Dover and Felixstowe that can't clear manifests without the VPN on `.49`!",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:01]",
+      "end_time": "[06:12]",
+      "start_time_sec": 361,
+      "text": "I do appreciate how frustrating the situation is, Adebayo, and I respect the pressure your logistics team is under, but Tier 1 Business Support doesn't have write access to `bng-croydon-02`—the core engineering team owns that router.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:13]",
+      "end_time": "[06:23]",
+      "start_time_sec": 373,
+      "text": "Well, can't you ring the Tier 3 core network duty engineer on their internal bridge and ask them to push the BGP route for our `/29` right now while I'm on the phone?",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:24]",
+      "end_time": "[06:37]",
+      "start_time_sec": 384,
+      "text": "No, they don't take direct calls or warm transfers from our desk, Adebayo. All I can do is submit an escalation ticket into the core network team's queue and let them pick it up when they review the post-maintenance backlog.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:38]",
+      "end_time": "[06:49]",
+      "start_time_sec": 398,
+      "text": "Submit a ticket into a backlog queue?! If they broke the Croydon BNG router during their own overnight window, surely you can take ownership of chasing a senior engineer or getting a manager to expedite it?",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:50]",
+      "end_time": "[07:01]",
+      "start_time_sec": 410,
+      "text": "Look, I didn't carry out the Croydon maintenance last night, Adebayo—the core infrastructure division ran that change without testing the RADIUS framed-route policy map, so it's entirely on their shoulders to patch the router.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:02]",
+      "end_time": "[07:13]",
+      "start_time_sec": 422,
+      "text": "I know you didn't personally type the commands at three in the morning, Marcus, but as an S-Net Business customer paying for a static IP SLA, I'm talking to you to get it fixed!",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:14]",
+      "end_time": "[07:25]",
+      "start_time_sec": 434,
+      "text": "I completely understand why you feel that way, Adebayo, and I have written up all of your traceroute findings—including hop 3 at `bng-croydon-02`, the `172.16.250.114` anchor IP, and the `81.144.210.48/29` subnet—into incident ticket NET-55821.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:26]",
+      "end_time": "[07:36]",
+      "start_time_sec": 446,
+      "text": "So the ticket is logged, and what is the actual timeframe for the Tier 3 engineers to fix `bng-croydon-02`? Are our `.49` VPN and `.50` warehouse server still completely dead right now?",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:37]",
+      "end_time": "[07:48]",
+      "start_time_sec": 457,
+      "text": "Yes, `81.144.210.48/29` is still unreachable right now and will remain offline until the Tier 3 core network engineers apply the BGP route-map fix on `bng-croydon-02`, which their queue estimates for this afternoon around 14:00.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:49]",
+      "end_time": "[07:57]",
+      "start_time_sec": 469,
+      "text": "Two o'clock this afternoon! That means we have another five hours with no site-to-site VPN to Dover or Felixstowe and no barcode scanner sync in the Croydon warehouse.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:58]",
+      "end_time": "[08:10]",
+      "start_time_sec": 478,
+      "text": "As a temporary workaround if you want to try it on your side, Adebayo, you could temporarily re-point your Dover and Felixstowe Meraki peers to connect to the dynamic `172.16.250.114` IP if it happens to be routable.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:11]",
+      "end_time": "[08:17]",
+      "start_time_sec": 491,
+      "text": "172.16.250.114 is a private RFC 1918 CGNAT-style anchor address inside S-Net's core—you can't terminate an external internet IPsec VPN onto a 172.16 address!",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:18]",
+      "end_time": "[08:29]",
+      "start_time_sec": 498,
+      "text": "Ah, yes, you are quite right about `172.16.250.114` being non-routable externally, my apologies for that suggestion. Unfortunately, we really do just have to wait for Tier 3 to fix the BGP redistribution on `bng-croydon-02`.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:30]",
+      "end_time": "[08:39]",
+      "start_time_sec": 510,
+      "text": "Let me also check whether the ARP and neighbour discovery tables on the Croydon aggregation switch are seeing any traffic from `.51` through `.54` on your Meraki LAN side.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:40]",
+      "end_time": "[08:49]",
+      "start_time_sec": 520,
+      "text": "On the Meraki LAN side, `.50` is our main WMS barcode database server, `.51` is our EDI customs declaration gateway for HMRC, and `.52` is our remote desktop bastion host.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:50]",
+      "end_time": "[08:58]",
+      "start_time_sec": 530,
+      "text": "Right, having your HMRC customs declaration gateway on `.51` down alongside the `.50` warehouse server and `.49` Meraki VPN makes this even more critical for your freight movements.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:59]",
+      "end_time": "[09:08]",
+      "start_time_sec": 539,
+      "text": "Exactly—every lorry leaving Beddington Cross for Dover has to lodge a safety and security declaration through `.51`, and without that static IP whitelisted by HMRC's gateway, our declarations are rejected.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:09]",
+      "end_time": "[09:13]",
+      "start_time_sec": 549,
+      "text": "I completely see why a dynamic IP wouldn't help for HMRC's IP-whitelisted customs gateway on `.51` either, Adebayo.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:14]",
+      "end_time": "[09:23]",
+      "start_time_sec": 554,
+      "text": "While you had the diagnostic mirror open for `bng-croydon-02`, did it show whether other Business Fibre customers on that exchange lost their `/29` or `/30` blocks last night too?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:24]",
+      "end_time": "[09:34]",
+      "start_time_sec": 564,
+      "text": "Looking at the exchange parent alarm on `bng-croydon-02`, there are forty-seven business circuits on the Croydon BNG chassis whose RADIUS `Framed-Route` static subnets failed to import into OSPF and BGP at 03:50 AM.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:35]",
+      "end_time": "[09:42]",
+      "start_time_sec": 575,
+      "text": "Forty-seven business circuits in Croydon! And how is that only logged as a Priority 2 ticket in their backlog queue instead of an immediate emergency bridge?",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:43]",
+      "end_time": "[09:53]",
+      "start_time_sec": 583,
+      "text": "Because the underlying PPPoE bearer sessions are technically up and passing dynamic traffic, the core network team classified the static subnet drop as a degraded service defect rather than a total exchange blackout.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:54]",
+      "end_time": "[10:03]",
+      "start_time_sec": 594,
+      "text": "For a residential user maybe, not for a business paying for routed static IPs! Can you at least upgrade incident NET-55821 from Priority 2 to Priority 1 on our account?",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:04]",
+      "end_time": "[10:15]",
+      "start_time_sec": 604,
+      "text": "Our system blocks Tier 1 agents from setting Priority 1 unless the physical optical fibre ONT LOS light is red—again, that's how the core network team configured the ticketing rules, so my hands are tied.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:16]",
+      "end_time": "[10:23]",
+      "start_time_sec": 616,
+      "text": "Every answer from you now is 'my hands are tied' or 'that's the core team's problem', Marcus. Up until two minutes ago you were really helpful!",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:24]",
+      "end_time": "[10:35]",
+      "start_time_sec": 624,
+      "text": "I genuinely want to be upfront with you, Adebayo, rather than making a promise I cannot keep. I can diagnose the exact hop failure on `bng-croydon-02`, but only the core engineers can touch the BGP table.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:36]",
+      "end_time": "[10:43]",
+      "start_time_sec": 636,
+      "text": "What about applying our four-hour Business SLA compensation credit while we're on the phone, since we've already been down from 03:50 AM past 08:00 AM?",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:44]",
+      "end_time": "[10:56]",
+      "start_time_sec": 644,
+      "text": "The SLA clock on incident NET-55821 has been backdated to 03:50 AM in the fault record, Adebayo, so once the core team closes the fault this afternoon, the SLA credit calculation will trigger on your next invoice.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:57]",
+      "end_time": "[11:05]",
+      "start_time_sec": 657,
+      "text": "Okay, please make sure that 03:50 AM start timestamp is explicitly written in the notes so we don't have to argue about when the `/29` block went down.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:06]",
+      "end_time": "[11:16]",
+      "start_time_sec": 666,
+      "text": "I have explicitly recorded 03:50 AM—matching the `bng-croydon-02` migration cutover log—as the outage start time for `81.144.210.48/29`, along with the impact to your `.49` VPN, `.50` WMS server, and `.51` HMRC gateway.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:17]",
+      "end_time": "[11:25]",
+      "start_time_sec": 677,
+      "text": "And do I need to reboot the Cisco Meraki MX68 or drop the PPPoE session again once the Tier 3 engineers load the BGP route-map on `bng-croydon-02`?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:26]",
+      "end_time": "[11:34]",
+      "start_time_sec": 686,
+      "text": "That is a very good question, Adebayo. When Tier 3 enables the RADIUS `Framed-Route` redistribution policy, they will trigger a soft CoA—Change of Authorisation—refresh on active PPPoE sessions.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:35]",
+      "end_time": "[11:38]",
+      "start_time_sec": 695,
+      "text": "And if the soft CoA refresh doesn't immediately inject `81.144.210.48/29` into the routing table?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:39]",
+      "end_time": "[11:50]",
+      "start_time_sec": 699,
+      "text": "If your continuous ping to `81.144.210.49` doesn't start replying within two minutes of receiving the restoration SMS, disconnecting and reconnecting the WAN1 PPPoE session on your Meraki MX68 will force a clean RADIUS route install.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:51]",
+      "end_time": "[11:58]",
+      "start_time_sec": 711,
+      "text": "Alright, I've noted that down for our IT technician here in Croydon in case I'm over at the warehouse floor when the text arrives.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:59]",
+      "end_time": "[12:05]",
+      "start_time_sec": 719,
+      "text": "I have also listed both your main office number and your mobile number on NET-55821 so the automated update reaches you straight away.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:06]",
+      "end_time": "[12:13]",
+      "start_time_sec": 726,
+      "text": "Still, it's pretty disappointing that we're ending this call with our entire `/29` static block offline and our Dover and Felixstowe depots cut off.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:14]",
+      "end_time": "[12:21]",
+      "start_time_sec": 734,
+      "text": "I completely understand your disappointment, Adebayo. Everything from our diagnostic trace is attached to NET-55821 for the Tier 3 core network engineers to action.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:22]",
+      "end_time": "[12:24]",
+      "start_time_sec": 742,
+      "text": "Right, I'll await the SMS from Tier 3 later today then.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:25]",
+      "end_time": "[12:30]",
+      "start_time_sec": 745,
+      "text": "At least give me the incident reference number again so I have something to quote if nothing happens by lunchtime.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:31]",
+      "end_time": "[12:42]",
+      "start_time_sec": 751,
+      "text": "Of course, Adebayo. The Priority 2 network incident reference is NET-55821, and I have attached your mobile contact number so the automated SMS gateway texts you as soon as the Croydon BNG route-map is restored.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:43]",
+      "end_time": "[12:48]",
+      "start_time_sec": 763,
+      "text": "Fine. NET-55821. I'll watch for the text message and keep running a continuous ping to `81.144.210.49` from our Dover terminal.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:49]",
+      "end_time": "[12:58]",
+      "start_time_sec": 769,
+      "text": "Thank you for your patience while we went through the diagnostics today, Adebayo, and I am sorry again that the `/29` static block remains down pending the core team's afternoon fix.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:59]",
+      "end_time": "[13:01]",
+      "start_time_sec": 779,
+      "text": "Alright, thanks for finding out what broke at least, Marcus. Goodbye.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:02]",
+      "end_time": "[13:10]",
+      "start_time_sec": 782,
+      "text": "Thank you for choosing S-Net, Adebayo, and I hope the core team restores your routing well before two o'clock. Goodbye.",
+      "sentiment_score": 16.0
+    }
+  ]
+}

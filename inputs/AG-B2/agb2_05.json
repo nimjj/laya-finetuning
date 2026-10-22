@@ -1,0 +1,463 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Declan",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer billing, my name is Darren. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:25]",
+      "start_time_sec": 11,
+      "text": "Yeah hi Darren, um, I'm ringing because you lot have taken two payments out of my bank account this month and then hit me with a penalty fee, and it's completely wrong.",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:28]",
+      "end_time": "[00:40]",
+      "start_time_sec": 28,
+      "text": "I can look at your billing statement today, Declan. Before I pull up the billing screen, please confirm your billing address and your four digit security PIN."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:43]",
+      "end_time": "[00:51]",
+      "start_time_sec": 43,
+      "text": "Address is 85 Belgrave Road, um, Birmingham, B5 7ER, and the PIN is four four one nine.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:54]",
+      "end_time": "[01:04]",
+      "start_time_sec": 54,
+      "text": "Thank you Declan, that verifies your account. Your current ledger shows an outstanding balance of ninety-six pounds including a late direct debit fee."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:07]",
+      "end_time": "[01:14]",
+      "start_time_sec": 67,
+      "text": "That is total nonsense though, you know, my monthly package is only forty-eight pounds, not ninety-six.",
+      "sentiment_score": -16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:17]",
+      "end_time": "[01:30]",
+      "start_time_sec": 77,
+      "text": "The billing record indicates that the direct debit requested on the third of the month was rejected by your banking provider with unpaid return reason code unpaid account closed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:33]",
+      "end_time": "[01:47]",
+      "start_time_sec": 93,
+      "text": "Because I switched bank accounts two weeks ago, um, and I gave S-Net my new bank details online well before the direct debit run! I used the automated Current Account Switch Service.",
+      "sentiment_score": -19.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:50]",
+      "end_time": "[02:04]",
+      "start_time_sec": 110,
+      "text": "Our automated clearing house BACS payment file was already submitted five full business days prior to the payment date, so the debit was drawn against the legacy closed account number."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:07]",
+      "end_time": "[02:29]",
+      "start_time_sec": 127,
+      "text": "Well that is your system's fault, not mine! You tried to pull money from a dead account, charged me two lots of forty-eight pounds plus a twenty-four pound bounce fee, and now my internet has a restriction warning on it! I am absolutely livid about this, it is scandalous!",
+      "sentiment_score": -52.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:32]",
+      "end_time": "[02:44]",
+      "start_time_sec": 152,
+      "text": "To lift the suspension flag from your broadband profile, the full overdue amount of ninety-six pounds needs to be cleared by debit or credit card today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:47]",
+      "end_time": "[03:07]",
+      "start_time_sec": 167,
+      "text": "I am not paying ninety-six pounds when you owe me a refund! My new bank details are sort code zero four zero zero zero four and account number eight eight one two three four five six, and that's where the single correct payment should come from.",
+      "sentiment_score": -34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:10]",
+      "end_time": "[03:19]",
+      "start_time_sec": 190,
+      "text": "The system will not allow a direct debit re-submission while an active ledger default is logged against the current statement."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:22]",
+      "end_time": "[03:32]",
+      "start_time_sec": 202,
+      "text": "Can you not manually waive the penalty fee? It was your delay in updating my mandate that caused this whole mess.",
+      "sentiment_score": -21.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:35]",
+      "end_time": "[03:48]",
+      "start_time_sec": 215,
+      "text": "Administrative bounce fees are generated automatically by network banking protocols whenever a direct debit instruction fails, and the billing terminal cannot override that debit surcharge prior to account settlement."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:51]",
+      "end_time": "[04:03]",
+      "start_time_sec": 231,
+      "text": "That is unbelievable. So you make a mistake with my bank details, and I have to pay twenty-four pounds for the privilege? It makes my blood boil.",
+      "sentiment_score": -38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:06]",
+      "end_time": "[04:17]",
+      "start_time_sec": 246,
+      "text": "The terms and conditions of your broadband contract state that direct debit mandate modifications require ten working days to process through the interbank network."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:20]",
+      "end_time": "[04:29]",
+      "start_time_sec": 260,
+      "text": "I submitted the mandate online fourteen days ago, um, on the twentieth of last month from my work computer!",
+      "sentiment_score": -18.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:32]",
+      "end_time": "[04:39]",
+      "start_time_sec": 272,
+      "text": "Our database timestamp records the mandate submission on the twenty-sixth at four in the afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:42]",
+      "end_time": "[04:54]",
+      "start_time_sec": 282,
+      "text": "Because your website was down for maintenance over the weekend, like I tried three times on the twentieth and it kept giving error five hundred server unavailable!",
+      "sentiment_score": -22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:57]",
+      "end_time": "[05:09]",
+      "start_time_sec": 297,
+      "text": "I do not have access to past web infrastructure server logs from the customer billing queue, Declan, so I can only see the recorded submission date."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:12]",
+      "end_time": "[05:19]",
+      "start_time_sec": 312,
+      "text": "Can I speak to a supervisor or someone with authority to remove this charge?",
+      "sentiment_score": -26.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:22]",
+      "end_time": "[05:32]",
+      "start_time_sec": 322,
+      "text": "My supervisor would only reiterate the same balance requirement. If you settle forty-eight pounds now, I can temporarily suspend collection on the remainder."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:35]",
+      "end_time": "[05:45]",
+      "start_time_sec": 335,
+      "text": "Why should I pay forty-eight pounds now when you already took forty-eight pounds from my credit card as an automated top-up yesterday?",
+      "sentiment_score": -31.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:48]",
+      "end_time": "[05:55]",
+      "start_time_sec": 348,
+      "text": "The card payment yesterday was an automated token charge applied when the direct debit returned unpaid."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:58]",
+      "end_time": "[06:06]",
+      "start_time_sec": 358,
+      "text": "Exactly! So you HAVE been paid forty-eight pounds! Why does the system say I owe ninety-six then?",
+      "sentiment_score": -35.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:09]",
+      "end_time": "[06:17]",
+      "start_time_sec": 369,
+      "text": "The ledger shows the forty-eight pounds card payment is currently in pending unallocated status on the banking gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:20]",
+      "end_time": "[06:25]",
+      "start_time_sec": 380,
+      "text": "Well allocate it then! It cleared my bank account yesterday morning.",
+      "sentiment_score": -29.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:27]",
+      "end_time": "[06:34]",
+      "start_time_sec": 387,
+      "text": "Pending gateway allocations take up to seventy-two business hours to reconcile against individual account ledgers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:37]",
+      "end_time": "[06:47]",
+      "start_time_sec": 397,
+      "text": "So you have my money sitting in your gateway, but you're still threatening to cut off my broadband unless I pay again?",
+      "sentiment_score": -36.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:50]",
+      "end_time": "[06:57]",
+      "start_time_sec": 410,
+      "text": "The restriction will only trigger if the balance remains unresolved after midnight on Friday."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:00]",
+      "end_time": "[07:05]",
+      "start_time_sec": 420,
+      "text": "This is the worst customer service I've ever experienced, honestly.",
+      "sentiment_score": -32.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:07]",
+      "end_time": "[07:18]",
+      "start_time_sec": 427,
+      "text": "I understand you disagree with the ledger timing, Declan. What I can do is raise an official dispute form to our finance audit department."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:21]",
+      "end_time": "[07:26]",
+      "start_time_sec": 441,
+      "text": "How long does that dispute form take to get looked at?",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:28]",
+      "end_time": "[07:38]",
+      "start_time_sec": 448,
+      "text": "The accounts audit team investigates dispute submissions within five to seven business days and reviews both website error tickets and merchant gateway statements."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:41]",
+      "end_time": "[07:47]",
+      "start_time_sec": 461,
+      "text": "And what happens to my internet while they're investigating for a week?",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:50]",
+      "end_time": "[07:58]",
+      "start_time_sec": 470,
+      "text": "I can place a seven-day temporary hold on the account suspension flag while the audit is pending."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:01]",
+      "end_time": "[08:06]",
+      "start_time_sec": 481,
+      "text": "Okay, well please put that seven-day hold on right now.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:08]",
+      "end_time": "[08:14]",
+      "start_time_sec": 488,
+      "text": "I am applying the seven-day suspension hold code on your broadband profile now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:17]",
+      "end_time": "[08:23]",
+      "start_time_sec": 497,
+      "text": "And what about the twenty-four pound bounce fee? Will that be credited back?",
+      "sentiment_score": -8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:26]",
+      "end_time": "[08:37]",
+      "start_time_sec": 506,
+      "text": "If the audit team verifies that your mandate was submitted prior to the billing freeze date, they will apply a twenty-four pound goodwill credit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:40]",
+      "end_time": "[08:47]",
+      "start_time_sec": 520,
+      "text": "It shouldn't be a goodwill credit, it should be a complete cancellation of an invalid charge.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:50]",
+      "end_time": "[08:57]",
+      "start_time_sec": 530,
+      "text": "That decision rests entirely with the audit team after reviewing the web portal access logs."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:00]",
+      "end_time": "[09:10]",
+      "start_time_sec": 540,
+      "text": "To update the direct debit mandate for next month's payment, what were those new bank account and sort code digits again Declan?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:13]",
+      "end_time": "[09:28]",
+      "start_time_sec": 553,
+      "text": "Like I literally just told you ten minutes ago, sort code zero four zero zero zero four and account eight eight one two three four five six! Do you not write anything down?",
+      "sentiment_score": -42.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:31]",
+      "end_time": "[09:38]",
+      "start_time_sec": 571,
+      "text": "I have to re-enter them into the banking portal directly to ensure zero transcription errors."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:41]",
+      "end_time": "[09:45]",
+      "start_time_sec": 581,
+      "text": "Fine. Just make sure it actually saves this time.",
+      "sentiment_score": -15.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:47]",
+      "end_time": "[09:53]",
+      "start_time_sec": 587,
+      "text": "The new bank details are now recorded for the December billing cycle."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:56]",
+      "end_time": "[10:01]",
+      "start_time_sec": 596,
+      "text": "So is this whole mess sorted out now or what?",
+      "sentiment_score": -9.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:03]",
+      "end_time": "[10:13]",
+      "start_time_sec": 603,
+      "text": "I have logged ticket reference BD-99104 for the billing dispute and applied the suspension hold, so the balance stands pending audit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:16]",
+      "end_time": "[10:29]",
+      "start_time_sec": 616,
+      "text": "No, it's not sorted at all! The wrongful charges are still sitting there, you haven't refunded my forty-eight pounds, and I've wasted forty minutes on the phone for nothing!",
+      "sentiment_score": -48.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:32]",
+      "end_time": "[10:39]",
+      "start_time_sec": 632,
+      "text": "The audit team will contact you via email once their investigation concludes within seven days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:42]",
+      "end_time": "[10:51]",
+      "start_time_sec": 642,
+      "text": "I am going to raise a formal complaint with the ombudsman if this isn't wiped off my account by Friday.",
+      "sentiment_score": -38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:54]",
+      "end_time": "[11:01]",
+      "start_time_sec": 654,
+      "text": "You have the right to register a formal complaint via our website at any time."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:04]",
+      "end_time": "[11:08]",
+      "start_time_sec": 664,
+      "text": "I definitely will be.",
+      "sentiment_score": -22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:10]",
+      "end_time": "[11:17]",
+      "start_time_sec": 670,
+      "text": "Is there anything else regarding your S-Net services I can assist you with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:20]",
+      "end_time": "[11:24]",
+      "start_time_sec": 680,
+      "text": "No, I just want this nightmare over with.",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:26]",
+      "end_time": "[11:30]",
+      "start_time_sec": 686,
+      "text": "Thank you for calling S-Net customer billing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:32]",
+      "end_time": "[11:36]",
+      "start_time_sec": 692,
+      "text": "Goodbye.",
+      "sentiment_score": -8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:38]",
+      "end_time": "[11:42]",
+      "start_time_sec": 698,
+      "text": "Thank you for choosing S-Net. Goodbye Declan."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:44]",
+      "end_time": "[11:48]",
+      "start_time_sec": 704,
+      "text": "Whatever.",
+      "sentiment_score": -4.2
+    }
+  ]
+}

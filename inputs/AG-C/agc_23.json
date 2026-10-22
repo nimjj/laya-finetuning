@@ -1,0 +1,555 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Daniel",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer security, my name is Yasmin. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:14]",
+      "end_time": "[00:34]",
+      "start_time_sec": 14,
+      "text": "Hi Yasmin. I received a very urgent email this morning that looks like it's from S-Net saying my broadband account has been suspended due to an unpaid bill and asking me to click a link to update my payment details. I'm worried it might be a scam.",
+      "sentiment_score": -26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:41]",
+      "end_time": "[00:54]",
+      "start_time_sec": 41,
+      "text": "I understand how concerning it is to receive an urgent email threatening account suspension and requesting banking credentials. Let me inspect your billing file and review the email security headers immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:01]",
+      "end_time": "[01:09]",
+      "start_time_sec": 61,
+      "text": "Thank you Yasmin. It looked quite authentic with your company logo, but the sender address looked slightly suspicious.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:16]",
+      "end_time": "[01:25]",
+      "start_time_sec": 76,
+      "text": "Before we access your customer security file, could you please confirm your full installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:32]",
+      "end_time": "[01:39]",
+      "start_time_sec": 92,
+      "text": "Yes, it is 41 Victoria Road, Chester, CH1 3TF, and my account PIN is 9152.",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:46]",
+      "end_time": "[01:53]",
+      "start_time_sec": 106,
+      "text": "Thank you for verifying those details. I have your customer account open on our central security console."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:00]",
+      "end_time": "[02:03]",
+      "start_time_sec": 120,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:10]",
+      "end_time": "[02:34]",
+      "start_time_sec": 130,
+      "text": "So just to confirm what has occurred: you received an unsolicited email purportedly from S-Net claiming your broadband service is suspended for non-payment and directing you to click an external link to submit payment details, and you want to verify whether this is genuine S-Net correspondence or a phishing fraud attempt. Have I understood correctly?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:41]",
+      "end_time": "[02:48]",
+      "start_time_sec": 161,
+      "text": "Yes, spot on. I didn't click the link because my direct debit went through fine last week.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:55]",
+      "end_time": "[03:00]",
+      "start_time_sec": 175,
+      "text": "First, let's verify your true account standing on our billing ledger."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:07]",
+      "end_time": "[03:11]",
+      "start_time_sec": 187,
+      "text": "What does my actual balance show on your system?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:18]",
+      "end_time": "[03:27]",
+      "start_time_sec": 198,
+      "text": "Your account balance is exactly zero pounds with zero outstanding charges, and your monthly direct debit collected successfully six days ago."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:34]",
+      "end_time": "[03:39]",
+      "start_time_sec": 214,
+      "text": "So my broadband account was never suspended or in arrears at all.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:46]",
+      "end_time": "[03:50]",
+      "start_time_sec": 226,
+      "text": "Your service is completely active with zero billing restrictions."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:57]",
+      "end_time": "[04:00]",
+      "start_time_sec": 237,
+      "text": "That confirms the email message is completely fraudulent.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:07]",
+      "end_time": "[04:12]",
+      "start_time_sec": 247,
+      "text": "Now let's examine the technical sender details of that suspicious email."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:19]",
+      "end_time": "[04:22]",
+      "start_time_sec": 259,
+      "text": "What information from the email do you need?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:29]",
+      "end_time": "[04:37]",
+      "start_time_sec": 269,
+      "text": "What is the exact display name and the email address shown inside the angle brackets in the From header?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:44]",
+      "end_time": "[04:50]",
+      "start_time_sec": 284,
+      "text": "The display name says 'S-Net Billing Support', but the actual email address is support@snet-billing-update-uk.com.",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:57]",
+      "end_time": "[05:03]",
+      "start_time_sec": 297,
+      "text": "That domain is an illegitimate third-party domain and has no connection with S-Net."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:10]",
+      "end_time": "[05:13]",
+      "start_time_sec": 310,
+      "text": "All genuine S-Net emails come from @s-net.co.uk, right?",
+      "sentiment_score": 4.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:20]",
+      "end_time": "[05:24]",
+      "start_time_sec": 320,
+      "text": "Yes, all official correspondence originates strictly from @s-net.co.uk or @notifications.s-net.co.uk."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:31]",
+      "end_time": "[05:38]",
+      "start_time_sec": 331,
+      "text": "What does the link in the email point to if I hover my mouse over it?",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:45]",
+      "end_time": "[05:54]",
+      "start_time_sec": 345,
+      "text": "If you hover your mouse cursor over the payment button without clicking, what URL appears in your browser status bar?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:01]",
+      "end_time": "[06:04]",
+      "start_time_sec": 361,
+      "text": "It points to a weird web address: https://secure-login-portal-verify.net/snet/login.php.",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:11]",
+      "end_time": "[06:19]",
+      "start_time_sec": 371,
+      "text": "That URL is a known credential harvesting phishing site designed to steal S-Net portal logins and debit card numbers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:26]",
+      "end_time": "[06:32]",
+      "start_time_sec": 386,
+      "text": "I am so glad I had the sense not to click on it.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:39]",
+      "end_time": "[06:46]",
+      "start_time_sec": 399,
+      "text": "You did exactly the right thing by checking your actual account status before interacting with the email."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:53]",
+      "end_time": "[06:59]",
+      "start_time_sec": 413,
+      "text": "Can you report that domain to your cybersecurity team so other customers are protected?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:06]",
+      "end_time": "[07:12]",
+      "start_time_sec": 426,
+      "text": "Let me check our threat intelligence database to submit a domain takedown request."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:47]",
+      "end_time": "[07:51]",
+      "start_time_sec": 467,
+      "text": "Hello? Are you still on the line with me?",
+      "sentiment_score": -5.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:58]",
+      "end_time": "[08:06]",
+      "start_time_sec": 478,
+      "text": "Yes, I am right here, apologies for the pause while our threat response portal was loading the domain records."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:13]",
+      "end_time": "[08:18]",
+      "start_time_sec": 493,
+      "text": "That's fine, I just wanted to be sure the call didn't drop.",
+      "sentiment_score": -1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:25]",
+      "end_time": "[08:33]",
+      "start_time_sec": 505,
+      "text": "Our security operations center has logged snet-billing-update-uk.com and submitted an emergency DNS takedown notice to the domain registrar."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:40]",
+      "end_time": "[08:44]",
+      "start_time_sec": 520,
+      "text": "Does that block the website for everyone on the internet?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:51]",
+      "end_time": "[09:03]",
+      "start_time_sec": 531,
+      "text": "Yes, the registrar will revoke the authoritative nameservers, and our S-Net Web Safe filter will block the IP address across all customer broadband connections within fifteen minutes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:10]",
+      "end_time": "[09:15]",
+      "start_time_sec": 550,
+      "text": "That is brilliant that you can block it network-wide so quickly.",
+      "sentiment_score": 24.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:22]",
+      "end_time": "[09:29]",
+      "start_time_sec": 562,
+      "text": "Have you entered your S-Net username, password, or banking card details on any unfamiliar websites recently?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:36]",
+      "end_time": "[09:42]",
+      "start_time_sec": 576,
+      "text": "No, I haven't entered my password anywhere, and I never clicked any links.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:49]",
+      "end_time": "[09:54]",
+      "start_time_sec": 589,
+      "text": "That confirms your credentials and banking details have not been compromised."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:01]",
+      "end_time": "[10:08]",
+      "start_time_sec": 601,
+      "text": "Should I change my S-Net account password anyway just to be on the safe side?",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:15]",
+      "end_time": "[10:20]",
+      "start_time_sec": 615,
+      "text": "Changing your password as a proactive measure is always excellent security hygiene."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:27]",
+      "end_time": "[10:35]",
+      "start_time_sec": 627,
+      "text": "I will log into the official My S-Net portal and update my password to a strong new phrase.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:42]",
+      "end_time": "[10:50]",
+      "start_time_sec": 642,
+      "text": "Would you like me to enable two-factor authentication on your account so every login requires an SMS code?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:57]",
+      "end_time": "[11:04]",
+      "start_time_sec": 657,
+      "text": "Yes please! Having two-factor authentication will stop anyone logging in even if they ever got my password.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:11]",
+      "end_time": "[11:16]",
+      "start_time_sec": 671,
+      "text": "Let me update the multi-factor authentication policy on your customer profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:53]",
+      "end_time": "[11:57]",
+      "start_time_sec": 713,
+      "text": "Are you still updating the two-factor setting on your screen?",
+      "sentiment_score": -4.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:04]",
+      "end_time": "[12:10]",
+      "start_time_sec": 724,
+      "text": "Yes, still here, two-factor SMS verification has just successfully locked onto your account profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:17]",
+      "end_time": "[12:20]",
+      "start_time_sec": 737,
+      "text": "Okay, excellent.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:26]",
+      "end_time": "[12:36]",
+      "start_time_sec": 746,
+      "text": "From now on, whenever anyone attempts to sign into your online account, a one-time six-digit passcode will be dispatched to your registered mobile number."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:42]",
+      "end_time": "[12:45]",
+      "start_time_sec": 762,
+      "text": "That provides ironclad protection against unauthorized access.",
+      "sentiment_score": 26.8
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:51]",
+      "end_time": "[12:56]",
+      "start_time_sec": 771,
+      "text": "Does S-Net offer an email security scanner for our home inbox?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:02]",
+      "end_time": "[13:11]",
+      "start_time_sec": 782,
+      "text": "Yes, our mail gateways scan all incoming email traffic for SPF, DKIM, and DMARC alignment before delivery to your inbox."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:17]",
+      "end_time": "[13:21]",
+      "start_time_sec": 797,
+      "text": "How did this email bypass the gateway filter then?",
+      "sentiment_score": -2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:27]",
+      "end_time": "[13:34]",
+      "start_time_sec": 807,
+      "text": "The attackers used a freshly registered domain that had not yet accumulated negative sender reputation scores."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:40]",
+      "end_time": "[13:45]",
+      "start_time_sec": 820,
+      "text": "That explains why it slipped through into my main inbox folder.",
+      "sentiment_score": 12.6
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:51]",
+      "end_time": "[13:58]",
+      "start_time_sec": 831,
+      "text": "How do cybercriminals manage to create emails that look so identical to official S-Net templates?",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:04]",
+      "end_time": "[14:13]",
+      "start_time_sec": 844,
+      "text": "Phishing attackers scrape official CSS stylesheets and logo image assets directly from public web pages to craft convincing lookalike templates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:19]",
+      "end_time": "[14:25]",
+      "start_time_sec": 859,
+      "text": "That explains why the fonts, color scheme, and logos looked indistinguishable from real bills.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:31]",
+      "end_time": "[14:38]",
+      "start_time_sec": 871,
+      "text": "Always check the actual sending address and never click embedded authentication links inside unprompted emails."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:44]",
+      "end_time": "[14:51]",
+      "start_time_sec": 884,
+      "text": "I'll make sure to always log in directly through my own browser bookmarks in the future.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:57]",
+      "end_time": "[15:02]",
+      "start_time_sec": 897,
+      "text": "Should I forward this email to the national reporting center as well?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:08]",
+      "end_time": "[15:14]",
+      "start_time_sec": 908,
+      "text": "You can also forward the message to the National Cyber Security Centre at report@phishing.gov.uk."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:20]",
+      "end_time": "[15:25]",
+      "start_time_sec": 920,
+      "text": "I will forward a copy to the NCSC reporting inbox right now.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:31]",
+      "end_time": "[15:40]",
+      "start_time_sec": 931,
+      "text": "And please forward the email as an attachment to phishing@s-net.co.uk so our automated security parser can extract technical routing headers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:46]",
+      "end_time": "[15:54]",
+      "start_time_sec": 946,
+      "text": "Forwarding it right now to phishing@s-net.co.uk... sent! And now deleting it completely from my inbox and trash folder.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:00]",
+      "end_time": "[16:04]",
+      "start_time_sec": 960,
+      "text": "That permanently removes the malicious link from your email client."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:10]",
+      "end_time": "[16:19]",
+      "start_time_sec": 970,
+      "text": "You've been incredibly helpful today. You verified my zero balance, confirmed the phishing scam, submitted the takedown, and enabled two-factor authentication.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:25]",
+      "end_time": "[16:35]",
+      "start_time_sec": 985,
+      "text": "It was my absolute pleasure assisting you. Is there anything else regarding your account security or broadband that I can check today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:41]",
+      "end_time": "[16:46]",
+      "start_time_sec": 1001,
+      "text": "No, everything is completely secure and protected now. Thank you so much!",
+      "sentiment_score": 28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:52]",
+      "end_time": "[16:59]",
+      "start_time_sec": 1012,
+      "text": "Thank you for choosing S-Net today. Stay safe online and have a wonderful rest of your day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:05]",
+      "end_time": "[17:10]",
+      "start_time_sec": 1025,
+      "text": "Thanks Yasmin, goodbye.",
+      "sentiment_score": 6.4
+    }
+  ]
+}

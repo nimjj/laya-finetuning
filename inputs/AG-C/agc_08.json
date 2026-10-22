@@ -1,0 +1,478 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Sophia",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net broadband technical support, my name is Holly. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:13]",
+      "end_time": "[00:27]",
+      "start_time_sec": 13,
+      "text": "Hi Holly. My broadband speed has dropped to less than ten megabits over the last week when I pay for Fibre 65, and every time the landline rings the internet disconnects completely.",
+      "sentiment_score": -31.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:32]",
+      "end_time": "[00:46]",
+      "start_time_sec": 32,
+      "text": "I understand how frustrating that must be, Sophia. Having your broadband drop out every time the phone rings makes the service almost unusable, and I will help get this resolved for you."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:51]",
+      "end_time": "[01:02]",
+      "start_time_sec": 51,
+      "text": "Thank you Holly. My daughter was trying to do her university coursework and she kept getting thrown out of her lecture every time someone called me.",
+      "sentiment_score": -18.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:06]",
+      "end_time": "[01:16]",
+      "start_time_sec": 66,
+      "text": "Before we run line tests on your copper broadband, Sophia, could you please confirm your full installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:20]",
+      "end_time": "[01:27]",
+      "start_time_sec": 80,
+      "text": "Yes, it is 83 Millfield Road, York, YO23 1NQ, and the security PIN is 4172.",
+      "sentiment_score": -2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:31]",
+      "end_time": "[01:40]",
+      "start_time_sec": 91,
+      "text": "Thank you for verifying your details, Sophia. I have your Fibre 65 VDSL line profile open in front of me."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:44]",
+      "end_time": "[01:47]",
+      "start_time_sec": 104,
+      "text": "Okay, hopefully the line test shows something.",
+      "sentiment_score": 3.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:51]",
+      "end_time": "[02:08]",
+      "start_time_sec": 111,
+      "text": "So just to confirm what you are experiencing: your download speeds have slumped down under ten megabits, and whenever an incoming telephone call arrives, your VDSL connection drops sync and drops off completely. Have I got that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:12]",
+      "end_time": "[02:20]",
+      "start_time_sec": 132,
+      "text": "Yes, that's exactly what's happening. The little broadband light on the router flashes orange whenever the landline phone rings.",
+      "sentiment_score": -12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:24]",
+      "end_time": "[02:34]",
+      "start_time_sec": 144,
+      "text": "When broadband drops every time the telephone rings, it almost always points to high capacitance or bell-wire interference across internal extension wiring."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:38]",
+      "end_time": "[02:41]",
+      "start_time_sec": 158,
+      "text": "Bell-wire interference? What does that mean?",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:45]",
+      "end_time": "[03:00]",
+      "start_time_sec": 165,
+      "text": "In traditional UK homes, telephone extension sockets used a third wire on pin three designed to ring old mechanical bells. On modern VDSL broadband, that wire acts like a giant antenna picking up radio noise."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:04]",
+      "end_time": "[03:12]",
+      "start_time_sec": 184,
+      "text": "We do have three phone extension sockets around the house that were put in about twenty years ago.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:16]",
+      "end_time": "[03:20]",
+      "start_time_sec": 196,
+      "text": "Where is your S-Net Hub router plugged in right now?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:24]",
+      "end_time": "[03:29]",
+      "start_time_sec": 204,
+      "text": "It's plugged into an extension socket in the hallway near the stairs.",
+      "sentiment_score": 2.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:33]",
+      "end_time": "[03:39]",
+      "start_time_sec": 213,
+      "text": "And where is the main master telephone socket where the line enters the house?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:43]",
+      "end_time": "[03:49]",
+      "start_time_sec": 223,
+      "text": "The main master socket is by the front door on the skirting board.",
+      "sentiment_score": 5.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:53]",
+      "end_time": "[04:01]",
+      "start_time_sec": 233,
+      "text": "Does the master socket have a horizontal split across the middle of the plastic faceplate with two small screws?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:05]",
+      "end_time": "[04:15]",
+      "start_time_sec": 245,
+      "text": "Let me look... yes, it has a horizontal line across the middle and two screws on the bottom half. It says Openreach on it.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:19]",
+      "end_time": "[04:32]",
+      "start_time_sec": 259,
+      "text": "That is an NTE5 master socket. The bottom half contains the test socket behind it. When you unscrew the bottom faceplate, it completely disconnects all internal house extension wiring."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:36]",
+      "end_time": "[04:42]",
+      "start_time_sec": 276,
+      "text": "Can I take those two screws out while on the phone with you?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:46]",
+      "end_time": "[04:54]",
+      "start_time_sec": 286,
+      "text": "Yes, Sophia. It is completely safe low-voltage wiring. Unscrew the two screws and gently pull the bottom faceplate forward."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:58]",
+      "end_time": "[05:09]",
+      "start_time_sec": 298,
+      "text": "Okay, unscrewing with a small coin... one screw out... second screw out... pulling the plate forward. Behind it on the right side there's another phone socket!",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:13]",
+      "end_time": "[05:23]",
+      "start_time_sec": 313,
+      "text": "That hidden socket on the right is the engineer test socket. That connects directly to the street cable with zero internal wiring interference."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:27]",
+      "end_time": "[05:32]",
+      "start_time_sec": 327,
+      "text": "Should I plug the microfilter and router directly into that test socket?",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:36]",
+      "end_time": "[05:47]",
+      "start_time_sec": 336,
+      "text": "Yes, please. Plug your microfilter directly into that test socket, and plug the gray broadband cable from your Hub into the ADSL/VDSL port on the filter."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:51]",
+      "end_time": "[05:59]",
+      "start_time_sec": 351,
+      "text": "Plugging into the test socket now... and plugging the gray lead in... okay, the Hub is powering up.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:03]",
+      "end_time": "[06:13]",
+      "start_time_sec": 363,
+      "text": "Watch the broadband light on the front of the Hub. It will flash orange while training, then should go solid white once synced."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:17]",
+      "end_time": "[06:22]",
+      "start_time_sec": 377,
+      "text": "It's flashing orange... still flashing... and now it just turned solid white!",
+      "sentiment_score": 28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:26]",
+      "end_time": "[06:35]",
+      "start_time_sec": 386,
+      "text": "Now I am going to call your landline telephone number from my test console to see if the Hub drops sync."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:39]",
+      "end_time": "[06:42]",
+      "start_time_sec": 399,
+      "text": "Okay, calling now...",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:46]",
+      "end_time": "[06:50]",
+      "start_time_sec": 406,
+      "text": "I'm ringing your number right now. Did your phone ring?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:54]",
+      "end_time": "[07:04]",
+      "start_time_sec": 414,
+      "text": "The phone plugged into the filter rang loud and clear, and the Hub light stayed completely solid white! It didn't drop at all!",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:08]",
+      "end_time": "[07:15]",
+      "start_time_sec": 428,
+      "text": "That confirms 100% that the line drop was caused by the bell-wire on your extension wiring."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:19]",
+      "end_time": "[07:22]",
+      "start_time_sec": 439,
+      "text": "That is incredible. What about the speed?",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:26]",
+      "end_time": "[07:38]",
+      "start_time_sec": 446,
+      "text": "On our copper telemetry, your SNR margin was forced up to twelve decibels by the exchange to stabilise the line, which capped your speed at eight megabits."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:42]",
+      "end_time": "[07:48]",
+      "start_time_sec": 462,
+      "text": "Can that speed cap be removed now that the noisy extension wiring is bypassed?",
+      "sentiment_score": 14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:52]",
+      "end_time": "[07:59]",
+      "start_time_sec": 472,
+      "text": "Yes, I can reset your DLM profile right now to target the optimal six decibel SNR margin."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:03]",
+      "end_time": "[08:06]",
+      "start_time_sec": 483,
+      "text": "Please do, that would be wonderful.",
+      "sentiment_score": 19.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:10]",
+      "end_time": "[08:23]",
+      "start_time_sec": 490,
+      "text": "Please bear with me while I place you on a brief hold for about two minutes while I reset your DLM line profile at the exchange to restore full speed."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:39]",
+      "end_time": "[09:48]",
+      "start_time_sec": 579,
+      "text": "Thank you very much for holding, Sophia. I have reset your Dynamic Line Management profile to remove the speed cap."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:52]",
+      "end_time": "[09:56]",
+      "start_time_sec": 592,
+      "text": "Thanks Holly. What speed should I be seeing now?",
+      "sentiment_score": 15.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:00]",
+      "end_time": "[10:06]",
+      "start_time_sec": 600,
+      "text": "Could you run a speed test on your phone or laptop on speedtest.net?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:10]",
+      "end_time": "[10:20]",
+      "start_time_sec": 610,
+      "text": "Running speed test on my laptop... download is sixty-three megabits! And upload is eighteen megabits! I was only getting eight megabits before!",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:24]",
+      "end_time": "[10:31]",
+      "start_time_sec": 624,
+      "text": "Sixty-three megabits is the maximum sync rate for your line length from the cabinet, Sophia."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:35]",
+      "end_time": "[10:43]",
+      "start_time_sec": 635,
+      "text": "My daughter will be over the moon. She can do all her university seminars without getting kicked out.",
+      "sentiment_score": 32.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:47]",
+      "end_time": "[10:59]",
+      "start_time_sec": 647,
+      "text": "To keep that full speed permanently, you can replace that older master faceplate with a modern filtered faceplate, which we will send you in the post tomorrow."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:03]",
+      "end_time": "[11:07]",
+      "start_time_sec": 663,
+      "text": "Does the new filtered faceplate clip on with no screws?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:11]",
+      "end_time": "[11:21]",
+      "start_time_sec": 671,
+      "text": "Yes, it simply clips onto that master socket and automatically isolates the bell-wire so you can still use your hallway extension without speed loss."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:25]",
+      "end_time": "[11:30]",
+      "start_time_sec": 685,
+      "text": "Will my telephone caller display still work through the filtered faceplate?",
+      "sentiment_score": 9.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:34]",
+      "end_time": "[11:41]",
+      "start_time_sec": 694,
+      "text": "Yes, all telephone caller display and extension features will continue working with zero interference to the broadband."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:45]",
+      "end_time": "[11:50]",
+      "start_time_sec": 705,
+      "text": "And should I leave the router plugged into the master socket permanently?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:54]",
+      "end_time": "[12:01]",
+      "start_time_sec": 714,
+      "text": "Yes, plugging directly into the master socket ensures the lowest possible attenuation and maximum stability."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:05]",
+      "end_time": "[12:15]",
+      "start_time_sec": 725,
+      "text": "I have also scheduled an automated 24-hour line health monitor on your circuit to confirm the speed remains stable at 63 megabits."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:19]",
+      "end_time": "[12:22]",
+      "start_time_sec": 739,
+      "text": "That proactive check is really comforting.",
+      "sentiment_score": 21.6
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:26]",
+      "end_time": "[12:34]",
+      "start_time_sec": 746,
+      "text": "Holly, you have been absolutely amazing today. You diagnosed the problem straight away and fixed it in minutes.",
+      "sentiment_score": 36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:38]",
+      "end_time": "[12:46]",
+      "start_time_sec": 758,
+      "text": "I'm so delighted we could get your full Fibre 65 speed back and stop those telephone disconnects, Sophia."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:50]",
+      "end_time": "[12:53]",
+      "start_time_sec": 770,
+      "text": "You've made my day, thank you so much.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:57]",
+      "end_time": "[13:04]",
+      "start_time_sec": 777,
+      "text": "It was my pleasure. Is there anything else on your S-Net broadband that I can assist with?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:08]",
+      "end_time": "[13:11]",
+      "start_time_sec": 788,
+      "text": "No, everything is completely sorted. Thanks again Holly!",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:15]",
+      "end_time": "[13:23]",
+      "start_time_sec": 795,
+      "text": "Thank you for choosing S-Net today, Sophia. Enjoy your fast broadband and have a lovely rest of your week."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:27]",
+      "end_time": "[13:30]",
+      "start_time_sec": 807,
+      "text": "Thanks Holly, goodbye!",
+      "sentiment_score": 6.8
+    }
+  ]
+}

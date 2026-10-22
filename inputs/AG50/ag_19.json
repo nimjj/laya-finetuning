@@ -1,0 +1,614 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Youssef",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Good afternoon, thank you for calling S-Net technical support. This is Zara speaking. How can I help you today?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:07]",
+      "end_time": "[00:21]",
+      "start_time_sec": 7,
+      "text": "Hi Zara, my name is Youssef. Since S-Net did overnight network maintenance in Bristol on Tuesday, my port forwarding rules on my Hub 4 have completely stopped working—I can't reach my Synology NAS server or my Hikvision CCTV system remotely.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:22]",
+      "end_time": "[00:36]",
+      "start_time_sec": 22,
+      "text": "I am sorry for the disruption to your remote access since Tuesday's maintenance, Youssef—I understand how frustrating it is when working port forwards suddenly stop responding. Let's verify your account first: please confirm your postal address and four-digit security PIN.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:37]",
+      "end_time": "[00:42]",
+      "start_time_sec": 37,
+      "text": "Sure, it's Flat 6, 28 Clifton Down Road, Bristol, BS8 4AH, and my four-digit PIN is 3820.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:43]",
+      "end_time": "[00:59]",
+      "start_time_sec": 43,
+      "text": "Thank you, Youssef, your address and PIN are verified. To summarize the issue in my own words: since Tuesday's maintenance, external connections to your Synology NAS and Hikvision CCTV over your Hub 4 port forwarding rules are failing, even though your home fibre is online.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:11]",
+      "start_time_sec": 60,
+      "text": "Exactly right. When I'm at home on my local LAN, both the Synology NAS at 192.168.1.50 and the Hikvision NVR at 192.168.1.60 load instantly, bit from outside on 5G every connection times out.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:12]",
+      "end_time": "[01:21]",
+      "start_time_sec": 72,
+      "text": "Let's isolate whether Tuesday's BNG maintenance migrated your line onto Carrier-Grade NAT. First, which specific TCP or UDP port numbers do you have forwarded to 192.168.1.50 and 192.168.1.60?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:22]",
+      "end_time": "[01:30]",
+      "start_time_sec": 82,
+      "text": "I have TCP port 5001 forwarded to 192.168.1.50 for the Synology DSM HTTPS login, and TCP port 8000 forwarded to 192.168.1.60 for the Hikvision mobile stream.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:31]",
+      "end_time": "[01:38]",
+      "start_time_sec": 91,
+      "text": "And did you configure those two rules manually in the Hub 4 Port Forwarding table, Youssef, or were they created dynamically via UPnP?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:39]",
+      "end_time": "[01:46]",
+      "start_time_sec": 99,
+      "text": "I configured both TCP 5001 and TCP 8000 manually with static DHCP reservations on the Hub 4, and I disabled UPnP completely.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:47]",
+      "end_time": "[01:59]",
+      "start_time_sec": 107,
+      "text": "Good practice disabling UPnP. Now, Youssef, if you currently have the Hub 4 admin interface open at 192.168.1.1, what are the first two octets of the IPv4 WAN address shown on the Broadband Status tab?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:00]",
+      "end_time": "[02:06]",
+      "start_time_sec": 120,
+      "text": "I've got the Hub 4 status tab open on my desktop right now—under WAN IPv4 Address, it starts with 100.64.118.42.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:07]",
+      "end_time": "[02:16]",
+      "start_time_sec": 127,
+      "text": "And if you open a browser tab to an external IP lookup site such as ifconfig.me, what public IPv4 prefix does the outside internet see you coming from?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:17]",
+      "end_time": "[02:23]",
+      "start_time_sec": 137,
+      "text": "On ifconfig.me it shows 185.94.212.19, which is completely different from the 100.64.118.42 address on the Hub 4 WAN interface!",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:24]",
+      "end_time": "[02:34]",
+      "start_time_sec": 144,
+      "text": "That confirms the root cause, Youssef. Address block 100.64.0.0/10 is RFC 6598 shared Carrier-Grade NAT space. Tuesday's Bristol BNG card upgrade placed residential profiles into the CGNAT pool by default.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:35]",
+      "end_time": "[02:45]",
+      "start_time_sec": 155,
+      "text": "Aha! I suspected CGNAT as soon as I saw the 100.64 address! Because inbound packets hit 185.94.212.19 at your carrier NAT gateway, they never get forwarded down to my Hub 4.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:46]",
+      "end_time": "[02:52]",
+      "start_time_sec": 166,
+      "text": "Precisely. And are you using a Dynamic DNS hostname on the Synology NAS to track your public IP, Youssef?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:53]",
+      "end_time": "[02:56]",
+      "start_time_sec": 173,
+      "text": "Yes, I use a Synology DDNS hostname—youssef-clifton.synology.me—which updates automatically from the NAS.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:57]",
+      "end_time": "[03:07]",
+      "start_time_sec": 177,
+      "text": "Right, because the NAS agent fetches the external address 185.94.212.19 while your Hub 4 sits behind 100.64.118.42, inbound TCP 5001 and TCP 8000 syn packets drop at the CGNAT gateway.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:08]",
+      "end_time": "[03:17]",
+      "start_time_sec": 188,
+      "text": "Can you opt my line out of CGNAT and put me back on a proper routable public IPv4 address without charging me for a business static IP?",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:18]",
+      "end_time": "[03:29]",
+      "start_time_sec": 198,
+      "text": "Yes, Youssef. As part of our technical support policy for customers running self-hosted NAS or CCTV services, I will move your subscriber profile onto our dynamic public IPv4 pool free of charge.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:30]",
+      "end_time": "[03:33]",
+      "start_time_sec": 210,
+      "text": "Brilliant, thank you Zara. Does that change take effect straight away?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:34]",
+      "end_time": "[03:47]",
+      "start_time_sec": 214,
+      "text": "I need to modify your RADIUS attribute on the Bristol BNG and push a session bounce. Please bear with me while I move your subscriber profile off the CGNAT pool onto a public dynamic IPv4.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:48]",
+      "end_time": "[03:52]",
+      "start_time_sec": 228,
+      "text": "No problem at all, I'll stay on the line.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:28]",
+      "end_time": "[05:39]",
+      "start_time_sec": 328,
+      "text": "Thank you for holding, Youssef. I have updated your RADIUS profile on the Bristol BNG from the CGNAT pool to our routable public IPv4 pool and cleared the stale NAT binding.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:40]",
+      "end_time": "[05:49]",
+      "start_time_sec": 340,
+      "text": "Thanks Zara. My Hub 4 WAN tab still shows 100.64.118.42 at the moment—do we need to drop the PPPoE/DHCP lease or reboot the Hub 4?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:50]",
+      "end_time": "[06:02]",
+      "start_time_sec": 350,
+      "text": "I will trigger a remote DHCP lease release and router reboot from my terminal right now so your Hub 4 pulls the new public IPv4 lease cleanly. Ready for the brief drop, Youssef?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:03]",
+      "end_time": "[06:10]",
+      "start_time_sec": 363,
+      "text": "Yes, go ahead—I'm speaking to you on my mobile over 5G so the router reboot won't cut our phone call.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:11]",
+      "end_time": "[06:22]",
+      "start_time_sec": 371,
+      "text": "I have sent the CoA disconnect and reboot command now, Youssef. Your Hub 4 front status light will turn amber and then solid white in roughly twenty-five to thirty seconds.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:23]",
+      "end_time": "[06:29]",
+      "start_time_sec": 383,
+      "text": "I'm watching the Hub 4 now... the light just went amber, and now it's flashing white.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:01]",
+      "end_time": "[07:10]",
+      "start_time_sec": 421,
+      "text": "Good, the optical WAN interface on the Bristol BNG has just registered your new session request, Youssef. It is assigning the IPv4 lease now.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:11]",
+      "end_time": "[07:18]",
+      "start_time_sec": 431,
+      "text": "The Hub 4 light just turned solid white! Let me refresh the admin page at 192.168.1.1 on my desktop...",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:19]",
+      "end_time": "[07:28]",
+      "start_time_sec": 439,
+      "text": "Once the Broadband Status tab refreshes, Youssef, check what the new WAN IPv4 address prefix starts with—it should now be in our 82.14.x.x public range.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:29]",
+      "end_time": "[07:38]",
+      "start_time_sec": 449,
+      "text": "Yes! Under WAN IPv4 Address it now says 82.14.209.73, and when I refresh ifconfig.me in the next tab, it also shows 82.14.209.73—an exact match!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:39]",
+      "end_time": "[07:48]",
+      "start_time_sec": 459,
+      "text": "82.14.209.73 on both the Hub 4 WAN interface and ifconfig.me confirms you have a direct 1-to-1 routable public IPv4 address with zero CGNAT translation in between.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:49]",
+      "end_time": "[07:56]",
+      "start_time_sec": 469,
+      "text": "Let me check whether my static DHCP reservations and port forwarding rules for 192.168.1.50 and 192.168.1.60 survived the reboot.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:57]",
+      "end_time": "[08:10]",
+      "start_time_sec": 477,
+      "text": "I can verify the TR-069 port mapping table from my screen as well, Youssef: rule 1 forwards external TCP 5001 to 192.168.1.50:5001, and rule 2 forwards external TCP 8000 to 192.168.1.60:8000, both marked Enabled.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:11]",
+      "end_time": "[08:18]",
+      "start_time_sec": 491,
+      "text": "And does S-Net block inbound TCP port 5001 or port 8000 at the network firewall level on the 82.14.x.x pool?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:19]",
+      "end_time": "[08:30]",
+      "start_time_sec": 499,
+      "text": "No, Youssef. On our public dynamic IPv4 pool we only filter inbound TCP port 25 for SMTP spam prevention and UDP port 1900; TCP 5001 and TCP 8000 are completely unblocked.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:31]",
+      "end_time": "[08:39]",
+      "start_time_sec": 511,
+      "text": "Let me force an immediate DDNS update on my Synology NAS so youssef-clifton.synology.me points to 82.14.209.73 instead of the old 185.94 CGNAT address.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:40]",
+      "end_time": "[08:49]",
+      "start_time_sec": 520,
+      "text": "Good idea, Youssef. Once you click 'Update Now' in the Synology Control Panel under External Access, the DNS A-record usually propagates within fifteen seconds.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:50]",
+      "end_time": "[08:53]",
+      "start_time_sec": 530,
+      "text": "Clicked 'Update Now'... status says 'Normal' and External Address shows 82.14.209.73!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:54]",
+      "end_time": "[09:05]",
+      "start_time_sec": 534,
+      "text": "Now, Youssef, let's test both services from an external network. Since your mobile phone is already on 5G with Wi-Fi disabled, can you test opening https://youssef-clifton.synology.me:5001 in your mobile browser?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:06]",
+      "end_time": "[09:10]",
+      "start_time_sec": 546,
+      "text": "Testing now on my phone over 5G with Wi-Fi switched off... typing https://youssef-clifton.synology.me:5001...",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:11]",
+      "end_time": "[09:18]",
+      "start_time_sec": 551,
+      "text": "I can see the inbound TCP SYN handshake hitting your Hub 4 WAN interface on port 5001 right now, Youssef.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:19]",
+      "end_time": "[09:26]",
+      "start_time_sec": 559,
+      "text": "Boom! The Synology DiskStation Manager login screen just loaded on my phone over 5G with my SSL certificate padlock intact!",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:27]",
+      "end_time": "[09:36]",
+      "start_time_sec": 567,
+      "text": "Excellent. Now can you also open your Hik-Connect mobile app over 5G to verify that the Hikvision NVR stream on TCP port 8000 connects from outside?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:37]",
+      "end_time": "[09:42]",
+      "start_time_sec": 577,
+      "text": "Opening the Hik-Connect app on 5G now... tapping my driveway and back garden camera feeds...",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:43]",
+      "end_time": "[09:46]",
+      "start_time_sec": 583,
+      "text": "Take your time verifying the live video stream, Youssef.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:47]",
+      "end_time": "[09:56]",
+      "start_time_sec": 587,
+      "text": "All four CCTV camera feeds are streaming live at full frame rate over 5G! Both port 5001 and port 8000 are working externally again.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:57]",
+      "end_time": "[10:07]",
+      "start_time_sec": 597,
+      "text": "That confirms both port forwards are passing traffic end-to-end, Youssef. I have also set the 'CGNAT-Exempt=TRUE' permanent flag on your subscriber service profile in our provisioning database.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:08]",
+      "end_time": "[10:13]",
+      "start_time_sec": 608,
+      "text": "Oh, what does the CGNAT-Exempt flag do when S-Net runs future BNG software upgrades in Bristol?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:14]",
+      "end_time": "[10:25]",
+      "start_time_sec": 614,
+      "text": "Setting 'CGNAT-Exempt=TRUE' ensures that even if the Bristol BNG chassis reboots or undergoes firmware maintenance in the future, your line will never be swept back into the 100.64.0.0/10 CGNAT pool.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:26]",
+      "end_time": "[10:34]",
+      "start_time_sec": 626,
+      "text": "That is exactly what I was hoping to ask next—I didn't want to have to phone back every time there's overnight exchange maintenance.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:35]",
+      "end_time": "[10:43]",
+      "start_time_sec": 635,
+      "text": "You won't need to, Youssef; that exemption attribute is permanently bound to your circuit ID at Flat 6, 28 Clifton Down Road.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:44]",
+      "end_time": "[10:50]",
+      "start_time_sec": 644,
+      "text": "And just to clarify how the dynamic public IPv4 pool behaves—how often does the 82.14.209.73 address change?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:51]",
+      "end_time": "[11:04]",
+      "start_time_sec": 651,
+      "text": "Your public IPv4 lease remains sticky for as long as the PPPoE/DHCP session stays up, Youssef, and only rotates if your Hub 4 is powered off for more than fifteen minutes or if the BNG resets.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:05]",
+      "end_time": "[11:14]",
+      "start_time_sec": 665,
+      "text": "And when it does rotate after a power cut, my Synology DDNS client on 192.168.1.50 will automatically update youssef-clifton.synology.me within a couple of minutes.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:15]",
+      "end_time": "[11:22]",
+      "start_time_sec": 675,
+      "text": "Correct, Youssef. Would you also like me to check your IPv6 prefix delegation while I have your Bristol BNG profile open?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:23]",
+      "end_time": "[11:28]",
+      "start_time_sec": 683,
+      "text": "Yes please—is my /56 IPv6 prefix delegation still active alongside the public IPv4 address?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:29]",
+      "end_time": "[11:35]",
+      "start_time_sec": 689,
+      "text": "Yes, your /56 native IPv6 prefix delegation is active and routing cleanly alongside your public IPv4 address 82.14.209.73.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:36]",
+      "end_time": "[11:42]",
+      "start_time_sec": 696,
+      "text": "Have you got a ticket reference number I can keep in my network notes just in case?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:43]",
+      "end_time": "[11:54]",
+      "start_time_sec": 703,
+      "text": "Actually, one quick question before we finish, Zara—on the Hub 4 firewall tab, should I leave 'Respond to WAN Ping (ICMP)' disabled now that I'm back on a public IPv4?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:55]",
+      "end_time": "[12:04]",
+      "start_time_sec": 715,
+      "text": "Unless you use an external uptime monitor like UptimeRobot to ping 82.14.209.73, Youssef, leaving inbound WAN ICMP echo disabled reduces automated background scanner noise.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:05]",
+      "end_time": "[12:12]",
+      "start_time_sec": 725,
+      "text": "Good point, I only monitor TCP port 5001 from my phone anyway, so I'll keep WAN ICMP ping disabled.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:13]",
+      "end_time": "[12:22]",
+      "start_time_sec": 733,
+      "text": "And on your Synology DSM at 192.168.1.50, make sure Auto Block under Security is enabled to lock out repeated failed login attempts on port 5001, Youssef.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:23]",
+      "end_time": "[12:30]",
+      "start_time_sec": 743,
+      "text": "Yes, I've got Synology Auto Block set to ban any IP after five failed logins within ten minutes, plus hardware 2FA.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:31]",
+      "end_time": "[12:35]",
+      "start_time_sec": 751,
+      "text": "That is an ideal security posture for an exposed port 5001 service, Youssef.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:36]",
+      "end_time": "[12:41]",
+      "start_time_sec": 756,
+      "text": "And on the Hub 4 itself, is the firmware version up to date after Tuesday's maintenance?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:42]",
+      "end_time": "[12:48]",
+      "start_time_sec": 762,
+      "text": "Yes, Youssef, your Hub 4 is running firmware build v4.12.08-UK, which is the latest stable production release.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:49]",
+      "end_time": "[12:56]",
+      "start_time_sec": 769,
+      "text": "Yes, Youssef, the completed provisioning ticket reference is NET-5501928, which documents the permanent CGNAT opt-out and public IPv4 assignment.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:57]",
+      "end_time": "[13:07]",
+      "start_time_sec": 777,
+      "text": "I've noted NET-5501928. Honestly, Zara, it is such a pleasure getting straight through to someone who knows RFC 6598 and RADIUS attributes inside out without wasting time.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:08]",
+      "end_time": "[13:22]",
+      "start_time_sec": 788,
+      "text": "Happy to help, Youssef. Let me just double-check: both your Synology NAS on TCP 5001 and your Hikvision CCTV on TCP 8000 are tested and working over 5G, and is there anything else you need resolved today?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:23]",
+      "end_time": "[13:28]",
+      "start_time_sec": 803,
+      "text": "No, both remote services are 100% resolved and working properly, and that's everything I needed today.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:29]",
+      "end_time": "[13:32]",
+      "start_time_sec": 809,
+      "text": "Thank you for choosing S-Net, Youssef. Have a great afternoon. Goodbye.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:33]",
+      "end_time": "[13:35]",
+      "start_time_sec": 813,
+      "text": "Thanks Zara, goodbye!",
+      "sentiment_score": 25.0
+    }
+  ]
+}

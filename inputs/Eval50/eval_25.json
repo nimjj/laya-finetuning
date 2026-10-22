@@ -1,0 +1,126 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Bogdan",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, my name is Joe. How can I help?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:07]",
+      "end_time": "[00:20]",
+      "start_time_sec": 7,
+      "text": "Third time. Third time the courier has said they tried to deliver my new router and I was home all day every time. I took days off work for this. This is a joke.",
+      "sentiment_score": -31.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:21]",
+      "end_time": "[00:23]",
+      "start_time_sec": 21,
+      "text": "Can I take your PIN?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:25]",
+      "end_time": "[00:27]",
+      "start_time_sec": 25,
+      "text": "9 0 9 0.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:28]",
+      "end_time": "[00:38]",
+      "start_time_sec": 28,
+      "text": "Thanks, Bogdan. So the courier has marked the router as a failed delivery three times, but you were at home each time. Is that right?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:40]",
+      "end_time": "[00:42]",
+      "start_time_sec": 40,
+      "text": "Yes.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:44]",
+      "end_time": "[00:49]",
+      "start_time_sec": 44,
+      "text": "Do you have a doorbell that works, and is the flat number clearly marked?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:50]",
+      "end_time": "[00:53]",
+      "start_time_sec": 50,
+      "text": "Yes. Doorbell works. Number is on the door.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:55]",
+      "end_time": "[00:59]",
+      "start_time_sec": 55,
+      "text": "Is the building one with a main entrance and an intercom?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:02]",
+      "start_time_sec": 60,
+      "text": "Yes, there's an intercom. Flat 4.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:04]",
+      "end_time": "[01:18]",
+      "start_time_sec": 64,
+      "text": "The courier's notes say no access. It's likely they couldn't get through the main door. I've booked a new delivery for Friday with a different courier, and added instructions to buzz flat 4 and call your mobile.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:19]",
+      "end_time": "[01:21]",
+      "start_time_sec": 79,
+      "text": "And if they don't come again?",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:22]",
+      "end_time": "[01:29]",
+      "start_time_sec": 82,
+      "text": "The new courier gives a one-hour window by text on the morning. You'll get a text Thursday evening.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:31]",
+      "end_time": "[01:33]",
+      "start_time_sec": 91,
+      "text": "Fine.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:35]",
+      "end_time": "[01:37]",
+      "start_time_sec": 95,
+      "text": "Okay. Bye.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

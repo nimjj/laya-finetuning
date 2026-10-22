@@ -1,0 +1,493 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Joseph",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net TV customer support, my name is Laura. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:33]",
+      "start_time_sec": 10,
+      "text": "Hello Laura. I am an elderly pensioner living alone, and yesterday an engineer came and fitted a new TV 360 box, and now the entire television screen looks completely alien to me! All my recorded episodes of Coronation Street have disappeared, and I cannot figure out how to watch the evening news!",
+      "sentiment_score": -36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:35]",
+      "end_time": "[00:47]",
+      "start_time_sec": 35,
+      "text": "I understand how disorienting and frustrating it is when a software update changes your familiar television layout, Joseph. Let's look into your TV 360 profile right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:49]",
+      "end_time": "[00:58]",
+      "start_time_sec": 49,
+      "text": "Thank you Laura, because sitting in a quiet house with no television to watch in the evening is very lonely.",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:00]",
+      "end_time": "[01:08]",
+      "start_time_sec": 60,
+      "text": "Before we access the set-top box settings, could you please verify your installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:10]",
+      "end_time": "[01:23]",
+      "start_time_sec": 70,
+      "text": "Yes, the address is 14 Hawthorn Close, Bolton, BL1 8DE, and the security PIN is 5102. My favorite program Coronation Street on ITV is completely missing from the planner.",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:25]",
+      "end_time": "[01:34]",
+      "start_time_sec": 85,
+      "text": "Thank you for verifying those account details, Joseph. I have your TV 360 box open on our remote diagnostics dashboard."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:36]",
+      "end_time": "[01:39]",
+      "start_time_sec": 96,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:41]",
+      "end_time": "[01:47]",
+      "start_time_sec": 101,
+      "text": "Let me examine the firmware configuration and user interface settings on your box."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:49]",
+      "end_time": "[02:02]",
+      "start_time_sec": 109,
+      "text": "The old remote control had a big yellow button that took me straight to my recordings, but this new remote has dozens of tiny black buttons that all look the same.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:04]",
+      "end_time": "[02:11]",
+      "start_time_sec": 124,
+      "text": "The new TV 360 remote utilizes an icon-based navigation menu with dedicated Home and Profile keys."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:13]",
+      "end_time": "[02:26]",
+      "start_time_sec": 133,
+      "text": "When I press the button with the picture of a house on it, a big dark screen pops up with thirty different colored picture tiles that I don't understand.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:28]",
+      "end_time": "[02:35]",
+      "start_time_sec": 148,
+      "text": "The Home screen displays algorithmic personalized recommendations and live broadcast tiles across popular streaming platforms."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:37]",
+      "end_time": "[02:47]",
+      "start_time_sec": 157,
+      "text": "The technician also gave me a brand new black HDMI cable and plugged it into HDMI 2 on the back of the television set.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:49]",
+      "end_time": "[02:58]",
+      "start_time_sec": 169,
+      "text": "HDMI Port 2 carries full 1080p high definition digital video signals directly from the set-top box to your television screen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:00]",
+      "end_time": "[03:09]",
+      "start_time_sec": 180,
+      "text": "I don't want algorithmic recommendations! I just want to watch Coronation Street and the six o'clock news on BBC One!",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:11]",
+      "end_time": "[03:20]",
+      "start_time_sec": 191,
+      "text": "To access live broadcast channels, you press the Guide button located directly beneath the volume toggle on your handheld remote."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:22]",
+      "end_time": "[03:32]",
+      "start_time_sec": 202,
+      "text": "I pressed that Guide button, but the writing across the entire screen is microscopic white letters on a dark navy blue background.",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:34]",
+      "end_time": "[03:39]",
+      "start_time_sec": 214,
+      "text": "The TV 360 electronic program guide is rendered in ultra-high-definition font scaling."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:41]",
+      "end_time": "[03:51]",
+      "start_time_sec": 221,
+      "text": "My television is an older thirty-two inch set in the corner of the room, so the tiny print is just a blurry illegible smudge.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:53]",
+      "end_time": "[04:02]",
+      "start_time_sec": 233,
+      "text": "Please bear with me on hold for about thirty-five seconds while I query the accessibility profile on your set-top box."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:37]",
+      "end_time": "[04:45]",
+      "start_time_sec": 277,
+      "text": "Thank you for holding, Joseph. The remote software telemetry indicates your box is currently running default display resolution settings."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:47]",
+      "end_time": "[04:57]",
+      "start_time_sec": 287,
+      "text": "The letters on the TV screen are so small and faint I can barely read the channel numbers even with my reading bifocals on!",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:59]",
+      "end_time": "[05:12]",
+      "start_time_sec": 299,
+      "text": "Well Mr. Joseph, if you can't read standard television menus with your glasses on, maybe you need an updated prescription from your optician rather than blaming the TV box."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:14]",
+      "end_time": "[05:27]",
+      "start_time_sec": 314,
+      "text": "There is no need to be cheeky and patronizing to an old man, young lady! My eyes are tested every year, and the old S-Net box was perfectly legible!",
+      "sentiment_score": -38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:29]",
+      "end_time": "[05:39]",
+      "start_time_sec": 329,
+      "text": "I apologize if my remark sounded sharp, Joseph. I was merely pointing out that display scaling depends on your eyesight and panel size."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:41]",
+      "end_time": "[05:49]",
+      "start_time_sec": 341,
+      "text": "I am asking how to make the guide letters bigger so I can read what is on television.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:51]",
+      "end_time": "[06:02]",
+      "start_time_sec": 351,
+      "text": "You will need to have a family member or a younger neighbor come round to your house and read through the on-screen settings menu for you."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:04]",
+      "end_time": "[06:16]",
+      "start_time_sec": 364,
+      "text": "My daughter lives in Australia and my neighbors are at work all day! Why can't S-Net customer service help an elderly customer adjust the settings over the phone?!",
+      "sentiment_score": -32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:18]",
+      "end_time": "[06:25]",
+      "start_time_sec": 378,
+      "text": "We do not provide in-home remote control tutoring or personalized visual calibration over telephone support lines."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:27]",
+      "end_time": "[06:33]",
+      "start_time_sec": 387,
+      "text": "That is a dreadful attitude towards elderly customers who pay thirty pounds every month!",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:35]",
+      "end_time": "[06:42]",
+      "start_time_sec": 395,
+      "text": "I can push an automated firmware accessibility configuration profile to your box from my terminal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:44]",
+      "end_time": "[06:48]",
+      "start_time_sec": 404,
+      "text": "What does that accessibility profile do to the screen?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:50]",
+      "end_time": "[07:04]",
+      "start_time_sec": 410,
+      "text": "It activates High Contrast Large Text mode, which increases font size by sixty percent across the electronic program guide and switches the background palette to bold high-contrast black and yellow for maximum legibility."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:06]",
+      "end_time": "[07:11]",
+      "start_time_sec": 426,
+      "text": "High-contrast black and yellow will be much easier on my tired eyes.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:13]",
+      "end_time": "[07:21]",
+      "start_time_sec": 433,
+      "text": "I am pushing the accessibility profile update now... your TV box will refresh its screen within ten seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:23]",
+      "end_time": "[07:35]",
+      "start_time_sec": 443,
+      "text": "Looking at the television... the guide just flashed... goodness me, the channel numbers are three times bigger now! I can read BBC One and ITV without squinting!",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:37]",
+      "end_time": "[07:41]",
+      "start_time_sec": 457,
+      "text": "That confirms the high-contrast accessibility scaling has initialized successfully."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:43]",
+      "end_time": "[07:46]",
+      "start_time_sec": 463,
+      "text": "That is a wonderful improvement, thank you.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:48]",
+      "end_time": "[07:53]",
+      "start_time_sec": 468,
+      "text": "Now let us locate your missing broadcast episodes on the catch-up service."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:55]",
+      "end_time": "[08:01]",
+      "start_time_sec": 475,
+      "text": "Yes, I missed Monday's episode while the engineer was disconnecting the old cables.",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:03]",
+      "end_time": "[08:13]",
+      "start_time_sec": 483,
+      "text": "Press the microphone voice button on the center of your remote control, hold it down, and say the name of the show clearly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:15]",
+      "end_time": "[08:20]",
+      "start_time_sec": 495,
+      "text": "Holding the microphone button down... speaking into the remote: 'Coronation Street'...",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:22]",
+      "end_time": "[08:27]",
+      "start_time_sec": 502,
+      "text": "The voice search will scan the ITVX catch-up on-demand library automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:29]",
+      "end_time": "[08:38]",
+      "start_time_sec": 509,
+      "text": "It worked! Monday's episode popped right up in the middle of the screen with a big button saying 'Watch from Start'!",
+      "sentiment_score": 28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:39]",
+      "end_time": "[08:46]",
+      "start_time_sec": 519,
+      "text": "Press the large circular OK button in the center of the arrow keypad to begin playing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:47]",
+      "end_time": "[08:53]",
+      "start_time_sec": 527,
+      "text": "The theme music is playing and the picture is crystal clear! What a relief!",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:54]",
+      "end_time": "[09:00]",
+      "start_time_sec": 534,
+      "text": "What specific television program were you trying to locate in your recordings list?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:01]",
+      "end_time": "[09:08]",
+      "start_time_sec": 541,
+      "text": "As I told you right at the start of our call, Coronation Street on ITV!",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:09]",
+      "end_time": "[09:18]",
+      "start_time_sec": 549,
+      "text": "Right, I have set a permanent Series Link on ITV for Coronation Street, so every new episode will record automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:19]",
+      "end_time": "[09:25]",
+      "start_time_sec": 559,
+      "text": "That means I won't have to fiddle with voice search every single evening.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:26]",
+      "end_time": "[09:31]",
+      "start_time_sec": 566,
+      "text": "Yes, future broadcast episodes will appear under the Saved section automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:32]",
+      "end_time": "[09:37]",
+      "start_time_sec": 572,
+      "text": "And does the voice button work for the evening news as well?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:38]",
+      "end_time": "[09:46]",
+      "start_time_sec": 578,
+      "text": "Yes, you can simply hold the voice button and say 'BBC News at Six' to tune in directly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:47]",
+      "end_time": "[09:53]",
+      "start_time_sec": 587,
+      "text": "That voice button makes using the remote so much simpler than reading tiny buttons.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:54]",
+      "end_time": "[10:00]",
+      "start_time_sec": 594,
+      "text": "How is your broadband connection performing alongside the TV service at your property?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:01]",
+      "end_time": "[10:10]",
+      "start_time_sec": 601,
+      "text": "The broadband internet has been working fine for my computer, it was purely the new television box that had me flummoxed.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:11]",
+      "end_time": "[10:17]",
+      "start_time_sec": 611,
+      "text": "I am very pleased to hear your internet service remains stable and reliable."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:18]",
+      "end_time": "[10:23]",
+      "start_time_sec": 618,
+      "text": "Thank you for getting the large font and the soap opera working.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:24]",
+      "end_time": "[10:29]",
+      "start_time_sec": 624,
+      "text": "The accessibility setup reference number logged on your profile is ACC-88192-J."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:30]",
+      "end_time": "[10:33]",
+      "start_time_sec": 630,
+      "text": "Noted down... ACC-88192-J.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:34]",
+      "end_time": "[10:51]",
+      "start_time_sec": 634,
+      "text": "I have verified that the large font high-contrast accessibility profile is permanently active, your Coronation Street series link is locked on ITVX, and voice search is working clearly on your remote. Does that resolve all your television questions today, Joseph?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:52]",
+      "end_time": "[10:59]",
+      "start_time_sec": 652,
+      "text": "Yes Laura, you've sorted out the big writing and my show is playing. Thank you.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:00]",
+      "end_time": "[11:05]",
+      "start_time_sec": 660,
+      "text": "Thank you for choosing S-Net today, Joseph. Enjoy your television program. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:06]",
+      "end_time": "[11:10]",
+      "start_time_sec": 666,
+      "text": "Thank you Laura, goodbye.",
+      "sentiment_score": 14.2
+    }
+  ]
+}

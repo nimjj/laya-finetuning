@@ -1,0 +1,694 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Ferdinand",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:09]",
+      "start_time_sec": 0,
+      "text": "Good morning, thank you for calling S-Net Fibre and Voice Support. My name is Owen speaking today. Who do I have on the line, please?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:19]",
+      "start_time_sec": 10,
+      "text": "Hello Owen, my name is Ferdinand Vance. I'm calling from my neighbour's house up the hill because my broadband and phone line are completely dead.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:20]",
+      "end_time": "[00:29]",
+      "start_time_sec": 20,
+      "text": "Good morning, Ferdinand. Let me pull up your S-Net profile first. Could you give me your ten-digit account number and your date of birth, please?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:30]",
+      "end_time": "[00:36]",
+      "start_time_sec": 30,
+      "text": "Yes, the account number is 8849201734, and my date of birth is the fourteenth of November 1958.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:37]",
+      "end_time": "[00:46]",
+      "start_time_sec": 37,
+      "text": "Thank you, Ferdinand. I have account 8849201734 open on my screen now. Tell me what happened to your fibre broadband and telephone service this morning.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:47]",
+      "end_time": "[00:56]",
+      "start_time_sec": 47,
+      "text": "We had a violent thunderstorm across the valley around four o'clock this morning, with lightning striking right near our lane, and everything went off immediately.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:57]",
+      "end_time": "[01:06]",
+      "start_time_sec": 57,
+      "text": "Right, I see. When you went outside this morning, did you notice any physical damage to the overhead cable or the wooden telegraph pole?",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:07]",
+      "end_time": "[01:17]",
+      "start_time_sec": 67,
+      "text": "Yes, pole number DP-449 at the corner of Millbrook Lane has a split cross-arm, and the black overhead fibre cable is snapped and coiled by the hedge.",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:18]",
+      "end_time": "[01:28]",
+      "start_time_sec": 78,
+      "text": "So to summarize, lightning from this morning's storm damaged pole DP-449 on Millbrook Lane and severed your overhead dropwire, leaving both your broadband and landline completely dead.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:29]",
+      "end_time": "[01:39]",
+      "start_time_sec": 89,
+      "text": "That's right, and I am genuinely terrified because our isolated farm cottage is in a deep stone hollow with zero mobile signal indoors and no landline for emergencies.",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:40]",
+      "end_time": "[01:49]",
+      "start_time_sec": 100,
+      "text": "I have noted on the ticket that there is no indoor mobile reception at the cottage. Let's go through the mandatory safety and equipment checks first.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:50]",
+      "end_time": "[02:00]",
+      "start_time_sec": 110,
+      "text": "My wife has a heart condition and if she needs an ambulance overnight we have no way to ring out at all without walking half a mile uphill!",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:01]",
+      "end_time": "[02:11]",
+      "start_time_sec": 121,
+      "text": "I have recorded that medical note on the log, Ferdinand. First safety question for Openreach: is the snapped black cable hanging across a road where vehicles pass?",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:12]",
+      "end_time": "[02:21]",
+      "start_time_sec": 132,
+      "text": "No, the cable fell onto the grass verge on the inside of the hedgerow, so tractors and cars can still get past on the lane.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:22]",
+      "end_time": "[02:31]",
+      "start_time_sec": 142,
+      "text": "Good. Second safety question: is that telegraph pole carrying any mains electricity power cables, or is there any sparking or charring near the base?",
+      "sentiment_score": 3.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:32]",
+      "end_time": "[02:40]",
+      "start_time_sec": 152,
+      "text": "No, it's purely a telecommunications pole with the yellow warning band on it, no electrical transformers or power lines attached to it.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:41]",
+      "end_time": "[02:50]",
+      "start_time_sec": 161,
+      "text": "And is the broken wooden cross-arm dangling loose where it could fall onto a pedestrian walking along Millbrook Lane, or is it lodged against the pole?",
+      "sentiment_score": 3.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:51]",
+      "end_time": "[03:00]",
+      "start_time_sec": 171,
+      "text": "It's hanging at an awkward angle held up by one rusty bolt, so if the wind picks up tonight it could easily drop onto the footpath.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:01]",
+      "end_time": "[03:10]",
+      "start_time_sec": 181,
+      "text": "That classifies it as a structural overhead hazard. Now let me check the equipment inside your cottage. Do you still have mains electricity inside the house?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:11]",
+      "end_time": "[03:20]",
+      "start_time_sec": 191,
+      "text": "Yes, the mains electricity flickered during the storm at four in the morning, but the fuse board stayed on and our sockets are working fine.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:21]",
+      "end_time": "[03:29]",
+      "start_time_sec": 201,
+      "text": "When you looked at the white Openreach optical network terminal box mounted on your interior wall, which indicator lights were illuminated or flashing?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:30]",
+      "end_time": "[03:38]",
+      "start_time_sec": 210,
+      "text": "The power light is solid green, the optical LOS light is flashing bright red, and the PON and LAN lights are completely dark.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:39]",
+      "end_time": "[03:47]",
+      "start_time_sec": 219,
+      "text": "A flashing red LOS light confirms total loss of light through the external fibre strand, matching the severed dropwire outside at pole DP-449.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:48]",
+      "end_time": "[03:56]",
+      "start_time_sec": 228,
+      "text": "And the battery backup unit next to the white box has been letting out a loud piercing beep every thirty seconds since dawn.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:57]",
+      "end_time": "[04:06]",
+      "start_time_sec": 237,
+      "text": "Did you press the silence alarm button on the side of the Nokia battery backup unit before you walked up to your neighbour's house?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:07]",
+      "end_time": "[04:16]",
+      "start_time_sec": 247,
+      "text": "I held the little grey button down for five seconds and the beeping stopped, though the red fault LED on the battery pack stayed lit.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:17]",
+      "end_time": "[04:27]",
+      "start_time_sec": 257,
+      "text": "And on your S-Net Hub 5 router itself, where your cordless home telephone base station plugs into the green voice port, what colour was the front bar?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:28]",
+      "end_time": "[04:37]",
+      "start_time_sec": 268,
+      "text": "The front light bar on the S-Net Hub 5 is pulsing orange continuously, and when I pick up the landline handset there is no dial tone.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:38]",
+      "end_time": "[04:47]",
+      "start_time_sec": 278,
+      "text": "Did you also check whether any other cottages along Millbrook Lane are fed from that same pole DP-449, or is yours the only dropwire on it?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:48]",
+      "end_time": "[04:58]",
+      "start_time_sec": 288,
+      "text": "Ours is the only cottage down at the bottom of the hollow fed from pole DP-449; my neighbour Arthur up the hill is on a different line.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:59]",
+      "end_time": "[05:07]",
+      "start_time_sec": 299,
+      "text": "All right, those hardware diagnostics give me everything required for the line telemetry report. Let me open the wholesale hazard dispatch form now.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:08]",
+      "end_time": "[05:17]",
+      "start_time_sec": 308,
+      "text": "How quickly can you get an engineer out here with a cherry picker to restring the cable? We really cannot be cut off for days.",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:18]",
+      "end_time": "[05:26]",
+      "start_time_sec": 318,
+      "text": "Before the wholesale portal lets me submit the hazard form, I realized I only took your account number earlier and skipped full verification.",
+      "sentiment_score": 1.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:27]",
+      "end_time": "[05:32]",
+      "start_time_sec": 327,
+      "text": "Oh, did you? What else do you need from me to get the form through?",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:33]",
+      "end_time": "[05:40]",
+      "start_time_sec": 333,
+      "text": "To complete verification now, could you confirm your full property address including the postcode, and also your four-digit account PIN, Ferdinand?",
+      "sentiment_score": 3.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:41]",
+      "end_time": "[05:48]",
+      "start_time_sec": 341,
+      "text": "Certainly, the property address is Brackenfell Cottage, Millbrook Lane, Hexham, Northumberland, NE46 2QT, and my four-digit PIN is 7391.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:49]",
+      "end_time": "[05:55]",
+      "start_time_sec": 349,
+      "text": "Thank you, Ferdinand. I have verified Brackenfell Cottage, NE46 2QT and your PIN 7391 on the system now.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:56]",
+      "end_time": "[06:02]",
+      "start_time_sec": 356,
+      "text": "Great, now please tell me someone can come out today to fix pole DP-449 and reconnect our line.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:03]",
+      "end_time": "[06:13]",
+      "start_time_sec": 363,
+      "text": "I am going to check the live Openreach hoist and hazard engineering schedule now. Please bear with me for a moment while I contact their dispatch desk.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:14]",
+      "end_time": "[06:17]",
+      "start_time_sec": 374,
+      "text": "All right, I will wait on the line.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:32]",
+      "end_time": "[07:40]",
+      "start_time_sec": 452,
+      "text": "Thank you for holding, Ferdinand. I have spoken with the Openreach regional hazard controller and logged the damaged cross-arm on pole DP-449.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:41]",
+      "end_time": "[07:46]",
+      "start_time_sec": 461,
+      "text": "What did they say? Are they sending a crew out to Millbrook Lane this afternoon?",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:47]",
+      "end_time": "[07:56]",
+      "start_time_sec": 467,
+      "text": "Because pole DP-449 has a damaged wooden cross-arm and requires a two-person overhead hoist vehicle and road safety signage, standard solo vans cannot climb it.",
+      "sentiment_score": 3.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:57]",
+      "end_time": "[08:01]",
+      "start_time_sec": 477,
+      "text": "Okay, so when does the two-person hoist vehicle arrive at Brackenfell Cottage?",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:02]",
+      "end_time": "[08:12]",
+      "start_time_sec": 482,
+      "text": "An emergency make-safe barrier technician will attend within four hours to secure the loose cross-arm, and the overhead hoist crew is booked for Friday morning in forty-eight hours.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:13]",
+      "end_time": "[08:22]",
+      "start_time_sec": 493,
+      "text": "Forty-eight hours?! Owen, I just told you my wife has a heart condition and we have no phone line or indoor mobile signal at all!",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:23]",
+      "end_time": "[08:30]",
+      "start_time_sec": 503,
+      "text": "The hoist crew has twelve storm-damaged poles across Northumberland queued ahead of Millbrook Lane after last night's lightning strikes.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:31]",
+      "end_time": "[08:40]",
+      "start_time_sec": 511,
+      "text": "Surely S-Net can escalate this as a vulnerable household priority so we aren't left cut off in the middle of nowhere for two whole days!",
+      "sentiment_score": -34.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:41]",
+      "end_time": "[08:50]",
+      "start_time_sec": 521,
+      "text": "I have already flagged the welfare indicator on Openreach hazard reference OR-992841-HX, which moved your hoist slot from next Tuesday forward to Friday morning.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:51]",
+      "end_time": "[08:59]",
+      "start_time_sec": 531,
+      "text": "Friday morning is still two nights without a working landline or broadband connection in our cottage because a pole snapped in the storm!",
+      "sentiment_score": -33.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:00]",
+      "end_time": "[09:09]",
+      "start_time_sec": 540,
+      "text": "The hoist machinery and replacement timber cross-arm have to come from the Newcastle heavy plant depot, and Friday between eight and one is the earliest slot.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:10]",
+      "end_time": "[09:19]",
+      "start_time_sec": 550,
+      "text": "I pay S-Net sixty-two pounds every month for dependable fibre and Digital Voice, and the moment bad weather hits we are left completely isolated!",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:20]",
+      "end_time": "[09:26]",
+      "start_time_sec": 560,
+      "text": "Well, Ferdinand, I obviously can't control the British weather or stop lightning hitting a pole, can I?",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:27]",
+      "end_time": "[09:36]",
+      "start_time_sec": 567,
+      "text": "Excuse me? There is no need to take that sarcastic tone with me when I am worried sick about reaching an ambulance for my wife!",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:37]",
+      "end_time": "[09:45]",
+      "start_time_sec": 577,
+      "text": "Let's stick to the practical steps I can take for your connection while we wait for the Openreach hoist crew on Friday morning.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:46]",
+      "end_time": "[09:52]",
+      "start_time_sec": 586,
+      "text": "What practical steps can you possibly take if the fibre cable is lying in the hedge outside?",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:53]",
+      "end_time": "[10:02]",
+      "start_time_sec": 593,
+      "text": "Although you mentioned having no indoor cellular signal, you said earlier that your attic gable window faces up the hill toward your neighbour's house.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:03]",
+      "end_time": "[10:12]",
+      "start_time_sec": 603,
+      "text": "Yes, if you stand right up by the top attic window facing the ridge you can sometimes get one or two bars of 4G outdoors.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:13]",
+      "end_time": "[10:21]",
+      "start_time_sec": 613,
+      "text": "I am taking personal ownership of ordering an S-Net 4G Always-Connected Backup Hub with a high-gain window suction antenna for you right now.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:22]",
+      "end_time": "[10:27]",
+      "start_time_sec": 622,
+      "text": "How does that backup hub work, and how quickly would it actually get out to Hexham?",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:28]",
+      "end_time": "[10:35]",
+      "start_time_sec": 628,
+      "text": "I am dispatching it via pre-noon courier to your cottage for tomorrow morning, pre-activated with unlimited data at zero charge.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:36]",
+      "end_time": "[10:43]",
+      "start_time_sec": 636,
+      "text": "And if we mount the suction antenna on the attic window, will that let our cordless phone work downstairs?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:44]",
+      "end_time": "[10:54]",
+      "start_time_sec": 644,
+      "text": "Yes, Ferdinand. You plug the 4G backup unit into the WAN port of your S-Net Hub 5, and your Digital Voice landline handset will work over 4G.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:55]",
+      "end_time": "[11:03]",
+      "start_time_sec": 655,
+      "text": "That would actually give us a working emergency phone inside the cottage tomorrow until the hoist crew repairs the pole on Friday.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:04]",
+      "end_time": "[11:13]",
+      "start_time_sec": 664,
+      "text": "Exactly. I have generated the courier dispatch under order reference BK-440192 and linked it directly to your outage ticket so you won't be billed a penny.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:14]",
+      "end_time": "[11:23]",
+      "start_time_sec": 674,
+      "text": "Thank you for arranging that backup unit, Owen. What happens if I need updates on the Openreach hoist crew since my mobile doesn't work indoors?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:24]",
+      "end_time": "[11:35]",
+      "start_time_sec": 684,
+      "text": "Since you are calling from your neighbour's telephone right now, would your neighbour mind if I add their landline number as a secondary contact on the ticket?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:36]",
+      "end_time": "[11:44]",
+      "start_time_sec": 696,
+      "text": "My neighbour Arthur said that is completely fine—his number is the 01434 number I am calling you from right now.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:45]",
+      "end_time": "[11:56]",
+      "start_time_sec": 705,
+      "text": "I have added Arthur's 01434 landline as the primary voice contact for Openreach engineer pre-call alerts, and kept your mobile for SMS updates when you walk uphill.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:57]",
+      "end_time": "[12:05]",
+      "start_time_sec": 717,
+      "text": "Will someone from Openreach need to come inside Brackenfell Cottage on Friday morning when they restring the overhead fibre cable?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:06]",
+      "end_time": "[12:18]",
+      "start_time_sec": 726,
+      "text": "Yes, once the two-person hoist crew replaces the cross-arm on pole DP-449 and runs a new dropwire to your eaves, they will test light levels at your internal box.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:19]",
+      "end_time": "[12:27]",
+      "start_time_sec": 739,
+      "text": "Okay, I will make sure either my wife or I am home between eight o'clock and one o'clock on Friday morning.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:28]",
+      "end_time": "[12:38]",
+      "start_time_sec": 748,
+      "text": "I have also enabled Ofcom automatic loss-of-service compensation on account 8849201734, which credits nine pounds and seventy-six pence per full day after forty-eight hours.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:39]",
+      "end_time": "[12:46]",
+      "start_time_sec": 759,
+      "text": "Does that credit go onto my next monthly S-Net statement automatically once the fibre line is working again?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:47]",
+      "end_time": "[12:58]",
+      "start_time_sec": 767,
+      "text": "Yes, Ferdinand, I have set a personal follow-up task in my queue for Friday afternoon at two o'clock to verify the optical signal and confirm the credit.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:59]",
+      "end_time": "[13:08]",
+      "start_time_sec": 779,
+      "text": "Can you read back the reference numbers so I can write them on my notepad before I walk back down the lane?",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:09]",
+      "end_time": "[13:17]",
+      "start_time_sec": 789,
+      "text": "Of course. Your Openreach overhead hazard and hoist reference is OR-992841-HX, booked for Friday morning between 08:00 and 13:00.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:18]",
+      "end_time": "[13:26]",
+      "start_time_sec": 798,
+      "text": "Got that written down, OR-992841-HX. And what was the courier reference for the 4G backup hub and window antenna?",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:27]",
+      "end_time": "[13:33]",
+      "start_time_sec": 807,
+      "text": "The pre-noon DPD courier order reference is BK-440192, arriving tomorrow before twelve midday at Brackenfell Cottage.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:34]",
+      "end_time": "[13:44]",
+      "start_time_sec": 814,
+      "text": "Right, I have both numbers written down. So my broadband and phone line are still completely off for now until the kit and engineers arrive.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:45]",
+      "end_time": "[13:54]",
+      "start_time_sec": 825,
+      "text": "Correct, your overhead fibre line remains down pending the Openreach hoist repair on Friday, with the 4G backup hub arriving tomorrow morning.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:55]",
+      "end_time": "[14:01]",
+      "start_time_sec": 835,
+      "text": "All right, I will look out for the make-safe technician today and the courier tomorrow morning.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:02]",
+      "end_time": "[14:10]",
+      "start_time_sec": 842,
+      "text": "Is there anything else I can check on your account today while I have you on the line, Ferdinand?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:11]",
+      "end_time": "[14:14]",
+      "start_time_sec": 851,
+      "text": "No, that's everything for now, thank you.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:15]",
+      "end_time": "[14:22]",
+      "start_time_sec": 855,
+      "text": "Thank you for choosing S-Net, Ferdinand, and there will be a brief survey after this call. Goodbye.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:23]",
+      "end_time": "[14:25]",
+      "start_time_sec": 863,
+      "text": "Goodbye.",
+      "sentiment_score": 2.0
+    }
+  ]
+}

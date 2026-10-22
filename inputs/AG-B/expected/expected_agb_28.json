@@ -1,0 +1,193 @@
+{
+  "call_id": "agb_28",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 68.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Agent omitted mandatory closing branding 'thank you for choosing s-net' and customer satisfaction survey request."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Agent explicitly disclaimed responsibility for hardware overheating, stating thermal issues were strictly between customer and manufacturer."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent ended call while customer explicitly stated she did not consider the issue resolved and remained terrified of a fire hazard."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Overheating WiFi booster dropping network packets; thermal ventilation fixed and unit tested; agent omits survey & closing branding, disclaims hardware warranty ownership, and ends call while customer fears fire hazard",
+    "tier": "fair",
+    "duration_sec": 926,
+    "notes": "The agent helped troubleshoot an overheating mesh WiFi booster that was dropping packets when placed inside an enclosed TV unit. However, the agent failed Branding and Survey Check by omitting 'thank you for choosing s-net' and the survey, failed Took Ownership of the Problem by disclaiming responsibility for hardware overheating ('Hardware thermal failures are strictly between you and the manufacturer; S-Net does not insure devices'), and failed Confirmed Resolved by abruptly terminating the call while Bethany was actively stating she was terrified the booster would catch fire overnight.",
+    "hard_cases": [
+      "Took ownership of the problem",
+      "Branding and Survey Check",
+      "Paraphrasing",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[15:40] Agent: 'The telemetry confirms normal function. Keep the vents clear and have a good day. Goodbye.' - Closing lacks mandatory S-Net branding and survey mention."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:30] Agent: 'So if I have understood correctly, your upstairs S-Net WiFi disc is overheating significantly, showing a flashing red thermal indicator...' - Complete and accurate restatement."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[12:15] Agent: 'Hardware thermal failures are strictly between you and the equipment manufacturer; S-Net does not insure or guarantee device temperatures...' - Blatant disclaimer of ownership."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[11:20] Agent: 'Obviously that confirms thermal equilibrium has been restored by unrestricted convective airflow, Bethany.' - Technical explanation delivered objectively."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[15:25] Customer: 'Well, certifications or not, I am still terrified this unit is a fire hazard, and I do not consider this issue resolved or safe for my family!' Agent abruptly closed call without resolving concerns."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 48
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 48
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

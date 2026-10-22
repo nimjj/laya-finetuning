@@ -1,0 +1,493 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Jack",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Fiona. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:17]",
+      "end_time": "[00:32]",
+      "start_time_sec": 17,
+      "text": "Hi Fiona. I built a timber garden office sixty feet away from the main house, but the Wi-Fi signal from our Hub 5 cannot penetrate the exterior double-glazed patio doors and foil-backed wall insulation!",
+      "sentiment_score": -34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:42]",
+      "end_time": "[00:54]",
+      "start_time_sec": 42,
+      "text": "I understand how frustrating poor wireless coverage is when you are trying to work productively from an external garden workspace. Let's explore your network expansion options immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:04]",
+      "end_time": "[01:16]",
+      "start_time_sec": 64,
+      "text": "Thank you Fiona. I am an independent architectural consultant and I rely completely on stable high-speed cloud synchronization to upload multi-gigabyte Revit 3D building models for commercial contractors.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:26]",
+      "end_time": "[01:33]",
+      "start_time_sec": 86,
+      "text": "What physical wiring or cabling currently exists between the main house and your garden building?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[01:56]",
+      "start_time_sec": 103,
+      "text": "I hired an electrician who ran a forty-meter exterior-grade Cat6 copper Ethernet cable through an underground PVC conduit into Port 2 on the back of the Hub 5 in the hallway.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:06]",
+      "end_time": "[02:13]",
+      "start_time_sec": 126,
+      "text": "Let me check the port status and local Ethernet interface telemetry on your broadband hub."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:23]",
+      "end_time": "[02:33]",
+      "start_time_sec": 143,
+      "text": "When I plug my work laptop directly into that wall socket in the garden office, I get nine hundred megabits with zero latency.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:43]",
+      "end_time": "[02:53]",
+      "start_time_sec": 163,
+      "text": "Is that Cat6 link terminating into a wall faceplate with an RJ45 modular socket, or does it connect directly into a secondary network switch?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:03]",
+      "end_time": "[03:10]",
+      "start_time_sec": 183,
+      "text": "It terminates into a shielded metal faceplate on the timber wall with two RJ45 jacks.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:19]",
+      "end_time": "[03:25]",
+      "start_time_sec": 199,
+      "text": "Have you attempted connecting a secondary wireless access point or router to that faceplate?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:34]",
+      "end_time": "[03:45]",
+      "start_time_sec": 214,
+      "text": "I bought a cheap third-party Wi-Fi extender off Amazon, but it created a separate network SSID and keeps causing IP address conflicts with the main router.",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:54]",
+      "end_time": "[04:01]",
+      "start_time_sec": 234,
+      "text": "Third-party consumer extenders configured with active DHCP servers generate double-NAT conflicts and routing loop errors."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:10]",
+      "end_time": "[04:19]",
+      "start_time_sec": 250,
+      "text": "Every time my tablet roams between the main house and the garden office, the internet completely freezes for two minutes!",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:28]",
+      "end_time": "[04:36]",
+      "start_time_sec": 268,
+      "text": "When devices move between mismatched wireless subnets without 802.11k and 802.11v seamless roaming protocols, the TCP connection drops."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:45]",
+      "end_time": "[04:52]",
+      "start_time_sec": 285,
+      "text": "Is there an official S-Net mesh hardware solution that integrates seamlessly with our Hub 5?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:01]",
+      "end_time": "[05:07]",
+      "start_time_sec": 301,
+      "text": "Yes, we provide S-Net Intelligent Wi-Fi Booster pods that support wired Ethernet backhaul mode."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:16]",
+      "end_time": "[05:20]",
+      "start_time_sec": 316,
+      "text": "How does wired Ethernet backhaul work with the Booster pods?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:29]",
+      "end_time": "[05:43]",
+      "start_time_sec": 329,
+      "text": "In wired backhaul mode, the booster pod connects directly to your Cat6 wall socket, using the physical gigabit copper link as its high-speed backbone instead of relaying over an attenuated wireless mesh signal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:52]",
+      "end_time": "[05:57]",
+      "start_time_sec": 352,
+      "text": "That sounds ideal because the copper cable eliminates all wireless wall attenuation.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:06]",
+      "end_time": "[06:17]",
+      "start_time_sec": 366,
+      "text": "Please bear with me on hold for about forty seconds while I query your Hub 5 port configuration to verify Gigabit auto-negotiation on Port 2."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:57]",
+      "end_time": "[07:05]",
+      "start_time_sec": 417,
+      "text": "Thank you for your patience while holding. The Port 2 hardware status indicates full-duplex one thousand megabits auto-negotiation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:14]",
+      "end_time": "[07:20]",
+      "start_time_sec": 434,
+      "text": "That confirms the electrician terminated all eight copper wires properly without any crossed pairs.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:29]",
+      "end_time": "[07:34]",
+      "start_time_sec": 449,
+      "text": "Yes, all four twisted pairs are transmitting at gigabit carrier frequencies."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:43]",
+      "end_time": "[07:51]",
+      "start_time_sec": 463,
+      "text": "Does the S-Net Booster pod broadcast the exact same Wi-Fi network name and password as the main Hub?",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:00]",
+      "end_time": "[08:09]",
+      "start_time_sec": 480,
+      "text": "The booster clones your existing SSID and WPA3 security key, forming a single unified mesh network across your entire property."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:18]",
+      "end_time": "[08:26]",
+      "start_time_sec": 498,
+      "text": "So my phone and laptop will roam seamlessly without dropping video calls when I walk out to the garden?",
+      "sentiment_score": 14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:35]",
+      "end_time": "[08:43]",
+      "start_time_sec": 515,
+      "text": "Our automated client-steering software will dynamically shift your connection between the house and garden pod within five milliseconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:52]",
+      "end_time": "[08:57]",
+      "start_time_sec": 532,
+      "text": "How much does the S-Net Wi-Fi Booster pod cost per month?",
+      "sentiment_score": -2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:06]",
+      "end_time": "[09:17]",
+      "start_time_sec": 546,
+      "text": "Under your Gigafast 900 package tier, you are entitled to up to three Wi-Fi Booster pods free of charge under our Whole Home Wi-Fi Guarantee."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:26]",
+      "end_time": "[09:33]",
+      "start_time_sec": 566,
+      "text": "Free of charge is fantastic! I was expecting to pay a monthly hardware rental fee.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:42]",
+      "end_time": "[09:47]",
+      "start_time_sec": 582,
+      "text": "I will dispatch a complimentary Wi-Fi Booster pod via express courier today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:56]",
+      "end_time": "[10:01]",
+      "start_time_sec": 596,
+      "text": "When can I expect the parcel to arrive at our house?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:10]",
+      "end_time": "[10:16]",
+      "start_time_sec": 610,
+      "text": "The unit will be delivered by DPD tracked courier tomorrow afternoon before three o'clock."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:25]",
+      "end_time": "[10:32]",
+      "start_time_sec": 625,
+      "text": "Will I need to configure any complex IP settings on my computer to set it up?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:41]",
+      "end_time": "[10:52]",
+      "start_time_sec": 641,
+      "text": "Setup is entirely plug-and-play: connect the included Ethernet patch lead from the wall faceplate into the booster's LAN port and plug in the power supply."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:01]",
+      "end_time": "[11:04]",
+      "start_time_sec": 661,
+      "text": "Does the booster configure its operating mode automatically?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:13]",
+      "end_time": "[11:23]",
+      "start_time_sec": 673,
+      "text": "The internal firmware automatically detects the gigabit Ethernet link and switches from wireless repeater mode to wired access point mode within sixty seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:32]",
+      "end_time": "[11:35]",
+      "start_time_sec": 692,
+      "text": "That makes setup completely foolproof.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:44]",
+      "end_time": "[11:51]",
+      "start_time_sec": 704,
+      "text": "You should also power down and remove that third-party Amazon extender to eliminate radio frequency co-channel interference."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:00]",
+      "end_time": "[12:06]",
+      "start_time_sec": 720,
+      "text": "I will unplug the Amazon extender and toss it in the recycling bin.",
+      "sentiment_score": 12.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:15]",
+      "end_time": "[12:24]",
+      "start_time_sec": 735,
+      "text": "The booster broadcasts dual-band Wi-Fi 6 on both the 2.4GHz and 5GHz radio bands with sixteen hundred megabits aggregate wireless throughput."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:33]",
+      "end_time": "[12:39]",
+      "start_time_sec": 753,
+      "text": "That will easily deliver four to five hundred megabits wirelessly throughout the garden office.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:48]",
+      "end_time": "[12:54]",
+      "start_time_sec": 768,
+      "text": "Even on heavy architectural 3D rendering file syncs, you will experience zero wireless bottlenecks."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:03]",
+      "end_time": "[13:20]",
+      "start_time_sec": 783,
+      "text": "I was in the middle of uploading a four-gigabyte architectural file to the client cloud drive yesterday when the old extender crashed and corrupted the entire model! I had to spend three hours rebuilding the drawings from scratch!",
+      "sentiment_score": -48.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:29]",
+      "end_time": "[13:42]",
+      "start_time_sec": 809,
+      "text": "I understand how intensely frustrating that is, especially having to rebuild three hours of complex 3D CAD modeling work. The wired Ethernet backhaul pod will provide the rock-solid stability you need."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:51]",
+      "end_time": "[13:57]",
+      "start_time_sec": 831,
+      "text": "Thank you, that reassurance really helps my peace of mind for future client deadlines.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:06]",
+      "end_time": "[14:15]",
+      "start_time_sec": 846,
+      "text": "Can you remind me how long that outdoor Ethernet cable is and whether it is running through a protective conduit?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:24]",
+      "end_time": "[14:32]",
+      "start_time_sec": 864,
+      "text": "As I explained earlier, the outdoor Cat6 cable is forty meters long and runs through an underground PVC conduit.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:41]",
+      "end_time": "[14:49]",
+      "start_time_sec": 881,
+      "text": "Thank you for confirming that specification. Forty meters is well within the one-hundred-meter maximum distance for copper gigabit Ethernet."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:58]",
+      "end_time": "[15:03]",
+      "start_time_sec": 898,
+      "text": "That confirms signal degradation won't be an issue over forty meters.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:12]",
+      "end_time": "[15:17]",
+      "start_time_sec": 912,
+      "text": "Our hardware telemetry verifies zero packet attenuation across the four-pair run."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:26]",
+      "end_time": "[15:32]",
+      "start_time_sec": 926,
+      "text": "And does the booster have extra Ethernet ports for connecting a wired printer?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:41]",
+      "end_time": "[15:51]",
+      "start_time_sec": 941,
+      "text": "Yes, the booster unit features two Gigabit Ethernet ports on the base, allowing you to daisy-chain a desktop PC or network printer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:00]",
+      "end_time": "[16:06]",
+      "start_time_sec": 960,
+      "text": "That is extremely convenient so I don't need to install an extra switch.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:15]",
+      "end_time": "[16:20]",
+      "start_time_sec": 975,
+      "text": "How is your broadband connection performing otherwise inside the main residential house?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:29]",
+      "end_time": "[16:42]",
+      "start_time_sec": 989,
+      "text": "Inside the main house the Wi-Fi is blazing fast, we get over eight hundred megabits in the living room and kitchen, so the fiber service itself has been outstanding.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:51]",
+      "end_time": "[16:58]",
+      "start_time_sec": 1011,
+      "text": "I am delighted to hear the gigabit optical connection performs so reliably throughout the main residence."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:07]",
+      "end_time": "[17:14]",
+      "start_time_sec": 1027,
+      "text": "It was purely extending it out to the garden office that was giving me a headache.",
+      "sentiment_score": 8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:23]",
+      "end_time": "[17:26]",
+      "start_time_sec": 1043,
+      "text": "The hardware dispatch order reference number is POD-99412-W."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:35]",
+      "end_time": "[17:38]",
+      "start_time_sec": 1055,
+      "text": "Noted down... POD-99412-W.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:47]",
+      "end_time": "[18:05]",
+      "start_time_sec": 1067,
+      "text": "I have verified that the complimentary Wi-Fi Booster pod is dispatched via DPD for tomorrow afternoon delivery, your port configuration is verified at full gigabit speed, and your Whole Home Wi-Fi guarantee is permanently applied. Does that completely resolve your inquiry today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:14]",
+      "end_time": "[18:22]",
+      "start_time_sec": 1094,
+      "text": "Yes Fiona, you've provided the exact solution I needed and answered every technical question. Thank you very much.",
+      "sentiment_score": 28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:31]",
+      "end_time": "[18:38]",
+      "start_time_sec": 1111,
+      "text": "Thank you for choosing S-Net today. Have a productive afternoon in your garden studio. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:47]",
+      "end_time": "[18:50]",
+      "start_time_sec": 1127,
+      "text": "Thank you Fiona, goodbye.",
+      "sentiment_score": 18.2
+    }
+  ]
+}

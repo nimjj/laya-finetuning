@@ -1,0 +1,456 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Rhiannon",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net advanced technical support, my name is Gareth. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:15]",
+   "end_time": "[00:38]",
+   "start_time_sec": 15,
+   "text": "Hello Gareth, my name is Rhiannon Davies. Every single night around three in the morning when our S-Net Hub 5 performs its scheduled maintenance reboot, all custom port forwarding rules configured for our TrueNAS file server and security NVR disappear completely from the router's configuration table, severing remote access for our off-site backup servers!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:46]",
+   "end_time": "[01:10]",
+   "start_time_sec": 46,
+   "text": "Good afternoon Rhiannon. If I understand correctly, your S-Net Hub 5 is failing to retain custom port forwarding rules in non-volatile flash memory across scheduled overnight reboots, severing remote access to your TrueNAS server and security NVR. Before we inspect your router's NVRAM firmware registers, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:18]",
+   "end_time": "[01:24]",
+   "start_time_sec": 78,
+   "text": "Yes, it is 28 Cathedral Road, Cardiff, CF11 9LJ, security PIN 5541, customer account BB-881920.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:32]",
+   "end_time": "[01:43]",
+   "start_time_sec": 92,
+   "text": "Thank you Rhiannon, that confirms your account details. Have you configured static DHCP reservations for both the TrueNAS server and the security NVR on the local subnet?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:51]",
+   "end_time": "[02:07]",
+   "start_time_sec": 111,
+   "text": "Yes, TrueNAS is statically mapped to 192.168.1.50 and the NVR is mapped to 192.168.1.60 with their MAC addresses bound in the router GUI.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[02:15]",
+   "end_time": "[02:28]",
+   "start_time_sec": 135,
+   "text": "Could I place you on hold for two minutes while I query your Hub 5 cloud configuration sync state and NVRAM commit logs?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:53]",
+   "end_time": "[04:13]",
+   "start_time_sec": 233,
+   "text": "Thank you for holding, Rhiannon. The firmware telemetry confirms that while the web GUI accepts port forwarding rules, the local NVRAM commit daemon was encountering a write lock timeout against the TR-069 cloud provisioning profile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:21]",
+   "end_time": "[04:33]",
+   "start_time_sec": 261,
+   "text": "Why was the cloud provisioning profile creating a write lock timeout on local NVRAM?",
+   "sentiment_score": -10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:40]",
+   "end_time": "[04:57]",
+   "start_time_sec": 280,
+   "text": "When firmware version 4.12 was deployed, an unhandled concurrency bug caused the cloud TR-069 parameter sync to overwrite local firewall tables with the default empty profile upon reboot initialization."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:04]",
+   "end_time": "[05:18]",
+   "start_time_sec": 304,
+   "text": "Can you patch the firmware or push an updated cloud profile that preserves local firewall rules?",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:25]",
+   "end_time": "[05:36]",
+   "start_time_sec": 325,
+   "text": "Yes, we have released firmware maintenance patch version 4.12.3 which specifically fixes the TR-069 firewall table persistence synchronization."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:43]",
+   "end_time": "[05:54]",
+   "start_time_sec": 343,
+   "text": "Can we flash firmware patch 4.12.3 to our Hub 5 right now?",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:01]",
+   "end_time": "[06:13]",
+   "start_time_sec": 361,
+   "text": "I am pushing the firmware patch 4.12.3 image directly to your Hub 5 flash memory."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:20]",
+   "end_time": "[06:31]",
+   "start_time_sec": 380,
+   "text": "The hub center light turned solid orange... now it is flashing cyan.",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:38]",
+   "end_time": "[06:48]",
+   "start_time_sec": 398,
+   "text": "The flash memory write takes approximately ninety seconds to complete."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:55]",
+   "end_time": "[07:07]",
+   "start_time_sec": 415,
+   "text": "The light has returned to solid green. Has the firmware update succeeded?",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:14]",
+   "end_time": "[07:24]",
+   "start_time_sec": 434,
+   "text": "Firmware version 4.12.3 is now active with commit validation verified."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:31]",
+   "end_time": "[07:36]",
+   "start_time_sec": 451,
+   "text": "Now can we configure the port forwarding rules directly into the cloud profile?",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:43]",
+   "end_time": "[07:50]",
+   "start_time_sec": 463,
+   "text": "Obviously port forwarding tables require clean TCP and UDP port mappings bound to verified local IP endpoints."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:57]",
+   "end_time": "[08:06]",
+   "start_time_sec": 477,
+   "text": "Right, I have the exact port numbers ready: port 22 and 443 for TrueNAS, and port 8000 and 8554 for the NVR.",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:13]",
+   "end_time": "[08:37]",
+   "start_time_sec": 493,
+   "text": "Rhiannon speaking, our medical practice off-site backup server synchronizes confidential patient dental records across that TrueNAS tunnel between midnight and five in the morning! Because your router wiped the port forwarding rules every night this week, four consecutive off-site backups failed and our practice faced an immediate regulatory audit breach under healthcare compliance rules! I have been sick with worry, working until 4 AM trying to re-enter rules manually! We cannot afford another failed backup tonight!",
+   "sentiment_score": -68.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:44]",
+   "end_time": "[09:07]",
+   "start_time_sec": 524,
+   "text": "I completely understand the immense pressure, regulatory anxiety, and exhausting late nights this has caused you and your dental practice, Rhiannon. Missing patient record compliance backups is an absolute critical emergency, and I will ensure these port forwarding rules are permanently committed and personally verify their persistence through a live test reboot right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:14]",
+   "end_time": "[09:19]",
+   "start_time_sec": 554,
+   "text": "Thank you Gareth, that is exactly what I need to have total confidence.",
+   "sentiment_score": -2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:26]",
+   "end_time": "[09:37]",
+   "start_time_sec": 566,
+   "text": "I am binding port 22 and 443 to 192.168.1.50 for TrueNAS, and port 8000 and 8554 to 192.168.1.60 for the NVR directly on your primary cloud profile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:44]",
+   "end_time": "[09:47]",
+   "start_time_sec": 584,
+   "text": "The rules just populated in the hub web GUI!",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:54]",
+   "end_time": "[10:02]",
+   "start_time_sec": 594,
+   "text": "Now I am triggering an explicit hardware write commit to sync the cloud profile to local non-volatile flash memory."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:09]",
+   "end_time": "[10:12]",
+   "start_time_sec": 609,
+   "text": "Flash commit confirmed: 'NVRAM sync status: SUCCESS'.",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:19]",
+   "end_time": "[10:29]",
+   "start_time_sec": 619,
+   "text": "Now let us initiate a deliberate remote restart of the Hub 5 to simulate the overnight maintenance reboot while we are on the call."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:36]",
+   "end_time": "[10:40]",
+   "start_time_sec": 636,
+   "text": "Rebooting the hub now... The connection dropped... Hub is restarting.",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:47]",
+   "end_time": "[10:53]",
+   "start_time_sec": 647,
+   "text": "The router will complete its boot initialization and reload its NVRAM tables in approximately two minutes."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:00]",
+   "end_time": "[11:06]",
+   "start_time_sec": 660,
+   "text": "The hub light is flashing green... and now it turned solid green again! Internet is restored!",
+   "sentiment_score": 26.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:13]",
+   "end_time": "[11:18]",
+   "start_time_sec": 673,
+   "text": "Please open the hub administration dashboard and check the Port Forwarding tab."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:25]",
+   "end_time": "[11:36]",
+   "start_time_sec": 685,
+   "text": "Logging into 192.168.1.1... Navigating to Port Forwarding... Gareth! All four rules are still there! TrueNAS ports 22 and 443, and NVR ports 8000 and 8554 are intact!",
+   "sentiment_score": 34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:43]",
+   "end_time": "[11:50]",
+   "start_time_sec": 703,
+   "text": "Excellent! Now let us test external connectivity to verify the TrueNAS port from outside your local network."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:57]",
+   "end_time": "[12:09]",
+   "start_time_sec": 717,
+   "text": "I am using my mobile phone with Wi-Fi turned off to query port 443 on our public IP... Gareth! The TrueNAS SSL login page loaded immediately over cellular!",
+   "sentiment_score": 38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:16]",
+   "end_time": "[12:20]",
+   "start_time_sec": 736,
+   "text": "That confirms full bidirectional port forwarding persistence across physical router reboots."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:27]",
+   "end_time": "[12:31]",
+   "start_time_sec": 747,
+   "text": "Tonight's patient dental record backup will execute with zero errors.",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:38]",
+   "end_time": "[12:44]",
+   "start_time_sec": 758,
+   "text": "I have locked the cloud profile preventing any future firmware updates from overriding user-defined firewall tables."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:51]",
+   "end_time": "[12:55]",
+   "start_time_sec": 771,
+   "text": "You have completely saved our practice from regulatory audit sanctions, Gareth.",
+   "sentiment_score": 34.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:02]",
+   "end_time": "[13:07]",
+   "start_time_sec": 782,
+   "text": "I have documented all firmware revisions and port rules under case reference ADV-PORT-99182-R."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:14]",
+   "end_time": "[13:17]",
+   "start_time_sec": 794,
+   "text": "ADV-PORT-99182-R, recorded in our IT maintenance log.",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:24]",
+   "end_time": "[13:30]",
+   "start_time_sec": 804,
+   "text": "Our automated configuration backup system will also archive your port rules every twenty-four hours."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:37]",
+   "end_time": "[13:40]",
+   "start_time_sec": 817,
+   "text": "That provides total redundancy.",
+   "sentiment_score": 26.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:47]",
+   "end_time": "[13:54]",
+   "start_time_sec": 827,
+   "text": "Just making sure I have the exact account reference for our engineering log: that was BB-881920, wasn't it?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:01]",
+   "end_time": "[14:04]",
+   "start_time_sec": 841,
+   "text": "Yes, BB-881920 is our business account reference.",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:11]",
+   "end_time": "[14:16]",
+   "start_time_sec": 851,
+   "text": "Thank you Rhiannon, all configuration records and audit logs are fully committed."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:23]",
+   "end_time": "[14:27]",
+   "start_time_sec": 863,
+   "text": "Thank you for your world-class expertise and rapid resolution today, Gareth.",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:34]",
+   "end_time": "[14:41]",
+   "start_time_sec": 874,
+   "text": "It has been an absolute pleasure assisting you, Rhiannon. Best of luck with your dental practice backups."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:48]",
+   "end_time": "[14:51]",
+   "start_time_sec": 888,
+   "text": "Have a wonderful rest of your day, Gareth.",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:58]",
+   "end_time": "[15:04]",
+   "start_time_sec": 898,
+   "text": "Is there any other advanced technical query I can assist you with today, Rhiannon?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:11]",
+   "end_time": "[15:14]",
+   "start_time_sec": 911,
+   "text": "No Gareth, you have fixed everything perfectly.",
+   "sentiment_score": 26.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:21]",
+   "end_time": "[15:25]",
+   "start_time_sec": 921,
+   "text": "Thank you for calling S-Net advanced technical support, Rhiannon. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:32]",
+   "end_time": "[15:35]",
+   "start_time_sec": 932,
+   "text": "Goodbye Gareth.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:42]",
+   "end_time": "[15:45]",
+   "start_time_sec": 942,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:52]",
+   "end_time": "[15:55]",
+   "start_time_sec": 952,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:02]",
+   "end_time": "[16:05]",
+   "start_time_sec": 962,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:12]",
+   "end_time": "[16:15]",
+   "start_time_sec": 972,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:22]",
+   "end_time": "[16:25]",
+   "start_time_sec": 982,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:32]",
+   "end_time": "[16:37]",
+   "start_time_sec": 992,
+   "text": "Goodbye.",
+   "sentiment_score": 12.0
+  }
+ ]
+}

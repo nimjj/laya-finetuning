@@ -1,0 +1,196 @@
+{
+  "call_id": "agb_48",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 0.0,
+    "is_auto_fail": true,
+    "auto_fail_reason": "Agent called the customer an 'idiot' while the customer was struggling with Bluetooth remote control buttons.",
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Agent missed verbatim scripts for: Greeting, Closing"
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Agent failed to use the customer's verified name 'Warren' during the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "CRITICAL AUTO-FAIL: Agent shouted 'Any complete idiot knows how to press a Bluetooth pairing button!' at an elderly, arthritic customer."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent abruptly ended the call while customer was in mid-sentence asking about equipment return packaging."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Agent insults elderly customer struggling with remote control buttons (Auto-fail: 'idiot')",
+    "tier": "poor",
+    "duration_sec": 1125,
+    "notes": "The customer called for assistance re-pairing an S-Net TV Box Pro Bluetooth remote control following a firmware update. While the agent correctly verified the customer, demonstrated handled empathy regarding elderly arthritis, and provided clear paraphrasing, the agent failed Branding and Survey Check by omitting 'Thank you for calling S-Net', failed Personalized Call by never addressing the customer by name, failed Confirmed Resolved by abruptly hanging up while the customer was asking about return packaging, and committed an egregious Auto-Fail violation under Build Rapport and Observed Professionalism at minute 8 by shouting 'Any complete idiot knows how to press a Bluetooth pairing button!' at the customer.",
+    "hard_cases": [
+      "Confirmed the issue is resolved",
+      "Branding and Survey Check",
+      "Paraphrasing",
+      "Empathy & Acknowledgment Statement"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent opened with 'Welcome to S-Net digital television and entertainment technical support' omitting 'Thank you for calling S-Net', and closed with 'Just throw it away. Goodbye' omitting 'Thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never used the customer's name 'Warren' across any turn in the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:40] Agent provided handled empathy acknowledging the distress of painful swollen knuckles from arthritis and sitting in silence without evening television."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:20] Agent accurately restated that following the software update, the TV Box Pro remote had unpaired, leaving the television completely unresponsive."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[17:20] Agent accurately recalled remote dispatch reference ACC-REM-882194 and confirmed Wednesday delivery without asking customer to repeat."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[07:45] Agent explicitly took ownership: 'I will take direct ownership of upgrading your equipment and dispatch an S-Net Easy-Grip Large Button Accessibility Remote free of charge.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[05:15] Agent: 'Any complete idiot knows how to press a Bluetooth pairing button! It's not rocket science, just hold down two numbers!' - Severe verbal abuse and gross unprofessional misconduct."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[18:25] Agent terminated the call while customer was asking how to return the existing remote control, hanging up without confirming resolution."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 35,
+          "agent_turn": 58
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 20
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 32
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Ursula",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:04]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, I'm Nick. How can I help?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:06]",
+      "end_time": "[00:18]",
+      "start_time_sec": 6,
+      "text": "My direct debit failed and now I've got a late payment fee of fifteen pounds, but it's because your system rejected my new card. I'm really not happy about this.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:19]",
+      "end_time": "[00:21]",
+      "start_time_sec": 19,
+      "text": "Can I take your PIN?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:23]",
+      "end_time": "[00:25]",
+      "start_time_sec": 23,
+      "text": "6 1 6 1.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:27]",
+      "end_time": "[00:29]",
+      "start_time_sec": 27,
+      "text": "Thanks. Who is the account holder?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:30]",
+      "end_time": "[00:32]",
+      "start_time_sec": 30,
+      "text": "Me, Ursula Grant.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:33]",
+      "end_time": "[00:35]",
+      "start_time_sec": 33,
+      "text": "And the new card ends in?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:36]",
+      "end_time": "[00:38]",
+      "start_time_sec": 36,
+      "text": "4 4 2 1.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:40]",
+      "end_time": "[00:43]",
+      "start_time_sec": 40,
+      "text": "Who did you say the account holder is?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:45]",
+      "end_time": "[00:47]",
+      "start_time_sec": 45,
+      "text": "Me. Ursula Grant.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:49]",
+      "end_time": "[00:51]",
+      "start_time_sec": 49,
+      "text": "And the card ending again?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:53]",
+      "end_time": "[00:55]",
+      "start_time_sec": 53,
+      "text": "4 4 2 1. Again.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:56]",
+      "end_time": "[01:00]",
+      "start_time_sec": 56,
+      "text": "Okay, I've updated the card and taken this month's payment.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:03]",
+      "end_time": "[01:05]",
+      "start_time_sec": 63,
+      "text": "And the fee?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:06]",
+      "end_time": "[01:09]",
+      "start_time_sec": 66,
+      "text": "I've removed the late fee as well.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:11]",
+      "end_time": "[01:13]",
+      "start_time_sec": 71,
+      "text": "Can I see that?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:15]",
+      "end_time": "[01:18]",
+      "start_time_sec": 75,
+      "text": "It should show in the app now.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:20]",
+      "end_time": "[01:23]",
+      "start_time_sec": 80,
+      "text": "Yes, payment taken, and the fee is gone.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:26]",
+      "end_time": "[01:28]",
+      "start_time_sec": 86,
+      "text": "Great. Bye then.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

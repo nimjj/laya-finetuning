@@ -1,0 +1,477 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Danica",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net broadband technical support, my name is Liam. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:23]",
+      "start_time_sec": 10,
+      "text": "Hello Liam, my name is Danica Bailey. I bought a Hive smart thermostat kit and four smart radiator valves, and none of them will connect to our new S-Net Hub 5 router.",
+      "sentiment_score": -22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:26]",
+      "end_time": "[00:39]",
+      "start_time_sec": 26,
+      "text": "Good morning Danica. I can certainly help look into Wi-Fi connectivity. Before we access your router gateway, could you please confirm your full postal address and your account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:42]",
+      "end_time": "[00:53]",
+      "start_time_sec": 42,
+      "text": "Yes, it is 15 St John's Road, Tunbridge Wells, TN4 9UU, and my security PIN is 8402. The thermostat kit is the Hive Active Heating v3 system.",
+      "sentiment_score": 1.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:56]",
+      "end_time": "[01:06]",
+      "start_time_sec": 56,
+      "text": "Thank you Danica, that confirms your account details. What happens on the Hive smartphone app when you try to pair the thermostat hub?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:09]",
+      "end_time": "[01:21]",
+      "start_time_sec": 69,
+      "text": "The app spins for two minutes and says 'Unable to find 2.4 GHz network'. Both my phone and the thermostat are in the same room as the router.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:24]",
+      "end_time": "[01:38]",
+      "start_time_sec": 84,
+      "text": "So what you are experiencing is that your Hive smart thermostat and IoT devices are failing to complete pairing because the Hub 5 broadcasts a unified single SSID with band-steering enabled, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:41]",
+      "end_time": "[01:48]",
+      "start_time_sec": 101,
+      "text": "Yes, exactly! Hive customer support told me smart heating hardware requires an isolated 2.4 GHz Wi-Fi channel.",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:51]",
+      "end_time": "[01:58]",
+      "start_time_sec": 111,
+      "text": "Have you noticed whether other smart home devices like smart plugs or security cameras also struggle to connect?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:01]",
+      "end_time": "[02:07]",
+      "start_time_sec": 121,
+      "text": "Yes, our smart security doorbell also drops offline intermittently whenever the router auto-optimizes channels.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:10]",
+      "end_time": "[02:15]",
+      "start_time_sec": 130,
+      "text": "And are your laptop and mobile phones connecting without issues to the internet?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:18]",
+      "end_time": "[02:24]",
+      "start_time_sec": 138,
+      "text": "Yes, laptops, tablets, and mobile phones stream 4K video perfectly. It is strictly smart home hardware.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:27]",
+      "end_time": "[02:37]",
+      "start_time_sec": 147,
+      "text": "Bear with me for a couple of minutes while I connect to your Hub 5 management interface to review your radio frequency configuration."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:02]",
+      "end_time": "[04:15]",
+      "start_time_sec": 242,
+      "text": "Thank you for waiting, Danica. I have accessed your router's wireless settings ledger. Currently Smart Wi-Fi band-steering is active, which merges 2.4 GHz and 5 GHz into a single network name."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:18]",
+      "end_time": "[04:39]",
+      "start_time_sec": 258,
+      "text": "Our house is freezing cold! It is the middle of November, my elderly grandmother lives with us, and the radiators are completely shut off because this hub won't connect! We have been shivering under blankets for two days and I am furious that a brand new router broke our heating!",
+      "sentiment_score": -56.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:42]",
+      "end_time": "[04:48]",
+      "start_time_sec": 282,
+      "text": "The router settings show band-steering is enabled by default across all residential firmware releases."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:51]",
+      "end_time": "[05:00]",
+      "start_time_sec": 291,
+      "text": "Can you just split the frequencies or disable the 5 GHz band so my thermostat can connect and turn the boiler on?",
+      "sentiment_score": -28.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:03]",
+      "end_time": "[05:08]",
+      "start_time_sec": 303,
+      "text": "Yes, we can split the network into two distinct SSIDs: SNet-Home-2.4 and SNet-Home-5G."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:11]",
+      "end_time": "[05:16]",
+      "start_time_sec": 311,
+      "text": "Please do that right now, I need the radiators turned on immediately.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:19]",
+      "end_time": "[05:25]",
+      "start_time_sec": 319,
+      "text": "Obviously legacy smart home microcontrollers lack dual-band radios, so separating the network names resolves pairing handshakes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:28]",
+      "end_time": "[05:34]",
+      "start_time_sec": 328,
+      "text": "Okay, how long does the router take to reboot once you split the channels?",
+      "sentiment_score": -8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:37]",
+      "end_time": "[05:43]",
+      "start_time_sec": 337,
+      "text": "The Wi-Fi radio module restarts in approximately sixty seconds without interrupting the underlying broadband sync."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:46]",
+      "end_time": "[05:52]",
+      "start_time_sec": 346,
+      "text": "That sounds very fast. Will the Wi-Fi password remain the same for both frequencies?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:55]",
+      "end_time": "[06:05]",
+      "start_time_sec": 355,
+      "text": "Yes, we will retain your existing WPA2 security passkey for both the 2.4 GHz and 5 GHz networks so existing phones reconnect automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:08]",
+      "end_time": "[06:14]",
+      "start_time_sec": 368,
+      "text": "That is convenient, so I don't have to re-type passwords across six family devices.",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:17]",
+      "end_time": "[06:25]",
+      "start_time_sec": 377,
+      "text": "Before I split the bands on your gateway, that contact telephone number for SMS alerts was 01892 510934, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:28]",
+      "end_time": "[06:31]",
+      "start_time_sec": 388,
+      "text": "Yes, 01892 510934, that is my home landline.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:34]",
+      "end_time": "[06:41]",
+      "start_time_sec": 394,
+      "text": "I am applying the radio split command now. The Hub 5 will broadcast two separate network SSIDs."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:44]",
+      "end_time": "[06:48]",
+      "start_time_sec": 404,
+      "text": "I see SNet-Home-2.4 appearing on my iPhone Wi-Fi list now.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:51]",
+      "end_time": "[06:56]",
+      "start_time_sec": 411,
+      "text": "Connect your iPhone to SNet-Home-2.4 and open the Hive app to initiate setup."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:59]",
+      "end_time": "[07:05]",
+      "start_time_sec": 419,
+      "text": "I am connected to 2.4. Tapping 'Add New Device' in the Hive app now.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:07]",
+      "end_time": "[07:15]",
+      "start_time_sec": 427,
+      "text": "Bear with me for two minutes while the DHCP server binds the new MAC address lease for your heating controller."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:40]",
+      "end_time": "[08:46]",
+      "start_time_sec": 520,
+      "text": "Thank you for waiting, Danica. The DHCP table is ready to accept the thermostat registration."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:48]",
+      "end_time": "[08:55]",
+      "start_time_sec": 528,
+      "text": "The Hive app is asking for the exact model number of the heating kit to configure firmware sync.",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:57]",
+      "end_time": "[09:02]",
+      "start_time_sec": 537,
+      "text": "Which exact model of smart thermostat are you trying to pair again?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:04]",
+      "end_time": "[09:12]",
+      "start_time_sec": 544,
+      "text": "I told you that at the very beginning of the call! It is the Hive Active Heating v3 kit!",
+      "sentiment_score": -31.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:14]",
+      "end_time": "[09:19]",
+      "start_time_sec": 554,
+      "text": "I have logged the Hive v3 hardware identifier in your device profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:21]",
+      "end_time": "[09:31]",
+      "start_time_sec": 561,
+      "text": "Tapping 'Pair Receiver' now... The amber pairing light on the Hive box just turned solid green! And the smartphone screen says 'Thermostat Connected Successfully'!",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:33]",
+      "end_time": "[09:39]",
+      "start_time_sec": 573,
+      "text": "That confirms the Hive hub is receiving a stable IP lease on the 2.4 GHz channel."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:41]",
+      "end_time": "[09:49]",
+      "start_time_sec": 581,
+      "text": "I just boosted the heating to 21 degrees and the boiler fired right up! The radiators are getting warm!",
+      "sentiment_score": 41.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:51]",
+      "end_time": "[09:56]",
+      "start_time_sec": 591,
+      "text": "Are the smart radiator thermostatic valves also displaying connected status inside the app?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:58]",
+      "end_time": "[10:03]",
+      "start_time_sec": 598,
+      "text": "Yes, all four radiator valves show online and synced with the hub.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:05]",
+      "end_time": "[10:11]",
+      "start_time_sec": 605,
+      "text": "And how is your smart security doorbell performing now on the 2.4 GHz network?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:13]",
+      "end_time": "[10:16]",
+      "start_time_sec": 613,
+      "text": "The doorbell video feed loaded immediately without any buffering.",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:18]",
+      "end_time": "[10:28]",
+      "start_time_sec": 618,
+      "text": "And just to verify before we wrap up, your laptops and tablets can still connect to the 5 GHz network for high-speed streaming?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:30]",
+      "end_time": "[10:35]",
+      "start_time_sec": 630,
+      "text": "Yes, my iPad and laptop are both on SNet-Home-5G and working fast.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:37]",
+      "end_time": "[10:45]",
+      "start_time_sec": 637,
+      "text": "We have separated your Wi-Fi frequency bands, assigned the smart thermostat to 2.4 GHz, and confirmed the heating is operational."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:47]",
+      "end_time": "[10:50]",
+      "start_time_sec": 647,
+      "text": "Thank you Liam, the house is warming up already.",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:52]",
+      "end_time": "[10:57]",
+      "start_time_sec": 652,
+      "text": "You should also check that the Hive receiver firmware updates automatically overnight."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:59]",
+      "end_time": "[11:03]",
+      "start_time_sec": 659,
+      "text": "Yes, Hive pushes updates over the 2.4 GHz connection automatically.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:05]",
+      "end_time": "[11:14]",
+      "start_time_sec": 665,
+      "text": "Remember that if you ever add new smart plugs or IoT bulbs in the future, select SNet-Home-2.4 during their initial pairing wizard."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:16]",
+      "end_time": "[11:20]",
+      "start_time_sec": 676,
+      "text": "Understood, I have made a note in my smart home folder.",
+      "sentiment_score": 6.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:22]",
+      "end_time": "[11:31]",
+      "start_time_sec": 682,
+      "text": "We also recommend keeping the router positioned away from large metallic objects or microwave ovens to minimize 2.4 GHz wireless frequency interference."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:33]",
+      "end_time": "[11:39]",
+      "start_time_sec": 693,
+      "text": "It is on a wooden bookshelf in the hallway, so interference should be minimal.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:41]",
+      "end_time": "[11:49]",
+      "start_time_sec": 701,
+      "text": "The 2.4 GHz channel is set to standard 20 MHz bandwidth to avoid overlapping adjacent channels in your neighborhood."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:51]",
+      "end_time": "[11:58]",
+      "start_time_sec": 711,
+      "text": "That makes sense, our neighbors have strong Wi-Fi signals so keeping the bandwidth narrow prevents dropped packets.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:00]",
+      "end_time": "[12:10]",
+      "start_time_sec": 720,
+      "text": "Each smart radiator valve also runs an automated mechanical pin stroke calibration cycle every Monday at midnight to ensure optimal hot water flow."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:12]",
+      "end_time": "[12:23]",
+      "start_time_sec": 732,
+      "text": "That explains the little whirring motor sound they make once a week to keep the radiator valve pins from sticking and seizing up over long winter months.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:25]",
+      "end_time": "[12:32]",
+      "start_time_sec": 745,
+      "text": "Is there any other smart device or broadband setting you would like me to configure today, Danica?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:34]",
+      "end_time": "[12:37]",
+      "start_time_sec": 754,
+      "text": "No, getting the heating working was the critical issue.",
+      "sentiment_score": 12.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:39]",
+      "end_time": "[12:45]",
+      "start_time_sec": 759,
+      "text": "Thank you for choosing S-Net broadband support, Danica. Have a warm and pleasant afternoon. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:47]",
+      "end_time": "[12:50]",
+      "start_time_sec": 767,
+      "text": "Goodbye Liam.",
+      "sentiment_score": 7.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:52]",
+      "end_time": "[12:57]",
+      "start_time_sec": 772,
+      "text": "Thank you for choosing S-Net. Goodbye."
+    }
+  ]
+}

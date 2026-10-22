@@ -1,0 +1,606 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Zbigniew",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Good morning, thank you for calling S-Net Customer Services, you are speaking with Callum. How can I help?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:12]",
+      "end_time": "[00:26]",
+      "start_time_sec": 12,
+      "text": "Hello Callum, my name is Zbigniew. I cancelled my S-Net broadband contract back in July when I moved flat, but you have still taken £44 a month for August, September, and October!",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:31]",
+      "end_time": "[00:42]",
+      "start_time_sec": 31,
+      "text": "Before I look at any billing history, I need to verify your identity. Confirm your previous installation address and the four-digit PIN on the account.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:46]",
+      "end_time": "[00:54]",
+      "start_time_sec": 46,
+      "text": "The previous installation address was 14B Station Approach, Reading, RG1 1NB, and my four-digit PIN is 3049.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:58]",
+      "end_time": "[01:05]",
+      "start_time_sec": 58,
+      "text": "And confirm the answer to your security question, which is your mother's maiden name.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:09]",
+      "end_time": "[01:21]",
+      "start_time_sec": 69,
+      "text": "Kowalska. Look, that is £132 in total that S-Net has taken out of my current account after my contract ended and after I posted the router back.",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:26]",
+      "end_time": "[01:37]",
+      "start_time_sec": 86,
+      "text": "I have the account on my screen now. Let me ask you a few specific questions to check what happened with the termination order.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:41]",
+      "end_time": "[01:49]",
+      "start_time_sec": 101,
+      "text": "Okay, ask whatever you need, I have all the paperwork and bank statements right in front of me.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:53]",
+      "end_time": "[02:02]",
+      "start_time_sec": 113,
+      "text": "What exact date did your broadband cease order complete, and how did you submit the cancellation notice to us?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:06]",
+      "end_time": "[02:16]",
+      "start_time_sec": 126,
+      "text": "I phoned your cancellations team on the 2nd of June to give thirty days notice, and the cease order completed on the 4th of July.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:20]",
+      "end_time": "[02:28]",
+      "start_time_sec": 140,
+      "text": "Did you receive an automated cease confirmation reference number by email when the line was disconnected on the 4th of July?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:32]",
+      "end_time": "[02:40]",
+      "start_time_sec": 152,
+      "text": "Yes, I have the email printed right here. The disconnection reference number is `CEA-902184-SN`, dated 4th of July at 11:14 AM.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:44]",
+      "end_time": "[02:54]",
+      "start_time_sec": 164,
+      "text": "And when you returned the S-Net Hub router, what date did you post it and do you have the Royal Mail Tracked 48 barcode number?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:58]",
+      "end_time": "[03:08]",
+      "start_time_sec": 178,
+      "text": "I posted it on the 8th of July from Reading Central Post Office using your pre-paid returns label. The Royal Mail tracking number is `JB-4491-0028-5GB`.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:12]",
+      "end_time": "[03:20]",
+      "start_time_sec": 192,
+      "text": "What date does the Royal Mail tracking page show that parcel was delivered to our National Returns Warehouse in Swindon?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:24]",
+      "end_time": "[03:35]",
+      "start_time_sec": 204,
+      "text": "It shows delivered and signed for at the S-Net Swindon dock on the 10th of July at 09:42 AM, yet you kept billing me £44 every single month!",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:40]",
+      "end_time": "[03:50]",
+      "start_time_sec": 220,
+      "text": "What were the exact calendar dates that the three Direct Debit payments left your bank account, and what payment reference appeared on your bank statement?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:54]",
+      "end_time": "[04:02]",
+      "start_time_sec": 234,
+      "text": "They came out on the 15th of August, the 15th of September, and the 15th of October under the reference `SNET-BB-8839201`.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:06]",
+      "end_time": "[04:08]",
+      "start_time_sec": 246,
+      "text": "Wait a minute.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:02]",
+      "end_time": "[05:07]",
+      "start_time_sec": 302,
+      "text": "I am looking at the cease workflow table on the system now.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:10]",
+      "end_time": "[05:18]",
+      "start_time_sec": 310,
+      "text": "You just disappeared for nearly a minute without saying what you were doing! Did you find the cease order?",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:22]",
+      "end_time": "[05:32]",
+      "start_time_sec": 322,
+      "text": "The line cease `CEA-902184-SN` completed on the Openreach wholesale side on the 4th of July, so the physical fibre port at 14B Station Approach was stopped.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:36]",
+      "end_time": "[05:45]",
+      "start_time_sec": 336,
+      "text": "Then why on earth has the billing system carried on taking money from my bank for three months after the line was stopped?",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:49]",
+      "end_time": "[05:59]",
+      "start_time_sec": 349,
+      "text": "Because the Swindon warehouse scan for `JB-4491-0028-5GB` cleared the hardware return flag, but the recurring billing subscription token was left in 'Pending Final Bill' status.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:03]",
+      "end_time": "[06:14]",
+      "start_time_sec": 363,
+      "text": "So it is a complete failure in S-Net's own billing software! Why didn't the system stop the Direct Debit when the line closed and the router arrived?",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:19]",
+      "end_time": "[06:30]",
+      "start_time_sec": 379,
+      "text": "When a cease order hangs in 'Pending Final Bill' status due to a stuck overnight batch script, the recurring Direct Debit mandate continues to trigger on the 15th.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:35]",
+      "end_time": "[06:45]",
+      "start_time_sec": 395,
+      "text": "That is outrageous. You have taken three payments that you had zero right to take, leaving me short on my rent money this week.",
+      "sentiment_score": -48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:49]",
+      "end_time": "[06:55]",
+      "start_time_sec": 409,
+      "text": "How much is the monthly charge amount that has been coming out of your bank account?",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:59]",
+      "end_time": "[07:09]",
+      "start_time_sec": 419,
+      "text": "Are you even listening to me? I have already told you twice that it is £44 a month—£132 in total across August, September, and October!",
+      "sentiment_score": -55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:13]",
+      "end_time": "[07:15]",
+      "start_time_sec": 433,
+      "text": "Right, £44 a month. Hold on.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:21]",
+      "end_time": "[08:25]",
+      "start_time_sec": 501,
+      "text": "I have checked the ledger permissions on my terminal.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:28]",
+      "end_time": "[08:38]",
+      "start_time_sec": 508,
+      "text": "Again you just went dead silent on the line for almost a full minute! Have you processed my £132 refund back to my bank card now?",
+      "sentiment_score": -52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:42]",
+      "end_time": "[08:52]",
+      "start_time_sec": 522,
+      "text": "No, I haven't processed a refund because my screen doesn't let me edit billing buckets on an account where the broadband service status is marked inactive.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:56]",
+      "end_time": "[09:06]",
+      "start_time_sec": 536,
+      "text": "What do you mean you haven't processed it? You just admitted your own system left the billing token stuck after the 4th of July!",
+      "sentiment_score": -58.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:10]",
+      "end_time": "[09:20]",
+      "start_time_sec": 550,
+      "text": "Once an account is marked closed on our CRM, billing adjustments sit with the former-customer collections team—you'll have to write to them or ring their number.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:24]",
+      "end_time": "[09:35]",
+      "start_time_sec": 564,
+      "text": "Write to them?! You took £132 from my bank account by mistake and you're telling me I have to write a letter or chase another department myself?!",
+      "sentiment_score": -65.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:40]",
+      "end_time": "[09:49]",
+      "start_time_sec": 580,
+      "text": "That is how the departmental split works here. Active accounts are handled by Frontline Customer Services and closed accounts sit with Former-Customer Collections.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:53]",
+      "end_time": "[10:03]",
+      "start_time_sec": 593,
+      "text": "Can't you raise an internal ticket, transfer me warmly to a manager in that team, or clear the stuck billing flag yourself right now?",
+      "sentiment_score": -55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:07]",
+      "end_time": "[10:17]",
+      "start_time_sec": 607,
+      "text": "They don't take internal warm transfers from our queue, and my user profile doesn't have the override button to close out a stuck final bill.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:21]",
+      "end_time": "[10:32]",
+      "start_time_sec": 621,
+      "text": "Wait, so if you don't close the stuck final bill today, is your system going to take ANOTHER £44 out of my account on the 15th of November?!",
+      "sentiment_score": -62.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:37]",
+      "end_time": "[10:45]",
+      "start_time_sec": 637,
+      "text": "Until the Former-Customer Collections team manually purges the recurring subscription token on their ledger, the Direct Debit request will remain scheduled.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:49]",
+      "end_time": "[10:59]",
+      "start_time_sec": 649,
+      "text": "Are you hearing yourself right now, Callum?! You're telling me S-Net is going to steal another £44 next month unless I do your job for you!",
+      "sentiment_score": -70.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:03]",
+      "end_time": "[11:11]",
+      "start_time_sec": 663,
+      "text": "Raising your voice at me isn't going to make the money appear in your bank account any faster, is it?",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:15]",
+      "end_time": "[11:24]",
+      "start_time_sec": 675,
+      "text": "Don't speak to me with that sarcastic attitude! You have been rude, unhelpful, and completely indifferent since I came on the line!",
+      "sentiment_score": -75.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:28]",
+      "end_time": "[11:37]",
+      "start_time_sec": 688,
+      "text": "I am telling you what the system allows me to do. I cannot click a button that is greyed out on my screen.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:41]",
+      "end_time": "[11:51]",
+      "start_time_sec": 701,
+      "text": "A supervisor or team leader in your building certainly has authority to unstick a billing order and refund £132! Put me through to your manager.",
+      "sentiment_score": -65.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:55]",
+      "end_time": "[12:06]",
+      "start_time_sec": 715,
+      "text": "Team leaders on this floor have the exact same CRM view for closed accounts as agents do, so speaking to a supervisor here won't change the process.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:11]",
+      "end_time": "[12:20]",
+      "start_time_sec": 731,
+      "text": "So what is this number or postal address you expect me to contact since you refuse to lift a finger to help me?",
+      "sentiment_score": -60.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:24]",
+      "end_time": "[12:33]",
+      "start_time_sec": 744,
+      "text": "The Former-Customer Billing & Collections number is `0800 098 4412`, and they are open Monday to Friday between 9:00 AM and 5:00 PM.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:37]",
+      "end_time": "[12:46]",
+      "start_time_sec": 757,
+      "text": "And have you at least put notes on my account with the Royal Mail tracking number `JB-4491-0028-5GB` and the cease reference `CEA-902184-SN`?",
+      "sentiment_score": -50.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:50]",
+      "end_time": "[12:58]",
+      "start_time_sec": 770,
+      "text": "You will need to quote those reference numbers to the advisor when you get through to the `0800 098 4412` queue.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:02]",
+      "end_time": "[13:10]",
+      "start_time_sec": 782,
+      "text": "You haven't even typed the notes into the account box after asking me all those questions for the first five minutes?!",
+      "sentiment_score": -65.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:14]",
+      "end_time": "[13:22]",
+      "start_time_sec": 794,
+      "text": "The notes box on an inactive service record only saves if a financial adjustment transaction is submitted at the same time.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:26]",
+      "end_time": "[13:35]",
+      "start_time_sec": 806,
+      "text": "I am cancelling my Direct Debit mandate directly with my bank today and raising an Indemnity Claim for all three £44 payments.",
+      "sentiment_score": -55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:39]",
+      "end_time": "[13:50]",
+      "start_time_sec": 819,
+      "text": "You can contact your bank if you choose, though you should still ring `0800 098 4412` so they don't flag the £132 clawback as an unpaid balance.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:55]",
+      "end_time": "[14:07]",
+      "start_time_sec": 835,
+      "text": "If S-Net dares to flag an unpaid balance on an account that was closed on the 4th of July, I will take it straight to Ofcom and the Ombudsman.",
+      "sentiment_score": -60.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:12]",
+      "end_time": "[14:22]",
+      "start_time_sec": 852,
+      "text": "If you want to log a formal complaint reference, you can ask the advisor on `0800 098 4412` to open one when they review the ledger.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:26]",
+      "end_time": "[14:31]",
+      "start_time_sec": 866,
+      "text": "You won't even log a complaint reference for me on this call?!",
+      "sentiment_score": -65.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:34]",
+      "end_time": "[14:42]",
+      "start_time_sec": 874,
+      "text": "Complaint tickets on closed accounts have to be attached to the Former-Customer department's queue so their case handlers can see it.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:46]",
+      "end_time": "[14:55]",
+      "start_time_sec": 886,
+      "text": "Can you at least send me an email confirming that the Swindon warehouse scanned my router back in on the 10th of July?",
+      "sentiment_score": -52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:59]",
+      "end_time": "[15:06]",
+      "start_time_sec": 899,
+      "text": "Outbound email templates are disabled on terminated accounts, so I cannot trigger an email from this screen.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:10]",
+      "end_time": "[15:17]",
+      "start_time_sec": 910,
+      "text": "Every single thing I ask you to do, you just make up another excuse to do nothing.",
+      "sentiment_score": -62.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:21]",
+      "end_time": "[15:26]",
+      "start_time_sec": 921,
+      "text": "Those are the system rules for inactive accounts on our CRM platform.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:29]",
+      "end_time": "[15:37]",
+      "start_time_sec": 929,
+      "text": "This is hands down the worst customer service experience I have ever had with any utility company in the UK.",
+      "sentiment_score": -68.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:41]",
+      "end_time": "[15:47]",
+      "start_time_sec": 941,
+      "text": "You have the `0800 098 4412` contact number for the team that handles former-customer billing adjustments.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:51]",
+      "end_time": "[15:59]",
+      "start_time_sec": 951,
+      "text": "Yes, I wrote the number down. Not that you have actually resolved a single thing I called up about.",
+      "sentiment_score": -58.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:03]",
+      "end_time": "[16:09]",
+      "start_time_sec": 963,
+      "text": "Is there anything else you want to ask about the active services side today?",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:13]",
+      "end_time": "[16:19]",
+      "start_time_sec": 973,
+      "text": "No, I have no active services with S-Net and after this ordeal I never will again.",
+      "sentiment_score": -60.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:23]",
+      "end_time": "[16:25]",
+      "start_time_sec": 983,
+      "text": "Thank you for choosing S-Net. Goodbye.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:28]",
+      "end_time": "[16:30]",
+      "start_time_sec": 988,
+      "text": "Unbelievable. Goodbye.",
+      "sentiment_score": -60.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:33]",
+      "end_time": "[16:35]",
+      "start_time_sec": 993,
+      "text": "Have a good day.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:38]",
+      "end_time": "[16:40]",
+      "start_time_sec": 998,
+      "text": "Right, whatever.",
+      "sentiment_score": -55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:43]",
+      "end_time": "[16:45]",
+      "start_time_sec": 1003,
+      "text": "Thank you for choosing S-Net, goodbye.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:48]",
+      "end_time": "[16:50]",
+      "start_time_sec": 1008,
+      "text": "Bye.",
+      "sentiment_score": -55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:53]",
+      "end_time": "[16:55]",
+      "start_time_sec": 1013,
+      "text": "Goodbye.",
+      "sentiment_score": 0.0
+    }
+  ]
+}

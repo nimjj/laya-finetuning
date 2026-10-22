@@ -1,0 +1,531 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Connor",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net broadband technical support. My name is Sean. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:28]",
+      "start_time_sec": 10,
+      "text": "Hello Sean. I'm calling because I've spent all morning trying to set up remote access for our new home CCTV security cameras, but the port forwarding rules on the S-Net Hub keep failing and I cannot connect from outside our home network.",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:31]",
+      "end_time": "[00:46]",
+      "start_time_sec": 31,
+      "text": "I can certainly help you configure port forwarding and dynamic DNS on your hub, Connor. Before we access your router's firewall rules, may I please verify your billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:49]",
+      "end_time": "[00:59]",
+      "start_time_sec": 49,
+      "text": "Yes, it is 58 St. Albans Road, Watford, WD17 1TN. And my security question answer is my first car model, Ford Fiesta.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:02]",
+      "end_time": "[01:11]",
+      "start_time_sec": 62,
+      "text": "Thank you Connor, that verifies your account file. What specific ports does your CCTV system require?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:14]",
+      "end_time": "[01:39]",
+      "start_time_sec": 74,
+      "text": "The camera system uses port 8000 for video streams and port 554 for RTSP streaming. Sean, our house was broken into three nights ago while my wife and two young children were asleep upstairs! The intruders smashed through the patio doors, and my wife has been so traumatized that she cannot sleep and is terrified to stay in the house alone unless she can check the CCTV cameras on her phone! We desperately need this working today!",
+      "sentiment_score": -58.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:42]",
+      "end_time": "[01:53]",
+      "start_time_sec": 102,
+      "text": "Let us check whether your broadband connection is assigned a public IPv4 address or sitting behind carrier-grade NAT."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:56]",
+      "end_time": "[02:02]",
+      "start_time_sec": 116,
+      "text": "Okay... please, whatever we need to get these cameras viewable on our phones.",
+      "sentiment_score": -14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:05]",
+      "end_time": "[02:14]",
+      "start_time_sec": 125,
+      "text": "I am opening your WAN connection profile on our radius server to inspect your gateway lease."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:17]",
+      "end_time": "[02:21]",
+      "start_time_sec": 137,
+      "text": "What does the gateway lease tell us?",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:06]",
+      "end_time": "[03:19]",
+      "start_time_sec": 186,
+      "text": "Your optical line is currently provisioned on a dynamic public IPv4 address starting with 82.14, which confirms carrier-grade NAT is not active."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:22]",
+      "end_time": "[03:27]",
+      "start_time_sec": 202,
+      "text": "That means port forwarding will work without carrier blocks?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:30]",
+      "end_time": "[03:45]",
+      "start_time_sec": 210,
+      "text": "Yes, having a dedicated dynamic public IP allows incoming traffic on specific ports to traverse the router firewall directly to your NVR recorder."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:48]",
+      "end_time": "[03:52]",
+      "start_time_sec": 228,
+      "text": "How do we open the ports inside the router?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:55]",
+      "end_time": "[04:04]",
+      "start_time_sec": 235,
+      "text": "Open your web browser, navigate to 192.168.1.254, and log in with your administrator password."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:07]",
+      "end_time": "[04:15]",
+      "start_time_sec": 247,
+      "text": "Navigating to 192.168.1.254... typing the admin password... logged into the S-Net Hub manager.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:18]",
+      "end_time": "[04:27]",
+      "start_time_sec": 258,
+      "text": "Click on Advanced Settings, then select Firewall, and click on Port Forwarding."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:30]",
+      "end_time": "[04:38]",
+      "start_time_sec": 270,
+      "text": "Advanced Settings... Firewall... Port Forwarding. I see a table for adding new port forwarding rules.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:41]",
+      "end_time": "[04:54]",
+      "start_time_sec": 281,
+      "text": "First, we must assign a static DHCP reservation for your CCTV Network Video Recorder so its local IP address never changes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:57]",
+      "end_time": "[05:01]",
+      "start_time_sec": 297,
+      "text": "Where do I set the static IP reservation?",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:04]",
+      "end_time": "[05:16]",
+      "start_time_sec": 304,
+      "text": "Click on DHCP Table, locate the MAC address of the Hikvision NVR, and assign it permanent IP 192.168.1.150."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:19]",
+      "end_time": "[05:26]",
+      "start_time_sec": 319,
+      "text": "Found the Hikvision NVR... reserved IP address 192.168.1.150. Saved.",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:29]",
+      "end_time": "[05:44]",
+      "start_time_sec": 329,
+      "text": "Now return to Port Forwarding, click 'Create Rule', name the rule 'CCTV-Media', and set External and Internal Port range to 8000."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:47]",
+      "end_time": "[05:57]",
+      "start_time_sec": 347,
+      "text": "Rule Name: CCTV-Media... Port 8000 to 8000... Protocol TCP/UDP... Target IP: 192.168.1.150. Added.",
+      "sentiment_score": 24.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:00]",
+      "end_time": "[06:11]",
+      "start_time_sec": 360,
+      "text": "Create a second rule named 'CCTV-RTSP' with port 554 pointing to target IP 192.168.1.150."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:14]",
+      "end_time": "[06:25]",
+      "start_time_sec": 374,
+      "text": "Rule Name: CCTV-RTSP... Port 554... Target IP 192.168.1.150. Added both rules. Clicking Apply Firewall Rules.",
+      "sentiment_score": 28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:28]",
+      "end_time": "[06:42]",
+      "start_time_sec": 388,
+      "text": "The firewall rules are active. Now we must configure Dynamic DNS so your phone app can connect even when your public IP address changes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:45]",
+      "end_time": "[06:49]",
+      "start_time_sec": 405,
+      "text": "Which DDNS provider does the S-Net Hub support?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:52]",
+      "end_time": "[07:03]",
+      "start_time_sec": 412,
+      "text": "Under Advanced Settings, select Dynamic DNS. Our hub includes free built-in support for No-IP and DynDNS."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:06]",
+      "end_time": "[07:14]",
+      "start_time_sec": 426,
+      "text": "I already created a free No-IP hostname account yesterday! It is 'watford-connor.ddns.net'.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:17]",
+      "end_time": "[07:30]",
+      "start_time_sec": 437,
+      "text": "Select No-IP as provider, enter 'watford-connor.ddns.net' in Hostname, along with your No-IP email and password."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:33]",
+      "end_time": "[07:42]",
+      "start_time_sec": 453,
+      "text": "Entering hostname, email, and password... clicking Update DDNS. Status says 'Connecting to DDNS server...'.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:28]",
+      "end_time": "[08:37]",
+      "start_time_sec": 508,
+      "text": "The DDNS client has registered your public IP with the authoritative name servers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:40]",
+      "end_time": "[08:49]",
+      "start_time_sec": 520,
+      "text": "Yes! The Hub screen refreshed and says 'DDNS Status: Success - Last update today at 11:24 AM'!",
+      "sentiment_score": 38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:52]",
+      "end_time": "[09:05]",
+      "start_time_sec": 532,
+      "text": "Now disconnect your mobile phone from the home WiFi, switch to 5G cellular mobile data, and launch the CCTV viewing app."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:08]",
+      "end_time": "[09:17]",
+      "start_time_sec": 548,
+      "text": "Turning off WiFi on my mobile... now on 5G mobile data. Opening the Hik-Connect security camera app.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:20]",
+      "end_time": "[09:32]",
+      "start_time_sec": 560,
+      "text": "In the server settings of the app, enter 'watford-connor.ddns.net' as the server domain and port 8000."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:35]",
+      "end_time": "[09:45]",
+      "start_time_sec": 575,
+      "text": "Typing watford-connor.ddns.net and port 8000... clicking Connect. The loading wheel is spinning... oh wow!",
+      "sentiment_score": 42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:48]",
+      "end_time": "[09:54]",
+      "start_time_sec": 588,
+      "text": "Did the multi-channel video feed load?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:57]",
+      "end_time": "[10:11]",
+      "start_time_sec": 597,
+      "text": "All four camera feeds just appeared in real-time high definition! Front driveway, back patio, side gate, and garden! I can see the crystal clear live stream over 5G data!",
+      "sentiment_score": 62.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:14]",
+      "end_time": "[10:25]",
+      "start_time_sec": 614,
+      "text": "Obviously that confirms external NAT translation and DDNS resolution are fully operational, Connor."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:28]",
+      "end_time": "[10:38]",
+      "start_time_sec": 628,
+      "text": "What an enormous relief. Now I can install the app on my wife's phone and she will be able to see every corner of the house wherever she is.",
+      "sentiment_score": 48.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:41]",
+      "end_time": "[10:50]",
+      "start_time_sec": 641,
+      "text": "Her phone will connect using the exact same DDNS domain and security credentials."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:53]",
+      "end_time": "[11:00]",
+      "start_time_sec": 653,
+      "text": "Let us test the pan-tilt-zoom control on the back patio camera to ensure two-way telemetry works.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:03]",
+      "end_time": "[11:11]",
+      "start_time_sec": 663,
+      "text": "Go ahead, test the PTZ directional controls in the mobile application."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:14]",
+      "end_time": "[11:23]",
+      "start_time_sec": 674,
+      "text": "Tapping the directional arrow... the camera swiveled smoothly towards the back fence without any delay!",
+      "sentiment_score": 44.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:26]",
+      "end_time": "[11:34]",
+      "start_time_sec": 686,
+      "text": "Bi-directional TCP handshakes are flowing cleanly across port 8000."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:37]",
+      "end_time": "[11:45]",
+      "start_time_sec": 697,
+      "text": "Can we also test the motion alert notifications to ensure push notifications reach our lock screens?",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:48]",
+      "end_time": "[12:00]",
+      "start_time_sec": 708,
+      "text": "In the app notification settings, enable 'Event Push Notifications' for motion detection zones."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:03]",
+      "end_time": "[12:09]",
+      "start_time_sec": 723,
+      "text": "Enabling Event Push Notifications... locking my phone screen now.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:12]",
+      "end_time": "[12:21]",
+      "start_time_sec": 732,
+      "text": "Walk across the back patio camera line of sight to trigger an intrusion event."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:24]",
+      "end_time": "[12:35]",
+      "start_time_sec": 744,
+      "text": "Stepping out onto the patio... my phone immediately buzzed with an alert: 'Motion Detected: Back Patio' with an instant snapshot!",
+      "sentiment_score": 52.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:38]",
+      "end_time": "[12:49]",
+      "start_time_sec": 758,
+      "text": "Push notifications traverse the outbound TLS channel without needing additional inbound ports."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:52]",
+      "end_time": "[12:58]",
+      "start_time_sec": 772,
+      "text": "That gives us absolute peace of mind while away from home.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:01]",
+      "end_time": "[13:12]",
+      "start_time_sec": 781,
+      "text": "Will these router firewall rules stay saved if the power cuts out or if the router reboots?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:15]",
+      "end_time": "[13:21]",
+      "start_time_sec": 795,
+      "text": "Yes, I was wondering about that in case of winter power cuts.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:24]",
+      "end_time": "[13:38]",
+      "start_time_sec": 804,
+      "text": "The port forwarding rules and DHCP static reservations are written to non-volatile flash memory and persist across power cycles."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:41]",
+      "end_time": "[13:45]",
+      "start_time_sec": 821,
+      "text": "That is reassuring to know.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:48]",
+      "end_time": "[14:00]",
+      "start_time_sec": 828,
+      "text": "Just to check, Connor, is your home broadband browsing and television streaming performing normally across all your other computers?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:03]",
+      "end_time": "[14:10]",
+      "start_time_sec": 843,
+      "text": "Yes, our broadband speeds are completely fine, the problem was purely the external camera access.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:13]",
+      "end_time": "[14:26]",
+      "start_time_sec": 853,
+      "text": "I will remain the dedicated owner for this support case and log the static CCTV port forwarding configuration on your customer file."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:29]",
+      "end_time": "[14:37]",
+      "start_time_sec": 869,
+      "text": "Thank you Sean, you have brought a massive sense of safety and relief back into our household today.",
+      "sentiment_score": 46.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:40]",
+      "end_time": "[14:52]",
+      "start_time_sec": 880,
+      "text": "Ensure you maintain strong alphanumeric passwords on your camera recorder interface to keep remote access secure."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:55]",
+      "end_time": "[15:01]",
+      "start_time_sec": 895,
+      "text": "I have created a complex sixteen-character password for the camera system.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:04]",
+      "end_time": "[15:15]",
+      "start_time_sec": 904,
+      "text": "Is there anything else regarding your S-Net broadband or router configuration that I can assist you with today, Connor?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:18]",
+      "end_time": "[15:24]",
+      "start_time_sec": 918,
+      "text": "No, that has solved our security camera setup completely. Thank you Sean.",
+      "sentiment_score": 32.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:27]",
+      "end_time": "[15:39]",
+      "start_time_sec": 927,
+      "text": "You may receive a short customer satisfaction survey by SMS after this call; we would appreciate any feedback you can share."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:41]",
+      "end_time": "[15:45]",
+      "start_time_sec": 941,
+      "text": "I will fill out the survey. Have a good afternoon.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:47]",
+      "end_time": "[15:54]",
+      "start_time_sec": 947,
+      "text": "Thank you for choosing S-Net, Connor. Stay safe, and take care."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:56]",
+      "end_time": "[15:58]",
+      "start_time_sec": 956,
+      "text": "Thank you, goodbye.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

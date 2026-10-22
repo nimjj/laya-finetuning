@@ -1,0 +1,598 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Genevieve",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Good afternoon, thank you for calling S-Net Billing and Account Support. My name is Gavin speaking. Welcome to S-Net today.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:06]",
+      "end_time": "[00:14]",
+      "start_time_sec": 6,
+      "text": "Oh hello Gavin, good afternoon. My name is Genevieve, Genevieve Whitaker, and erm I'm calling about the monthly paper bill fee on my landline and broadband account.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:15]",
+      "end_time": "[00:27]",
+      "start_time_sec": 15,
+      "text": "I would be very happy to look into your paper billing charges right away for you, Mrs Whitaker. Before I open your billing ledger, could you please confirm your full postal address and your four-digit security PIN?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:28]",
+      "end_time": "[00:32]",
+      "start_time_sec": 28,
+      "text": "Yes dear, the address is 19 Meadowcroft Lane, Harrogate, HG2 8PL, and my four-digit PIN is 4418.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:33]",
+      "end_time": "[00:39]",
+      "start_time_sec": 33,
+      "text": "Thank you very much, Mrs Whitaker. I have verified your address and PIN and I have your account open on my screen now.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:40]",
+      "end_time": "[00:46]",
+      "start_time_sec": 40,
+      "text": "Lovely, thank you Gavin. Well, I'll explain the whole situation so you have all the details right away without having to dig around.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:47]",
+      "end_time": "[00:59]",
+      "start_time_sec": 47,
+      "text": "Earlier this summer the hospital eye clinic at Harrogate District Hospital diagnosed me with wet macular degeneration in both eyes, so I simply cannot read tiny text on a computer screen or standard nine-point printed letters anymore.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:12]",
+      "start_time_sec": 60,
+      "text": "Because I switched back to postal bills in August so my neighbour could help me check them, I noticed S-Net has charged me three pound fifty a month for paper billing on my August, September, and October statements.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:13]",
+      "end_time": "[01:26]",
+      "start_time_sec": 73,
+      "text": "My sight-loss support worker at the clinic told me S-Net offers an accessible eighteen-point large-print statement on high-contrast white paper free of charge, and that the ten pound fifty I paid over the last three months should be refunded.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:27]",
+      "end_time": "[01:39]",
+      "start_time_sec": 87,
+      "text": "I am so sorry to hear about your wet macular degeneration diagnosis, Mrs Whitaker, and I completely understand how stressful and tiring it must be trying to manage your household bills when standard print is impossible to read.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:40]",
+      "end_time": "[01:57]",
+      "start_time_sec": 100,
+      "text": "Let me make sure I have captured everything accurately for you: following your macular degeneration diagnosis, you need your account registered for eighteen-point high-contrast large-print postal statements, the ongoing £3.50 monthly paper bill fee waived permanently, and a £10.50 refund for the August, September, and October paper bill charges.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:58]",
+      "end_time": "[02:07]",
+      "start_time_sec": 118,
+      "text": "Yes Gavin, that is every single bit of it! I wanted to make sure I had all my dates and figures written on my notepad before I rang you.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:08]",
+      "end_time": "[02:17]",
+      "start_time_sec": 128,
+      "text": "You explained everything so clearly that I already have every detail I need on your August, September, and October invoices right here in front of me, Mrs Whitaker.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:18]",
+      "end_time": "[02:25]",
+      "start_time_sec": 138,
+      "text": "Oh wonderful, I was worried I might have to post in a hospital consultant letter or fill out a long medical form online.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:26]",
+      "end_time": "[02:39]",
+      "start_time_sec": 146,
+      "text": "Not at all, Mrs Whitaker, we never ask for medical paperwork to set up accessible communications under our S-Net Priority Accessibility policy, and I will take care of the entire registration and credit for you right now.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:40]",
+      "end_time": "[02:50]",
+      "start_time_sec": 160,
+      "text": "That is such a relief, honestly. Everything online nowadays has tiny grey lettering on a bright background and it just sort of blurs together into a smudge for me.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:51]",
+      "end_time": "[03:01]",
+      "start_time_sec": 171,
+      "text": "I hear that from many of our customers, Mrs Whitaker, and our eighteen-point high-contrast monochrome statements are printed on thick matte white stock specifically to stop glare and ink bleeding.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:02]",
+      "end_time": "[03:11]",
+      "start_time_sec": 182,
+      "text": "Thick matte white paper with bold black eighteen-point print sounds ideal, because I can use my illuminated desktop magnifier on that without the page reflecting the lamp.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:12]",
+      "end_time": "[03:24]",
+      "start_time_sec": 192,
+      "text": "I am enabling the Priority Accessibility Flag on your billing profile right now, which permanently sets your statement format to eighteen-point high-contrast large print and locks your paper billing fee at £0.00 per month.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:25]",
+      "end_time": "[03:31]",
+      "start_time_sec": 205,
+      "text": "So when my November statement is generated next month on the fourteenth, it won't add that three pound fifty charge anymore?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:32]",
+      "end_time": "[03:40]",
+      "start_time_sec": 212,
+      "text": "That is guaranteed, Mrs Whitaker. The billing engine automatically suppresses the £3.50 paper fee whenever the Priority Accessibility Flag is active on an account.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:41]",
+      "end_time": "[03:47]",
+      "start_time_sec": 221,
+      "text": "And does the large-print statement still include the full itemised list of any landline calls I make during the month?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:48]",
+      "end_time": "[03:56]",
+      "start_time_sec": 228,
+      "text": "Yes, it includes your full itemised call breakdown, your broadband package summary, and the payment slip, all laid out in clean single-column eighteen-point bold Arial font.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:57]",
+      "end_time": "[04:04]",
+      "start_time_sec": 237,
+      "text": "Single-column makes such a difference when you're sliding a magnifying glass across the page! Standard two-column bills are a nightmare to track.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:05]",
+      "end_time": "[04:09]",
+      "start_time_sec": 245,
+      "text": "Our accessibility team designed the single-column template alongside RNIB advisers for that very reason, Mrs Whitaker.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:10]",
+      "end_time": "[04:15]",
+      "start_time_sec": 250,
+      "text": "And what about the August, September, and October paper bill charges that were already taken by direct debit?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:16]",
+      "end_time": "[04:27]",
+      "start_time_sec": 256,
+      "text": "I have just raised a manual fee-exemption credit of £10.50—covering the £3.50 charge from 14 August, £3.50 from 14 September, and £3.50 from 14 October—and applied it directly to your live account balance.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:28]",
+      "end_time": "[04:34]",
+      "start_time_sec": 268,
+      "text": "Oh, so it goes straight off my next bill rather than waiting weeks for a cheque in the post?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:35]",
+      "end_time": "[04:48]",
+      "start_time_sec": 275,
+      "text": "Yes indeed, Mrs Whitaker. Your upcoming November bill was sitting at £34.99 for your Fibre 38 and Unlimited UK Landline bundle, and with the £10.50 credit applied immediately, your live balance due on 14 November is now £24.49.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:49]",
+      "end_time": "[04:54]",
+      "start_time_sec": 289,
+      "text": "Twenty-four pound forty-nine instead of thirty-four ninety-nine—that is ten pound fifty straight back. Thank you so much, Gavin.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:55]",
+      "end_time": "[05:09]",
+      "start_time_sec": 295,
+      "text": "I have also re-queued your October statement in eighteen-point high-contrast large print to be dispatched via First Class Royal Mail tomorrow morning at no charge, so you have a readable copy of your current bill within two working days.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:10]",
+      "end_time": "[05:18]",
+      "start_time_sec": 310,
+      "text": "Oh, I didn't even think to ask for a reprint of the October one! That will be so helpful for my household filing folder.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:19]",
+      "end_time": "[05:29]",
+      "start_time_sec": 319,
+      "text": "It is my absolute pleasure, Mrs Whitaker. While updating your accessibility profile, I have also enabled free 195 Directory Enquiries access on your home landline at no extra cost.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:30]",
+      "end_time": "[05:41]",
+      "start_time_sec": 330,
+      "text": "Oh yes, my support worker at the eye clinic mentioned 195 Directory Enquiries last week! That lets me dial 195 and ask the operator to connect a number for me, doesn't it?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:42]",
+      "end_time": "[05:56]",
+      "start_time_sec": 342,
+      "text": "That is right, Mrs Whitaker. You simply dial 195 from your Harrogate landline, tell the operator the name and town of the person or business you need, and they will read out the number and connect the call for free.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:57]",
+      "end_time": "[06:04]",
+      "start_time_sec": 357,
+      "text": "That will save me trying to squint at phone numbers on appointment letters. Does the accessibility registration cover fault repairs as well?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:05]",
+      "end_time": "[06:15]",
+      "start_time_sec": 365,
+      "text": "Yes, I have enabled Priority Fault Repair on your landline and broadband circuit so that if you ever report a line fault, our Openreach and S-Net engineers prioritize your repair automatically.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:16]",
+      "end_time": "[06:21]",
+      "start_time_sec": 376,
+      "text": "Knowing my landline has priority repair gives me real peace of mind living on my own, Gavin.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:22]",
+      "end_time": "[06:31]",
+      "start_time_sec": 382,
+      "text": "I have also added a permanent note on your account so any advisor you speak with knows your eighteen-point large-print preference and Priority Accessibility status straight away.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:32]",
+      "end_time": "[06:38]",
+      "start_time_sec": 392,
+      "text": "You really have thought of everything today, erm, I didn't expect it all to be sorted in one go.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:39]",
+      "end_time": "[06:47]",
+      "start_time_sec": 399,
+      "text": "I have just triggered an instant confirmation notification to the S-Net app and email on your profile summarizing the £10.50 credit and the eighteen-point large-print exemption.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:48]",
+      "end_time": "[06:59]",
+      "start_time_sec": 408,
+      "text": "I actually have my iPad sitting next to my armchair with the Apple VoiceOver screen reader turned on. Let me tap the S-Net app icon so VoiceOver reads out my live balance.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:00]",
+      "end_time": "[07:09]",
+      "start_time_sec": 420,
+      "text": "Please take all the time you need, Mrs Whitaker, and we will verify together that VoiceOver reads out the updated £24.49 balance and the accessible format setting.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:10]",
+      "end_time": "[07:20]",
+      "start_time_sec": 430,
+      "text": "Hold on a second while the app refreshes and VoiceOver speaks... Yes! It just read out: Current Balance twenty-four pounds and forty-nine pence, Credit Applied ten pounds and fifty pence!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:21]",
+      "end_time": "[07:26]",
+      "start_time_sec": 441,
+      "text": "That is wonderful that the £10.50 credit is already showing on your live balance in the S-Net app.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:27]",
+      "end_time": "[07:31]",
+      "start_time_sec": 447,
+      "text": "Let me swipe right with two fingers to hear the Document Preferences section as well.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:32]",
+      "end_time": "[07:38]",
+      "start_time_sec": 452,
+      "text": "Yes, VoiceOver just read out: Statement Format Large Print 18pt High Contrast, Monthly Paper Fee Exempt, Directory 195 Enabled!",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:39]",
+      "end_time": "[07:45]",
+      "start_time_sec": 459,
+      "text": "That confirms both the £10.50 refund and your eighteen-point large-print exemption are live on your account right now, Mrs Whitaker.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:46]",
+      "end_time": "[07:53]",
+      "start_time_sec": 466,
+      "text": "And my Direct Debit on the fourteenth of November will just collect the twenty-four pound forty-nine automatically without me needing to do anything?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:54]",
+      "end_time": "[08:04]",
+      "start_time_sec": 474,
+      "text": "Yes, your existing Direct Debit mandate will automatically collect £24.49 on 14 November, and from December onwards your regular monthly bundle price will continue with £0.00 paper billing charges.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:05]",
+      "end_time": "[08:09]",
+      "start_time_sec": 485,
+      "text": "And the reprinted October large-print statement will arrive at 19 Meadowcroft Lane in the normal post?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:10]",
+      "end_time": "[08:19]",
+      "start_time_sec": 490,
+      "text": "Yes, it is queued for tomorrow morning's First Class dispatch to 19 Meadowcroft Lane, Harrogate, in a sturdy A4 envelope so the large-print pages are not folded tightly.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:20]",
+      "end_time": "[08:26]",
+      "start_time_sec": 500,
+      "text": "Unfolded A4 pages are so much easier to lay flat under my magnifier lamp! Whoever thought of that deserves a medal.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:27]",
+      "end_time": "[08:31]",
+      "start_time_sec": 507,
+      "text": "I will pass that lovely feedback along to our accessible print fulfilment team, Mrs Whitaker.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:32]",
+      "end_time": "[08:38]",
+      "start_time_sec": 512,
+      "text": "By the way, when the contract renewal letter comes out next spring, will that also come in the eighteen-point large-print format?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:39]",
+      "end_time": "[08:47]",
+      "start_time_sec": 519,
+      "text": "Yes, Mrs Whitaker, setting the Priority Accessibility Flag applies to all regulatory notifications, annual contract summaries, and tariff letters as well as your monthly statements.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:48]",
+      "end_time": "[08:54]",
+      "start_time_sec": 528,
+      "text": "Oh good, because last spring's contract summary was printed in tiny eight-point font on both sides of a single sheet.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:55]",
+      "end_time": "[09:02]",
+      "start_time_sec": 535,
+      "text": "From today onwards, every letter generated for your account is routed through our accessible print queue on single-sided matte white A4 sheets.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:03]",
+      "end_time": "[09:07]",
+      "start_time_sec": 543,
+      "text": "Single-sided too! That stops the dark black letters showing through from the back of the page.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:08]",
+      "end_time": "[09:11]",
+      "start_time_sec": 548,
+      "text": "Exactly, single-sided printing on 120-gram paper prevents any bleed-through behind the eighteen-point characters.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:12]",
+      "end_time": "[09:19]",
+      "start_time_sec": 552,
+      "text": "My sight-loss support group in Harrogate meets on Thursday, and I am going to tell them how well S-Net handles large-print statements.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:20]",
+      "end_time": "[09:27]",
+      "start_time_sec": 560,
+      "text": "That is wonderful to hear, Mrs Whitaker, and any S-Net customer in your group can request the exact same Priority Accessibility registration.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:28]",
+      "end_time": "[09:32]",
+      "start_time_sec": 568,
+      "text": "I will definitely let them know they don't need to bring in hospital letters either.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:33]",
+      "end_time": "[09:38]",
+      "start_time_sec": 573,
+      "text": "We want to make sure our accessible services are completely barrier-free for everyone who needs them, Mrs Whitaker.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:39]",
+      "end_time": "[09:47]",
+      "start_time_sec": 579,
+      "text": "You have made that so easy and dignified for me today, Gavin. Sometimes you dread ringing up about sight-loss things, but you sorted it straight out.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:48]",
+      "end_time": "[09:56]",
+      "start_time_sec": 588,
+      "text": "I am really glad I could make that straightforward and comfortable for you today, Mrs Whitaker. Your confirmation reference number for our call is ACC-509218.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:57]",
+      "end_time": "[10:01]",
+      "start_time_sec": 597,
+      "text": "Let me press the button on my talking RNIB memo recorder right here—ACC-509218 recorded. Brilliant.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:02]",
+      "end_time": "[10:09]",
+      "start_time_sec": 602,
+      "text": "I have also included reference ACC-509218 at the top of the confirmation email so VoiceOver can read it back whenever you need it.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:10]",
+      "end_time": "[10:14]",
+      "start_time_sec": 610,
+      "text": "Everything is crystal clear and I have no other questions at all for you today, Gavin.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:15]",
+      "end_time": "[10:24]",
+      "start_time_sec": 615,
+      "text": "Thank you for choosing S-Net, Mrs Whitaker. Following our call, you will receive a short automated feedback survey, and we would welcome your thoughts on our service today.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:25]",
+      "end_time": "[10:29]",
+      "start_time_sec": 625,
+      "text": "I will happily complete that with VoiceOver and give you full marks, Gavin. Thank you again!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:30]",
+      "end_time": "[10:32]",
+      "start_time_sec": 630,
+      "text": "Thank you so much for your kind words, Mrs Whitaker.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:33]",
+      "end_time": "[10:35]",
+      "start_time_sec": 633,
+      "text": "Have a lovely rest of your afternoon, bye-bye now.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:36]",
+      "end_time": "[10:40]",
+      "start_time_sec": 636,
+      "text": "Take care and have a wonderful afternoon, Mrs Whitaker, goodbye!",
+      "sentiment_score": 20.0
+    }
+  ]
+}

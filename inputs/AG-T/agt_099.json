@@ -1,0 +1,463 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Yasmin",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:08]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net broadband advanced technical support, my name is Fiona. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:13]",
+   "end_time": "[00:35]",
+   "start_time_sec": 13,
+   "text": "Hello Fiona, my name is Yasmin Patel. We live adjacent to a commercial light-industrial estate in Birmingham, and every morning at eight o'clock when the workshops power up their machinery, our home Wi-Fi network completely collapses across both 2.4 GHz and 5 GHz bands, dropping our connections and making remote work impossible!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:40]",
+   "end_time": "[01:04]",
+   "start_time_sec": 40,
+   "text": "Good afternoon Yasmin. If I understand correctly, your home Wi-Fi network experiences catastrophic interference and connection collapse across both 2.4 GHz and 5 GHz radio bands every morning at eight o'clock coinciding with neighboring industrial machinery powering up. Before we examine your hub's RF spectrum analyzer telemetry, could you please confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:09]",
+   "end_time": "[01:16]",
+   "start_time_sec": 69,
+   "text": "Yes, it is 19 Forge Lane, Birmingham, B12 0JJ, security PIN 7192, router model S-Net Hub 5.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:21]",
+   "end_time": "[01:31]",
+   "start_time_sec": 81,
+   "text": "Thank you Yasmin, that confirms your account details. Have you noticed whether devices connected via Ethernet cable maintain internet connectivity during the Wi-Fi drop?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:36]",
+   "end_time": "[01:54]",
+   "start_time_sec": 96,
+   "text": "Yes, our desktop computer connected via Ethernet cable stays online at 500 Mbps, but every smartphone, tablet, and wireless laptop in the house drops off Wi-Fi completely.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:59]",
+   "end_time": "[02:13]",
+   "start_time_sec": 119,
+   "text": "Could I place you on hold for two minutes while I query your Hub 5 real-time wireless channel noise floor and non-Wi-Fi RF energy telemetry?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:38]",
+   "end_time": "[03:59]",
+   "start_time_sec": 218,
+   "text": "Thank you for holding, Yasmin. Looking at the RF spectrum analyzer telemetry, your Hub 5 is detecting massive radio frequency interference with a noise floor of minus 62 dBm across standard UNII-1 wireless channels 36 to 48."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:04]",
+   "end_time": "[04:16]",
+   "start_time_sec": 244,
+   "text": "What would cause a minus 62 dBm noise floor on channels 36 to 48?",
+   "sentiment_score": -10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:21]",
+   "end_time": "[04:35]",
+   "start_time_sec": 261,
+   "text": "Heavy electromagnetic pulse radiation from high-frequency industrial arc welding or motor drives radiates broad-spectrum noise that blinds the hub's standard receiver channels."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:40]",
+   "end_time": "[04:52]",
+   "start_time_sec": 280,
+   "text": "Can we move our Wi-Fi to frequencies outside the welding interference?",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:57]",
+   "end_time": "[05:11]",
+   "start_time_sec": 297,
+   "text": "Yes, we can migrate your Hub 5 to protected Dynamic Frequency Selection channels in the upper UNII-2 Extended band between channels 100 and 128."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:16]",
+   "end_time": "[05:27]",
+   "start_time_sec": 316,
+   "text": "Do the industrial welding machines reach into channels 100 to 128?",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:32]",
+   "end_time": "[05:45]",
+   "start_time_sec": 332,
+   "text": "No, the DFS frequency block operates at higher carrier frequencies completely isolated from industrial electromagnetic induction harmonics."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:50]",
+   "end_time": "[05:53]",
+   "start_time_sec": 350,
+   "text": "That sounds like the perfect technical solution.",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:58]",
+   "end_time": "[06:11]",
+   "start_time_sec": 358,
+   "text": "I am locking your Hub 5 5 GHz radio to DFS Channel 104 with 80 MHz channel width."
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:16]",
+   "end_time": "[06:27]",
+   "start_time_sec": 376,
+   "text": "Obviously high-frequency industrial induction requires advanced channel allocation rather than standard factory auto-tuning."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:32]",
+   "end_time": "[06:43]",
+   "start_time_sec": 392,
+   "text": "I understand specialized channel tuning is essential near factories.",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:48]",
+   "end_time": "[06:58]",
+   "start_time_sec": 408,
+   "text": "I am pushing the DFS channel assignment payload directly to your router."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:02]",
+   "end_time": "[07:14]",
+   "start_time_sec": 422,
+   "text": "The hub's center light flashed amber for three seconds and returned to solid white.",
+   "sentiment_score": 26.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:18]",
+   "end_time": "[07:42]",
+   "start_time_sec": 438,
+   "text": "Yasmin speaking, I am a pediatric cardiology nurse practitioner, and this morning at ten o'clock I am running a critical remote telemetry clinic monitoring eighteen vulnerable infants recovering at home from neonatal heart surgery! If my Wi-Fi drops while I am reviewing these infants' cardiac arrhythmias, a baby could enter cardiac arrest without warning and die before an ambulance is dispatched! I am terrified and shaking with anxiety!",
+   "sentiment_score": -86.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:46]",
+   "end_time": "[07:52]",
+   "start_time_sec": 466,
+   "text": "I am querying the RF spectrum analyzer telemetry on your Hub 5 right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:56]",
+   "end_time": "[08:02]",
+   "start_time_sec": 476,
+   "text": "Please do Fiona, I am desperate to reach my infant patients before ten o'clock.",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:06]",
+   "end_time": "[08:30]",
+   "start_time_sec": 486,
+   "text": "I completely understand the acute terror, shaking anxiety, and profound responsibility you are bearing, Yasmin, especially with eighteen vulnerable infants recovering from neonatal heart surgery relying on your remote cardiac monitoring today. While our carrier policy cannot dispatch an emergency field technician within one hour to investigate external industrial factories, I will stay on the line with you right now and personally verify that your wireless devices connect to the new DFS channels with zero packet drop."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:34]",
+   "end_time": "[08:39]",
+   "start_time_sec": 514,
+   "text": "Thank you Fiona! Let us test connecting our wireless devices right now.",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:43]",
+   "end_time": "[08:50]",
+   "start_time_sec": 523,
+   "text": "On your smartphone or laptop, open your Wi-Fi settings and ensure you are connected to your S-Net network."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:54]",
+   "end_time": "[08:59]",
+   "start_time_sec": 534,
+   "text": "Checking Wi-Fi settings... Connected to 'S-Net Hub 5 5G'... Signal bars are full!",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:03]",
+   "end_time": "[09:12]",
+   "start_time_sec": 543,
+   "text": "Now run a live wireless speed and ping jitter test while I monitor the RF spectrum noise floor on our console."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:16]",
+   "end_time": "[09:29]",
+   "start_time_sec": 556,
+   "text": "Running speed test on laptop over Wi-Fi... Fiona! Download speed is 490 Mbps, upload is 52 Mbps, ping latency is 8 milliseconds with 0% packet loss! The connection is lightning fast!",
+   "sentiment_score": 38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:33]",
+   "end_time": "[09:43]",
+   "start_time_sec": 573,
+   "text": "Looking at our console, the noise floor on Channel 104 is an ultra-clean minus 94 dBm with zero interference from the industrial workshops."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:47]",
+   "end_time": "[09:50]",
+   "start_time_sec": 587,
+   "text": "Minus 94 dBm! That is pristine!",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:54]",
+   "end_time": "[09:59]",
+   "start_time_sec": 594,
+   "text": "That confirms your remote cardiac telemetry session will operate with absolute stability."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:03]",
+   "end_time": "[10:07]",
+   "start_time_sec": 603,
+   "text": "All eighteen infants will receive safe and uninterrupted cardiac monitoring today.",
+   "sentiment_score": 38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:11]",
+   "end_time": "[10:20]",
+   "start_time_sec": 611,
+   "text": "I have locked Channel 104 permanently into your hub cloud profile so the automated night-time channel hopper never reverts to standard channels."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:24]",
+   "end_time": "[10:27]",
+   "start_time_sec": 624,
+   "text": "That will protect my clinical clinic every single morning.",
+   "sentiment_score": 34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:31]",
+   "end_time": "[10:35]",
+   "start_time_sec": 631,
+   "text": "I have documented the industrial RF mitigation under ticket reference RF-DFS-88192-B."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:39]",
+   "end_time": "[10:42]",
+   "start_time_sec": 639,
+   "text": "RF-DFS-88192-B, recorded in my medical clinic book.",
+   "sentiment_score": 30.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:46]",
+   "end_time": "[10:55]",
+   "start_time_sec": 646,
+   "text": "I have also scheduled our network automation to poll your hub's noise floor at eight o'clock tomorrow morning to confirm ongoing clearance."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:59]",
+   "end_time": "[11:03]",
+   "start_time_sec": 659,
+   "text": "Thank you Fiona, that automated morning check is wonderful reassurance.",
+   "sentiment_score": 34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:07]",
+   "end_time": "[11:13]",
+   "start_time_sec": 667,
+   "text": "Please give my heartfelt best wishes to the infants and families in your care today, Yasmin."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:17]",
+   "end_time": "[11:22]",
+   "start_time_sec": 677,
+   "text": "You have brought immense peace of mind to our hospital team today.",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:26]",
+   "end_time": "[11:31]",
+   "start_time_sec": 686,
+   "text": "It is our absolute honor to support your vital pediatric nursing work."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:35]",
+   "end_time": "[11:40]",
+   "start_time_sec": 695,
+   "text": "I can now log into the cardiac telemetry server with complete confidence.",
+   "sentiment_score": 34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:44]",
+   "end_time": "[11:48]",
+   "start_time_sec": 704,
+   "text": "Before we conclude, what was that Birmingham postal address again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:52]",
+   "end_time": "[11:59]",
+   "start_time_sec": 712,
+   "text": "As I told you right at the start of our call, it is 19 Forge Lane, Birmingham.",
+   "sentiment_score": -10.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:03]",
+   "end_time": "[12:06]",
+   "start_time_sec": 723,
+   "text": "Thank you Yasmin, address confirmed on the monitoring ticket."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:10]",
+   "end_time": "[12:14]",
+   "start_time_sec": 730,
+   "text": "Thank you again Fiona for your compassionate and urgent help.",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:18]",
+   "end_time": "[12:24]",
+   "start_time_sec": 738,
+   "text": "It has been an absolute pleasure assisting you, Yasmin. Have a wonderful and successful clinic."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:28]",
+   "end_time": "[12:31]",
+   "start_time_sec": 748,
+   "text": "Goodbye Fiona.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:35]",
+   "end_time": "[12:40]",
+   "start_time_sec": 755,
+   "text": "Is there any other technical issue I can assist with today, Yasmin?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:44]",
+   "end_time": "[12:47]",
+   "start_time_sec": 764,
+   "text": "No Fiona, everything is working flawlessly.",
+   "sentiment_score": 30.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:51]",
+   "end_time": "[12:55]",
+   "start_time_sec": 771,
+   "text": "Thank you for calling S-Net broadband advanced technical support, Yasmin. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:59]",
+   "end_time": "[13:02]",
+   "start_time_sec": 779,
+   "text": "Goodbye Fiona.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:06]",
+   "end_time": "[13:09]",
+   "start_time_sec": 786,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:13]",
+   "end_time": "[13:16]",
+   "start_time_sec": 793,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:20]",
+   "end_time": "[13:23]",
+   "start_time_sec": 800,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:27]",
+   "end_time": "[13:30]",
+   "start_time_sec": 807,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:34]",
+   "end_time": "[13:37]",
+   "start_time_sec": 814,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:41]",
+   "end_time": "[13:44]",
+   "start_time_sec": 821,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:48]",
+   "end_time": "[13:51]",
+   "start_time_sec": 828,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:55]",
+   "end_time": "[14:00]",
+   "start_time_sec": 835,
+   "text": "Goodbye.",
+   "sentiment_score": 12.0
+  }
+ ]
+}

@@ -1,0 +1,686 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Siddharth",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Good morning, welcome to S-Net technical support, Yasmin speaking, how can I help you today?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:25]",
+      "start_time_sec": 8,
+      "text": "Hi Yasmin, it's Siddharth here. Look, I'm in a complete panic this morning because my corporate Cisco AnyConnect VPN keeps dropping every fifteen minutes over my S-Net Fibre line right in the middle of a live quarterly audit with my bank's compliance team.",
+      "sentiment_score": -31.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:27]",
+      "end_time": "[00:40]",
+      "start_time_sec": 27,
+      "text": "Right, Siddharth, let's get your S-Net Fibre account verified first so I can inspect the line and router configuration. Could you confirm the first line of your installation address and your account PIN?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:41]",
+      "end_time": "[00:57]",
+      "start_time_sec": 41,
+      "text": "Yeah, uh, it's 44 Bishopsgate Court, London, E1 6AN, and the four-digit PIN on the account is 5508. Seriously, every time the compliance auditors ask me to share my screen and query the risk database, the tunnel freezes and disconnects.",
+      "sentiment_score": -31.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:58]",
+      "end_time": "[01:16]",
+      "start_time_sec": 58,
+      "text": "Thank you, that's verified, Siddharth. Let me summarize what's happening on your setup: your general S-Net Fibre 500 internet connection stays online, but whenever your work laptop runs the corporate Cisco AnyConnect VPN tunnel, the session drops every fifteen minutes under heavy audit traffic.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:17]",
+      "end_time": "[01:33]",
+      "start_time_sec": 77,
+      "text": "Yes, exactly! My normal Chrome browser on my personal tablet stays connected fine, the white light on the S-Net Hub never turns orange, uh, it just kicks my work laptop off the bank's VPN gateway every quarter of an hour.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:34]",
+      "end_time": "[01:48]",
+      "start_time_sec": 94,
+      "text": "I will take ownership of diagnosing the packet path and adjusting your S-Net Hub WAN parameters today. First, let me ask a few diagnostic questions to narrow down what's triggering that fifteen-minute tunnel reset.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:49]",
+      "end_time": "[01:55]",
+      "start_time_sec": 109,
+      "text": "Okay, go ahead, I've got the work laptop open right in front of me.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:56]",
+      "end_time": "[02:10]",
+      "start_time_sec": 116,
+      "text": "First question, Siddharth: is your bank laptop connected to the S-Net Hub over Wi-Fi or is it plugged directly into one of the yellow Gigabit Ethernet LAN ports on the back of the router?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:11]",
+      "end_time": "[02:26]",
+      "start_time_sec": 131,
+      "text": "It's plugged straight into LAN port two with a Cat 6 Ethernet cable. I stopped using Wi-Fi yesterday morning thinking wireless interference might be the culprit, um, but it still dropped four times this morning on the cable.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:27]",
+      "end_time": "[02:41]",
+      "start_time_sec": 147,
+      "text": "Good, testing on LAN port two rules out local Wi-Fi airtime contention. Second question: when Cisco AnyConnect drops at that fifteen-minute mark, what exact status or error code appears in the AnyConnect message history window?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:42]",
+      "end_time": "[02:56]",
+      "start_time_sec": 162,
+      "text": "Let me click the little gear icon on AnyConnect and open Message History... uh, it says 'Reconnecting to vpn-uk-lon2.corpbank.internal' and right above that it says 'IKEv2 Dead Peer Detection timeout - fragmented frame lost'.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:57]",
+      "end_time": "[03:11]",
+      "start_time_sec": 177,
+      "text": "That error message is very revealing, Siddharth: 'IKEv2 Dead Peer Detection timeout - fragmented frame lost'. Third question: which model of work laptop are you using, and do you have local administrator rights on Windows?",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:12]",
+      "end_time": "[03:27]",
+      "start_time_sec": 192,
+      "text": "It's a bank-issued Dell Latitude 5540 running Windows 11 Enterprise, and no, it's completely locked down by our corporate group policy—I can open a standard Command Prompt, uh, but I can't edit registry keys or adapter properties myself.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:28]",
+      "end_time": "[03:40]",
+      "start_time_sec": 208,
+      "text": "Noted, so it's a locked-down Dell Latitude 5540 on LAN port two without local admin rights. Let me check the WAN encapsulation status on your S-Net Hub from my diagnostic console.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:41]",
+      "end_time": "[03:51]",
+      "start_time_sec": 221,
+      "text": "What are you looking for on the router side? Did S-Net change something on the network recently, because this VPN worked fine last month?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:52]",
+      "end_time": "[04:04]",
+      "start_time_sec": 232,
+      "text": "Looking at your exchange telemetry in East London, your S-Net Fibre 500 circuit was migrated onto our IPv6 dual-stack MAP-T encapsulation platform on Tuesday night as part of firmware release 4.18.2.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:05]",
+      "end_time": "[04:15]",
+      "start_time_sec": 245,
+      "text": "Tuesday night?! Wednesday morning was literally the exact day the fifteen-minute AnyConnect drops started happening! Why would an IPv6 dual-stack update break my work VPN?",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:16]",
+      "end_time": "[04:31]",
+      "start_time_sec": 256,
+      "text": "Here is the technical reason, Siddharth: when IPv6 dual-stack MAP-T encapsulation is active, the translation header adds twenty bytes of overhead on the WAN link, which reduces the effective path MTU from 1500 bytes down to 1480 bytes.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:32]",
+      "end_time": "[04:39]",
+      "start_time_sec": 272,
+      "text": "Okay, I follow the basic networking idea—so the effective pipe size is 1480 bytes instead of 1500?",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:40]",
+      "end_time": "[04:53]",
+      "start_time_sec": 280,
+      "text": "Correct. And when Cisco AnyConnect wraps your bank's IPsec ESP encryption headers around large packets during screen-sharing or database queries, it sets the 'Don't Fragment' bit and expects a full 1460-byte payload.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:54]",
+      "end_time": "[05:02]",
+      "start_time_sec": 294,
+      "text": "And when the packet hits that twenty-byte dual-stack header on the S-Net router, it goes over the limit and gets dropped?",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:03]",
+      "end_time": "[05:13]",
+      "start_time_sec": 303,
+      "text": "Precisely, especially every fifteen minutes when AnyConnect runs a Dead Peer Detection re-key exchange with large certificate payloads that have the Don't Fragment flag set.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:14]",
+      "end_time": "[05:26]",
+      "start_time_sec": 314,
+      "text": "Right, that actually explains why small web pages or basic chat messages work fine for fourteen minutes and then the whole tunnel collapses on the re-key or screen share!",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:27]",
+      "end_time": "[05:40]",
+      "start_time_sec": 327,
+      "text": "Let's verify the exact fragmentation threshold from your Dell Latitude 5540 right now. Since you mentioned you can open a standard non-admin Command Prompt window, could you open Command Prompt on the laptop?",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:41]",
+      "end_time": "[05:49]",
+      "start_time_sec": 341,
+      "text": "Yeah, I've got `cmd.exe` open on my second monitor right now. What ping command do you want me to run?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:50]",
+      "end_time": "[06:01]",
+      "start_time_sec": 350,
+      "text": "First, disconnect Cisco AnyConnect temporarily so we test the raw S-Net WAN path over LAN port two, and then type `ping -f -l 1472 8.8.8.8` and press Enter.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:02]",
+      "end_time": "[06:08]",
+      "start_time_sec": 362,
+      "text": "Okay, I clicked Disconnect on AnyConnect... now typing `ping -f -l 1472 8.8.8.8`... hitting Enter now.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:09]",
+      "end_time": "[06:14]",
+      "start_time_sec": 369,
+      "text": "What response does Command Prompt return on that 1472-byte unfragmented ping test, Siddharth?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:15]",
+      "end_time": "[06:25]",
+      "start_time_sec": 375,
+      "text": "All four lines say 'Packet needs to be fragmented but DF set. Packets: Sent = 4, Received = 0, Lost = 4 (100% loss).'",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:26]",
+      "end_time": "[06:37]",
+      "start_time_sec": 386,
+      "text": "That proves the WAN path is rejecting 1500-byte unfragmented frames. Now let's find the clean ceiling—please run `ping -f -l 1452 8.8.8.8` and tell me what happens.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:38]",
+      "end_time": "[06:52]",
+      "start_time_sec": 398,
+      "text": "Running `ping -f -l 1452 8.8.8.8`... um, two of them replied in 4 milliseconds, and the other two said 'Packet needs to be fragmented but DF set'. Why would half pass and half fail?",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:53]",
+      "end_time": "[07:05]",
+      "start_time_sec": 413,
+      "text": "Because ECMP load-balancing across our dual-stack border relays routes some flows through an extra VLAN tag. Let's test `ping -f -l 1392 8.8.8.8`, which corresponds to a 1420-byte IP MTU.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:06]",
+      "end_time": "[07:14]",
+      "start_time_sec": 426,
+      "text": "Typing `ping -f -l 1392 8.8.8.8`... all four came back instantly! 'Reply from 8.8.8.8: bytes=1392 time=3ms TTL=118', zero percent loss.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:15]",
+      "end_time": "[07:32]",
+      "start_time_sec": 435,
+      "text": "Zero percent loss at 1392 payload bytes gives us our exact target, Siddharth. If I lower the WAN interface MTU on your S-Net Hub from 1500 to 1420 and enable TCP MSS clamping at 1380 bytes, TCP traffic will automatically negotiate smaller segments.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:33]",
+      "end_time": "[07:42]",
+      "start_time_sec": 453,
+      "text": "Awesome, can you push that 1420 WAN MTU setting and the TCP MSS clamping to my S-Net Hub from your end right now?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:43]",
+      "end_time": "[07:58]",
+      "start_time_sec": 463,
+      "text": "Yes, I can push a custom TR-069 WAN profile to your S-Net Hub right now. Please bear with me for a minute while I apply the 1420 WAN MTU and 1380 TCP MSS clamp to your router.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:11]",
+      "end_time": "[09:26]",
+      "start_time_sec": 551,
+      "text": "Thank you for holding, Siddharth, and thank you for your patience while that TR-069 profile deployed. Your S-Net Hub WAN interface is now running at an MTU of 1420 with TCP MSS clamping active at 1380 bytes.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:27]",
+      "end_time": "[09:37]",
+      "start_time_sec": 567,
+      "text": "The Ethernet icon on my Dell taskbar blinked for about three seconds and just came back up connected. Should I test the ping again?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:38]",
+      "end_time": "[09:48]",
+      "start_time_sec": 578,
+      "text": "Yes, please run `ping -f -l 1392 8.8.8.8` first to confirm the raw Ethernet path is still clean, and then reconnect your Cisco AnyConnect VPN.",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:49]",
+      "end_time": "[09:59]",
+      "start_time_sec": 589,
+      "text": "Okay, `ping -f -l 1392 8.8.8.8` is four out of four replies at 3 milliseconds. Now I'm signing back into Cisco AnyConnect with my RSA token...",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:00]",
+      "end_time": "[10:10]",
+      "start_time_sec": 600,
+      "text": "Once AnyConnect shows Connected, we need to check what virtual adapter MTU your bank's AnyConnect profile assigned to the tunnel on your Dell Latitude 5540.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:11]",
+      "end_time": "[10:19]",
+      "start_time_sec": 611,
+      "text": "Alright, AnyConnect just connected to `vpn-uk-lon2.corpbank.internal`. How do I check the virtual adapter MTU in Command Prompt without admin rights?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:20]",
+      "end_time": "[10:31]",
+      "start_time_sec": 620,
+      "text": "In your Command Prompt window, type `netsh interface ipv4 show subinterfaces` and press Enter—that command works for standard users and lists the MTU of every network adapter.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:32]",
+      "end_time": "[10:42]",
+      "start_time_sec": 632,
+      "text": "Typing `netsh interface ipv4 show subinterfaces`... okay, I see Ethernet 2 has MTU 1500, and 'Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter' says MTU 1460!",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:43]",
+      "end_time": "[10:55]",
+      "start_time_sec": 643,
+      "text": "Right, look closely at that line, Siddharth: your bank's XML profile on the Cisco head-end is forcing the AnyConnect virtual adapter on your laptop to an MTU of 1460 bytes.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:56]",
+      "end_time": "[11:10]",
+      "start_time_sec": 656,
+      "text": "Wait—if the AnyConnect virtual adapter on my laptop is locked to 1460, plus the IPsec encryption headers on top of that, isn't that still going to exceed the 1420 WAN MTU when it sends UDP/ESP packets?",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:11]",
+      "end_time": "[11:27]",
+      "start_time_sec": 671,
+      "text": "Let's test it inside the tunnel right now to see whether the bank gateway allows outer UDP fragmentation or sets the Don't Fragment bit on the outer ESP wrapper. Can you ping an internal bank server IP with `-f -l 1380`?",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:28]",
+      "end_time": "[11:38]",
+      "start_time_sec": 688,
+      "text": "Let me run `ping -f -l 1380 10.240.12.5` which is our compliance SQL server... it worked! Now let me try `-f -l 1420 10.240.12.5`...",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:39]",
+      "end_time": "[11:45]",
+      "start_time_sec": 699,
+      "text": "What happens when you send a 1420-byte payload inside the AnyConnect tunnel to `10.240.12.5`?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:46]",
+      "end_time": "[11:58]",
+      "start_time_sec": 706,
+      "text": "Oh no, at 1420 inside the tunnel it timed out completely, and in the AnyConnect Message History window it just logged 'DPD large probe dropped - local virtual MTU mismatch'!",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:59]",
+      "end_time": "[12:13]",
+      "start_time_sec": 719,
+      "text": "Because Cisco AnyConnect encapsulates traffic in UDP/DTLS and IPsec ESP, our router's TCP MSS clamp only shrinks TCP payloads—it cannot shrink UDP DTLS frames generated when your local AnyConnect virtual adapter is hardcoded to 1460.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:14]",
+      "end_time": "[12:24]",
+      "start_time_sec": 734,
+      "text": "Can I run a `netsh` command on my Dell laptop right now to lower the Cisco AnyConnect virtual adapter MTU from 1460 down to 1340?",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:25]",
+      "end_time": "[12:37]",
+      "start_time_sec": 745,
+      "text": "You can try running `netsh interface ipv4 set subinterface \"Cisco AnyConnect\" mtu=1340 store=persistent`, though on a locked-down Windows 11 Enterprise build without local admin rights it will likely require elevation.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:38]",
+      "end_time": "[12:52]",
+      "start_time_sec": 758,
+      "text": "Let me try it anyway... yeah, it immediately says 'The requested operation requires elevation (Run as administrator).' And even if I got someone to type an admin password, wouldn't AnyConnect overwrite it on reconnect?",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:53]",
+      "end_time": "[13:06]",
+      "start_time_sec": 773,
+      "text": "Yes, Cisco AnyConnect pulls its virtual adapter MTU from the `<MTU>` tag inside the `AnyConnectProfile.xml` file on your bank's VPN concentrator every time the tunnel establishes, or via an admin-pushed interface clamp.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:07]",
+      "end_time": "[13:15]",
+      "start_time_sec": 787,
+      "text": "And my bank's tier-two network helpdesk in Canary Wharf only processes VPN profile tickets at nine o'clock tomorrow morning!",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:16]",
+      "end_time": "[13:30]",
+      "start_time_sec": 796,
+      "text": "Is there any option in your Cisco AnyConnect client preferences tab to uncheck DTLS so the client falls back to pure TLS over TCP port 443, which WILL obey our router's 1380-byte TCP MSS clamp?",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:31]",
+      "end_time": "[13:41]",
+      "start_time_sec": 811,
+      "text": "Let me check the Preferences tab in the AnyConnect window... no, the checkboxes under VPN Preferences are all greyed out by corporate group policy.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:42]",
+      "end_time": "[13:58]",
+      "start_time_sec": 822,
+      "text": "Since the client preferences and local adapter MTU on your Dell Latitude 5540 are locked by your bank's group policy, let me check if I can temporarily roll your S-Net Fibre circuit back from MAP-T dual-stack to native IPv4.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:59]",
+      "end_time": "[14:06]",
+      "start_time_sec": 839,
+      "text": "Can you do that right now so my WAN MTU goes back to the full 1500 bytes immediately?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:07]",
+      "end_time": "[14:24]",
+      "start_time_sec": 847,
+      "text": "I just checked the exchange BNG profile table for East London E1—the native IPv4 pool on your OLT chassis was decommissioned when the cabinet migrated to MAP-T on Tuesday night, so a single-line rollback requires a tier-three core network engineering routing exception.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:25]",
+      "end_time": "[14:30]",
+      "start_time_sec": 865,
+      "text": "How long does a tier-three core network engineering routing exception take to provision?",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:31]",
+      "end_time": "[14:46]",
+      "start_time_sec": 871,
+      "text": "A tier-three BNG static IPv4 tunnel bypass takes twenty-four to forty-eight hours to provision. In the meantime, the fastest complete fix is having your bank's IT helpdesk lower the AnyConnect virtual adapter MTU to 1340 tomorrow morning.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:47]",
+      "end_time": "[14:54]",
+      "start_time_sec": 887,
+      "text": "Okay, so what have we actually improved right now vs what is still broken until tomorrow morning?",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:55]",
+      "end_time": "[15:11]",
+      "start_time_sec": 895,
+      "text": "Right now, by clamping TCP MSS to 1380 and setting your S-Net Hub WAN MTU to 1420 on LAN port two, all TCP-based traffic—including your SQL queries and web tools inside the VPN—will now stay within safe packet sizes.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:12]",
+      "end_time": "[15:18]",
+      "start_time_sec": 912,
+      "text": "Wait, so the SQL database queries and Excel sheets won't fragment anymore because they use TCP?",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:19]",
+      "end_time": "[15:35]",
+      "start_time_sec": 919,
+      "text": "Correct, TCP sessions inside the VPN will respect the 1380-byte MSS clamp we just applied to your S-Net Hub. However, UDP-based DTLS screen-sharing bursts and the fifteen-minute IKEv2 DPD probe still rely on your laptop's locked 1460 virtual adapter MTU.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:36]",
+      "end_time": "[15:51]",
+      "start_time_sec": 936,
+      "text": "So I can't actually know if the fifteen-minute VPN drop is stopped until either I sit on the audit call for another fifteen to thirty minutes or my bank's IT helpdesk changes my virtual adapter MTU tomorrow morning?",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:52]",
+      "end_time": "[16:06]",
+      "start_time_sec": 952,
+      "text": "That is accurate, Siddharth. Until your employer's IT helpdesk updates the local AnyConnect virtual adapter MTU to 1340 tomorrow morning—or our tier-three team processes the BNG exception—we cannot confirm the fifteen-minute UDP/DPD drop is completely eliminated.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:07]",
+      "end_time": "[16:24]",
+      "start_time_sec": 967,
+      "text": "Alright, at least we found the exact root cause instead of me guessing blindly. Can you put all the exact technical numbers into an official S-Net engineering email so I can forward it to my bank's IT helpdesk and the audit chair?",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:25]",
+      "end_time": "[16:34]",
+      "start_time_sec": 985,
+      "text": "Yes, I am logging ticket reference SN-VPN-90412 right now and sending an immediate technical summary email to the contact email on your account.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:35]",
+      "end_time": "[16:41]",
+      "start_time_sec": 995,
+      "text": "What exact details are you putting in that email for my bank's network engineers?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:42]",
+      "end_time": "[16:58]",
+      "start_time_sec": 1002,
+      "text": "I have listed that your S-Net Fibre 500 circuit in E1 6AN uses IPv6 dual-stack MAP-T encapsulation with an effective WAN MTU of 1420 bytes and router TCP MSS clamping set to 1380 bytes on Ethernet LAN port two.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:59]",
+      "end_time": "[17:08]",
+      "start_time_sec": 1019,
+      "text": "And did you include the exact `netsh` command or XML profile value they need to apply on my Dell Latitude 5540 tomorrow morning?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:09]",
+      "end_time": "[17:23]",
+      "start_time_sec": 1029,
+      "text": "Yes, I included the exact recommendation for their IT administrator: set the Cisco AnyConnect virtual miniport adapter MTU to 1340 bytes via `netsh interface ipv4 set subinterface` or set `<MTU>1340</MTU>` in the group XML profile.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:24]",
+      "end_time": "[17:34]",
+      "start_time_sec": 1044,
+      "text": "And you've also submitted the tier-three core network engineering request on the S-Net side in case my bank refuses to lower the VPN adapter MTU?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:35]",
+      "end_time": "[17:47]",
+      "start_time_sec": 1055,
+      "text": "Yes, I have raised tier-three network escalation NET-33819 to request a native IPv4 BNG subscriber session on your ONT serial number, with a callback scheduled for you within twenty-four hours.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:48]",
+      "end_time": "[18:00]",
+      "start_time_sec": 1068,
+      "text": "Let me check my inbox quickly... yes, the email with ticket reference SN-VPN-90412 and escalation NET-33819 just arrived. I'm forwarding it to our compliance audit lead and IT helpdesk right now.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:01]",
+      "end_time": "[18:14]",
+      "start_time_sec": 1081,
+      "text": "Good. For the remainder of your audit call this afternoon, I also recommend keeping video camera streams off during screen-sharing so AnyConnect sends smaller packets that stay closer to the TCP MSS clamp.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:15]",
+      "end_time": "[18:29]",
+      "start_time_sec": 1095,
+      "text": "That's a really practical tip, I'll stick to audio-only and window-sharing rather than full-desktop 4K video while we finish today's session, and then get IT onto the 1340 MTU change at nine tomorrow morning.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:30]",
+      "end_time": "[18:37]",
+      "start_time_sec": 1110,
+      "text": "Is there any other detail you need added to ticket SN-VPN-90412 before we wrap up today, Siddharth?",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:38]",
+      "end_time": "[18:48]",
+      "start_time_sec": 1118,
+      "text": "No, that covers everything we can do from my end right now. We'll see how the tunnel holds up once IT updates the adapter tomorrow.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:49]",
+      "end_time": "[18:57]",
+      "start_time_sec": 1129,
+      "text": "Thank you for choosing S-Net, Siddharth, and our tier-three engineering team will update you under reference NET-33819 tomorrow. Goodbye.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:58]",
+      "end_time": "[19:00]",
+      "start_time_sec": 1138,
+      "text": "Thanks Yasmin, bye.",
+      "sentiment_score": 15.0
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "call_id": "ag_16",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 0.0,
+    "is_auto_fail": true,
+    "auto_fail_reason": "Agent insulted the customer ('idiot') at [15:03]: 'Look, don't be an idiot, Chinedu—if the website maintenance page was up you could have dialled the automated payment line from your handset!'",
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "At [00:00] and [17:30], the agent opened with 'Hello, S-Net billing department, Liam speaking' and closed with 'Goodbye', omitting both required 'thank you for calling S-Net' and 'thank you for choosing S-Net' branding phrases."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Throughout the call (e.g., [01:13], [02:21], [03:31]), the agent never apologized or acknowledged the customer's frustration over being charged two £15 late fees after the payment portal crashed."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "At [01:13] and [01:44], the agent read raw ledger entries without ever paraphrasing or summarizing the customer's portal-outage late-fee dispute in his own words."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At [08:16] and [09:04], the agent deflected responsibility to another department ('that's the IT web team's problem, not billing's') and told the customer to fill out a website fault form himself."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At [15:03], the agent directly insulted the customer by saying 'Look, don't be an idiot, Chinedu', which is abusive, unprofessional, and triggers an immediate auto-fail."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "At [03:56], the agent explicitly refused to ask any diagnostic or verification questions about the customer's portal session, error reference, or checkout failure."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "At [17:10], the agent ended the call refusing to waive or place a dispute hold on the £30 late fees, leaving the customer's billing issue completely unresolved."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Recurring £15 late payment fee added after S-Net's online payment portal crashed on the bill due date",
+    "tier": "auto_fail",
+    "duration_sec": 1060,
+    "notes": "Auto-fail call where Agent Liam insults the customer ('idiot') at [15:03], blames the IT web team for portal outages ([08:16], O FAIL), omits branding ([00:00]), shows zero empathy, and refuses to resolve the £30 late-fee dispute, while properly managing an 80s hold ([04:48]-[06:28], H PASS) and accurately tracking every invoice/date detail (AL PASS).",
+    "hard_cases": [
+      "Build rapport and observed professionalism",
+      "Took ownership of the problem",
+      "Hold time and Dead Air",
+      "Active listening"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'Hello, S-Net billing department, Liam speaking. How can I help you today?' / [17:30] Agent: 'That's entirely your choice, Chinedu. Your complaint reference is logged on the system. Goodbye.'"
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[04:48] Agent announces hold ('Please bear with me for a moment while I check the merchant gateway audit log...') and returns within 120s at [06:28] ('Thanks for waiting, Chinedu.')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:22] Agent: 'Can you confirm the first line of your billing address and your four-digit security PIN?'"
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:22] Agent: 'Right, Chinedu, before I look at any statement charges I need to verify your account.'"
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[02:21] Agent responds coldly to the customer's frustration: 'Well, Chinedu, our billing engine runs an automated midnight sweep on the fourteenth.'"
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:13] Agent: 'I see invoice SN-8841209 and invoice SN-8710442 on the screen here, both showing a fifteen pound late payment administration fee applied on the fifteenth of the month.'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:56] Agent accurately recalls every detail shared by the customer: 'I heard you say it was the fourteenth of September at 20:14 with an HTTP 502 Bad Gateway on invoice SN-8710442, and that you paid the forty-two ninety-nine on card 4408 on the sixteenth.'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[08:16] Agent: 'If our web server went down that's the IT web team's problem, not billing's, so you'll need to take that up with them rather than asking me to wipe thirty pounds off your ledger.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[15:03] Agent: 'Look, don't be an idiot, Chinedu—if the website maintenance page was up you could have dialled the automated payment line from your handset!'"
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[03:56] Agent: 'I don't need to ask you any questions about your browser or error codes because billing agents don't investigate website screenshots.'"
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[17:10] Agent: 'That's right, Chinedu. The thirty pound charge remains active on the account and I am not issuing any credit today.'"
+      }
+    ]
+  }
+}

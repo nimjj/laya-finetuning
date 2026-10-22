@@ -1,0 +1,142 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Rowan",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, my name's Sophie. How can I help you today?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:20]",
+      "start_time_sec": 8,
+      "text": "Hi, I've been trying to log into my S-Net email for two days and it keeps saying wrong password, but I know it's right. I'm getting so annoyed with it.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:22]",
+      "end_time": "[00:32]",
+      "start_time_sec": 22,
+      "text": "That's annoying, especially when you're sure the password is right. Let's get you back in. Can you answer the security question on your account, please?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:33]",
+      "end_time": "[00:35]",
+      "start_time_sec": 33,
+      "text": "My mum's maiden name is Hartley.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:37]",
+      "end_time": "[00:48]",
+      "start_time_sec": 37,
+      "text": "Thank you, that's verified. So for two days you've been getting a wrong-password message on S-Net email, even though you're sure the password is correct. Is that right?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:49]",
+      "end_time": "[00:51]",
+      "start_time_sec": 49,
+      "text": "Yes, exactly.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:52]",
+      "end_time": "[00:58]",
+      "start_time_sec": 52,
+      "text": "Are you logging in on the website, or in an email app on your phone?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:59]",
+      "end_time": "[01:04]",
+      "start_time_sec": 59,
+      "text": "The app on my phone. The website does the same, I tried.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:05]",
+      "end_time": "[01:11]",
+      "start_time_sec": 65,
+      "text": "Did you change your password anywhere else recently, for example on the S-Net account page?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:12]",
+      "end_time": "[01:16]",
+      "start_time_sec": 72,
+      "text": "Oh. I did change my account password last week, actually.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:18]",
+      "end_time": "[01:35]",
+      "start_time_sec": 78,
+      "text": "That's very likely it. The email password and the account password became one and the same in our update last month, so the email now needs the new one. Could you try logging into the email with the password you set last week?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:37]",
+      "end_time": "[01:40]",
+      "start_time_sec": 97,
+      "text": "Okay. Trying on the website. Yes, I'm in.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:42]",
+      "end_time": "[01:51]",
+      "start_time_sec": 102,
+      "text": "Great. And in the app, you'll need to remove the account and add it again with the new password. Can you try that now?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:52]",
+      "end_time": "[01:54]",
+      "start_time_sec": 112,
+      "text": "Done. It's loading my emails.",
+      "sentiment_score": -3.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:55]",
+      "end_time": "[02:02]",
+      "start_time_sec": 115,
+      "text": "Perfect. So your email works on both the website and the app now. Is that all sorted for you?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:04]",
+      "end_time": "[02:06]",
+      "start_time_sec": 124,
+      "text": "Yes, all sorted. Thanks.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:08]",
+      "end_time": "[02:12]",
+      "start_time_sec": 128,
+      "text": "You're welcome. Thank you for choosing S-Net, have a good day.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Nora",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:08]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net customer provisions and moves, my name is Gemma. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:19]",
+   "end_time": "[00:43]",
+   "start_time_sec": 19,
+   "text": "Hello Gemma, my name is Nora Thorne. I moved into my new rented flat on Monday, but when I attempted to order full fibre broadband on your website, the system blocked the order with an error saying 'Active Asset In Place - Existing Customer Must Cease Line First', even though the previous tenant moved out two weeks ago and left no forwarding address!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:54]",
+   "end_time": "[01:18]",
+   "start_time_sec": 54,
+   "text": "Good afternoon Nora. If I understand correctly, you are attempting to order broadband at your new flat, but our order portal is blocking your request because an active asset from the previous tenant is still registered to the property line. Before we inspect the Openreach address database, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:29]",
+   "end_time": "[01:38]",
+   "start_time_sec": 89,
+   "text": "Yes, it is Flat 4B, St Mary's Court, Oxford, OX1 1QD, tenancy start date October 1st, customer reference BB-772910, security PIN 9931.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:49]",
+   "end_time": "[01:59]",
+   "start_time_sec": 109,
+   "text": "Thank you Nora, that confirms your account details. Do you have a copy of your signed tenancy agreement or utility bill available in digital format?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[02:10]",
+   "end_time": "[02:25]",
+   "start_time_sec": 130,
+   "text": "Yes, I have our formal signed tenancy agreement from the Oxford letting agency as a PDF right here on my phone.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[02:36]",
+   "end_time": "[02:49]",
+   "start_time_sec": 156,
+   "text": "Could I place you on hold for two minutes while I query the Openreach address matching portal and previous tenancy records?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:14]",
+   "end_time": "[04:32]",
+   "start_time_sec": 254,
+   "text": "Thank you for holding, Nora. The national asset database confirms that an active copper line belonging to the former occupier remains attached to Flat 4B under a legacy provider."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:43]",
+   "end_time": "[04:55]",
+   "start_time_sec": 283,
+   "text": "Can that legacy copper service be cancelled so S-Net can install our fibre broadband?",
+   "sentiment_score": -10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:06]",
+   "end_time": "[05:19]",
+   "start_time_sec": 306,
+   "text": "Yes, we can initiate a Forced Asset Cessation workflow under the national telecommunications regulator's Right to Provide regulations."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:30]",
+   "end_time": "[05:40]",
+   "start_time_sec": 330,
+   "text": "How does a Forced Asset Cessation workflow work?",
+   "sentiment_score": -2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:51]",
+   "end_time": "[06:02]",
+   "start_time_sec": 351,
+   "text": "I will upload your verified tenancy agreement to the Openreach central clearinghouse to prove change of legal occupancy."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:13]",
+   "end_time": "[06:23]",
+   "start_time_sec": 373,
+   "text": "Where should I email the PDF tenancy agreement?",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:34]",
+   "end_time": "[06:46]",
+   "start_time_sec": 394,
+   "text": "I have sent a secure document upload link via SMS to your registered mobile phone."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:57]",
+   "end_time": "[07:00]",
+   "start_time_sec": 417,
+   "text": "Opening SMS link... Uploading Oxford_Tenancy_Flat4B.pdf... Upload complete!",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:11]",
+   "end_time": "[07:22]",
+   "start_time_sec": 431,
+   "text": "I have received and validated page one and the signature page of your tenancy agreement."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:33]",
+   "end_time": "[07:43]",
+   "start_time_sec": 453,
+   "text": "That was remarkably fast. Does that release the property asset?",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:54]",
+   "end_time": "[08:02]",
+   "start_time_sec": 474,
+   "text": "The Openreach asset validation portal has approved the occupancy override command."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:13]",
+   "end_time": "[08:24]",
+   "start_time_sec": 493,
+   "text": "So the phantom line has been officially decoupled from Flat 4B?",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:35]",
+   "end_time": "[08:47]",
+   "start_time_sec": 515,
+   "text": "Obviously Openreach copper pairs and optical fibers cannot be double-provisioned to two separate account holders simultaneously."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:58]",
+   "end_time": "[09:09]",
+   "start_time_sec": 538,
+   "text": "Right, I understand the technical reason for the block.",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:20]",
+   "end_time": "[09:44]",
+   "start_time_sec": 560,
+   "text": "Nora speaking, I moved into my new flat three days ago and your sales website blocked my broadband order stating an active service is already present! I work as a freelance graphic designer on strict deadlines, and I have had to work out of a noisy coffee shop with no secure internet! I am paying rent on an empty flat while losing client contracts because S-Net cannot turn off an ex-tenant's phantom line! I am stressed to the absolute limit!",
+   "sentiment_score": -64.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:55]",
+   "end_time": "[10:19]",
+   "start_time_sec": 595,
+   "text": "I completely understand the intense stress and financial anxiety this is causing you, Nora, especially when you are trying to settle into your new flat and meet crucial design deadlines for your clients. Being blocked by a previous tenant's dormant line is extremely frustrating, and I will initiate the forced asset cessation and expedite your new connection immediately."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:30]",
+   "end_time": "[10:37]",
+   "start_time_sec": 630,
+   "text": "Thank you Gemma, I cannot tell you how much of a relief it is to hear that.",
+   "sentiment_score": -2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:48]",
+   "end_time": "[10:56]",
+   "start_time_sec": 648,
+   "text": "Now that the occupancy override has been committed, I can build your new Full Fibre 500 broadband order directly."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:07]",
+   "end_time": "[11:10]",
+   "start_time_sec": 667,
+   "text": "What engineer installation dates are available for Oxford?",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:21]",
+   "end_time": "[11:32]",
+   "start_time_sec": 681,
+   "text": "Standard installation slots are five days out, but because of the delayed asset block, I am applying priority expediting to book an appointment for this Friday morning."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:43]",
+   "end_time": "[11:46]",
+   "start_time_sec": 703,
+   "text": "This Friday morning?! That is only two days away!",
+   "sentiment_score": 26.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:57]",
+   "end_time": "[12:05]",
+   "start_time_sec": 717,
+   "text": "Yes, the Openreach optical installer will arrive between eight in the morning and one in the afternoon on Friday."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:16]",
+   "end_time": "[12:21]",
+   "start_time_sec": 736,
+   "text": "Will the engineer install a brand new optical ONT box inside the flat?",
+   "sentiment_score": 24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:32]",
+   "end_time": "[12:41]",
+   "start_time_sec": 752,
+   "text": "Yes, the engineer will run the external fiber drop cable, mount the internal ONT box, and test full gigabit optical light levels."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:52]",
+   "end_time": "[12:55]",
+   "start_time_sec": 772,
+   "text": "And will the S-Net Hub router arrive before Friday?",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:06]",
+   "end_time": "[13:11]",
+   "start_time_sec": 786,
+   "text": "I have dispatched the S-Net Hub via DPD next-day courier, tracking number DPD-881920-X."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:22]",
+   "end_time": "[13:25]",
+   "start_time_sec": 802,
+   "text": "DPD-881920-X, noted down. It should arrive tomorrow afternoon then.",
+   "sentiment_score": 28.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:36]",
+   "end_time": "[13:42]",
+   "start_time_sec": 816,
+   "text": "I have also waived the sixty-pound expedited installation charge and the thirty-pound activation fee."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:53]",
+   "end_time": "[13:57]",
+   "start_time_sec": 833,
+   "text": "You have saved me ninety pounds! Thank you so much, Gemma.",
+   "sentiment_score": 34.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:08]",
+   "end_time": "[14:14]",
+   "start_time_sec": 848,
+   "text": "Your monthly tariff will be thirty-four pounds per month on our special new-home promotional tier."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:25]",
+   "end_time": "[14:30]",
+   "start_time_sec": 865,
+   "text": "That is cheaper than the package I originally tried to order online.",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:41]",
+   "end_time": "[14:47]",
+   "start_time_sec": 881,
+   "text": "I am emailing you the full pre-contract information packet and order confirmation right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:58]",
+   "end_time": "[15:04]",
+   "start_time_sec": 898,
+   "text": "Checking email on my phone... Yes, order confirmation received: 'S-Net Order ORD-449102-N - Installation Friday 17th'.",
+   "sentiment_score": 38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:15]",
+   "end_time": "[15:18]",
+   "start_time_sec": 915,
+   "text": "Everything is completely locked in with Openreach national provisioning."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:29]",
+   "end_time": "[15:35]",
+   "start_time_sec": 929,
+   "text": "I can finally tell my clients that my studio will be fully connected by the weekend.",
+   "sentiment_score": 36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:46]",
+   "end_time": "[15:55]",
+   "start_time_sec": 946,
+   "text": "Just ensuring my tenancy documentation order has your exact flat address: that was Flat 4B, St Mary's Court, Oxford, wasn't it?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:06]",
+   "end_time": "[16:09]",
+   "start_time_sec": 966,
+   "text": "Yes, Flat 4B, St Mary's Court, Oxford.",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:20]",
+   "end_time": "[16:25]",
+   "start_time_sec": 980,
+   "text": "Thank you Nora, all address assets and engineering dispatches are fully synchronized."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:36]",
+   "end_time": "[16:43]",
+   "start_time_sec": 996,
+   "text": "You have provided absolute top-tier service today, Gemma. You turned an awful situation into a great experience.",
+   "sentiment_score": 36.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:54]",
+   "end_time": "[17:00]",
+   "start_time_sec": 1014,
+   "text": "It has been an absolute delight assisting you, Nora. Congratulations on your new flat in Oxford."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:11]",
+   "end_time": "[17:15]",
+   "start_time_sec": 1031,
+   "text": "Thank you so much. Have a wonderful rest of your week.",
+   "sentiment_score": 32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:26]",
+   "end_time": "[17:33]",
+   "start_time_sec": 1046,
+   "text": "Is there any other aspect of your new broadband order I can assist you with today, Nora?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:44]",
+   "end_time": "[17:47]",
+   "start_time_sec": 1064,
+   "text": "No Gemma, everything is handled perfectly.",
+   "sentiment_score": 30.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:58]",
+   "end_time": "[18:04]",
+   "start_time_sec": 1078,
+   "text": "Thank you for calling S-Net customer provisions and moves, Nora. Welcome to S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[18:14]",
+   "end_time": "[18:17]",
+   "start_time_sec": 1094,
+   "text": "Goodbye Gemma.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[18:27]",
+   "end_time": "[18:30]",
+   "start_time_sec": 1107,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[18:40]",
+   "end_time": "[18:43]",
+   "start_time_sec": 1120,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[18:53]",
+   "end_time": "[18:56]",
+   "start_time_sec": 1133,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[19:06]",
+   "end_time": "[19:09]",
+   "start_time_sec": 1146,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[19:19]",
+   "end_time": "[19:22]",
+   "start_time_sec": 1159,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[19:32]",
+   "end_time": "[19:37]",
+   "start_time_sec": 1172,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  }
+ ]
+}

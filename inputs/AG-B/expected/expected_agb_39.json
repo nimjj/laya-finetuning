@@ -1,0 +1,197 @@
+{
+  "call_id": "agb_39",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 56.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "Agent left two unmanaged silences exceeding 30 seconds (42s at [02:30] and 45s at [08:15]) without hold announcements or thanks."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Agent never addressed the customer by his verified name 'Malcolm' anywhere during the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent offered zero restatement of customer's missing channels problem, responding only with conditional access commands."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Agent made a sarcastic and insulting remark blaming customer for not reading email instructions regarding smartcard delays."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Agent asked zero diagnostic questions regarding screen error codes, card orientation, or satellite signal levels before pushing re-authorization."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Missing premium sports channels following package upgrade; re-authorization signal sent to smartcard; agent never uses customer name, leaves two unmanaged silences > 30s, offers zero paraphrasing, snaps sarcastically blaming customer for not reading email, and asks zero probing questions",
+    "tier": "fair",
+    "duration_sec": 905,
+    "notes": "The agent pushed an over-the-air entitlement management refresh signal to a TV viewing card to activate newly subscribed premium sports channels. However, the agent failed Personalized Call by never addressing the customer by 'Malcolm', failed Hold Time and Dead Air by leaving two unmanaged silences > 30s (42s at [02:30] and 45s at [08:15]), failed Paraphrasing by offering zero restatement of the missing channels problem, failed Build Rapport and Observed Professionalism at minute 8 by rudely snapping ('If you had actually bothered to read the confirmation email instead of complaining, you would know smartcard authorization takes up to four hours'), and failed Probing by asking zero diagnostic questions regarding screen error codes, card insertion, or signal levels.",
+    "hard_cases": [
+      "Build rapport and observed professionalism",
+      "Probing",
+      "Confirmed the issue is resolved",
+      "Active listening"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent left an unmanaged silence of 42 seconds at [02:30] while querying NDS conditional access server, and a second unmanaged silence of 45 seconds at [08:15] while transmitting satellite EMM pulse."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never used the customer's name 'Malcolm' across any turn in the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent gave no restatement of customer's missing sports channels problem statement, moving directly to server interface."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[13:30] Agent accurately recorded viewing card number 0481 9920 184 and verified 4K HDR playback without redundant re-asking."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[06:30] Agent: 'If you had actually bothered to read the confirmation email instead of complaining, you would know smartcard authorization takes up to four hours.' - Sarcastic and derogatory remark."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked zero probing questions regarding on-screen error codes (such as 0x8004), viewing card chip condition, or LNB satellite signal strength."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[14:40] Agent verified live playback on channels 401, 402, and 404 with customer confirming resolution before ending call."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 54
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 18
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 28
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

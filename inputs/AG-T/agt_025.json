@@ -1,0 +1,439 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Dominic",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Carl. What's the issue today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:19]",
+      "end_time": "[00:32]",
+      "start_time_sec": 19,
+      "text": "Hi Carl. I've been experiencing terrible packet loss and latency spikes on my broadband connection for the last four days, and it's making my competitive gaming and streaming completely unplayable.",
+      "sentiment_score": -35.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:44]",
+      "end_time": "[00:53]",
+      "start_time_sec": 44,
+      "text": "Before we look into line statistics, I need to complete security verification. What is your full name and account address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:05]",
+      "end_time": "[01:09]",
+      "start_time_sec": 65,
+      "text": "Dominic Vance, 12 St Mary's Road, Sheffield, S2 4BF.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:21]",
+      "end_time": "[01:28]",
+      "start_time_sec": 81,
+      "text": "And what is the security question answer for the name of your first school, Dominic?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:40]",
+      "end_time": "[01:43]",
+      "start_time_sec": 100,
+      "text": "Bramall Primary.",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:55]",
+      "end_time": "[02:02]",
+      "start_time_sec": 115,
+      "text": "Thank you. Now, what kind of speeds and ping times are you seeing during these gaming sessions?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:14]",
+      "end_time": "[02:26]",
+      "start_time_sec": 134,
+      "text": "My base ping to UK servers is usually twelve milliseconds, but every few minutes it spikes to over four hundred milliseconds with fifteen to twenty percent packet loss.",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:38]",
+      "end_time": "[02:43]",
+      "start_time_sec": 158,
+      "text": "Are you connected using a wired Ethernet cable or over Wi-Fi?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:55]",
+      "end_time": "[03:02]",
+      "start_time_sec": 175,
+      "text": "It's a direct Cat 6 Ethernet cable straight into port 1 of the Hub 5 router.",
+      "sentiment_score": -8.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:14]",
+      "end_time": "[03:18]",
+      "start_time_sec": 194,
+      "text": "Have you tried restarting the Hub 5 router recently?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:30]",
+      "end_time": "[03:39]",
+      "start_time_sec": 210,
+      "text": "Yes, I powered it off for ten minutes yesterday, and the issue came right back as soon as it re-synced.",
+      "sentiment_score": -15.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:51]",
+      "end_time": "[03:58]",
+      "start_time_sec": 231,
+      "text": "Did you check whether there are any firmware updates pending for the Hub 5 router?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:10]",
+      "end_time": "[04:14]",
+      "start_time_sec": 250,
+      "text": "Your app says the router is on the latest release.",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:26]",
+      "end_time": "[04:33]",
+      "start_time_sec": 266,
+      "text": "Your Hub 5 is currently running firmware version 3.14.8, which is the latest stable release deployed nationwide."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:45]",
+      "end_time": "[04:50]",
+      "start_time_sec": 285,
+      "text": "Is IPv6 enabled on the WAN interface, or are we on dual-stack?",
+      "sentiment_score": -5.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:02]",
+      "end_time": "[05:08]",
+      "start_time_sec": 302,
+      "text": "Your connection is running native dual-stack with an assigned slash fifty-six IPv6 delegation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:20]",
+      "end_time": "[05:26]",
+      "start_time_sec": 320,
+      "text": "Have you seen any issues with IPv6 neighbor discovery flapping on that switch?",
+      "sentiment_score": -8.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:38]",
+      "end_time": "[05:44]",
+      "start_time_sec": 338,
+      "text": "No, the NDP table has zero reported errors over the trailing forty-eight hours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:56]",
+      "end_time": "[06:02]",
+      "start_time_sec": 356,
+      "text": "What about MTU size? Is it set to standard fifteen hundred or fourteen ninety-two?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:14]",
+      "end_time": "[06:18]",
+      "start_time_sec": 374,
+      "text": "PPPoE overhead sets the WAN MTU to fourteen ninety-two automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:30]",
+      "end_time": "[06:36]",
+      "start_time_sec": 390,
+      "text": "I see. And what does the packet loss counter show on the downstream port?",
+      "sentiment_score": -6.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:48]",
+      "end_time": "[06:54]",
+      "start_time_sec": 408,
+      "text": "Downstream interface has logged zero dropped frames across all four gigabit LAN ports."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:06]",
+      "end_time": "[07:11]",
+      "start_time_sec": 426,
+      "text": "Right, which proves the issue is upstream congestion outside the home network.",
+      "sentiment_score": -16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:23]",
+      "end_time": "[07:29]",
+      "start_time_sec": 443,
+      "text": "Not necessarily. Internal device processes can generate socket timeouts independent of port status."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:41]",
+      "end_time": "[07:49]",
+      "start_time_sec": 461,
+      "text": "I'll run a background optical line test to our terminal to inspect packet error rates. Bear with me."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:34]",
+      "end_time": "[08:47]",
+      "start_time_sec": 514,
+      "text": "Thank you for waiting, Dominic. The physical line sync is rock solid at nine hundred megabits down and one hundred up, with zero CRC errors on the physical layer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:59]",
+      "end_time": "[09:17]",
+      "start_time_sec": 539,
+      "text": "The raw sync speed isn't the problem, Carl! It's latency jitter and upstream bufferbloat! I ran an MTR traceroute and hop three inside your core network is dropping packets! This has been going on for four days and nobody is fixing it!",
+      "sentiment_score": -44.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:29]",
+      "end_time": "[09:37]",
+      "start_time_sec": 569,
+      "text": "Our core network does not have bufferbloat. Consumer traceroutes are notoriously misleading because routers deprioritize ICMP ping packets."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:49]",
+      "end_time": "[09:57]",
+      "start_time_sec": 589,
+      "text": "It's not just ICMP! UDP game packets in Counter-Strike and Discord voice chat are literally rubber-banding every thirty seconds!",
+      "sentiment_score": -38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:09]",
+      "end_time": "[10:18]",
+      "start_time_sec": 609,
+      "text": "As I said, if the physical layer shows zero packet loss at the ONT, the line test registers as healthy."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:30]",
+      "end_time": "[10:41]",
+      "start_time_sec": 630,
+      "text": "Then explain why four other people on my street using S-Net have reported the exact same packet loss on the Sheffield local forum since Tuesday!",
+      "sentiment_score": -34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:53]",
+      "end_time": "[10:58]",
+      "start_time_sec": 653,
+      "text": "Obviously I cannot comment on unverified gossip on public internet forums."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:10]",
+      "end_time": "[11:21]",
+      "start_time_sec": 670,
+      "text": "It's not gossip, it's your routing gateway! Can you at least escalate a ticket to your Level 2 network operations team to inspect the node load?",
+      "sentiment_score": -29.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:33]",
+      "end_time": "[11:43]",
+      "start_time_sec": 693,
+      "text": "I take full responsibility for network escalations, and I will check the node utilization metrics in our regional telemetry portal. Bear with me."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:23]",
+      "end_time": "[12:30]",
+      "start_time_sec": 743,
+      "text": "Thanks for holding, Dominic. I am looking at the node telemetry for the Sheffield South aggregation switch."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:42]",
+      "end_time": "[12:45]",
+      "start_time_sec": 762,
+      "text": "And what does the upstream interface graph show?",
+      "sentiment_score": -10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:57]",
+      "end_time": "[13:04]",
+      "start_time_sec": 777,
+      "text": "Upstream bandwidth utilization peaked at seventy-eight percent at eight PM yesterday, which is within operational tolerance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:16]",
+      "end_time": "[13:26]",
+      "start_time_sec": 796,
+      "text": "Seventy-eight percent on a shared GPON segment is causing queue latency spikes! That's exactly when my games start hitching! This service is utterly useless!",
+      "sentiment_score": -46.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:38]",
+      "end_time": "[13:49]",
+      "start_time_sec": 818,
+      "text": "Just to confirm the hardware connection before I consider raising an incident, you are using Cat 6 Ethernet into port 1 on the Hub 5, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:01]",
+      "end_time": "[14:08]",
+      "start_time_sec": 841,
+      "text": "Yes! I told you that fifteen minutes ago! Cat 6 direct to port 1, brand new cable!",
+      "sentiment_score": -28.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:20]",
+      "end_time": "[14:27]",
+      "start_time_sec": 860,
+      "text": "Well, seventy-eight percent utilization does not warrant a tier-three network dispatch under our SLA thresholds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:39]",
+      "end_time": "[14:46]",
+      "start_time_sec": 879,
+      "text": "So you're just refusing to fix a congested gateway that I'm paying sixty quid a month for?",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:58]",
+      "end_time": "[15:04]",
+      "start_time_sec": 898,
+      "text": "I'm telling you what the diagnostic platform shows. There is no line fault."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:16]",
+      "end_time": "[15:21]",
+      "start_time_sec": 916,
+      "text": "That is absolute incompetence. You have no idea how network routing works!",
+      "sentiment_score": -52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:33]",
+      "end_time": "[15:41]",
+      "start_time_sec": 933,
+      "text": "Only an idiot would blame our core gateway when you're probably running torrents or background updates on your PC!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:53]",
+      "end_time": "[16:01]",
+      "start_time_sec": 953,
+      "text": "Did you just call me an idiot? I am a senior systems engineer! I want your manager right now!",
+      "sentiment_score": -58.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:13]",
+      "end_time": "[16:20]",
+      "start_time_sec": 973,
+      "text": "I am not transferring you to a manager when you called up shouting about ping times."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:32]",
+      "end_time": "[16:38]",
+      "start_time_sec": 992,
+      "text": "I am filing an official complaint with Ofcom and the telecommunications ombudsman today!",
+      "sentiment_score": -54.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:50]",
+      "end_time": "[16:54]",
+      "start_time_sec": 1010,
+      "text": "You are free to file whatever complaint you like, Dominic."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:06]",
+      "end_time": "[17:09]",
+      "start_time_sec": 1026,
+      "text": "Give me your employee ID number immediately!",
+      "sentiment_score": -46.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:21]",
+      "end_time": "[17:27]",
+      "start_time_sec": 1041,
+      "text": "My operative ID is 4491. I will log this ticket under your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:39]",
+      "end_time": "[17:47]",
+      "start_time_sec": 1059,
+      "text": "And is this packet loss going to be resolved, or am I leaving this call with a broken connection?",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:59]",
+      "end_time": "[18:06]",
+      "start_time_sec": 1079,
+      "text": "As the line passes all automated hardware health tests, no engineering visit will be scheduled."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:18]",
+      "end_time": "[18:22]",
+      "start_time_sec": 1098,
+      "text": "Unbelievable. I'm cancelling my contract for breach of service.",
+      "sentiment_score": -48.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:34]",
+      "end_time": "[18:40]",
+      "start_time_sec": 1114,
+      "text": "You can discuss cancellation penalties with our customer relations team during weekday hours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:52]",
+      "end_time": "[18:55]",
+      "start_time_sec": 1132,
+      "text": "I will be doing exactly that. Goodbye.",
+      "sentiment_score": -32.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[19:07]",
+      "end_time": "[19:10]",
+      "start_time_sec": 1147,
+      "text": "Thank you for choosing S-Net, goodbye."
+    }
+  ]
+}

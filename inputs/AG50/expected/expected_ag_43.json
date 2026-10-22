@@ -1,0 +1,159 @@
+{
+  "call_id": "ag_43",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 100.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Multi-SIM Family Share plan not allocating 25GB shared data allowance from lead SIM to daughter's secondary SIM",
+    "tier": "excellent",
+    "duration_sec": 890,
+    "notes": "Exemplary 11/11 PASS call. Patrick verifies Wojciech's address, PIN, and security question at [03:38] (around 03:40, just inside the 240s threshold), manages a 105s hold cleanly ([06:57]-[08:52]), checks the daughter's handset balance display before ([05:58]) and after ([10:20]) re-binding the shared data bucket, and proactively fixes the third family SIM ([06:36]).",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Verified customer",
+      "Active listening"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Patrick opens with 'thank you for calling S-Net' and closes at [14:35] with 'Thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[06:57]-[08:52] Single 105-second managed hold announced with 'Please bear with me while I re-bind the donor and member MSISDNs...' and returned with 'Thank you so much for holding, Wojciech'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[03:38]-[03:45] Patrick verifies Wojciech's billing address, four-digit account PIN, and memorable security question at [03:38] (just inside the 240-second verification window)."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:22] Patrick addresses Wojciech by name warmly and naturally throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:22], [00:54] Patrick apologizes sincerely and validates Wojciech's worry about his daughter Zuzanna running out of data while on a university field trip in the Peak District."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:10] Patrick clearly paraphrases the issue: Wojciech holds the 100GB lead Family Share plan and assigned a 25GB slice to Zuzanna's linked secondary SIM, but her handset is acting as if it has zero high-speed data."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:28]-[02:55], [05:58]-[06:36], [10:10]-[10:34] Patrick tracks every detail Wojciech shares (daughter Zuzanna on iPhone 14 in Castleton, line 4409, Sunday upgrade to 100GB, wife's line 7731) and checks the exact app balance displayed on Zuzanna's handset both before ([05:58]) and after ([10:20]) re-syncing the shared bucket."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:42], [05:22], [06:36]-[08:52] Patrick takes full ownership of diagnosing the orphaned bucket ID (`SB-99402-A` vs `SB-99402-B`), re-binding both secondary SIMs (4409 and 7731), clearing the 64kbps QoS restriction, and setting 80% usage alerts."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:22]-[14:35] Patrick builds warm rapport, asks about Zuzanna's Peak District geography trip, and proactively checks the third family SIM (7731)."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:01]-[02:55] Patrick asks targeted diagnostic questions about the Family Data Manager slider status, when the 25GB change was made relative to the tariff upgrade, and Zuzanna's handset/connectivity."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[09:31]-[11:02] Wojciech confirms his app shows Pool SB-99402-B linked, and Zuzanna confirms via screenshot that her iPhone 14 now shows '25.0 GB remaining (from Wojciech)' and uploads a 40MB GIS survey file in 3 seconds over 5G."
+      }
+    ]
+  }
+}

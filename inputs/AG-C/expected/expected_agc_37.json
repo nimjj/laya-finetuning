@@ -1,0 +1,201 @@
+{
+  "call_id": "agc_37",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 43.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent never provided a restatement of the caller's confusion regarding the new TV 360 interface or missing soap opera recordings, jumping directly into menu navigation."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked the customer what program they were looking for at turn 46, failing to recall that Joseph had explicitly named Coronation Street on ITV at turn 5."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Agent initially deflected assistance onto the customer at turn 26, telling the elderly caller to get a neighbor or relative to read menus and stating S-Net does not provide remote control guidance."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Agent made a condescending and rude remark at turn 22 ('maybe you need an updated prescription from your optician rather than blaming the TV box'), offending the elderly customer."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Agent failed to probe the hardware setup, omitting inquiries regarding display zoom modes, TV screen aspect ratios, HDMI connections, or remote control battery levels."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-22",
+    "scenario": "Elderly customer confused by new TV 360 UI and missing recorded soap operas",
+    "tier": "5+",
+    "duration_sec": 670,
+    "notes": "Short poor call (11:10) handled by Laura. Elderly customer confused by new TV 360 interface and missing Coronation Street recordings. Agent verified security and helped configure voice search, but failed 5 distinct criteria: Paraphrasing (no restatement), Active Listening (repeat question on program name), Ownership (deflected guidance onto neighbors), Professionalism (rude optician remark), and Probing (omitted hardware display checks).",
+    "hard_cases": [
+      "Verified customer",
+      "Empathy & Acknowledgment Statement",
+      "Paraphrasing",
+      "Active listening"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent verified installation address and 4-digit security PIN within first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent recognized elderly customer's opening disorientation and isolation regarding new TV menus with clear empathy."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never provided a restatement of the caller's confusion regarding the new TV 360 interface or missing soap opera recordings, jumping directly into menu navigation."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked the customer what program they were looking for at turn 46, failing to recall that Joseph had explicitly named Coronation Street on ITV at turn 5."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent initially deflected assistance onto the customer at turn 26, telling the elderly caller to get a neighbor or relative to read menus and stating S-Net does not provide remote control guidance."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent made a condescending and rude remark at turn 22 ('maybe you need an updated prescription from your optician rather than blaming the TV box'), offending the elderly customer."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent failed to probe the hardware setup, omitting inquiries regarding display zoom modes, TV screen aspect ratios, HDMI connections, or remote control battery levels."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "repeat",
+          "premise_turn": 5,
+          "agent_turn": 47
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 8
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 23
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 10
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 1,
+          "agent_turn": 2,
+          "with_refusal": false
+        },
+        {
+          "kind": "no_outburst",
+          "customer_turn": 56
+        }
+      ]
+    }
+  }
+}

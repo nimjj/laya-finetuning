@@ -1,0 +1,185 @@
+{
+  "call_id": "agt_003",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 68.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "When the customer explained at [00:07] and [00:27] that duplicate deductions of \u00a349 had left him at risk of missing his rent tomorrow, you jumped straight to policy and security verification without acknowledging his financial worry."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "You only echoed the customer's words verbatim at [01:46] ('You are seeing two payments of forty-nine pounds') and confirmed account numbers, rather than paraphrasing the billing dispute in your own words."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "The duplicate payment could not be refunded during the call and relies on a future BACS processing run on Friday, so the issue was not resolved during the call."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Billing dispute over double direct debit collection after broadband speed tier upgrade",
+    "tier": "okay",
+    "duration_sec": 970,
+    "notes": "Sarah correctly identifies the migration overlap that triggered concurrent direct debit mandates and logs an urgent BACS refund ticket with a \u00a310 goodwill credit. However, she fails Empathy by never acknowledging Adam's distress about rent payments, fails Paraphrasing by only echoing numbers, and the issue remains unresolved pending offline BACS clearance on Friday.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Paraphrasing",
+      "Confirmed the issue is resolved",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opening greeting at [00:00] and closing script at final turn."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Two managed holds were announced and thanked properly without unmanaged dead air."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Verified postcode, address, and 4-digit PIN within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Addressed Adam by name naturally throughout."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer experienced severe financial distress at [00:07] and [00:27] ('my rent is due tomorrow!'), but Agent never acknowledged the worry, moving directly to verification and policy."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never restated the dispute in her own words; only confirmed account number at [01:30] and echoed words at [01:46]."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Listened attentively without repeating any previously stated questions."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: While referring the refund to the billing operations queue, Agent explicitly retained end-to-end ownership at turn 47 ('I will track this ticket myself on my personal dashboard and verify when the payment batch clears on Friday morning')."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Maintained a calm, polite, and professional demeanor."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Investigated transaction dates, mandate triggers, and account ledger timelines."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Hard-case FAIL: The refund is pending future BACS transfer by Friday, meaning the financial resolution cannot be confirmed during the call."
+      }
+    ],
+    "markers": {
+      "active_listening": [],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 10
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 18
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "call_id": "agb_34",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 66.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Agent never addressed the customer by her verified name 'Hayley' anywhere during the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to acknowledge customer's severe emotional distress and hardship when an unauthorized deduction plunged her into overdraft and left her unable to buy infant medicine."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent offered zero restatement of the duplicate payment issue, responding only with technical clearing explanations."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Agent made an insulting and dismissive comment blaming customer's personal budgeting for an overdraft caused by S-Net's duplicate deduction."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Double Direct Debit billing deduction after card payment; immediate electronic refund initiated; agent never uses customer name, ignores distress over overdraft bank charges, offers zero paraphrasing, and makes rude remark blaming customer budgeting",
+    "tier": "fair",
+    "duration_sec": 971,
+    "notes": "The agent investigated a duplicate billing deduction of £38.50 that triggered when a scheduled Direct Debit cleared three days after a manual debit card payment, and initiated an immediate BACS electronic refund. However, the agent failed Personalized Call by never addressing the customer by 'Hayley', failed Empathy & Acknowledgment Statement by disregarding Hayley's severe distress when her current account went overdrawn with £45 bank penalties leaving her unable to buy toddler groceries, failed Paraphrasing by offering zero restatement of the billing problem, and failed Build Rapport and Observed Professionalism at minute 8 by rudely blaming her personal budgeting ('If your bank charges you overdraft fees because thirty-eight pounds was debited, that is a personal budgeting issue between you and your bank, not an S-Net problem').",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Build rapport and observed professionalism",
+      "Took ownership of the problem",
+      "Active listening"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never addressed the customer by her name 'Hayley' across any turn in the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:30] Customer: 'Julian, I am a single mother working part-time... My card got declined at the pharmacy this morning when trying to buy infant medicine and milk for my two-year-old daughter! I was reduced to tears of humiliation at the counter!' Agent: 'Automated Direct Debit processing cycles lock payment files three banking days prior to collection dates.' - Complete lack of empathy."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent gave no restatement of customer's duplicate payment problem statement, moving directly to ledger inspection."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[13:40] Agent correctly reconfirmed the exact amounts (£38.50 refund and £45 goodwill credit) and verified HSBC sort code without redundant re-asking."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[14:20] Agent: 'I will remain the dedicated owner for this billing dispute and track the Faster Payments release until confirmation is logged.' - Clear personal ownership."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[05:15] Agent: 'If your bank charges you overdraft fees because thirty-eight pounds was debited, that is a personal budgeting issue between you and your bank, not an S-Net problem.' - Disrespectful and blaming customer remark."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 64
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 18
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 46
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 5
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Una",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net mobile technical support. My name is Liam. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:09]",
+      "end_time": "[00:26]",
+      "start_time_sec": 9,
+      "text": "Hello Liam. I'm calling from my old mobile because I'm trying to activate the eSIM on my brand new iPhone 15, but whenever I scan the QR code from the confirmation email, it says 'Unable to complete cellular plan change - QR code expired'.",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:28]",
+      "end_time": "[00:42]",
+      "start_time_sec": 28,
+      "text": "I can certainly help you generate a fresh eSIM activation profile, Una. Before we access the mobile provisioning gateway, may I please verify your billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:44]",
+      "end_time": "[00:54]",
+      "start_time_sec": 44,
+      "text": "Yes, it is 15 Pembroke Crescent, Hove, BN3 5DG. And the security question answer is my first pet's name, Bramble.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:56]",
+      "end_time": "[01:05]",
+      "start_time_sec": 56,
+      "text": "Thank you Una, that verifies your account file. What is the mobile telephone number associated with this new eSIM order?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:07]",
+      "end_time": "[01:25]",
+      "start_time_sec": 67,
+      "text": "The phone number is 07700 900582. I need this phone working urgently because I am a freelance court interpreter and have a critical multilingual trial hearing starting at two o'clock this afternoon! If the solicitors cannot reach me, I lose the assignment!",
+      "sentiment_score": -46.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:27]",
+      "end_time": "[01:43]",
+      "start_time_sec": 87,
+      "text": "I completely understand the urgency with your court interpretation hearing this afternoon, Una. Having an unactivated SIM when solicitors are trying to reach you is very stressful, so let us get this eSIM profile generated and connected immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:45]",
+      "end_time": "[01:50]",
+      "start_time_sec": 105,
+      "text": "Thank you so much Liam, that calms my panic knowing you can sort it.",
+      "sentiment_score": 15.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:52]",
+      "end_time": "[02:11]",
+      "start_time_sec": 112,
+      "text": "So if I have understood correctly, the original eSIM QR code delivered in your welcome email has expired beyond its forty-eight hour validity window, preventing your new iPhone 15 from downloading the carrier profile, and you need a fresh profile issued right now. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:13]",
+      "end_time": "[02:21]",
+      "start_time_sec": 133,
+      "text": "Yes, that is exactly right. I bought the phone on Friday but only had time to set it up this morning.",
+      "sentiment_score": 4.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:23]",
+      "end_time": "[02:31]",
+      "start_time_sec": 143,
+      "text": "I will open our mobile network HLR provisioning database to regenerate your digital SIM profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:33]",
+      "end_time": "[02:37]",
+      "start_time_sec": 153,
+      "text": "Okay, standing by with the new iPhone in hand.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:23]",
+      "end_time": "[03:34]",
+      "start_time_sec": 203,
+      "text": "The mobile provisioning engine has released the locked profile and assigned a new digital EID pairing token."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:36]",
+      "end_time": "[03:43]",
+      "start_time_sec": 216,
+      "text": "Great! Will you email me a new QR code, or can we enter it manually into the iPhone settings?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:45]",
+      "end_time": "[03:57]",
+      "start_time_sec": 225,
+      "text": "Entering the details manually via the SM-DP+ server address is much faster because it bypasses email spam filters entirely."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:59]",
+      "end_time": "[04:04]",
+      "start_time_sec": 239,
+      "text": "Yes, let's do manual entry! Where do I go in Settings?",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:06]",
+      "end_time": "[04:14]",
+      "start_time_sec": 246,
+      "text": "On your new iPhone, open Settings, tap Mobile Service, then tap Add eSIM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:16]",
+      "end_time": "[04:25]",
+      "start_time_sec": 256,
+      "text": "Settings... Mobile Service... Add eSIM. A screen popped up asking to transfer from nearby iPhone or use QR Code.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:27]",
+      "end_time": "[04:38]",
+      "start_time_sec": 267,
+      "text": "Tap Use QR Code, and at the bottom of the camera scanner screen, tap 'Enter Details Manually'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:40]",
+      "end_time": "[04:49]",
+      "start_time_sec": 280,
+      "text": "Tapping Enter Details Manually... two input boxes appeared labeled 'SM-DP+ Address' and 'Activation Code'.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:51]",
+      "end_time": "[04:59]",
+      "start_time_sec": 291,
+      "text": "For the SM-DP+ Address, enter: cust-mobile.prod.s-net.co.uk."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:01]",
+      "end_time": "[05:08]",
+      "start_time_sec": 301,
+      "text": "Typing cust-mobile.prod.s-net.co.uk into the SM-DP+ Address box. Got that.",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:10]",
+      "end_time": "[05:26]",
+      "start_time_sec": 310,
+      "text": "Now I will read out the sixteen-character alphanumeric Activation Code: Lima, Oscar, 9, 2, Juliet, Echo, 4, 1, Tango, Romeo, 8, 8, Alpha, Charlie, 7, 7."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:28]",
+      "end_time": "[05:40]",
+      "start_time_sec": 328,
+      "text": "Entering: L O 9 2 J E 4 1 T R 8 8 A C 7 7. Let me read that back: LO92-JE41-TR88-AC77.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:42]",
+      "end_time": "[05:53]",
+      "start_time_sec": 342,
+      "text": "That is exactly correct. Now leave the Confirmation Code box blank, and tap Next in the top right corner."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:55]",
+      "end_time": "[06:03]",
+      "start_time_sec": 355,
+      "text": "Tapping Next... the screen says 'Activating S-Net eSIM - this may take a few moments'.",
+      "sentiment_score": 19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:05]",
+      "end_time": "[06:14]",
+      "start_time_sec": 365,
+      "text": "The phone is currently downloading the encrypted subscriber credentials over your home WiFi."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:16]",
+      "end_time": "[06:25]",
+      "start_time_sec": 376,
+      "text": "The progress wheel is spinning... okay, it says 'Cellular Plan Added'! It is asking me to assign a label.",
+      "sentiment_score": 38.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:27]",
+      "end_time": "[06:37]",
+      "start_time_sec": 387,
+      "text": "Select Primary as the label, and set it as default line for voice, SMS, and mobile data."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:39]",
+      "end_time": "[06:46]",
+      "start_time_sec": 399,
+      "text": "Selected Primary for everything... tapping Done. The top status bar has refreshed!",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:32]",
+      "end_time": "[07:42]",
+      "start_time_sec": 452,
+      "text": "I have synchronized the network routing profile on our central telecommunications registry."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:44]",
+      "end_time": "[07:52]",
+      "start_time_sec": 464,
+      "text": "Looking at the top right of the iPhone screen... S-Net 5G has appeared with four full signal bars!",
+      "sentiment_score": 48.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:54]",
+      "end_time": "[08:06]",
+      "start_time_sec": 474,
+      "text": "Obviously that confirms the cryptographic eSIM profile has successfully bound to the device baseband processor, Una."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:08]",
+      "end_time": "[08:14]",
+      "start_time_sec": 488,
+      "text": "Let me turn off WiFi and test browsing a webpage over mobile data.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:16]",
+      "end_time": "[08:22]",
+      "start_time_sec": 496,
+      "text": "Go ahead, let us confirm 5G packet data throughput."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:24]",
+      "end_time": "[08:35]",
+      "start_time_sec": 504,
+      "text": "Opening the BBC News website on Safari... loaded instantly with full images! And I just received an incoming WhatsApp message.",
+      "sentiment_score": 46.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:37]",
+      "end_time": "[08:47]",
+      "start_time_sec": 517,
+      "text": "Just to check, Una, is your home broadband connection functioning normally as well without any issues?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:49]",
+      "end_time": "[08:56]",
+      "start_time_sec": 529,
+      "text": "Yes, our home broadband has been completely fine, it was solely the new iPhone eSIM setup.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:58]",
+      "end_time": "[09:10]",
+      "start_time_sec": 538,
+      "text": "Now please perform a test outbound phone call to your landline or an automated time check to verify voice channels."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:12]",
+      "end_time": "[09:24]",
+      "start_time_sec": 552,
+      "text": "Dialing 123 for the Speaking Clock... 'At the third stroke the time will be...'. Voice quality is crystal clear HD Voice!",
+      "sentiment_score": 52.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:26]",
+      "end_time": "[09:37]",
+      "start_time_sec": 566,
+      "text": "That proves both VoLTE voice transmission and 5G mobile packet data are fully authenticated on your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:39]",
+      "end_time": "[09:48]",
+      "start_time_sec": 579,
+      "text": "What an enormous relief. Now the solicitors will be able to reach me for the two o'clock court hearing without any hitch.",
+      "sentiment_score": 44.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:50]",
+      "end_time": "[10:01]",
+      "start_time_sec": 590,
+      "text": "Let us also check your WiFi Calling toggle under Settings to ensure indoor coverage is optimal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:03]",
+      "end_time": "[10:10]",
+      "start_time_sec": 603,
+      "text": "Tapping Wi-Fi Calling... turning the slider to ON. It says 'Wi-Fi Calling Active'.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:12]",
+      "end_time": "[10:24]",
+      "start_time_sec": 612,
+      "text": "That ensures your phone will make high definition calls even in basement courtrooms with thick masonry."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:26]",
+      "end_time": "[10:32]",
+      "start_time_sec": 626,
+      "text": "That is exceptionally valuable for my work in older court buildings.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:34]",
+      "end_time": "[10:43]",
+      "start_time_sec": 634,
+      "text": "Let us also check your voicemail setup to make sure unanswered calls can leave messages."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:45]",
+      "end_time": "[10:56]",
+      "start_time_sec": 645,
+      "text": "Dialing my mobile voicemail... it says 'Welcome to your S-Net Voicemail, no new messages'. PIN is already remembered from my previous SIM.",
+      "sentiment_score": 32.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:58]",
+      "end_time": "[11:08]",
+      "start_time_sec": 658,
+      "text": "Your existing mailbox profile and saved greetings migrated automatically along with the phone number."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:10]",
+      "end_time": "[11:15]",
+      "start_time_sec": 670,
+      "text": "That saves me having to record a new professional greeting.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:17]",
+      "end_time": "[11:32]",
+      "start_time_sec": 677,
+      "text": "Let us also review your international data roaming toggle under Mobile Data Options so you don't face unexpected roaming blocks when traveling for overseas court assignments."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:34]",
+      "end_time": "[11:45]",
+      "start_time_sec": 694,
+      "text": "Good thinking. Under Mobile Data Options, Data Roaming is currently toggled OFF. Should I leave it OFF until I actually travel abroad?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:47]",
+      "end_time": "[12:03]",
+      "start_time_sec": 707,
+      "text": "Yes, leaving Data Roaming OFF in the UK is best practice to prevent incidental boundary connections near coastal waters, and you can switch it ON whenever you arrive in the European Union."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:05]",
+      "end_time": "[12:11]",
+      "start_time_sec": 725,
+      "text": "I will make sure to keep that toggled off until my next trip to The Hague.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:13]",
+      "end_time": "[12:27]",
+      "start_time_sec": 733,
+      "text": "Let us also check that your mobile hotspot or personal tethering is enabled in case you need internet on your laptop during court recesses."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:29]",
+      "end_time": "[12:39]",
+      "start_time_sec": 749,
+      "text": "Checking Personal Hotspot... yes, 'Allow Others to Join' is available and my laptop recognizes the iPhone hotspot right away.",
+      "sentiment_score": 24.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:41]",
+      "end_time": "[12:51]",
+      "start_time_sec": 761,
+      "text": "Your S-Net monthly plan includes sixty gigabytes of tethering data at full 5G speeds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:53]",
+      "end_time": "[12:59]",
+      "start_time_sec": 773,
+      "text": "That is more than plenty for legal document review and email correspondence.",
+      "sentiment_score": 19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:01]",
+      "end_time": "[13:11]",
+      "start_time_sec": 781,
+      "text": "I have documented the manual SM-DP+ eSIM profile provisioning on your customer account record, Una."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:13]",
+      "end_time": "[13:19]",
+      "start_time_sec": 793,
+      "text": "Thank you so much Liam for getting this sorted so quickly and professionally.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:21]",
+      "end_time": "[13:30]",
+      "start_time_sec": 801,
+      "text": "Is there anything else regarding your new iPhone 15 or mobile tariff that I can assist with today, Una?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:32]",
+      "end_time": "[13:37]",
+      "start_time_sec": 812,
+      "text": "No, that has solved my crisis completely. Thank you Liam.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:39]",
+      "end_time": "[13:46]",
+      "start_time_sec": 819,
+      "text": "Have a successful court hearing this afternoon and have a good day. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:48]",
+      "end_time": "[13:50]",
+      "start_time_sec": 828,
+      "text": "Thanks Liam, goodbye.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

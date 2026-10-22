@@ -1,0 +1,479 @@
+{
+  "call_id": "agt_010",
+  "tenant_id": "tenant-abc",
+  "customer_name": "Astrid",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Hello, thanks for calling S-Net customer service. My name is Neil. How may I direct your call today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:34]",
+      "start_time_sec": 8,
+      "text": "Hello Neil. I am extremely upset! I signed up for what was explicitly sold to me by your telephone salesperson as a fixed two-year broadband deal at thirty-two pounds a month. I checked my bank account this morning and S-Net has taken fifty pounds! An eighteen-pound jump! On a state pension, eighteen pounds is my grocery budget for three days! I want this corrected immediately!",
+      "sentiment_score": -62.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:35]",
+      "end_time": "[00:52]",
+      "start_time_sec": 35,
+      "text": "Your account details will show what tariff is applied. Before I can open the billing ledger, Astrid, I need to complete security verification. Could you please confirm your full postal address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:53]",
+      "end_time": "[01:09]",
+      "start_time_sec": 53,
+      "text": "My address is 42 Highfield Crescent, Sheffield, S11 9PQ, and the answer to the security question, which was my first pet's name, is Barnaby.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:10]",
+      "end_time": "[01:25]",
+      "start_time_sec": 70,
+      "text": "Thank you Astrid, that successfully passes our standard security verification. I have your customer account and billing ledger open on my screen now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:26]",
+      "end_time": "[01:35]",
+      "start_time_sec": 86,
+      "text": "So can you tell me why on earth you charged me fifty pounds instead of thirty-two?",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:36]",
+      "end_time": "[01:59]",
+      "start_time_sec": 96,
+      "text": "Your initial eighteen-month promotional contract commenced on the 4th of April last year and concluded on the 3rd of October. Under clause 8.2 of our standard subscriber terms, when an introductory promotional discount period terminates, the account automatically reverts to standard list price."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:00]",
+      "end_time": "[02:18]",
+      "start_time_sec": 120,
+      "text": "Nobody told me it was only eighteen months! The rep who sold it to me promised it was fixed for two full years! Why didn't anyone send me a letter or an email warning me that the price was shooting up by fifty percent?",
+      "sentiment_score": -52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:19]",
+      "end_time": "[02:44]",
+      "start_time_sec": 139,
+      "text": "As stated in your initial welcome email and contract summary document sent on the 4th of April, an end-of-contract notification email was dispatched to your registered email address thirty days prior to expiration on the 3rd of September, in accordance with our standard customer procedures."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:45]",
+      "end_time": "[02:59]",
+      "start_time_sec": 165,
+      "text": "I do not check emails every day, I am seventy-two years old! You can't just quietly slip a fifty percent price hike into an email and expect a pensioner to spot it!",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:00]",
+      "end_time": "[03:22]",
+      "start_time_sec": 180,
+      "text": "The electronic notification complies fully with Ofcom regulatory requirements for end-of-contract reminders. However, Astrid, you are eligible to renew onto our current customer retention tariff."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:23]",
+      "end_time": "[03:33]",
+      "start_time_sec": 203,
+      "text": "What does that mean? What will you do about the extra eighteen pounds you took out of my bank today?",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:34]",
+      "end_time": "[03:54]",
+      "start_time_sec": 214,
+      "text": "Bear with me for a couple of minutes while I check what loyalty contract options and manual credit authorisations are available on your account profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:55]",
+      "end_time": "[04:00]",
+      "start_time_sec": 235,
+      "text": "Fine, I will wait.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:55]",
+      "end_time": "[05:18]",
+      "start_time_sec": 295,
+      "text": "Thank you for your patience, Astrid. I have reviewed your account history and payment records. You have been a customer with S-Net for six years with uninterrupted direct debit payments."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:19]",
+      "end_time": "[05:27]",
+      "start_time_sec": 319,
+      "text": "Yes, I have never missed a single payment in all those years.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:28]",
+      "end_time": "[05:51]",
+      "start_time_sec": 328,
+      "text": "I can apply an eighteen-pound one-off goodwill courtesy credit directly to your billing ledger today. That credit will offset against your upcoming November invoice so you will not be out of pocket for the price difference."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:52]",
+      "end_time": "[06:05]",
+      "start_time_sec": 352,
+      "text": "Okay, that is fair regarding the overcharge. But what about going forward? I cannot pay fifty pounds every month.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:06]",
+      "end_time": "[06:30]",
+      "start_time_sec": 366,
+      "text": "I can place you on a new twenty-four month contract for your current Fibre 150 package at thirty-one pounds a month, which is actually one pound cheaper than your previous promotional rate."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:31]",
+      "end_time": "[06:40]",
+      "start_time_sec": 391,
+      "text": "Thirty-one pounds a month? And is that price locked in for the full two years?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:41]",
+      "end_time": "[07:05]",
+      "start_time_sec": 401,
+      "text": "The contract duration is twenty-four months starting from today. Like all UK telecom providers, there is an annual consumer price index adjustment every April, as specified in the standard terms."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:06]",
+      "end_time": "[07:18]",
+      "start_time_sec": 426,
+      "text": "How much is that adjustment usually? I need to know exactly what to budget for.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:19]",
+      "end_time": "[07:38]",
+      "start_time_sec": 439,
+      "text": "The standard adjustment is CPI inflation plus three point nine percent, which on a thirty-one pound package usually equates to around one pound fifty to two pounds extra per month each April."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:39]",
+      "end_time": "[07:51]",
+      "start_time_sec": 459,
+      "text": "I see. At thirty-one pounds, that is much closer to what I expected and what I can manage.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:52]",
+      "end_time": "[08:14]",
+      "start_time_sec": 472,
+      "text": "Give me a moment while I generate the pre-contract information document and apply the eighteen-pound courtesy credit to your ledger."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:15]",
+      "end_time": "[08:20]",
+      "start_time_sec": 495,
+      "text": "Alright.",
+      "sentiment_score": 3.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:10]",
+      "end_time": "[09:33]",
+      "start_time_sec": 550,
+      "text": "Thank you for holding, Astrid. I have successfully applied the eighteen-pound credit to your account balance. Your current account balance now shows negative eighteen pounds in your favor."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:34]",
+      "end_time": "[09:44]",
+      "start_time_sec": 574,
+      "text": "So that means my next bill will only be thirteen pounds, is that right?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:45]",
+      "end_time": "[10:04]",
+      "start_time_sec": 585,
+      "text": "That is exactly correct. The thirty-one pound charge minus the eighteen-pound credit leaves thirteen pounds to be collected on your November direct debit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:05]",
+      "end_time": "[10:14]",
+      "start_time_sec": 605,
+      "text": "That will definitely help balance my budget for next month. Thank you for that.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:15]",
+      "end_time": "[10:39]",
+      "start_time_sec": 615,
+      "text": "To activate the new twenty-four month contract at thirty-one pounds per month, I need to read the mandatory standard contract script and capture your verbal agreement, Astrid."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:40]",
+      "end_time": "[10:46]",
+      "start_time_sec": 640,
+      "text": "Go ahead, I am listening.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:47]",
+      "end_time": "[11:15]",
+      "start_time_sec": 647,
+      "text": "You are entering a twenty-four month contract for S-Net Fibre 150 broadband at thirty-one pounds per month. You have a fourteen-day statutory cooling-off period starting from today during which you may cancel without penalty. Do you accept these terms and conditions, Astrid?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:16]",
+      "end_time": "[11:24]",
+      "start_time_sec": 676,
+      "text": "Yes, I accept those terms and conditions.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:25]",
+      "end_time": "[11:46]",
+      "start_time_sec": 685,
+      "text": "Thank you, Astrid. The contract agreement has been recorded and submitted on our system. A confirmation email and paper copy have been scheduled for dispatch to your address."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:47]",
+      "end_time": "[11:58]",
+      "start_time_sec": 707,
+      "text": "A paper copy would be very helpful. Can you confirm the paper copy will arrive by post?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:59]",
+      "end_time": "[12:18]",
+      "start_time_sec": 719,
+      "text": "Yes, the contract pack and schedule of charges will arrive at 42 Highfield Crescent within three to five working days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:19]",
+      "end_time": "[12:28]",
+      "start_time_sec": 739,
+      "text": "That is wonderful. And my broadband connection won't be interrupted at all?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:29]",
+      "end_time": "[12:47]",
+      "start_time_sec": 749,
+      "text": "No, your broadband service remains active without any technical change or downtime because you are retaining the same equipment and speed tier."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:48]",
+      "end_time": "[12:56]",
+      "start_time_sec": 768,
+      "text": "Good, that makes life much easier.",
+      "sentiment_score": 11.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:57]",
+      "end_time": "[13:16]",
+      "start_time_sec": 777,
+      "text": "Astrid, I have logged the credit, updated the tariff, and set up the paper documentation for your records."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:17]",
+      "end_time": "[13:28]",
+      "start_time_sec": 797,
+      "text": "Yes, that completely resolves my query and takes a huge weight off my mind. Thank you.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:29]",
+      "end_time": "[13:48]",
+      "start_time_sec": 809,
+      "text": "Is there anything else regarding your broadband package or direct debit that I can assist you with today, Astrid?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:49]",
+      "end_time": "[13:57]",
+      "start_time_sec": 829,
+      "text": "No, everything is sorted now. Thank you Neil.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:58]",
+      "end_time": "[14:15]",
+      "start_time_sec": 838,
+      "text": "You are welcome. Have a pleasant afternoon, Astrid."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:16]",
+      "end_time": "[14:22]",
+      "start_time_sec": 856,
+      "text": "You too, Neil.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:23]",
+      "end_time": "[14:40]",
+      "start_time_sec": 863,
+      "text": "Take care and goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:41]",
+      "end_time": "[14:47]",
+      "start_time_sec": 881,
+      "text": "Goodbye.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:48]",
+      "end_time": "[15:05]",
+      "start_time_sec": 888,
+      "text": "We will dispatch your written confirmation shortly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:06]",
+      "end_time": "[15:13]",
+      "start_time_sec": 906,
+      "text": "Thank you, goodbye.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:14]",
+      "end_time": "[15:35]",
+      "start_time_sec": 914,
+      "text": "If you ever have any questions about your billing, our customer care line is always here for you."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:36]",
+      "end_time": "[15:43]",
+      "start_time_sec": 936,
+      "text": "That is good to know.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:44]",
+      "end_time": "[16:04]",
+      "start_time_sec": 944,
+      "text": "Have a wonderful rest of your week, Astrid."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:05]",
+      "end_time": "[16:11]",
+      "start_time_sec": 965,
+      "text": "You too, Neil.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:12]",
+      "end_time": "[16:32]",
+      "start_time_sec": 972,
+      "text": "Goodbye, Astrid."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:33]",
+      "end_time": "[16:39]",
+      "start_time_sec": 993,
+      "text": "Goodbye.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:40]",
+      "end_time": "[17:02]",
+      "start_time_sec": 1000,
+      "text": "All account changes have been formally confirmed in our billing database."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:03]",
+      "end_time": "[17:10]",
+      "start_time_sec": 1023,
+      "text": "Excellent, thank you.",
+      "sentiment_score": 7.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:11]",
+      "end_time": "[17:35]",
+      "start_time_sec": 1031,
+      "text": "Have a lovely day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:36]",
+      "end_time": "[17:42]",
+      "start_time_sec": 1056,
+      "text": "Thank you, you too.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:43]",
+      "end_time": "[18:02]",
+      "start_time_sec": 1063,
+      "text": "Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:03]",
+      "end_time": "[18:09]",
+      "start_time_sec": 1083,
+      "text": "Goodbye Neil.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:10]",
+      "end_time": "[18:17]",
+      "start_time_sec": 1090,
+      "text": "Thanks for being with S-Net, Astrid. Goodbye."
+    }
+  ]
+}

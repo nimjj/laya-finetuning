@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_45",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 88.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "At [04:07]-[04:51] and [06:17]-[07:06], formally ask to place the customer on hold and thank him upon returning rather than leaving two unmanaged dead-air gaps of 34s and 39s after casual remarks."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "At [07:38], pay attention to details the customer already shared earlier—Maximilian clearly stated at [01:55] that he was browsing from Safari on his MacBook Pro."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Admin GUI login rejecting factory card password on S-Net Hub 4 and disabling WPS push-button after security audit warning",
+    "tier": "good",
+    "duration_sec": 710,
+    "notes": "Ross handles verification ([01:26]-[01:43]), empathy ([00:21]), paraphrasing ([00:58]), diagnostic probing ([02:03]-[02:40]), and live resolution verification ([08:20]-[10:46]) well, but fails Hold/Dead Air with two near-threshold unmanaged gaps of 34s ([04:07]-[04:51]) and 39s ([06:17]-[07:06]) and fails Active Listening at [07:38] by asking which browser and OS Maximilian is using after he stated 'Safari on my MacBook Pro' at [01:55].",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Active listening",
+      "Verified customer",
+      "Paraphrasing",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Ross opens with 'thank you for calling S-Net' and closes at [11:44] with 'Thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[04:07]-[04:51] (34s unmanaged gap after 'Just a sec while I check the TR-069 management console') and [06:17]-[07:06] (39s unmanaged gap after 'Hold on while that syncs'), both exceeding the 30-second threshold without formal hold announcements or return thank-yous."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:26]-[01:43] Ross verifies Maximilian's Edinburgh address, postcode, four-digit PIN, and security question well within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:21] Ross addresses Maximilian by name throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:21] Ross apologizes for the frustration and hassle and validates Maximilian's urgency around passing his employer's home-working security audit."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:58] Ross clearly paraphrases both parts of Maximilian's request: resolving the S-Net Hub 4 admin GUI rejecting the 12-character pull-out card password, and disabling WPS so his network passes his workplace security audit."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:55] Maximilian explicitly states 'I'm sitting right next to the router browsing from Safari on my MacBook Pro', but at [07:38] Ross asks 'and which web browser and operating system are you using to open 192.168.1.1?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:45], [03:45]-[07:06], [08:46]-[10:15] Ross takes full ownership of resetting the Web GUI password hash via TR-069 without wiping Maximilian's NAS port-forwarding rules, walking him through disabling WPS, and locking the hardware button."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:21]-[11:44] Ross maintains a warm, helpful, and collaborative tone throughout."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:03]-[02:40], [05:25]-[05:43] Ross asks targeted diagnostic probing questions about the login prompt fields, case sensitivity, whether the Hub 4 was migrated from an older Hub 3 via cloud backup, and LED status."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[08:20]-[10:46] Maximilian logs into `192.168.1.1` using the factory card password ([08:20]), confirms his 6 NAS port-forwarding rules are intact ([08:37]), disables WPS across 2.4GHz and 5GHz ([09:43]), and confirms his employer's security scanner reports 'PASS — WPS Disabled on BSSID' ([10:46])."
+      }
+    ]
+  }
+}

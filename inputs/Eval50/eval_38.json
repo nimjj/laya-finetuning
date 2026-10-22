@@ -1,0 +1,142 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Odette",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, my name's Pete. How can I help?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:06]",
+      "end_time": "[00:15]",
+      "start_time_sec": 6,
+      "text": "I've been charged twice for this month's bill, fifty-five pounds each, both on the third. Now I'm overdrawn and I'm really stressed about it.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:17]",
+      "end_time": "[00:20]",
+      "start_time_sec": 17,
+      "text": "Can I take the email on the account?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:21]",
+      "end_time": "[00:24]",
+      "start_time_sec": 21,
+      "text": "odette dot b at mail dot com.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:25]",
+      "end_time": "[00:30]",
+      "start_time_sec": 25,
+      "text": "Thanks, Odette. So you were charged twice for this month's bill. Is that correct?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:31]",
+      "end_time": "[00:33]",
+      "start_time_sec": 31,
+      "text": "Yes.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:35]",
+      "end_time": "[00:37]",
+      "start_time_sec": 35,
+      "text": "How much was each payment?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:38]",
+      "end_time": "[00:40]",
+      "start_time_sec": 38,
+      "text": "Fifty-five pounds, I said.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:43]",
+      "end_time": "[00:46]",
+      "start_time_sec": 43,
+      "text": "And what date did they go out?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:47]",
+      "end_time": "[00:49]",
+      "start_time_sec": 47,
+      "text": "The third. Both on the third.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:51]",
+      "end_time": "[01:01]",
+      "start_time_sec": 51,
+      "text": "Payment problems are the bank's issue really, I'd ring them first. But I can see the duplicate on our side, so I'll refund one of them now.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:03]",
+      "end_time": "[01:05]",
+      "start_time_sec": 63,
+      "text": "Please do.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:06]",
+      "end_time": "[01:12]",
+      "start_time_sec": 66,
+      "text": "Done. It shows in the S-Net app as refunded straight away. Can you see it?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:13]",
+      "end_time": "[01:15]",
+      "start_time_sec": 73,
+      "text": "Yes, it says refund fifty-five pounds.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:16]",
+      "end_time": "[01:19]",
+      "start_time_sec": 76,
+      "text": "So the duplicate is refunded. Is that everything?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:20]",
+      "end_time": "[01:22]",
+      "start_time_sec": 80,
+      "text": "Yes.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:24]",
+      "end_time": "[01:26]",
+      "start_time_sec": 84,
+      "text": "Thank you for choosing S-Net, Odette.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

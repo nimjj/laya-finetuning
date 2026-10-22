@@ -1,0 +1,471 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Ethan",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer services, my name is Callum. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:13]",
+      "end_time": "[00:33]",
+      "start_time_sec": 13,
+      "text": "Hi Callum. I arranged a home move order for my broadband two weeks ago, but I just checked online and it says order pending technical review. I move into the new house on Friday and if my internet isn't active I can't run my business!",
+      "sentiment_score": -38.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:39]",
+      "end_time": "[00:54]",
+      "start_time_sec": 39,
+      "text": "Moving is stressful enough without having to worry about your broadband connection, Ethan. I completely understand how critical this is for your business, and I will take full ownership to get this order resolved today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:07]",
+      "start_time_sec": 60,
+      "text": "Thank you, Callum. I really appreciate that because I've been getting anxious about it all morning.",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:13]",
+      "end_time": "[01:23]",
+      "start_time_sec": 73,
+      "text": "Before we inspect the provisioning order, Ethan, could you confirm your current address, your new moving address, and your account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:29]",
+      "end_time": "[01:39]",
+      "start_time_sec": 89,
+      "text": "Current address is 14 Elmfield Close, St Albans, AL1 4PB. New address is 29 Victoria Road, St Albans, AL1 3TF. Security PIN is 8821.",
+      "sentiment_score": -1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:45]",
+      "end_time": "[01:52]",
+      "start_time_sec": 105,
+      "text": "Thank you for verifying those details, Ethan. I have your moving order open in our provisioning system."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:58]",
+      "end_time": "[02:02]",
+      "start_time_sec": 118,
+      "text": "What does technical review actually mean on the tracker?",
+      "sentiment_score": -6.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:08]",
+      "end_time": "[02:30]",
+      "start_time_sec": 128,
+      "text": "So what I am seeing on the order is that you booked a transfer of your Gigafast 900 package to 29 Victoria Road for this Friday, but the automated address system held the order because of a port mapping conflict at the street distribution node. Have I got that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:36]",
+      "end_time": "[02:45]",
+      "start_time_sec": 156,
+      "text": "Yes, that's exactly what I'm trying to find out. Does that mean there isn't a fiber line to the new house?",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:51]",
+      "end_time": "[03:07]",
+      "start_time_sec": 171,
+      "text": "There is full FTTP optical fiber directly to the property at 29 Victoria Road. The issue is that the previous tenant's service provider had not released the optical port tag in the local fiber splitter node."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:13]",
+      "end_time": "[03:19]",
+      "start_time_sec": 193,
+      "text": "Oh, so their old tag was blocking my order from going through automatically?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:25]",
+      "end_time": "[03:38]",
+      "start_time_sec": 205,
+      "text": "Exactly. Because the previous occupant's cessation notice was completed on Monday, that optical port is now officially free, but our automated system required an agent to manually reassign the port routing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:44]",
+      "end_time": "[03:51]",
+      "start_time_sec": 224,
+      "text": "Can you reassign that port tag right now so the Friday activation date is guaranteed?",
+      "sentiment_score": 8.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:57]",
+      "end_time": "[04:10]",
+      "start_time_sec": 237,
+      "text": "Yes, I have direct administrative access to the Openreach fiber network inventory. I can bind your new ONT serial number to port number four on splitter twelve right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:16]",
+      "end_time": "[04:23]",
+      "start_time_sec": 256,
+      "text": "That sounds promising. Do I need an engineer to come inside the house on Friday?",
+      "sentiment_score": -4.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:29]",
+      "end_time": "[04:43]",
+      "start_time_sec": 269,
+      "text": "No, because the new property already has an installed Openreach optical ONT unit on the wall, it is a remote activation. You simply plug your router into LAN port one on Friday morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:49]",
+      "end_time": "[04:56]",
+      "start_time_sec": 289,
+      "text": "What if the optical light on the ONT doesn't come on when I plug it in?",
+      "sentiment_score": -8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:02]",
+      "end_time": "[05:13]",
+      "start_time_sec": 302,
+      "text": "The optical circuit will be activated remotely at midnight on Thursday, so when you arrive Friday morning, the PON light should already be solid green."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:19]",
+      "end_time": "[05:28]",
+      "start_time_sec": 319,
+      "text": "Do I need to take the power cable from my current ONT unit, or does the new house have its own?",
+      "sentiment_score": 1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:34]",
+      "end_time": "[05:47]",
+      "start_time_sec": 334,
+      "text": "Leave your current ONT and its power supply at 14 Elmfield Close for the next tenant. The unit at 29 Victoria Road has its own dedicated 12-volt power adapter."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:53]",
+      "end_time": "[05:58]",
+      "start_time_sec": 353,
+      "text": "Understood. That saves me crawling under the stairs to unplug it.",
+      "sentiment_score": 7.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:04]",
+      "end_time": "[06:17]",
+      "start_time_sec": 364,
+      "text": "Wait, why does the order note summary say copper VDSL broadband? I specifically ordered full fibre Gigafast nine hundred, not old copper! That would be completely useless for my video servers!",
+      "sentiment_score": -42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:23]",
+      "end_time": "[06:38]",
+      "start_time_sec": 383,
+      "text": "You are completely right to call that out immediately, Ethan. That default fallback code is unacceptable for your requirements, and I am correcting the service order code to pure FTTP Gigafast 900 right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:44]",
+      "end_time": "[06:51]",
+      "start_time_sec": 404,
+      "text": "Thank goodness. I was terrified I was going to be stuck on thirty megabits after moving.",
+      "sentiment_score": -5.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:57]",
+      "end_time": "[07:09]",
+      "start_time_sec": 417,
+      "text": "I understand entirely. I am also checking your equipment dispatch. Are you taking your existing Hub router with you, or using your own third-party router in bridge mode?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:15]",
+      "end_time": "[07:23]",
+      "start_time_sec": 435,
+      "text": "I use my own Asus AX88U router because I need custom VLANs and VPN tunneling for my home lab.",
+      "sentiment_score": 12.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:29]",
+      "end_time": "[07:41]",
+      "start_time_sec": 449,
+      "text": "That's fine. On our full fibre service, you can plug your Asus router directly into the ONT via Ethernet and use DHCP Option 61 with your S-Net username."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:47]",
+      "end_time": "[07:56]",
+      "start_time_sec": 467,
+      "text": "That's exactly what I wanted to confirm. Do I need any PPPoE credentials or VLAN tags on the WAN interface?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:01]",
+      "end_time": "[08:11]",
+      "start_time_sec": 481,
+      "text": "No VLAN tagging is needed on the WAN port for our FTTP service in St Albans, Ethan. It is standard IP over Ethernet."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:16]",
+      "end_time": "[08:20]",
+      "start_time_sec": 496,
+      "text": "And what about MTU settings on the WAN interface?",
+      "sentiment_score": 3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:25]",
+      "end_time": "[08:32]",
+      "start_time_sec": 505,
+      "text": "A standard MTU of 1500 bytes works perfectly across our fiber gateway without packet fragmentation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:37]",
+      "end_time": "[08:41]",
+      "start_time_sec": 517,
+      "text": "Excellent, that makes setup on moving day so much simpler.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:46]",
+      "end_time": "[08:52]",
+      "start_time_sec": 526,
+      "text": "Do you also have our static IP reservation feature enabled on your current profile?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:57]",
+      "end_time": "[09:04]",
+      "start_time_sec": 537,
+      "text": "Yes, I host an SSH gateway and mail server so having a fixed IP address is essential.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:09]",
+      "end_time": "[09:19]",
+      "start_time_sec": 549,
+      "text": "I can port that exact same static IP address over to the new ONT in St Albans so your DNS records won't break."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:24]",
+      "end_time": "[09:29]",
+      "start_time_sec": 564,
+      "text": "Oh wow, that saves me updating multiple DNS zone files. That's fantastic.",
+      "sentiment_score": 28.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:34]",
+      "end_time": "[09:38]",
+      "start_time_sec": 574,
+      "text": "What subnet mask should I assign for your WAN interface?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:43]",
+      "end_time": "[09:49]",
+      "start_time_sec": 583,
+      "text": "A standard /32 single host IP with gateway routing is what I have currently.",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:54]",
+      "end_time": "[10:00]",
+      "start_time_sec": 594,
+      "text": "Perfect, I have attached your /32 IP reservation to the new line asset record."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:05]",
+      "end_time": "[10:11]",
+      "start_time_sec": 605,
+      "text": "Will I also need any Cat6 patch cables, or should I bring my own?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:16]",
+      "end_time": "[10:23]",
+      "start_time_sec": 616,
+      "text": "We can pop two two-metre high-speed Cat6 Ethernet cables in the post for you free of charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:28]",
+      "end_time": "[10:33]",
+      "start_time_sec": 628,
+      "text": "That would be very helpful to have fresh cables for the rack.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:38]",
+      "end_time": "[10:51]",
+      "start_time_sec": 638,
+      "text": "Please bear with me while I place you on a brief hold for about two minutes while I submit the manual port reassignment and lock in the Friday activation."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:11]",
+      "end_time": "[12:21]",
+      "start_time_sec": 731,
+      "text": "Thank you very much for your patience while holding, Ethan. The optical port mapping has been confirmed and accepted by the network exchange."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:26]",
+      "end_time": "[12:31]",
+      "start_time_sec": 746,
+      "text": "That is great news, Callum. What does the tracker show now?",
+      "sentiment_score": 15.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:36]",
+      "end_time": "[12:47]",
+      "start_time_sec": 756,
+      "text": "The order status has shifted from pending technical review to active scheduled for activation on Friday between eight in the morning and one in the afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:52]",
+      "end_time": "[12:55]",
+      "start_time_sec": 772,
+      "text": "And the package tier definitely confirms Gigafast 900?",
+      "sentiment_score": 9.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:00]",
+      "end_time": "[13:10]",
+      "start_time_sec": 780,
+      "text": "Yes, Gigafast 900 with 900 megabits download and 110 megabits upload, with your static IP reservation carried over to the new premises."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:15]",
+      "end_time": "[13:24]",
+      "start_time_sec": 795,
+      "text": "Carrying over the static IP is massive for my domain records. I won't have to update all my DNS entries.",
+      "sentiment_score": 29.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:29]",
+      "end_time": "[13:39]",
+      "start_time_sec": 809,
+      "text": "I made sure that static IP reservation was tied directly to your new ONT profile so there will be zero DNS propagation delay."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:44]",
+      "end_time": "[13:51]",
+      "start_time_sec": 824,
+      "text": "Will I get an SMS notification when the line is officially live on Friday morning?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:56]",
+      "end_time": "[14:06]",
+      "start_time_sec": 836,
+      "text": "Yes, an automated confirmation text will be sent to your mobile as soon as the optical exchange detects the physical link handshake."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:11]",
+      "end_time": "[14:23]",
+      "start_time_sec": 851,
+      "text": "And if the previous tenant left behind an old power supply for the ONT, can I use that or should I use the new one in the box?",
+      "sentiment_score": 2.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:28]",
+      "end_time": "[14:35]",
+      "start_time_sec": 868,
+      "text": "Always use the 12-volt 1.5-amp power supply that came with the unit to prevent any voltage drops."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:40]",
+      "end_time": "[14:50]",
+      "start_time_sec": 880,
+      "text": "Callum, you have been absolutely first class today. You sorted out what could have been a massive nightmare for my business move.",
+      "sentiment_score": 35.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:55]",
+      "end_time": "[15:07]",
+      "start_time_sec": 895,
+      "text": "It was my pleasure, Ethan. I know how hectic moving home is, and I wanted to make sure your broadband is one less thing to worry about."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:12]",
+      "end_time": "[15:15]",
+      "start_time_sec": 912,
+      "text": "I really appreciate your thoroughness.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:20]",
+      "end_time": "[15:27]",
+      "start_time_sec": 920,
+      "text": "Is there any other aspect of your home move or account that I can help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:32]",
+      "end_time": "[15:37]",
+      "start_time_sec": 932,
+      "text": "No, you've answered every question and fixed the order completely. Thank you!",
+      "sentiment_score": 21.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:42]",
+      "end_time": "[15:52]",
+      "start_time_sec": 942,
+      "text": "Thank you for choosing S-Net today, Ethan. Best of luck with the move on Friday and have a great weekend in your new home."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:57]",
+      "end_time": "[16:00]",
+      "start_time_sec": 957,
+      "text": "Thanks Callum, take care. Bye.",
+      "sentiment_score": 18.4
+    }
+  ]
+}

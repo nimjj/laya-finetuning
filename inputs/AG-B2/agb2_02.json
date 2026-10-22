@@ -1,0 +1,553 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Eleanor",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer services, my name is Nathan. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:12]",
+      "end_time": "[00:25]",
+      "start_time_sec": 12,
+      "text": "Hello Nathan, um, I'm calling because we are moving home next month, and, you know, I really need to transfer our broadband without losing internet for my job.",
+      "sentiment_score": -9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:46]",
+      "start_time_sec": 29,
+      "text": "Congratulations on the upcoming move, Eleanor! I would be delighted to manage your home move and ensure your internet service transitions smoothly. To begin, could you please verify your current address and your account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:50]",
+      "end_time": "[01:00]",
+      "start_time_sec": 50,
+      "text": "Yes of course, our current address is 14 Oakfield Road, Leeds, LS6 2BJ, and my security PIN is four two eight nine.",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:04]",
+      "end_time": "[01:16]",
+      "start_time_sec": 64,
+      "text": "Thank you Eleanor, that has fully verified your account on our Fibre 500 package. What is the address of the new property you are moving to?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:20]",
+      "end_time": "[01:26]",
+      "start_time_sec": 80,
+      "text": "The new place is twenty nine St Andrews Court, um, Harrogate, HG1 5TR.",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:30]",
+      "end_time": "[01:50]",
+      "start_time_sec": 90,
+      "text": "So what you need is to transfer your Fibre 500 broadband service from 14 Oakfield Road over to your new address at 29 St Andrews Court on your move-in date, with zero interruption to your remote legal work. Have I got that right, Eleanor?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:54]",
+      "end_time": "[02:01]",
+      "start_time_sec": 114,
+      "text": "Yes exactly, that's it precisely. We get the keys on the twelfth of next month.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:05]",
+      "end_time": "[02:14]",
+      "start_time_sec": 125,
+      "text": "And what is the exact date you would like the broadband to go live at the Harrogate address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:18]",
+      "end_time": "[02:26]",
+      "start_time_sec": 138,
+      "text": "Ideally on the twelfth itself, Friday November twelfth, or the following morning at the absolute latest.",
+      "sentiment_score": 1.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:30]",
+      "end_time": "[02:44]",
+      "start_time_sec": 150,
+      "text": "Let me check the network infrastructure at 29 St Andrews Court. Do you know if the property currently has a small white Openreach optical box on the wall inside?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:48]",
+      "end_time": "[03:02]",
+      "start_time_sec": 168,
+      "text": "When we went for the second viewing, um, I didn't see a white box on the wall in the hallway, just a standard telephone socket near the front door.",
+      "sentiment_score": -6.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:06]",
+      "end_time": "[03:21]",
+      "start_time_sec": 186,
+      "text": "That suggests the previous occupier had standard copper broadband, so we will need an Openreach optical engineer to run the fibre drop cable from the street and mount the new Optical Network Terminal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:25]",
+      "end_time": "[03:46]",
+      "start_time_sec": 205,
+      "text": "Oh goodness, that sounds like a massive hassle. I work as a senior solicitor from home and I have back-to-back client hearings scheduled the following Monday. If there is a delay or an engineer no-show, it's going to be a complete disaster for my practice!",
+      "sentiment_score": -41.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:50]",
+      "end_time": "[04:11]",
+      "start_time_sec": 230,
+      "text": "Do not worry, Eleanor. Moving house while managing intense court schedules is tremendously stressful, and I completely understand why any broadband delay would cause severe anxiety. We will lock in a guaranteed engineer slot and provision a backup solution so you never face a blackout."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:15]",
+      "end_time": "[04:25]",
+      "start_time_sec": 255,
+      "text": "Oh thank you Nathan, that really takes a huge weight off my shoulders. I was honestly panicking about losing connectivity.",
+      "sentiment_score": 24.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:29]",
+      "end_time": "[04:47]",
+      "start_time_sec": 269,
+      "text": "To protect you completely, we provide an S-Net Home Move Guarantee. We will send you an unlimited 4G backup mini-hub next week at zero charge, which you can plug in instantly the moment you step into the new house."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:51]",
+      "end_time": "[05:01]",
+      "start_time_sec": 291,
+      "text": "Wait, really? You can send a 4G hub ahead of time? That is fantastic, um, does it connect to all my laptops?",
+      "sentiment_score": 19.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:05]",
+      "end_time": "[05:19]",
+      "start_time_sec": 305,
+      "text": "Yes, it creates a secure Wi-Fi bubble supporting up to twenty devices with download speeds up to sixty megabits, so you can conduct video hearings even before the engineer arrives."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:23]",
+      "end_time": "[05:28]",
+      "start_time_sec": 323,
+      "text": "That is incredible. That completely solves my worry about Monday morning.",
+      "sentiment_score": 27.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:30]",
+      "end_time": "[05:43]",
+      "start_time_sec": 330,
+      "text": "Now let us secure the engineer installation appointment for Friday November twelfth. Bear with me for about a minute while I query the Openreach live scheduling database."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:50]",
+      "end_time": "[07:04]",
+      "start_time_sec": 410,
+      "text": "Thank you for waiting, Eleanor. I have accessed the Harrogate exchange calendar, and we have an engineer slot available for Friday November twelfth between 8:00 AM and 1:00 PM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:08]",
+      "end_time": "[07:18]",
+      "start_time_sec": 428,
+      "text": "8:00 AM to 1:00 PM on Friday the twelfth works perfectly, because our removal van arrives around eleven in the morning.",
+      "sentiment_score": 14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:22]",
+      "end_time": "[07:35]",
+      "start_time_sec": 442,
+      "text": "As I mentioned, Openreach engineer appointment slots require adult presence for the full four-hour morning window, so someone must be at the property from 8am to 1pm."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:39]",
+      "end_time": "[07:48]",
+      "start_time_sec": 459,
+      "text": "Yes, my husband will be there from eight sharp to let the carpet cleaners and the engineer in.",
+      "sentiment_score": 8.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:52]",
+      "end_time": "[08:02]",
+      "start_time_sec": 472,
+      "text": "That is ideal. Where in the new house would you prefer the engineer to install the optical box and router?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:06]",
+      "end_time": "[08:14]",
+      "start_time_sec": 486,
+      "text": "Preferably in the ground floor study room, which is just off the main hallway to the right.",
+      "sentiment_score": 3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:18]",
+      "end_time": "[08:29]",
+      "start_time_sec": 498,
+      "text": "I am adding an engineer work order note specifying that you request the internal fibre feed routed directly into the ground floor study."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:33]",
+      "end_time": "[08:43]",
+      "start_time_sec": 513,
+      "text": "Brilliant, thank you. And what happens to our existing broadband here at Oakfield Road? Do I need to cancel it separately?",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:47]",
+      "end_time": "[09:04]",
+      "start_time_sec": 527,
+      "text": "You do not need to do anything separately. I will set Oakfield Road to remain active until midnight on Sunday November fourteenth, giving you two days of overlap in case you need to pop back here."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:08]",
+      "end_time": "[09:17]",
+      "start_time_sec": 548,
+      "text": "Oh that overlap is so thoughtful, you know, we still have to do the final clean here on Saturday.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:21]",
+      "end_time": "[09:28]",
+      "start_time_sec": 561,
+      "text": "It ensures you are never without internet at either property during the moving weekend."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:32]",
+      "end_time": "[09:42]",
+      "start_time_sec": 572,
+      "text": "And what about the router equipment? Do we take our current Hub 4 with us or do you send a new one?",
+      "sentiment_score": 2.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:46]",
+      "end_time": "[09:59]",
+      "start_time_sec": 586,
+      "text": "Because you are on our Fibre 500 tier, we are upgrading you to our latest Wi-Fi 6 S-Net Hub 5, which handles multi-device gigabit traffic even more efficiently."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:03]",
+      "end_time": "[10:11]",
+      "start_time_sec": 603,
+      "text": "Oh lovely, does the new Hub 5 cost extra or is it included with the home move?",
+      "sentiment_score": 7.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:15]",
+      "end_time": "[10:29]",
+      "start_time_sec": 615,
+      "text": "It is completely free of charge as part of your existing contract. It will be dispatched via tracked DPD delivery to arrive at Oakfield Road on Wednesday November tenth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:33]",
+      "end_time": "[10:42]",
+      "start_time_sec": 633,
+      "text": "Wednesday November tenth at the old address, perfect, so I can pack it safely with our essentials box.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:46]",
+      "end_time": "[11:03]",
+      "start_time_sec": 646,
+      "text": "And what should you do with the old Hub 4? Inside the new router parcel, there will be a pre-paid returns bag. You can simply drop the old hub at any Post Office within thirty days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:07]",
+      "end_time": "[11:12]",
+      "start_time_sec": 667,
+      "text": "Understood, that sounds very straightforward.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:14]",
+      "end_time": "[11:23]",
+      "start_time_sec": 674,
+      "text": "Let me also confirm your contact mobile number and email address for delivery tracking updates and engineer SMS notifications."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:27]",
+      "end_time": "[11:38]",
+      "start_time_sec": 687,
+      "text": "My mobile is zero seven seven zero zero, nine zero zero four five two, and email is eleanor dot vance at outlook dot com.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:42]",
+      "end_time": "[11:58]",
+      "start_time_sec": 702,
+      "text": "I have updated your notification contact preferences with those details. You will receive an SMS reminder twenty-four hours before the engineer arrives, and a call from the engineer when they are thirty minutes away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:02]",
+      "end_time": "[12:10]",
+      "start_time_sec": 722,
+      "text": "That is really reassuring, um, so we won't be left wondering when they will show up.",
+      "sentiment_score": 13.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:14]",
+      "end_time": "[12:28]",
+      "start_time_sec": 734,
+      "text": "Just to confirm your existing equipment before we finalize the booking, you currently have the black S-Net Hub 4 and one booster disc at Oakfield Road, is that correct Eleanor?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:32]",
+      "end_time": "[12:37]",
+      "start_time_sec": 752,
+      "text": "Yes, that's right, just the one booster disc upstairs.",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:39]",
+      "end_time": "[12:51]",
+      "start_time_sec": 759,
+      "text": "You can keep the booster disc as well, as it pairs seamlessly with the new Hub 5 to eliminate any dead spots in your new home."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:55]",
+      "end_time": "[13:03]",
+      "start_time_sec": 775,
+      "text": "Oh excellent, the new house has stone walls so the booster will definitely come in handy.",
+      "sentiment_score": 15.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:07]",
+      "end_time": "[13:18]",
+      "start_time_sec": 787,
+      "text": "Stone walls can attenuate Wi-Fi signals, so placing the booster halfway between the study and the upstairs bedrooms will give you optimal coverage."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:22]",
+      "end_time": "[13:33]",
+      "start_time_sec": 802,
+      "text": "I will make sure to do that. Nathan, what happens with our monthly bill? Does the direct debit date or price change at all?",
+      "sentiment_score": -3.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:37]",
+      "end_time": "[13:49]",
+      "start_time_sec": 817,
+      "text": "Your monthly subscription remains exactly forty-two pounds per month on the same payment cycle. There are zero moving fees and zero price alterations on your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:53]",
+      "end_time": "[13:58]",
+      "start_time_sec": 833,
+      "text": "That is fantastic news. No hidden moving fee surprises.",
+      "sentiment_score": 21.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:00]",
+      "end_time": "[14:06]",
+      "start_time_sec": 840,
+      "text": "None whatsoever. S-Net believes home moves should be completely free of administrative penalties."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:10]",
+      "end_time": "[14:15]",
+      "start_time_sec": 850,
+      "text": "I really appreciate that policy.",
+      "sentiment_score": 17.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:17]",
+      "end_time": "[14:24]",
+      "start_time_sec": 857,
+      "text": "I have now locked in the Openreach optical installation order reference number, which is OM-88419-HG."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:28]",
+      "end_time": "[14:33]",
+      "start_time_sec": 868,
+      "text": "Let me write that down... OM-88419-HG. Got it.",
+      "sentiment_score": 8.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:35]",
+      "end_time": "[14:44]",
+      "start_time_sec": 875,
+      "text": "And the 4G emergency backup mini-hub order reference is BK-55201, scheduled for Royal Mail Special Delivery by next Tuesday."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:48]",
+      "end_time": "[14:53]",
+      "start_time_sec": 888,
+      "text": "BK-55201, perfect.",
+      "sentiment_score": 9.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:55]",
+      "end_time": "[15:07]",
+      "start_time_sec": 895,
+      "text": "When the mini-hub arrives next Tuesday, all you need to do is plug it into any USB power socket or wall adapter, and it activates automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:11]",
+      "end_time": "[15:17]",
+      "start_time_sec": 911,
+      "text": "Does it come with its own Wi-Fi password printed on the back?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:21]",
+      "end_time": "[15:31]",
+      "start_time_sec": 921,
+      "text": "Yes, the network SSID and default WPA2 password are clearly printed on a removable card on the reverse of the device."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:35]",
+      "end_time": "[15:41]",
+      "start_time_sec": 935,
+      "text": "Wonderful. That sounds completely idiot-proof, even for someone as non-technical as me.",
+      "sentiment_score": 23.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:45]",
+      "end_time": "[16:01]",
+      "start_time_sec": 945,
+      "text": "You will find it very intuitive. And on Friday November twelfth, once the engineer completes mounting the optical box and connects your Hub 5, you will be surfing on full 500 megabit optical fibre."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:05]",
+      "end_time": "[16:14]",
+      "start_time_sec": 965,
+      "text": "I cannot tell you what a relief this is Nathan. I was dreading having to sort this out today.",
+      "sentiment_score": 28.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:18]",
+      "end_time": "[16:27]",
+      "start_time_sec": 978,
+      "text": "That is what we are here for. We want your move to be as seamless and painless as possible."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:31]",
+      "end_time": "[16:36]",
+      "start_time_sec": 991,
+      "text": "You've gone above and beyond, honestly.",
+      "sentiment_score": 31.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:38]",
+      "end_time": "[16:45]",
+      "start_time_sec": 998,
+      "text": "Does that cover all aspects of your home move and broadband scheduling today, Eleanor?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:49]",
+      "end_time": "[16:56]",
+      "start_time_sec": 1009,
+      "text": "Yes, everything is completely sorted and clearly booked. I have all the references and dates.",
+      "sentiment_score": 33.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:00]",
+      "end_time": "[17:07]",
+      "start_time_sec": 1020,
+      "text": "Wonderful. Do you have any other questions regarding your home move or your package?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:11]",
+      "end_time": "[17:16]",
+      "start_time_sec": 1031,
+      "text": "No, no other questions at all. Everything is crystal clear.",
+      "sentiment_score": 19.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:18]",
+      "end_time": "[17:23]",
+      "start_time_sec": 1038,
+      "text": "Thank you for calling S-Net customer care today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:25]",
+      "end_time": "[17:30]",
+      "start_time_sec": 1045,
+      "text": "Thank you so much Nathan, have a wonderful day.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:32]",
+      "end_time": "[17:43]",
+      "start_time_sec": 1052,
+      "text": "Thank you for choosing S-Net as your home broadband provider. Wishing you all the very best with your move to Harrogate, Eleanor. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:47]",
+      "end_time": "[17:52]",
+      "start_time_sec": 1067,
+      "text": "Goodbye Nathan.",
+      "sentiment_score": 4.5
+    }
+  ]
+}

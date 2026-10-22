@@ -1,0 +1,159 @@
+{
+  "call_id": "ag_05",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 0.0,
+    "is_auto_fail": true,
+    "auto_fail_reason": "Agent used profanity/abusive language ('shut up') at [10:48]: 'Oh just shut up for a second and let me read the dispatch notes without you nagging in my ear!'",
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "When Siobhan explained at [00:08] and [00:36] that she had lost a full day's hospital wages waiting for a no-show engineer, you offered zero apology or empathy at any point in the call."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At [08:40] and [12:49], you deflected blame to Openreach ('That's Openreach's scheduling department, not my problem') and told the customer to call another team for a temporary 4G hub."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At [10:48], you lost your temper and told the customer 'Oh just shut up for a second and let me read the dispatch notes without you nagging in my ear!', which is abusive and an immediate auto-fail."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "At [11:29] and [12:58], the installation was pushed back to next Wednesday with the customer left completely offline and without a temporary 4G connection."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Missed Openreach engineer appointment for new home broadband installation after taking a day off work",
+    "tier": "auto_fail",
+    "duration_sec": 830,
+    "notes": "Auto-fail call (final_score=0.0) where Gareth mechanically satisfies opening/closing branding (B PASS), security verification (V PASS), paraphrasing at [00:22] (PA PASS), active listening (AL PASS), and technical probing (PR PASS), but shows zero empathy (E FAIL), blames Openreach at [08:40] (O FAIL), leaves the customer offline until next week (RE FAIL), and triggers an immediate auto-fail at [10:48] by telling Siobhan to 'shut up'.",
+    "hard_cases": [
+      "Build rapport and observed professionalism",
+      "Branding and Survey Check",
+      "Paraphrasing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: Despite the call deteriorating into an auto-fail confrontation, Agent delivered the exact opening branding ('thank you for calling S-Net') at [00:00] and closing branding ('Thank you for choosing S-Net') at [13:44]."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "No dead-air or hold intervals over 30 seconds occurred during the call."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Verified installation address and four-digit security PIN at [00:49] within the first 90 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Used customer name 'Siobhan' across multiple turns ([00:22], [01:08], [03:03], [13:44])."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer expressed severe frustration over taking unpaid leave for a missed appointment ([00:08], [00:36], [09:58]), and Agent never once apologized or acknowledged her frustration."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: At [00:22], Agent accurately paraphrased the missed 8:00 AM–1:00 PM broadband installation appointment in his own words and confirmed with the customer."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Accurately tracked the customer's statements regarding the 10:40 AM van sighting ([02:46]), the 7A downstairs duct, and wayleave reference WL-55019 ([06:54]) without asking repetitive questions."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [08:40], Agent told the customer 'That's Openreach's scheduling department, not my problem—they decide whether to send a solo van or a hoist crew' and at [12:49] refused to arrange a temporary 4G mini-hub."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Hard-case FAIL (Auto-Fail): At [10:48], Agent snapped at the customer: 'Oh just shut up for a second and let me read the dispatch notes without you nagging in my ear!'."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Probed systematically into confirmation SMS ([01:26]), router delivery and internal socket/ONT ([01:48]), floor level and overhead pole feed ([02:12]), van sighting ([02:34]), and wayleave attachment ([06:45])."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [11:29]–[12:58], the broadband installation remained incomplete (rebooked for next week) and the customer was left without internet service."
+      }
+    ]
+  }
+}

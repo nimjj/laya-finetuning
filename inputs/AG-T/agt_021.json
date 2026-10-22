@@ -1,0 +1,477 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Damian",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net mobile broadband customer support, my name is Chloe. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:09]",
+      "end_time": "[00:24]",
+      "start_time_sec": 9,
+      "text": "Hi Chloe, my name is Damian Cross. We had severe gale force winds overnight in Cumbria, and since then our 5G outdoor home broadband antenna has shifted on its chimney mount and our internet speed dropped to almost zero.",
+      "sentiment_score": -26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:26]",
+      "end_time": "[00:40]",
+      "start_time_sec": 26,
+      "text": "Good morning Damian. I can certainly look into your 5G mast signal readings and antenna telemetry. Before we inspect your outdoor unit, could you please confirm your full postal address and your account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:42]",
+      "end_time": "[00:50]",
+      "start_time_sec": 42,
+      "text": "Yes, it is High Farm Cottage, Keswick, CA12 4PQ, and my security PIN is 5018. My account telephone number is 01768 790411.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:52]",
+      "end_time": "[01:02]",
+      "start_time_sec": 52,
+      "text": "Thank you Damian, that verifies your account details. How is the signal LED indicator behaving on your indoor power injector PoE box on the wall right now?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:04]",
+      "end_time": "[01:15]",
+      "start_time_sec": 64,
+      "text": "The power LED is green, but the RF signal bar light is flashing solid red. Usually all four blue signal bars are illuminated when it connects to the mast.",
+      "sentiment_score": -19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:17]",
+      "end_time": "[01:32]",
+      "start_time_sec": 77,
+      "text": "So what I understand is that severe gale force winds physically knocked your outdoor 5G directional antenna out of alignment on your chimney stack, causing the signal indicator to flash red and severely throttling your bandwidth, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:34]",
+      "end_time": "[01:41]",
+      "start_time_sec": 94,
+      "text": "Yes, that is exactly it. It is physically pointing about forty-five degrees away from the local cell mast now.",
+      "sentiment_score": -8.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:43]",
+      "end_time": "[01:47]",
+      "start_time_sec": 103,
+      "text": "Which model outdoor antenna unit is mounted on your chimney bracket, Damian?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:49]",
+      "end_time": "[01:56]",
+      "start_time_sec": 109,
+      "text": "It is the rectangular white Nokia FastMile 5G receiver unit that your contractor installed on the chimney stack last August.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:58]",
+      "end_time": "[02:07]",
+      "start_time_sec": 118,
+      "text": "Has the Ethernet cable running from the antenna down along the exterior masonry suffered any visible physical damage or tension from the storm?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:09]",
+      "end_time": "[02:15]",
+      "start_time_sec": 129,
+      "text": "No, the black exterior Cat 6 shielded cable looks completely intact and firmly clipped along the stone wall.",
+      "sentiment_score": 3.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:17]",
+      "end_time": "[02:26]",
+      "start_time_sec": 137,
+      "text": "Bear with me for a couple of minutes while I poll your outdoor CPE antenna diagnostic interface and signal registers from our cellular operations gateway."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:51]",
+      "end_time": "[04:03]",
+      "start_time_sec": 231,
+      "text": "Thank you for waiting, Damian. The diagnostic telemetry confirms the antenna RSRP reading has fallen from minus seventy-five dBm down to minus one hundred and eighteen dBm, which indicates severe line-of-sight misalignment."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:05]",
+      "end_time": "[04:20]",
+      "start_time_sec": 245,
+      "text": "I am supposed to be hosting a video conference with international clients in three hours! I run an architectural consultancy from this farmhouse, and without broadband my entire presentation is ruined! This is absolute chaos for my business!",
+      "sentiment_score": -54.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:22]",
+      "end_time": "[04:30]",
+      "start_time_sec": 262,
+      "text": "The outdoor antenna uses a calibrated bracket clamped to your chimney stack. Have you inspected whether the bracket bolts are loose?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:32]",
+      "end_time": "[04:39]",
+      "start_time_sec": 272,
+      "text": "I am not climbing up onto a three-storey pitched roof in sixty-mile-an-hour gusts to tighten bolts! That would be suicidal!",
+      "sentiment_score": -46.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:41]",
+      "end_time": "[04:49]",
+      "start_time_sec": 281,
+      "text": "The S-Net safety policy strictly forbids customers from climbing onto roofs. We dispatch certified height-safety rigging engineers for outdoor antenna adjustments."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:51]",
+      "end_time": "[04:56]",
+      "start_time_sec": 291,
+      "text": "Okay, when can an engineer come out here to Keswick to re-align the antenna?",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:58]",
+      "end_time": "[05:04]",
+      "start_time_sec": 298,
+      "text": "Before I check the emergency dispatch calendar, that contact telephone number ending in 411 was 01768 790411, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:06]",
+      "end_time": "[05:09]",
+      "start_time_sec": 306,
+      "text": "Yes, 01768 790411, that is our landline.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:11]",
+      "end_time": "[05:20]",
+      "start_time_sec": 311,
+      "text": "Obviously high-gain directional 5G antennas require precise line-of-sight targeting to the sector panel, so manual realignment with an optical signal meter is essential."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:22]",
+      "end_time": "[05:25]",
+      "start_time_sec": 322,
+      "text": "Understood. Is there an engineer available today or tomorrow?",
+      "sentiment_score": -14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:27]",
+      "end_time": "[05:33]",
+      "start_time_sec": 327,
+      "text": "The earliest specialized rigging engineer appointment for rural Cumbria is tomorrow between 9 AM and 1 PM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:35]",
+      "end_time": "[05:40]",
+      "start_time_sec": 335,
+      "text": "Tomorrow morning works. But what about my critical client meeting this afternoon? I cannot miss it.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:42]",
+      "end_time": "[05:50]",
+      "start_time_sec": 342,
+      "text": "I can provision a temporary high-speed 50GB mobile hotspot bundle directly to your S-Net smartphone SIM right now at no extra charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:52]",
+      "end_time": "[05:58]",
+      "start_time_sec": 352,
+      "text": "That would allow me to tether my laptop for the video conference! Please do that right away.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:00]",
+      "end_time": "[06:08]",
+      "start_time_sec": 360,
+      "text": "I have applied the 50GB emergency data tethering pass to your mobile account right now. You should receive confirmation within two minutes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:10]",
+      "end_time": "[06:15]",
+      "start_time_sec": 370,
+      "text": "I just saw the SMS confirmation appear on my mobile! That solves my afternoon crisis.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:17]",
+      "end_time": "[06:24]",
+      "start_time_sec": 377,
+      "text": "And your outdoor antenna realignment appointment is officially confirmed for tomorrow between 9 AM and 1 PM under reference R-77291."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:26]",
+      "end_time": "[06:29]",
+      "start_time_sec": 386,
+      "text": "R-77291 noted down carefully. Thank you.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:31]",
+      "end_time": "[06:36]",
+      "start_time_sec": 391,
+      "text": "Let us quickly check your mobile signal strength on your phone inside the farmhouse."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:38]",
+      "end_time": "[06:43]",
+      "start_time_sec": 398,
+      "text": "I am showing four bars of 5G on my phone near the window in my study.",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:45]",
+      "end_time": "[06:50]",
+      "start_time_sec": 405,
+      "text": "Please turn on your personal hotspot on your phone and test connecting your architectural workstation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:52]",
+      "end_time": "[06:57]",
+      "start_time_sec": 412,
+      "text": "Hotspot enabled... laptop connected... and Ookla speed test is pulling 120 megabits down and 25 up!",
+      "sentiment_score": 32.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:59]",
+      "end_time": "[07:05]",
+      "start_time_sec": 419,
+      "text": "That speed will support multi-party HD video calling and large CAD blueprint uploads effortlessly throughout your meeting."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:07]",
+      "end_time": "[07:13]",
+      "start_time_sec": 427,
+      "text": "That is an enormous weight off my shoulders. I can conduct my client meeting without fear of disconnecting.",
+      "sentiment_score": 24.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:15]",
+      "end_time": "[07:21]",
+      "start_time_sec": 435,
+      "text": "The engineer will carry replacement heavy-duty mounting brackets in case the storm stripped the chimney masonry anchor threads."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:23]",
+      "end_time": "[07:30]",
+      "start_time_sec": 443,
+      "text": "Good idea, the stone on these old Cumbrian farmhouses can crumble under heavy wind loads during severe winter storms.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:32]",
+      "end_time": "[07:37]",
+      "start_time_sec": 452,
+      "text": "They will also re-test the weatherproofing seals around the outdoor junction box and the grounding wire."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:38]",
+      "end_time": "[07:43]",
+      "start_time_sec": 458,
+      "text": "That is reassuring, moisture penetration in the connector would cause even worse signal degradation later.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:44]",
+      "end_time": "[07:52]",
+      "start_time_sec": 464,
+      "text": "Will an adult over eighteen be present on site tomorrow morning to allow the engineer access to the indoor power injector?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:53]",
+      "end_time": "[07:58]",
+      "start_time_sec": 473,
+      "text": "Yes, either myself or my partner will be here in the house all morning.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:59]",
+      "end_time": "[08:06]",
+      "start_time_sec": 479,
+      "text": "And just to confirm before we conclude, your indoor Wi-Fi router is broadcasting normally on 2.4 and 5 GHz bands?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:07]",
+      "end_time": "[08:12]",
+      "start_time_sec": 487,
+      "text": "Yes, local Wi-Fi around the house connects without any issue to our smart home equipment.",
+      "sentiment_score": 5.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:13]",
+      "end_time": "[08:20]",
+      "start_time_sec": 493,
+      "text": "Bear with me for one moment while I add the roof ladder hazard advisory note to the engineer dispatch ticket."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:45]",
+      "end_time": "[09:52]",
+      "start_time_sec": 585,
+      "text": "Thank you for waiting, Damian. The health and safety risk assessment note has been appended to job ticket R-77291."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:53]",
+      "end_time": "[09:56]",
+      "start_time_sec": 593,
+      "text": "Perfect. Will the engineer phone before arriving at the farmhouse?",
+      "sentiment_score": -2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:57]",
+      "end_time": "[10:02]",
+      "start_time_sec": 597,
+      "text": "Yes, the technician will call you approximately thirty minutes prior to arrival in Keswick."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:03]",
+      "end_time": "[10:17]",
+      "start_time_sec": 603,
+      "text": "Wait, looking out the attic window right now, the antenna is swaying dangerously on one bracket! What if it rips off and smashes through our slate roof?! That could cause thousands of pounds of structural damage!",
+      "sentiment_score": -52.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:18]",
+      "end_time": "[10:23]",
+      "start_time_sec": 618,
+      "text": "The emergency engineer ticket notes that high-priority stabilization is required upon arrival tomorrow morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:24]",
+      "end_time": "[10:27]",
+      "start_time_sec": 624,
+      "text": "Fine, as long as they secure it first thing tomorrow.",
+      "sentiment_score": -15.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:28]",
+      "end_time": "[10:35]",
+      "start_time_sec": 628,
+      "text": "The emergency data is active, the engineer visit is booked, and your client meeting can proceed smoothly via hotspot."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:36]",
+      "end_time": "[10:39]",
+      "start_time_sec": 636,
+      "text": "Thank you Chloe, that is everything I needed today.",
+      "sentiment_score": 16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:40]",
+      "end_time": "[10:46]",
+      "start_time_sec": 640,
+      "text": "Is there any other matter on your S-Net broadband or mobile account I can assist with today, Damian?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:47]",
+      "end_time": "[10:50]",
+      "start_time_sec": 647,
+      "text": "No, you have handled the situation very well.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:51]",
+      "end_time": "[10:57]",
+      "start_time_sec": 651,
+      "text": "We also recommend leaving the outdoor PoE injector powered on so our operations center can monitor signal telemetry."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:58]",
+      "end_time": "[11:01]",
+      "start_time_sec": 658,
+      "text": "Understood, I will leave the wall power switch turned on.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:02]",
+      "end_time": "[11:07]",
+      "start_time_sec": 662,
+      "text": "Please monitor your phone for the automated engineer dispatch text message in the morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:08]",
+      "end_time": "[11:11]",
+      "start_time_sec": 668,
+      "text": "Yes, I will keep my mobile nearby.",
+      "sentiment_score": 5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:12]",
+      "end_time": "[11:15]",
+      "start_time_sec": 672,
+      "text": "Thank you for choosing S-Net today, Damian. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:16]",
+      "end_time": "[11:19]",
+      "start_time_sec": 676,
+      "text": "Goodbye Chloe.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:20]",
+      "end_time": "[11:25]",
+      "start_time_sec": 680,
+      "text": "Thank you for choosing S-Net. Goodbye."
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Octavia",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:04]",
+      "start_time_sec": 0,
+      "text": "Good morning, thank you for calling S-Net Billing and Mobile Support. My name is Noah, how can I help you today?",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:05]",
+      "end_time": "[00:18]",
+      "start_time_sec": 5,
+      "text": "Hi Noah, my name is Octavia. I'm calling because my mobile phone is still barring all my outbound calls even though I paid my overdue balance by debit card twenty minutes ago, and I also need to change my monthly Direct Debit date.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:19]",
+      "end_time": "[00:30]",
+      "start_time_sec": 19,
+      "text": "I'm really sorry for the stress and inconvenience that's caused you this morning, Octavia. I completely understand how frustrating it is when you've already made a manual card payment and your phone still won't let you dial out.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:31]",
+      "end_time": "[00:42]",
+      "start_time_sec": 31,
+      "text": "Honestly it was awful, I was trying to ring my daughter's childminder at eight thirty before heading into the office and I just got this loud recorded message saying outbound calls are restricted on my S-Net line.",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:43]",
+      "end_time": "[00:54]",
+      "start_time_sec": 43,
+      "text": "I can only imagine how stressful that must have been when you were trying to reach your childminder, Octavia. Let's get straight into your account so I can sort both the call bar and your billing date.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:55]",
+      "end_time": "[01:07]",
+      "start_time_sec": 55,
+      "text": "Thank you. I have my payment receipt reference right here as well—it's SN-884920 for sixty-four pounds and fifty pence on my Visa debit card, and I want my Direct Debit moved from the first to the twenty-eighth of every month.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:08]",
+      "end_time": "[01:19]",
+      "start_time_sec": 68,
+      "text": "So just to make sure I have everything crystal clear, Octavia: first you need me to reconcile that sixty-four pound fifty Visa payment under reference SN-884920 and lift the outbound voice bar on your mobile straight away.",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:20]",
+      "end_time": "[01:22]",
+      "start_time_sec": 80,
+      "text": "Yes, that's the main urgent bit so I can actually use my phone today.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:23]",
+      "end_time": "[01:34]",
+      "start_time_sec": 83,
+      "text": "And second, you'd like me to move your recurring Direct Debit collection date from the first of the month to the twenty-eighth so it lines up with your new salary schedule. Have I captured both parts accurately?",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:35]",
+      "end_time": "[01:48]",
+      "start_time_sec": 95,
+      "text": "Spot on, yes. My employer recently shifted our payroll processing from the twenty-fifth of the month to the twenty-seventh, which is why the collection on the first caught me out while my salary BACS transfer was still clearing over the bank holiday.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:49]",
+      "end_time": "[01:59]",
+      "start_time_sec": 109,
+      "text": "Thank you for explaining that so clearly. Before I open your billing ledger and mobile provisioning panel, Octavia, could you please confirm the first line of your home address and your postcode for verification?",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:00]",
+      "end_time": "[02:02]",
+      "start_time_sec": 120,
+      "text": "Sure, it's 19 Lavender Grove, Guildford, and the postcode is GU1 4RT.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:03]",
+      "end_time": "[02:07]",
+      "start_time_sec": 123,
+      "text": "Lovely, thank you. And could you also confirm your four-digit account security PIN or the answer to your memorable security question?",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:08]",
+      "end_time": "[02:10]",
+      "start_time_sec": 128,
+      "text": "My four-digit PIN is 7391, and my security question answer is Bluebell.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:11]",
+      "end_time": "[02:23]",
+      "start_time_sec": 131,
+      "text": "That's fully verified, Octavia, thank you. I have your S-Net Unlimited 5G Mobile account open on my screen now, and I can see the sixty-four pounds and fifty pence Visa debit payment under reference SN-884920 sitting in the gateway queue.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:24]",
+      "end_time": "[02:29]",
+      "start_time_sec": 144,
+      "text": "Oh good, so the money definitely went through then? Because my banking app showed it left my current account at twenty past eight.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:30]",
+      "end_time": "[02:43]",
+      "start_time_sec": 150,
+      "text": "Yes, the funds have been authorized and captured by our merchant gateway. When an account has an automated non-payment restriction applied after a returned Direct Debit, the payment gateway sometimes holds the receipt in an unallocated suspense bucket for up to two hours.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:44]",
+      "end_time": "[02:48]",
+      "start_time_sec": 164,
+      "text": "Right, and because it's sitting in that suspense bucket, the mobile network hasn't realized my balance is zero again?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:49]",
+      "end_time": "[03:00]",
+      "start_time_sec": 169,
+      "text": "Exactly right. I am taking ownership of this right now by manually allocating receipt SN-884920 against invoice INV-209418 so your overdue balance clears to zero immediately, and then I'll force a manual unbar command to the mobile switch.",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:01]",
+      "end_time": "[03:05]",
+      "start_time_sec": 181,
+      "text": "That would be a huge relief, Noah, thank you. How long does the manual unbar command take to reach my handset?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:06]",
+      "end_time": "[03:16]",
+      "start_time_sec": 186,
+      "text": "Once I push the HLR provisioning refresh from my console, it usually updates on the mast within sixty seconds. Let me post the ledger allocation first and then trigger that network refresh for you.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:17]",
+      "end_time": "[03:19]",
+      "start_time_sec": 197,
+      "text": "Okay, I've got my phone next to me ready to test whenever you say the word.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:20]",
+      "end_time": "[03:30]",
+      "start_time_sec": 200,
+      "text": "Please bear with me for a moment while I push the manual payment allocation and the outbound unbar instruction through to the mobile provisioning switch.",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:28]",
+      "end_time": "[04:38]",
+      "start_time_sec": 268,
+      "text": "Thank you for holding, Octavia, and thank you for your patience. I've manually reconciled the sixty-four pounds and fifty pence payment against your April bill and cleared the outbound call bar on our HLR switch.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:39]",
+      "end_time": "[04:43]",
+      "start_time_sec": 279,
+      "text": "Brilliant! Do I need to turn my phone off and back on, or can I just toggle flight mode?",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:44]",
+      "end_time": "[04:52]",
+      "start_time_sec": 284,
+      "text": "Toggling airplane mode on for about ten seconds and then switching it back off is usually enough to force your SIM to re-register cleanly with the local S-Net 5G cell tower.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:53]",
+      "end_time": "[05:02]",
+      "start_time_sec": 293,
+      "text": "Wait a second, since I'm calling you on my work desk phone right now, I'm turning airplane mode on my S-Net mobile right now... counting to ten... and turning it back off.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:03]",
+      "end_time": "[05:10]",
+      "start_time_sec": 303,
+      "text": "Take your time, Octavia. Let me know as soon as the signal bars and the S-Net 5G indicator pop back up at the top of your screen.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:11]",
+      "end_time": "[05:19]",
+      "start_time_sec": 311,
+      "text": "Okay, the signal bars are back and it says S-Net 5G. Let me try dialling my childminder's landline number just to see if it rings instead of playing that recording.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:20]",
+      "end_time": "[05:22]",
+      "start_time_sec": 320,
+      "text": "Go right ahead and test that live while I stay on the line with you, Octavia.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:23]",
+      "end_time": "[05:32]",
+      "start_time_sec": 323,
+      "text": "Oh thank goodness, it's actually ringing! I just ended the call after one ring so I didn't interrupt her, and I also dialled 123 for the speaking clock and it connected straight away.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:33]",
+      "end_time": "[05:39]",
+      "start_time_sec": 333,
+      "text": "Fantastic news, I'm glad we could confirm right here on the call that your outbound voice service is completely restored and dialling out normally.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:40]",
+      "end_time": "[05:52]",
+      "start_time_sec": 340,
+      "text": "Yes, that's a massive weight off my mind. Now, before we change the Direct Debit date to the twenty-eighth, I noticed on the app earlier that there was a twelve-pound returned Direct Debit fee added to my next bill?",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:53]",
+      "end_time": "[06:05]",
+      "start_time_sec": 353,
+      "text": "Let me check the pending charges tab on your next cycle. Yes, when the Direct Debit mandate failed on the first of the month due to insufficient funds, the billing engine automatically raised a twelve-pound returned payment administration fee.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:06]",
+      "end_time": "[06:17]",
+      "start_time_sec": 366,
+      "text": "That seems really harsh when I've been with S-Net for three years without ever missing a single payment, and the only reason it bounced was my company moving payday to the twenty-seventh plus the Easter bank holiday delay.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:18]",
+      "end_time": "[06:27]",
+      "start_time_sec": 378,
+      "text": "Well, Octavia, if you don't keep enough funds in your current account on the first of the month when the mandate runs, what did you expect the automated billing system to do?",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:28]",
+      "end_time": "[06:37]",
+      "start_time_sec": 388,
+      "text": "Excuse me? I didn't leave my account empty on purpose, Noah—I literally just told you my payroll department moved our salary date and the BACS clearance got held up over the bank holiday!",
+      "sentiment_score": -52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:38]",
+      "end_time": "[06:47]",
+      "start_time_sec": 398,
+      "text": "You're right, Octavia, I shouldn't have phrased it like that—I can see from your three-year payment history that every single bill before this month was paid on time without a single hitch.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:48]",
+      "end_time": "[06:55]",
+      "start_time_sec": 408,
+      "text": "Thank you. I always budget carefully, which is exactly why I'm calling today to move the collection date to the twenty-eighth so this never happens again.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:56]",
+      "end_time": "[07:07]",
+      "start_time_sec": 416,
+      "text": "Completely fair, and because you have an exemplary three-year track record with S-Net, I have just applied a twelve-pound goodwill credit adjustment to wipe out that returned Direct Debit fee on your upcoming statement.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:08]",
+      "end_time": "[07:12]",
+      "start_time_sec": 428,
+      "text": "Oh, thank you, I appreciate you waiving that twelve-pound fee. Has that credit gone onto the account already?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:13]",
+      "end_time": "[07:20]",
+      "start_time_sec": 433,
+      "text": "Yes, credit note CN-441092 for twelve pounds is now live on your ledger, so your unbilled balance sits at exactly zero pounds and zero pence.",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:21]",
+      "end_time": "[07:28]",
+      "start_time_sec": 441,
+      "text": "Great. Now how does moving the Direct Debit collection date from the first of the month to the twenty-eighth work for my May bill?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:29]",
+      "end_time": "[07:41]",
+      "start_time_sec": 449,
+      "text": "Let me walk you through the exact billing cycle dates so there are no surprises. Currently, your bill generates on the eighteenth of each month and the Direct Debit collects on the first of the following month.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:42]",
+      "end_time": "[07:44]",
+      "start_time_sec": 462,
+      "text": "Right, yes, I usually get the email notification around the eighteenth.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:45]",
+      "end_time": "[07:58]",
+      "start_time_sec": 465,
+      "text": "When I move your Direct Debit collection date to the twenty-eighth of the month, we shift your bill generation date to the fourteenth of the month so you still get the standard fourteen-day advance notice under the Direct Debit Guarantee.",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:59]",
+      "end_time": "[08:05]",
+      "start_time_sec": 479,
+      "text": "Okay, that makes sense. So my next bill will come out on the fourteenth of May and collect on the twenty-eighth of May?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:06]",
+      "end_time": "[08:19]",
+      "start_time_sec": 486,
+      "text": "Spot on. Because your April payment covered you up to the seventeenth of May, your May fourteenth statement will have a slight pro-rata adjustment eliminating three overlapping days, making that single transition bill slightly smaller at around fifty-eight pounds.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:20]",
+      "end_time": "[08:27]",
+      "start_time_sec": 500,
+      "text": "Oh, even better! A slightly smaller bill in May and then back to the normal sixty-four pounds and fifty pence from the twenty-eighth of June onwards?",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:28]",
+      "end_time": "[08:39]",
+      "start_time_sec": 508,
+      "text": "Exactly right, Octavia. From the fourteenth of June bill onwards, it will be your standard sixty-four pounds and fifty pence every month, collected by Direct Debit on the twenty-eighth, the day after your salary goes in.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:40]",
+      "end_time": "[08:46]",
+      "start_time_sec": 520,
+      "text": "Do I need to contact my bank to update the Direct Debit mandate, or does S-Net handle all of that automatically with Barclays?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:47]",
+      "end_time": "[08:58]",
+      "start_time_sec": 527,
+      "text": "You don't need to contact Barclays at all. Your existing BACS mandate reference stays active, and our billing system simply submits the collection request on the twenty-eighth of each month instead of the first.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:59]",
+      "end_time": "[09:07]",
+      "start_time_sec": 539,
+      "text": "Wait, let me just check—because the April Direct Debit bounced on the first, did Barclays or S-Net cancel the mandate itself, or is the mandate still active?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:08]",
+      "end_time": "[09:21]",
+      "start_time_sec": 548,
+      "text": "That's a very smart thing to check. I'm looking at your BACS mandate status right now under sort code 20-35-90, and the mandate status is still showing Active and Valid—it was only a single representation refusal, not a mandate cancellation.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:22]",
+      "end_time": "[09:26]",
+      "start_time_sec": 562,
+      "text": "Phew, okay, so I don't have to set up a brand-new paperless Direct Debit instruction from scratch.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:27]",
+      "end_time": "[09:36]",
+      "start_time_sec": 567,
+      "text": "No need at all. I've just committed the billing cycle change on your account now, moving your monthly Direct Debit collection date to the twenty-eighth starting with next month's cycle.",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:37]",
+      "end_time": "[09:43]",
+      "start_time_sec": 577,
+      "text": "Can I check my My S-Net app right now to see if the new payment date of the twenty-eighth is showing up?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:44]",
+      "end_time": "[09:53]",
+      "start_time_sec": 584,
+      "text": "Yes, please do! If you pull down to refresh the Billing and Payments tab in your My S-Net app, you should see the updated schedule and the zero balance straight away.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:54]",
+      "end_time": "[09:59]",
+      "start_time_sec": 594,
+      "text": "Let me open the app on my mobile now that the data and calls are working properly... refreshing the Billing tab...",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:00]",
+      "end_time": "[10:02]",
+      "start_time_sec": 600,
+      "text": "Take your time, Octavia, I'll stay right here while it loads.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:03]",
+      "end_time": "[10:07]",
+      "start_time_sec": 603,
+      "text": "Yes! It says Current Balance £0.00, Twelve Pound Goodwill Credit Applied, and Next Direct Debit Date: 28th May.",
+      "sentiment_score": 60.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:08]",
+      "end_time": "[10:13]",
+      "start_time_sec": 608,
+      "text": "Wonderful! That confirms both the ledger update and the billing cycle shift to the twenty-eighth have synced through to your app.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:14]",
+      "end_time": "[10:21]",
+      "start_time_sec": 614,
+      "text": "And I also just got an automated text message from S-Net confirming my outbound call bar has been removed and my billing date has been updated.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:22]",
+      "end_time": "[10:34]",
+      "start_time_sec": 622,
+      "text": "Everything is locked in and confirmed then. Just to recap, your sixty-four pound fifty card payment is reconciled, your outbound calls are working again, the twelve-pound fee is credited, and your Direct Debit is set for the twenty-eighth.",
+      "sentiment_score": 46.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:35]",
+      "end_time": "[10:38]",
+      "start_time_sec": 635,
+      "text": "Thank you, Noah. Aside from that moment earlier, you've sorted everything I needed today.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:39]",
+      "end_time": "[10:46]",
+      "start_time_sec": 639,
+      "text": "I appreciate your patience today, Octavia. Is there anything else at all I can help you with on your mobile account before we wrap up?",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:47]",
+      "end_time": "[10:49]",
+      "start_time_sec": 647,
+      "text": "No, that's everything sorted. Have a good rest of your day.",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:50]",
+      "end_time": "[10:54]",
+      "start_time_sec": 650,
+      "text": "You too, Octavia! Thank you for choosing S-Net, and have a wonderful rest of your week. Goodbye!",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:55]",
+      "end_time": "[10:57]",
+      "start_time_sec": 655,
+      "text": "Thanks, bye!",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:58]",
+      "end_time": "[11:00]",
+      "start_time_sec": 658,
+      "text": "Take care, goodbye!",
+      "sentiment_score": 45.0
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "call_id": "ag_33",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 68.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "You left the customer in unannounced dead air twice for over 30 seconds—at [04:08]–[04:56] (38s gap after saying 'Just a moment') and at [06:53]–[07:49] (46s gap after saying 'Hang on there')—without properly asking to place him on hold or thanking him for waiting upon return."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "After the customer explained his nuisance call problem at [00:39]–[01:07], you offered empathy at [01:18] but then only said 'Okay, I've got that noted down, let's open your voice features' at [01:31] without restating or summarizing his issue."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At [08:22], when the customer asked to log a spoofed CLI number (`0161 496 0821`), you deflected responsibility by stating 'Oh, CLI spoofing has nothing to do with S-Net, we don't deal with fraud lists—you'll have to take that up with Ofcom or Action Fraud yourself.'"
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Relentless spoofed-number nuisance calls on landline; configuring S-Net Call Guardian VIP list and anonymous caller block",
+    "tier": "okay",
+    "duration_sec": 805,
+    "notes": "3 FAILs: Hold/Dead Air ([04:08]–[04:56] 38s and [06:53]–[07:49] 46s unannounced gaps), Paraphrasing ([01:31] 'Okay, I've got that noted down' without restating the issue), and Ownership ([08:22] deflecting CLI spoofing report to Ofcom/Action Fraud despite configuring Call Guardian and testing `#31#` live at [10:18]–[11:30]).",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Paraphrasing",
+      "Took ownership of the problem",
+      "Empathy & Acknowledgment Statement",
+      "Active listening",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] \"thank you for calling S-Net Home Phone and Digital Voice Support\" and [13:06] \"Thank you for choosing S-Net\" plus survey mention."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Two unmanaged dead-air gaps > 30s: [04:08]–[04:56] (38s gap; said only \"Just a moment\" and returned with \"Right, I have the Digital Voice feature provisioning portal open\") and [06:53]–[07:49] (46s gap; said only \"Hang on there\" and returned with \"Okay, the voice routing table has refreshed\")."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:17] Amira verified the customer's street address and four-digit security PIN before accessing account settings."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:17] \"Hi Krzysztof, I can certainly help you look into your landline call protection settings today.\""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:18] \"I am so sorry that those constant scam calls have been waking you and your wife up when you are trying to rest after hospital night shifts, Krzysztof, I completely understand how exhausting that must be.\""
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:31] \"Okay, I've got that noted down, let's open your voice features.\" (No restatement of the spoofed/withheld nuisance calls or the need to allow care-home/GP calls through)."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[05:32]–[06:08] Amira accurately captured and read back all five VIP numbers (Oakwood Manor Care Home `01902 554320`, daughter Maja `07700 900412`, Penn Manor Medical Centre `01902 558900`, Krzysztof `07700 900185`, and Agnieszka `07700 900189`) and accounted for the GP's withheld CLI."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[08:22] \"Oh, CLI spoofing has nothing to do with S-Net, we don't deal with fraud lists—you'll have to take that up with Ofcom or Action Fraud yourself.\""
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:18], [09:36]–[13:20] Aside from the brief policy deflection at [08:22], Amira remained polite, helpful, and collaborative throughout the live testing."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:34]–[02:35] Amira asked targeted diagnostic questions about whether the care home or GP surgery ever call from withheld numbers, whether scam calls have an autodialler delay, and whether the household uses handset answering machines or network 1571."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[10:18]–[11:30] Krzysztof and his wife Agnieszka tested Call Guardian live both with `#31#` caller ID withheld (confirming silent interception and name announcement) and without `#31#` (confirming VIP instant ring-through)."
+      }
+    ]
+  }
+}

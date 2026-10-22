@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_47",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 23.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "The agent left two unmanaged dead-air gaps exceeding 30 seconds at [05:19] (43s) and [12:57] (54s) without properly announcing a hold or thanking the customer for waiting upon return."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "The agent ran line diagnostics first and failed to verify the customer's address and security PIN within the mandatory first 240 seconds, only requesting verification at [06:12]."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "When the customer expressed frustration at [00:41] about his broadband dropping during work and later complained about dead air at [05:35], the agent never apologized or acknowledged his frustration."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "After the customer explained the landline static and VDSL drop-on-ring fault at [00:10], the agent jumped directly into line testing without paraphrasing or restating the issue."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "At [10:15], the agent asked if the customer had tried unscrewing the master socket faceplate and plugging into the test socket, ignoring that the customer had already stated he did this at [01:08]."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Between [00:55] and [05:19], the agent relied entirely on automated line telemetry and failed to ask diagnostic probing questions about microfilters, extension sockets, or weather correlation."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "As confirmed at [16:00], the physical copper line fault and landline static remain unresolved pending the Openreach linesman visit on Friday morning."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Loud static crackling on copper landline and VDSL broadband dropping sync every time an incoming phone call rings",
+    "tier": "poor",
+    "duration_sec": 1070,
+    "notes": "Poor call with 7 FAILs (H, V, E, PA, AL, PR, RE) and 4 PASSes (B, P, O, R). Agent Craig uses proper branding ([00:00], [17:37]), addresses Zlatan by name, remains polite under criticism ([13:27], R PASS), and takes strong ownership by applying a 12dB noise-margin stability profile, setting up free exchange call divert to prevent incoming ring spikes, and booking Openreach engineer OR-6619482-SK ([00:28]–[16:47], O PASS). However, Craig delays security verification until [06:12] (>240s, V FAIL), leaves two unmanaged dead-air gaps at [05:19] (43s) and [12:57] (54s) (H FAIL), never apologizes or shows empathy (E FAIL), never paraphrases (PA FAIL), asks zero diagnostic questions about microfilters or extension wiring (PR FAIL), asks about the test socket at [10:15] after Zlatan already told him at [01:08] (AL FAIL), and the physical fault awaits Friday's Openreach visit ([16:00], RE FAIL).",
+    "hard_cases": [
+      "Hold time and Dead Air",
+      "Verified customer",
+      "Confirmed the issue is resolved",
+      "Took ownership of the problem",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent: 'Good afternoon, thank you for calling S-Net Technical Support.' and [17:37] Agent: 'Thank you for choosing S-Net, Zlatan...'"
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Two unmanaged gaps >30s: before [05:19] (43s gap, Customer complains at [05:35]) and before [12:57] (54s gap, Customer complains at [13:12])."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "No PIN/address/security question verification in the first 240 seconds; Agent only asks for address and PIN at [06:12] (>240s into the call)."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:28] Agent addresses the customer by name ('Zlatan') throughout the conversation."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:41] Customer expresses severe frustration working from home with a dropping line; Agent responds purely procedurally without a single apology or empathy statement."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:28]–[00:55] Agent moves straight into running line telemetry without summarizing the customer's reported symptoms."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:08] Customer: '...this morning I unscrewed the lower half of the NTE5C master socket faceplate and plugged my corded telephone directly into the internal test port...' -> [10:15] Agent: '...have you tried unscrewing the faceplate on your master socket and plugging the phone into the test socket yet?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:28] Agent takes personal ownership; applies a 12dB stability profile, sets up free exchange Call Divert, waives any engineer fee, books Openreach job OR-6619482-SK, and schedules a personal follow-up at [16:47]."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[13:27] Agent remains calm, polite, and respectful even when the customer criticizes the unannounced silences and repeated question."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Zero diagnostic questions asked about ADSL/VDSL microfilters, secondary extension sockets, or whether the crackling worsens in wet/windy weather."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[16:00] Agent: 'Yes, the physical static on the copper pair will remain until the Openreach engineer replaces the corroded dropwire crimp on Friday morning, Zlatan.'"
+      }
+    ]
+  }
+}

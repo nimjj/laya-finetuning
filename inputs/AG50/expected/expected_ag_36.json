@@ -1,0 +1,162 @@
+{
+  "call_id": "ag_36",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 55.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Verify the customer's address, PIN, or security question within the first four minutes rather than waiting until [05:33] after only taking the account number and date of birth at [00:20]."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Express sincere empathy and reassurance when the customer shares at [01:29] and [01:50] that he is terrified about having no emergency phone line for his wife's heart condition."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Remain calm and professional rather than making sarcastic remarks like telling the customer at [09:20] that you cannot control the British weather or stop lightning hitting a pole."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "The customer's fibre broadband and voice line remain completely disconnected at the end of the call ([13:45]), pending an Openreach overhead hoist crew visit in 48 hours."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Complete loss of overhead fibre broadband and voice line after a thunderstorm damaged a telegraph pole on a rural lane",
+    "tier": "okay",
+    "duration_sec": 865,
+    "notes": "Owen follows branding, manages his hold properly ([06:03]-[07:32]), probes thoroughly into physical hazard and ONT status, and takes ownership by ordering a 4G backup dongle with an attic antenna ([10:13]). However, he fails verification by only asking for account number and DOB in the first 4 minutes and waiting until [05:33] to ask for the address and PIN, shows zero empathy when Ferdinand is terrified about his wife's heart condition ([01:29]-[02:01]), makes a sarcastic remark about the British weather at [09:20], and the overhead line remains severed pending a 48-hour hoist repair ([13:45]).",
+    "hard_cases": [
+      "Verified customer",
+      "Empathy & Acknowledgment Statement",
+      "Build rapport and observed professionalism",
+      "Confirmed the issue is resolved",
+      "Hold time and Dead Air",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Greeting at [00:00] ('thank you for calling S-Net') and closing at [14:15] ('thank you for choosing S-Net')."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Managed 68s hold between [06:03] ('Please bear with me for a moment while I contact their dispatch desk') and [07:32] ('Thank you for holding, Ferdinand')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [00:20] Agent only requested account number and date of birth; property address and PIN were not requested until [05:33] (past the 240s mark)."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent addressed customer by first name 'Ferdinand' throughout ([00:20], [00:37], [02:01], [05:33], [07:32], [14:15])."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [01:29] and [01:50] customer expressed severe distress (-36.0 sentiment) about his wife's heart condition and zero indoor signal; Agent responded coldly and procedurally at [01:40] and [02:01] with zero empathy or apology."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [01:18] Agent paraphrased the issue: 'So to summarize, lightning from this morning's storm damaged pole DP-449 on Millbrook Lane and severed your overhead dropwire, leaving both your broadband and landline completely dead.'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent retained pole number DP-449, Millbrook Lane, attic signal details ([09:53]), and calling from neighbour's phone ([11:24]) without re-asking."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [08:41], [10:13], [10:28], and [12:47], Agent escalated the Openreach hoist slot, personally ordered a free pre-activated 4G backup hub with window antenna, and scheduled a personal follow-up task."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [09:20] Agent snapped sarcastically: \"Well, Ferdinand, I obviously can't control the British weather or stop lightning hitting a pole, can I?\""
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent probed road obstruction ([02:01]), power cable hazards ([02:22]), dangling cross-arm safety ([02:41]), mains power ([03:01]), ONT LEDs ([03:21]), battery backup alarm ([03:57]), and Hub 5 status ([04:17])."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [08:02] and [13:45], the overhead fibre dropwire and pole DP-449 remain severed awaiting an Openreach hoist crew in 48 hours."
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_40",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 0.0,
+    "is_auto_fail": true,
+    "auto_fail_reason": "Agent told customer to 'get lost' at [13:58]: 'Go ahead, get lost and take it to the ombudsman then, see if I care!'",
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Address the customer by his name, Babatunde, after he introduces himself at [00:11] rather than speaking to him impersonally for the entire call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Acknowledge the customer's frustration and express empathy when he explains at [00:56] and [05:09] that his Fibre 900 service collapses to 12.4 Mbps every evening."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Take ownership of escalating the 99.4% wholesale backhaul saturation and minimum speed guarantee breach rather than telling the customer at [10:12] that wholesale capacity is 'their problem not mine'."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Never use abusive or dismissive language toward a customer; telling the caller at [13:58] to 'get lost and take it to the ombudsman then, see if I care!' is a severe professionalism violation and automatic failure."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "The severe evening throttling down to 12.4 Mbps on the customer's Fibre 900 connection remains completely unresolved at the end of the call ([15:48])."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Severe evening download throttling down to 12 Mbps on 'Truly Unlimited' Fibre 900 full-fibre package",
+    "tier": "auto_fail",
+    "duration_sec": 1005,
+    "notes": "Auto-fail call (final_score=0.0): Gareth follows opening/closing branding ([00:00], [16:34]), manages his single hold properly ([06:48]-[08:12]), verifies address and PIN early ([00:25]-[00:47]), paraphrases accurately ([01:11]), probes thoroughly into wired Cat6 speed tests, ONT light levels, and BNG logs ([01:40]-[06:12]), and remembers every technical figure without re-asking. However, he never uses Babatunde's name (P FAIL), shows zero empathy (E FAIL), blames the wholesale partner at [10:12] ('that's their problem not mine', O FAIL), tells Babatunde to 'get lost' at [13:58] when CISAS/Ofcom is mentioned (R FAIL & AUTO-FAIL), and leaves the evening congestion unresolved (RE FAIL).",
+    "hard_cases": [
+      "Took ownership of the problem",
+      "Build rapport and observed professionalism",
+      "Hold time and Dead Air",
+      "Paraphrasing",
+      "Active listening"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Greeting at [00:00] ('thank you for calling S-Net') and closing with survey check at [16:34] ('Thank you for choosing S-Net')."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Single managed 64s hold between [06:48] ('Please bear with me while I query the Coventry East OLT...') and [08:12] ('Thank you for holding')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [00:25]-[00:47] (within 1 minute) Agent verified property address (42 Highfield Road, CV2 4NZ) and 4-digit security PIN (9410)."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer introduced himself as Babatunde Adebayo at [00:11], but Agent never used the name 'Babatunde' in any turn."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Across the entire call ([00:25], [01:11], [04:54], [10:12]), Agent showed zero empathy or apology while the customer was severely frustrated (-24.0 to -38.0 sentiment)."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [01:11] Agent paraphrased: 'So to summarize your report, although you subscribe to the Fibre 900 package, your download throughput drops severely to around twelve megabits per second during peak evening hours between seven and eleven PM.'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent accurately retained and cited all technical details provided by the customer: 910 Mbps at 8 AM, 12.4 Mbps at 8:30 PM, 105 Mbps upload, 84 ms ping, Cat6 desktop, ONT serial ALCLB4409182, and BNG-COV-EAST-04 ([04:26], [08:32], [11:32], [14:39])."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [10:12] Agent deflected responsibility: 'Exchange backhaul capacity is managed by our wholesale partner, that's their problem not mine', and refused to raise a capacity escalation or speed-guarantee ticket ([11:05], [13:01])."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [13:58] Agent snapped: 'Go ahead, get lost and take it to the ombudsman then, see if I care!'"
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent probed wired Cat6 connection ([01:40]), competing Wi-Fi traffic ([02:10]), upload speed and latency ([02:38]), ONT LEDs/serial ([03:07]), QoS/VPN settings ([03:31]), direct ONT PPPoE test ([03:56]), power-cycling during peak hours ([05:23]), and BNG gateway assignment ([05:52])."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [15:24]-[15:48], Agent leaves the 99.4% evening backhaul congestion unaddressed and closes log FLT-309481-CV for information only."
+      }
+    ]
+  }
+}

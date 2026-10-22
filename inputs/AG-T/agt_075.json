@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Penelope",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:03]",
+   "start_time_sec": 0,
+   "text": "S-Net cancellations audit, my name is Derek."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:12]",
+   "end_time": "[00:32]",
+   "start_time_sec": 12,
+   "text": "Hello Derek, my name is Penelope Ward. I cancelled my broadband pre-order four weeks ago within the statutory cooling-off period, but S-Net still hasn't refunded my one-hundred-and-twenty-pound advance equipment deposit, despite three previous agents promising the funds would arrive in my Barclays account within five working days!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:41]",
+   "end_time": "[00:51]",
+   "start_time_sec": 41,
+   "text": "I can inspect your refund transaction queue. Before we inspect your payment ledger, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:00]",
+   "end_time": "[01:06]",
+   "start_time_sec": 60,
+   "text": "Yes, it is 88 Victoria Square, Birmingham, B1 1BD, security PIN 9410, cancellation reference CN-882190.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:15]",
+   "end_time": "[01:23]",
+   "start_time_sec": 75,
+   "text": "Thank you Penelope, that confirms your account details. What specific date was your cancellation confirmed by our retentions team?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:32]",
+   "end_time": "[01:45]",
+   "start_time_sec": 92,
+   "text": "It was formally confirmed on September 15th, and your system sent me an official cancellation receipt letter!",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:54]",
+   "end_time": "[02:05]",
+   "start_time_sec": 114,
+   "text": "Could I place you on hold for two minutes while I query our central banking reconciliation portal?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:30]",
+   "end_time": "[03:50]",
+   "start_time_sec": 210,
+   "text": "Thank you for holding, Penelope. The finance gateway indicates that the refund voucher was generated but held in a suspense verification queue because the card number was recorded with an incorrect expiry year."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:59]",
+   "end_time": "[04:16]",
+   "start_time_sec": 239,
+   "text": "Why did your system record an incorrect expiry year when S-Net took the one hundred and twenty pounds from the exact same card without any issue?!",
+   "sentiment_score": -32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:25]",
+   "end_time": "[04:35]",
+   "start_time_sec": 265,
+   "text": "Automated payment gateways process merchant sales and outbound credits across different clearinghouse protocols."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:44]",
+   "end_time": "[05:00]",
+   "start_time_sec": 284,
+   "text": "Can you correct the expiry year and send my one hundred and twenty pounds back to my card right now?!",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:09]",
+   "end_time": "[05:19]",
+   "start_time_sec": 309,
+   "text": "Frontline cancellation agents do not have administrative access to amend payment card clearing tokens."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:28]",
+   "end_time": "[05:40]",
+   "start_time_sec": 328,
+   "text": "Then transfer me immediately to your banking treasury department who can authorize the refund!",
+   "sentiment_score": -38.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:49]",
+   "end_time": "[06:02]",
+   "start_time_sec": 349,
+   "text": "Treasury personnel do not take incoming customer phone calls. You must wait for the monthly audit cycle."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:11]",
+   "end_time": "[06:29]",
+   "start_time_sec": 371,
+   "text": "I have already waited four weeks! One hundred and twenty pounds is my groceries for two weeks! Why should I wait another month for my own money?!",
+   "sentiment_score": -56.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:38]",
+   "end_time": "[06:48]",
+   "start_time_sec": 398,
+   "text": "Those are our corporate financial audit regulations for cancelled orders."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:57]",
+   "end_time": "[07:08]",
+   "start_time_sec": 417,
+   "text": "Stop reciting corporate regulations and refund my money today!",
+   "sentiment_score": -48.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:17]",
+   "end_time": "[07:31]",
+   "start_time_sec": 437,
+   "text": "Listen lady, if you don't like our refund timelines, you can get lost and wait for the cheque in the post."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:40]",
+   "end_time": "[07:55]",
+   "start_time_sec": 460,
+   "text": "Did you just tell a customer to get lost?! Are you completely insane?! Give me your employee ID number right now!",
+   "sentiment_score": -68.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:04]",
+   "end_time": "[08:07]",
+   "start_time_sec": 484,
+   "text": "My employee code is DK-9901."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:16]",
+   "end_time": "[08:31]",
+   "start_time_sec": 496,
+   "text": "DK-9901, written down! I will be taking this recording to the Financial Conduct Authority and Trading Standards today!",
+   "sentiment_score": -62.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:40]",
+   "end_time": "[09:04]",
+   "start_time_sec": 520,
+   "text": "Penelope speaking, S-Net has stolen one hundred and twenty pounds of my hard-earned money for four weeks, your staff lied to me three times, and now your representative tells me to get lost on a recorded line! I am shaking with rage, my blood pressure is through the roof, and I will not be abused by this company!",
+   "sentiment_score": -68.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:13]",
+   "end_time": "[09:21]",
+   "start_time_sec": 553,
+   "text": "I have stated the operational constraints of our refund accounting department."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:30]",
+   "end_time": "[09:41]",
+   "start_time_sec": 570,
+   "text": "What is the formal escalation ticket reference for this complaint?",
+   "sentiment_score": -28.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:50]",
+   "end_time": "[09:53]",
+   "start_time_sec": 590,
+   "text": "The complaints reference is CMP-99182-W."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:02]",
+   "end_time": "[10:05]",
+   "start_time_sec": 602,
+   "text": "CMP-99182-W, noted down.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:14]",
+   "end_time": "[10:28]",
+   "start_time_sec": 614,
+   "text": "A paper cheque for one hundred and twenty pounds will be dispatched by second class post within twenty-eight business days."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:37]",
+   "end_time": "[10:48]",
+   "start_time_sec": 637,
+   "text": "Twenty-eight business days for a paper cheque?! That is another six weeks!",
+   "sentiment_score": -48.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:57]",
+   "end_time": "[11:06]",
+   "start_time_sec": 657,
+   "text": "Paper cheques follow standard commercial banking issuance cycles."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:15]",
+   "end_time": "[11:27]",
+   "start_time_sec": 675,
+   "text": "I will be initiating a chargeback through Barclays Bank fraud department this afternoon.",
+   "sentiment_score": -32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:36]",
+   "end_time": "[11:46]",
+   "start_time_sec": 696,
+   "text": "You are entitled to pursue chargeback remedies with your merchant bank."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:55]",
+   "end_time": "[12:08]",
+   "start_time_sec": 715,
+   "text": "And I will ensure your abusive language is submitted as evidence to your executive directors.",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:17]",
+   "end_time": "[12:26]",
+   "start_time_sec": 737,
+   "text": "Executive correspondence is handled by our complaints unit in Sunderland."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:35]",
+   "end_time": "[12:47]",
+   "start_time_sec": 755,
+   "text": "You are the most unprofessional and offensive company I have ever dealt with.",
+   "sentiment_score": -34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:56]",
+   "end_time": "[12:59]",
+   "start_time_sec": 776,
+   "text": "Our corporate policies govern all customer communications."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:08]",
+   "end_time": "[13:20]",
+   "start_time_sec": 788,
+   "text": "Your corporate policies apparently include insulting customers and withholding their money.",
+   "sentiment_score": -28.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:29]",
+   "end_time": "[13:38]",
+   "start_time_sec": 809,
+   "text": "I have documented your feedback on the complaints file."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:47]",
+   "end_time": "[13:57]",
+   "start_time_sec": 827,
+   "text": "Make sure every word of this call is preserved.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:05]",
+   "end_time": "[14:13]",
+   "start_time_sec": 845,
+   "text": "All calls are archived in our compliance database."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:21]",
+   "end_time": "[14:31]",
+   "start_time_sec": 861,
+   "text": "I have nothing further to say to you.",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:39]",
+   "end_time": "[14:42]",
+   "start_time_sec": 879,
+   "text": "I will finalize the cheque issuance request."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:50]",
+   "end_time": "[14:53]",
+   "start_time_sec": 890,
+   "text": "Just send my money.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:01]",
+   "end_time": "[15:04]",
+   "start_time_sec": 901,
+   "text": "What was that customer cancellation reference again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:12]",
+   "end_time": "[15:24]",
+   "start_time_sec": 912,
+   "text": "As I told you right at the start of this call, it is CN-882190.",
+   "sentiment_score": -16.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:32]",
+   "end_time": "[15:42]",
+   "start_time_sec": 932,
+   "text": "I have attached your cancellation reference to the complaints record."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:50]",
+   "end_time": "[15:54]",
+   "start_time_sec": 950,
+   "text": "I will expect my full refund and a written apology.",
+   "sentiment_score": -18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:02]",
+   "end_time": "[16:06]",
+   "start_time_sec": 962,
+   "text": "The complaints department will review the matter in due course."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:14]",
+   "end_time": "[16:17]",
+   "start_time_sec": 974,
+   "text": "Goodbye.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:25]",
+   "end_time": "[16:31]",
+   "start_time_sec": 985,
+   "text": "Is there any other aspect of your cancelled account I can assist with today, Penelope?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:39]",
+   "end_time": "[16:42]",
+   "start_time_sec": 999,
+   "text": "No, you have been thoroughly abusive.",
+   "sentiment_score": -24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:50]",
+   "end_time": "[16:53]",
+   "start_time_sec": 1010,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:01]",
+   "end_time": "[17:04]",
+   "start_time_sec": 1021,
+   "text": "Goodbye.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:12]",
+   "end_time": "[17:15]",
+   "start_time_sec": 1032,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:23]",
+   "end_time": "[17:26]",
+   "start_time_sec": 1043,
+   "text": "Goodbye.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:34]",
+   "end_time": "[17:37]",
+   "start_time_sec": 1054,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:45]",
+   "end_time": "[17:48]",
+   "start_time_sec": 1065,
+   "text": "Goodbye.",
+   "sentiment_score": -10.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:56]",
+   "end_time": "[17:59]",
+   "start_time_sec": 1076,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[18:07]",
+   "end_time": "[18:12]",
+   "start_time_sec": 1087,
+   "text": "Goodbye.",
+   "sentiment_score": -6.0
+  }
+ ]
+}

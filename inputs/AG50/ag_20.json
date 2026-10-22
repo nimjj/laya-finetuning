@@ -1,0 +1,614 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Cressida",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Good afternoon, welcome to S-Net support, Benjamin speaking! How are you doing on this sunny afternoon, madam?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:09]",
+      "end_time": "[00:26]",
+      "start_time_sec": 9,
+      "text": "Oh hello Benjamin, my name is Cressida. I'm actually quite upset today because it's my little granddaughter Chloe's sixth birthday over in Melbourne, Australia, and every time I try to ring my daughter's landline from my home phone it won't let me through!",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:28]",
+      "end_time": "[00:47]",
+      "start_time_sec": 28,
+      "text": "Oh bless your heart, madam, I am so terribly sorry to hear that! Missing out on wishing your little granddaughter a happy sixth birthday is heartbreaking, and I completely understand how upsetting it is when you're trying to reach family on the other side of the world.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:49]",
+      "end_time": "[01:03]",
+      "start_time_sec": 49,
+      "text": "Thank you, Benjamin, you're very kind. We had a whole birthday tea party planned over speakerphone while she blew out her candles in Melbourne, and I was in tears when the landline blocked my call.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:05]",
+      "end_time": "[01:25]",
+      "start_time_sec": 65,
+      "text": "Oh lovely, please don't you fret for another minute—I am going to personally take charge of this for you today so you can hear all about those birthday candles! First, could you just give me your date of birth and your mother's maiden name so I can open your file?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:27]",
+      "end_time": "[01:35]",
+      "start_time_sec": 87,
+      "text": "Yes, of course, my date of birth is the fourteenth of May 1956, and my mother's maiden name is Ravenscroft.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:37]",
+      "end_time": "[01:45]",
+      "start_time_sec": 97,
+      "text": "Fourteenth of May 1956 and Ravenscroft—splendid, madam, that has opened up your landline profile right in front of me!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:47]",
+      "end_time": "[02:01]",
+      "start_time_sec": 107,
+      "text": "Wonderful. Yes, I've been dialling Australia on 0061 3 9555 4182 from my Panasonic cordless landline phone all morning, even though I pay seven pounds a month for the S-Net International Anytime Saver bolt-on!",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:03]",
+      "end_time": "[02:20]",
+      "start_time_sec": 123,
+      "text": "Oh, having family down under is so exciting, though the time difference must keep you on your toes, lovely! My cousin lived out there for two years and we were always calculating whether they were having breakfast while we were having supper!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:22]",
+      "end_time": "[02:37]",
+      "start_time_sec": 142,
+      "text": "Yes, Melbourne is ten hours ahead of us right now, so it's already evening time on Chloe's birthday over there, which is why I'm so desperate to get the landline bar lifted before she goes to bed!",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:39]",
+      "end_time": "[02:54]",
+      "start_time_sec": 159,
+      "text": "Don't you worry at all, madam, I won't let you miss her bedtime! Looking at your landline switch settings here, I can see our automated fraud protection engine popped an outbound international bar on your line last night.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:55]",
+      "end_time": "[03:03]",
+      "start_time_sec": 175,
+      "text": "An automated international fraud bar? Why on earth would the computer block my outbound calls when I haven't done anything unusual?",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:04]",
+      "end_time": "[03:19]",
+      "start_time_sec": 184,
+      "text": "Well, lovely, our voice switch sometimes gets a bit overprotective if someone dials a long overseas number twice in quick succession or misdials a digit, and it flips the international lock on just to protect your bill.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:20]",
+      "end_time": "[03:36]",
+      "start_time_sec": 200,
+      "text": "Oh! Last night at 11 PM I did accidentally miss out a digit when I first tried ringing 0061 3 9555 4182 and then redialled it straight away! Should I tell you what voice announcement played on the handset this morning?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:37]",
+      "end_time": "[03:51]",
+      "start_time_sec": 217,
+      "text": "Oh, you don't need to worry about telling me what announcement or tone played on the handset, madam—I already know how these pesky switch locks behave, so we don't need to go through any diagnostic questions!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:52]",
+      "end_time": "[04:00]",
+      "start_time_sec": 232,
+      "text": "Oh, okay then, as long as you can see the exact bar on your screen and take it off for me.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:01]",
+      "end_time": "[04:13]",
+      "start_time_sec": 241,
+      "text": "I certainly can, lovely! I am going to strip that automated fraud bar right off your voice port and whitelist your International Anytime Saver bolt-on so the switch behaves itself.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:14]",
+      "end_time": "[04:23]",
+      "start_time_sec": 254,
+      "text": "That's such a relief, Benjamin. My daughter Gemma was messaging me on WhatsApp asking why I hadn't rung the Melbourne house phone yet.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:24]",
+      "end_time": "[04:34]",
+      "start_time_sec": 264,
+      "text": "Aw, Gemma and little six-year-old Chloe must be waiting by the telephone for Granny's voice! Did Chloe get a nice birthday cake today, madam?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:35]",
+      "end_time": "[04:41]",
+      "start_time_sec": 275,
+      "text": "She has a homemade pavlova with strawberries and passionfruit, which is her absolute favourite!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:42]",
+      "end_time": "[04:50]",
+      "start_time_sec": 282,
+      "text": "Oh, a homemade pavlova with strawberries and passionfruit sounds utterly divine, lovely—you're making me hungry right here at my desk!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:51]",
+      "end_time": "[04:58]",
+      "start_time_sec": 291,
+      "text": "Haha, she loves it! How long will it take to clear the bar on the telephone exchange, Benjamin?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:59]",
+      "end_time": "[05:13]",
+      "start_time_sec": 299,
+      "text": "I am going to push the switch reset command right now for you, madam. Please bear with me for a moment while I refresh your voice port on the exchange and whitelist your international calling profile.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:14]",
+      "end_time": "[05:17]",
+      "start_time_sec": 314,
+      "text": "Of course, Benjamin, I'll hold right here.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:14]",
+      "end_time": "[06:24]",
+      "start_time_sec": 374,
+      "text": "Thank you so much for waiting, madam! The voice switch has accepted my override and the general international fraud bar has been lifted from your landline.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:25]",
+      "end_time": "[06:30]",
+      "start_time_sec": 385,
+      "text": "Oh marvellous! Does that mean I can dial straight through right now?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:32]",
+      "end_time": "[06:48]",
+      "start_time_sec": 392,
+      "text": "Almost, lovely—I just want to add the specific country destination code to your fraud-exempt safelist so the computer never blocks your family calls again. Now, which country is it you're trying to ring again, is it New Zealand or Australia?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:49]",
+      "end_time": "[06:57]",
+      "start_time_sec": 409,
+      "text": "Wait—Benjamin, we've been talking about Melbourne, Australia for the last eight minutes! I told you twice it's Melbourne, Australia, code 0061!",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:58]",
+      "end_time": "[07:10]",
+      "start_time_sec": 418,
+      "text": "Oh silly me, madam, please forgive my scatterbrained head! Of course it's Australia on 0061—my cousin went to both Auckland and Melbourne so my brain muddled the two right up!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:11]",
+      "end_time": "[07:17]",
+      "start_time_sec": 431,
+      "text": "Yes, 0061 for Australia, and the Melbourne area code is 3, followed by 9555 4182.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:18]",
+      "end_time": "[07:30]",
+      "start_time_sec": 438,
+      "text": "And let me pop a note on the safelist label that this 0061 3 9555 4182 number belongs to your sister in Melbourne so future agents see it straight away!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:31]",
+      "end_time": "[07:37]",
+      "start_time_sec": 451,
+      "text": "Not my sister, Benjamin—my daughter Gemma and my granddaughter Chloe! I don't even have a sister!",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:38]",
+      "end_time": "[07:50]",
+      "start_time_sec": 458,
+      "text": "Oh dear me, your daughter Gemma, of course! I have typed 'Daughter Gemma - Melbourne 0061 3 9555 4182' into the permanent international safelist on your S-Net voice profile now, lovely.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:51]",
+      "end_time": "[08:03]",
+      "start_time_sec": 471,
+      "text": "Thank you for fixing the note. And can you also check that my seven-pound-a-month International Anytime Saver bolt-on is still active so I don't get charged two pounds a minute?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:04]",
+      "end_time": "[08:17]",
+      "start_time_sec": 484,
+      "text": "Let me check your tariff allowances right here, madam... yes, your International Anytime Saver bolt-on is active and gives you 600 inclusive landline minutes per month to thirty-five destinations including prefix 0061.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:18]",
+      "end_time": "[08:25]",
+      "start_time_sec": 498,
+      "text": "Oh good, how many of my 600 international minutes have I used so far this billing month?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:26]",
+      "end_time": "[08:40]",
+      "start_time_sec": 506,
+      "text": "You have only used 84 minutes out of your 600 inclusive minutes this month, lovely, so you have 516 minutes left to chat to Gemma and little Chloe for as long as you like!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:41]",
+      "end_time": "[08:48]",
+      "start_time_sec": 521,
+      "text": "516 minutes left—that's plenty of time to hear all about her sixth birthday party and her school friends!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:49]",
+      "end_time": "[09:02]",
+      "start_time_sec": 529,
+      "text": "Now, madam, I never like to end a call on a guess—I want to stay right here with you while we test-dial your daughter's Melbourne number live to make sure it rings cleanly!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:03]",
+      "end_time": "[09:09]",
+      "start_time_sec": 543,
+      "text": "Wait, how can I test-dial from my landline if I'm speaking to you right now?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:10]",
+      "end_time": "[09:18]",
+      "start_time_sec": 550,
+      "text": "Are you speaking to me on your mobile phone right now, lovely, or are you on your Panasonic cordless landline handset?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:19]",
+      "end_time": "[09:27]",
+      "start_time_sec": 559,
+      "text": "I actually rang you from my mobile phone so that my Panasonic cordless landline would be free for testing!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:28]",
+      "end_time": "[09:42]",
+      "start_time_sec": 568,
+      "text": "Oh, you are a total superstar, madam—thinking ahead like that makes my job ten times easier! Pick up your Panasonic cordless handset whenever you're ready and let's hear if we have a clean dial tone.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:43]",
+      "end_time": "[09:49]",
+      "start_time_sec": 583,
+      "text": "I've picked up the Panasonic handset... yes, I've got a normal steady UK dial tone.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:50]",
+      "end_time": "[10:02]",
+      "start_time_sec": 590,
+      "text": "Wonderful! Now go ahead and punch in 0061 3 9555 4182 on the Panasonic keypad and pop it on speakerphone so we can both hear whether the international exchange connects.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:03]",
+      "end_time": "[10:08]",
+      "start_time_sec": 603,
+      "text": "Okay, I've switched the Panasonic to speakerphone and I'm dialling 0-0-6-1-3-9-5-5-5-4-1-8-2 now...",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:10]",
+      "end_time": "[10:17]",
+      "start_time_sec": 610,
+      "text": "I am watching the live SIP signalling trace on your voice port from my console right now, lovely...",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:18]",
+      "end_time": "[10:28]",
+      "start_time_sec": 618,
+      "text": "It's clicking through the international gateway... no recorded error message this time... wait—it's ringing! I can hear the Australian double ringtone on the speakerphone!",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:29]",
+      "end_time": "[10:38]",
+      "start_time_sec": 629,
+      "text": "Hurrah! I can see the '180 Ringing' response code coming back from the Melbourne carrier switch on my screen right now, madam!",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:39]",
+      "end_time": "[10:53]",
+      "start_time_sec": 639,
+      "text": "Let me press the red end-call button on the Panasonic quickly before Gemma picks up while I'm still on my mobile with you—there, I disconnected after two rings, and it definitely went straight through!",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:54]",
+      "end_time": "[11:05]",
+      "start_time_sec": 654,
+      "text": "That is music to my ears, lovely! Seeing that live ring back from Melbourne proves the international bar is 100% gone and your route is crystal clear.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:06]",
+      "end_time": "[11:13]",
+      "start_time_sec": 666,
+      "text": "Oh Benjamin, what a relief! I can ring Gemma and Chloe back the moment we finish our call.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:14]",
+      "end_time": "[11:32]",
+      "start_time_sec": 674,
+      "text": "And madam, because our overzealous switch lock made you miss the start of Chloe's birthday tea party and gave you such a morning of stress, I have also taken ownership of your next bill and applied a ten-pound credit to cover your International Anytime Saver fee.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:33]",
+      "end_time": "[11:41]",
+      "start_time_sec": 693,
+      "text": "You've credited ten pounds off my next bill without me even asking? Oh, that is so thoughtful of you, Benjamin!",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:42]",
+      "end_time": "[11:53]",
+      "start_time_sec": 702,
+      "text": "It is the very least I could do for you, lovely—granddaughters only turn six once, and our computer shouldn't have stood in the way of your birthday call!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:54]",
+      "end_time": "[11:58]",
+      "start_time_sec": 714,
+      "text": "Will that ten-pound credit show up automatically on my November statement?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:00]",
+      "end_time": "[12:11]",
+      "start_time_sec": 720,
+      "text": "Yes, madam, the ten-pound credit is already posted to your billing ledger under adjustment reference CRD-330918, so your November direct debit will automatically be ten pounds lower.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:12]",
+      "end_time": "[12:23]",
+      "start_time_sec": 732,
+      "text": "Let me write down CRD-330918 on my notepad. And what if I dial Gemma again tomorrow morning—will the fraud lock ever trip again if I dial twice?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:24]",
+      "end_time": "[12:38]",
+      "start_time_sec": 744,
+      "text": "No, lovely, because I added 0061 3 9555 4182 to your verified family safelist on the switch, you could dial that Melbourne number twenty times a day and the automated fraud filter will never block it.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:39]",
+      "end_time": "[12:45]",
+      "start_time_sec": 759,
+      "text": "What if I also occasionally ring my daughter's Australian mobile number starting with 0061 4?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:46]",
+      "end_time": "[13:00]",
+      "start_time_sec": 766,
+      "text": "Let me raise the velocity threshold on the entire 0061 country prefix for your line right now, madam, so any Australian mobile or landline number you dial goes straight through without triggering a security lock.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:01]",
+      "end_time": "[13:10]",
+      "start_time_sec": 781,
+      "text": "Oh, thank you! Does my seven-pound International Anytime Saver bolt-on cover Australian mobile numbers starting with 0061 4 as well, or only landlines?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:11]",
+      "end_time": "[13:24]",
+      "start_time_sec": 791,
+      "text": "Great question, lovely—your International Anytime Saver covers Australian landlines like 0061 3 inside your 600 inclusive minutes, and gives you a discounted rate of five pence per minute to Australian 0061 4 mobiles.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:25]",
+      "end_time": "[13:34]",
+      "start_time_sec": 805,
+      "text": "Five pence a minute to Australian mobiles is very reasonable, though I mostly ring her Melbourne house phone on 0061 3 anyway.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:35]",
+      "end_time": "[13:42]",
+      "start_time_sec": 815,
+      "text": "And you've got 516 inclusive minutes waiting for you on that 0061 3 landline right now, madam!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:43]",
+      "end_time": "[13:52]",
+      "start_time_sec": 823,
+      "text": "I'm going to pour myself a fresh cup of Earl Grey tea and ring Melbourne as soon as I put my mobile down.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:53]",
+      "end_time": "[14:03]",
+      "start_time_sec": 833,
+      "text": "Enjoy every second of your chat with them, lovely, and please wish little Chloe a very happy sixth birthday from all of us here at S-Net!",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:04]",
+      "end_time": "[14:08]",
+      "start_time_sec": 844,
+      "text": "I certainly will, Benjamin, she'll be thrilled when I tell her.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:10]",
+      "end_time": "[14:18]",
+      "start_time_sec": 850,
+      "text": "Also, madam, did your broadband and local UK landline calls stay working normally while that international bar was active?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:19]",
+      "end_time": "[14:26]",
+      "start_time_sec": 859,
+      "text": "Yes, local UK calls and my broadband were completely fine—it was only international dialling that had been blocked.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:27]",
+      "end_time": "[14:41]",
+      "start_time_sec": 867,
+      "text": "Everything on your voice port is now green across the board, lovely. Have I completely resolved the international calling issue for you today, and were you happy with the live test call we just did?",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:42]",
+      "end_time": "[14:50]",
+      "start_time_sec": 882,
+      "text": "Yes, the international calling issue is completely resolved—hearing the Melbourne phone ring live on speakerphone gave me total peace of mind!",
+      "sentiment_score": 34.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:51]",
+      "end_time": "[14:59]",
+      "start_time_sec": 891,
+      "text": "Is there anything else at all I can help you with today before you go and make your birthday call, madam?",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:00]",
+      "end_time": "[15:06]",
+      "start_time_sec": 900,
+      "text": "No, that's everything, Benjamin. Thank you again for being so kind and getting me connected.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:07]",
+      "end_time": "[15:17]",
+      "start_time_sec": 907,
+      "text": "It has been an absolute pleasure speaking with you today, lovely! Thank you for choosing S-Net, and have a wonderful rest of your afternoon. Bye-bye now!",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:18]",
+      "end_time": "[15:20]",
+      "start_time_sec": 918,
+      "text": "Bye-bye, Benjamin!",
+      "sentiment_score": 32.0
+    }
+  ]
+}

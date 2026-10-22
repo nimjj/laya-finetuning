@@ -1,0 +1,173 @@
+{
+  "call_id": "agt_010",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 56.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "You failed the mandatory branding script: you opened with 'Hello, thanks for calling S-Net customer service' instead of 'Thank you for calling S-Net', and closed with 'Thanks for being with S-Net' instead of 'Thank you for choosing S-Net'."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "When Astrid explained with obvious distress at [00:08] and [02:00] that an unexpected \u00a318 price hike severely impacted her pension and grocery budget, you jumped straight to citing contract clauses and Ofcom regulations without validating or acknowledging her financial worry."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "You never paraphrased the customer's contract pricing dispute in your own words."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "You asked no diagnostic probing questions regarding the customer's usage, needs, or contract expectations, jumping directly to the retention tier."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (gemini-2.5-pro)",
+    "graded_on": "2026-10-21",
+    "scenario": "Unexpected out-of-contract price rise of \u00a318/mo and dispute over promotional contract terms",
+    "tier": "okay",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Build rapport and observed professionalism"
+    ],
+    "duration_sec": 1097,
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent opened with 'Hello, thanks for calling S-Net customer service' (missing verbatim 'Thank you for calling S-Net') and closed with 'Thanks for being with S-Net' (missing verbatim 'Thank you for choosing S-Net'). Both fail the strict branding rule."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Two managed holds announced ('Bear with me for a couple of minutes', 'Give me a moment') and properly thanked without unmanaged gaps."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Verified postal address and security question answer at [00:35], within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent addressed Astrid by name naturally multiple times throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Hard-case FAIL: Customer expressed acute financial worry and distress over her pension and grocery budget at [00:08] and [02:00], but Agent offered no empathy, apology, or validation, immediately quoting clause 8.2 and regulatory rules."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never restated the dispute or fee grievance in his own words."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent did not repeat any questions and accurately tracked details provided by the customer."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent took ownership of applying the \u00a318 goodwill credit and setting up the new 24-month retention contract without passing the customer to retentions or complaints."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: While brisk, direct, and citing contractual clauses, the Agent remained professional, polite, and calm without becoming rude or sarcastic."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked no diagnostic probing questions regarding Astrid's broadband usage, device requirements, or contract needs."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Customer explicitly confirmed at [13:17] that the \u00a318 refund credit and \u00a331/month renewal completely resolved her query and met her expectations."
+      }
+    ],
+    "markers": {
+      "active_listening": [],
+      "paraphrasing": [],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 6
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,554 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Jenna",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer account services. My name is Toby. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:32]",
+      "start_time_sec": 10,
+      "text": "Hello Toby. I'm calling about our student shared house broadband contract. Our university academic year has finished and four of us are moving out of the flat this Friday, but one student is staying on for a postgraduate course and wants to take over the broadband in her name so we don't get hit with early termination fees.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:35]",
+      "end_time": "[00:47]",
+      "start_time_sec": 35,
+      "text": "I can certainly advise on the account novation process. Can you please confirm the landline telephone number associated with the broadband service?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:50]",
+      "end_time": "[00:55]",
+      "start_time_sec": 50,
+      "text": "Yes, it is 0113 496 0882.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:58]",
+      "end_time": "[01:08]",
+      "start_time_sec": 58,
+      "text": "Thank you. And what is your student union registration ID number or university electronic mail domain?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:11]",
+      "end_time": "[01:39]",
+      "start_time_sec": 71,
+      "text": "My student ID is LUU-882109. Toby, this whole situation has become an absolute nightmare! Two of my flatmates have had a vicious falling-out, packed their bags, and left without paying their final share of the broadband and utility bills! The landlord is threatening to confiscate our entire eight-hundred-pound housing deposit if all utility contracts aren't cleared or transferred by Friday noon! I am completely stressed out and have been crying all morning because I cannot afford to lose my deposit money!",
+      "sentiment_score": -66.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:42]",
+      "end_time": "[01:55]",
+      "start_time_sec": 102,
+      "text": "Account novation transfers all contractual billing rights and obligations from the outgoing account holder to the incoming nominee."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:58]",
+      "end_time": "[02:03]",
+      "start_time_sec": 118,
+      "text": "How do we transfer the contract to the student who is staying?",
+      "sentiment_score": -14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:06]",
+      "end_time": "[02:32]",
+      "start_time_sec": 126,
+      "text": "So if I have understood correctly, your student tenancy is ending this Friday with four housemates departing, and you need the active broadband contract transferred to the remaining postgraduate tenant to avoid early termination charges and clear your landlord obligations. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:35]",
+      "end_time": "[02:41]",
+      "start_time_sec": 155,
+      "text": "Yes, that is exactly what we need to accomplish before Friday.",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:44]",
+      "end_time": "[02:59]",
+      "start_time_sec": 164,
+      "text": "S-Net is not an estate agent or arbitrator; dividing bills among flatmates is strictly your private house dispute and S-Net holds zero responsibility for non-paying roommates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:02]",
+      "end_time": "[03:10]",
+      "start_time_sec": 182,
+      "text": "I am not asking you to chase my flatmates! I just want to transfer the contract into the remaining student's name!",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:13]",
+      "end_time": "[03:24]",
+      "start_time_sec": 193,
+      "text": "Under our terms, account transfers require an electronic Change of Tenancy form signed by both parties."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:27]",
+      "end_time": "[03:32]",
+      "start_time_sec": 207,
+      "text": "What is the incoming student's name and details needed for the form?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:35]",
+      "end_time": "[03:48]",
+      "start_time_sec": 215,
+      "text": "Please provide the incoming tenant's full legal name, date of birth, mobile telephone number, and electronic mail contact details."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:51]",
+      "end_time": "[04:02]",
+      "start_time_sec": 231,
+      "text": "Her name is Priya Patel, born twelfth of May 2002, mobile 07700 900642, and electronic mail priya.patel@leeds.ac.uk.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:05]",
+      "end_time": "[04:14]",
+      "start_time_sec": 245,
+      "text": "I have created the incoming customer profile for Priya Patel on the billing CRM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:17]",
+      "end_time": "[04:21]",
+      "start_time_sec": 257,
+      "text": "Does Priya have to pass a credit check?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:24]",
+      "end_time": "[04:37]",
+      "start_time_sec": 264,
+      "text": "Change of Tenancy transfers on continuing broadband contracts perform a soft identity check with zero impact on credit scores."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:40]",
+      "end_time": "[04:46]",
+      "start_time_sec": 280,
+      "text": "That is a big relief because student credit histories are usually very thin.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:49]",
+      "end_time": "[04:55]",
+      "start_time_sec": 289,
+      "text": "What is the exact target date for the account handover?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:58]",
+      "end_time": "[05:03]",
+      "start_time_sec": 298,
+      "text": "Friday the twenty-eighth of June, at twelve noon.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:06]",
+      "end_time": "[05:15]",
+      "start_time_sec": 306,
+      "text": "The transfer date is scheduled for twelve hundred hours on the twenty-eighth of June."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:18]",
+      "end_time": "[05:25]",
+      "start_time_sec": 318,
+      "text": "What happens to the current S-Net Hub router in the hallway? Does Priya get to keep using it?",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:28]",
+      "end_time": "[05:41]",
+      "start_time_sec": 328,
+      "text": "Hardware remains on-site under equipment novation; Priya inherits the existing Hub 5 and zero service interruption occurs."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:44]",
+      "end_time": "[05:49]",
+      "start_time_sec": 344,
+      "text": "So the WiFi won't disconnect or reboot when the transfer happens?",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:52]",
+      "end_time": "[06:02]",
+      "start_time_sec": 352,
+      "text": "Routing and DSL line sync remain continuously active; only the billing ledger identity changes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:05]",
+      "end_time": "[06:12]",
+      "start_time_sec": 365,
+      "text": "Will Priya keep the existing wireless network name and password on the Hub 5 router?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:15]",
+      "end_time": "[06:29]",
+      "start_time_sec": 375,
+      "text": "The wireless SSID credentials and encryption keys stored in flash memory remain completely unchanged during account novation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:32]",
+      "end_time": "[06:40]",
+      "start_time_sec": 392,
+      "text": "That means her smart TV, wireless printer, and tablet will stay connected automatically without retyping passwords.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:43]",
+      "end_time": "[06:54]",
+      "start_time_sec": 403,
+      "text": "All connected DHCP client leases will transition seamlessly across the billing boundary."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:57]",
+      "end_time": "[07:04]",
+      "start_time_sec": 417,
+      "text": "What about aligning her direct debit date with her student maintenance loan installments?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:07]",
+      "end_time": "[07:21]",
+      "start_time_sec": 427,
+      "text": "Priya can configure her recurring payment collection date on any calendar day between the first and twenty-eighth of each month."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:24]",
+      "end_time": "[07:33]",
+      "start_time_sec": 444,
+      "text": "Student Finance England pays loans in late September, January, and April, so setting payment on the first will suit her perfectly.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:36]",
+      "end_time": "[07:46]",
+      "start_time_sec": 456,
+      "text": "I have designated the default billing collection day as the first of each calendar month."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:49]",
+      "end_time": "[07:55]",
+      "start_time_sec": 469,
+      "text": "Does Priya qualify for a student discount tariff as a continuing postgraduate?",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:58]",
+      "end_time": "[08:12]",
+      "start_time_sec": 478,
+      "text": "Under our University Care programme, validating a student union card provides a five-pound monthly discount on standard fiber tariffs."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:15]",
+      "end_time": "[08:22]",
+      "start_time_sec": 495,
+      "text": "Priya has her NUS Totum card ready, so she can attach that to her online profile.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:25]",
+      "end_time": "[08:33]",
+      "start_time_sec": 505,
+      "text": "What happens to the final bill for June? Who is responsible for that?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:36]",
+      "end_time": "[08:41]",
+      "start_time_sec": 516,
+      "text": "Yes, how is the June bill split between me and Priya?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:44]",
+      "end_time": "[08:57]",
+      "start_time_sec": 524,
+      "text": "A pro-rata closing bill will be calculated for your period of occupancy up to midday Friday and sent to your electronic mail."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:00]",
+      "end_time": "[09:08]",
+      "start_time_sec": 540,
+      "text": "Can I get an official statement confirming the account handover to show our landlord so he releases our deposit?",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:11]",
+      "end_time": "[09:22]",
+      "start_time_sec": 551,
+      "text": "I can generate an official 'Notice of Tenancy Novation' PDF letter addressed to your tenancy reference."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:25]",
+      "end_time": "[09:31]",
+      "start_time_sec": 565,
+      "text": "Please email that letter right away so I can forward it to the letting agency.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:34]",
+      "end_time": "[09:44]",
+      "start_time_sec": 574,
+      "text": "The tenancy novation confirmation letter has been dispatched to your registered electronic mail."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:47]",
+      "end_time": "[09:57]",
+      "start_time_sec": 587,
+      "text": "Checking my inbox... yes, the PDF has arrived with S-Net letterhead! That will satisfy the landlord completely!",
+      "sentiment_score": 48.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:00]",
+      "end_time": "[10:13]",
+      "start_time_sec": 600,
+      "text": "Obviously that confirms your tenancy deposit compliance obligation is formally documented on official corporate records."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:16]",
+      "end_time": "[10:21]",
+      "start_time_sec": 616,
+      "text": "Now what does Priya need to do to complete her side of the setup?",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:24]",
+      "end_time": "[10:37]",
+      "start_time_sec": 624,
+      "text": "Priya will receive a secure DocuSign link via email to enter her bank account sort code and direct debit mandate."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:40]",
+      "end_time": "[10:44]",
+      "start_time_sec": 640,
+      "text": "How long does she have to sign the DocuSign link?",
+      "sentiment_score": 9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:47]",
+      "end_time": "[10:54]",
+      "start_time_sec": 647,
+      "text": "The electronic authorization link remains active for seventy-two hours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:57]",
+      "end_time": "[11:02]",
+      "start_time_sec": 657,
+      "text": "I will tell Priya to look out for that email this afternoon.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:05]",
+      "end_time": "[11:17]",
+      "start_time_sec": 665,
+      "text": "Let us also check the broadband sync rate on the Leeds street cabinet to ensure the connection has no line errors."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:20]",
+      "end_time": "[11:24]",
+      "start_time_sec": 680,
+      "text": "How is the speed looking from your end?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:27]",
+      "end_time": "[11:40]",
+      "start_time_sec": 687,
+      "text": "The VDSL line is synchronized at seventy-six megabits per second download and nineteen megabits upload with zero packet dropouts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:43]",
+      "end_time": "[11:49]",
+      "start_time_sec": 703,
+      "text": "The speed has always been rock-solid for streaming lectures and coursework.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:52]",
+      "end_time": "[12:03]",
+      "start_time_sec": 712,
+      "text": "The SNR noise margin is six point four decibels, indicating clean copper loop parameters."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:06]",
+      "end_time": "[12:12]",
+      "start_time_sec": 726,
+      "text": "Does Priya need to return the router if she relocates after her master's degree?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:15]",
+      "end_time": "[12:29]",
+      "start_time_sec": 735,
+      "text": "If she moves out next summer, she can either transfer service to a new tenancy or return the Hub using a prepaid Royal Mail bag."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:32]",
+      "end_time": "[12:37]",
+      "start_time_sec": 752,
+      "text": "I will leave the original router box in the hallway cupboard for her.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:40]",
+      "end_time": "[12:53]",
+      "start_time_sec": 760,
+      "text": "Just to reconfirm, the incoming tenant's electronic mail contact is priya.patel@leeds.ac.uk, under mobile 07700 900642."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:56]",
+      "end_time": "[13:01]",
+      "start_time_sec": 776,
+      "text": "Yes, priya.patel@leeds.ac.uk. That is completely correct.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:04]",
+      "end_time": "[13:16]",
+      "start_time_sec": 784,
+      "text": "Let us also record your parental home location for any final postal correspondence or closing account certificates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:19]",
+      "end_time": "[13:26]",
+      "start_time_sec": 799,
+      "text": "My parents' house is 5 Elmfield Terrace, York, YO31 1AA.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:29]",
+      "end_time": "[13:38]",
+      "start_time_sec": 809,
+      "text": "I have updated your future correspondence file on the outgoing customer profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:41]",
+      "end_time": "[13:47]",
+      "start_time_sec": 821,
+      "text": "Will my online S-Net account login remain active so I can view past bills?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:50]",
+      "end_time": "[14:03]",
+      "start_time_sec": 830,
+      "text": "Your online customer portal account remains accessible in read-only mode for twelve months following contract transfer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:06]",
+      "end_time": "[14:10]",
+      "start_time_sec": 846,
+      "text": "That is very useful for tax and student records.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:13]",
+      "end_time": "[14:27]",
+      "start_time_sec": 853,
+      "text": "If Priya fails to sign the mandate, do not contact S-Net as ensuring roommate compliance is strictly your own private problem."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:30]",
+      "end_time": "[14:37]",
+      "start_time_sec": 870,
+      "text": "Priya is my best friend, she won't fail to sign it. But there is no need to be so unhelpful.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:39]",
+      "end_time": "[14:45]",
+      "start_time_sec": 879,
+      "text": "Wait, Toby, before we finish, what if Priya wants to upgrade the broadband speed to...",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:47]",
+      "end_time": "[14:55]",
+      "start_time_sec": 887,
+      "text": "She can deal with that after the transfer. Thank you for choosing S-Net. Have a good day. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:57]",
+      "end_time": "[15:02]",
+      "start_time_sec": 897,
+      "text": "Wait, Toby, don't hang up... hello? He hung up!",
+      "sentiment_score": -28.4
+    }
+  ]
+}

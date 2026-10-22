@@ -1,0 +1,182 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Thandiwe",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, this is Jake. How can I help you?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:06]",
+      "end_time": "[00:17]",
+      "start_time_sec": 6,
+      "text": "Hi Jake. My router keeps restarting by itself every few hours, and it cuts off my calls on wifi. It's been happening for a week and I'm fed up.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:18]",
+      "end_time": "[00:25]",
+      "start_time_sec": 18,
+      "text": "A week of that would wear anyone down, I'm sorry, Thandiwe. Can I take your PIN, please?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:26]",
+      "end_time": "[00:28]",
+      "start_time_sec": 26,
+      "text": "9 2 4 1.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:38]",
+      "start_time_sec": 29,
+      "text": "Thank you. So your router has been restarting itself every few hours for a week, and it drops your wifi calls. Is that right?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:41]",
+      "end_time": "[00:43]",
+      "start_time_sec": 41,
+      "text": "Yes.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:44]",
+      "end_time": "[00:47]",
+      "start_time_sec": 44,
+      "text": "Does it restart at particular times, or at random?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:48]",
+      "end_time": "[00:51]",
+      "start_time_sec": 48,
+      "text": "Random, as far as I can tell.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:54]",
+      "end_time": "[00:59]",
+      "start_time_sec": 54,
+      "text": "Is the router somewhere warm, like in a cupboard or next to a radiator?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:02]",
+      "end_time": "[01:05]",
+      "start_time_sec": 62,
+      "text": "It's in a cupboard with the boiler, actually.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:07]",
+      "end_time": "[01:18]",
+      "start_time_sec": 67,
+      "text": "Okay. That could be overheating. Router faults are the hardware team's area, though, so you'd have to call them on their own number, 0800 112 233, for a replacement.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:20]",
+      "end_time": "[01:22]",
+      "start_time_sec": 80,
+      "text": "Can't you just do it?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:24]",
+      "end_time": "[01:34]",
+      "start_time_sec": 84,
+      "text": "I'm afraid it's not something I can book from here. But in the meantime, if you move the router out of the cupboard, it might stop.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:35]",
+      "end_time": "[01:37]",
+      "start_time_sec": 95,
+      "text": "Okay. I'll move it now.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:57]",
+      "end_time": "[02:01]",
+      "start_time_sec": 117,
+      "text": "Right, it's on the hallway shelf now. It's come back on.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:03]",
+      "end_time": "[02:08]",
+      "start_time_sec": 123,
+      "text": "Great. Give it a minute. Is the wifi back on your phone?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:10]",
+      "end_time": "[02:12]",
+      "start_time_sec": 130,
+      "text": "Yes, it's connected.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:13]",
+      "end_time": "[02:18]",
+      "start_time_sec": 133,
+      "text": "Good. Could you make a quick wifi call to check it holds?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:19]",
+      "end_time": "[02:22]",
+      "start_time_sec": 139,
+      "text": "Calling my sister now. Yes, it's working, no drop.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:24]",
+      "end_time": "[02:30]",
+      "start_time_sec": 144,
+      "text": "Lovely, so it's working on the shelf for now. Is that okay for today, Thandiwe?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:33]",
+      "end_time": "[02:35]",
+      "start_time_sec": 153,
+      "text": "Yes, for now.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:36]",
+      "end_time": "[02:39]",
+      "start_time_sec": 156,
+      "text": "Thank you for choosing S-Net. Have a good afternoon.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Chloe",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer care, my name is Diana. How can I assist you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:16]",
+      "end_time": "[00:32]",
+      "start_time_sec": 16,
+      "text": "Hello Diana. I received a letter saying my traditional copper landline is being switched off next month and moved to Digital Voice on my router, and I'm very concerned because I have a medical alert pendant.",
+      "sentiment_score": -29.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:41]",
+      "end_time": "[00:55]",
+      "start_time_sec": 41,
+      "text": "I completely understand your concern, Chloe. When you have a medical alert alarm, having a reliable phone line is absolutely vital, and I will ensure your setup is fully protected and compatible."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:04]",
+      "end_time": "[01:16]",
+      "start_time_sec": 64,
+      "text": "Thank you Diana. That takes a big weight off my mind because the leaflet made it sound like the phone wouldn't work if there was a power cut.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:25]",
+      "end_time": "[01:37]",
+      "start_time_sec": 85,
+      "text": "Before we go through the Digital Voice equipment and emergency backup, Chloe, may I confirm your full home address and your security PIN or mother's maiden name?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:46]",
+      "end_time": "[01:53]",
+      "start_time_sec": 106,
+      "text": "Yes, my address is 7 St Peter's Court, Winchester, SO23 8TP, and my security PIN is 5519.",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:02]",
+      "end_time": "[02:10]",
+      "start_time_sec": 122,
+      "text": "Thank you for verifying your account, Chloe. I have your telephone and broadband account open in front of me."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:19]",
+      "end_time": "[02:22]",
+      "start_time_sec": 139,
+      "text": "Thank you.",
+      "sentiment_score": 3.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:31]",
+      "end_time": "[02:49]",
+      "start_time_sec": 151,
+      "text": "So just to confirm your situation and make sure we cover everything: you received our national Digital Voice migration notice, and your primary concern is ensuring your personal medical alarm pendant continues to function reliably, especially during power failures. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:58]",
+      "end_time": "[03:10]",
+      "start_time_sec": 178,
+      "text": "Yes, exactly that. My son bought me the care pendant after I had a fall last year, and it plugs into the telephone wall socket in my hallway.",
+      "sentiment_score": -8.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:19]",
+      "end_time": "[03:29]",
+      "start_time_sec": 199,
+      "text": "Thank you for explaining that, Chloe. Let me reassure you about how Digital Voice works and what provisions S-Net provides for vulnerable customers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:38]",
+      "end_time": "[03:41]",
+      "start_time_sec": 218,
+      "text": "Okay, I'm listening.",
+      "sentiment_score": 1.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:50]",
+      "end_time": "[04:04]",
+      "start_time_sec": 230,
+      "text": "With Digital Voice, calls travel over your broadband router rather than the old copper network. Your phone handset plugs into the green telephone port on the back of your S-Net Hub router."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:13]",
+      "end_time": "[04:21]",
+      "start_time_sec": 253,
+      "text": "Does my existing cordless phone plug straight in, or do I have to buy an expensive new telephone?",
+      "sentiment_score": -9.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:30]",
+      "end_time": "[04:43]",
+      "start_time_sec": 270,
+      "text": "Your existing cordless phone plugs directly into the green socket using the RJ11 adapter that we supply free of charge. You do not need to buy any new handsets."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:52]",
+      "end_time": "[04:57]",
+      "start_time_sec": 292,
+      "text": "Oh, that's a relief! I was worried my handsets would become useless.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:06]",
+      "end_time": "[05:15]",
+      "start_time_sec": 306,
+      "text": "Now regarding your medical pendant: what is the make or model of the care alarm unit plugged into the hallway wall?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:24]",
+      "end_time": "[05:33]",
+      "start_time_sec": 324,
+      "text": "It's a Tunstall Lifeline Vi unit. It has a big red emergency button on the front and a base speaker.",
+      "sentiment_score": -2.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:42]",
+      "end_time": "[05:52]",
+      "start_time_sec": 342,
+      "text": "The Tunstall Lifeline Vi is fully certified for Digital Voice VoIP migration across the S-Net network. We have tested that specific unit thoroughly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:01]",
+      "end_time": "[06:09]",
+      "start_time_sec": 361,
+      "text": "Does the care alarm plug into the back of the router too, or does it stay in the hallway?",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:18]",
+      "end_time": "[06:33]",
+      "start_time_sec": 378,
+      "text": "There are two options. You can plug the alarm base directly into the router's phone port, or we can send an engineer free of charge to rewire your hallway socket back to the router."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:42]",
+      "end_time": "[06:55]",
+      "start_time_sec": 402,
+      "text": "The router is in the living room next to the television, so having the hallway socket rewired would be much better so the alarm stays in the middle of the bungalow.",
+      "sentiment_score": 8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:04]",
+      "end_time": "[07:15]",
+      "start_time_sec": 424,
+      "text": "I will book our specialist home telephony technician to carry out that internal wiring conversion for you at zero charge under our vulnerable customer charter."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:24]",
+      "end_time": "[07:36]",
+      "start_time_sec": 444,
+      "text": "That is wonderful service, Diana. But what happens if the electricity goes off in a storm? The old phone used to work even in a power cut.",
+      "sentiment_score": -19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:45]",
+      "end_time": "[07:53]",
+      "start_time_sec": 465,
+      "text": "Because routers require electricity to operate, S-Net provides a complimentary Battery Backup Unit for customers with medical care alarms."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:02]",
+      "end_time": "[08:05]",
+      "start_time_sec": 482,
+      "text": "A battery backup unit? How does that work?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:14]",
+      "end_time": "[08:30]",
+      "start_time_sec": 494,
+      "text": "It is an uninterruptible power supply that connects between your wall socket and your Hub router. If mains power fails, the battery engages instantly and keeps your phone and care alarm powered for over four hours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:39]",
+      "end_time": "[08:47]",
+      "start_time_sec": 519,
+      "text": "Four hours is more than enough time for any local power cuts. Does that get delivered before the switchover?",
+      "sentiment_score": 19.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:56]",
+      "end_time": "[09:06]",
+      "start_time_sec": 536,
+      "text": "Yes, I will arrange for the Battery Backup Unit to be dispatched immediately, and the technician will install and test it during the visit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:15]",
+      "end_time": "[09:22]",
+      "start_time_sec": 555,
+      "text": "Do I need to inform the care alarm monitoring company about the Digital Voice switch?",
+      "sentiment_score": -3.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:31]",
+      "end_time": "[09:44]",
+      "start_time_sec": 571,
+      "text": "Yes, it is good practice to press the red pendant button while our technician is there so you can speak to the monitoring center and confirm two-way voice clarity."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:53]",
+      "end_time": "[09:56]",
+      "start_time_sec": 593,
+      "text": "That sounds like a very sensible plan.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:05]",
+      "end_time": "[10:09]",
+      "start_time_sec": 605,
+      "text": "Is there also an extension phone in your bedroom, Chloe?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:18]",
+      "end_time": "[10:23]",
+      "start_time_sec": 618,
+      "text": "Yes, I have a small bedside telephone in the bedroom as well.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:32]",
+      "end_time": "[10:41]",
+      "start_time_sec": 632,
+      "text": "The technician will voice-reinject the bedroom socket as part of the internal wiring work so that extension keeps ringing too."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:50]",
+      "end_time": "[10:56]",
+      "start_time_sec": 650,
+      "text": "Oh, that's wonderful. I was afraid I wouldn't hear the telephone from the bedroom.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:05]",
+      "end_time": "[11:12]",
+      "start_time_sec": 665,
+      "text": "What about features like Call Waiting and Caller Display? Do you use those on your landline?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:21]",
+      "end_time": "[11:28]",
+      "start_time_sec": 681,
+      "text": "Yes, I rely on Caller Display so I can see when my daughter is calling.",
+      "sentiment_score": 9.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:36]",
+      "end_time": "[11:44]",
+      "start_time_sec": 696,
+      "text": "All your existing call features, including Caller Display, 1471 last call return, and 1571 voicemail will carry over automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:52]",
+      "end_time": "[11:58]",
+      "start_time_sec": 712,
+      "text": "And does the monthly line rental price change at all with Digital Voice?",
+      "sentiment_score": -2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:06]",
+      "end_time": "[12:12]",
+      "start_time_sec": 726,
+      "text": "No, Chloe. Your monthly bill and call package tariff will remain completely unchanged."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:20]",
+      "end_time": "[12:26]",
+      "start_time_sec": 740,
+      "text": "That is very reassuring to hear. Energy bills are high enough as it is.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:34]",
+      "end_time": "[12:46]",
+      "start_time_sec": 754,
+      "text": "Please bear with me while I place you on a brief hold for about two minutes while I log your medical priority flag and schedule the engineer appointment."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:10]",
+      "end_time": "[14:17]",
+      "start_time_sec": 850,
+      "text": "Thank you so much for your patience while waiting, Chloe. I have completed your priority registration."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:25]",
+      "end_time": "[14:29]",
+      "start_time_sec": 865,
+      "text": "Thank you, Diana. What date did you manage to get?",
+      "sentiment_score": 12.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:37]",
+      "end_time": "[14:46]",
+      "start_time_sec": 877,
+      "text": "Our technician is booked for Tuesday the twelfth of next month between nine in the morning and one in the afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:54]",
+      "end_time": "[15:00]",
+      "start_time_sec": 894,
+      "text": "Tuesday morning is perfect, my daughter will be here with me then as well.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:08]",
+      "end_time": "[15:18]",
+      "start_time_sec": 908,
+      "text": "I have also noted on the job sheet that the technician must test the Tunstall Lifeline pendant and demonstrate the battery backup unit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:26]",
+      "end_time": "[15:33]",
+      "start_time_sec": 926,
+      "text": "That gives me so much peace of mind, Diana. I was honestly losing sleep over this letter.",
+      "sentiment_score": 28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:41]",
+      "end_time": "[15:48]",
+      "start_time_sec": 941,
+      "text": "I'm so glad we could put your mind at ease, Chloe. Your safety is our top priority."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:56]",
+      "end_time": "[15:59]",
+      "start_time_sec": 956,
+      "text": "Will my telephone number stay the exact same?",
+      "sentiment_score": -1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:07]",
+      "end_time": "[16:16]",
+      "start_time_sec": 967,
+      "text": "Yes, your telephone number will remain exactly the same. There will be zero interruption to incoming calls from friends or family."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:24]",
+      "end_time": "[16:30]",
+      "start_time_sec": 984,
+      "text": "And will the dial tone sound the same when I pick up the receiver?",
+      "sentiment_score": 5.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:38]",
+      "end_time": "[16:48]",
+      "start_time_sec": 998,
+      "text": "Yes, you will hear the exact same standard UK dial tone, and 999 emergency services will see your exact home address automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:56]",
+      "end_time": "[17:00]",
+      "start_time_sec": 1016,
+      "text": "Should I test the pendant once a month after installation?",
+      "sentiment_score": 8.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:08]",
+      "end_time": "[17:15]",
+      "start_time_sec": 1028,
+      "text": "Yes, pressing the test button once on the first Monday of each month is recommended by Tunstall."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:23]",
+      "end_time": "[17:27]",
+      "start_time_sec": 1043,
+      "text": "Brilliant. You have explained everything so clearly and kindly.",
+      "sentiment_score": 31.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:35]",
+      "end_time": "[17:45]",
+      "start_time_sec": 1055,
+      "text": "It was my pleasure helping you today, Chloe. Is there anything else about Digital Voice or your account that you'd like to check?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:53]",
+      "end_time": "[18:00]",
+      "start_time_sec": 1073,
+      "text": "No, Diana, you have covered every single detail. Thank you from the bottom of my heart.",
+      "sentiment_score": 26.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:08]",
+      "end_time": "[18:19]",
+      "start_time_sec": 1088,
+      "text": "Thank you for choosing S-Net today, Chloe. Take care, have a lovely rest of your day, and look out for the confirmation letter in the post."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:27]",
+      "end_time": "[18:30]",
+      "start_time_sec": 1107,
+      "text": "Thank you Diana, goodbye.",
+      "sentiment_score": 20.1
+    }
+  ]
+}

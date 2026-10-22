@@ -1,0 +1,447 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Declan",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer service, my name is Gary. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:16]",
+      "end_time": "[00:30]",
+      "start_time_sec": 16,
+      "text": "Hi Gary. I am absolutely furious. I cancelled my S-Net broadband back in July, sent the equipment back, and today I see a direct debit of fifty-four pounds ninety taken from my account!",
+      "sentiment_score": -45.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:39]",
+      "end_time": "[00:52]",
+      "start_time_sec": 39,
+      "text": "Right, I can look into your account records, but I need to get through security first. Can you give me your full name and the first line of your address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:01]",
+      "end_time": "[01:04]",
+      "start_time_sec": 61,
+      "text": "Declan Doherty, 44 Windmill Court, Leeds, LS6 2TR.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:13]",
+      "end_time": "[01:18]",
+      "start_time_sec": 73,
+      "text": "And can you confirm the four-digit security PIN on the account, Declan?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:27]",
+      "end_time": "[01:30]",
+      "start_time_sec": 87,
+      "text": "It's 8831.",
+      "sentiment_score": -8.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:39]",
+      "end_time": "[01:44]",
+      "start_time_sec": 99,
+      "text": "And what was the contact telephone number listed on the contract?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:53]",
+      "end_time": "[01:56]",
+      "start_time_sec": 113,
+      "text": "It's 07700 900341.",
+      "sentiment_score": -5.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:05]",
+      "end_time": "[02:13]",
+      "start_time_sec": 125,
+      "text": "Thank you. Let me pull up the billing ledger for your cancelled account. Bear with me for a moment."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:55]",
+      "end_time": "[03:05]",
+      "start_time_sec": 175,
+      "text": "Thank you for waiting. I can see the account ceased on July twenty-fourth, but an automated equipment recovery fee was triggered on October fifteenth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:14]",
+      "end_time": "[03:23]",
+      "start_time_sec": 194,
+      "text": "An equipment fee? That's ridiculous! I posted the router back in the prepaid box the very next week after cancellation!",
+      "sentiment_score": -38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:32]",
+      "end_time": "[03:46]",
+      "start_time_sec": 212,
+      "text": "Well, that direct debit was generated automatically by the central finance platform. That's entirely handled by automated banking clearing, so it's not our department's problem if the direct debit mandate was left open."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:55]",
+      "end_time": "[04:02]",
+      "start_time_sec": 235,
+      "text": "What do you mean it's not your problem? S-Net took money from my current account without permission!",
+      "sentiment_score": -48.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:11]",
+      "end_time": "[04:21]",
+      "start_time_sec": 251,
+      "text": "If you don't keep track of your own bank mandates, you can hardly expect us to mind your bank account for you."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:30]",
+      "end_time": "[04:40]",
+      "start_time_sec": 270,
+      "text": "Are you serious? You told me in your cancellation letter that S-Net would close the direct debit once the final statement cleared!",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:49]",
+      "end_time": "[04:58]",
+      "start_time_sec": 289,
+      "text": "As I said, the warehouse system had not marked the serial number as checked in, which is why the charge generated."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:07]",
+      "end_time": "[05:18]",
+      "start_time_sec": 307,
+      "text": "I have the Royal Mail tracking slip right here in my hand from August third. Delivered and signed for at your logistics centre in Rugby.",
+      "sentiment_score": -15.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:27]",
+      "end_time": "[05:31]",
+      "start_time_sec": 327,
+      "text": "Okay, give me that Royal Mail tracking number then."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:40]",
+      "end_time": "[05:43]",
+      "start_time_sec": 340,
+      "text": "It is JZ 441 902 881 GB.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:52]",
+      "end_time": "[05:57]",
+      "start_time_sec": 352,
+      "text": "Let me write that down. JZ 441 902 881 GB, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:06]",
+      "end_time": "[06:09]",
+      "start_time_sec": 366,
+      "text": "Yes, that's it.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:18]",
+      "end_time": "[06:24]",
+      "start_time_sec": 378,
+      "text": "And what date did you drop it off at the Post Office branch?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:33]",
+      "end_time": "[06:37]",
+      "start_time_sec": 393,
+      "text": "August first, around lunchtime. The post office on Headingley Lane.",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:46]",
+      "end_time": "[06:51]",
+      "start_time_sec": 406,
+      "text": "Hold on while I check the logistics depot database. Bear with me."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:31]",
+      "end_time": "[07:46]",
+      "start_time_sec": 451,
+      "text": "Thanks for bearing with me, Declan. I've located the parcel intake in Rugby. The barcode was scanned on August fifth, but the depot clerk failed to link the asset tag to your account profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:55]",
+      "end_time": "[08:07]",
+      "start_time_sec": 475,
+      "text": "So your warehouse made a mistake, and you took fifty-five quid out of my pocket three months later. I cannot believe the sheer incompetence of this company!",
+      "sentiment_score": -36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:16]",
+      "end_time": "[08:22]",
+      "start_time_sec": 496,
+      "text": "The system showed an unreturned Hub 4. That is why the billing run processed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:31]",
+      "end_time": "[08:38]",
+      "start_time_sec": 511,
+      "text": "I want that money refunded back to my bank immediately. I have mortgage payments due on Friday.",
+      "sentiment_score": -25.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:47]",
+      "end_time": "[08:54]",
+      "start_time_sec": 527,
+      "text": "I cannot do an instant BACS recall. Standard bank refund takes three to five working days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:03]",
+      "end_time": "[09:12]",
+      "start_time_sec": 543,
+      "text": "Can you refund it to my debit card directly? Your colleague did that once when there was an overcharge last year.",
+      "sentiment_score": -12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:21]",
+      "end_time": "[09:31]",
+      "start_time_sec": 561,
+      "text": "I can check if the merchant gateway allows an immediate card refund. What are the last four digits of the card registered on file?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:40]",
+      "end_time": "[09:43]",
+      "start_time_sec": 580,
+      "text": "It's 4102.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:52]",
+      "end_time": "[10:00]",
+      "start_time_sec": 592,
+      "text": "Just to confirm, Declan, that's the Visa debit ending in 4102 that was used for your monthly payments?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:09]",
+      "end_time": "[10:12]",
+      "start_time_sec": 609,
+      "text": "Yes, that's the one.",
+      "sentiment_score": 2.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:21]",
+      "end_time": "[10:27]",
+      "start_time_sec": 621,
+      "text": "And what is the expiry date showing on the front of that card?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:36]",
+      "end_time": "[10:39]",
+      "start_time_sec": 636,
+      "text": "November twenty-seven.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:48]",
+      "end_time": "[10:53]",
+      "start_time_sec": 648,
+      "text": "One moment while I process the credit authorization. Bear with me."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:31]",
+      "end_time": "[11:41]",
+      "start_time_sec": 691,
+      "text": "Thank you for your patience. I have processed an immediate refund of fifty-four pounds ninety pence back to your Visa ending 4102."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:50]",
+      "end_time": "[11:53]",
+      "start_time_sec": 710,
+      "text": "How quickly does that card transaction show up?",
+      "sentiment_score": -8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:02]",
+      "end_time": "[12:09]",
+      "start_time_sec": 722,
+      "text": "Card merchant refunds usually reflect in available funds within two hours, depending on your bank's clearing cycle."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:18]",
+      "end_time": "[12:23]",
+      "start_time_sec": 738,
+      "text": "Has the direct debit mandate been cancelled on your side as well?",
+      "sentiment_score": -10.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:32]",
+      "end_time": "[12:40]",
+      "start_time_sec": 752,
+      "text": "Yes, I have locked the billing profile to archived status and cancelled the direct debit instruction with BACS."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:49]",
+      "end_time": "[12:54]",
+      "start_time_sec": 769,
+      "text": "Will I get any further letters or collection notices about this?",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:03]",
+      "end_time": "[13:10]",
+      "start_time_sec": 783,
+      "text": "No, the account balance is now at absolute zero, and the equipment flag is marked as returned."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:19]",
+      "end_time": "[13:26]",
+      "start_time_sec": 799,
+      "text": "Can you send me an email confirmation so I have written proof of the refund and closure?",
+      "sentiment_score": -5.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:35]",
+      "end_time": "[13:46]",
+      "start_time_sec": 815,
+      "text": "I am generating the formal credit memo right now. It is being sent to your email on file, d.doherty at fastmail dot co dot uk."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:55]",
+      "end_time": "[14:02]",
+      "start_time_sec": 835,
+      "text": "Let me check my phone to make sure it arrives before we finish this call.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:21]",
+      "end_time": "[14:25]",
+      "start_time_sec": 861,
+      "text": "Take your time, let me know when your inbox updates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:34]",
+      "end_time": "[14:39]",
+      "start_time_sec": 874,
+      "text": "Still waiting for it to come through. It usually takes a minute.",
+      "sentiment_score": 3.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:54]",
+      "end_time": "[14:58]",
+      "start_time_sec": 894,
+      "text": "It was dispatched from our billing mailer thirty seconds ago."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:07]",
+      "end_time": "[15:13]",
+      "start_time_sec": 907,
+      "text": "Okay, the email just popped up. Credit note reference CN-88219 for fifty-four pounds ninety.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:22]",
+      "end_time": "[15:29]",
+      "start_time_sec": 922,
+      "text": "Can you confirm you see the zero balance and the refund confirmation on that document?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:38]",
+      "end_time": "[15:44]",
+      "start_time_sec": 938,
+      "text": "Yes, I can see the transaction reference and the refund amount clearly. Thank you.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:53]",
+      "end_time": "[16:00]",
+      "start_time_sec": 953,
+      "text": "And you can see that the direct debit mandate cancellation is noted at the bottom?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:09]",
+      "end_time": "[16:14]",
+      "start_time_sec": 969,
+      "text": "Yes, it says direct debit instruction cancelled with BACS reference 9904.",
+      "sentiment_score": 21.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:23]",
+      "end_time": "[16:28]",
+      "start_time_sec": 983,
+      "text": "Is there anything else I can assist you with today, Declan?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:37]",
+      "end_time": "[16:42]",
+      "start_time_sec": 997,
+      "text": "No, as long as no more surprise charges appear, that's everything sorted.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:51]",
+      "end_time": "[16:54]",
+      "start_time_sec": 1011,
+      "text": "Understood. Thank you for choosing S-Net, goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:03]",
+      "end_time": "[17:06]",
+      "start_time_sec": 1023,
+      "text": "Goodbye Gary.",
+      "sentiment_score": 9.4
+    }
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Devika",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Good morning, thank you for calling S-Net Account Security and Support. My name is Natasha. How can I assist you today?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:29]",
+      "start_time_sec": 11,
+      "text": "Natasha, please help me, my name is Devika and I am shaking right now! Twenty minutes ago I got an email saying an order for a twelve-hundred-pound iPhone 16 Pro Max was placed on my S-Net account after I clicked a fake parcel text!",
+      "sentiment_score": -48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:34]",
+      "end_time": "[00:48]",
+      "start_time_sec": 34,
+      "text": "I will lock down your S-Net profile and investigate that hardware upgrade order immediately, Devika. First, please state your full residential address, your four-digit security PIN, and the answer to your security question on file.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:52]",
+      "end_time": "[01:08]",
+      "start_time_sec": 52,
+      "text": "Yes, my address is 84 Cranbrook Park Road, Ilford—no wait, I live at 14 Vicarage Lane, Guildford, GU1 4QT! Ilford is the fake address on the order email! My PIN is 5508 and my security question answer is Bluebell.",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:13]",
+      "end_time": "[01:25]",
+      "start_time_sec": 73,
+      "text": "Thank you for verifying your address in Guildford, your PIN, and your security question, Devika. I have opened your account and applied an immediate administrative freeze on all outbound account modifications.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:29]",
+      "end_time": "[01:44]",
+      "start_time_sec": 89,
+      "text": "Oh god, thank you. They are trying to ship a titanium iPhone 16 Pro Max on a twenty-four month contract to 84 Cranbrook Park Road in Ilford, and I have never been to Ilford in my life!",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:50]",
+      "end_time": "[02:11]",
+      "start_time_sec": 110,
+      "text": "So to summarize what has happened, Devika: after you clicked a link in a bogus parcel-delivery text message, an unauthorized party accessed your My S-Net portal, altered the delivery destination to 84 Cranbrook Park Road in Ilford, and submitted a fraudulent upgrade order for an iPhone 16 Pro Max, is that accurate?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:18]",
+      "end_time": "[02:31]",
+      "start_time_sec": 138,
+      "text": "Yes, that is exactly what happened! And two minutes after the order email arrived, I got another email saying a request to transfer my mobile number onto a new eSIM had been submitted!",
+      "sentiment_score": -48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:36]",
+      "end_time": "[02:47]",
+      "start_time_sec": 156,
+      "text": "That eSIM transfer alert is critical information, Devika. I need to ask you a few specific questions right now to map the full scope of the unauthorized access.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:52]",
+      "end_time": "[02:59]",
+      "start_time_sec": 172,
+      "text": "Yes, ask me whatever you need, please just stop them from stealing my phone number and my money!",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:03]",
+      "end_time": "[03:13]",
+      "start_time_sec": 183,
+      "text": "First, at what time did you receive and click the fake parcel-delivery text message, and what details did the webpage ask you to type in?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:18]",
+      "end_time": "[03:34]",
+      "start_time_sec": 198,
+      "text": "The text came through at 08:14 this morning claiming a Royal Mail parcel needed a £1.45 redelivery fee, and right after I entered my email and password, a screen popped up asking for my S-Net login and a six-digit one-time code.",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:40]",
+      "end_time": "[03:47]",
+      "start_time_sec": 220,
+      "text": "Did you enter that six-digit one-time passcode onto the webpage when it arrived on your handset, Devika?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:51]",
+      "end_time": "[04:02]",
+      "start_time_sec": 231,
+      "text": "Yes, I feel so foolish now, I typed the six-digit code in at 08:17 before I realized a parcel company would never ask for an S-Net verification code!",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:07]",
+      "end_time": "[04:16]",
+      "start_time_sec": 247,
+      "text": "Second question, Devika: do you use the exact same password for your personal email inbox that you used for your My S-Net login?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:20]",
+      "end_time": "[04:28]",
+      "start_time_sec": 260,
+      "text": "No, thank goodness—my Gmail account has a completely separate password and uses a hardware passkey on my fingerprint sensor.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:32]",
+      "end_time": "[04:44]",
+      "start_time_sec": 272,
+      "text": "Third question: do you still have active mobile signal bars and data connectivity on your handset right now, or has your phone dropped to 'SOS Only' or 'No Service'?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:49]",
+      "end_time": "[05:01]",
+      "start_time_sec": 289,
+      "text": "I am looking at the top corner of my screen right now and I still have four bars of S-Net 5G, and I am calling you from my mobile number.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:06]",
+      "end_time": "[05:21]",
+      "start_time_sec": 306,
+      "text": "Good, that means the sixty-minute fraud hold timer on the pending eSIM swap has not completed yet. Fourth question: did you also enter a bank debit or credit card number on the phishing page for that £1.45 fee?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:27]",
+      "end_time": "[05:39]",
+      "start_time_sec": 327,
+      "text": "Yes, I put my Monzo debit card details in, and I have already frozen my Monzo card in my banking app while my phone was ringing through to you.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:44]",
+      "end_time": "[05:54]",
+      "start_time_sec": 344,
+      "text": "Have you seen any unauthorized direct debit mandates or upfront handset charges from S-Net or any unknown merchant appear in your Monzo app this morning?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:59]",
+      "end_time": "[06:09]",
+      "start_time_sec": 359,
+      "text": "There was a thirty-pound upfront hardware charge attempted at 08:29, which Monzo blocked because I had just hit the freeze button two minutes earlier.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:14]",
+      "end_time": "[06:28]",
+      "start_time_sec": 374,
+      "text": "Wait, let me examine the order log on your S-Net account, Devika. Even though the thirty-pound card payment declined, the attacker re-submitted order ORD-9920418 at 08:32 using the 'Add Upfront Cost to Next Monthly Bill' option.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:33]",
+      "end_time": "[06:39]",
+      "start_time_sec": 393,
+      "text": "What?! So the order for the twelve-hundred-pound iPhone actually went through onto my bill anyway?!",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:43]",
+      "end_time": "[06:56]",
+      "start_time_sec": 403,
+      "text": "Yes, order ORD-9920418 for an iPhone 16 Pro Max 256GB in Natural Titanium was accepted into the automated fulfillment queue at 08:32 for next-day DPD courier dispatch to 84 Cranbrook Park Road, Ilford.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:01]",
+      "end_time": "[07:09]",
+      "start_time_sec": 421,
+      "text": "Can you cancel it right now before it leaves the warehouse?! Please tell me it hasn't been shipped yet!",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:13]",
+      "end_time": "[07:26]",
+      "start_time_sec": 433,
+      "text": "The order status currently shows 'Allocated at National Distribution Hub — Awaiting Pick'. I am going to contact our warehouse dispatch desk and our SIM provisioning switch right now to intercept both requests.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:31]",
+      "end_time": "[07:37]",
+      "start_time_sec": 451,
+      "text": "Did the hacker change anything else inside my S-Net account while they were logged in?",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:41]",
+      "end_time": "[07:52]",
+      "start_time_sec": 461,
+      "text": "Looking at the audit trail from 08:18, the attacker added a secondary recovery email address—'k.resell.ldn88@proton.me'—and registered an unrecognized browser session from an IP address in East London.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:57]",
+      "end_time": "[08:04]",
+      "start_time_sec": 477,
+      "text": "That definitely isn't mine! Can you wipe that ProtonMail address and kick their device off my account?",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:08]",
+      "end_time": "[08:18]",
+      "start_time_sec": 488,
+      "text": "I will purge the rogue recovery email, revoke all active OAuth login tokens across every device, abort the pending eSIM transfer, and recall warehouse order ORD-9920418.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:23]",
+      "end_time": "[08:26]",
+      "start_time_sec": 503,
+      "text": "Okay, please do all of that right away.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:29]",
+      "end_time": "[08:43]",
+      "start_time_sec": 509,
+      "text": "May I place you on a brief hold for about one minute while I call the warehouse dispatch controller to void the DPD consignment and execute the emergency eSIM kill-switch on your line, Devika?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:48]",
+      "end_time": "[08:53]",
+      "start_time_sec": 528,
+      "text": "Yes, please go ahead, I will stay right here on the line.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:00]",
+      "end_time": "[10:13]",
+      "start_time_sec": 600,
+      "text": "Thank you for holding, Devika. I have spoken with the warehouse dispatch desk and confirmed that order ORD-9920418 has been permanently cancelled and pulled from the DPD picking queue under cancellation code FRD-STOP-409.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:18]",
+      "end_time": "[10:26]",
+      "start_time_sec": 618,
+      "text": "Thank goodness the iPhone won't be sent to Ilford! What about the eSIM swap and the hacker's login session?",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:30]",
+      "end_time": "[10:41]",
+      "start_time_sec": 630,
+      "text": "I have aborted the pending eSIM provisioning job ESIM-88310 before activation, so your physical SIM card in your handset remains the sole active SIM on your mobile number.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:46]",
+      "end_time": "[10:54]",
+      "start_time_sec": 646,
+      "text": "And have you kicked their East London browser session off my My S-Net account and removed that ProtonMail recovery address?",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:58]",
+      "end_time": "[11:08]",
+      "start_time_sec": 658,
+      "text": "Yes, Devika. I executed a global token revocation at 09:04, which forcibly terminated the East London session, and I deleted 'k.resell.ldn88@proton.me' from your contact profile.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:13]",
+      "end_time": "[11:25]",
+      "start_time_sec": 673,
+      "text": "Can you also put a permanent port-out and SIM-swap lock on my account so nobody can ever request an eSIM or PAC code online again without speaking to the fraud team?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:30]",
+      "end_time": "[11:41]",
+      "start_time_sec": 690,
+      "text": "I have just enabled a High-Risk Port & SIM-Swap Lock on your subscriber line. Any future SIM replacement or PAC request now requires in-store photographic ID verification.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:46]",
+      "end_time": "[11:57]",
+      "start_time_sec": 706,
+      "text": "What about my My S-Net password and my four-digit security PIN? Since the phishing site saw my password, we need to change both of those too, right?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:02]",
+      "end_time": "[12:13]",
+      "start_time_sec": 722,
+      "text": "Correct, Devika. Let us update your four-digit voice security PIN first. Please choose a new four-digit number that does not repeat digits or match your birth year.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:18]",
+      "end_time": "[12:21]",
+      "start_time_sec": 738,
+      "text": "Let's change my four-digit security PIN to 9264.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:24]",
+      "end_time": "[12:31]",
+      "start_time_sec": 744,
+      "text": "I have updated your voice security PIN to 9264 and removed the previous PIN 5508 from your record.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:35]",
+      "end_time": "[12:39]",
+      "start_time_sec": 755,
+      "text": "Great, and how do I reset my My S-Net online password?",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:42]",
+      "end_time": "[12:52]",
+      "start_time_sec": 762,
+      "text": "I have invalidated your compromised password and dispatched a single-use encrypted password-reset link to your verified Gmail address, along with a mandatory authenticator-app 2FA enrollment prompt.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:57]",
+      "end_time": "[13:10]",
+      "start_time_sec": 777,
+      "text": "Wait, let me check my credit file impact as well—when the attacker submitted that twenty-four month iPhone 16 Pro Max contract at 08:32, did S-Net run a hard credit check on my name?",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:15]",
+      "end_time": "[13:20]",
+      "start_time_sec": 795,
+      "text": "Let me check the credit bureau ledger attached to order ORD-9920418, Devika.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:24]",
+      "end_time": "[13:35]",
+      "start_time_sec": 804,
+      "text": "I am applying for a mortgage remortgage next month, so an unauthorized hard credit search or a twelve-hundred-pound finance agreement on my credit file will ruin my application!",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:40]",
+      "end_time": "[13:52]",
+      "start_time_sec": 820,
+      "text": "The system did record an automated credit agreement execution ref CCA-771039 and logged a hard search footprint with Equifax and Experian when the upgrade order was submitted at 08:32.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:57]",
+      "end_time": "[14:06]",
+      "start_time_sec": 837,
+      "text": "Can you delete that credit agreement and wipe the hard search off Equifax and Experian right now since you cancelled the fraudulent order?",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:10]",
+      "end_time": "[14:26]",
+      "start_time_sec": 850,
+      "text": "As a front-line security advisor, I can cancel the warehouse shipment and lock the SIM, Devika, but unwinding the signed Consumer Credit Act ledger and instructing Equifax and Experian to delete a hard search footprint requires our back-office Fraud Operations team.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:32]",
+      "end_time": "[14:42]",
+      "start_time_sec": 872,
+      "text": "Oh no, how long does the back-office Fraud Operations team take to wipe the credit agreement and clear the thirty-pound upfront charge off my pending bill?",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:47]",
+      "end_time": "[15:02]",
+      "start_time_sec": 887,
+      "text": "I have raised priority fraud indemnity dossier FRD-2026-88412 for you, Devika. The Fraud Operations team takes up to forty-eight hours to void credit agreement CCA-771039, remove the thirty-pound pending bill charge, and submit the bureau amendment file.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:08]",
+      "end_time": "[15:20]",
+      "start_time_sec": 908,
+      "text": "So right now, if I look at my S-Net account, that thirty-pound charge and the new credit agreement are still showing until the fraud team processes your ticket within forty-eight hours?",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:25]",
+      "end_time": "[15:37]",
+      "start_time_sec": 925,
+      "text": "Yes, the thirty-pound pending debit and agreement CCA-771039 remain visible in a 'Disputed — Fraud Hold' state on your billing ledger until Fraud Operations completes the indemnity discharge within forty-eight hours.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:42]",
+      "end_time": "[15:54]",
+      "start_time_sec": 942,
+      "text": "Will they send me a formal letter confirming it was fraudulent so I can show my mortgage broker if the hard search is still showing on Experian this week?",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:59]",
+      "end_time": "[16:11]",
+      "start_time_sec": 959,
+      "text": "Yes, I have ticked the 'Urgent Mortgage Underwriting Disclaim Letter' box on dossier FRD-2026-88412 so Fraud Operations emails you a signed PDF indemnity confirmation as soon as the ledger is cleared.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:16]",
+      "end_time": "[16:26]",
+      "start_time_sec": 976,
+      "text": "Should I also click the password reset link in my Gmail right now and test logging back into My S-Net before we hang up?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:31]",
+      "end_time": "[16:45]",
+      "start_time_sec": 991,
+      "text": "The single-use reset link stays valid for sixty minutes, Devika, so you can click it and configure your authenticator app after we finish the call once the security gateway finishes propagating the token purge.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:50]",
+      "end_time": "[16:58]",
+      "start_time_sec": 1010,
+      "text": "Oh, so I can't even log into My S-Net right now on the call to check that my new password works?",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:02]",
+      "end_time": "[17:13]",
+      "start_time_sec": 1022,
+      "text": "Because I triggered a global OAuth token purge at 09:04, the identity gateway enforces a fifteen-minute cooldown before accepting a new password creation on your profile, Devika.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:18]",
+      "end_time": "[17:31]",
+      "start_time_sec": 1038,
+      "text": "Okay, I see. So I have to wait fifteen minutes to set my new password, and up to forty-eight hours for the fraud team to remove the thirty-pound charge and credit agreement.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:36]",
+      "end_time": "[17:46]",
+      "start_time_sec": 1056,
+      "text": "Correct. To recap all reference numbers I have logged for you today, Devika: warehouse cancellation FRD-STOP-409, aborted eSIM job ESIM-88310, and Fraud Operations indemnity dossier FRD-2026-88412.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:51]",
+      "end_time": "[17:56]",
+      "start_time_sec": 1071,
+      "text": "I have written all three of those reference numbers down on my notepad.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:00]",
+      "end_time": "[18:08]",
+      "start_time_sec": 1080,
+      "text": "I have also sent an SMS summary containing those three reference numbers to your mobile handset for your records, Devika.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:12]",
+      "end_time": "[18:16]",
+      "start_time_sec": 1092,
+      "text": "Yes, that text message just arrived on my phone.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:19]",
+      "end_time": "[18:29]",
+      "start_time_sec": 1099,
+      "text": "Please also forward the original fake parcel-delivery text message to 7726 so our network security carrier filters can block the phishing domain across S-Net.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:34]",
+      "end_time": "[18:39]",
+      "start_time_sec": 1114,
+      "text": "I will forward the text to 7726 as soon as we finish speaking.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:43]",
+      "end_time": "[18:49]",
+      "start_time_sec": 1123,
+      "text": "Is there anything else you need me to record on fraud dossier FRD-2026-88412 today, Devika?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:53]",
+      "end_time": "[19:03]",
+      "start_time_sec": 1133,
+      "text": "No, I think that covers everything. I will reset my login in fifteen minutes and wait for the Fraud Operations email within forty-eight hours.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[19:08]",
+      "end_time": "[19:18]",
+      "start_time_sec": 1148,
+      "text": "Thank you for choosing S-Net, Devika. Our Fraud Operations team will email you within forty-eight hours once the credit agreement and bureau records are expunged. Goodbye.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:23]",
+      "end_time": "[19:25]",
+      "start_time_sec": 1163,
+      "text": "Thank you Natasha, goodbye.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[19:28]",
+      "end_time": "[19:30]",
+      "start_time_sec": 1168,
+      "text": "Goodbye, Devika.",
+      "sentiment_score": 10.0
+    }
+  ]
+}

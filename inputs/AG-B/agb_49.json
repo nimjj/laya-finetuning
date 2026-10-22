@@ -1,0 +1,486 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Yvonne",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer technical support. My name is Scott. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:14]",
+      "end_time": "[00:38]",
+      "start_time_sec": 14,
+      "text": "Hello Scott. I am calling to get an ongoing, intolerable speed problem investigated and resolved. We pay sixty-five pounds a month for S-Net's Superfast Fibre 80 package with a guaranteed minimum download speed of sixty-two megabits per second, but every single afternoon between one PM and five PM, our broadband throughput plunges down to barely twelve megabits!",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:45]",
+      "end_time": "[00:58]",
+      "start_time_sec": 45,
+      "text": "I can certainly look into your broadband line performance, Yvonne. Can you provide your customer account reference number and the model of your broadband Hub?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:05]",
+      "end_time": "[01:11]",
+      "start_time_sec": 65,
+      "text": "My account reference is ACC-449102 and the router is the Hub 5.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:18]",
+      "end_time": "[01:26]",
+      "start_time_sec": 78,
+      "text": "Thank you Yvonne, that brings up the broadband circuit file. What is your landline telephone number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:33]",
+      "end_time": "[02:02]",
+      "start_time_sec": 93,
+      "text": "The phone number is 0117 496 0633. Scott, my partner and I both work remotely as senior software architects! Every afternoon when our speeds plummet down to twelve megabits, our cloud deployment pipelines fail, our git synchronization drops, and our video presentations with US clients freeze completely! Last Thursday our biggest enterprise client threatened to terminate our contract because my screen froze in the middle of a multi-million-pound architecture proposal! S-Net signed a legal contract guaranteeing sixty-two megabits! We are paying premium rates for broken broadband and it is crippling our business!",
+      "sentiment_score": -84.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:09]",
+      "end_time": "[02:30]",
+      "start_time_sec": 129,
+      "text": "I completely understand how critical reliable high-speed broadband is when running a software architecture consultancy from home, and having speeds drop to twelve megabits during enterprise client demonstrations is extremely frustrating and threatens your business credibility, so let us examine the exchange throughput logs and sync stability immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:37]",
+      "end_time": "[02:43]",
+      "start_time_sec": 157,
+      "text": "Thank you Scott, I appreciate your understanding of the business impact.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:50]",
+      "end_time": "[03:14]",
+      "start_time_sec": 170,
+      "text": "So to ensure I have the full picture, your Superfast 80 broadband drops from expected seventy megabits down to twelve megabits every afternoon during business hours, breaching your sixty-two megabit minimum speed guarantee and jeopardizing client deployments, and you require thorough circuit analysis and fault remediation. Is that right, Yvonne?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:21]",
+      "end_time": "[03:25]",
+      "start_time_sec": 201,
+      "text": "Yes, that is exactly the problem.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:07]",
+      "end_time": "[04:21]",
+      "start_time_sec": 247,
+      "text": "The line test telemetry indicates the copper VDSL sync rate at the street cabinet has remained locked at seventy-two megabits downstream."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:28]",
+      "end_time": "[04:35]",
+      "start_time_sec": 268,
+      "text": "If the line syncs at seventy-two megabits at the cabinet, why do our speed tests show twelve megabits on our laptops?",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:42]",
+      "end_time": "[04:58]",
+      "start_time_sec": 282,
+      "text": "S-Net only guarantees copper physical synchronization at the master socket; we hold zero responsibility or liability for local home Wi-Fi degradation, computer settings, or local wireless contention."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:05]",
+      "end_time": "[05:13]",
+      "start_time_sec": 305,
+      "text": "We are connected via Cat6 Ethernet patch cables directly into the Hub! This is not Wi-Fi! You cannot just dismiss our issue!",
+      "sentiment_score": -38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:20]",
+      "end_time": "[05:32]",
+      "start_time_sec": 320,
+      "text": "The backhaul bandwidth allocation on the cabinet optical link is dynamically balanced across local exchange users."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:39]",
+      "end_time": "[05:45]",
+      "start_time_sec": 339,
+      "text": "So the local street cabinet is suffering from severe peak-time network congestion?",
+      "sentiment_score": -14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:52]",
+      "end_time": "[06:04]",
+      "start_time_sec": 352,
+      "text": "Exchange capacity reports show peak afternoon utilization reaches ninety-two percent on cable link number four."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:11]",
+      "end_time": "[06:20]",
+      "start_time_sec": 371,
+      "text": "Then S-Net has oversold the cabinet! If your network is congested, you are legally in breach of our guaranteed minimum speed code!",
+      "sentiment_score": -42.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:27]",
+      "end_time": "[06:37]",
+      "start_time_sec": 387,
+      "text": "Broadband services are shared contention consumer products, not dedicated private leased lines."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:44]",
+      "end_time": "[06:58]",
+      "start_time_sec": 404,
+      "text": "Ofcom rules state that if speeds drop below the minimum guarantee for three consecutive days, we are entitled to exit without penalty or receive immediate engineer escalation! I want an escalation manager on this call right now!",
+      "sentiment_score": -68.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:05]",
+      "end_time": "[07:17]",
+      "start_time_sec": 425,
+      "text": "If you don't like thirty megabits, cancel your contract and get lost! We have thousands of other customers!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:24]",
+      "end_time": "[07:41]",
+      "start_time_sec": 444,
+      "text": "Did you just tell a paying business customer to 'get lost'?! I am utterly appalled! That is disgusting, reprehensible customer service! I am recording this call and your exact words will be played directly to the communications ombudsman and Ofcom!",
+      "sentiment_score": -94.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:48]",
+      "end_time": "[08:00]",
+      "start_time_sec": 468,
+      "text": "I apologize, Yvonne. That statement was unprofessional. Let me open the network capacity rebalancing tool."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:07]",
+      "end_time": "[08:13]",
+      "start_time_sec": 487,
+      "text": "You ought to be ashamed of yourself! Tell me what that tool shows!",
+      "sentiment_score": -48.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:58]",
+      "end_time": "[09:12]",
+      "start_time_sec": 538,
+      "text": "I am submitting a cabinet capacity rebalancing request to shift your line profile to secondary backhaul optic trunk B."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:19]",
+      "end_time": "[09:25]",
+      "start_time_sec": 559,
+      "text": "What does shifting our line to backhaul optic trunk B achieve?",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:32]",
+      "end_time": "[09:46]",
+      "start_time_sec": 572,
+      "text": "Optic trunk B currently runs at thirty-four percent average utilization, providing thirty-eight megabits of immediate throughput headroom."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:53]",
+      "end_time": "[09:59]",
+      "start_time_sec": 593,
+      "text": "When will that optic trunk migration take effect on our circuit?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:06]",
+      "end_time": "[10:18]",
+      "start_time_sec": 606,
+      "text": "The automated port remapping command takes approximately ten minutes to update across the exchange gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:25]",
+      "end_time": "[10:31]",
+      "start_time_sec": 625,
+      "text": "Let me run an official speed test through the S-Net speed checker right now.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:38]",
+      "end_time": "[10:48]",
+      "start_time_sec": 638,
+      "text": "Go ahead and initiate an Ookla or S-Net broadband speed measurement, Yvonne."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:55]",
+      "end_time": "[11:06]",
+      "start_time_sec": 655,
+      "text": "Running test... download speed just measured at sixty-eight point four megabits per second! That is more than five times faster than ten minutes ago!",
+      "sentiment_score": 58.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:13]",
+      "end_time": "[11:25]",
+      "start_time_sec": 673,
+      "text": "Obviously migrating away from congested backhaul cable four resolves bottleneck throttling immediately, Yvonne."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:32]",
+      "end_time": "[11:39]",
+      "start_time_sec": 692,
+      "text": "That proves the bottleneck was on S-Net's network all along and not our home equipment.",
+      "sentiment_score": 34.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:46]",
+      "end_time": "[11:59]",
+      "start_time_sec": 706,
+      "text": "The trunk re-provisioning locks your circuit profile to optic carrier B permanently under ticket NET-448190."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:06]",
+      "end_time": "[12:10]",
+      "start_time_sec": 726,
+      "text": "I have written down ticket reference NET-448190.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:17]",
+      "end_time": "[12:29]",
+      "start_time_sec": 737,
+      "text": "Let us also check your router Hub 5 MTU settings to ensure packet transmission efficiency is optimal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:36]",
+      "end_time": "[12:41]",
+      "start_time_sec": 756,
+      "text": "The MTU on the Hub 5 is currently at the default 1500 bytes.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:48]",
+      "end_time": "[12:59]",
+      "start_time_sec": 768,
+      "text": "Standard fifteen hundred bytes provides optimal encapsulation over fiber to the cabinet."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:06]",
+      "end_time": "[13:09]",
+      "start_time_sec": 786,
+      "text": "Good, we will keep that unchanged.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:16]",
+      "end_time": "[13:26]",
+      "start_time_sec": 796,
+      "text": "Let us check your line noise margin and upstream synchronization stability, Yvonne."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:33]",
+      "end_time": "[13:37]",
+      "start_time_sec": 813,
+      "text": "What do the upstream sync numbers look like?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:44]",
+      "end_time": "[13:56]",
+      "start_time_sec": 824,
+      "text": "Upstream sync is locked at nineteen point nine megabits with clean six point four decibel SNR."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:03]",
+      "end_time": "[14:09]",
+      "start_time_sec": 843,
+      "text": "Twenty megabits upstream gives plenty of bandwidth for cloud code repository commits.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:16]",
+      "end_time": "[14:26]",
+      "start_time_sec": 856,
+      "text": "Zero uncorrectable frame errors have been recorded across the last one thousand seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:33]",
+      "end_time": "[14:37]",
+      "start_time_sec": 873,
+      "text": "That shows the physical copper pair is clean.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:44]",
+      "end_time": "[14:56]",
+      "start_time_sec": 884,
+      "text": "Let us also apply a goodwill broadband credit for the two weeks of afternoon speed throttling."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:03]",
+      "end_time": "[15:08]",
+      "start_time_sec": 903,
+      "text": "What credit amount can be applied to our account?",
+      "sentiment_score": 19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:15]",
+      "end_time": "[15:27]",
+      "start_time_sec": 915,
+      "text": "I can process a twenty-five-pound goodwill credit under our Speed Guarantee Service Level Agreement."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:34]",
+      "end_time": "[15:39]",
+      "start_time_sec": 934,
+      "text": "Twenty-five pounds is fair compensation for the inconvenience.",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:46]",
+      "end_time": "[15:56]",
+      "start_time_sec": 946,
+      "text": "I have posted the twenty-five-pound credit to your active account balance, Yvonne."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:03]",
+      "end_time": "[16:06]",
+      "start_time_sec": 963,
+      "text": "Thank you for putting that through.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:13]",
+      "end_time": "[16:22]",
+      "start_time_sec": 973,
+      "text": "Let us check your notification preferences for automated speed monitoring alerts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:29]",
+      "end_time": "[16:33]",
+      "start_time_sec": 989,
+      "text": "My mobile contact number is 07700 900892.",
+      "sentiment_score": 22.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:40]",
+      "end_time": "[16:50]",
+      "start_time_sec": 1000,
+      "text": "I have set 07700 900892 to receive weekly broadband speed performance summaries."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:57]",
+      "end_time": "[17:01]",
+      "start_time_sec": 1017,
+      "text": "That will help us keep an eye on our throughput trends.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:08]",
+      "end_time": "[17:20]",
+      "start_time_sec": 1028,
+      "text": "The automated monitoring system polls the router every twenty-four hours to verify sync speeds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:27]",
+      "end_time": "[17:31]",
+      "start_time_sec": 1047,
+      "text": "That gives us confidence speeds will remain stable.",
+      "sentiment_score": 31.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:38]",
+      "end_time": "[17:51]",
+      "start_time_sec": 1058,
+      "text": "Just to reconfirm, the trunk remapping ticket is NET-448190 with broadband speeds verified at sixty-eight megabits."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:58]",
+      "end_time": "[18:04]",
+      "start_time_sec": 1078,
+      "text": "Yes, NET-448190 with sixty-eight megabits download speed. That is completely correct.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:11]",
+      "end_time": "[18:28]",
+      "start_time_sec": 1091,
+      "text": "I am pleased we have remapped your optical trunk, verified your download speeds above the guarantee, and applied goodwill credits. Have I answered all of your questions and completely resolved your issue today, Yvonne?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:35]",
+      "end_time": "[18:44]",
+      "start_time_sec": 1115,
+      "text": "Yes Scott, you resolved the speed issue and answered my questions, although I am still deeply unimpressed by your earlier outburst. Thank you for the remapping.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:51]",
+      "end_time": "[18:58]",
+      "start_time_sec": 1131,
+      "text": "Thank you for choosing S-Net. Have a good afternoon. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:04]",
+      "end_time": "[19:08]",
+      "start_time_sec": 1144,
+      "text": "Goodbye Scott, thank you for your help.",
+      "sentiment_score": 8.4
+    }
+  ]
+}

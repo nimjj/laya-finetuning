@@ -1,0 +1,524 @@
+{
+  "call_id": "agt_015",
+  "tenant_id": "tenant-abc",
+  "customer_name": "Callum",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net digital TV technical support. My name is Rachel. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:23]",
+      "start_time_sec": 8,
+      "text": "Hello Rachel. My name is Callum MacLeod. I am having a very irritating problem with the S-Net TV Go application on my tablet while travelling.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:24]",
+      "end_time": "[00:40]",
+      "start_time_sec": 24,
+      "text": "Good morning Callum. I can certainly help you get your TV Go app streaming properly again. Before we access your subscription, could you confirm your postal address and your account security PIN, please?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:41]",
+      "end_time": "[00:54]",
+      "start_time_sec": 41,
+      "text": "Yes, of course. My address is 59 Bruntsfield Place, Edinburgh, EH10 4HQ, and my security PIN is 8201.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:55]",
+      "end_time": "[01:08]",
+      "start_time_sec": 55,
+      "text": "Thank you Callum, that passes security. What specific error message or code is displaying when you attempt to stream a channel?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:09]",
+      "end_time": "[01:28]",
+      "start_time_sec": 69,
+      "text": "Every time I tap on any live channel or on-demand programme, a black modal pop-up appears stating 'Error 409: Maximum Registered Devices Reached. Please remove an active device in Account Settings to continue.'",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:29]",
+      "end_time": "[01:41]",
+      "start_time_sec": 89,
+      "text": "What device model and operating system are you currently attempting to stream from, Callum?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:42]",
+      "end_time": "[01:56]",
+      "start_time_sec": 102,
+      "text": "I am using an iPad Air 5th generation running iPadOS 17. The app itself is updated to the latest version from the App Store.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:57]",
+      "end_time": "[02:11]",
+      "start_time_sec": 117,
+      "text": "Have you logged into the S-Net online portal to check how many active devices are registered under your TV Go license?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:12]",
+      "end_time": "[02:27]",
+      "start_time_sec": 132,
+      "text": "I tried checking on my mobile phone, but the device management page just throws a spinning loading wheel and says 'Temporarily Unavailable.'",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:28]",
+      "end_time": "[02:44]",
+      "start_time_sec": 148,
+      "text": "Understood. The web portal device manager has scheduled maintenance today, which is why self-service deregistration is failing on your phone."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:45]",
+      "end_time": "[02:52]",
+      "start_time_sec": 165,
+      "text": "Right, so I am completely locked out from managing it myself.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:53]",
+      "end_time": "[03:17]",
+      "start_time_sec": 173,
+      "text": "So if I have all the details correctly, Callum, your TV Go app on your iPad Air is throwing Error 409 because your account has hit the maximum limit of five registered streaming devices, and because the customer portal is down for maintenance, you need us to wipe the stale devices from our system, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:18]",
+      "end_time": "[03:27]",
+      "start_time_sec": 198,
+      "text": "Yes, that is exactly right, Rachel. That captures the entire problem.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:28]",
+      "end_time": "[03:47]",
+      "start_time_sec": 208,
+      "text": "Bear with me for a couple of minutes while I open your digital TV provisioning profile on our media gateway terminal and inspect your active device tokens."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:48]",
+      "end_time": "[03:53]",
+      "start_time_sec": 228,
+      "text": "Certainly, I will stay on the line.",
+      "sentiment_score": 3.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:45]",
+      "end_time": "[05:07]",
+      "start_time_sec": 285,
+      "text": "Thank you for holding, Callum. I have pulled up your device registry. Your account allows five concurrent registered devices under our TV Go licensing agreement."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:08]",
+      "end_time": "[05:15]",
+      "start_time_sec": 308,
+      "text": "What devices are currently listed as occupying those five slots?",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:16]",
+      "end_time": "[05:39]",
+      "start_time_sec": 316,
+      "text": "You have an iPhone 11 registered in 2021, a Samsung Galaxy tablet from 2022, an old Windows laptop that hasn't logged in for eighteen months, an Apple TV in your living room, and an older iPad Mini."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:40]",
+      "end_time": "[05:49]",
+      "start_time_sec": 340,
+      "text": "Good grief! Three of those devices were recycled or sold over a year ago!",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:50]",
+      "end_time": "[06:08]",
+      "start_time_sec": 350,
+      "text": "Whenever an app is deleted without explicitly signing out, the DRM security token remains registered on our server until manually purged."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:09]",
+      "end_time": "[06:33]",
+      "start_time_sec": 369,
+      "text": "I am trying to watch the live Champions League European match right now on my iPad while staying in a hotel! The match has already kicked off and I am missing the first half! It is driving me up the wall missing the football over phantom ghost devices from three years ago!",
+      "sentiment_score": -68.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:34]",
+      "end_time": "[06:57]",
+      "start_time_sec": 394,
+      "text": "I completely understand how frustrating it is to miss kickoff when you are looking forward to watching your team in the Champions League, Callum. Please rest assured, I can perform a global device registry purge right now that clears all stale device tokens within sixty seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:58]",
+      "end_time": "[07:07]",
+      "start_time_sec": 418,
+      "text": "Thank you Rachel, that is music to my ears. Please go ahead and purge them.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:08]",
+      "end_time": "[07:27]",
+      "start_time_sec": 428,
+      "text": "Before I execute the global purge on the media gateway, was that the iPad Air 5th generation you want to keep as your registered primary streaming device?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:28]",
+      "end_time": "[07:37]",
+      "start_time_sec": 448,
+      "text": "Yes, exactly, the iPad Air 5th generation that I am holding right here.",
+      "sentiment_score": 7.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:38]",
+      "end_time": "[07:58]",
+      "start_time_sec": 458,
+      "text": "I will execute a selective deregistration that preserves your living room Apple TV token while wiping the old iPhone 11, the Samsung tablet, the old laptop, and the iPad Mini."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:59]",
+      "end_time": "[08:08]",
+      "start_time_sec": 479,
+      "text": "That is ideal so my wife at home doesn't lose access on the main television.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:09]",
+      "end_time": "[08:28]",
+      "start_time_sec": 489,
+      "text": "Give me a moment while the media rights management database processes the token revocation command."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:29]",
+      "end_time": "[08:34]",
+      "start_time_sec": 509,
+      "text": "Sure, waiting.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:20]",
+      "end_time": "[09:41]",
+      "start_time_sec": 560,
+      "text": "Thank you for waiting, Callum. The four obsolete device licenses have been completely purged from your account profile. You now have four available slots remaining."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:42]",
+      "end_time": "[09:51]",
+      "start_time_sec": 582,
+      "text": "Do I need to force-close the S-Net TV Go app on my iPad before trying again?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:52]",
+      "end_time": "[10:13]",
+      "start_time_sec": 592,
+      "text": "Yes, please swipe up from the bottom of your iPad screen to close the app from the multitasking switcher, wait five seconds, and relaunch it."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:14]",
+      "end_time": "[10:28]",
+      "start_time_sec": 614,
+      "text": "Okay, swiping up to close... waiting five seconds... and tapping the S-Net TV Go app icon now. It is loading the channel guide.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:29]",
+      "end_time": "[10:44]",
+      "start_time_sec": 629,
+      "text": "Please tap on the live sports channel broadcasting the match to initialize the fresh DRM token authorization."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:45]",
+      "end_time": "[11:03]",
+      "start_time_sec": 645,
+      "text": "Tapping the TNT Sports 1 stream now... The spinning buffer circle is turning... Yes! The live football match stream has just started playing in high definition! Crystal clear picture and audio!",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:04]",
+      "end_time": "[11:19]",
+      "start_time_sec": 664,
+      "text": "That is fantastic news, Callum! I can see your iPad Air has successfully registered as device slot number two on your profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:20]",
+      "end_time": "[11:31]",
+      "start_time_sec": 680,
+      "text": "And it hasn't kicked off the first half score yet, it is still nil-nil! You have genuinely saved my evening, Rachel!",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:32]",
+      "end_time": "[11:49]",
+      "start_time_sec": 692,
+      "text": "I am so pleased we could get you back into the match so quickly! You still have three spare device registration slots available for future use."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:50]",
+      "end_time": "[12:01]",
+      "start_time_sec": 710,
+      "text": "I will make sure to properly sign out of any old devices in the future to keep those slots tidy.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:02]",
+      "end_time": "[12:21]",
+      "start_time_sec": 722,
+      "text": "Once our online portal maintenance concludes later this evening, you will also be able to view and manage registered devices directly from your web browser."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:22]",
+      "end_time": "[12:30]",
+      "start_time_sec": 742,
+      "text": "That is very helpful to know. The streaming quality on hotel Wi-Fi is performing remarkably well.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:31]",
+      "end_time": "[12:49]",
+      "start_time_sec": 751,
+      "text": "Our TV Go player automatically adapts bitrate to match available bandwidth so you won't suffer buffering during live sports playback."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:50]",
+      "end_time": "[12:59]",
+      "start_time_sec": 770,
+      "text": "Yes, not a single stutter so far. Everything is operating perfectly.",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:00]",
+      "end_time": "[13:18]",
+      "start_time_sec": 780,
+      "text": "We have cleared your stale DRM licenses, registered your iPad Air, and verified seamless live HD playback."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:19]",
+      "end_time": "[13:28]",
+      "start_time_sec": 799,
+      "text": "Everything is completely resolved and sorted. I am ready to sit back and watch the game.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:29]",
+      "end_time": "[13:46]",
+      "start_time_sec": 809,
+      "text": "Is there anything else on your S-Net digital TV subscription or home broadband package that I can help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:47]",
+      "end_time": "[13:54]",
+      "start_time_sec": 827,
+      "text": "No thank you Rachel, that was the only problem and it's fixed.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:55]",
+      "end_time": "[14:12]",
+      "start_time_sec": 835,
+      "text": "Thank you for choosing S-Net digital TV technical support, Callum. I hope your team gets a great result tonight."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:13]",
+      "end_time": "[14:20]",
+      "start_time_sec": 853,
+      "text": "Thank you so much, Rachel! Have a lovely evening.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:21]",
+      "end_time": "[14:35]",
+      "start_time_sec": 861,
+      "text": "You too, Callum. Take care and enjoy the football."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:36]",
+      "end_time": "[14:41]",
+      "start_time_sec": 876,
+      "text": "Goodbye Rachel.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:42]",
+      "end_time": "[14:58]",
+      "start_time_sec": 882,
+      "text": "We are always here 24/7 if you ever need technical assistance with digital streaming."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:59]",
+      "end_time": "[15:05]",
+      "start_time_sec": 899,
+      "text": "Good to know.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:06]",
+      "end_time": "[15:24]",
+      "start_time_sec": 906,
+      "text": "Have a wonderful rest of your trip in Edinburgh, Callum."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:25]",
+      "end_time": "[15:31]",
+      "start_time_sec": 925,
+      "text": "Thank you kindly.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:32]",
+      "end_time": "[15:48]",
+      "start_time_sec": 932,
+      "text": "Please remember that whenever you sell or upgrade an old device in the future, you can sign out of TV Go in the app menu to free up the license slot immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:49]",
+      "end_time": "[15:58]",
+      "start_time_sec": 949,
+      "text": "Yes, I will definitely make sure to do that from now on.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:59]",
+      "end_time": "[16:19]",
+      "start_time_sec": 959,
+      "text": "Our technical support desk is open 24/7 if you ever encounter any error codes while traveling abroad in Europe."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:20]",
+      "end_time": "[16:29]",
+      "start_time_sec": 980,
+      "text": "Does TV Go also work while traveling in European countries?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:30]",
+      "end_time": "[16:49]",
+      "start_time_sec": 990,
+      "text": "Yes, UK subscribers can stream their TV Go packages in EU destinations for up to thirty days per trip without extra charges."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:50]",
+      "end_time": "[16:59]",
+      "start_time_sec": 1010,
+      "text": "That is brilliant news, we are holidaying in Spain next month.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:00]",
+      "end_time": "[17:19]",
+      "start_time_sec": 1020,
+      "text": "You will have full access to your live channels and recordings there as well, Callum."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:20]",
+      "end_time": "[17:29]",
+      "start_time_sec": 1040,
+      "text": "Wonderful. Thank you so much Rachel.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:30]",
+      "end_time": "[17:49]",
+      "start_time_sec": 1050,
+      "text": "Have a wonderful rest of your evening and enjoy the football match."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:50]",
+      "end_time": "[17:59]",
+      "start_time_sec": 1070,
+      "text": "Thank you Rachel, goodbye.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:00]",
+      "end_time": "[18:14]",
+      "start_time_sec": 1080,
+      "text": "Take care."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:15]",
+      "end_time": "[18:20]",
+      "start_time_sec": 1095,
+      "text": "Goodbye.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:21]",
+      "end_time": "[18:32]",
+      "start_time_sec": 1101,
+      "text": "Thank you for choosing S-Net, Callum. Goodbye."
+    }
+  ]
+}

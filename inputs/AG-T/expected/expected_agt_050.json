@@ -1,0 +1,205 @@
+{
+  "call_id": "agt_050",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 0.0,
+    "is_auto_fail": true,
+    "auto_fail_reason": "Agent used prohibited word 'stupid' at [16:15].",
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "At turn 1 and turn 14, the customer reported intense shock and distress after taking a day off work for a missed move installation that was cancelled without notice, but you offered no empathetic validation."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "You did not paraphrase or restate the customer's cancelled home move issue in your own words at any point in the call."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "The customer stated her former address in Cheltenham at turn 7 (19 Lansdown Road), but at turn 37 you asked her again what her previous address was."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At turn 13, you deflected responsibility by blaming the conveyancer and estate agent for wholesale address classification errors."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At turn 43, you used the prohibited abusive word 'stupid' when addressing the customer, triggering an auto-fail."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "The home move installation was cancelled, no broadband service was provisioned, and the call ended in complete dispute."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Home move order cancelled without customer knowledge; agent becomes abusive [AUTO-FAIL]",
+    "tier": "auto_fail",
+    "duration_sec": 1104,
+    "notes": "Terry displays egregious customer service failure when dealing with a customer whose home move order was silently cancelled due to a commercial address code mismatch. He fails Empathy, defers blame to external parties, fails to paraphrase, asks Judith to repeat her previous address, and insults her by stating 'It's a stupid question', triggering an immediate auto-fail with the issue completely unresolved.",
+    "hard_cases": [
+      "Active listening",
+      "Build rapport and observed professionalism",
+      "Took ownership of the problem"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:15] Customer: 'I am in complete shock. I moved into my new flat yesterday, took the day off work for the broadband installation engineer... and nobody showed up!...', Agent responds with verification questions without empathy."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never restated the cancelled home move issue in his own words; only confirmed previous address."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:10] Customer: 'We moved from 19 Lansdown Road, Cheltenham, GL51 6PT.' followed by Agent at [07:20]: 'What was that previous address in Cheltenham?'"
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:50] Agent: 'The Openreach automated address bridge rejects residential FTTP orders if the property classification code contains a commercial flag, so that's the conveyancer's and estate agent's fault, not S-Net's.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[16:15] Agent: 'It's a stupid question to ask why a commercial unit can't have residential broadband without surveyor approval!'"
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Order remained cancelled with zero service provisioned and customer declaring an intention to complain to the ombudsman."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "repeat",
+          "premise_turn": 7,
+          "agent_turn": 19,
+          "reworded": true
+        },
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 7,
+          "agent_turn": 38
+        },
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 6
+        },
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 8
+        }
+      ],
+      "paraphrasing": [],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 45
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 17
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 1
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 14
+        }
+      ]
+    }
+  }
+}

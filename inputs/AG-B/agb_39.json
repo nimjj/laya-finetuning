@@ -1,0 +1,486 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Malcolm",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net TV and entertainment technical support. My name is Scott. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:33]",
+      "start_time_sec": 10,
+      "text": "Hello Scott. I'm calling about our TV package. Yesterday afternoon I upgraded our subscription to include the S-Net Ultra Sports and TNT Sports package so we could watch live football today. But right now when I tune to channels 401 and 402, the screen just displays a blue banner saying 'Channel Not Authorized - Subscription Required'!",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:36]",
+      "end_time": "[00:51]",
+      "start_time_sec": 36,
+      "text": "I can certainly look into that television entitlement authorization for you. Before we query the conditional access system, may I please verify the full billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:54]",
+      "end_time": "[01:03]",
+      "start_time_sec": 54,
+      "text": "Yes, it is 47 Birchwood Avenue, Newcastle upon Tyne, NE3 5DL. And the security question answer is my first car, Ford Fiesta.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:06]",
+      "end_time": "[01:14]",
+      "start_time_sec": 66,
+      "text": "Thank you, that verifies the television subscriber records. What is the TV viewing card number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:17]",
+      "end_time": "[01:45]",
+      "start_time_sec": 77,
+      "text": "The viewing card number is 0481 9920 184. Scott, I have eight friends from my local pub arriving at my house in exactly forty-five minutes to watch the Manchester derby cup final! I bought sixty pounds worth of food and drinks, and everyone is coming here specifically because I promised them I had upgraded to the sports package! If these channels don't work by kickoff, I will look like an absolute fool and ruin everyone's entire Saturday afternoon! I am in absolute agony with stress right now!",
+      "sentiment_score": -68.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:48]",
+      "end_time": "[02:09]",
+      "start_time_sec": 108,
+      "text": "I completely understand the urgent stress of hosting eight friends for the derby cup final kickoff in forty-five minutes, and having the sports channels show an unauthorized error when everyone is on their way is deeply frustrating, so let us prioritize pushing an over-the-air card entitlement refresh right away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:12]",
+      "end_time": "[02:18]",
+      "start_time_sec": 132,
+      "text": "Thank you Scott, that is an enormous relief to hear. Please send whatever signal is needed.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:21]",
+      "end_time": "[02:34]",
+      "start_time_sec": 141,
+      "text": "I am opening the NDS VideoGuard conditional access server console to verify tier entitlements for smartcard 0481 9920 184."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:37]",
+      "end_time": "[02:42]",
+      "start_time_sec": 157,
+      "text": "What does the conditional access server show for the sports tier?",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:24]",
+      "end_time": "[03:41]",
+      "start_time_sec": 204,
+      "text": "The conditional access database confirms the order for Ultra Sports Tier Pack was provisioned yesterday, but the Over-The-Air Entitlement Management Message was cached in queue due to TV box standby mode."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:44]",
+      "end_time": "[03:50]",
+      "start_time_sec": 224,
+      "text": "My TV box was in standby overnight! Does that prevent the channels from activating?",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:53]",
+      "end_time": "[04:08]",
+      "start_time_sec": 233,
+      "text": "If the TV box is in deep sleep standby, the satellite tuner demodulator cannot receive the broadcast transponder EMM cryptographic tier keys."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:11]",
+      "end_time": "[04:17]",
+      "start_time_sec": 251,
+      "text": "So if the box had stayed switched on, it would have received the signal automatically?",
+      "sentiment_score": -8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:20]",
+      "end_time": "[04:31]",
+      "start_time_sec": 260,
+      "text": "Continuous broadcast EMM bursts cycle across satellite transponder transport streams every thirty minutes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:34]",
+      "end_time": "[04:39]",
+      "start_time_sec": 274,
+      "text": "Can we force the broadcast satellite signal to hit the box right now?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:42]",
+      "end_time": "[04:52]",
+      "start_time_sec": 282,
+      "text": "I can transmit a High-Priority Forced Hit from our headend satellite uplink facility."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:55]",
+      "end_time": "[05:01]",
+      "start_time_sec": 295,
+      "text": "Why didn't the upgrade email tell me to leave the TV box on overnight?",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:04]",
+      "end_time": "[05:18]",
+      "start_time_sec": 304,
+      "text": "If you had actually bothered to read the confirmation email instead of complaining, you would know smartcard authorization takes up to four hours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:21]",
+      "end_time": "[05:34]",
+      "start_time_sec": 321,
+      "text": "That is an utterly rude and offensive attitude! I asked a reasonable question as a paying customer! I do not expect to be spoken to like a child by technical support!",
+      "sentiment_score": -52.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:37]",
+      "end_time": "[05:44]",
+      "start_time_sec": 337,
+      "text": "Tune your TV box to Channel 401, S-Net Sports 1 HD."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:47]",
+      "end_time": "[05:53]",
+      "start_time_sec": 347,
+      "text": "I am on channel 401 right now. It still shows the blue subscription banner.",
+      "sentiment_score": -14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:38]",
+      "end_time": "[06:52]",
+      "start_time_sec": 398,
+      "text": "I have transmitted the Tier 400 Entitlement Key Refresh pulse across transponder twenty-four on Astra 28.2 East."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:55]",
+      "end_time": "[07:08]",
+      "start_time_sec": 415,
+      "text": "Wait! The screen just blinked! The blue banner disappeared and live high-definition football coverage of the pre-match buildup just popped onto the screen with crystal clear audio!",
+      "sentiment_score": 68.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:11]",
+      "end_time": "[07:20]",
+      "start_time_sec": 431,
+      "text": "The smartcard CAM processor has successfully decrypted the transport stream payload."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:23]",
+      "end_time": "[07:27]",
+      "start_time_sec": 443,
+      "text": "Now let me check channel 402, TNT Sports 1 HD.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:30]",
+      "end_time": "[07:37]",
+      "start_time_sec": 450,
+      "text": "Channel 402 carries the shared VideoGuard tier authorization token."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:40]",
+      "end_time": "[07:48]",
+      "start_time_sec": 460,
+      "text": "Switching to 402... TNT Sports 1 HD is playing perfectly in full 1080p surround sound!",
+      "sentiment_score": 62.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:51]",
+      "end_time": "[08:04]",
+      "start_time_sec": 471,
+      "text": "Obviously that confirms the conditional access smartcard has cached the active decryption keys for the complete sporting calendar."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:07]",
+      "end_time": "[08:16]",
+      "start_time_sec": 487,
+      "text": "You have saved the entire day! My friends will be knocking on the door in twenty minutes and the match is ready to watch!",
+      "sentiment_score": 58.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:19]",
+      "end_time": "[08:32]",
+      "start_time_sec": 499,
+      "text": "Let us check your Ultra HD 4K sports option on channel 404 to ensure 4K HDR broadcast throughput is enabled."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:35]",
+      "end_time": "[08:46]",
+      "start_time_sec": 515,
+      "text": "Tuning to channel 404... S-Net Sports Ultra HDR loaded in breathtaking 4K resolution! The grass looks like you could touch it!",
+      "sentiment_score": 64.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:49]",
+      "end_time": "[08:59]",
+      "start_time_sec": 529,
+      "text": "Your TV box HDMI handshake supports HDCP 2.2 and BT.2020 wide colour gamut."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:02]",
+      "end_time": "[09:06]",
+      "start_time_sec": 542,
+      "text": "The picture quality is unbelievable.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:09]",
+      "end_time": "[09:23]",
+      "start_time_sec": 549,
+      "text": "Let us check the satellite dish LNB signal metrics under System Settings to ensure severe rain fade will not disrupt the match."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:26]",
+      "end_time": "[09:38]",
+      "start_time_sec": 566,
+      "text": "Navigating to System Settings, Signal Diagnostics... Transponder 24 signal strength shows eighty-two percent and signal quality shows ninety percent.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:41]",
+      "end_time": "[09:53]",
+      "start_time_sec": 581,
+      "text": "Ninety percent signal quality provides a high carrier-to-noise ratio margin against heavy storm clouds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:56]",
+      "end_time": "[10:01]",
+      "start_time_sec": 596,
+      "text": "That is great reassurance in case it rains this afternoon.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:04]",
+      "end_time": "[10:17]",
+      "start_time_sec": 604,
+      "text": "Can you also access the S-Net TV Go mobile application on your tablet so you can view match stats in another room?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:20]",
+      "end_time": "[10:27]",
+      "start_time_sec": 620,
+      "text": "Yes, I have an iPad in the kitchen. Does our sports subscription include tablet streaming?",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:30]",
+      "end_time": "[10:42]",
+      "start_time_sec": 630,
+      "text": "The Ultra Sports package includes concurrent streaming on up to two registered mobile devices simultaneously."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:45]",
+      "end_time": "[10:57]",
+      "start_time_sec": 645,
+      "text": "Testing S-Net TV Go on the iPad... logged in with my account... S-Net Sports 1 live stream loaded immediately! That is brilliant for the barbecue area!",
+      "sentiment_score": 52.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:00]",
+      "end_time": "[11:09]",
+      "start_time_sec": 660,
+      "text": "The mobile stream adapts dynamically up to 1080p sixty frames per second."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:12]",
+      "end_time": "[11:19]",
+      "start_time_sec": 672,
+      "text": "Let us also check the DVR hard disk recording schedule so I can record the post-match interviews.",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:22]",
+      "end_time": "[11:35]",
+      "start_time_sec": 682,
+      "text": "Press the TV Guide button, select the post-match analysis slot at five PM, and press the Record button on the remote control."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:38]",
+      "end_time": "[11:47]",
+      "start_time_sec": 698,
+      "text": "Pressing Guide... selecting Post-Match Analysis... Record icon appeared with red dot. Scheduled recording confirmed.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:50]",
+      "end_time": "[12:05]",
+      "start_time_sec": 710,
+      "text": "Let us check your TV box parental control PIN settings to make sure adult-rated sporting events do not require manual PIN entry after watershed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:08]",
+      "end_time": "[12:16]",
+      "start_time_sec": 728,
+      "text": "Under Parental Settings, PIN Prompt is toggled to OFF for sports events, so the programmes start without interruption.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:19]",
+      "end_time": "[12:31]",
+      "start_time_sec": 739,
+      "text": "The disk management subsystem has allocated fifty gigabytes of reserved recording space for the series link."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:34]",
+      "end_time": "[12:38]",
+      "start_time_sec": 754,
+      "text": "That is plenty of capacity for the whole season.",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:41]",
+      "end_time": "[12:53]",
+      "start_time_sec": 761,
+      "text": "Let us also check your TV remote control pairing to make sure volume and power toggle the television soundbar."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:56]",
+      "end_time": "[13:02]",
+      "start_time_sec": 776,
+      "text": "Volume up and down controls the Sonos soundbar directly through HDMI ARC.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:05]",
+      "end_time": "[13:13]",
+      "start_time_sec": 785,
+      "text": "The audio stream is encoding in Dolby Digital Plus 5.1 surround sound."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:16]",
+      "end_time": "[13:21]",
+      "start_time_sec": 796,
+      "text": "The commentary and stadium atmosphere sound phenomenal.",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:24]",
+      "end_time": "[13:34]",
+      "start_time_sec": 804,
+      "text": "Just to reconfirm, the smartcard carrying the active sports tier is 0481 9920 184."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:37]",
+      "end_time": "[13:42]",
+      "start_time_sec": 817,
+      "text": "Yes, 0481 9920 184. That is completely correct.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:45]",
+      "end_time": "[13:59]",
+      "start_time_sec": 825,
+      "text": "I will remain the dedicated owner for this entertainment ticket and verify that the entitlement refresh logs permanent authorization."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:02]",
+      "end_time": "[14:07]",
+      "start_time_sec": 842,
+      "text": "Thank you for getting the channels activated in time for the game.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:10]",
+      "end_time": "[14:21]",
+      "start_time_sec": 850,
+      "text": "Is there anything else regarding your sports package or TV channels that I can assist you with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:24]",
+      "end_time": "[14:28]",
+      "start_time_sec": 864,
+      "text": "No, that has sorted everything perfectly. Thank you.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:31]",
+      "end_time": "[14:44]",
+      "start_time_sec": 871,
+      "text": "You may receive a short customer satisfaction survey by SMS after this call; we would appreciate any feedback on our service today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:46]",
+      "end_time": "[14:51]",
+      "start_time_sec": 886,
+      "text": "I will fill out the survey. Have a good afternoon.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:53]",
+      "end_time": "[15:01]",
+      "start_time_sec": 893,
+      "text": "Thank you for choosing S-Net. Have a wonderful day and enjoy the match. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:03]",
+      "end_time": "[15:05]",
+      "start_time_sec": 903,
+      "text": "Thank you, goodbye.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

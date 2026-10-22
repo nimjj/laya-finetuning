@@ -1,0 +1,192 @@
+{
+  "call_id": "agb2_01",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 100.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash High)",
+    "graded_on": "2026-10-21",
+    "scenario": "Evening fibre Wi-Fi disconnections caused by 5GHz DFS weather radar channel scanning; locked to clean non-DFS channel 40 and 20MHz 2.4GHz width",
+    "tier": "excellent",
+    "duration_sec": 991,
+    "notes": "Exemplary 16-minute technical support call. Chloe diagnoses intermittent 5GHz Wi-Fi drops as DFS radar avoidance events on channel 108 due to a nearby airfield. Accurately handles a sharp customer outburst at turn 13 with a warm, personalized acknowledgment at turn 16. Executes a well-announced 75s firmware/radio profile push and verifies both throughput and packet loss to customer satisfaction.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Hold time and Dead Air",
+      "Paraphrasing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opened at [00:00] with 'Thank you for calling S-Net technical support' and closed at [16:17] with 'thank you for choosing S-Net as your broadband provider'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "A single 75s radio profile update hold between [06:49] and [08:14] was properly announced with 'Bear with me for about a minute' and closed with 'Thank you for waiting, Tariq'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent verified full address and four-digit security PIN at [00:24] within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent addressed customer Tariq naturally by name throughout the call (e.g. turns 4, 6, 16, 31, 63, 69, 75)."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: Customer experienced an outburst at turn 13 ([02:49]) regarding missing an international work meeting. Agent acknowledged and validated the situation at turn 16 ([03:33]), within 3 turns."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turn 6 ([01:13]), agent restated the issue in her own words: 'So what you are experiencing is that every evening around eight o'clock, all your wireless connectivity drops out completely while the physical hub stays powered on, and it takes several minutes to restore. Have I understood the problem accurately, Tariq?'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent never repeated any previously answered questions. Harmlessly rechecked the Wi-Fi indicator light at turn 33 following the radio reboot."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent took direct ownership from the start, diagnosed the DFS interference, remotely reconfigured the hub, and verified performance without deflecting."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Polite, supportive, and professional throughout. Turn 26 used 'Obviously we cannot alter civilian radar frequencies' in a polite, explanatory manner."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Thorough diagnostic probing into hub lights (turn 8), wired vs wireless connection behavior (turn 10, 12), and wireless channel frequencies (turns 20, 37)."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turns 69-70 ([15:21]-[15:29]), agent asked if the Wi-Fi drop issue was resolved, and customer confirmed: 'Yes, that completely resolves it and explains why it kept dropping every night. Thank you so much for figuring that out.'"
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 9,
+          "agent_turn": 33
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 6
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 26
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 13,
+          "agent_turn": 16,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

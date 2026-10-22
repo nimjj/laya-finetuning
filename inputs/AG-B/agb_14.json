@@ -1,0 +1,478 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Nadia",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net business technical support. My name is Liam. How may I assist you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:26]",
+      "start_time_sec": 10,
+      "text": "Hello Liam. I'm calling from an architecture firm in Leeds. We have an S-Net Business Pro broadband line, and we need to get a dedicated static IPv4 address assigned and set up a reverse DNS PTR record for our outgoing mail server.",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:43]",
+      "start_time_sec": 29,
+      "text": "I can certainly assist you with static IP routing and reverse DNS configuration, Nadia. Before we access the network records, may I please verify your company billing address and the security question answer on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:46]",
+      "end_time": "[00:57]",
+      "start_time_sec": 46,
+      "text": "Of course. The address is Studio 4, Wharf Road, Leeds, LS11 5QZ. And the security question is our primary director's mother's maiden name, which is Gallagher.",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:00]",
+      "end_time": "[01:09]",
+      "start_time_sec": 60,
+      "text": "Thank you Nadia, that fully verifies the account. Can you tell me what domain name you are delegating for the PTR record?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:12]",
+      "end_time": "[01:29]",
+      "start_time_sec": 72,
+      "text": "We are getting completely blocked by major spam filtering networks because our mail server IP resolves to a generic dynamic pool hostname! All our architectural client proposals are bouncing back right now, and our directors are in a total panic!",
+      "sentiment_score": -34.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:32]",
+      "end_time": "[01:47]",
+      "start_time_sec": 92,
+      "text": "I completely understand the urgency when client emails and proposals are bouncing back, Nadia. Having critical business mail rejected by spam filters is extremely stressful for any enterprise, so let us get this resolved right away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:50]",
+      "end_time": "[01:55]",
+      "start_time_sec": 110,
+      "text": "Thank you so much Liam, that is a huge relief to know you can help.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:58]",
+      "end_time": "[02:17]",
+      "start_time_sec": 118,
+      "text": "So if I have understood correctly, your outgoing mail server is currently utilizing a dynamic WAN address that lacks reverse DNS alignment, triggering spam filter rejections, and you require a dedicated static IP bound with a custom PTR record pointing to mail.wharf-architects.co.uk. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:20]",
+      "end_time": "[02:27]",
+      "start_time_sec": 140,
+      "text": "Yes, that is exactly what we need. The fully qualified hostname is mail.wharf-architects.co.uk.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:30]",
+      "end_time": "[02:43]",
+      "start_time_sec": 150,
+      "text": "I am checking our regional IP pool allocations for the Leeds central exchange. I have an available /32 static IP address ready to reserve: 194.74.82.115."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:46]",
+      "end_time": "[02:54]",
+      "start_time_sec": 166,
+      "text": "Let me write that down: 194.74.82.115. Will that bind to our existing S-Net Business Hub automatically?",
+      "sentiment_score": 7.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:57]",
+      "end_time": "[03:10]",
+      "start_time_sec": 177,
+      "text": "Yes. Our radius authentication server maps the static reservation to your broadband login credentials, so your router will receive this identical IP on every session restart."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:13]",
+      "end_time": "[03:20]",
+      "start_time_sec": 193,
+      "text": "That's very convenient. Do I need to reconfigure the gateway and subnet mask on our internal firewall?",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:23]",
+      "end_time": "[03:37]",
+      "start_time_sec": 203,
+      "text": "The gateway remains 194.74.82.1 with a single-host 255.255.255.255 subnet mask on the router WAN interface, while your internal LAN operates on standard 192.168.1.0/24."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:40]",
+      "end_time": "[03:45]",
+      "start_time_sec": 220,
+      "text": "Got it. And what about the PTR record on the authoritative nameserver?",
+      "sentiment_score": 5.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:48]",
+      "end_time": "[04:00]",
+      "start_time_sec": 228,
+      "text": "I am opening the S-Net Master DNS registry console now to create the in-addr.arpa delegation for 115.82.74.194.in-addr.arpa."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:03]",
+      "end_time": "[04:09]",
+      "start_time_sec": 243,
+      "text": "How long will it take before external servers can see that PTR record?",
+      "sentiment_score": -2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:12]",
+      "end_time": "[04:22]",
+      "start_time_sec": 252,
+      "text": "If you don't even know basic DNS propagation principles, maybe you shouldn't be attempting to run an on-premises mail server."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:25]",
+      "end_time": "[04:37]",
+      "start_time_sec": 265,
+      "text": "Excuse me? That was completely uncalled for. I am the IT coordinator managing twenty people, not a full-time DNS specialist. I just asked a straightforward question.",
+      "sentiment_score": -34.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:40]",
+      "end_time": "[04:52]",
+      "start_time_sec": 280,
+      "text": "It takes two to four hours for regional DNS caches to expire their TTL and refresh the new zone record across authoritative resolvers worldwide."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:55]",
+      "end_time": "[05:00]",
+      "start_time_sec": 295,
+      "text": "Right. Two to four hours is all I wanted to know.",
+      "sentiment_score": -8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:03]",
+      "end_time": "[05:15]",
+      "start_time_sec": 303,
+      "text": "The PTR record for 194.74.82.115 has now been committed to our primary nameservers ns1.snet-business.net and ns2.snet-business.net."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:18]",
+      "end_time": "[05:24]",
+      "start_time_sec": 318,
+      "text": "Can we test resolving it locally from command prompt right now to verify the syntax?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:27]",
+      "end_time": "[05:38]",
+      "start_time_sec": 327,
+      "text": "Yes. Please open your command prompt on your workstation and type: nslookup 194.74.82.115 ns1.snet-business.net."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:41]",
+      "end_time": "[05:53]",
+      "start_time_sec": 341,
+      "text": "Running the nslookup query against your primary nameserver... it responds: 115.82.74.194.in-addr.arpa name = mail.wharf-architects.co.uk!",
+      "sentiment_score": 26.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:56]",
+      "end_time": "[06:03]",
+      "start_time_sec": 356,
+      "text": "The authoritative zone file has accepted the entry without syntax error."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:06]",
+      "end_time": "[06:11]",
+      "start_time_sec": 366,
+      "text": "That's great. What about the forward DNS A record on our domain registrar?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:14]",
+      "end_time": "[06:28]",
+      "start_time_sec": 374,
+      "text": "You must log into your domain registrar, such as GoDaddy or 123 Reg, and ensure the A record for mail.wharf-architects.co.uk points to 194.74.82.115."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:31]",
+      "end_time": "[06:42]",
+      "start_time_sec": 391,
+      "text": "I have our domain management portal open right here. Updating the A record host 'mail' to 194.74.82.115 with a 300-second TTL right now.",
+      "sentiment_score": 15.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:45]",
+      "end_time": "[06:56]",
+      "start_time_sec": 405,
+      "text": "Saving that completes Forward-Confirmed reverse DNS, which ensures full compliance with Spamhaus and Google anti-spoofing policies."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:59]",
+      "end_time": "[07:06]",
+      "start_time_sec": 419,
+      "text": "Just saved. Now, do we need to check port 25 outbound on our S-Net business line?",
+      "sentiment_score": 9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:09]",
+      "end_time": "[07:22]",
+      "start_time_sec": 429,
+      "text": "Unlike residential packages which filter SMTP traffic, S-Net Business Pro broadband lines keep outbound TCP port 25 unblocked by default."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:25]",
+      "end_time": "[07:33]",
+      "start_time_sec": 445,
+      "text": "Let me test telnetting to an external mail host on port 25... connected immediately with 220 banner.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:36]",
+      "end_time": "[07:44]",
+      "start_time_sec": 456,
+      "text": "That confirms bidirectional SMTP connectivity is open without line restriction."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:47]",
+      "end_time": "[07:52]",
+      "start_time_sec": 467,
+      "text": "Should we also verify our SPF TXT record syntax?",
+      "sentiment_score": 7.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:55]",
+      "end_time": "[08:06]",
+      "start_time_sec": 475,
+      "text": "Your SPF string should include 'ip4:194.74.82.115' followed by '~all' or '-all' to authorize this IP."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:09]",
+      "end_time": "[08:17]",
+      "start_time_sec": 489,
+      "text": "Checking our DNS control panel... yes, v=spf1 ip4:194.74.82.115 ~all is present.",
+      "sentiment_score": 16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:20]",
+      "end_time": "[08:29]",
+      "start_time_sec": 500,
+      "text": "What about your DKIM cryptographic signing keys on the outgoing mail daemon?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:32]",
+      "end_time": "[08:41]",
+      "start_time_sec": 512,
+      "text": "DKIM is generated on our mail server and published as a 2048-bit RSA public key TXT record on the domain.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:44]",
+      "end_time": "[08:57]",
+      "start_time_sec": 524,
+      "text": "Excellent. Having both SPF and DKIM aligned with rDNS guarantees maximum deliverability into Microsoft 365 and Google Workspace inboxes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:00]",
+      "end_time": "[09:09]",
+      "start_time_sec": 540,
+      "text": "That is exactly what we need to ensure our architectural tender submissions do not end up in junk folders.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:12]",
+      "end_time": "[09:20]",
+      "start_time_sec": 552,
+      "text": "Now, do we need to reboot your S-Net Business Hub to bind the static IP address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:23]",
+      "end_time": "[09:28]",
+      "start_time_sec": 563,
+      "text": "Yes, please trigger the restart whenever you are ready.",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:31]",
+      "end_time": "[09:41]",
+      "start_time_sec": 571,
+      "text": "I will trigger an administrative PPP session renegotiation from our portal right now, which takes about sixty seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:44]",
+      "end_time": "[09:49]",
+      "start_time_sec": 584,
+      "text": "Okay, the hub lights are flickering amber as the connection renegotiates.",
+      "sentiment_score": 3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:52]",
+      "end_time": "[10:03]",
+      "start_time_sec": 592,
+      "text": "The PPP session has re-established with IP address 194.74.82.115. Please check the WAN IP displayed in your router admin panel."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:06]",
+      "end_time": "[10:16]",
+      "start_time_sec": 606,
+      "text": "Refreshing the router overview page... yes! Public IP address is showing 194.74.82.115, subnet 255.255.255.255.",
+      "sentiment_score": 28.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:19]",
+      "end_time": "[10:30]",
+      "start_time_sec": 619,
+      "text": "Just to check, Nadia, is your office local area network and internal file server communication running normally across all workstations?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:33]",
+      "end_time": "[10:41]",
+      "start_time_sec": 633,
+      "text": "Yes, our internal gigabit network and NAS shares are completely unaffected, all architects can access CAD files.",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:44]",
+      "end_time": "[10:55]",
+      "start_time_sec": 644,
+      "text": "Now please test sending an outbound test email from your mail client to an external test recipient such as a Gmail address."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:58]",
+      "end_time": "[11:04]",
+      "start_time_sec": 658,
+      "text": "I am sending a test message to my personal Gmail account right now... hitting Send.",
+      "sentiment_score": 9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:07]",
+      "end_time": "[11:16]",
+      "start_time_sec": 667,
+      "text": "Let us inspect the incoming message headers once received to confirm SPF, DKIM, and rDNS alignment."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:19]",
+      "end_time": "[11:34]",
+      "start_time_sec": 679,
+      "text": "The email just landed in my Gmail inbox! Checking 'Show Original' headers: SPF PASS, DKIM PASS, and Received from 194.74.82.115 matches mail.wharf-architects.co.uk!",
+      "sentiment_score": 44.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:37]",
+      "end_time": "[11:45]",
+      "start_time_sec": 697,
+      "text": "That confirms the mail server delivery chain is fully verified and will not trigger spam filters."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:48]",
+      "end_time": "[11:54]",
+      "start_time_sec": 708,
+      "text": "What a massive relief. Our architects can send proposals again without bouncing.",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:57]",
+      "end_time": "[12:05]",
+      "start_time_sec": 717,
+      "text": "I have locked this static IP reservation permanently to your S-Net Business Pro account ID."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:08]",
+      "end_time": "[12:13]",
+      "start_time_sec": 728,
+      "text": "Thank you for getting the IP and DNS sorting out, Liam.",
+      "sentiment_score": 21.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:16]",
+      "end_time": "[12:26]",
+      "start_time_sec": 736,
+      "text": "Is there anything else regarding your S-Net business broadband line or static routing that I can assist you with today, Nadia?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:29]",
+      "end_time": "[12:33]",
+      "start_time_sec": 749,
+      "text": "No, that resolves our mail delivery problem completely.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:36]",
+      "end_time": "[12:47]",
+      "start_time_sec": 756,
+      "text": "You may receive a short automated survey following this call; we would appreciate any feedback on your technical support experience today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:49]",
+      "end_time": "[12:52]",
+      "start_time_sec": 769,
+      "text": "I will complete the survey. Goodbye.",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:54]",
+      "end_time": "[12:59]",
+      "start_time_sec": 774,
+      "text": "Thank you for choosing S-Net Business, Nadia. Goodbye."
+    }
+  ]
+}

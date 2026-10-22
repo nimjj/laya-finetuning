@@ -1,0 +1,486 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Oliver",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer security. My name is Megan. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:25]",
+      "start_time_sec": 10,
+      "text": "Hello. I received a very convincing text message about fifteen minutes ago claiming to be from S-Net, saying my broadband would be disconnected in two hours due to an unpaid bill, with a link to click.",
+      "sentiment_score": -26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:28]",
+      "end_time": "[00:40]",
+      "start_time_sec": 28,
+      "text": "I can certainly investigate that suspicious message for you. Before we check your account, may I verify your billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:43]",
+      "end_time": "[00:52]",
+      "start_time_sec": 43,
+      "text": "Yes, it is 14 Henleaze Park Drive, Bristol, BS9 4LH. And the security question answer is my favorite teacher, Mr Davies.",
+      "sentiment_score": 1.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:55]",
+      "end_time": "[01:04]",
+      "start_time_sec": 55,
+      "text": "Thank you, that verifies your account records. Did you happen to click on the web link contained within the text message?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:07]",
+      "end_time": "[01:25]",
+      "start_time_sec": 67,
+      "text": "Unfortunately I did! I was rushing to head out, panicked about losing my internet connection, and typed my email address and portal password into the page before I realized the URL was 'snet-billing-verify.com' instead of your real website! I feel so foolish and anxious!",
+      "sentiment_score": -45.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:28]",
+      "end_time": "[01:44]",
+      "start_time_sec": 88,
+      "text": "Please do not feel foolish at all; these phishing sites are designed by professional cyber criminals to look identical to our genuine login page. You acted quickly by calling us immediately, and we are going to secure your account right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:47]",
+      "end_time": "[01:52]",
+      "start_time_sec": 107,
+      "text": "Thank you, that calms my nerves a bit. What should we do first?",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:55]",
+      "end_time": "[02:13]",
+      "start_time_sec": 115,
+      "text": "So if I have understood correctly, you received a deceptive SMS warning of imminent broadband disconnection and inadvertently entered your S-Net online portal username and password into a counterfeit domain, and you need your credentials invalidated immediately. Is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:16]",
+      "end_time": "[02:24]",
+      "start_time_sec": 136,
+      "text": "Yes, exactly. I need to make sure nobody can use that stolen password to access my billing or order anything.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:27]",
+      "end_time": "[02:38]",
+      "start_time_sec": 147,
+      "text": "I am immediately initiating a global revocation of all active session tokens on your account across all web browsers and mobile apps."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:41]",
+      "end_time": "[02:46]",
+      "start_time_sec": 161,
+      "text": "Does that force anyone currently logged in to be kicked out?",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:49]",
+      "end_time": "[02:57]",
+      "start_time_sec": 169,
+      "text": "Yes. Every active OAuth session token has just been terminated in our identity database."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:00]",
+      "end_time": "[03:05]",
+      "start_time_sec": 180,
+      "text": "That is excellent news. Now how do we reset the password?",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:19]",
+      "start_time_sec": 188,
+      "text": "I am sending a one-time cryptographic password reset link directly to your verified secondary email address registered with us."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:22]",
+      "end_time": "[03:30]",
+      "start_time_sec": 202,
+      "text": "Checking my email on my laptop... yes, an email from S-Net Security with a secure reset link has arrived.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:33]",
+      "end_time": "[03:43]",
+      "start_time_sec": 213,
+      "text": "Click that link, enter a brand new password containing at least twelve characters, uppercase, lowercase, numbers, and symbols."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:46]",
+      "end_time": "[03:55]",
+      "start_time_sec": 226,
+      "text": "Typing a new strong password... confirming it... clicking Submit. The screen says 'Password successfully updated'!",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:58]",
+      "end_time": "[04:06]",
+      "start_time_sec": 238,
+      "text": "Now let us enable Two-Factor Authentication via SMS or authenticator app on your profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:09]",
+      "end_time": "[04:15]",
+      "start_time_sec": 249,
+      "text": "Let's do authenticator app; I use Google Authenticator on my phone.",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:18]",
+      "end_time": "[04:28]",
+      "start_time_sec": 258,
+      "text": "Scan the QR code displayed on the screen into your Google Authenticator app and enter the six-digit verification code."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:31]",
+      "end_time": "[04:41]",
+      "start_time_sec": 271,
+      "text": "Scanning the code... typing 482 910 into the confirmation box. It says 'Two-Factor Authentication is now active'!",
+      "sentiment_score": 38.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:44]",
+      "end_time": "[04:57]",
+      "start_time_sec": 284,
+      "text": "Obviously that guarantees that even if a bad actor had your password, they cannot breach your portal without your physical phone device."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:00]",
+      "end_time": "[05:05]",
+      "start_time_sec": 300,
+      "text": "What about my stored payment details or bank card on the billing tab?",
+      "sentiment_score": -8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:08]",
+      "end_time": "[05:23]",
+      "start_time_sec": 308,
+      "text": "Payment cards stored on our billing system are fully PCI-DSS compliant and tokenized; only the last four digits are ever visible in the portal, so your banking numbers were never exposed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:26]",
+      "end_time": "[05:30]",
+      "start_time_sec": 326,
+      "text": "That takes such a huge weight off my chest.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:33]",
+      "end_time": "[05:41]",
+      "start_time_sec": 333,
+      "text": "Let us also change your account security question to a new question and answer right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:44]",
+      "end_time": "[05:48]",
+      "start_time_sec": 344,
+      "text": "Yes please. What options do we have?",
+      "sentiment_score": 9.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:51]",
+      "end_time": "[06:00]",
+      "start_time_sec": 351,
+      "text": "We have 'First car model', 'City where your parents met', or 'Name of your first childhood school'."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:03]",
+      "end_time": "[06:09]",
+      "start_time_sec": 363,
+      "text": "Let's use 'First car model', and the answer is Ford Fiesta.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:12]",
+      "end_time": "[06:20]",
+      "start_time_sec": 372,
+      "text": "I have updated your security question answer to Ford Fiesta on our primary database."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:23]",
+      "end_time": "[06:28]",
+      "start_time_sec": 383,
+      "text": "Perfect. And did you report the fake website address to take it down?",
+      "sentiment_score": 7.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:31]",
+      "end_time": "[06:45]",
+      "start_time_sec": 391,
+      "text": "I have submitted the counterfeit domain 'snet-billing-verify.com' to the National Cyber Security Centre fraud triage and our internal domain registrar takedown team."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:48]",
+      "end_time": "[06:53]",
+      "start_time_sec": 408,
+      "text": "Hopefully that prevents other customers from getting caught out.",
+      "sentiment_score": 16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:56]",
+      "end_time": "[07:08]",
+      "start_time_sec": 416,
+      "text": "You can also forward the exact spam text message to 7726, which is the national mobile network fraud reporting code."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:11]",
+      "end_time": "[07:19]",
+      "start_time_sec": 431,
+      "text": "Forwarding the message to 7726 right now... it responded with an automated thank-you text.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:22]",
+      "end_time": "[07:32]",
+      "start_time_sec": 442,
+      "text": "That enables mobile networks to block the originating sender numbers across the UK telecom infrastructure."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:35]",
+      "end_time": "[07:41]",
+      "start_time_sec": 455,
+      "text": "Good, the more barriers we put up against these fraudsters the better.",
+      "sentiment_score": 21.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:44]",
+      "end_time": "[07:53]",
+      "start_time_sec": 464,
+      "text": "Just to check, is your home broadband connection and WiFi functioning normally without any physical disruption?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:56]",
+      "end_time": "[08:03]",
+      "start_time_sec": 476,
+      "text": "Yes, the broadband line itself has been working fine, it was purely the fake billing text message.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:06]",
+      "end_time": "[08:21]",
+      "start_time_sec": 486,
+      "text": "I am placing a 30-day security review flag on your profile, which prevents any phone upgrades, SIM swaps, or address modifications without strict manager authorization."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:24]",
+      "end_time": "[08:29]",
+      "start_time_sec": 504,
+      "text": "That is very thorough, I appreciate that extra protection.",
+      "sentiment_score": 26.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:32]",
+      "end_time": "[08:43]",
+      "start_time_sec": 512,
+      "text": "Let us test logging into the customer portal with your new password and 2FA code right now to confirm everything works smoothly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:46]",
+      "end_time": "[09:01]",
+      "start_time_sec": 526,
+      "text": "Entering my email... entering the new password... entering the 6-digit authenticator code... logged in! The dashboard is showing my active broadband and normal account balance.",
+      "sentiment_score": 42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:04]",
+      "end_time": "[09:11]",
+      "start_time_sec": 544,
+      "text": "That confirms your credentials and security features are working properly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:14]",
+      "end_time": "[09:20]",
+      "start_time_sec": 554,
+      "text": "I feel so much better now. Thank you for walking me through that so methodically.",
+      "sentiment_score": 31.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:23]",
+      "end_time": "[09:35]",
+      "start_time_sec": 563,
+      "text": "Let us also check the recent audit log on your portal to make sure no unauthorized changes were submitted in the last two hours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:38]",
+      "end_time": "[09:48]",
+      "start_time_sec": 578,
+      "text": "Looking at the Account Activity tab... the only actions logged are the password change and 2FA activation we just did together.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:51]",
+      "end_time": "[10:01]",
+      "start_time_sec": 591,
+      "text": "That provides definitive confirmation that the fraudster never accessed or altered your account settings."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:04]",
+      "end_time": "[10:11]",
+      "start_time_sec": 604,
+      "text": "What a massive relief. I was terrified they had ordered new devices on my account.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:14]",
+      "end_time": "[10:24]",
+      "start_time_sec": 614,
+      "text": "Let us also check your contact mobile telephone number on file to ensure you receive our security SMS alerts in the future."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:27]",
+      "end_time": "[10:32]",
+      "start_time_sec": 627,
+      "text": "The mobile number ending in 814 is my direct phone.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:35]",
+      "end_time": "[10:43]",
+      "start_time_sec": 635,
+      "text": "That matches our profile records. Everything is securely protected on your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:46]",
+      "end_time": "[10:54]",
+      "start_time_sec": 646,
+      "text": "How do I recognize genuine S-Net text messages in the future so I never get fooled again?",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:57]",
+      "end_time": "[11:12]",
+      "start_time_sec": 657,
+      "text": "Genuine S-Net communications will always address you by your formal surname, will never include clickable external payment links, and our official web portal URL is exclusively s-net.co.uk."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:15]",
+      "end_time": "[11:22]",
+      "start_time_sec": 675,
+      "text": "I will inspect every URL very carefully from now on and check the SSL security certificate lock icon.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:25]",
+      "end_time": "[11:38]",
+      "start_time_sec": 685,
+      "text": "That is the safest approach. If you ever have any doubt, always log into the official portal directly via your browser bookmarks rather than clicking links."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:41]",
+      "end_time": "[11:46]",
+      "start_time_sec": 701,
+      "text": "That is very sound advice, I will bookmark the login page right now.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:49]",
+      "end_time": "[11:58]",
+      "start_time_sec": 709,
+      "text": "We will also email you a confirmation copy of these account security changes for your personal records."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:01]",
+      "end_time": "[12:05]",
+      "start_time_sec": 721,
+      "text": "Thank you, that will be good to keep on file.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:08]",
+      "end_time": "[12:17]",
+      "start_time_sec": 728,
+      "text": "Is there anything else regarding your account security or broadband services that I can check for you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:20]",
+      "end_time": "[12:25]",
+      "start_time_sec": 740,
+      "text": "No, that has completely sorted everything out. Thank you Megan.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:28]",
+      "end_time": "[12:34]",
+      "start_time_sec": 748,
+      "text": "Have a safe and pleasant afternoon. Take care and goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:36]",
+      "end_time": "[12:38]",
+      "start_time_sec": 756,
+      "text": "Thanks Megan, goodbye.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

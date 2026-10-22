@@ -1,0 +1,426 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Gabriel",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer service, my name is Danielle. How can I assist you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:20]",
+      "end_time": "[00:43]",
+      "start_time_sec": 20,
+      "text": "Hello Danielle. I'm calling about an issue with my mobile account. Thirty days ago I sent in my old Samsung Galaxy S21 under your trade-in promotion for a promised one hundred and fifty pound bill credit, but my latest invoice arrived today with zero credit applied and the full monthly charge debited!",
+      "sentiment_score": -42.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:56]",
+      "end_time": "[01:13]",
+      "start_time_sec": 56,
+      "text": "I can completely understand how frustrating that is, Gabriel, especially when you returned your handset thirty days ago expecting that trade-in credit to appear. Let me investigate that warehouse intake and sort this out for you right away."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:26]",
+      "end_time": "[01:33]",
+      "start_time_sec": 86,
+      "text": "Thank you Danielle. I have the trade-in quote email and the Royal Mail tracking slip right here.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:46]",
+      "end_time": "[01:56]",
+      "start_time_sec": 106,
+      "text": "That's very helpful. Before we access the logistics records, let's complete account verification. Could you verify your full name and billing address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:09]",
+      "end_time": "[02:12]",
+      "start_time_sec": 129,
+      "text": "Gabriel Santos, 82 Victoria Road, Birmingham, B6 5HE.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:25]",
+      "end_time": "[02:29]",
+      "start_time_sec": 145,
+      "text": "And what is the security PIN on your account, Gabriel?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:42]",
+      "end_time": "[02:45]",
+      "start_time_sec": 162,
+      "text": "It's 3381.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:58]",
+      "end_time": "[03:22]",
+      "start_time_sec": 178,
+      "text": "Thank you Gabriel, verification is complete. So what I understand is you traded in your Samsung Galaxy S21 thirty days ago for an agreed trade-in credit of one hundred and fifty pounds, but your latest invoice did not apply the promotional deduction, and you want that credit applied to your statement today, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:35]",
+      "end_time": "[03:39]",
+      "start_time_sec": 215,
+      "text": "Yes, exactly that. The trade-in quote number was TRD-99410.",
+      "sentiment_score": 2.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:52]",
+      "end_time": "[03:59]",
+      "start_time_sec": 232,
+      "text": "What was the condition of the Samsung S21 when you posted it in the pre-paid trade-in pack?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:12]",
+      "end_time": "[04:20]",
+      "start_time_sec": 252,
+      "text": "It was in pristine condition. No scratches on the glass, battery health at ninety percent, and fully factory reset.",
+      "sentiment_score": 5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:33]",
+      "end_time": "[04:39]",
+      "start_time_sec": 273,
+      "text": "And what date did you drop the trade-in box off at the Post Office?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:52]",
+      "end_time": "[04:55]",
+      "start_time_sec": 292,
+      "text": "On September twentieth, at the Birmingham Central branch.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:08]",
+      "end_time": "[05:16]",
+      "start_time_sec": 308,
+      "text": "Bear with me for a moment while I query the trade-in warehouse intake ledger in our logistics portal."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:06]",
+      "end_time": "[06:15]",
+      "start_time_sec": 366,
+      "text": "Thank you for waiting, Gabriel. I have located the trade-in record under quote reference TRD-99410 at our recycling depot in Hinckley."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:28]",
+      "end_time": "[06:31]",
+      "start_time_sec": 388,
+      "text": "What does the warehouse intake report say?",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:44]",
+      "end_time": "[06:54]",
+      "start_time_sec": 404,
+      "text": "The phone was inspected on September twenty-fourth and graded as 'Grade A Excellent Condition' with full one hundred and fifty pound valuation confirmed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:07]",
+      "end_time": "[07:13]",
+      "start_time_sec": 427,
+      "text": "So the phone was approved, but the money just wasn't applied to my account?",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:26]",
+      "end_time": "[07:36]",
+      "start_time_sec": 446,
+      "text": "Yes, it appears the automated billing bridge between the warehouse system and our billing platform encountered a batch sync timeout on the twenty-fifth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:49]",
+      "end_time": "[07:59]",
+      "start_time_sec": 469,
+      "text": "That's really sloppy system integration. If I hadn't checked my bank statement, I would have overpaid by a hundred and fifty quid!",
+      "sentiment_score": -34.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:12]",
+      "end_time": "[08:26]",
+      "start_time_sec": 492,
+      "text": "You are completely right to be annoyed about that, Gabriel. It is our responsibility to make sure trade-in credits apply automatically without customers having to chase us, and I apologize for the oversight."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:39]",
+      "end_time": "[08:44]",
+      "start_time_sec": 519,
+      "text": "I appreciate the apology Danielle. Can you apply the credit today?",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:57]",
+      "end_time": "[09:11]",
+      "start_time_sec": 537,
+      "text": "I will take direct ownership of this right now. I have manual supervisor authorization to override the failed sync and credit the full one hundred and fifty pounds directly to your ledger."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:24]",
+      "end_time": "[09:29]",
+      "start_time_sec": 564,
+      "text": "That's wonderful. Will that adjust the invoice that was just generated?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:42]",
+      "end_time": "[09:47]",
+      "start_time_sec": 582,
+      "text": "Also, does your new handset have the S-Net Protect device insurance active?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:00]",
+      "end_time": "[10:05]",
+      "start_time_sec": 600,
+      "text": "I didn't take out the insurance when I ordered the new phone.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:18]",
+      "end_time": "[10:25]",
+      "start_time_sec": 618,
+      "text": "That's completely fine. Just keep in mind that our manufacturer warranty covers hardware faults for twenty-four months."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:38]",
+      "end_time": "[10:42]",
+      "start_time_sec": 638,
+      "text": "Good to know the warranty is two full years.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:55]",
+      "end_time": "[11:03]",
+      "start_time_sec": 655,
+      "text": "And you can track all future device trade-ins or upgrades through the Rewards tab on the My S-Net app."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:16]",
+      "end_time": "[11:22]",
+      "start_time_sec": 676,
+      "text": "I'll definitely keep an eye on the Rewards tab next time I upgrade.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:35]",
+      "end_time": "[11:43]",
+      "start_time_sec": 695,
+      "text": "And your trade-in pack receipt from Royal Mail can be discarded now that the credit is formally credited."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:56]",
+      "end_time": "[11:59]",
+      "start_time_sec": 716,
+      "text": "Great, glad I can finally shred that receipt.",
+      "sentiment_score": 16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:12]",
+      "end_time": "[12:25]",
+      "start_time_sec": 732,
+      "text": "Yes. Your current invoice of one hundred and seventy-four pounds will have the one hundred and fifty pound credit deducted immediately, reducing your outstanding balance to just twenty-four pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:38]",
+      "end_time": "[12:41]",
+      "start_time_sec": 758,
+      "text": "And when will my direct debit be adjusted?",
+      "sentiment_score": 6.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:54]",
+      "end_time": "[13:01]",
+      "start_time_sec": 774,
+      "text": "While we are on the line, how are you finding the 5G network coverage around Birmingham?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:14]",
+      "end_time": "[13:21]",
+      "start_time_sec": 794,
+      "text": "The 5G speeds in the city center have been incredible, easily over three hundred megabits.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:34]",
+      "end_time": "[13:41]",
+      "start_time_sec": 814,
+      "text": "We recently upgraded the carrier aggregation cells on the New Street exchange, so throughput has improved significantly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:54]",
+      "end_time": "[13:58]",
+      "start_time_sec": 834,
+      "text": "Yes, it's noticeably faster when streaming video on the train.",
+      "sentiment_score": 26.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:11]",
+      "end_time": "[14:20]",
+      "start_time_sec": 851,
+      "text": "The direct debit collection instruction has been updated with BACS right now to collect only twenty-four pounds on November first."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:33]",
+      "end_time": "[14:39]",
+      "start_time_sec": 873,
+      "text": "That is fantastic. Can you send me a revised invoice showing the deduction?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:52]",
+      "end_time": "[15:02]",
+      "start_time_sec": 892,
+      "text": "Obviously I cannot re-issue the PDF that was already published, but I can dispatch an official credit memo statement directly to your email."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:15]",
+      "end_time": "[15:20]",
+      "start_time_sec": 915,
+      "text": "That works perfectly as long as I have it in writing.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:33]",
+      "end_time": "[15:40]",
+      "start_time_sec": 933,
+      "text": "Just to confirm the trade-in reference for the memo audit trail, it was TRD-99410, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:53]",
+      "end_time": "[15:56]",
+      "start_time_sec": 953,
+      "text": "Yes, TRD-99410.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:09]",
+      "end_time": "[16:18]",
+      "start_time_sec": 969,
+      "text": "Generating the credit memo now... It has been sent to your email on file, gabriel dot santos at gmail dot com."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:31]",
+      "end_time": "[16:36]",
+      "start_time_sec": 991,
+      "text": "Let me check my phone to make sure it comes through.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:55]",
+      "end_time": "[17:05]",
+      "start_time_sec": 1015,
+      "text": "Yes, the credit memo email just arrived! It shows one hundred and fifty pounds credit and an adjusted balance of twenty-four pounds.",
+      "sentiment_score": 36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:18]",
+      "end_time": "[17:26]",
+      "start_time_sec": 1038,
+      "text": "Can you confirm you see the updated balance of twenty-four pounds on your My S-Net mobile app as well?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:39]",
+      "end_time": "[17:45]",
+      "start_time_sec": 1059,
+      "text": "Refreshing the app now... Yes, 'Current Amount Due: \u00a324.00 due on 1st November'.",
+      "sentiment_score": 39.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:58]",
+      "end_time": "[18:03]",
+      "start_time_sec": 1078,
+      "text": "Just to verify your mobile number on file, it's 07700 900742, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:16]",
+      "end_time": "[18:19]",
+      "start_time_sec": 1096,
+      "text": "Yes, that's my mobile number.",
+      "sentiment_score": 10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:32]",
+      "end_time": "[18:40]",
+      "start_time_sec": 1112,
+      "text": "Is there anything else with your mobile plan, trade-in, or billing that I can help you with today, Gabriel?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:53]",
+      "end_time": "[19:01]",
+      "start_time_sec": 1133,
+      "text": "No Danielle, you have sorted out the entire issue quickly and professionally. Thank you so much for your help.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[19:14]",
+      "end_time": "[19:21]",
+      "start_time_sec": 1154,
+      "text": "It was an absolute pleasure. Thank you for choosing S-Net, Gabriel, and have a wonderful day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:34]",
+      "end_time": "[19:37]",
+      "start_time_sec": 1174,
+      "text": "Thank you Danielle, goodbye.",
+      "sentiment_score": 25.0
+    }
+  ]
+}

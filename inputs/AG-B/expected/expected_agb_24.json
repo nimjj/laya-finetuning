@@ -1,0 +1,199 @@
+{
+  "call_id": "agb_24",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 78.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Agent omitted mandatory closing branding 'thank you for choosing s-net' and customer satisfaction survey request."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked which ferry route customer took at [11:15], ignoring customer's explicit statement in turn 1 that he traveled Holyhead to Dublin."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent ended call while customer explicitly stated he did not consider the issue resolved and disputed the charge."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Maritime satellite roaming charge shock from ferry crossing; agent clarifies maritime network tariffs; agent omits survey & closing branding, asks repeat question about ferry route, and fails to confirm resolution",
+    "tier": "good",
+    "duration_sec": 797,
+    "notes": "The agent explained maritime satellite cellular network pricing incurred when crossing the Irish Sea on an overnight ferry. However, the agent failed Branding and Survey Check by omitting 'thank you for choosing s-net' and the survey, failed Active Listening by asking Xander which ferry route he took at minute 11 after Xander stated in turn 1 that he was on the Holyhead to Dublin ferry, and failed Confirmed Resolved by abruptly closing the call while Xander was actively objecting that the charge was unfair and unresolved.",
+    "hard_cases": [
+      "Active listening",
+      "Confirmed the issue is resolved",
+      "Paraphrasing",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[13:10] Agent: 'The investigation team will email you within five working days with their decision. Have a good day. Goodbye.' - Closing lacks mandatory S-Net branding and survey mention."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:40] Agent: 'So if I have understood correctly, you incurred a forty-five pound maritime satellite data roaming fee while traveling across the Irish Sea...' - Complete and accurate restatement."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[11:45] Agent: 'Which ferry crossing route did you take when this maritime charge occurred?' Customer: 'Craig, I told you in my very first sentence that I took the ferry from Holyhead to Dublin! Why are you asking me that again?' - Agent asked for information already explicitly given."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[10:50] Agent: 'Obviously that confirms your handset will automatically refuse connection to non-terrestrial shipboard cells in future, Xander.' - Professional technical reassurance."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[13:00] Customer: 'Well, feedback or not, I still do not agree with this forty-five pound bill and I do not consider this issue resolved until that charge is credited off my statement!' Agent abruptly closed without confirming resolution or customer agreement."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 40
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 1,
+          "agent_turn": 50,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 46
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

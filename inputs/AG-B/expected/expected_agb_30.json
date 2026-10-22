@@ -1,0 +1,199 @@
+{
+  "call_id": "agb_30",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 55.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Agent failed to verify customer identity within the first 240 seconds, omitting requests for PIN, full billing address, or security question."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Agent failed to address the customer by their verified name 'Darlene' anywhere during the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked whether customer had fixed broadband at [10:45], ignoring customer's explicit statement in turn 1 that she lives in a caravan with no fixed line."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Agent asked zero diagnostic questions regarding what generated 650GB of cellular data in ten days, immediately citing terms and conditions."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Mobile unlimited plan throttled under fair usage policy; usage breakdown provided and cap reset scheduled; agent fails verification (never asks PIN/address/security question in 240s), never uses customer name, asks zero probing questions about data consumption, and repeats question about fixed broadband",
+    "tier": "fair",
+    "duration_sec": 901,
+    "notes": "The agent explained mobile network Fair Usage Policy thresholds that throttled data speeds from 5G down to 512kbps following 650GB of cellular usage in ten days. However, the agent failed Verified Customer by never requesting PIN, address, or security question in the first 240 seconds, failed Personalized Call by never addressing the customer by 'Darlene', failed Probing by asking zero diagnostic questions regarding what caused the 650GB data spike, and failed Active Listening at minute 11 by asking whether the customer had fixed home broadband after Darlene explicitly explained in turn 1 that she lives in a rural residential caravan with zero fixed line availability.",
+    "hard_cases": [
+      "Probing",
+      "Active listening",
+      "Took ownership of the problem",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent requested only mobile number and last four digits of SIM card in the first 240 seconds, omitting required whole-word 'pin', 'address', or 'security question' verification."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never used the customer's name 'Darlene' across any turn in the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[10:45] Agent: 'Do you also have a fixed broadband telephone line at this property that you could connect your laptop to?' Customer: 'Marcus, as I explained at the very start of this call, I live in a rural residential caravan in Cumbria where there is no fixed telephone or broadband line whatsoever!' - Agent asked for information already given."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[14:20] Agent: 'I will remain the dedicated owner for this support enquiry and monitor the FUP reset ticket until full speed is restored.' - Clear personal ownership."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[13:40] Agent: 'Obviously that confirms your baseline consumer mobile profile will remain fully protected from inadvertent fair usage restrictions in future.' - Objective reassurance."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked zero probing questions regarding connected devices, hotspot tethering, or application downloads before diagnosing fair usage throttling."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 54
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 1,
+          "agent_turn": 42,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 6
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 58
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 1,
+          "agent_turn": 2,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

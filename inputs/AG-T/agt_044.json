@@ -1,0 +1,441 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Imogen",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net international roaming support, my name is Glen. How can I assist you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:15]",
+      "end_time": "[00:35]",
+      "start_time_sec": 15,
+      "text": "Hello Glen. I am stranded at Dubai International Airport in an absolute panic. My mobile phone has no service and cannot receive SMS text messages, which means my UK banking app cannot send me two-factor authentication security codes to authorize my hotel booking and taxi!",
+      "sentiment_score": -46.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:42]",
+      "end_time": "[00:53]",
+      "start_time_sec": 42,
+      "text": "I can inspect your international roaming profile, Imogen. First I must complete security verification. What is your full name and billing address in the UK?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:03]",
+      "start_time_sec": 60,
+      "text": "Imogen Sinclair, 12 Kensington Gate, London, W8 5NP.",
+      "sentiment_score": -16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:10]",
+      "end_time": "[01:14]",
+      "start_time_sec": 70,
+      "text": "And what is the security PIN on your account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:21]",
+      "end_time": "[01:24]",
+      "start_time_sec": 81,
+      "text": "It's 7701.",
+      "sentiment_score": -5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:31]",
+      "end_time": "[01:38]",
+      "start_time_sec": 91,
+      "text": "What local United Arab Emirates mobile network is your phone currently attempting to connect to?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:45]",
+      "end_time": "[01:53]",
+      "start_time_sec": 105,
+      "text": "It shows 'Etisalat - Emergency Calls Only'. My hotel reservation in downtown Dubai is under the name Sinclair.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:00]",
+      "end_time": "[02:05]",
+      "start_time_sec": 120,
+      "text": "Do you have an international roaming spend cap configured on your account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:12]",
+      "end_time": "[02:19]",
+      "start_time_sec": 132,
+      "text": "I set a zero-pound roaming cap before leaving London because I didn't want any unexpected data charges.",
+      "sentiment_score": -8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:26]",
+      "end_time": "[02:36]",
+      "start_time_sec": 146,
+      "text": "Local roaming partners in the UAE like Etisalat enforce roaming session deposits, so network roaming drops are essentially Etisalat's policy, not S-Net's."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:43]",
+      "end_time": "[02:54]",
+      "start_time_sec": 163,
+      "text": "While you are in Dubai, please keep in mind that cellular data outside of Wi-Fi is charged at our standard Rest of World roaming tariff."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:01]",
+      "end_time": "[03:07]",
+      "start_time_sec": 181,
+      "text": "I will keep mobile data switched off and rely on airport and hotel Wi-Fi.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:14]",
+      "end_time": "[03:18]",
+      "start_time_sec": 194,
+      "text": "That is the safest approach to prevent data roaming consumption."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:25]",
+      "end_time": "[03:32]",
+      "start_time_sec": 205,
+      "text": "Yes, I only need the cellular line for essential emergency phone calls and SMS codes.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:39]",
+      "end_time": "[03:46]",
+      "start_time_sec": 219,
+      "text": "And you can track your real-time roaming expenditure through the My S-Net mobile app over Wi-Fi."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:53]",
+      "end_time": "[03:56]",
+      "start_time_sec": 233,
+      "text": "Good to know I can check the meter.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:03]",
+      "end_time": "[04:07]",
+      "start_time_sec": 243,
+      "text": "And your voicemail notifications will still deliver via free SMS."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:14]",
+      "end_time": "[04:17]",
+      "start_time_sec": 254,
+      "text": "That's very convenient.",
+      "sentiment_score": 10.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:24]",
+      "end_time": "[04:32]",
+      "start_time_sec": 264,
+      "text": "And we also recommend turning on Wi-Fi Calling in your phone settings if the hotel Wi-Fi is fast."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:39]",
+      "end_time": "[04:44]",
+      "start_time_sec": 279,
+      "text": "I will enable Wi-Fi Calling once I reach the hotel room.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:51]",
+      "end_time": "[05:01]",
+      "start_time_sec": 291,
+      "text": "And you can contact our international support team free of charge from your S-Net handset by dialing plus four four seven seven zero zero."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:08]",
+      "end_time": "[05:11]",
+      "start_time_sec": 308,
+      "text": "Saved that emergency number in my phone.",
+      "sentiment_score": 15.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:18]",
+      "end_time": "[05:26]",
+      "start_time_sec": 318,
+      "text": "And remember that WhatsApp voice calls work over hotel Wi-Fi in the UAE if using a secure VPN."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:33]",
+      "end_time": "[05:38]",
+      "start_time_sec": 333,
+      "text": "Good tip, I know standard VoIP apps can be restricted locally.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:45]",
+      "end_time": "[06:00]",
+      "start_time_sec": 345,
+      "text": "What do you mean it's Etisalat's policy? S-Net told me incoming text messages were free worldwide! Bank security SMS codes don't cost anything! I am stuck at midnight in a foreign country without money!",
+      "sentiment_score": -48.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:07]",
+      "end_time": "[06:17]",
+      "start_time_sec": 367,
+      "text": "If you set a zero-pound roaming cap before travelling to the Middle East, it's not surprising you're locked out of network registration."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:24]",
+      "end_time": "[06:33]",
+      "start_time_sec": 384,
+      "text": "That is an incredibly unhelpful and rude response Glen! I am a lone female traveler stuck in an airport terminal!",
+      "sentiment_score": -52.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:40]",
+      "end_time": "[06:48]",
+      "start_time_sec": 400,
+      "text": "As I said, a zero-pound cap blocks all outbound signaling to partner HLR registries, which prevents SMS delivery."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:55]",
+      "end_time": "[07:02]",
+      "start_time_sec": 415,
+      "text": "Then tell me how to unblock it so I can get my bank SMS code!",
+      "sentiment_score": -32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:09]",
+      "end_time": "[07:17]",
+      "start_time_sec": 429,
+      "text": "Let me check your travel reservation details again. What was that hotel booking name you mentioned in downtown Dubai?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:24]",
+      "end_time": "[07:31]",
+      "start_time_sec": 444,
+      "text": "The reservation is under Sinclair, but that has nothing to do with my phone signal!",
+      "sentiment_score": -24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:38]",
+      "end_time": "[07:47]",
+      "start_time_sec": 458,
+      "text": "To unblock foreign network registration, we must adjust your roaming spend cap from zero pounds to at least twenty-five pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:54]",
+      "end_time": "[07:57]",
+      "start_time_sec": 474,
+      "text": "Will I be charged twenty-five pounds immediately?",
+      "sentiment_score": -10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:04]",
+      "end_time": "[08:12]",
+      "start_time_sec": 484,
+      "text": "No, the spend cap is simply an upper ceiling threshold. Incoming SMS messages remain completely free of charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:19]",
+      "end_time": "[08:24]",
+      "start_time_sec": 499,
+      "text": "Please adjust the spend cap to twenty-five pounds right now then.",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:31]",
+      "end_time": "[08:38]",
+      "start_time_sec": 511,
+      "text": "I am submitting the spend cap modification to the roaming clearinghouse. Bear with me for thirty seconds."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:13]",
+      "end_time": "[09:19]",
+      "start_time_sec": 553,
+      "text": "Thank you for waiting, Imogen. The spend cap has been updated to twenty-five pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:26]",
+      "end_time": "[09:30]",
+      "start_time_sec": 566,
+      "text": "What do I need to do on my handset?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:37]",
+      "end_time": "[09:44]",
+      "start_time_sec": 577,
+      "text": "Open Settings on your phone, go to Mobile Data, tap Network Selection, and turn off Automatic."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:51]",
+      "end_time": "[09:54]",
+      "start_time_sec": 591,
+      "text": "Turned off Automatic. It's scanning for local networks...",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:05]",
+      "end_time": "[10:09]",
+      "start_time_sec": 605,
+      "text": "Select 'du' or 'Etisalat' from the list of available operators."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:16]",
+      "end_time": "[10:22]",
+      "start_time_sec": 616,
+      "text": "Tapped 'Etisalat'... Waiting... It connected! S-Net Etisalat 4G appeared in the status bar!",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:29]",
+      "end_time": "[10:33]",
+      "start_time_sec": 629,
+      "text": "Now trigger the bank security code on your banking application."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:40]",
+      "end_time": "[10:43]",
+      "start_time_sec": 640,
+      "text": "Tapped 'Resend SMS code' in my Barclays app...",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:53]",
+      "end_time": "[11:04]",
+      "start_time_sec": 653,
+      "text": "The SMS chime just sounded! 'Your Barclays verification code is 492-018'. Typing it into the hotel app... Success! Hotel room and transfer paid and confirmed!",
+      "sentiment_score": 42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:11]",
+      "end_time": "[11:16]",
+      "start_time_sec": 671,
+      "text": "That confirms international roaming registration and inbound SMS routing are fully operational."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:23]",
+      "end_time": "[11:30]",
+      "start_time_sec": 683,
+      "text": "That is an enormous relief. I was terrified I would be stranded at the airport all night.",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:37]",
+      "end_time": "[11:46]",
+      "start_time_sec": 697,
+      "text": "Just to confirm your contact billing email on file, it's imogen dot sinclair at kensington dot co dot uk, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:53]",
+      "end_time": "[11:56]",
+      "start_time_sec": 713,
+      "text": "Yes, that's my email.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:03]",
+      "end_time": "[12:10]",
+      "start_time_sec": 723,
+      "text": "Just to confirm for your roaming ticket, the UK billing address is 12 Kensington Gate, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:17]",
+      "end_time": "[12:20]",
+      "start_time_sec": 737,
+      "text": "Yes, 12 Kensington Gate.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:27]",
+      "end_time": "[12:35]",
+      "start_time_sec": 747,
+      "text": "I will leave notes on your mobile account so the roaming cap remains at twenty-five pounds throughout your trip."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:42]",
+      "end_time": "[12:45]",
+      "start_time_sec": 762,
+      "text": "Thank you for getting it unblocked.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:52]",
+      "end_time": "[12:59]",
+      "start_time_sec": 772,
+      "text": "Is there anything else with your roaming service that I can help with today, Imogen?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:06]",
+      "end_time": "[13:13]",
+      "start_time_sec": 786,
+      "text": "No, as long as I can receive bank texts, that solves my emergency. Thank you.",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:20]",
+      "end_time": "[13:26]",
+      "start_time_sec": 800,
+      "text": "Thank you for choosing S-Net, Imogen, and have a safe stay in Dubai."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:33]",
+      "end_time": "[13:36]",
+      "start_time_sec": 813,
+      "text": "Thank you, goodbye.",
+      "sentiment_score": 7.2
+    }
+  ]
+}

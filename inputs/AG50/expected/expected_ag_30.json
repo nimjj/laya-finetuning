@@ -1,0 +1,161 @@
+{
+  "call_id": "ag_30",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 16.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "In the closing turns ([16:34]-[17:23]), the agent failed to include the mandatory closing branding phrase 'thank you for choosing S-Net'."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "At [00:23], the agent only asked for the account number and postcode and never verified the customer's security PIN, first line of address, or security question within the first 240 seconds."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Throughout the call (including [00:23], [02:15], and [04:51]), the agent showed zero empathy or apology despite the customer being in tears over losing her late parents' 30-year family landline number."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At [07:41], the agent refused to take ownership of recovering the ceased landline number or transferring the customer, telling her 'I don't handle voice numbering—you'll have to call back tomorrow and ask for numbering.'"
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At [04:51], the agent dismissed the customer's distress over losing her late parents' 30-year landline number by saying 'It's just a phone number at the end of the day, Caoimhe, people change numbers all the time.'"
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "At [04:25] and [08:56]-[09:23], the agent failed to ask any diagnostic questions or check when the cease order completed or which exchange range holder owned the 01223 558910 number block."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "At [14:32]-[16:30], the call ended with the 30-year family landline number 01223 558910 still disconnected and no reclamation ticket or complaint raised."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Family landline number of 30 years accidentally ceased during full-fibre upgrade despite requesting number retention",
+    "tier": "poor",
+    "duration_sec": 1045,
+    "notes": "7-FAIL poor call: B FAIL (no closing branding), V FAIL (only postcode/account number), hard-case E FAIL (zero empathy when customer is in tears at -44.0), hard-case O FAIL ([07:41] telling customer to call back tomorrow for numbering), hard-case R FAIL ([04:51] 'It's just a phone number at the end of the day'), PR FAIL, RE FAIL, paired with hard-case H PASS (two properly managed holds of 70s and 85s at [02:15]-[03:35] and [05:47]-[07:22]) and hard-case PA PASS ([01:39]).",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Took ownership of the problem",
+      "Build rapport and observed professionalism",
+      "Hold time and Dead Air",
+      "Paraphrasing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:00] Agent opened with 'thank you for calling S-Net', but closed at [16:34]-[17:23] ('Have a good afternoon, Caoimhe. Goodbye.') without saying 'thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:15]-[03:35] (70s managed hold announced with 'bear with me for a moment while' and returned with 'Thank you for holding') and [05:47]-[07:22] (85s managed hold announced with 'place you on a brief hold' and returned with 'Thank you for waiting')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:23]-[00:33] Agent only requested account number (5519084) and postcode (CB2 1TN); no PIN, address, or security question was verified."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:23], [00:45], [01:39] Agent addressed the customer by her first name ('Caoimhe') throughout the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[00:07], [01:59], [04:36] Customer expressed deep distress (-44.0 sentiment) over losing her late parents' landline number of 30 years, and the agent never apologized or acknowledged her feelings."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:39] Agent: 'So let me just recap what you're saying, Caoimhe: when your copper line was upgraded to Full Fibre 300 Digital Voice yesterday, your existing landline number 01223 558910 was ceased and replaced with a new number even though you ticked number retention on the order.'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:39], [03:56], [12:30], [16:21] Agent accurately tracked the ceased number (01223 558910), temporary number (01223 894112), account number (5519084), and postcode (CB2 1TN) without asking the customer to repeat information."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[07:41] Agent: 'The number porting desk deals with quarantined numbers, I don't handle voice numbering—you'll have to call back tomorrow and ask for numbering.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[04:51] Agent: 'It's just a phone number at the end of the day, Caoimhe, people change numbers all the time.'"
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[08:56]-[09:23] Agent admitted she did not check which range holder owned the 01223 558 block, when the cease order completed, or when the quarantine timer would expire."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[14:32]-[16:30] Customer confirmed the landline number 01223 558910 remained dead and unrecovered."
+      }
+    ]
+  }
+}

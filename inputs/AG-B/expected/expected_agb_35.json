@@ -1,0 +1,199 @@
+{
+  "call_id": "agb_35",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 66.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Agent omitted mandatory closing branding 'thank you for choosing s-net' and customer satisfaction survey request."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "Agent left two unmanaged silences exceeding 30 seconds (42s at [02:30] and 45s at [10:15]) without hold announcements or thanks."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked whether the drop-wire was overhead or underground at [09:10], ignoring customer's explicit statement in turn 1 that a mini-digger severed an underground cable."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Agent asked zero diagnostic questions regarding conduit depth, copper fraying, or distance before dispatching an engineering ticket."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Garden landscaping mini-digger severed external drop-wire; emergency civil engineering repair crew scheduled; agent omits survey and closing branding, leaves two unmanaged silences > 30s, asks zero probing questions about severed conduit, and repeats question about overhead vs underground cable",
+    "tier": "fair",
+    "duration_sec": 972,
+    "notes": "The agent arranged an emergency Openreach external civil engineering repair ticket after a landscaping mini-digger severed the lead-in broadband conduit. However, the agent failed Branding and Survey Check by omitting 'thank you for choosing s-net' and the survey, failed Hold Time and Dead Air by leaving two unmanaged silences > 30s (42s at [02:30] and 45s at [10:15]) without hold notice or thanks, failed Probing by asking zero diagnostic questions regarding the conduit depth, severed pair fraying, or boundary proximity, and failed Active Listening at minute 11 by asking whether the drop-wire was overhead or underground after Isaac explicitly stated in turn 1 that a mini-digger severed an underground cable.",
+    "hard_cases": [
+      "Probing",
+      "Active listening",
+      "Paraphrasing",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[15:45] Agent: 'All set. Have a good afternoon and take care. Goodbye.' - Closing lacks mandatory S-Net branding and survey mention."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent left an unmanaged silence of 42 seconds at [02:30] while querying Openreach loop diagnostics, and a second unmanaged silence of 45 seconds at [10:15] without hold announcements."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:30] Agent: 'I completely understand the critical emergency for your pharmaceutical compliance audit tomorrow morning, Isaac...' - Strong empathetic acknowledgment."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:45] Agent: 'So if I have understood correctly, an excavation mini-digger in your front garden physically severed your underground broadband cable conduit...' - Complete and accurate restatement."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[09:10] Agent: 'Is the damaged telephone drop-wire an overhead cable spanning from a wooden telegraph pole, or an underground line?' Customer: 'Dominic, as I told you in my very first sentence, a landscaping mini-digger dug through the underground conduit in our lawn!' - Agent asked for information already given."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[08:15] Agent: 'Obviously that confirms your regulatory compliance deadline is fully protected while awaiting physical ground repairs, Isaac.' - Clear technical reassurance."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked zero probing questions regarding physical conduit diameter, duct obstruction, or whether temporary surface cabling could be laid."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 60
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 1,
+          "agent_turn": 32,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 30
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

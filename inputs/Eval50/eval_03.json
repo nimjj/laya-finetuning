@@ -1,0 +1,198 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Fiona",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net mobile, this is Tom. What can I do for you today?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:14]",
+      "start_time_sec": 8,
+      "text": "Hi Tom, my phone keeps saying no service since I put the new SIM in yesterday.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:15]",
+      "end_time": "[00:23]",
+      "start_time_sec": 15,
+      "text": "Okay, so since you put the new S-Net SIM in yesterday, the phone shows no service at all. Is that right?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:24]",
+      "end_time": "[00:26]",
+      "start_time_sec": 24,
+      "text": "Yes, nothing at all.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:28]",
+      "end_time": "[00:38]",
+      "start_time_sec": 28,
+      "text": "Let's sort that out. First I'll need to verify you. Can you answer your security question for me: what was the name of your first school?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:39]",
+      "end_time": "[00:41]",
+      "start_time_sec": 39,
+      "text": "Hillside Primary.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:42]",
+      "end_time": "[00:51]",
+      "start_time_sec": 42,
+      "text": "Thank you, Fiona, that's all verified. Is the phone itself locked to another network, do you know? Did you buy it from another provider?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:52]",
+      "end_time": "[00:57]",
+      "start_time_sec": 52,
+      "text": "I bought it from Vodafone two years ago, but I paid it off.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:59]",
+      "end_time": "[01:07]",
+      "start_time_sec": 59,
+      "text": "Okay. When you go into settings, then about phone, is there a line that says carrier lock or network lock?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:09]",
+      "end_time": "[01:12]",
+      "start_time_sec": 69,
+      "text": "Hang on. It says SIM lock, no SIM restrictions.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:15]",
+      "end_time": "[01:24]",
+      "start_time_sec": 75,
+      "text": "Good, so it isn't locked. Is there an icon at the top of the screen, like a red signal bar or an exclamation mark?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:25]",
+      "end_time": "[01:30]",
+      "start_time_sec": 85,
+      "text": "There's a little red light on the case actually, on the side.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:33]",
+      "end_time": "[01:37]",
+      "start_time_sec": 93,
+      "text": "Is that light red all the time, or does it flash?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:40]",
+      "end_time": "[01:42]",
+      "start_time_sec": 100,
+      "text": "Red all the time.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:43]",
+      "end_time": "[01:51]",
+      "start_time_sec": 103,
+      "text": "Okay. I've just pushed a network refresh to your SIM from my side. Could you restart the phone for me?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:53]",
+      "end_time": "[01:55]",
+      "start_time_sec": 113,
+      "text": "Okay, it's restarting.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:56]",
+      "end_time": "[01:58]",
+      "start_time_sec": 116,
+      "text": "It's back on.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:01]",
+      "end_time": "[02:04]",
+      "start_time_sec": 121,
+      "text": "Is the light still red now, after the restart?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:07]",
+      "end_time": "[02:10]",
+      "start_time_sec": 127,
+      "text": "No, it's gone. And I've got four bars now.",
+      "sentiment_score": -3.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:13]",
+      "end_time": "[02:26]",
+      "start_time_sec": 133,
+      "text": "That's what I hoped. The SIM hadn't fully activated on our network; the refresh has completed it. Could you make a quick test call or send a text to make sure it works both ways?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:29]",
+      "end_time": "[02:31]",
+      "start_time_sec": 149,
+      "text": "Texted my husband, he's replied already.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:32]",
+      "end_time": "[02:40]",
+      "start_time_sec": 152,
+      "text": "Perfect. So your SIM is active and your service is working normally. Is there anything else that isn't working on the phone?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:42]",
+      "end_time": "[02:44]",
+      "start_time_sec": 162,
+      "text": "No, that's it. Thank you, Tom.",
+      "sentiment_score": -1.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:45]",
+      "end_time": "[02:51]",
+      "start_time_sec": 165,
+      "text": "You're welcome, Fiona. Thank you for choosing S-Net, and enjoy the rest of your day.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

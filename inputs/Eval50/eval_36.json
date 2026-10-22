@@ -1,0 +1,126 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Maeve",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, this is Greg. How can I help?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:06]",
+      "end_time": "[00:17]",
+      "start_time_sec": 6,
+      "text": "It's my mum's landline. It's been dead since yesterday, and her care alarm runs through it, so if she falls nobody will know. I'm really scared for her.",
+      "sentiment_score": -33.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:18]",
+      "end_time": "[00:20]",
+      "start_time_sec": 18,
+      "text": "Can I take the account PIN?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:22]",
+      "end_time": "[00:24]",
+      "start_time_sec": 22,
+      "text": "2 1 2 1.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:25]",
+      "end_time": "[00:30]",
+      "start_time_sec": 25,
+      "text": "Thanks, Maeve. Is there a dial tone when you pick up the phone?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:32]",
+      "end_time": "[00:34]",
+      "start_time_sec": 32,
+      "text": "No, nothing at all.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:36]",
+      "end_time": "[00:41]",
+      "start_time_sec": 36,
+      "text": "Have any of the cables been unplugged, or is there building work nearby?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:42]",
+      "end_time": "[00:44]",
+      "start_time_sec": 42,
+      "text": "Not that I know of.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:46]",
+      "end_time": "[00:54]",
+      "start_time_sec": 46,
+      "text": "Care alarms are nothing to do with us, you'd have to contact the alarm company. For the line, I'll log a fault.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:56]",
+      "end_time": "[00:58]",
+      "start_time_sec": 56,
+      "text": "How long will that take?",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:01]",
+      "end_time": "[01:04]",
+      "start_time_sec": 61,
+      "text": "Faults are usually fixed within three working days.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:06]",
+      "end_time": "[01:08]",
+      "start_time_sec": 66,
+      "text": "Three days? She's on her own.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:09]",
+      "end_time": "[01:11]",
+      "start_time_sec": 69,
+      "text": "It's logged. Anything else?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:12]",
+      "end_time": "[01:14]",
+      "start_time_sec": 72,
+      "text": "No.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:16]",
+      "end_time": "[01:18]",
+      "start_time_sec": 76,
+      "text": "Thank you for choosing S-Net, Maeve.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

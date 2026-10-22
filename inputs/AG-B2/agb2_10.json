@@ -1,0 +1,650 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Beatrice",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer care, my name is Ryan. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:25]",
+      "start_time_sec": 11,
+      "text": "Hello Ryan, I received a letter yesterday saying my broadband bill is going up by six pounds fifty next month, and I want to know why on earth I'm being charged more.",
+      "sentiment_score": -24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:28]",
+      "end_time": "[00:45]",
+      "start_time_sec": 28,
+      "text": "I can certainly look into your billing notification and explore plan options to lower your monthly outgoings today, Beatrice. Before we begin, could you please confirm your full address and your mother's maiden name for account security?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:48]",
+      "end_time": "[00:55]",
+      "start_time_sec": 48,
+      "text": "Yes, it is 12 Meadow Close, Oxford, OX4 2JY, and my mother's maiden name was Patterson.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:58]",
+      "end_time": "[01:08]",
+      "start_time_sec": 58,
+      "text": "Thank you Beatrice, that verifies your account on our Fibre 150 and Weekend Landline package. Your current monthly subscription is forty-one pounds fifty."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:11]",
+      "end_time": "[01:18]",
+      "start_time_sec": 71,
+      "text": "And your letter says it's going up to forty-eight pounds! That is an outrageous jump.",
+      "sentiment_score": -18.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:21]",
+      "end_time": "[01:32]",
+      "start_time_sec": 81,
+      "text": "The annual price adjustment reflects the Consumer Price Index rate of inflation published in January plus our standard three point nine percent infrastructure investment factor."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:35]",
+      "end_time": "[01:45]",
+      "start_time_sec": 95,
+      "text": "I am seventy-two years old and living on a fixed state pension, Ryan. My state pension certainly didn't go up by that much!",
+      "sentiment_score": -16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:48]",
+      "end_time": "[01:54]",
+      "start_time_sec": 108,
+      "text": "How long have you been an S-Net broadband customer at your current address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:57]",
+      "end_time": "[02:04]",
+      "start_time_sec": 117,
+      "text": "Nine years! We've been with S-Net since my late husband set it up in 2017.",
+      "sentiment_score": 1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:07]",
+      "end_time": "[02:13]",
+      "start_time_sec": 127,
+      "text": "And what household devices do you typically connect to your home Wi-Fi connection?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:16]",
+      "end_time": "[02:39]",
+      "start_time_sec": 136,
+      "text": "Just my iPad for reading the news and an occasional video call with my grandchildren! I don't download movies or play online video games! I've been a loyal customer for nine years, and every single spring you slap an inflation rise on top of an already expensive bill! It is pure corporate greed taking advantage of loyal elderly customers!",
+      "sentiment_score": -52.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:42]",
+      "end_time": "[02:51]",
+      "start_time_sec": 162,
+      "text": "Do you still use the landline telephone for making outgoing calls, or do you primarily use a mobile phone?"
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:54]",
+      "end_time": "[03:17]",
+      "start_time_sec": 174,
+      "text": "First of all Beatrice, I completely understand how upsetting and unfair price increases feel, especially when you are on a fixed pension and household utility bills are escalating all around. I am very glad you called us today, and my goal right now is to thoroughly review your account and reduce your monthly bill so you aren't paying for speed you don't need."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:20]",
+      "end_time": "[03:28]",
+      "start_time_sec": 200,
+      "text": "Thank you Ryan, I really appreciate you saying that. It's just so frightening when everything keeps going up.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:31]",
+      "end_time": "[03:42]",
+      "start_time_sec": 211,
+      "text": "You are very welcome. Looking at your data consumption over the past six billing cycles, your household uses an average of thirty-five gigabytes per month."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:45]",
+      "end_time": "[03:49]",
+      "start_time_sec": 225,
+      "text": "Is that considered a lot or a little?",
+      "sentiment_score": 2.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:51]",
+      "end_time": "[04:00]",
+      "start_time_sec": 231,
+      "text": "That is very modest usage. Our Fibre 150 package is designed for large households with multiple simultaneous 4K streams."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:03]",
+      "end_time": "[04:10]",
+      "start_time_sec": 243,
+      "text": "So I'm paying for an enormous pipe that I barely use a drop of?",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:13]",
+      "end_time": "[04:27]",
+      "start_time_sec": 253,
+      "text": "Exactly. We have our Fibre 50 tier, which provides fifty megabits download speed. That is more than enough bandwidth to handle ultra-high definition video calling on your iPad with zero stutter."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:30]",
+      "end_time": "[04:35]",
+      "start_time_sec": 270,
+      "text": "And how much would the Fibre 50 tier cost per month?",
+      "sentiment_score": 8.9
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:37]",
+      "end_time": "[04:43]",
+      "start_time_sec": 277,
+      "text": "The standard retail rate for Fibre 50 is thirty-two pounds per month."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:46]",
+      "end_time": "[04:55]",
+      "start_time_sec": 286,
+      "text": "Thirty-two pounds would be nearly ten pounds less than what I'm paying right now. Does that include the landline?",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:58]",
+      "end_time": "[05:03]",
+      "start_time_sec": 298,
+      "text": "What type of calls do you make from your landline telephone?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:05]",
+      "end_time": "[05:12]",
+      "start_time_sec": 305,
+      "text": "I only ever use it to ring the doctor's surgery or local numbers on weekday mornings.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:15]",
+      "end_time": "[05:24]",
+      "start_time_sec": 315,
+      "text": "Your current plan has the Weekend Calls bolt-on, which means weekday calls incur standard per-minute connection fees of twenty-four pence."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:27]",
+      "end_time": "[05:33]",
+      "start_time_sec": 327,
+      "text": "Goodness, I had no idea! I assumed landline calls were all included.",
+      "sentiment_score": -12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:36]",
+      "end_time": "[05:48]",
+      "start_time_sec": 336,
+      "text": "We can bundle our Anytime UK Landline and Mobile Call Plan, which covers all daytime calls to UK landlines and mobiles up to sixty minutes each."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:51]",
+      "end_time": "[05:58]",
+      "start_time_sec": 351,
+      "text": "That would save me having to check the clock every time I phone the clinic.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:01]",
+      "end_time": "[06:15]",
+      "start_time_sec": 361,
+      "text": "Let me see what loyalty promotions are available on our customer retention matrix. Bear with me for about a minute while I run your profile through the discount pricing calculator."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:11]",
+      "end_time": "[07:23]",
+      "start_time_sec": 431,
+      "text": "Thank you for waiting, Beatrice. Because you have maintained an unblemished nine-year payment history with S-Net, our system qualifies you for a bespoke Senior Loyalty Tariff."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:26]",
+      "end_time": "[07:30]",
+      "start_time_sec": 446,
+      "text": "Oh that sounds promising, what does that offer?",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:32]",
+      "end_time": "[07:47]",
+      "start_time_sec": 452,
+      "text": "The Senior Loyalty Tariff provides our Fibre 50 broadband plus the Anytime UK Landline and Mobile Call pack for exactly twenty-eight pounds per month, with a fixed price freeze for the entire duration."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:50]",
+      "end_time": "[08:01]",
+      "start_time_sec": 470,
+      "text": "Twenty-eight pounds all in, with a price freeze? That would save me twenty pounds a month compared to the forty-eight pounds in the letter!",
+      "sentiment_score": 34.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:04]",
+      "end_time": "[08:09]",
+      "start_time_sec": 484,
+      "text": "It saves you two hundred and forty pounds across the year."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:11]",
+      "end_time": "[08:15]",
+      "start_time_sec": 491,
+      "text": "That is a huge saving for me, Ryan.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:17]",
+      "end_time": "[08:24]",
+      "start_time_sec": 497,
+      "text": "Do you use online paperless billing or do you receive paper bills through the post?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:27]",
+      "end_time": "[08:35]",
+      "start_time_sec": 507,
+      "text": "I receive a paper bill through the letterbox because I like having the physical statement in my folder.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:38]",
+      "end_time": "[08:45]",
+      "start_time_sec": 518,
+      "text": "Paper billing normally carries an administrative charge of two pounds fifty per month on standard packages."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:48]",
+      "end_time": "[08:53]",
+      "start_time_sec": 528,
+      "text": "Oh dear, does that get added onto the twenty-eight pounds?",
+      "sentiment_score": -6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:55]",
+      "end_time": "[09:02]",
+      "start_time_sec": 535,
+      "text": "On the Senior Loyalty Tariff, paper billing charges are completely waived as a free inclusion."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:05]",
+      "end_time": "[09:09]",
+      "start_time_sec": 545,
+      "text": "That is very kind. Thank you.",
+      "sentiment_score": 22.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:11]",
+      "end_time": "[09:19]",
+      "start_time_sec": 551,
+      "text": "And would we need to change your broadband router box, or can you keep your current one?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:22]",
+      "end_time": "[09:34]",
+      "start_time_sec": 562,
+      "text": "I would much rather keep the little black box I have right now. It sits neatly on the sideboard and I don't want engineers rewiring anything.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:37]",
+      "end_time": "[09:48]",
+      "start_time_sec": 577,
+      "text": "You keep your existing S-Net Hub. The speed profile adjustment is executed entirely on our local telephone exchange software, so no technician visits are required."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:51]",
+      "end_time": "[09:55]",
+      "start_time_sec": 591,
+      "text": "That is very convenient.",
+      "sentiment_score": 16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:57]",
+      "end_time": "[10:06]",
+      "start_time_sec": 597,
+      "text": "Let us also check your direct debit payment date. Is the fourteenth of the month still your preferred payment day?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:09]",
+      "end_time": "[10:15]",
+      "start_time_sec": 609,
+      "text": "Yes, my state pension arrives on the twelfth, so the fourteenth is ideal.",
+      "sentiment_score": 11.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:18]",
+      "end_time": "[10:24]",
+      "start_time_sec": 618,
+      "text": "That ensures your pension funds are cleared well before the debit is requested."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:27]",
+      "end_time": "[10:31]",
+      "start_time_sec": 627,
+      "text": "Perfect.",
+      "sentiment_score": 5.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:33]",
+      "end_time": "[10:40]",
+      "start_time_sec": 633,
+      "text": "Now let me explain the contractual commitment terms associated with the twenty-eight pound tariff."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:43]",
+      "end_time": "[10:47]",
+      "start_time_sec": 643,
+      "text": "Yes, what is the contract commitment?",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:49]",
+      "end_time": "[10:59]",
+      "start_time_sec": 649,
+      "text": "To lock in the twenty-eight pound rate and the inflation exemption, the tariff requires entering into a new minimum term contract."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:02]",
+      "end_time": "[11:06]",
+      "start_time_sec": 662,
+      "text": "How long is the contract?",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:08]",
+      "end_time": "[11:14]",
+      "start_time_sec": 668,
+      "text": "The promotion is attached to a standard twenty-four month minimum service agreement."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:17]",
+      "end_time": "[11:21]",
+      "start_time_sec": 677,
+      "text": "Twenty-four months? Two whole years?",
+      "sentiment_score": -14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:23]",
+      "end_time": "[11:28]",
+      "start_time_sec": 683,
+      "text": "Yes, twenty-four months running from today's date through to October 2028."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:30]",
+      "end_time": "[11:39]",
+      "start_time_sec": 690,
+      "text": "What happens if I need to move into sheltered accommodation or an assisted living facility before two years are up?",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:42]",
+      "end_time": "[11:53]",
+      "start_time_sec": 702,
+      "text": "Under standard terms, early termination fees of twenty-four pounds per remaining month apply if the service is ceased prior to the twenty-four month mark."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:56]",
+      "end_time": "[12:06]",
+      "start_time_sec": 716,
+      "text": "Twenty-four pounds a month penalty? If I had to move in eighteen months, you would charge me over a hundred pounds?",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:09]",
+      "end_time": "[12:13]",
+      "start_time_sec": 729,
+      "text": "Early termination fees recover the subsidized wholesale access costs."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:15]",
+      "end_time": "[12:19]",
+      "start_time_sec": 735,
+      "text": "Can you not offer a twelve-month contract instead?",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:21]",
+      "end_time": "[12:28]",
+      "start_time_sec": 741,
+      "text": "The system will only apply the twenty-eight pound promotional code against the twenty-four month contract SKU."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:31]",
+      "end_time": "[12:37]",
+      "start_time_sec": 751,
+      "text": "Is there no flexibility for elderly customers who might have medical housing changes?",
+      "sentiment_score": -16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:40]",
+      "end_time": "[12:45]",
+      "start_time_sec": 760,
+      "text": "The contractual terms are fixed within our computerized billing portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:47]",
+      "end_time": "[12:52]",
+      "start_time_sec": 767,
+      "text": "That seems extraordinarily rigid for a loyal customer of nine years.",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:54]",
+      "end_time": "[12:59]",
+      "start_time_sec": 774,
+      "text": "I am stating the exact parameters enforced by the billing engine."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:01]",
+      "end_time": "[13:24]",
+      "start_time_sec": 781,
+      "text": "This is utterly heartless! I am seventy-two years old and my health is precarious! I might be forced to move to an assisted living warden bungalow by next summer, and you are trying to trap me into a twenty-four month legally binding contract with heavy financial penalties! It's like you're preying on vulnerable pensioners who have no choice!",
+      "sentiment_score": -56.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:27]",
+      "end_time": "[13:41]",
+      "start_time_sec": 807,
+      "text": "If you don't like the contractual commitment terms, you will have to speak directly with our head office retentions and cancellations department, because customer care advisors cannot alter legal contract durations."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:44]",
+      "end_time": "[13:54]",
+      "start_time_sec": 824,
+      "text": "So you can't even help me? You offer a discount with one hand and hold a contractual trap in the other!",
+      "sentiment_score": -44.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:57]",
+      "end_time": "[14:08]",
+      "start_time_sec": 837,
+      "text": "I can offer our twelve-month rolling loyalty discount on Fibre 50 for thirty-four pounds a month with zero early exit penalties for medical relocation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:11]",
+      "end_time": "[14:18]",
+      "start_time_sec": 851,
+      "text": "Thirty-four pounds with zero exit penalties if I have to move to assisted living?",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:21]",
+      "end_time": "[14:30]",
+      "start_time_sec": 861,
+      "text": "Yes, thirty-four pounds per month on a twelve-month rolling term, including your free paper billing and unlimited anytime calls."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:33]",
+      "end_time": "[14:47]",
+      "start_time_sec": 873,
+      "text": "Well, that is six pounds more than twenty-eight, but it still saves me fourteen pounds compared to the forty-eight pounds in the letter, and without the fear of being trapped.",
+      "sentiment_score": 18.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:50]",
+      "end_time": "[14:54]",
+      "start_time_sec": 890,
+      "text": "And it includes an explicit medical relocation exemption clause."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:56]",
+      "end_time": "[15:03]",
+      "start_time_sec": 896,
+      "text": "Okay. Let us set up the thirty-four pound plan with the medical exemption then.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:06]",
+      "end_time": "[15:16]",
+      "start_time_sec": 906,
+      "text": "I have activated the twelve-month rolling Senior Tariff at thirty-four pounds per month effective from your next bill date, with reference CN-99410."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:19]",
+      "end_time": "[15:23]",
+      "start_time_sec": 919,
+      "text": "Thank you. That is much more humane.",
+      "sentiment_score": 26.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:25]",
+      "end_time": "[15:32]",
+      "start_time_sec": 925,
+      "text": "Does that resolve your billing and plan inquiry for your S-Net account today, Beatrice?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:35]",
+      "end_time": "[15:43]",
+      "start_time_sec": 935,
+      "text": "Yes, that completely resolves it and gives me an affordable bill with peace of mind. Thank you.",
+      "sentiment_score": 29.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:46]",
+      "end_time": "[15:51]",
+      "start_time_sec": 946,
+      "text": "Is there anything else I can assist you with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:53]",
+      "end_time": "[15:57]",
+      "start_time_sec": 953,
+      "text": "No, that was everything. Have a good afternoon.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:59]",
+      "end_time": "[16:03]",
+      "start_time_sec": 959,
+      "text": "Thank you for calling S-Net customer care."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:05]",
+      "end_time": "[16:09]",
+      "start_time_sec": 965,
+      "text": "Goodbye Ryan.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:11]",
+      "end_time": "[16:18]",
+      "start_time_sec": 971,
+      "text": "Thank you for choosing S-Net as your service provider. Have a wonderful day, Beatrice. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:21]",
+      "end_time": "[16:24]",
+      "start_time_sec": 981,
+      "text": "Goodbye.",
+      "sentiment_score": 3.4
+    }
+  ]
+}

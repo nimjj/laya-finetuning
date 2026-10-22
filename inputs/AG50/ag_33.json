@@ -1,0 +1,590 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Krzysztof",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Good morning, thank you for calling S-Net Home Phone and Digital Voice Support. My name is Amira speaking. How can I help you today?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:16]",
+      "start_time_sec": 8,
+      "text": "Good morning Amira. My name is Krzysztof, and I am calling because our home landline is being bombarded with relentless nuisance and scam calls every single day.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:17]",
+      "end_time": "[00:26]",
+      "start_time_sec": 17,
+      "text": "Hi Krzysztof, I can certainly help you look into your landline call protection settings today. First, could you please confirm your full street address and your four-digit security PIN?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:27]",
+      "end_time": "[00:31]",
+      "start_time_sec": 27,
+      "text": "Yes, my address is 88 Vicarage Road, Wolverhampton, WV2 1JD, and my four-digit security PIN is 6105.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:32]",
+      "end_time": "[00:38]",
+      "start_time_sec": 32,
+      "text": "Thank you, Krzysztof. Your address and PIN are verified and I have your S-Net Digital Voice landline profile open.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:39]",
+      "end_time": "[00:53]",
+      "start_time_sec": 39,
+      "text": "Honestly Amira, it has been driving us up the wall all week. Both my wife and I work night shifts as ICU nurses at New Cross Hospital, so we sleep between nine in the morning and four in the afternoon.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:54]",
+      "end_time": "[01:06]",
+      "start_time_sec": 54,
+      "text": "We are getting ten or twelve calls a day—half of them show Withheld or International, and the other half spoof local Wolverhampton 01902 or Manchester 0161 numbers pretending to be bank security or loft insulation scammers.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:07]",
+      "end_time": "[01:17]",
+      "start_time_sec": 67,
+      "text": "We can't just unplug the landline while we sleep because my elderly father's care home and our GP surgery call us on the landline, plus our daughter calls from her mobile.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:18]",
+      "end_time": "[01:30]",
+      "start_time_sec": 78,
+      "text": "I am so sorry that those constant scam calls have been waking you and your wife up when you are trying to rest after hospital night shifts, Krzysztof, I completely understand how exhausting that must be.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:31]",
+      "end_time": "[01:33]",
+      "start_time_sec": 91,
+      "text": "Okay, I've got that noted down, let's open your voice features.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:34]",
+      "end_time": "[01:51]",
+      "start_time_sec": 94,
+      "text": "To make sure we configure the right call screening rules for your household, Krzysztof, could you tell me whether your father's care home, your GP surgery, and your daughter always call from known, visible phone numbers, or do any of them ever call from a withheld number?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:52]",
+      "end_time": "[02:00]",
+      "start_time_sec": 112,
+      "text": "Let me think. My daughter always calls from her normal 07700 mobile number, and the care home always displays their main 01902 switchboard number.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:01]",
+      "end_time": "[02:09]",
+      "start_time_sec": 121,
+      "text": "Actually, wait—when our GP at Penn Manor Medical Centre rings back for telephone consultations, their surgery system sometimes shows up as Withheld or Private Number!",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:10]",
+      "end_time": "[02:23]",
+      "start_time_sec": 130,
+      "text": "That is a really important detail to catch, Krzysztof. And when the automated scam calls ring through on spoofed 01902 or 0161 numbers, is there a two-second pause and a click before a recorded voice starts speaking?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:24]",
+      "end_time": "[02:34]",
+      "start_time_sec": 144,
+      "text": "Yes! Nine times out of ten it is either a recorded robotic voice saying our Visa card has been charged, or an autodialler delay before a call centre connects.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:35]",
+      "end_time": "[02:44]",
+      "start_time_sec": 155,
+      "text": "And do you currently use an answering machine built into your DECT cordless handsets in the bedroom, or do you use S-Net Voicemail 1571 on the network?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:45]",
+      "end_time": "[02:52]",
+      "start_time_sec": 165,
+      "text": "We use S-Net 1571 network voicemail so the handset doesn't squawk out loud in the bedroom while a caller leaves a message.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:53]",
+      "end_time": "[03:00]",
+      "start_time_sec": 173,
+      "text": "That works in our favour, Krzysztof, because S-Net Call Guardian integrates directly with 1571 network voicemail before your home handsets even ring.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:01]",
+      "end_time": "[03:07]",
+      "start_time_sec": 181,
+      "text": "How does Call Guardian handle my GP calling from a withheld number versus a robotic scammer calling from a spoofed number?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:22]",
+      "start_time_sec": 188,
+      "text": "If we simply turned on hard Anonymous Caller Rejection, your GP surgery calling from a withheld number would be blocked outright. Instead, with Call Guardian in Announce Mode, any withheld or unknown caller is intercepted silently before your phone rings.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:23]",
+      "end_time": "[03:34]",
+      "start_time_sec": 203,
+      "text": "Call Guardian asks the caller to say their name and press hash. Automated robocallers and predictive autodiallers cannot speak a name and press hash, so your bedroom phone never rings at all!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:35]",
+      "end_time": "[03:45]",
+      "start_time_sec": 215,
+      "text": "Oh, that's clever! So if my GP rings from a withheld line, the doctor just says 'Dr Patel from Penn Manor Medical Centre' and presses hash, and then our phone rings?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:46]",
+      "end_time": "[03:59]",
+      "start_time_sec": 226,
+      "text": "Exactly right, Krzysztof. And for your father's care home and your daughter's mobile, we can put their specific numbers onto your Call Guardian VIP Allowlist so they bypass the screening prompt and ring straight through every time.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:00]",
+      "end_time": "[04:07]",
+      "start_time_sec": 240,
+      "text": "That sounds like the exact balance we need so we can sleep during the day without missing an emergency from the care home.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:08]",
+      "end_time": "[04:14]",
+      "start_time_sec": 248,
+      "text": "Just a moment, I am pulling up the Digital Voice feature provisioning switch on my terminal.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:56]",
+      "end_time": "[05:00]",
+      "start_time_sec": 296,
+      "text": "Right, I have the Digital Voice feature provisioning portal open on my screen now, Krzysztof.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:01]",
+      "end_time": "[05:11]",
+      "start_time_sec": 301,
+      "text": "Great. Would you like the phone numbers for my father's care home, our daughter's mobile, and the GP surgery main line so we can add them to the VIP Allowlist?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:12]",
+      "end_time": "[05:19]",
+      "start_time_sec": 312,
+      "text": "Yes please, Krzysztof. Go ahead with those three numbers whenever you are ready and I will enter them directly into your VIP Allowlist.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:20]",
+      "end_time": "[05:31]",
+      "start_time_sec": 320,
+      "text": "Okay, first is Oakwood Manor Care Home in Wolverhampton on 01902 554320. Second is my daughter Maja's mobile on 07700 900412. And third is Penn Manor Medical Centre's main switchboard on 01902 558900.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:32]",
+      "end_time": "[05:43]",
+      "start_time_sec": 332,
+      "text": "Let me read those three VIP Allowlist entries back to confirm: Oakwood Manor Care Home on 01902 554320, your daughter Maja on 07700 900412, and Penn Manor Medical Centre on 01902 558900.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:44]",
+      "end_time": "[05:46]",
+      "start_time_sec": 344,
+      "text": "Spot on, Amira, every digit is right.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:47]",
+      "end_time": "[05:59]",
+      "start_time_sec": 347,
+      "text": "What about your own mobile number and your wife's mobile number, Krzysztof? Should we add those two to the VIP Allowlist as well so neither of you has to announce yourselves when calling home?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:00]",
+      "end_time": "[06:07]",
+      "start_time_sec": 360,
+      "text": "Oh, good thinking! My mobile is 07700 900185—that's the one I'm listed with on the account—and my wife Agnieszka's mobile is 07700 900189.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:08]",
+      "end_time": "[06:16]",
+      "start_time_sec": 368,
+      "text": "I have added your mobile 07700 900185 and Agnieszka's mobile 07700 900189 to the VIP Allowlist as well, making five trusted VIP numbers in total.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:17]",
+      "end_time": "[06:29]",
+      "start_time_sec": 377,
+      "text": "Can we also block International callers completely unless they are on the VIP list? All our relatives in Poland call us on WhatsApp anyway, so any international call on the landline is 100 percent a scammer.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:30]",
+      "end_time": "[06:39]",
+      "start_time_sec": 390,
+      "text": "Yes, we can set International Call Screening to Send Straight to Call Guardian Challenge, or we can set International Calls to Block Outright—which would you prefer, Krzysztof?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:40]",
+      "end_time": "[06:44]",
+      "start_time_sec": 400,
+      "text": "Block international calls on the landline outright, please. Nobody legitimate ever calls our landline from abroad.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:45]",
+      "end_time": "[06:52]",
+      "start_time_sec": 405,
+      "text": "Done—I have set International Inbound to Block Outright, while Domestic Unknown and Withheld callers are routed through the Call Guardian Name-and-Hash Challenge.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:53]",
+      "end_time": "[07:01]",
+      "start_time_sec": 413,
+      "text": "Hang on there, I am committing those five VIP numbers and the Call Guardian rules to the Wolverhampton voice switch.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:49]",
+      "end_time": "[07:55]",
+      "start_time_sec": 469,
+      "text": "Okay, the voice routing table has refreshed and S-Net Call Guardian is now active on your 01902 landline, Krzysztof.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:56]",
+      "end_time": "[08:12]",
+      "start_time_sec": 476,
+      "text": "Awesome. Before we test it, I wanted to ask about one specific number that rang us four times yesterday: 0161 496 0821. When I rang it back, a poor lady in Manchester answered who had no idea her number was being spoofed by scammers.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:13]",
+      "end_time": "[08:21]",
+      "start_time_sec": 493,
+      "text": "Can you log 0161 496 0821 on S-Net's network fraud list or report the CLI spoofing on our line so your network blocks the spoofed trunk?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:22]",
+      "end_time": "[08:30]",
+      "start_time_sec": 502,
+      "text": "Oh, CLI spoofing has nothing to do with S-Net, we don't deal with fraud lists—you'll have to take that up with Ofcom or Action Fraud yourself.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:31]",
+      "end_time": "[08:35]",
+      "start_time_sec": 511,
+      "text": "Oh, right... I thought telecom providers had a nuisance call reporting system, my mistake.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:36]",
+      "end_time": "[08:46]",
+      "start_time_sec": 516,
+      "text": "Anyway, on your actual handset line, we can add 0161 496 0821 to your personal 100-number Personal Blocklist right now so that specific caller ID can never reach your phone again.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:47]",
+      "end_time": "[08:54]",
+      "start_time_sec": 527,
+      "text": "Yes, please add 0161 496 0821 to my Personal Blocklist then, at least that stops them using that number on our line.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:55]",
+      "end_time": "[09:07]",
+      "start_time_sec": 535,
+      "text": "I have added 0161 496 0821 to your Personal Blocklist, Krzysztof, and you can also dial 1572 from your home handset after any nuisance call to press 1 and block the last caller automatically.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:08]",
+      "end_time": "[09:12]",
+      "start_time_sec": 548,
+      "text": "Dial 1572 and press 1 to block the last caller—that is easy enough to remember.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:13]",
+      "end_time": "[09:22]",
+      "start_time_sec": 553,
+      "text": "Now, let's test S-Net Call Guardian live while we are on the phone together so you can hear exactly how it intercepts withheld and unknown callers, Krzysztof.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:23]",
+      "end_time": "[09:35]",
+      "start_time_sec": 563,
+      "text": "I am speaking to you on my landline headset right now, or wait—no, I called you from my mobile 07700 900185! Wait, if I call from my mobile, it's on the VIP list now, isn't it?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:36]",
+      "end_time": "[09:53]",
+      "start_time_sec": 576,
+      "text": "Good catch! Because your mobile 07700 900185 is on the VIP Allowlist, a normal call from your mobile would ring straight through. However, if you dial #31# before your 01902 landline number on another phone or Agnieszka's mobile with caller ID withheld, Call Guardian will intercept it!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:54]",
+      "end_time": "[10:04]",
+      "start_time_sec": 594,
+      "text": "Agnieszka is in the kitchen right now with her mobile! Let me ask her to dial #31# followed by our 01902 home landline number so her caller ID is withheld.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:05]",
+      "end_time": "[10:17]",
+      "start_time_sec": 605,
+      "text": "That is the ideal test, Krzysztof. Go ahead and have Agnieszka dial #31# plus your home number, and let's see whether your home cordless phone stays silent while she hears the Call Guardian prompt.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:18]",
+      "end_time": "[10:26]",
+      "start_time_sec": 618,
+      "text": "She is dialling #31# and our landline number right now... Look at that, our DECT handset on the hallway table isn't ringing at all!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:27]",
+      "end_time": "[10:39]",
+      "start_time_sec": 627,
+      "text": "She has her mobile on speakerphone—the S-Net voice is saying: 'This number is protected by S-Net Call Guardian. Callers with withheld numbers, please say your name after the tone and press the hash key.'",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:40]",
+      "end_time": "[10:48]",
+      "start_time_sec": 640,
+      "text": "Now ask Agnieszka to say her name and press hash, and let's verify that your hallway phone rings and announces her name to you!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:49]",
+      "end_time": "[10:55]",
+      "start_time_sec": 649,
+      "text": "She just said 'Agnieszka' and pressed hash... Now the hallway DECT phone is ringing! Let me pick it up and listen.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:56]",
+      "end_time": "[11:06]",
+      "start_time_sec": 656,
+      "text": "It played her recording saying 'Agnieszka' and said 'Press 1 to accept this call, Press 2 to always allow, Press 3 to send to voicemail, or Press 4 to block!'",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:07]",
+      "end_time": "[11:16]",
+      "start_time_sec": 667,
+      "text": "And if a robocaller or silent autodialler calls, they never get past that first prompt, so your hallway and bedroom handsets never make a single sound, Krzysztof.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:17]",
+      "end_time": "[11:23]",
+      "start_time_sec": 677,
+      "text": "Wait, what if Agnieszka dials our landline normally WITHOUT #31#, now that her mobile 07700 900189 is on the VIP Allowlist?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:24]",
+      "end_time": "[11:29]",
+      "start_time_sec": 684,
+      "text": "Let's test that too! Have her end that call and redial your 01902 landline normally without #31#.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:30]",
+      "end_time": "[11:38]",
+      "start_time_sec": 690,
+      "text": "She's dialling normally now... Boom, the hallway phone rang immediately on the first ring with 'Agnieszka Mobile' on the caller ID screen, no prompt at all!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:39]",
+      "end_time": "[11:50]",
+      "start_time_sec": 699,
+      "text": "That proves both sides of Call Guardian are working properly: your five VIP numbers ring straight through, while withheld and unknown callers are screened silently before the phone can wake you up.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:51]",
+      "end_time": "[12:00]",
+      "start_time_sec": 711,
+      "text": "And if Dr Patel from Penn Manor Medical Centre calls from a withheld extension, when we press 1 to accept the call, it connects us straight away?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:01]",
+      "end_time": "[12:12]",
+      "start_time_sec": 721,
+      "text": "Yes, pressing 1 connects the call immediately, and if you ever fall asleep and don't answer after the doctor announces their name, Call Guardian routes them cleanly to your 1571 network voicemail.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:13]",
+      "end_time": "[12:25]",
+      "start_time_sec": 733,
+      "text": "That is going to save our daytime sleep after night shifts at the hospital. Can I manage the VIP Allowlist on the S-Net app as well if I need to add another number later?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:26]",
+      "end_time": "[12:38]",
+      "start_time_sec": 746,
+      "text": "Yes, Krzysztof, under Home Phone and Call Guardian in the S-Net app you can view or edit all five VIP numbers—Oakwood Manor Care Home, Maja, Penn Manor Medical Centre, your mobile, and Agnieszka's mobile—anytime.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:39]",
+      "end_time": "[12:50]",
+      "start_time_sec": 759,
+      "text": "Let me just check the Call Guardian tab in my S-Net app right now... Yes, it shows Call Guardian Active, International Inbound Blocked, 5 VIP Contacts, and 1 Blocked Number (0161 496 0821).",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:51]",
+      "end_time": "[12:59]",
+      "start_time_sec": 771,
+      "text": "Everything is synchronized across both the voice switch and your My S-Net app, Krzysztof. Is there anything else I can adjust on your landline settings today?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:00]",
+      "end_time": "[13:05]",
+      "start_time_sec": 780,
+      "text": "No, that's everything sorted. Thank you for setting up the VIP numbers and testing it with us, Amira.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:06]",
+      "end_time": "[13:16]",
+      "start_time_sec": 786,
+      "text": "You are very welcome, Krzysztof. Thank you for choosing S-Net, and please look out for a short text survey after our call if you'd like to share feedback on today's support.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:17]",
+      "end_time": "[13:19]",
+      "start_time_sec": 797,
+      "text": "Will do, thanks Amira. Have a good day!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:20]",
+      "end_time": "[13:25]",
+      "start_time_sec": 800,
+      "text": "Thank you, Krzysztof, hope you and Agnieszka get a peaceful rest today. Goodbye!",
+      "sentiment_score": 18.0
+    }
+  ]
+}

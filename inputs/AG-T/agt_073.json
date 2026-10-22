@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Oscar",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:03]",
+   "start_time_sec": 0,
+   "text": "Cellular technical queue, agent 401."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:10]",
+   "end_time": "[00:34]",
+   "start_time_sec": 10,
+   "text": "Hello, my name is Oscar Lindqvist. My mobile phone data has been throttled down to fifty kilobits per second for three days: web pages time out, Google Maps won't load, and WhatsApp messages take two minutes to send, even though my S-Net account app confirms I have fifteen gigabytes of high-speed data remaining on my monthly allowance!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:41]",
+   "end_time": "[00:49]",
+   "start_time_sec": 41,
+   "text": "I can inspect the data bearer profile on the cellular line. What mobile telephone number is experiencing the bandwidth throttle?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:56]",
+   "end_time": "[01:02]",
+   "start_time_sec": 56,
+   "text": "It is 07700 900741, registered to 34 Crown Street, Aberdeen, AB11 6HJ, security PIN 5510.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:09]",
+   "end_time": "[01:17]",
+   "start_time_sec": 69,
+   "text": "Thank you, that brings up the cellular record. What specific error message displays when you attempt to browse websites?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:24]",
+   "end_time": "[01:37]",
+   "start_time_sec": 84,
+   "text": "Safari says 'Server connection timed out', and speed tests report 0.05 Mbps download and zero upload!",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:44]",
+   "end_time": "[01:55]",
+   "start_time_sec": 104,
+   "text": "Could I place you on hold for two minutes while I query the mobile network traffic management console?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:20]",
+   "end_time": "[03:35]",
+   "start_time_sec": 200,
+   "text": "Thank you for holding. The core cellular gateway indicates that a fair usage policy bandwidth throttle flag is active on the subscriber IMSI."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:42]",
+   "end_time": "[03:55]",
+   "start_time_sec": 222,
+   "text": "Why is a fair usage throttle active when I only used fifteen gigabytes of my thirty-gigabyte plan?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:02]",
+   "end_time": "[04:14]",
+   "start_time_sec": 242,
+   "text": "Automated traffic management algorithms throttle lines when sudden high-bandwidth video tethering spikes occur during peak evening hours."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:21]",
+   "end_time": "[04:38]",
+   "start_time_sec": 261,
+   "text": "I used tethering to watch a football match on my laptop while visiting my brother! That is completely within my paid data allowance!",
+   "sentiment_score": -32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:45]",
+   "end_time": "[04:58]",
+   "start_time_sec": 285,
+   "text": "If you use your mobile handset as a substitute home broadband pipe for video streaming, you trigger automated traffic management throttling."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:05]",
+   "end_time": "[05:20]",
+   "start_time_sec": 305,
+   "text": "Your advertising explicitly says tethering is included in our data plans! Why are you penalizing me for using my allowance?!",
+   "sentiment_score": -52.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:27]",
+   "end_time": "[05:38]",
+   "start_time_sec": 327,
+   "text": "Tethering is subject to fair usage network management policies enforced during cell tower congestion."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:45]",
+   "end_time": "[05:59]",
+   "start_time_sec": 345,
+   "text": "Can you lift the throttle flag right now so I can use the fifteen gigabytes I paid for?",
+   "sentiment_score": -38.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:39]",
+   "end_time": "[06:49]",
+   "start_time_sec": 399,
+   "text": "Fair usage flags are governed by centralized policy controllers."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:56]",
+   "end_time": "[07:09]",
+   "start_time_sec": 416,
+   "text": "Hello? Is anyone there? The phone went completely dead for half a minute!",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:16]",
+   "end_time": "[07:26]",
+   "start_time_sec": 436,
+   "text": "I was querying the Scottish regional cell tower congestion index."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:33]",
+   "end_time": "[07:43]",
+   "start_time_sec": 453,
+   "text": "Will you remove the throttle flag today or not?!",
+   "sentiment_score": -36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:50]",
+   "end_time": "[08:02]",
+   "start_time_sec": 470,
+   "text": "Obviously mobile networks must throttle heavy data users to protect shared radio spectrum for general subscribers."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:09]",
+   "end_time": "[08:21]",
+   "start_time_sec": 489,
+   "text": "I am not a heavy user! I used fifteen gigabytes in an entire month!",
+   "sentiment_score": -42.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:28]",
+   "end_time": "[08:52]",
+   "start_time_sec": 508,
+   "text": "I am a long-haul lorry driver stranded at a remote truck stop near Inverness in the freezing cold! My cab heating timer and delivery dispatch app both require mobile data, and your 2G throttle has frozen my tablet! I cannot download my tomorrow delivery manifest, I cannot turn on my diesel heater remotely, and I am freezing in my lorry! I am furious and terrified!",
+   "sentiment_score": -68.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:59]",
+   "end_time": "[09:23]",
+   "start_time_sec": 539,
+   "text": "I understand how terrifying and freezing cold that situation is in your lorry cab near Inverness, and how vital your delivery manifest and heating controls are tonight. Being stranded in freezing weather without data access is an emergency, so let us inspect the policy throttle immediately."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:30]",
+   "end_time": "[09:40]",
+   "start_time_sec": 570,
+   "text": "Can you clear the throttle flag right now?",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:47]",
+   "end_time": "[09:58]",
+   "start_time_sec": 587,
+   "text": "Frontline telephony representatives do not have administrative override permissions for core traffic management flags."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:05]",
+   "end_time": "[10:17]",
+   "start_time_sec": 605,
+   "text": "Then transfer me to your network operations manager who can override it!",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:24]",
+   "end_time": "[10:32]",
+   "start_time_sec": 624,
+   "text": "Network operations engineers do not accept transferred customer telephone calls."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:39]",
+   "end_time": "[10:50]",
+   "start_time_sec": 639,
+   "text": "So what is an emergency stranded lorry driver supposed to do tonight?!",
+   "sentiment_score": -44.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:57]",
+   "end_time": "[11:09]",
+   "start_time_sec": 657,
+   "text": "The fair usage policy throttle resets automatically at midnight on your monthly billing cycle date."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:16]",
+   "end_time": "[11:19]",
+   "start_time_sec": 676,
+   "text": "When is my billing cycle date?!",
+   "sentiment_score": -34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:26]",
+   "end_time": "[11:36]",
+   "start_time_sec": 686,
+   "text": "Your next monthly billing cycle date is in eleven days on October 28th."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:43]",
+   "end_time": "[11:57]",
+   "start_time_sec": 703,
+   "text": "Eleven days?! You expect a lorry driver to freeze in Scotland with 50 Kbps data for eleven days?!",
+   "sentiment_score": -62.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:04]",
+   "end_time": "[12:12]",
+   "start_time_sec": 724,
+   "text": "Those are the automated constraints of the traffic policy algorithm."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:19]",
+   "end_time": "[12:32]",
+   "start_time_sec": 739,
+   "text": "This is utterly heartless. Can I purchase a one-off high-speed data booster to override the throttle?",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:12]",
+   "end_time": "[13:16]",
+   "start_time_sec": 792,
+   "text": "Data bolt-on boosters cannot override an active fair usage throttle profile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:23]",
+   "end_time": "[13:27]",
+   "start_time_sec": 803,
+   "text": "Can you log an emergency technical escalation with your duty manager?",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:34]",
+   "end_time": "[13:37]",
+   "start_time_sec": 814,
+   "text": "I can submit an emergency duty manager review form."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:44]",
+   "end_time": "[13:51]",
+   "start_time_sec": 824,
+   "text": "Hello? Are you still on the line? Why does your headset keep cutting out into total silence?",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:58]",
+   "end_time": "[14:03]",
+   "start_time_sec": 838,
+   "text": "I have submitted the duty manager review form under ticket reference MOB-FAIR-88192-A."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:10]",
+   "end_time": "[14:13]",
+   "start_time_sec": 850,
+   "text": "MOB-FAIR-88192-A, noted down.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:20]",
+   "end_time": "[14:24]",
+   "start_time_sec": 860,
+   "text": "Duty managers review escalation forms within twenty-four to forty-eight hours."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:31]",
+   "end_time": "[14:34]",
+   "start_time_sec": 871,
+   "text": "Forty-eight hours does not heat my lorry tonight.",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:41]",
+   "end_time": "[14:46]",
+   "start_time_sec": 881,
+   "text": "Before I close this escalation file, what was that mobile telephone number again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:53]",
+   "end_time": "[14:56]",
+   "start_time_sec": 893,
+   "text": "Like I said earlier, it is 07700 900741.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:03]",
+   "end_time": "[15:07]",
+   "start_time_sec": 903,
+   "text": "I have documented your mobile number on the duty manager ticket."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:14]",
+   "end_time": "[15:18]",
+   "start_time_sec": 914,
+   "text": "So my mobile data remains throttled at 50 Kbps tonight.",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:25]",
+   "end_time": "[15:29]",
+   "start_time_sec": 925,
+   "text": "The throttle will remain active pending duty manager policy evaluation."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:36]",
+   "end_time": "[15:45]",
+   "start_time_sec": 936,
+   "text": "I will have to walk in the dark to the truck stop diner to borrow their Wi-Fi for my heater app. Unbelievable.",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:51]",
+   "end_time": "[15:54]",
+   "start_time_sec": 951,
+   "text": "That is an alternative connectivity option."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:00]",
+   "end_time": "[16:03]",
+   "start_time_sec": 960,
+   "text": "You have been completely useless.",
+   "sentiment_score": -28.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:09]",
+   "end_time": "[16:13]",
+   "start_time_sec": 969,
+   "text": "Is there any other cellular issue I can assist with today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:19]",
+   "end_time": "[16:22]",
+   "start_time_sec": 979,
+   "text": "No, goodbye.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:28]",
+   "end_time": "[16:31]",
+   "start_time_sec": 988,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:37]",
+   "end_time": "[16:40]",
+   "start_time_sec": 997,
+   "text": "Goodbye.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:46]",
+   "end_time": "[16:49]",
+   "start_time_sec": 1006,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:55]",
+   "end_time": "[16:58]",
+   "start_time_sec": 1015,
+   "text": "Goodbye.",
+   "sentiment_score": -12.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:04]",
+   "end_time": "[17:07]",
+   "start_time_sec": 1024,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:13]",
+   "end_time": "[17:18]",
+   "start_time_sec": 1033,
+   "text": "Goodbye.",
+   "sentiment_score": -8.0
+  }
+ ]
+}

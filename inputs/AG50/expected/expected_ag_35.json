@@ -1,0 +1,160 @@
+{
+  "call_id": "ag_35",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 83.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Although you manually credited the £180.00 trade-in value and closed the return flag, at [06:44] you disparaged S-Net's grading partner and told the customer to chase them herself: 'Honestly, our third-party grading contractor Assurant is a shambles—that's their mess not ours, and if you have any query about the physical handset inspection certificate you'll have to chase Assurant directly because I don't deal with their warehouse.'"
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Trade-in credit of £180 for old iPhone 13 not applied to mobile upgrade bill 21 days after warehouse receipt",
+    "tier": "good",
+    "duration_sec": 670,
+    "notes": "Single borderline FAIL on Ownership ([06:44]): Freya takes ownership of the £180 credit override, locks the return flag as Fulfilled, and confirms live that Cordelia's bill drops from £215 to £35 ([08:45]–[09:07]), but at [06:44] blames third-party contractor Assurant ('that's their mess not ours... you'll have to chase Assurant directly because I don't deal with their warehouse'). Per Section 7.2, doing other useful things in the call does not cancel an explicit deflection line.",
+    "hard_cases": [
+      "Took ownership of the problem",
+      "Empathy & Acknowledgment Statement",
+      "Paraphrasing",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:00] \"thank you for calling S-Net Mobile Upgrades and Billing Support\" and [10:46] \"Thank you for choosing S-Net Mobile\" plus survey check."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "No holds or dead-air gaps over 30 seconds occurred during the call."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:20] Freya verified the customer's billing address and four-digit security PIN before accessing the mobile account."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[00:20] \"Hi Cordelia, I would be glad to look into your iPhone 13 trade-in and get your mobile bill sorted out today.\""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:22] \"I am so sorry for the frustration and shock of seeing a £215.00 bill when you sent your iPhone 13 back right on time three weeks ago, Cordelia—I completely understand why you want that £180 credit sorted before your Direct Debit goes out.\""
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:37] \"So just to make sure I have all the details straight: you returned your 128-gigabyte iPhone 13 via Royal Mail Tracked 24, it was signed for at the trade-in warehouse 21 days ago on 27 September, but the £180 trade-in credit was not applied to today's £215.00 bill.\""
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:53]–[07:27] Freya accurately recorded and used the Royal Mail tracking number (`JB482910385GB`), old iPhone 13 IMEI ending `8492`, and Direct Debit date (`24 October`)."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "borderline",
+        "evidence": "[06:44] \"Honestly, our third-party grading contractor Assurant is a shambles—that's their mess not ours, and if you have any query about the physical handset inspection certificate you'll have to chase Assurant directly because I don't deal with their warehouse.\""
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:22]–[11:04] Freya was warm, reassuring, and thorough with the customer across the call."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:03]–[02:26] Freya probed for the Royal Mail Tracked 24 tracking reference, the last four digits of the old iPhone 13 IMEI, whether Find My iPhone / Activation Lock had been disabled, and whether any grading query email had been received."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[08:45]–[09:07] Cordelia refreshed the My S-Net app live on the call and confirmed her balance and 24 October Direct Debit dropped from £215.00 to £35.00, and confirmed receipt of PDF credit note `CN-7721904`."
+      }
+    ]
+  }
+}

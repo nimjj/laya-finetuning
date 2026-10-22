@@ -1,0 +1,630 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Zlatan",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Good afternoon, thank you for calling S-Net Technical Support. My name is Craig. How may I assist you today?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:26]",
+      "start_time_sec": 10,
+      "text": "Hello Craig, my name is Zlatan. I have had an awful loud static crackling noise on my landline for three days, and every single time my home phone rings, my VDSL broadband router loses sync and drops the internet.",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:28]",
+      "end_time": "[00:39]",
+      "start_time_sec": 28,
+      "text": "Thank you for letting me know about that, Zlatan. I will personally take charge of getting this landline and broadband fault investigated and sorted out for you today.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:41]",
+      "end_time": "[00:53]",
+      "start_time_sec": 41,
+      "text": "I really hope so, because I work from home as an architect and losing my internet connection every time someone calls the house is driving me up the wall.",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:55]",
+      "end_time": "[01:06]",
+      "start_time_sec": 55,
+      "text": "Let us start by checking the physical line telemetry from the exchange. Before calling in today, I assume you still have your standard setup connected at the wall?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:08]",
+      "end_time": "[01:22]",
+      "start_time_sec": 68,
+      "text": "Actually, this morning I unscrewed the lower half of the NTE5C master socket faceplate and plugged my corded telephone directly into the internal test port, and the loud crackling was still just as bad.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:25]",
+      "end_time": "[01:34]",
+      "start_time_sec": 85,
+      "text": "Right, I will log onto the Openreach copper line test head right now and run an initial metallic path diagnostic on your circuit.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:37]",
+      "end_time": "[01:44]",
+      "start_time_sec": 97,
+      "text": "Okay, do you need my account details first or are you pulling it up from my caller ID?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:47]",
+      "end_time": "[01:59]",
+      "start_time_sec": 107,
+      "text": "My screen already populated your landline number 0161 496 0821 from the incoming CLI, Zlatan, so I can trigger the preliminary copper line check straight away while we talk.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:02]",
+      "end_time": "[02:13]",
+      "start_time_sec": 122,
+      "text": "Fair enough, go ahead and run it. You can probably even hear a bit of the background hum on the line right now if I stop talking.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:16]",
+      "end_time": "[02:30]",
+      "start_time_sec": 136,
+      "text": "Actually, I am calling you back on the mobile contact number listed on the preliminary ticket header, so I am not hearing the copper pair directly, which is why the automated line test is essential.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:33]",
+      "end_time": "[02:40]",
+      "start_time_sec": 153,
+      "text": "Ah, of course, I completely forgot I gave the automated menu my mobile number for the callback queue.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:43]",
+      "end_time": "[02:54]",
+      "start_time_sec": 163,
+      "text": "The preliminary line check is initializing against the street cabinet DSLAM now. It tests capacitance, loop resistance, and foreign battery voltage across the A and B copper legs.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:57]",
+      "end_time": "[03:01]",
+      "start_time_sec": 177,
+      "text": "How long does that test normally take to run?",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:03]",
+      "end_time": "[03:10]",
+      "start_time_sec": 183,
+      "text": "Usually around forty seconds. Let me watch the live attenuation figures coming back from the cabinet port.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:13]",
+      "end_time": "[03:25]",
+      "start_time_sec": 193,
+      "text": "Whenever someone rings the landline, the broadband light on my S-Net Hub flashes orange within two seconds of the first ring, and then it takes five minutes to reconnect.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:28]",
+      "end_time": "[03:38]",
+      "start_time_sec": 208,
+      "text": "That happens when the fifty-volt ringing current sent down the copper pair from the exchange causes a sudden signal-to-noise ratio drop on the VDSL frequency band.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:41]",
+      "end_time": "[03:49]",
+      "start_time_sec": 221,
+      "text": "Why would the ringing current suddenly start knocking out the broadband when it worked fine for the last four years?",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:52]",
+      "end_time": "[04:04]",
+      "start_time_sec": 232,
+      "text": "When insulation degrades or a joint oxidizes on one of the two copper wires, the line becomes unbalanced, so the high-voltage AC ring signal bleeds straight across the VDSL spectrum.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:07]",
+      "end_time": "[04:11]",
+      "start_time_sec": 247,
+      "text": "That makes sense technically. Has the preliminary test finished yet?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:13]",
+      "end_time": "[04:23]",
+      "start_time_sec": 253,
+      "text": "It is still measuring the earth-fault resistance between the exchange side and the distribution pole. Wait there while I pull the detailed metallic trace.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:26]",
+      "end_time": "[04:28]",
+      "start_time_sec": 266,
+      "text": "Okay.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:19]",
+      "end_time": "[05:32]",
+      "start_time_sec": 319,
+      "text": "Right, the metallic path trace just came back on my screen, Zlatan, and it has flagged a hard 'High Resistance Battery Contact Fault' roughly one hundred and eighty metres from your premises.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:35]",
+      "end_time": "[05:46]",
+      "start_time_sec": 335,
+      "text": "You went completely silent for over forty seconds there without telling me you were going away, Craig, I was about to check if the call had dropped!",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:49]",
+      "end_time": "[06:03]",
+      "start_time_sec": 349,
+      "text": "I was waiting for the copper trace screen to finish rendering the distance-to-fault graph, Zlatan. Now, before I can access your full account record to book an Openreach engineer, I need to complete formal security verification.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:06]",
+      "end_time": "[06:10]",
+      "start_time_sec": 366,
+      "text": "Sure, go ahead—what security details do you need from me?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:12]",
+      "end_time": "[06:19]",
+      "start_time_sec": 372,
+      "text": "Could you please confirm your full residential address and the four-digit security PIN on your S-Net account, Zlatan?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:22]",
+      "end_time": "[06:29]",
+      "start_time_sec": 382,
+      "text": "Yes, my address is 42 Birchwood Avenue, Stockport, SK4 3QP, and my four-digit security PIN is 7391.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:32]",
+      "end_time": "[06:40]",
+      "start_time_sec": 392,
+      "text": "Thank you very much for confirming those details, Zlatan. Your full S-Net account is now unlocked and verified on my terminal.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:43]",
+      "end_time": "[06:49]",
+      "start_time_sec": 403,
+      "text": "Great. So what exactly did that distance-to-fault graph show at one hundred and eighty metres?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:52]",
+      "end_time": "[07:02]",
+      "start_time_sec": 412,
+      "text": "One hundred and eighty metres corresponds to the overhead distribution pole on your street where the dropwire spans across to the eaves of your house.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:05]",
+      "end_time": "[07:17]",
+      "start_time_sec": 425,
+      "text": "Yes, there is a wooden telegraph pole right down by the corner of Birchwood Avenue, and the black overhead cable runs through a couple of tall sycamore trees to my roof.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:20]",
+      "end_time": "[07:32]",
+      "start_time_sec": 440,
+      "text": "That matches the telemetry reading closely. The A-leg resistance is measuring 1,420 ohms against a normal baseline of 380 ohms, which causes the audible static crackle and the VDSL sync loss.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:35]",
+      "end_time": "[07:45]",
+      "start_time_sec": 455,
+      "text": "Can you stabilize the broadband from your end in the meantime so it stops dropping every five minutes while I am trying to send CAD drawings?",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:48]",
+      "end_time": "[07:58]",
+      "start_time_sec": 468,
+      "text": "I can adjust the Dynamic Line Management profile on your cabinet port from a standard six-decibel target noise margin to a twelve-decibel stability profile right now.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:01]",
+      "end_time": "[08:06]",
+      "start_time_sec": 481,
+      "text": "Will raising the noise margin to twelve decibels slow my download speed down?",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:08]",
+      "end_time": "[08:20]",
+      "start_time_sec": 488,
+      "text": "It will reduce your sync speed from around fifty-eight megabits to roughly forty-four megabits temporarily, Zlatan, but it gives the router an extra six decibels of headroom against the static spikes.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:23]",
+      "end_time": "[08:31]",
+      "start_time_sec": 503,
+      "text": "Forty-four megabits is plenty fast enough for my work as long as the connection stays up—please put that stability profile on.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:34]",
+      "end_time": "[08:44]",
+      "start_time_sec": 514,
+      "text": "I have just submitted the twelve-decibel noise margin override to the cabinet DSLAM, and I am also enabling seamless rate adaptation on your port.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:47]",
+      "end_time": "[08:52]",
+      "start_time_sec": 527,
+      "text": "Will that completely stop the router dropping out when the landline phone rings?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:54]",
+      "end_time": "[09:06]",
+      "start_time_sec": 534,
+      "text": "It will cushion minor static bursts, Zlatan, though a full fifty-volt incoming ring spike on a corroded copper joint will still require an Openreach linesman to replace the faulty cable section.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:09]",
+      "end_time": "[09:22]",
+      "start_time_sec": 549,
+      "text": "Okay, and what if we divert my incoming landline calls to my mobile number until the engineer fixes the wire outside? Would that stop the phone line ringing and crashing my broadband?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:25]",
+      "end_time": "[09:40]",
+      "start_time_sec": 565,
+      "text": "That is a very effective workaround, Zlatan! If I activate network-level Call Divert All on your S-Net voice switch, incoming calls are routed to your mobile at the exchange before any ringing voltage ever enters your copper pair.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:43]",
+      "end_time": "[09:53]",
+      "start_time_sec": 583,
+      "text": "Oh, that would be a massive help for my workday tomorrow! Can you switch that network call divert on for me at no extra charge?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:56]",
+      "end_time": "[10:06]",
+      "start_time_sec": 596,
+      "text": "Yes, I will personally enable free administrative Call Divert on your exchange port to your mobile number 07700 900412 until the physical line fault is cleared.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:09]",
+      "end_time": "[10:13]",
+      "start_time_sec": 609,
+      "text": "Thank you Craig, I appreciate you sorting out that call divert.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:15]",
+      "end_time": "[10:26]",
+      "start_time_sec": 615,
+      "text": "Before I submit the Openreach engineering hazard sheet, Zlatan, have you tried unscrewing the faceplate on your master socket and plugging the phone into the test socket yet?",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:29]",
+      "end_time": "[10:42]",
+      "start_time_sec": 629,
+      "text": "Craig, I literally told you right at the start of the call ten minutes ago that I already unscrewed the NTE5C faceplate this morning and plugged my corded phone into the test port!",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:45]",
+      "end_time": "[10:56]",
+      "start_time_sec": 645,
+      "text": "Right, yes, you did mention that earlier, Zlatan—let me tick the 'Test Socket Checked' box on the Openreach diagnostic form right now so they don't reject the dispatch.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:59]",
+      "end_time": "[11:11]",
+      "start_time_sec": 659,
+      "text": "Please make sure it is ticked, because the last thing I want is Openreach trying to charge me for an internal wiring fault when the problem is up the telegraph pole.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:14]",
+      "end_time": "[11:29]",
+      "start_time_sec": 674,
+      "text": "I am adding my personal engineer notes confirming the metallic fault is 180 metres external to the NTE5C demarc point, and I am applying a fee-waiver flag on your account so you will not be charged a penny.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:32]",
+      "end_time": "[11:40]",
+      "start_time_sec": 692,
+      "text": "Good, thank you for putting that fee waiver on. When can the Openreach engineer actually come out to fix the cable?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:43]",
+      "end_time": "[11:50]",
+      "start_time_sec": 703,
+      "text": "Hold on, I am pulling up the Openreach external networks appointment calendar for the Stockport exchange area.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:53]",
+      "end_time": "[11:55]",
+      "start_time_sec": 713,
+      "text": "Okay.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:57]",
+      "end_time": "[13:09]",
+      "start_time_sec": 777,
+      "text": "Right, the earliest available hoist-certified copper linesman slot in your postcode sector is this Friday, the twenty-third of October, between eight o'clock in the morning and one o'clock in the afternoon.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:12]",
+      "end_time": "[13:24]",
+      "start_time_sec": 792,
+      "text": "Again, Craig, you left me sitting in dead silence for nearly a minute without saying you were putting me on hold! A quick heads-up before disappearing would be nice.",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:27]",
+      "end_time": "[13:40]",
+      "start_time_sec": 807,
+      "text": "Noted, Zlatan—the Openreach portal took a while to query the hoist-certified crew roster because the cable runs from an overhead pole. Does that Friday morning slot between 08:00 and 13:00 work for you?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:43]",
+      "end_time": "[13:55]",
+      "start_time_sec": 823,
+      "text": "Friday morning is three days away, which isn't ideal, but if they need a hoist van for the telegraph pole I suppose I don't have much choice. Yes, book Friday morning.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:58]",
+      "end_time": "[14:02]",
+      "start_time_sec": 838,
+      "text": "I am reserving the Friday morning slot now, Zlatan.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:04]",
+      "end_time": "[14:14]",
+      "start_time_sec": 844,
+      "text": "Wait, let me ask you that—do I actually need to stay home on Friday morning, or can they just work on the pole outside?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:17]",
+      "end_time": "[14:31]",
+      "start_time_sec": 857,
+      "text": "Because the dropwire terminates at the junction box under the eaves of your house and they must run a final pair-quality test from your master socket inside, someone over eighteen does need to be present, Zlatan.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:34]",
+      "end_time": "[14:41]",
+      "start_time_sec": 874,
+      "text": "Okay, I work from home anyway so I will be here from eight o'clock on Friday morning.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:44]",
+      "end_time": "[14:53]",
+      "start_time_sec": 884,
+      "text": "I have locked in that Openreach appointment for Friday the twenty-third of October between 08:00 and 13:00 under job reference OR-6619482-SK, Zlatan.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:56]",
+      "end_time": "[15:07]",
+      "start_time_sec": 896,
+      "text": "And have you definitely switched on the exchange call divert to my mobile so incoming landline calls don't knock my VDSL router offline between now and Friday?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:10]",
+      "end_time": "[15:23]",
+      "start_time_sec": 910,
+      "text": "Yes, I have just activated unconditional exchange Call Divert from 0161 496 0821 to your mobile 07700 900412, and the twelve-decibel noise margin stability profile is now live on your VDSL port.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:26]",
+      "end_time": "[15:35]",
+      "start_time_sec": 926,
+      "text": "Let me glance at my S-Net Hub lights—yes, the broadband light just blinked and turned solid blue again as the new profile resynced.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:38]",
+      "end_time": "[15:47]",
+      "start_time_sec": 938,
+      "text": "Good, that confirms the DSLAM port accepted the twelve-decibel stability profile, and it is syncing at 45.2 megabits download and 9.8 megabits upload.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:50]",
+      "end_time": "[15:57]",
+      "start_time_sec": 950,
+      "text": "The landline handset itself still has that loud static frying sound when I lift the receiver, though.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:00]",
+      "end_time": "[16:09]",
+      "start_time_sec": 960,
+      "text": "Yes, the physical static on the copper pair will remain until the Openreach engineer replaces the corroded dropwire crimp on Friday morning, Zlatan.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:12]",
+      "end_time": "[16:19]",
+      "start_time_sec": 972,
+      "text": "Right, so the actual line fault won't be fixed until Friday once the engineer has been out.",
+      "sentiment_score": -15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:22]",
+      "end_time": "[16:35]",
+      "start_time_sec": 982,
+      "text": "That is correct. I have also scheduled an automated SMS and email tracker for job OR-6619482-SK so you get a notification when the Openreach engineer is on their way on Friday morning, Zlatan.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:38]",
+      "end_time": "[16:44]",
+      "start_time_sec": 998,
+      "text": "Alright, I just saw the booking reference text come through on my mobile now.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:47]",
+      "end_time": "[17:01]",
+      "start_time_sec": 1007,
+      "text": "And I have set a personal follow-up task in my own queue for Friday at 14:00 to check your line test readings after the engineer closes the job and remove the temporary call divert for you.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:04]",
+      "end_time": "[17:13]",
+      "start_time_sec": 1024,
+      "text": "Okay, having you check it on Friday afternoon and take the divert off once the line is clean is helpful, thank you Craig.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:16]",
+      "end_time": "[17:25]",
+      "start_time_sec": 1036,
+      "text": "You are very welcome, Zlatan. Is there anything else I can assist you with today while we wait for Friday's engineering visit?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:28]",
+      "end_time": "[17:34]",
+      "start_time_sec": 1048,
+      "text": "No, that is everything for now. I will wait for the Openreach engineer on Friday morning.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:37]",
+      "end_time": "[17:45]",
+      "start_time_sec": 1057,
+      "text": "Thank you for choosing S-Net, Zlatan, and I will check back in on your line on Friday afternoon. Goodbye!",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:48]",
+      "end_time": "[17:50]",
+      "start_time_sec": 1068,
+      "text": "Goodbye.",
+      "sentiment_score": 0.0
+    }
+  ]
+}

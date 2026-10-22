@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Leo",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net TV technical support, my name is Bradley. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:09]",
+   "end_time": "[00:25]",
+   "start_time_sec": 9,
+   "text": "Hello Bradley, my name is Leo Sterling. Ever since the software update on our S-Net TV box, the optical digital audio output to our Sonos soundbar is out of sync with the picture by two full seconds!",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:27]",
+   "end_time": "[00:40]",
+   "start_time_sec": 27,
+   "text": "Good afternoon Leo. I can inspect your set-top box digital audio settings. Before we check your sound configuration, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:42]",
+   "end_time": "[00:54]",
+   "start_time_sec": 42,
+   "text": "Yes, it is 78 St John's Road, Bristol, BS8 2HR, and my security PIN is 9120. My TV box model is the 4K Pro Box with serial number SN-TV-44018.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:56]",
+   "end_time": "[01:05]",
+   "start_time_sec": 56,
+   "text": "Thank you Leo, that confirms your account details. Is the audio delay occurring across all channels or only live sports broadcasts?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:07]",
+   "end_time": "[01:23]",
+   "start_time_sec": 67,
+   "text": "It happens on every live channel, Netflix, and recorded shows: people's lips move, and two seconds later the words come out of the soundbar!",
+   "sentiment_score": -22.1
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:25]",
+   "end_time": "[01:38]",
+   "start_time_sec": 85,
+   "text": "Could I place you on hold for two minutes while I query your set-top box HDMI handshakes and audio driver telemetry?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:03]",
+   "end_time": "[03:17]",
+   "start_time_sec": 183,
+   "text": "Thank you for holding, Leo. The audio telemetry shows Dolby Digital Plus bitstream encoding enabled over the optical TOSLINK interface."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:19]",
+   "end_time": "[03:30]",
+   "start_time_sec": 199,
+   "text": "Have you found why the picture and sound are completely misaligned?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:32]",
+   "end_time": "[03:42]",
+   "start_time_sec": 212,
+   "text": "Dolby Digital Plus processing introduces buffering latencies when decoded by external third-party soundbars."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:44]",
+   "end_time": "[03:57]",
+   "start_time_sec": 224,
+   "text": "It worked with zero delay for eighteen months until your software patch updated overnight!",
+   "sentiment_score": -24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:59]",
+   "end_time": "[04:12]",
+   "start_time_sec": 239,
+   "text": "Well if you had actually bought an approved S-Net integrated soundbar instead of connecting third-party Sonos equipment, you wouldn't experience decoding latency."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:14]",
+   "end_time": "[04:27]",
+   "start_time_sec": 254,
+   "text": "How dare you blame my premium Sonos sound system! Your software update broke the optical timing clock!",
+   "sentiment_score": -48.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:29]",
+   "end_time": "[04:40]",
+   "start_time_sec": 269,
+   "text": "Frontline technicians do not write digital signal processing microcode for third-party audio peripherals."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:42]",
+   "end_time": "[04:55]",
+   "start_time_sec": 282,
+   "text": "Then transfer me to your senior audiovisual specialist who can roll back the firmware update!",
+   "sentiment_score": -38.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:57]",
+   "end_time": "[05:07]",
+   "start_time_sec": 297,
+   "text": "Firmware rollbacks cannot be performed on individual customer premises equipment."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:09]",
+   "end_time": "[05:23]",
+   "start_time_sec": 309,
+   "text": "You broke my television audio and refuse to let me speak to anyone who can fix it!",
+   "sentiment_score": -42.1
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:25]",
+   "end_time": "[05:37]",
+   "start_time_sec": 325,
+   "text": "Obviously TOSLINK optical connections lack the bidirectional eARC lip-sync communication protocols present in HDMI 2.1."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:39]",
+   "end_time": "[05:55]",
+   "start_time_sec": 339,
+   "text": "I am on the optical cable because my television does not have eARC! What can I adjust in the menu right now?",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:57]",
+   "end_time": "[06:07]",
+   "start_time_sec": 357,
+   "text": "You can open the user menu and modify the digital audio compression parameters."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:09]",
+   "end_time": "[06:12]",
+   "start_time_sec": 369,
+   "text": "Which specific submenu should I select?",
+   "sentiment_score": -16.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:14]",
+   "end_time": "[06:38]",
+   "start_time_sec": 374,
+   "text": "Bradley, I have friends coming over in two hours for the Champions League match! Watching football with a two-second audio delay is completely unwatchable! It is infuriating to pay sixty pounds a month for a TV service that destroys the viewing experience!",
+   "sentiment_score": -58.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:40]",
+   "end_time": "[06:57]",
+   "start_time_sec": 400,
+   "text": "I understand how deeply annoying and frustrating audio lip-sync delay is when watching football with friends, Leo. Let us adjust your box audio output format immediately to eliminate the processing buffer."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:59]",
+   "end_time": "[07:02]",
+   "start_time_sec": 419,
+   "text": "What setting should I change?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:04]",
+   "end_time": "[07:16]",
+   "start_time_sec": 424,
+   "text": "Open Settings on your TV box, navigate to 'Audio & Video', and select 'Digital Audio Output'."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:18]",
+   "end_time": "[07:30]",
+   "start_time_sec": 438,
+   "text": "Opened Digital Audio Output. It is currently set to 'Bitstream / Dolby Digital'.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:32]",
+   "end_time": "[07:35]",
+   "start_time_sec": 452,
+   "text": "Change that setting from 'Bitstream' to 'PCM Stereo'."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:36]",
+   "end_time": "[07:49]",
+   "start_time_sec": 456,
+   "text": "Changed to PCM Stereo... The sound dropped for half a second and returned... The lips and audio are slightly closer now, but it is still out of sync by half a second!",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:50]",
+   "end_time": "[07:59]",
+   "start_time_sec": 470,
+   "text": "Now navigate to 'Audio Delay Offset' and use the left arrow button to adjust the slider to minus one hundred milliseconds."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:00]",
+   "end_time": "[08:08]",
+   "start_time_sec": 480,
+   "text": "Moving slider to minus one hundred milliseconds... Bradley, it is still delayed! The commentators speak after the ball is kicked!",
+   "sentiment_score": -28.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:09]",
+   "end_time": "[08:14]",
+   "start_time_sec": 489,
+   "text": "That is the maximum manual audio offset range supported by the TVOS platform."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:15]",
+   "end_time": "[08:21]",
+   "start_time_sec": 495,
+   "text": "So the audio is still broken and out of sync for my match tonight?!",
+   "sentiment_score": -34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:22]",
+   "end_time": "[08:27]",
+   "start_time_sec": 502,
+   "text": "You must wait for future firmware maintenance updates to address third-party optical timing."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:28]",
+   "end_time": "[08:34]",
+   "start_time_sec": 508,
+   "text": "Is there really no other setting you can adjust from your central diagnostics panel?",
+   "sentiment_score": -19.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:35]",
+   "end_time": "[08:40]",
+   "start_time_sec": 515,
+   "text": "Central diagnostics cannot alter the optical hardware buffer on local consumer electronics."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:41]",
+   "end_time": "[08:46]",
+   "start_time_sec": 521,
+   "text": "This is so disappointing. I thought S-Net pride themselves on premium entertainment hardware.",
+   "sentiment_score": -24.1
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:47]",
+   "end_time": "[08:53]",
+   "start_time_sec": 527,
+   "text": "Our hardware is fully certified for direct HDMI connections to compatible high-definition television panels."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:54]",
+   "end_time": "[09:00]",
+   "start_time_sec": 534,
+   "text": "Most people route their television audio through dedicated speakers or soundbars rather than built-in TV panels.",
+   "sentiment_score": -14.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:01]",
+   "end_time": "[09:06]",
+   "start_time_sec": 541,
+   "text": "Our corporate audio certification list specifies which soundbar manufacturers have validated software drivers."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:07]",
+   "end_time": "[09:13]",
+   "start_time_sec": 547,
+   "text": "Can you lodge an official bug report with your TVOS engineering firmware development team?",
+   "sentiment_score": -16.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:14]",
+   "end_time": "[09:19]",
+   "start_time_sec": 554,
+   "text": "I can submit an engineering telemetry report to the audiovisual maintenance backlog."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:20]",
+   "end_time": "[09:27]",
+   "start_time_sec": 560,
+   "text": "Please do so right now, and make sure to include the exact delay measurements I gave you.",
+   "sentiment_score": -11.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:28]",
+   "end_time": "[09:34]",
+   "start_time_sec": 568,
+   "text": "Before I submit the engineering ticket, what was your TV set-top box model again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:35]",
+   "end_time": "[09:42]",
+   "start_time_sec": 575,
+   "text": "As I told you right at the start of our phone call, it is the 4K Pro Box.",
+   "sentiment_score": -16.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:43]",
+   "end_time": "[09:48]",
+   "start_time_sec": 583,
+   "text": "I have logged your audio delay feedback under engineering ticket reference AUD-88192-K."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:49]",
+   "end_time": "[09:54]",
+   "start_time_sec": 589,
+   "text": "AUD-88192-K, noted down. But the issue is completely unresolved for tonight's game!",
+   "sentiment_score": -24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:55]",
+   "end_time": "[10:01]",
+   "start_time_sec": 595,
+   "text": "The ticket will be reviewed by our TV software engineering queue during regular development hours."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:02]",
+   "end_time": "[10:10]",
+   "start_time_sec": 602,
+   "text": "I will have to mute the Sonos soundbar and listen through tinny TV speakers tonight. This is terrible service.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:11]",
+   "end_time": "[10:16]",
+   "start_time_sec": 611,
+   "text": "Our TV platform engineering team deploys quarterly maintenance patches for digital audio decoders."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:17]",
+   "end_time": "[10:22]",
+   "start_time_sec": 617,
+   "text": "I hope the next quarterly patch actually resolves the optical lip-sync issue.",
+   "sentiment_score": -12.1
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:23]",
+   "end_time": "[10:29]",
+   "start_time_sec": 623,
+   "text": "We cannot guarantee the inclusion of third-party audio driver patches in quarterly release schedules."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:30]",
+   "end_time": "[10:35]",
+   "start_time_sec": 630,
+   "text": "Understood. I will follow up if the next patch fails to fix it.",
+   "sentiment_score": -9.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:36]",
+   "end_time": "[10:42]",
+   "start_time_sec": 636,
+   "text": "Is there any other aspect of your TV service I can assist you with today, Leo?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:43]",
+   "end_time": "[10:46]",
+   "start_time_sec": 643,
+   "text": "No, you have failed to resolve my problem.",
+   "sentiment_score": -14.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:47]",
+   "end_time": "[10:51]",
+   "start_time_sec": 647,
+   "text": "Thank you for calling S-Net TV technical support, Leo. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:52]",
+   "end_time": "[10:55]",
+   "start_time_sec": 652,
+   "text": "Goodbye Bradley.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:56]",
+   "end_time": "[10:59]",
+   "start_time_sec": 656,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:00]",
+   "end_time": "[11:05]",
+   "start_time_sec": 660,
+   "text": "Goodbye.",
+   "sentiment_score": -4.0
+  }
+ ]
+}

@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Nadia",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:03]",
+   "start_time_sec": 0,
+   "text": "Good afternoon, broadband technical line, my name is Greg."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:10]",
+   "end_time": "[00:31]",
+   "start_time_sec": 10,
+   "text": "Hello Greg, my name is Nadia Patel. Our broadband router has started rebooting itself six or seven times an hour: whenever anyone walks past the hallway table or brushes against the power lead, the lights on the router die completely and it takes five minutes to reconnect to the internet!",
+   "sentiment_score": -34.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:38]",
+   "end_time": "[00:50]",
+   "start_time_sec": 38,
+   "text": "I can inspect your router power supply and line uptime logs. Before we test your connection, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:57]",
+   "end_time": "[01:04]",
+   "start_time_sec": 57,
+   "text": "Yes, it is 83 Victoria Road, Cambridge, CB4 3BW, security PIN 5521, router model S-Net Hub 4.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:10]",
+   "end_time": "[01:20]",
+   "start_time_sec": 70,
+   "text": "Thank you Nadia, that confirms your account details. Have you inspected the black power adapter plug connected to the rear of the router?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:26]",
+   "end_time": "[01:45]",
+   "start_time_sec": 86,
+   "text": "The round barrel plug is loose inside the socket on the back of the hub: if I touch the wire with a single finger, the hub loses power immediately!",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:51]",
+   "end_time": "[02:02]",
+   "start_time_sec": 111,
+   "text": "Could I place you on hold for two minutes while I check your router power and uptime telemetry?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:27]",
+   "end_time": "[03:41]",
+   "start_time_sec": 207,
+   "text": "Thank you for holding, Nadia. The network telemetry confirms forty-two sudden router power loss events over the past twenty-four hours."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:47]",
+   "end_time": "[03:59]",
+   "start_time_sec": 227,
+   "text": "Can you dispatch a replacement twelve-volt power supply adapter to replace this loose one?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:05]",
+   "end_time": "[04:18]",
+   "start_time_sec": 245,
+   "text": "Power supply accessories are classified as consumable customer premises equipment and are not covered under free replacement policies."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:24]",
+   "end_time": "[04:37]",
+   "start_time_sec": 264,
+   "text": "Not covered?! The router is only five months old! S-Net supplied the power plug!",
+   "sentiment_score": -34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:43]",
+   "end_time": "[04:58]",
+   "start_time_sec": 283,
+   "text": "If you place your sensitive broadband router on a wobbly hallway table where people kick the cables, of course the power plug is going to loosen."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:04]",
+   "end_time": "[05:20]",
+   "start_time_sec": 304,
+   "text": "No one kicked the cable! It is sitting on a solid console table! Why are you blaming me for a loose factory power connector?",
+   "sentiment_score": -52.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:26]",
+   "end_time": "[05:37]",
+   "start_time_sec": 326,
+   "text": "I am stating the standard causes of physical strain damage on DC barrel sockets."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:43]",
+   "end_time": "[05:55]",
+   "start_time_sec": 343,
+   "text": "So what is your solution for a five-month-old router that keeps losing power?",
+   "sentiment_score": -36.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:01]",
+   "end_time": "[06:14]",
+   "start_time_sec": 361,
+   "text": "You can order an official S-Net replacement power adapter through our customer shop for thirty-nine pounds ninety-nine."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:20]",
+   "end_time": "[06:36]",
+   "start_time_sec": 380,
+   "text": "I am not paying forty pounds for a power lead when I pay sixty pounds a month for your service!",
+   "sentiment_score": -46.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:42]",
+   "end_time": "[06:52]",
+   "start_time_sec": 402,
+   "text": "That is our standard accessory replacement policy for consumer premises hardware."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:58]",
+   "end_time": "[07:11]",
+   "start_time_sec": 418,
+   "text": "Can I speak with a manager who has the authority to waive a forty-pound power plug charge?",
+   "sentiment_score": -38.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:17]",
+   "end_time": "[07:28]",
+   "start_time_sec": 437,
+   "text": "Obviously twelve-volt barrel connectors require a snug mechanical fit into the internal chassis socket."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:34]",
+   "end_time": "[07:47]",
+   "start_time_sec": 454,
+   "text": "I know it requires a snug fit! That is why I am asking for a working plug!",
+   "sentiment_score": -42.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:53]",
+   "end_time": "[08:17]",
+   "start_time_sec": 473,
+   "text": "Nadia speaking, our internet cuts out every twenty minutes whenever anyone walks past the hall table! I work from home as an intensive care triage dispatcher and my remote database session drops in the middle of emergency bed allocations! It is terrifying and unacceptable that S-Net provides hardware that shuts off at the slightest vibration!",
+   "sentiment_score": -64.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:23]",
+   "end_time": "[08:46]",
+   "start_time_sec": 503,
+   "text": "I understand how terrifying and stressful it is to have your connection cut out during intensive care hospital bed allocations, Nadia. Experiencing power loss from slight vibrations is completely unacceptable for mission-critical work, so let us troubleshoot the physical power adapter immediately."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:52]",
+   "end_time": "[09:02]",
+   "start_time_sec": 532,
+   "text": "Will you dispatch a replacement power adapter today?",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:08]",
+   "end_time": "[09:18]",
+   "start_time_sec": 548,
+   "text": "As I advised, frontline agents cannot override accessory dispatch charges without supervisory approval."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:24]",
+   "end_time": "[09:36]",
+   "start_time_sec": 564,
+   "text": "Then get supervisory approval right now while I am on the phone!",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:42]",
+   "end_time": "[09:46]",
+   "start_time_sec": 582,
+   "text": "Team supervisors do not take telephony escalations for power supply accessories."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:52]",
+   "end_time": "[09:59]",
+   "start_time_sec": 592,
+   "text": "Is there any temporary fix I can use to prevent the hub from dying during my shifts?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:05]",
+   "end_time": "[10:11]",
+   "start_time_sec": 605,
+   "text": "You could wrap insulating tape around the plastic barrel neck to increase friction inside the socket."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:17]",
+   "end_time": "[10:23]",
+   "start_time_sec": 617,
+   "text": "You want an NHS critical care dispatcher to tape a faulty electrical plug with insulating tape?!",
+   "sentiment_score": -52.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:29]",
+   "end_time": "[10:33]",
+   "start_time_sec": 629,
+   "text": "I am offering a practical zero-cost suggestion to prevent lateral movement."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:39]",
+   "end_time": "[10:47]",
+   "start_time_sec": 639,
+   "text": "That is a fire hazard and an insult. What happens when the hub reboots during an emergency call tonight?",
+   "sentiment_score": -46.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:53]",
+   "end_time": "[10:58]",
+   "start_time_sec": 653,
+   "text": "S-Net cannot accept liability for critical service interruptions on residential consumer contracts."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:04]",
+   "end_time": "[11:10]",
+   "start_time_sec": 664,
+   "text": "You pride yourself on reliable broadband in your advertising, but your equipment is falling apart.",
+   "sentiment_score": -34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:16]",
+   "end_time": "[11:20]",
+   "start_time_sec": 676,
+   "text": "Our advertising reflects network availability across our external telecommunications infrastructure."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:26]",
+   "end_time": "[11:34]",
+   "start_time_sec": 686,
+   "text": "Can you at least log an official hardware complaint regarding the build quality of the Hub 4 power socket?",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:40]",
+   "end_time": "[11:45]",
+   "start_time_sec": 700,
+   "text": "I can submit a hardware defect feedback form to our quality assurance team."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:51]",
+   "end_time": "[11:54]",
+   "start_time_sec": 711,
+   "text": "What is the reference number for that hardware complaint?",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:00]",
+   "end_time": "[12:03]",
+   "start_time_sec": 720,
+   "text": "The defect feedback tracking reference is DEF-88190-C."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:09]",
+   "end_time": "[12:12]",
+   "start_time_sec": 729,
+   "text": "DEF-88190-C, noted down.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:18]",
+   "end_time": "[12:23]",
+   "start_time_sec": 738,
+   "text": "Defect feedback forms are reviewed by product engineering within thirty business days."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:29]",
+   "end_time": "[12:32]",
+   "start_time_sec": 749,
+   "text": "Thirty business days does not help me tonight.",
+   "sentiment_score": -22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:38]",
+   "end_time": "[12:45]",
+   "start_time_sec": 758,
+   "text": "Before I document the hardware fault, what model router did you say was on the hall table again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:51]",
+   "end_time": "[12:57]",
+   "start_time_sec": 771,
+   "text": "As I told you at the start of our call, it is the S-Net Hub 4.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:03]",
+   "end_time": "[13:08]",
+   "start_time_sec": 783,
+   "text": "I have recorded the Hub 4 model on the hardware defect report."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:14]",
+   "end_time": "[13:22]",
+   "start_time_sec": 794,
+   "text": "So the internet will continue cutting out every twenty minutes and S-Net refuses to send a five-pound power lead.",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:28]",
+   "end_time": "[13:33]",
+   "start_time_sec": 808,
+   "text": "You retain the option to purchase the replacement power adapter via our website."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:39]",
+   "end_time": "[13:47]",
+   "start_time_sec": 819,
+   "text": "I will be purchasing an adapter from Amazon for eight pounds and submitting the receipt to the Small Claims Court.",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:53]",
+   "end_time": "[13:56]",
+   "start_time_sec": 833,
+   "text": "That is your prerogative as a consumer."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:02]",
+   "end_time": "[14:07]",
+   "start_time_sec": 842,
+   "text": "This has been the most appalling customer service I have ever encountered.",
+   "sentiment_score": -28.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:13]",
+   "end_time": "[14:19]",
+   "start_time_sec": 853,
+   "text": "Is there any other aspect of your broadband connection I can assist you with today, Nadia?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:25]",
+   "end_time": "[14:28]",
+   "start_time_sec": 865,
+   "text": "No, you have completely failed to resolve my problem.",
+   "sentiment_score": -32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:34]",
+   "end_time": "[14:37]",
+   "start_time_sec": 874,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:43]",
+   "end_time": "[14:46]",
+   "start_time_sec": 883,
+   "text": "Goodbye.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:52]",
+   "end_time": "[14:55]",
+   "start_time_sec": 892,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:01]",
+   "end_time": "[15:04]",
+   "start_time_sec": 901,
+   "text": "Goodbye.",
+   "sentiment_score": -6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:10]",
+   "end_time": "[15:13]",
+   "start_time_sec": 910,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:19]",
+   "end_time": "[15:24]",
+   "start_time_sec": 919,
+   "text": "Goodbye.",
+   "sentiment_score": -12.0
+  }
+ ]
+}

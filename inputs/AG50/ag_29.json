@@ -1,0 +1,654 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Thaddeus",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Good morning, thank you for calling S-Net mobile support. My name is Toby. How can I help you today?",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:20]",
+      "start_time_sec": 8,
+      "text": "Hi Toby, my name is Thaddeus. I just got a text message saying I have used 100 percent of my 50 gigabyte monthly data allowance, and my mobile data has been cut off!",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:21]",
+      "end_time": "[00:32]",
+      "start_time_sec": 21,
+      "text": "I am so sorry for the shock of having your mobile data cut off like that, and I completely understand how stressful it is to see your entire allowance gone.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:33]",
+      "end_time": "[00:45]",
+      "start_time_sec": 33,
+      "text": "What makes no sense at all is that my monthly billing cycle only reset four days ago on the fourteenth of October! How on earth could 50 gigabytes vanish in four days?",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:46]",
+      "end_time": "[00:57]",
+      "start_time_sec": 46,
+      "text": "I can certainly appreciate why you are baffled and frustrated seeing four weeks of data disappear in just four days. Let's get your mobile account verified and investigate the usage logs.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:58]",
+      "end_time": "[01:07]",
+      "start_time_sec": 58,
+      "text": "Yes please, I'm travelling on the train to Manchester for client meetings today and I can't even open my maps or tether my tablet.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:08]",
+      "end_time": "[01:19]",
+      "start_time_sec": 68,
+      "text": "I will do everything I can to get you back online for your trip today. Could you please confirm the first line of your billing address and your four-digit security PIN?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:20]",
+      "end_time": "[01:27]",
+      "start_time_sec": 80,
+      "text": "Sure, the first line of my address is 41 Caledonia Terrace, Edinburgh, and my four-digit security PIN is 9074.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:28]",
+      "end_time": "[01:42]",
+      "start_time_sec": 88,
+      "text": "Thank you, that is all verified on my screen. So just to confirm, your account number is 8841209, you are on the S-Net Unlimited Calls 50GB SIM plan, and your cycle resets on the fourteenth, is that right?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[01:55]",
+      "start_time_sec": 103,
+      "text": "Yes, account 8841209 and the cycle resets on the fourteenth. And I bought my new iPhone 15 Pro last week, which is what I have the S-Net SIM card in right now.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:56]",
+      "end_time": "[02:08]",
+      "start_time_sec": 116,
+      "text": "Right, I have the live radius session audit tool open here. Let me ask you a few probing questions about what you have been doing on the handset over the last four days.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:09]",
+      "end_time": "[02:16]",
+      "start_time_sec": 129,
+      "text": "Honestly, just normal emails, WhatsApp messages, and checking train times! I haven't watched Netflix or downloaded any games on mobile data.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:17]",
+      "end_time": "[02:25]",
+      "start_time_sec": 137,
+      "text": "Did you transfer a large library of photos or record any high-resolution 4K videos over the weekend after setting up your new handset?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:26]",
+      "end_time": "[02:37]",
+      "start_time_sec": 146,
+      "text": "Well, yes, when I set the phone up on Friday I restored my camera roll from my old handset, and then on Saturday I filmed my daughter's orchestra concert in 4K.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:38]",
+      "end_time": "[02:48]",
+      "start_time_sec": 158,
+      "text": "And when you were filming that orchestra concert on Saturday and travelling home on Sunday, was the handset connected to Wi-Fi or out on the 5G mobile network?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:49]",
+      "end_time": "[03:00]",
+      "start_time_sec": 169,
+      "text": "The concert hall had no Wi-Fi, so I was on 5G all Saturday afternoon, and even at home our broadband router upstairs is a bit patchy in the living room.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:01]",
+      "end_time": "[03:11]",
+      "start_time_sec": 181,
+      "text": "Have you also had your Personal Hotspot switched on over the weekend for your tablet or laptop, or was all the usage directly on the handset itself?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:12]",
+      "end_time": "[03:24]",
+      "start_time_sec": 192,
+      "text": "No, I haven't turned Personal Hotspot on since last month—I only tried to turn it on twenty minutes ago on the train when I got the text saying my data was barred.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:25]",
+      "end_time": "[03:36]",
+      "start_time_sec": 205,
+      "text": "That is a huge clue. Please bear with me for a moment while I pull the packet-data session breakdown from the fourteenth of October through to this morning.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:25]",
+      "end_time": "[04:32]",
+      "start_time_sec": 265,
+      "text": "Thank you for holding, I really appreciate your patience while the network radius logs loaded up on my terminal.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:33]",
+      "end_time": "[04:37]",
+      "start_time_sec": 273,
+      "text": "No worries at all, Toby. Could you see what ate all the data?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:38]",
+      "end_time": "[04:49]",
+      "start_time_sec": 278,
+      "text": "Yes, the session log is crystal clear. On the fourteenth and fifteenth of October, your SIM used less than four hundred megabytes per day on normal web browsing and email.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:50]",
+      "end_time": "[04:53]",
+      "start_time_sec": 290,
+      "text": "Right, four hundred megabytes a day is my normal usage!",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:54]",
+      "end_time": "[05:04]",
+      "start_time_sec": 294,
+      "text": "Then between Saturday at four o'clock in the afternoon and Sunday evening, your SIM card transferred 46.8 gigabytes of encrypted upstream and downstream traffic to cloud storage servers.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:05]",
+      "end_time": "[05:10]",
+      "start_time_sec": 305,
+      "text": "46.8 gigabytes in thirty hours?! From the orchestra concert videos and my camera roll?",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:11]",
+      "end_time": "[05:23]",
+      "start_time_sec": 311,
+      "text": "Exactly right. One minute of 4K video at sixty frames per second is roughly four hundred megabytes, so an hour of 4K footage plus restoring your old photo library easily exceeds 45 gigabytes.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:24]",
+      "end_time": "[05:34]",
+      "start_time_sec": 324,
+      "text": "Wait, why would my phone upload and download 46.8 gigabytes of cloud photos over my S-Net 5G data instead of waiting until it had a strong Wi-Fi signal?",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:35]",
+      "end_time": "[05:43]",
+      "start_time_sec": 335,
+      "text": "There are two settings on modern smartphones that allow cloud photo libraries to sync over 5G whenever Wi-Fi is unavailable or slightly weak.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:44]",
+      "end_time": "[05:56]",
+      "start_time_sec": 344,
+      "text": "I had no idea that was switched on! When you unbox a new phone and click through the cloud backup prompts, it doesn't warn you it'll burn 50 gigabytes in a weekend.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:57]",
+      "end_time": "[06:06]",
+      "start_time_sec": 357,
+      "text": "I completely understand how frustrating that is, and it catches so many customers out right after upgrading to a new handset with 5G speeds.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:07]",
+      "end_time": "[06:14]",
+      "start_time_sec": 367,
+      "text": "And why didn't I notice the 80 percent data warning text message on Sunday before it hit 100 percent this morning?",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:15]",
+      "end_time": "[06:26]",
+      "start_time_sec": 375,
+      "text": "Looking at the SMS gateway log, the 80 percent threshold alert was sent at three-fifteen on Sunday morning while the overnight cloud sync was running at full 5G speed.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:27]",
+      "end_time": "[06:37]",
+      "start_time_sec": 387,
+      "text": "Oh, at three-fifteen in the morning I was fast asleep, and by the time I woke up it must have burned through the last 10 gigabytes as well!",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:38]",
+      "end_time": "[06:49]",
+      "start_time_sec": 398,
+      "text": "Yes, the final 10 gigabytes finished transferring at six-forty on Sunday morning, and then when you boarded the train today the session refresh triggered the 100 percent cap lock.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:50]",
+      "end_time": "[06:55]",
+      "start_time_sec": 410,
+      "text": "Can we turn that cellular photo backup setting off right now so it never happens again?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:56]",
+      "end_time": "[07:05]",
+      "start_time_sec": 416,
+      "text": "Absolutely, I will walk you through disabling both settings step by step right now. Are you using an Android phone or an iPhone there?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:06]",
+      "end_time": "[07:11]",
+      "start_time_sec": 426,
+      "text": "I told you earlier it's an iPhone 15 Pro that I bought last week!",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:12]",
+      "end_time": "[07:21]",
+      "start_time_sec": 432,
+      "text": "Oh, of course, my mistake—let's open the Settings app on your iPhone 15 Pro right now so we can lock down the cellular photo sync.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:22]",
+      "end_time": "[07:26]",
+      "start_time_sec": 442,
+      "text": "Okay, I've got the Settings app open on my screen.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:27]",
+      "end_time": "[07:35]",
+      "start_time_sec": 447,
+      "text": "First, scroll down and tap on Photos, then tap on Mobile Data near the middle of the Photos menu.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:36]",
+      "end_time": "[07:44]",
+      "start_time_sec": 456,
+      "text": "Okay, I'm in Photos and I've tapped Mobile Data... oh look! Both 'Mobile Data' and 'Unlimited Updates' are toggled green!",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:45]",
+      "end_time": "[07:56]",
+      "start_time_sec": 465,
+      "text": "There is the culprit! Having both 'Mobile Data' and 'Unlimited Updates' toggled green tells iCloud Photos to upload and download full-resolution 4K video over 5G with no cap.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:57]",
+      "end_time": "[08:08]",
+      "start_time_sec": 477,
+      "text": "I have just switched both of those toggles off so they are grey now. What was the second setting you mentioned when Wi-Fi is patchy at home?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:09]",
+      "end_time": "[08:22]",
+      "start_time_sec": 489,
+      "text": "Tap the back arrow to return to the main Settings screen, tap Mobile Service near the top, and scroll all the way down past your list of apps to the very bottom.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:23]",
+      "end_time": "[08:37]",
+      "start_time_sec": 503,
+      "text": "Scrolling down past all the apps... right at the bottom I see 'Wi-Fi Assist' and 'iCloud Drive', and both of those are switched on too! And look, Photos shows 46.9 GB under cellular usage!",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:38]",
+      "end_time": "[08:50]",
+      "start_time_sec": 518,
+      "text": "That confirms it 100 percent on the handset side as well. Toggle off 'Wi-Fi Assist' right there at the bottom so your phone never secretly switches from home Wi-Fi to 5G.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:51]",
+      "end_time": "[09:01]",
+      "start_time_sec": 531,
+      "text": "I've switched off Wi-Fi Assist and iCloud Drive over mobile data as well. That explains the whole mystery, Toby, thank you for finding that.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:02]",
+      "end_time": "[09:13]",
+      "start_time_sec": 542,
+      "text": "You are very welcome. Now, let's solve the immediate problem that you are on the train to Manchester today with zero data left until the fourteenth of November.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:14]",
+      "end_time": "[09:24]",
+      "start_time_sec": 554,
+      "text": "Yes, how much is a data add-on going to cost me? Because I really need my maps and emails working before I reach Manchester Piccadilly.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:25]",
+      "end_time": "[09:41]",
+      "start_time_sec": 565,
+      "text": "Because this was caused by an accidental cloud backup on your new handset and you have been a loyal S-Net customer at 41 Caledonia Terrace, I am going to apply a complimentary 15 gigabyte goodwill data bolt-on for you right now.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:42]",
+      "end_time": "[09:48]",
+      "start_time_sec": 582,
+      "text": "Wait, free of charge? A complimentary 15 gigabyte bolt-on for the rest of the month?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:49]",
+      "end_time": "[09:59]",
+      "start_time_sec": 589,
+      "text": "Completely free of charge—I have waived the fifteen-pound bolt-on fee on account 8841209 and lifted the 100 percent data bar on your SIM card just now.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:00]",
+      "end_time": "[10:13]",
+      "start_time_sec": 600,
+      "text": "Toby, that is remarkably generous, thank you so much! Now that we've turned off iCloud Photos on cellular and Wi-Fi Assist, 15 gigabytes will easily last me until the fourteenth of November.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:14]",
+      "end_time": "[10:27]",
+      "start_time_sec": 614,
+      "text": "I have also enabled an early-warning SMS alert at 50 percent and 80 percent of this new 15 gigabyte bolt-on so you will get a text long before you ever run low.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:28]",
+      "end_time": "[10:36]",
+      "start_time_sec": 628,
+      "text": "Oh, having a 50 percent and 80 percent alert is much better than only finding out when it hits 100 percent.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:37]",
+      "end_time": "[10:49]",
+      "start_time_sec": 637,
+      "text": "To make sure the network bar has cleared cleanly on the cell tower, I am sending a remote PDP context refresh from my console to your SIM card right now.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:50]",
+      "end_time": "[11:02]",
+      "start_time_sec": 650,
+      "text": "Aha, the 5G icon at the top of my screen just flickered and came back on! Let me check Safari and the S-Net app while I have you on the line.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:03]",
+      "end_time": "[11:09]",
+      "start_time_sec": 663,
+      "text": "Take your time, let's verify that both your browser and your allowance dashboard are working live.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:10]",
+      "end_time": "[11:22]",
+      "start_time_sec": 670,
+      "text": "Safari just loaded the BBC News homepage instantly, and in the S-Net app my dashboard now shows 15.0 GB remaining on my Goodwill Data Bolt-On with £0.00 extra charge!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:23]",
+      "end_time": "[11:29]",
+      "start_time_sec": 683,
+      "text": "Fantastic! Let's also check if your maps app loads your route in Manchester now.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:30]",
+      "end_time": "[11:37]",
+      "start_time_sec": 690,
+      "text": "Opening Apple Maps now... yes, live walking directions from Manchester Piccadilly to Deansgate just loaded straight up.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:38]",
+      "end_time": "[11:50]",
+      "start_time_sec": 698,
+      "text": "Brilliant. And because we turned off Mobile Data and Unlimited Updates under Photos, your camera roll will now wait until you connect to hotel or home Wi-Fi before backing up.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:51]",
+      "end_time": "[12:01]",
+      "start_time_sec": 711,
+      "text": "What about when I tether my tablet on the train? Could my tablet try to do a cloud backup through my phone's Personal Hotspot?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:02]",
+      "end_time": "[12:14]",
+      "start_time_sec": 722,
+      "text": "That is a very smart question. If you turn on 'Low Data Mode' under the Wi-Fi settings on your tablet for your Personal Hotspot connection, it will automatically pause background backups.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:15]",
+      "end_time": "[12:23]",
+      "start_time_sec": 735,
+      "text": "Oh, that's a great tip! I'll toggle Low Data Mode on the tablet as soon as I connect it.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:24]",
+      "end_time": "[12:35]",
+      "start_time_sec": 744,
+      "text": "Also, you can scroll to the bottom of Mobile Service in Settings and tap Reset Statistics today so you can track usage cleanly against the 15 gigabyte bolt-on.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:36]",
+      "end_time": "[12:44]",
+      "start_time_sec": 756,
+      "text": "I just tapped Reset Statistics right now! That is such a weight off my mind before arriving in Manchester.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:45]",
+      "end_time": "[12:53]",
+      "start_time_sec": 765,
+      "text": "Just to confirm before we finish today, is your mobile data working again and are you happy that everything is resolved?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:54]",
+      "end_time": "[13:05]",
+      "start_time_sec": 774,
+      "text": "Yes, my mobile data is working perfectly again, the 15 gigabytes is showing in my app, and we've stopped the photo backup from draining it. Everything is resolved!",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:06]",
+      "end_time": "[13:12]",
+      "start_time_sec": 786,
+      "text": "Wonderful! Do you have any other questions about your S-Net mobile plan or billing today?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:13]",
+      "end_time": "[13:17]",
+      "start_time_sec": 793,
+      "text": "No, you have answered everything and sorted it out completely.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:18]",
+      "end_time": "[13:25]",
+      "start_time_sec": 798,
+      "text": "Thank you for choosing S-Net, safe travels to Manchester today, and have a great rest of your week.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:26]",
+      "end_time": "[13:28]",
+      "start_time_sec": 806,
+      "text": "Thanks so much, Toby. Goodbye!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:30]",
+      "end_time": "[13:32]",
+      "start_time_sec": 810,
+      "text": "Goodbye, take care.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:34]",
+      "end_time": "[13:36]",
+      "start_time_sec": 814,
+      "text": "Bye now.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:38]",
+      "end_time": "[13:41]",
+      "start_time_sec": 818,
+      "text": "Thank you again for choosing S-Net. Goodbye.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:42]",
+      "end_time": "[13:44]",
+      "start_time_sec": 822,
+      "text": "Cheers, bye.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:46]",
+      "end_time": "[13:48]",
+      "start_time_sec": 826,
+      "text": "Have a great day.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:50]",
+      "end_time": "[13:52]",
+      "start_time_sec": 830,
+      "text": "You too, bye.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:54]",
+      "end_time": "[13:56]",
+      "start_time_sec": 834,
+      "text": "Thank you for choosing S-Net, goodbye.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:58]",
+      "end_time": "[14:00]",
+      "start_time_sec": 838,
+      "text": "Goodbye.",
+      "sentiment_score": 10.0
+    }
+  ]
+}

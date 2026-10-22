@@ -1,0 +1,191 @@
+{
+  "call_id": "agb_44",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 18.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Agent missed verbatim scripts for: Greeting, Closing"
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Agent failed to ask for a PIN, address, or security question within the first 4 minutes of the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Agent failed to use the customer's verified name 'Stuart' during the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to provide an empathy or acknowledgment statement after customer's acute distress regarding mother's collapse."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Agent repeatedly disclaimed responsibility, stating medical pendant alarms and warden systems are the sole responsibility of social care councils."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Agent asked zero diagnostic questions regarding existing microfilters, telephone extension splitters, or alarm unit filter models."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent abruptly terminated the call while customer was in mid-sentence asking how to perform test calls to emergency dispatch."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Emergency pendant alarm line interference; dedicated filtered socket installed for medical alarm; agent omits greeting branding, fails verification (no PIN/address/security question in 240s), never personalizes, ignores medical emergency distress, disclaims ownership of alarm wiring, asks zero probing questions, and ends call abruptly without confirmation",
+    "tier": "fair",
+    "duration_sec": 1152,
+    "notes": "The agent diagnosed high-frequency broadband interference leaking into an analogue social alarm base unit and dispatched an Openreach engineer to fit a dedicated filtered master socket faceplate. However, the agent failed Branding and Survey Check by omitting 'Thank you for calling S-Net', failed Verified Customer by never requesting PIN, address, or security question in the first 240 seconds, failed Personalized Call by never addressing the customer as Stuart, failed Empathy & Acknowledgment Statement by ignoring Stuart's acute distress over his 89-year-old mother collapsing and the medical alarm failing to reach ambulance dispatch, failed Took Ownership of the Problem by disclaiming responsibility ('S-Net is strictly an ISP; medical alarms and warden systems are the sole responsibility of social care councils'), failed Probing by asking zero diagnostic questions regarding microfilters, telephone extension bell-wires, or alarm unit filter models, and failed Confirmed Resolved by abruptly terminating the call while Stuart was asking how to test the emergency dialer.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Confirmed the issue is resolved",
+      "Active listening",
+      "Build rapport and observed professionalism"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent opened with 'Welcome to broadband customer technical support' omitting 'Thank you for calling S-Net', and closed with 'The engineer will test it. Have a good day. Goodbye' omitting 'Thank you for choosing S-Net'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked only for account reference number and router serial number in first 240 seconds, omitting PIN, billing address, and security question."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never used the customer's name 'Stuart' across any turn in the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:30] Customer explained his 89-year-old mother collapsed and the medical pendant failed, leaving her helpless on the kitchen floor for an hour. Agent responded with cold technical jargon about VDSL frequencies without acknowledging the trauma."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:50] Agent accurately restated that broadband high frequencies were leaking into the analogue line and disabling the social alarm pendant unit."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[17:40] Agent accurately retained telecare alarm model Tunstall Lifeline VI and verified single telephone REN loading without asking customer to repeat."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[03:45] Agent: 'S-Net is strictly an internet service provider; medical pendant alarms and warden-call equipment are managed by private care providers and local councils, so S-Net holds zero liability or responsibility for social alarm hardware.'"
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[10:20] Agent maintained polite, formal technical composure throughout without derogatory remarks, explaining VDSL signal properties clearly despite customer anxiety."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked zero diagnostic questions regarding whether an ADSL microfilter was currently installed, how many extension sockets existed in the home, or what filter hardware was attached."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[19:05] Agent cut the customer off mid-sentence while customer asked how to test emergency dispatch, terminating the call abruptly."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 9,
+          "agent_turn": 58
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 34
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 5
+        }
+      ]
+    }
+  }
+}

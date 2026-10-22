@@ -1,0 +1,457 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Stefan",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net mobile technical services, my name is Rachel. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:13]",
+   "end_time": "[00:36]",
+   "start_time_sec": 13,
+   "text": "Hello Rachel, my name is Stefan Varga. I bought a new iPhone 15 and I am attempting to transfer my existing S-Net mobile eSIM from my old iPhone 12, but every time I scan the QR code or initiate the quick transfer, the screen spins for ten minutes and times out with error code SIM-ERR-503!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:42]",
+   "end_time": "[00:58]",
+   "start_time_sec": 42,
+   "text": "Good afternoon. If I understand correctly, your mobile eSIM transfer between your old iPhone 12 and your new iPhone 15 is timing out after ten minutes with error code SIM-ERR-503. Let me inspect your mobile subscriber profile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:04]",
+   "end_time": "[01:12]",
+   "start_time_sec": 64,
+   "text": "My mobile number is 07700 900742, account reference SN-449102, registered at 45 Victoria Road, Swindon, SN1 3BD, security PIN 9021.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:18]",
+   "end_time": "[01:21]",
+   "start_time_sec": 78,
+   "text": "Thank you, that brings up the mobile line."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:27]",
+   "end_time": "[01:30]",
+   "start_time_sec": 87,
+   "text": "Why is the eSIM transfer timing out?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:36]",
+   "end_time": "[01:49]",
+   "start_time_sec": 96,
+   "text": "Could I place you on hold for two minutes while I query the GSMA eSIM subscription manager server?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:14]",
+   "end_time": "[03:29]",
+   "start_time_sec": 194,
+   "text": "Thank you for holding. The subscription manager server indicates that the cryptographic eSIM profile is still locked to the EID chip on your old iPhone 12."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:35]",
+   "end_time": "[03:46]",
+   "start_time_sec": 215,
+   "text": "How do we unlock the profile from the old phone?",
+   "sentiment_score": -10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:52]",
+   "end_time": "[04:08]",
+   "start_time_sec": 232,
+   "text": "The previous eSIM profile must be deleted from the old handset, and a brand new SM-DP+ activation code must be generated for the new EID."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:14]",
+   "end_time": "[04:26]",
+   "start_time_sec": 254,
+   "text": "I deleted the mobile plan from the old iPhone 12 settings just now.",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:32]",
+   "end_time": "[04:42]",
+   "start_time_sec": 272,
+   "text": "I am generating a fresh eSIM profile for your new device."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:48]",
+   "end_time": "[04:58]",
+   "start_time_sec": 288,
+   "text": "How will I receive the new eSIM profile?",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:04]",
+   "end_time": "[05:15]",
+   "start_time_sec": 304,
+   "text": "Rachel? Are you there? The line was silent for forty seconds!",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:21]",
+   "end_time": "[05:32]",
+   "start_time_sec": 321,
+   "text": "I was waiting for the GSMA carrier gateway to sign the security certificate."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:12]",
+   "end_time": "[06:22]",
+   "start_time_sec": 372,
+   "text": "Will the QR code be emailed to me?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:28]",
+   "end_time": "[06:38]",
+   "start_time_sec": 388,
+   "text": "Obviously carrier eSIM certificates require cryptographic signing before dispatch."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:44]",
+   "end_time": "[06:47]",
+   "start_time_sec": 404,
+   "text": "Right, I understand security signing is necessary.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:53]",
+   "end_time": "[07:03]",
+   "start_time_sec": 413,
+   "text": "The new eSIM activation QR code has been emailed to your registered email address."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:09]",
+   "end_time": "[07:23]",
+   "start_time_sec": 429,
+   "text": "Let me check my email... Yes, email received from S-Net with subject 'Your New S-Net eSIM Activation Code'.",
+   "sentiment_score": 8.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:29]",
+   "end_time": "[07:53]",
+   "start_time_sec": 449,
+   "text": "I run an emergency heating and plumbing callout service during the winter months, and all our customer breakdown calls are routed directly to this mobile phone number! While this eSIM is stuck, my business is losing hundreds of pounds every single hour and vulnerable elderly residents with broken boilers cannot reach me in freezing temperatures! I am in absolute distress and panic over this outage!",
+   "sentiment_score": -72.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:59]",
+   "end_time": "[08:23]",
+   "start_time_sec": 479,
+   "text": "I completely understand the acute distress, financial loss, and severe worry you are experiencing, especially with elderly residents facing broken boilers in freezing temperatures and relying on your emergency heating callouts. Getting your mobile phone back online immediately is an absolute priority, and I will stay on the line to walk you through scanning the QR code right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:29]",
+   "end_time": "[08:39]",
+   "start_time_sec": 509,
+   "text": "Thank you Rachel, let's scan the code now.",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:45]",
+   "end_time": "[08:57]",
+   "start_time_sec": 525,
+   "text": "On your new iPhone 15, open Settings, tap Mobile Service, and tap 'Set Up Mobile Service' or 'Add eSIM'."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:03]",
+   "end_time": "[09:16]",
+   "start_time_sec": 543,
+   "text": "Tapping 'Add eSIM'... Camera scanner opened... Scanning QR code from my computer screen...",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:22]",
+   "end_time": "[09:33]",
+   "start_time_sec": 562,
+   "text": "The screen should display 'Activating eSIM' and connect to the S-Net carrier profile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:39]",
+   "end_time": "[09:49]",
+   "start_time_sec": 579,
+   "text": "The screen says 'Activating...' with a spinning wheel.",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:55]",
+   "end_time": "[10:05]",
+   "start_time_sec": 595,
+   "text": "The new profile is attaching to your device's EID chip."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:11]",
+   "end_time": "[10:22]",
+   "start_time_sec": 611,
+   "text": "It has been spinning for two minutes now... Is that normal?",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:28]",
+   "end_time": "[10:41]",
+   "start_time_sec": 628,
+   "text": "Network provisioning across the cellular towers can take between thirty minutes and up to four hours to fully propagate."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:47]",
+   "end_time": "[10:58]",
+   "start_time_sec": 647,
+   "text": "So the phone won't receive incoming calls right away?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:03]",
+   "end_time": "[11:14]",
+   "start_time_sec": 663,
+   "text": "Correct, the cellular network requires the provisioning cycle to complete before signal bars appear."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:19]",
+   "end_time": "[11:31]",
+   "start_time_sec": 679,
+   "text": "Can you divert incoming calls to a temporary landline number while it provisions?",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:36]",
+   "end_time": "[11:46]",
+   "start_time_sec": 696,
+   "text": "Yes, I can set up an immediate network call divert to any UK landline or mobile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:26]",
+   "end_time": "[12:36]",
+   "start_time_sec": 746,
+   "text": "Please divert all calls to my workshop landline 01793 521890.",
+   "sentiment_score": 14.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:41]",
+   "end_time": "[12:53]",
+   "start_time_sec": 761,
+   "text": "Hello? Rachel? Did the call drop? Why does your line keep going silent?",
+   "sentiment_score": -28.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:58]",
+   "end_time": "[13:02]",
+   "start_time_sec": 778,
+   "text": "I was entering the network diversion parameters into our switch."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:07]",
+   "end_time": "[13:10]",
+   "start_time_sec": 787,
+   "text": "Is the divert active?",
+   "sentiment_score": -8.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:15]",
+   "end_time": "[13:19]",
+   "start_time_sec": 795,
+   "text": "Yes, immediate network call diversion to 01793 521890 is fully active."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:24]",
+   "end_time": "[13:29]",
+   "start_time_sec": 804,
+   "text": "That will protect my emergency boiler breakdown customers while the eSIM completes.",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:34]",
+   "end_time": "[13:41]",
+   "start_time_sec": 814,
+   "text": "Once the eSIM displays signal bars, you can cancel the divert by dialing hash hash 21 hash."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:46]",
+   "end_time": "[13:49]",
+   "start_time_sec": 826,
+   "text": "Hash hash 21 hash, noted down.",
+   "sentiment_score": 26.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:54]",
+   "end_time": "[13:58]",
+   "start_time_sec": 834,
+   "text": "I have waived the eSIM replacement charge on your account."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:03]",
+   "end_time": "[14:06]",
+   "start_time_sec": 843,
+   "text": "Thank you, I appreciate that.",
+   "sentiment_score": 24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:11]",
+   "end_time": "[14:15]",
+   "start_time_sec": 851,
+   "text": "Before we conclude, what was that mobile phone number again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:20]",
+   "end_time": "[14:26]",
+   "start_time_sec": 860,
+   "text": "As I told you right at the start of our call, it is 07700 900742.",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:31]",
+   "end_time": "[14:34]",
+   "start_time_sec": 871,
+   "text": "Thank you, mobile number confirmed on the ticket."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:39]",
+   "end_time": "[14:42]",
+   "start_time_sec": 879,
+   "text": "Thank you for setting up the divert so quickly.",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:47]",
+   "end_time": "[14:50]",
+   "start_time_sec": 887,
+   "text": "It has been my pleasure assisting. Stay warm."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:55]",
+   "end_time": "[14:58]",
+   "start_time_sec": 895,
+   "text": "Goodbye Rachel.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:03]",
+   "end_time": "[15:06]",
+   "start_time_sec": 903,
+   "text": "Is there any other mobile issue today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:11]",
+   "end_time": "[15:14]",
+   "start_time_sec": 911,
+   "text": "No, goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:19]",
+   "end_time": "[15:22]",
+   "start_time_sec": 919,
+   "text": "Thank you for calling S-Net mobile technical services. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:27]",
+   "end_time": "[15:30]",
+   "start_time_sec": 927,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:35]",
+   "end_time": "[15:38]",
+   "start_time_sec": 935,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:43]",
+   "end_time": "[15:46]",
+   "start_time_sec": 943,
+   "text": "Goodbye.",
+   "sentiment_score": 10.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:51]",
+   "end_time": "[15:54]",
+   "start_time_sec": 951,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:59]",
+   "end_time": "[16:02]",
+   "start_time_sec": 959,
+   "text": "Goodbye.",
+   "sentiment_score": 6.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:07]",
+   "end_time": "[16:10]",
+   "start_time_sec": 967,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:15]",
+   "end_time": "[16:20]",
+   "start_time_sec": 975,
+   "text": "Goodbye.",
+   "sentiment_score": 2.0
+  }
+ ]
+}

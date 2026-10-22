@@ -1,0 +1,197 @@
+{
+  "call_id": "agb_42",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 26.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "Agent omitted mandatory closing branding 'thank you for choosing s-net' and customer satisfaction survey request."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "Agent failed to verify customer identity within the first 240 seconds, omitting requests for PIN, full billing address, or security question."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to acknowledge customer's severe distress regarding being registered blind and threatened with debt collection due to unreadable 8-point print."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "Agent asked whether customer required Braille or Large Print at [10:15], ignoring customer's explicit statement in turn 1 that he needs Large Print."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "Agent repeatedly disclaimed ownership, stating external print house contractors and commercial printing presses were not S-Net's responsibility."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Agent asked zero diagnostic questions regarding optical magnification point scales, high-contrast colours, or screen-reader formats."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Visually impaired customer requesting Large Print bills; accessibility profile updated permanently; agent omits survey and closing branding, fails verification (never asks PIN/address/security question in 240s), ignores visual impairment distress, asks repeat question about Braille vs Large Print, disclaims billing print ownership, and asks zero probing questions",
+    "tier": "fair",
+    "duration_sec": 1118,
+    "notes": "The agent enrolled a visually impaired customer onto the Priority Services Register and updated the billing delivery template to 24-point Large Print format. However, the agent failed Branding and Survey Check by omitting 'thank you for choosing s-net' and the survey, failed Verified Customer by never requesting PIN, address, or security question in the first 240 seconds, failed Empathy & Acknowledgment Statement by disregarding Patrick's acute distress over being registered blind and unable to read microscopic 8-point billing print, failed Active Listening at minute 11 by asking whether he required Braille or Large Print after Patrick explicitly stated in turn 1 that he needs Large Print, failed Took Ownership of the Problem by repeatedly disclaiming responsibility ('Third-party commercial printing contractors handle mailing; S-Net does not print bills in-house'), and failed Probing by asking zero diagnostic questions regarding font sizing, high-contrast layouts, or screen-reader formats.",
+    "hard_cases": [
+      "Took ownership of the problem",
+      "Probing",
+      "Build rapport and observed professionalism",
+      "Paraphrasing"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[18:40] Agent: 'All accessibility preferences updated. Good afternoon and take care. Goodbye.' - Closing lacks mandatory S-Net branding and survey mention."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent requested only account reference and router model in the first 240 seconds, omitting required whole-word 'pin', 'address', or 'security question' verification."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:30] Customer: 'Rachel, last month I accidentally missed a payment deadline because I could not read the tiny payment due date... and S-Net slapped me with a late payment charge and threatened debt collection! I live alone with my guide dog and I have zero family nearby to read mail for me! Being treated like a delinquent debtor... is humiliating, terrifying, and deeply discriminatory!' Agent: 'Automated billing print runs default to standard twelve-pitch typeface...' - Total disregard of severe disability distress."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[01:45] Agent: 'So if I have understood correctly, your visual impairment makes standard paper billing print unreadable...' - Complete and accurate restatement."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[10:15] Agent: 'Do you require your monthly bills in Grade 2 Braille or in Large Print format?' Customer: 'Rachel, as I explained at the very start of this call, I need Large Print twenty-four-point! I cannot read Braille...' - Agent asked for information already given."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[02:20] Agent: 'Third-party commercial printing contractors handle paper mailing; S-Net does not print billing statements in-house and holds zero liability...' and [17:40] Agent: 'If commercial contractors print small font again in future, do not blame S-Net customer service...' - Direct disclaimers of ownership."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[12:10] Agent: 'Obviously that confirms your visual accessibility accommodation is fully established under statutory disability standards, Patrick.' - Clear technical reassurance."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked zero probing questions regarding font size (such as 18pt vs 24pt), paper background contrast, or electronic screen-reader accessibility."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 58
+        },
+        {
+          "kind": "repeat",
+          "premise_turn": 1,
+          "agent_turn": 26,
+          "reworded": true
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 36
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 5
+        }
+      ]
+    }
+  }
+}

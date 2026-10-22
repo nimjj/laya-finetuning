@@ -1,0 +1,539 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Isabella",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Jessica. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:27]",
+      "start_time_sec": 10,
+      "text": "Hi Jessica. I am at my absolute wits' end with this broadband. Every single time it rains, our internet drops out every ten minutes, and I got disconnected from an executive board meeting twice this morning! It is completely intolerable!",
+      "sentiment_score": -48.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:30]",
+      "end_time": "[00:37]",
+      "start_time_sec": 30,
+      "text": "Can I take your full installation postcode and your four-digit security PIN to open your broadband file?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:40]",
+      "end_time": "[00:45]",
+      "start_time_sec": 40,
+      "text": "It's 54 Highfield Avenue, Sheffield, S11 9EL, and the PIN is 3820.",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:48]",
+      "end_time": "[00:55]",
+      "start_time_sec": 48,
+      "text": "Thank you. What color is the broadband light on your router when the drops occur?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:58]",
+      "end_time": "[01:04]",
+      "start_time_sec": 58,
+      "text": "It flashes orange and then takes about three minutes to go solid white again.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:07]",
+      "end_time": "[01:12]",
+      "start_time_sec": 67,
+      "text": "I am running our automated cabinet copper test on the line now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:14]",
+      "end_time": "[01:17]",
+      "start_time_sec": 74,
+      "text": "Does the test show the line dropping?",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:19]",
+      "end_time": "[01:33]",
+      "start_time_sec": 79,
+      "text": "So if I have understood correctly, your VDSL service functions normally during dry weather, but during rainfall, the connection suffers frequent sync drops and takes several minutes to retrain. Is that right, Isabella?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:35]",
+      "end_time": "[01:44]",
+      "start_time_sec": 95,
+      "text": "Yes, exactly. It has been happening for three weeks now. The moment the clouds open up, the broadband becomes completely unstable.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:46]",
+      "end_time": "[01:53]",
+      "start_time_sec": 106,
+      "text": "That symptom strongly indicates water ingress inside the street underground distribution joint or the pole DP casing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:55]",
+      "end_time": "[01:58]",
+      "start_time_sec": 115,
+      "text": "Water getting into the cables outside?",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:00]",
+      "end_time": "[02:11]",
+      "start_time_sec": 120,
+      "text": "Yes. When rain enters an unsealed joint box in the pavement, it creates a resistive ground fault between the copper leg wires, causing high loop attenuation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:13]",
+      "end_time": "[02:16]",
+      "start_time_sec": 133,
+      "text": "Can you see that on your line diagnostics?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:18]",
+      "end_time": "[02:26]",
+      "start_time_sec": 138,
+      "text": "Yes, our copper test shows a battery contact resistance imbalance of 180 ohms on Leg B during damp conditions."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:28]",
+      "end_time": "[02:35]",
+      "start_time_sec": 148,
+      "text": "Is that something you can fix remotely or does an Openreach engineer have to come out?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:37]",
+      "end_time": "[02:47]",
+      "start_time_sec": 157,
+      "text": "Because the physical fault is located in the street cabling, it requires an external infrastructure engineer to locate and reseal the joint."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:49]",
+      "end_time": "[02:58]",
+      "start_time_sec": 169,
+      "text": "Do I have to wait at home all day for an engineer if the fault is outside in the road?",
+      "sentiment_score": -9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:00]",
+      "end_time": "[03:11]",
+      "start_time_sec": 180,
+      "text": "No, Isabella. This is classified as an External Network Repair. The engineer will carry out all work at the street cabinet and underground footway box."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:13]",
+      "end_time": "[03:20]",
+      "start_time_sec": 193,
+      "text": "That is such a relief, I don't have to take a half day off work.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:22]",
+      "end_time": "[03:30]",
+      "start_time_sec": 202,
+      "text": "Where is your router located inside the house? Is it plugged into the master socket or an extension?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:32]",
+      "end_time": "[03:39]",
+      "start_time_sec": 212,
+      "text": "It's plugged directly into the master socket in the hallway with the original gray cable.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:41]",
+      "end_time": "[03:47]",
+      "start_time_sec": 221,
+      "text": "And have you tried replacing the DSL microfilter between the wall and the Hub?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:49]",
+      "end_time": "[03:59]",
+      "start_time_sec": 229,
+      "text": "Yes, I swapped the microfilter on Tuesday with a spare one from the box, but it made no difference when it rained.",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:01]",
+      "end_time": "[04:08]",
+      "start_time_sec": 241,
+      "text": "That further confirms the fault is external on the physical copper pair rather than internal household wiring."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:10]",
+      "end_time": "[04:16]",
+      "start_time_sec": 250,
+      "text": "Will the engineer test the line from the street cabinet down to our house?",
+      "sentiment_score": 6.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:18]",
+      "end_time": "[04:28]",
+      "start_time_sec": 258,
+      "text": "Yes, the technician will use a Time Domain Reflectometer at the street cabinet to trace the exact meterage of the high resistance fault."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:30]",
+      "end_time": "[04:34]",
+      "start_time_sec": 270,
+      "text": "How long does an external repair like that normally take?",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:36]",
+      "end_time": "[04:45]",
+      "start_time_sec": 276,
+      "text": "Once the engineer accesses the footway box, splicing a new waterproof gel crimp connector typically takes between one and two hours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:47]",
+      "end_time": "[04:54]",
+      "start_time_sec": 287,
+      "text": "What happens if it starts raining heavily while the engineer is working in the street box?",
+      "sentiment_score": -4.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:56]",
+      "end_time": "[05:06]",
+      "start_time_sec": 296,
+      "text": "Openreach engineers erect all-weather canopy tents over the pavement footway chamber and use moisture-barrier gel sleeves, so the repair is fully protected."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:08]",
+      "end_time": "[05:12]",
+      "start_time_sec": 308,
+      "text": "And when will the engineer be assigned to the job?",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:14]",
+      "end_time": "[05:20]",
+      "start_time_sec": 314,
+      "text": "I have an engineer slot available tomorrow morning between eight and one o'clock."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:22]",
+      "end_time": "[05:32]",
+      "start_time_sec": 322,
+      "text": "Tomorrow morning would be fantastic. My mobile number is zero seven eight nine one, four four three two one zero for the engineer updates.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:34]",
+      "end_time": "[05:43]",
+      "start_time_sec": 334,
+      "text": "Is zero seven eight nine one, four four three two one zero the best mobile contact number for SMS appointment tracking?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:45]",
+      "end_time": "[05:48]",
+      "start_time_sec": 345,
+      "text": "Yes, that is my direct work mobile.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:50]",
+      "end_time": "[05:58]",
+      "start_time_sec": 350,
+      "text": "I have registered that number for automated SMS notifications when the engineer arrives on site and completes the repair."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:00]",
+      "end_time": "[06:06]",
+      "start_time_sec": 360,
+      "text": "Will our internet go down while the engineer works on the street box?",
+      "sentiment_score": 2.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:08]",
+      "end_time": "[06:16]",
+      "start_time_sec": 368,
+      "text": "Yes, expect a brief disconnection of approximately twenty minutes while the pair is crimped and resealed in the joint."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:18]",
+      "end_time": "[06:22]",
+      "start_time_sec": 378,
+      "text": "That's completely fine since you told me in advance.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:24]",
+      "end_time": "[06:36]",
+      "start_time_sec": 384,
+      "text": "Please bear with me while I place you on a brief hold for about two minutes while I book the external engineering ticket on the Openreach portal."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:58]",
+      "end_time": "[08:06]",
+      "start_time_sec": 478,
+      "text": "Thank you for your patience while holding, Isabella. The Openreach external fault ticket has been logged under reference OR-992817."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:08]",
+      "end_time": "[08:11]",
+      "start_time_sec": 488,
+      "text": "Got that reference written down, thank you.",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:13]",
+      "end_time": "[08:23]",
+      "start_time_sec": 493,
+      "text": "After the physical repair completes tomorrow, our Dynamic Line Management system will monitor your line for 48 hours to restore maximum sync speed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:25]",
+      "end_time": "[08:29]",
+      "start_time_sec": 505,
+      "text": "Does DLM slow down the line automatically when errors happen?",
+      "sentiment_score": 3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:31]",
+      "end_time": "[08:40]",
+      "start_time_sec": 511,
+      "text": "Yes. Because of the frequent dropouts, DLM increased your signal-to-noise margin to twelve decibels to prevent total loss of sync."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:42]",
+      "end_time": "[08:48]",
+      "start_time_sec": 522,
+      "text": "So once the water leak is fixed, the line will speed back up?",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:50]",
+      "end_time": "[09:01]",
+      "start_time_sec": 530,
+      "text": "Once the copper pair is clean and dry, DLM will lower the target margin back to six decibels, restoring your full seventy-six megabit download speed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:03]",
+      "end_time": "[09:07]",
+      "start_time_sec": 543,
+      "text": "That explains why speeds felt slower even between drops.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:09]",
+      "end_time": "[09:16]",
+      "start_time_sec": 549,
+      "text": "Are we eligible for automatic compensation for the loss of service while this was happening?",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:18]",
+      "end_time": "[09:31]",
+      "start_time_sec": 558,
+      "text": "Under Ofcom's automatic compensation code of practice, if a broadband fault is not rectified within two full working days of reporting, an automatic credit of \u00a39.76 per calendar day applies."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:33]",
+      "end_time": "[09:40]",
+      "start_time_sec": 573,
+      "text": "Does that show up automatically on our monthly bill or do we have to submit a claim?",
+      "sentiment_score": 8.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:42]",
+      "end_time": "[09:48]",
+      "start_time_sec": 582,
+      "text": "The credit applies automatically to your billing ledger without requiring any manual paperwork."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:50]",
+      "end_time": "[09:55]",
+      "start_time_sec": 590,
+      "text": "Does the compensation continue adding up daily until the line stabilizes?",
+      "sentiment_score": 9.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:57]",
+      "end_time": "[10:05]",
+      "start_time_sec": 597,
+      "text": "Yes, the daily credit accrues automatically until the physical repair is certified by the Openreach network operations center."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:07]",
+      "end_time": "[10:10]",
+      "start_time_sec": 607,
+      "text": "That is very reassuring to know.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:12]",
+      "end_time": "[10:19]",
+      "start_time_sec": 612,
+      "text": "How will I know when the engineer has completed the splicing work in the street tomorrow?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:21]",
+      "end_time": "[10:31]",
+      "start_time_sec": 621,
+      "text": "The technician conducts a metallic loop line test directly to the master socket, which triggers an automated SMS notification saying external fault cleared."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:33]",
+      "end_time": "[10:39]",
+      "start_time_sec": 633,
+      "text": "And do I need to restart our Hub router once the text message arrives?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:41]",
+      "end_time": "[10:51]",
+      "start_time_sec": 641,
+      "text": "Yes, power-cycling the Hub once the repair is complete clears any old error counters in the modem chipset and starts clean synchronization."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:53]",
+      "end_time": "[10:59]",
+      "start_time_sec": 653,
+      "text": "I'll make sure to power-cycle it as soon as the text comes through.",
+      "sentiment_score": 12.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:01]",
+      "end_time": "[11:08]",
+      "start_time_sec": 661,
+      "text": "Will you require a temporary four-G mobile data backup dongle while the repair is pending?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:10]",
+      "end_time": "[11:16]",
+      "start_time_sec": 670,
+      "text": "No, tomorrow morning is very quick so my phone hotspot will cover the evening.",
+      "sentiment_score": 10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:18]",
+      "end_time": "[11:28]",
+      "start_time_sec": 678,
+      "text": "If the rain starts again tonight and the line drops, leaving the router powered on allows DLM to keep accurate error logs."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:30]",
+      "end_time": "[11:35]",
+      "start_time_sec": 690,
+      "text": "I won't turn the router off, I'll leave it plugged in.",
+      "sentiment_score": 9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:37]",
+      "end_time": "[11:45]",
+      "start_time_sec": 697,
+      "text": "And you will receive a final confirmation text message once the engineer runs the post-repair copper pass test."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:47]",
+      "end_time": "[11:50]",
+      "start_time_sec": 707,
+      "text": "That gives me great peace of mind.",
+      "sentiment_score": 18.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:52]",
+      "end_time": "[11:59]",
+      "start_time_sec": 712,
+      "text": "Is there anything else regarding your broadband service that I can check for you today, Isabella?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:01]",
+      "end_time": "[12:07]",
+      "start_time_sec": 721,
+      "text": "No, Jessica, you've diagnosed the issue and booked the engineer very quickly. Thank you.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:09]",
+      "end_time": "[12:15]",
+      "start_time_sec": 729,
+      "text": "Thank you for choosing S-Net today, Isabella. Have a wonderful rest of your day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:17]",
+      "end_time": "[12:20]",
+      "start_time_sec": 737,
+      "text": "Thanks Jessica, goodbye.",
+      "sentiment_score": 6.2
+    }
+  ]
+}

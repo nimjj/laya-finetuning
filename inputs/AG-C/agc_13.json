@@ -1,0 +1,524 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Elijah",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Good morning and welcome to S-Net customer technical support, my name is Mark. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:24]",
+      "start_time_sec": 10,
+      "text": "Hi Mark. Our S-Net TV 360 box keeps freezing whenever we open Netflix or Prime Video, and when it does play, the picture is stuck in blurry low definition instead of 4K HDR.",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:26]",
+      "end_time": "[00:40]",
+      "start_time_sec": 26,
+      "text": "I understand how annoying it is when streaming apps buffer and fail to display in full 4K HDR, Elijah. I will check your video output and bandwidth settings to get this sorted."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:42]",
+      "end_time": "[00:49]",
+      "start_time_sec": 42,
+      "text": "Thanks Mark. We pay for the Ultra HD tier and it looks like standard definition right now.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:51]",
+      "end_time": "[01:01]",
+      "start_time_sec": 51,
+      "text": "Before we run diagnostics on the TV 360 box, Elijah, could you verify your full home address and your four-digit security PIN for me?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:03]",
+      "end_time": "[01:09]",
+      "start_time_sec": 63,
+      "text": "Yes, it is 88 Langdale Court, Carlisle, CA1 3TY, and the PIN is 7194.",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:11]",
+      "end_time": "[01:19]",
+      "start_time_sec": 71,
+      "text": "Thank you for verifying those details, Elijah. I have your TV 360 entertainment profile open in front of me."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:21]",
+      "end_time": "[01:24]",
+      "start_time_sec": 81,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:25]",
+      "end_time": "[01:40]",
+      "start_time_sec": 85,
+      "text": "So just to confirm what you are experiencing: your TV 360 streaming apps are buffering and failing to render in 4K HDR, while the picture drops to standard definition during playback. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:41]",
+      "end_time": "[01:51]",
+      "start_time_sec": 101,
+      "text": "Yes, exactly that. It happens on both Netflix and Prime Video, and sometimes the screen goes black for three seconds like it's losing connection.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:52]",
+      "end_time": "[02:04]",
+      "start_time_sec": 112,
+      "text": "When the screen goes black momentarily on 4K content, it usually points to an HDCP 2.2 digital handshake failure between the TV box and your television HDMI port."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:05]",
+      "end_time": "[02:08]",
+      "start_time_sec": 125,
+      "text": "What does HDCP mean?",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:09]",
+      "end_time": "[02:22]",
+      "start_time_sec": 129,
+      "text": "High-bandwidth Digital Content Protection is the encryption handshake required for 4K streaming. If the HDMI port or cable cannot maintain HDCP 2.2 sync, the app forces a fallback to low definition."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:23]",
+      "end_time": "[02:29]",
+      "start_time_sec": 143,
+      "text": "We have the HDMI cable plugged into HDMI port three on our Samsung television.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:30]",
+      "end_time": "[02:40]",
+      "start_time_sec": 150,
+      "text": "On many Samsung smart televisions, only HDMI port one or port two supports full HDMI 2.0 with HDCP 2.2 and Enhanced Color."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:41]",
+      "end_time": "[02:45]",
+      "start_time_sec": 161,
+      "text": "Oh really? I didn't realize different ports had different capabilities.",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:46]",
+      "end_time": "[02:56]",
+      "start_time_sec": 166,
+      "text": "Could you check the labels on the back of your television set? Is HDMI port one labeled as Enhanced or 4K 60Hz?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:57]",
+      "end_time": "[03:06]",
+      "start_time_sec": 177,
+      "text": "Let me look behind the TV... yes! Port one says eARC and 4K 60Hz, while port three just says standard HDMI.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:07]",
+      "end_time": "[03:15]",
+      "start_time_sec": 187,
+      "text": "Let's move the high-speed HDMI cable from port three into HDMI port one while the box is on standby."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:16]",
+      "end_time": "[03:22]",
+      "start_time_sec": 196,
+      "text": "Switching the cable to port one now... okay, clicked firmly into port one.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:23]",
+      "end_time": "[03:29]",
+      "start_time_sec": 203,
+      "text": "Now turn the television back on and switch the source input to HDMI one."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:30]",
+      "end_time": "[03:36]",
+      "start_time_sec": 210,
+      "text": "Switching input to HDMI one... the S-Net TV 360 home screen popped up immediately.",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:37]",
+      "end_time": "[03:46]",
+      "start_time_sec": 217,
+      "text": "On your Samsung TV remote, open Settings, General, External Device Manager, and turn on HDMI UHD Color for port one."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:47]",
+      "end_time": "[03:55]",
+      "start_time_sec": 227,
+      "text": "Navigating to External Device Manager... turning on Input Signal Plus for HDMI one... okay, the TV flashed and reloaded.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:56]",
+      "end_time": "[04:04]",
+      "start_time_sec": 236,
+      "text": "Now on the S-Net 360 remote, press Home, go to Settings, then Audio and Video, then Video Resolution."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:05]",
+      "end_time": "[04:13]",
+      "start_time_sec": 245,
+      "text": "Opening Video Resolution... it was on 1080p automatic, but now 2160p 4K HDR is available as an option!",
+      "sentiment_score": 31.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:14]",
+      "end_time": "[04:19]",
+      "start_time_sec": 254,
+      "text": "Select 2160p 4K HDR and press OK to lock the display output."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:20]",
+      "end_time": "[04:26]",
+      "start_time_sec": 260,
+      "text": "Selecting 2160p... the screen refreshed and says 4K HDR Active with 10-bit color depth!",
+      "sentiment_score": 36.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:27]",
+      "end_time": "[04:36]",
+      "start_time_sec": 267,
+      "text": "Now let's check your broadband speed to the TV 360 box. Is the box connected via Wi-Fi or an Ethernet cable?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:37]",
+      "end_time": "[04:42]",
+      "start_time_sec": 277,
+      "text": "It's connected via Wi-Fi to our S-Net Hub in the hallway.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:43]",
+      "end_time": "[04:50]",
+      "start_time_sec": 283,
+      "text": "On the TV 360 Network menu, what download speed is the box reporting under Network Diagnostics?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:51]",
+      "end_time": "[04:58]",
+      "start_time_sec": 291,
+      "text": "Testing connection... it says link speed is one hundred and eighty megabits on five gigahertz.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:59]",
+      "end_time": "[05:07]",
+      "start_time_sec": 299,
+      "text": "One hundred and eighty megabits is more than seven times the twenty-five megabits required for seamless 4K HDR streaming."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:08]",
+      "end_time": "[05:11]",
+      "start_time_sec": 308,
+      "text": "That's plenty of bandwidth then.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:12]",
+      "end_time": "[05:19]",
+      "start_time_sec": 312,
+      "text": "What about audio settings? Do you have an external soundbar connected to the eARC port?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:20]",
+      "end_time": "[05:25]",
+      "start_time_sec": 320,
+      "text": "We have a Sonos Beam soundbar connected to the optical port.",
+      "sentiment_score": 6.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:26]",
+      "end_time": "[05:35]",
+      "start_time_sec": 326,
+      "text": "In that case, in Audio Settings on the 360 box, ensure Dolby Audio is set to Dolby Digital Plus pass-through."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:36]",
+      "end_time": "[05:42]",
+      "start_time_sec": 336,
+      "text": "Setting Dolby Digital Plus... the soundbar just chirped to indicate surround sound ready.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:43]",
+      "end_time": "[05:50]",
+      "start_time_sec": 343,
+      "text": "Does the TV 360 box support Dolby Atmos audio over the HDMI eARC connection to our soundbar?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:51]",
+      "end_time": "[06:03]",
+      "start_time_sec": 351,
+      "text": "Yes, in the Audio Output settings, selecting Dolby Digital Plus with Atmos pass-through enables full Dolby Atmos height spatial audio on compatible Netflix and Prime Video titles."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:04]",
+      "end_time": "[06:11]",
+      "start_time_sec": 364,
+      "text": "I see the Dolby Atmos logo showing up on our soundbar display right now, that sounds incredible!",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:12]",
+      "end_time": "[06:17]",
+      "start_time_sec": 372,
+      "text": "That confirms uncompressed audio bitstreaming is fully synchronized alongside your 4K video."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:18]",
+      "end_time": "[06:22]",
+      "start_time_sec": 378,
+      "text": "The sound separation across the living room is noticeably richer.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:23]",
+      "end_time": "[06:36]",
+      "start_time_sec": 383,
+      "text": "Please bear with me while I place you on a brief hold for about two minutes while I clear the application cache on your TV box from our server console."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:50]",
+      "end_time": "[07:57]",
+      "start_time_sec": 470,
+      "text": "Thank you for your patience while holding, Elijah. The streaming app cache has been purged and refreshed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:58]",
+      "end_time": "[08:01]",
+      "start_time_sec": 478,
+      "text": "Thank you Mark. What should I test first?",
+      "sentiment_score": 12.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:02]",
+      "end_time": "[08:07]",
+      "start_time_sec": 482,
+      "text": "Open the Netflix app and launch a 4K title like Our Planet."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:08]",
+      "end_time": "[08:16]",
+      "start_time_sec": 488,
+      "text": "Opening Netflix... launching Our Planet... wow, the Ultra HD 4K HDR badge showed up immediately in the top corner!",
+      "sentiment_score": 38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:17]",
+      "end_time": "[08:21]",
+      "start_time_sec": 497,
+      "text": "Is the playback running smoothly with zero buffering or stuttering?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:22]",
+      "end_time": "[08:32]",
+      "start_time_sec": 502,
+      "text": "It started playing in literally two seconds, and the picture quality is breathtaking. The colors and contrast are night and day compared to earlier.",
+      "sentiment_score": 39.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:33]",
+      "end_time": "[08:40]",
+      "start_time_sec": 513,
+      "text": "And what about Prime Video? Could you test a 4K stream on there as well?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:41]",
+      "end_time": "[08:48]",
+      "start_time_sec": 521,
+      "text": "Opening Prime Video... playing The Rings of Power... HDR10+ badge popped up and it's crystal clear!",
+      "sentiment_score": 37.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:49]",
+      "end_time": "[08:57]",
+      "start_time_sec": 529,
+      "text": "Moving the cable to HDMI port one and enabling UHD Color has successfully established full HDCP 2.2 synchronization."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:58]",
+      "end_time": "[09:04]",
+      "start_time_sec": 538,
+      "text": "I had no idea the TV port was throttling the resolution all along.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:05]",
+      "end_time": "[09:10]",
+      "start_time_sec": 545,
+      "text": "It's a very common hidden setting on newer 4K screens, Elijah."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:11]",
+      "end_time": "[09:20]",
+      "start_time_sec": 551,
+      "text": "Does the TV box automatically adjust frame rate between 50Hz for live UK TV and 60Hz or 24p for films?",
+      "sentiment_score": 9.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:21]",
+      "end_time": "[09:30]",
+      "start_time_sec": 561,
+      "text": "Yes, the TV 360 box has Match Frame Rate enabled by default, so it switches refresh rates dynamically without judder."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:31]",
+      "end_time": "[09:35]",
+      "start_time_sec": 571,
+      "text": "That explains why motion panning looks so silky smooth now.",
+      "sentiment_score": 26.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:36]",
+      "end_time": "[09:41]",
+      "start_time_sec": 576,
+      "text": "Have you also tested BBC iPlayer UHD broadcasts under the beta menu?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:42]",
+      "end_time": "[09:48]",
+      "start_time_sec": 582,
+      "text": "I haven't tried iPlayer UHD yet. Does that work through the apps section?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:49]",
+      "end_time": "[09:58]",
+      "start_time_sec": 589,
+      "text": "Yes, in BBC iPlayer Settings, enable UHD Trial and you will receive BBC live sport and nature documentaries in 4K HLG."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:59]",
+      "end_time": "[10:04]",
+      "start_time_sec": 599,
+      "text": "I'll definitely turn that on for the tennis tournament this weekend.",
+      "sentiment_score": 28.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:05]",
+      "end_time": "[10:16]",
+      "start_time_sec": 605,
+      "text": "And if the apps ever freeze in the future, holding the power button on the 360 box for ten seconds performs a soft memory flush."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:17]",
+      "end_time": "[10:23]",
+      "start_time_sec": 617,
+      "text": "That's a really handy shortcut to remember rather than unplugging at the wall.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:24]",
+      "end_time": "[10:31]",
+      "start_time_sec": 624,
+      "text": "Mark, you've been brilliant. You explained everything step by step and fixed our 4K picture completely.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:32]",
+      "end_time": "[10:42]",
+      "start_time_sec": 632,
+      "text": "It was my absolute pleasure helping you today, Elijah. Is there anything else on your TV or broadband that I can check?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:43]",
+      "end_time": "[10:48]",
+      "start_time_sec": 643,
+      "text": "No, everything is working in stunning 4K now. Thank you so much!",
+      "sentiment_score": 28.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:49]",
+      "end_time": "[10:56]",
+      "start_time_sec": 649,
+      "text": "Thank you for choosing S-Net today, Elijah. Enjoy your 4K movies and have a wonderful week."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:57]",
+      "end_time": "[11:00]",
+      "start_time_sec": 657,
+      "text": "Thanks Mark, take care. Goodbye.",
+      "sentiment_score": 6.8
+    }
+  ]
+}

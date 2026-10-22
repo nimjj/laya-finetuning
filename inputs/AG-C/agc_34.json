@@ -1,0 +1,516 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Grace",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net landline technical support, my name is Ian. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:14]",
+      "end_time": "[00:41]",
+      "start_time_sec": 14,
+      "text": "Hi Ian. Our home landline telephone has developed a bizarre fault over the last three days: we can dial out to any number without problem, but whenever anyone calls our number, it goes straight to a rapid busy tone and our phone never rings! I am an emergency foster carer on call, and social services couldn't reach me about an urgent placement last night!",
+      "sentiment_score": -46.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:47]",
+      "end_time": "[00:58]",
+      "start_time_sec": 47,
+      "text": "I understand how critical incoming calls are, especially when coordinating urgent foster care communications for children in need. Let's examine your landline telephone circuit immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:04]",
+      "end_time": "[01:10]",
+      "start_time_sec": 64,
+      "text": "Thank you, because missing emergency placement calls from the local authority is completely unacceptable.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:16]",
+      "end_time": "[01:25]",
+      "start_time_sec": 76,
+      "text": "Before we access the telephone exchange routing line, could you please verify your installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:31]",
+      "end_time": "[01:47]",
+      "start_time_sec": 91,
+      "text": "Yes, the address is 9 Meadowcroft Close, Salisbury, SP1 2DF, our landline number is zero one seven two two, nine zero zero four one\u4e8c, sorry, nine zero zero four one two, and the security PIN is 3019.",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:53]",
+      "end_time": "[02:01]",
+      "start_time_sec": 113,
+      "text": "Thank you for verifying those details. I have your copper landline telephone profile open on our exchange testing console."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:07]",
+      "end_time": "[02:10]",
+      "start_time_sec": 127,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:16]",
+      "end_time": "[02:32]",
+      "start_time_sec": 136,
+      "text": "So just to confirm the fault symptoms: you can dial out and make outgoing telephone calls without issue, but all incoming callers immediately hear a rapid engaged busy tone, and your handset never rings. Is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:38]",
+      "end_time": "[02:49]",
+      "start_time_sec": 158,
+      "text": "Yes, that is exactly what happens. My sister tried ringing from her mobile while standing next to me, and her phone went straight to engaged.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:55]",
+      "end_time": "[03:04]",
+      "start_time_sec": 175,
+      "text": "Have you recently activated any telephone network calling features such as Call Divert, Do Not Disturb, or Anonymous Caller Reject?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:10]",
+      "end_time": "[03:18]",
+      "start_time_sec": 190,
+      "text": "No, we haven't touched any star-code calling features at all. We just use the phone for regular voice calls.",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:24]",
+      "end_time": "[03:31]",
+      "start_time_sec": 204,
+      "text": "Is your telephone handset plugged into a secondary extension socket or directly into the Openreach master socket?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:37]",
+      "end_time": "[03:45]",
+      "start_time_sec": 217,
+      "text": "It is plugged directly into the master socket in our front hallway using the original black telephone cable.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:51]",
+      "end_time": "[03:59]",
+      "start_time_sec": 231,
+      "text": "I am going to trigger an automated copper line capacitance and loop resistance diagnostic test from the exchange."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:34]",
+      "end_time": "[04:38]",
+      "start_time_sec": 274,
+      "text": "Are you still with me on the call, Ian?",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:44]",
+      "end_time": "[04:55]",
+      "start_time_sec": 284,
+      "text": "Yes, apologies for the pause. The remote exchange line test shows normal battery feed voltage at fifty volts DC and loop resistance within standard limits."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:01]",
+      "end_time": "[05:07]",
+      "start_time_sec": 301,
+      "text": "If the electrical line voltage is normal, why are incoming calls bouncing as busy?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:13]",
+      "end_time": "[05:24]",
+      "start_time_sec": 313,
+      "text": "When physical line resistance tests pass, an engaged tone on incoming calls typically indicates that the customer's telephone handset base station is holding an off-hook condition."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:30]",
+      "end_time": "[05:36]",
+      "start_time_sec": 330,
+      "text": "Our handset is resting firmly in its charging cradle and displays 'Ready for Call'.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:42]",
+      "end_time": "[05:51]",
+      "start_time_sec": 342,
+      "text": "Internal ringer capacitors in cordless DECT base stations can fail, causing the exchange line relay to detect a permanent off-hook loop."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:57]",
+      "end_time": "[06:04]",
+      "start_time_sec": 357,
+      "text": "Could it be a fault at the local street green cabinet or exchange line card?",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:10]",
+      "end_time": "[06:16]",
+      "start_time_sec": 370,
+      "text": "Exchange line cards operate digital cross-connects that rarely fail on unilateral incoming traffic."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:22]",
+      "end_time": "[06:28]",
+      "start_time_sec": 382,
+      "text": "Can you dispatch a telecoms engineer to inspect the street wiring and master socket?",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:34]",
+      "end_time": "[06:47]",
+      "start_time_sec": 394,
+      "text": "Our policy states that if exchange line tests return clear electrical measurements, engineer callouts are charged at one hundred and thirty pounds if the customer's telephone equipment is at fault."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:53]",
+      "end_time": "[07:00]",
+      "start_time_sec": 413,
+      "text": "That seems very unfair when I cannot prove whether it's my handset or your exchange software.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:06]",
+      "end_time": "[07:12]",
+      "start_time_sec": 426,
+      "text": "Let me check the network routing translation table for your local exchange switch."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:50]",
+      "end_time": "[07:53]",
+      "start_time_sec": 470,
+      "text": "Hello, Ian, is the line still connected?",
+      "sentiment_score": -12.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:59]",
+      "end_time": "[08:09]",
+      "start_time_sec": 479,
+      "text": "Yes, apologies for the delay. The exchange routing register shows your telephone number 01722 900412 is properly mapped to the local concentrator."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:15]",
+      "end_time": "[08:21]",
+      "start_time_sec": 495,
+      "text": "Then what on earth is causing incoming calls to receive an engaged tone?",
+      "sentiment_score": -14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:27]",
+      "end_time": "[08:38]",
+      "start_time_sec": 507,
+      "text": "You will need to disconnect your current DECT phone and purchase a replacement telephone handset from a high street retailer like Argos to test the line."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:44]",
+      "end_time": "[08:52]",
+      "start_time_sec": 524,
+      "text": "I should have to spend forty pounds on a new telephone when this one might be completely fine?!",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:58]",
+      "end_time": "[09:05]",
+      "start_time_sec": 538,
+      "text": "S-Net only provides and warranties the external network wiring up to the master socket demarcation boundary."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:11]",
+      "end_time": "[09:18]",
+      "start_time_sec": 551,
+      "text": "Have you checked whether there is an accidental network-level divert flag stuck on my line profile?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:24]",
+      "end_time": "[09:35]",
+      "start_time_sec": 564,
+      "text": "Let me query the supplementary services database on our switch... there is an active 'Call Forward Unconditional' divert programmed to an inactive number 01722 000000."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:41]",
+      "end_time": "[09:46]",
+      "start_time_sec": 581,
+      "text": "An inactive number divert?! How did that get placed on our line?!",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:52]",
+      "end_time": "[09:57]",
+      "start_time_sec": 592,
+      "text": "Ghost call divert flags occasionally occur during automated exchange maintenance sweeps."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:03]",
+      "end_time": "[10:11]",
+      "start_time_sec": 603,
+      "text": "So the problem was inside your exchange computer all along, and you wanted me to buy a new phone!",
+      "sentiment_score": -32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:17]",
+      "end_time": "[10:24]",
+      "start_time_sec": 617,
+      "text": "I am sending a digital de-registration command right now to clear that ghost divert instruction."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:30]",
+      "end_time": "[10:33]",
+      "start_time_sec": 630,
+      "text": "Did the de-registration command clear the divert?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:39]",
+      "end_time": "[10:45]",
+      "start_time_sec": 639,
+      "text": "Yes, the supplementary service register now confirms all call forward flags are cleared."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:51]",
+      "end_time": "[10:59]",
+      "start_time_sec": 651,
+      "text": "Let me test calling our landline right now from my mobile phone while we are on the line.",
+      "sentiment_score": 12.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:05]",
+      "end_time": "[11:10]",
+      "start_time_sec": 665,
+      "text": "Go ahead and initiate a test call from your mobile handset."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:16]",
+      "end_time": "[11:22]",
+      "start_time_sec": 676,
+      "text": "Dialing... wait, it's still giving a rapid busy tone! It didn't ring at all!",
+      "sentiment_score": -38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:28]",
+      "end_time": "[11:36]",
+      "start_time_sec": 688,
+      "text": "If the divert is cleared and calls still return busy, the physical ringer circuit on your handset is defective."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:42]",
+      "end_time": "[12:09]",
+      "start_time_sec": 702,
+      "text": "Listen to me! I tested this exact telephone handset at my neighbor's house next door thirty minutes ago, and it rang perfectly on her line! The fault is 100% on your street cabling or your exchange card, and you are refusing to do your job while vulnerable foster children need emergency placements! How dare you dismiss me and blame my phone!",
+      "sentiment_score": -52.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:15]",
+      "end_time": "[12:24]",
+      "start_time_sec": 735,
+      "text": "Our remote loop resistance readings indicate normal line voltage, so company policy prevents booking engineer callouts without chargeable diagnostic fees."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:30]",
+      "end_time": "[12:35]",
+      "start_time_sec": 750,
+      "text": "You are completely neglecting a safeguarding situation with emergency foster care!",
+      "sentiment_score": -44.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:41]",
+      "end_time": "[12:51]",
+      "start_time_sec": 761,
+      "text": "To protect your foster care availability, I can activate an immediate emergency network call diversion to your mobile telephone free of charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:57]",
+      "end_time": "[13:02]",
+      "start_time_sec": 777,
+      "text": "Will that divert all incoming landline calls directly to my mobile handset?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:08]",
+      "end_time": "[13:18]",
+      "start_time_sec": 788,
+      "text": "Yes, any caller dialing your landline number will bypass the exchange loop and ring directly on your mobile with zero caller delay."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:24]",
+      "end_time": "[13:29]",
+      "start_time_sec": 804,
+      "text": "That will at least ensure social services can reach me today.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:35]",
+      "end_time": "[13:45]",
+      "start_time_sec": 815,
+      "text": "Just to confirm what you mentioned earlier, your registered landline telephone number is zero one seven two two, nine zero zero four one two?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:51]",
+      "end_time": "[13:56]",
+      "start_time_sec": 831,
+      "text": "Yes, zero one seven two two, nine zero zero four one two.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:02]",
+      "end_time": "[14:12]",
+      "start_time_sec": 842,
+      "text": "The emergency network divert to zero seven seven zero zero, nine zero zero eight one four is provisioned and fully active on our gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:17]",
+      "end_time": "[14:25]",
+      "start_time_sec": 857,
+      "text": "Let me test calling the landline again... yes! My mobile phone is ringing immediately with the test call!",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:30]",
+      "end_time": "[14:35]",
+      "start_time_sec": 870,
+      "text": "That confirms all incoming voice traffic is securely reaching your mobile handset."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:40]",
+      "end_time": "[14:46]",
+      "start_time_sec": 880,
+      "text": "That gives me immense relief so the children's services team can reach me.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:51]",
+      "end_time": "[14:58]",
+      "start_time_sec": 891,
+      "text": "I will also apply a twenty-pound goodwill credit to your telephone account for the inconvenience caused."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:03]",
+      "end_time": "[15:07]",
+      "start_time_sec": 903,
+      "text": "Thank you, the divert and credit resolve the immediate emergency.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:12]",
+      "end_time": "[15:18]",
+      "start_time_sec": 912,
+      "text": "Our broadband line to your premises remains stable with full fiber sync speed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:23]",
+      "end_time": "[15:30]",
+      "start_time_sec": 923,
+      "text": "Our broadband internet has been working fine throughout, it was strictly the landline incoming calls.",
+      "sentiment_score": 24.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:35]",
+      "end_time": "[15:40]",
+      "start_time_sec": 935,
+      "text": "The emergency divert ticket reference logged on your account is DIV-88102-E."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:45]",
+      "end_time": "[15:48]",
+      "start_time_sec": 945,
+      "text": "Noted down... DIV-88102-E.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:53]",
+      "end_time": "[16:07]",
+      "start_time_sec": 953,
+      "text": "I have verified that the emergency divert is active and tested, the twenty-pound credit is applied, and your foster care communication line is protected. Does that resolve the immediate issue for you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:12]",
+      "end_time": "[16:19]",
+      "start_time_sec": 972,
+      "text": "Yes Ian, the mobile diversion works and I can receive emergency foster placements now. Thank you.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:24]",
+      "end_time": "[16:30]",
+      "start_time_sec": 984,
+      "text": "Thank you for choosing S-Net today. Take care and have a good day. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:35]",
+      "end_time": "[16:40]",
+      "start_time_sec": 995,
+      "text": "Thank you Ian, goodbye.",
+      "sentiment_score": 16.4
+    }
+  ]
+}

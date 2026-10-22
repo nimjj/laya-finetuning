@@ -1,0 +1,516 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Kyle",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net mobile emergency customer support. My name is Warren. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:33]",
+      "start_time_sec": 10,
+      "text": "Hello Warren. I need urgent help right away. My iPhone 15 Pro was stolen out of my jacket pocket about forty-five minutes ago while I was travelling on the commuter train from London Waterloo to Guildford! I need my SIM card barred and the handset completely blacklisted so the thief cannot access my data or make international calls!",
+      "sentiment_score": -32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:36]",
+      "end_time": "[00:51]",
+      "start_time_sec": 36,
+      "text": "I can certainly execute an immediate emergency SIM bar and IMEI blacklist for you, Kyle. Before we access your cellular subscriber profile, may I please verify your billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:54]",
+      "end_time": "[01:03]",
+      "start_time_sec": 54,
+      "text": "Yes, it is 19 Millmead Terrace, Guildford, GU2 4AT. And my security question answer is my mother's maiden name, Fletcher.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:06]",
+      "end_time": "[01:15]",
+      "start_time_sec": 66,
+      "text": "Thank you Kyle, that verifies the mobile subscriber account. What is the stolen mobile telephone number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:18]",
+      "end_time": "[01:45]",
+      "start_time_sec": 78,
+      "text": "The phone number is 07700 900741. Warren, I was actually cornered and jostled by a gang of three youths near the carriage doors, and they snatched it right as the train pulled into Woking station! My banking apps, work email, and personal family photos are all on that phone! I am physically shaking with panic and anxiety right now because I don't know if they can break into my bank accounts!",
+      "sentiment_score": -68.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:48]",
+      "end_time": "[02:09]",
+      "start_time_sec": 108,
+      "text": "I completely understand how terrifying and traumatic that mugging experience was for you on the train, Kyle. Being targeted by a group of thieves and worrying about your financial accounts and personal data is deeply distressing, so let us lock down that SIM card immediately to ensure nobody can access your services."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:12]",
+      "end_time": "[02:18]",
+      "start_time_sec": 132,
+      "text": "Thank you Warren, I really appreciate your understanding. Please bar the SIM right now.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:21]",
+      "end_time": "[02:32]",
+      "start_time_sec": 141,
+      "text": "I am opening the Home Location Register gateway console to issue an immediate network suspension command."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:35]",
+      "end_time": "[02:40]",
+      "start_time_sec": 155,
+      "text": "Has the SIM card been blocked from making calls and data connections?",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:22]",
+      "end_time": "[03:35]",
+      "start_time_sec": 202,
+      "text": "The HLR switch has successfully applied a full outgoing and incoming administrative call and SMS bar on mobile number 07700 900741."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:38]",
+      "end_time": "[03:43]",
+      "start_time_sec": 218,
+      "text": "What happens if the thief tries to put the SIM card into another phone?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:46]",
+      "end_time": "[04:01]",
+      "start_time_sec": 226,
+      "text": "The network gateway rejects the IMSI chip registration on all UK and international mobile networks; zero calls, texts, or mobile data can transmit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:04]",
+      "end_time": "[04:11]",
+      "start_time_sec": 244,
+      "text": "That stops any two-factor authentication SMS codes from reaching them, which protects my bank accounts.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:14]",
+      "end_time": "[04:20]",
+      "start_time_sec": 254,
+      "text": "Two-factor SMS interception is completely blocked."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:23]",
+      "end_time": "[04:32]",
+      "start_time_sec": 263,
+      "text": "Now what about the actual physical iPhone 15 Pro? Can you blacklist the IMEI number so the hardware cannot be used by anyone?",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:35]",
+      "end_time": "[04:48]",
+      "start_time_sec": 275,
+      "text": "I can query your equipment records to pull the manufacturer IMEI identity number from your network registration history."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:51]",
+      "end_time": "[04:56]",
+      "start_time_sec": 291,
+      "text": "Does your system have the exact fifteen-digit IMEI logged?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:59]",
+      "end_time": "[05:11]",
+      "start_time_sec": 299,
+      "text": "The last device attached to the cell tower radio network carries IMEI 3548 9109 2841 029."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:14]",
+      "end_time": "[05:20]",
+      "start_time_sec": 314,
+      "text": "Yes, that matches the IMEI on the original Apple invoice in my email.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:23]",
+      "end_time": "[05:38]",
+      "start_time_sec": 323,
+      "text": "If you left an expensive iPhone sitting in an open pocket while distracted on a crowded train, you only have your own carelessness to blame for opportunistic theft."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:41]",
+      "end_time": "[05:55]",
+      "start_time_sec": 341,
+      "text": "I was physically assaulted and mugged by three aggressive youths at the carriage doors! How dare you call that carelessness! That is completely unprofessional and deeply offensive!",
+      "sentiment_score": -58.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:58]",
+      "end_time": "[06:07]",
+      "start_time_sec": 358,
+      "text": "I am initiating the Central Equipment Identity Register blacklist submission."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:10]",
+      "end_time": "[06:15]",
+      "start_time_sec": 370,
+      "text": "You still haven't apologized for that disgraceful accusation!",
+      "sentiment_score": -38.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:59]",
+      "end_time": "[07:12]",
+      "start_time_sec": 419,
+      "text": "The IMEI blacklist entry has populated across the national GSMA database, barring the device across all UK and European mobile carriers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:15]",
+      "end_time": "[07:22]",
+      "start_time_sec": 435,
+      "text": "What happens when the thief tries to turn the phone on or insert another network's SIM card?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:25]",
+      "end_time": "[07:39]",
+      "start_time_sec": 445,
+      "text": "The baseband modem registers 'No Service' across EE, Vodafone, Three, and O2; the device cannot connect to any cellular mast."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:42]",
+      "end_time": "[07:47]",
+      "start_time_sec": 462,
+      "text": "So the handset is basically an expensive brick to them now.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:50]",
+      "end_time": "[08:03]",
+      "start_time_sec": 470,
+      "text": "Obviously that confirms the stolen physical handset is completely disabled from commercial resale or cellular communication, Kyle."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:06]",
+      "end_time": "[08:13]",
+      "start_time_sec": 486,
+      "text": "That gives me a great sense of satisfaction that they cannot profit from stealing my phone.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:16]",
+      "end_time": "[08:25]",
+      "start_time_sec": 496,
+      "text": "Do you need a Crime Reference Number logged against this account for an insurance claim?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:28]",
+      "end_time": "[08:35]",
+      "start_time_sec": 508,
+      "text": "Yes, British Transport Police gave me Crime Reference Number BTP-4491-08.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:38]",
+      "end_time": "[08:48]",
+      "start_time_sec": 518,
+      "text": "I have appended police incident reference BTP-4491-08 to your permanent account audit file."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:51]",
+      "end_time": "[08:58]",
+      "start_time_sec": 531,
+      "text": "Can you email me an official 'Proof of Blacklisting' document to forward to my insurance company?",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:01]",
+      "end_time": "[09:12]",
+      "start_time_sec": 541,
+      "text": "I can generate an official S-Net Certificate of Barring and IMEI Blacklisting PDF letter."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:15]",
+      "end_time": "[09:20]",
+      "start_time_sec": 555,
+      "text": "Please email that certificate to my registered email address right away.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:23]",
+      "end_time": "[09:30]",
+      "start_time_sec": 563,
+      "text": "The barring certificate has been dispatched to your email address."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:33]",
+      "end_time": "[09:39]",
+      "start_time_sec": 573,
+      "text": "I have received the PDF. That satisfies my insurer's claims criteria completely.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:42]",
+      "end_time": "[09:54]",
+      "start_time_sec": 582,
+      "text": "Could we also dispatch a replacement electronic eSIM profile by email rather than waiting for physical post?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:57]",
+      "end_time": "[10:02]",
+      "start_time_sec": 597,
+      "text": "Can I install an eSIM on my spare phone right now?",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:05]",
+      "end_time": "[10:21]",
+      "start_time_sec": 605,
+      "text": "For fraud prevention following a reported crime, high-security policy mandates that the primary line must be restored via physical SIM with tracked courier signature."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:24]",
+      "end_time": "[10:30]",
+      "start_time_sec": 624,
+      "text": "That makes total sense to prevent identity theft or fraudulent SIM swaps.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:33]",
+      "end_time": "[10:44]",
+      "start_time_sec": 633,
+      "text": "A physical 5G Multi-SIM card will be dispatched under DPD tracked priority delivery."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:47]",
+      "end_time": "[10:54]",
+      "start_time_sec": 647,
+      "text": "Will the replacement SIM keep my existing mobile phone number and all my contract allowances?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:57]",
+      "end_time": "[11:10]",
+      "start_time_sec": 657,
+      "text": "Yes, your existing mobile number 07700 900741 and Unlimited 5G Max tariff will be provisioned directly onto the new SIM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:13]",
+      "end_time": "[11:17]",
+      "start_time_sec": 673,
+      "text": "When will DPD deliver the replacement SIM?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:20]",
+      "end_time": "[11:31]",
+      "start_time_sec": 680,
+      "text": "The SIM card will be delivered tomorrow morning by DPD tracked courier before twelve noon."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:34]",
+      "end_time": "[11:41]",
+      "start_time_sec": 694,
+      "text": "I have an old iPhone 11 at home in a drawer that I can pop the replacement SIM into tomorrow.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:44]",
+      "end_time": "[11:58]",
+      "start_time_sec": 704,
+      "text": "Once the SIM arrives, you simply insert it into the spare handset and text 'ACTIVATE' to 2020 or call customer service."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:01]",
+      "end_time": "[12:05]",
+      "start_time_sec": 721,
+      "text": "How long does activation take once I text ACTIVATE?",
+      "sentiment_score": 9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:08]",
+      "end_time": "[12:16]",
+      "start_time_sec": 728,
+      "text": "Network activation completes within fifteen minutes of sending the SMS code."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:19]",
+      "end_time": "[12:25]",
+      "start_time_sec": 739,
+      "text": "That will get me back in communication with my workplace and family by tomorrow lunchtime.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:28]",
+      "end_time": "[12:42]",
+      "start_time_sec": 748,
+      "text": "Let us check that international roaming is also permanently disabled on your cellular profile to prevent rogue charges."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:45]",
+      "end_time": "[12:51]",
+      "start_time_sec": 765,
+      "text": "Yes, please confirm international roaming and premium rate numbers are barred.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:54]",
+      "end_time": "[13:06]",
+      "start_time_sec": 774,
+      "text": "I have placed a strict spend cap of zero pounds on international outbound calls and roaming traffic."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:09]",
+      "end_time": "[13:14]",
+      "start_time_sec": 789,
+      "text": "That protects me from any unexpected telephone charges.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:17]",
+      "end_time": "[13:29]",
+      "start_time_sec": 797,
+      "text": "Let us also check your iCloud activation lock status using Apple's web portal from your home computer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:32]",
+      "end_time": "[13:40]",
+      "start_time_sec": 812,
+      "text": "I logged into icloud.com on my laptop right before calling you and toggled 'Lost Mode' with remote erase pending.",
+      "sentiment_score": 32.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:43]",
+      "end_time": "[13:56]",
+      "start_time_sec": 823,
+      "text": "Remote wipe ensures all local encryption keys in the secure enclave will be erased if the device ever touches WiFi."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:59]",
+      "end_time": "[14:05]",
+      "start_time_sec": 839,
+      "text": "That gives me total peace of mind that my bank passwords and photos are safe.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:08]",
+      "end_time": "[14:21]",
+      "start_time_sec": 848,
+      "text": "Just to reconfirm, the replacement SIM card is dispatched to 19 Millmead Terrace, Guildford, ticket SUP-91044."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:24]",
+      "end_time": "[14:29]",
+      "start_time_sec": 864,
+      "text": "19 Millmead Terrace, Guildford. That is completely correct.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:32]",
+      "end_time": "[14:46]",
+      "start_time_sec": 872,
+      "text": "I will remain the dedicated owner for this security case and ensure the replacement SIM order ships cleanly from our warehouse."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:49]",
+      "end_time": "[14:55]",
+      "start_time_sec": 889,
+      "text": "Thank you for getting the SIM barred and the IMEI blacklisted so quickly, Warren.",
+      "sentiment_score": 38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:58]",
+      "end_time": "[15:10]",
+      "start_time_sec": 898,
+      "text": "Is there anything else regarding your mobile service or emergency security bar that I can assist you with today, Kyle?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:13]",
+      "end_time": "[15:18]",
+      "start_time_sec": 913,
+      "text": "No, that has sorted all the emergency security steps. Thank you.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:20]",
+      "end_time": "[15:27]",
+      "start_time_sec": 920,
+      "text": "All security actions complete. Good afternoon and take care. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:29]",
+      "end_time": "[15:31]",
+      "start_time_sec": 929,
+      "text": "Goodbye Warren.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

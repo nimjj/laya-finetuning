@@ -1,0 +1,142 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Esme",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, this is Nadia. How can I help?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:06]",
+      "end_time": "[00:18]",
+      "start_time_sec": 6,
+      "text": "Hi. My phone bill shows a charge of thirty pounds for calls to a number I don't recognise, and it's not the first time. I'm worried someone's using my phone.",
+      "sentiment_score": -19.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:20]",
+      "end_time": "[00:25]",
+      "start_time_sec": 20,
+      "text": "That's worrying, I'm sorry. Let's look into it. Can I take your PIN?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:27]",
+      "end_time": "[00:29]",
+      "start_time_sec": 27,
+      "text": "4 4 4 1.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:31]",
+      "end_time": "[00:39]",
+      "start_time_sec": 31,
+      "text": "Thanks. So there's a thirty-pound charge for calls to a number you don't recognise, and it's happened before. Is that right?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:42]",
+      "end_time": "[00:44]",
+      "start_time_sec": 42,
+      "text": "Yes.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:45]",
+      "end_time": "[00:47]",
+      "start_time_sec": 45,
+      "text": "What's the number on the bill?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:49]",
+      "end_time": "[00:53]",
+      "start_time_sec": 49,
+      "text": "0 9 0 8 1 2 3 4 5 6.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:54]",
+      "end_time": "[00:57]",
+      "start_time_sec": 54,
+      "text": "Does anyone else use your phone, children perhaps?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:02]",
+      "start_time_sec": 60,
+      "text": "My son sometimes. He's twelve.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:03]",
+      "end_time": "[01:09]",
+      "start_time_sec": 63,
+      "text": "That's a premium-rate competition line. It's very likely your son entered a competition on a game.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:11]",
+      "end_time": "[01:16]",
+      "start_time_sec": 71,
+      "text": "But I didn't think that was possible. Can you block those numbers?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:18]",
+      "end_time": "[01:22]",
+      "start_time_sec": 78,
+      "text": "Yes, I can add a premium-rate bar. I'll do that now.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:23]",
+      "end_time": "[01:25]",
+      "start_time_sec": 83,
+      "text": "And what about the thirty pounds?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:26]",
+      "end_time": "[01:34]",
+      "start_time_sec": 86,
+      "text": "We've been over this, I'm not going to keep repeating myself. The calls were made from your phone, so the charge stands.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:36]",
+      "end_time": "[01:38]",
+      "start_time_sec": 96,
+      "text": "Okay. Well, I'll have to see.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:41]",
+      "end_time": "[01:44]",
+      "start_time_sec": 101,
+      "text": "The bar is on. Thank you for choosing S-Net.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Tariq",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, this is Will. How can I help?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:06]",
+      "end_time": "[00:18]",
+      "start_time_sec": 6,
+      "text": "I was promised a refund of forty pounds three weeks ago by one of your colleagues, and it still hasn't come. I've had to chase it twice already and I'm really annoyed.",
+      "sentiment_score": -29.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:21]",
+      "end_time": "[00:23]",
+      "start_time_sec": 21,
+      "text": "Can I take your PIN?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:24]",
+      "end_time": "[00:26]",
+      "start_time_sec": 24,
+      "text": "7 3 7 3.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:36]",
+      "start_time_sec": 29,
+      "text": "Thanks, Tariq. So you were promised a forty-pound refund three weeks ago and it hasn't arrived. Is that right?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:38]",
+      "end_time": "[00:40]",
+      "start_time_sec": 38,
+      "text": "Yes.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:41]",
+      "end_time": "[00:46]",
+      "start_time_sec": 41,
+      "text": "Do you know the date of the call when it was promised?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:49]",
+      "end_time": "[00:51]",
+      "start_time_sec": 49,
+      "text": "The second, I think.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:41]",
+      "end_time": "[01:43]",
+      "start_time_sec": 101,
+      "text": "Hello?",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:46]",
+      "end_time": "[01:50]",
+      "start_time_sec": 106,
+      "text": "Yes. Do you have a reference number from that call?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:51]",
+      "end_time": "[01:54]",
+      "start_time_sec": 111,
+      "text": "No, she just said it would be done.",
+      "sentiment_score": -14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:39]",
+      "end_time": "[02:43]",
+      "start_time_sec": 159,
+      "text": "Are you still there? Because I really need this sor-",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:44]",
+      "end_time": "[02:53]",
+      "start_time_sec": 164,
+      "text": "I can't help you if you keep interrupting me. Whoever told you that was wrong, I can't do anything about what other agents promise.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:56]",
+      "end_time": "[02:58]",
+      "start_time_sec": 176,
+      "text": "So I'm not getting it?",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:59]",
+      "end_time": "[03:02]",
+      "start_time_sec": 179,
+      "text": "There's no note of a refund on the account.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:03]",
+      "end_time": "[03:05]",
+      "start_time_sec": 183,
+      "text": "Unbelievable.",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:10]",
+      "start_time_sec": 188,
+      "text": "Thank you for choosing S-Net, Tariq.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

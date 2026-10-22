@@ -8,7 +8,7 @@ One repository now holds everything: **`https://github.com/nimjj/QA-system`, bra
 |---|---|---|
 | App code, docs, tests, all test calls, answer keys and results from every engine | the repo (`inputs/`, `Docs/`, `Scripts/`, `src/`) | `git clone` |
 | Fine-tuning data, tools, Colab notebook, run notes, hash records | `laya-finetuning/` in the repo | `git clone` |
-| **Fine-tuned weights** (808 MB folder) | **Google Drive, folder `final-softce-3`** (it has `model.safetensors`, `rl_agent_config.json`, `questions.json`, `tokenizer/`, `encoder/`); also on the old PC at `laya-training\checkpoints\final-softce-3` | Download it into `laya-finetuning/checkpoints/final-softce-3`, then verify (section 3) |
+| **Fine-tuned weights** (808 MB folder) | **Google Drive, folder `final-softce-3`** (it has `model.safetensors`, `rl_agent_config.json`, `questions.json`, `tokenizer/`, `encoder/`); also on the old PC at `laya-training\checkpoints\final-softce-3` | Download it into `models/final-softce-3`, then verify (section 3) |
 | Laya library | GitHub `NandhaKishorM/laya`, pinned commit `3cf26cb` (v0.4.0) | Installed automatically by `pip install -r requirements.txt` |
 | Stock Laya weights (1.5 GB) | Hugging Face `convaiinnovations/laya`, revision `7b928d82...` | Only for stock-Laya runs and the training-data tools. Optional (section 2, step 5) |
 | `.env` | git-ignored | Recreate from `.env.example` |
@@ -64,7 +64,7 @@ The chat is not in git. It lives in `C:\Users\adept\.claude\projects\D--Projects
 - **Or resume this exact session:** copy the two `.jsonl` files and `memory\` into that same new folder and use `/resume`. If the folder name does not match the new path the session will not be listed. It is a very long session, so a fresh start is cleaner.
 
 **First message:**
-> This repo fine-tunes Laya to replace Ollama in the S-Net QA call-grading service. Read `laya-finetuning/README.md`, `laya-finetuning/runs/ag50/RESULT.md`, `Docs/FLOW_V2.md`, `Docs/AG50_REPORT.md`, `Docs/LAYA_TEST_LOG.md` and `laya-finetuning/docs/NEW_PC_SETUP.md`. Then check my setup with section 3 of the setup guide and continue with the next steps in `Docs/FLOW_V2.md`. Rules: describe all results as measured against AI-written keys (not human-labelled); never modify the original checkpoint; never touch `.env` or the `bitbucket` remote; commit or push only when I ask; production sentiment is customer-side only; keep replies short.
+> This repo fine-tunes Laya to replace Ollama in the S-Net QA call-grading service. Read `laya-finetuning/README.md`, `laya-finetuning/runs/ag50/RESULT.md`, `Docs/FLOW_V2.md`, `laya-finetuning/docs/AG50_REPORT.md`, `laya-finetuning/docs/LAYA_TEST_LOG.md` and `laya-finetuning/docs/NEW_PC_SETUP.md`. Then check my setup with section 3 of the setup guide and continue with the next steps in `Docs/FLOW_V2.md`. Rules: describe all results as measured against AI-written keys (not human-labelled); never modify the original checkpoint; never touch `.env` or the `bitbucket` remote; commit or push only when I ask; production sentiment is customer-side only; keep replies short.
 
 ## 5. What depends on paths
 Everything finds the repo root by itself. Only these settings are per machine:

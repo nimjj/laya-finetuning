@@ -1,0 +1,160 @@
+{
+  "call_id": "ag_08",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 51.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "coaching": "At [00:48] and [01:28], the agent only asked for the mobile number, date of birth, and bank account last four digits, failing to verify the customer's PIN, address, or security question within the first 240 seconds."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Despite the customer introducing himself as Giancarlo at [00:07], the agent never used his name at any point during the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "At [00:37]–[00:48], after the customer explained his split PAC port issue, the agent expressed sympathy and jumped straight to pulling up the MNP file without paraphrasing or restating the issue."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Throughout the troubleshooting phase ([00:48]–[04:40]), the agent asked zero diagnostic probing questions about the fault, relying solely on identity checks and her system console."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Mobile port-in (PAC code transfer) stuck with split service—incoming calls go to old network, outgoing work on S-Net",
+    "tier": "okay",
+    "duration_sec": 680,
+    "notes": "Mixed 'okay' tier call with natural STT roughness. Sonia is warm, empathetic ([00:37], [02:02]), takes ownership ([02:41]), and resolves the stuck MNP split port live on the call ([07:48], [08:54], [10:49]). However, she fails Verification (V) by only checking DOB and bank digits ([00:48], [01:28]) instead of PIN/address/security question, never uses Giancarlo's name (P FAIL), skips paraphrasing (PA FAIL at [00:48]), and asks zero diagnostic probing questions (PR FAIL).",
+    "hard_cases": [
+      "Verified customer",
+      "Probing",
+      "Empathy & Acknowledgment Statement",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [00:48] ('can you give me the mobile phone number you are transferring over and your date of birth please') and [01:28] ('last four digits of the bank account'), Sonia never verifies PIN, address, or security question."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer states 'my name is Giancarlo' at [00:07], but Sonia never addresses him as Giancarlo in any of her turns ([00:00]–[11:13])."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [00:37], Sonia expresses genuine empathy ('Oh gosh I am so sorry you've been stuck in limbo like that since yesterday I completely understand how stressful it is...') and again at [02:02] regarding juggling two phones in his catering van."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "After Giancarlo explains the split port at [00:07]–[00:26], Sonia says at [00:37]–[00:48]: 'Oh gosh I am so sorry... Okay um let me pull up the MNP port file right now can you give me the mobile phone number...'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Sonia only asks identity questions ([00:48], [01:28]), whether he is speaking on the Pixel 8 ([06:44]), hold permission ([04:40]), and test-call confirmation ([07:43], [10:43]), without asking any diagnostic probing questions."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [05:57]–[08:54], Sonia pushes the MNP broadcast update, places a live test call to the Pixel 8 eSIM ([07:43]–[07:48]), verifies banking SMS delivery ([08:54]) and a live incoming chef call ([10:00]), and confirms full resolution at [10:43]–[10:49]."
+      }
+    ]
+  }
+}

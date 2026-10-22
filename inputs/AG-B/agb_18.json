@@ -1,0 +1,456 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Rachel",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer billing. My name is Daniel. How can I assist you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:24]",
+      "start_time_sec": 10,
+      "text": "Hello Daniel. I am calling because S-Net attempted to take my direct debit payment on the twenty-third of the month, but my salary isn't paid into my account until the twenty-eighth!",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:27]",
+      "end_time": "[00:40]",
+      "start_time_sec": 27,
+      "text": "I can certainly look into your billing schedule for you, Rachel. Before we inspect the billing ledger, may I please verify your billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:43]",
+      "end_time": "[00:52]",
+      "start_time_sec": 43,
+      "text": "Yes, it is 19 Cambridge Terrace, Oxford, OX1 1RR. And the security question answer is my first school, St Ebbe's.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:55]",
+      "end_time": "[01:03]",
+      "start_time_sec": 55,
+      "text": "Thank you Rachel, that verifies your customer records. What is the account number listed on your invoice?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:06]",
+      "end_time": "[01:24]",
+      "start_time_sec": 66,
+      "text": "The account number is SN-482-109-44. I am a single mother working NHS healthcare shifts, and having my bank charge a thirty pound unpaid transaction fee when every single penny is budgeted for groceries has left me completely distraught in tears this morning!",
+      "sentiment_score": -52.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:27]",
+      "end_time": "[01:40]",
+      "start_time_sec": 87,
+      "text": "Looking at your ledger, your broadband service was activated on the twenty-third of August, so the billing engine defaulted to the twenty-third for your monthly direct debit collection."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[01:53]",
+      "start_time_sec": 103,
+      "text": "When I set this up with the sales representative, I specifically told them I get paid on the twenty-eighth and needed the bill taken on the twenty-ninth!",
+      "sentiment_score": -24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:56]",
+      "end_time": "[02:13]",
+      "start_time_sec": 116,
+      "text": "So to make sure I understand the situation clearly: your monthly direct debit was scheduled for the twenty-third rather than your preferred date following your payday on the twenty-eighth, causing an unpaid transaction and bank penalty. Is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:16]",
+      "end_time": "[02:23]",
+      "start_time_sec": 136,
+      "text": "Yes, exactly. And S-Net has also added a ten-pound late payment fee on top!",
+      "sentiment_score": -19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:26]",
+      "end_time": "[02:36]",
+      "start_time_sec": 146,
+      "text": "I can immediately remove that ten-pound late payment fee from your account balance as a one-off goodwill gesture, Rachel."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:39]",
+      "end_time": "[02:47]",
+      "start_time_sec": 159,
+      "text": "Thank you for waiving that, but what about shifting the direct debit date permanently so this never happens again?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:50]",
+      "end_time": "[03:06]",
+      "start_time_sec": 170,
+      "text": "Obviously direct debit mandates cannot be edited instantly in the banking system, Rachel, because the BACS clearing house requires a statutory ten working day notice period to re-register mandate schedules."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:09]",
+      "end_time": "[03:14]",
+      "start_time_sec": 189,
+      "text": "So when will the new date actually take effect?",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:17]",
+      "end_time": "[03:30]",
+      "start_time_sec": 197,
+      "text": "I am submitting the BACS mandate modification form right now to shift your payment date to the first of every month, which falls safely after your payday."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:33]",
+      "end_time": "[03:39]",
+      "start_time_sec": 213,
+      "text": "Does that mean next month's payment will be taken on the first of December?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:42]",
+      "end_time": "[03:59]",
+      "start_time_sec": 222,
+      "text": "Because of the ten working day BACS lead time, the mandate modification is currently pending bank confirmation. If BACS approval completes in time, it will take on the first; otherwise, next month may require a manual card payment."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:02]",
+      "end_time": "[04:08]",
+      "start_time_sec": 242,
+      "text": "So it's not guaranteed to take automatically on the first of next month yet?",
+      "sentiment_score": -8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:11]",
+      "end_time": "[04:22]",
+      "start_time_sec": 251,
+      "text": "No, it is pending formal bank confirmation from BACS, which takes up to ten working days to process through the banking clearing cycle."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:25]",
+      "end_time": "[04:31]",
+      "start_time_sec": 265,
+      "text": "Okay, I understand. How will I pay this month's forty-pound broadband bill then?",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:34]",
+      "end_time": "[04:46]",
+      "start_time_sec": 274,
+      "text": "I will place a temporary hold on your account collections until the twenty-eighth so your broadband service remains fully active without any restriction."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:49]",
+      "end_time": "[04:54]",
+      "start_time_sec": 289,
+      "text": "And on the twenty-eighth I can pay by debit card online?",
+      "sentiment_score": 8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:57]",
+      "end_time": "[05:09]",
+      "start_time_sec": 297,
+      "text": "Yes, exactly. You can log into your S-Net customer portal on the twenty-eighth and pay the standard forty pounds by debit card with zero penalty."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:12]",
+      "end_time": "[05:18]",
+      "start_time_sec": 312,
+      "text": "That gives me the breathing space I need until my salary arrives.",
+      "sentiment_score": 19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:21]",
+      "end_time": "[05:30]",
+      "start_time_sec": 321,
+      "text": "Just to check on your current broadband service, Rachel, is your internet connection working normally at home right now?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:33]",
+      "end_time": "[05:40]",
+      "start_time_sec": 333,
+      "text": "Yes, the wifi and internet have been working fine, it was just the billing surprise that stressed me out.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:43]",
+      "end_time": "[05:56]",
+      "start_time_sec": 343,
+      "text": "I will remain the dedicated owner for this billing ticket, Rachel, and I have documented the date change request and collections hold on your file."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:59]",
+      "end_time": "[06:06]",
+      "start_time_sec": 359,
+      "text": "Thank you Daniel. I'll make sure to log in on the twenty-eighth and pay the forty pounds.",
+      "sentiment_score": 21.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:09]",
+      "end_time": "[06:21]",
+      "start_time_sec": 369,
+      "text": "Let us also check if you want paperless billing e-invoices sent to your email address so you get a reminder five days in advance."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:24]",
+      "end_time": "[06:31]",
+      "start_time_sec": 384,
+      "text": "Yes please! An email notification five days before payment would be wonderful.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:34]",
+      "end_time": "[06:42]",
+      "start_time_sec": 394,
+      "text": "I have enabled the 5-day advance payment alert on your email profile, Rachel."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:45]",
+      "end_time": "[06:49]",
+      "start_time_sec": 405,
+      "text": "That will keep me completely organized.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:52]",
+      "end_time": "[07:04]",
+      "start_time_sec": 412,
+      "text": "Are you also aware of our S-Net Social Tariff discount plan for healthcare workers and low-income families, Rachel?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:07]",
+      "end_time": "[07:13]",
+      "start_time_sec": 427,
+      "text": "No, I haven't heard of that! What does the Social Tariff offer?",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:16]",
+      "end_time": "[07:29]",
+      "start_time_sec": 436,
+      "text": "It provides full 50 megabit broadband for just twenty pounds a month with zero price increases and no contract lock-in."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:32]",
+      "end_time": "[07:43]",
+      "start_time_sec": 452,
+      "text": "Cutting my monthly broadband bill in half from forty pounds to twenty pounds would be an incredible financial help for our family budget and grocery shopping!",
+      "sentiment_score": 38.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:46]",
+      "end_time": "[08:02]",
+      "start_time_sec": 466,
+      "text": "You can upload a photograph or digital copy of your NHS hospital employment pay slip or Universal Credit confirmation letter directly through your online customer portal under the Tariff Options tab."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:05]",
+      "end_time": "[08:14]",
+      "start_time_sec": 485,
+      "text": "I will take a clear photograph of my hospital nursing ID and monthly pay slip and upload them through the portal this evening.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:17]",
+      "end_time": "[08:29]",
+      "start_time_sec": 497,
+      "text": "Our social support assessment team verifies submissions within two working days and adjusts your monthly charge immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:32]",
+      "end_time": "[08:38]",
+      "start_time_sec": 512,
+      "text": "That is so good to know, thank you for telling me about that option.",
+      "sentiment_score": 26.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:41]",
+      "end_time": "[08:52]",
+      "start_time_sec": 521,
+      "text": "Under the Direct Debit Guarantee, you also retain statutory protection against any unauthorized banking debits."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:55]",
+      "end_time": "[09:01]",
+      "start_time_sec": 535,
+      "text": "Yes, my bank mentioned that scheme when I opened the current account.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:04]",
+      "end_time": "[09:11]",
+      "start_time_sec": 544,
+      "text": "Is there anything else regarding your account or billing that I can assist with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:14]",
+      "end_time": "[09:26]",
+      "start_time_sec": 554,
+      "text": "Will I receive any debt collection letters in the post before the twenty-eighth? If a red warning letter arrives it will terrify my kids!",
+      "sentiment_score": -32.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:29]",
+      "end_time": "[09:45]",
+      "start_time_sec": 569,
+      "text": "I completely understand that worry, Rachel. Because I have placed a formal collections suspension flag on your account, absolutely no automated reminder letters or debt notices will be issued."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:48]",
+      "end_time": "[09:54]",
+      "start_time_sec": 588,
+      "text": "That is such a relief to hear, thank you so much for confirming that.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:57]",
+      "end_time": "[10:07]",
+      "start_time_sec": 597,
+      "text": "We will ensure your account remains quiet and secure while you await your salary on the twenty-eighth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:10]",
+      "end_time": "[10:16]",
+      "start_time_sec": 610,
+      "text": "Can I also set up a recurring calendar reminder from the S-Net portal?",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:19]",
+      "end_time": "[10:32]",
+      "start_time_sec": 619,
+      "text": "Yes, on the portal Billing Overview page there is an 'Add to Google/Apple Calendar' button that syncs your upcoming invoice due dates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:35]",
+      "end_time": "[10:40]",
+      "start_time_sec": 635,
+      "text": "I will click that button on my phone right after this call.",
+      "sentiment_score": 21.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:43]",
+      "end_time": "[10:51]",
+      "start_time_sec": 643,
+      "text": "That will ensure you receive reminders across all your personal devices."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:54]",
+      "end_time": "[10:58]",
+      "start_time_sec": 654,
+      "text": "Thank you Daniel, you've been very helpful.",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:01]",
+      "end_time": "[11:12]",
+      "start_time_sec": 661,
+      "text": "You can also contact our specialized NHS support desk directly if you ever need additional billing flexibility."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:15]",
+      "end_time": "[11:21]",
+      "start_time_sec": 675,
+      "text": "It's wonderful that S-Net provides dedicated support for healthcare workers.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:24]",
+      "end_time": "[11:30]",
+      "start_time_sec": 684,
+      "text": "We appreciate everything you do for the community, Rachel."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:33]",
+      "end_time": "[11:38]",
+      "start_time_sec": 693,
+      "text": "Thank you so much Daniel, that really means a lot.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:41]",
+      "end_time": "[11:52]",
+      "start_time_sec": 701,
+      "text": "You may receive a brief survey by SMS following this call; we would appreciate any feedback on the service provided today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:54]",
+      "end_time": "[11:58]",
+      "start_time_sec": 714,
+      "text": "I will complete the survey. Thanks again.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:00]",
+      "end_time": "[12:07]",
+      "start_time_sec": 720,
+      "text": "Thank you for choosing S-Net, Rachel. Have a restful evening and take care."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:09]",
+      "end_time": "[12:12]",
+      "start_time_sec": 729,
+      "text": "Thank you, goodbye.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

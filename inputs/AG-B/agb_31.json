@@ -1,0 +1,546 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Ethan",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support. My name is Craig. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:31]",
+      "start_time_sec": 10,
+      "text": "Hello Craig. We had a violent electrical thunderstorm pass over our village in Somerset last night, and there was a loud bang from our hallway socket. Now our S-Net Hub is completely dead with zero lights, and there is an acrid burning electrical smell coming from the black power plug!",
+      "sentiment_score": -38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:34]",
+      "end_time": "[00:48]",
+      "start_time_sec": 34,
+      "text": "I can certainly help you troubleshoot that power supply failure, Ethan. Before we inspect your hardware records, may I please verify your billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:51]",
+      "end_time": "[01:00]",
+      "start_time_sec": 51,
+      "text": "Yes, it is 11 Orchard Way, Glastonbury, BA6 8DL. And my security question answer is my mother's maiden name, Henderson.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:03]",
+      "end_time": "[01:11]",
+      "start_time_sec": 63,
+      "text": "Thank you Ethan, that verifies your account file. What model is the S-Net Hub?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:14]",
+      "end_time": "[01:37]",
+      "start_time_sec": 74,
+      "text": "It is the S-Net Hub 5. Craig, I run an emergency farm veterinary surgery from our home and we have cows calving this week! If our broadband and landline are dead, local dairy farmers cannot reach me for emergency caesareans and livestock could literally die! I am in absolute turmoil!",
+      "sentiment_score": -56.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:40]",
+      "end_time": "[01:58]",
+      "start_time_sec": 100,
+      "text": "I completely understand the critical urgency for your veterinary practice and emergency calving calls, Ethan. Having your communications knocked out by a power surge during calving season is an enormous crisis, so let us diagnose the power adapter immediately and get you back online."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:01]",
+      "end_time": "[02:07]",
+      "start_time_sec": 121,
+      "text": "Thank you so much Craig, I really appreciate you understanding the urgency.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:10]",
+      "end_time": "[02:32]",
+      "start_time_sec": 130,
+      "text": "So if I have understood correctly, a severe lightning thunderstorm caused a mains power surge that damaged your S-Net Hub power supply, leaving the unit completely unpowered with an electrical burning odor, and you urgently require replacement hardware to maintain emergency veterinary communications. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:35]",
+      "end_time": "[02:40]",
+      "start_time_sec": 155,
+      "text": "Yes, that is exactly what happened and what we desperately need.",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:43]",
+      "end_time": "[02:54]",
+      "start_time_sec": 163,
+      "text": "First, for electrical safety, please ensure the power adapter is unplugged from the wall socket immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:57]",
+      "end_time": "[03:05]",
+      "start_time_sec": 177,
+      "text": "Yes, I switched off the wall switch and pulled the plug out as soon as I smelled the burning plastic.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:19]",
+      "start_time_sec": 188,
+      "text": "Inspect the black transformer brick. Is there any visible bulging, cracking, or scorching on the casing?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:22]",
+      "end_time": "[03:33]",
+      "start_time_sec": 202,
+      "text": "Looking at the casing... there is a small brown scorched mark near the cable exit, and when I shake it gently, something tiny rattles inside.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:36]",
+      "end_time": "[03:51]",
+      "start_time_sec": 216,
+      "text": "The internal metal oxide varistor and thermal fuse sacrificial components sacrificed themselves to protect the router from the mains over-voltage spike."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:54]",
+      "end_time": "[03:59]",
+      "start_time_sec": 234,
+      "text": "Does that mean the actual router Hub itself might still be unharmed?",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:02]",
+      "end_time": "[04:19]",
+      "start_time_sec": 242,
+      "text": "The Hub 5's internal power delivery motherboard is protected by input reverse-polarity and clamping diodes, meaning ninety-five percent of surge damage is contained entirely within the external adapter."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:22]",
+      "end_time": "[04:27]",
+      "start_time_sec": 262,
+      "text": "That would be a huge relief if the main hub hasn't fried.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:30]",
+      "end_time": "[04:44]",
+      "start_time_sec": 270,
+      "text": "Do you happen to have a compatible twelve-volt two-amp DC power supply from an external hard drive or monitor that we could test temporarily?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:47]",
+      "end_time": "[04:59]",
+      "start_time_sec": 287,
+      "text": "Let me look through our electronics drawer... I found a plug for a Seagate external hard drive. The label says Output: 12V 2.0A, centre-positive.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:02]",
+      "end_time": "[05:14]",
+      "start_time_sec": 302,
+      "text": "Twelve volts two amps centre-positive is the exact barrel connector polarity and voltage required by the Hub 5."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:17]",
+      "end_time": "[05:25]",
+      "start_time_sec": 317,
+      "text": "Let me plug this Seagate adapter into a different wall socket in the living room and connect it to the Hub.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:28]",
+      "end_time": "[05:35]",
+      "start_time_sec": 328,
+      "text": "Go ahead, let us see if the main Hub power circuitry boots cleanly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:38]",
+      "end_time": "[05:49]",
+      "start_time_sec": 338,
+      "text": "Plugging in... the front power light on the Hub lit up green! Now it is blinking amber as it initializes the broadband handshake!",
+      "sentiment_score": 48.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:52]",
+      "end_time": "[06:01]",
+      "start_time_sec": 352,
+      "text": "That proves conclusively that the primary router motherboard is completely undamaged."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:04]",
+      "end_time": "[06:14]",
+      "start_time_sec": 364,
+      "text": "The light just turned solid blue! My phone connected to WiFi and five WhatsApp messages from farmers just chimed in!",
+      "sentiment_score": 62.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:17]",
+      "end_time": "[06:24]",
+      "start_time_sec": 377,
+      "text": "Your broadband sync has locked at seventy-two megabits per second."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:27]",
+      "end_time": "[06:38]",
+      "start_time_sec": 387,
+      "text": "What an enormous relief! But this hard drive power supply belongs to my clinic X-ray backup drive, so I need an official replacement S-Net adapter right away.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:41]",
+      "end_time": "[06:54]",
+      "start_time_sec": 401,
+      "text": "I can arrange an official S-Net Hub 5 replacement power supply unit to be dispatched on DPD next-day tracked delivery."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:57]",
+      "end_time": "[07:01]",
+      "start_time_sec": 417,
+      "text": "Will there be any charge for the replacement power supply?",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:04]",
+      "end_time": "[07:18]",
+      "start_time_sec": 424,
+      "text": "S-Net doesn't insure domestic wiring against lightning or power surges, that's your own home insurance problem; we only replace the plug because it's cheap."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:21]",
+      "end_time": "[07:31]",
+      "start_time_sec": 441,
+      "text": "That is an unnecessarily hostile attitude, Craig. I pay thirty-five pounds a month for broadband, I don't expect to be spoken to like a burden.",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:34]",
+      "end_time": "[07:42]",
+      "start_time_sec": 454,
+      "text": "I am stating the contractual position regarding atmospheric electrical events."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:45]",
+      "end_time": "[07:51]",
+      "start_time_sec": 465,
+      "text": "Could the hallway wall socket that went bang be damaged inside the wall?",
+      "sentiment_score": -8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:54]",
+      "end_time": "[08:05]",
+      "start_time_sec": 474,
+      "text": "If you don't even know what a fused thirteen-amp plug looks like, you shouldn't be messing with mains sockets in the dark."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:08]",
+      "end_time": "[08:20]",
+      "start_time_sec": 488,
+      "text": "There was absolutely no call for that insulting remark! I asked a sensible safety question as a homeowner! I expect an apology for that rudeness!",
+      "sentiment_score": -48.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:23]",
+      "end_time": "[08:31]",
+      "start_time_sec": 503,
+      "text": "You should consult a qualified electrician regarding domestic mains wiring."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:34]",
+      "end_time": "[08:42]",
+      "start_time_sec": 514,
+      "text": "You still haven't apologized for insulting me! Where is your professional courtesy?",
+      "sentiment_score": -36.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:45]",
+      "end_time": "[08:53]",
+      "start_time_sec": 525,
+      "text": "The replacement power supply order has been generated under ticket SUP-88219."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:56]",
+      "end_time": "[09:00]",
+      "start_time_sec": 536,
+      "text": "When will DPD deliver the replacement plug?",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:03]",
+      "end_time": "[09:09]",
+      "start_time_sec": 543,
+      "text": "Delivery will occur tomorrow between nine and one."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:12]",
+      "end_time": "[09:19]",
+      "start_time_sec": 552,
+      "text": "I also want to know whether S-Net recommends using a surge-protected extension lead in future.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:22]",
+      "end_time": "[09:34]",
+      "start_time_sec": 562,
+      "text": "A British Standard BS 1363 surge-protected extension socket absorbs up to nine hundred joules of transient voltage."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:37]",
+      "end_time": "[09:42]",
+      "start_time_sec": 577,
+      "text": "I will buy a surge-protected board from the hardware shop today.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:45]",
+      "end_time": "[09:59]",
+      "start_time_sec": 585,
+      "text": "Let us verify your master telephone socket type to confirm whether atmospheric voltage could have entered via the copper lead-in cable."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:02]",
+      "end_time": "[10:09]",
+      "start_time_sec": 602,
+      "text": "Our socket has an Openreach logo with a horizontal split line across the middle faceplate.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:12]",
+      "end_time": "[10:25]",
+      "start_time_sec": 612,
+      "text": "That is an NTE5c master socket with integrated RF filtering, which acts as a secondary buffer against external transients."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:28]",
+      "end_time": "[10:38]",
+      "start_time_sec": 628,
+      "text": "Can you check the current copper sync rate on the VDSL line to ensure the exchange equipment wasn't damaged by the lightning?",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:41]",
+      "end_time": "[10:56]",
+      "start_time_sec": 641,
+      "text": "Line telemetry from the Glastonbury exchange street cabinet confirms clean downstream SNR margin of six point two decibels and zero line errors."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:59]",
+      "end_time": "[11:05]",
+      "start_time_sec": 659,
+      "text": "That is reassuring to hear that the street cabinet survived the storm.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:08]",
+      "end_time": "[11:20]",
+      "start_time_sec": 668,
+      "text": "Cabinet DSLAM cards have gas-discharge tube surge arrestors fitted on every copper tie pair."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:23]",
+      "end_time": "[11:31]",
+      "start_time_sec": 683,
+      "text": "Let us check the Hub web management interface to ensure all network settings survived the power outage.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:34]",
+      "end_time": "[11:48]",
+      "start_time_sec": 694,
+      "text": "Open a browser on your veterinary clinic computer, enter 192.168.1.254 in the address bar, and check the Broadband Status tile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:51]",
+      "end_time": "[12:03]",
+      "start_time_sec": 711,
+      "text": "Typing 192.168.1.254... the Hub manager dashboard loaded. WAN uptime shows four minutes, IPv4 address is assigned, and primary DNS is active.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:06]",
+      "end_time": "[12:18]",
+      "start_time_sec": 726,
+      "text": "The flash NVRAM memory partition preserved your network gateway routing and static DHCP reservations."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:21]",
+      "end_time": "[12:27]",
+      "start_time_sec": 741,
+      "text": "What about the wireless network settings for the medical scanners?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:30]",
+      "end_time": "[12:43]",
+      "start_time_sec": 750,
+      "text": "Check the Wireless section: 2.4 gigahertz and 5 gigahertz radios should both display 'Enabled' with WPA2-Personal security."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:46]",
+      "end_time": "[12:55]",
+      "start_time_sec": 766,
+      "text": "Both radios show Enabled, SSID matches our surgery clinic name, and security is WPA2-Personal.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:58]",
+      "end_time": "[13:08]",
+      "start_time_sec": 778,
+      "text": "Obviously that confirms your wireless local area network is broadcasting securely, Ethan."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:11]",
+      "end_time": "[13:19]",
+      "start_time_sec": 791,
+      "text": "Let us also check the landline dial tone to make sure voice calls are working clearly for farm clients.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:22]",
+      "end_time": "[13:31]",
+      "start_time_sec": 802,
+      "text": "Pick up your veterinary practice telephone handset and listen for normal dial tone."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:34]",
+      "end_time": "[13:42]",
+      "start_time_sec": 814,
+      "text": "Listening to the telephone... clear, steady continuous dial tone with zero hum or crackle.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:45]",
+      "end_time": "[13:52]",
+      "start_time_sec": 825,
+      "text": "The copper balanced pair has zero earth leakage faults."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:55]",
+      "end_time": "[14:05]",
+      "start_time_sec": 835,
+      "text": "Let us also verify the four Ethernet LAN ports on the rear of the Hub to ensure our clinic server can communicate.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:08]",
+      "end_time": "[14:20]",
+      "start_time_sec": 848,
+      "text": "Check the green link activity LEDs on Ethernet ports 1 through 4 while the server cable is connected."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:23]",
+      "end_time": "[14:33]",
+      "start_time_sec": 863,
+      "text": "Port 1 has a solid green gigabit LED and blinking amber activity light. The veterinary server is communicating perfectly.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:36]",
+      "end_time": "[14:44]",
+      "start_time_sec": 876,
+      "text": "All four gigabit PHY controller channels are fully functional."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:47]",
+      "end_time": "[14:55]",
+      "start_time_sec": 887,
+      "text": "Can you double check the DPD consignment tracking reference so I know when to be home tomorrow?",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:58]",
+      "end_time": "[15:10]",
+      "start_time_sec": 898,
+      "text": "Tracking reference 1550 4920 182 will be texted to your registered mobile 07700 900214 at seven tomorrow morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:13]",
+      "end_time": "[15:22]",
+      "start_time_sec": 913,
+      "text": "Wait, before we finish, what should I do with the burnt plug? Can I throw it in the domestic bin or does it need special recycling?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:24]",
+      "end_time": "[15:30]",
+      "start_time_sec": 924,
+      "text": "Take it to an electrical recycling centre. Order dispatched. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:32]",
+      "end_time": "[15:38]",
+      "start_time_sec": 932,
+      "text": "Wait, Craig, I still had another question about... hello? He hung up!",
+      "sentiment_score": -28.4
+    }
+  ]
+}

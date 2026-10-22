@@ -1,0 +1,485 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Maya",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Beth. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:26]",
+      "start_time_sec": 11,
+      "text": "Hi Beth. I received an S-Net Wi-Fi mesh pod yesterday to boost signal upstairs, but it refuses to pair with my router, and now my smart heating plugs in the kitchen won't connect either.",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:30]",
+      "end_time": "[00:43]",
+      "start_time_sec": 30,
+      "text": "I understand how frustrating it is when new hardware causes smart home devices to disconnect, Maya. I will help you pair the pod and get your heating plugs back online."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:47]",
+      "end_time": "[00:57]",
+      "start_time_sec": 47,
+      "text": "Thank you Beth. It's getting chilly in the house and I couldn't turn the radiator valves on from my phone this morning.",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:01]",
+      "end_time": "[01:11]",
+      "start_time_sec": 61,
+      "text": "Before we begin troubleshooting the Wi-Fi settings, could you confirm your full home address and your four-digit account security PIN for me, Maya?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:15]",
+      "end_time": "[01:22]",
+      "start_time_sec": 75,
+      "text": "Yes, it is 18 Hawthorne Crescent, Harrogate, HG2 8PZ, and my security PIN is 3082.",
+      "sentiment_score": -3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:26]",
+      "end_time": "[01:34]",
+      "start_time_sec": 86,
+      "text": "Thank you for confirming your security details, Maya. I have pulled up your Hub 5 home network configuration."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:38]",
+      "end_time": "[01:41]",
+      "start_time_sec": 98,
+      "text": "Great, thanks for pulling that up.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:45]",
+      "end_time": "[02:00]",
+      "start_time_sec": 105,
+      "text": "So if I have understood correctly, the new Wi-Fi 6 mesh booster fails to sync with your main Hub, and while attempting setup, your smart heating radiator plugs dropped offline as well. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:04]",
+      "end_time": "[02:15]",
+      "start_time_sec": 124,
+      "text": "Yes, that's exactly what happened. The mesh pod just keeps blinking yellow and the smart plugs in the kitchen say device unreachable in the app.",
+      "sentiment_score": -14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:18]",
+      "end_time": "[02:32]",
+      "start_time_sec": 138,
+      "text": "Thank you for clarifying. Let's tackle the smart plugs first, because they operate strictly on legacy 2.4 gigahertz frequencies, while the mesh pod setup often tries to steer devices to 5 gigahertz."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:35]",
+      "end_time": "[02:43]",
+      "start_time_sec": 155,
+      "text": "Ah, I wondered if it was a frequency issue because the heating plugs only ever connected to 2.4.",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:46]",
+      "end_time": "[02:54]",
+      "start_time_sec": 166,
+      "text": "Where is the mesh booster pod plugged into the mains right now while you are trying to pair it?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:57]",
+      "end_time": "[03:02]",
+      "start_time_sec": 177,
+      "text": "I plugged it into the hallway socket upstairs on the landing.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:05]",
+      "end_time": "[03:22]",
+      "start_time_sec": 185,
+      "text": "For the initial handshake and firmware sync, the booster needs to be in the same room as the Hub, about one to two metres away. Could you bring it downstairs and plug it into an outlet near the router?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:25]",
+      "end_time": "[03:37]",
+      "start_time_sec": 205,
+      "text": "Okay, hold on a second... unplugging it from upstairs... right, I've just plugged it into the wall socket right next to the Hub on the TV unit.",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:40]",
+      "end_time": "[03:49]",
+      "start_time_sec": 220,
+      "text": "What is the small status light on the front of the pod doing now that it is plugged in nearby?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:52]",
+      "end_time": "[03:55]",
+      "start_time_sec": 232,
+      "text": "It's pulsing a slow white light now.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:58]",
+      "end_time": "[04:05]",
+      "start_time_sec": 238,
+      "text": "Good, slow pulsing white means it is booting up and scanning for the primary WPS broadcast."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:08]",
+      "end_time": "[04:14]",
+      "start_time_sec": 248,
+      "text": "Do I press the WPS button on the Hub or on the pod first?",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:17]",
+      "end_time": "[04:30]",
+      "start_time_sec": 257,
+      "text": "Press and hold the WPS button on the side of the Hub router for three seconds until the light blinks blue, then press the WPS button on the pod."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:33]",
+      "end_time": "[04:42]",
+      "start_time_sec": 273,
+      "text": "Holding the Hub button... okay, it's flashing blue. Now pressing the button on the pod... pod is flashing blue too.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:45]",
+      "end_time": "[04:52]",
+      "start_time_sec": 285,
+      "text": "While they synchronize their security keys, let's look at the frequency settings for the smart plugs."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:55]",
+      "end_time": "[05:02]",
+      "start_time_sec": 295,
+      "text": "What brand of smart plugs are you using for the radiators in the kitchen, Maya?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:05]",
+      "end_time": "[05:11]",
+      "start_time_sec": 305,
+      "text": "They are TP-Link Kasa smart plugs, and they connect to Hive radiator valves.",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:14]",
+      "end_time": "[05:25]",
+      "start_time_sec": 314,
+      "text": "Understood. The TP-Link Kasa units lack 5 gigahertz antennas, so when the Hub combines both bands into one SSID name, the plugs fail the authentication handshake."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:28]",
+      "end_time": "[05:32]",
+      "start_time_sec": 328,
+      "text": "Can you separate the bands so they have different names?",
+      "sentiment_score": -1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:35]",
+      "end_time": "[05:43]",
+      "start_time_sec": 335,
+      "text": "Yes, I can enable our Smart Wi-Fi 2.4 gigahertz IoT compatibility profile on your Hub from my management portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:46]",
+      "end_time": "[05:50]",
+      "start_time_sec": 346,
+      "text": "Will that kick off our mobile phones or laptops?",
+      "sentiment_score": -6.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:53]",
+      "end_time": "[06:01]",
+      "start_time_sec": 353,
+      "text": "No, Maya. Your laptops, phones, and streaming devices will continue using the high-speed 5 gigahertz mesh network seamlessly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:04]",
+      "end_time": "[06:12]",
+      "start_time_sec": 364,
+      "text": "That would be ideal. I didn't want to re-type Wi-Fi passwords on eight different screens in the house.",
+      "sentiment_score": 21.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:15]",
+      "end_time": "[06:25]",
+      "start_time_sec": 375,
+      "text": "We also want to ensure the channel width is set to 20 megahertz on the 2.4 band to avoid co-channel interference from neighboring networks."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:28]",
+      "end_time": "[06:34]",
+      "start_time_sec": 388,
+      "text": "I think our neighbors on both sides have strong Wi-Fi routers as well.",
+      "sentiment_score": 3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:37]",
+      "end_time": "[06:46]",
+      "start_time_sec": 397,
+      "text": "Setting a clean 20 megahertz channel will give your smart heating plugs rock-solid stability. I am pushing those settings now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:49]",
+      "end_time": "[06:52]",
+      "start_time_sec": 409,
+      "text": "Thank you, that sounds very sensible.",
+      "sentiment_score": 9.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:55]",
+      "end_time": "[07:07]",
+      "start_time_sec": 415,
+      "text": "Please bear with me while I place you on a brief hold for about two minutes while I push the separate 2.4 gigahertz smart SSID to your Hub."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:22]",
+      "end_time": "[08:28]",
+      "start_time_sec": 502,
+      "text": "Thank you very much for holding, Maya. The Hub configuration update has successfully deployed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:31]",
+      "end_time": "[08:38]",
+      "start_time_sec": 511,
+      "text": "Thanks Beth. And downstairs here, the light on the mesh pod has turned solid white!",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:41]",
+      "end_time": "[08:48]",
+      "start_time_sec": 521,
+      "text": "That's wonderful! Solid white means the pod is fully paired, synchronized, and part of your mesh network."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:51]",
+      "end_time": "[08:57]",
+      "start_time_sec": 531,
+      "text": "Can I safely unplug it now and take it back up to the landing?",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:00]",
+      "end_time": "[09:10]",
+      "start_time_sec": 540,
+      "text": "Yes, Maya. Once the security handshake is complete, you can relocate it upstairs. It will remember the pairing when plugged back in."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:13]",
+      "end_time": "[09:19]",
+      "start_time_sec": 553,
+      "text": "Let me carry it upstairs now... plugging it into the landing wall socket...",
+      "sentiment_score": 8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:22]",
+      "end_time": "[09:32]",
+      "start_time_sec": 562,
+      "text": "Watch the light as it powers back on upstairs. It will pulse white briefly and should lock to solid white within forty seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:35]",
+      "end_time": "[09:42]",
+      "start_time_sec": 575,
+      "text": "It's pulsing... waiting... yes! It just went completely solid white again on the upstairs landing.",
+      "sentiment_score": 26.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:45]",
+      "end_time": "[09:49]",
+      "start_time_sec": 585,
+      "text": "Now let's check the smart heating plugs in the kitchen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:52]",
+      "end_time": "[09:56]",
+      "start_time_sec": 592,
+      "text": "I'm walking into the kitchen with my mobile phone now.",
+      "sentiment_score": 7.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:59]",
+      "end_time": "[10:09]",
+      "start_time_sec": 599,
+      "text": "On your smartphone heating app, open the network settings. You will see a new network called S-Net_Maya_Smart2G using your same Wi-Fi password."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:12]",
+      "end_time": "[10:19]",
+      "start_time_sec": 612,
+      "text": "Let me open the app... yes, I see S-Net_Maya_Smart2G listed right there! Connecting the radiator valves now...",
+      "sentiment_score": 19.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:22]",
+      "end_time": "[10:27]",
+      "start_time_sec": 622,
+      "text": "Take your time while they obtain their DHCP leases from the router."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:30]",
+      "end_time": "[10:43]",
+      "start_time_sec": 630,
+      "text": "The first kitchen plug just clicked and showed online in green! And the hallway valve is online too. I was so worried I'd have to reset each radiator valve manually.",
+      "sentiment_score": 29.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:46]",
+      "end_time": "[10:56]",
+      "start_time_sec": 646,
+      "text": "That's a great outcome. Isolating 2.4 gigahertz smart home hardware onto a dedicated band prevents the mesh pods from kicking them off."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:59]",
+      "end_time": "[11:06]",
+      "start_time_sec": 659,
+      "text": "That makes complete sense. And both kitchen plugs are responding when I toggle the test switch.",
+      "sentiment_score": 27.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:09]",
+      "end_time": "[11:18]",
+      "start_time_sec": 669,
+      "text": "Could you run a quick speed test on your phone while standing in the upstairs bedroom where signal was previously weak?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:21]",
+      "end_time": "[11:30]",
+      "start_time_sec": 681,
+      "text": "Testing now... wow, it's showing two hundred and eighty megabits! It used to struggle to get twenty megabits up here.",
+      "sentiment_score": 32.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:33]",
+      "end_time": "[11:40]",
+      "start_time_sec": 693,
+      "text": "Two hundred and eighty megabits upstairs confirms the mesh backhaul is operating at full Wi-Fi 6 capacity."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:43]",
+      "end_time": "[11:50]",
+      "start_time_sec": 703,
+      "text": "And what about our bedroom smart television? Will it stream 4K through the mesh pod?",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:53]",
+      "end_time": "[12:00]",
+      "start_time_sec": 713,
+      "text": "Yes, the mesh pod provides ample throughput for multiple simultaneous 4K streams with ultra-low latency."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:03]",
+      "end_time": "[12:10]",
+      "start_time_sec": 723,
+      "text": "Everything is working smoothly now. The heating is responding and the upstairs Wi-Fi is blazing fast.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:13]",
+      "end_time": "[12:20]",
+      "start_time_sec": 733,
+      "text": "I'm delighted we could resolve both the booster pairing and the smart heating connectivity for you, Maya."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:23]",
+      "end_time": "[12:28]",
+      "start_time_sec": 743,
+      "text": "You've been incredibly helpful, Beth. Thank you so much for your patience.",
+      "sentiment_score": 31.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:31]",
+      "end_time": "[12:39]",
+      "start_time_sec": 751,
+      "text": "It's been an absolute pleasure assisting you today. Is there anything else I can check on your S-Net account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:42]",
+      "end_time": "[12:45]",
+      "start_time_sec": 762,
+      "text": "No, everything is perfect. Thanks again!",
+      "sentiment_score": 24.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:48]",
+      "end_time": "[12:54]",
+      "start_time_sec": 768,
+      "text": "Thank you for choosing S-Net today, Maya. Stay warm and have a lovely afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:57]",
+      "end_time": "[13:00]",
+      "start_time_sec": 777,
+      "text": "Thanks Beth, goodbye.",
+      "sentiment_score": 6.2
+    }
+  ]
+}

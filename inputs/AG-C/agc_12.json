@@ -1,0 +1,463 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Ava",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Laura. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:16]",
+      "end_time": "[00:35]",
+      "start_time_sec": 16,
+      "text": "Hi Laura. I'm calling because we pay for the S-Net Smart Wi-Fi Guarantee, but we have a complete dead zone in our newly converted loft bedroom. We get zero signal up there, and your guarantee says reliable Wi-Fi in every room or money back.",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:44]",
+      "end_time": "[00:55]",
+      "start_time_sec": 44,
+      "text": "I understand your concern about not getting Wi-Fi coverage in your loft conversion, Ava. Let me look at your broadband profile and discuss your options."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:04]",
+      "end_time": "[01:14]",
+      "start_time_sec": 64,
+      "text": "Thank you Laura, because my husband is trying to work from the loft and he can't connect to video calls at all.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:23]",
+      "end_time": "[01:32]",
+      "start_time_sec": 83,
+      "text": "Before we review your Wi-Fi guarantee terms, Ava, could you please verify your installation address and your four-digit account security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:41]",
+      "end_time": "[01:48]",
+      "start_time_sec": 101,
+      "text": "Yes, it is 78 St Albans Road, Watford, WD17 1SJ, and the security PIN is 4920.",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:57]",
+      "end_time": "[02:05]",
+      "start_time_sec": 117,
+      "text": "Thank you for verifying those details, Ava. I have your Gigafast 500 broadband package open on my system."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:14]",
+      "end_time": "[02:17]",
+      "start_time_sec": 134,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:26]",
+      "end_time": "[02:45]",
+      "start_time_sec": 146,
+      "text": "So just to confirm what you are experiencing: you have subscribed to our Smart Wi-Fi package, but you are experiencing a complete dead spot in your top-floor loft conversion where your husband is unable to work or connect to the internet. Is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:54]",
+      "end_time": "[03:10]",
+      "start_time_sec": 174,
+      "text": "Yes, exactly. Downstairs near the Hub we get five hundred megabits, on the first floor we get about two hundred, but the moment you walk up the stairs into the loft, it drops to zero bars.",
+      "sentiment_score": -11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:19]",
+      "end_time": "[03:29]",
+      "start_time_sec": 199,
+      "text": "When you have a loft conversion, builders typically install foil-backed Celotex or Kingspan insulation boards across the roof rafters and floor timbers."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:38]",
+      "end_time": "[03:42]",
+      "start_time_sec": 218,
+      "text": "Yes, it has modern insulation throughout the attic space.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:51]",
+      "end_time": "[04:01]",
+      "start_time_sec": 231,
+      "text": "Foil-backed insulation acts as a Faraday shield that completely blocks radio frequency signals, so our Wi-Fi guarantee generally doesn't cover structural shielding like that."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:10]",
+      "end_time": "[04:25]",
+      "start_time_sec": 250,
+      "text": "Wait a minute! When I signed up for the Smart Wi-Fi Guarantee, the sales rep specifically told me it guarantees at least thirty megabits in every single habitable room in the house, including loft conversions!",
+      "sentiment_score": -26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:34]",
+      "end_time": "[04:51]",
+      "start_time_sec": 274,
+      "text": "I understand why you feel that way, Ava, but foil insulation is a physical building material that radio waves physically cannot penetrate. You would be much better off going to Currys and buying a third-party Powerline adapter kit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:00]",
+      "end_time": "[05:12]",
+      "start_time_sec": 300,
+      "text": "Why should I spend eighty pounds at Currys when I am paying eight pounds a month to S-Net specifically for your Wi-Fi guarantee and mesh booster pods?",
+      "sentiment_score": -18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:21]",
+      "end_time": "[05:33]",
+      "start_time_sec": 321,
+      "text": "Because even if we sent you an S-Net Wi-Fi Pod, if the wireless signal cannot penetrate the foil floor, the pod will not receive a signal to repeat."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:42]",
+      "end_time": "[05:59]",
+      "start_time_sec": 342,
+      "text": "Your contract terms state that if a Wi-Fi Pod doesn't achieve thirty megabits, you send an engineer out to install an Ethernet backhaul or fit an extra pod, and if that fails, you give a one hundred pound bill credit!",
+      "sentiment_score": -14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:08]",
+      "end_time": "[06:13]",
+      "start_time_sec": 368,
+      "text": "Let me check what equipment is currently logged on your account."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:22]",
+      "end_time": "[06:28]",
+      "start_time_sec": 382,
+      "text": "We only have the main Hub 5 router on the ground floor right now.",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:37]",
+      "end_time": "[06:44]",
+      "start_time_sec": 397,
+      "text": "Have you run the S-Net Connect app Wi-Fi home scan from inside the loft bedroom?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:53]",
+      "end_time": "[07:03]",
+      "start_time_sec": 413,
+      "text": "Yes, I ran the home scan yesterday while standing at the loft desk, and the app flashed red saying Signal Unacceptable: Zero Megabits.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:12]",
+      "end_time": "[07:22]",
+      "start_time_sec": 432,
+      "text": "Looking at your telemetry logs... yes, the app logged a signal level of minus eighty-nine dBm on the 5GHz radio in the loft."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:31]",
+      "end_time": "[07:34]",
+      "start_time_sec": 451,
+      "text": "Minus eighty-nine dBm means no usable connection, right?",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:43]",
+      "end_time": "[07:49]",
+      "start_time_sec": 463,
+      "text": "Yes, anything below minus eighty dBm results in packet drop and connection termination."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:58]",
+      "end_time": "[08:02]",
+      "start_time_sec": 478,
+      "text": "So that formally triggers the Smart Wi-Fi Guarantee process.",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:11]",
+      "end_time": "[08:20]",
+      "start_time_sec": 491,
+      "text": "Under standard procedure, we would dispatch one S-Net Wi-Fi Pod in the post for you to plug into the first-floor landing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:29]",
+      "end_time": "[08:44]",
+      "start_time_sec": 509,
+      "text": "We tried placing our laptop on the first-floor landing and the signal was only two bars. If the landing signal is weak, putting a repeater there won't deliver thirty megabits up to the loft.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:53]",
+      "end_time": "[09:04]",
+      "start_time_sec": 533,
+      "text": "That is why I advised that a Powerline kit running through the electrical wiring would be simpler for you than going through our engineering stages."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:13]",
+      "end_time": "[09:21]",
+      "start_time_sec": 553,
+      "text": "Laura, I want S-Net to honor the guarantee I pay for each month. Please follow your official guarantee procedure.",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:30]",
+      "end_time": "[09:40]",
+      "start_time_sec": 570,
+      "text": "Very well, Ava. To follow the guarantee terms, I can arrange for an S-Net Home Tech Specialist engineer to visit your property."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:49]",
+      "end_time": "[09:54]",
+      "start_time_sec": 589,
+      "text": "Thank you. What will the Home Tech Specialist do during the visit?",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:03]",
+      "end_time": "[10:14]",
+      "start_time_sec": 603,
+      "text": "The technician carries specialized RF spectrum analyzers, high-gain Wi-Fi Pods, and can run an internal data cable if wireless mesh cannot bridge the floor barrier."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:23]",
+      "end_time": "[10:32]",
+      "start_time_sec": 623,
+      "text": "Can they install a hardwired Ethernet cable up to the loft if the wireless mesh is blocked by the foil?",
+      "sentiment_score": 14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:41]",
+      "end_time": "[10:53]",
+      "start_time_sec": 641,
+      "text": "Yes, if the engineer determines that wireless propagation is physically blocked by foil insulation, they have authorization to install a surface-mounted Cat6 Ethernet cable up to the loft."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:02]",
+      "end_time": "[11:06]",
+      "start_time_sec": 662,
+      "text": "That would permanently solve the issue for my husband's desk.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:15]",
+      "end_time": "[11:26]",
+      "start_time_sec": 675,
+      "text": "And if the engineer is unable to achieve a verified thirty megabits in that room after testing, the guarantee stipulates a one hundred pound account credit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:35]",
+      "end_time": "[11:39]",
+      "start_time_sec": 695,
+      "text": "That's exactly what the terms said when we signed up.",
+      "sentiment_score": 16.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:48]",
+      "end_time": "[11:58]",
+      "start_time_sec": 708,
+      "text": "Please bear with me while I place you on a brief hold for about two minutes while I check the technician booking calendar."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:18]",
+      "end_time": "[13:26]",
+      "start_time_sec": 798,
+      "text": "Thank you for your patience while holding, Ava. I have access to the Home Tech Specialist scheduling system."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:35]",
+      "end_time": "[13:38]",
+      "start_time_sec": 815,
+      "text": "Thank you Laura. What appointments are available?",
+      "sentiment_score": 10.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:47]",
+      "end_time": "[13:54]",
+      "start_time_sec": 827,
+      "text": "I have an appointment slot available this Friday between one o'clock and six o'clock in the afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:03]",
+      "end_time": "[14:10]",
+      "start_time_sec": 843,
+      "text": "Friday afternoon works perfectly, my husband will be working downstairs so he can let the technician in.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:19]",
+      "end_time": "[14:23]",
+      "start_time_sec": 859,
+      "text": "I will book that appointment slot under booking reference WIF-883019."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:32]",
+      "end_time": "[14:35]",
+      "start_time_sec": 872,
+      "text": "Is there any callout charge for this visit?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:44]",
+      "end_time": "[14:54]",
+      "start_time_sec": 884,
+      "text": "Because you subscribe to the Smart Wi-Fi Guarantee and the home scan verified an unacceptable dead spot, the engineer visit is free of charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:03]",
+      "end_time": "[15:08]",
+      "start_time_sec": 903,
+      "text": "That's great. Will the technician bring the Wi-Fi Pods with them?",
+      "sentiment_score": 11.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:17]",
+      "end_time": "[15:26]",
+      "start_time_sec": 917,
+      "text": "Yes, the technician carries up to three Wi-Fi Pods in their van stock, along with Ethernet cabling and wall faceplates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:35]",
+      "end_time": "[15:41]",
+      "start_time_sec": 935,
+      "text": "And will they test the speed on my husband's work laptop before they leave?",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:50]",
+      "end_time": "[16:02]",
+      "start_time_sec": 950,
+      "text": "The engineer is required to run a certified speed audit from the dead spot location and upload the speed test certificate to your file before closing the job."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:11]",
+      "end_time": "[16:15]",
+      "start_time_sec": 971,
+      "text": "That ensures the thirty megabits threshold is actually verified.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:24]",
+      "end_time": "[16:32]",
+      "start_time_sec": 984,
+      "text": "Will your husband need the technician to configure a specific Wi-Fi band or separate SSID for work devices?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:40]",
+      "end_time": "[16:45]",
+      "start_time_sec": 1000,
+      "text": "No, our devices use band steering automatically on the S-Net Hub.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:53]",
+      "end_time": "[17:01]",
+      "start_time_sec": 1013,
+      "text": "The Wi-Fi Pods seamlessly integrate with your existing Hub SSID, so no device passwords need to be updated."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:09]",
+      "end_time": "[17:12]",
+      "start_time_sec": 1029,
+      "text": "That makes setup very straightforward.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:20]",
+      "end_time": "[17:30]",
+      "start_time_sec": 1040,
+      "text": "You will receive an SMS reminder on Friday morning with the technician's name and a live tracking link when they are en route."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:38]",
+      "end_time": "[17:43]",
+      "start_time_sec": 1058,
+      "text": "That is very helpful so we know when to expect them.",
+      "sentiment_score": 21.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:51]",
+      "end_time": "[17:58]",
+      "start_time_sec": 1071,
+      "text": "Is there anything else regarding your Wi-Fi coverage or broadband settings that I can check today, Ava?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:06]",
+      "end_time": "[18:14]",
+      "start_time_sec": 1086,
+      "text": "No, Laura, thank you for booking the specialist engineer for Friday. We look forward to having it resolved.",
+      "sentiment_score": 24.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:22]",
+      "end_time": "[18:28]",
+      "start_time_sec": 1102,
+      "text": "Thank you for choosing S-Net today, Ava. Have a wonderful rest of your day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:36]",
+      "end_time": "[18:40]",
+      "start_time_sec": 1116,
+      "text": "Thanks Laura, goodbye.",
+      "sentiment_score": 6.2
+    }
+  ]
+}

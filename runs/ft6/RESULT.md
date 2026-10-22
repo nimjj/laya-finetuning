@@ -48,4 +48,4 @@ significant (smallest p: ft6 vs ft5 on Paraphrasing, 0.12).
   wordings), and Empathy windows opened on any upset-looking line.
 - Every number is against one AI author's keys on 50 calls; a human review of the disagreements is still missing.
 
-Probes: `inputs/Test (results)/Laya probes/exam_*-agc.json` (no snippet text). Scored with `Scripts/cutoff_eval.py` functions.
+Probes: `laya-finetuning/inputs/Test (results)/Laya probes/exam_*-agc.json` (no snippet text). Scored with `laya-finetuning/eval/cutoff_eval.py` functions.

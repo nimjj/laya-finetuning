@@ -1,0 +1,485 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Aaliyah",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer service, my name is Marcus. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:07]",
+      "end_time": "[00:19]",
+      "start_time_sec": 7,
+      "text": "Hello Marcus. I'm having a really annoying problem with my broadband. Every time we get heavy rain, the whole connection just drops completely.",
+      "sentiment_score": -22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:20]",
+      "end_time": "[00:28]",
+      "start_time_sec": 20,
+      "text": "I can certainly look into that line dropping issue for you today. May I start with your full name and account number, please?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:29]",
+      "end_time": "[00:35]",
+      "start_time_sec": 29,
+      "text": "Yes, it's Aaliyah Rahman, and my account number is SN 849 2011.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:36]",
+      "end_time": "[00:44]",
+      "start_time_sec": 36,
+      "text": "Thank you, Aaliyah. For account security, could you please confirm your full billing address and your memorable security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:45]",
+      "end_time": "[00:54]",
+      "start_time_sec": 45,
+      "text": "Sure, it's 14 Meadowbank Grove, Leeds, LS16 8PX. And the answer to the security question is Bluebell.",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:55]",
+      "end_time": "[01:03]",
+      "start_time_sec": 55,
+      "text": "That's verified your account, thank you. Now, you mentioned the connection cuts out whenever there is heavy rainfall?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:04]",
+      "end_time": "[01:17]",
+      "start_time_sec": 64,
+      "text": "Yes, exactly. It's been happening for two weeks now. Yesterday during the downpour it went off four times, and I lost two critical work video calls. It is extremely disruptive.",
+      "sentiment_score": -36.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:18]",
+      "end_time": "[01:27]",
+      "start_time_sec": 78,
+      "text": "Losing connection during important work calls is really stressful, Aaliyah, and I'm very sorry you've had to deal with that disruption."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:28]",
+      "end_time": "[01:32]",
+      "start_time_sec": 88,
+      "text": "Thank you Marcus, I appreciate that. I just need it to be stable.",
+      "sentiment_score": 9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:33]",
+      "end_time": "[01:43]",
+      "start_time_sec": 93,
+      "text": "So to make sure I understand the situation clearly: your internet connection drops out intermittently specifically during wet weather, while staying mostly fine when dry, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:44]",
+      "end_time": "[01:50]",
+      "start_time_sec": 104,
+      "text": "Yes, that is spot on. When it's dry it works, but the moment rain starts it drops sync.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:51]",
+      "end_time": "[01:59]",
+      "start_time_sec": 111,
+      "text": "Understood. When the connection drops, what do the lights on the front of your S-Net router look like?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:00]",
+      "end_time": "[02:11]",
+      "start_time_sec": 120,
+      "text": "The internet light, which is normally solid white, starts flashing orange, and then it goes solid red for about five minutes before it turns white again.",
+      "sentiment_score": -6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:12]",
+      "end_time": "[02:20]",
+      "start_time_sec": 132,
+      "text": "Okay, that indicates the router is losing the physical DSL sync signal from the street cabinet. Which model of hub do you have there?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:21]",
+      "end_time": "[02:27]",
+      "start_time_sec": 141,
+      "text": "It's the black Hub 3 router that you sent when I signed up last autumn.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:28]",
+      "end_time": "[02:37]",
+      "start_time_sec": 148,
+      "text": "Got it, the Hub 3. And how is the Hub connected to your telephone wall socket? Is it using a plug-in microfilter or a filtered faceplate?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:38]",
+      "end_time": "[02:46]",
+      "start_time_sec": 158,
+      "text": "It has a little white rectangular plastic box plugged into the master socket, with two cables coming out of it.",
+      "sentiment_score": 0.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:47]",
+      "end_time": "[02:56]",
+      "start_time_sec": 167,
+      "text": "Right, that's a standard plug-in microfilter. Do you also have a landline telephone handset plugged into that same filter?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:57]",
+      "end_time": "[03:03]",
+      "start_time_sec": 177,
+      "text": "Yes, we have our cordless home phone base station plugged into the phone port on it.",
+      "sentiment_score": 1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:04]",
+      "end_time": "[03:13]",
+      "start_time_sec": 184,
+      "text": "Have you noticed any noise, crackling, or hissing sounds on the landline phone when you make or receive calls during rain?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:14]",
+      "end_time": "[03:22]",
+      "start_time_sec": 194,
+      "text": "Actually, yes! When my mother phoned me yesterday during the rainstorm, there was a terrible buzzing and crackling sound on the line.",
+      "sentiment_score": -11.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:23]",
+      "end_time": "[03:32]",
+      "start_time_sec": 203,
+      "text": "That is very helpful diagnostic information. Audible crackling during rain strongly suggests moisture affecting the copper pair or a faulty filter."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:33]",
+      "end_time": "[03:38]",
+      "start_time_sec": 213,
+      "text": "Oh really? Could rainwater be getting into the cable outside our house?",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:39]",
+      "end_time": "[03:49]",
+      "start_time_sec": 219,
+      "text": "It is possible if there is a degraded junction box outside, or it could be internal damp affecting the microfilter. I am going to test the line now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:50]",
+      "end_time": "[03:53]",
+      "start_time_sec": 230,
+      "text": "Okay, please go ahead.",
+      "sentiment_score": 3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:54]",
+      "end_time": "[04:05]",
+      "start_time_sec": 234,
+      "text": "Bear with me for a couple of minutes while I run our metallic line test and check the signal-to-noise ratio history on your circuit."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:55]",
+      "end_time": "[05:05]",
+      "start_time_sec": 295,
+      "text": "Thank you for your patience while that completed, Aaliyah. The line diagnostic test has returned its results."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:06]",
+      "end_time": "[05:10]",
+      "start_time_sec": 306,
+      "text": "What does it show, Marcus? Did it find anything?",
+      "sentiment_score": -1.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:11]",
+      "end_time": "[05:22]",
+      "start_time_sec": 311,
+      "text": "The copper line test from the exchange to your master socket is showing a clear line with normal loop resistance and no battery fault or earth contact."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:23]",
+      "end_time": "[05:29]",
+      "start_time_sec": 323,
+      "text": "Wait, so the external cable is fine? Why does it drop when it rains then?",
+      "sentiment_score": -14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:30]",
+      "end_time": "[05:42]",
+      "start_time_sec": 330,
+      "text": "However, the line error logs show a massive spike in errored seconds and high-frequency attenuation dropouts corresponding to high humidity periods."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:43]",
+      "end_time": "[05:46]",
+      "start_time_sec": 343,
+      "text": "What does that mean in plain English?",
+      "sentiment_score": -5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:47]",
+      "end_time": "[05:58]",
+      "start_time_sec": 347,
+      "text": "Where is your telephone master socket located in the house? Is it near an external door, window, or hallway that gets damp?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:59]",
+      "end_time": "[06:08]",
+      "start_time_sec": 359,
+      "text": "It is right by our front door in the porch, actually. The porch window tends to get a lot of condensation whenever it rains.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:09]",
+      "end_time": "[06:19]",
+      "start_time_sec": 369,
+      "text": "That explains a lot. If condensation gets into that small microfilter box, the tiny capacitor inside leaks high-frequency signal to earth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:20]",
+      "end_time": "[06:26]",
+      "start_time_sec": 380,
+      "text": "Oh wow, I hadn't thought of that. Let me look at the microfilter right now.",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:27]",
+      "end_time": "[06:36]",
+      "start_time_sec": 387,
+      "text": "Could you unplug the microfilter and inspect the little gold pins inside the socket where the broadband cable clips in?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:37]",
+      "end_time": "[06:49]",
+      "start_time_sec": 397,
+      "text": "Hold on... oh yes! Looking inside with my phone torch, there is a greenish-white crusty residue on two of the little pins.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:50]",
+      "end_time": "[07:00]",
+      "start_time_sec": 410,
+      "text": "That green crust is copper verdigris corrosion. When damp air hits that corroded contact, it shorts the high-frequency DSL frequencies."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:01]",
+      "end_time": "[07:07]",
+      "start_time_sec": 421,
+      "text": "That is exactly what must be happening! So the microfilter is ruined?",
+      "sentiment_score": 4.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:08]",
+      "end_time": "[07:18]",
+      "start_time_sec": 428,
+      "text": "Yes, that microfilter is definitely degraded and causing your drops. Do you have a spare microfilter in the original S-Net box?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:19]",
+      "end_time": "[07:29]",
+      "start_time_sec": 439,
+      "text": "Let me check the cupboard under the stairs... Yes! I kept the welcome box with all the spare cables and there is a sealed spare filter here.",
+      "sentiment_score": 19.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:30]",
+      "end_time": "[07:39]",
+      "start_time_sec": 450,
+      "text": "Brilliant. Let's unplug that corroded filter completely, plug the fresh new filter into the master socket, and reconnect the Hub and phone."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:40]",
+      "end_time": "[07:50]",
+      "start_time_sec": 460,
+      "text": "Okay, doing that right now. Old one out, new one plugged firmly into the master socket. Grey DSL cable clicked in, phone cable clicked in.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:51]",
+      "end_time": "[07:59]",
+      "start_time_sec": 471,
+      "text": "Excellent. Let's give the Hub 3 about thirty to forty seconds to renegotiate its handshake with the cabinet."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:00]",
+      "end_time": "[08:05]",
+      "start_time_sec": 480,
+      "text": "The light is flashing green at the moment, and now it has gone solid white.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:06]",
+      "end_time": "[08:15]",
+      "start_time_sec": 486,
+      "text": "Just to check now that it has renegotiated, is the internet light remaining solid white without any orange flashing?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:16]",
+      "end_time": "[08:22]",
+      "start_time_sec": 496,
+      "text": "Yes, it is rock solid white, no flashing at all.",
+      "sentiment_score": 21.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:23]",
+      "end_time": "[08:34]",
+      "start_time_sec": 503,
+      "text": "I can see on my telemetry that the line has synced at 73.8 megabits per second, with a clean 6.2 decibel signal-to-noise ratio margin."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:35]",
+      "end_time": "[08:41]",
+      "start_time_sec": 515,
+      "text": "That is even faster than what we were getting before!",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:42]",
+      "end_time": "[08:52]",
+      "start_time_sec": 522,
+      "text": "The corroded filter was introducing severe line resistance. I have also reset the DLM dynamic line management profile so it clears the historical error count."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:53]",
+      "end_time": "[08:59]",
+      "start_time_sec": 533,
+      "text": "That's wonderful. Can I check if my laptop connects properly through the Wi-Fi now?",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:00]",
+      "end_time": "[09:08]",
+      "start_time_sec": 540,
+      "text": "Please do. Try loading a few websites or streaming a quick video to make sure the data throughput is flowing smoothly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:09]",
+      "end_time": "[09:20]",
+      "start_time_sec": 549,
+      "text": "Okay, opening my work portal and news website... wow, they loaded instantly. And BBC iPlayer started immediately without buffering.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:21]",
+      "end_time": "[09:30]",
+      "start_time_sec": 561,
+      "text": "Could you also pick up the home phone handset and check if the crackling noise is gone?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:31]",
+      "end_time": "[09:39]",
+      "start_time_sec": 571,
+      "text": "Listening to the dial tone now... it is completely silent in the background. The dial tone is crystal clear!",
+      "sentiment_score": 36.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:40]",
+      "end_time": "[09:50]",
+      "start_time_sec": 580,
+      "text": "So both your broadband connection and your telephone line are fully clear and running at top performance now, Aaliyah?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:51]",
+      "end_time": "[09:58]",
+      "start_time_sec": 591,
+      "text": "Yes, completely sorted. Everything is working perfectly now. Thank you so much Marcus!",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:59]",
+      "end_time": "[10:08]",
+      "start_time_sec": 599,
+      "text": "I am also placing an order for a spare heavy-duty filtered faceplate to be sent out in the post for you free of charge, to keep as a backup."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:09]",
+      "end_time": "[10:14]",
+      "start_time_sec": 609,
+      "text": "That is so thoughtful of you. I really appreciate the excellent help today.",
+      "sentiment_score": 35.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:15]",
+      "end_time": "[10:22]",
+      "start_time_sec": 615,
+      "text": "You are very welcome. Is there anything else at all I can help you with today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:23]",
+      "end_time": "[10:26]",
+      "start_time_sec": 623,
+      "text": "No, that's everything. You've solved it completely.",
+      "sentiment_score": 29.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:27]",
+      "end_time": "[10:34]",
+      "start_time_sec": 627,
+      "text": "Thank you for choosing S-Net, Aaliyah. Have a wonderful rest of your day."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "call_id": "ag_37",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 100.0,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Erroneous £240 early termination charge billed after customer moved to a rural postcode where S-Net has no network coverage",
+    "tier": "excellent",
+    "duration_sec": 970,
+    "notes": "Excellent 100.0 call with natural STT disfluencies. Zara verifies address and security question within 2 minutes ([00:52]-[01:21]), empathizes warmly ([00:23]-[00:52]), paraphrases clearly ([01:21]), probes into the home-move reference, council tax proof, and router return ([01:52]-[04:45]), and takes complete personal ownership ([05:54]-[09:55]) rather than transferring Nafisa to retentions—verifying the non-serviceable postcode LL57 4BQ and posting credit note CN-8830419 (-£240.00) which Nafisa verifies live in her S-Net app ([10:57]-[11:40]).",
+    "hard_cases": [
+      "Verified customer",
+      "Took ownership of the problem",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Greeting at [00:00] ('thank you for calling S-Net') and closing with survey check at [15:53] ('Thank you for choosing S-Net')."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Single managed 62s hold between [06:59] ('Please bear with me for a moment while I query the wholesale postcode database...') and [08:25] ('Thank you so much for holding, Nafisa!')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [00:52] (within 2 minutes) Agent verified previous billing address and security question ('first primary school'), confirmed at [01:10]-[01:21]."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent used 'Nafisa' warmly throughout the call ([00:23], [00:52], [01:21], [05:54], [08:25], [15:53])."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [00:23] and [00:52] Agent apologized sincerely and validated the shock and stress of receiving an erroneous £240 charge right after moving home."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [01:21] Agent paraphrased: 'after moving from Leeds to a rural area where S-Net has no network coverage, your closed account was erroneously charged a two hundred and forty pound early termination fee.'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent accurately recalled LL57 4BQ, Flat 4 19 Clarendon Road, HM-774120, and Royal Mail tracking RM449012883GB throughout the call ([09:05], [12:18], [12:38])."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [05:54]-[09:55] Agent refused to transfer the customer to retentions/home-move, checked the Ofcom wholesale coverage database for LL57 4BQ herself, recoded the cease order, cancelled the Direct Debit collection, and applied the £240 credit note CN-8830419."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Warm, personable rapport throughout, including friendly chat about unpacking kitchen boxes and mountain views in North Wales ([02:17]-[02:37], [14:06]-[14:23])."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent probed the new rural postcode ([01:52]), home-move reference ([02:37]), completion date ([03:03]), council tax proof of residency ([03:29]), and Hub 5 Royal Mail return tracking ([04:20])."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [10:44]-[11:40] and [14:38], Nafisa refreshed her S-Net app and downloaded the revised final statement PDF live on the call, confirming Credit Note CN-8830419 (-£240.00) and a £0.00 settled balance."
+      }
+    ]
+  }
+}

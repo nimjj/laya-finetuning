@@ -1,0 +1,569 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Mia",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer accounts, my name is Naomi. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:22]",
+      "start_time_sec": 10,
+      "text": "Hi Naomi. I'm calling because I'm relocating to Spain next month for work, so I need to close my broadband account and arrange to send my router back.",
+      "sentiment_score": -14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:25]",
+      "end_time": "[00:35]",
+      "start_time_sec": 25,
+      "text": "I can certainly guide you through closing your account and getting equipment return packaging dispatched, Mia. I hope the relocation to Spain goes smoothly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:38]",
+      "end_time": "[00:47]",
+      "start_time_sec": 38,
+      "text": "Thank you Naomi. It's quite a stressful move so I want to make sure the utilities are sorted in advance.",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:50]",
+      "end_time": "[00:59]",
+      "start_time_sec": 50,
+      "text": "Before we access your cancellation records, Mia, could you please verify your full UK installation address and your four-digit security PIN?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:02]",
+      "end_time": "[01:09]",
+      "start_time_sec": 62,
+      "text": "Yes, it is 47 Stretford Road, Manchester, M16 0FG, and my security PIN is 8421.",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:12]",
+      "end_time": "[01:19]",
+      "start_time_sec": 72,
+      "text": "Thank you for verifying those details, Mia. I have your Gigafast 300 account open on my screen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:22]",
+      "end_time": "[01:25]",
+      "start_time_sec": 82,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:28]",
+      "end_time": "[01:48]",
+      "start_time_sec": 88,
+      "text": "So just to confirm what you are looking to do: you are relocating abroad to Spain on the twentieth of next month, so you would like to schedule the cancellation of your broadband service and receive a prepaid returns bag for your router. Have I understood correctly?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:51]",
+      "end_time": "[02:01]",
+      "start_time_sec": 111,
+      "text": "Yes, spot on. The moving vans arrive on the twentieth, so having the internet shut off on the twentieth would be ideal.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:04]",
+      "end_time": "[02:08]",
+      "start_time_sec": 124,
+      "text": "Let me check the contract dates on your profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:11]",
+      "end_time": "[02:15]",
+      "start_time_sec": 131,
+      "text": "I believe my eighteen-month minimum term finished in January.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:18]",
+      "end_time": "[02:28]",
+      "start_time_sec": 138,
+      "text": "Looking at your contract start date... yes, you completed your minimum term in January and you are on a standard rolling 30-day agreement."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:31]",
+      "end_time": "[02:35]",
+      "start_time_sec": 151,
+      "text": "That means there are no early termination fees, right?",
+      "sentiment_score": 8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:38]",
+      "end_time": "[02:44]",
+      "start_time_sec": 158,
+      "text": "Exactly. Because you are out of contract, there are zero early cancellation penalties."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:47]",
+      "end_time": "[02:50]",
+      "start_time_sec": 167,
+      "text": "That's wonderful news.",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:53]",
+      "end_time": "[03:04]",
+      "start_time_sec": 173,
+      "text": "I will schedule the service cessation for midnight on the twentieth of next month so you have full internet connectivity right up to your moving day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:07]",
+      "end_time": "[03:13]",
+      "start_time_sec": 187,
+      "text": "That would be perfect so I can still work from home while packing.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:16]",
+      "end_time": "[03:22]",
+      "start_time_sec": 196,
+      "text": "Now let me check the equipment return rules for your S-Net Hub 4 router."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:00]",
+      "end_time": "[04:03]",
+      "start_time_sec": 240,
+      "text": "Hello? Are you still there, Naomi?",
+      "sentiment_score": -6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:06]",
+      "end_time": "[04:13]",
+      "start_time_sec": 246,
+      "text": "Yes, I am right here Mia, apologies for the pause while the equipment return database was updating."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:16]",
+      "end_time": "[04:20]",
+      "start_time_sec": 256,
+      "text": "That's okay, I wasn't sure if the call had dropped.",
+      "sentiment_score": -2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:23]",
+      "end_time": "[04:33]",
+      "start_time_sec": 263,
+      "text": "Under our environmental policy, all S-Net Hub 4 and Hub 5 routers must be returned for refurbishment or recycling within thirty days of cancellation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:36]",
+      "end_time": "[04:43]",
+      "start_time_sec": 276,
+      "text": "Do you send out a prepaid return bag, or do I have to pay postage?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:46]",
+      "end_time": "[04:55]",
+      "start_time_sec": 286,
+      "text": "We send out a padded prepaid Royal Mail returns bag free of charge, with a tracked return label already attached."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:58]",
+      "end_time": "[05:08]",
+      "start_time_sec": 298,
+      "text": "Can you send the bag to my current address this week so I can pack the router as soon as the line switches off?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:11]",
+      "end_time": "[05:20]",
+      "start_time_sec": 311,
+      "text": "Yes, I can dispatch the return bag immediately. It will arrive via standard post within three to five business days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:23]",
+      "end_time": "[05:28]",
+      "start_time_sec": 323,
+      "text": "What accessories need to go in the bag along with the router?",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:31]",
+      "end_time": "[05:38]",
+      "start_time_sec": 331,
+      "text": "Please include the main black Hub router, its power supply adapter, and the gray broadband cable."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:41]",
+      "end_time": "[05:44]",
+      "start_time_sec": 341,
+      "text": "And what about the yellow Ethernet cable?",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:47]",
+      "end_time": "[05:54]",
+      "start_time_sec": 347,
+      "text": "You are welcome to keep the yellow Ethernet cable or pop it in the bag as well."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:57]",
+      "end_time": "[06:03]",
+      "start_time_sec": 357,
+      "text": "What should I do with the telephone wall socket adapter and the broadband microfilters?",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:06]",
+      "end_time": "[06:18]",
+      "start_time_sec": 366,
+      "text": "Those small plastic adapters do not need to be returned; you are welcome to dispose of them in household recycling or keep them for the incoming tenant."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:21]",
+      "end_time": "[06:25]",
+      "start_time_sec": 381,
+      "text": "That's convenient, less clutter to pack into moving boxes.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:28]",
+      "end_time": "[06:38]",
+      "start_time_sec": 388,
+      "text": "And if the next tenant moves in and needs broadband, they can activate service on the existing master socket without an engineer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:41]",
+      "end_time": "[06:47]",
+      "start_time_sec": 401,
+      "text": "That will make it very easy for the landlord and the incoming renters.",
+      "sentiment_score": 16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:50]",
+      "end_time": "[07:00]",
+      "start_time_sec": 410,
+      "text": "Once you hand the parcel over at any local Post Office, make sure to retain the proof of posting receipt for your records."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:02]",
+      "end_time": "[07:06]",
+      "start_time_sec": 422,
+      "text": "Does the receipt have the Royal Mail tracking barcode?",
+      "sentiment_score": 7.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:08]",
+      "end_time": "[07:13]",
+      "start_time_sec": 428,
+      "text": "Yes, the barcode links directly to our returns warehouse inventory system."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:15]",
+      "end_time": "[07:20]",
+      "start_time_sec": 435,
+      "text": "That's very reassuring so I don't get charged for unreturned equipment.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:22]",
+      "end_time": "[07:30]",
+      "start_time_sec": 442,
+      "text": "If equipment is not received within thirty days, our automated system generates an unreturned equipment fee of sixty-five pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:32]",
+      "end_time": "[07:39]",
+      "start_time_sec": 452,
+      "text": "And the tracking receipt protects against that if Royal Mail takes time to deliver it?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:41]",
+      "end_time": "[07:48]",
+      "start_time_sec": 461,
+      "text": "Yes, entering the tracking barcode onto your online account immediately exempts you from any equipment charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:50]",
+      "end_time": "[07:53]",
+      "start_time_sec": 470,
+      "text": "That gives me total protection.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:55]",
+      "end_time": "[08:00]",
+      "start_time_sec": 475,
+      "text": "Let me finalize the postal dispatch order on the packaging fulfillment system."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:36]",
+      "end_time": "[08:41]",
+      "start_time_sec": 516,
+      "text": "Are you still looking at the postal order on your screen?",
+      "sentiment_score": -5.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:43]",
+      "end_time": "[08:48]",
+      "start_time_sec": 523,
+      "text": "Yes, still here Mia, the packaging order has just successfully submitted."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:50]",
+      "end_time": "[08:53]",
+      "start_time_sec": 530,
+      "text": "Okay, great.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:55]",
+      "end_time": "[08:58]",
+      "start_time_sec": 535,
+      "text": "The prepaid packaging order confirmation number is RTN-582910."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:00]",
+      "end_time": "[09:03]",
+      "start_time_sec": 540,
+      "text": "Got that written down, thank you.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:05]",
+      "end_time": "[09:17]",
+      "start_time_sec": 545,
+      "text": "And your final bill will be calculated on a pro-rata basis up to the twentieth, with any credit balance refunded to your direct debit within fourteen days."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:19]",
+      "end_time": "[09:24]",
+      "start_time_sec": 559,
+      "text": "Will my direct debit stay open until the final refund is processed?",
+      "sentiment_score": 8.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:26]",
+      "end_time": "[09:36]",
+      "start_time_sec": 566,
+      "text": "Yes, please leave the direct debit instruction active on your UK bank account so our automated system can process your final refund."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:38]",
+      "end_time": "[09:44]",
+      "start_time_sec": 578,
+      "text": "Understood. I will keep my UK bank account open until the refund clears.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:46]",
+      "end_time": "[09:56]",
+      "start_time_sec": 586,
+      "text": "What about the direct debit mandate? Does it cancel itself after the final refund or should I cancel it at the bank?",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:58]",
+      "end_time": "[10:09]",
+      "start_time_sec": 598,
+      "text": "Once the credit balance is refunded to your account on the next billing date, our automated billing engine automatically issues an electronic cancellation instruction to BACS."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:11]",
+      "end_time": "[10:17]",
+      "start_time_sec": 611,
+      "text": "So I don't need to do anything manually on my online banking app?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:19]",
+      "end_time": "[10:24]",
+      "start_time_sec": 619,
+      "text": "Exactly. The mandate will close cleanly without any action on your part."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:26]",
+      "end_time": "[10:32]",
+      "start_time_sec": 626,
+      "text": "That's one less administrative task to worry about while preparing for an international move.",
+      "sentiment_score": 14.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:34]",
+      "end_time": "[10:43]",
+      "start_time_sec": 634,
+      "text": "Have you also checked if you have any active email accounts or cloud storage backups linked to your S-Net broadband login?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:45]",
+      "end_time": "[10:52]",
+      "start_time_sec": 645,
+      "text": "No, I only use Google Drive and Gmail for all my personal files and emails.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:54]",
+      "end_time": "[11:00]",
+      "start_time_sec": 654,
+      "text": "That's great, because third-party cloud storage is completely unaffected by home broadband cancellation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:02]",
+      "end_time": "[11:07]",
+      "start_time_sec": 662,
+      "text": "That is very reassuring so none of my documents get locked out.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:09]",
+      "end_time": "[11:16]",
+      "start_time_sec": 669,
+      "text": "What email address should we send your final zero-balance statement to once the account is closed?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:18]",
+      "end_time": "[11:25]",
+      "start_time_sec": 678,
+      "text": "Please send it to mia.taylor@gmail.com so I have proof of account closure for my records.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:27]",
+      "end_time": "[11:34]",
+      "start_time_sec": 687,
+      "text": "I have updated your primary contact email to ensure you receive your final PDF invoice abroad."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:36]",
+      "end_time": "[11:44]",
+      "start_time_sec": 696,
+      "text": "Can I still access my online account portal after the twentieth to download past bills for tax purposes?",
+      "sentiment_score": 9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:46]",
+      "end_time": "[11:54]",
+      "start_time_sec": 706,
+      "text": "Yes, your My S-Net portal login will remain active in view-only mode for ninety days after account termination."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:56]",
+      "end_time": "[12:00]",
+      "start_time_sec": 716,
+      "text": "That is very helpful for my end-of-year tax filing.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:02]",
+      "end_time": "[12:09]",
+      "start_time_sec": 722,
+      "text": "A full cancellation confirmation letter and final billing schedule will be emailed to you today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:11]",
+      "end_time": "[12:21]",
+      "start_time_sec": 731,
+      "text": "Naomi, thank you so much for handling my cancellation so smoothly. It takes a huge worry off my shoulders for the move.",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:23]",
+      "end_time": "[12:31]",
+      "start_time_sec": 743,
+      "text": "It was my pleasure assisting you, Mia. Best of luck with your relocation and your new chapter in Spain."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:33]",
+      "end_time": "[12:36]",
+      "start_time_sec": 753,
+      "text": "Thank you Naomi, take care!",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:38]",
+      "end_time": "[12:44]",
+      "start_time_sec": 758,
+      "text": "Thank you for choosing S-Net today, Mia. Have a wonderful rest of your day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:46]",
+      "end_time": "[12:50]",
+      "start_time_sec": 766,
+      "text": "Goodbye!",
+      "sentiment_score": 6.4
+    }
+  ]
+}

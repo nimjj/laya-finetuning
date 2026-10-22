@@ -1,0 +1,574 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Aoife",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Good afternoon, thank you for calling S-Net Fibre Technical Support. My name is Declan. How can I help you today?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:26]",
+      "start_time_sec": 11,
+      "text": "Hi Declan, it is Aoife calling. I wonder if you can help me with a strange filtering issue on my Full Fibre 500 connection—the S-Net Content Shield seems to be stuck even though I turned it off.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:43]",
+      "start_time_sec": 29,
+      "text": "I would be very happy to help you sort that out, Aoife. Let us get your account verified first so I can inspect your network profile—could you confirm your billing address and your four-digit security PIN?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:46]",
+      "end_time": "[00:53]",
+      "start_time_sec": 46,
+      "text": "Sure, my address is 18 Fitzwilliam Terrace, Belfast, BT7 1JB, and my four-digit security PIN is 3910.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:56]",
+      "end_time": "[01:08]",
+      "start_time_sec": 56,
+      "text": "Thank you, Aoife, that is all verified and I have your Full Fibre 500 line open in front of me. Tell me what you are seeing when you try to browse.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:11]",
+      "end_time": "[01:25]",
+      "start_time_sec": 71,
+      "text": "Well, I am finishing my postgraduate oncology dissertation at Queen's University, and whenever I try to open clinical trial papers on pubmed.ncbi.nlm.nih.gov or thelancet.com, I get redirected to an S-Net Content Shield block page.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:28]",
+      "end_time": "[01:40]",
+      "start_time_sec": 88,
+      "text": "Redirecting PubMed and The Lancet when you are writing an oncology dissertation is definitely not what you want. When did you toggle Content Shield off in your My S-Net account?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:43]",
+      "end_time": "[01:54]",
+      "start_time_sec": 103,
+      "text": "I logged into My S-Net yesterday evening around seven o'clock and switched Content Shield from Strict to Off, and the dashboard slider still shows Off right now.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:57]",
+      "end_time": "[02:18]",
+      "start_time_sec": 117,
+      "text": "Let me make sure I have captured all the details accurately, Aoife: even though you toggled S-Net Content Shield to Off in your My S-Net dashboard yesterday evening and the portal still displays Off, your broadband line is still enforcing the Strict filter and blocking medical research journals like PubMed and The Lancet.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:21]",
+      "end_time": "[02:31]",
+      "start_time_sec": 141,
+      "text": "Yes, that is exactly what is happening. And at the bottom of the block screen at block.s-net.co.uk, it shows a little grey policy tag reading CS-403-STRICT.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:34]",
+      "end_time": "[02:48]",
+      "start_time_sec": 154,
+      "text": "That policy code CS-403-STRICT is really helpful to know, Aoife. Can I ask whether this block page appears only on your laptop or across every device on your home Wi-Fi, and which browser you are using?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:51]",
+      "end_time": "[03:05]",
+      "start_time_sec": 171,
+      "text": "I tested it on my MacBook Pro in both Safari and Firefox, and also on my iPad over Wi-Fi—all of them hit the exact same block.s-net.co.uk redirect unless I disconnect from Wi-Fi and use mobile data.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:25]",
+      "start_time_sec": 188,
+      "text": "Testing on both your MacBook Pro and your iPad proves the interception is happening on the S-Net network side rather than a browser extension. Are your devices using the S-Net Hub's default automatic DNS settings, and is IPv6 enabled on your hub?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:28]",
+      "end_time": "[03:34]",
+      "start_time_sec": 208,
+      "text": "Yes, everything is on automatic DHCP from the S-Net Hub—192.168.1.1—and dual-stack IPv6 is enabled as standard.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:37]",
+      "end_time": "[03:51]",
+      "start_time_sec": 217,
+      "text": "Thank you, Aoife. When our Content Shield filter is active, our Broadband Network Gateway—the BNG in Belfast—transparently intercepts port 53 DNS queries on both IPv4 and IPv6 and routes them through the Strict resolver cluster.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:53]",
+      "end_time": "[04:01]",
+      "start_time_sec": 233,
+      "text": "Why would a medical journal like PubMed or The Lancet even trigger a parental control filter in the first place?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:03]",
+      "end_time": "[04:13]",
+      "start_time_sec": 243,
+      "text": "Under the 'Strict' child-safety profile, the automated keyword classifier aggressively blocks domains categorized under anatomy, pharmacology, and clinical toxicology—which unfortunately catches legitimate peer-reviewed medical journals.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:15]",
+      "end_time": "[04:27]",
+      "start_time_sec": 255,
+      "text": "Right, my twelve-year-old nephew stayed with me over half-term last week, which is why I had turned Strict on for a few days, and then I turned it off yesterday.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:29]",
+      "end_time": "[04:39]",
+      "start_time_sec": 269,
+      "text": "That makes complete sense. Let me look at the synchronization state between your My S-Net web portal profile and your live BNG subscriber session.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:41]",
+      "end_time": "[04:44]",
+      "start_time_sec": 281,
+      "text": "What does your system show on the backend?",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:46]",
+      "end_time": "[04:59]",
+      "start_time_sec": 286,
+      "text": "Interesting—on the My S-Net customer portal layer, your Content Shield preference says 'Off', updated yesterday at 19:04, and our CPE management server queued a standard DNS cache clear to your S-Net Hub.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:01]",
+      "end_time": "[05:05]",
+      "start_time_sec": 301,
+      "text": "Did that DNS cache clear actually reach my router?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:07]",
+      "end_time": "[05:22]",
+      "start_time_sec": 307,
+      "text": "It was sitting in a pending TR-069 push queue. Let me push a live DNS forwarder flush and WAN lease renewal to your S-Net Hub right now—it will only take about fifteen seconds without dropping your call.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:24]",
+      "end_time": "[05:36]",
+      "start_time_sec": 324,
+      "text": "Okay, go ahead and push that through. My thesis chapter on targeted immunotherapy is due with my supervisor at midnight tonight, so I have about thirty citations left to verify.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:38]",
+      "end_time": "[05:52]",
+      "start_time_sec": 338,
+      "text": "The WAN DHCP lease renewal and router DNS cache flush have just completed on your S-Net Hub, Aoife. Could you open a fresh tab on your MacBook Pro and try loading one of your saved links?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:54]",
+      "end_time": "[06:12]",
+      "start_time_sec": 354,
+      "text": "Let me hit refresh on the paper right now... No! It is still redirecting straight to block.s-net.co.uk with policy code CS-403-STRICT! Look, I have a midnight thesis deadline tonight and I am starting to panic because I cannot access any of my clinical references!",
+      "sentiment_score": -21.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:14]",
+      "end_time": "[06:34]",
+      "start_time_sec": 374,
+      "text": "I completely understand how frustrating that is when you have got a thesis deadline tonight, Aoife, and I am really sorry that first router DNS flush did not clear the block. Please don't panic—I am going straight into the core network RADIUS table to fix this for you right now.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:36]",
+      "end_time": "[06:48]",
+      "start_time_sec": 396,
+      "text": "Thank you, Declan, I am sorry to sound stressed, it has just taken me six months to write this paper and I need those bibliography DOIs verified before midnight.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:50]",
+      "end_time": "[07:02]",
+      "start_time_sec": 410,
+      "text": "You do not need to apologize at all, Aoife—six months of oncology research is a huge achievement, and we are going to get those journals loading for you on this call.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:04]",
+      "end_time": "[07:12]",
+      "start_time_sec": 424,
+      "text": "So why is the network still enforcing CS-403-STRICT if the router DNS cache is clean and my portal says Off?",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:14]",
+      "end_time": "[07:35]",
+      "start_time_sec": 434,
+      "text": "I have just pulled up your raw RADIUS accounting attributes on the Belfast BNG gateway, and I can see the exact culprit: there is a known backend identity-sync bug where toggling Content Shield off in the web portal leaves the RADIUS attribute 'SNet-DNS-Policy=STRICT' stuck in a 'Pending-Sync' state on active PPPoE sessions.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:37]",
+      "end_time": "[07:47]",
+      "start_time_sec": 457,
+      "text": "Oh! So even though the website button flipped to Off, the actual network gateway in Belfast never received the instruction to stop intercepting my DNS queries?",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:49]",
+      "end_time": "[08:02]",
+      "start_time_sec": 469,
+      "text": "Spot on, Aoife. Because the BNG gateway still holds that stale 'SNet-DNS-Policy=STRICT' tag on your subscriber session, it hijacks every port 53 lookup leaving your router before it ever reaches the open internet.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:04]",
+      "end_time": "[08:14]",
+      "start_time_sec": 484,
+      "text": "Can you override that stuck attribute directly on the BNG gateway from your console, or does it have to go to a back-office engineering queue?",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:16]",
+      "end_time": "[08:37]",
+      "start_time_sec": 496,
+      "text": "I am not going to hand this off to any back-office queue when your thesis is due at midnight, Aoife. I have Tier 2 RADIUS write access right here, so I am going to manually purge the stale policy attribute and send a Change of Authorization packet to the Belfast BNG myself.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:39]",
+      "end_time": "[08:43]",
+      "start_time_sec": 519,
+      "text": "Oh, what a relief! Will that disconnect my fibre for long?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:45]",
+      "end_time": "[09:00]",
+      "start_time_sec": 525,
+      "text": "It will bounce your PPPoE session for about five seconds while the BNG loads the unrestricted 'UNFILTERED-DEFAULT' policy. Please bear with me for a moment while I rewrite your RADIUS profile and flush the subscriber DNS policy table.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:50]",
+      "end_time": "[10:04]",
+      "start_time_sec": 590,
+      "text": "Thank you for holding, Aoife. I have manually overwritten your RADIUS attribute to 'UNFILTERED-DEFAULT', cleared the stuck Pending-Sync flag in the identity database, and pushed a live Change of Authorization packet to the Belfast BNG.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:06]",
+      "end_time": "[10:13]",
+      "start_time_sec": 606,
+      "text": "I saw the light on the S-Net Hub blink once and go straight back to solid blue!",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:15]",
+      "end_time": "[10:31]",
+      "start_time_sec": 615,
+      "text": "That was the CoA session re-binding cleanly. Before we test in Safari, let us verify what DNS response your MacBook Pro is getting now compared to the block.s-net.co.uk redirect and CS-403-STRICT code you saw earlier on pubmed.ncbi.nlm.nih.gov and thelancet.com.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:33]",
+      "end_time": "[10:41]",
+      "start_time_sec": 633,
+      "text": "How do I make sure my MacBook Pro itself hasn't cached the old block.s-net.co.uk redirect address for those two sites?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:43]",
+      "end_time": "[10:56]",
+      "start_time_sec": 643,
+      "text": "If you open a new Private Window in Safari or Firefox—or quickly toggle your MacBook's Wi-Fi off and back on from the top menu bar—macOS will flush its local mDNSResponder cache immediately.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:58]",
+      "end_time": "[11:08]",
+      "start_time_sec": 658,
+      "text": "Good idea, I just toggled Wi-Fi off and back on at the top of my MacBook screen, and I am opening a fresh window now.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:10]",
+      "end_time": "[11:16]",
+      "start_time_sec": 670,
+      "text": "Now try opening your saved oncology paper on pubmed.ncbi.nlm.nih.gov first, Aoife, and tell me what loads.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:18]",
+      "end_time": "[11:28]",
+      "start_time_sec": 678,
+      "text": "Typing it in now... Oh, yes! The National Library of Medicine PubMed page just loaded straight up! No block page, no CS-403-STRICT redirect at all!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:30]",
+      "end_time": "[11:37]",
+      "start_time_sec": 690,
+      "text": "Fantastic! And now try clicking through to the full-text PDF on thelancet.com that was getting intercepted earlier.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:39]",
+      "end_time": "[11:47]",
+      "start_time_sec": 699,
+      "text": "Clicking the DOI link for The Lancet Oncology right now... and the full PDF manuscript just opened in my browser!",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:49]",
+      "end_time": "[11:59]",
+      "start_time_sec": 709,
+      "text": "Let us also double-check your iPad over Wi-Fi just to be 100 percent certain both IPv4 and IPv6 resolvers are clean across all your devices.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:01]",
+      "end_time": "[12:10]",
+      "start_time_sec": 721,
+      "text": "Let me tap refresh on the iPad Safari tab... yes, PubMed and the British Medical Journal both load instantaneously on the iPad too!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:12]",
+      "end_time": "[12:24]",
+      "start_time_sec": 732,
+      "text": "I can confirm on the Belfast BNG diagnostic trace that your DNS queries are now resolving directly through our unfiltered core resolvers with zero Content Shield inspection hooks attached.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:26]",
+      "end_time": "[12:36]",
+      "start_time_sec": 746,
+      "text": "Is there any risk that an overnight system sync will flip that RADIUS attribute back to Strict while I am uploading my dissertation tonight?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:38]",
+      "end_time": "[12:52]",
+      "start_time_sec": 758,
+      "text": "None at all, Aoife. Because I cleared the stuck 'Pending-Sync' transaction row in the identity database and locked both the portal state and the RADIUS attribute to 'OFF', the two databases are now in complete agreement.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:54]",
+      "end_time": "[13:02]",
+      "start_time_sec": 774,
+      "text": "What if my nephew comes to stay again in the summer—should I avoid touching the Content Shield toggle in My S-Net?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:04]",
+      "end_time": "[13:22]",
+      "start_time_sec": 784,
+      "text": "Our platform engineering team is deploying the patch for that portal-to-RADIUS sync race condition in next Tuesday's maintenance release, and in the meantime you can also set per-device family DNS rules purely for his tablet inside the S-Net Hub settings without affecting your MacBook.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:24]",
+      "end_time": "[13:34]",
+      "start_time_sec": 804,
+      "text": "Oh, setting it just for his device on the router is much smarter anyway! I never thought of doing it at the device level.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:36]",
+      "end_time": "[13:48]",
+      "start_time_sec": 816,
+      "text": "Yes, inside the S-Net Hub admin page at 192.168.1.1 under 'Device Access Control', you can assign child-safe DNS solely to a guest device while keeping your own workstation completely unfiltered.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:50]",
+      "end_time": "[14:02]",
+      "start_time_sec": 830,
+      "text": "That is such a helpful tip, Declan. Honestly, when that first router flush didn't work, I thought I was going to have to sit tethered to my phone until midnight.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:04]",
+      "end_time": "[14:17]",
+      "start_time_sec": 844,
+      "text": "You deserve a rock-solid Full Fibre 500 connection when you are submitting six months of oncology research, Aoife. Let me quickly check your fibre optical light levels while I have your ONT open.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:19]",
+      "end_time": "[14:22]",
+      "start_time_sec": 859,
+      "text": "Does the fibre line itself look healthy?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:24]",
+      "end_time": "[14:37]",
+      "start_time_sec": 864,
+      "text": "Your optical receive power at the ONT is minus seventeen point four dBm—right in the middle of the optimal green range—and your line has had zero packet loss over the past thirty days.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:39]",
+      "end_time": "[14:50]",
+      "start_time_sec": 879,
+      "text": "Brilliant. I have already pulled up five of my remaining PubMed citations while we have been talking and every single one opened in less than a second.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:52]",
+      "end_time": "[15:05]",
+      "start_time_sec": 892,
+      "text": "That is music to my ears. I have also logged a ticket reference—CS-908412—against the backend portal sync bug so our network software team has your session trace for next week's patch verification.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:07]",
+      "end_time": "[15:13]",
+      "start_time_sec": 907,
+      "text": "Do I need to do anything with that ticket reference, or is that purely internal?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:15]",
+      "end_time": "[15:23]",
+      "start_time_sec": 915,
+      "text": "That is purely internal for our platform engineers, Aoife—on your account, the issue is marked as resolved and closed.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:25]",
+      "end_time": "[15:34]",
+      "start_time_sec": 925,
+      "text": "Could you send a quick summary email to my inbox just confirming the Content Shield filter is permanently off on my profile?",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:36]",
+      "end_time": "[15:46]",
+      "start_time_sec": 936,
+      "text": "I have just sent that confirmation email to your verified address now, showing 'Content Shield: Disabled (Network & Portal Synced)' along with reference CS-908412.",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:48]",
+      "end_time": "[15:54]",
+      "start_time_sec": 948,
+      "text": "It just arrived in my inbox! You have been an absolute lifesaver today, Declan.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:56]",
+      "end_time": "[16:07]",
+      "start_time_sec": 956,
+      "text": "It has been a pleasure helping you today, Aoife. Are you confident that all your medical research journals are loading properly and your issue is fully resolved?",
+      "sentiment_score": 16.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:09]",
+      "end_time": "[16:17]",
+      "start_time_sec": 969,
+      "text": "Yes, 100 percent resolved—PubMed, The Lancet, and BMJ are all working across both my MacBook Pro and my iPad.",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:19]",
+      "end_time": "[16:29]",
+      "start_time_sec": 979,
+      "text": "Wonderful! Best of luck with submitting your oncology dissertation tonight, Aoife. Thank you for choosing S-Net, and have a great rest of your day!",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:31]",
+      "end_time": "[16:35]",
+      "start_time_sec": 991,
+      "text": "Thank you so much, Declan! Have a lovely evening, bye!",
+      "sentiment_score": 18.0
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Wojciech",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:06]",
+      "start_time_sec": 0,
+      "text": "Good afternoon, thank you for calling S-Net Family Mobile Support. My name is Patrick, how may I help you today?",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:07]",
+      "end_time": "[00:21]",
+      "start_time_sec": 7,
+      "text": "Hello Patrick, my name is Wojciech. I'm calling because I have the S-Net Multi-SIM Family Share plan with a hundred gigabytes on my lead SIM, and the twenty-five gigabyte shared data allowance I allocated to my daughter's secondary SIM isn't working.",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:22]",
+      "end_time": "[00:39]",
+      "start_time_sec": 22,
+      "text": "I am so sorry for the frustration and worry that's causing you and your daughter today, Wojciech. When you set up a Family Share data allowance specifically so a family member stays connected, the last thing you want is for her phone to run out of data.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:40]",
+      "end_time": "[00:53]",
+      "start_time_sec": 40,
+      "text": "Exactly! My daughter Zuzanna is currently up in the Peak District on her university physical geography field trip, and she relies on her mobile data to upload survey maps and stay in touch with her tutor group.",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:54]",
+      "end_time": "[01:06]",
+      "start_time_sec": 54,
+      "text": "I completely understand why that's urgent when Zuzanna is out in the Peak District for her university field trip and needs reliable data for her mapping uploads. Let me make sure I've captured every detail properly.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:07]",
+      "end_time": "[01:09]",
+      "start_time_sec": 67,
+      "text": "Thank you, Patrick, I really appreciate you taking it seriously.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:10]",
+      "end_time": "[01:26]",
+      "start_time_sec": 70,
+      "text": "So to paraphrase what's happening, Wojciech: you hold the lead S-Net Family Share plan with the 100GB master data pool, and you assigned a 25GB monthly slice to Zuzanna's linked secondary SIM, but her handset is acting as if it has zero high-speed data.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:27]",
+      "end_time": "[01:41]",
+      "start_time_sec": 87,
+      "text": "That's completely accurate. She rang me half an hour ago from Castleton saying her pages won't load and she got a text saying her 2GB base allowance is exhausted and her speed is capped at 64 kilobits per second.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:42]",
+      "end_time": "[01:55]",
+      "start_time_sec": 102,
+      "text": "I will take full ownership of getting your donor SIM and Zuzanna's secondary SIM properly synced so that 25GB allowance is active on her phone before we finish this call. First, let me ask a few diagnostic questions.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:56]",
+      "end_time": "[02:00]",
+      "start_time_sec": 116,
+      "text": "Sure, I have the My S-Net app open on my own phone right here.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:01]",
+      "end_time": "[02:12]",
+      "start_time_sec": 121,
+      "text": "When you tap into the Family Data Manager tab on your My S-Net app, Wojciech, what does the allocation slider show next to Zuzanna's mobile number, and does it say 'Active' or 'Pending'?",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:13]",
+      "end_time": "[02:27]",
+      "start_time_sec": 133,
+      "text": "Let me look at the Family Data Manager screen... next to Zuzanna's number ending in 4409, the slider is set to 25GB and underneath in green text it says 'Recurring Monthly Allocation - Active', with 0.0GB used out of 25GB!",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:28]",
+      "end_time": "[02:41]",
+      "start_time_sec": 148,
+      "text": "That's a very helpful clue—so your app shows 25GB allocated and 0.0GB used on line 4409, yet her handset hit the 64kbps throttle after finishing her standalone 2GB base bundle. When did you move that slider to 25GB?",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:42]",
+      "end_time": "[02:54]",
+      "start_time_sec": 162,
+      "text": "I moved it from 10GB up to 25GB on Sunday evening before she packed for Derbyshire, right after I upgraded my own lead SIM from the 50GB tariff to the 100GB Max Family plan.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:55]",
+      "end_time": "[03:09]",
+      "start_time_sec": 175,
+      "text": "Aha! Upgrading your lead SIM tariff on Sunday evening is a key piece of the puzzle. And just to check one more thing before I open your account: what handset is Zuzanna using, and is she reachable right now?",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:10]",
+      "end_time": "[03:22]",
+      "start_time_sec": 190,
+      "text": "She's using an iPhone 14 running the latest iOS update, and yes, she has strong 4G and 5G signal bars in Castleton—I'm actually messaging her on WhatsApp over her hostel cafe Wi-Fi right now.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:23]",
+      "end_time": "[03:33]",
+      "start_time_sec": 203,
+      "text": "Having her reachable on WhatsApp while we fix this will make live testing much easier. Let's get your account verified now so I can open the billing and provisioning console.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:34]",
+      "end_time": "[03:37]",
+      "start_time_sec": 214,
+      "text": "Of course, go right ahead—what verification details do you need from me?",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:38]",
+      "end_time": "[03:44]",
+      "start_time_sec": 218,
+      "text": "Could you please confirm your home billing address, your four-digit account PIN, and the answer to your memorable security question, Wojciech?",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:45]",
+      "end_time": "[03:52]",
+      "start_time_sec": 225,
+      "text": "Yes, it's 82 Clarendon Road, Leeds, LS2 9NZ. My four-digit PIN is 4826, and the answer to my security question—my first car—is Polonez.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:53]",
+      "end_time": "[04:05]",
+      "start_time_sec": 233,
+      "text": "Thank you very much, Wojciech, that is all verified. I now have your Family Share group table open on my screen, showing your lead number ending in 1102 and Zuzanna's secondary SIM ending in 4409.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:06]",
+      "end_time": "[04:10]",
+      "start_time_sec": 246,
+      "text": "Can you see why her line ending in 4409 isn't pulling from my 100GB pool?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:11]",
+      "end_time": "[04:26]",
+      "start_time_sec": 251,
+      "text": "Yes, I can see the exact mismatch in our Diameter charging engine. When you upgraded your lead SIM ending in 1102 from the 50GB plan to the 100GB Max Family plan on Sunday night, the system generated a new Shared Bucket ID (`SB-99402-B`).",
+      "sentiment_score": 40.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:27]",
+      "end_time": "[04:32]",
+      "start_time_sec": 267,
+      "text": "Okay, so my lead SIM got a brand-new Shared Bucket ID when the 100GB upgrade went through?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:33]",
+      "end_time": "[04:47]",
+      "start_time_sec": 273,
+      "text": "Exactly. Your My S-Net app updated the visual slider for Zuzanna's line 4409 to 25GB, but in the back-end Online Charging System, her MSISDN was still pointing to the retired 50GB bucket ID (`SB-99402-A`), which now has a zero balance.",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:48]",
+      "end_time": "[05:00]",
+      "start_time_sec": 288,
+      "text": "Oh! So when her 2GB base data ran out this afternoon in Castleton, the network looked at the old empty bucket instead of my new 100GB bucket and put the 64kbps speed cap on her line!",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:01]",
+      "end_time": "[05:13]",
+      "start_time_sec": 301,
+      "text": "You've hit the nail on the head, Wojciech. Because the pointer on line 4409 was orphaned on the old bucket ID, the charging gateway thought there was no shared donor data available and triggered the throttle.",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:14]",
+      "end_time": "[05:21]",
+      "start_time_sec": 314,
+      "text": "I'm so glad you spotted that! How do we re-link her SIM to my new `SB-99402-B` bucket and lift that 64kbps throttle?",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:22]",
+      "end_time": "[05:36]",
+      "start_time_sec": 322,
+      "text": "I need to unbind member MSISDN 4409 from the retired group ID in our Online Charging System, bind it to active donor bucket `SB-99402-B` with the 25GB quota reservation, and then send a QoS rate-limit clear command to the packet core.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:37]",
+      "end_time": "[05:42]",
+      "start_time_sec": 337,
+      "text": "Will that wipe out anything on her iPhone 14 or disconnect her voice calls while you run it?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:43]",
+      "end_time": "[05:57]",
+      "start_time_sec": 343,
+      "text": "Her voice line will stay completely active, and nothing on her iPhone 14 will be erased. Once I finish re-binding the bucket and clearing the QoS throttle, she'll just need to toggle Airplane Mode off and on for ten seconds.",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:58]",
+      "end_time": "[06:10]",
+      "start_time_sec": 358,
+      "text": "Before you run the re-bind, let me quickly check what Zuzanna sees on her screen right now—she just sent me a screenshot of her S-Net app showing 'Base Data: 0MB left, Shared Family Data: Not Linked'.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:11]",
+      "end_time": "[06:25]",
+      "start_time_sec": 371,
+      "text": "That screenshot confirms our diagnosis 100 percent—'Shared Family Data: Not Linked' is the exact symptom of an orphaned donor bucket pointer. Let me also check if there are any other secondary SIMs on your family plan affected by the Sunday upgrade.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:26]",
+      "end_time": "[06:35]",
+      "start_time_sec": 386,
+      "text": "Oh, good thinking! My wife has a third SIM on the account ending in 7731, though she mostly uses home Wi-Fi so she hasn't noticed anything yet.",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:36]",
+      "end_time": "[06:50]",
+      "start_time_sec": 396,
+      "text": "Let me inspect line 7731 in the group table while I'm in here... yes, line 7731 with its 15GB allocation was also still pointing to retired bucket `SB-99402-A`! I will re-bind both 4409 and 7731 to `SB-99402-B` at the same time.",
+      "sentiment_score": 46.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:51]",
+      "end_time": "[06:56]",
+      "start_time_sec": 411,
+      "text": "That is brilliant proactive service, Patrick—saving me another phone call next week when my wife travels to York!",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:57]",
+      "end_time": "[07:12]",
+      "start_time_sec": 417,
+      "text": "Always happy to catch that ahead of time, Wojciech. Please bear with me while I re-bind the donor and member MSISDNs in the shared data group and push the QoS unthrottle command through to our 5G packet core.",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:52]",
+      "end_time": "[09:08]",
+      "start_time_sec": 532,
+      "text": "Thank you so much for holding, Wojciech, and thank you for your patience while I completed that provisioning sync. I have re-bound both Zuzanna's line 4409 (with 25GB) and line 7731 (with 15GB) to active bucket `SB-99402-B` and cleared the 64kbps restriction.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:09]",
+      "end_time": "[09:18]",
+      "start_time_sec": 549,
+      "text": "Wonderful! Let me refresh my own My S-Net app first while I message Zuzanna on WhatsApp to toggle Airplane Mode on her iPhone 14.",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:19]",
+      "end_time": "[09:30]",
+      "start_time_sec": 559,
+      "text": "Please do! On your own app under Family Data Manager, you should now see the active pool ID `SB-99402-B` and a fresh sync timestamp next to both secondary numbers.",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:31]",
+      "end_time": "[09:45]",
+      "start_time_sec": 571,
+      "text": "Let me pull down to refresh the Family Data Manager screen... yes! Next to Zuzanna's line 4409 it now says 'Linked to Pool SB-99402-B — 25.0GB Available (QoS Normal)', and my wife's line 7731 shows linked as well!",
+      "sentiment_score": 50.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:46]",
+      "end_time": "[09:55]",
+      "start_time_sec": 586,
+      "text": "That's a great confirmation on your lead account view, Wojciech. Now let's verify what displays on Zuzanna's iPhone 14 in Castleton once she toggles Airplane Mode.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:56]",
+      "end_time": "[10:09]",
+      "start_time_sec": 596,
+      "text": "She says she just turned Airplane Mode on for ten seconds and turned it back off, and she's switched off the hostel cafe Wi-Fi so her iPhone 14 is strictly on S-Net 5G mobile data.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:10]",
+      "end_time": "[10:19]",
+      "start_time_sec": 610,
+      "text": "Perfect—ask her to close and reopen her My S-Net app so we can compare her new balance screen against the 'Not Linked' screenshot she sent earlier.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:20]",
+      "end_time": "[10:33]",
+      "start_time_sec": 620,
+      "text": "Hold on, she's typing on WhatsApp... she just sent me a new screenshot! Her app now says 'Shared Family Data: 25.0 GB remaining (from Wojciech)' and the red 64kbps speed-cap banner has completely vanished!",
+      "sentiment_score": 58.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:34]",
+      "end_time": "[10:43]",
+      "start_time_sec": 634,
+      "text": "Fantastic news! Seeing '25.0 GB remaining (from Wojciech)' directly on her handset confirms the Online Charging System quota reservation is active on her SIM.",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:44]",
+      "end_time": "[10:51]",
+      "start_time_sec": 644,
+      "text": "Wait, she's also testing her university ArcGIS portal right now over 5G to make sure the actual speed is back...",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:52]",
+      "end_time": "[11:01]",
+      "start_time_sec": 652,
+      "text": "Let's wait a moment for her upload test to finish so we're 100 percent certain the packet core bearer speed is running at full rate.",
+      "sentiment_score": 46.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:02]",
+      "end_time": "[11:12]",
+      "start_time_sec": 662,
+      "text": "She says her ArcGIS university survey map just uploaded a forty-megabyte terrain file in about three seconds over 5G! She sent three celebration emojis and says thank you!",
+      "sentiment_score": 62.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:13]",
+      "end_time": "[11:24]",
+      "start_time_sec": 673,
+      "text": "That makes my day, Wojciech! Uploading a forty-megabyte GIS terrain file in three seconds proves the 64kbps throttle is completely gone and her full-speed 5G bearer is working properly.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:25]",
+      "end_time": "[11:39]",
+      "start_time_sec": 685,
+      "text": "I do have one quick question about how the data priority works now—when next month's billing cycle starts on the tenth, does her phone use her own 2GB base plan first or my 25GB shared slice first?",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:40]",
+      "end_time": "[11:56]",
+      "start_time_sec": 700,
+      "text": "Great question. On S-Net Family Share, our charging engine always consumes the member SIM's standalone 2GB base bundle first, and the exact millisecond that hits 0MB, it seamlessly switches over to drawing from your 25GB shared allocation without any drop in speed.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:57]",
+      "end_time": "[12:04]",
+      "start_time_sec": 717,
+      "text": "So she actually gets 27GB in total each month—her 2GB base allowance plus the 25GB shared slice from my 100GB pool?",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:05]",
+      "end_time": "[12:16]",
+      "start_time_sec": 725,
+      "text": "Spot on, 27GB in total! And this recurring 25GB allocation on `SB-99402-B` will carry over automatically every single month on the tenth without you needing to touch the slider.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:17]",
+      "end_time": "[12:24]",
+      "start_time_sec": 737,
+      "text": "What happens if she has a heavy project week and gets close to using up the 25GB shared slice?",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:25]",
+      "end_time": "[12:36]",
+      "start_time_sec": 745,
+      "text": "I have just enabled automated SMS usage notifications at 80 percent (20GB used) and 100 percent (25GB used) that will go to both Zuzanna's line 4409 and your lead line 1102.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:37]",
+      "end_time": "[12:50]",
+      "start_time_sec": 757,
+      "text": "Oh, having an 80-percent alert at 20GB used is really helpful so I can slide her allocation up to 35GB or 40GB from my remaining pool if she ever needs extra during field trips.",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:51]",
+      "end_time": "[13:03]",
+      "start_time_sec": 771,
+      "text": "Exactly—and because both secondary lines 4409 and 7731 are now cleanly bound to `SB-99402-B`, any future slider adjustments you make in the Family Data Manager tab will update on their handsets within seconds.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:04]",
+      "end_time": "[13:08]",
+      "start_time_sec": 784,
+      "text": "And does changing the slider mid-month cost anything extra on my bill?",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:09]",
+      "end_time": "[13:20]",
+      "start_time_sec": 789,
+      "text": "Never a penny extra, Wojciech—you can adjust the Family Share sliders between your linked SIMs as many times as you like during the billing month completely free of charge.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:21]",
+      "end_time": "[13:30]",
+      "start_time_sec": 801,
+      "text": "Have you logged notes on my account about what happened with the bucket ID in case I ever upgrade my lead tariff again in the future?",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:31]",
+      "end_time": "[13:42]",
+      "start_time_sec": 811,
+      "text": "Yes, I have added a permanent technical note under reference FAM-88214 detailing the `SB-99402-B` bucket binding for lines 4409 and 7731, and sent you a confirmation text message as well.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:43]",
+      "end_time": "[13:48]",
+      "start_time_sec": 823,
+      "text": "I just heard my phone chime—the confirmation text with reference FAM-88214 just came through.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:49]",
+      "end_time": "[14:04]",
+      "start_time_sec": 829,
+      "text": "Wonderful! So to recap: both Zuzanna's line 4409 (25GB) and your wife's line 7731 (15GB) are now actively bound to your 100GB Family Share pool `SB-99402-B`, and Zuzanna has confirmed 25GB active and full 5G upload speeds in the Peak District.",
+      "sentiment_score": 50.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:05]",
+      "end_time": "[14:15]",
+      "start_time_sec": 845,
+      "text": "You've been an absolute star today, Patrick. It's rare to get someone who actually looks at the underlying charging table instead of telling me to reinstall the app.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:16]",
+      "end_time": "[14:28]",
+      "start_time_sec": 856,
+      "text": "It has been a pleasure helping you and making sure Zuzanna is sorted for the rest of her university geography trip, Wojciech. Is there anything else I can assist you with today?",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:29]",
+      "end_time": "[14:34]",
+      "start_time_sec": 869,
+      "text": "No, everything is working like clockwork now. Thank you so much for your help.",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:35]",
+      "end_time": "[14:44]",
+      "start_time_sec": 875,
+      "text": "You're most welcome, Wojciech! Thank you for choosing S-Net, and I hope Zuzanna has a brilliant week in the Peak District. Have a wonderful afternoon!",
+      "sentiment_score": 54.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:45]",
+      "end_time": "[14:47]",
+      "start_time_sec": 885,
+      "text": "Thank you Patrick, goodbye!",
+      "sentiment_score": 50.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:48]",
+      "end_time": "[14:50]",
+      "start_time_sec": 888,
+      "text": "Goodbye, take care!",
+      "sentiment_score": 50.0
+    }
+  ]
+}

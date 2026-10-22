@@ -1,0 +1,463 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Dylan",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer technical support, my name is Sophie. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:17]",
+      "end_time": "[00:33]",
+      "start_time_sec": 17,
+      "text": "Hi Sophie. I am tearing my hair out here. My desktop Outlook program suddenly stopped downloading my work emails yesterday. It keeps popping up asking for my password over and over, and rejecting my correct password!",
+      "sentiment_score": -42.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:42]",
+      "end_time": "[00:51]",
+      "start_time_sec": 42,
+      "text": "I can check your email account settings. Let's start with security verification. What is your full name and the billing address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:03]",
+      "start_time_sec": 60,
+      "text": "Dylan Hughes, 88 Cathedral Road, Cardiff, CF11 9LN.",
+      "sentiment_score": -15.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:12]",
+      "end_time": "[01:17]",
+      "start_time_sec": 72,
+      "text": "And what is the four-digit security PIN on your account, Dylan?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:26]",
+      "end_time": "[01:29]",
+      "start_time_sec": 86,
+      "text": "It's 4912.",
+      "sentiment_score": -6.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:38]",
+      "end_time": "[01:44]",
+      "start_time_sec": 98,
+      "text": "Thank you. And which software client and operating system are you having trouble with?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:53]",
+      "end_time": "[01:58]",
+      "start_time_sec": 113,
+      "text": "I am running Microsoft Outlook 2019 on my Windows 11 desktop computer.",
+      "sentiment_score": -4.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:07]",
+      "end_time": "[02:14]",
+      "start_time_sec": 127,
+      "text": "Are you able to log into webmail through your internet browser using that exact same password?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:23]",
+      "end_time": "[02:33]",
+      "start_time_sec": 143,
+      "text": "Yes, I logged into webmail on chrome twenty minutes ago and all my emails are sitting there, but Outlook on my PC rejects it.",
+      "sentiment_score": 3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:42]",
+      "end_time": "[02:51]",
+      "start_time_sec": 162,
+      "text": "Right. S-Net upgraded its email security platform on Monday to mandate two-factor authentication and dedicated App Passwords for third-party mail applications."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:00]",
+      "end_time": "[03:10]",
+      "start_time_sec": 180,
+      "text": "Nobody told me that! I've lost half a day's work trying to send customer estimates because of this surprise change! It is completely unacceptable!",
+      "sentiment_score": -39.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:19]",
+      "end_time": "[03:26]",
+      "start_time_sec": 199,
+      "text": "We sent notification emails to all primary account holders three weeks prior to the migration."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:35]",
+      "end_time": "[03:40]",
+      "start_time_sec": 215,
+      "text": "Well, I never saw it, and now my invoicing is completely stalled.",
+      "sentiment_score": -26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:49]",
+      "end_time": "[03:59]",
+      "start_time_sec": 229,
+      "text": "Obviously third-party email clients like Outlook cannot handle two-factor push prompts directly, which is why a sixteen-character App Password must be generated."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:08]",
+      "end_time": "[04:12]",
+      "start_time_sec": 248,
+      "text": "Fine, how do I generate this App Password then?",
+      "sentiment_score": -12.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:21]",
+      "end_time": "[04:28]",
+      "start_time_sec": 261,
+      "text": "Please open your web browser and go to my dot s-net dot co dot uk."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:37]",
+      "end_time": "[04:40]",
+      "start_time_sec": 277,
+      "text": "Okay, I'm at the login screen.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:49]",
+      "end_time": "[04:54]",
+      "start_time_sec": 289,
+      "text": "Log in with your primary S-Net username and your regular master password."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:03]",
+      "end_time": "[05:06]",
+      "start_time_sec": 303,
+      "text": "Done. I am on the main account dashboard.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:15]",
+      "end_time": "[05:21]",
+      "start_time_sec": 315,
+      "text": "Now click on the 'Security & Privacy' tab along the top navigation bar."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:30]",
+      "end_time": "[05:34]",
+      "start_time_sec": 330,
+      "text": "Clicked. It shows 'Password', 'Two-Factor Authentication', and 'App Passwords'.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:43]",
+      "end_time": "[05:49]",
+      "start_time_sec": 343,
+      "text": "Click on 'Manage App Passwords'. Bear with me while your portal session token authenticates."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:24]",
+      "end_time": "[06:31]",
+      "start_time_sec": 384,
+      "text": "Thank you for waiting, Dylan. Do you see the button that says 'Generate New App Password'?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:40]",
+      "end_time": "[06:43]",
+      "start_time_sec": 400,
+      "text": "Yes, I see the blue button.",
+      "sentiment_score": 5.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:52]",
+      "end_time": "[06:58]",
+      "start_time_sec": 412,
+      "text": "Click that button, and enter the label 'Outlook Desktop' in the friendly name box."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:07]",
+      "end_time": "[07:10]",
+      "start_time_sec": 427,
+      "text": "Typed 'Outlook Desktop'. Now clicking Generate.",
+      "sentiment_score": 7.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:19]",
+      "end_time": "[07:24]",
+      "start_time_sec": 439,
+      "text": "A sixteen-character code grouped in four blocks should appear on your screen."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:33]",
+      "end_time": "[07:37]",
+      "start_time_sec": 453,
+      "text": "Yes, it shows four blocks of four letters with hyphens.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:46]",
+      "end_time": "[07:50]",
+      "start_time_sec": 466,
+      "text": "Click the 'Copy to Clipboard' icon next to it."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:59]",
+      "end_time": "[08:02]",
+      "start_time_sec": 479,
+      "text": "Copied.",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:11]",
+      "end_time": "[08:21]",
+      "start_time_sec": 491,
+      "text": "Now let me check what application you are setting up again. Which email client software and version are you opening on your computer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:30]",
+      "end_time": "[08:36]",
+      "start_time_sec": 510,
+      "text": "As I told you at the beginning, it's Outlook 2019 on Windows 11.",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:45]",
+      "end_time": "[08:48]",
+      "start_time_sec": 525,
+      "text": "Right, open Outlook 2019 on your desktop now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:57]",
+      "end_time": "[09:06]",
+      "start_time_sec": 537,
+      "text": "Outlook is open, and that little prompt box saying 'Enter your password for mail.s-net.co.uk' is sitting right in the center.",
+      "sentiment_score": -5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:15]",
+      "end_time": "[09:23]",
+      "start_time_sec": 555,
+      "text": "Clear out whatever is currently typed in the password field, right-click, and paste that sixteen-character App Password you copied."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:32]",
+      "end_time": "[09:35]",
+      "start_time_sec": 572,
+      "text": "Pasted the new password in.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:44]",
+      "end_time": "[09:50]",
+      "start_time_sec": 584,
+      "text": "Make sure the checkbox that says 'Remember password' is ticked, then click OK."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:59]",
+      "end_time": "[10:02]",
+      "start_time_sec": 599,
+      "text": "Ticked remember password, clicking OK now...",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:13]",
+      "end_time": "[10:20]",
+      "start_time_sec": 613,
+      "text": "Look at the bottom right corner of Outlook. Does it say 'Connected' or 'Send/Receive error'?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:29]",
+      "end_time": "[10:38]",
+      "start_time_sec": 629,
+      "text": "It says 'Connected to: mail.s-net.co.uk'... And the progress bar is moving... Wow, thirty-two new emails just poured into my inbox!",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:47]",
+      "end_time": "[10:54]",
+      "start_time_sec": 647,
+      "text": "While we are in Outlook, what port number is showing under your outgoing server advanced settings?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:03]",
+      "end_time": "[11:06]",
+      "start_time_sec": 663,
+      "text": "It shows port 587 with STARTTLS encryption.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:15]",
+      "end_time": "[11:21]",
+      "start_time_sec": 675,
+      "text": "Perfect, port 587 is our secure authenticated submission port, so that's configured properly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:30]",
+      "end_time": "[11:33]",
+      "start_time_sec": 690,
+      "text": "Great, glad the port settings didn't get scrambled.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:42]",
+      "end_time": "[11:50]",
+      "start_time_sec": 702,
+      "text": "That's fantastic news. Now let's test sending an email to make sure outgoing SMTP authentication is working properly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:59]",
+      "end_time": "[12:04]",
+      "start_time_sec": 719,
+      "text": "Let me send a test message to my personal Gmail account.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:17]",
+      "end_time": "[12:21]",
+      "start_time_sec": 737,
+      "text": "Take your time, let me know when the Outbox clears."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:30]",
+      "end_time": "[12:37]",
+      "start_time_sec": 750,
+      "text": "Sent! Just checked my phone and the test email arrived in my Gmail inbox instantly.",
+      "sentiment_score": 38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:46]",
+      "end_time": "[12:52]",
+      "start_time_sec": 766,
+      "text": "Can you also confirm that your calendar and contacts synced up without error banners?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:01]",
+      "end_time": "[13:06]",
+      "start_time_sec": 781,
+      "text": "Yes, the yellow warning triangle at the bottom has disappeared completely.",
+      "sentiment_score": 29.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:15]",
+      "end_time": "[13:23]",
+      "start_time_sec": 795,
+      "text": "Just to confirm your email address on file, it's dylan dot hughes at s-net dot co dot uk, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:32]",
+      "end_time": "[13:35]",
+      "start_time_sec": 812,
+      "text": "Yes, that's my main address.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:44]",
+      "end_time": "[13:51]",
+      "start_time_sec": 824,
+      "text": "Just to confirm for our ticket notes, the account address is 88 Cathedral Road, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:00]",
+      "end_time": "[14:03]",
+      "start_time_sec": 840,
+      "text": "Yes, 88 Cathedral Road.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:12]",
+      "end_time": "[14:23]",
+      "start_time_sec": 852,
+      "text": "I will leave this ticket reference open in your account notes in case you ever need to generate another token for a tablet or phone."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:32]",
+      "end_time": "[14:35]",
+      "start_time_sec": 872,
+      "text": "That's very helpful, thank you Sophie.",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:44]",
+      "end_time": "[14:51]",
+      "start_time_sec": 884,
+      "text": "Do you have any other technical questions about your email or webmail access today, Dylan?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:00]",
+      "end_time": "[15:07]",
+      "start_time_sec": 900,
+      "text": "No, having Outlook working again saves my workday. Thank you for walking me through that.",
+      "sentiment_score": 25.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:16]",
+      "end_time": "[15:23]",
+      "start_time_sec": 916,
+      "text": "You are very welcome. Thank you for choosing S-Net, Dylan, and have a productive day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:32]",
+      "end_time": "[15:35]",
+      "start_time_sec": 932,
+      "text": "Thank you Sophie, you too. Goodbye.",
+      "sentiment_score": 21.0
+    }
+  ]
+}

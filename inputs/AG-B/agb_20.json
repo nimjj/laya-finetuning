@@ -1,0 +1,456 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Tariq",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer accounts. My name is Julian. How can I assist you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:26]",
+      "start_time_sec": 10,
+      "text": "Hello Julian. I received an email notification yesterday stating that my monthly broadband subscription is increasing by seven pounds and forty pence starting next month, even though I signed an eighteen-month fixed contract.",
+      "sentiment_score": -22.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:43]",
+      "start_time_sec": 29,
+      "text": "I can certainly review your contract billing terms and available renewal options for you, Tariq. Before we inspect your account records, may I please verify your billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:46]",
+      "end_time": "[00:57]",
+      "start_time_sec": 46,
+      "text": "Yes, of course. It is 84 Victoria Park Road, Leicester, LE2 1XD. And the security question answer is my favorite sports team, Leicester City.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:00]",
+      "end_time": "[01:09]",
+      "start_time_sec": 60,
+      "text": "Thank you Tariq, that confirms your account file. What specific broadband plan is shown on your recent invoice?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:12]",
+      "end_time": "[01:30]",
+      "start_time_sec": 72,
+      "text": "It is the Full Fibre 300 package. I am a retired university lecturer on a fixed civil service pension, and with energy bills and council tax rising, having an unexpected seven-pound hike thrust upon me has caused me severe financial anxiety!",
+      "sentiment_score": -44.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:33]",
+      "end_time": "[01:49]",
+      "start_time_sec": 93,
+      "text": "I completely understand how concerning unexpected price rises are when you are managing a fixed monthly retirement budget, Tariq. Let us look closely at your agreement and find a tariff that keeps your costs comfortable."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:52]",
+      "end_time": "[01:57]",
+      "start_time_sec": 112,
+      "text": "Thank you Julian, I appreciate your understanding of my situation.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:00]",
+      "end_time": "[02:20]",
+      "start_time_sec": 120,
+      "text": "So if I have understood correctly, you received an annual price adjustment notice reflecting an increase of seven pounds forty on your Full Fibre 300 package, which conflicts with your expectation of a fixed rate across your contract term, and you would like to explore options to reduce that monthly commitment. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:23]",
+      "end_time": "[02:32]",
+      "start_time_sec": 143,
+      "text": "Yes, exactly. When I signed up last October, the salesperson assured me the price was fixed for eighteen months.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:35]",
+      "end_time": "[02:50]",
+      "start_time_sec": 155,
+      "text": "Looking at your original contract schedule, our terms incorporate an annual contractual price adjustment pegged to the Consumer Price Index plus an additional three point nine percent every April."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:53]",
+      "end_time": "[03:05]",
+      "start_time_sec": 173,
+      "text": "How can S-Net call it an eighteen-month contract if you can unilaterally increase the price after only six months? That feels completely deceptive to consumers.",
+      "sentiment_score": -28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:08]",
+      "end_time": "[03:21]",
+      "start_time_sec": 188,
+      "text": "The annual inflation adjustment is a standard telecommunications industry provision approved by Ofcom and clearly detailed within paragraph eight point four of our terms."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:24]",
+      "end_time": "[03:30]",
+      "start_time_sec": 204,
+      "text": "Nobody reads forty pages of fine print when ordering broadband over the phone!",
+      "sentiment_score": -19.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:33]",
+      "end_time": "[03:48]",
+      "start_time_sec": 213,
+      "text": "I can offer to transition your account to our Full Fibre 150 retention tier immediately at thirty-one pounds a month, which is actually four pounds cheaper than what you pay today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:51]",
+      "end_time": "[03:59]",
+      "start_time_sec": 231,
+      "text": "Wait, before we talk about changing tiers, why did the inflation adjustment get calculated at eleven point nine percent total?",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:02]",
+      "end_time": "[04:15]",
+      "start_time_sec": 242,
+      "text": "The January CPI inflation figure published by the Office for National Statistics was eight percent, and adding three point nine percent yields eleven point nine percent."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:18]",
+      "end_time": "[04:24]",
+      "start_time_sec": 258,
+      "text": "It still feels completely unreasonable for loyal customers who pay on time every month.",
+      "sentiment_score": -16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:27]",
+      "end_time": "[04:38]",
+      "start_time_sec": 267,
+      "text": "If you had bothered to read section 8.4 of your contract agreement, you wouldn't need to ask me why prices rise every single April."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:41]",
+      "end_time": "[04:52]",
+      "start_time_sec": 281,
+      "text": "There is no need to be rude and condescending! I asked a reasonable question about my hard-earned money. Please maintain a professional tone.",
+      "sentiment_score": -38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:55]",
+      "end_time": "[05:04]",
+      "start_time_sec": 295,
+      "text": "I apologize for my phrasing, Tariq. Let us look at the financial options available on your profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:07]",
+      "end_time": "[05:12]",
+      "start_time_sec": 307,
+      "text": "Thank you. Now tell me more about this Full Fibre 150 tier.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:15]",
+      "end_time": "[05:30]",
+      "start_time_sec": 315,
+      "text": "The Full Fibre 150 tier delivers download speeds of one hundred and fifty megabits per second and upload speeds of thirty megabits per second on a new eighteen-month agreement."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:33]",
+      "end_time": "[05:39]",
+      "start_time_sec": 333,
+      "text": "Will 150 megabits be fast enough for high definition streaming and video calling?",
+      "sentiment_score": 8.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:42]",
+      "end_time": "[05:51]",
+      "start_time_sec": 342,
+      "text": "Yes, 150 megabits effortlessly supports multiple simultaneous 4K streams and uninterrupted video calls."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:54]",
+      "end_time": "[05:58]",
+      "start_time_sec": 354,
+      "text": "And the price would be fixed at thirty-one pounds?",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:01]",
+      "end_time": "[06:13]",
+      "start_time_sec": 361,
+      "text": "It would be thirty-one pounds per month, subject to the standard April CPI plus three point nine percent clause in future years."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:16]",
+      "end_time": "[06:23]",
+      "start_time_sec": 376,
+      "text": "At least thirty-one pounds lowers my current monthly outgoings by four pounds immediately.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:26]",
+      "end_time": "[06:34]",
+      "start_time_sec": 386,
+      "text": "It generates an instant annual saving of forty-eight pounds across the first year."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:37]",
+      "end_time": "[06:41]",
+      "start_time_sec": 397,
+      "text": "That definitely helps with my monthly budgeting.",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:44]",
+      "end_time": "[06:53]",
+      "start_time_sec": 404,
+      "text": "Do you also wish to keep your inclusive weekend landline calls package on the contract?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:56]",
+      "end_time": "[07:03]",
+      "start_time_sec": 416,
+      "text": "Yes, my wife uses the landline on Sunday afternoons to speak with her sister in Edinburgh.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:06]",
+      "end_time": "[07:17]",
+      "start_time_sec": 426,
+      "text": "I can bundle the Weekend Calls feature at zero additional cost as part of this loyalty discount package."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:20]",
+      "end_time": "[07:24]",
+      "start_time_sec": 440,
+      "text": "Oh, that is very generous, thank you Julian.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:27]",
+      "end_time": "[07:39]",
+      "start_time_sec": 447,
+      "text": "I will apply the customer retention credit code RET-31-LOYALTY to lock in that thirty-one pound monthly tariff."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:42]",
+      "end_time": "[07:48]",
+      "start_time_sec": 462,
+      "text": "Does this require any new equipment or an engineer visit to our property?",
+      "sentiment_score": 9.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:51]",
+      "end_time": "[08:05]",
+      "start_time_sec": 471,
+      "text": "No engineer visit is needed because your optical ONT unit and S-Net Hub 5 remain completely identical; the speed provisioning updates electronically at midnight."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:08]",
+      "end_time": "[08:14]",
+      "start_time_sec": 488,
+      "text": "That is very seamless. Will I receive a revised contract summary by email?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:17]",
+      "end_time": "[08:29]",
+      "start_time_sec": 497,
+      "text": "Yes, our automated system has just sent a pre-contract information sheet and contract summary to your registered email address."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:32]",
+      "end_time": "[08:43]",
+      "start_time_sec": 512,
+      "text": "Checking my iPad inbox... yes, the S-Net contract confirmation email has arrived showing thirty-one pounds per month including weekend calls.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:46]",
+      "end_time": "[08:58]",
+      "start_time_sec": 526,
+      "text": "Please click the digital acknowledgment link inside that email to confirm your acceptance of the revised eighteen-month term."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:01]",
+      "end_time": "[09:11]",
+      "start_time_sec": 541,
+      "text": "Clicking the green Accept and Confirm button now... the webpage says 'Thank you, your new contract terms are now confirmed'!",
+      "sentiment_score": 38.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:14]",
+      "end_time": "[09:26]",
+      "start_time_sec": 554,
+      "text": "Just to check on your current broadband service, Tariq, is your internet connection and WiFi performing normally across all rooms today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:29]",
+      "end_time": "[09:36]",
+      "start_time_sec": 569,
+      "text": "Yes, the physical fiber connection and WiFi have been working very reliably throughout the house.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:39]",
+      "end_time": "[09:52]",
+      "start_time_sec": 579,
+      "text": "Let us also check your paperless billing preferences to ensure invoice notifications continue arriving by email rather than paper surcharge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:55]",
+      "end_time": "[10:03]",
+      "start_time_sec": 595,
+      "text": "Yes, I prefer email notifications because paper bills cost an extra three pounds per month on the statement.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:06]",
+      "end_time": "[10:15]",
+      "start_time_sec": 606,
+      "text": "Paperless billing is fully active on your profile, so no paper fee will ever be applied."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:18]",
+      "end_time": "[10:21]",
+      "start_time_sec": 618,
+      "text": "That is very good to know.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:24]",
+      "end_time": "[10:37]",
+      "start_time_sec": 624,
+      "text": "Under the UK Direct Debit Guarantee scheme, your payment date remains locked on the first of each month, protected by your bank."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:40]",
+      "end_time": "[10:47]",
+      "start_time_sec": 640,
+      "text": "Having the payment leave on the first aligns perfectly with my civil service pension deposit.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:50]",
+      "end_time": "[10:59]",
+      "start_time_sec": 650,
+      "text": "I have documented the retention package transition and rate adjustment on your account file."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:02]",
+      "end_time": "[11:06]",
+      "start_time_sec": 662,
+      "text": "Thank you for getting the price reduced, Julian.",
+      "sentiment_score": 21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:09]",
+      "end_time": "[11:17]",
+      "start_time_sec": 669,
+      "text": "Your next monthly direct debit will reflect the thirty-one pound amount."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:20]",
+      "end_time": "[11:25]",
+      "start_time_sec": 680,
+      "text": "That gives me much greater peace of mind with my monthly budget.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:28]",
+      "end_time": "[11:38]",
+      "start_time_sec": 688,
+      "text": "Is there anything else regarding your S-Net contract or broadband services that I can assist you with today, Tariq?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:41]",
+      "end_time": "[11:45]",
+      "start_time_sec": 701,
+      "text": "No, that resolves my billing concern completely.",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:48]",
+      "end_time": "[12:00]",
+      "start_time_sec": 708,
+      "text": "You may receive a brief customer satisfaction survey by SMS after this call; we would appreciate any feedback on your experience today."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:02]",
+      "end_time": "[12:06]",
+      "start_time_sec": 722,
+      "text": "I will complete the survey. Good afternoon.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:08]",
+      "end_time": "[12:15]",
+      "start_time_sec": 728,
+      "text": "Thank you for choosing S-Net, Tariq. Have a pleasant afternoon and take care."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:17]",
+      "end_time": "[12:19]",
+      "start_time_sec": 737,
+      "text": "Thank you, goodbye.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

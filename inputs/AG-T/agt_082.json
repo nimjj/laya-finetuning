@@ -1,0 +1,456 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Samira",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net mobile technical faults, my name is Marcus. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:11]",
+   "end_time": "[00:32]",
+   "start_time_sec": 11,
+   "text": "Hello, my name is Samira Khan. Every single time I leave our house while on an active mobile phone call, the voice call cuts off abruptly the exact second my handset disconnects from our home Wi-Fi and attempts to hand over to 4G VoLTE, dropping critical client calls every morning!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:36]",
+   "end_time": "[00:43]",
+   "start_time_sec": 36,
+   "text": "I can inspect your cellular network registration logs. What mobile phone number is experiencing call handover drops?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:47]",
+   "end_time": "[00:53]",
+   "start_time_sec": 47,
+   "text": "It is 07700 900891, registered to 42 Lansdown Road, Cheltenham, GL51 6QJ, security PIN 7712.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:57]",
+   "end_time": "[01:03]",
+   "start_time_sec": 57,
+   "text": "Does the phone drop calls when you are sitting completely still inside your living room?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:07]",
+   "end_time": "[01:22]",
+   "start_time_sec": 67,
+   "text": "No, as I just explained, it happens specifically when walking out the front door as Wi-Fi disconnects and switches to cellular!",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:26]",
+   "end_time": "[01:37]",
+   "start_time_sec": 86,
+   "text": "Could I place you on hold for two minutes while I query the mobile IMS core routing logs?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:02]",
+   "end_time": "[03:16]",
+   "start_time_sec": 182,
+   "text": "Thank you for holding. The network logs show an IMS Session Initiation Protocol timeout during ePDG to eNodeB voice bearer handover."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:20]",
+   "end_time": "[03:32]",
+   "start_time_sec": 200,
+   "text": "Why is the SIP protocol timing out when handing over the voice call?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:36]",
+   "end_time": "[03:48]",
+   "start_time_sec": 216,
+   "text": "Handover latency exceeds standard threshold timers when local cell towers operate with low radio signal-to-noise ratios."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:52]",
+   "end_time": "[04:04]",
+   "start_time_sec": 232,
+   "text": "Can you update our cellular provisioning profile to eliminate the handover delay?",
+   "sentiment_score": -6.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:08]",
+   "end_time": "[04:22]",
+   "start_time_sec": 248,
+   "text": "If you insist on making phone calls while walking through metal-reinforced front porches that shield radio signals, your call is obviously going to drop."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:26]",
+   "end_time": "[04:42]",
+   "start_time_sec": 266,
+   "text": "Our porch is made of standard glass and wood! There is no metal shielding! Why are you inventing excuses instead of fixing the handover?",
+   "sentiment_score": -52.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:46]",
+   "end_time": "[04:57]",
+   "start_time_sec": 286,
+   "text": "I am stating the physics of cellular radio propagation through structural building materials."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:01]",
+   "end_time": "[05:12]",
+   "start_time_sec": 301,
+   "text": "Can you re-provision the VoLTE profile on my SIM card right now?",
+   "sentiment_score": -34.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:52]",
+   "end_time": "[06:02]",
+   "start_time_sec": 352,
+   "text": "VoLTE provisioning updates can be submitted through our radio management gateway."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:06]",
+   "end_time": "[06:20]",
+   "start_time_sec": 366,
+   "text": "Hello? Are you still on the phone? The line went completely silent for over thirty seconds!",
+   "sentiment_score": -28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:24]",
+   "end_time": "[06:34]",
+   "start_time_sec": 384,
+   "text": "I was accessing the regional Cheltenham eNodeB cellular mast configuration."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:38]",
+   "end_time": "[06:41]",
+   "start_time_sec": 398,
+   "text": "Please send that VoLTE profile refresh immediately.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:45]",
+   "end_time": "[06:57]",
+   "start_time_sec": 405,
+   "text": "Obviously Voice over LTE handover requires seamless cryptographic re-keying between Wi-Fi security gateways and cellular towers."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:01]",
+   "end_time": "[07:14]",
+   "start_time_sec": 421,
+   "text": "I know it requires re-keying; that is why I am calling technical support!",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:18]",
+   "end_time": "[07:42]",
+   "start_time_sec": 438,
+   "text": "I am an independent corporate tax attorney, and my call dropped this morning while advising a client on a multi-million-pound merger! The client thought I hung up on them in frustration, the deal was put on hold, and my professional credibility was shredded! Paying sixty pounds a month for a phone that cannot walk out of a front door without dropping calls is disgraceful and terrifying! I am shaking with stress!",
+   "sentiment_score": -68.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:46]",
+   "end_time": "[08:10]",
+   "start_time_sec": 466,
+   "text": "I completely understand the immense professional anxiety, stress, and reputational risk this has caused you with your tax client, especially during multi-million-pound merger negotiations. Having calls drop abruptly when walking out your front door is completely unacceptable, and I will force an immediate IMS voice profile reconfiguration right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:14]",
+   "end_time": "[08:24]",
+   "start_time_sec": 494,
+   "text": "Thank you, please push that reconfiguration right away.",
+   "sentiment_score": -12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:27]",
+   "end_time": "[08:38]",
+   "start_time_sec": 507,
+   "text": "I am transmitting the IMS VoLTE bearer refresh packet to your SIM card."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:41]",
+   "end_time": "[08:53]",
+   "start_time_sec": 521,
+   "text": "The phone signal bars dropped to zero... and now '4G VoLTE' has reappeared.",
+   "sentiment_score": 8.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:56]",
+   "end_time": "[09:06]",
+   "start_time_sec": 536,
+   "text": "The new VoLTE handover profile has been provisioned on the HLR."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:09]",
+   "end_time": "[09:24]",
+   "start_time_sec": 549,
+   "text": "Can we test walking out the front door right now while on this call to verify that the handover works?",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:27]",
+   "end_time": "[09:43]",
+   "start_time_sec": 567,
+   "text": "Because our incoming support line operates across fixed PSTN interconnects, testing a live Wi-Fi to cellular handover will terminate our current active diagnostic call."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:46]",
+   "end_time": "[09:59]",
+   "start_time_sec": 586,
+   "text": "So we cannot verify while on this call whether the handover problem is actually fixed?",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:02]",
+   "end_time": "[10:15]",
+   "start_time_sec": 602,
+   "text": "Correct, you must test placing a test call to an external party after we conclude this diagnostic session."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:18]",
+   "end_time": "[10:31]",
+   "start_time_sec": 618,
+   "text": "I see. So I will have to test it on my own with a friend later.",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:34]",
+   "end_time": "[10:42]",
+   "start_time_sec": 634,
+   "text": "I have logged the VoLTE profile update under ticket reference MOB-VOLTE-88192-K."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:45]",
+   "end_time": "[10:48]",
+   "start_time_sec": 645,
+   "text": "MOB-VOLTE-88192-K, noted down.",
+   "sentiment_score": -4.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:28]",
+   "end_time": "[11:34]",
+   "start_time_sec": 688,
+   "text": "Hello? Marcus? Did the line drop again? Why is there total silence on your end?",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:37]",
+   "end_time": "[11:43]",
+   "start_time_sec": 697,
+   "text": "I am here. I was committing the handover profile parameters to the Cheltenham mast controller."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:46]",
+   "end_time": "[11:49]",
+   "start_time_sec": 706,
+   "text": "I hope that mast update actually solves the drops.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:52]",
+   "end_time": "[12:00]",
+   "start_time_sec": 712,
+   "text": "If drops persist, you can toggle 'Wi-Fi Calling' to OFF in your iPhone settings to force all calls onto cellular."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:03]",
+   "end_time": "[12:09]",
+   "start_time_sec": 723,
+   "text": "Turning off Wi-Fi Calling defeats the purpose of having Wi-Fi calling in our house.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:12]",
+   "end_time": "[12:15]",
+   "start_time_sec": 732,
+   "text": "That is an alternative operational setting."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:18]",
+   "end_time": "[12:21]",
+   "start_time_sec": 738,
+   "text": "I will test walking outside after this call.",
+   "sentiment_score": -6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:24]",
+   "end_time": "[12:28]",
+   "start_time_sec": 744,
+   "text": "I have added a monitoring flag to your cellular line profile."
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:31]",
+   "end_time": "[12:35]",
+   "start_time_sec": 751,
+   "text": "Before we conclude, what was that mobile telephone number again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:38]",
+   "end_time": "[12:44]",
+   "start_time_sec": 758,
+   "text": "As I told you at the start of our call, it is 07700 900891.",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:47]",
+   "end_time": "[12:51]",
+   "start_time_sec": 767,
+   "text": "Thank you, the mobile number is confirmed on the ticket."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:54]",
+   "end_time": "[12:58]",
+   "start_time_sec": 774,
+   "text": "I will place a test call to my colleague now.",
+   "sentiment_score": -4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:01]",
+   "end_time": "[13:06]",
+   "start_time_sec": 781,
+   "text": "I have also applied a five-pound goodwill credit to your mobile account."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:09]",
+   "end_time": "[13:12]",
+   "start_time_sec": 789,
+   "text": "Thank you for the credit.",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:15]",
+   "end_time": "[13:19]",
+   "start_time_sec": 795,
+   "text": "Is there any other mobile query I can assist with today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:22]",
+   "end_time": "[13:25]",
+   "start_time_sec": 802,
+   "text": "No, goodbye.",
+   "sentiment_score": 0.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:28]",
+   "end_time": "[13:31]",
+   "start_time_sec": 808,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:34]",
+   "end_time": "[13:37]",
+   "start_time_sec": 814,
+   "text": "Goodbye.",
+   "sentiment_score": -2.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:40]",
+   "end_time": "[13:43]",
+   "start_time_sec": 820,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:46]",
+   "end_time": "[13:49]",
+   "start_time_sec": 826,
+   "text": "Goodbye.",
+   "sentiment_score": -4.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:52]",
+   "end_time": "[13:55]",
+   "start_time_sec": 832,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:58]",
+   "end_time": "[14:01]",
+   "start_time_sec": 838,
+   "text": "Goodbye.",
+   "sentiment_score": -6.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:04]",
+   "end_time": "[14:07]",
+   "start_time_sec": 844,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:10]",
+   "end_time": "[14:13]",
+   "start_time_sec": 850,
+   "text": "Goodbye.",
+   "sentiment_score": -8.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:16]",
+   "end_time": "[14:19]",
+   "start_time_sec": 856,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:22]",
+   "end_time": "[14:27]",
+   "start_time_sec": 862,
+   "text": "Goodbye.",
+   "sentiment_score": -10.0
+  }
+ ]
+}

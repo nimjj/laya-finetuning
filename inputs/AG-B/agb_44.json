@@ -1,0 +1,494 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Stuart",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:09]",
+      "start_time_sec": 0,
+      "text": "Welcome to broadband customer technical support. My name is Craig. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:16]",
+      "end_time": "[00:42]",
+      "start_time_sec": 16,
+      "text": "Hello Craig. I am calling in absolute terror about my mother's landline and broadband. My eighty-nine-year-old mother lives alone and wears an emergency red pendant alarm around her neck that dials out to social services through the landline telephone socket. Ever since S-Net upgraded our broadband connection three days ago, the emergency alarm base unit has been screeching, flashing red fault lights, and completely failing to connect calls!",
+      "sentiment_score": -32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:49]",
+      "end_time": "[01:04]",
+      "start_time_sec": 49,
+      "text": "I can look into the telephone line diagnostics for you. Can you provide the account customer reference number and the broadband Hub serial number from the label?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:11]",
+      "end_time": "[01:19]",
+      "start_time_sec": 71,
+      "text": "The account reference is ACC-994821 and the Hub serial number is SN-HUB5-882049.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:26]",
+      "end_time": "[01:35]",
+      "start_time_sec": 86,
+      "text": "Thank you, that brings up the line profile on my screen. What is the landline telephone number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:42]",
+      "end_time": "[02:11]",
+      "start_time_sec": 102,
+      "text": "The phone number is 0141 496 0882. Craig, this morning my mother had a severe dizzy spell, collapsed onto the kitchen floor, and pressed her emergency pendant button in sheer panic! But instead of connecting to the medical emergency operator, the alarm base station made a violent screeching noise and gave an engaged tone! She was lying helpless on the cold floor for nearly an hour before a neighbour heard her tapping on the wall! If she had suffered a major stroke or cardiac arrest, she could have died on that floor because S-Net's broadband disabled her lifeline! This is a matter of life and death!",
+      "sentiment_score": -82.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:18]",
+      "end_time": "[02:34]",
+      "start_time_sec": 138,
+      "text": "VDSL high-speed broadband signals transmit high frequencies up to seventeen megahertz along copper telephone lines, which generate acoustic audible hum if unseparated from standard voice frequencies."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:41]",
+      "end_time": "[02:51]",
+      "start_time_sec": 161,
+      "text": "Craig, please understand that my mother could have died! We need to make sure this emergency medical alarm works reliably right this minute!",
+      "sentiment_score": -42.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:58]",
+      "end_time": "[03:20]",
+      "start_time_sec": 178,
+      "text": "So if I understand correctly, your mother's emergency social alarm pendant unit is failing to connect emergency dispatch calls due to severe broadband noise interference on the shared landline socket following the broadband service upgrade. Is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:27]",
+      "end_time": "[03:35]",
+      "start_time_sec": 207,
+      "text": "Yes, that is exactly what happened. The medical unit is a Tunstall Lifeline VI social alarm.",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:42]",
+      "end_time": "[04:00]",
+      "start_time_sec": 222,
+      "text": "S-Net is strictly an internet service provider; medical pendant alarms and warden-call equipment are managed by private care providers and local councils, so S-Net holds zero liability or responsibility for social alarm hardware."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:07]",
+      "end_time": "[04:19]",
+      "start_time_sec": 247,
+      "text": "The alarm unit worked perfectly for four years until S-Net activated this new broadband line! The broadband frequencies are leaking into the phone socket! You cannot just wash your hands of it!",
+      "sentiment_score": -36.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:26]",
+      "end_time": "[04:38]",
+      "start_time_sec": 266,
+      "text": "I am initiating a remote loop resistance and line capacitance test on the copper pair from the local exchange."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:45]",
+      "end_time": "[04:50]",
+      "start_time_sec": 285,
+      "text": "What do the electrical line test results indicate?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:57]",
+      "end_time": "[05:11]",
+      "start_time_sec": 297,
+      "text": "The automated line test reports an impedance imbalance and high radio frequency bleed across the analogue lower band."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:18]",
+      "end_time": "[05:23]",
+      "start_time_sec": 318,
+      "text": "What causes that radio frequency bleed on the line?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:30]",
+      "end_time": "[05:46]",
+      "start_time_sec": 330,
+      "text": "Standard plug-in microfilter dongles often suffer capacitive degradation, allowing VDSL high frequencies to saturate the analogue modem in the alarm base unit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:53]",
+      "end_time": "[06:00]",
+      "start_time_sec": 353,
+      "text": "So the alarm modem is being blinded by broadband noise whenever the router transmits data?",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:07]",
+      "end_time": "[06:22]",
+      "start_time_sec": 367,
+      "text": "The VDSL transmission tones flood the dial tone detection frequency, preventing the alarm dialer from recognizing the line signal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:29]",
+      "end_time": "[06:37]",
+      "start_time_sec": 389,
+      "text": "That explains why the alarm unit was screeching and giving an engaged signal when my mother pressed her button!",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:44]",
+      "end_time": "[07:01]",
+      "start_time_sec": 404,
+      "text": "Fitting a hardwired Openreach interstitial filtered master socket faceplate isolates high-frequency broadband signals completely from the analogue telephone circuits."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:08]",
+      "end_time": "[07:16]",
+      "start_time_sec": 428,
+      "text": "Does that hardwired faceplate have separate dedicated ports for the router and the medical alarm?",
+      "sentiment_score": 19.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:23]",
+      "end_time": "[07:41]",
+      "start_time_sec": 443,
+      "text": "An Openreach Master Socket 5C faceplate features an isolated top RJ11 port for the VDSL router and a bottom filtered BS6312 socket for analogue telecare devices."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:48]",
+      "end_time": "[07:55]",
+      "start_time_sec": 468,
+      "text": "Can you book an engineer to come out and install that filtered faceplate immediately?",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:02]",
+      "end_time": "[08:14]",
+      "start_time_sec": 482,
+      "text": "I can schedule an Openreach special fault engineer appointment under vulnerable telecare priority."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:21]",
+      "end_time": "[08:26]",
+      "start_time_sec": 501,
+      "text": "When is the earliest possible appointment slot available?",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:33]",
+      "end_time": "[08:46]",
+      "start_time_sec": 513,
+      "text": "The earliest available emergency telecare engineering appointment is tomorrow morning between eight o'clock and one o'clock."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:53]",
+      "end_time": "[09:01]",
+      "start_time_sec": 533,
+      "text": "Tomorrow morning between eight and one works perfectly. I will stay at my mother's flat to let the engineer in.",
+      "sentiment_score": 26.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:08]",
+      "end_time": "[09:17]",
+      "start_time_sec": 548,
+      "text": "The booking reference for the telecare socket upgrade is ENG-883912."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:24]",
+      "end_time": "[09:28]",
+      "start_time_sec": 564,
+      "text": "I have written down ENG-883912.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:35]",
+      "end_time": "[09:50]",
+      "start_time_sec": 575,
+      "text": "The engineer will replace the front plate of the master socket and verify signal separation with a hand-held golden modem tester."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:57]",
+      "end_time": "[10:04]",
+      "start_time_sec": 597,
+      "text": "What should we do tonight to keep my mother safe until the engineer arrives tomorrow?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:11]",
+      "end_time": "[10:26]",
+      "start_time_sec": 611,
+      "text": "Unplugging the grey broadband DSL cable from the wall socket tonight restores pure analogue copper continuity for the alarm dialer."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:33]",
+      "end_time": "[10:41]",
+      "start_time_sec": 633,
+      "text": "So if we disconnect the router until tomorrow, the pendant alarm will work normally without interference?",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:48]",
+      "end_time": "[11:03]",
+      "start_time_sec": 648,
+      "text": "Obviously with the router powered off, zero high-frequency modulation exists on the copper pair to disrupt analogue telecare calls."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:10]",
+      "end_time": "[11:17]",
+      "start_time_sec": 670,
+      "text": "I will unplug the router immediately so my mother's alarm is fully operational tonight.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:24]",
+      "end_time": "[11:39]",
+      "start_time_sec": 684,
+      "text": "Let us also check the electrical ring main circuit near the socket to ensure no switch-mode chargers are generating electromagnetic noise."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:46]",
+      "end_time": "[11:54]",
+      "start_time_sec": 706,
+      "text": "There are no mobile phone chargers near the master socket; only the Tunstall base unit is plugged in.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:01]",
+      "end_time": "[12:15]",
+      "start_time_sec": 721,
+      "text": "Let us check the REN loading factor on the telephone line to make sure total connected ringer equivalence remains under four."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:22]",
+      "end_time": "[12:29]",
+      "start_time_sec": 742,
+      "text": "Only the Tunstall unit and one corded telephone are plugged in, so REN is around two.",
+      "sentiment_score": 24.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:36]",
+      "end_time": "[12:48]",
+      "start_time_sec": 756,
+      "text": "Total REN load of two leaves adequate electrical ringing current for social alarm triggering."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:55]",
+      "end_time": "[12:59]",
+      "start_time_sec": 775,
+      "text": "That is good to know.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:06]",
+      "end_time": "[13:19]",
+      "start_time_sec": 786,
+      "text": "Let us review the priority flags on the customer account to add a permanent Telecare User designation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:26]",
+      "end_time": "[13:34]",
+      "start_time_sec": 806,
+      "text": "Yes, please add that flag so all future support agents know this line has life-critical equipment.",
+      "sentiment_score": 29.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:41]",
+      "end_time": "[13:53]",
+      "start_time_sec": 821,
+      "text": "The telecare safety tag prevents automated network re-profiles from disrupting line stability."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:00]",
+      "end_time": "[14:04]",
+      "start_time_sec": 840,
+      "text": "That provides great reassurance.",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:11]",
+      "end_time": "[14:25]",
+      "start_time_sec": 851,
+      "text": "Let us confirm the contact telephone number for the Openreach engineer to send arrival text notifications tomorrow morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:32]",
+      "end_time": "[14:38]",
+      "start_time_sec": 872,
+      "text": "The best mobile contact number is my mobile: 07700 900512.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:45]",
+      "end_time": "[14:58]",
+      "start_time_sec": 885,
+      "text": "I have set 07700 900512 as the primary mobile for Openreach engineer tracking and arrival alerts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:05]",
+      "end_time": "[15:10]",
+      "start_time_sec": 905,
+      "text": "Will the engineer phone thirty minutes prior to arrival?",
+      "sentiment_score": 19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:17]",
+      "end_time": "[15:33]",
+      "start_time_sec": 917,
+      "text": "The engineer sends an SMS message upon dispatch from the previous job and places a direct phone call approximately twenty minutes before arrival."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:40]",
+      "end_time": "[15:45]",
+      "start_time_sec": 940,
+      "text": "That will give me plenty of time to be at the door.",
+      "sentiment_score": 26.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:52]",
+      "end_time": "[16:07]",
+      "start_time_sec": 952,
+      "text": "The engineer will also inspect the external drop-wire and junction box to ensure no corrosion degrades copper conductivity."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:14]",
+      "end_time": "[16:20]",
+      "start_time_sec": 974,
+      "text": "The external drop-wire was replaced two years ago and looks brand new.",
+      "sentiment_score": 22.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:27]",
+      "end_time": "[16:37]",
+      "start_time_sec": 987,
+      "text": "Clean external wiring ensures maximum noise rejection across all frequencies."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:44]",
+      "end_time": "[16:49]",
+      "start_time_sec": 1004,
+      "text": "I am glad we are getting the master socket properly filtered.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:56]",
+      "end_time": "[17:10]",
+      "start_time_sec": 1016,
+      "text": "Let us also check whether the alarm base unit battery backup is holding a charge in case of mains power failure."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:17]",
+      "end_time": "[17:24]",
+      "start_time_sec": 1037,
+      "text": "The Tunstall unit green battery light is on and shows healthy battery condition.",
+      "sentiment_score": 26.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:31]",
+      "end_time": "[17:45]",
+      "start_time_sec": 1051,
+      "text": "Just to reconfirm, the telecare equipment installed is the Tunstall Lifeline VI social alarm base unit under appointment ENG-883912."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:52]",
+      "end_time": "[17:58]",
+      "start_time_sec": 1072,
+      "text": "Yes, Tunstall Lifeline VI under ENG-883912. That is correct.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:05]",
+      "end_time": "[18:19]",
+      "start_time_sec": 1085,
+      "text": "The engineer work order explicitly notes telecare model Tunstall Lifeline VI and master socket faceplate installation."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:26]",
+      "end_time": "[18:31]",
+      "start_time_sec": 1106,
+      "text": "Thank you Craig, that covers the booking details.",
+      "sentiment_score": 38.4
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:38]",
+      "end_time": "[18:46]",
+      "start_time_sec": 1118,
+      "text": "Wait, Craig, once the engineer finishes tomorrow, how do we properly trigger a test alarm call to verify dispatch without...",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:53]",
+      "end_time": "[18:59]",
+      "start_time_sec": 1133,
+      "text": "The engineer will test it. Have a good day. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:06]",
+      "end_time": "[19:12]",
+      "start_time_sec": 1146,
+      "text": "Hello? Craig? He disconnected while I was asking how to test the alarm! Unbelievable!",
+      "sentiment_score": -28.4
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Sabrina",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net customer billing resolutions, my name is Fiona. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:10]",
+   "end_time": "[00:32]",
+   "start_time_sec": 10,
+   "text": "Hello Fiona, my name is Sabrina Clark. My October broadband bill includes a fifty-pound engineer callout fee, but when the Openreach engineer attended two weeks ago, he confirmed in writing that the fault was water ingress inside the street footway joint box, which is external network infrastructure and explicitly free of charge!",
+   "sentiment_score": -34.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:35]",
+   "end_time": "[00:56]",
+   "start_time_sec": 35,
+   "text": "Good afternoon Sabrina. If I understand correctly, your October statement includes a fifty-pound engineer callout charge despite the engineer confirming the fault was external water ingress in a street joint box. Before we inspect your engineering ledger, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:59]",
+   "end_time": "[01:05]",
+   "start_time_sec": 59,
+   "text": "Yes, it is 12 Victoria Parade, Harrogate, HG1 5AA, security PIN 4491, customer account BB-991204.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:08]",
+   "end_time": "[01:14]",
+   "start_time_sec": 68,
+   "text": "Thank you Sabrina, that confirms your account details. What date was the engineer visit completed?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:17]",
+   "end_time": "[01:29]",
+   "start_time_sec": 77,
+   "text": "The technician attended on September 28th between nine and eleven in the morning.",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:32]",
+   "end_time": "[01:44]",
+   "start_time_sec": 92,
+   "text": "Could I place you on hold for two minutes while I query the Openreach contractor closure code and billing notes?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:09]",
+   "end_time": "[03:25]",
+   "start_time_sec": 189,
+   "text": "Thank you for holding, Sabrina. The engineering closure report confirms that the technician logged closure code EXT-JOINT-WTR, which designates external street infrastructure water damage."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:28]",
+   "end_time": "[03:43]",
+   "start_time_sec": 208,
+   "text": "So why did your billing system charge me fifty pounds if the code proves it was an external street fault?",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:46]",
+   "end_time": "[04:01]",
+   "start_time_sec": 226,
+   "text": "When the automated invoice generated, the billing system incorrectly mapped the job to code MISC-CHARGE-50 due to a clerical typo by the contractor dispatcher."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:04]",
+   "end_time": "[04:17]",
+   "start_time_sec": 244,
+   "text": "Can you reverse the fifty-pound fee and remove it from my direct debit today?",
+   "sentiment_score": -8.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:19]",
+   "end_time": "[04:29]",
+   "start_time_sec": 259,
+   "text": "I can submit a formal billing dispute credit request for fifty pounds to our finance team."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:31]",
+   "end_time": "[04:44]",
+   "start_time_sec": 271,
+   "text": "Why does an obvious clerical typo require a dispute request instead of an immediate refund?",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:46]",
+   "end_time": "[04:59]",
+   "start_time_sec": 286,
+   "text": "Charges over thirty pounds that have already locked into automated Bacs direct debit cycles require supervisor audit approval."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:01]",
+   "end_time": "[05:13]",
+   "start_time_sec": 301,
+   "text": "How long will it take for the supervisor to approve the fifty-pound credit?",
+   "sentiment_score": -12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:15]",
+   "end_time": "[05:26]",
+   "start_time_sec": 315,
+   "text": "Supervisor billing audits take between three and five business days to clear."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:28]",
+   "end_time": "[05:40]",
+   "start_time_sec": 328,
+   "text": "Will the fifty pounds still be debited from my account on Friday?",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:42]",
+   "end_time": "[06:01]",
+   "start_time_sec": 342,
+   "text": "Because Friday's direct debit file has already transmitted to the clearing house, the full payment will be drawn and the fifty pounds will be returned as an immediate bank credit upon approval."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:03]",
+   "end_time": "[06:15]",
+   "start_time_sec": 363,
+   "text": "I see. As long as the fifty pounds is definitely returned to my account.",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:17]",
+   "end_time": "[06:27]",
+   "start_time_sec": 377,
+   "text": "Obviously automated direct debit clearing batches cannot be modified once transmitted to Bacs."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:29]",
+   "end_time": "[06:32]",
+   "start_time_sec": 389,
+   "text": "Right, I understand the banking transmission cutoff.",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:34]",
+   "end_time": "[06:58]",
+   "start_time_sec": 394,
+   "text": "Sabrina speaking, I took a half-day unpaid off work to wait for that engineer, I sat in a freezing house for three hours, and then your company slaps a fifty-pound penalty on my bill for a flooded street junction! It feels like S-Net tries to charge customers for Openreach's rotting infrastructure and hopes we won't notice! It is infuriating and completely unfair!",
+   "sentiment_score": -64.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:00]",
+   "end_time": "[07:24]",
+   "start_time_sec": 420,
+   "text": "I completely understand how unfair and infuriating that feels, Sabrina, especially after losing half a day's wages from work and sitting in the cold waiting for the repair. You should never have been charged fifty pounds for external street maintenance, and I will personally track this refund until every penny is safely returned to your bank account."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:26]",
+   "end_time": "[07:37]",
+   "start_time_sec": 446,
+   "text": "Thank you Fiona, I appreciate your honesty and reassurance.",
+   "sentiment_score": -4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:39]",
+   "end_time": "[07:49]",
+   "start_time_sec": 459,
+   "text": "I have logged the fifty-pound credit under finance reference CR-88192-S."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:51]",
+   "end_time": "[07:54]",
+   "start_time_sec": 471,
+   "text": "CR-88192-S, noted down.",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:56]",
+   "end_time": "[08:10]",
+   "start_time_sec": 476,
+   "text": "I have also attached a digital copy of the engineer's handwritten job sheet stating external water ingress to the audit file."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:12]",
+   "end_time": "[08:23]",
+   "start_time_sec": 492,
+   "text": "That will make the approval completely open and shut.",
+   "sentiment_score": 12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:25]",
+   "end_time": "[08:37]",
+   "start_time_sec": 505,
+   "text": "I am adding an alert to my personal diary to follow up with the finance supervisor on Monday morning."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:39]",
+   "end_time": "[08:50]",
+   "start_time_sec": 519,
+   "text": "Thank you, that gives me great confidence it won't be forgotten.",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:52]",
+   "end_time": "[09:03]",
+   "start_time_sec": 532,
+   "text": "Once approved, the fifty-pound credit will transfer directly back into your Santander account."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:05]",
+   "end_time": "[09:09]",
+   "start_time_sec": 545,
+   "text": "Will I receive an email confirmation once the supervisor signs off?",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:11]",
+   "end_time": "[09:16]",
+   "start_time_sec": 551,
+   "text": "Yes, an automated remittance advice email will be dispatched to your registered address."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:18]",
+   "end_time": "[09:22]",
+   "start_time_sec": 558,
+   "text": "Excellent. And there are no other unexpected charges on the account?",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:24]",
+   "end_time": "[09:30]",
+   "start_time_sec": 564,
+   "text": "Your recurring monthly subscription remains fixed at thirty-five pounds per month with zero additional fees."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:32]",
+   "end_time": "[09:35]",
+   "start_time_sec": 572,
+   "text": "That matches our original contract agreement.",
+   "sentiment_score": 26.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:37]",
+   "end_time": "[09:43]",
+   "start_time_sec": 577,
+   "text": "I have also applied a five-pound courtesy credit to your account for the billing inconvenience."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:45]",
+   "end_time": "[09:48]",
+   "start_time_sec": 585,
+   "text": "Thank you Fiona, that is very generous of you.",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:50]",
+   "end_time": "[09:54]",
+   "start_time_sec": 590,
+   "text": "Our priority is ensuring that contractor billing errors are corrected transparently."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:56]",
+   "end_time": "[09:59]",
+   "start_time_sec": 596,
+   "text": "You have handled this call with great professionalism.",
+   "sentiment_score": 30.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:01]",
+   "end_time": "[10:06]",
+   "start_time_sec": 601,
+   "text": "Thank you Sabrina, I am glad I could assist in rectifying the charge."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:08]",
+   "end_time": "[10:13]",
+   "start_time_sec": 608,
+   "text": "So the credit is logged, and I will wait for Monday's update.",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:15]",
+   "end_time": "[10:19]",
+   "start_time_sec": 615,
+   "text": "Before we conclude, what was that customer account reference again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:21]",
+   "end_time": "[10:26]",
+   "start_time_sec": 621,
+   "text": "As I told you at the start of our call, it is BB-991204.",
+   "sentiment_score": -10.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:28]",
+   "end_time": "[10:33]",
+   "start_time_sec": 628,
+   "text": "Thank you Sabrina, the account reference is permanently linked to the refund request."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:35]",
+   "end_time": "[10:38]",
+   "start_time_sec": 635,
+   "text": "Thank you for all your help today, Fiona.",
+   "sentiment_score": 26.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:40]",
+   "end_time": "[10:45]",
+   "start_time_sec": 640,
+   "text": "It has been my pleasure assisting you, Sabrina. Have a wonderful weekend."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:47]",
+   "end_time": "[10:50]",
+   "start_time_sec": 647,
+   "text": "Have a lovely weekend too. Goodbye.",
+   "sentiment_score": 24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:52]",
+   "end_time": "[10:57]",
+   "start_time_sec": 652,
+   "text": "Is there any other billing query I can assist you with today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:59]",
+   "end_time": "[11:02]",
+   "start_time_sec": 659,
+   "text": "No Fiona, that covers everything.",
+   "sentiment_score": 20.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:04]",
+   "end_time": "[11:08]",
+   "start_time_sec": 664,
+   "text": "Thank you for calling S-Net customer billing resolutions, Sabrina. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:10]",
+   "end_time": "[11:13]",
+   "start_time_sec": 670,
+   "text": "Goodbye Fiona.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:15]",
+   "end_time": "[11:18]",
+   "start_time_sec": 675,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:20]",
+   "end_time": "[11:23]",
+   "start_time_sec": 680,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:25]",
+   "end_time": "[11:28]",
+   "start_time_sec": 685,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:30]",
+   "end_time": "[11:33]",
+   "start_time_sec": 690,
+   "text": "Goodbye.",
+   "sentiment_score": 10.0
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:35]",
+   "end_time": "[11:38]",
+   "start_time_sec": 695,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:40]",
+   "end_time": "[11:45]",
+   "start_time_sec": 700,
+   "text": "Goodbye.",
+   "sentiment_score": 6.0
+  }
+ ]
+}

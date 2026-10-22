@@ -1,0 +1,197 @@
+{
+  "call_id": "agb_41",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 46.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "coaching": "Agent left two unmanaged silences exceeding 30 seconds (42s at [02:30] and 45s at [09:15]) without hold announcements or thanks."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Agent never addressed the customer by his verified name 'Owen' anywhere during the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "Agent offered zero restatement of customer's corporate VPN drops, responding only with technical encapsulation commands."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "Agent insulted customer's corporate IT department, stating they had no business configuring VPN tunnels if they didn't know packet fragmentation."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Agent asked zero diagnostic questions regarding VPN protocol, encapsulation headers, or ping packet sizes before prescribing MTU changes."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Agent abruptly terminated the call while customer was in mid-sentence asking how colleagues could resolve identical VPN drops."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Work-from-home corporate VPN dropping sessions; router MTU packet size lowered to 1420 bytes; agent never uses customer name, leaves two silences > 30s, offers zero paraphrasing, insults corporate IT department, asks zero probing questions, and hangs up abruptly",
+    "tier": "fair",
+    "duration_sec": 1095,
+    "notes": "The agent resolved intermittent Cisco AnyConnect VPN tunnel drops by reducing the router Maximum Transmission Unit packet size from 1500 to 1420 bytes to prevent encapsulation fragmentation. However, the agent failed Personalized Call by never addressing the customer by 'Owen', failed Hold Time and Dead Air by leaving two unmanaged silences > 30s (42s at [02:30] and 45s at [09:15]), failed Paraphrasing by offering zero restatement of the VPN issue, failed Build Rapport and Observed Professionalism at minute 9 by insulting the customer's corporate IT department ('If your corporate IT department doesn't even know how IP packet fragmentation works, they have no business configuring enterprise VPN tunnels'), failed Probing by asking zero diagnostic questions regarding VPN protocol, encapsulation headers, or ping packet sizes, and failed Confirmed Resolved by abruptly terminating the call while Owen was asking follow-up questions.",
+    "hard_cases": [
+      "Paraphrasing",
+      "Build rapport and observed professionalism",
+      "Active listening",
+      "Hold time and Dead Air"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent left an unmanaged silence of 42 seconds at [02:30] while querying TR-069 management console, and a second unmanaged silence of 45 seconds at [09:15] while applying router MTU changes."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent never used the customer's name 'Owen' across any turn in the call."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent gave no restatement of customer's VPN dropout problem statement, moving directly to router console."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[16:40] Agent accurately recalled MTU value 1420 bytes and verified Gigabit Ethernet dock connection without redundant re-asking."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[06:45] Agent: 'If your corporate IT department doesn't even know how IP packet fragmentation works, they have no business configuring enterprise VPN tunnels.' - Unprofessional and disparaging remark."
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Agent asked zero probing questions regarding VPN protocol type (IPsec vs SSL), MTU packet size thresholds, or whether MTU clamping was enabled on client software."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[18:25] Agent abruptly ended call while customer was asking about colleague settings, cutting him off mid-sentence."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 60
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "rude",
+          "agent_turn": 20
+        },
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 32
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 5,
+          "agent_turn": 6,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

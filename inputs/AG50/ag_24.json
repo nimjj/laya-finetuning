@@ -1,0 +1,654 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Anusha",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Good morning, thank you for calling S-Net Mobile Support. My name is Megan. How can I help you today?",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:12]",
+      "end_time": "[00:23]",
+      "start_time_sec": 12,
+      "text": "Hi Megan, I'm Anusha. My voicemail box locked itself after I typed the wrong four-digit passcode three times, and I'm waiting for an urgent hospital cardiology clinic message.",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:37]",
+      "start_time_sec": 29,
+      "text": "Oh Anusha, I am so sorry you are dealing with that! I completely understand how stressful being locked out is.",
+      "sentiment_score": 58.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:42]",
+      "end_time": "[00:48]",
+      "start_time_sec": 42,
+      "text": "Thank you, Megan. The hospital switchboard rang at 8:45 AM while I was in the shower.",
+      "sentiment_score": -25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:52]",
+      "end_time": "[01:03]",
+      "start_time_sec": 52,
+      "text": "Okay Anusha, so your voicemail box locked itself after you typed the wrong four-digit passcode three times, and you're waiting for an urgent hospital cardiology clinic message.",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:09]",
+      "end_time": "[01:15]",
+      "start_time_sec": 69,
+      "text": "Yes, when I dial 121 now, an automated voice says my mailbox access is suspended.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:19]",
+      "end_time": "[01:25]",
+      "start_time_sec": 79,
+      "text": "Please don't worry, Anusha—a voicemail passcode lockout never deletes any unread messages sitting in your inbox.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:29]",
+      "end_time": "[01:35]",
+      "start_time_sec": 89,
+      "text": "Oh thank goodness! I was terrified resetting the code would wipe out the doctor's recording.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:39]",
+      "end_time": "[01:45]",
+      "start_time_sec": 99,
+      "text": "It is completely safe. Clearing the security lockout only resets your four-digit voicemail passcode.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:49]",
+      "end_time": "[01:55]",
+      "start_time_sec": 109,
+      "text": "That is such a relief to hear. Can we unlock the mailbox right now?",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:59]",
+      "end_time": "[02:06]",
+      "start_time_sec": 119,
+      "text": "Yes, we can unlock it right on this call. Let me ask a few quick diagnostic questions first.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:11]",
+      "end_time": "[02:13]",
+      "start_time_sec": 131,
+      "text": "Sure, go right ahead.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:16]",
+      "end_time": "[02:21]",
+      "start_time_sec": 136,
+      "text": "What make and model of mobile handset are you using today, Anusha?",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:25]",
+      "end_time": "[02:28]",
+      "start_time_sec": 145,
+      "text": "I am using a Samsung Galaxy S23.",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:31]",
+      "end_time": "[02:37]",
+      "start_time_sec": 151,
+      "text": "Are you currently dialling 121 over the mobile network signal or over Wi-Fi Calling?",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:41]",
+      "end_time": "[02:47]",
+      "start_time_sec": 161,
+      "text": "Both 5G mobile signal and Wi-Fi Calling are switched on right now at home.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:51]",
+      "end_time": "[02:56]",
+      "start_time_sec": 171,
+      "text": "Does the suspension voice prompt disconnect the call immediately after reading the message?",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:00]",
+      "end_time": "[03:05]",
+      "start_time_sec": 180,
+      "text": "Yes, it reads out the suspension notice twice and disconnects the call automatically.",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:09]",
+      "end_time": "[03:14]",
+      "start_time_sec": 189,
+      "text": "Have you swapped your physical SIM card or moved to an eSIM recently?",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:18]",
+      "end_time": "[03:24]",
+      "start_time_sec": 198,
+      "text": "No, I have had this same S-Net physical SIM card for over a year.",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:28]",
+      "end_time": "[03:32]",
+      "start_time_sec": 208,
+      "text": "When did you last update your four-digit voicemail passcode?",
+      "sentiment_score": 42.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:36]",
+      "end_time": "[03:41]",
+      "start_time_sec": 216,
+      "text": "About a month ago, and I mixed up the last two digits.",
+      "sentiment_score": 5.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:45]",
+      "end_time": "[03:51]",
+      "start_time_sec": 225,
+      "text": "Is the tape-reel voicemail icon showing at the top of your Samsung Galaxy S23?",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:55]",
+      "end_time": "[04:00]",
+      "start_time_sec": 235,
+      "text": "Yes, the tape-reel icon popped up at 8:46 AM and is still there.",
+      "sentiment_score": 12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:04]",
+      "end_time": "[04:09]",
+      "start_time_sec": 244,
+      "text": "Great, that confirms the hospital recording is sitting safely in your inbox.",
+      "sentiment_score": 50.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:13]",
+      "end_time": "[04:17]",
+      "start_time_sec": 253,
+      "text": "Wonderful, how do we reset the voicemail passcode now?",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:21]",
+      "end_time": "[04:29]",
+      "start_time_sec": 261,
+      "text": "Before I reset the mailbox on the switch, can you confirm your home address and account PIN for security?",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:34]",
+      "end_time": "[04:41]",
+      "start_time_sec": 274,
+      "text": "Yes, my home address is 62 Clarendon Park Road, Leicester, LE2 3AD, and my account PIN is 8426.",
+      "sentiment_score": 20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:46]",
+      "end_time": "[04:55]",
+      "start_time_sec": 286,
+      "text": "Thank you, Anusha, and could you also confirm the answer to your security question, which is the name of your first primary school?",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:00]",
+      "end_time": "[05:02]",
+      "start_time_sec": 300,
+      "text": "That is Stoneygate Primary School.",
+      "sentiment_score": 22.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:05]",
+      "end_time": "[05:16]",
+      "start_time_sec": 305,
+      "text": "Thank you very much, that is all verified. I have opened your mobile profile on our IMS Voicemail Server, and it shows `LOCK_STATUS: HARD_LOCK_3_STRIKES` logged at 08:49 AM.",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:22]",
+      "end_time": "[05:31]",
+      "start_time_sec": 322,
+      "text": "Yes, 8:49 AM was right when I made the third attempt! Can you see how many unread messages are stored inside the mailbox?",
+      "sentiment_score": 25.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:36]",
+      "end_time": "[05:46]",
+      "start_time_sec": 336,
+      "text": "Yes! I can see `UNREAD_VOICE_MESSAGES: 1`, recorded today at 08:46:12 AM, with an audio length of 48 seconds—and your three saved messages are untouched too.",
+      "sentiment_score": 56.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:51]",
+      "end_time": "[05:59]",
+      "start_time_sec": 351,
+      "text": "Forty-eight seconds—that will have all the appointment details from the cardiology coordinator. How do we unlock it without touching that recording?",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:04]",
+      "end_time": "[06:15]",
+      "start_time_sec": 364,
+      "text": "I am going to execute a `VM_AUTH_CLEAR` command on our mobile voice switch, which clears the three-strike lockout flag and assigns a temporary four-digit passcode of `1999`.",
+      "sentiment_score": 50.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:21]",
+      "end_time": "[06:29]",
+      "start_time_sec": 381,
+      "text": "Okay, and once I dial 121 and enter `1999`, will it let me play the 48-second hospital message straight away?",
+      "sentiment_score": 28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:34]",
+      "end_time": "[06:48]",
+      "start_time_sec": 394,
+      "text": "As soon as you key in `1999`, the automated tutorial will ask you to enter a new four-digit voicemail passcode of your choice followed by hash, and then it will play your unread message immediately.",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:55]",
+      "end_time": "[06:59]",
+      "start_time_sec": 415,
+      "text": "That sounds very straightforward. Let's do that right now.",
+      "sentiment_score": 30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:03]",
+      "end_time": "[07:14]",
+      "start_time_sec": 423,
+      "text": "Please bear with me for just over a minute while I execute the security token reset on the IMS voicemail switch and resynchronise your SIM profile, Anusha.",
+      "sentiment_score": 50.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:28]",
+      "end_time": "[08:38]",
+      "start_time_sec": 508,
+      "text": "Thank you so much for holding, Anusha. The `HARD_LOCK_3_STRIKES` flag has now been cleared on the switch, and your temporary voicemail passcode is active as `1999`.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:43]",
+      "end_time": "[08:53]",
+      "start_time_sec": 523,
+      "text": "Thank you, Megan! Should I try dialling 121 on speakerphone right now while I have you on the line to make sure it works?",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:58]",
+      "end_time": "[09:12]",
+      "start_time_sec": 538,
+      "text": "Yes please, Anusha! Because your Samsung Galaxy S23 supports VoLTE multi-call hold, you can put our call on speaker and tap 'Add Call' to dial 121 right now while I stay on the line.",
+      "sentiment_score": 56.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:19]",
+      "end_time": "[09:27]",
+      "start_time_sec": 559,
+      "text": "Okay, I am tapping 'Add Call' on my Samsung screen and dialling 121 now... it is ringing the voicemail platform.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:32]",
+      "end_time": "[09:42]",
+      "start_time_sec": 572,
+      "text": "Take your time, Anusha, I am staying right here on the line until you have listened to the hospital message and written everything down.",
+      "sentiment_score": 54.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:47]",
+      "end_time": "[10:00]",
+      "start_time_sec": 587,
+      "text": "It is asking me for my temporary passcode now... I am typing `1999` followed by the hash key... oh brilliant, it accepted it and is asking me to choose a new four-digit code!",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:06]",
+      "end_time": "[10:16]",
+      "start_time_sec": 606,
+      "text": "Fantastic! Key in a memorable four-digit number that isn't four identical digits like `1111` or sequential like `1234`, and then press the hash key.",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:21]",
+      "end_time": "[10:32]",
+      "start_time_sec": 621,
+      "text": "Okay, I just entered my new four-digit code and pressed hash... it asked me to repeat it to confirm... and now it says my new code is saved!",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:38]",
+      "end_time": "[10:44]",
+      "start_time_sec": 638,
+      "text": "Wonderful! Has it started reading out the timestamp of the new message from 8:46 AM?",
+      "sentiment_score": 56.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:48]",
+      "end_time": "[10:56]",
+      "start_time_sec": 648,
+      "text": "Yes, it says 'First unread message, received today at 8:46 AM'... hold on while I listen to the audio recording.",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:01]",
+      "end_time": "[11:09]",
+      "start_time_sec": 661,
+      "text": "Go right ahead, there is no rush at all—make sure you get the doctor's name, clinic room, and phone extension.",
+      "sentiment_score": 58.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:14]",
+      "end_time": "[11:25]",
+      "start_time_sec": 674,
+      "text": "Listening now... okay, it is Dr Patel's cardiology secretary at Glenfield Hospital offering me a cancellation slot for my echocardiogram tomorrow morning at 10:30 AM in Clinic B!",
+      "sentiment_score": 62.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:31]",
+      "end_time": "[11:42]",
+      "start_time_sec": 691,
+      "text": "Oh Anusha, I am so glad we got you into that voicemail box in time so you didn't miss out on a cancellation slot for tomorrow morning!",
+      "sentiment_score": 60.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:48]",
+      "end_time": "[12:00]",
+      "start_time_sec": 708,
+      "text": "She said I need to ring extension 4419 before 12:00 noon today to confirm I'm taking the 10:30 AM slot, so getting this unlocked right now has genuinely saved my appointment.",
+      "sentiment_score": 65.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:06]",
+      "end_time": "[12:17]",
+      "start_time_sec": 726,
+      "text": "Did you want to replay the message once more to double-check the extension number, or press 2 on your keypad to archive it in your saved folder?",
+      "sentiment_score": 56.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:23]",
+      "end_time": "[12:34]",
+      "start_time_sec": 743,
+      "text": "I just pressed 2 on the keypad and the voice confirmed the message is saved in my archive for thirty days. I've ended the 121 call now.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:40]",
+      "end_time": "[12:50]",
+      "start_time_sec": 760,
+      "text": "I can see on the IMS voicemail console that the recording has moved from Unread to Saved Archive and the tape-reel notification flag has cleared cleanly.",
+      "sentiment_score": 56.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:55]",
+      "end_time": "[13:02]",
+      "start_time_sec": 775,
+      "text": "Yes, the little tape-reel icon at the top of my Samsung screen has just vanished as well.",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:07]",
+      "end_time": "[13:19]",
+      "start_time_sec": 787,
+      "text": "To stop this ever happening again when you are in a rush, Anusha, I have also enabled a free feature on your S-Net mobile profile called Voicemail-to-Text SMS Alert.",
+      "sentiment_score": 56.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:25]",
+      "end_time": "[13:31]",
+      "start_time_sec": 805,
+      "text": "Oh, what does Voicemail-to-Text SMS Alert do? Does it transcribe the audio into a text message?",
+      "sentiment_score": 45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:35]",
+      "end_time": "[13:49]",
+      "start_time_sec": 815,
+      "text": "Yes! Whenever anyone leaves you a voicemail in the future, our system will automatically send an SMS text message to your Samsung Galaxy S23 with the caller's number and a written transcript of the recording.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:56]",
+      "end_time": "[14:07]",
+      "start_time_sec": 836,
+      "text": "Wait, so even if I can't dial 121 straight away, I will still be able to read what the hospital or caller says in a text message?",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:13]",
+      "end_time": "[14:24]",
+      "start_time_sec": 853,
+      "text": "Exactly right! And I have also switched your mailbox from High-Security Prompt Mode to Home Network Auto-Login so it is much easier when calling from your own handset.",
+      "sentiment_score": 58.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:30]",
+      "end_time": "[14:35]",
+      "start_time_sec": 870,
+      "text": "What is the difference between High-Security Prompt Mode and Home Network Auto-Login?",
+      "sentiment_score": 48.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:39]",
+      "end_time": "[14:51]",
+      "start_time_sec": 879,
+      "text": "When you dial 121 directly from your own Samsung Galaxy S23 on the S-Net UK network, it will take you straight into your messages without asking for a four-digit code.",
+      "sentiment_score": 56.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:57]",
+      "end_time": "[15:07]",
+      "start_time_sec": 897,
+      "text": "That is so much better, Megan! I never understood why it asked me for a code when calling from my own biometric-locked phone anyway.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:12]",
+      "end_time": "[15:23]",
+      "start_time_sec": 912,
+      "text": "Your new four-digit code will still protect your mailbox if you ever dial in from a landline or when roaming abroad, so your medical messages stay completely private.",
+      "sentiment_score": 54.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:29]",
+      "end_time": "[15:37]",
+      "start_time_sec": 929,
+      "text": "That is the best of both worlds—instant access from my mobile at home in Leicester and still protected from external lines.",
+      "sentiment_score": 56.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:42]",
+      "end_time": "[15:52]",
+      "start_time_sec": 942,
+      "text": "I have also extended the automatic retention period on your Saved Archive folder from thirty days to ninety days so your hospital recordings won't expire automatically.",
+      "sentiment_score": 55.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:57]",
+      "end_time": "[16:05]",
+      "start_time_sec": 957,
+      "text": "Oh, ninety days retention is really helpful in case I need to play the appointment instructions back to my husband tonight.",
+      "sentiment_score": 54.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:10]",
+      "end_time": "[16:25]",
+      "start_time_sec": 970,
+      "text": "And if you ever want to forward a saved voicemail audio clip to your email or save it as an MP3 on your Samsung Galaxy S23, you can also view it inside the S-Net Mobile Visual Voicemail tab.",
+      "sentiment_score": 56.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:32]",
+      "end_time": "[16:41]",
+      "start_time_sec": 992,
+      "text": "I didn't know the S-Net app had a Visual Voicemail tab! Let me check if it shows up on my Samsung screen.",
+      "sentiment_score": 52.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:46]",
+      "end_time": "[17:00]",
+      "start_time_sec": 1006,
+      "text": "I have just activated Visual Voicemail provisioning on your line as well, so if you open the S-Net app or the native Samsung Phone app tab, your saved 48-second recording will appear right there.",
+      "sentiment_score": 58.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:07]",
+      "end_time": "[17:18]",
+      "start_time_sec": 1027,
+      "text": "Oh wow, I just opened the Voicemail tab in the Samsung Phone app and I can see the 48-second audio bar from 08:46 AM with a play button!",
+      "sentiment_score": 60.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:24]",
+      "end_time": "[17:33]",
+      "start_time_sec": 1044,
+      "text": "That way you can scrub back and forth through the audio on screen with your finger without even needing to dial 121.",
+      "sentiment_score": 58.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:38]",
+      "end_time": "[17:50]",
+      "start_time_sec": 1058,
+      "text": "And I just got the confirmation text message from S-Net with my new voicemail settings summary as well. You have been so kind and patient with me this morning, Megan.",
+      "sentiment_score": 62.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:56]",
+      "end_time": "[18:08]",
+      "start_time_sec": 1076,
+      "text": "It has been my absolute pleasure, Anusha. Just to confirm, is your voicemail box completely unlocked now and have you been able to retrieve and save your hospital clinic message?",
+      "sentiment_score": 58.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:14]",
+      "end_time": "[18:26]",
+      "start_time_sec": 1094,
+      "text": "Yes, my voicemail is completely unlocked, I have got all the details from the cardiology clinic message, and I'm ready to ring Dr Patel's secretary on extension 4419 now.",
+      "sentiment_score": 65.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:32]",
+      "end_time": "[18:42]",
+      "start_time_sec": 1112,
+      "text": "I hope everything goes really well with your echocardiogram appointment at Glenfield Hospital tomorrow morning, Anusha. Is there anything else I can help you with today?",
+      "sentiment_score": 60.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:47]",
+      "end_time": "[18:51]",
+      "start_time_sec": 1127,
+      "text": "Nothing else at all, thank you so much for everything, Megan.",
+      "sentiment_score": 62.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:55]",
+      "end_time": "[19:03]",
+      "start_time_sec": 1135,
+      "text": "Thank you for choosing S-Net, Anusha. Take good care of yourself and have a lovely rest of your day, goodbye!",
+      "sentiment_score": 60.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:08]",
+      "end_time": "[19:10]",
+      "start_time_sec": 1148,
+      "text": "Goodbye Megan!",
+      "sentiment_score": 58.0
+    }
+  ]
+}

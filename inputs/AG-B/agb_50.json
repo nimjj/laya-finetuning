@@ -1,0 +1,486 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Zachary",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:10]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer billing and account services. My name is Liam. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:17]",
+      "end_time": "[00:42]",
+      "start_time_sec": 17,
+      "text": "Hello Liam. I am calling to dispute an outrageous and completely unjustified twelve-pound late payment administration fee that S-Net added to my monthly broadband statement this morning. I made our monthly broadband payment on Friday before the bank holiday weekend, but S-Net's automated billing system failed to process the transaction until Tuesday and penalized me with a late penalty fee!",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:49]",
+      "end_time": "[01:06]",
+      "start_time_sec": 49,
+      "text": "I can certainly look into that late payment charge for you, Zachary. Before we query the automated billing ledger, may I please verify your full billing address and your security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:13]",
+      "end_time": "[01:27]",
+      "start_time_sec": 73,
+      "text": "Yes, it is 88 Queens Road, Bristol, BS8 1QU. My security question answer is my favourite film, Casablanca. And my bank payment transaction reference is BACS-7749102.",
+      "sentiment_score": 1.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:34]",
+      "end_time": "[01:44]",
+      "start_time_sec": 94,
+      "text": "Thank you Zachary, that verifies the billing file. What is the customer account reference number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:51]",
+      "end_time": "[02:20]",
+      "start_time_sec": 111,
+      "text": "The account reference is ACC-339108. Liam, I have been a loyal, uninterrupted S-Net customer for twelve years and I have never missed a single payment deadline in over a decade! I deliberately logged into my online banking at nine o'clock on Friday morning before the Easter bank holiday, transferred the full fifty-four pounds, and received instant confirmation from Barclays Bank! Slapping a twelve-pound penalty fee onto a loyal pensioner's account simply because banks take three business days to clear holiday funds is predatory, greedy, and feels like extortion! I am absolutely furious!",
+      "sentiment_score": -84.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:27]",
+      "end_time": "[02:52]",
+      "start_time_sec": 147,
+      "text": "I completely understand your acute frustration and anger at seeing an unfair twelve-pound late payment fee when you made the bank transfer in good faith on Friday morning, and having your twelve-year flawless loyalty penalized due to bank holiday clearing delays is unacceptable, so let us review the exact BACS timestamp and remove that penalty charge immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:59]",
+      "end_time": "[03:07]",
+      "start_time_sec": 179,
+      "text": "Thank you Liam, I really appreciate you recognizing that I paid on time.",
+      "sentiment_score": 18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:14]",
+      "end_time": "[03:27]",
+      "start_time_sec": 194,
+      "text": "I am opening the automated payment reconciliation ledger on our Oracle billing platform."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:34]",
+      "end_time": "[03:40]",
+      "start_time_sec": 214,
+      "text": "What does the transaction ledger record show?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:47]",
+      "end_time": "[04:03]",
+      "start_time_sec": 227,
+      "text": "At what exact time on Friday morning did your Barclays banking app show the electronic transfer leaving your checking account, Zachary?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:10]",
+      "end_time": "[04:19]",
+      "start_time_sec": 250,
+      "text": "The banking receipt shows Friday morning at 09:14 AM with payment reference BACS-7749102.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:26]",
+      "end_time": "[04:42]",
+      "start_time_sec": 266,
+      "text": "Our payment clearing gateway records incoming Faster Payments funds settlement on Tuesday morning at 06:30 AM following the holiday."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:49]",
+      "end_time": "[04:58]",
+      "start_time_sec": 289,
+      "text": "So because the automated billing cutoff occurred at midnight on Monday, the system triggered an automated penalty?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:05]",
+      "end_time": "[05:18]",
+      "start_time_sec": 305,
+      "text": "Did you receive an automated SMS payment reminder on Monday afternoon prior to the billing cutoff, Zachary?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:25]",
+      "end_time": "[05:31]",
+      "start_time_sec": 325,
+      "text": "No, I never received any text reminder or warning message at all.",
+      "sentiment_score": 4.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:38]",
+      "end_time": "[05:50]",
+      "start_time_sec": 338,
+      "text": "The automated billing batch processor flagged the account as overdue at 00:01 AM on Tuesday."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:57]",
+      "end_time": "[06:05]",
+      "start_time_sec": 357,
+      "text": "That proves the computer algorithm penalized me six hours before your bank processed the deposit!",
+      "sentiment_score": -18.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:12]",
+      "end_time": "[06:25]",
+      "start_time_sec": 372,
+      "text": "Automated billing rules apply administrative fees whenever cleared funds are not posted by invoice due dates."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:32]",
+      "end_time": "[06:44]",
+      "start_time_sec": 392,
+      "text": "That is absurd! You cannot punish customers for the UK banking system being closed on Easter Monday! Any reasonable person knows banks don't settle on bank holidays!",
+      "sentiment_score": -42.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:51]",
+      "end_time": "[07:05]",
+      "start_time_sec": 411,
+      "text": "Are you really too stupid to understand how bank clearing cycles work?! If you want weekend processing, set up a Direct Debit!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:12]",
+      "end_time": "[07:32]",
+      "start_time_sec": 432,
+      "text": "Did you just call me 'stupid'?! You insolent, abusive child! I am a seventy-five-year-old retired university professor! Calling a loyal customer stupid over your company's incompetent billing software is completely intolerable! I demand your employee identification number and your department director's name right now!",
+      "sentiment_score": -96.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:39]",
+      "end_time": "[07:54]",
+      "start_time_sec": 459,
+      "text": "I apologize, Zachary. That comment was completely unacceptable. My employee ID is SNET-7782. Let me immediately rectify the charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:01]",
+      "end_time": "[08:09]",
+      "start_time_sec": 481,
+      "text": "You will be hearing about this from executive management. Reverse that twelve-pound fee immediately!",
+      "sentiment_score": -58.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:16]",
+      "end_time": "[08:31]",
+      "start_time_sec": 496,
+      "text": "I will take direct personal ownership of this dispute, Zachary, and execute an immediate twelve-pound fee reversal credit onto your account ledger."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:38]",
+      "end_time": "[08:44]",
+      "start_time_sec": 518,
+      "text": "Process the reversal right now so I can see zero balance.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:51]",
+      "end_time": "[09:03]",
+      "start_time_sec": 531,
+      "text": "What was the banking payment transaction reference number from your Barclays transfer receipt, Zachary?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:10]",
+      "end_time": "[09:23]",
+      "start_time_sec": 550,
+      "text": "Liam, as I explicitly stated at the start, the reference is BACS-7749102! Why do you keep asking me to repeat reference numbers that I already gave you?",
+      "sentiment_score": -34.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:30]",
+      "end_time": "[09:41]",
+      "start_time_sec": 570,
+      "text": "I apologize, Zachary, I had to locate the manual ledger adjustment override field."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:48]",
+      "end_time": "[09:53]",
+      "start_time_sec": 588,
+      "text": "Please listen carefully to the information provided.",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:00]",
+      "end_time": "[10:12]",
+      "start_time_sec": 600,
+      "text": "I have entered manual fee adjustment code REV-LATE-FEE for the amount of twelve pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:19]",
+      "end_time": "[10:24]",
+      "start_time_sec": 619,
+      "text": "Does the system show the twelve pounds wiped out?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:31]",
+      "end_time": "[10:44]",
+      "start_time_sec": 631,
+      "text": "Obviously posting code REV-LATE-FEE zeroes out the administration penalty balance immediately, Zachary."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:51]",
+      "end_time": "[10:57]",
+      "start_time_sec": 651,
+      "text": "Let me refresh my S-Net online billing portal account page.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:04]",
+      "end_time": "[11:16]",
+      "start_time_sec": 664,
+      "text": "Your current ledger balance now displays zero pounds and zero pence with zero arrears."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:23]",
+      "end_time": "[11:30]",
+      "start_time_sec": 683,
+      "text": "Yes, the balance is showing zero pounds. The twelve-pound charge has disappeared.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:37]",
+      "end_time": "[11:51]",
+      "start_time_sec": 697,
+      "text": "Let us also check your credit bureau reporting profile to verify that zero negative remarks were logged."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:58]",
+      "end_time": "[12:05]",
+      "start_time_sec": 718,
+      "text": "That is critical because I will not tolerate any blemish on my perfect credit score.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:12]",
+      "end_time": "[12:29]",
+      "start_time_sec": 732,
+      "text": "I have confirmed that zero credit bureau reporting flags exist; your payment history remains recorded as one hundred percent on-time and in good standing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:36]",
+      "end_time": "[12:41]",
+      "start_time_sec": 756,
+      "text": "That is a huge relief for my financial records.",
+      "sentiment_score": 34.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:48]",
+      "end_time": "[13:02]",
+      "start_time_sec": 768,
+      "text": "Let us set up an automated five-day grace period on your account for future bank holiday weekends, Zachary."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:09]",
+      "end_time": "[13:14]",
+      "start_time_sec": 789,
+      "text": "How does that five-day grace period work?",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:21]",
+      "end_time": "[13:36]",
+      "start_time_sec": 801,
+      "text": "The grace period marker prevents automated late fee triggers for five working days after any calendar invoice due date."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:43]",
+      "end_time": "[13:50]",
+      "start_time_sec": 823,
+      "text": "That will completely prevent this bank holiday clearing delay from ever reoccurring.",
+      "sentiment_score": 38.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:57]",
+      "end_time": "[14:08]",
+      "start_time_sec": 837,
+      "text": "I have permanently activated the five-day payment grace window on your account file."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:15]",
+      "end_time": "[14:20]",
+      "start_time_sec": 855,
+      "text": "Thank you, that is a very sensible solution.",
+      "sentiment_score": 32.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:27]",
+      "end_time": "[14:43]",
+      "start_time_sec": 867,
+      "text": "Let us also look at enrolling in monthly Direct Debit so payment transfers execute automatically without requiring manual banking app actions."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:50]",
+      "end_time": "[14:58]",
+      "start_time_sec": 890,
+      "text": "I prefer manual transfers so I maintain control over my bank balance, but I appreciate the explanation.",
+      "sentiment_score": 24.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:05]",
+      "end_time": "[15:17]",
+      "start_time_sec": 905,
+      "text": "We will maintain your preferred manual payment method with the new grace window enabled, Zachary."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:24]",
+      "end_time": "[15:28]",
+      "start_time_sec": 924,
+      "text": "That suits me very well.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:35]",
+      "end_time": "[15:50]",
+      "start_time_sec": 935,
+      "text": "Let us also apply a courtesy loyalty credit of ten pounds to your next monthly bill in recognition of twelve years of continuous service."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:57]",
+      "end_time": "[16:03]",
+      "start_time_sec": 957,
+      "text": "A ten-pound loyalty credit is very kind and appreciated.",
+      "sentiment_score": 36.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:10]",
+      "end_time": "[16:23]",
+      "start_time_sec": 970,
+      "text": "I have posted the ten-pound loyalty courtesy credit to your next invoice under credit reference CRED-881902."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:30]",
+      "end_time": "[16:35]",
+      "start_time_sec": 990,
+      "text": "Credit reference CRED-881902 noted.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:42]",
+      "end_time": "[16:55]",
+      "start_time_sec": 1002,
+      "text": "The credit will automatically reduce your May statement from fifty-four pounds down to forty-four pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:02]",
+      "end_time": "[17:07]",
+      "start_time_sec": 1022,
+      "text": "That will be a nice saving on our next bill.",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:14]",
+      "end_time": "[17:27]",
+      "start_time_sec": 1034,
+      "text": "Let us check your registered email address to ensure you receive updated statement confirmation receipts."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:34]",
+      "end_time": "[17:41]",
+      "start_time_sec": 1054,
+      "text": "The updated statement receipt showing zero balance just arrived in my inbox.",
+      "sentiment_score": 36.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:48]",
+      "end_time": "[18:02]",
+      "start_time_sec": 1068,
+      "text": "Just to reconfirm, the BACS payment receipt reference is BACS-7749102 and your balance is fully settled at zero."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:09]",
+      "end_time": "[18:16]",
+      "start_time_sec": 1089,
+      "text": "Yes, BACS-7749102 and zero balance. That is completely correct.",
+      "sentiment_score": 38.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[18:23]",
+      "end_time": "[18:41]",
+      "start_time_sec": 1103,
+      "text": "I am pleased we have reversed the twelve-pound late fee, protected your credit standing, and applied the courtesy credit. Have I answered all of your questions and completely resolved your billing dispute today, Zachary?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:48]",
+      "end_time": "[18:58]",
+      "start_time_sec": 1128,
+      "text": "Yes Liam, you resolved the dispute completely, although your earlier remark calling me stupid was completely uncalled for. Thank you for sorting the ledger.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[19:05]",
+      "end_time": "[19:13]",
+      "start_time_sec": 1145,
+      "text": "Thank you for choosing S-Net. Have a wonderful day. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[19:20]",
+      "end_time": "[19:25]",
+      "start_time_sec": 1160,
+      "text": "Goodbye Liam, thank you for your help.",
+      "sentiment_score": 8.4
+    }
+  ]
+}

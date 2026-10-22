@@ -1,0 +1,426 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Harper",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer billing, my name is Emma. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:12]",
+      "end_time": "[00:30]",
+      "start_time_sec": 12,
+      "text": "Hello Emma. I've just started a new job where I get paid on the twenty-sixth of the month, and I'd like to adjust my direct debit payment date from the twelfth to the twenty-eighth so my bills align cleanly with my payday.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:35]",
+      "end_time": "[00:50]",
+      "start_time_sec": 35,
+      "text": "I would be more than happy to help you adjust your direct debit schedule, Harper. Congratulations on the new role! Let me start with security verification. What is your full name and billing address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:55]",
+      "end_time": "[00:58]",
+      "start_time_sec": 55,
+      "text": "Harper Evans, 51 Church Street, Chester, CH1 2DJ.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:03]",
+      "end_time": "[01:07]",
+      "start_time_sec": 63,
+      "text": "And what is the security PIN on your account, Harper?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:12]",
+      "end_time": "[01:15]",
+      "start_time_sec": 72,
+      "text": "It's 1492.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:20]",
+      "end_time": "[01:37]",
+      "start_time_sec": 80,
+      "text": "Thank you Harper, verification is complete. So what I understand is you want to change your recurring direct debit collection date from the twelfth of each month to the twenty-eighth to match your new employer's payday, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:42]",
+      "end_time": "[01:50]",
+      "start_time_sec": 102,
+      "text": "Yes, exactly. I want to make sure I don't get any failed payment fees while transitioning between pay dates.",
+      "sentiment_score": 6.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:55]",
+      "end_time": "[02:01]",
+      "start_time_sec": 115,
+      "text": "What bank or building society is your existing direct debit mandate registered with?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:06]",
+      "end_time": "[02:09]",
+      "start_time_sec": 126,
+      "text": "It is with Barclays Bank, sort code 20-24-00.",
+      "sentiment_score": 5.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:14]",
+      "end_time": "[02:21]",
+      "start_time_sec": 134,
+      "text": "And would you like the new payment date to take effect starting with your upcoming November invoice?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:26]",
+      "end_time": "[02:29]",
+      "start_time_sec": 146,
+      "text": "Yes please, starting in November would be ideal.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:34]",
+      "end_time": "[02:41]",
+      "start_time_sec": 154,
+      "text": "Bear with me for a moment while I access the BACS mandate scheduler in our billing portal."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:16]",
+      "end_time": "[03:22]",
+      "start_time_sec": 196,
+      "text": "Thank you for waiting, Harper. I am in the automated payment schedule manager."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:27]",
+      "end_time": "[03:33]",
+      "start_time_sec": 207,
+      "text": "Will changing the date cause an unusually large bill due to pro-rata days?",
+      "sentiment_score": -4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:38]",
+      "end_time": "[03:53]",
+      "start_time_sec": 218,
+      "text": "That's a very sensible question. Because we are moving your billing cycle sixteen days later in the month, your November statement will show a small pro-rata adjustment for those extra sixteen days of broadband service."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:58]",
+      "end_time": "[04:02]",
+      "start_time_sec": 238,
+      "text": "How much will that extra sixteen-day charge be approximately?",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:07]",
+      "end_time": "[04:22]",
+      "start_time_sec": 247,
+      "text": "Your monthly plan is thirty pounds, so sixteen days works out to exactly sixteen pounds, meaning your November invoice will be forty-six pounds, and subsequent months will revert to thirty pounds on the twenty-eighth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:27]",
+      "end_time": "[04:32]",
+      "start_time_sec": 267,
+      "text": "That makes total sense and is very easy to budget for.",
+      "sentiment_score": 14.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:37]",
+      "end_time": "[04:43]",
+      "start_time_sec": 277,
+      "text": "I will take direct ownership of submitting the BACS mandate modification right now."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:48]",
+      "end_time": "[04:55]",
+      "start_time_sec": 288,
+      "text": "While we are on your billing preferences, are you currently opted into paperless billing via PDF email?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:00]",
+      "end_time": "[05:04]",
+      "start_time_sec": 300,
+      "text": "Yes, paperless billing is much more convenient for me.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:09]",
+      "end_time": "[05:16]",
+      "start_time_sec": 309,
+      "text": "And would you like an SMS payment reminder dispatched three days before each direct debit collection?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:21]",
+      "end_time": "[05:28]",
+      "start_time_sec": 321,
+      "text": "That would actually be really useful just as a quick heads up on payday weekend.",
+      "sentiment_score": 16.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:33]",
+      "end_time": "[05:39]",
+      "start_time_sec": 333,
+      "text": "I have enabled our free SMS billing reminder service for your mobile number."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:44]",
+      "end_time": "[05:47]",
+      "start_time_sec": 344,
+      "text": "That's fantastic, thank you.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:52]",
+      "end_time": "[05:59]",
+      "start_time_sec": 352,
+      "text": "And you can download VAT receipts directly from the billing archive on our mobile app anytime."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:04]",
+      "end_time": "[06:08]",
+      "start_time_sec": 364,
+      "text": "Good to know if I ever need proof of address.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:13]",
+      "end_time": "[06:18]",
+      "start_time_sec": 373,
+      "text": "And your contract renewal date remains unchanged in March twenty twenty-seven."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:23]",
+      "end_time": "[06:26]",
+      "start_time_sec": 383,
+      "text": "Great, no change to contract length.",
+      "sentiment_score": 10.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:31]",
+      "end_time": "[06:41]",
+      "start_time_sec": 391,
+      "text": "And if the twenty-eighth ever falls on a bank holiday or weekend, BACS rules state the payment will process on the following Monday."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:46]",
+      "end_time": "[06:49]",
+      "start_time_sec": 406,
+      "text": "Understood, standard banking clearing rules apply.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:54]",
+      "end_time": "[07:05]",
+      "start_time_sec": 414,
+      "text": "And if you ever need to change your bank details in future, you can do that directly inside the My S-Net portal under Payment Methods."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:10]",
+      "end_time": "[07:15]",
+      "start_time_sec": 430,
+      "text": "Good to know I don't necessarily have to call in every time.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:20]",
+      "end_time": "[07:26]",
+      "start_time_sec": 440,
+      "text": "Yes, the self-service portal handles direct debit swaps securely in about sixty seconds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:31]",
+      "end_time": "[07:34]",
+      "start_time_sec": 451,
+      "text": "That's very convenient.",
+      "sentiment_score": 10.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:39]",
+      "end_time": "[07:44]",
+      "start_time_sec": 459,
+      "text": "And our direct debit guarantee protects all payments against any unauthorized charges."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:49]",
+      "end_time": "[07:52]",
+      "start_time_sec": 469,
+      "text": "The Direct Debit Guarantee is always reassuring.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:57]",
+      "end_time": "[08:00]",
+      "start_time_sec": 477,
+      "text": "Thank you Emma.",
+      "sentiment_score": 10.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:05]",
+      "end_time": "[08:14]",
+      "start_time_sec": 485,
+      "text": "Just confirming before I commit the change, the direct debit is drawn from your Barclays account ending in 4920, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:19]",
+      "end_time": "[08:22]",
+      "start_time_sec": 499,
+      "text": "Yes, account ending in 4920.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:27]",
+      "end_time": "[08:33]",
+      "start_time_sec": 507,
+      "text": "Submitting BACS change request... The schedule modification has been accepted with BACS reference BAC-88219."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:38]",
+      "end_time": "[08:42]",
+      "start_time_sec": 518,
+      "text": "Has the direct debit date updated in the system?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:47]",
+      "end_time": "[08:54]",
+      "start_time_sec": 527,
+      "text": "Yes, your recurring collection date is now set to the twenty-eighth of every calendar month."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:59]",
+      "end_time": "[09:03]",
+      "start_time_sec": 539,
+      "text": "Will I receive written confirmation of this direct debit change?",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:08]",
+      "end_time": "[09:18]",
+      "start_time_sec": 548,
+      "text": "Obviously BACS regulations require us to send a formal Direct Debit Advance Notice letter, which has just been dispatched to your email address."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:23]",
+      "end_time": "[09:27]",
+      "start_time_sec": 563,
+      "text": "Let me check my email on my phone right now.",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:38]",
+      "end_time": "[09:48]",
+      "start_time_sec": 578,
+      "text": "Yes! The email from S-Net Billing just arrived: 'Notice of Direct Debit Schedule Change - New collection date 28th of the month'.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:53]",
+      "end_time": "[10:00]",
+      "start_time_sec": 593,
+      "text": "And you can see that the new collection date of twenty-eighth is confirmed on that notice?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:05]",
+      "end_time": "[10:10]",
+      "start_time_sec": 605,
+      "text": "Yes, it shows the Barclays mandate and the 28th collection date clearly.",
+      "sentiment_score": 36.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:15]",
+      "end_time": "[10:21]",
+      "start_time_sec": 615,
+      "text": "Just to confirm your contact telephone number on file, it's 07700 900628, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:26]",
+      "end_time": "[10:29]",
+      "start_time_sec": 626,
+      "text": "Yes, that's my mobile number.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:34]",
+      "end_time": "[10:42]",
+      "start_time_sec": 634,
+      "text": "Is there anything else with your bills or broadband contract that I can assist you with today, Harper?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:47]",
+      "end_time": "[10:54]",
+      "start_time_sec": 647,
+      "text": "No Emma, you made that so smooth and explained the pro-rata charge clearly. Thank you so much!",
+      "sentiment_score": 32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:59]",
+      "end_time": "[11:07]",
+      "start_time_sec": 659,
+      "text": "It was my absolute pleasure. Thank you for choosing S-Net, Harper, and best of luck in the new job!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:12]",
+      "end_time": "[11:15]",
+      "start_time_sec": 672,
+      "text": "Thank you Emma, goodbye.",
+      "sentiment_score": 22.0
+    }
+  ]
+}

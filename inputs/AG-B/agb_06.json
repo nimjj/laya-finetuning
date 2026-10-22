@@ -1,0 +1,426 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Fiona",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net customer billing, my name is Oliver. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:19]",
+      "start_time_sec": 8,
+      "text": "Hello Oliver. I've just opened my latest monthly bill and there is an unexpected extra charge of twenty-five pounds added on top of my usual package price. I need this explaining.",
+      "sentiment_score": -22.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:20]",
+      "end_time": "[00:29]",
+      "start_time_sec": 20,
+      "text": "I can certainly go through your itemised statement and resolve those extra billing charges for you today, Fiona. May I start with your account number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:30]",
+      "end_time": "[00:36]",
+      "start_time_sec": 30,
+      "text": "Yes, it is SN 718 2049, under Fiona Gallagher.",
+      "sentiment_score": 1.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:37]",
+      "end_time": "[00:46]",
+      "start_time_sec": 37,
+      "text": "Thank you, Fiona. For security verification, could you please confirm your full billing address and your memorable security question answer?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:47]",
+      "end_time": "[00:56]",
+      "start_time_sec": 47,
+      "text": "It is 54 Larkspur Terrace, Newcastle upon Tyne, NE2 2HG. And the security question answer is Collingwood.",
+      "sentiment_score": 3.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:57]",
+      "end_time": "[01:05]",
+      "start_time_sec": 57,
+      "text": "That has verified your account, thank you. You are currently subscribed to our Fibre 65 broadband and weekend landline calls package."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:06]",
+      "end_time": "[01:10]",
+      "start_time_sec": 66,
+      "text": "Yes, which is supposed to be thirty-two pounds a month.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:11]",
+      "end_time": "[01:23]",
+      "start_time_sec": 71,
+      "text": "So just to confirm what you're seeing: your expected regular charge is thirty-two pounds, but your latest invoice arrived showing fifty-seven pounds due to an extra twenty-five pound addition, is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:24]",
+      "end_time": "[01:38]",
+      "start_time_sec": 84,
+      "text": "Yes! And with energy bills and inflation as tight as they are right now, seeing an extra twenty-five pounds slapped on my bill without any warning has caused me immense stress. It feels totally unfair.",
+      "sentiment_score": -39.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:39]",
+      "end_time": "[01:50]",
+      "start_time_sec": 99,
+      "text": "I completely understand why seeing unexpected charges on your statement is upsetting, Fiona, especially when managing tight household budgets. I will look into every penny of this for you right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:51]",
+      "end_time": "[01:55]",
+      "start_time_sec": 111,
+      "text": "Thank you Oliver, I appreciate you listening and taking this seriously.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:56]",
+      "end_time": "[02:07]",
+      "start_time_sec": 116,
+      "text": "Let's break down the exact itemised lines on the invoice. Bear with me for a couple of minutes while I open your electronic billing ledger and transaction audit history."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:08]",
+      "end_time": "[02:11]",
+      "start_time_sec": 128,
+      "text": "Sure, please go ahead.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:58]",
+      "end_time": "[03:09]",
+      "start_time_sec": 178,
+      "text": "Thank you for holding, Fiona. I have pulled up the full line-by-line billing ledger and I can explain exactly where every component of the twenty-five pounds originated."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:10]",
+      "end_time": "[03:14]",
+      "start_time_sec": 190,
+      "text": "What does the breakdown show, Oliver?",
+      "sentiment_score": -1.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:15]",
+      "end_time": "[03:28]",
+      "start_time_sec": 195,
+      "text": "The twenty-five pounds is made up of two distinct administrative charges: a fifteen-pound late payment administration fee from last month, and two consecutive five-pound paper bill processing charges for printed postal invoicing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:29]",
+      "end_time": "[03:39]",
+      "start_time_sec": 209,
+      "text": "Wait, a late payment fee? But I pay by monthly Direct Debit! Why on earth would there be an automated late payment fee on my account?",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:40]",
+      "end_time": "[03:52]",
+      "start_time_sec": 220,
+      "text": "I can see here that on the fourteenth of last month, the automated BACS Direct Debit instruction was returned unpaid by your bank with the banking code 'refer to payer', which triggered the automated system late administration charge."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:53]",
+      "end_time": "[04:05]",
+      "start_time_sec": 233,
+      "text": "Oh, of course! That was when our joint account was temporarily frozen because of a suspected fraudulent card transaction at our high street bank branch. I paid the bill manually by debit card two days later once they cleared our cards!",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:06]",
+      "end_time": "[04:18]",
+      "start_time_sec": 246,
+      "text": "I can verify that manual card payment of thirty-two pounds received on the sixteenth on our merchant gateway portal. You settled the outstanding balance promptly as soon as your replacement banking cards were issued."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:19]",
+      "end_time": "[04:24]",
+      "start_time_sec": 259,
+      "text": "And what about the five-pound paper bill charges? I've never had to pay that before.",
+      "sentiment_score": -8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:25]",
+      "end_time": "[04:38]",
+      "start_time_sec": 265,
+      "text": "As part of our company environmental policy updated in January, accounts requesting printed postal paper statements carry a five-pound monthly environmental handling fee, whereas online e-billing is completely free."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:39]",
+      "end_time": "[04:47]",
+      "start_time_sec": 279,
+      "text": "I never requested a printed bill, it just started arriving in the post! I am more than happy to have my bills by email.",
+      "sentiment_score": 2.5
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:48]",
+      "end_time": "[04:54]",
+      "start_time_sec": 288,
+      "text": "We do everything else online anyway.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:55]",
+      "end_time": "[05:07]",
+      "start_time_sec": 295,
+      "text": "While our policy terms state that administrative fees apply when Direct Debits fail and paper statements are dispatched, I completely recognise that this was an exceptional situation caused by third-party bank fraud."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:08]",
+      "end_time": "[05:13]",
+      "start_time_sec": 308,
+      "text": "Yes, it really wasn't our fault at all.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:14]",
+      "end_time": "[05:27]",
+      "start_time_sec": 314,
+      "text": "Therefore, I am going to take full ownership of this matter. I am applying an immediate goodwill waiver credit of twenty-five pounds directly onto your account ledger to cancel out both fees entirely."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:28]",
+      "end_time": "[05:35]",
+      "start_time_sec": 328,
+      "text": "Oliver, that is absolutely wonderful! Thank you so much for understanding.",
+      "sentiment_score": 38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:36]",
+      "end_time": "[05:48]",
+      "start_time_sec": 336,
+      "text": "I am processing that twenty-five pound credit right now. The credit adjustment reference is CR-44019-FG. Your balance due for this month is now back down to your standard thirty-two pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:49]",
+      "end_time": "[05:53]",
+      "start_time_sec": 349,
+      "text": "That is such a relief off my shoulders.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:54]",
+      "end_time": "[06:06]",
+      "start_time_sec": 354,
+      "text": "Now, let's transition your account permanently to paperless e-billing so that you never incur that five-pound printed paper charge again. Could you confirm your preferred email address?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:07]",
+      "end_time": "[06:15]",
+      "start_time_sec": 367,
+      "text": "Yes, my personal email is fiona.gallagher84@gmail.com, all lower case.",
+      "sentiment_score": 14.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:16]",
+      "end_time": "[06:27]",
+      "start_time_sec": 376,
+      "text": "Just to verify the spelling before I lock that into the automated billing gateway: that is fiona dot gallagher, with two l's and an h-e-r, eighty-four at gmail dot com?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:28]",
+      "end_time": "[06:34]",
+      "start_time_sec": 388,
+      "text": "Yes, that is the exact spelling. Spot on.",
+      "sentiment_score": 18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:35]",
+      "end_time": "[06:47]",
+      "start_time_sec": 395,
+      "text": "I have saved that email as your primary billing destination, opted your account out of paper invoicing, and activated monthly PDF invoice notifications."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:48]",
+      "end_time": "[06:53]",
+      "start_time_sec": 408,
+      "text": "Brilliant. And is the Direct Debit active again on our bank account?",
+      "sentiment_score": 15.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:54]",
+      "end_time": "[07:06]",
+      "start_time_sec": 414,
+      "text": "Yes, the BACS Direct Debit instruction is reporting 'active and verified' with your bank, so your normal payment of thirty-two pounds will collect smoothly on the fourteenth of next month."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:07]",
+      "end_time": "[07:13]",
+      "start_time_sec": 427,
+      "text": "That's great. I won't have to worry about manual payments.",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:14]",
+      "end_time": "[07:26]",
+      "start_time_sec": 434,
+      "text": "I've just sent an email confirmation of this twenty-five pound waiver and your updated paperless profile to your inbox. Could you check if that has come through?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:27]",
+      "end_time": "[07:36]",
+      "start_time_sec": 447,
+      "text": "Checking my phone mail now... yes, just arrived! 'S-Net Account Update: \u00a325.00 Credit Applied, Current Balance \u00a332.00'.",
+      "sentiment_score": 41.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:37]",
+      "end_time": "[07:50]",
+      "start_time_sec": 457,
+      "text": "So to confirm, Fiona, the full twenty-five pound disputed charge has been credited, your balance is restored to thirty-two pounds, and paperless billing is permanently configured?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:51]",
+      "end_time": "[07:58]",
+      "start_time_sec": 471,
+      "text": "Yes, 100 percent resolved. You've sorted every single detail out so kindly and efficiently, Oliver.",
+      "sentiment_score": 44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:59]",
+      "end_time": "[08:12]",
+      "start_time_sec": 479,
+      "text": "I'm delighted I could help get that sorted out for you today, Fiona. We really value having you as a loyal customer with us."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:13]",
+      "end_time": "[08:19]",
+      "start_time_sec": 493,
+      "text": "Thank you, that kind of customer service keeps me with S-Net.",
+      "sentiment_score": 32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:20]",
+      "end_time": "[08:33]",
+      "start_time_sec": 500,
+      "text": "I have also noted on your account history that the Direct Debit return was an external fraud issue, so your internal credit rating with S-Net remains at our highest tier."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:34]",
+      "end_time": "[08:41]",
+      "start_time_sec": 514,
+      "text": "That's very thoughtful of you to log that note. It gives me great peace of mind.",
+      "sentiment_score": 28.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:42]",
+      "end_time": "[08:55]",
+      "start_time_sec": 522,
+      "text": "You can also view your full billing history and download VAT invoices anytime through the S-Net online customer portal or our mobile app."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:56]",
+      "end_time": "[09:02]",
+      "start_time_sec": 536,
+      "text": "I'll make sure to log in online whenever the notification arrives each month.",
+      "sentiment_score": 19.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:03]",
+      "end_time": "[09:17]",
+      "start_time_sec": 543,
+      "text": "Is there anything else regarding your broadband connection, home phone line, or payments that I can assist you with today, Fiona?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:18]",
+      "end_time": "[09:24]",
+      "start_time_sec": 558,
+      "text": "No, that was everything. You have been fantastic, Oliver. Thank you so much.",
+      "sentiment_score": 35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:25]",
+      "end_time": "[09:39]",
+      "start_time_sec": 565,
+      "text": "It was my absolute pleasure, Fiona. I hope the rest of your week goes smoothly without any further banking headaches."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:40]",
+      "end_time": "[09:46]",
+      "start_time_sec": 580,
+      "text": "Thank you Oliver! Take care and have a lovely day.",
+      "sentiment_score": 26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:47]",
+      "end_time": "[10:05]",
+      "start_time_sec": 587,
+      "text": "Thank you for choosing S-Net, Fiona. Have a wonderful day ahead and goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:06]",
+      "end_time": "[10:13]",
+      "start_time_sec": 606,
+      "text": "Goodbye Oliver, thanks again!",
+      "sentiment_score": 24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:14]",
+      "end_time": "[10:42]",
+      "start_time_sec": 614,
+      "text": "Thank you for choosing S-Net, Fiona. Have a lovely rest of your day."
+    }
+  ]
+}

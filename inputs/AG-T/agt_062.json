@@ -1,0 +1,426 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Marcus",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:08]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net customer accounts and billing, my name is Chloe. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:13]",
+   "end_time": "[00:32]",
+   "start_time_sec": 13,
+   "text": "Hello Chloe, my name is Marcus Fletcher. I renewed my broadband contract last month with an agreed loyalty tariff of thirty-five pounds per month, but my October bank statement arrived today and S-Net have charged me fifty pounds, omitting the fifteen-pound monthly loyalty discount completely!",
+   "sentiment_score": -34.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:37]",
+   "end_time": "[00:51]",
+   "start_time_sec": 37,
+   "text": "Good afternoon Marcus. I can look into your contract schedule and correct that invoice for you. Before we inspect your billing ledger, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:56]",
+   "end_time": "[01:02]",
+   "start_time_sec": 56,
+   "text": "Yes, it is 19 Castle View, Durham, DH1 3NW, security PIN 2841, account reference SN-550182.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:07]",
+   "end_time": "[01:15]",
+   "start_time_sec": 67,
+   "text": "Thank you Marcus, that confirms your account details. What specific contract date did you complete the renewal agreement on?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:20]",
+   "end_time": "[01:33]",
+   "start_time_sec": 80,
+   "text": "It was agreed on September 14th with an agent named David in your retentions department.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:38]",
+   "end_time": "[01:51]",
+   "start_time_sec": 98,
+   "text": "Could I place you on hold for two minutes while I query your promotional billing contract schedule and retentions call log?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:16]",
+   "end_time": "[03:37]",
+   "start_time_sec": 196,
+   "text": "Thank you for holding, Marcus. I have reviewed the retentions order from September 14th, and I can see the fifteen-pound loyalty discount promo code LOYAL-15 was generated but failed to attach to the recurring direct debit schedule."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[03:42]",
+   "end_time": "[03:53]",
+   "start_time_sec": 222,
+   "text": "Why did the discount code fail to attach to my direct debit?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:58]",
+   "end_time": "[04:11]",
+   "start_time_sec": 238,
+   "text": "The order management system encountered an API timeout with the automated banking billing scheduler during the overnight batch run."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:16]",
+   "end_time": "[04:30]",
+   "start_time_sec": 256,
+   "text": "So S-Net took an extra fifteen pounds from my Santander account purely because of a computer glitch?",
+   "sentiment_score": -24.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:35]",
+   "end_time": "[04:48]",
+   "start_time_sec": 275,
+   "text": "Yes, that is correct, and I will manually attach the discount promotion and issue an immediate refund for the fifteen-pound overcharge."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:53]",
+   "end_time": "[05:05]",
+   "start_time_sec": 293,
+   "text": "How quickly will that fifteen pounds be refunded back to my bank account?",
+   "sentiment_score": -10.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:10]",
+   "end_time": "[05:27]",
+   "start_time_sec": 310,
+   "text": "I can apply an immediate fifteen-pound credit to your S-Net account balance, or process an electronic refund directly to your Santander bank card within three working days."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:32]",
+   "end_time": "[05:45]",
+   "start_time_sec": 332,
+   "text": "Please process the refund directly to my bank card; I don't want it sitting as bill credit.",
+   "sentiment_score": -6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:50]",
+   "end_time": "[06:03]",
+   "start_time_sec": 350,
+   "text": "I have submitted an electronic card refund of fifteen pounds via our Bacs gateway, reference REF-88192-M."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:08]",
+   "end_time": "[06:19]",
+   "start_time_sec": 368,
+   "text": "REF-88192-M, noted down. And what about next month's bill?",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:24]",
+   "end_time": "[06:36]",
+   "start_time_sec": 384,
+   "text": "I am manually appending promotional discount code LOYAL-15 directly to your monthly recurring billing schedule."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:41]",
+   "end_time": "[06:54]",
+   "start_time_sec": 401,
+   "text": "Will that guarantee that every future invoice for the next seventeen months shows thirty-five pounds?",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:59]",
+   "end_time": "[07:12]",
+   "start_time_sec": 419,
+   "text": "Obviously billing systems process standard tariff rates unless a verified promotion code is formally attached to the billing cycle."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:17]",
+   "end_time": "[07:29]",
+   "start_time_sec": 437,
+   "text": "Yes, and now that it is attached, it should stay at thirty-five pounds.",
+   "sentiment_score": 8.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:34]",
+   "end_time": "[07:58]",
+   "start_time_sec": 454,
+   "text": "I specifically agreed to renew my contract for eighteen months because your retentions agent promised in writing that my bill would stay at thirty-five pounds! Seeing fifty pounds taken from my bank account makes me feel completely lied to and cheated! I am sick and tired of having to fight telecom companies over false promises!",
+   "sentiment_score": -56.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:03]",
+   "end_time": "[08:27]",
+   "start_time_sec": 483,
+   "text": "I completely understand your frustration and disappointment at seeing a higher amount deducted after being promised a specific renewal rate, Marcus. You should never have to fight for agreed terms, and I will correct your monthly discount and credit the overcharge right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:32]",
+   "end_time": "[08:43]",
+   "start_time_sec": 512,
+   "text": "Thank you Chloe, I appreciate you understanding why that was so upsetting.",
+   "sentiment_score": -4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:48]",
+   "end_time": "[08:59]",
+   "start_time_sec": 528,
+   "text": "I have locked the recurring thirty-five-pound charge into your account profile, valid through March 2026."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:04]",
+   "end_time": "[09:16]",
+   "start_time_sec": 544,
+   "text": "Can you email me a formal revised contract confirmation displaying thirty-five pounds?",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:21]",
+   "end_time": "[09:32]",
+   "start_time_sec": 561,
+   "text": "I am generating an updated PDF contract summary and emailing it to your registered address right now."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:37]",
+   "end_time": "[09:50]",
+   "start_time_sec": 577,
+   "text": "Checking email on my phone... Yes, the PDF arrived: 'Contract Renewal Summary - Monthly Tariff £35.00'.",
+   "sentiment_score": 16.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:55]",
+   "end_time": "[10:00]",
+   "start_time_sec": 595,
+   "text": "The document also confirms your fifteen-pound card refund reference on page two."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:05]",
+   "end_time": "[10:10]",
+   "start_time_sec": 605,
+   "text": "Page two confirms the fifteen-pound refund to card ending 4401. That is wonderful.",
+   "sentiment_score": 20.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:15]",
+   "end_time": "[10:21]",
+   "start_time_sec": 615,
+   "text": "I have also added a persistent note to your billing ledger preventing any automated rate adjustments."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:26]",
+   "end_time": "[10:32]",
+   "start_time_sec": 626,
+   "text": "That gives me great peace of mind for the rest of my contract term.",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:37]",
+   "end_time": "[10:42]",
+   "start_time_sec": 637,
+   "text": "Your direct debit for November 1st will automatically collect exactly thirty-five pounds."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:47]",
+   "end_time": "[10:52]",
+   "start_time_sec": 647,
+   "text": "And the fifteen-pound refund should arrive in my Santander account by Friday?",
+   "sentiment_score": 18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:57]",
+   "end_time": "[11:03]",
+   "start_time_sec": 657,
+   "text": "Yes, banking clearing cycles take between two and three working days, so Friday at the latest."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:08]",
+   "end_time": "[11:11]",
+   "start_time_sec": 668,
+   "text": "Perfect. Everything is completely transparent and documented.",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:15]",
+   "end_time": "[11:21]",
+   "start_time_sec": 675,
+   "text": "I have also waived the five-pound paper billing fee that was erroneously added to your profile."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:25]",
+   "end_time": "[11:28]",
+   "start_time_sec": 685,
+   "text": "Thank you, that is an extra five pounds saved.",
+   "sentiment_score": 26.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:32]",
+   "end_time": "[11:38]",
+   "start_time_sec": 692,
+   "text": "Our priority is ensuring that promotional agreements made during contract renewal are honored precisely."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:42]",
+   "end_time": "[11:45]",
+   "start_time_sec": 702,
+   "text": "You have handled this with fantastic efficiency, Chloe.",
+   "sentiment_score": 28.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:49]",
+   "end_time": "[11:54]",
+   "start_time_sec": 709,
+   "text": "Thank you Marcus, I am glad we could resolve the billing discrepancy swiftly."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:58]",
+   "end_time": "[12:04]",
+   "start_time_sec": 718,
+   "text": "It is refreshing when customer service actually fixes the mistake on the first call.",
+   "sentiment_score": 30.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:08]",
+   "end_time": "[12:14]",
+   "start_time_sec": 728,
+   "text": "Just before I apply the account credit, what was your customer account reference number again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:18]",
+   "end_time": "[12:21]",
+   "start_time_sec": 738,
+   "text": "As I mentioned earlier, it is SN-550182.",
+   "sentiment_score": -10.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:25]",
+   "end_time": "[12:29]",
+   "start_time_sec": 745,
+   "text": "Thank you Marcus, that closes out our formal billing ledger reconciliation."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:33]",
+   "end_time": "[12:36]",
+   "start_time_sec": 753,
+   "text": "Everything looks completely sorted on my end.",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:40]",
+   "end_time": "[12:45]",
+   "start_time_sec": 760,
+   "text": "You will also receive an SMS confirmation containing your refund tracking number."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:49]",
+   "end_time": "[12:53]",
+   "start_time_sec": 769,
+   "text": "Just received the text message: 'S-Net Refund £15.00 processed successfully'.",
+   "sentiment_score": 24.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:57]",
+   "end_time": "[13:03]",
+   "start_time_sec": 777,
+   "text": "Is there any other aspect of your billing account I can assist you with today, Marcus?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:07]",
+   "end_time": "[13:10]",
+   "start_time_sec": 787,
+   "text": "No Chloe, you have resolved everything perfectly.",
+   "sentiment_score": 26.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:14]",
+   "end_time": "[13:20]",
+   "start_time_sec": 794,
+   "text": "Thank you for calling S-Net customer accounts and billing, Marcus. Have a wonderful day. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:24]",
+   "end_time": "[13:27]",
+   "start_time_sec": 804,
+   "text": "Goodbye Chloe.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:31]",
+   "end_time": "[13:34]",
+   "start_time_sec": 811,
+   "text": "Thank you for choosing S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:38]",
+   "end_time": "[13:41]",
+   "start_time_sec": 818,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:45]",
+   "end_time": "[13:48]",
+   "start_time_sec": 825,
+   "text": "Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:52]",
+   "end_time": "[13:57]",
+   "start_time_sec": 832,
+   "text": "Goodbye.",
+   "sentiment_score": 6.5
+  }
+ ]
+}

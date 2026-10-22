@@ -1,0 +1,160 @@
+{
+  "call_id": "ag_01",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 93.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "At [09:33], you asked the customer whether she had a Hub 3 or Hub 4 even though she had already stated she had an S-Net Hub 4X at [01:26]."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Intermittent fibre broadband drop-outs every evening; channel congestion and firmware update fixed it",
+    "tier": "good",
+    "duration_sec": 765,
+    "notes": "Strong technical troubleshooting call where Daniel diagnoses DFS channel-switching firmware crashes on a Hub 4X, locks clean Wi-Fi channels, and pushes firmware v4.18.2 during a properly managed 95s hold ([07:08]–[09:05]). Drops Active Listening at [09:33] by re-asking which router model Priyanka has after she already told him 'S-Net Hub 4X' at [01:26].",
+    "hard_cases": [
+      "Active listening",
+      "Empathy & Acknowledgment Statement",
+      "Took ownership of the problem",
+      "Hold time and Dead Air"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opened with 'thank you for calling S-Net' at [00:00] and closed with 'Thank you for choosing S-Net' at [12:34]."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: A 95s firmware-update hold before [09:05] was properly announced at [07:08] ('place you on a brief hold') and welcomed back at [09:05] ('Thank you for holding, Priyanka')."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Verified first line of address and four-digit security PIN at [00:59] within the first 240s."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Used customer name 'Priyanka' naturally throughout the call (e.g., [00:17], [05:33], [09:05])."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: Concisely validated Priyanka's frustration in a single warm clause at [00:17] ('I completely understand how frustrating it is when your connection drops right in the middle of your evening')."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Paraphrased the evening drop-out pattern in his own words and confirmed understanding at [00:38]."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer stated 'I've got the black S-Net Hub 4X' at [01:26], but Agent asked 'which router model have you got sitting there, is it the Hub 3 or the Hub 4?' at [09:33]."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Hard-case PASS: Although Agent referenced 'our core network diagnostics team' at [05:16], he explicitly retained full end-to-end ownership at [05:33] ('I'll log the line monitor myself and handle everything from here')."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Maintained a warm, reassuring, and professional manner throughout the troubleshooting session."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Probed into router status lights ([01:34]), ONT optical lights ([01:56]), Ethernet vs Wi-Fi usage ([02:36]), and Wi-Fi icon behavior during drops ([02:56])."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "After pushing firmware v4.18.2 and locking Wi-Fi channels 1 and 44, confirmed 312 Mbps download and verified with customer at [12:10] and [12:28] that the issue was resolved."
+      }
+    ]
+  }
+}

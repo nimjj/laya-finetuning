@@ -1,0 +1,441 @@
+{
+ "tenant_id": "tenant-abc",
+ "customer_name": "Liam",
+ "transcript": [
+  {
+   "speaker": "Agent",
+   "start_time": "[00:00]",
+   "end_time": "[00:07]",
+   "start_time_sec": 0,
+   "text": "Thank you for calling S-Net mobile technical faults, my name is Craig. How can I help you today?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[00:16]",
+   "end_time": "[00:31]",
+   "start_time_sec": 16,
+   "text": "Hello Craig, my name is Liam Davies. My mobile phone has started throwing an intermittent 'No SIM Card Inserted' error four or five times a day, dropping active phone calls abruptly and losing 5G connectivity!",
+   "sentiment_score": -32.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[00:40]",
+   "end_time": "[00:53]",
+   "start_time_sec": 40,
+   "text": "Good afternoon Liam. I can test your SIM card network authentication and provisioning profile. Before we run the diagnostic tests, could you confirm your full postal address and your account security PIN?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:02]",
+   "end_time": "[01:14]",
+   "start_time_sec": 62,
+   "text": "Yes, it is 14 Priory Way, Harrogate, HG1 2PQ, and my security PIN is 5502. My mobile number is 07700 900381 and my handset is an iPhone 14 Pro.",
+   "sentiment_score": -5.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[01:23]",
+   "end_time": "[01:32]",
+   "start_time_sec": 83,
+   "text": "Thank you Liam, that confirms your account details. When the 'No SIM' message displays, does rebooting the phone immediately restore cellular connection?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[01:41]",
+   "end_time": "[01:57]",
+   "start_time_sec": 101,
+   "text": "Sometimes restarting fixes it for twenty minutes, but yesterday it stayed disconnected for two hours until I physically removed and reinserted the SIM tray!",
+   "sentiment_score": -24.8
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[02:06]",
+   "end_time": "[02:20]",
+   "start_time_sec": 126,
+   "text": "Could I place you on hold for two minutes while I query our Home Location Register and perform an over-the-air SIM refresh on your line?"
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[03:45]",
+   "end_time": "[03:58]",
+   "start_time_sec": 225,
+   "text": "Thank you for holding, Liam. The network registers confirm seventeen sudden radio link tear-downs over the past forty-eight hours."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:07]",
+   "end_time": "[04:18]",
+   "start_time_sec": 247,
+   "text": "Has the over-the-air refresh resolved whatever was causing the SIM authentication failures?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[04:27]",
+   "end_time": "[04:39]",
+   "start_time_sec": 267,
+   "text": "Over-the-air updates re-flash the network operator bundle, but intermittent card disconnects often originate from mechanical tray wear."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[04:48]",
+   "end_time": "[05:01]",
+   "start_time_sec": 288,
+   "text": "The phone has never been dropped or exposed to water. The gold contacts look spotless.",
+   "sentiment_score": -18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[05:10]",
+   "end_time": "[05:26]",
+   "start_time_sec": 310,
+   "text": "Well if you constantly drop your phone or carry it loose in pockets with metal keys, no SIM tray in the world is going to maintain contact spring tension."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[05:35]",
+   "end_time": "[05:51]",
+   "start_time_sec": 335,
+   "text": "I keep my phone in a leather folio case and treat it with total care! Why are you accusing me of abusing my phone?!",
+   "sentiment_score": -52.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:00]",
+   "end_time": "[06:11]",
+   "start_time_sec": 360,
+   "text": "I am stating the standard physical causes of intermittent contact separation on micro-SIM chipsets."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[06:20]",
+   "end_time": "[06:35]",
+   "start_time_sec": 380,
+   "text": "Can you just ship me a replacement 5G SIM card so I can verify whether the plastic card itself is faulty?",
+   "sentiment_score": -32.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[06:44]",
+   "end_time": "[06:56]",
+   "start_time_sec": 404,
+   "text": "Replacement SIM dispatch requires tier-two supervisor authorization if the line was activated within twelve months."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:05]",
+   "end_time": "[07:18]",
+   "start_time_sec": 425,
+   "text": "Then connect me to a tier-two supervisor who can approve a five-pound replacement card!",
+   "sentiment_score": -38.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[07:27]",
+   "end_time": "[07:41]",
+   "start_time_sec": 447,
+   "text": "Supervisors are currently occupied handling billing escalations. You can visit a high-street retail store and purchase a SIM swap kit."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[07:49]",
+   "end_time": "[08:04]",
+   "start_time_sec": 469,
+   "text": "The nearest S-Net store is twenty-five miles away in central Leeds! I am not driving fifty miles for a replacement SIM!",
+   "sentiment_score": -46.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[08:12]",
+   "end_time": "[08:22]",
+   "start_time_sec": 492,
+   "text": "Obviously physical SIM cards rely on mechanical spring tension against gold contact pads."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:30]",
+   "end_time": "[08:44]",
+   "start_time_sec": 510,
+   "text": "I know how a SIM card works! What I need is a working mobile connection for my work!",
+   "sentiment_score": -38.4
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[08:52]",
+   "end_time": "[09:16]",
+   "start_time_sec": 532,
+   "text": "Craig, I use this mobile phone for on-call veterinary emergency dispatches! If an animal is in critical distress and my phone drops the call with 'No SIM Card', an animal could die! I cannot have an unreliable SIM card dropping my calls constantly!",
+   "sentiment_score": -62.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[09:24]",
+   "end_time": "[09:40]",
+   "start_time_sec": 564,
+   "text": "I completely understand how critical and urgent on-call veterinary emergencies are, Liam. Having your phone drop calls with a SIM error in the middle of an emergency dispatch is unacceptable, so let us diagnose the SIM profile immediately."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[09:48]",
+   "end_time": "[09:54]",
+   "start_time_sec": 588,
+   "text": "Can you check if my handset can be converted to an electronic eSIM instead?",
+   "sentiment_score": -14.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:02]",
+   "end_time": "[10:07]",
+   "start_time_sec": 602,
+   "text": "Your iPhone 14 Pro supports dual active eSIM profiles with digital QR activation."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:15]",
+   "end_time": "[10:24]",
+   "start_time_sec": 615,
+   "text": "Can we activate an eSIM profile right now over the phone so I don't have to worry about the physical card?",
+   "sentiment_score": -8.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:32]",
+   "end_time": "[10:38]",
+   "start_time_sec": 632,
+   "text": "I can generate an eSIM activation QR voucher and email it to your verified account address."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[10:46]",
+   "end_time": "[10:50]",
+   "start_time_sec": 646,
+   "text": "That would be fantastic. Please generate that digital eSIM profile immediately.",
+   "sentiment_score": -4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[10:58]",
+   "end_time": "[11:03]",
+   "start_time_sec": 658,
+   "text": "The system requires an identity one-time passcode verification before sending electronic SIM vouchers."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:11]",
+   "end_time": "[11:16]",
+   "start_time_sec": 671,
+   "text": "I have my tablet ready to receive the one-time passcode via email.",
+   "sentiment_score": -2.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:24]",
+   "end_time": "[11:29]",
+   "start_time_sec": 684,
+   "text": "I have dispatched the six-digit verification code to your registered email address."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[11:37]",
+   "end_time": "[11:42]",
+   "start_time_sec": 697,
+   "text": "Checking email on my tablet... Got it, the verification code is 881-402.",
+   "sentiment_score": 2.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[11:50]",
+   "end_time": "[11:53]",
+   "start_time_sec": 710,
+   "text": "Passcode verified. Generating eSIM digital voucher reference ESIM-99210-L."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:01]",
+   "end_time": "[12:05]",
+   "start_time_sec": 721,
+   "text": "How quickly will the email arrive with the QR code?",
+   "sentiment_score": 4.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:13]",
+   "end_time": "[12:17]",
+   "start_time_sec": 733,
+   "text": "eSIM activation emails typically arrive within three to five minutes."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:25]",
+   "end_time": "[12:32]",
+   "start_time_sec": 745,
+   "text": "While we wait for the email, what steps do I need to follow in the iPhone Settings menu?",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[12:40]",
+   "end_time": "[12:45]",
+   "start_time_sec": 760,
+   "text": "Open Settings, select 'Mobile Service', tap 'Add eSIM', and select 'Use QR Code'."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[12:53]",
+   "end_time": "[12:58]",
+   "start_time_sec": 773,
+   "text": "Then I simply scan the QR code from my computer screen or tablet?",
+   "sentiment_score": 8.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:06]",
+   "end_time": "[13:12]",
+   "start_time_sec": 786,
+   "text": "Correct, scanning the QR code downloads the encrypted S-Net cryptographic profile directly to the secure enclave."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:20]",
+   "end_time": "[13:25]",
+   "start_time_sec": 800,
+   "text": "And once the eSIM activates, does the physical SIM card get automatically disabled?",
+   "sentiment_score": 6.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:33]",
+   "end_time": "[13:37]",
+   "start_time_sec": 813,
+   "text": "Yes, the physical SIM becomes deactivated immediately upon digital provisioning."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[13:45]",
+   "end_time": "[13:51]",
+   "start_time_sec": 825,
+   "text": "Checking my inbox... Yes, the email from S-Net provisioning just came through with the QR code!",
+   "sentiment_score": 12.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[13:59]",
+   "end_time": "[14:08]",
+   "start_time_sec": 839,
+   "text": "Just to ensure the replacement SIM order goes to the right device profile, what mobile handset model are you using again?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:16]",
+   "end_time": "[14:20]",
+   "start_time_sec": 856,
+   "text": "Like I said earlier, it is an iPhone 14 Pro.",
+   "sentiment_score": -12.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:28]",
+   "end_time": "[14:34]",
+   "start_time_sec": 868,
+   "text": "Point your iPhone camera at the QR code on your tablet display to initiate profile download."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[14:42]",
+   "end_time": "[14:49]",
+   "start_time_sec": 882,
+   "text": "Scanning QR code now... 'Activating S-Net eSIM'... It says 'Connected - S-Net 5G' with full signal bars!",
+   "sentiment_score": 18.2
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[14:57]",
+   "end_time": "[15:04]",
+   "start_time_sec": 897,
+   "text": "Place a test outbound call to our automated line test number on 17070 to verify voice bearer audio."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:12]",
+   "end_time": "[15:18]",
+   "start_time_sec": 912,
+   "text": "Dialing 17070... Automated voice says 'Call test completed successfully'. Voice and data are working perfectly!",
+   "sentiment_score": 22.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:26]",
+   "end_time": "[15:31]",
+   "start_time_sec": 926,
+   "text": "You can now safely eject and discard the faulty plastic physical SIM card."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[15:39]",
+   "end_time": "[15:49]",
+   "start_time_sec": 939,
+   "text": "I am removing the plastic SIM right now. Tray back in, and 5G signal remains rock solid. Thank you for sorting the eSIM, Craig.",
+   "sentiment_score": 24.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[15:57]",
+   "end_time": "[16:01]",
+   "start_time_sec": 957,
+   "text": "I have logged the SIM swap under technical ticket reference MOB-77192-D."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:09]",
+   "end_time": "[16:12]",
+   "start_time_sec": 969,
+   "text": "MOB-77192-D, noted down.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:20]",
+   "end_time": "[16:25]",
+   "start_time_sec": 980,
+   "text": "Is there any other mobile query I can assist you with today, Liam?"
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:33]",
+   "end_time": "[16:36]",
+   "start_time_sec": 993,
+   "text": "No, the eSIM has completely resolved the problem.",
+   "sentiment_score": 18.4
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[16:44]",
+   "end_time": "[16:49]",
+   "start_time_sec": 1004,
+   "text": "Thank you for choosing S-Net mobile services, Liam. Have a pleasant day. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[16:57]",
+   "end_time": "[17:00]",
+   "start_time_sec": 1017,
+   "text": "Goodbye Craig.",
+   "sentiment_score": 6.5
+  },
+  {
+   "speaker": "Agent",
+   "start_time": "[17:08]",
+   "end_time": "[17:11]",
+   "start_time_sec": 1028,
+   "text": "Thank you for calling S-Net. Goodbye."
+  },
+  {
+   "speaker": "Customer",
+   "start_time": "[17:19]",
+   "end_time": "[17:24]",
+   "start_time_sec": 1039,
+   "text": "Goodbye.",
+   "sentiment_score": 8.0
+  }
+ ]
+}

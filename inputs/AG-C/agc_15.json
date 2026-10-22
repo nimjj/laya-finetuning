@@ -1,0 +1,539 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "James",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:08]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net accounts and billing, my name is Oscar. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:13]",
+      "end_time": "[00:31]",
+      "start_time_sec": 13,
+      "text": "Hi Oscar. I received an automated email this morning saying my monthly broadband direct debit failed and that I have a ten-pound late payment fee on my account, but I just switched bank accounts and set up the new details weeks ago.",
+      "sentiment_score": -28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:36]",
+      "end_time": "[00:48]",
+      "start_time_sec": 36,
+      "text": "I understand your concern regarding the failed direct debit notification and the late fee, James. Let me look into your account ledger and sort this out for you."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:53]",
+      "end_time": "[01:03]",
+      "start_time_sec": 53,
+      "text": "Thank you Oscar. I've always paid on time for four years, so seeing a late fee and threat of restriction was quite alarming.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:08]",
+      "end_time": "[01:18]",
+      "start_time_sec": 68,
+      "text": "To locate your billing profile on my screen, James, could you confirm the registered email on the account and your S-Net broadband account number?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:23]",
+      "end_time": "[01:28]",
+      "start_time_sec": 83,
+      "text": "Sure, the email is james.mitchell@outlook.com and my account number is SNET-839201.",
+      "sentiment_score": -1.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:33]",
+      "end_time": "[01:39]",
+      "start_time_sec": 93,
+      "text": "And what is the sort code of the new bank account you registered?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:44]",
+      "end_time": "[01:47]",
+      "start_time_sec": 104,
+      "text": "The new sort code is 40-22-18 with HSBC.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:52]",
+      "end_time": "[01:58]",
+      "start_time_sec": 112,
+      "text": "Thank you for providing those details, James. I have your billing file open."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:03]",
+      "end_time": "[02:06]",
+      "start_time_sec": 123,
+      "text": "Great, thanks.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:11]",
+      "end_time": "[02:29]",
+      "start_time_sec": 131,
+      "text": "So just to confirm what has occurred: you switched bank accounts to HSBC and submitted your new direct debit details, but your payment failed to collect yesterday, resulting in an automated ten-pound late payment surcharge on your statement. Have I understood correctly?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:34]",
+      "end_time": "[02:44]",
+      "start_time_sec": 154,
+      "text": "Yes, exactly that. My bank said the Current Account Switch Service transfers all direct debits automatically, so I don't know why it bounced.",
+      "sentiment_score": -8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:49]",
+      "end_time": "[03:06]",
+      "start_time_sec": 169,
+      "text": "Checking the direct debit mandate logs... the automated mandate request was submitted to BACS on the first of the month, but your previous bank returned an R01 instruction saying account closed before the new mandate had fully originated."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:11]",
+      "end_time": "[03:18]",
+      "start_time_sec": 191,
+      "text": "Ah, so the old bank rejected the debit because the switch completed two days earlier than expected.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:23]",
+      "end_time": "[03:31]",
+      "start_time_sec": 203,
+      "text": "Precisely. The timing overlapped by 48 hours, so BACS flagged the direct debit as rejected by paying bank."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:36]",
+      "end_time": "[03:43]",
+      "start_time_sec": 216,
+      "text": "Can you waive that ten-pound late payment fee since it was caused by the banking switch timing?",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:48]",
+      "end_time": "[04:01]",
+      "start_time_sec": 228,
+      "text": "Yes, absolutely. Because you used the official Current Account Switch Service and notified us in advance, that ten-pound fee was generated in error and I will remove it immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:06]",
+      "end_time": "[04:10]",
+      "start_time_sec": 246,
+      "text": "That is brilliant, thank you Oscar. That's very fair.",
+      "sentiment_score": 24.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:15]",
+      "end_time": "[04:22]",
+      "start_time_sec": 255,
+      "text": "Now let's verify your new bank details so we can re-lodge the direct debit mandate correctly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:27]",
+      "end_time": "[04:32]",
+      "start_time_sec": 267,
+      "text": "Okay, I have my new debit card and account details right here.",
+      "sentiment_score": 14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:37]",
+      "end_time": "[04:41]",
+      "start_time_sec": 277,
+      "text": "What is the eight-digit account number on your HSBC account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:46]",
+      "end_time": "[04:49]",
+      "start_time_sec": 286,
+      "text": "The account number is 74192834.",
+      "sentiment_score": 3.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:54]",
+      "end_time": "[05:00]",
+      "start_time_sec": 294,
+      "text": "And the full name on the account as it appears on your bank statement?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:05]",
+      "end_time": "[05:08]",
+      "start_time_sec": 305,
+      "text": "It's James Mitchell.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:13]",
+      "end_time": "[05:24]",
+      "start_time_sec": 313,
+      "text": "Thank you. And would you prefer your monthly payment collection date to remain on the fourth of each month, or change to a different day?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:29]",
+      "end_time": "[05:38]",
+      "start_time_sec": 329,
+      "text": "Could we change the payment date to the twenty-eighth of each month? That's when my salary is paid into the account.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:43]",
+      "end_time": "[05:51]",
+      "start_time_sec": 343,
+      "text": "Yes, moving your billing cycle to the twenty-eighth will align perfectly with your payday and prevent any cashflow issues."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:56]",
+      "end_time": "[06:00]",
+      "start_time_sec": 356,
+      "text": "That would be so much better for our household budgeting.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:05]",
+      "end_time": "[06:13]",
+      "start_time_sec": 365,
+      "text": "If the 28th falls on a weekend or a bank holiday, when does BACS process the direct debit collection?",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:18]",
+      "end_time": "[06:31]",
+      "start_time_sec": 378,
+      "text": "Under direct debit rules, if your scheduled payment date lands on a Saturday, Sunday, or bank holiday, BACS automatically requests the debit on the very next working business day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:36]",
+      "end_time": "[06:41]",
+      "start_time_sec": 396,
+      "text": "So my account won't be charged early on a Friday before payday?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:46]",
+      "end_time": "[06:53]",
+      "start_time_sec": 406,
+      "text": "Never early, James. Payments are only ever collected on or after your designated billing date, never before."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:58]",
+      "end_time": "[07:03]",
+      "start_time_sec": 418,
+      "text": "That protects me from any unexpected overdraft charges over bank holiday weekends.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:08]",
+      "end_time": "[07:17]",
+      "start_time_sec": 428,
+      "text": "Now let's process the outstanding monthly balance of forty-two pounds for this month so your broadband service remains completely active."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:22]",
+      "end_time": "[07:29]",
+      "start_time_sec": 442,
+      "text": "Can I pay that forty-two pounds right now over the phone with my debit card?",
+      "sentiment_score": 16.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:34]",
+      "end_time": "[07:40]",
+      "start_time_sec": 454,
+      "text": "Yes, I can take that card payment securely through our automated payment IVR system."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:45]",
+      "end_time": "[07:50]",
+      "start_time_sec": 465,
+      "text": "Let's do that right now so the balance is completely clear.",
+      "sentiment_score": 19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:55]",
+      "end_time": "[08:07]",
+      "start_time_sec": 475,
+      "text": "Please bear with me while I place you on a brief hold for about two minutes while I set up the secure payment portal and waive the fee."
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:27]",
+      "end_time": "[09:37]",
+      "start_time_sec": 567,
+      "text": "Thank you for your patience while holding, James. I have removed the ten-pound late fee and transferred you to the secure card payment portal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:42]",
+      "end_time": "[09:48]",
+      "start_time_sec": 582,
+      "text": "I just entered my card details and the voice confirmed forty-two pounds payment accepted.",
+      "sentiment_score": 28.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:53]",
+      "end_time": "[10:03]",
+      "start_time_sec": 593,
+      "text": "Checking the payment gateway... yes, authorization code 59281 confirms the forty-two pounds payment has cleared and your account balance is exactly zero pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:08]",
+      "end_time": "[10:12]",
+      "start_time_sec": 608,
+      "text": "That is such a relief to have that sorted out.",
+      "sentiment_score": 31.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:17]",
+      "end_time": "[10:28]",
+      "start_time_sec": 617,
+      "text": "I have also submitted the new direct debit mandate to BACS for your HSBC account ending in 2834 with the new collection date of the 28th."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:33]",
+      "end_time": "[10:37]",
+      "start_time_sec": 633,
+      "text": "When will the next direct debit be collected then?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:42]",
+      "end_time": "[10:51]",
+      "start_time_sec": 642,
+      "text": "Your next payment will not be taken until the 28th of next month, giving you a full month of clear billing."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:56]",
+      "end_time": "[11:03]",
+      "start_time_sec": 656,
+      "text": "That's fantastic. And there won't be any marks on my credit file for this failed attempt?",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:08]",
+      "end_time": "[11:17]",
+      "start_time_sec": 668,
+      "text": "Zero marks whatsoever, James. Because the fee was waived and the balance cleared within 48 hours, no credit bureau reporting occurs."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:22]",
+      "end_time": "[11:27]",
+      "start_time_sec": 682,
+      "text": "That was my biggest worry with buying a house next year.",
+      "sentiment_score": 26.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:32]",
+      "end_time": "[11:38]",
+      "start_time_sec": 692,
+      "text": "You are completely protected under the Direct Debit Guarantee and our billing charter."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:43]",
+      "end_time": "[11:47]",
+      "start_time_sec": 703,
+      "text": "Will I receive an email confirmation of the updated mandate?",
+      "sentiment_score": 12.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:52]",
+      "end_time": "[12:00]",
+      "start_time_sec": 712,
+      "text": "Yes, BACS requires a ten-day advance notice letter, which will be dispatched to your registered email within twenty-four hours."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:05]",
+      "end_time": "[12:09]",
+      "start_time_sec": 725,
+      "text": "And does the notice confirm the twenty-eighth payment date?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:14]",
+      "end_time": "[12:22]",
+      "start_time_sec": 734,
+      "text": "It confirms the exact collection schedule, your sort code, account number, and the monthly recurring charge of forty-two pounds."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:27]",
+      "end_time": "[12:30]",
+      "start_time_sec": 747,
+      "text": "That's very clear.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:35]",
+      "end_time": "[12:43]",
+      "start_time_sec": 755,
+      "text": "Would you also like me to set up an automated SMS alert three days prior to each payment collection?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:48]",
+      "end_time": "[12:55]",
+      "start_time_sec": 768,
+      "text": "Yes please, an SMS reminder on the twenty-fifth is very helpful to make sure funds are ready.",
+      "sentiment_score": 18.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:00]",
+      "end_time": "[13:05]",
+      "start_time_sec": 780,
+      "text": "I have enabled pre-collection payment SMS reminders on your mobile profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:10]",
+      "end_time": "[13:18]",
+      "start_time_sec": 790,
+      "text": "Can I view the status of the new direct debit mandate in the My S-Net mobile app right now?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:23]",
+      "end_time": "[13:34]",
+      "start_time_sec": 803,
+      "text": "Yes, in the My S-Net mobile app under the Billing and Payments tab, your new HSBC mandate will show as Pending BACS Registration until tomorrow morning."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:39]",
+      "end_time": "[13:45]",
+      "start_time_sec": 819,
+      "text": "And once BACS approves it tomorrow morning, the status updates to Active Mandate?",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:50]",
+      "end_time": "[13:58]",
+      "start_time_sec": 830,
+      "text": "Precisely. The badge turns green with Active Direct Debit, confirming all future collections will pull seamlessly on the twenty-eighth."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:03]",
+      "end_time": "[14:13]",
+      "start_time_sec": 843,
+      "text": "Can I set up a secondary backup payment method like a credit card just in case a future direct debit ever has an issue?",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:18]",
+      "end_time": "[14:30]",
+      "start_time_sec": 858,
+      "text": "Yes, our portal allows you to register a continuous payment authority on a backup debit or credit card that only activates if BACS returns an unpaid instruction."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:35]",
+      "end_time": "[14:40]",
+      "start_time_sec": 875,
+      "text": "That is an excellent feature that prevents accidental late fees forever.",
+      "sentiment_score": 19.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:45]",
+      "end_time": "[14:49]",
+      "start_time_sec": 885,
+      "text": "It ensures your broadband service never experiences temporary restrictions."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:54]",
+      "end_time": "[14:57]",
+      "start_time_sec": 894,
+      "text": "That gives me total peace of mind.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:01]",
+      "end_time": "[15:11]",
+      "start_time_sec": 901,
+      "text": "Oscar, you have handled this with complete professionalism. You explained the bank switch overlap, waived the fee, and moved my payment date.",
+      "sentiment_score": 34.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:15]",
+      "end_time": "[15:24]",
+      "start_time_sec": 915,
+      "text": "It was my pleasure helping you today, James. Is there anything else regarding your broadband account that I can assist with?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:28]",
+      "end_time": "[15:32]",
+      "start_time_sec": 928,
+      "text": "No, everything is completely resolved. Thank you so much!",
+      "sentiment_score": 28.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:36]",
+      "end_time": "[15:42]",
+      "start_time_sec": 936,
+      "text": "Thank you for choosing S-Net today, James. Have a wonderful rest of your day."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:46]",
+      "end_time": "[15:50]",
+      "start_time_sec": 946,
+      "text": "Thanks Oscar, goodbye.",
+      "sentiment_score": 6.4
+    }
+  ]
+}

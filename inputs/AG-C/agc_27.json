@@ -1,0 +1,486 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Jackson",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support, my name is Beth. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:16]",
+      "end_time": "[00:33]",
+      "start_time_sec": 16,
+      "text": "Hi Beth. I am experiencing massive packet loss and latency spikes on my broadband. My ping jumps from 15 milliseconds to over 300 milliseconds every two minutes, and I'm getting twenty percent packet loss to European game servers!",
+      "sentiment_score": -32.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:42]",
+      "end_time": "[00:51]",
+      "start_time_sec": 42,
+      "text": "I understand how disruptive ping spikes and packet loss can be, Jackson. Let's look into your network line diagnostics immediately."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:05]",
+      "start_time_sec": 60,
+      "text": "Thank you Beth, because it is making fast-paced online matches completely unplayable.",
+      "sentiment_score": -14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:14]",
+      "end_time": "[01:20]",
+      "start_time_sec": 74,
+      "text": "What server IP destinations or hostnames are you observing these high latency spikes towards?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:29]",
+      "end_time": "[01:47]",
+      "start_time_sec": 89,
+      "text": "I am testing against Frankfurt gaming cluster IP 185.60.112.157, and I am connected via a Cat7 shielded Ethernet cable directly into Port 1 on the router, not Wi-Fi. In competitive first-person tactical shooters, anything over thirty milliseconds creates noticeable server hit-registration desynchronization.",
+      "sentiment_score": -4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:56]",
+      "end_time": "[02:01]",
+      "start_time_sec": 116,
+      "text": "Let me check the optical line interface status on your terminal."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:10]",
+      "end_time": "[02:20]",
+      "start_time_sec": 130,
+      "text": "My local network ping to the default gateway 192.168.1.1 is rock solid under one millisecond with zero jitter across two thousand sample packets.",
+      "sentiment_score": 6.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:29]",
+      "end_time": "[02:48]",
+      "start_time_sec": 149,
+      "text": "So just to confirm the technical symptoms: your local local area network link to the router is clean, but traffic exiting our network towards European game servers encounters sudden ping spikes up to three hundred milliseconds with twenty percent packet loss. Is that correct?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:57]",
+      "end_time": "[03:00]",
+      "start_time_sec": 177,
+      "text": "Yes, that summarizes the problem exactly.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:09]",
+      "end_time": "[03:19]",
+      "start_time_sec": 189,
+      "text": "Are these packet drops occurring continuously throughout the day, or do they cluster primarily during peak evening hours between seven and ten?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:28]",
+      "end_time": "[03:39]",
+      "start_time_sec": 208,
+      "text": "They occur primarily during peak evening hours, but yesterday they persisted right through Sunday afternoon as well, ruining an entire weekend practice schedule with my team.",
+      "sentiment_score": -2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:48]",
+      "end_time": "[03:56]",
+      "start_time_sec": 228,
+      "text": "I am going to trigger an automated MTU and packet fragmentation diagnostic test across the core routing switch."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:31]",
+      "end_time": "[04:34]",
+      "start_time_sec": 271,
+      "text": "Are you still there, Beth?",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:43]",
+      "end_time": "[04:52]",
+      "start_time_sec": 283,
+      "text": "Yes, I am here Jackson. The MTU fragmentation test completed with zero local packet drop on your physical fiber profile."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:01]",
+      "end_time": "[05:07]",
+      "start_time_sec": 301,
+      "text": "So the physical fiber from my house to the local exchange is completely clean.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:15]",
+      "end_time": "[05:22]",
+      "start_time_sec": 315,
+      "text": "Yes, your optical signal attenuation is minus eighteen dBm, which is well within optimal specifications."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:30]",
+      "end_time": "[05:37]",
+      "start_time_sec": 330,
+      "text": "Then the bottleneck must be happening further upstream at the peering interconnect or transit gateway.",
+      "sentiment_score": -2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:45]",
+      "end_time": "[05:53]",
+      "start_time_sec": 345,
+      "text": "That is consistent with transit gateway congestion. Let me run a multi-hop visual traceroute from our edge router."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:01]",
+      "end_time": "[06:11]",
+      "start_time_sec": 361,
+      "text": "When I run WinMTR on my computer, Hop 4 at lon-b1-link.telia.net spikes to two hundred and eighty milliseconds with significant packet drop.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:19]",
+      "end_time": "[06:26]",
+      "start_time_sec": 379,
+      "text": "Hop 4 is one of our primary peering interconnect points in London Docklands carrying European transit."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:34]",
+      "end_time": "[06:41]",
+      "start_time_sec": 394,
+      "text": "Is that London Docklands link congested due to heavy evening video streaming traffic or bandwidth saturation?",
+      "sentiment_score": -4.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:49]",
+      "end_time": "[06:58]",
+      "start_time_sec": 409,
+      "text": "During peak periods, automated border gateway routing sometimes shunts international transit traffic over saturated secondary paths across the English Channel."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:06]",
+      "end_time": "[07:14]",
+      "start_time_sec": 426,
+      "text": "Can my broadband connection be reassigned to a different routing gateway path that avoids the saturated Telia link?",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:22]",
+      "end_time": "[07:32]",
+      "start_time_sec": 442,
+      "text": "Yes, we can rebind your dynamic IP pool assignment to our low-latency gaming transit subnet via Telehouse North with dedicated optical wavelengths."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:40]",
+      "end_time": "[07:49]",
+      "start_time_sec": 460,
+      "text": "Telehouse North has direct fiber peering with DE-CIX Frankfurt, which usually provides sub-twenty millisecond ping with zero intermediate routing hops.",
+      "sentiment_score": 14.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:57]",
+      "end_time": "[08:04]",
+      "start_time_sec": 477,
+      "text": "Let me inspect the Frankfurt BGP transit exchange hop latencies on our network topology monitor."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:42]",
+      "end_time": "[08:45]",
+      "start_time_sec": 522,
+      "text": "Hello, Beth, is the system still processing?",
+      "sentiment_score": -12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:53]",
+      "end_time": "[09:01]",
+      "start_time_sec": 533,
+      "text": "Yes Jackson, apologies for the pause. The Telehouse North BGP path is showing fourteen milliseconds round-trip latency to Frankfurt."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:09]",
+      "end_time": "[09:16]",
+      "start_time_sec": 549,
+      "text": "That fourteen milliseconds is exactly what I used to get before this issue started last week.",
+      "sentiment_score": 8.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:24]",
+      "end_time": "[09:30]",
+      "start_time_sec": 564,
+      "text": "I will reconfigure your broadband subscriber session profile to prioritize the low-latency peering table."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:38]",
+      "end_time": "[09:43]",
+      "start_time_sec": 578,
+      "text": "Will that require rebooting my router or dropping my active internet connection?",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:51]",
+      "end_time": "[09:57]",
+      "start_time_sec": 591,
+      "text": "The gateway profile update will trigger a brief five-second PPP re-authentication session drop."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:05]",
+      "end_time": "[10:11]",
+      "start_time_sec": 605,
+      "text": "Go ahead and trigger the session refresh, I have saved all my work.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:19]",
+      "end_time": "[10:29]",
+      "start_time_sec": 619,
+      "text": "Rebinding session profile now... PPP authentication successful, your broadband connection is fully re-established on low-latency static gaming subnet 82.132.44.0 with optimized MTU packet size."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:37]",
+      "end_time": "[10:44]",
+      "start_time_sec": 637,
+      "text": "Let me open a command prompt and run a continuous ping to the Frankfurt server.",
+      "sentiment_score": 14.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:52]",
+      "end_time": "[10:58]",
+      "start_time_sec": 652,
+      "text": "What ping values and packet loss statistics are you observing now on your terminal?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:06]",
+      "end_time": "[11:15]",
+      "start_time_sec": 666,
+      "text": "Ping 1 is fifteen milliseconds... ping 2 is sixteen milliseconds... ping 3 is fifteen milliseconds... zero packet loss across thirty packets!",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:23]",
+      "end_time": "[11:32]",
+      "start_time_sec": 683,
+      "text": "That confirms your traffic is now routing directly through the low-latency Telehouse North fiber link with sub-twenty millisecond round-trip times."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:40]",
+      "end_time": "[11:43]",
+      "start_time_sec": 700,
+      "text": "The difference is night and day, thank you.",
+      "sentiment_score": 22.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:51]",
+      "end_time": "[11:58]",
+      "start_time_sec": 711,
+      "text": "We should also verify your DNS resolver settings to ensure your gaming launcher resolves hostnames without latency."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:06]",
+      "end_time": "[12:11]",
+      "start_time_sec": 726,
+      "text": "I am currently using the default S-Net DNS server IP addresses.",
+      "sentiment_score": 4.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:19]",
+      "end_time": "[12:26]",
+      "start_time_sec": 739,
+      "text": "Our internal Anycast DNS servers are located within the same Telehouse facility, providing sub-three millisecond resolution."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:34]",
+      "end_time": "[12:37]",
+      "start_time_sec": 754,
+      "text": "That ensures fast matchmaking server queries.",
+      "sentiment_score": 12.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:45]",
+      "end_time": "[12:54]",
+      "start_time_sec": 765,
+      "text": "I have permanently locked your routing profile to prevent automated load balancing from bumping you back to the secondary gateway."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:02]",
+      "end_time": "[13:07]",
+      "start_time_sec": 782,
+      "text": "That permanent lock will prevent this from happening again next weekend.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:15]",
+      "end_time": "[13:22]",
+      "start_time_sec": 795,
+      "text": "Are you testing this over Wi-Fi or do you have an Ethernet cable plugged in?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:30]",
+      "end_time": "[13:40]",
+      "start_time_sec": 810,
+      "text": "As I told you right at the start of our call, I am plugged into Port 1 with a Cat7 shielded Ethernet cable!",
+      "sentiment_score": -18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:48]",
+      "end_time": "[13:54]",
+      "start_time_sec": 828,
+      "text": "Of course, Jackson, my apologies. I was just confirming the physical interface speed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:02]",
+      "end_time": "[14:18]",
+      "start_time_sec": 842,
+      "text": "I was disqualified from an online esports qualifier tournament last night because of this! We were in the semi-finals of a nationwide Counter-Strike championship, and I lost fifty ranking points and entry fees because the connection choked!",
+      "sentiment_score": -48.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[14:26]",
+      "end_time": "[14:41]",
+      "start_time_sec": 866,
+      "text": "I understand how intensely frustrating and demoralising that is, Jackson, especially losing tournament ranking points when you've invested so much time and effort preparing for championship matches. Let's make sure this route is permanently optimized."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[14:49]",
+      "end_time": "[15:00]",
+      "start_time_sec": 889,
+      "text": "Thank you Beth, I appreciate you understanding why high ping is such a big deal for competitive gaming when thousands of pounds are on the line.",
+      "sentiment_score": 12.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:08]",
+      "end_time": "[15:17]",
+      "start_time_sec": 908,
+      "text": "I will also apply a twenty-pound goodwill credit to your broadband account to help compensate for your tournament entry fee inconvenience."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:25]",
+      "end_time": "[15:31]",
+      "start_time_sec": 925,
+      "text": "That is very considerate of S-Net, thank you Beth, that shows genuine customer care.",
+      "sentiment_score": 18.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[15:39]",
+      "end_time": "[15:46]",
+      "start_time_sec": 939,
+      "text": "How is your general download and streaming speed performing across other household devices in your home?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[15:54]",
+      "end_time": "[16:04]",
+      "start_time_sec": 954,
+      "text": "Video streaming in 4K on Netflix and YouTube has been completely flawless on our Smart TVs, so regular household browsing was always fine.",
+      "sentiment_score": 24.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:12]",
+      "end_time": "[16:17]",
+      "start_time_sec": 972,
+      "text": "I am very pleased to hear that general household streaming remains uninterrupted."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:25]",
+      "end_time": "[16:35]",
+      "start_time_sec": 985,
+      "text": "It was purely that specific European gaming server transit route that was causing severe packet drop and ruined my tournament qualifier match.",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[16:43]",
+      "end_time": "[16:48]",
+      "start_time_sec": 1003,
+      "text": "The technical routing change ticket reference logged on your account is NET-44019-RT."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[16:56]",
+      "end_time": "[16:59]",
+      "start_time_sec": 1016,
+      "text": "Noted down... NET-44019-RT.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:07]",
+      "end_time": "[17:28]",
+      "start_time_sec": 1027,
+      "text": "I have verified that your traffic is permanently routed via the Telehouse North gaming gateway, your latency is rock-solid at fifteen milliseconds with zero packet loss, and the twenty-pound tournament goodwill credit is applied to your billing account. Does that completely resolve the issue for you today, Jackson?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[17:36]",
+      "end_time": "[17:43]",
+      "start_time_sec": 1056,
+      "text": "Yes Beth, you've completely sorted it out and my ping is perfect now. Thank you so much.",
+      "sentiment_score": 28.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[17:51]",
+      "end_time": "[17:58]",
+      "start_time_sec": 1071,
+      "text": "Thank you for choosing S-Net today, Jackson. Best of luck in your upcoming gaming tournaments. Goodbye."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[18:06]",
+      "end_time": "[18:10]",
+      "start_time_sec": 1086,
+      "text": "Thank you Beth, goodbye.",
+      "sentiment_score": 16.4
+    }
+  ]
+}

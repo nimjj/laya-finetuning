@@ -1,0 +1,160 @@
+{
+  "call_id": "ag_10",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 21.7,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "coaching": "At [17:08], the agent closed with 'Thanks for choosing S-Net' instead of the required verbatim closing phrase 'Thank you for choosing S-Net'."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "coaching": "Although the customer stated her name was Katarzyna at [00:12], the agent never addressed her by name during the call."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "When the customer expressed shock and distress at [00:12] and [01:01]–[01:19] over the sudden £19/month price hike, the agent gave cold, matter-of-fact policy responses ([01:36], [02:02]) without any empathy or acknowledgment."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "coaching": "At [00:31] and [01:36], the agent never restated or paraphrased the customer's billing concern and renewal request before jumping into account lookup and policy statements."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "FAIL",
+        "coaching": "At [06:14] and [06:36], the agent asked which speed tier the customer was on and whether she wanted a landline call bundle, despite the customer explicitly stating at [00:12] and [01:01]–[01:19] that she had Fibre 150 with no landline plugged in."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "coaching": "At [02:02] and [03:56], the agent deflected responsibility onto other teams ('Our marketing department sets the out-of-contract pricing, that's nothing to do with me' and telling the customer to chase credit control separately)."
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "coaching": "At [02:26], the agent spoke condescendingly to the customer ('Well, we sent the end-of-contract notification email six weeks ago, if you don't bother reading your emails you can't really blame us')."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "FAIL",
+        "coaching": "Before applying retention code RET-F150-29 at [07:22], the agent failed to ask any diagnostic or usage-probing questions about household needs, devices, or package suitability."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 4 Argon)",
+    "graded_on": "2026-10-18",
+    "scenario": "Unexpected out-of-contract price hike of £19/month and request to apply loyalty renewal discount",
+    "tier": "very_poor",
+    "duration_sec": 1030,
+    "notes": "Very poor soft-skills call (8 FAILs, 21.7 score) paired with live transactional resolution (RE hard PASS). Leah verifies PIN/address early ([00:31]–[00:54]) and executes a properly managed 75s hold ([08:39]–[10:18], H hard PASS) to apply the £29/month loyalty renewal and £18.37 pro-rata credit, which Katarzyna confirms live in the My S-Net app ([12:06]–[12:58], [16:22]). However, Leah fails Branding at [17:08] ('Thanks for choosing S-Net', B hard FAIL), never uses Katarzyna's name (P FAIL), shows zero empathy (E hard FAIL), skips paraphrasing (PA FAIL), forgets Katarzyna already stated she has Fibre 150 and no landline ([06:14], [06:36], AL FAIL), deflects blame to marketing ([02:02], O FAIL), is condescending about emails ([02:26], R FAIL), and fails to probe (PR FAIL).",
+    "hard_cases": [
+      "Branding and Survey Check",
+      "Empathy & Acknowledgment Statement",
+      "Hold time and Dead Air",
+      "Confirmed the issue is resolved"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "While Leah opens properly at [00:00] ('thank you for calling S-Net'), she paraphrases the closing branding at [17:08] as 'Thanks for choosing S-Net. Goodbye.'"
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At [08:39], Leah properly announces the hold ('Please bear with me while I generate the renewal order on your profile') and returns after 75s at [10:18] with 'Thank you for holding.'"
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer introduces herself as Katarzyna at [00:12], but Leah never uses the name 'Katarzyna' in any Agent turn ([00:00]–[17:08])."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [00:12] and [01:01]–[01:19], Katarzyna is upset (-34.0 sentiment) about her bill jumping from £29 to £48/month; Leah responds coldly at [01:36] and [02:02] without ever apologizing or acknowledging her frustration."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Following Katarzyna's explanation at [00:12] and [01:01]–[01:19], Leah immediately demands verification ([00:31]) and states contract policy ([01:36]) without paraphrasing."
+      },
+      {
+        "name": "Active listening",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Katarzyna states she is on 'Fibre 150' at [00:12] and [01:01] and has no landline at [01:19], yet at [06:14] Leah asks 'And which speed tier are you currently on, is it the 150 or the 300?' and at [06:36] asks about a landline bundle."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [02:02], Leah says: 'Our marketing department sets the out-of-contract pricing, that's nothing to do with me.' At [03:56], she also deflects invoice adjustments to the credit control team."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [02:26], Leah says: 'Well, we sent the end-of-contract notification email six weeks ago, if you don't bother reading your emails you can't really blame us.'"
+      },
+      {
+        "name": "Probing",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "At [05:56]–[07:22], Leah opens the retention matrix and applies RET-F150-29 without asking a single probing question about the customer's broadband usage or requirements (only asking repetitive questions at [06:14] and [06:36] that had already been answered)."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Despite poor soft skills, Leah applies the £29/month Fibre 150 loyalty renewal (order ORD-774109) and £18.37 pro-rata credit live at [10:18]–[11:05], and Katarzyna refreshes her My S-Net app at [12:06]–[12:58] and [16:22] to confirm the £29/month contract and credit are active."
+      }
+    ]
+  }
+}

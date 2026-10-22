@@ -1,0 +1,456 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Imogen",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:02]",
+      "end_time": "[00:09]",
+      "start_time_sec": 2,
+      "text": "Thank you for calling S-Net mobile support. My name is Toby. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:11]",
+      "end_time": "[00:27]",
+      "start_time_sec": 11,
+      "text": "Hi Toby. I ordered a SIM-only deal and requested to port my old number across with a PAC code, but my old SIM went dead yesterday and my new S-Net SIM still hasn't picked up my number.",
+      "sentiment_score": -21.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:29]",
+      "end_time": "[00:42]",
+      "start_time_sec": 29,
+      "text": "I can certainly investigate why your mobile number port is delayed, Imogen. For account security, could you please verify your billing address and the security question answer on your account?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:44]",
+      "end_time": "[00:54]",
+      "start_time_sec": 44,
+      "text": "Yes, it's 19 St Peter's Court, Winchester, SO23 8BN. And my security question is my first car, which was a Ford Fiesta.",
+      "sentiment_score": 3.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:56]",
+      "end_time": "[01:10]",
+      "start_time_sec": 56,
+      "text": "Thank you Imogen, that's verified your account. Could you please give me the mobile number you are transferring across, the PAC code, and the temporary number printed on your new S-Net SIM?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:12]",
+      "end_time": "[01:27]",
+      "start_time_sec": 72,
+      "text": "The number I want to keep is 07911 234 567. The PAC code from my old provider is O2-948215-M. And the temporary mobile number on the S-Net SIM card packaging is 07700 900 481.",
+      "sentiment_score": -2.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:29]",
+      "end_time": "[01:36]",
+      "start_time_sec": 89,
+      "text": "Thank you. And tell me a little about the timeline of when the old SIM stopped working."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:38]",
+      "end_time": "[01:55]",
+      "start_time_sec": 98,
+      "text": "My old SIM disconnected at noon yesterday, and I'm in the middle of exchanging contracts on a house! My estate agent and solicitor are trying to call me, and having no mobile service right now is completely nerve-wracking.",
+      "sentiment_score": -39.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:57]",
+      "end_time": "[02:14]",
+      "start_time_sec": 117,
+      "text": "Having your mobile cut off while exchanging contracts on a home is extremely stressful, Imogen. I understand how urgent this is with solicitors trying to reach you, so let's get into the porting clearing house file and get this released."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:16]",
+      "end_time": "[02:22]",
+      "start_time_sec": 136,
+      "text": "Thank you Toby, that really means a lot because I've been panicking all morning.",
+      "sentiment_score": 19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:24]",
+      "end_time": "[02:44]",
+      "start_time_sec": 144,
+      "text": "So if I have understood correctly, your previous network disconnected your old number yesterday at noon following your PAC submission, but the number has not ported onto your new S-Net SIM, leaving you without incoming calls during a time-sensitive house exchange. Have I got that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:46]",
+      "end_time": "[02:55]",
+      "start_time_sec": 166,
+      "text": "Yes, exactly. It's showing No Service on the old phone and the temporary number is still active on the new phone.",
+      "sentiment_score": -8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:57]",
+      "end_time": "[03:07]",
+      "start_time_sec": 177,
+      "text": "Understood. Let me access the national Mobile Number Portability database. Bear with me for one moment while I query the clearing house server."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:09]",
+      "end_time": "[03:13]",
+      "start_time_sec": 189,
+      "text": "Okay, standing by.",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:15]",
+      "end_time": "[03:30]",
+      "start_time_sec": 195,
+      "text": "Thank you for bearing with me, Imogen. I see what happened. The port was submitted yesterday during the national clearing house maintenance window, so the electronic routing file got suspended in a pending status."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:32]",
+      "end_time": "[03:36]",
+      "start_time_sec": 212,
+      "text": "Oh, so it's stuck in their computer system?",
+      "sentiment_score": -6.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:38]",
+      "end_time": "[03:48]",
+      "start_time_sec": 218,
+      "text": "Yes, precisely. The PAC code itself is completely valid, but the routing instruction to point the HLR database to S-Net's network didn't trigger automatically."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:50]",
+      "end_time": "[03:56]",
+      "start_time_sec": 230,
+      "text": "Can you trigger it from your end, or do I have to wait days?",
+      "sentiment_score": -16.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:58]",
+      "end_time": "[04:11]",
+      "start_time_sec": 238,
+      "text": "Obviously network routing tables cannot be bypassed instantly, Imogen, but as a tier-two support agent I can perform a manual broadcast push right now to release the stuck queue."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:13]",
+      "end_time": "[04:17]",
+      "start_time_sec": 253,
+      "text": "Oh brilliant, please do that!",
+      "sentiment_score": 11.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:19]",
+      "end_time": "[04:30]",
+      "start_time_sec": 259,
+      "text": "I am initiating the manual broadcast push through the clearing portal now. The system requires me to verify the target IMSI and temporary SIM details."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:32]",
+      "end_time": "[04:36]",
+      "start_time_sec": 272,
+      "text": "Okay, whatever you need.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:39]",
+      "end_time": "[04:47]",
+      "start_time_sec": 279,
+      "text": "Could you tell me again what that temporary mobile number is that came on the new S-Net SIM card?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:49]",
+      "end_time": "[04:55]",
+      "start_time_sec": 289,
+      "text": "It's 07700 900 481, like I mentioned at the start of the call.",
+      "sentiment_score": -15.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:57]",
+      "end_time": "[05:10]",
+      "start_time_sec": 297,
+      "text": "Thank you, Imogen. I've input 07700 900 481 and matched it to the SIM IMSI serial. The broadcast signal has just been sent across to the core mobile exchange."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:12]",
+      "end_time": "[05:16]",
+      "start_time_sec": 312,
+      "text": "How long does that usually take to push through?",
+      "sentiment_score": -2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:18]",
+      "end_time": "[05:30]",
+      "start_time_sec": 318,
+      "text": "The manual broadcast takes approximately sixty seconds. While we wait, let's keep your mobile phone in airplane mode for one minute to flush the cellular radio cache."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:32]",
+      "end_time": "[05:36]",
+      "start_time_sec": 332,
+      "text": "Okay, turning on Airplane Mode now on my iPhone.",
+      "sentiment_score": 2.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:38]",
+      "end_time": "[05:45]",
+      "start_time_sec": 338,
+      "text": "Great. The portal is showing the porting status update: Status is changing from Suspended to Completed."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:47]",
+      "end_time": "[05:51]",
+      "start_time_sec": 347,
+      "text": "Oh, wonderful!",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:53]",
+      "end_time": "[06:02]",
+      "start_time_sec": 353,
+      "text": "Now please turn Airplane Mode off on your phone and allow the handset to scan for the local cellular cell tower."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:04]",
+      "end_time": "[06:13]",
+      "start_time_sec": 364,
+      "text": "Airplane Mode turned off... it's searching... and S-Net 5G just appeared in the top corner with four bars of signal!",
+      "sentiment_score": 36.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:15]",
+      "end_time": "[06:26]",
+      "start_time_sec": 375,
+      "text": "Just as a quick tip for your new S-Net SIM, have you downloaded our S-Net Mobile app to monitor your data usage and roaming allowances?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:28]",
+      "end_time": "[06:35]",
+      "start_time_sec": 388,
+      "text": "I haven't yet, but I'll make sure to download it from the App Store tonight.",
+      "sentiment_score": 8.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:37]",
+      "end_time": "[06:46]",
+      "start_time_sec": 397,
+      "text": "It's very handy for checking remaining data, itemized bills, and setting up monthly spending caps so you never get unexpected charges."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:48]",
+      "end_time": "[06:55]",
+      "start_time_sec": 408,
+      "text": "That's great to know, especially with all the phone calls I'm making at the moment.",
+      "sentiment_score": 12.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:57]",
+      "end_time": "[07:07]",
+      "start_time_sec": 417,
+      "text": "Your plan includes unlimited UK minutes and texts and thirty gigabytes of data, plus five gigabytes of inclusive roaming in the European Union."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:09]",
+      "end_time": "[07:17]",
+      "start_time_sec": 429,
+      "text": "Oh, that EU roaming inclusion will be so useful when we take our holiday in France next summer.",
+      "sentiment_score": 18.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:19]",
+      "end_time": "[07:26]",
+      "start_time_sec": 439,
+      "text": "Yes, it activates automatically when your handset registers on a European partner carrier like Orange or SFR."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:28]",
+      "end_time": "[07:32]",
+      "start_time_sec": 448,
+      "text": "That's such a relief to know.",
+      "sentiment_score": 11.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:35]",
+      "end_time": "[07:43]",
+      "start_time_sec": 455,
+      "text": "Also, just to check on your handset, are all four signal bars still showing steadily without dropping to three?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:45]",
+      "end_time": "[07:49]",
+      "start_time_sec": 465,
+      "text": "Yes, solid four bars on 5G.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:51]",
+      "end_time": "[08:01]",
+      "start_time_sec": 471,
+      "text": "Now let's verify SMS delivery. Could you send a quick test text message to a family member or friend to confirm outbound messaging?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:03]",
+      "end_time": "[08:09]",
+      "start_time_sec": 483,
+      "text": "I'm sending a quick text message to my partner now... it says Delivered instantly!",
+      "sentiment_score": 31.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:11]",
+      "end_time": "[08:18]",
+      "start_time_sec": 491,
+      "text": "And did you want to configure your personal voicemail PIN while we are on the line?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:20]",
+      "end_time": "[08:24]",
+      "start_time_sec": 500,
+      "text": "How do I access voicemail on S-Net mobile?",
+      "sentiment_score": 6.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:26]",
+      "end_time": "[08:37]",
+      "start_time_sec": 506,
+      "text": "You simply press and hold key number one on your phone dialer, or dial 222 directly. It will prompt you to choose a four-digit security PIN."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:39]",
+      "end_time": "[08:44]",
+      "start_time_sec": 519,
+      "text": "That sounds very straightforward. I'll set that up right after our call.",
+      "sentiment_score": 11.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:46]",
+      "end_time": "[08:56]",
+      "start_time_sec": 526,
+      "text": "Fantastic. Now let's verify incoming routing. I am going to dial your ported number, 07911 234 567, from my test console right now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:58]",
+      "end_time": "[09:02]",
+      "start_time_sec": 538,
+      "text": "Okay, waiting for the call.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:05]",
+      "end_time": "[09:09]",
+      "start_time_sec": 545,
+      "text": "Placing the outbound test call now."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:13]",
+      "end_time": "[09:17]",
+      "start_time_sec": 553,
+      "text": "It's ringing! My phone is ringing with your incoming call!",
+      "sentiment_score": 38.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:19]",
+      "end_time": "[09:24]",
+      "start_time_sec": 559,
+      "text": "And when you accept the call, is the voice connection clear?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:26]",
+      "end_time": "[09:32]",
+      "start_time_sec": 566,
+      "text": "Accepting... hello Toby! Yes, it's ringing through to my handset on my actual number!",
+      "sentiment_score": 41.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:34]",
+      "end_time": "[09:44]",
+      "start_time_sec": 574,
+      "text": "That confirms the porting routing has fully updated across the UK cellular network. Your original number is now active on your new S-Net SIM."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:46]",
+      "end_time": "[09:55]",
+      "start_time_sec": 586,
+      "text": "I can't tell you how relieved I am. Now my solicitor and mortgage broker can reach me without any issues.",
+      "sentiment_score": 35.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:57]",
+      "end_time": "[10:08]",
+      "start_time_sec": 597,
+      "text": "I'm so glad we could get that unblocked for you so quickly today, Imogen. Is there anything else on your mobile account I can assist with?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:10]",
+      "end_time": "[10:17]",
+      "start_time_sec": 610,
+      "text": "No, that was the big worry and it's completely sorted. Thank you so much for your help.",
+      "sentiment_score": 25.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:19]",
+      "end_time": "[10:27]",
+      "start_time_sec": 619,
+      "text": "Thank you for choosing S-Net, Imogen. Best of luck with the house exchange and have a wonderful day!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:29]",
+      "end_time": "[10:33]",
+      "start_time_sec": 629,
+      "text": "Thank you Toby, goodbye!",
+      "sentiment_score": 11.8
+    }
+  ]
+}

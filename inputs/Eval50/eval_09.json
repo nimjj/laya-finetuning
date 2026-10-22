@@ -1,0 +1,166 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Leticia",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:05]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net, this is Rory. How can I help today?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:06]",
+      "end_time": "[00:14]",
+      "start_time_sec": 6,
+      "text": "Hi. My TV box keeps freezing in the middle of programmes and it's been going on for days, it's driving us mad.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:15]",
+      "end_time": "[00:24]",
+      "start_time_sec": 15,
+      "text": "Freezing mid-programme for days would drive anyone mad, I'm sorry about that. Let's see what we can do. Can I take your PIN first?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:27]",
+      "end_time": "[00:29]",
+      "start_time_sec": 27,
+      "text": "8 1 2 0.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:32]",
+      "end_time": "[00:40]",
+      "start_time_sec": 32,
+      "text": "Thanks, Leticia. So the TV box freezes partway through programmes, and it's been happening for a few days. Is that right?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:41]",
+      "end_time": "[00:43]",
+      "start_time_sec": 41,
+      "text": "Yes.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:44]",
+      "end_time": "[00:48]",
+      "start_time_sec": 44,
+      "text": "Does it happen on live TV, recordings, or the catch-up apps?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:51]",
+      "end_time": "[00:53]",
+      "start_time_sec": 51,
+      "text": "Mostly live TV. Recordings seem fine.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:55]",
+      "end_time": "[01:00]",
+      "start_time_sec": 55,
+      "text": "Is the box connected to the router with a cable, or over wifi?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:03]",
+      "end_time": "[01:05]",
+      "start_time_sec": 63,
+      "text": "Wifi, I think. There's no cable.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:07]",
+      "end_time": "[01:14]",
+      "start_time_sec": 67,
+      "text": "That would explain live TV struggling. Do you know roughly how far the box is from the router?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:16]",
+      "end_time": "[01:19]",
+      "start_time_sec": 76,
+      "text": "Other side of the house. Two walls.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:21]",
+      "end_time": "[01:36]",
+      "start_time_sec": 81,
+      "text": "That's likely the cause. I'm sending a powerline adapter kit, free, which uses your electrics to give the box a wired connection. It arrives in two days. In the meantime, could you restart the box for me now?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:38]",
+      "end_time": "[01:40]",
+      "start_time_sec": 98,
+      "text": "Okay, it's restarting.",
+      "sentiment_score": -5.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:42]",
+      "end_time": "[01:44]",
+      "start_time_sec": 102,
+      "text": "It's back on.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:45]",
+      "end_time": "[01:53]",
+      "start_time_sec": 105,
+      "text": "Can you put on a live channel and let it run for a minute, and tell me if it freezes?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:56]",
+      "end_time": "[01:59]",
+      "start_time_sec": 116,
+      "text": "It's been fine for a minute or so now.",
+      "sentiment_score": -3.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:02]",
+      "end_time": "[02:07]",
+      "start_time_sec": 122,
+      "text": "Good. With the adapter it should stay that way. Is everything working for now?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:10]",
+      "end_time": "[02:12]",
+      "start_time_sec": 130,
+      "text": "Yes, it's all working.",
+      "sentiment_score": -2.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:13]",
+      "end_time": "[02:15]",
+      "start_time_sec": 133,
+      "text": "Great. Thanks, bye now.",
+      "sentiment_score": 8.0
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "call_id": "agb2_08",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 88.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to acknowledge customer's severe distress at turn 71 ([14:39]) regarding potential spoiling of perishable cargo containers, responding coldly with policy and demanding administrative sign-off."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "coaching": ""
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash High)",
+    "graded_on": "2026-10-21",
+    "scenario": "Business static IP reverse DNS PTR configuration and outbound mail deliverability; handled first outburst followed by unhandled second outburst in final third",
+    "tier": "good",
+    "duration_sec": 1042,
+    "notes": "Strong technical execution marred by a critical Empathy failure in the final third. Sophie accurately configures a reverse DNS PTR record for Apex Logistics, flushes public DNS caches, and validates SMTP deliverability. She handles Nadia's initial freight delay outburst at turn 11 with warmth at turn 13. However, when Nadia experiences a second acute outburst at turn 71 regarding perishable food cargo spoiling due to 24-hour DNS propagation delays, Sophie completely fails to acknowledge her fear, quoting rigid policy and demanding ticket sign-off instead.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Hold time and Dead Air"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opened at [00:00] with 'Thank you for calling S-Net business technical support' and closed at [17:09] with 'Thank you for choosing S-Net as your business connectivity partner'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "A single 60s hold between [05:51] and [07:01] to push the PTR record was properly announced with 'Bear with me for about a minute' and returned with 'Thank you for waiting, Nadia'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent requested company registered address and security PIN at [00:30], within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent addressed customer Nadia by name naturally throughout the call (turns 2, 4, 6, 13, 26, 78, 84)."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "While agent warmly handled outburst 1 at turn 13 ([03:11]), customer suffered an intense second outburst at turn 71 ([14:39]) about thousands of pounds of perishable cargo spoiling. Agent at turn 72 ([15:06]) completely ignored her distress and demanded formal ticket acceptance."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turn 6 ([01:32]), agent paraphrased the technical requirement: 'So what you need is to bind your single static IPv4 address to your corporate mail hostname with an authoritative reverse DNS PTR record, so that external recipient servers can validate your domain's authenticity. Have I got that right, Nadia?'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent never repeated answered questions. At turn 28 ([07:22]), verifying whether the server responded on public IP 194.72.115.42 before querying dig was a legitimate status verification step."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent directly updated nameserver PTR zones, performed public cache purges, and configured proactive SLA ping monitoring without deflection."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Professional throughout; remained calm and polite without using rude, condescending, or sarcastic language."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Diagnostic probing into mail server hostname (turn 10), forward A record status (turn 12), firewall port forwarding (turn 21), and SPF record formatting (turn 32)."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turns 78-79 ([16:15]-[16:26]), agent checked if mail delivery was resolved, and Nadia confirmed: 'Technically the PTR is created and our emails are going through, so yes, the technical issue on the router and S-Net side is done.'"
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 9,
+          "agent_turn": 28
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 6
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 70
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "handled",
+          "customer_turn": 11,
+          "agent_turn": 13,
+          "with_refusal": false
+        },
+        {
+          "kind": "unhandled",
+          "customer_turn": 71
+        }
+      ]
+    }
+  }
+}

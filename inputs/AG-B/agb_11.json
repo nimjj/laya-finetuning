@@ -1,0 +1,486 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Kieran",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Thank you for calling S-Net technical support. My name is Alex. How can I help you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:10]",
+      "end_time": "[00:19]",
+      "start_time_sec": 10,
+      "text": "Hi Alex. I've got a major problem with the wireless internet reaching my detached garden office at the back of the house.",
+      "sentiment_score": -19.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:22]",
+      "end_time": "[00:35]",
+      "start_time_sec": 22,
+      "text": "I can certainly help investigate that wireless coverage issue for you, Kieran. Before we begin, could you please confirm your full postal address and the security question answer for account verification?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:38]",
+      "end_time": "[00:47]",
+      "start_time_sec": 38,
+      "text": "Yes, it's 52 Richmond Vale, Bristol, BS8 2HY. And the security question is my favorite pet, which is Barnaby.",
+      "sentiment_score": 2.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:50]",
+      "end_time": "[00:59]",
+      "start_time_sec": 50,
+      "text": "Thank you Kieran, that matches our system records. What is currently happening when you try to connect from the garden office?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:02]",
+      "end_time": "[01:27]",
+      "start_time_sec": 62,
+      "text": "I work as a self-employed architectural designer, and the connection has completely dropped out this morning! I've lost four hours of billable project time, and my client has threatened to cancel my contract and fine me two thousand pounds if the planning drawings aren't uploaded by five PM! I am tearing my hair out!",
+      "sentiment_score": -46.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:30]",
+      "end_time": "[01:38]",
+      "start_time_sec": 90,
+      "text": "Let's check the router details. What model of S-Net Hub do you have located in the main house?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:41]",
+      "end_time": "[01:47]",
+      "start_time_sec": 101,
+      "text": "It's the Hub 4 with the circular silver base.",
+      "sentiment_score": -22.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:50]",
+      "end_time": "[01:58]",
+      "start_time_sec": 110,
+      "text": "And how far away in meters is the garden office from the back wall of the house?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:01]",
+      "end_time": "[02:07]",
+      "start_time_sec": 121,
+      "text": "It's roughly eighteen meters across the lawn and patio.",
+      "sentiment_score": -14.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:10]",
+      "end_time": "[02:25]",
+      "start_time_sec": 130,
+      "text": "So if I have understood correctly, your workstation in the detached garden office cannot maintain a stable signal over the eighteen-meter distance through patio glass, causing your drawing uploads to fail. Is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:28]",
+      "end_time": "[02:36]",
+      "start_time_sec": 148,
+      "text": "Yes, exactly. It connects for thirty seconds, then drops completely, showing no internet secured.",
+      "sentiment_score": -9.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:39]",
+      "end_time": "[02:54]",
+      "start_time_sec": 159,
+      "text": "Obviously high-frequency 5 gigahertz radio waves suffer severe signal attenuation when traveling through modern energy-efficient argon double glazing, Kieran. But 2.4 gigahertz waves penetrate obstacles far more effectively."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:57]",
+      "end_time": "[03:04]",
+      "start_time_sec": 177,
+      "text": "Right, so how do I force my computer to use the 2.4 gigahertz signal?",
+      "sentiment_score": 1.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:07]",
+      "end_time": "[03:24]",
+      "start_time_sec": 187,
+      "text": "By default, the Hub 4 combines both frequencies into a single network name. We need to log into the router settings and split the frequencies into separate network names so your office devices can connect exclusively to the longer-range frequency."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:27]",
+      "end_time": "[03:33]",
+      "start_time_sec": 207,
+      "text": "Okay, I can do that. What address do I type in?",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:36]",
+      "end_time": "[03:45]",
+      "start_time_sec": 216,
+      "text": "Open a web browser on a laptop in the main house and type 192.168.1.1 into the address bar."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:48]",
+      "end_time": "[03:58]",
+      "start_time_sec": 228,
+      "text": "I'm in the kitchen near the router now. Typing 192.168.1.1... the S-Net Hub login page has loaded.",
+      "sentiment_score": 6.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:01]",
+      "end_time": "[04:12]",
+      "start_time_sec": 241,
+      "text": "On the back of the Hub 4, there is a removable plastic settings card. It lists the Admin Password for the web interface."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:15]",
+      "end_time": "[04:24]",
+      "start_time_sec": 255,
+      "text": "Pulling out the card... the admin password is zebra-copper-92. Typing that in now.",
+      "sentiment_score": 4.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:27]",
+      "end_time": "[04:36]",
+      "start_time_sec": 267,
+      "text": "Once logged in, click on the Advanced Settings tab at the top, and select Wireless Configuration."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:39]",
+      "end_time": "[04:45]",
+      "start_time_sec": 279,
+      "text": "Clicking Advanced Settings... and Wireless Configuration.",
+      "sentiment_score": 3.7
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:48]",
+      "end_time": "[04:58]",
+      "start_time_sec": 288,
+      "text": "You will see a checkbox labeled Synchronize 2.4GHz and 5GHz network names. Please uncheck that box."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:01]",
+      "end_time": "[05:09]",
+      "start_time_sec": 301,
+      "text": "Unchecking the box now... okay, two separate SSID fields appeared below.",
+      "sentiment_score": 8.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:12]",
+      "end_time": "[05:22]",
+      "start_time_sec": 312,
+      "text": "For the 2.4GHz SSID, append the letters -Garden to the existing network name, so it reads S-Net-WiFi-Garden."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:25]",
+      "end_time": "[05:32]",
+      "start_time_sec": 325,
+      "text": "Done, it now says S-Net-WiFi-Garden for the 2.4 band.",
+      "sentiment_score": 7.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:35]",
+      "end_time": "[05:45]",
+      "start_time_sec": 335,
+      "text": "Keep the password identical so you don't have to remember two different keys, and then click Apply Changes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:48]",
+      "end_time": "[05:57]",
+      "start_time_sec": 348,
+      "text": "Clicking Apply Changes... the hub light is flashing green while it saves the split SSIDs.",
+      "sentiment_score": 11.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:00]",
+      "end_time": "[06:09]",
+      "start_time_sec": 360,
+      "text": "While it reboots the wireless radios, do you have an S-Net Wi-Fi Booster pod in the house?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:12]",
+      "end_time": "[06:21]",
+      "start_time_sec": 372,
+      "text": "Yes, I have one that came in the box, but I had it plugged into the garden office itself.",
+      "sentiment_score": 2.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:24]",
+      "end_time": "[06:42]",
+      "start_time_sec": 384,
+      "text": "Placing the booster in the dead zone itself is ineffective because the booster needs a strong signal to repeat. Move that booster into the rear kitchen window, halfway between the router and the garden office."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:45]",
+      "end_time": "[06:55]",
+      "start_time_sec": 405,
+      "text": "Ah, that makes total sense! I'm plugging the booster into the kitchen windowsill socket facing the garden right now.",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:58]",
+      "end_time": "[07:08]",
+      "start_time_sec": 418,
+      "text": "The booster LED will turn solid white when it synchronizes with the new split 2.4GHz garden network."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:12]",
+      "end_time": "[07:22]",
+      "start_time_sec": 432,
+      "text": "It's pulsed white and now it's solid white. I'm walking down the garden path to the office with my laptop.",
+      "sentiment_score": 11.3
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:25]",
+      "end_time": "[07:33]",
+      "start_time_sec": 445,
+      "text": "Take your time. Let me know when you reach your desk in the garden office."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:37]",
+      "end_time": "[07:49]",
+      "start_time_sec": 457,
+      "text": "I'm at my desk in the garden studio now. Looking at available Wi-Fi networks... S-Net-WiFi-Garden has appeared with full five bars!",
+      "sentiment_score": 38.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:52]",
+      "end_time": "[07:59]",
+      "start_time_sec": 472,
+      "text": "Connect to S-Net-WiFi-Garden using your standard Wi-Fi password."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:02]",
+      "end_time": "[08:09]",
+      "start_time_sec": 482,
+      "text": "Entering password... Connected, secured! Full signal bars.",
+      "sentiment_score": 41.6
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:12]",
+      "end_time": "[08:23]",
+      "start_time_sec": 492,
+      "text": "Just to check, Kieran, is the signal indicator on your CAD workstation still showing four to five full bars without fluctuating?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:26]",
+      "end_time": "[08:36]",
+      "start_time_sec": 506,
+      "text": "Solid five bars, rock steady. Let me start uploading this architectural drawing package to the client FTP server.",
+      "sentiment_score": 34.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:39]",
+      "end_time": "[08:51]",
+      "start_time_sec": 519,
+      "text": "Go ahead, let's observe the upload transfer speed and ensure it maintains continuous throughput without dropped packets."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:55]",
+      "end_time": "[09:09]",
+      "start_time_sec": 535,
+      "text": "The transfer bar is moving rapidly... upload speed is holding steady at forty-five megabits per second! The full project file just uploaded and sent!",
+      "sentiment_score": 45.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:12]",
+      "end_time": "[09:20]",
+      "start_time_sec": 552,
+      "text": "That's fantastic! Your file is uploaded well in advance of your five PM deadline."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:23]",
+      "end_time": "[09:35]",
+      "start_time_sec": 563,
+      "text": "Alex, you have saved my bacon today. That was forty-five megabits upload all the way down here at the bottom of the garden.",
+      "sentiment_score": 42.1
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:38]",
+      "end_time": "[09:53]",
+      "start_time_sec": 578,
+      "text": "I'm delighted to hear that, Kieran. Splitting the bands and positioning the booster as a relay in the kitchen window ensures maximum penetration across the patio."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:56]",
+      "end_time": "[10:07]",
+      "start_time_sec": 596,
+      "text": "It worked like a charm. What about the wireless channel if neighbors in Bristol are broadcasting on the same frequency?",
+      "sentiment_score": 11.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:10]",
+      "end_time": "[10:24]",
+      "start_time_sec": 610,
+      "text": "The Hub 4 includes automatic Dynamic Channel Allocation, so it continually monitors background noise and shifts between channels one, six, and eleven."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:27]",
+      "end_time": "[10:33]",
+      "start_time_sec": 627,
+      "text": "That explains why the signal is so stable right now.",
+      "sentiment_score": 11.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:36]",
+      "end_time": "[10:43]",
+      "start_time_sec": 636,
+      "text": "Exactly. You won't have to adjust channels manually in the future."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:46]",
+      "end_time": "[10:56]",
+      "start_time_sec": 646,
+      "text": "Can I also run an external Cat6 Ethernet cable out here in the future if I decide to trench the lawn?",
+      "sentiment_score": 8.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:59]",
+      "end_time": "[11:14]",
+      "start_time_sec": 659,
+      "text": "Yes, absolutely! The Hub 4 has four Gigabit Ethernet ports on the back, so you can run an outdoor armored cable directly into a desktop switch in your studio."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:17]",
+      "end_time": "[11:23]",
+      "start_time_sec": 677,
+      "text": "That is definitely my long-term project for the spring.",
+      "sentiment_score": 11.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:26]",
+      "end_time": "[11:39]",
+      "start_time_sec": 686,
+      "text": "That will give you full Gigabit wired speeds. But for today, your 2.4GHz garden wireless link is robust and performing brilliantly."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:42]",
+      "end_time": "[11:48]",
+      "start_time_sec": 702,
+      "text": "Thank you so much for the clear technical guidance.",
+      "sentiment_score": 11.5
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:51]",
+      "end_time": "[12:03]",
+      "start_time_sec": 711,
+      "text": "Did you also want to test connecting your tablet or phone to the new garden SSID as well while we are on the line?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:06]",
+      "end_time": "[12:15]",
+      "start_time_sec": 726,
+      "text": "Let me test my iPad here on the drafting table... connected immediately and browsing smoothly.",
+      "sentiment_score": 22.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:18]",
+      "end_time": "[12:30]",
+      "start_time_sec": 738,
+      "text": "Splendid. Both your primary workstation and secondary mobile devices are now reliably connected on the dedicated garden band."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:33]",
+      "end_time": "[12:40]",
+      "start_time_sec": 753,
+      "text": "Everything is running like clockwork now. What a massive relief.",
+      "sentiment_score": 29.4
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:43]",
+      "end_time": "[12:58]",
+      "start_time_sec": 763,
+      "text": "I will remain the dedicated case owner for this ticket and log these Wi-Fi configuration adjustments so if you ever need further optimization, our team has full notes."
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:01]",
+      "end_time": "[13:08]",
+      "start_time_sec": 781,
+      "text": "That's wonderful, thank you for making sure everything is recorded.",
+      "sentiment_score": 18.2
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:11]",
+      "end_time": "[13:20]",
+      "start_time_sec": 791,
+      "text": "Is there anything else regarding your broadband or WiFi coverage that I can check for you today?"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:23]",
+      "end_time": "[13:30]",
+      "start_time_sec": 803,
+      "text": "No, that has solved my crisis completely. Thanks again Alex.",
+      "sentiment_score": 26.8
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:33]",
+      "end_time": "[13:44]",
+      "start_time_sec": 813,
+      "text": "Thank you for choosing S-Net, Kieran. Have a successful afternoon and good luck with the architectural submission!"
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:47]",
+      "end_time": "[13:51]",
+      "start_time_sec": 827,
+      "text": "Thanks! Bye.",
+      "sentiment_score": 11.2
+    }
+  ]
+}

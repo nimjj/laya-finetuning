@@ -1,0 +1,196 @@
+{
+  "call_id": "agb2_11",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 78.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to acknowledge customer's severe distress at turn 13 ([02:41]) regarding his wife's remote NHS triage job and contractor fence damage, proceeding immediately to technical lead checks."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "Issue could not be resolved on the call; the underground optical cable was severed and required an Openreach civils engineering repair."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash High)",
+    "graded_on": "2026-10-21",
+    "scenario": "Full Fibre ONT optical loss of signal caused by contractor fence post cable strike; unhandled first outburst followed by warmly handled second outburst in final third",
+    "tier": "good",
+    "duration_sec": 1052,
+    "notes": "Strong technical support interaction with a nuanced Empathy profile. Amber diagnoses a severed underground fibre microduct following fence post installation. She misses Liam's initial panic at turn 13 regarding his wife's NHS triage job, jumping straight into technical questions (an unhandled outburst). However, when Liam experiences a second outburst at turn 69 about GCSE deadlines, Amber responds with exceptional empathy at turn 70, dispatching a same-day priority courier 4G router and boosting family mobile data. Confirmed Resolved fails legitimately as physical repair requires Tuesday's civils visit.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Confirmed the issue is resolved",
+      "Hold time and Dead Air"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Opened at [00:00] with 'Thank you for calling S-Net technical support' and closed at [17:18] with 'Thank you for choosing S-Net as your broadband provider'."
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "A single 60s hold between [06:08] and [07:18] to query Openreach civils scheduling was properly announced with 'Bear with me for about a minute' and returned with 'Thank you for waiting, Liam'."
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent verified installation address and four-digit security PIN at [00:27], within the first 240 seconds."
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent addressed customer Liam by name naturally throughout the call (turns 2, 4, 6, 31, 80, 86)."
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "Customer had an acute initial outburst at turn 13 ([02:41]) about his wife's NHS triage job and contractor damage, which agent ignored at turn 14 ([03:08]). Although agent warmly handled outburst 2 at turn 70 ([14:17]), the unhandled first outburst fails Empathy under strict rules."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "At turn 6 ([01:14]), agent restated the fault: 'So what has happened is that your Optical Network Terminal has suddenly lost its laser link to the exchange, indicated by a flashing red LOS light, causing complete loss of internet across the house. Have I understood the fault accurately, Liam?'"
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent never repeated answered questions. At turn 33 ([07:34]), checking whether the indoor ONT Power light remained solid green was a legitimate status check."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Agent took comprehensive ownership: booked the civils excavation work order, provisioned same-day courier 4G hardware, and applied unlimited mobile data."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Professional throughout; remained calm, supportive, and courteous without using rude, condescending, or sarcastic language."
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "Thorough probing into ONT LED statuses (turn 8), boundary digging activity (turn 12), cable physical condition (turn 16), and pavement footway chambers (turn 20)."
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "The primary broadband fault could not be resolved on the call due to severed underground ducting requiring Tuesday's Openreach excavation."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 9,
+          "agent_turn": 33
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 6
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 4
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 26
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 13
+        },
+        {
+          "kind": "handled",
+          "customer_turn": 69,
+          "agent_turn": 70,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "call_id": "agb_18",
+  "tenant_id": "tenant-abc",
+  "status": "completed",
+  "result": {
+    "final_score": 78.3,
+    "is_auto_fail": false,
+    "auto_fail_reason": null,
+    "scorecard": [
+      {
+        "category": "Soft Skills",
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Verified customer",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "coaching": "Agent failed to acknowledge or show empathy for the customer's severe distress regarding a £30 bank overdraft penalty affecting grocery budgeting at [01:14]."
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Active listening",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Soft Skills",
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Probing",
+        "rating": "PASS",
+        "coaching": ""
+      },
+      {
+        "category": "Technical Knowledge",
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "coaching": "The Direct Debit payment date change requires up to 10 working days for BACS mandate processing and was not confirmed resolved during the call."
+      }
+    ]
+  },
+  "grader": {
+    "graded_by": "Antigravity (Gemini 3.8 Flash)",
+    "graded_on": "2026-10-21",
+    "scenario": "Failed Direct Debit charge; payment date shifted to post-salary date and admin charge waived; agent ignores emotional distress over bank penalty and change is pending BACS processing",
+    "tier": "good",
+    "duration_sec": 732,
+    "notes": "The agent submitted a Direct Debit mandate modification and waived an admin late fee. However, the agent failed Empathy & Acknowledgment Statement when the customer suffered severe emotional distress over a £30 bank overdraft penalty that impacted her grocery budgeting, and failed Confirmed the Issue is Resolved because BACS direct debit mandate alterations require up to 10 working days to clear through banking networks and cannot be confirmed resolved on the call.",
+    "hard_cases": [
+      "Empathy & Acknowledgment Statement",
+      "Confirmed the issue is resolved",
+      "Took ownership of the problem",
+      "Active listening"
+    ],
+    "items": [
+      {
+        "name": "Branding and Survey Check",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Hold time and Dead Air",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Verified customer",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Personalized the call/ticket appropriately",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Empathy & Acknowledgment Statement",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[01:14] Customer: 'I am a single mother working NHS healthcare shifts, and having my bank charge a thirty pound unpaid transaction fee when every single penny is budgeted for groceries has left me completely distraught in tears this morning!' ... [01:38] Agent: 'Looking at your ledger, your broadband service was activated on the twenty-third of August...' - Agent completely ignored customer's distress and financial hardship."
+      },
+      {
+        "name": "Paraphrasing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[02:18] Agent: 'So to make sure I understand the situation clearly: your monthly direct debit was scheduled for the twenty-third rather than your preferred date following your payday...' - Accurate restatement."
+      },
+      {
+        "name": "Active listening",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[04:45] Agent: 'Just to check on your current broadband service, Rachel, is your internet connection working normally at home right now?' - Harmless recheck of broadband service."
+      },
+      {
+        "name": "Took ownership of the problem",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": "[07:04] Agent: 'I will remain the dedicated owner for this billing ticket, Rachel, and I have documented the date change request...' - Agent takes personal responsibility."
+      },
+      {
+        "name": "Build rapport and observed professionalism",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Probing",
+        "rating": "PASS",
+        "confidence": "clear",
+        "evidence": ""
+      },
+      {
+        "name": "Confirmed the issue is resolved",
+        "rating": "FAIL",
+        "confidence": "clear",
+        "evidence": "[05:12] Agent: 'Because of the ten working day BACS lead time, the mandate modification is currently pending bank confirmation...' - Direct debit modification remains pending external banking execution."
+      }
+    ],
+    "markers": {
+      "active_listening": [
+        {
+          "kind": "harmless_recheck",
+          "premise_turn": 1,
+          "agent_turn": 24
+        }
+      ],
+      "paraphrasing": [
+        {
+          "kind": "restatement",
+          "agent_turn": 8
+        },
+        {
+          "kind": "not_a_restatement",
+          "agent_turn": 2
+        }
+      ],
+      "rapport": [
+        {
+          "kind": "blunt_but_ok",
+          "agent_turn": 12
+        }
+      ],
+      "empathy": [
+        {
+          "kind": "unhandled",
+          "customer_turn": 5
+        },
+        {
+          "kind": "handled",
+          "customer_turn": 43,
+          "agent_turn": 44,
+          "with_refusal": false
+        }
+      ]
+    }
+  }
+}

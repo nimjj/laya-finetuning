@@ -1,0 +1,630 @@
+{
+  "tenant_id": "tenant-abc",
+  "customer_name": "Siobhan",
+  "transcript": [
+    {
+      "speaker": "Agent",
+      "start_time": "[00:00]",
+      "end_time": "[00:07]",
+      "start_time_sec": 0,
+      "text": "Good afternoon, thank you for calling S-Net provisioning and installations. My name is Gareth. How can I help you today?",
+      "sentiment_score": 10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:08]",
+      "end_time": "[00:21]",
+      "start_time_sec": 8,
+      "text": "Hello Gareth, it's Siobhan calling. I took a full day of unpaid leave from the hospital today for my new Fibre broadband installation between 8:00 AM and 1:00 PM, and the Openreach engineer never turned up!",
+      "sentiment_score": -35.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:22]",
+      "end_time": "[00:35]",
+      "start_time_sec": 22,
+      "text": "So to put that in my own words, you booked an 8:00 AM to 1:00 PM installation slot for your new home broadband today and no engineer has arrived at your property yet—is that correct, Siobhan?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[00:36]",
+      "end_time": "[00:48]",
+      "start_time_sec": 36,
+      "text": "Yes, it is now twenty past two in the afternoon, nobody has knocked on the door, nobody has rung my mobile, and I've lost a whole shift's pay sitting by the window!",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[00:49]",
+      "end_time": "[00:59]",
+      "start_time_sec": 49,
+      "text": "Let me open your installation order on the system. Before I access the notes, please confirm the first line of your installation address and your four-digit security PIN.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:00]",
+      "end_time": "[01:07]",
+      "start_time_sec": 60,
+      "text": "The address is 7B Clifton Terrace, Bristol, BS8 4LT, and the four-digit PIN I set when ordering is 3065.",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:08]",
+      "end_time": "[01:20]",
+      "start_time_sec": 68,
+      "text": "Thank you, Siobhan, your address and PIN are verified. Before I read out the Openreach job log, let me ask a few diagnostic questions about the property setup and any messages you received.",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:21]",
+      "end_time": "[01:25]",
+      "start_time_sec": 81,
+      "text": "Okay, ask away, I just want to know where the engineer is.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:26]",
+      "end_time": "[01:35]",
+      "start_time_sec": 86,
+      "text": "First, did you receive the automated Openreach text message yesterday afternoon asking you to reply YES to confirm someone over eighteen would be home?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[01:36]",
+      "end_time": "[01:47]",
+      "start_time_sec": 96,
+      "text": "Yes, I got that text at 3:15 PM yesterday and I replied YES within two minutes, and it sent back a confirmation saying See you tomorrow between 8am and 1pm.",
+      "sentiment_score": -16.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[01:48]",
+      "end_time": "[01:59]",
+      "start_time_sec": 108,
+      "text": "Second, has the black S-Net router parcel already been delivered by courier, and is there an existing grey or white Openreach master socket or optical ONT box on the inside wall?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:00]",
+      "end_time": "[02:11]",
+      "start_time_sec": 120,
+      "text": "The router parcel arrived via DPD on Tuesday, it's sitting on my kitchen table. On the living room wall there's only an old copper phone socket, no fibre optical box yet.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:12]",
+      "end_time": "[02:24]",
+      "start_time_sec": 132,
+      "text": "Third, is your flat on the ground floor or an upper floor, and does the external telephone line come from a wooden telegraph pole across the street or underground through the pavement?",
+      "sentiment_score": 8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:25]",
+      "end_time": "[02:33]",
+      "start_time_sec": 145,
+      "text": "7B is a first-floor conversion flat, and the cables along Clifton Terrace come across from a wooden telegraph pole on the pavement outside.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[02:34]",
+      "end_time": "[02:45]",
+      "start_time_sec": 154,
+      "text": "Right, a first-floor flat fed from an overhead telegraph pole. And did you see an Openreach van park outside on Clifton Terrace at all this morning between eight and one?",
+      "sentiment_score": 6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[02:46]",
+      "end_time": "[03:02]",
+      "start_time_sec": 166,
+      "text": "Actually, yes! At around 10:40 AM I saw a white Openreach van pull up near the pole outside, a bloke in high-vis looked up at the pole for five minutes, and then he drove off without ringing my buzzer!",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:03]",
+      "end_time": "[03:09]",
+      "start_time_sec": 183,
+      "text": "Okay, that matches what has just loaded on my provisioning screen for order reference OR-772910, Siobhan.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:10]",
+      "end_time": "[03:18]",
+      "start_time_sec": 190,
+      "text": "What does the job log say?! Why did he look at the pole and drive away without even ringing buzzer 7B?",
+      "sentiment_score": -34.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:19]",
+      "end_time": "[03:27]",
+      "start_time_sec": 199,
+      "text": "The Openreach field engineer logged a code A52 Hoist Required hazard note at 10:47 AM and aborted the installation.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:28]",
+      "end_time": "[03:36]",
+      "start_time_sec": 208,
+      "text": "Aborted the installation?! What on earth is an A52 Hoist Required note and why didn't anyone phone me to tell me?!",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[03:37]",
+      "end_time": "[03:49]",
+      "start_time_sec": 217,
+      "text": "Code A52 means the telegraph pole outside 7B Clifton Terrace is flagged as decayed or obstructed by tree branches, so a standard ladder cannot be lashed to it safely.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[03:50]",
+      "end_time": "[04:03]",
+      "start_time_sec": 230,
+      "text": "So he couldn't climb the pole with a ladder, and instead of knocking on my door to explain, he just drove off at 10:47 AM and left me sitting here until two o'clock?!",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:04]",
+      "end_time": "[04:14]",
+      "start_time_sec": 244,
+      "text": "To run the overhead drop-wire to your first-floor fascia, Openreach has to send a two-person crew with a cherry-picker hoist vehicle and a council pavement permit.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:15]",
+      "end_time": "[04:28]",
+      "start_time_sec": 255,
+      "text": "Wait—the neighbours in 7A downstairs had their full fibre installed from that exact same pole three weeks ago! Why didn't your system know a hoist was needed before I took unpaid leave today?",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:29]",
+      "end_time": "[04:40]",
+      "start_time_sec": 269,
+      "text": "Let me look at the pre-installation survey tab on order OR-772910... an external survey note was logged on the 8th of October for pole DP-419 on Clifton Terrace.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:41]",
+      "end_time": "[04:47]",
+      "start_time_sec": 281,
+      "text": "Right! And what did that external survey on the 8th of October say about pole DP-419?",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[04:48]",
+      "end_time": "[04:56]",
+      "start_time_sec": 288,
+      "text": "The surveyor on the 8th of October ticked 'Standard Overhead Drop - Single Engineer' and marked the pole condition as green.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[04:57]",
+      "end_time": "[05:06]",
+      "start_time_sec": 297,
+      "text": "Hold on—why did the surveyor on the 8th of October mark the pole as green, and today's engineer marked it A52 Hoist Required?",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:07]",
+      "end_time": "[05:23]",
+      "start_time_sec": 307,
+      "text": "Looking at the sub-note entered at 10:47 AM today, the engineer wrote that a lime tree on the pavement has grown across the upper ring-head of pole DP-419 and there is a yellow 'D-Notice' test tag nailed to the base.",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:24]",
+      "end_time": "[05:34]",
+      "start_time_sec": 324,
+      "text": "If there's a yellow tag nailed to the base of the pole, that must have been there when 7A downstairs got connected three weeks ago!",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[05:35]",
+      "end_time": "[05:47]",
+      "start_time_sec": 335,
+      "text": "For ground-floor flat 7A, the engineer didn't have to climb to the top ring-head of the pole—they routed the cable through the lower duct chamber at the base of the pavement.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[05:48]",
+      "end_time": "[06:02]",
+      "start_time_sec": 348,
+      "text": "Wait, if 7A's cable went underground through the lower duct chamber in the pavement, why can't my fibre cable come through that same underground duct instead of overhead from the top of the pole?!",
+      "sentiment_score": -28.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:03]",
+      "end_time": "[06:09]",
+      "start_time_sec": 363,
+      "text": "Let me check the duct map attached to the job pack for 7B Clifton Terrace.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:10]",
+      "end_time": "[06:17]",
+      "start_time_sec": 370,
+      "text": "Yes, check that, because 7A and 7B share the exact same front garden wall and entrance porch!",
+      "sentiment_score": -20.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:18]",
+      "end_time": "[06:32]",
+      "start_time_sec": 378,
+      "text": "According to the plant map, the underground lead-in duct stops at the basement masonry wall of 7A, and there is no internal riser conduit approved to drill through 7A's ceiling into your first-floor flat.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:33]",
+      "end_time": "[06:44]",
+      "start_time_sec": 393,
+      "text": "Actually, my landlord owns both 7A and 7B and gave written wayleave permission last month to run the grey cable up the outside brickwork next to the drainpipe!",
+      "sentiment_score": -24.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[06:45]",
+      "end_time": "[06:53]",
+      "start_time_sec": 405,
+      "text": "Did you upload that landlord wayleave form to the S-Net portal, or did you give it to the sales team?",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[06:54]",
+      "end_time": "[07:02]",
+      "start_time_sec": 414,
+      "text": "I emailed the signed PDF wayleave form to installations@s-net.co.uk on the 6th of October and got an automated receipt reference WL-55019!",
+      "sentiment_score": -26.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:03]",
+      "end_time": "[07:15]",
+      "start_time_sec": 423,
+      "text": "Let me search your document attachments for WL-55019... okay, the PDF wayleave form is sitting in the S-Net attachment folder, but nobody attached it to the Openreach wholesale work order.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:16]",
+      "end_time": "[07:31]",
+      "start_time_sec": 436,
+      "text": "Nobody at S-Net attached my landlord's wayleave form to the Openreach order?! So if S-Net had attached that form, the engineer today could have used the underground duct up the brickwork without climbing the pole at all!",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:32]",
+      "end_time": "[07:42]",
+      "start_time_sec": 452,
+      "text": "Even if our back-office provisioning clerk forgot to forward attachment WL-55019, the engineer today still logged code A52 and closed the job sheet on his tablet.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[07:43]",
+      "end_time": "[07:54]",
+      "start_time_sec": 463,
+      "text": "Then ring the regional Openreach dispatch desk right now, attach form WL-55019, and tell them the engineer doesn't need a hoist because he can use the underground duct!",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[07:55]",
+      "end_time": "[08:07]",
+      "start_time_sec": 475,
+      "text": "Once an Openreach job status flips to 'Aborted - Further Plant Work' on the wholesale gateway, the field engineer is already on his next afternoon job in another postcode.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:08]",
+      "end_time": "[08:18]",
+      "start_time_sec": 488,
+      "text": "I don't care if it's a different engineer this afternoon, Gareth—this happened because S-Net didn't attach my wayleave form AND Openreach didn't knock on my door!",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:19]",
+      "end_time": "[08:29]",
+      "start_time_sec": 499,
+      "text": "I am attaching PDF WL-55019 to the wholesale notes right now, Siobhan, but the system still forces a re-book because today's job token is closed.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:30]",
+      "end_time": "[08:39]",
+      "start_time_sec": 510,
+      "text": "Why should I be punished with a re-book when S-Net failed to send the paperwork and Openreach failed to ring my flat buzzer?!",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:40]",
+      "end_time": "[08:49]",
+      "start_time_sec": 520,
+      "text": "That's Openreach's scheduling department, not my problem—they decide whether to send a solo van or a hoist crew, S-Net doesn't control their vans.",
+      "sentiment_score": -10.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[08:50]",
+      "end_time": "[08:58]",
+      "start_time_sec": 530,
+      "text": "Excuse me?! My contract is with S-Net, not Openreach! I pay S-Net, and you booked this appointment for me!",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[08:59]",
+      "end_time": "[09:14]",
+      "start_time_sec": 539,
+      "text": "We just book the calendar slot that Openreach's wholesale portal exposes to us, Siobhan. If their engineer turns up and refuses to climb the pole, there is nothing I can do to force him up a ladder.",
+      "sentiment_score": -12.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:15]",
+      "end_time": "[09:27]",
+      "start_time_sec": 555,
+      "text": "I'm not asking you to force someone up an unsafe ladder, Gareth, I'm asking you to take responsibility for my account and get a hoist crew out here tomorrow morning!",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:28]",
+      "end_time": "[09:37]",
+      "start_time_sec": 568,
+      "text": "A cherry-picker hoist vehicle cannot come out tomorrow morning because Openreach requires five working days to clear traffic management with Bristol City Council.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:38]",
+      "end_time": "[09:49]",
+      "start_time_sec": 578,
+      "text": "Five working days?! I work remotely on Thursdays and Fridays and my old broadband provider already disconnected my copper line this morning because today was the switchover date!",
+      "sentiment_score": -44.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[09:50]",
+      "end_time": "[09:57]",
+      "start_time_sec": 590,
+      "text": "Well, your old copper line ceases automatically on the scheduled activation date once the number port triggers.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[09:58]",
+      "end_time": "[10:09]",
+      "start_time_sec": 598,
+      "text": "So I have zero internet at home, I've lost £160 in unpaid leave from the hospital today, and you're acting like it has nothing to do with S-Net!",
+      "sentiment_score": -45.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:10]",
+      "end_time": "[10:18]",
+      "start_time_sec": 610,
+      "text": "I am reading the wholesale dispatch screen right now to see what hoist slots exist in Bristol next week.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:19]",
+      "end_time": "[10:30]",
+      "start_time_sec": 619,
+      "text": "Can you at least escalate this to your provisioning manager or send me an unlimited 4G dongle for tomorrow so I can work, instead of brushing me off?",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:31]",
+      "end_time": "[10:37]",
+      "start_time_sec": 631,
+      "text": "Look, I can't read the wholesale notes while you keep interrupting me every five seconds.",
+      "sentiment_score": -22.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:38]",
+      "end_time": "[10:47]",
+      "start_time_sec": 638,
+      "text": "I'm not interrupting you, I'm asking what S-Net is going to do to leave me connected while we wait for this hoist!",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[10:48]",
+      "end_time": "[10:56]",
+      "start_time_sec": 648,
+      "text": "Oh just shut up for a second and let me read the dispatch notes without you nagging in my ear!",
+      "sentiment_score": -48.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[10:57]",
+      "end_time": "[11:06]",
+      "start_time_sec": 657,
+      "text": "Did you just tell me to shut up?! I cannot believe an S-Net customer service agent just spoke to me like that!",
+      "sentiment_score": -50.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:07]",
+      "end_time": "[11:16]",
+      "start_time_sec": 667,
+      "text": "I needed thirty seconds of quiet to read the council permit reference on screen, Siobhan. Now I have the hoist availability dates open.",
+      "sentiment_score": -18.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:17]",
+      "end_time": "[11:28]",
+      "start_time_sec": 677,
+      "text": "You have a recorded line and I will be making a formal complaint about how you just spoke to me. What date is the hoist booked for?",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:29]",
+      "end_time": "[11:38]",
+      "start_time_sec": 689,
+      "text": "The earliest two-person hoist crew slot in the BS8 postcode is next Wednesday the 25th of October between 8:00 AM and 1:00 PM.",
+      "sentiment_score": -6.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:39]",
+      "end_time": "[11:45]",
+      "start_time_sec": 699,
+      "text": "Next Wednesday the 25th of October?! That is a whole week away with no home broadband!",
+      "sentiment_score": -42.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[11:46]",
+      "end_time": "[11:58]",
+      "start_time_sec": 706,
+      "text": "That is the only hoist slot available on the Openreach calendar for Clifton Terrace, so I have clicked confirm on Wednesday the 25th of October from 8:00 AM to 1:00 PM.",
+      "sentiment_score": -4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[11:59]",
+      "end_time": "[12:07]",
+      "start_time_sec": 719,
+      "text": "And what about the statutory compensation for the missed appointment today where the engineer didn't even notify me before 1:00 PM?",
+      "sentiment_score": -36.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:08]",
+      "end_time": "[12:21]",
+      "start_time_sec": 728,
+      "text": "Under the Ofcom automatic compensation scheme, if Openreach logs an A52 hoist deferral on the day, a £30.49 missed-appointment credit and £6.10 per day delayed-provision credit will calculate once the line activates.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:22]",
+      "end_time": "[12:29]",
+      "start_time_sec": 742,
+      "text": "Does that £30.49 go into my bank account today or only after the line is installed next week?",
+      "sentiment_score": -30.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:30]",
+      "end_time": "[12:38]",
+      "start_time_sec": 750,
+      "text": "It only applies as a bill credit on your first S-Net invoice after the installation completes on the 25th of October.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:39]",
+      "end_time": "[12:48]",
+      "start_time_sec": 759,
+      "text": "And are you sending out a temporary 4G mini-hub or adding data to my mobile so I can work on Thursday and Friday?",
+      "sentiment_score": -32.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[12:49]",
+      "end_time": "[12:57]",
+      "start_time_sec": 769,
+      "text": "We don't dispatch temporary 4G mini-hubs from the installations desk—you would have to ring customer care after your order updates overnight.",
+      "sentiment_score": -8.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[12:58]",
+      "end_time": "[13:08]",
+      "start_time_sec": 778,
+      "text": "So I have no broadband today, no temporary dongle arranged, an installation pushed back to next Wednesday, and an agent who told me to shut up.",
+      "sentiment_score": -46.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:09]",
+      "end_time": "[13:17]",
+      "start_time_sec": 789,
+      "text": "Your new hoist appointment reference is OR-881044 for Wednesday the 25th of October between 8:00 AM and 1:00 PM, Siobhan.",
+      "sentiment_score": 0.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:18]",
+      "end_time": "[13:26]",
+      "start_time_sec": 798,
+      "text": "I've written down OR-881044, and I've also written down your name, Gareth, and the exact time of this call.",
+      "sentiment_score": -40.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:27]",
+      "end_time": "[13:35]",
+      "start_time_sec": 807,
+      "text": "That is all noted on your installation record. Is there anything else you need me to check on order OR-881044 today?",
+      "sentiment_score": 2.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:36]",
+      "end_time": "[13:43]",
+      "start_time_sec": 816,
+      "text": "No, I'll be ringing straight back to speak to a complaints manager as soon as I hang up.",
+      "sentiment_score": -38.0
+    },
+    {
+      "speaker": "Agent",
+      "start_time": "[13:44]",
+      "end_time": "[13:47]",
+      "start_time_sec": 824,
+      "text": "Thank you for choosing S-Net, Siobhan. Goodbye.",
+      "sentiment_score": 4.0
+    },
+    {
+      "speaker": "Customer",
+      "start_time": "[13:48]",
+      "end_time": "[13:50]",
+      "start_time_sec": 828,
+      "text": "Goodbye.",
+      "sentiment_score": -35.0
+    }
+  ]
+}
