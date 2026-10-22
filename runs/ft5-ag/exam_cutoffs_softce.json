@@ -1,0 +1,3 @@
+{"cutoffs": {"empathy": 0.49, "paraphrasing": 0.47, "active_listening": 0.92, "resolved": 0.42, "rapport": 0.20, "probing": 0.70, "ownership": 0.52},
+ "model": "ft5-20261021-1621/final-softce, flow v2, LAYA_AL_SOURCE2=1",
+ "why": "FINETUNED_CUTOFFS in force, except active_listening: tuned on the 64 non-exam calls (14 held-out AG-T dev + AG50; best balanced accuracy 0.87, was 0.65 at 0.50). Tuning every check on 14 or 50 calls overfit (worse on the other set), so the others stay as they are. The 0.50 Active-listening cutoff predates the new customer-statement blocks."}
