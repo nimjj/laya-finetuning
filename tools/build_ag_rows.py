@@ -15,7 +15,9 @@ How a row is labelled (markers come from grader.markers in each key; see Docs/AN
                      Key FAIL -> FAIL. Key PASS -> PASS only when a `restatement` line is inside the window, else dropped.
   active_listening   one row per block the extractor builds. Its later question is a `repeat` -> FAIL, a `harmless_recheck` -> PASS,
                      any other block in a call whose Active listening is PASS -> PASS, otherwise dropped (unlabelled).
-Ownership, Probing, Resolved and the rest are not built here (no turn-level markers); the earlier rows and the replay rows cover them.
+  probing            the app's one window per call, labelled with the call's Probing grade (added for ft6).
+Ownership, Resolved and the rest are not built here (no turn-level markers, and their windows often miss the evidence); the earlier
+rows and the replay rows cover them.
 
 Never point this at AG50 (development set) or AG-B (sealed test): the script refuses.
 """
@@ -195,6 +197,13 @@ def rows_for_call(b, cid, payload, key, dropped):
             out.append(b.row(cid, "active_listening", "PASS", blk, "good_call_block", aj, dropped))
         else:
             drop("active_listening", f"block at turn {aj} in a faulty call matches no marker", aj, "unmarked_al_candidate")
+
+    # ---- probing: the app's single window (customer problem + every agent question) stands for the whole call, so the call's
+    # grade is the label. Added after ft5, which had no Probing rows from AG-T and drifted on Probing.
+    if inp.probing is None:
+        drop("probing", "the agent asked no questions: production fails the item without the model")
+    else:
+        out.append(b.row(cid, "probing", rating["Probing"], inp.probing, "call_grade", 0, dropped))
     out = [r for r in out if r]
     seen = collections.Counter()                 # two blocks can end at the same later question: keep every row id unique
     for r in out:

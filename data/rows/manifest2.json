@@ -1,7 +1,7 @@
 {
   "rows": {
-    "train_all2": 2174,
-    "dev_all2": 493,
+    "train_all2": 2273,
+    "dev_all2": 524,
     "test": 396,
     "test_long": 180,
     "test_calls": 40
@@ -10,14 +10,8 @@
     "active_listening": {
       "PASS": 83,
       "FAIL": 84,
-      "FAIL (AG)": 70,
-      "PASS (AG)": 111
-    },
-    "empathy": {
-      "PASS": 78,
-      "FAIL": 75,
-      "PASS (AG)": 33,
-      "FAIL (AG)": 41
+      "FAIL (AG)": 74,
+      "PASS (AG)": 148
     },
     "paraphrasing": {
       "PASS": 208,
@@ -37,7 +31,9 @@
     },
     "probing": {
       "PASS": 44,
-      "FAIL": 37
+      "FAIL": 37,
+      "PASS (AG)": 26,
+      "FAIL (AG)": 13
     },
     "hostility": {
       "PASS": 30,
@@ -53,6 +49,12 @@
     },
     "replay": {
       "gold": 250
+    },
+    "empathy": {
+      "FAIL": 75,
+      "FAIL (AG)": 48,
+      "PASS (AG)": 45,
+      "PASS": 78
     }
   },
   "counts_dev": {
@@ -65,8 +67,8 @@
     "active_listening": {
       "PASS": 20,
       "FAIL": 21,
-      "PASS (AG)": 21,
-      "FAIL (AG)": 5
+      "PASS (AG)": 26,
+      "FAIL (AG)": 7
     },
     "resolved": {
       "PASS": 43,
@@ -76,7 +78,7 @@
       "PASS": 21,
       "FAIL": 21,
       "FAIL (AG)": 2,
-      "PASS (AG)": 10
+      "PASS (AG)": 20
     },
     "rapport": {
       "PASS": 46,
@@ -90,7 +92,9 @@
     },
     "probing": {
       "PASS": 8,
-      "FAIL": 5
+      "FAIL": 5,
+      "PASS (AG)": 11,
+      "FAIL (AG)": 3
     },
     "hostility": {
       "PASS": 4,
@@ -109,8 +113,8 @@
     "66deff95a20c"
   ],
   "sha256": {
-    "train_all2.jsonl": "438c15af6af36360ada92829334d3fe9b8700c2e12b22f398b7f82d693d1d9a9",
-    "dev_all2.jsonl": "c4081670c54689c5a8bb780d41c5b0629e20e216dfa9b49b0d6fe057f4ecdd61"
+    "train_all2.jsonl": "9269343a4ec667091be723f1088f481a5929e704dbcf229f63e9d4cad5645964",
+    "dev_all2.jsonl": "ac80492505e85d2a00ba41b8669dedd2d7976c274de1aa0681889fcaca7d286b"
   },
   "problems": [],
   "authorship": "Stage-3 rows: written and labelled by Claude. AG rows: written and labelled by Antigravity. Nothing is human-labelled."

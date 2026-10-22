@@ -37,11 +37,39 @@ def shingles(text, n=5):
     return {" ".join(w[i:i + n]) for i in range(max(1, len(w) - n + 1))}
 
 
+HARD_FIRST = ("no_outburst_trigger", "handled_with_refusal", "handled_late", "handled")
+
+
+def balance_length(rows, check="empathy", band=25, ratio=2.0, floor=3):
+    """Keep every FAIL row of `check`; in each length band of `band` tokens keep at most max(floor, ratio x FAIL) PASS rows,
+    hard negatives first. Without this, ft6's Empathy PASS rows ran ~180-200 tokens and FAIL rows ~130 (gap 31%), so window
+    length alone predicted the label. Other checks are untouched."""
+    other = [r for r in rows if r["meta"]["check"] != check]
+    fails = [r for r in rows if r["meta"]["check"] == check and r["meta"]["label"] == "FAIL"]
+    passes = [r for r in rows if r["meta"]["check"] == check and r["meta"]["label"] == "PASS"]
+    nfail = {}
+    for r in fails:
+        nfail[r["meta"]["tokens"] // band] = nfail.get(r["meta"]["tokens"] // band, 0) + 1
+    kept, used = [], {}
+    order = sorted(passes, key=lambda r: (r["meta"].get("hard") not in HARD_FIRST, hashlib.md5(r["meta"]["id"].encode()).hexdigest()))
+    for r in order:
+        b = r["meta"]["tokens"] // band
+        if used.get(b, 0) < max(floor, int(ratio * nfail.get(b, 0) + 0.5)):
+            kept.append(r)
+            used[b] = used.get(b, 0) + 1
+
+    def mean(rs):
+        return sum(r["meta"]["tokens"] for r in rs) / max(1, len(rs))
+    print(f"{check} length balance (train): PASS {len(passes)} -> {len(kept)} rows, mean tokens PASS {mean(passes):.0f} -> {mean(kept):.0f}, "
+          f"FAIL {mean(fails):.0f} ({len(fails)} rows)")
+    return other + fails + kept
+
+
 def main():
     old_train, old_dev = load("train_all.jsonl"), load("dev_all.jsonl")
     ag_train, ag_dev = load("agt_train.jsonl"), load("agt_dev.jsonl")
     tests = {n: load(f"{n}.jsonl") for n in ("test", "test_long", "test_calls")}
-    train2, dev2 = old_train + ag_train, old_dev + ag_dev
+    train2, dev2 = balance_length(old_train + ag_train), old_dev + ag_dev
     problems = []
 
     # ids: an AG call must never appear in a second split; row ids must be unique
