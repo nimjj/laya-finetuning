@@ -16,3 +16,13 @@ __pycache__/
 
 # a duplicate unzip of a checkpoint run at the repo root (the real copy lives in checkpoints/)
 /smoke-*/
+
+# run logs next to probe results (the .json beside each log is the record)
+inputs/Test (results)/**/*.log
+
+# editor and tool state
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db

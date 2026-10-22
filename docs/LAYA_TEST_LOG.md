@@ -1,11 +1,11 @@
 # Laya vs Ollama test log: Main tests, 2026-10-12
 
 ## What was run
-- **Calls:** the 4 hand-graded calls in `inputs/Main tests/`. The expected scorecards are in `expected/` (graded by Claude, not yet human-reviewed).
+- **Calls:** the 4 hand-graded calls in `../QA-system/inputs/Main tests/`. The expected scorecards are in `expected/` (graded by Claude, not yet human-reviewed).
 - **Ollama:** `origin/version-10` (llama3.1 + nomic-embed-text), run from a local worktree.
 - **Laya:** `version-10-laya` (English checkpoint, CPU).
 - **Same setup for both:**
-  - The 11 criteria from `resources/criteria_config.json`, sent inline, with no database.
+  - The 11 criteria from `../QA-system/resources/criteria_config.json`, sent inline, with no database.
   - The profanity auto-fail checks agent lines only.
   - The service ran on the PC (no Docker), one engine at a time.
 - **Results:** `inputs/Test (results)/Main tests (ollama|laya)/`.
@@ -110,14 +110,14 @@ These caused wrong grades without Laya being involved, or before it was. Fix the
 - **Sample size:** 4 calls is a small sample, and most checks got one Laya call per call. Treat this as a direction, not a measurement.
 - **Labels:** the calls and expected grades were written by Claude. A human should spot-check them before any training data is built from them.
 - **Training data needed:** a few hundred balanced, human-labelled examples per category above, taken from real calls. This should run on a GPU.
-- **Order of work:** apply the pipeline fixes and the Resolved cutoff change first, re-run `python Scripts/batch_test.py main --label laya` and `bulk`, and only then start training.
+- **Order of work:** apply the pipeline fixes and the Resolved cutoff change first, re-run `python ../QA-system/Scripts/batch_test.py main --label laya` and `bulk`, and only then start training.
 
 ---
 
 # Round 2: pipeline fixes (2026-10-12)
 
 ## What changed
-All changes are in `src/services/rule_engine.py` and `dynamic_evaluator.py`, uncommitted.
+All changes are in `../QA-system/src/services/rule_engine.py` and `dynamic_evaluator.py`, uncommitted.
 
 | Item | Change |
 |---|---|
@@ -140,7 +140,7 @@ It was picked on the 35 `b_*` bulk calls, whose filenames name the missing confi
 | 0.80 (old) | 0/31 | 4/4 | 0.50 | 0/3 | 1/1 |
 
 ## Results
-Result folders: `Main tests (laya-v2)` and `Bulk tests (laya-v2)`. The bulk "before" run is `Bulk tests (laya)`. Run `python Scripts/compare_results.py ollama laya laya-v2` for the full tables. The raw Laya probabilities are in `laya-finetuning/inputs/Test (results)/Laya probes/` (`probe_laya.json` before, `probe_laya-v2.json` after); rebuild them with `python laya-finetuning/eval/probe_laya.py <out.json>` and the cutoff tables with `python laya-finetuning/eval/laya_cutoffs.py <probe.json>`.
+Result folders: `Main tests (laya-v2)` and `Bulk tests (laya-v2)`. The bulk "before" run is `Bulk tests (laya)`. Run `python ../QA-system/Scripts/compare_results.py ollama laya laya-v2` for the full tables. The raw Laya probabilities are in `inputs/Test (results)/Laya probes/` (`probe_laya.json` before, `probe_laya-v2.json` after); rebuild them with `python eval/probe_laya.py <out.json>` and the cutoff tables with `python eval/laya_cutoffs.py <probe.json>`.
 
 | | Ollama | Laya before | Laya v2 |
 |---|---|---|---|
@@ -187,7 +187,7 @@ Laya v2 still ranks the Excellent call (78.3) below the Good one (83.4).
 
 # Round 3: Phase 1 input changes (2026-10-16)
 
-Code: `fcc6869` (all input-building moved to `src/services/laya_inputs.py`, byte-identical inputs on 80 calls), `9050b41` (Rapport chunk scan, Active-listening snippet, Probing cutoff), then an interim Rapport cutoff (below). Result folders: `Main tests (laya-v3|laya-v3.1)`, `Bulk tests (laya-v3|laya-v3.1)`; raw probabilities in `Laya probes/probe_laya-v3.json`. `laya-v3` is the first run (Rapport cutoff 0.81); `laya-v3.1` is the final Phase 1 state (Rapport cutoff 0.50).
+Code: `fcc6869` (all input-building moved to `../QA-system/src/services/laya_inputs.py`, byte-identical inputs on 80 calls), `9050b41` (Rapport chunk scan, Active-listening snippet, Probing cutoff), then an interim Rapport cutoff (below). Result folders: `Main tests (laya-v3|laya-v3.1)`, `Bulk tests (laya-v3|laya-v3.1)`; raw probabilities in `Laya probes/probe_laya-v3.json`. `laya-v3` is the first run (Rapport cutoff 0.81); `laya-v3.1` is the final Phase 1 state (Rapport cutoff 0.50).
 
 ## What changed
 | Item | Change |
@@ -218,7 +218,7 @@ Rapport now makes about 8 Laya calls per call (mean 7.9, up to 21 for Main call 
 
 # Round 4: fine-tuned checkpoint (2026-10-17)
 
-Checkpoint: laya-training run `ft2-20261017-0354`, variant `softce` (full fine-tune of the English checkpoint on Claude-written synthetic data; see laya-training/README.md). Served with `LAYA_CHECKPOINT` set; the fine-tuned cutoffs in `FINETUNED_CUTOFFS` (dynamic_evaluator.py) apply only then. Results come from the running service (`batch_test.py main|bulk --label laya-ft`); the full per-call tables (`Docs/LAYA_ROUND4_COMPARISON.md`) were generated by `python Scripts/compare_results.py ... --out` and removed from the repo on 2026-10-22; the last copy is in commit `8a6842b`.
+Checkpoint: laya-training run `ft2-20261017-0354`, variant `softce` (full fine-tune of the English checkpoint on Claude-written synthetic data; see laya-training/README.md). Served with `LAYA_CHECKPOINT` set; the fine-tuned cutoffs in `FINETUNED_CUTOFFS` (dynamic_evaluator.py) apply only then. Results come from the running service (`batch_test.py main|bulk --label laya-ft`); the full per-call tables (`Docs/LAYA_ROUND4_COMPARISON.md`) were generated by `python ../QA-system/Scripts/compare_results.py ... --out` and removed from the repo on 2026-10-22; the last copy is in commit `8a6842b`.
 
 | | Ollama | Laya v2 | Laya v3.1 (untrained) | Laya fine-tuned |
 |---|---|---|---|---|
@@ -236,7 +236,7 @@ Caveats that matter:
 
 # Round 5: AG50, an independent test (2026-10-18)
 
-50 calls of 10 to 20 minutes with sentiment scores, **written and graded by Antigravity** (not Claude, not human-reviewed; brief `ANTIGRAVITY_TEST_BRIEF.md`, removed on 2026-10-22; read it with `git show a7ace67:Docs/<name>`, files in `laya-finetuning/inputs/AG50/`). The four rule items, auto-fail detection and score maths of the key were re-checked against the app's code: 0 mismatches. Full report: `laya-finetuning/docs/AG50_REPORT.md`. Its charts page, numbers file and per-call tables (`AG50_DASHBOARD.html`, `ag50_stats.json`, `AG50_RESULTS.md`) are generated on demand and were removed from the repo on 2026-10-22; how to regenerate them is in `Docs/README.md`.
+50 calls of 10 to 20 minutes with sentiment scores, **written and graded by Antigravity** (not Claude, not human-reviewed; brief `ANTIGRAVITY_TEST_BRIEF.md`, removed on 2026-10-22; read it with `git show a7ace67:Docs/<name>`, files in `inputs/AG50/`). The four rule items, auto-fail detection and score maths of the key were re-checked against the app's code: 0 mismatches. Full report: `docs/AG50_REPORT.md`. Its charts page, numbers file and per-call tables (`AG50_DASHBOARD.html`, `ag50_stats.json`, `AG50_RESULTS.md`) are generated on demand and were removed from the repo on 2026-10-22; how to regenerate them is in `Docs/README.md`.
 
 | | Stock Laya | Fine-tuned Laya | Ollama |
 |---|---|---|---|
@@ -248,11 +248,11 @@ Caveats that matter:
 - Ollama beats fine-tuned Laya on the judged items by 6.6 points (95% CI 0.9 to 12.3, McNemar p = 0.014); fine-tuning beat stock by 7.4 points (p = 0.005). The 92% on Eval50 (same author as the training data) was optimistic.
 - Pipeline: on long calls the snippets often miss the evidence. 6 of 15 Active-listening faults and 6 of 17 Ownership faults never reach the model; Empathy is checked per upset moment but the key (and the QA definition) is call-level, giving 25 false alarms; Rapport's any-chunk rule on about 10 chunks per call gives 31% false fails; Paraphrasing and Resolved see about 200 of about 1,900 words.
 - Training clearly raised ranking quality (AUC) only for Rapport (+0.24, CI 0.08 to 0.42). A Probing cutoff tuned on AG50 (balanced accuracy 0.65 -> 0.79) was tested on the bulk set and rejected: it raises false fails from 1 to 12 of 33 good calls.
-- `laya-finetuning/eval/probe_laya.py` gained `--suite <folder>` (default behaviour unchanged). `laya-finetuning/eval/ag50_analysis.py` and `laya-finetuning/eval/build_ag50_dashboard.py` regenerate the statistics and the dashboard.
+- `eval/probe_laya.py` gained `--suite <folder>` (default behaviour unchanged). `eval/ag50_analysis.py` and `eval/build_ag50_dashboard.py` regenerate the statistics and the dashboard.
 
 # Round 6: flow v2, windows chosen by call structure (2026-10-19)
 
-Full write-up: `Docs/FLOW_V2.md`. Lab reports: `Docs/FLOW_V2_LAB.md`, `Docs/FLOW_V2_REGRESSION.md`. Same fine-tuned checkpoint and cutoffs; only what the model is shown changes (Empathy: one window per distinct outburst, strict rubric chosen by the owner; Paraphrasing: restatement-cue gate plus a tight window; Ownership: wider deflection list). On when `LAYA_CHECKPOINT` is set (override with `LAYA_FLOW`).
+Full write-up: `../QA-system/Docs/FLOW_V2.md`. Lab reports: `../QA-system/Docs/FLOW_V2_LAB.md`, `../QA-system/Docs/FLOW_V2_REGRESSION.md`. Same fine-tuned checkpoint and cutoffs; only what the model is shown changes (Empathy: one window per distinct outburst, strict rubric chosen by the owner; Paraphrasing: restatement-cue gate plus a tight window; Ownership: wider deflection list). On when `LAYA_CHECKPOINT` is set (override with `LAYA_FLOW`).
 
 | | Flow v1 | Flow v2 | Ollama |
 |---|---|---|---|
@@ -268,7 +268,7 @@ Full write-up: `Docs/FLOW_V2.md`. Lab reports: `Docs/FLOW_V2_LAB.md`, `Docs/FLOW
 
 # Round 7: retrained on Antigravity data, sealed exam (2026-10-21/22)
 
-Full write-up: `laya-finetuning/runs/ft5-ag/RESULT.md`. New training data: 100 Antigravity-written calls with turn-level markers
+Full write-up: `runs/ft5-ag/RESULT.md`. New training data: 100 Antigravity-written calls with turn-level markers
 (AG-T; 77 were found padded with stock filler by the author's generator and were restored or rewritten before training).
 New model `ft5 softce` vs the old `final-softce-3`, each at cutoffs committed before the exam (57304af). Exam: AG-B (50) + AG-B2
 (12, filling AG-B's gaps), sealed, probed once. Keys AI-written, not human-reviewed.
@@ -288,7 +288,7 @@ New model `ft5 softce` vs the old `final-softce-3`, each at cutoffs committed be
 
 # Round 8: ft6 (targeted retrain) on a fresh sealed exam, AG-C (2026-10-22)
 
-Full write-up: `laya-finetuning/runs/ft6/RESULT.md`. ft6 added 141 labelled moments to AG-T (85 "upset-looking but fine"),
+Full write-up: `runs/ft6/RESULT.md`. ft6 added 141 labelled moments to AG-T (85 "upset-looking but fine"),
 Probing rows, and an Empathy length balance. Old, ft5 and ft6 were each scored once on AG-C (50 sealed calls, AI-written keys) at
 cutoffs committed beforehand.
 
@@ -305,4 +305,4 @@ cutoffs committed beforehand.
 ## Decision (2026-10-22)
 Production model stays `final-softce-3` (stage 3, flow v2, no Active-listening second source). Over the two sealed exams (AG-B+AG-B2
 and AG-C, 112 calls) it is statistically tied with ft5 (590 vs 599 of 784 judged items) and its final scores are closest to the keys
-(mean error 10.6 vs 11.5). ft5/ft6 remain available (see `laya-finetuning/runs/CHECKPOINTS.md`). Nothing in `.env` or the cutoffs changed.
+(mean error 10.6 vs 11.5). ft5/ft6 remain available (see `runs/CHECKPOINTS.md`). Nothing in `.env` or the cutoffs changed.

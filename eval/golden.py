@@ -1,6 +1,6 @@
 """Golden-set harness: where does pipeline v3 differ from v2, call by call?
 
-    python laya-finetuning/eval/golden.py rules            # the four rule checks + auto-fail, no model, seconds
+    python eval/golden.py rules            # the four rule checks + auto-fail, no model, seconds
 
 The AI-written answer keys for the rule items were computed with the v2 rule code (validate_calls.py enforces it), so a key cannot say
 whether a v3 change is right. This script lists every call where v3 and v2 disagree, per rule and direction, so each can be reviewed.
@@ -17,9 +17,9 @@ import _roots  # noqa: E402  (finds the QA app root; see _roots.py)
 ROOT = _roots.QA_ROOT
 sys.path.insert(0, ROOT)
 
-SETS = [("AG-T", "laya-finetuning/inputs/AG-T", "agt_*.json"), ("AG50", "laya-finetuning/inputs/AG50", "ag_*.json"), ("AG-B", "laya-finetuning/inputs/AG-B", "agb_*.json"),
-        ("AG-B2", "laya-finetuning/inputs/AG-B2", "agb2_*.json"), ("AG-C", "laya-finetuning/inputs/AG-C", "agc_*.json"), ("Main", "inputs/Main tests", "gold_*.json"),
-        ("Bulk", "inputs/Bulk tests", "*.json")]
+SETS = [("AG-T", "AG-T", "agt_*.json"), ("AG50", "AG50", "ag_*.json"), ("AG-B", "AG-B", "agb_*.json"),
+        ("AG-B2", "AG-B2", "agb2_*.json"), ("AG-C", "AG-C", "agc_*.json"), ("Main", "Main tests", "gold_*.json"),
+        ("Bulk", "Bulk tests", "*.json")]
 SEALED = {"AG-B", "AG-B2", "AG-C"}
 RULES = ["Branding", "Dead air", "Verified", "Personalized", "Auto-fail"]
 
@@ -52,7 +52,7 @@ def main():
     args = ap.parse_args()
     total = collections.Counter()
     for label, folder, pattern in SETS:
-        files = [f for f in sorted(glob.glob(os.path.join(ROOT, folder, pattern))) if "expected" not in f and "result" not in os.path.basename(f).lower()]
+        files = [f for f in sorted(glob.glob(os.path.join(_roots.suite_dir(folder), pattern))) if "expected" not in f and "result" not in os.path.basename(f).lower()]
         diffs = collections.defaultdict(lambda: collections.defaultdict(list))
         n = errors = 0
         for fp in files:

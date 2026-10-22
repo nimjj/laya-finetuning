@@ -52,10 +52,10 @@ Coaching tips and embeddings stay on Ollama regardless (this was the plan before
 
 ## Reproduce
 ```
-python laya-finetuning/laya_eval/build_gold.py     # build + validate the 320 items
-python laya-finetuning/laya_eval/run_laya.py       # ~15 min on CPU, run alone
-python laya-finetuning/laya_eval/run_ollama.py     # needs Ollama + a version-10 checkout (QA_OLLAMA_ROOT); hours on CPU, run alone
-python laya-finetuning/laya_eval/score.py          # writes results/summary.md
-python laya-finetuning/laya_eval/analyze.py        # hard-vs-clear and worst misses
+python laya_eval/build_gold.py     # build + validate the 320 items
+python laya_eval/run_laya.py       # ~15 min on CPU, run alone
+python laya_eval/run_ollama.py     # needs Ollama + a version-10 checkout (QA_OLLAMA_ROOT); hours on CPU, run alone
+python laya_eval/score.py          # writes results/summary.md
+python laya_eval/analyze.py        # hard-vs-clear and worst misses
 ```
 Run the two model jobs one at a time. Together they slow each other down and exhaust RAM.

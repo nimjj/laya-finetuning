@@ -1,8 +1,8 @@
 """Tune the call-level pass cutoffs of a checkpoint on one set of calls, then score it on a different set.
 
-    python laya-finetuning/eval/cutoff_eval.py --tune "<probe agtdev>" "<probe mainbulk>" --eval "<probe ag50>" --label softce --out cutoffs.json
+    python eval/cutoff_eval.py --tune "<probe agtdev>" "<probe mainbulk>" --eval "<probe ag50>" --label softce --out cutoffs.json
 
-Inputs are probe files from laya-finetuning/eval/probe_laya.py (every Laya probability of every call, plus the ratings the app gave at the cutoffs
+Inputs are probe files from eval/probe_laya.py (every Laya probability of every call, plus the ratings the app gave at the cutoffs
 in force). The call-level value for a check is the lowest P(pass) over its windows (one weak window fails the call), exactly as
 dynamic_evaluator does. Where the model is never asked, the app's fixed answer is used (no restatement cue or no question: FAIL; no
 upset moment, no repeat candidate, no deflection: PASS).
@@ -123,6 +123,12 @@ def main():
     ap.add_argument("--label", default="")
     ap.add_argument("--out", default="", help="write the tuned cutoffs here (JSON)")
     args = ap.parse_args()
+    args.tune = [_roots.resolve(p) for p in args.tune]
+    args.eval = [_roots.resolve(p) for p in args.eval]
+    if args.cutoffs:
+        args.cutoffs = _roots.resolve(args.cutoffs)
+    if args.out:
+        args.out = _roots.out_path(args.out)
 
     thr, tune_calls, ev_calls = None, {}, {}
     for p in args.tune:

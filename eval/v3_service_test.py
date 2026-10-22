@@ -1,6 +1,6 @@
 """End-to-end, load and memory test of the v3 service with the REAL model.
 
-    python laya-finetuning/eval/v3_service_test.py --out laya-finetuning/runs/v3/service_test.json
+    python eval/v3_service_test.py --out runs/v3/service_test.json
 
 It starts `python main.py` with LAYA_FLOW=v3 on a spare port, then:
   A. sends 3 calls to /api/evaluate and checks the scores equal the ones the offline comparison got (compare_agt.jsonl);
@@ -96,7 +96,7 @@ def http(method, url, body=None, headers=None, timeout=300):
 
 def load_calls(folder, n):
     out = []
-    for fp in sorted(glob.glob(os.path.join(ROOT, folder, "*.json")))[:n]:
+    for fp in sorted(glob.glob(os.path.join(_roots.suite_dir(folder), "*.json")))[:n]:
         d = json.load(open(fp, encoding="utf-8"))
         if isinstance(d, dict) and d.get("transcript"):
             out.append((os.path.basename(fp)[:-5], d))
@@ -132,10 +132,13 @@ def main():
     ap.add_argument("--skip-worst", action="store_true")
     ap.add_argument("--log", default=None)
     args = ap.parse_args()
+    args.out = _roots.out_path(args.out)
+    if args.log:
+        args.log = _roots.out_path(args.log)
     base = f"http://127.0.0.1:{args.port}"
-    calls = load_calls("laya-finetuning/inputs/AG-T", 100)
+    calls = load_calls("AG-T", 100)
     offline = {}
-    cmp_path = os.path.join(ROOT, "laya-finetuning", "runs", "v3", "compare_agt.jsonl")
+    cmp_path = os.path.join(_roots.FT_ROOT, "runs", "v3", "compare_agt.jsonl")
     if os.path.exists(cmp_path):
         for line in open(cmp_path, encoding="utf-8"):
             r = json.loads(line)

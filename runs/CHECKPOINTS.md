@@ -1,9 +1,9 @@
 # Fine-tuned Laya checkpoints: what each folder is
 
-The **production** weights (`final-softce-3`) live in the QA app, in `models/final-softce-3/` at the repo root. The **experiment**
-weights (ft5, ft6) live here, in `laya-finetuning/checkpoints/`. Both places are git-ignored: weights are never pushed. Each model has a hash
-record in `runs/`; check a copy with `python laya-finetuning/tools/checkpoint_manifest.py verify <folder> --manifest <record>`. To serve one,
-set `LAYA_CHECKPOINT` in `.env` to its folder (production: `models/final-softce-3`; an experiment: `laya-finetuning/checkpoints/<folder>/final-softce`), plus `LAYA_AL_SOURCE2=1` for ft5/ft6, which were trained with the Active-listening
+The **production** weights (`final-softce-3`) live in the QA app, in `../QA-system/models/final-softce-3/` at the repo root. The **experiment**
+weights (ft5, ft6) live here, in `checkpoints/`. Both places are git-ignored: weights are never pushed. Each model has a hash
+record in `runs/`; check a copy with `python tools/checkpoint_manifest.py verify <folder> --manifest <record>`. To serve one,
+set `LAYA_CHECKPOINT` in `.env` to its folder (production: `../QA-system/models/final-softce-3`; an experiment: `checkpoints/<folder>/final-softce`), plus `LAYA_AL_SOURCE2=1` for ft5/ft6, which were trained with the Active-listening
 second source. Every result below is measured against AI-written keys, none human-reviewed.
 
 | Folder | Trained on | Status | Hash record |
@@ -15,4 +15,4 @@ second source. Every result below is measured against AI-written keys, none huma
 | `ft6-20261022-0453/final-softce` | Stage 3 + AG-T with all moments labelled, Probing rows, Empathy length-balanced | Tested on AG-C: 272/350 (old 273, ft5 276), score error 10.8 (best), fewest Empathy false fails; not significantly different. Result `runs/ft6/RESULT.md` | `runs/ft6/` |
 | `ft6-20261022-0453/final-softce_ag2` | Same, AG-T rows x2 | Not chosen (lost on development data, 670 vs 704 of 882) | `runs/ft6/` |
 
-Round 8 (AG-C): old, ft5 and ft6 are statistically indistinguishable (77.7% to 78.9% of judged items). **Production choice: `final-softce-3`** (owner, 2026-10-22, on the recommendation to keep the proven model whose final scores sit closest to the keys). Settings: `LAYA_CHECKPOINT=models/final-softce-3`, `LAYA_AL_SOURCE2` unset, the cutoffs in `dynamic_evaluator.FINETUNED_CUTOFFS`. `ft5-20261021-1621/final-softce` is the alternative if wrongly failed Rapport becomes the main complaint (needs `LAYA_AL_SOURCE2=1` and its own cutoffs: Active listening 0.92, Probing 0.926).
+Round 8 (AG-C): old, ft5 and ft6 are statistically indistinguishable (77.7% to 78.9% of judged items). **Production choice: `final-softce-3`** (owner, 2026-10-22, on the recommendation to keep the proven model whose final scores sit closest to the keys). Settings: `LAYA_CHECKPOINT=../QA-system/models/final-softce-3`, `LAYA_AL_SOURCE2` unset, the cutoffs in `dynamic_evaluator.FINETUNED_CUTOFFS`. `ft5-20261021-1621/final-softce` is the alternative if wrongly failed Rapport becomes the main complaint (needs `LAYA_AL_SOURCE2=1` and its own cutoffs: Active listening 0.92, Probing 0.926).

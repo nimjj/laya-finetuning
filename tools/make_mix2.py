@@ -1,6 +1,6 @@
 """Mix 2: the stage-3 rows (Claude-written) plus the Antigravity rows (AG-T) into train_all2 / dev_all2, with leakage proof.
 
-    python laya-finetuning/tools/make_mix2.py
+    python tools/make_mix2.py
 
 Reads  data/rows/train_all.jsonl, dev_all.jsonl, test*.jsonl   (stage 3; unchanged, never rewritten)
        data/rows/agt_train.jsonl, agt_dev.jsonl                (tools/build_ag_rows.py)

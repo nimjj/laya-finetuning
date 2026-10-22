@@ -1,7 +1,7 @@
 """Score Laya (and the Ollama baseline) against the synthetic gold set.
 
-Usage: python laya-finetuning/laya_eval/score.py
-Writes laya-finetuning/laya_eval/results/summary.md and prints it.
+Usage: python laya_eval/score.py
+Writes laya_eval/results/summary.md and prints it.
 
 Method
   * Positive class = verdict PASS. Laya gives P(true); it is converted to p_pass using the criterion polarity.

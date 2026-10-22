@@ -1,15 +1,15 @@
 # laya_eval: synthetic gold set for the Laya checks
 
-This is the out-of-the-box benchmark behind the starting `pass_threshold` values in `LAYA_CHECKS` (`src/services/dynamic_evaluator.py`). The results and caveats are in [`RESULTS.md`](RESULTS.md).
+This is the out-of-the-box benchmark behind the starting `pass_threshold` values in `LAYA_CHECKS` (`../QA-system/src/services/dynamic_evaluator.py`). The results and caveats are in [`RESULTS.md`](RESULTS.md).
 
 The gold set has 8 criteria × 40 short snippets, each with an intended PASS/FAIL. **I wrote the labels; no human has reviewed them.**
 
-For checks on full-length calls, see `laya-finetuning/docs/LAYA_TEST_LOG.md`, `inputs/Main tests` and `inputs/Bulk tests`.
+For checks on full-length calls, see `docs/LAYA_TEST_LOG.md`, `../QA-system/inputs/Main tests` and `../QA-system/inputs/Bulk tests`.
 
 | File | What it does |
 |---|---|
 | `gold_a.py` … `gold_d.py` | The hand-written snippets per criterion |
-| `build_gold.py` | Builds and validates `data/<criterion>.jsonl` through the pipeline's own extractors in `src/services/rule_engine.py` |
+| `build_gold.py` | Builds and validates `data/<criterion>.jsonl` through the pipeline's own extractors in `../QA-system/src/services/rule_engine.py` |
 | `questions.py` | The question wordings asked of Laya (four forms per criterion) |
 | `run_laya.py` | Runs Laya on the gold set → `results/laya_<checkpoint>.jsonl` |
 | `run_long.py` | Escalation/Hostility on long padded transcripts → `results/long.jsonl` (stopped early, not scored) |

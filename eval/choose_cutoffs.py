@@ -1,6 +1,6 @@
 """Choose a model's call-level cutoffs with a split-half check, and report cross-validated accuracy.
 
-    python laya-finetuning/eval/choose_cutoffs.py --label ft6-softce --base laya-finetuning/runs/ft5-ag/exam_cutoffs_old.json \
+    python eval/choose_cutoffs.py --label ft6-softce --base runs/ft5-ag/exam_cutoffs_old.json \
         --half-a <probe agtdev> <probe ag50> --half-b <probe agb> <probe agb2> --out cutoffs.json
 
 For each check: tune on half A and score on half B, then the reverse. A cutoff tuned on the whole pool replaces the base cutoff only
@@ -14,6 +14,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import _roots  # noqa: E402  (path helpers)
 import cutoff_eval as E  # noqa: E402
 
 
@@ -42,6 +43,11 @@ def main():
     ap.add_argument("--min-gain", type=float, default=0.02)
     ap.add_argument("--out", default="")
     args = ap.parse_args()
+    args.base = _roots.resolve(args.base)
+    args.half_a = [_roots.resolve(p) for p in args.half_a]
+    args.half_b = [_roots.resolve(p) for p in args.half_b]
+    if args.out:
+        args.out = _roots.out_path(args.out)
     base = json.load(open(args.base))["cutoffs"]
     A, B = load_all(args.half_a), load_all(args.half_b)
     pool = {**A, **B}

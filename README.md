@@ -1,40 +1,42 @@
 # Fine-tuning Laya to replace Ollama in the QA grading pipeline
 
-> **Where this lives now (2026-10-20):** this folder is part of the QA repository (`nimjj/QA-system`, branch `laya-finetuning`); it used to be the separate `nimjj/laya-finetuning` repo, whose history is kept. The app is the repo root, so older notes below that say `qa-analysis/` mean the repo root and `laya-training/` means this folder. Setup on a new PC: `docs/NEW_PC_SETUP.md`. Latest results: `runs/ag50/RESULT.md` and `Docs/FLOW_V2.md` at the repo root.
+> **Where this lives (updated 2026-10-22):** this is its own repo again, `nimjj/laya-finetuning`, in a folder next to the QA app. From 2026-10-20 until 2026-10-22 it was folded into the QA repo (`nimjj/QA-system`, branch `laya-finetuning`, later `app-v3`); that history is kept here: the split-out branch continues the original history. Older notes below that say `qa-analysis/` mean the QA app (`../QA-system`) and `laya-training/` means this folder. Latest results: `runs/ag50/RESULT.md`, `runs/CHECKPOINTS.md`, and `../QA-system/Docs/V3.md`.
 
 > Moving to another PC? See `docs/NEW_PC_SETUP.md` (what to copy, setup steps, checks, and how to carry the Claude Code notes).
 
-## This folder is the Laya segment of the repo (layout since 2026-10-22)
+## This is the Laya project: its own repo, next to the QA app (since 2026-10-22)
 
-The repository has two segments. The **QA application** is at the repo root. **Everything about the Laya model lives here**: training data, row builders, Colab notebooks, the testing and evaluation scripts, every test set and its results, the first benchmark, the experiment weights, and the logs of what was tried. The app keeps only its production weights (`../models/final-softce-3`) and two folders of sample calls.
+Everything about the **Laya model** lives here: training data, row builders, Colab notebooks, the testing and evaluation scripts, every test set and its results, the first benchmark, the experiment weights, and the logs of what was tried. It is its own git repo (GitHub `nimjj/laya-finetuning`) in a folder next to the QA application, `QA-system` (GitHub `nimjj/QA-system`). **The app does not need this folder to run.** This folder needs the app's code: the tools import `src/...`, hash the frozen files and run the app's model, and they find the app in the sibling folder `../QA-system`. The production weights are `../QA-system/models/final-softce-3`.
 
 ```
-laya-finetuning/
-├── README.md              this file: the training project, its plan, status and results
-├── 00_smoke_test.ipynb ... 04_train_eval_ft6.ipynb    Colab notebooks that train a checkpoint on a GPU
-├── data/                  training material: fragments, rows, the frozen questions and hashes, review sheets
-├── tools/                 row builders, notebook builders, the trainer, manifests, the freeze check; paths.py finds the app
-├── eval/                  testing and evaluation scripts (validate_calls, probe_laya, v3_compare, v3_gate_lab, golden, ...)
-├── inputs/                test sets AG50, AG-T, AG-B, AG-B2, AG-C, Eval50, Tough checks; Test (results)/ with their results and probes
-├── laya_eval/             the first synthetic benchmark of Laya vs Ollama
-├── runs/                  results, probe files and hash records per round; CHECKPOINTS.md is the catalogue and the decision
-├── checkpoints/           experiment weights ft5, ft6 (git-ignored)
-└── docs/                  LAYA_TEST_LOG.md, AG50_REPORT.md, data plan, labelling guide, generation notes, new-PC setup
+D:/CIAP/QA/
+├── QA-system/             the QA application (own repo)
+└── laya-finetuning/       this repo
+    ├── README.md              this file: the training project, its plan, status and results
+    ├── 00_smoke_test.ipynb ... 04_train_eval_ft6.ipynb    Colab notebooks that train a checkpoint on a GPU
+    ├── data/                  training material: fragments, rows, the frozen questions and hashes, review sheets
+    ├── tools/                 row builders, notebook builders, the trainer, manifests, the freeze check; paths.py finds the app
+    ├── eval/                  testing and evaluation scripts (validate_calls, probe_laya, v3_compare, v3_gate_lab, golden, ...)
+    ├── inputs/                test sets AG50, AG-T, AG-B, AG-B2, AG-C, Eval50, Tough checks; Test (results)/ with their results and probes
+    ├── laya_eval/             the first synthetic benchmark of Laya vs Ollama
+    ├── runs/                  results, probe files and hash records per round; CHECKPOINTS.md is the catalogue and the decision
+    ├── checkpoints/           experiment weights ft5, ft6 (git-ignored)
+    └── docs/                  LAYA_TEST_LOG.md, AG50_REPORT.md, data plan, labelling guide, generation notes, new-PC setup
 ```
 
-**Run the scripts from the repo root**, for example `python laya-finetuning/eval/validate_calls.py --suite agt` or `python laya-finetuning/tools/export_checks.py --check`. They import the app code (`src/...`) through `tools/paths.py` (and `eval/_roots.py`), which treat the parent of this folder as the app. To point them at another checkout of the app, set the environment variable `QA_APP_DIR`.
+**How to run things.** Use the app's Python, which has the Laya library and everything else installed (`../QA-system/.venv/Scripts/python.exe`, or activate that environment), from any folder, for example `python eval/validate_calls.py --suite agt` or `python tools/export_checks.py --check`. A relative input path on the command line is looked up in the current folder, then in this folder, then in the app (so `inputs/AG-T` and `inputs/Main tests` both work); a relative output path goes inside this folder unless it starts with `.`. To use another checkout of the app, set the environment variable `QA_APP_DIR`.
 
-**Where things moved** (older notes in this folder and in git history use the old paths):
+**Where things were before** (older notes in this folder and in git history use the old paths):
 
-| Old path | New path |
+| Old path (until 2026-10-22) | Now |
 |---|---|
-| `Scripts/` ag50_analysis, al_reach_lab, build_ag50_dashboard, choose_cutoffs, compare_eval, cutoff_eval, empathy_lab, golden, laya_cutoffs, probe_laya, v3_compare, v3_gate_lab, v3_service_test, validate_calls, window_lab | `laya-finetuning/eval/` |
-| `inputs/AG50`, `AG-T`, `AG-B`, `AG-B2`, `AG-C`, `Eval50`, `Tough checks` | `laya-finetuning/inputs/` |
-| `inputs/Test (results)/` AG50 (...), Eval50 (...), Laya probes | `laya-finetuning/inputs/Test (results)/` |
-| `laya_eval/` | `laya-finetuning/laya_eval/` |
-| `Docs/LAYA_TEST_LOG.md`, `Docs/AG50_REPORT.md` | `laya-finetuning/docs/` |
-| `laya-finetuning/checkpoints/final-softce-3` (the production weights) | `models/final-softce-3` at the repo root; set `LAYA_CHECKPOINT=models/final-softce-3` in `.env` |
-| (stayed in the app) | `Scripts/` batch_test, compare_results, check_prompt_sizes, dump_laya_inputs; `inputs/Main tests`, `inputs/Bulk tests` and their result folders; `Docs/FLOW_V2*.md` |
+| `Scripts/` ag50_analysis, al_reach_lab, build_ag50_dashboard, choose_cutoffs, compare_eval, cutoff_eval, empathy_lab, golden, laya_cutoffs, probe_laya, v3_compare, v3_gate_lab, v3_service_test, validate_calls, window_lab (in the app repo) | `eval/` here |
+| `inputs/AG50`, `AG-T`, `AG-B`, `AG-B2`, `AG-C`, `Eval50`, `Tough checks` (app repo) | `inputs/` here |
+| `inputs/Test (results)/` AG50 (...), Eval50 (...), Laya probes (app repo) | `inputs/Test (results)/` here |
+| `laya_eval/`, `Docs/LAYA_TEST_LOG.md`, `Docs/AG50_REPORT.md` (app repo) | `laya_eval/`, `docs/` here |
+| `laya-finetuning/...` inside the app repo (the folder was nested in it until this day) | this repo's root |
+| `laya-finetuning/checkpoints/final-softce-3` (the production weights) | `../QA-system/models/final-softce-3`; `.env` of the app: `LAYA_CHECKPOINT=models/final-softce-3` |
+| stayed in the app | `../QA-system/Scripts/` batch_test, compare_results, check_prompt_sizes, dump_laya_inputs; `../QA-system/inputs/Main tests`, `Bulk tests` and their result folders; `../QA-system/Docs/FLOW_V2*.md` |
 
 **Document status:** review copy for the AI/ML engineer, written 2026-10-16. Everything below is marked **Done**, **In progress** or **Planned**. Section 9 lists the specific points we want challenged. `docs/DATA_PLAN.md` is the working copy of the phase table and data volumes; if the two ever differ, this README is the one reviewed.
 
@@ -46,7 +48,7 @@ We grade telephony-support calls against 11 criteria with a service (`qa-analysi
 
 **Result so far (2026-10-17, details in `runs/ft3-stage3/RESULT.md`):** after three training rounds the fine-tuned model scores 41/44 items on the 4 Main calls with a mean score error of 8.75 (Ollama 40/44, 9.2; untrained Laya 37/44, 13.3), and 358/372 bulk items (untrained 351). The first two rounds were not good enough on the natural Main calls (errors 16.3 and 15.4); the cause was that training snippets were half the length and much less natural than real ones, fixed with padded rows (stage 2) and complete natural calls cut by the extractors (stage 3). **Limits:** all data, tests and the answer key are Claude-written; the Main/bulk calls were used to pick the Rapport cutoff and to see failure types, so they are no longer independent; the custom-criteria safeguard agrees with the untouched model on 82% of questions (target 90%); speed is 21.4 s per Main call (target 15 s).
 
-**Independent check (2026-10-18, `runs/ag50/RESULT.md`):** on 50 long calls written and graded by a different AI (Antigravity), fine-tuned Laya matched 72.0% of the 7 model-judged items against 64.6% for stock Laya and **78.6% for Ollama** (the 6.6-point gap to Ollama is statistically real, p = 0.014). It is 24 times faster and its final scores are nearly unbiased, but it is **not ready to replace Ollama**: a shadow-mode trial is the supported next step. Much of the loss happens in the app's snippet-building rather than in the model, so the next iteration fixes those inputs first (section 6, phase 12). **Update 2026-10-19:** changing only what the model is shown for Empathy, Paraphrasing and Ownership (`../Docs/FLOW_V2.md`, no retraining) lifted AG50 to 80.3% of the judged items (a development set; Ollama 78.6%, not distinguishable), with Main 42/44 and bulk 359/372 not regressing. Active listening, Rapport, Probing and Resolved still need training data.
+**Independent check (2026-10-18, `runs/ag50/RESULT.md`):** on 50 long calls written and graded by a different AI (Antigravity), fine-tuned Laya matched 72.0% of the 7 model-judged items against 64.6% for stock Laya and **78.6% for Ollama** (the 6.6-point gap to Ollama is statistically real, p = 0.014). It is 24 times faster and its final scores are nearly unbiased, but it is **not ready to replace Ollama**: a shadow-mode trial is the supported next step. Much of the loss happens in the app's snippet-building rather than in the model, so the next iteration fixes those inputs first (section 6, phase 12). **Update 2026-10-19:** changing only what the model is shown for Empathy, Paraphrasing and Ownership (`../QA-system/Docs/FLOW_V2.md`, no retraining) lifted AG50 to 80.3% of the judged items (a development set; Ollama 78.6%, not distinguishable), with Main 42/44 and bulk 359/372 not regressing. Active listening, Rapport, Probing and Resolved still need training data.
 
 ## 2. The system and where Laya sits
 
@@ -74,7 +76,7 @@ Each category starts at 100 and loses the deduction per FAIL; final score = Soft
 
 ## 3. Evidence so far
 
-All numbers are from `../Docs/LAYA_TEST_LOG.md` and `../laya_eval/RESULTS.md`.
+All numbers are from `../QA-system/Docs/LAYA_TEST_LOG.md` and `laya_eval/RESULTS.md`.
 
 **Main tests (4 hand-written 16-22 minute calls, expected grades written by Claude, not human-reviewed)**
 
@@ -115,7 +117,7 @@ Proposed final criteria (all on synthetic data; cutoffs are re-tuned on dev data
 - Checks to train (priority from the test log): **Active listening, Confirmed resolved, Paraphrasing, Rapport, Empathy.** Regression-only (included so training does not damage them): **Ownership, Probing, Hostility, Escalation.** Rule-based checks are not touched.
 
 ### 5.2 Inputs: one source of truth
-`../src/services/laya_inputs.py::build_laya_inputs(transcript)` builds every Laya input; production and the data tools both call it, so training rows contain exactly what the model sees in production. **Done:** moving it out of the evaluator changed nothing (byte-identical inputs across 80 sample calls). The frozen questions and their inputs:
+`../QA-system/src/services/laya_inputs.py::build_laya_inputs(transcript)` builds every Laya input; production and the data tools both call it, so training rows contain exactly what the model sees in production. **Done:** moving it out of the evaluator changed nothing (byte-identical inputs across 80 sample calls). The frozen questions and their inputs:
 
 | Check | Input text (cap) | Cutoff on P(pass) | yes means |
 |---|---|---|---|
@@ -174,7 +176,7 @@ This is about a third of the volume first planned (3,400 train rows). It is a **
 - After the notebook: set `LAYA_CHECKPOINT`, re-run `batch_test.py main` and `bulk` through the service, `probe_laya.py`, `compare_results.py`, and commit new cutoffs to `LAYA_CHECKS`.
 
 ### 5.6 Integration
-`../src/services/laya_adapter.py` serves a fine-tuned folder when the environment variable `LAYA_CHECKPOINT` is set (served under the `english` name); unset means the stock checkpoint. **Done and tested** on CPU through the real adapter. New cutoffs are committed to `LAYA_CHECKS`.
+`../QA-system/src/services/laya_adapter.py` serves a fine-tuned folder when the environment variable `LAYA_CHECKPOINT` is set (served under the `english` name); unset means the stock checkpoint. **Done and tested** on CPU through the real adapter. New cutoffs are committed to `LAYA_CHECKS`.
 
 ## 6. Phases and status
 
@@ -200,7 +202,7 @@ The human's time is now about 1 hour (section 8).
 
 - **Smoke test passed**, run `smoke-20261016-0848` (details in `runs/smoke-20261016-0848/RESULT.md`): base weights downloaded and hash-matched to the local copy; 1 epoch on a Colab L4; checkpoint copied to Drive with verification; reloaded two ways with identical output; served on CPU through `laya_adapter` with a largest difference from the GPU of 0.0057 (tolerance 0.03); original weights verified unchanged.
 - **Phase 1 code** (`qa-analysis`, branch `version-10.2-laya-finetune`): `fcc6869` refactor (no behaviour change, proved by byte-identical inputs on 80 calls); `9050b41` Rapport chunk scan (mean 7.9 chunks per call, max 21), Active-listening first-question/answer/second-question snippet and 0.55 similarity (calls with an Active-listening snippet rise from 8 to 19 of 80), Probing cutoff 0.60 to 0.70; `53becd8` interim Rapport cutoff, Round 3 results and docs. Tagged `laya-inputs-frozen-v1`. Self-checks pass.
-- **Phase 1 baseline of the untrained model** (full detail in `../Docs/LAYA_TEST_LOG.md`, Round 3; answer key is Claude-written):
+- **Phase 1 baseline of the untrained model** (full detail in `../QA-system/Docs/LAYA_TEST_LOG.md`, Round 3; answer key is Claude-written):
 
   | | Ollama | Laya v2 | Laya v3.1 (final Phase 1) |
   |---|---|---|---|
@@ -256,7 +258,7 @@ Nothing in the final claim comes from human judgement. If an independent check m
 
 Branches: this repo `plan-a-smoke-test`, `phase-0-ground-truth`; `qa-analysis` `version-10.2-laya-finetune`.
 
-Tools in `tools/`: `build_rows.py` (fragments to rows through production code), `build_replay.py`, `make_manifest.py` (combine, de-duplicate, prove no leakage), `shortcut_probe.py`, `build_train_notebook.py` (assembles `01_train_eval.ipynb` from `train_cells/`), `export_checks.py` (freeze the production questions with a sha256; `--check` detects drift), `smoke_rows.py` / `smoke_cells/` / `build_smoke_notebook.py` (the smoke test), `check_local_load.py` (CPU check through the adapter), `laya_train_cuda.py` (GPU workaround), `make_review_sheet.py` and `pick_review_subset.py` (Phase 0 sheets). In `../Scripts/`: `dump_laya_inputs.py` records every Laya input without a model and compares two code versions.
+Tools in `tools/`: `build_rows.py` (fragments to rows through production code), `build_replay.py`, `make_manifest.py` (combine, de-duplicate, prove no leakage), `shortcut_probe.py`, `build_train_notebook.py` (assembles `01_train_eval.ipynb` from `train_cells/`), `export_checks.py` (freeze the production questions with a sha256; `--check` detects drift), `smoke_rows.py` / `smoke_cells/` / `build_smoke_notebook.py` (the smoke test), `check_local_load.py` (CPU check through the adapter), `laya_train_cuda.py` (GPU workaround), `make_review_sheet.py` and `pick_review_subset.py` (Phase 0 sheets). In `../QA-system/Scripts/`: `dump_laya_inputs.py` records every Laya input without a model and compares two code versions.
 
 Run the smoke test: open `00_smoke_test.ipynb` on Colab, run cells top to bottom (each starts with an "EXPECT" comment), download the `final/` folder and `smoke_preds_ft.json` from Drive into `checkpoints/<run id>/`, then
 

@@ -506,7 +506,7 @@ def write_readme(ws, rows, last_rev, blind):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--qa-root", default=os.path.dirname(REPO), help="the repo root")
+    ap.add_argument("--qa-root", default=os.path.join(os.path.dirname(REPO), "QA-system"), help="the QA app (default: the sibling folder QA-system)")
     ap.add_argument("--out", default=None)
     ap.add_argument("--subset", default=None,
                     help="subset_main.json from pick_review_subset.py: build the BLIND subset workbook (no answers)")

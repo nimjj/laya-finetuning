@@ -1,7 +1,7 @@
 """Run Laya on the gold set. Resumable.
 
-Usage: python laya-finetuning/laya_eval/run_laya.py [english|multilingual ...] [--limit N]
-Writes laya-finetuning/laya_eval/results/laya_<checkpoint>.jsonl, one line per item with P(true) for each question variant.
+Usage: python laya_eval/run_laya.py [english|multilingual ...] [--limit N]
+Writes laya_eval/results/laya_<checkpoint>.jsonl, one line per item with P(true) for each question variant.
 """
 import json
 import sys

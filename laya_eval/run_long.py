@@ -7,10 +7,11 @@ Modes:
   ml_8192   multilingual checkpoint, router.predict(max_len=8192) (one window)
 Controls: the filler alone (label PASS for both criteria) to measure how far P(violation) drifts with no signal.
 
-Usage: python laya-finetuning/laya_eval/run_long.py
-Writes laya-finetuning/laya_eval/results/long.jsonl (resumable).
+Usage: python laya_eval/run_long.py
+Writes laya_eval/results/long.jsonl (resumable).
 """
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -21,7 +22,7 @@ import questions as Q  # noqa: E402
 
 from laya import Router  # noqa: E402
 
-QA_ROOT = HERE.parents[1]  # repo root (the QA app); this folder is laya-finetuning/laya_eval
+QA_ROOT = Path(os.environ.get("QA_APP_DIR") or HERE.parents[1] / "QA-system")  # the QA app, the sibling folder
 filler_turns = json.load(open(QA_ROOT / "inputs" / "Bulk tests" / "b_00_perfect.json", encoding="utf-8"))["transcript"]
 filler = [f"{t['speaker']}: {t['text']}" for t in filler_turns]
 mid = len(filler) // 2

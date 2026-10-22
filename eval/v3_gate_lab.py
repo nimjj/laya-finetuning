@@ -1,7 +1,7 @@
 """Window lab: which lines should the model be shown for one check? Scores every candidate window against the AI-written answer keys.
 
-    python laya-finetuning/eval/v3_gate_lab.py resolved                      # all variants, all sets
-    python laya-finetuning/eval/v3_gate_lab.py resolved --variants tail10,cue
+    python eval/v3_gate_lab.py resolved                      # all variants, all sets
+    python eval/v3_gate_lab.py resolved --variants tail10,cue
 
 tail10 is today's v2 behaviour. Development sets (AG-T, AG50) are where a variant and its cutoff are chosen; the hold-out sets (AG-B, AG-B2,
 AG-C) are looked at only to confirm, and are never used to pick anything. Model answers are cached by a hash of the window text, so a
@@ -38,15 +38,15 @@ CHECKS = {"resolved": {"item": "Confirmed the issue is resolved", "key": "resolv
           "empathy": {"item": "Empathy & Acknowledgment Statement", "key": "empathy", "label": "verify_empathy", "variants": EMP.VARIANTS, "combine": "min", "empty_score": 1.0}}
 DEV = ["AG-T", "AG50"]
 HOLD = ["AG-B", "AG-B2", "AG-C"]
-FOLDERS = {"AG-T": "laya-finetuning/inputs/AG-T", "AG50": "laya-finetuning/inputs/AG50", "AG-B": "laya-finetuning/inputs/AG-B", "AG-B2": "laya-finetuning/inputs/AG-B2", "AG-C": "laya-finetuning/inputs/AG-C"}
-CACHE_PATH = os.path.join(ROOT, "laya-finetuning", "runs", "v3", "lab_cache.json")
+FOLDERS = {"AG-T": "AG-T", "AG50": "AG50", "AG-B": "AG-B", "AG-B2": "AG-B2", "AG-C": "AG-C"}
+CACHE_PATH = os.path.join(_roots.FT_ROOT, "runs", "v3", "lab_cache.json")
 
 
 def load_set(name, item):
     out = []
-    for fp in sorted(glob.glob(os.path.join(ROOT, FOLDERS[name], "*.json"))):
+    for fp in sorted(glob.glob(os.path.join(_roots.suite_dir(FOLDERS[name]), "*.json"))):
         stem = os.path.basename(fp)[:-5]
-        ef = os.path.join(ROOT, FOLDERS[name], "expected", f"expected_{stem}.json")
+        ef = os.path.join(_roots.suite_dir(FOLDERS[name]), "expected", f"expected_{stem}.json")
         if not os.path.exists(ef):
             continue
         d = json.load(open(fp, encoding="utf-8"))
@@ -72,6 +72,8 @@ def main():
     ap.add_argument("--sets", default=",".join(DEV + HOLD))
     ap.add_argument("--out", default=None)
     args = ap.parse_args()
+    if args.out:
+        args.out = _roots.out_path(args.out)
     cfg = CHECKS[args.check]
     check = de.LAYA_CHECKS[cfg["key"]]
     variants = {k: v for k, v in cfg["variants"].items() if not args.variants or k in args.variants.split(",")}

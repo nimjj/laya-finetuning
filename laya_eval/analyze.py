@@ -1,6 +1,6 @@
 """Error analysis for the short-snippet Laya runs.
 
-Usage: python laya-finetuning/laya_eval/analyze.py
+Usage: python laya_eval/analyze.py
 For each criterion and checkpoint, take the form with the best DEV balanced accuracy (same rule as score.py), then:
   * AUROC on clear vs hard items (all 40; threshold-free)
   * the most confidently wrong items (FAIL scored as passing, PASS scored as failing)

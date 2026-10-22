@@ -1,6 +1,6 @@
 """Run v2 and v3 side by side on a folder of calls with the real model, and list every item where they disagree.
 
-    python laya-finetuning/eval/v3_compare.py laya-finetuning/inputs/AG-T --out runs/v3_compare_agt.jsonl --limit 20
+    python eval/v3_compare.py inputs/AG-T --out runs/v3_compare_agt.jsonl --limit 20
 
 Model results are memoised by (window text, question), so v3 only pays for windows that differ from v2's. Output is one JSON line per call
 (resumable: calls already in --out are skipped). Sealed-style sets (AG-B, AG-B2, AG-C) are summarised by id only, never dialogue.
@@ -55,6 +55,8 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--show", type=int, default=12)
     args = ap.parse_args()
+    args.folder = _roots.resolve(args.folder)
+    args.out = _roots.out_path(args.out)
     with open(os.path.join(ROOT, "resources", "criteria_config.json"), encoding="utf-8") as f:
         criteria = json.load(f)["tenant-abc"]
     files = [f for f in sorted(glob.glob(os.path.join(os.path.abspath(args.folder), "*.json")))

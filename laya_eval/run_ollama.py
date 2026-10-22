@@ -1,7 +1,7 @@
 """Ollama (llama3.1 8B) baseline on the gold set, using the pipeline's OWN prompts and parsing. Resumable.
 
-Usage: python laya-finetuning/laya_eval/run_ollama.py [--limit N]
-Writes laya-finetuning/laya_eval/results/ollama.jsonl with the raw reply and the verdict the pipeline would have produced.
+Usage: python laya_eval/run_ollama.py [--limit N]
+Writes laya_eval/results/ollama.jsonl with the raw reply and the verdict the pipeline would have produced.
 
 Fidelity:
 Needs the Ollama-era code: set QA_OLLAMA_ROOT to a version-10 checkout (default ../qa-analysis-ollama).
@@ -22,7 +22,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 # llm_adapter only exists on the Ollama branches, so point this at a version-10 checkout.
-QA_ROOT = Path(os.environ.get("QA_OLLAMA_ROOT", HERE.parents[2] / "qa-analysis-ollama"))
+QA_ROOT = Path(os.environ.get("QA_OLLAMA_ROOT", HERE.parents[1] / "qa-analysis-ollama"))
 sys.path.insert(0, str(QA_ROOT))
 
 from src.services.llm_adapter import query_llm, query_llm_with_state  # noqa: E402

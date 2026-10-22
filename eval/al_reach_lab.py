@@ -6,10 +6,10 @@ the key's evidence names) is inside them:
   second   W.active_listening_pairs_from_customer (laya_windows): agent question vs an earlier CUSTOMER statement
   union    either source
 
-Run (from the repo root):
-    python laya-finetuning/eval/al_reach_lab.py laya-finetuning/inputs/AG50            # reach on faults + snippets on good calls (AG50 key)
-    python laya-finetuning/eval/al_reach_lab.py "inputs/Bulk tests"    # snippet counts only (bulk keys are in the file names)
-    python laya-finetuning/eval/al_reach_lab.py "inputs/Main tests"
+Run (from any folder):
+    python eval/al_reach_lab.py inputs/AG50            # reach on faults + snippets on good calls (AG50 key)
+    python eval/al_reach_lab.py "inputs/Bulk tests"    # snippet counts only (bulk keys are in the file names)
+    python eval/al_reach_lab.py "inputs/Main tests"
 
 Keys are AI-written (Antigravity for AG50), not human-reviewed. AG50 is a development set.
 """
@@ -58,7 +58,7 @@ def main():
     ap.add_argument("suite", help="folder with call JSONs (AG50 also needs expected/expected_<call>.json)")
     ap.add_argument("--show-misses", action="store_true", help="print the evidence of faults no source reaches")
     args = ap.parse_args()
-    suite = args.suite if os.path.isabs(args.suite) else os.path.join(ROOT, args.suite)
+    suite = _roots.resolve(args.suite)
 
     faults = {"current": 0, "second": 0, "union": 0, "combined": 0, "n": 0}
     good = {"n": 0, "current": 0, "second": 0, "union": 0, "combined": 0}

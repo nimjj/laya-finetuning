@@ -2,12 +2,12 @@
 
 For each call it saves the text Laya saw, the question(s), the yes-probabilities, the final score and the
 ratings, plus the LAYA_CHECKS cutoffs in force. The ratings match /api/evaluate for the same code.
-Feed the output to laya-finetuning/eval/laya_cutoffs.py to pick cutoffs from the b_* filename labels.
+Feed the output to eval/laya_cutoffs.py to pick cutoffs from the b_* filename labels.
 
 Usage:
-    python laya-finetuning/eval/probe_laya.py "laya-finetuning/inputs/Test (results)/Laya probes/probe_laya-v3.json"
-    python laya-finetuning/eval/probe_laya.py out.json --code-root ../other-checkout   # probe another version of src/
-    python laya-finetuning/eval/probe_laya.py out.json --suite laya-finetuning/inputs/AG50             # probe one folder of calls
+    python eval/probe_laya.py "inputs/Test (results)/Laya probes/probe_laya-v3.json"
+    python eval/probe_laya.py out.json --code-root ../other-checkout   # probe another version of src/
+    python eval/probe_laya.py out.json --suite inputs/AG50             # probe one folder of calls
 
 Loads Laya (~1.5 GB) and takes about 15 minutes on CPU. Don't run it while the service or Ollama is busy.
 """
@@ -24,9 +24,12 @@ ROOT = _roots.QA_ROOT
 ap = argparse.ArgumentParser()
 ap.add_argument("out", help="output JSON file")
 ap.add_argument("--code-root", default=ROOT, help="checkout whose src/ is probed (default: this repo)")
-ap.add_argument("--suite", default=None, help="probe only this folder of call payloads, e.g. laya-finetuning/inputs/AG50 (default: Main + Bulk)")
+ap.add_argument("--suite", default=None, help="probe only this folder of call payloads, e.g. inputs/AG50 (default: Main + Bulk)")
 ap.add_argument("--no-text", action="store_true", help="do not store the snippet text (use for the sealed test sets AG-B / AG-B2)")
 args = ap.parse_args()
+args.out = _roots.out_path(args.out)
+if args.suite:
+    args.suite = _roots.resolve(args.suite)
 sys.path[:0] = [args.code_root, os.path.join(args.code_root, "src")]
 
 import src.services.dynamic_evaluator as de  # noqa: E402

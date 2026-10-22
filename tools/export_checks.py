@@ -78,7 +78,7 @@ def build(qa_root: str) -> dict:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--qa-root", default=paths.QA_ROOT, help="the repo root (default: one level above laya-finetuning)")
+    ap.add_argument("--qa-root", default=paths.QA_ROOT, help="the QA app (default: the sibling folder QA-system, or QA_APP_DIR)")
     ap.add_argument("--out", default=os.path.join(REPO, "data", "frozen", "checks_frozen.json"))
     ap.add_argument("--check", action="store_true", help="compare with the existing file instead of writing")
     args = ap.parse_args()

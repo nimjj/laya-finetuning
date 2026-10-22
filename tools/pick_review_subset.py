@@ -37,7 +37,7 @@ SPOT_CHECKS, SEED = 5, 20261016
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--qa-root", default=os.path.join(REPO, "..", "qa-analysis"))
+    ap.add_argument("--qa-root", default=os.path.join(REPO, "..", "QA-system"))
     ap.add_argument("--out", default=os.path.join(REPO, "data", "review", "subset_main.json"))
     ap.add_argument("--engines", default="ollama,laya,laya-v2")
     args = ap.parse_args()

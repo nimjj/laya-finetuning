@@ -1,8 +1,8 @@
 """Compare batch_test.py result folders for a suite against that suite's expected scorecards.
 
-Usage (from the repo root):
-    python laya-finetuning/eval/compare_eval.py Eval50 laya-ft laya-stock ollama
-    python laya-finetuning/eval/compare_eval.py Eval50 laya-ft ollama --out laya-finetuning/docs/EVAL50_RESULTS.md
+Usage (from any folder):
+    python eval/compare_eval.py Eval50 laya-ft laya-stock ollama
+    python eval/compare_eval.py Eval50 laya-ft ollama --out docs/EVAL50_RESULTS.md
 
 Expected files: inputs/<suite>/expected/expected_<call>.json. Results: inputs/Test (results)/<suite> (<label>)/result_*.json.
 Reports per engine: items matching the expected rating (overall and per item), balanced accuracy per item
@@ -151,7 +151,7 @@ def main():
                 L.append(f"| {c} | {SHORT[it]} | {want.get(it)} | " + " | ".join(vals) + f" | {note[:160]} |")
     text = "\n".join(L) + "\n"
     if args.out:
-        with open(os.path.join(ROOT, args.out), "w", encoding="utf-8") as f:
+        with open(_roots.out_path(args.out), "w", encoding="utf-8") as f:
             f.write(text)
     sys.stdout.reconfigure(encoding="utf-8")
     print(text)
