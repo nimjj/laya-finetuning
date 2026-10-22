@@ -1,6 +1,6 @@
 # Eval50: 50 calls graded by Claude, run through three engines (2026-10-17)
 
-Key: `data/eval50/` (written and graded by Claude before any engine ran; not human-reviewed). Full tables: `qa-analysis/Docs/EVAL50_RESULTS.md`.
+Key: `data/eval50/` (written and graded by Claude before any engine ran; not human-reviewed). Full tables: generate them with `python Scripts/compare_eval.py Eval50 laya-ft laya-stock ollama --out Docs/EVAL50_RESULTS.md` (the generated file was removed from the repo on 2026-10-22; the last copy is in commit `8a6842b`).
 
 | | Fine-tuned Laya | Stock Laya | Ollama |
 |---|---|---|---|
